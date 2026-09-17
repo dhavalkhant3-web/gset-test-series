@@ -21,14 +21,10 @@ jobs:
           java-version: '17'
 
       - name: Set up Flutter
-  uses: subosito/flutter-action@v2
-  with:
-    flutter-version: '3.38.10'
-    cache: true
-      # Regenerates the missing Gradle wrapper/tooling and normalizes
-      # the Android Gradle files before the release build.
-      - name: Regenerate Android tooling
-        run: flutter create --platforms=android --no-pub .
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.38.10'
+          cache: true
 
       - name: Flutter version
         run: flutter --version
