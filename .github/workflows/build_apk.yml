@@ -26,6 +26,11 @@ jobs:
           channel: stable
           cache: true
 
+      # Regenerates the missing Gradle wrapper/tooling and normalizes
+      # the Android Gradle files before the release build.
+      - name: Regenerate Android tooling
+        run: flutter create --platforms=android --no-pub .
+
       - name: Flutter version
         run: flutter --version
 
