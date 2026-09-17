@@ -1,0 +1,22 @@
+name: gset_test_series
+description: GSET Paper-I bilingual test series app.
+publish_to: 'none'
+version: 1.4.0+4
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/questions.json
+    - assets/papers.json
+    - assets/verification_status.json
+    - assets/
+    - assets/sources/
+    - assets/source_papers/

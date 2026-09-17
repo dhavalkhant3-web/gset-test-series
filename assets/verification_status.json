@@ -1,0 +1,78 @@
+{
+  "total_papers": 20,
+  "source_pairs_present": 20,
+  "verified_question_count": 1010,
+  "note": "Question text is production-ready for the verified paper set through November 2025. Official final answer keys are preserved; Z/ambiguous/key-sensitive items are flagged rather than silently corrected.",
+  "paper_status": {
+    "2011_oct": {
+      "questions": 60,
+      "source_verified": 60,
+      "answer_key_verified": 60,
+      "status": "verified"
+    },
+    "2013_dec": {
+      "questions": 60,
+      "source_verified": 60,
+      "answer_key_verified": "cross-checked solved source; official key PDF retained by URL",
+      "status": "source_verified"
+    },
+    "2018_sep": {
+      "questions": 50,
+      "source_verified": 50,
+      "answer_key_verified": 50,
+      "status": "verified"
+    },
+    "2019_dec": {
+      "questions": 50,
+      "source_verified": 50,
+      "answer_key_verified": 50,
+      "status": "verified",
+      "official_key_note": "Q21 = Z; not considered for evaluation."
+    },
+    "2023_nov": {
+      "questions": 50,
+      "source_verified": 50,
+      "answer_key_verified": 50,
+      "status": "verified",
+      "official_key_note": "Q40 = Z; not considered for evaluation. Q48 is flagged for source wording ambiguity while preserving official key A."
+    },
+    "2024_dec": {
+      "questions": 50,
+      "source_verified": 50,
+      "answer_key_verified": 50,
+      "status": "verified_pair",
+      "note": "Official GSET question paper OCR/visual checks plus official final key; key-preserved review notes used for terminology-sensitive items."
+    },
+    "2025_nov": {
+      "questions": 50,
+      "source_verified": 50,
+      "answer_key_verified": 50,
+      "status": "verified_pair",
+      "note": "Official GSET question paper OCR/visual checks plus official final key; key-preserved review notes used for terminology-sensitive items."
+    }
+  },
+  "2013_sep_questions": 60,
+  "2013_dec_questions": 60,
+  "last_verified_paper": "2025_nov",
+  "last_verified_question_count": 50,
+  "paper_2016_sep_questions": 60,
+  "paper_2016_sep_status": "verified",
+  "paper_2017_aug_questions": 60,
+  "paper_2017_aug_status": "verified",
+  "paper_2017_aug_key_source": "Official GSET final answer key, Booklet A",
+  "paper_2018_sep_questions": 50,
+  "paper_2018_sep_status": "verified",
+  "2021_dec_questions_verified": 50,
+  "2021_dec_source_pair": "Official GSET question paper + official final answer key (Booklet A)",
+  "2021_dec_note": "Question text cross-checked against the official GSET PDF; final key preserved as published.",
+  "verified_questions": 1010,
+  "data_qa": "Passed for 19 populated papers; 2017_aug is listed in papers.json but has no question records and remains locked until source transcription is verified.",
+  "non_evaluated_keys": [
+    "Z",
+    "X"
+  ],
+  "total_questions_loaded": 1010,
+  "2017_aug_questions": 60,
+  "2017_aug_source": "Official GSET final answer key Booklet A and original question paper; all 60 question records restored.",
+  "total_verified_questions": 1070
+}
