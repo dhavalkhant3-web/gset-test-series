@@ -13,7 +13,7 @@ class GsetApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'GSET Paper-I Test Series',
-        theme: ThemeData(colorSchemeSeed: Colors.indigo, useMaterial3: true),
+        theme: ThemeData(colorSchemeSeed: const Color(0xFF3949AB), useMaterial3: true, scaffoldBackgroundColor: const Color(0xFFF6F7FB), cardTheme: const CardThemeData(margin: EdgeInsets.zero, elevation: 1, clipBehavior: Clip.antiAlias), appBarTheme: const AppBarTheme(centerTitle: false, elevation: 0), inputDecorationTheme: const InputDecorationTheme(filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14)), borderSide: BorderSide.none), enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14)), borderSide: BorderSide.none), focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14))))),
         home: const HomePage(),
       );
 }
@@ -99,9 +99,9 @@ class _HomePageState extends State<HomePage> {
         Padding(padding: const EdgeInsets.only(right: 8), child: SegmentedButton<bool>(segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))], selected: {gu}, onSelectionChanged: (s) => setState(() => gu = s.first))),
       ]),
       body: data.isEmpty ? const Center(child: CircularProgressIndicator()) : ListView(padding: const EdgeInsets.fromLTRB(16, 10, 16, 24), children: [
-        Card(child: Padding(padding: const EdgeInsets.all(18), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('GSET Paper-I Test Series', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
-          const SizedBox(height: 6), Text(gu ? 'Previous Year Papers • Solutions • Practice' : 'Previous Year Papers • Solutions • Practice'),
+        Card(child: Container(decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF3949AB), Color(0xFF5C6BC0)])), padding: const EdgeInsets.all(20), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Text('GSET Paper-I Test Series', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold, color: Colors.white)),
+          const SizedBox(height: 6), Text(gu ? 'Previous Year Papers • Solutions • Practice' : 'Previous Year Papers • Solutions • Practice', style: TextStyle(color: Colors.white70)),
           const SizedBox(height: 14),
           Row(children: [
             Expanded(child: _stat('${papers.length}', gu ? 'Papers' : 'Papers')),
@@ -123,8 +123,8 @@ class _HomePageState extends State<HomePage> {
         ...filtered.map((p) {
           final qs = forPaper(p.id);
           final ready = qs.length == p.questions && qs.every((q) => q['source_verified'] == true);
-          return Card(margin: const EdgeInsets.only(bottom: 8), child: ListTile(
-            leading: CircleAvatar(child: Text(p.title.substring(0, 1))),
+          return Card(margin: const EdgeInsets.only(bottom: 10), child: ListTile(contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+            leading: CircleAvatar(backgroundColor: Theme.of(context).colorScheme.primaryContainer, child: Text(p.title.substring(0, 1), style: const TextStyle(fontWeight: FontWeight.bold))),
             title: Text('${p.title} — Paper-I'),
             subtitle: Text('${p.date} • ${p.questions} Questions${ready ? ' • Verified' : ' • ${qs.length}/${p.questions} loaded'}'),
             trailing: Icon(ready ? Icons.play_circle_outline : Icons.lock_outline),
@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _stat(String n, String label) => Column(children: [Text(n, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)), Text(label, style: const TextStyle(fontSize: 12))]);
+  Widget _stat(String n, String label) => Column(children: [Text(n, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white)), Text(label, style: const TextStyle(fontSize: 12, color: Colors.white70))]);
   void _showNote(PaperInfo p, int count) => showDialog(context: context, builder: (_) => AlertDialog(title: Text(p.title), content: Text(gu ? '$count/${p.questions} પ્રશ્નો હાલ verified dataમાં ઉપલબ્ધ છે.' : '$count/${p.questions} questions are currently available in verified data.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]));
 }
 
@@ -170,7 +170,7 @@ class _TestPageState extends State<TestPage> {
     timer?.cancel();
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
     if (!mounted) return;
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => ResultPage(title: widget.title, score: score, total: evaluated, attempted: answered, gu: widget.gu)));
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => ResultPage(title: widget.title, score: score, total: evaluated, attempted: answered, gu: gu)));
   }
 
   Future<void> _confirmExit() async { final leave = await showDialog<bool>(context: context, builder: (_) => AlertDialog(title: Text(gu ? 'ટેસ્ટ છોડવી છે?' : 'Leave test?'), content: Text(gu ? 'હાલની ટેસ્ટની પ્રગતિ સાચવવામાં નહીં આવે. શું તમે બહાર નીકળવા માંગો છો?' : 'Current test progress will not be saved. Do you want to leave?'), actions: [TextButton(onPressed: () => Navigator.pop(context, false), child: Text(gu ? 'રહો' : 'Stay')), FilledButton(onPressed: () => Navigator.pop(context, true), child: Text(gu ? 'બહાર નીકળો' : 'Leave'))])); if (leave == true && mounted) Navigator.pop(context); }
@@ -184,7 +184,7 @@ class _TestPageState extends State<TestPage> {
           if (passage.isNotEmpty) Card(child: Padding(padding: const EdgeInsets.all(12), child: Text(passage, style: const TextStyle(height: 1.35)))),
           if ((q['image_asset'] ?? '').toString().isNotEmpty) Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(q['image_asset'], fit: BoxFit.contain))),
           Row(children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), const SizedBox(width: 8), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
-          const SizedBox(height: 10), Text(gu ? q['question_gu'] : q['question_en'], style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600)),
+          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: Text(gu ? q['question_gu'] : q['question_en'], style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
           ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (submitted && right) fill = Colors.green.withValues(alpha: .15); if (submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted ? null : (v) => setState(() => selected = v), title: Text('$letter. ${opts[j]}'))); }),
           const SizedBox(height: 8),
