@@ -149,6 +149,7 @@ class TestPage extends StatefulWidget {
 class _TestPageState extends State<TestPage> {
   int i = 0, score = 0, answered = 0; String? selected; bool submitted = false; bool gu = false; late DateTime started; Timer? timer;
   final Map<int, String> answers = {};
+  bool finishing = false;
   late Set<String> b, m;
   Map<String, dynamic> get q => widget.data[i];
   int get maxSeconds => widget.practice ? 20 * 60 : widget.data.length * 72;
@@ -167,6 +168,8 @@ class _TestPageState extends State<TestPage> {
 
   void next() { if (i < widget.data.length - 1) setState(() { i++; selected = null; submitted = false; }); else _finish(); }
   void _finish() {
+    if (finishing) return;
+    finishing = true;
     timer?.cancel();
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
     if (!mounted) return;
@@ -177,9 +180,34 @@ class _TestPageState extends State<TestPage> {
 
   @override Widget build(BuildContext context) {
     final opts = List<String>.from(gu ? q['options_gu'] : q['options_en']); final correct = q['answer'] as String; final notEval = {'Z', 'X'}.contains(correct); final isCorrect = !notEval && selected == correct; final passage = ((gu ? q['passage_gu'] : q['passage_en']) ?? '').toString();
-    return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id']) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
+    return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id'].toString()) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
       body: Column(children: [
         LinearProgressIndicator(value: (i + 1) / widget.data.length),
+        Material(
+          color: Theme.of(context).colorScheme.surface,
+          child: SizedBox(
+            height: 54,
+            child: ListView.separated(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              scrollDirection: Axis.horizontal,
+              itemCount: widget.data.length,
+              separatorBuilder: (_, __) => const SizedBox(width: 6),
+              itemBuilder: (_, n) {
+                final attemptedHere = answers.containsKey(n);
+                return ChoiceChip(
+                  label: Text('${n + 1}'),
+                  selected: i == n,
+                  avatar: attemptedHere ? const Icon(Icons.check, size: 16) : null,
+                  onSelected: (_) => setState(() {
+                    i = n;
+                    selected = answers[n];
+                    submitted = answers.containsKey(n);
+                  }),
+                );
+              },
+            ),
+          ),
+        ),
         Expanded(child: ListView(padding: const EdgeInsets.all(16), children: [
           if (passage.isNotEmpty) Card(child: Padding(padding: const EdgeInsets.all(12), child: Text(passage, style: const TextStyle(height: 1.35)))),
           if ((q['image_asset'] ?? '').toString().isNotEmpty) Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(q['image_asset'], fit: BoxFit.contain))),
