@@ -96,6 +96,7 @@ class _HomePageState extends State<HomePage> {
     final readyCount = papers.where((p) => forPaper(p.id).isNotEmpty && forPaper(p.id).every((q) => q['source_verified'] == true)).length;
     return Scaffold(
       appBar: AppBar(title: const Text('GSET Paper-I'), actions: [
+        IconButton(tooltip: 'Account & Feedback', onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AccountPage(gu: gu))), icon: const Icon(Icons.account_circle_outlined)),
         Padding(padding: const EdgeInsets.only(right: 8), child: SegmentedButton<bool>(segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))], selected: {gu}, onSelectionChanged: (s) => setState(() => gu = s.first))),
       ]),
       body: data.isEmpty ? const Center(child: CircularProgressIndicator()) : ListView(padding: const EdgeInsets.fromLTRB(16, 10, 16, 24), children: [
@@ -139,6 +140,170 @@ class _HomePageState extends State<HomePage> {
   void _showNote(PaperInfo p, int count) => showDialog(context: context, builder: (_) => AlertDialog(title: Text(p.title), content: Text(gu ? '$count/${p.questions} પ્રશ્નો હાલ verified dataમાં ઉપલબ્ધ છે.' : '$count/${p.questions} questions are currently available in verified data.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]));
 }
 
+class AccountPage extends StatefulWidget {
+  final bool gu;
+  const AccountPage({super.key, required this.gu});
+  @override State<AccountPage> createState() => _AccountPageState();
+}
+
+class _AccountPageState extends State<AccountPage> {
+  late bool gu;
+  bool phoneMode = false;
+  bool obscure = true;
+  final email = TextEditingController();
+  final phone = TextEditingController();
+  final password = TextEditingController();
+
+  @override void initState() { super.initState(); gu = widget.gu; }
+  @override void dispose() { email.dispose(); phone.dispose(); password.dispose(); super.dispose(); }
+
+  void _comingSoon(String title) => showDialog(context: context, builder: (_) => AlertDialog(
+    title: Text(title),
+    content: Text(gu ? 'આ સુવિધા Firebase configuration પછી live થશે. હાલ UI અને flow તૈયાર છે.' : 'This feature will go live after Firebase configuration. The UI and flow are ready.'),
+    actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))],
+  ));
+
+  @override Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    return Scaffold(
+      appBar: AppBar(title: Text(gu ? 'મારું Account' : 'My Account'), actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))]),
+      body: ListView(padding: const EdgeInsets.fromLTRB(16, 12, 16, 28), children: [
+        Container(
+          padding: const EdgeInsets.all(22),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.primary, cs.primaryContainer]),
+            borderRadius: BorderRadius.circular(24),
+            boxShadow: [BoxShadow(color: cs.primary.withValues(alpha: .18), blurRadius: 18, offset: const Offset(0, 8))],
+          ),
+          child: Row(children: [
+            CircleAvatar(radius: 30, backgroundColor: Colors.white, child: Icon(Icons.person_rounded, size: 34, color: cs.primary)),
+            const SizedBox(width: 16),
+            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              const Text('GSET Student Account', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 4),
+              Text(gu ? 'Login કરીને તમારી progress અને purchases સાચવો' : 'Login to save your progress and purchases', style: const TextStyle(color: Colors.white70, height: 1.3)),
+            ])),
+          ]),
+        ),
+        const SizedBox(height: 18),
+        SegmentedButton<bool>(
+          expandedInsets: EdgeInsets.zero,
+          segments: const [ButtonSegment(value: false, label: Text('Email')), ButtonSegment(value: true, label: Text('Phone OTP'))],
+          selected: {phoneMode},
+          onSelectionChanged: (s) => setState(() => phoneMode = s.first),
+        ),
+        const SizedBox(height: 16),
+        if (!phoneMode) ...[
+          TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: const InputDecoration(prefixIcon: Icon(Icons.email_outlined), labelText: 'Email')),
+          const SizedBox(height: 12),
+          TextField(controller: password, obscureText: obscure, decoration: InputDecoration(prefixIcon: const Icon(Icons.lock_outline), labelText: 'Password', suffixIcon: IconButton(onPressed: () => setState(() => obscure = !obscure), icon: Icon(obscure ? Icons.visibility_outlined : Icons.visibility_off_outlined)))),
+          Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () => _comingSoon('Password Reset'), child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),
+          FilledButton.icon(onPressed: () => _comingSoon('Login'), icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
+          const SizedBox(height: 8),
+          OutlinedButton(onPressed: () => _comingSoon('Create Account'), child: Text(gu ? 'નવું Account બનાવો' : 'Create new account')),
+        ] else ...[
+          TextField(controller: phone, keyboardType: TextInputType.phone, decoration: const InputDecoration(prefixIcon: Icon(Icons.phone_outlined), labelText: 'Mobile Number', hintText: '+91 XXXXX XXXXX')),
+          const SizedBox(height: 14),
+          FilledButton.icon(onPressed: () => _comingSoon('OTP Login'), icon: const Icon(Icons.sms_outlined), label: Text(gu ? 'OTP મોકલો' : 'Send OTP')),
+        ],
+        const SizedBox(height: 22),
+        Card(child: Column(children: [
+          ListTile(leading: const CircleAvatar(child: Icon(Icons.forum_outlined)), title: Text(gu ? 'Feedback & Suggestion' : 'Feedback & Suggestion'), subtitle: Text(gu ? 'Feedback, suggestion અથવા question report કરો' : 'Send feedback, suggestions or report a question'), trailing: const Icon(Icons.chevron_right), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu)))),
+          const Divider(height: 1),
+          ListTile(leading: const CircleAvatar(child: Icon(Icons.shopping_bag_outlined)), title: Text(gu ? 'My Test Series' : 'My Test Series'), subtitle: Text(gu ? 'Purchased test series અહીં દેખાશે' : 'Purchased test series will appear here'), trailing: const Icon(Icons.chevron_right), onTap: () => _comingSoon('My Purchases')),
+        ])),
+        const SizedBox(height: 14),
+        Container(padding: const EdgeInsets.all(14), decoration: BoxDecoration(color: cs.surfaceContainerHighest, borderRadius: BorderRadius.circular(16)), child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Icon(Icons.cloud_outlined, color: cs.primary), const SizedBox(width: 10),
+          Expanded(child: Text(gu ? 'Secure cloud login અને purchase sync Firebase configuration પછી connect થશે.' : 'Secure cloud login and purchase sync will connect after Firebase configuration.', style: const TextStyle(height: 1.35))),
+        ])),
+      ]),
+    );
+  }
+}
+
+class FeedbackPage extends StatefulWidget {
+  final bool gu;
+  final String? paper;
+  final String? questionId;
+  const FeedbackPage({super.key, required this.gu, this.paper, this.questionId});
+  @override State<FeedbackPage> createState() => _FeedbackPageState();
+}
+
+class _FeedbackPageState extends State<FeedbackPage> {
+  late bool gu;
+  String category = 'Suggestion';
+  final message = TextEditingController();
+  final email = TextEditingController();
+  final questionId = TextEditingController();
+  final paper = TextEditingController();
+
+  @override void initState() {
+    super.initState();
+    gu = widget.gu;
+    if (widget.paper != null) paper.text = widget.paper!;
+    if (widget.questionId != null) questionId.text = widget.questionId!;
+    if (widget.questionId != null) category = 'Report Question';
+  }
+  @override void dispose() { message.dispose(); email.dispose(); questionId.dispose(); paper.dispose(); super.dispose(); }
+
+  Future<void> submit() async {
+    if (message.text.trim().isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'કૃપા કરીને message લખો.' : 'Please enter your message.')));
+      return;
+    }
+    final prefs = await SharedPreferences.getInstance();
+    final item = jsonEncode({'category': category, 'message': message.text.trim(), 'email': email.text.trim(), 'paper': paper.text.trim(), 'questionId': questionId.text.trim(), 'time': DateTime.now().toIso8601String()});
+    final old = prefs.getStringList('feedback_items') ?? [];
+    old.add(item);
+    await prefs.setStringList('feedback_items', old);
+    if (!mounted) return;
+    await showDialog(context: context, builder: (_) => AlertDialog(
+      icon: const Icon(Icons.check_circle_outline, size: 42),
+      title: Text(gu ? 'Feedback Saved' : 'Feedback Saved'),
+      content: Text(gu ? 'Feedback આ device પર સાચવાયો છે. Firebase connect થયા પછી cloud submission થશે.' : 'Feedback is saved on this device. Cloud submission will be enabled after Firebase is connected.'),
+      actions: [FilledButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))],
+    ));
+    if (mounted) Navigator.pop(context);
+  }
+
+  @override Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    const categories = ['Suggestion', 'General Feedback', 'Report Question', 'Support'];
+    return Scaffold(
+      appBar: AppBar(title: Text(gu ? 'Feedback & Support' : 'Feedback & Support'), actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))]),
+      body: ListView(padding: const EdgeInsets.fromLTRB(16, 12, 16, 28), children: [
+        Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.secondary, cs.secondaryContainer]), borderRadius: BorderRadius.circular(22)),
+          child: Row(children: [
+            const Icon(Icons.chat_bubble_outline_rounded, size: 40), const SizedBox(width: 14),
+            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(gu ? 'તમારો અવાજ મહત્વનો છે!' : 'Your voice matters!', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 4),
+              Text(gu ? 'Suggestion આપો અથવા પ્રશ્નમાં ભૂલ report કરો.' : 'Share a suggestion or report a question issue.', style: const TextStyle(height: 1.3)),
+            ])),
+          ]),
+        ),
+        const SizedBox(height: 18),
+        DropdownButtonFormField<String>(initialValue: category, decoration: const InputDecoration(labelText: 'Feedback Type', prefixIcon: Icon(Icons.category_outlined)), items: categories.map((x) => DropdownMenuItem(value: x, child: Text(x))).toList(), onChanged: (v) => setState(() => category = v!)),
+        const SizedBox(height: 12),
+        TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: InputDecoration(prefixIcon: const Icon(Icons.email_outlined), labelText: gu ? 'Email (Optional)' : 'Email (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: paper, decoration: InputDecoration(prefixIcon: const Icon(Icons.description_outlined), labelText: gu ? 'Paper (Optional)' : 'Paper (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: questionId, decoration: InputDecoration(prefixIcon: const Icon(Icons.tag_outlined), labelText: gu ? 'Question ID (Optional)' : 'Question ID (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: message, maxLines: 6, decoration: InputDecoration(alignLabelWithHint: true, prefixIcon: const Padding(padding: EdgeInsets.only(bottom: 82), child: Icon(Icons.edit_note_outlined)), labelText: gu ? 'તમારો Message' : 'Your Message', hintText: gu ? 'તમારો feedback અહીં લખો...' : 'Write your feedback here...')),
+        const SizedBox(height: 16),
+        FilledButton.icon(onPressed: submit, icon: const Icon(Icons.send_rounded), label: Text(gu ? 'Feedback Submit કરો' : 'Submit Feedback')),
+        const SizedBox(height: 12),
+        Text(gu ? 'નોંધ: હાલ feedback local device પર સાચવાય છે; live cloud portal Firebase પછી ચાલુ થશે.' : 'Note: Feedback is currently saved locally; the live cloud portal will be enabled after Firebase setup.', textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodySmall),
+      ]),
+    );
+  }
+}
+
 class TestPage extends StatefulWidget {
   final List<Map<String, dynamic>> data; final bool gu; final String title; final bool practice;
   final Set<String> bookmarks, mistakes; final Future<void> Function(Set<String>, Set<String>) onStateChanged;
@@ -180,7 +345,8 @@ class _TestPageState extends State<TestPage> {
 
   @override Widget build(BuildContext context) {
     final opts = List<String>.from(gu ? q['options_gu'] : q['options_en']); final correct = q['answer'] as String; final notEval = {'Z', 'X'}.contains(correct); final isCorrect = !notEval && selected == correct; final passage = ((gu ? q['passage_gu'] : q['passage_en']) ?? '').toString();
-    return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id'].toString()) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
+    return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id'].toString()) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'પ્રશ્ન Report કરો' : 'Report Question', onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu, paper: widget.title, questionId: q['id']?.toString()))), icon: const Icon(Icons.flag_outlined)),
+        IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
       body: Column(children: [
         LinearProgressIndicator(value: (i + 1) / widget.data.length),
         Material(
