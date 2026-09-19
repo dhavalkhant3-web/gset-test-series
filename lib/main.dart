@@ -58,6 +58,10 @@ class _HomePageState extends State<HomePage> {
   Set<String> bookmarks = {};
   Set<String> mistakes = {};
   String search = '';
+  int todayDone = 0;
+  int xp = 0;
+  int streak = 0;
+  String savedDay = '';
 
   @override void initState() { super.initState(); _load(); }
 
@@ -65,10 +69,20 @@ class _HomePageState extends State<HomePage> {
     final s = await rootBundle.loadString('assets/questions.json');
     final raw = jsonDecode(s) as List;
     final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final storedDay = prefs.getString('gset_progress_day') ?? '';
+    if (storedDay != today) {
+      await prefs.setString('gset_progress_day', today);
+      await prefs.setInt('gset_today_done', 0);
+    }
     setState(() {
       data = raw.cast<Map<String, dynamic>>();
       bookmarks = (prefs.getStringList('bookmarks') ?? []).toSet();
       mistakes = (prefs.getStringList('mistakes') ?? []).toSet();
+      todayDone = prefs.getInt('gset_today_done') ?? 0;
+      xp = prefs.getInt('gset_xp') ?? 0;
+      streak = prefs.getInt('gset_streak') ?? 0;
+      savedDay = today;
     });
   }
 
@@ -94,88 +108,347 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final readyCount = papers.where((p) => forPaper(p.id).isNotEmpty && forPaper(p.id).every((q) => q['source_verified'] == true)).length;
+    final target = 10;
+    final targetDone = min(target, todayDone);
+    final targetProgress = targetDone / target;
+    final level = (xp ~/ 500) + 1;
+    final nextXp = level * 500;
+    final levelProgress = (xp % 500) / 500;
+    final accuracyBase = data.isEmpty ? 0 : max(0, data.length - mistakes.length);
+    final accuracy = data.isEmpty ? 0 : (accuracyBase * 100 / data.length).round();
+
     return Scaffold(
-      appBar: AppBar(title: const Text('GSET Paper-I'), actions: [
-        IconButton(tooltip: 'Account & Feedback', onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AccountPage(gu: gu))), icon: const Icon(Icons.account_circle_outlined)),
-        Padding(padding: const EdgeInsets.only(right: 8), child: SegmentedButton<bool>(segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))], selected: {gu}, onSelectionChanged: (s) => setState(() => gu = s.first))),
-      ]),
-      body: data.isEmpty ? const Center(child: CircularProgressIndicator()) : ListView(padding: const EdgeInsets.fromLTRB(16, 10, 16, 24), children: [
-        Container(
-          padding: const EdgeInsets.fromLTRB(20,22,20,18),
-          decoration: BoxDecoration(
-            gradient: const LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight,colors:[Color(0xFF5B5FEF),Color(0xFF7B61FF),Color(0xFF00A6A6)]),
-            borderRadius: BorderRadius.circular(26),
-            boxShadow:[BoxShadow(color:const Color(0xFF5B5FEF).withValues(alpha:.22),blurRadius:22,offset:const Offset(0,10))],
+      appBar: AppBar(
+        toolbarHeight: 76,
+        titleSpacing: 16,
+        title: Row(children: [
+          Container(
+            width: 46, height: 46,
+            decoration: BoxDecoration(
+              gradient: const LinearGradient(colors: [Color(0xFF5B5FEF), Color(0xFF7B61FF)]),
+              borderRadius: BorderRadius.circular(14),
+              boxShadow: [BoxShadow(color: const Color(0xFF5B5FEF).withValues(alpha: .22), blurRadius: 12, offset: const Offset(0, 5))],
+            ),
+            child: const Icon(Icons.school_rounded, color: Colors.white),
           ),
-          child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-            Row(children:[
-              Container(width:48,height:48,decoration:BoxDecoration(color:Colors.white.withValues(alpha:.18),borderRadius:BorderRadius.circular(16)),child:const Icon(Icons.bolt_rounded,color:Colors.white,size:30)),
-              const SizedBox(width:12),
-              Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-                Text(gu?'આજનું Target 🎯':'Today’s Target 🎯',style:const TextStyle(color:Colors.white70,fontSize:13,fontWeight:FontWeight.w600)),
-                const SizedBox(height:2),
-                Text(gu?'Practice શરૂ કરો!':'Start your practice!',style:const TextStyle(color:Colors.white,fontSize:23,fontWeight:FontWeight.bold)),
-              ])),
-            ]),
-            const SizedBox(height:16),
-            const Text('20 random questions • instant feedback',style:TextStyle(color:Colors.white70)),
-            const SizedBox(height:14),
-            SizedBox(width:double.infinity,child:FilledButton.icon(style:FilledButton.styleFrom(backgroundColor:Colors.white,foregroundColor:const Color(0xFF4F46C5),padding:const EdgeInsets.symmetric(vertical:14)),onPressed:()=>_openPractice(),icon:const Icon(Icons.play_arrow_rounded),label:Text(gu?'હમણાં Practice કરો':'Practice Now',style:const TextStyle(fontWeight:FontWeight.bold)))),
-            const SizedBox(height:16),
-            Row(children:[
-              Expanded(child:_stat('${papers.length}','Papers')),Expanded(child:_stat('${data.length}','Questions')),Expanded(child:_stat('${readyCount}/${papers.length}','Verified')),
-            ]),
-          ]),
-        ),
-        const SizedBox(height:14),
-        Row(children:[
-          Expanded(child:_homeActionCard(context,icon:Icons.shuffle_rounded,title:'Random',subtitle:'Practice',color:const Color(0xFF5B5FEF),onTap:()=>_openPractice())),
-          const SizedBox(width:10),
-          Expanded(child:_homeActionCard(context,icon:Icons.error_outline_rounded,title:'Mistakes',subtitle:'${mistakes.length} saved',color:const Color(0xFFF97316),onTap:mistakes.isEmpty?null:()async{final qs=data.where((q)=>mistakes.contains(q['id'])).toList();await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:'Mistakes',practice:true,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets)));})),
-          const SizedBox(width:10),
-          Expanded(child:_homeActionCard(context,icon:Icons.bookmark_rounded,title:'Saved',subtitle:'${bookmarks.length} saved',color:const Color(0xFF00A6A6),onTap:bookmarks.isEmpty?null:()async{final qs=data.where((q)=>bookmarks.contains(q['id'])).toList();await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:'Bookmarks',practice:true,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets)));})),
-        ]),
-        const SizedBox(height:18),
-        Text(gu?'તમારો Progress':'Your Progress',style:Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight:FontWeight.bold)),
-        const SizedBox(height:8),
-        Card(child:Padding(padding:const EdgeInsets.all(14),child:Row(children:[
-          Container(width:42,height:42,decoration:BoxDecoration(color:const Color(0xFFEEF2FF),borderRadius:BorderRadius.circular(14)),child:const Icon(Icons.auto_graph_rounded,color:Color(0xFF5B5FEF))),
-          const SizedBox(width:12),
-          Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-            Text(gu?'તમારી practice library તૈયાર છે':'Your practice library is ready',style:const TextStyle(fontWeight:FontWeight.w700)),
-            const SizedBox(height:5),
-            ClipRRect(borderRadius:BorderRadius.circular(8),child:LinearProgressIndicator(value:papers.isEmpty?0:readyCount/papers.length,minHeight:7)),
-            const SizedBox(height:5),
-            Text('${readyCount}/${papers.length} papers ready',style:Theme.of(context).textTheme.bodySmall),
+          const SizedBox(width: 10),
+          const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text('GSET Paper-I', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 18)),
+            Text('Learn • Practice • Succeed', style: TextStyle(fontSize: 11, color: Colors.black54)),
           ])),
-        ]))),
-        const SizedBox(height:18),
-        Text('Previous Year Papers',style:Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight:FontWeight.bold)),
-        const SizedBox(height:8),
-        TextField(decoration:InputDecoration(prefixIcon:const Icon(Icons.search_rounded),hintText:gu?'Year અથવા paper શોધો...':'Search year or paper...',border:const OutlineInputBorder()),onChanged:(v)=>setState(()=>search=v)),
-        const SizedBox(height:14),
-        ...filtered.map((p){
-          final qs=forPaper(p.id); final ready=qs.length==p.questions&&qs.every((q)=>q['source_verified']==true); final year=p.title.split(' ').last;
-          return Card(margin:const EdgeInsets.only(bottom:10),child:InkWell(
-            onTap:ready?()=>Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:p.title,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets))):()=>_showNote(p,qs.length),
-            child:Padding(padding:const EdgeInsets.all(13),child:Row(children:[
-              Container(width:58,height:58,decoration:BoxDecoration(gradient:LinearGradient(begin:Alignment.topLeft,end:Alignment.bottomRight,colors:ready?const[Color(0xFFEEF2FF),Color(0xFFE0E7FF)]:const[Color(0xFFF3F4F6),Color(0xFFE5E7EB)]),borderRadius:BorderRadius.circular(18)),child:Center(child:Text(year,style:TextStyle(fontWeight:FontWeight.w800,color:ready?const Color(0xFF4F46C5):Colors.grey[600])))),
-              const SizedBox(width:14),
-              Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-                Text('${p.title} • Paper-I',style:const TextStyle(fontWeight:FontWeight.w700,fontSize:16)),
-                const SizedBox(height:4),Text('${p.date} • ${p.questions} Questions',style:Theme.of(context).textTheme.bodySmall),
-                const SizedBox(height:7),Row(children:[
-                  Icon(ready?Icons.verified_rounded:Icons.hourglass_bottom_rounded,size:15,color:ready?const Color(0xFF00A6A6):Colors.grey),const SizedBox(width:5),
-                  Text(ready?'Verified & Ready':'${qs.length}/${p.questions} loaded',style:TextStyle(fontSize:12,fontWeight:FontWeight.w600,color:ready?const Color(0xFF008A8A):Colors.grey[700])),
-                ]),
-              ])),
-              Container(width:40,height:40,decoration:BoxDecoration(color:ready?const Color(0xFF5B5FEF):Colors.grey[200],shape:BoxShape.circle),child:Icon(ready?Icons.play_arrow_rounded:Icons.lock_outline_rounded,color:ready?Colors.white:Colors.grey[600])),
-            ])),
-          ));
-        }),
-      ]),
+        ]),
+        actions: [
+          IconButton(
+            tooltip: 'Account & Feedback',
+            onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AccountPage(gu: gu))).then((_) => _load()),
+            icon: const Icon(Icons.account_circle_outlined),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: SegmentedButton<bool>(
+              showSelectedIcon: false,
+              segments: const [
+                ButtonSegment(value: true, label: Text('ગુજરાતી')),
+                ButtonSegment(value: false, label: Text('English')),
+              ],
+              selected: {gu},
+              onSelectionChanged: (s) => setState(() => gu = s.first),
+            ),
+          ),
+        ],
+      ),
+      body: data.isEmpty
+          ? const Center(child: CircularProgressIndicator())
+          : RefreshIndicator(
+              onRefresh: _load,
+              child: ListView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                padding: const EdgeInsets.fromLTRB(16, 4, 16, 30),
+                children: [
+                  Container(
+                    padding: const EdgeInsets.fromLTRB(20, 20, 18, 18),
+                    decoration: BoxDecoration(
+                      gradient: const LinearGradient(
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                        colors: [Color(0xFF4F46C5), Color(0xFF6D5DF6), Color(0xFF1BA6A6)],
+                      ),
+                      borderRadius: BorderRadius.circular(26),
+                      boxShadow: [BoxShadow(color: const Color(0xFF5B5FEF).withValues(alpha: .25), blurRadius: 24, offset: const Offset(0, 10))],
+                    ),
+                    child: Row(children: [
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        Text(gu ? 'નાના પગલાં, મોટી સફળતા! 🚀' : 'Small Steps, Big Success! 🚀',
+                            style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900, height: 1.1)),
+                        const SizedBox(height: 8),
+                        Text(gu ? 'આજે માત્ર 10 પ્રશ્નો. તમારું GSET journey અહીંથી શરૂ કરો.' : 'Just 10 questions today. Build your GSET journey one day at a time.',
+                            style: const TextStyle(color: Colors.white70, height: 1.35)),
+                        const SizedBox(height: 14),
+                        SizedBox(
+                          height: 44,
+                          child: FilledButton.icon(
+                            style: FilledButton.styleFrom(backgroundColor: Colors.white, foregroundColor: const Color(0xFF4F46C5)),
+                            onPressed: () => _openPractice(),
+                            icon: const Icon(Icons.play_arrow_rounded),
+                            label: Text(gu ? 'હમણાં Practice કરો' : 'Practice Now', style: const TextStyle(fontWeight: FontWeight.w800)),
+                          ),
+                        ),
+                      ])),
+                      const SizedBox(width: 12),
+                      Container(
+                        width: 78, height: 78,
+                        decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), shape: BoxShape.circle),
+                        child: const Icon(Icons.emoji_events_rounded, color: Colors.white, size: 42),
+                      ),
+                    ]),
+                  ),
+                  const SizedBox(height: 14),
+                  Card(
+                    elevation: 1,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 8),
+                      child: Row(children: [
+                        _metric(Icons.description_rounded, '${papers.length}', 'Papers', const Color(0xFF2563EB)),
+                        _metric(Icons.quiz_rounded, '${data.length}', 'Questions', const Color(0xFF7C3AED)),
+                        _metric(Icons.verified_rounded, '${readyCount}/${papers.length}', 'Verified', const Color(0xFF059669)),
+                        _metric(Icons.track_changes_rounded, '100%', gu ? 'GSET Focus' : 'Exam Focus', const Color(0xFFF59E0B)),
+                      ]),
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Expanded(
+                      flex: 5,
+                      child: _dashCard(
+                        color: const Color(0xFF0F9F86),
+                        background: const Color(0xFFE9FBF5),
+                        icon: Icons.track_changes_rounded,
+                        title: gu ? 'આજનું Target 🎯' : "Today's Target 🎯",
+                        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                          Text('${targetDone} / ${target} Questions', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+                          const SizedBox(height: 8),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: LinearProgressIndicator(value: targetProgress, minHeight: 9, backgroundColor: const Color(0xFFBFEDE2), color: const Color(0xFF10B981)),
+                          ),
+                          const SizedBox(height: 7),
+                          Text(targetDone >= target ? '🎉 Target complete!' : (gu ? 'ધીમે ધીમે, રોજ આગળ! 💪' : 'Keep going, one question at a time! 💪'),
+                              style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700)),
+                        ]),
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      flex: 4,
+                      child: _dashCard(
+                        color: const Color(0xFFEA580C),
+                        background: const Color(0xFFFFF0E8),
+                        icon: Icons.local_fire_department_rounded,
+                        title: '${streak} Day Streak',
+                        child: Row(children: [
+                          ...List.generate(3, (i) => Padding(
+                            padding: const EdgeInsets.only(right: 3),
+                            child: Icon(Icons.local_fire_department_rounded, size: 20, color: i < min(streak, 3) ? const Color(0xFFF97316) : const Color(0xFFFBD0B7)),
+                          )),
+                          const SizedBox(width: 3),
+                          Expanded(child: Text(gu ? 'Keep going!' : 'Don’t break it!', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700))),
+                        ]),
+                      ),
+                    ),
+                  ]),
+                  const SizedBox(height: 10),
+                  _dashCard(
+                    color: const Color(0xFF6D28D9),
+                    background: const Color(0xFFF1EAFE),
+                    icon: Icons.star_rounded,
+                    title: '${xp} XP  •  Level ${level}',
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(value: levelProgress, minHeight: 8, backgroundColor: const Color(0xFFDCCAF9), color: const Color(0xFF7C3AED))),
+                      const SizedBox(height: 6),
+                      Text('${xp % 500} / 500 XP  •  ${nextXp - xp} XP to Level ${level + 1}', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600)),
+                    ]),
+                  ),
+                  const SizedBox(height: 14),
+                  Row(children: [
+                    Expanded(child: _bigAction(Icons.shuffle_rounded, 'Random Practice', 'Mixed Questions', const Color(0xFF2563EB), () => _openPractice())),
+                    const SizedBox(width: 8),
+                    Expanded(child: _bigAction(Icons.error_outline_rounded, 'Mistakes', '${mistakes.length} saved', const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
+                      final qs = data.where((q) => mistakes.contains(q['id'])).toList();
+                      await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Mistakes', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                      await _load();
+                    })),
+                    const SizedBox(width: 8),
+                    Expanded(child: _bigAction(Icons.bookmark_rounded, 'Bookmarks', '${bookmarks.length} saved', const Color(0xFF7C3AED), bookmarks.isEmpty ? null : () async {
+                      final qs = data.where((q) => bookmarks.contains(q['id'])).toList();
+                      await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Bookmarks', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                      await _load();
+                    })),
+                  ]),
+                  const SizedBox(height: 18),
+                  Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Expanded(child: _sectionCard(
+                      title: 'Recent Achievements 🏆',
+                      trailing: const Text('Keep going →', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700)),
+                      child: Row(children: [
+                        _badge(Icons.play_circle_fill_rounded, 'First\nPractice', targetDone > 0),
+                        _badge(Icons.check_circle_rounded, '10\nQuestions', targetDone >= 10),
+                        _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
+                        _badge(Icons.psychology_rounded, '100\nQuestions', todayDone >= 100),
+                      ]),
+                    )),
+                    const SizedBox(width: 10),
+                    Expanded(child: _sectionCard(
+                      title: gu ? 'તમારો Progress' : 'Your Progress',
+                      child: SizedBox(
+                        height: 105,
+                        child: Row(children: [
+                          SizedBox(width: 94, height: 94, child: Stack(alignment: Alignment.center, children: [
+                            CircularProgressIndicator(value: accuracy / 100, strokeWidth: 9, backgroundColor: const Color(0xFFE5E7EB), color: const Color(0xFF10B981)),
+                            Text('${accuracy}%', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                          ])),
+                          const SizedBox(width: 8),
+                          Expanded(child: Text(gu ? '${mistakes.length} mistakes saved\nPractice કરો અને accuracy વધારો.' : '${mistakes.length} mistakes saved\nPractice to improve your accuracy.',
+                              style: const TextStyle(fontSize: 12, height: 1.35, fontWeight: FontWeight.w600))),
+                        ]),
+                      ),
+                    )),
+                  ]),
+                  const SizedBox(height: 20),
+                  Row(children: [
+                    Expanded(child: Text('Previous Year Papers', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w900))),
+                    IconButton(tooltip: 'Filter', onPressed: () {}, icon: const Icon(Icons.tune_rounded)),
+                  ]),
+                  TextField(
+                    decoration: InputDecoration(
+                      prefixIcon: const Icon(Icons.search_rounded),
+                      hintText: gu ? 'Paper શોધો... / Search papers...' : 'Search papers...',
+                    ),
+                    onChanged: (v) => setState(() => search = v),
+                  ),
+                  const SizedBox(height: 12),
+                  ...filtered.map((p) {
+                    final qs = forPaper(p.id);
+                    final ready = qs.length == p.questions && qs.every((q) => q['source_verified'] == true);
+                    final year = RegExp(r'\d{4}').firstMatch(p.title)?.group(0) ?? '';
+                    return Card(
+                      margin: const EdgeInsets.only(bottom: 9),
+                      child: InkWell(
+                        borderRadius: BorderRadius.circular(16),
+                        onTap: ready ? () async {
+                          await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: p.title, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                          await _load();
+                        } : () => _showNote(p, qs.length),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 11),
+                          child: Row(children: [
+                            Container(
+                              width: 62, height: 54,
+                              decoration: BoxDecoration(
+                                gradient: LinearGradient(colors: ready ? const [Color(0xFFE8EEFF), Color(0xFFDDE3FF)] : const [Color(0xFFF3F4F6), Color(0xFFE5E7EB)]),
+                                borderRadius: BorderRadius.circular(15),
+                              ),
+                              child: Center(child: Text(year, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: ready ? const Color(0xFF4338CA) : Colors.grey[600]))),
+                            ),
+                            const SizedBox(width: 11),
+                            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                              Text('${p.title} — Paper-I', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                              const SizedBox(height: 3),
+                              Text('${p.date} • ${p.questions} Questions', style: Theme.of(context).textTheme.bodySmall),
+                              const SizedBox(height: 5),
+                              Row(children: [
+                                Icon(ready ? Icons.verified_rounded : Icons.hourglass_bottom_rounded, size: 15, color: ready ? const Color(0xFF059669) : Colors.grey),
+                                const SizedBox(width: 4),
+                                Text(ready ? 'Verified & Ready' : '${qs.length}/${p.questions} loaded',
+                                    style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: ready ? const Color(0xFF047857) : Colors.grey[700])),
+                              ]),
+                            ])),
+                            const SizedBox(width: 8),
+                            Container(
+                              height: 40,
+                              padding: const EdgeInsets.symmetric(horizontal: 13),
+                              decoration: BoxDecoration(
+                                color: ready ? const Color(0xFF2563EB) : const Color(0xFFE5E7EB),
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              child: Row(children: [
+                                Icon(ready ? Icons.play_arrow_rounded : Icons.lock_outline_rounded, size: 20, color: ready ? Colors.white : Colors.grey[600]),
+                                if (ready) ...[const SizedBox(width: 3), const Text('Start', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800))],
+                              ]),
+                            ),
+                          ]),
+                        ),
+                      ),
+                    );
+                  }),
+                ],
+              ),
+            ),
     );
   }
+
+  Widget _metric(IconData icon, String value, String label, Color color) => Expanded(
+    child: Column(children: [
+      Container(width: 34, height: 34, decoration: BoxDecoration(color: color.withValues(alpha: .12), shape: BoxShape.circle), child: Icon(icon, color: color, size: 19)),
+      const SizedBox(height: 5),
+      Text(value, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w900)),
+      Text(label, style: const TextStyle(fontSize: 10, color: Colors.black54), textAlign: TextAlign.center),
+    ]),
+  );
+
+  Widget _dashCard({required Color color, required Color background, required IconData icon, required String title, required Widget child}) => Container(
+    padding: const EdgeInsets.all(13),
+    decoration: BoxDecoration(color: background, borderRadius: BorderRadius.circular(18), border: Border.all(color: color.withValues(alpha: .18))),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [Icon(icon, color: color, size: 22), const SizedBox(width: 7), Expanded(child: Text(title, style: TextStyle(color: color, fontWeight: FontWeight.w900, fontSize: 14)))]),
+      const SizedBox(height: 9),
+      child,
+    ]),
+  );
+
+  Widget _bigAction(IconData icon, String title, String subtitle, Color color, VoidCallback? onTap) {
+    final enabled = onTap != null;
+    return Card(
+      elevation: 1,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(16),
+        child: Padding(
+          padding: const EdgeInsets.all(11),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Container(width: 40, height: 40, decoration: BoxDecoration(color: color.withValues(alpha: enabled ? .13 : .06), borderRadius: BorderRadius.circular(13)), child: Icon(icon, color: enabled ? color : Colors.grey, size: 22)),
+            const SizedBox(height: 8),
+            Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontWeight: FontWeight.w800, color: enabled ? null : Colors.grey)),
+            const SizedBox(height: 2),
+            Text(subtitle, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, color: enabled ? color : Colors.grey)),
+          ]),
+        ),
+      ),
+    );
+  }
+
+  Widget _sectionCard({required String title, required Widget child, Widget? trailing}) => Card(
+    elevation: 1,
+    child: Padding(
+      padding: const EdgeInsets.fromLTRB(12, 13, 12, 12),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(children: [Expanded(child: Text(title, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14))), if (trailing != null) trailing!]),
+        const SizedBox(height: 12),
+        child,
+      ]),
+    ),
+  );
+
+  Widget _badge(IconData icon, String label, bool active) => Expanded(
+    child: Column(children: [
+      Container(
+        width: 42, height: 42,
+        decoration: BoxDecoration(color: active ? const Color(0xFFFFF1D6) : const Color(0xFFF0F1F5), shape: BoxShape.circle),
+        child: Icon(icon, color: active ? const Color(0xFFF59E0B) : const Color(0xFFB6BBC7), size: 23),
+      ),
+      const SizedBox(height: 5),
+      Text(label, textAlign: TextAlign.center, style: const TextStyle(fontSize: 9, fontWeight: FontWeight.w700)),
+    ]),
+  );
 
   Widget _stat(String n,String label)=>Column(children:[Text(n,style:const TextStyle(fontSize:22,fontWeight:FontWeight.bold,color:Colors.white)),Text(label,style:const TextStyle(fontSize:12,color:Colors.white70))]);
 
@@ -387,6 +660,21 @@ class _TestPageState extends State<TestPage> {
     finishing = true;
     timer?.cancel();
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
+    final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final previousDay = prefs.getString('gset_progress_day') ?? '';
+    var done = prefs.getInt('gset_today_done') ?? 0;
+    var currentStreak = prefs.getInt('gset_streak') ?? 0;
+    if (previousDay != today) {
+      done = 0;
+      currentStreak += 1;
+      await prefs.setString('gset_progress_day', today);
+    }
+    done = min(10, done + widget.data.length);
+    final currentXp = (prefs.getInt('gset_xp') ?? 0) + (score * 10);
+    await prefs.setInt('gset_today_done', done);
+    await prefs.setInt('gset_streak', currentStreak);
+    await prefs.setInt('gset_xp', currentXp);
     if (!mounted) return;
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => ResultPage(title: widget.title, score: score, total: evaluated, attempted: answered, gu: gu, questions: widget.data, answers: answers, bookmarks: b, mistakes: m, onStateChanged: widget.onStateChanged, practice: widget.practice)));
   }
