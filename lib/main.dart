@@ -655,7 +655,7 @@ class _TestPageState extends State<TestPage> {
   }
 
   void next() { if (i < widget.data.length - 1) setState(() { i++; selected = null; submitted = false; }); else _finish(); }
-  void _finish() {
+  Future<void> _finish() async {
     if (finishing) return;
     finishing = true;
     timer?.cancel();
