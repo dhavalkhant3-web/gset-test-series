@@ -322,7 +322,7 @@ class _HomePageState extends State<HomePage> {
     decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFF4338CA), Color(0xFF7C3AED)]), borderRadius: BorderRadius.circular(15), boxShadow: [BoxShadow(color: const Color(0xFF4338CA).withValues(alpha: .25), blurRadius: 12, offset: const Offset(0, 5))]),
     child: Stack(alignment: Alignment.center, children: [
       Icon(Icons.school_rounded, color: Colors.white, size: size * .62),
-      Positioned(bottom: 3, child: Container(padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1), decoration: BoxDecoration(color: const Color(0xFFFBBF24), borderRadius: BorderRadius.circular(5)), child: const Text('GSET', style: TextStyle(fontSize: 8, fontWeight: FontWeight.w900, color: Color(0xFF172554)))),
+      Positioned(bottom: 3, child: Container(padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1), decoration: BoxDecoration(color: const Color(0xFFFBBF24), borderRadius: BorderRadius.circular(5)), child: const Text('GSET', style: TextStyle(fontSize: 8, fontWeight: FontWeight.w900, color: Color(0xFF172554)))))
     ]),
   );
 
