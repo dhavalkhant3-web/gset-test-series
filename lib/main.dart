@@ -13,7 +13,7 @@ class GsetApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'GSET Paper-I Test Series',
-        theme: ThemeData(colorSchemeSeed: const Color(0xFF3949AB), useMaterial3: true, scaffoldBackgroundColor: const Color(0xFFF6F7FB), cardTheme: const CardThemeData(margin: EdgeInsets.zero, elevation: 1, clipBehavior: Clip.antiAlias), appBarTheme: const AppBarTheme(centerTitle: false, elevation: 0), inputDecorationTheme: const InputDecorationTheme(filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14)), borderSide: BorderSide.none), enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14)), borderSide: BorderSide.none), focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(14))))),
+        theme: ThemeData(colorSchemeSeed: const Color(0xFF5B5FEF), useMaterial3: true, scaffoldBackgroundColor: const Color(0xFFF5F7FF), cardTheme: const CardThemeData(margin: EdgeInsets.zero, elevation: 2, clipBehavior: Clip.antiAlias), appBarTheme: const AppBarTheme(centerTitle: false, elevation: 0, backgroundColor: Color(0xFFF5F7FF)), inputDecorationTheme: const InputDecorationTheme(filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide(color: Color(0xFF5B5FEF), width: 1.4)))),
         home: const HomePage(),
       );
 }
@@ -100,43 +100,93 @@ class _HomePageState extends State<HomePage> {
         Padding(padding: const EdgeInsets.only(right: 8), child: SegmentedButton<bool>(segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))], selected: {gu}, onSelectionChanged: (s) => setState(() => gu = s.first))),
       ]),
       body: data.isEmpty ? const Center(child: CircularProgressIndicator()) : ListView(padding: const EdgeInsets.fromLTRB(16, 10, 16, 24), children: [
-        Card(child: Container(decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF3949AB), Color(0xFF5C6BC0)])), padding: const EdgeInsets.all(20), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('GSET Paper-I Test Series', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold, color: Colors.white)),
-          const SizedBox(height: 6), Text(gu ? 'Previous Year Papers • Solutions • Practice' : 'Previous Year Papers • Solutions • Practice', style: TextStyle(color: Colors.white70)),
-          const SizedBox(height: 14),
-          Row(children: [
-            Expanded(child: _stat('${papers.length}', gu ? 'Papers' : 'Papers')),
-            Expanded(child: _stat('${data.length}', gu ? 'Questions' : 'Questions')),
-            Expanded(child: _stat('$readyCount/${papers.length}', gu ? 'Verified' : 'Verified')),
+        Container(
+          padding: const EdgeInsets.fromLTRB(20,22,20,18),
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight,colors:[Color(0xFF5B5FEF),Color(0xFF7B61FF),Color(0xFF00A6A6)]),
+            borderRadius: BorderRadius.circular(26),
+            boxShadow:[BoxShadow(color:const Color(0xFF5B5FEF).withValues(alpha:.22),blurRadius:22,offset:const Offset(0,10))],
+          ),
+          child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+            Row(children:[
+              Container(width:48,height:48,decoration:BoxDecoration(color:Colors.white.withValues(alpha:.18),borderRadius:BorderRadius.circular(16)),child:const Icon(Icons.bolt_rounded,color:Colors.white,size:30)),
+              const SizedBox(width:12),
+              Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+                Text(gu?'આજનું Target 🎯':'Today’s Target 🎯',style:const TextStyle(color:Colors.white70,fontSize:13,fontWeight:FontWeight.w600)),
+                const SizedBox(height:2),
+                Text(gu?'Practice શરૂ કરો!':'Start your practice!',style:const TextStyle(color:Colors.white,fontSize:23,fontWeight:FontWeight.bold)),
+              ])),
+            ]),
+            const SizedBox(height:16),
+            const Text('20 random questions • instant feedback',style:TextStyle(color:Colors.white70)),
+            const SizedBox(height:14),
+            SizedBox(width:double.infinity,child:FilledButton.icon(style:FilledButton.styleFrom(backgroundColor:Colors.white,foregroundColor:const Color(0xFF4F46C5),padding:const EdgeInsets.symmetric(vertical:14)),onPressed:()=>_openPractice(),icon:const Icon(Icons.play_arrow_rounded),label:Text(gu?'હમણાં Practice કરો':'Practice Now',style:const TextStyle(fontWeight:FontWeight.bold)))),
+            const SizedBox(height:16),
+            Row(children:[
+              Expanded(child:_stat('${papers.length}','Papers')),Expanded(child:_stat('${data.length}','Questions')),Expanded(child:_stat('${readyCount}/${papers.length}','Verified')),
+            ]),
           ]),
-        ]))),
-        const SizedBox(height: 10),
-        Wrap(spacing: 8, runSpacing: 8, children: [
-          FilledButton.icon(onPressed: () => _openPractice(), icon: const Icon(Icons.shuffle), label: Text(gu ? 'Random Practice' : 'Random Practice')),
-          OutlinedButton.icon(onPressed: mistakes.isEmpty ? null : () async { final qs = data.where((q) => mistakes.contains(q['id'])).toList(); await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: gu ? 'Mistakes' : 'Mistakes', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets))); }, icon: const Icon(Icons.error_outline), label: Text('${gu ? 'Mistakes' : 'Mistakes'} (${mistakes.length})')),
-          OutlinedButton.icon(onPressed: bookmarks.isEmpty ? null : () async { final qs = data.where((q) => bookmarks.contains(q['id'])).toList(); await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: gu ? 'Bookmarks' : 'Bookmarks', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets))); }, icon: const Icon(Icons.bookmark_outline), label: Text('${gu ? 'Bookmarks' : 'Bookmarks'} (${bookmarks.length})')),
+        ),
+        const SizedBox(height:14),
+        Row(children:[
+          Expanded(child:_homeActionCard(context,icon:Icons.shuffle_rounded,title:'Random',subtitle:'Practice',color:const Color(0xFF5B5FEF),onTap:()=>_openPractice())),
+          const SizedBox(width:10),
+          Expanded(child:_homeActionCard(context,icon:Icons.error_outline_rounded,title:'Mistakes',subtitle:'${mistakes.length} saved',color:const Color(0xFFF97316),onTap:mistakes.isEmpty?null:()async{final qs=data.where((q)=>mistakes.contains(q['id'])).toList();await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:'Mistakes',practice:true,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets)));})),
+          const SizedBox(width:10),
+          Expanded(child:_homeActionCard(context,icon:Icons.bookmark_rounded,title:'Saved',subtitle:'${bookmarks.length} saved',color:const Color(0xFF00A6A6),onTap:bookmarks.isEmpty?null:()async{final qs=data.where((q)=>bookmarks.contains(q['id'])).toList();await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:'Bookmarks',practice:true,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets)));})),
         ]),
-        const SizedBox(height: 14),
-        TextField(decoration: InputDecoration(prefixIcon: const Icon(Icons.search), hintText: gu ? 'Paper શોધો...' : 'Search paper...', border: const OutlineInputBorder()), onChanged: (v) => setState(() => search = v)),
-        const SizedBox(height: 14),
-        Text(gu ? 'Previous Year Papers' : 'Previous Year Papers', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold)),
-        const SizedBox(height: 6),
-        ...filtered.map((p) {
-          final qs = forPaper(p.id);
-          final ready = qs.length == p.questions && qs.every((q) => q['source_verified'] == true);
-          return Card(margin: const EdgeInsets.only(bottom: 10), child: ListTile(contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-            leading: CircleAvatar(backgroundColor: Theme.of(context).colorScheme.primaryContainer, child: Text(p.title.substring(0, 1), style: const TextStyle(fontWeight: FontWeight.bold))),
-            title: Text('${p.title} — Paper-I'),
-            subtitle: Text('${p.date} • ${p.questions} Questions${ready ? ' • Verified' : ' • ${qs.length}/${p.questions} loaded'}'),
-            trailing: Icon(ready ? Icons.play_circle_outline : Icons.lock_outline),
-            onTap: ready ? () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: p.title, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets))) : () => _showNote(p, qs.length),
+        const SizedBox(height:18),
+        Text(gu?'તમારો Progress':'Your Progress',style:Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight:FontWeight.bold)),
+        const SizedBox(height:8),
+        Card(child:Padding(padding:const EdgeInsets.all(14),child:Row(children:[
+          Container(width:42,height:42,decoration:BoxDecoration(color:const Color(0xFFEEF2FF),borderRadius:BorderRadius.circular(14)),child:const Icon(Icons.auto_graph_rounded,color:Color(0xFF5B5FEF))),
+          const SizedBox(width:12),
+          Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+            Text(gu?'તમારી practice library તૈયાર છે':'Your practice library is ready',style:const TextStyle(fontWeight:FontWeight.w700)),
+            const SizedBox(height:5),
+            ClipRRect(borderRadius:BorderRadius.circular(8),child:LinearProgressIndicator(value:papers.isEmpty?0:readyCount/papers.length,minHeight:7)),
+            const SizedBox(height:5),
+            Text('${readyCount}/${papers.length} papers ready',style:Theme.of(context).textTheme.bodySmall),
+          ])),
+        ]))),
+        const SizedBox(height:18),
+        Text('Previous Year Papers',style:Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight:FontWeight.bold)),
+        const SizedBox(height:8),
+        TextField(decoration:InputDecoration(prefixIcon:const Icon(Icons.search_rounded),hintText:gu?'Year અથવા paper શોધો...':'Search year or paper...',border:const OutlineInputBorder()),onChanged:(v)=>setState(()=>search=v)),
+        const SizedBox(height:14),
+        ...filtered.map((p){
+          final qs=forPaper(p.id); final ready=qs.length==p.questions&&qs.every((q)=>q['source_verified']==true); final year=p.title.split(' ').last;
+          return Card(margin:const EdgeInsets.only(bottom:10),child:InkWell(
+            onTap:ready?()=>Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(data:qs,gu:gu,title:p.title,bookmarks:bookmarks,mistakes:mistakes,onStateChanged:_saveSets))):()=>_showNote(p,qs.length),
+            child:Padding(padding:const EdgeInsets.all(13),child:Row(children:[
+              Container(width:58,height:58,decoration:BoxDecoration(gradient:LinearGradient(begin:Alignment.topLeft,end:Alignment.bottomRight,colors:ready?const[Color(0xFFEEF2FF),Color(0xFFE0E7FF)]:const[Color(0xFFF3F4F6),Color(0xFFE5E7EB)]),borderRadius:BorderRadius.circular(18)),child:Center(child:Text(year,style:TextStyle(fontWeight:FontWeight.w800,color:ready?const Color(0xFF4F46C5):Colors.grey[600])))),
+              const SizedBox(width:14),
+              Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+                Text('${p.title} • Paper-I',style:const TextStyle(fontWeight:FontWeight.w700,fontSize:16)),
+                const SizedBox(height:4),Text('${p.date} • ${p.questions} Questions',style:Theme.of(context).textTheme.bodySmall),
+                const SizedBox(height:7),Row(children:[
+                  Icon(ready?Icons.verified_rounded:Icons.hourglass_bottom_rounded,size:15,color:ready?const Color(0xFF00A6A6):Colors.grey),const SizedBox(width:5),
+                  Text(ready?'Verified & Ready':'${qs.length}/${p.questions} loaded',style:TextStyle(fontSize:12,fontWeight:FontWeight.w600,color:ready?const Color(0xFF008A8A):Colors.grey[700])),
+                ]),
+              ])),
+              Container(width:40,height:40,decoration:BoxDecoration(color:ready?const Color(0xFF5B5FEF):Colors.grey[200],shape:BoxShape.circle),child:Icon(ready?Icons.play_arrow_rounded:Icons.lock_outline_rounded,color:ready?Colors.white:Colors.grey[600])),
+            ])),
           ));
-        }),
+        }),        }),
       ]),
     );
   }
 
-  Widget _stat(String n, String label) => Column(children: [Text(n, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white)), Text(label, style: const TextStyle(fontSize: 12, color: Colors.white70))]);
+  Widget _stat(String n,String label)=>Column(children:[Text(n,style:const TextStyle(fontSize:22,fontWeight:FontWeight.bold,color:Colors.white)),Text(label,style:const TextStyle(fontSize:12,color:Colors.white70))]);
+
+  Widget _homeActionCard(BuildContext context,{required IconData icon,required String title,required String subtitle,required Color color,required VoidCallback? onTap}){
+    final enabled=onTap!=null;
+    return Card(elevation:1.5,child:InkWell(onTap:onTap,child:Padding(padding:const EdgeInsets.all(13),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+      Container(width:42,height:42,decoration:BoxDecoration(color:color.withValues(alpha:enabled?.12:.06),borderRadius:BorderRadius.circular(14)),child:Icon(icon,color:enabled?color:Colors.grey,size:23)),
+      const SizedBox(height:10),Text(title,style:TextStyle(fontWeight:FontWeight.w800,color:enabled?null:Colors.grey)),const SizedBox(height:2),
+      Text(subtitle,style:Theme.of(context).textTheme.bodySmall?.copyWith(color:enabled?color:Colors.grey)),
+    ])));
+  }
   void _showNote(PaperInfo p, int count) => showDialog(context: context, builder: (_) => AlertDialog(title: Text(p.title), content: Text(gu ? '$count/${p.questions} પ્રશ્નો હાલ verified dataમાં ઉપલબ્ધ છે.' : '$count/${p.questions} questions are currently available in verified data.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]));
 }
 
