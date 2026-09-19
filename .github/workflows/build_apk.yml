@@ -32,9 +32,11 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Validate question bank integrity
+        run: python3 tool/validate_questions.py
+
       - name: Analyze project
         run: flutter analyze
-        continue-on-error: true
 
       # Debug APK is automatically signed with Android's debug keystore.
       # This is intentional for device testing; production release signing
