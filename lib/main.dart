@@ -209,9 +209,8 @@ class _HomePageState extends State<HomePage> {
               final actions = [
                 _action(Icons.shuffle_rounded, 'Random Practice', 'Mixed Questions', const Color(0xFF2563EB), _openPractice),
                 _action(Icons.track_changes_rounded, 'Daily Challenge', '10 Questions', const Color(0xFF059669), _openPractice),
-                _action(Icons.error_outline_rounded, 'Mistakes', mistakes.length.toString() + ' saved', const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
-                  final qs = data.where((q) => mistakes.contains(q['id'])).toList();
-                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Mistakes', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                _action(Icons.menu_book_rounded, 'Mistake Book', mistakes.length.toString() + ' saved', const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => MistakeBookPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets)));
                   await _load();
                 }),
                 _action(Icons.bookmark_rounded, 'Bookmarks', bookmarks.length.toString() + ' saved', const Color(0xFF7C3AED), bookmarks.isEmpty ? null : () async {
@@ -245,6 +244,26 @@ class _HomePageState extends State<HomePage> {
               if (c.maxWidth >= 620) return Row(crossAxisAlignment: CrossAxisAlignment.start, children: [Expanded(child: achievements), const SizedBox(width: 10), Expanded(child: progress)]);
               return Column(children: [achievements, const SizedBox(height: 10), progress]);
             }),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => WeakAreasPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets))),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(children: [
+                    Container(width: 46, height: 46, decoration: BoxDecoration(color: const Color(0xFFFFF1E8), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.insights_rounded, color: Color(0xFFEA580C))),
+                    const SizedBox(width: 12),
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      const Text('My Weak Areas', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                      const SizedBox(height: 3),
+                      Text(gu ? 'તમારા topic-wise performance પરથી targeted practice' : 'Find topics that need more practice and start targeted revision', style: const TextStyle(fontSize: 12, height: 1.3)),
+                    ])),
+                    const Icon(Icons.chevron_right_rounded),
+                  ]),
+                ),
+              ),
+            ),
             const SizedBox(height: 18),
             Container(key: _papersKey, child: Row(children: [
               Container(width: 40, height: 40, decoration: BoxDecoration(color: const Color(0xFFE6EEFF), borderRadius: BorderRadius.circular(13)), child: const Icon(Icons.description_rounded, color: Color(0xFF2563EB))),
@@ -613,8 +632,27 @@ class _TestPageState extends State<TestPage> {
     if (selected == null || submitted) return;
     answers[i] = selected!; answered++;
     final correct = q['answer'] as String;
-    if (!{'Z', 'X'}.contains(correct)) { if (selected == correct) score++; else m.add(q['id'].toString()); }
+    if (!{'Z', 'X'}.contains(correct)) {
+      final isRight = selected == correct;
+      if (isRight) {
+        score++;
+      } else {
+        m.add(q['id'].toString());
+      }
+      final topic = (q['topic'] ?? 'General').toString();
+      _recordTopicStat(topic, isRight);
+    }
     setState(() => submitted = true); widget.onStateChanged(b, m);
+  }
+
+  Future<void> _recordTopicStat(String topic, bool correct) async {
+    final prefs = await SharedPreferences.getInstance();
+    final attempts = Map<String, dynamic>.from(jsonDecode(prefs.getString('gset_topic_attempts') ?? '{}'));
+    final rights = Map<String, dynamic>.from(jsonDecode(prefs.getString('gset_topic_correct') ?? '{}'));
+    attempts[topic] = (attempts[topic] ?? 0) + 1;
+    rights[topic] = (rights[topic] ?? 0) + (correct ? 1 : 0);
+    await prefs.setString('gset_topic_attempts', jsonEncode(attempts));
+    await prefs.setString('gset_topic_correct', jsonEncode(rights));
   }
 
   void next() { if (i < widget.data.length - 1) setState(() { i++; selected = null; submitted = false; }); else _finish(); }
@@ -707,6 +745,131 @@ class _TestPageState extends State<TestPage> {
           if (submitted) FilledButton(onPressed: next, child: Text(i == widget.data.length - 1 ? (gu ? 'પરિણામ જુઓ' : 'View Result') : (gu ? 'આગળ' : 'Next'))),
         ])),
       ])));
+  }
+}
+
+class MistakeBookPage extends StatelessWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final Set<String> mistakes, bookmarks;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const MistakeBookPage({super.key, required this.gu, required this.data, required this.mistakes, required this.bookmarks, required this.onStateChanged});
+
+  @override
+  Widget build(BuildContext context) {
+    final qs = data.where((q) => mistakes.contains(q['id'].toString())).toList();
+    return Scaffold(
+      appBar: AppBar(title: const Text('Mistake Book')),
+      body: qs.isEmpty
+          ? Center(child: Text(gu ? 'હાલ કોઈ mistake saved નથી.' : 'No mistakes saved yet.'))
+          : ListView(padding: const EdgeInsets.all(14), children: [
+              Card(child: Padding(padding: const EdgeInsets.all(18), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Row(children: [const Icon(Icons.menu_book_rounded, size: 28, color: Color(0xFFEA580C)), const SizedBox(width: 10), Expanded(child: Text('${qs.length} questions to revise', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)))]),
+                const SizedBox(height: 8),
+                Text(gu ? 'Wrong answer ને learning opportunity બનાવો: explanation વાંચો અને ફરી solve કરો.' : 'Turn wrong answers into learning: read the explanation, then solve them again.', style: const TextStyle(height: 1.35)),
+                const SizedBox(height: 14),
+                FilledButton.icon(
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Mistake Revision', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: onStateChanged))),
+                  icon: const Icon(Icons.replay_rounded),
+                  label: const Text('Mistake Revision Test'),
+                ),
+              ]))),
+              const SizedBox(height: 10),
+              ...qs.map((q) => Card(
+                margin: const EdgeInsets.only(bottom: 8),
+                child: ExpansionTile(
+                  leading: const CircleAvatar(child: Icon(Icons.error_outline_rounded)),
+                  title: Text(gu ? q['question_gu'] : q['question_en'], maxLines: 2, overflow: TextOverflow.ellipsis),
+                  subtitle: Text((q['topic'] ?? 'General').toString()),
+                  childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                  children: [
+                    Text(gu ? q['explanation_gu'] : q['explanation_en'], style: const TextStyle(height: 1.35)),
+                    const SizedBox(height: 8),
+                    Text(gu ? '💡 ${q['tip_gu']}' : '💡 ${q['tip_en']}', style: const TextStyle(fontWeight: FontWeight.w700)),
+                  ],
+                ),
+              )),
+            ]),
+    );
+  }
+}
+
+class WeakAreasPage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final Set<String> mistakes, bookmarks;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const WeakAreasPage({super.key, required this.gu, required this.data, required this.mistakes, required this.bookmarks, required this.onStateChanged});
+  @override State<WeakAreasPage> createState() => _WeakAreasPageState();
+}
+
+class _WeakAreasPageState extends State<WeakAreasPage> {
+  Map<String, int> attempts = {};
+  Map<String, int> correct = {};
+
+  @override
+  void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final p = await SharedPreferences.getInstance();
+    final a = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_attempts') ?? '{}'));
+    final r = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_correct') ?? '{}'));
+    if (!mounted) return;
+    setState(() {
+      attempts = a.map((k, v) => MapEntry(k, (v as num).toInt()));
+      correct = r.map((k, v) => MapEntry(k, (v as num).toInt()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final topics = {...attempts.keys, ...correct.keys}.toList();
+    topics.sort((a, b) {
+      final aa = attempts[a] ?? 0, ab = attempts[b] ?? 0;
+      final pa = aa == 0 ? 0 : (correct[a] ?? 0) / aa;
+      final pb = ab == 0 ? 0 : (correct[b] ?? 0) / ab;
+      return pa.compareTo(pb);
+    });
+    return Scaffold(
+      appBar: AppBar(title: const Text('My Weak Areas')),
+      body: topics.isEmpty
+          ? Center(child: Text(widget.gu ? 'થોડા પ્રશ્નો solve કરો; પછી topic analysis અહીં દેખાશે.' : 'Solve a few questions and your topic analysis will appear here.'))
+          : ListView(padding: const EdgeInsets.all(14), children: [
+              Card(child: Padding(padding: const EdgeInsets.all(18), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                const Text('🎯 Targeted Practice', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 6),
+                Text(widget.gu ? 'ઓછા accuracy વાળા topics પર focus કરો.' : 'Focus your revision on topics with lower accuracy.', style: const TextStyle(height: 1.35)),
+              ]))),
+              const SizedBox(height: 10),
+              ...topics.map((topic) {
+                final a = attempts[topic] ?? 0;
+                final r = correct[topic] ?? 0;
+                final pct = a == 0 ? 0 : (r * 100 / a).round();
+                final topicQs = widget.data.where((q) => (q['topic'] ?? 'General').toString() == topic).toList();
+                final revisionQs = topicQs.where((q) => widget.mistakes.contains(q['id'].toString())).toList();
+                final practiceQs = revisionQs.isNotEmpty ? revisionQs : topicQs;
+                return Card(
+                  margin: const EdgeInsets.only(bottom: 9),
+                  child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Row(children: [
+                      Expanded(child: Text(topic, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900))),
+                      Container(padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5), decoration: BoxDecoration(color: pct < 60 ? const Color(0xFFFFE8DD) : const Color(0xFFE7F8F1), borderRadius: BorderRadius.circular(10)), child: Text('$pct%', style: const TextStyle(fontWeight: FontWeight.w900))),
+                    ]),
+                    const SizedBox(height: 6),
+                    Text('$r / $a correct • Mistakes: ${revisionQs.length}', style: const TextStyle(fontSize: 12)),
+                    const SizedBox(height: 7),
+                    LinearProgressIndicator(value: pct / 100, minHeight: 7),
+                    const SizedBox(height: 10),
+                    Align(alignment: Alignment.centerRight, child: FilledButton.icon(
+                      onPressed: practiceQs.isEmpty ? null : () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: [...practiceQs]..shuffle(), gu: widget.gu, title: 'Targeted Practice • $topic', practice: true, bookmarks: widget.bookmarks, mistakes: widget.mistakes, onStateChanged: widget.onStateChanged))),
+                      icon: const Icon(Icons.bolt_rounded, size: 18),
+                      label: const Text('Practice'),
+                    )),
+                  ])),
+                );
+              }),
+            ]),
+    );
   }
 }
 
