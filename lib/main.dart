@@ -172,7 +172,7 @@ class _HomePageState extends State<HomePage> {
               Container(width:40,height:40,decoration:BoxDecoration(color:ready?const Color(0xFF5B5FEF):Colors.grey[200],shape:BoxShape.circle),child:Icon(ready?Icons.play_arrow_rounded:Icons.lock_outline_rounded,color:ready?Colors.white:Colors.grey[600])),
             ])),
           ));
-        }),        }),
+        }),
       ]),
     );
   }
@@ -182,10 +182,10 @@ class _HomePageState extends State<HomePage> {
   Widget _homeActionCard(BuildContext context,{required IconData icon,required String title,required String subtitle,required Color color,required VoidCallback? onTap}){
     final enabled=onTap!=null;
     return Card(elevation:1.5,child:InkWell(onTap:onTap,child:Padding(padding:const EdgeInsets.all(13),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-      Container(width:42,height:42,decoration:BoxDecoration(color:color.withValues(alpha:enabled?.12:.06),borderRadius:BorderRadius.circular(14)),child:Icon(icon,color:enabled?color:Colors.grey,size:23)),
+      Container(width:42,height:42,decoration:BoxDecoration(color:color.withValues(alpha:enabled ? .12 : .06),borderRadius:BorderRadius.circular(14)),child:Icon(icon,color:enabled?color:Colors.grey,size:23)),
       const SizedBox(height:10),Text(title,style:TextStyle(fontWeight:FontWeight.w800,color:enabled?null:Colors.grey)),const SizedBox(height:2),
       Text(subtitle,style:Theme.of(context).textTheme.bodySmall?.copyWith(color:enabled?color:Colors.grey)),
-    ])));
+    ]))));
   }
   void _showNote(PaperInfo p, int count) => showDialog(context: context, builder: (_) => AlertDialog(title: Text(p.title), content: Text(gu ? '$count/${p.questions} પ્રશ્નો હાલ verified dataમાં ઉપલબ્ધ છે.' : '$count/${p.questions} questions are currently available in verified data.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]));
 }
