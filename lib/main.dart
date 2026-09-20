@@ -172,10 +172,10 @@ class _HomePageState extends State<HomePage> {
             Card(child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 4),
               child: Row(children: [
-                _metric(Icons.description_rounded, papers.length.toString(), 'Papers', const Color(0xFF2563EB)),
-                _metric(Icons.quiz_rounded, data.length.toString(), 'Questions', const Color(0xFF7C3AED)),
-                _metric(Icons.verified_rounded, ready.toString() + '/' + papers.length.toString(), 'Verified', const Color(0xFF059669)),
-                _metric(Icons.track_changes_rounded, '100%', 'Exam Focus', const Color(0xFFF59E0B)),
+                _metric(Icons.description_rounded, papers.length.toString(), gu ? 'પેપર' : gu ? 'પેપર' : 'Papers', const Color(0xFF2563EB)),
+                _metric(Icons.quiz_rounded, data.length.toString(), gu ? 'પ્રશ્નો' : 'Questions', const Color(0xFF7C3AED)),
+                _metric(Icons.verified_rounded, ready.toString() + '/' + papers.length.toString(), gu ? 'ચકાસાયેલ' : 'Verified', const Color(0xFF059669)),
+                _metric(Icons.track_changes_rounded, '100%', gu ? 'પરીક્ષા ફોકસ' : 'Exam Focus', const Color(0xFFF59E0B)),
               ]),
             )),
             const SizedBox(height: 12),
@@ -189,10 +189,10 @@ class _HomePageState extends State<HomePage> {
                   Text((done * 10).toString() + '%', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 11)),
                 ]),
                 const SizedBox(height: 6),
-                Text(done == 10 ? '🎉 Target complete!' : 'One question at a time! 💪', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
+                Text(done == 10 ? '🎉 Target complete!' : gu ? 'એક સમયે એક પ્રશ્ન! 💪' : 'One question at a time! 💪', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
               ]));
               final fire = _dashCard(const Color(0xFFEA580C), const Color(0xFFFFF0E8), Icons.local_fire_department_rounded, streak.toString() + ' Day Streak', Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(gu ? 'તોડશો નહીં!' : 'Don’t break it!', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800)),
+                Text(gu ? 'તોડશો નહીં!' : gu ? 'સતત ચાલુ રાખો!' : 'Don’t break it!', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800)),
                 const SizedBox(height: 8),
                 Row(children: List.generate(4, (i) => Padding(padding: const EdgeInsets.only(right: 4), child: Icon(Icons.local_fire_department_rounded, size: 19, color: i < min(streak, 4) ? const Color(0xFFF97316) : const Color(0xFFFBD0B7))))),
               ]));
@@ -207,15 +207,15 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 12),
             LayoutBuilder(builder: (_, c) {
               final actions = [
-                _action(Icons.shuffle_rounded, 'Random Practice', 'Mixed Questions', const Color(0xFF2563EB), _openPractice),
-                _action(Icons.track_changes_rounded, 'Daily Challenge', '10 Questions', const Color(0xFF059669), _openPractice),
-                _action(Icons.menu_book_rounded, 'Mistake Book', mistakes.length.toString() + ' saved', const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
+                _action(Icons.shuffle_rounded, gu ? 'રેન્ડમ પ્રેક્ટિસ' : 'Random Practice', gu ? 'મિશ્ર પ્રશ્નો' : 'Mixed Questions', const Color(0xFF2563EB), _openPractice),
+                _action(Icons.track_changes_rounded, gu ? 'દૈનિક ચેલેન્જ' : 'Daily Challenge', gu ? '10 પ્રશ્નો' : '10 Questions', const Color(0xFF059669), _openPractice),
+                _action(Icons.menu_book_rounded, gu ? 'ભૂલ બુક' : 'Mistake Book', mistakes.length.toString() + ' saved', const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
                   await Navigator.push(context, MaterialPageRoute(builder: (_) => MistakeBookPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets)));
                   await _load();
                 }),
-                _action(Icons.bookmark_rounded, 'Bookmarks', bookmarks.length.toString() + ' saved', const Color(0xFF7C3AED), bookmarks.isEmpty ? null : () async {
+                _action(Icons.bookmark_rounded, gu ? 'બુકમાર્ક્સ' : 'Bookmarks', bookmarks.length.toString() + ' saved', const Color(0xFF7C3AED), bookmarks.isEmpty ? null : () async {
                   final qs = data.where((q) => bookmarks.contains(q['id'])).toList();
-                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Bookmarks', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: gu ? 'બુકમાર્ક્સ' : 'Bookmarks', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
                   await _load();
                 }),
               ];
@@ -224,12 +224,12 @@ class _HomePageState extends State<HomePage> {
             }),
             const SizedBox(height: 14),
             LayoutBuilder(builder: (_, c) {
-              final achievements = _section('Recent Achievements 🏆', Row(children: [
+              final achievements = _section(gu ? 'તાજેતરની સિદ્ધિઓ 🏆' : 'Recent Achievements 🏆', Row(children: [
                 _badge(Icons.play_circle_fill_rounded, 'First\nPractice', done > 0),
                 _badge(Icons.check_circle_rounded, '10\nQuestions', done >= 10),
                 _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
                 _badge(Icons.psychology_rounded, '100\nQuestions', totalAttempted >= 100),
-              ]), const Text('Keep going →', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
+              ]), const Text(gu ? 'ચાલુ રાખો →' : 'Keep going →', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
               final progress = _section(gu ? 'તમારો Progress' : 'Your Progress', SizedBox(height: 112, child: Row(children: [
                 SizedBox(width: 92, height: 92, child: Stack(alignment: Alignment.center, children: [
                   CircularProgressIndicator(value: accuracy / 100, strokeWidth: 9, backgroundColor: const Color(0xFFE5E7EB), color: const Color(0xFF10B981)),
@@ -237,7 +237,7 @@ class _HomePageState extends State<HomePage> {
                 ])),
                 const SizedBox(width: 10),
                 Expanded(child: Text(
-                  'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' mistakes saved.\nKeep practicing! 🚀',
+                  gu ? 'પ્રયાસ: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' ભૂલો સાચવેલી.\nપ્રેક્ટિસ ચાલુ રાખો! 🚀' : 'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' mistakes saved.\nKeep practicing! 🚀',
                   style: const TextStyle(fontSize: 12, height: 1.35, fontWeight: FontWeight.w700),
                 )),
               ])));
@@ -255,7 +255,7 @@ class _HomePageState extends State<HomePage> {
                     Container(width: 46, height: 46, decoration: BoxDecoration(color: const Color(0xFFFFF1E8), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.insights_rounded, color: Color(0xFFEA580C))),
                     const SizedBox(width: 12),
                     Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      const Text('My Weak Areas', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                      const Text(gu ? 'મારા નબળા વિષયો' : 'My Weak Areas', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
                       const SizedBox(height: 3),
                       Text(gu ? 'તમારા topic-wise performance પરથી targeted practice' : 'Find topics that need more practice and start targeted revision', style: const TextStyle(fontSize: 12, height: 1.3)),
                     ])),
@@ -268,12 +268,12 @@ class _HomePageState extends State<HomePage> {
             Container(key: _papersKey, child: Row(children: [
               Container(width: 40, height: 40, decoration: BoxDecoration(color: const Color(0xFFE6EEFF), borderRadius: BorderRadius.circular(13)), child: const Icon(Icons.description_rounded, color: Color(0xFF2563EB))),
               const SizedBox(width: 10),
-              Expanded(child: Text('Previous Year Papers', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w900))),
+              Expanded(child: Text(gu ? 'અગાઉના વર્ષોના પેપર' : 'Previous Year Papers', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w900))),
               IconButton(onPressed: () {}, icon: const Icon(Icons.tune_rounded)),
             ])),
             const SizedBox(height: 8),
             TextField(
-              decoration: InputDecoration(prefixIcon: const Icon(Icons.search_rounded), hintText: gu ? 'Paper શોધો... / Search papers...' : 'Search papers...'),
+              decoration: InputDecoration(prefixIcon: const Icon(Icons.search_rounded), hintText: gu ? 'Paper શોધો... / Search papers...' : gu ? 'પેપર શોધો...' : 'Search papers...'),
               onChanged: (v) => setState(() => search = v),
             ),
             const SizedBox(height: 10),
@@ -312,12 +312,12 @@ class _HomePageState extends State<HomePage> {
                       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         Text(p.title + ' — Paper-I', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
                         const SizedBox(height: 3),
-                        Text(p.date + ' • ' + p.questions.toString() + ' Questions', maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodySmall),
+                        Text(p.date + ' • ' + p.questions.toString() + (gu ? ' પ્રશ્નો' : ' Questions'), maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodySmall),
                         const SizedBox(height: 4),
                         Row(children: [
                           Icon(ok ? Icons.verified_rounded : Icons.hourglass_bottom_rounded, size: 15, color: ok ? const Color(0xFF059669) : Colors.grey),
                           const SizedBox(width: 4),
-                          Expanded(child: Text(ok ? 'Verified & Ready' : qs.length.toString() + '/' + p.questions.toString() + ' loaded', maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: ok ? const Color(0xFF047857) : Colors.grey[700]))),
+                          Expanded(child: Text(ok ? gu ? 'ચકાસાયેલ અને તૈયાર' : 'Verified & Ready' : qs.length.toString() + '/' + p.questions.toString() + ' loaded', maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: ok ? const Color(0xFF047857) : Colors.grey[700]))),
                         ]),
                       ])),
                       const SizedBox(width: 6),
@@ -326,7 +326,7 @@ class _HomePageState extends State<HomePage> {
                         decoration: BoxDecoration(gradient: ok ? const LinearGradient(colors: [Color(0xFF2563EB), Color(0xFF4F46E5)]) : null, color: ok ? null : const Color(0xFFE5E7EB), borderRadius: BorderRadius.circular(14)),
                         child: Row(children: [
                           Icon(ok ? Icons.play_arrow_rounded : Icons.lock_outline_rounded, size: 19, color: ok ? Colors.white : Colors.grey[600]),
-                          if (ok) ...[const SizedBox(width: 3), const Text('Start', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900))],
+                          if (ok) ...[const SizedBox(width: 3), const Text(gu ? 'શરૂ કરો' : 'Start', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900))],
                         ]),
                       ),
                     ]),
@@ -342,10 +342,10 @@ class _HomePageState extends State<HomePage> {
         selectedIndex: selectedNav,
         onDestinationSelected: _nav,
         destinations: const [
-          NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: 'Home'),
-          NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description_rounded), label: 'Papers'),
-          NavigationDestination(icon: Icon(Icons.shuffle_rounded), selectedIcon: Icon(Icons.play_arrow_rounded), label: 'Practice'),
-          NavigationDestination(icon: Icon(Icons.person_outline_rounded), selectedIcon: Icon(Icons.person_rounded), label: 'Profile'),
+          NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: gu ? 'હોમ' : 'Home'),
+          NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description_rounded), label: gu ? 'પેપર' : gu ? 'પેપર' : 'Papers'),
+          NavigationDestination(icon: Icon(Icons.shuffle_rounded), selectedIcon: Icon(Icons.play_arrow_rounded), label: gu ? 'પ્રેક્ટિસ' : 'Practice'),
+          NavigationDestination(icon: Icon(Icons.person_outline_rounded), selectedIcon: Icon(Icons.person_rounded), label: gu ? 'પ્રોફાઇલ' : 'Profile'),
         ],
       ),
     );
@@ -388,7 +388,7 @@ class _HomePageState extends State<HomePage> {
             style: FilledButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6), foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12), shape: const StadiumBorder()),
             onPressed: _openPractice,
             icon: const Icon(Icons.play_arrow_rounded),
-            label: const Text('Practice Now', style: TextStyle(fontWeight: FontWeight.w900)),
+            label: Text(gu ? 'હમણાં પ્રેક્ટિસ કરો' : 'Practice Now', style: TextStyle(fontWeight: FontWeight.w900)),
           ),
         ]),
       ),
@@ -774,7 +774,7 @@ class MistakeBookPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final qs = data.where((q) => mistakes.contains(q['id'].toString())).toList();
     return Scaffold(
-      appBar: AppBar(title: const Text('Mistake Book')),
+      appBar: AppBar(title: const Text(gu ? 'ભૂલ બુક' : 'Mistake Book')),
       body: qs.isEmpty
           ? Center(child: Text(gu ? 'હાલ કોઈ mistake saved નથી.' : 'No mistakes saved yet.'))
           : ListView(padding: const EdgeInsets.all(14), children: [
@@ -846,7 +846,7 @@ class _WeakAreasPageState extends State<WeakAreasPage> {
       return pa.compareTo(pb);
     });
     return Scaffold(
-      appBar: AppBar(title: const Text('My Weak Areas')),
+      appBar: AppBar(title: const Text(gu ? 'મારા નબળા વિષયો' : 'My Weak Areas')),
       body: topics.isEmpty
           ? Center(child: Text(widget.gu ? 'થોડા પ્રશ્નો solve કરો; પછી topic analysis અહીં દેખાશે.' : 'Solve a few questions and your topic analysis will appear here.'))
           : ListView(padding: const EdgeInsets.all(14), children: [
@@ -878,7 +878,7 @@ class _WeakAreasPageState extends State<WeakAreasPage> {
                     Align(alignment: Alignment.centerRight, child: FilledButton.icon(
                       onPressed: practiceQs.isEmpty ? null : () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: [...practiceQs]..shuffle(), gu: widget.gu, title: 'Targeted Practice • $topic', practice: true, bookmarks: widget.bookmarks, mistakes: widget.mistakes, onStateChanged: widget.onStateChanged))),
                       icon: const Icon(Icons.bolt_rounded, size: 18),
-                      label: const Text('Practice'),
+                      label: const Text(gu ? 'પ્રેક્ટિસ' : 'Practice'),
                     )),
                   ])),
                 );
@@ -900,7 +900,7 @@ class ResultPage extends StatelessWidget {
       Card(child: Padding(padding: const EdgeInsets.all(22), child: Column(children: [const Icon(Icons.emoji_events_outlined, size: 64), const SizedBox(height: 12), Text(title, style: Theme.of(context).textTheme.titleLarge, textAlign: TextAlign.center), const SizedBox(height: 10), Text('$score / $total', style: Theme.of(context).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.bold)), Text('${pct.toStringAsFixed(1)}%', style: Theme.of(context).textTheme.headlineSmall), const SizedBox(height: 8), Text(gu ? 'પ્રયાસ કરેલા પ્રશ્નો: $attempted / ${questions.length}' : 'Attempted: $attempted / ${questions.length}')]))),
       const SizedBox(height: 14),
       Row(children: [Expanded(child: FilledButton.icon(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ReviewPage(title: title, questions: questions, answers: answers, gu: gu))), icon: const Icon(Icons.fact_check_outlined), label: Text(gu ? 'Review' : 'Review'))), const SizedBox(width: 10), Expanded(child: OutlinedButton.icon(onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => TestPage(data: questions, gu: gu, title: title, practice: practice, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: onStateChanged))), icon: const Icon(Icons.refresh), label: Text(gu ? 'ફરી ટેસ્ટ' : 'Retry')))]),
-      const SizedBox(height: 10), OutlinedButton.icon(onPressed: () => Navigator.pop(context), icon: const Icon(Icons.home_outlined), label: Text(gu ? 'હોમ' : 'Home')),
+      const SizedBox(height: 10), OutlinedButton.icon(onPressed: () => Navigator.pop(context), icon: const Icon(Icons.home_outlined), label: Text(gu ? 'હોમ' : gu ? 'હોમ' : 'Home')),
     ]));
   }
 }
