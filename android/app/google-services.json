@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566796911703",
+    "project_id": "gset-test-series",
+    "storage_bucket": "gset-test-series.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566796911703:android:aa2dba5e473472c4680f12",
+        "android_client_info": {
+          "package_name": "com.dhaval.gsettestseries"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAbUvaMZLnMYPipWYOrZ4AcB-qE4OGRzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
