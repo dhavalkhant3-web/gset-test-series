@@ -44,6 +44,12 @@ jobs:
       - name: Build installable debug APK
         run: flutter build apk --debug
 
+      - name: Show APK signing fingerprints
+        shell: bash
+        run: |
+          APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -n 1)
+          "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-debug.apk
+
       - name: Upload installable APK
         uses: actions/upload-artifact@v4
         with:
