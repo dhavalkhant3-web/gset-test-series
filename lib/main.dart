@@ -225,10 +225,10 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 14),
             LayoutBuilder(builder: (_, c) {
               final achievements = _section('Recent Achievements 🏆', Row(children: [
-                _badge(Icons.play_circle_fill_rounded, 'First\\nPractice', done > 0),
-                _badge(Icons.check_circle_rounded, '10\\nQuestions', done >= 10),
-                _badge(Icons.local_fire_department_rounded, '3-Day\\nStreak', streak >= 3),
-                _badge(Icons.psychology_rounded, '100\\nQuestions', totalAttempted >= 100),
+                _badge(Icons.play_circle_fill_rounded, 'First\nPractice', done > 0),
+                _badge(Icons.check_circle_rounded, '10\nQuestions', done >= 10),
+                _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
+                _badge(Icons.psychology_rounded, '100\nQuestions', totalAttempted >= 100),
               ]), const Text('Keep going →', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
               final progress = _section(gu ? 'તમારો Progress' : 'Your Progress', SizedBox(height: 112, child: Row(children: [
                 SizedBox(width: 92, height: 92, child: Stack(alignment: Alignment.center, children: [
@@ -237,7 +237,7 @@ class _HomePageState extends State<HomePage> {
                 ])),
                 const SizedBox(width: 10),
                 Expanded(child: Text(
-                  'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\\n' + mistakes.length.toString() + ' mistakes saved.\\nKeep practicing! 🚀',
+                  'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' mistakes saved.\nKeep practicing! 🚀',
                   style: const TextStyle(fontSize: 12, height: 1.35, fontWeight: FontWeight.w700),
                 )),
               ])));
@@ -280,7 +280,7 @@ class _HomePageState extends State<HomePage> {
             ...filtered.map((p) {
               final qs = forPaper(p.id);
               final ok = qs.length == p.questions && qs.every((q) => q['source_verified'] == true);
-              final year = RegExp(r'\\d{4}').firstMatch(p.title)?.group(0) ?? '';
+              final year = RegExp(r'\d{4}').firstMatch(p.title)?.group(0) ?? '';
               return Card(
                 margin: const EdgeInsets.only(bottom: 8),
                 child: InkWell(
@@ -292,7 +292,22 @@ class _HomePageState extends State<HomePage> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 10),
                     child: Row(children: [
-                      Container(width: 60, height: 54, decoration: BoxDecoration(gradient: LinearGradient(colors: ok ? const [Color(0xFFE7EEFF), Color(0xFFDCE5FF)] : const [Color(0xFFF3F4F6), Color(0xFFE5E7EB)]), borderRadius: BorderRadius.circular(15)), child: Center(child: Text(year, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: ok ? const Color(0xFF4338CA) : Colors.grey[600])))),
+                      Container(
+                        width: 60,
+                        height: 54,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(colors: ok ? const [Color(0xFFE7EEFF), Color(0xFFDCE5FF)] : const [Color(0xFFF3F4F6), Color(0xFFE5E7EB)]),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(ok ? Icons.description_rounded : Icons.hourglass_bottom_rounded, size: 24, color: ok ? const Color(0xFF4338CA) : Colors.grey[600]),
+                            const SizedBox(height: 2),
+                            Text(year, style: TextStyle(fontSize: 9, fontWeight: FontWeight.w900, color: ok ? const Color(0xFF4338CA) : Colors.grey[600])),
+                          ],
+                        ),
+                      ),
                       const SizedBox(width: 10),
                       Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         Text(p.title + ' — Paper-I', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
@@ -367,7 +382,7 @@ class _HomePageState extends State<HomePage> {
           Text(gu ? 'નાના પગલાં,' : 'Small Steps,', style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900, height: 1)),
           Text(gu ? 'મોટી સફળતા! 🚀' : 'Big Success! 🚀', style: const TextStyle(color: Color(0xFFFFD34E), fontSize: 26, fontWeight: FontWeight.w900, height: 1)),
           const SizedBox(height: 9),
-          Text(gu ? 'આજે માત્ર 10 પ્રશ્નો.\\nGSET journey રોજ આગળ વધારો.' : 'Just 10 questions today.\\nBuild your GSET journey one day at a time.', style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.35, fontWeight: FontWeight.w600)),
+          Text(gu ? 'આજે માત્ર 10 પ્રશ્નો.\nGSET journey રોજ આગળ વધારો.' : 'Just 10 questions today.\nBuild your GSET journey one day at a time.', style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.35, fontWeight: FontWeight.w600)),
           const Spacer(),
           FilledButton.icon(
             style: FilledButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6), foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12), shape: const StadiumBorder()),
