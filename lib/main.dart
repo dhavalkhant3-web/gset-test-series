@@ -251,6 +251,26 @@ class _HomePageState extends State<HomePage> {
             Card(
               child: InkWell(
                 borderRadius: BorderRadius.circular(18),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AnalyticsPage(gu: gu, data: data))),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(children: [
+                    Container(width: 46, height: 46, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.analytics_rounded, color: Color(0xFF6D28D9))),
+                    const SizedBox(width: 12),
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text(gu ? 'Performance Analytics' : 'Performance Analytics', style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                      const SizedBox(height: 3),
+                      Text(gu ? 'તમારી accuracy અને topic-wise performance જુઓ' : 'View your accuracy and topic-wise performance', style: const TextStyle(fontSize: 12, height: 1.3)),
+                    ])),
+                    const Icon(Icons.chevron_right_rounded),
+                  ]),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
                 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => WeakAreasPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets))),
                 child: Padding(
                   padding: const EdgeInsets.all(16),
@@ -804,6 +824,116 @@ class MistakeBookPage extends StatelessWidget {
             ]),
     );
   }
+}
+
+class AnalyticsPage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  const AnalyticsPage({super.key, required this.gu, required this.data});
+  @override State<AnalyticsPage> createState() => _AnalyticsPageState();
+}
+
+class _AnalyticsPageState extends State<AnalyticsPage> {
+  int attempted = 0, correct = 0;
+  Map<String, int> attempts = {}, rights = {};
+
+  @override
+  void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final p = await SharedPreferences.getInstance();
+    final a = p.getInt('gset_total_attempted') ?? 0;
+    final r = p.getInt('gset_total_correct') ?? 0;
+    final am = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_attempts') ?? '{}'));
+    final rr = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_correct') ?? '{}'));
+    if (!mounted) return;
+    setState(() {
+      attempted = a;
+      correct = r;
+      attempts = am.map((k, v) => MapEntry(k, (v as num).toInt()));
+      rights = rr.map((k, v) => MapEntry(k, (v as num).toInt()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final accuracy = attempted == 0 ? 0 : (correct * 100 / attempted).round();
+    final topics = {...attempts.keys, ...rights.keys}.toList();
+    topics.sort((a, b) {
+      final aa = attempts[a] ?? 0, ab = attempts[b] ?? 0;
+      final pa = aa == 0 ? 0 : ((rights[a] ?? 0) * 100 / aa).round();
+      final pb = ab == 0 ? 0 : ((rights[b] ?? 0) * 100 / ab).round();
+      return pa.compareTo(pb);
+    });
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'મારું Analytics' : 'My Analytics')),
+      body: ListView(
+        padding: const EdgeInsets.all(14),
+        children: [
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? 'તમારું Performance' : 'Your Performance', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 14),
+              Row(children: [
+                Expanded(child: _stat(Icons.quiz_rounded, attempted.toString(), widget.gu ? 'પ્રયાસ' : 'Attempted')),
+                Expanded(child: _stat(Icons.check_circle_rounded, correct.toString(), widget.gu ? 'સાચા' : 'Correct')),
+                Expanded(child: _stat(Icons.percent_rounded, '$accuracy%', widget.gu ? 'Accuracy' : 'Accuracy')),
+              ]),
+              const SizedBox(height: 16),
+              LinearProgressIndicator(value: accuracy / 100, minHeight: 9),
+              const SizedBox(height: 8),
+              Text(widget.gu ? 'Accuracy = સાચા જવાબ ÷ કુલ attempted' : 'Accuracy = correct answers ÷ total attempted', style: const TextStyle(fontSize: 11)),
+            ]),
+          )),
+          const SizedBox(height: 12),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? '📊 Topic-wise Performance' : '📊 Topic-wise Performance', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 12),
+              if (topics.isEmpty)
+                Text(widget.gu ? 'હજુ topic data નથી. પ્રશ્નો solve કરો.' : 'No topic data yet. Solve some questions first.')
+              else
+                ...topics.map((topic) {
+                  final a = attempts[topic] ?? 0;
+                  final r = rights[topic] ?? 0;
+                  final pct = a == 0 ? 0 : (r * 100 / a).round();
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 13),
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Row(children: [
+                        Expanded(child: Text(topic, style: const TextStyle(fontWeight: FontWeight.w800))),
+                        Text('$pct%  ($r/$a)', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)),
+                      ]),
+                      const SizedBox(height: 6),
+                      LinearProgressIndicator(value: pct / 100, minHeight: 7),
+                    ]),
+                  );
+                }),
+            ]),
+          )),
+          const SizedBox(height: 12),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Text(
+              widget.gu
+                ? '💡 Tip: ઓછા accuracy વાળા topic પર Targeted Practice કરો.'
+                : '💡 Tip: Use Targeted Practice for topics with lower accuracy.',
+              style: const TextStyle(fontWeight: FontWeight.w700, height: 1.35),
+            ),
+          )),
+        ],
+      ),
+    );
+  }
+
+  Widget _stat(IconData icon, String value, String label) => Column(children: [
+    Icon(icon, size: 27),
+    const SizedBox(height: 5),
+    Text(value, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+    Text(label, style: const TextStyle(fontSize: 11)),
+  ]);
 }
 
 class WeakAreasPage extends StatefulWidget {
