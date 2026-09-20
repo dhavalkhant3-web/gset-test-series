@@ -25,6 +25,99 @@ class GsetApp extends StatelessWidget {
       );
 }
 
+class FirebaseSync {
+  static User? get user => FirebaseAuth.instance.currentUser;
+
+  static Future<void> pullAndMerge(SharedPreferences prefs) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      final ref = FirebaseFirestore.instance.collection('users').doc(u.uid).collection('app').doc('state');
+      final snap = await ref.get();
+      if (!snap.exists) {
+        await pushLocal(prefs);
+        return;
+      }
+      final cloud = snap.data() ?? {};
+      final bookmarks = {...(prefs.getStringList('bookmarks') ?? []), ..._strings(cloud['bookmarks'])};
+      final mistakes = {...(prefs.getStringList('mistakes') ?? []), ..._strings(cloud['mistakes'])};
+      await prefs.setStringList('bookmarks', bookmarks.toList());
+      await prefs.setStringList('mistakes', mistakes.toList());
+
+      for (final key in ['gset_today_done', 'gset_xp', 'gset_streak', 'gset_total_attempted', 'gset_total_correct']) {
+        final local = prefs.getInt(key) ?? 0;
+        final remote = (cloud[key] as num?)?.toInt() ?? 0;
+        await prefs.setInt(key, max(local, remote));
+      }
+
+      final localAttempts = _jsonMap(prefs.getString('gset_topic_attempts'));
+      final localCorrect = _jsonMap(prefs.getString('gset_topic_correct'));
+      final mergedAttempts = _mergeMax(localAttempts, _numMap(cloud['topicAttempts']));
+      final mergedCorrect = _mergeMax(localCorrect, _numMap(cloud['topicCorrect']));
+      await prefs.setString('gset_topic_attempts', jsonEncode(mergedAttempts));
+      await prefs.setString('gset_topic_correct', jsonEncode(mergedCorrect));
+      await pushLocal(prefs);
+    } catch (_) {}
+  }
+
+  static Future<void> pushLocal(SharedPreferences prefs) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      final ref = FirebaseFirestore.instance.collection('users').doc(u.uid).collection('app').doc('state');
+      await ref.set({
+        'bookmarks': prefs.getStringList('bookmarks') ?? <String>[],
+        'mistakes': prefs.getStringList('mistakes') ?? <String>[],
+        'gset_today_done': prefs.getInt('gset_today_done') ?? 0,
+        'gset_xp': prefs.getInt('gset_xp') ?? 0,
+        'gset_streak': prefs.getInt('gset_streak') ?? 0,
+        'gset_total_attempted': prefs.getInt('gset_total_attempted') ?? 0,
+        'gset_total_correct': prefs.getInt('gset_total_correct') ?? 0,
+        'topicAttempts': _jsonMap(prefs.getString('gset_topic_attempts')),
+        'topicCorrect': _jsonMap(prefs.getString('gset_topic_correct')),
+        'updatedAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    } catch (_) {}
+  }
+
+  static Future<void> addFeedback(Map<String, dynamic> item) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      await FirebaseFirestore.instance.collection('users').doc(u.uid).collection('feedback').add({
+        ...item,
+        'createdAt': FieldValue.serverTimestamp(),
+      });
+    } catch (_) {}
+  }
+
+  static Set<String> _strings(dynamic value) =>
+      value is List ? value.map((e) => e.toString()).toSet() : <String>{};
+
+  static Map<String, dynamic> _jsonMap(String? raw) {
+    if (raw == null || raw.isEmpty) return {};
+    try {
+      final value = jsonDecode(raw);
+      return value is Map ? Map<String, dynamic>.from(value) : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  static Map<String, dynamic> _numMap(dynamic value) =>
+      value is Map ? Map<String, dynamic>.from(value) : {};
+
+  static Map<String, dynamic> _mergeMax(Map<String, dynamic> a, Map<String, dynamic> b) {
+    final result = <String, dynamic>{...a};
+    for (final entry in b.entries) {
+      final av = (result[entry.key] as num?)?.toInt() ?? 0;
+      final bv = (entry.value as num?)?.toInt() ?? 0;
+      result[entry.key] = max(av, bv);
+    }
+    return result;
+  }
+}
+
 class PaperInfo {
   final String id, title, date;
   final int questions;
@@ -93,6 +186,19 @@ class _HomePageState extends State<HomePage> {
       totalAttempted = prefs.getInt('gset_total_attempted') ?? 0;
       totalCorrect = prefs.getInt('gset_total_correct') ?? 0;
     });
+    await FirebaseSync.pullAndMerge(prefs);
+    if (mounted) {
+      final refreshed = await SharedPreferences.getInstance();
+      setState(() {
+        bookmarks = (refreshed.getStringList('bookmarks') ?? []).toSet();
+        mistakes = (refreshed.getStringList('mistakes') ?? []).toSet();
+        todayDone = refreshed.getInt('gset_today_done') ?? 0;
+        xp = refreshed.getInt('gset_xp') ?? 0;
+        streak = refreshed.getInt('gset_streak') ?? 0;
+        totalAttempted = refreshed.getInt('gset_total_attempted') ?? 0;
+        totalCorrect = refreshed.getInt('gset_total_correct') ?? 0;
+      });
+    }
   }
 
   List<Map<String, dynamic>> forPaper(String id) => data.where((q) => q['paperId'] == id).toList();
@@ -113,6 +219,7 @@ class _HomePageState extends State<HomePage> {
     await prefs.setStringList('bookmarks', b.toList());
     await prefs.setStringList('mistakes', m.toList());
     if (mounted) setState(() { bookmarks = b; mistakes = m; });
+    await FirebaseSync.pushLocal(prefs);
   }
 
   void _nav(int index) {
@@ -496,75 +603,193 @@ class AccountPage extends StatefulWidget {
 
 class _AccountPageState extends State<AccountPage> {
   late bool gu;
-  bool phoneMode = false;
-  bool obscure = true;
+  bool phoneMode = false, obscure = true, busy = false;
   final email = TextEditingController();
   final phone = TextEditingController();
   final password = TextEditingController();
+  final otp = TextEditingController();
+  String? verificationId;
 
-  @override void initState() { super.initState(); gu = widget.gu; }
-  @override void dispose() { email.dispose(); phone.dispose(); password.dispose(); super.dispose(); }
+  @override
+  void initState() {
+    super.initState();
+    gu = widget.gu;
+  }
 
-  void _comingSoon(String title) => showDialog(context: context, builder: (_) => AlertDialog(
-    title: Text(title),
-    content: Text(gu ? 'આ સુવિધા Firebase configuration પછી live થશે. હાલ UI અને flow તૈયાર છે.' : 'This feature will go live after Firebase configuration. The UI and flow are ready.'),
-    actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))],
-  ));
+  @override
+  void dispose() {
+    email.dispose();
+    phone.dispose();
+    password.dispose();
+    otp.dispose();
+    super.dispose();
+  }
 
-  @override Widget build(BuildContext context) {
+  String _error(Object e) {
+    if (e is FirebaseAuthException) {
+      switch (e.code) {
+        case 'invalid-email': return gu ? 'Email address ખોટું છે.' : 'Invalid email address.';
+        case 'user-not-found': return gu ? 'આ email માટે account મળ્યું નથી.' : 'No account found for this email.';
+        case 'wrong-password':
+        case 'invalid-credential': return gu ? 'Email અથવા password ખોટો છે.' : 'Incorrect email or password.';
+        case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે.' : 'This email is already registered.';
+        case 'weak-password': return gu ? 'Password ઓછામાં ઓછો 6 characters રાખો.' : 'Password must be at least 6 characters.';
+        case 'too-many-requests': return gu ? 'ઘણા પ્રયાસ થયા. થોડા સમય પછી ફરી પ્રયાસ કરો.' : 'Too many attempts. Please try again later.';
+        case 'invalid-verification-code': return gu ? 'OTP ખોટો છે.' : 'Invalid OTP.';
+        case 'invalid-verification-id': return gu ? 'OTP session expire થઈ છે. ફરી OTP મોકલો.' : 'OTP session expired. Send a new OTP.';
+        case 'quota-exceeded': return gu ? 'OTP quota પૂર્ણ થઈ છે. પછીથી પ્રયાસ કરો.' : 'OTP quota exceeded. Try again later.';
+        default: return e.message ?? (gu ? 'Firebase error આવ્યો.' : 'A Firebase error occurred.');
+      }
+    }
+    return gu ? 'કંઈક error આવ્યું. ફરી પ્રયાસ કરો.' : 'Something went wrong. Please try again.';
+  }
+
+  Future<void> _run(Future<void> Function() action) async {
+    if (busy) return;
+    setState(() => busy = true);
+    try {
+      await action();
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'સફળતાપૂર્વક થયું ✅' : 'Done successfully ✅')));
+    } catch (e) {
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(_error(e))));
+    } finally {
+      if (mounted) setState(() => busy = false);
+    }
+  }
+
+  Future<void> _login() => _run(() async {
+    await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text.trim(), password: password.text);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pullAndMerge(prefs);
+  });
+
+  Future<void> _register() => _run(() async {
+    await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email.text.trim(), password: password.text);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pushLocal(prefs);
+  });
+
+  Future<void> _resetPassword() => _run(() async {
+    await FirebaseAuth.instance.sendPasswordResetEmail(email: email.text.trim());
+  });
+
+  Future<void> _sendOtp() async {
+    final value = phone.text.trim();
+    if (value.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'Mobile number લખો.' : 'Enter mobile number.')));
+      return;
+    }
+    await _run(() async {
+      await FirebaseAuth.instance.verifyPhoneNumber(
+        phoneNumber: value,
+        verificationCompleted: (credential) async {
+          await FirebaseAuth.instance.signInWithCredential(credential);
+          final prefs = await SharedPreferences.getInstance();
+          await FirebaseSync.pullAndMerge(prefs);
+          if (mounted) setState(() {});
+        },
+        verificationFailed: (e) => throw e,
+        codeSent: (id, _) {
+          if (mounted) {
+            setState(() => verificationId = id);
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'OTP મોકલાયો છે.' : 'OTP sent.')));
+          }
+        },
+        codeAutoRetrievalTimeout: (id) => verificationId = id,
+      );
+    });
+  }
+
+  Future<void> _verifyOtp() => _run(() async {
+    final id = verificationId;
+    if (id == null) throw FirebaseAuthException(code: 'invalid-verification-id');
+    final credential = PhoneAuthProvider.credential(verificationId: id, smsCode: otp.text.trim());
+    await FirebaseAuth.instance.signInWithCredential(credential);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pullAndMerge(prefs);
+    if (mounted) setState(() => verificationId = null);
+  });
+
+  Future<void> _logout() async {
+    await FirebaseAuth.instance.signOut();
+    if (mounted) setState(() {});
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
+    final user = FirebaseAuth.instance.currentUser;
     return Scaffold(
-      appBar: AppBar(title: Text(gu ? 'મારું Account' : 'My Account'), actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))]),
-      body: ListView(padding: const EdgeInsets.fromLTRB(16, 12, 16, 28), children: [
-        Container(
-          padding: const EdgeInsets.all(22),
-          decoration: BoxDecoration(
-            gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.primary, cs.primaryContainer]),
-            borderRadius: BorderRadius.circular(24),
-            boxShadow: [BoxShadow(color: cs.primary.withValues(alpha: .18), blurRadius: 18, offset: const Offset(0, 8))],
+      appBar: AppBar(
+        title: Text(gu ? 'મારું Account' : 'My Account'),
+        actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))],
+      ),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(22),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.primary, cs.primaryContainer]),
+              borderRadius: BorderRadius.circular(24),
+            ),
+            child: Row(children: [
+              CircleAvatar(radius: 30, backgroundColor: Colors.white, child: Icon(Icons.person_rounded, size: 34, color: cs.primary)),
+              const SizedBox(width: 16),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                const Text('GSET Student Account', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 4),
+                Text(user == null
+                    ? (gu ? 'Login કરીને progress cloud માં સાચવો' : 'Login to save your progress to cloud')
+                    : (user.email ?? user.phoneNumber ?? 'Signed in'),
+                    style: const TextStyle(color: Colors.white70, height: 1.3)),
+              ])),
+            ]),
           ),
-          child: Row(children: [
-            CircleAvatar(radius: 30, backgroundColor: Colors.white, child: Icon(Icons.person_rounded, size: 34, color: cs.primary)),
-            const SizedBox(width: 16),            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Text('GSET Student Account', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.bold)),
-              const SizedBox(height: 4),
-              Text(gu ? 'Login કરીને તમારી progress અને purchases સાચવો' : 'Login to save your progress and purchases', style: const TextStyle(color: Colors.white70, height: 1.3)),
-            ])),
-          ]),
-        ),
-        const SizedBox(height: 18),
-        SegmentedButton<bool>(
-          expandedInsets: EdgeInsets.zero,
-          segments: const [ButtonSegment(value: false, label: Text('Email')), ButtonSegment(value: true, label: Text('Phone OTP'))],
-          selected: {phoneMode},
-          onSelectionChanged: (s) => setState(() => phoneMode = s.first),
-        ),
-        const SizedBox(height: 16),
-        if (!phoneMode) ...[
-          TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: const InputDecoration(prefixIcon: Icon(Icons.email_outlined), labelText: 'Email')),
-          const SizedBox(height: 12),
-          TextField(controller: password, obscureText: obscure, decoration: InputDecoration(prefixIcon: const Icon(Icons.lock_outline), labelText: 'Password', suffixIcon: IconButton(onPressed: () => setState(() => obscure = !obscure), icon: Icon(obscure ? Icons.visibility_outlined : Icons.visibility_off_outlined)))),
-          Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () => _comingSoon('Password Reset'), child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),
-          FilledButton.icon(onPressed: () => _comingSoon('Login'), icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
-          const SizedBox(height: 8),
-          OutlinedButton(onPressed: () => _comingSoon('Create Account'), child: Text(gu ? 'નવું Account બનાવો' : 'Create new account')),
-        ] else ...[
-          TextField(controller: phone, keyboardType: TextInputType.phone, decoration: const InputDecoration(prefixIcon: Icon(Icons.phone_outlined), labelText: 'Mobile Number', hintText: '+91 XXXXX XXXXX')),
-          const SizedBox(height: 14),
-          FilledButton.icon(onPressed: () => _comingSoon('OTP Login'), icon: const Icon(Icons.sms_outlined), label: Text(gu ? 'OTP મોકલો' : 'Send OTP')),
+          const SizedBox(height: 18),
+          if (user != null)
+            Card(child: ListTile(
+              leading: const CircleAvatar(child: Icon(Icons.cloud_done_outlined)),
+              title: Text(gu ? 'Cloud Sync ચાલુ છે' : 'Cloud Sync is active'),
+              subtitle: Text(gu ? 'તમારી progress Firebase માં sync થાય છે.' : 'Your progress is synced with Firebase.'),
+              trailing: FilledButton(onPressed: busy ? null : _logout, child: Text(gu ? 'Logout' : 'Logout')),
+            ))
+          else ...[
+            SegmentedButton<bool>(
+              expandedInsets: EdgeInsets.zero,
+              segments: const [ButtonSegment(value: false, label: Text('Email')), ButtonSegment(value: true, label: Text('Phone OTP'))],
+              selected: {phoneMode},
+              onSelectionChanged: (s) => setState(() => phoneMode = s.first),
+            ),
+            const SizedBox(height: 16),
+            if (!phoneMode) ...[
+              TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: const InputDecoration(prefixIcon: Icon(Icons.email_outlined), labelText: 'Email')),
+              const SizedBox(height: 12),
+              TextField(controller: password, obscureText: obscure, decoration: InputDecoration(prefixIcon: const Icon(Icons.lock_outline), labelText: 'Password', suffixIcon: IconButton(onPressed: () => setState(() => obscure = !obscure), icon: Icon(obscure ? Icons.visibility_outlined : Icons.visibility_off_outlined)))),
+              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: busy ? null : _resetPassword, child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),
+              FilledButton.icon(onPressed: busy ? null : _login, icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
+              const SizedBox(height: 8),
+              OutlinedButton.icon(onPressed: busy ? null : _register, icon: const Icon(Icons.person_add_alt_1), label: Text(gu ? 'નવું Account બનાવો' : 'Create new account')),
+            ] else ...[
+              TextField(controller: phone, keyboardType: TextInputType.phone, decoration: const InputDecoration(prefixIcon: Icon(Icons.phone_outlined), labelText: 'Mobile Number', hintText: '+91 XXXXX XXXXX')),
+              const SizedBox(height: 14),
+              if (verificationId == null)
+                FilledButton.icon(onPressed: busy ? null : _sendOtp, icon: const Icon(Icons.sms_outlined), label: Text(gu ? 'OTP મોકલો' : 'Send OTP'))
+              else ...[
+                TextField(controller: otp, keyboardType: TextInputType.number, decoration: const InputDecoration(prefixIcon: Icon(Icons.pin_outlined), labelText: 'OTP')),
+                const SizedBox(height: 12),
+                FilledButton.icon(onPressed: busy ? null : _verifyOtp, icon: const Icon(Icons.verified_outlined), label: Text(gu ? 'OTP Verify કરો' : 'Verify OTP')),
+              ],
+            ],
+          ],
+          const SizedBox(height: 22),
+          Card(child: Column(children: [
+            ListTile(leading: const CircleAvatar(child: Icon(Icons.forum_outlined)), title: Text(gu ? 'Feedback & Suggestion' : 'Feedback & Suggestion'), subtitle: Text(gu ? 'Feedback, suggestion અથવા question report કરો' : 'Send feedback, suggestions or report a question'), trailing: const Icon(Icons.chevron_right), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu)))),
+            const Divider(height: 1),
+            ListTile(leading: const CircleAvatar(child: Icon(Icons.shopping_bag_outlined)), title: Text(gu ? 'My Test Series' : 'My Test Series'), subtitle: Text(gu ? 'Purchased test series અહીં દેખાશે' : 'Purchased test series will appear here'), trailing: const Icon(Icons.chevron_right), onTap: () => showDialog(context: context, builder: (_) => AlertDialog(title: const Text('Coming Soon'), content: Text(gu ? 'Paid test-series unlock આગળના step માં connect કરીશું.' : 'Paid test-series unlock will be connected in the next step.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]))),
+          ])),
         ],
-        const SizedBox(height: 22),
-        Card(child: Column(children: [
-          ListTile(leading: const CircleAvatar(child: Icon(Icons.forum_outlined)), title: Text(gu ? 'Feedback & Suggestion' : 'Feedback & Suggestion'), subtitle: Text(gu ? 'Feedback, suggestion અથવા question report કરો' : 'Send feedback, suggestions or report a question'), trailing: const Icon(Icons.chevron_right), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu)))),
-          const Divider(height: 1),
-          ListTile(leading: const CircleAvatar(child: Icon(Icons.shopping_bag_outlined)), title: Text(gu ? 'My Test Series' : 'My Test Series'), subtitle: Text(gu ? 'Purchased test series અહીં દેખાશે' : 'Purchased test series will appear here'), trailing: const Icon(Icons.chevron_right), onTap: () => _comingSoon('My Purchases')),
-        ])),
-        const SizedBox(height: 14),
-        Container(padding: const EdgeInsets.all(14), decoration: BoxDecoration(color: cs.surfaceContainerHighest, borderRadius: BorderRadius.circular(16)), child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Icon(Icons.cloud_outlined, color: cs.primary), const SizedBox(width: 10),
-          Expanded(child: Text(gu ? 'Secure cloud login અને purchase sync Firebase configuration પછી connect થશે.' : 'Secure cloud login and purchase sync will connect after Firebase configuration.', style: const TextStyle(height: 1.35))),
-        ])),
-      ]),
+      ),
     );
   }
 }
@@ -604,6 +829,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
     final old = prefs.getStringList('feedback_items') ?? [];
     old.add(item);
     await prefs.setStringList('feedback_items', old);
+    await FirebaseSync.addFeedback(jsonDecode(item) as Map<String, dynamic>);
     if (!mounted) return;
     await showDialog(context: context, builder: (_) => AlertDialog(
       icon: const Icon(Icons.check_circle_outline, size: 42),
@@ -726,6 +952,7 @@ class _TestPageState extends State<TestPage> {
     await prefs.setInt('gset_streak', currentStreak);    await prefs.setInt('gset_xp', currentXp);
     await prefs.setInt('gset_total_attempted', totalAttempted);
     await prefs.setInt('gset_total_correct', totalCorrect);
+    await FirebaseSync.pushLocal(prefs);
     if (!mounted) return;
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => ResultPage(title: widget.title, score: score, total: evaluated, attempted: answered, gu: gu, questions: widget.data, answers: answers, bookmarks: b, mistakes: m, onStateChanged: widget.onStateChanged, practice: widget.practice)));
   }
