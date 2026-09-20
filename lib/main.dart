@@ -338,9 +338,9 @@ class _HomePageState extends State<HomePage> {
         height: 68,
         selectedIndex: selectedNav,
         onDestinationSelected: _nav,
-        destinations: const [
+        destinations: [
           NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: gu ? 'હોમ' : 'Home'),
-          NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description_rounded), label: gu ? 'પેપર' : gu ? 'પેપર' : 'Papers'),
+          NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description_rounded), label: gu ? 'પેપર' : 'Papers'),
           NavigationDestination(icon: Icon(Icons.shuffle_rounded), selectedIcon: Icon(Icons.play_arrow_rounded), label: gu ? 'પ્રેક્ટિસ' : 'Practice'),
           NavigationDestination(icon: Icon(Icons.person_outline_rounded), selectedIcon: Icon(Icons.person_rounded), label: gu ? 'પ્રોફાઇલ' : 'Profile'),
         ],
