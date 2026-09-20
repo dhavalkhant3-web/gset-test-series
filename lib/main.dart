@@ -936,6 +936,54 @@ class _AnalyticsPageState extends State<AnalyticsPage> {
   ]);
 }
 
+class TargetedPracticePage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final String topic;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const TargetedPracticePage({super.key, required this.gu, required this.data, required this.topic, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  @override State<TargetedPracticePage> createState() => _TargetedPracticePageState();
+}
+
+class _TargetedPracticePageState extends State<TargetedPracticePage> {
+  @override
+  Widget build(BuildContext context) {
+    final qs = widget.data.where((q) => (q['topic'] ?? 'General').toString() == widget.topic).toList()..shuffle(Random());
+    final selected = qs.take(min(20, qs.length)).toList();
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'Targeted Practice' : 'Targeted Practice')),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? '🎯 Weak Topic Practice' : '🎯 Weak Topic Practice', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 8),
+              Text(widget.topic, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+              const SizedBox(height: 6),
+              Text(widget.gu ? '${selected.length} પ્રશ્નો • Focused revision' : '${selected.length} questions • Focused revision'),
+            ]),
+          )),
+          const Spacer(),
+          SizedBox(width: double.infinity, child: FilledButton.icon(
+            onPressed: selected.isEmpty ? null : () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+              data: selected, gu: widget.gu,
+              title: widget.gu ? 'Targeted: ${widget.topic}' : 'Targeted: ${widget.topic}',
+              practice: true,
+              bookmarks: widget.bookmarks, mistakes: widget.mistakes,
+              onStateChanged: widget.onStateChanged,
+            ))),
+            icon: const Icon(Icons.play_arrow_rounded),
+            label: Text(widget.gu ? 'Practice શરૂ કરો' : 'Start Practice'),
+          )),
+        ]),
+      ),
+    );
+  }
+}
+
 class WeakAreasPage extends StatefulWidget {
   final bool gu;
   final List<Map<String, dynamic>> data;
