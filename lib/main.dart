@@ -227,7 +227,7 @@ class _HomePageState extends State<HomePage> {
                 _badge(Icons.check_circle_rounded, '10\nQuestions', done >= 10),
                 _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
                 _badge(Icons.psychology_rounded, '100\nQuestions', totalAttempted >= 100),
-              ]), const Text(gu ? 'ચાલુ રાખો →' : 'Keep going →', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
+              ]), Text(gu ? 'ચાલુ રાખો →' : 'Keep going →', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
               final progress = _section(gu ? 'તમારો Progress' : 'Your Progress', SizedBox(height: 112, child: Row(children: [
                 SizedBox(width: 92, height: 92, child: Stack(alignment: Alignment.center, children: [
                   CircularProgressIndicator(value: accuracy / 100, strokeWidth: 9, backgroundColor: const Color(0xFFE5E7EB), color: const Color(0xFF10B981)),
