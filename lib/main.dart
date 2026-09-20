@@ -206,6 +206,11 @@ class _HomePageState extends State<HomePage> {
             LayoutBuilder(builder: (_, c) {
               final actions = [
                 _action(Icons.shuffle_rounded, gu ? 'રેન્ડમ પ્રેક્ટિસ' : 'Random Practice', gu ? 'મિશ્ર પ્રશ્નો' : 'Mixed Questions', const Color(0xFF2563EB), _openPractice),
+                _action(Icons.timer_rounded, gu ? 'મોક ટેસ્ટ' : 'Mock Test', gu ? '50 પ્રશ્નો • 60 મિનિટ' : '50 Questions • 60 Minutes', const Color(0xFF7C3AED), () async {
+                  final qs = [...data]..shuffle(Random());
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs.take(min(50, qs.length)).toList(), gu: gu, title: gu ? 'GSET મોક ટેસ્ટ' : 'GSET Mock Test', mock: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                  await _load();
+                }),
                 _action(Icons.track_changes_rounded, gu ? 'દૈનિક ચેલેન્જ' : 'Daily Challenge', gu ? '10 પ્રશ્નો' : '10 Questions', const Color(0xFF059669), _openPractice),
                 _action(Icons.menu_book_rounded, gu ? 'ભૂલ બુક' : 'Mistake Book', mistakes.length.toString() + (gu ? ' સાચવેલી' : ' saved'), const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
                   await Navigator.push(context, MaterialPageRoute(builder: (_) => MistakeBookPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets)));
@@ -619,9 +624,9 @@ class _FeedbackPageState extends State<FeedbackPage> {
 }
 
 class TestPage extends StatefulWidget {
-  final List<Map<String, dynamic>> data; final bool gu; final String title; final bool practice;
+  final List<Map<String, dynamic>> data; final bool gu; final String title; final bool practice; final bool mock;
   final Set<String> bookmarks, mistakes; final Future<void> Function(Set<String>, Set<String>) onStateChanged;
-  const TestPage({super.key, required this.data, required this.gu, required this.title, this.practice = false, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  const TestPage({super.key, required this.data, required this.gu, required this.title, this.practice = false, this.mock = false, required this.bookmarks, required this.mistakes, required this.onStateChanged});
   @override State<TestPage> createState() => _TestPageState();
 }
 
@@ -631,7 +636,7 @@ class _TestPageState extends State<TestPage> {
   bool finishing = false;
   late Set<String> b, m;
   Map<String, dynamic> get q => widget.data[i];
-  int get maxSeconds => widget.practice ? 20 * 60 : widget.data.length * 72;
+  int get maxSeconds => widget.mock ? 60 * 60 : (widget.practice ? 20 * 60 : widget.data.length * 72);
 
   @override void initState() { super.initState(); gu = widget.gu; started = DateTime.now(); b = {...widget.bookmarks}; m = {...widget.mistakes}; timer = Timer.periodic(const Duration(seconds: 1), (_) { if (mounted && DateTime.now().difference(started).inSeconds >= maxSeconds) _finish(); else if (mounted) setState(() {}); }); }
   @override void dispose() { timer?.cancel(); super.dispose(); }
@@ -737,20 +742,20 @@ class _TestPageState extends State<TestPage> {
           Row(children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), const SizedBox(width: 8), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
           const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: Text(gu ? q['question_gu'] : q['question_en'], style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
-          ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (submitted && right) fill = Colors.green.withValues(alpha: .15); if (submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
+          ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (!widget.mock && submitted && right) fill = Colors.green.withValues(alpha: .15); if (!widget.mock && submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
             // Flutter 3.38 deprecates RadioListTile.groupValue/onChanged in favor of RadioGroup.
             // Keep the current behavior intact until the RadioGroup migration is made in a dedicated UI refactor.
             // ignore: deprecated_member_use
-            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted ? null : (v) => setState(() => selected = v), title: Text('$letter. ${opts[j]}'))); }),
+            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => setState(() => selected = v), title: Text('$letter. ${opts[j]}'))); }),
           const SizedBox(height: 8),
-          if (!submitted) FilledButton.icon(onPressed: selected == null ? null : submit, icon: const Icon(Icons.check), label: Text(gu ? 'જવાબ Submit કરો' : 'Submit Answer')),
-          if (submitted) Card(child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          if (!submitted) FilledButton.icon(onPressed: selected == null ? null : submit, icon: const Icon(Icons.check), label: Text(widget.mock ? (gu ? 'જવાબ સાચવો' : 'Save Answer') : (gu ? 'જવાબ Submit કરો' : 'Submit Answer'))),
+          if (submitted && !widget.mock) Card(child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(notEval ? (gu ? '⚠️ સત્તાવાર key મુજબ evaluationમાં ગણાતો નથી.' : '⚠️ Not evaluated according to the official key.') : (isCorrect ? (gu ? '✅ સાચો જવાબ' : '✅ Correct') : (gu ? '❌ ખોટો જવાબ' : '❌ Wrong')), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
             if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), Text(gu ? q['explanation_gu'] : q['explanation_en'])],
             if (q['review_flag'] == true) ...[const SizedBox(height: 10), Container(width: double.infinity, padding: const EdgeInsets.all(10), decoration: BoxDecoration(color: Colors.amber.withValues(alpha: .16), borderRadius: BorderRadius.circular(8)), child: Text('⚠️ ${gu ? 'સમીક્ષા નોંધ / Review Note' : 'Review Note'}: ${q['review_note']}'))],
             const SizedBox(height: 10), Text(gu ? '💡 Exam Tip: ${q['tip_gu']}' : '💡 Exam Tip: ${q['tip_en']}'),
           ]))),
-          if (submitted) FilledButton(onPressed: next, child: Text(i == widget.data.length - 1 ? (gu ? 'પરિણામ જુઓ' : 'View Result') : (gu ? 'આગળ' : 'Next'))),
+          if (submitted) FilledButton(onPressed: next, child: Text(i == widget.data.length - 1 ? (widget.mock ? (gu ? 'મોક ટેસ્ટ Submit કરો' : 'Submit Mock Test') : (gu ? 'પરિણામ જુઓ' : 'View Result')) : (gu ? 'આગળ' : 'Next'))),
         ])),
       ])));
   }
