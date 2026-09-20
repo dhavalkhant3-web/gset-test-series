@@ -632,13 +632,23 @@ class _AccountPageState extends State<AccountPage> {
         case 'user-not-found': return gu ? 'આ email માટે account મળ્યું નથી.' : 'No account found for this email.';
         case 'wrong-password':
         case 'invalid-credential': return gu ? 'Email અથવા password ખોટો છે.' : 'Incorrect email or password.';
-        case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે.' : 'This email is already registered.';
+        case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે. Login કરો.' : 'This email is already registered. Please login.';
         case 'weak-password': return gu ? 'Password ઓછામાં ઓછો 6 characters રાખો.' : 'Password must be at least 6 characters.';
         case 'too-many-requests': return gu ? 'ઘણા પ્રયાસ થયા. થોડા સમય પછી ફરી પ્રયાસ કરો.' : 'Too many attempts. Please try again later.';
+        case 'operation-not-allowed': return gu ? 'આ login method Firebase માં enabled નથી.' : 'This sign-in method is not enabled in Firebase.';
+        case 'network-request-failed': return gu ? 'Internet connection તપાસો.' : 'Please check your internet connection.';
+        case 'configuration-not-found': return gu ? 'Firebase Phone Authentication configuration અધૂરી છે.' : 'Firebase Phone Authentication is not fully configured.';
         case 'invalid-verification-code': return gu ? 'OTP ખોટો છે.' : 'Invalid OTP.';
         case 'invalid-verification-id': return gu ? 'OTP session expire થઈ છે. ફરી OTP મોકલો.' : 'OTP session expired. Send a new OTP.';
         case 'quota-exceeded': return gu ? 'OTP quota પૂર્ણ થઈ છે. પછીથી પ્રયાસ કરો.' : 'OTP quota exceeded. Try again later.';
-        default: return e.message ?? (gu ? 'Firebase error આવ્યો.' : 'A Firebase error occurred.');
+        default:
+          final message = e.message ?? '';
+          if (message.contains('FirebaseAuthHostApi.')) {
+            return gu
+                ? 'Firebase Auth connection error. નવી APK install કરીને ફરી પ્રયાસ કરો.'
+                : 'Firebase Auth connection error. Install the latest APK and try again.';
+          }
+          return message.isNotEmpty ? message : (gu ? 'Firebase error આવ્યો.' : 'A Firebase error occurred.');
       }
     }
     return gu ? 'કંઈક error આવ્યું. ફરી પ્રયાસ કરો.' : 'Something went wrong. Please try again.';
