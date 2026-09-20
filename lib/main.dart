@@ -679,24 +679,39 @@ class _AccountPageState extends State<AccountPage> {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'Mobile number લખો.' : 'Enter mobile number.')));
       return;
     }
+    if (!value.startsWith('+') || value.length < 10) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? '+91 સાથે valid mobile number લખો.' : 'Enter a valid mobile number with country code, e.g. +91XXXXXXXXXX.')));
+      return;
+    }
     await _run(() async {
+      final completer = Completer<void>();
       await FirebaseAuth.instance.verifyPhoneNumber(
         phoneNumber: value,
         verificationCompleted: (credential) async {
-          await FirebaseAuth.instance.signInWithCredential(credential);
-          final prefs = await SharedPreferences.getInstance();
-          await FirebaseSync.pullAndMerge(prefs);
-          if (mounted) setState(() {});
-        },
-        verificationFailed: (e) => throw e,
-        codeSent: (id, _) {
-          if (mounted) {
-            setState(() => verificationId = id);
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'OTP મોકલાયો છે.' : 'OTP sent.')));
+          try {
+            await FirebaseAuth.instance.signInWithCredential(credential);
+            final prefs = await SharedPreferences.getInstance();
+            await FirebaseSync.pullAndMerge(prefs);
+            if (!completer.isCompleted) completer.complete();
+            if (mounted) setState(() {});
+          } catch (e) {
+            if (!completer.isCompleted) completer.completeError(e);
           }
+        },
+        verificationFailed: (e) {
+          if (!completer.isCompleted) completer.completeError(e);
+        },
+        codeSent: (id, _) {
+          verificationId = id;
+          if (mounted) {
+            setState(() {});
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'OTP મોકલાયો છે. 📲' : 'OTP sent. 📲')));
+          }
+          if (!completer.isCompleted) completer.complete();
         },
         codeAutoRetrievalTimeout: (id) => verificationId = id,
       );
+      await completer.future;
     });
   }
 
