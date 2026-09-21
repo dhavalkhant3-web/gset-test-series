@@ -636,7 +636,7 @@ class _AccountPageState extends State<AccountPage> {
         case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે. Login કરો.' : 'This email is already registered. Please login.';
         case 'weak-password': return gu ? 'Password ઓછામાં ઓછો 6 characters રાખો.' : 'Password must be at least 6 characters.';
         case 'too-many-requests': return gu ? 'ઘણા પ્રયાસ થયા. થોડા સમય પછી ફરી પ્રયાસ કરો.' : 'Too many attempts. Please try again later.';
-        case 'operation-not-allowed': return gu ? 'આ login method Firebase માં enabled નથી.' : 'This sign-in method is not enabled in Firebase.';
+        case 'operation-not-allowed': return gu ? 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}' : 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}';
         case 'network-request-failed': return gu ? 'Internet connection તપાસો.' : 'Please check your internet connection.';
         case 'configuration-not-found': return gu ? 'Firebase Phone Authentication configuration અધૂરી છે.' : 'Firebase Phone Authentication is not fully configured.';
         case 'invalid-verification-code': return gu ? 'OTP ખોટો છે.' : 'Invalid OTP.';
