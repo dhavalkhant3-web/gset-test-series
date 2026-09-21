@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -694,6 +695,13 @@ class _AccountPageState extends State<AccountPage> {
       return;
     }
     await _run(() async {
+      // Development-only Firebase Phone Auth test mode. This is intentionally
+      // enabled only in debug builds so production keeps Play Integrity/reCAPTCHA.
+      if (kDebugMode) {
+        await FirebaseAuth.instance.setSettings(
+          appVerificationDisabledForTesting: true,
+        );
+      }
       final completer = Completer<void>();
       await FirebaseAuth.instance.verifyPhoneNumber(
         phoneNumber: value,
