@@ -192,24 +192,6 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _load() async {
     final raw = jsonDecode(await rootBundle.loadString('assets/questions.json')) as List;
-    if (widget.mock) {
-      score = 0;
-      m = {...m};
-      for (var n = 0; n < widget.data.length; n++) {
-        final item = widget.data[n];
-        final correct = item['answer'] as String;
-        final selectedAnswer = answers[n];
-        if (!{'Z', 'X'}.contains(correct) && selectedAnswer != null) {
-          final isRight = selectedAnswer == correct;
-          if (isRight) score++; else m.add(item['id'].toString());
-          final topic = (item['topic'] ?? 'General').toString();
-          await _recordTopicStat(topic, isRight);
-        }
-      }
-      answered = answers.length;
-      await widget.onStateChanged(b, m);
-    }
-    AppAnalytics.event('test_complete', parameters: {'mode': widget.mock ? 'mock' : (widget.practice ? 'practice' : 'paper'), 'question_count': widget.data.length, 'score': score});
     final prefs = await SharedPreferences.getInstance();
     final today = DateTime.now().toIso8601String().substring(0, 10);
     final stored = prefs.getString('gset_progress_day') ?? '';
@@ -958,6 +940,24 @@ class _FeedbackPageState extends State<FeedbackPage> {
     finishing = true;
     timer?.cancel();
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
+    if (widget.mock) {
+      score = 0;
+      m = {...m};
+      for (var n = 0; n < widget.data.length; n++) {
+        final item = widget.data[n];
+        final correct = item['answer'] as String;
+        final selectedAnswer = answers[n];
+        if (!{'Z', 'X'}.contains(correct) && selectedAnswer != null) {
+          final isRight = selectedAnswer == correct;
+          if (isRight) score++; else m.add(item['id'].toString());
+          final topic = (item['topic'] ?? 'General').toString();
+          await _recordTopicStat(topic, isRight);
+        }
+      }
+      answered = answers.length;
+      await widget.onStateChanged(b, m);
+    }
+    AppAnalytics.event('test_complete', parameters: {'mode': widget.mock ? 'mock' : (widget.practice ? 'practice' : 'paper'), 'question_count': widget.data.length, 'score': score});
     final prefs = await SharedPreferences.getInstance();
     final today = DateTime.now().toIso8601String().substring(0, 10);
     final previousDay = prefs.getString('gset_progress_day') ?? '';
