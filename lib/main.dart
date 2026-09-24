@@ -8,10 +8,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  await AppAnalytics.appOpened();
   runApp(const GsetApp());
 }
 
@@ -22,6 +24,7 @@ class GsetApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'GSET Paper-I Test Series',
         theme: ThemeData(colorSchemeSeed: const Color(0xFF5B5FEF), useMaterial3: true, scaffoldBackgroundColor: const Color(0xFFF5F7FF), cardTheme: const CardThemeData(margin: EdgeInsets.zero, elevation: 2, clipBehavior: Clip.antiAlias), appBarTheme: const AppBarTheme(centerTitle: false, elevation: 0, backgroundColor: Color(0xFFF5F7FF)), inputDecorationTheme: const InputDecorationTheme(filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide(color: Color(0xFF5B5FEF), width: 1.4)))),
+        navigatorObservers: [FirebaseAnalyticsObserver(analytics: FirebaseAnalytics.instance)],
         home: const HomePage(),
       );
 }
@@ -116,6 +119,26 @@ class FirebaseSync {
       result[entry.key] = max(av, bv);
     }
     return result;
+  }
+}
+
+class AppAnalytics {
+  static final FirebaseAnalytics instance = FirebaseAnalytics.instance;
+
+  static Future<void> appOpened() async {
+    try { await instance.logAppOpen(); } catch (_) {}
+  }
+
+  static Future<void> event(String name, {Map<String, Object>? parameters}) async {
+    try { await instance.logEvent(name: name, parameters: parameters); } catch (_) {}
+  }
+
+  static Future<void> login(String method) async {
+    try {
+      await instance.logLogin(loginMethod: method);
+      final uid = FirebaseAuth.instance.currentUser?.uid;
+      if (uid != null) await instance.setUserId(id: uid);
+    } catch (_) {}
   }
 }
 
@@ -221,6 +244,10 @@ class _HomePageState extends State<HomePage> {
     await prefs.setStringList('mistakes', m.toList());
     if (mounted) setState(() { bookmarks = b; mistakes = m; });
     await FirebaseSync.pushLocal(prefs);
+    await AppAnalytics.event('state_sync', parameters: {
+      'bookmark_count': b.length,
+      'mistake_count': m.length,
+    });
   }
 
   void _nav(int index) {
@@ -270,7 +297,7 @@ class _HomePageState extends State<HomePage> {
               showSelectedIcon: false,
               segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))],
               selected: {gu},
-              onSelectionChanged: (s) => setState(() => gu = s.first),
+              onSelectionChanged: (s) { setState(() => gu = s.first); AppAnalytics.event('language_change', parameters: {'language': s.first ? 'gujarati' : 'english'}); },
             ),
           ),
         ],
@@ -672,12 +699,14 @@ class _AccountPageState extends State<AccountPage> {
     await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text.trim(), password: password.text);
     final prefs = await SharedPreferences.getInstance();
     await FirebaseSync.pullAndMerge(prefs);
+    await AppAnalytics.login('email');
   });
 
   Future<void> _register() => _run(() async {
     await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email.text.trim(), password: password.text);
     final prefs = await SharedPreferences.getInstance();
     await FirebaseSync.pushLocal(prefs);
+    await AppAnalytics.login('email_signup');
   });
 
   Future<void> _resetPassword() => _run(() async {
@@ -710,6 +739,7 @@ class _AccountPageState extends State<AccountPage> {
             await FirebaseAuth.instance.signInWithCredential(credential);
             final prefs = await SharedPreferences.getInstance();
             await FirebaseSync.pullAndMerge(prefs);
+            await AppAnalytics.login('phone');
             if (!completer.isCompleted) completer.complete();
             if (mounted) setState(() {});
           } catch (e) {
@@ -745,6 +775,7 @@ class _AccountPageState extends State<AccountPage> {
 
   Future<void> _logout() async {
     await FirebaseAuth.instance.signOut();
+    try { await FirebaseAnalytics.instance.setUserId(id: null); } catch (_) {}
     if (mounted) setState(() {});
   }
 
@@ -960,6 +991,7 @@ class _TestPageState extends State<TestPage> {
     if (finishing) return;
     finishing = true;
     timer?.cancel();
+    AppAnalytics.event('test_complete', parameters: {'mode': widget.mock ? 'mock' : (widget.practice ? 'practice' : 'paper'), 'question_count': widget.data.length, 'score': score});
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
     final prefs = await SharedPreferences.getInstance();
     final today = DateTime.now().toIso8601String().substring(0, 10);
