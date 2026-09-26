@@ -171,6 +171,211 @@ const papers = <PaperInfo>[
   PaperInfo('2025_nov', 'November 2025', '16 November 2025', 50),
 ];
 
+
+class SubjectHubPage extends StatefulWidget {
+  final bool gu;
+  const SubjectHubPage({super.key, required this.gu});
+  @override State<SubjectHubPage> createState() => _SubjectHubPageState();
+}
+
+class _SubjectHubPageState extends State<SubjectHubPage> {
+  List<Map<String, dynamic>> subjects = [];
+  String query = '';
+  String category = 'All';
+
+  final Map<String, IconData> _categoryIcons = {
+    'Science': Icons.science_rounded, 'Languages & Literature': Icons.menu_book_rounded,
+    'Social Sciences': Icons.groups_rounded, 'Education & Psychology': Icons.school_rounded,
+    'Professional Studies': Icons.workspace_premium_rounded, 'Commerce & Management': Icons.business_center_rounded,
+    'Computer & Data': Icons.computer_rounded, 'Education & Sports': Icons.fitness_center_rounded,
+    'Humanities': Icons.auto_stories_rounded, 'Applied & Life Studies': Icons.home_work_rounded,
+    'Indian Knowledge & Culture': Icons.account_balance_rounded, 'Arts & Performing Arts': Icons.palette_rounded,
+    'Science & Data': Icons.query_stats_rounded,
+  };
+
+  @override void initState() { super.initState(); _loadSubjects(); }
+
+  Future<void> _loadSubjects() async {
+    try {
+      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/subjects.json')) as Map;
+      final list = (raw['subjects'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      if (mounted) setState(() => subjects = list);
+    } catch (_) { if (mounted) setState(() => subjects = []); }
+  }
+
+  List<String> get categories {
+    final values = subjects.map((e) => e['category'].toString()).toSet().toList()..sort();
+    return ['All', ...values];
+  }
+
+  List<Map<String, dynamic>> get filtered {
+    final q = query.trim().toLowerCase();
+    return subjects.where((item) {
+      final matchCategory = category == 'All' || item['category'] == category;
+      final text = item['code'].toString() + ' ' + item['name_en'].toString() + ' ' + item['medium'].toString() + ' ' + item['category'].toString();
+      return matchCategory && (q.isEmpty || text.toLowerCase().contains(q));
+    }).toList();
+  }
+
+  IconData _iconFor(Map<String, dynamic> item) => _categoryIcons[item['category']] ?? Icons.school_rounded;
+  Color _accentFor(int index) {
+    const colors = [Color(0xFF4F46E5), Color(0xFF0891B2), Color(0xFF059669), Color(0xFF7C3AED), Color(0xFFEA580C), Color(0xFFDB2777)];
+    return colors[index % colors.length];
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final shown = filtered;
+    return Scaffold(
+      backgroundColor: const Color(0xFFF5F7FF),
+      appBar: AppBar(
+        title: const Text('GSET Paper-II', style: TextStyle(fontWeight: FontWeight.w900)),
+        actions: [Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
+          decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(20)),
+          child: const Text('36 Subjects', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: Color(0xFF5B21B6))),
+        )))],
+      ),
+      body: subjects.isEmpty ? const Center(child: CircularProgressIndicator()) : RefreshIndicator(
+        onRefresh: _loadSubjects,
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(14, 6, 14, 90),
+          children: [
+            Container(
+              padding: const EdgeInsets.fromLTRB(20, 20, 18, 20),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF111B55), Color(0xFF4F46E5), Color(0xFF0F9F86)]),
+                borderRadius: BorderRadius.circular(26),
+                boxShadow: [BoxShadow(color: const Color(0xFF4338CA).withValues(alpha: .22), blurRadius: 22, offset: const Offset(0, 9))],
+              ),
+              child: Row(children: [
+                Container(width: 58, height: 58, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), shape: BoxShape.circle), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
+                const SizedBox(width: 14),
+                Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(widget.gu ? 'તમારો Subject પસંદ કરો' : 'Choose Your Subject', style: const TextStyle(color: Colors.white, fontSize: 21, fontWeight: FontWeight.w900)),
+                  const SizedBox(height: 5),
+                  Text(widget.gu ? '36 વિષય • Previous Papers • Tests • Practice' : '36 Subjects • Previous Papers • Tests • Practice', style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600)),
+                ])),
+              ]),
+            ),
+            const SizedBox(height: 14),
+            TextField(onChanged: (v) => setState(() => query = v), decoration: InputDecoration(prefixIcon: const Icon(Icons.search_rounded), hintText: widget.gu ? 'Subject શોધો...' : 'Search subject...')),
+            const SizedBox(height: 10),
+            SizedBox(height: 42, child: ListView.separated(
+              scrollDirection: Axis.horizontal, itemCount: categories.length,
+              separatorBuilder: (_, __) => const SizedBox(width: 7),
+              itemBuilder: (_, i) {
+                final c = categories[i]; final selected = category == c;
+                return ChoiceChip(label: Text(c == 'All' ? (widget.gu ? 'બધા' : 'All') : c), selected: selected,
+                  onSelected: (_) => setState(() => category = c), selectedColor: const Color(0xFFE0E7FF),
+                  labelStyle: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: selected ? const Color(0xFF3730A3) : Colors.black87));
+              },
+            )),
+            const SizedBox(height: 13),
+            LayoutBuilder(builder: (_, constraints) {
+              final columns = constraints.maxWidth >= 900 ? 3 : (constraints.maxWidth >= 560 ? 2 : 1);
+              return GridView.builder(
+                shrinkWrap: true, physics: const NeverScrollableScrollPhysics(), itemCount: shown.length,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: columns, crossAxisSpacing: 10, mainAxisSpacing: 10, childAspectRatio: columns == 1 ? 3.0 : 1.75),
+                itemBuilder: (_, i) {
+                  final item = shown[i]; final accent = _accentFor(i);
+                  return Card(elevation: 1, child: InkWell(
+                    borderRadius: BorderRadius.circular(18),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => SubjectDetailPage(subject: item, gu: widget.gu))),
+                    child: Padding(padding: const EdgeInsets.all(12), child: Row(children: [
+                      Container(width: 54, height: 54, decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: [accent.withValues(alpha: .16), accent.withValues(alpha: .07)]), borderRadius: BorderRadius.circular(16)),
+                        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                          Icon(_iconFor(item), color: accent, size: 22),
+                          Text(item['code'].toString(), style: TextStyle(color: accent, fontSize: 9, fontWeight: FontWeight.w900)),
+                        ])),
+                      const SizedBox(width: 11),
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.center, children: [
+                        Text(item['name_en'].toString(), maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w900, height: 1.15)),
+                        const SizedBox(height: 5),
+                        Wrap(spacing: 5, runSpacing: 4, children: [_miniChip(item['medium'].toString(), accent), _miniChip('100 Q • 200 M', const Color(0xFF475569))]),
+                      ])),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.black38),
+                    ])),
+                  ));
+                },
+              );
+            }),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _miniChip(String text, Color color) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
+    decoration: BoxDecoration(color: color.withValues(alpha: .08), borderRadius: BorderRadius.circular(8)),
+    child: Text(text, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 8.5, fontWeight: FontWeight.w800, color: color)),
+  );
+}
+
+class SubjectDetailPage extends StatelessWidget {
+  final Map<String, dynamic> subject;
+  final bool gu;
+  const SubjectDetailPage({super.key, required this.subject, required this.gu});
+
+  @override
+  Widget build(BuildContext context) {
+    final name = subject['name_en'].toString();
+    final medium = subject['medium'].toString();
+    final code = subject['code'].toString();
+    final actions = [
+      [Icons.description_rounded, 'Previous Year Papers', 'Official PYQs'],
+      [Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે'],
+      [Icons.shuffle_rounded, 'Practice Questions', 'Topic + Difficulty'],
+      [Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks'],
+      [Icons.bookmark_rounded, 'Bookmarks', 'Saved questions'],
+      [Icons.menu_book_rounded, 'Mistake Book', 'Retry mistakes'],
+    ];
+    return Scaffold(
+      appBar: AppBar(title: Text(name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900))),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(14, 8, 14, 90),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFF111B55), Color(0xFF4F46E5)]), borderRadius: BorderRadius.circular(24)),
+            child: Row(children: [
+              Container(width: 62, height: 62, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), borderRadius: BorderRadius.circular(18)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
+              const SizedBox(width: 14),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 5),
+                Text(medium, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w700)),
+                const SizedBox(height: 3),
+                const Text('100 Questions • 200 Marks', style: TextStyle(color: Colors.white70, fontSize: 11)),
+              ])),
+            ]),
+          ),
+          const SizedBox(height: 12),
+          Card(child: Padding(padding: const EdgeInsets.all(14), child: Row(children: [
+            const Icon(Icons.verified_rounded, color: Color(0xFF059669)), const SizedBox(width: 9),
+            Expanded(child: Text(gu ? 'Official GSET source-based subject section' : 'Official GSET source-based subject section', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800))),
+          ]))),
+          const SizedBox(height: 12),
+          const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+          const SizedBox(height: 9),
+          ...actions.map((a) => Card(
+            margin: const EdgeInsets.only(bottom: 9),
+            child: ListTile(
+              leading: Container(width: 43, height: 43, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(13)), child: Icon(a[0] as IconData, color: const Color(0xFF6D28D9))),
+              title: Text(a[1].toString(), style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
+              subtitle: Text(a[2].toString(), style: const TextStyle(fontSize: 11)),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () => ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'આ section માટે official data load થતાં જ test અહીં ઉપલબ્ધ થશે.' : 'Official subject data will appear here as it is loaded.'))),
+            ),
+          )),
+        ],
+      ),
+    );
+  }
+}
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override State<HomePage> createState() => _HomePageState();
@@ -309,6 +514,8 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.fromLTRB(14, 5, 14, 92),
           children: [
             _hero(),
+            const SizedBox(height: 12),
+            _paperIIEntry(),
             const SizedBox(height: 12),
             Card(child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 4),
@@ -557,6 +764,29 @@ class _HomePageState extends State<HomePage> {
         ]),
       ),
     ]),
+  );
+
+
+  Widget _paperIIEntry() => Card(
+    elevation: 1,
+    child: InkWell(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => SubjectHubPage(gu: gu))),
+      child: Container(
+        padding: const EdgeInsets.all(15),
+        decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFFEDE9FE), Color(0xFFE0F2FE)]), borderRadius: BorderRadius.circular(20)),
+        child: Row(children: [
+          Container(width: 52, height: 52, decoration: BoxDecoration(color: const Color(0xFF5B21B6), borderRadius: BorderRadius.circular(16)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 28)),
+          const SizedBox(width: 12),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            const Text('🎯 GSET Paper-II — 36 Subjects', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w900, color: Color(0xFF312E81))),
+            const SizedBox(height: 3),
+            Text(gu ? 'Subject પસંદ કરો • PYQ • Unit Test • Mock Test' : 'Choose Subject • PYQ • Unit Test • Mock Test', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: Color(0xFF475569))),
+          ])),
+          const Icon(Icons.arrow_forward_ios_rounded, size: 17, color: Color(0xFF5B21B6)),
+        ]),
+      ),
+    ),
   );
 
   Widget _circle(double size, Color color) => Container(width: size, height: size, decoration: BoxDecoration(color: color, shape: BoxShape.circle));
