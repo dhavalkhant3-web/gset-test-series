@@ -25,11 +25,10 @@ jobs:
           from pathlib import Path
 
           target = Path("assets/subjects/physical_sciences/questions.json")
-          packed_dir = Path("assets/subjects/physical_sciences/nov25_b64")
+          packed = Path("assets/subjects/physical_sciences/nov25_questions.json.gz.b64")
 
           existing = json.loads(target.read_text(encoding="utf-8"))
-          packed = "".join(p.read_text().strip() for p in sorted(packed_dir.glob("part_*.txt")))
-          added = json.loads(gzip.decompress(base64.b64decode(packed)).decode("utf-8"))
+          added = json.loads(gzip.decompress(base64.b64decode(packed.read_text().strip())).decode("utf-8"))
 
           by_id = {q["id"]: q for q in existing}
           for q in added:
