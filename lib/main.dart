@@ -314,27 +314,100 @@ class _SubjectHubPageState extends State<SubjectHubPage> {
   );
 }
 
-class SubjectDetailPage extends StatelessWidget {
+class PaperIIDataService {
+  static Future<List<Map<String, dynamic>>> loadQuestions(String subjectId) async {
+    final path = 'assets/subjects/$' + subjectId + '/questions.json';
+    try {
+      final raw = await rootBundle.loadString(path);
+      final decoded = jsonDecode(raw);
+      if (decoded is List) return decoded.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      if (decoded is Map && decoded['questions'] is List) {
+        return (decoded['questions'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      }
+    } catch (_) {}
+    return [];
+  }
+
+  static Future<List<Map<String, dynamic>>> loadPapers(String subjectId) async {
+    try {
+      final raw = await rootBundle.loadString('assets/subjects/$' + subjectId + '/papers.json');
+      final decoded = jsonDecode(raw) as Map;
+      final list = decoded['papers'];
+      if (list is List) return list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+    } catch (_) {}
+    return [];
+  }
+}
+
+class SubjectDetailPage extends StatefulWidget {
   final Map<String, dynamic> subject;
   final bool gu;
   const SubjectDetailPage({super.key, required this.subject, required this.gu});
+  @override State<SubjectDetailPage> createState() => _SubjectDetailPageState();
+}
 
-  @override
-  Widget build(BuildContext context) {
-    final name = subject['name_en'].toString();
-    final medium = subject['medium'].toString();
-    final code = subject['code'].toString();
-    final actions = [
-      [Icons.description_rounded, 'Previous Year Papers', 'Official PYQs'],
-      [Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે'],
-      [Icons.shuffle_rounded, 'Practice Questions', 'Topic + Difficulty'],
-      [Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks'],
-      [Icons.bookmark_rounded, 'Bookmarks', 'Saved questions'],
-      [Icons.menu_book_rounded, 'Mistake Book', 'Retry mistakes'],
-    ];
+class _SubjectDetailPageState extends State<SubjectDetailPage> {
+  List<Map<String, dynamic>> questions = [];
+  List<Map<String, dynamic>> papers = [];
+  Set<String> bookmarks = {};
+  Set<String> mistakes = {};
+  bool loading = true;
+
+  @override void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final prefs = await SharedPreferences.getInstance();
+    final subjectId = widget.subject['id'].toString();
+    final qs = await PaperIIDataService.loadQuestions(subjectId);
+    final ps = await PaperIIDataService.loadPapers(subjectId);
+    if (!mounted) return;
+    setState(() {
+      questions = qs; papers = ps;
+      bookmarks = (prefs.getStringList('bookmarks') ?? []).toSet();
+      mistakes = (prefs.getStringList('mistakes') ?? []).toSet();
+      loading = false;
+    });
+  }
+
+  Future<void> _saveState(Set<String> b, Set<String> m) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('bookmarks', b.toList());
+    await prefs.setStringList('mistakes', m.toList());
+    if (mounted) setState(() { bookmarks = b; mistakes = m; });
+    await FirebaseSync.pushLocal(prefs);
+  }
+
+  Future<void> _openTest({bool mock = false, bool practice = false}) async {
+    if (questions.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(
+        widget.gu ? 'આ subject માટે verified questions હજુ load થયા નથી.' : 'Verified questions are not loaded for this subject yet.'
+      )));
+      return;
+    }
+    final qs = [...questions];
+    if (practice) qs.shuffle(Random());
+    final selected = mock ? qs.take(min(100, qs.length)).toList() : qs;
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: selected,
+      gu: widget.gu,
+      title: widget.subject['name_en'].toString(),
+      practice: practice,
+      mock: mock,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: _saveState,
+    )));
+    await _load();
+  }
+
+  @override Widget build(BuildContext context) {
+    final name = widget.subject['name_en'].toString();
+    final code = widget.subject['code'].toString();
+    final medium = widget.subject['medium'].toString();
+    final verified = widget.subject['source_verified'] == true;
     return Scaffold(
       appBar: AppBar(title: Text(name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900))),
-      body: ListView(
+      body: loading ? const Center(child: CircularProgressIndicator()) : ListView(
         padding: const EdgeInsets.fromLTRB(14, 8, 14, 90),
         children: [
           Container(
@@ -344,36 +417,75 @@ class SubjectDetailPage extends StatelessWidget {
               Container(width: 62, height: 62, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), borderRadius: BorderRadius.circular(18)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
               const SizedBox(width: 14),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
+                Text('$' + code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
                 const SizedBox(height: 5),
                 Text(medium, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w700)),
                 const SizedBox(height: 3),
-                const Text('100 Questions • 200 Marks', style: TextStyle(color: Colors.white70, fontSize: 11)),
+                const Text('100 Questions • 200 Marks • 120 Minutes', style: TextStyle(color: Colors.white70, fontSize: 11)),
               ])),
             ]),
           ),
           const SizedBox(height: 12),
-          Card(child: Padding(padding: const EdgeInsets.all(14), child: Row(children: [
-            const Icon(Icons.verified_rounded, color: Color(0xFF059669)), const SizedBox(width: 9),
-            Expanded(child: Text(gu ? 'Official GSET source-based subject section' : 'Official GSET source-based subject section', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800))),
-          ]))),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(children: [
+              Icon(verified ? Icons.verified_rounded : Icons.info_outline_rounded, color: verified ? const Color(0xFF059669) : const Color(0xFF64748B)),
+              const SizedBox(width: 9),
+              Expanded(child: Text(verified ? 'Official GSET source-based subject section' : 'Official source verification in progress', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800))),
+            ]),
+          )),
           const SizedBox(height: 12),
+          Row(children: [
+            Expanded(child: _statusCard(Icons.description_rounded, papers.length.toString(), 'Official Papers')),
+            const SizedBox(width: 9),
+            Expanded(child: _statusCard(Icons.quiz_rounded, questions.length.toString(), 'Verified Questions')),
+          ]),
+          const SizedBox(height: 16),
           const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
           const SizedBox(height: 9),
-          ...actions.map((a) => Card(
-            margin: const EdgeInsets.only(bottom: 9),
-            child: ListTile(
-              leading: Container(width: 43, height: 43, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(13)), child: Icon(a[0] as IconData, color: const Color(0xFF6D28D9))),
-              title: Text(a[1].toString(), style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
-              subtitle: Text(a[2].toString(), style: const TextStyle(fontSize: 11)),
-              trailing: const Icon(Icons.chevron_right_rounded),
-              onTap: () => ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'આ section માટે official data load થતાં જ test અહીં ઉપલબ્ધ થશે.' : 'Official subject data will appear here as it is loaded.'))),
-            ),
-          )),
+          _action(Icons.description_rounded, 'Previous Year Papers', papers.isEmpty ? 'Archive pending' : papers.length.toString() + ' official papers mapped', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official archive mapped છે; verified questions ઉમેરાયા પછી paper-wise tests ચાલુ થશે.' : 'Official archive is mapped; paper-wise tests will activate as verified questions are added.')));
+          }),
+          _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Unit-wise syllabus data હવે પછી ઉમેરાશે.' : 'Unit-wise syllabus data will be added next.')));
+          }),
+          _action(Icons.shuffle_rounded, 'Practice Questions', questions.isEmpty ? 'Verified data pending' : questions.length.toString() + ' verified questions', () => _openTest(practice: true)),
+          _action(Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks', () => _openTest(mock: true)),
+          _action(Icons.bookmark_rounded, 'Bookmarks', bookmarks.length.toString() + ' saved', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(bookmarks.length.toString() + (widget.gu ? ' questions bookmarked.' : ' questions bookmarked.'))));
+          }),
+          _action(Icons.menu_book_rounded, 'Mistake Book', mistakes.length.toString() + ' saved', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(mistakes.length.toString() + (widget.gu ? ' mistakes saved.' : ' mistakes saved.'))));
+          }),
         ],
       ),
     );
   }
+
+  Widget _action(IconData icon, String title, String subtitle, VoidCallback onTap) => Card(
+    margin: const EdgeInsets.only(bottom: 9),
+    child: ListTile(
+      leading: Container(width: 43, height: 43, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(13)), child: Icon(icon, color: const Color(0xFF6D28D9))),
+      title: Text(title, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
+      subtitle: Text(subtitle, style: const TextStyle(fontSize: 11)),
+      trailing: const Icon(Icons.chevron_right_rounded),
+      onTap: onTap,
+    ),
+  );
+
+  Widget _statusCard(IconData icon, String value, String label) => Card(
+    child: Padding(
+      padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 10),
+      child: Row(children: [
+        Icon(icon, size: 22, color: const Color(0xFF4F46E5)),
+        const SizedBox(width: 8),
+        Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Text(value, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+          Text(label, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w700, color: Colors.black54)),
+        ])),
+      ]),
+    ),
+  );
 }
 
 class HomePage extends StatefulWidget {
