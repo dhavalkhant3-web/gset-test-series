@@ -708,7 +708,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 21,
-    "question_en": "The EPR spectrum of [B(OMe)3]•− anion radical can be best described as ________ (Given : The natural abundance of 10B is 80%, [I = 3] and that of 11B [I = 3/2] is 20%).\nI. 11 lines of equal intensity\nII. A set of 4 lines and a set of 7 lines\nIII. 7 lines with quartets\nIV. Two sets of lines with intensity ratio of 160/7",
+    "question_en": "The EPR spectrum of [B(OMe)3]•− anion radical can be best described as ________\n(Given : The natural abundance of 10B is 80%, [I = 3] and that of 11B [I = 3/2] is 20%).\nI. 11 lines of equal intensity\nII. A set of 4 lines and a set of 7 lines\nIII. 7 lines with quartets\nIV. Two sets of lines with intensity ratio of 160/7",
     "question_gu": "[B(OMe)3]•− anion radicalના EPR spectrumનું યોગ્ય વર્ણન કયું છે? (આપેલ: 10Bની natural abundance 80%, I=3 અને 11Bની I=3/2 સાથે abundance 20% છે.)\nI. સમાન intensityની 11 lines\nII. 4 linesનો એક set અને 7 linesનો એક set\nIII. quartets સાથે 7 lines\nIV. 160/7 intensity ratio ધરાવતા બે sets of lines",
     "options_en": [
       "I and III",
@@ -732,7 +732,8 @@
     "tip_en": "Remember EPR hyperfine rule: number of lines = 2I + 1 for one equivalent nucleus.",
     "tip_gu": "EPRમાં એક equivalent nucleus માટે lines = 2I+1 યાદ રાખો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 9
   },
   {
     "id": "chemical_nov25_q22",
@@ -746,10 +747,10 @@
     "question_en": "How many milliliters of 0.20 N K2Cr2O7 are required to titrate 200.0 mL of 0.30 N Fe2+ solution according to the equation given below ?\n6Fe2+ + Cr2O7^2− + 14H+ → 6Fe3+ + 2Cr3+ + 7H2O",
     "question_gu": "આપેલી reaction મુજબ 200.0 mL 0.30 N Fe2+ solutionને titrate કરવા માટે 0.20 N K2Cr2O7ના કેટલા milliliters જરૂરી છે?\n6Fe2+ + Cr2O7^2− + 14H+ → 6Fe3+ + 2Cr3+ + 7H2O",
     "options_en": [
-      "50.0 mL",
-      "100.0 mL",
-      "200.0 mL",
-      "300.0 mL"
+      "50.0mL",
+      "100.0mL",
+      "200.0mL",
+      "300.0mL"
     ],
     "options_gu": [
       "50.0 mL",
@@ -767,7 +768,8 @@
     "tip_en": "For normality-based redox titration, equate equivalents directly.",
     "tip_gu": "Normality વાળા redox titrationમાં equivalents સીધા equal કરો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q23",
@@ -802,7 +804,8 @@
     "tip_en": "Z = not considered for evaluation; never convert Z into an A-D answer.",
     "tip_gu": "Z = evaluation માટે ગણવામાં આવતો નથી; Zને A-D answerમાં બદલશો નહીં.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q24",
@@ -822,10 +825,10 @@
       "The superoxide ion is bound to both iron centers"
     ],
     "options_gu": [
-      "Hydroperoxide ion એક iron center સાથે bound છે",
-      "Hydroperoxide ion બંને iron centers સાથે bound છે",
-      "Hydroxide ion એક iron center સાથે bound છે",
-      "Superoxide ion બંને iron centers સાથે bound છે"
+      "Hydroperoxide ion એક iron center સાથે બંધાયેલો છે",
+      "Hydroperoxide ion બંને iron centers સાથે બંધાયેલો છે",
+      "Hydroxide ion એક iron center સાથે બંધાયેલો છે",
+      "Superoxide ion બંને iron centers સાથે બંધાયેલો છે"
     ],
     "answer": "A",
     "topic": "Bioinorganic Chemistry - Oxygen Binding",
@@ -837,7 +840,8 @@
     "tip_en": "Hemerythrin binds O2 at one vacant iron site and forms a hydroperoxide species.",
     "tip_gu": "Hemerythrinમાં O2 એક vacant iron site પર bind થઈ hydroperoxide species બનાવે છે.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q25",
@@ -872,7 +876,8 @@
     "tip_en": "Porphyrin macrocycle strongly contributes π→π* transitions to heme spectra.",
     "tip_gu": "Porphyrin macrocycle માટે π→π* transition યાદ રાખો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q26",
@@ -907,7 +912,8 @@
     "tip_en": "In isotope dilution, specific activity falls inversely with total amount of the labeled element.",
     "tip_gu": "Isotope dilutionમાં specific activity total elemental amountના inverse પ્રમાણમાં ઘટે છે.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q27",
@@ -927,10 +933,10 @@
       "Colorimetry is preferred as it can be performed easily once standard solutions are prepared"
     ],
     "options_gu": [
-      "બંને methods good accuracy આપે છે તેથી બંને વાપરી શકાય",
-      "બંનેમાં poor accuracy છે તેથી નવી method જોઈએ",
-      "Coulometry preferred છે કારણ કે quantityનું direct measurement good accuracy સાથે થાય છે",
-      "Standard solutions તૈયાર કર્યા પછી સરળતાથી થાય છે તેથી colorimetry preferred છે"
+      "બંને methods સારી accuracy આપે છે એટલે બંને વાપરી શકાય",
+      "બંને methodsની accuracy ઓછી છે એટલે નવી method જોઈએ",
+      "Coulometry preferred છે કારણ કે તે quantityનું direct measurement good accuracy સાથે કરે છે",
+      "Colorimetry preferred છે કારણ કે standard solutions તૈયાર કર્યા પછી સરળતાથી કરી શકાય છે"
     ],
     "answer": "C",
     "topic": "Analytical Chemistry - Electroanalytical Methods",
@@ -942,7 +948,8 @@
     "tip_en": "Coulometry is based on direct measurement of charge, linked quantitatively to analyte amount.",
     "tip_gu": "Coulometryમાં chargeનું direct measurement analyte amount સાથે quantitatively જોડાયેલું છે.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 10
   },
   {
     "id": "chemical_nov25_q28",
@@ -977,7 +984,8 @@
     "tip_en": "For quantitative trace-metal determination, think atomic absorption spectroscopy.",
     "tip_gu": "Trace metalના quantitative determination માટે AAS યાદ રાખો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q29",
@@ -988,7 +996,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 29,
-    "question_en": "The rate constant in the given self-exchange electron transfer reactions at a certain temperature follow :\n[Fe(CN)6]2+ + [Fe*(CN)6]3+ → [Fe(CN)6]3+ + [Fe*(CN)6]2+, rate constant = k11\n[Fe(bpy)3]2+ + [Fe*(bpy)3]3+ → [Fe(bpy)3]3+ + [Fe*(bpy)3]2+, rate constant = k22\n[Fe(NH3)6]2+ + [Fe*(NH3)6]3+ → [Fe(NH3)6]3+ + [Fe*(NH3)6]2+, rate constant = k33\n*indicates a radioactive isotope.\nThe order of the above rate constant is",
+    "question_en": "The rate constant in the given self-exchange electron transfer reactions at a certain temperature follow :\n[Fe(CN)6]2− + [Fe*(CN)6]3− → [Fe(CN)6]3− + [Fe*(CN)6]2+, rate constant = k11\n[Fe(bpy)3]2+ + [Fe*(bpy)3]3+ → [Fe(bpy)3]3+ + [Fe*(bpy)3]2+, rate constant = k22\n[Fe(NH3)6]2+ + [Fe*(NH3)6]3+ → [Fe(NH3)6]3+ + [Fe*(NH3)6]2+, rate constant = k33\n*indicates a radioactive isotope.\nThe order of the above rate constant is",
     "question_gu": "આપેલી self-exchange electron-transfer reactions માટે rate constants k11, k22 અને k33નો સાચો order પસંદ કરો. * radioactive isotope દર્શાવે છે.",
     "options_en": [
       "k11 > k22 > k33",
@@ -997,10 +1005,10 @@
       "k22 > k33 > k11"
     ],
     "options_gu": [
+      "આપેલી self-exchange reactions માટે rate constantsનો સાચો order પસંદ કરો.",
       "k11 > k22 > k33",
       "k33 > k22 > k11",
-      "k22 > k11 > k33",
-      "k22 > k33 > k11"
+      "k22 > k11 > k33"
     ],
     "answer": "C",
     "topic": "Inorganic Chemistry - Electron Transfer Kinetics",
@@ -1012,7 +1020,8 @@
     "tip_en": "Self-exchange rates depend strongly on electronic configuration and reorganization energy, not just charge.",
     "tip_gu": "Self-exchange rate માટે માત્ર charge નહીં, electronic configuration અને reorganization energy પણ જુઓ.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q30",
@@ -1047,7 +1056,8 @@
     "tip_en": "For octahedral d3 ions, the first spin-allowed band is approximately Δo.",
     "tip_gu": "Octahedral d3 ion માટે પ્રથમ spin-allowed band ≈ Δo.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q31",
@@ -1062,15 +1072,15 @@
     "question_gu": "Lowest energy stateમાં particleના momentum (Δpx)ની uncertainty કેટલી છે?",
     "options_en": [
       "Δpx = 0",
-      "Δpx = h/a",
-      "Δpx = h/2a",
-      "Δpx = h/2πa"
+      "Δpx = h / a",
+      "Δpx = h / 2a",
+      "Δpx = h / 2πa"
     ],
     "options_gu": [
       "Δpx = 0",
-      "Δpx = h/a",
-      "Δpx = h/2a",
-      "Δpx = h/2πa"
+      "Δpx = h / a",
+      "Δpx = h / 2a",
+      "Δpx = h / 2πa"
     ],
     "answer": "C",
     "topic": "Quantum Chemistry - Particle in a Box",
@@ -1082,7 +1092,8 @@
     "tip_en": "Use Δpx = sqrt(<p2>−<p>2) for the box ground state.",
     "tip_gu": "Boxના ground state માટે Δpx=√(<p2>−<p>2) વાપરો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q32",
@@ -1093,19 +1104,19 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 32,
-    "question_en": "If ∇2ψ = −[4π2/λ2]ψ, according to the de-Broglie relation, λ is ; [m = mass, u = velocity]",
+    "question_en": "If ∇2ψ = − [4π2/λ2].ψ, according to the de-Broglie relation, λ is ; [m = mass, u = velocity]",
     "question_gu": "જો ∇2ψ = −[4π2/λ2]ψ હોય, તો de-Broglie relation મુજબ λ શું છે? [m=mass, u=velocity]",
     "options_en": [
-      "h/mu",
+      "h / m.u",
       "½ mu2",
       "m.u",
-      "h/m.u2"
+      "h / m.u2"
     ],
     "options_gu": [
-      "h/mu",
+      "h / m.u",
       "½ mu2",
       "m.u",
-      "h/m.u2"
+      "h / m.u2"
     ],
     "answer": "A",
     "topic": "Quantum Chemistry - de Broglie Relation",
@@ -1117,7 +1128,8 @@
     "tip_en": "de Broglie: λ = h/p = h/(mu).",
     "tip_gu": "de Broglie: λ=h/p=h/(mu) યાદ રાખો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q33",
@@ -1128,7 +1140,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 33,
-    "question_en": "If the Compton equation is written as, Δλ = [λ/mc] (1 − cos θ), (Where λ = wavelength of X-rays, m = mass, c = speed of light, θ = Scattering angle). For which scattering angle, θ value, no shift in wavelength is found ?",
+    "question_en": "If the Compton equation is written as, Δλ = [λ/mc] (1 − cos θ), (Where λ = wavelength of X-rays, m = mass, c = speed of light, θ = Scattering angle).\nFor which scattering angle, θ value, no shift in wavelength is found ?",
     "question_gu": "Compton equation Δλ=[λ/mc](1−cosθ) હોય તો કયા scattering angle θ માટે wavelengthમાં કોઈ shift મળતો નથી?",
     "options_en": [
       "θ = 180°",
@@ -1152,7 +1164,8 @@
     "tip_en": "Set the Compton shift equal to zero and solve for θ.",
     "tip_gu": "Compton shiftને zero મૂકી θ શોધો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q34",
@@ -1187,7 +1200,8 @@
     "tip_en": "p3 configurations are classic examples of Hund's rule.",
     "tip_gu": "p3 configuration = Hund's ruleનો classic example.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 11
   },
   {
     "id": "chemical_nov25_q35",
@@ -1222,7 +1236,8 @@
     "tip_en": "Square the ionic charge before summing contributions.",
     "tip_gu": "દરેક ionના chargeનું square લઈને ionic strengthમાં ઉમેરો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 12
   },
   {
     "id": "chemical_nov25_q36",
@@ -1242,10 +1257,10 @@
       "+ S dT − P dV"
     ],
     "options_gu": [
-      "+S dT − V dP",
-      "+T dS − V dP",
-      "+T dS − P dV",
-      "+S dT − P dV"
+      "+ S dT − V dP",
+      "+ T dS − V dP",
+      "+ T dS − P dV",
+      "+ S dT − P dV"
     ],
     "answer": "C",
     "topic": "Physical Chemistry - Thermodynamics",
@@ -1257,7 +1272,8 @@
     "tip_en": "Remember the fundamental equation: dU = T dS − P dV.",
     "tip_gu": "Fundamental equation: dU=T dS−P dV યાદ રાખો.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 12
   },
   {
     "id": "chemical_nov25_q37",
@@ -1292,7 +1308,8 @@
     "tip_en": "For binary mixtures, tangent-intercept constructions give partial molar quantities.",
     "tip_gu": "Binary mixtureમાં tangent-intercept method partial molar quantity માટે મહત્વની છે.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 12
   },
   {
     "id": "chemical_nov25_q38",
@@ -1303,7 +1320,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 38,
-    "question_en": "For a binary equilibrium between Solid (B)-Liquid (C) system, the phase diagram is as follows [original phase diagram in official paper].\nT*B and T*C are represent as",
+    "question_en": "For a binary equilibrium between Solid (B)-Liquid (C) system, the phase diagram is as follows\n\nT*B and T*C are represent as",
     "question_gu": "Solid (B)-Liquid (C) binary equilibrium માટે આપેલા phase diagramમાં T*B અને T*C શું represent કરે છે?",
     "options_en": [
       "Freezing points",
@@ -1317,13 +1334,13 @@
       "Melting points",
       "Vaporization points"
     ],
-    "answer": "C",
+    "answer": "A",
     "topic": "Physical Chemistry - Phase Equilibria",
     "difficulty": "Medium",
-    "explanation_en": "The endpoints T*B and T*C correspond to the temperatures at which the pure components B and C melt, i.e. their melting points. Hence C.",
-    "explanation_gu": "Diagramના endpoints T*B અને T*C pure components B અને Cના melting temperatures દર્શાવે છે. એટલે બંને melting points છે. તેથી C.",
+    "explanation_en": "The official final answer key gives A. At the pure-component solid-liquid equilibrium endpoints, the freezing and melting temperatures coincide, so the keyed term is freezing points.",
+    "explanation_gu": "Official final key A છે. Pure-component solid-liquid equilibrium પર freezing અને melting temperature સમાન હોય છે; તેથી official answer 'Freezing points' છે.",
     "review_flag": false,
-    "review_note": "Original phase diagram verified on official PDF page 12. Preserve the source figure when rendering this question.",
+    "review_note": "Official final key = A. The source figure is required for faithful rendering; T*B and T*C are pure-component solid-liquid equilibrium temperatures (freezing/melting points).",
     "tip_en": "In a binary solid-liquid phase diagram, the pure-component liquidus endpoints are their melting points.",
     "tip_gu": "Binary solid-liquid diagramમાં pure-component liquidus endpoints તેમના melting points હોય છે.",
     "source_verified": true,
@@ -1365,7 +1382,8 @@
     "tip_en": "Strong hydrogen bonding requires a good donor such as O−H or N−H.",
     "tip_gu": "Strong H-bonding માટે O−H અથવા N−H જેવા donorને જુઓ.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 12
   },
   {
     "id": "chemical_nov25_q40",
@@ -1400,6 +1418,7 @@
     "tip_en": "Hückel: Sij=0, Hii=α, Hij=β for bonded neighbours.",
     "tip_gu": "Hückel: Sij=0, Hii=α અને bonded neighbours માટે Hij=β.",
     "source_verified": true,
-    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key"
+    "source": "Official GSET November 2025 Chemical Sciences Paper-II and official final answer key",
+    "source_page": 12
   }
 ]
