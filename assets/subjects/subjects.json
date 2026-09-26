@@ -30,9 +30,10 @@
       "icon": "science_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "source_verified": true,
+      "papers_loaded": 19,
+      "questions_loaded": 0,
+      "data_status": "official_paper_archive_mapped"
     },
     {
       "code": "03",
