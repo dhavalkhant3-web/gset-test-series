@@ -748,5 +748,455 @@
     "tip_gu": "Brewster angle પર p-polarized reflected intensity zero થાય છે.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q26",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "N charged drops each of charge q and radius r coalesce to form a big drop of radius R and charge Q. If V is the electric potential and E is the electric field at the surface of the drop, then",
+    "question_gu": "q charge અને r radius ધરાવતા N charged drops ભેગા થઈ R radius અને Q chargeનો મોટો drop બનાવે છે. Surface પર potential V અને field E માટે કયું relation સાચું છે?",
+    "options_en": [
+      "E_big = N^(2/3) E_small",
+      "V_big = N^(1/3) E_small",
+      "E_small = N^(2/3) E_big",
+      "V_big = N^(2/3) V_small"
+    ],
+    "options_gu": [
+      "E_big = N^(2/3) E_small",
+      "V_big = N^(1/3) E_small",
+      "E_small = N^(2/3) E_big",
+      "V_big = N^(2/3) V_small"
+    ],
+    "answer": "D",
+    "topic": "Electromagnetism — Electrostatics",
+    "difficulty": "Medium",
+    "explanation_en": "Charge conservation gives Q=Nq and volume conservation gives R=N^(1/3)r. Since V∝Q/R, V_big/V_small=N/(N^(1/3))=N^(2/3). Hence D.",
+    "explanation_gu": "Q=Nq અને volume conservationથી R=N^(1/3)r. કારણ કે V∝Q/R, તેથી V_big/V_small=N^(2/3). એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For coalescing drops, use both charge conservation and volume conservation before comparing V or E.",
+    "tip_gu": "Coalescing dropsમાં પહેલાં Q=Nq અને R=N^(1/3)r લખો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q27",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A beam of linearly polarized light passes through two polarizers. The first is set at an angle of 45° to the initial polarization direction. The second is set at an angle of 90° to the initial polarization direction. The fraction of light intensity after second polarizer is",
+    "question_gu": "Linearly polarized light બે polarizersમાંથી પસાર થાય છે. પ્રથમ 45° અને બીજો initial directionથી 90° પર છે. બીજા polarizer પછી intensityનો fraction કેટલો છે?",
+    "options_en": [
+      "1/4",
+      "3/8",
+      "1/2",
+      "0"
+    ],
+    "options_gu": [
+      "1/4",
+      "3/8",
+      "1/2",
+      "0"
+    ],
+    "answer": "A",
+    "topic": "Optics — Polarization",
+    "difficulty": "Easy",
+    "explanation_en": "After the first polarizer, Malus' law gives I1=I0 cos²45°=I0/2. The angle between the two polarizers is 45°, so I2=I1 cos²45°=I0/4. Hence A.",
+    "explanation_gu": "પ્રથમ polarizer પછી I1=I0 cos²45°=I0/2. બંને polarizers વચ્ચે 45° છે, તેથી I2=I1 cos²45°=I0/4. એટલે A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Always use the angle between successive polarizers in Malus' law.",
+    "tip_gu": "Malus lawમાં successive polarizers વચ્ચેનો angle લો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q28",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Consider a uniformly magnetized circular cylinder of radius R with its axis coinciding with the z-axis. The magnetization inside the cylinder is M=M0 z-hat. H(r) and B(r) everywhere in space are",
+    "question_gu": "z-axis સાથે coincident uniformly magnetized circular cylinder માટે, અંદર M=M0 z-hat હોય ત્યારે H(r) અને B(r) શું છે?",
+    "options_en": [
+      "H(r)=0, B(r)=μ0M0 z-hat for r<R",
+      "H(r)=0, B(r)=0 for r<R",
+      "H(r)=μ0M0 z-hat, B(r)=0 for r<R",
+      "H(r)=M0 z-hat, B(r)=0 for r>R"
+    ],
+    "options_gu": [
+      "H(r)=0, B(r)=μ0M0 z-hat for r<R",
+      "H(r)=0, B(r)=0 for r<R",
+      "H(r)=μ0M0 z-hat, B(r)=0 for r<R",
+      "H(r)=M0 z-hat, B(r)=0 for r>R"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism — Magnetized Matter",
+    "difficulty": "Medium",
+    "explanation_en": "For the ideal infinitely long uniformly magnetized cylinder with M parallel to its axis, there are no magnetic poles on the cylindrical surface and no free current. The demagnetizing field is H=0, while B=μ0(H+M)=μ0M0 z-hat inside. Hence A.",
+    "explanation_gu": "Ideal infinite uniformly magnetized cylinderમાં M axisની દિશામાં હોવાથી demagnetizing field H=0 થાય છે. B=μ0(H+M)=μ0M0 z-hat અંદર મળે છે. એટલે A.",
+    "review_flag": true,
+    "review_note": "The displayed options focus on regions r<R and the ideal-cylinder assumption. Preserve the official key A; for a finite cylinder, the field would be different.",
+    "tip_en": "For an ideal infinite axial magnetization, think of zero demagnetizing field inside.",
+    "tip_gu": "Infinite axial magnetization માટે અંદર demagnetizing field zero યાદ રાખો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q29",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A pair of scalar (V) and vector (A) potentials are given by V(r,t)=0 and A(r,t)=−[1/(4π ε0)](qt/r²) r-hat. Where r-hat is the unit vector along r. Which of the following is TRUE?",
+    "question_gu": "V(r,t)=0 અને A(r,t)=−[1/(4π ε0)](qt/r²) r-hat આપેલ હોય તો કયું statement સાચું છે?",
+    "options_en": [
+      "The pair satisfy Coulomb and Lorenz gauge conditions",
+      "The pair satisfy Coulomb gauge condition only",
+      "The pair satisfy Lorenz gauge condition only",
+      "The pair satisfy neither Coulomb nor Lorenz gauge conditions"
+    ],
+    "options_gu": [
+      "The pair satisfy Coulomb and Lorenz gauge conditions",
+      "The pair satisfy Coulomb gauge condition only",
+      "The pair satisfy Lorenz gauge condition only",
+      "The pair satisfy neither Coulomb nor Lorenz gauge conditions"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism — Electromagnetic Potentials and Gauges",
+    "difficulty": "Hard",
+    "explanation_en": "The vector potential is radial and proportional to t/r². Away from the origin, ∇·(r-hat/r²)=0, so ∇·A=0 and the Coulomb condition holds. Since V=0, the Lorenz condition ∇·A+(1/c²)∂V/∂t=0 also holds. Hence A.",
+    "explanation_gu": "r-hat/r²નું divergence origin સિવાય zero છે, તેથી ∇·A=0 અને Coulomb gauge satisfy થાય છે. V=0 હોવાથી Lorenz condition પણ satisfy થાય છે. એટલે A.",
+    "review_flag": true,
+    "review_note": "Gauge conditions are understood away from the singular origin; the historical question does not explicitly discuss the singular point.",
+    "tip_en": "Check Coulomb: ∇·A=0. Check Lorenz: ∇·A+(1/c²)∂V/∂t=0.",
+    "tip_gu": "Coulomb માટે ∇·A અને Lorenz માટે ∇·A+(1/c²)∂V/∂t ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q30",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Divergence of Maxwell stress tensor represents",
+    "question_gu": "Maxwell stress tensorનું divergence શું દર્શાવે છે?",
+    "options_en": [
+      "Net force per unit area",
+      "Net force per unit volume",
+      "Net charge per unit area",
+      "Net charge per unit volume"
+    ],
+    "options_gu": [
+      "Net force per unit area",
+      "Net force per unit volume",
+      "Net charge per unit area",
+      "Net charge per unit volume"
+    ],
+    "answer": "B",
+    "topic": "Electromagnetism — Maxwell Stress Tensor",
+    "difficulty": "Easy",
+    "explanation_en": "The divergence of the Maxwell stress tensor gives force density (force per unit volume), with the full momentum-balance equation including the electromagnetic momentum term. Thus B is the intended answer.",
+    "explanation_gu": "Maxwell stress tensorનું divergence force density એટલે force per unit volume સાથે સંબંધિત છે. તેથી intended answer B છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Stress itself is force/area; its divergence gives force density in the local momentum balance.",
+    "tip_gu": "Stress = force/area, જ્યારે divergence of stress → force density.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q31",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Poynting’s theorem states that in a volume containing charges",
+    "question_gu": "Charges ધરાવતા volume માટે Poynting theorem કયું relation આપે છે?",
+    "options_en": [
+      "Work done on charges = decrease in field energy − energy flowing out through the surface",
+      "Work done on charges = decrease in field energy + energy flowing out through the surface",
+      "Work done on charges = decrease in field energy",
+      "Work done on charges = energy flowing out through the surface"
+    ],
+    "options_gu": [
+      "Work done on charges = decrease in field energy − energy flowing out through the surface",
+      "Work done on charges = decrease in field energy + energy flowing out through the surface",
+      "Work done on charges = decrease in field energy",
+      "Work done on charges = energy flowing out through the surface"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism — Poynting Theorem",
+    "difficulty": "Medium",
+    "explanation_en": "From Poynting's theorem, work delivered to charges plus the outward electromagnetic energy flux equals the decrease in electromagnetic field energy. Therefore work on charges = decrease in field energy − outward energy flow. Hence A.",
+    "explanation_gu": "Poynting theorem મુજબ decrease in field energy = charges પર work + outward energy flux. તેથી work = decrease in field energy − outward flux. એટલે A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Remember: field-energy decrease is shared between work on charges and outward Poynting flux.",
+    "tip_gu": "Field energyનો decrease = charges પર work + બહાર જતો energy flux.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q32",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A point charge is moving with a speed of 0.1c. It changes its speed to 0.75c. What is the ratio of the electric fields of the charge at a point perpendicular to its direction of motion (after and before the increase in speed)?",
+    "question_gu": "Point chargeની speed 0.1c થી 0.75c થાય છે. Motionની perpendicular directionમાં electric fieldનું after/before ratio કેટલું?",
+    "options_en": [
+      "0",
+      "1",
+      "1.25",
+      "1.5"
+    ],
+    "options_gu": [
+      "0",
+      "1",
+      "1.25",
+      "1.5"
+    ],
+    "answer": "D",
+    "topic": "Electromagnetism — Relativistic Electric Field",
+    "difficulty": "Medium",
+    "explanation_en": "For a field point perpendicular to the instantaneous velocity, the relativistic field enhancement is E⊥=γE0. Thus the ratio is γ(0.75c)/γ(0.1c)=1/√(1−0.75²) divided by 1/√(1−0.1²), which is about 1.51≈1.5. Hence D.",
+    "explanation_gu": "Perpendicular directionમાં E⊥=γE0. તેથી ratio γ(0.75c)/γ(0.1c)≈1.51≈1.5. એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For θ=90° in the relativistic point-charge field, E⊥ scales with γ.",
+    "tip_gu": "Perpendicular field માટે relativistic factor γ યાદ રાખો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q33",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Two linearly polarized plane wave fronts with an angle of 60° between their planes of polarization are superposed. If the intensities are I1=I0 and I2=0.7I0, the visibility (or contrast) of the resulting interference fringes is",
+    "question_gu": "બે linearly polarized plane waves વચ્ચે polarization planesનો angle 60° છે. I1=I0 અને I2=0.7I0 હોય તો interference fringe visibility કેટલી?",
+    "options_en": [
+      "0",
+      "0.25",
+      "0.5",
+      "1"
+    ],
+    "options_gu": [
+      "0",
+      "0.25",
+      "0.5",
+      "1"
+    ],
+    "answer": "C",
+    "topic": "Optics — Interference and Polarization",
+    "difficulty": "Medium",
+    "explanation_en": "For two beams with polarization angle θ, visibility V=[2√(I1I2)/(I1+I2)]|cosθ|. With θ=60°, I1=I0 and I2=0.7I0, V=√0.7/1.7≈0.493≈0.5. Hence C.",
+    "explanation_gu": "V=[2√(I1I2)/(I1+I2)]cos60°. I1=I0 અને I2=0.7I0 મૂકતાં V≈0.493≈0.5. એટલે C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Non-parallel polarization reduces interference visibility by the factor |cos θ|.",
+    "tip_gu": "Polarization planes parallel ન હોય તો visibilityમાં |cosθ| factor આવે છે.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q34",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "On an average the intensity of sunlight received by Earth is 1380 W/m². The force exerted by sunlight on a perfect reflector of area 1 m² kept normal to it, on the surface of Earth, is",
+    "question_gu": "Earth પર sunlight intensity 1380 W/m² હોય અને 1 m² perfect reflector normal હોય તો sunlight દ્વારા exerted force કેટલું?",
+    "options_en": [
+      "Approximately 0 N",
+      "Approximately 4.6×10⁻⁶ N",
+      "Approximately 9.2×10⁻⁶ N",
+      "Approximately 184×10⁻⁶ N"
+    ],
+    "options_gu": [
+      "Approximately 0 N",
+      "Approximately 4.6×10⁻⁶ N",
+      "Approximately 9.2×10⁻⁶ N",
+      "Approximately 184×10⁻⁶ N"
+    ],
+    "answer": "C",
+    "topic": "Electromagnetism — Radiation Pressure",
+    "difficulty": "Medium",
+    "explanation_en": "For a perfect reflector at normal incidence, radiation pressure p=2I/c. Hence F=pA=2(1380)(1)/(3×10⁸)=9.2×10⁻⁶ N. Thus C.",
+    "explanation_gu": "Perfect reflector માટે p=2I/c. તેથી F=2(1380)(1)/(3×10⁸)=9.2×10⁻⁶ N. એટલે C.",
+    "review_flag": true,
+    "review_note": "The original printed options use compact/scanned notation for the powers of ten; the numerical value corresponding to the official key C is 9.2×10⁻⁶ N.",
+    "tip_en": "Absorber: p=I/c; perfect reflector: p=2I/c.",
+    "tip_gu": "Absorber માટે I/c અને perfect reflector માટે 2I/c.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q35",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "The power radiated by a single hydrogen atom, considering it an electric dipole (electron and proton separated by a distance equal to one Bohr radius) with electric dipole moment of 10×10⁻³⁰ C m, when subjected to a field oscillating at frequency 10¹⁵ Hz is",
+    "question_gu": "Hydrogen atomને electric dipole માની, dipole moment 10×10⁻³⁰ C m અને oscillation frequency 10¹⁵ Hz હોય તો radiated power કેટલી?",
+    "options_en": [
+      "1.1×10⁻¹⁴ W",
+      "7×10⁻¹⁴ W",
+      "5.3×10⁻¹² W",
+      "1.7×10⁻¹¹ W"
+    ],
+    "options_gu": [
+      "1.1×10⁻¹⁴ W",
+      "7×10⁻¹⁴ W",
+      "5.3×10⁻¹² W",
+      "1.7×10⁻¹¹ W"
+    ],
+    "answer": "D",
+    "topic": "Electromagnetism — Electric Dipole Radiation",
+    "difficulty": "Hard",
+    "explanation_en": "For an oscillating electric dipole with peak moment p0, Pavg=p0²ω⁴/(12π ε0 c³), with ω=2πf. Substitution of the given dipole moment and f=10¹⁵ Hz gives a value of order 10⁻¹¹ W, matching option D.",
+    "explanation_gu": "Oscillating electric dipole માટે Pavg=p0²ω⁴/(12π ε0c³), જ્યાં ω=2πf. આપેલી values મૂકતાં powerનો order 10⁻¹¹ W મળે છે, એટલે D.",
+    "review_flag": true,
+    "review_note": "The source scan prints the dipole-moment unit/form with compressed notation; preserve the official key D and the original numerical data rather than silently normalizing the historical wording.",
+    "tip_en": "Use ω=2πf; forgetting the 2π factor causes a large error because power depends on ω⁴.",
+    "tip_gu": "ω=2πf ભૂલશો નહીં; P∝ω⁴ હોવાથી મોટો difference પડે છે.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q36",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Electron number density n of a laser-induced lead-calcium plasma is 10²³ m⁻³. The cut-off frequency for this plasma is [ε0=8.85×10⁻¹² F/m, me=9.1×10⁻³¹ kg, e=1.602×10⁻¹⁹ C]",
+    "question_gu": "Laser-induced lead-calcium plasmaમાં electron number density 10²³ m⁻³ છે. આપેલા constants માટે cut-off frequency કેટલી?",
+    "options_en": [
+      "0.36×10¹¹ Hz",
+      "0.71×10¹² Hz",
+      "1.43×10¹² Hz",
+      "2.85×10¹² Hz"
+    ],
+    "options_gu": [
+      "0.36×10¹¹ Hz",
+      "0.71×10¹² Hz",
+      "1.43×10¹² Hz",
+      "2.85×10¹² Hz"
+    ],
+    "answer": "D",
+    "topic": "Plasma Physics — Plasma Frequency",
+    "difficulty": "Medium",
+    "explanation_en": "The plasma angular frequency is ωp=√(ne²/(ε0me)); the cut-off frequency is fp=ωp/(2π). Substitution gives approximately 2.85×10¹² Hz. Hence D.",
+    "explanation_gu": "ωp=√(ne²/(ε0me)) અને f_p=ωp/(2π). Values મૂકતાં f_p≈2.85×10¹² Hz મળે છે. એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Do not confuse plasma angular frequency ωp with ordinary frequency fp; divide by 2π.",
+    "tip_gu": "ωp અને fp અલગ છે; fp=ωp/(2π).",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q37",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A subatomic particle produced in a nuclear collision has mc²=1228 MeV, with an uncertainty of ±56 MeV. If it travels with a speed of 10⁸ m/s after being produced, how far can it travel before it disintegrates?",
+    "question_gu": "Nuclear collisionમાં બનેલા particle માટે mc²=1228 MeV અને uncertainty ±56 MeV છે. Speed 10⁸ m/s હોય તો disintegration પહેલાં કેટલું distance travel કરી શકે?",
+    "options_en": [
+      "1.72×10⁻⁶ m",
+      "3.51×10⁻⁹ m",
+      "4.81×10⁻¹² m",
+      "5.86×10⁻¹⁶ m"
+    ],
+    "options_gu": [
+      "1.72×10⁻⁶ m",
+      "3.51×10⁻⁹ m",
+      "4.81×10⁻¹² m",
+      "5.86×10⁻¹⁶ m"
+    ],
+    "answer": "D",
+    "topic": "Modern Physics — Uncertainty and Particle Lifetime",
+    "difficulty": "Hard",
+    "explanation_en": "Using the energy-time uncertainty relation to estimate the lifetime from the mass-energy uncertainty, then multiplying the lifetime by the given speed gives a travel distance of approximately 5.86×10⁻¹⁶ m. Hence D.",
+    "explanation_gu": "Energy-time uncertainty relationથી lifetime estimate કરીને d=vτ લેતાં distance લગભગ 5.86×10⁻¹⁶ m મળે છે. એટલે D.",
+    "review_flag": true,
+    "review_note": "The historical question uses an approximate lifetime estimate based on the stated mass-energy uncertainty; preserve the official key D.",
+    "tip_en": "For unstable-particle estimates, use ΔE·Δt≈ħ/2 and then d≈vΔt.",
+    "tip_gu": "Unstable particle માટે ΔEΔt≈ħ/2 અને પછી d≈vΔt વાપરો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q38",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "An electron moves in a one-dimensional potential well of width 8 Å and depth 12 eV. Find the number of bound states present.",
+    "question_gu": "8 Å width અને 12 eV depth ધરાવતા one-dimensional finite potential wellમાં કેટલા bound states છે?",
+    "options_en": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "options_gu": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics — Finite Potential Well",
+    "difficulty": "Medium",
+    "explanation_en": "For a finite well, the allowed bound-state energies must lie below the well depth and satisfy the even/odd transcendental conditions. Using a=8 Å, V0=12 eV and the electron mass gives five bound levels. Hence C.",
+    "explanation_gu": "Finite well માટે bound-state transcendental conditions અને આપેલા a=8 Å, V0=12 eV વાપરતાં કુલ 5 bound levels મળે છે. એટલે C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For finite wells, count the intersections of the even/odd transcendental equations rather than using the infinite-well formula alone.",
+    "tip_gu": "Finite wellમાં infinite-well energy formulaથી સીધી count ન કરો; even/odd conditions વાપરો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q39",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A pair of virtual particles is created for a short time. During their existence a distance of 0.35 fm is covered with a speed very close to the speed of light. What is the value of mc² for each virtual particle?",
+    "question_gu": "Virtual particles 0.35 fm distance લગભગ light speedથી cover કરે છે. તેમના માટે mc² કેટલું આવે છે?",
+    "options_en": [
+      "243.31 keV",
+      "12.52 MeV",
+      "140.56 MeV",
+      "281.12 MeV"
+    ],
+    "options_gu": [
+      "243.31 keV",
+      "12.52 MeV",
+      "140.56 MeV",
+      "281.12 MeV"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics — Energy-Time Uncertainty",
+    "difficulty": "Hard",
+    "explanation_en": "The existence time is approximately Δt≈d/c. Using ΔEΔt≈ħ/2 gives ΔE≈ħc/(2d)≈281 MeV for the pair, so the energy associated with each particle is about 140.56 MeV. Hence C.",
+    "explanation_gu": "Δt≈d/c અને ΔEΔt≈ħ/2થી pair માટે કુલ energy scale લગભગ 281 MeV આવે છે. બે particles માટે each mc²≈140.56 MeV. એટલે C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "When the question asks for each particle in a pair, divide the pair energy scale by two if the particles share it equally.",
+    "tip_gu": "Pairની total energyને બે સમાન particlesમાં વહેંચવી હોય તો 2થી divide કરો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q40",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "An electron in the n=2 state of hydrogen remains there on the average time of about 10⁻⁸ s before making a transition to n=1 state. Estimate the width of this line in the spectrum of hydrogen atom.",
+    "question_gu": "Hydrogen atomના n=2 stateની lifetime લગભગ 10⁻⁸ s હોય તો spectral lineની width કેટલી હશે?",
+    "options_en": [
+      "3.93×10⁻⁷ nm",
+      "1.32×10⁻⁹ nm",
+      "2.74×10⁻² nm",
+      "5.41×10⁻³ nm"
+    ],
+    "options_gu": [
+      "3.93×10⁻⁷ nm",
+      "1.32×10⁻⁹ nm",
+      "2.74×10⁻² nm",
+      "5.41×10⁻³ nm"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics — Natural Linewidth",
+    "difficulty": "Medium",
+    "explanation_en": "The finite lifetime gives an energy uncertainty ΔE≈ħ/(2τ). Converting this energy width to wavelength width around the n=2→1 hydrogen transition using Δλ≈(λ²/hc)ΔE gives the order 10⁻⁷ nm, matching option A.",
+    "explanation_gu": "Finite lifetimeથી ΔE≈ħ/(2τ). પછી Δλ≈(λ²/hc)ΔE વડે wavelength width કાઢતાં લગભગ 10⁻⁷ nm મળે છે, એટલે A.",
+    "review_flag": true,
+    "review_note": "The numerical estimate depends on the convention used for lifetime/linewidth; preserve the official final key A for historical fidelity.",
+    "tip_en": "Natural linewidth comes from lifetime broadening: shorter lifetime → larger ΔE and broader spectral line.",
+    "tip_gu": "Lifetime ઓછી હોય તો ΔE વધારે અને spectral line broader થાય છે.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
   }
 ]
