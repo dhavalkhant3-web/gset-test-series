@@ -316,7 +316,7 @@ class _SubjectHubPageState extends State<SubjectHubPage> {
 
 class PaperIIDataService {
   static Future<List<Map<String, dynamic>>> loadQuestions(String subjectId) async {
-    final path = 'assets/subjects/$' + subjectId + '/questions.json';
+    final path = 'assets/subjects/' + subjectId + '/questions.json';
     try {
       final raw = await rootBundle.loadString(path);
       final decoded = jsonDecode(raw);
@@ -330,7 +330,7 @@ class PaperIIDataService {
 
   static Future<List<Map<String, dynamic>>> loadPapers(String subjectId) async {
     try {
-      final raw = await rootBundle.loadString('assets/subjects/$' + subjectId + '/papers.json');
+      final raw = await rootBundle.loadString('assets/subjects/' + subjectId + '/papers.json');
       final decoded = jsonDecode(raw) as Map;
       final list = decoded['papers'];
       if (list is List) return list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
@@ -417,7 +417,7 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
               Container(width: 62, height: 62, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), borderRadius: BorderRadius.circular(18)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
               const SizedBox(width: 14),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text('$' + code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
+                Text(code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
                 const SizedBox(height: 5),
                 Text(medium, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w700)),
                 const SizedBox(height: 3),
