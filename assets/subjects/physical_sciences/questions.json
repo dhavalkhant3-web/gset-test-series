@@ -5,8 +5,18 @@
     "exam": "December 2024",
     "question_en": "A periodic function f(t) is defined in the interval (−π, π) as f(t)=0 for −π<t<0 and f(t)=2V₀ for 0<t<π. Fourier coefficients (aₙ and bₙ for sine and cosine parts) of the Fourier series of the signal are:",
     "question_gu": "A periodic function f(t) is defined in the interval (−π, π) as f(t)=0 for −π<t<0 and f(t)=2V₀ for 0<t<π. Fourier coefficients (aₙ and bₙ) are:",
-    "options_en": ["aₙ=0, bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n", "aₙ=0, bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n", "a₀=2V₀, aₙ=0 (n>0), bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n", "a₀=2V₀, aₙ=0 (n>0), bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n"],
-    "options_gu": ["aₙ=0, bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n", "aₙ=0, bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n", "a₀=2V₀, aₙ=0 (n>0), bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n", "a₀=2V₀, aₙ=0 (n>0), bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n"],
+    "options_en": [
+      "aₙ=0, bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n",
+      "aₙ=0, bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n",
+      "a₀=2V₀, aₙ=0 (n>0), bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n",
+      "a₀=2V₀, aₙ=0 (n>0), bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n"
+    ],
+    "options_gu": [
+      "aₙ=0, bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n",
+      "aₙ=0, bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n",
+      "a₀=2V₀, aₙ=0 (n>0), bₙ=0 for even n; bₙ=4V₀/(nπ) for odd n",
+      "a₀=2V₀, aₙ=0 (n>0), bₙ=4V₀/(nπ) for even n; bₙ=0 for odd n"
+    ],
     "answer": "C",
     "topic": "Mathematical Physics — Fourier Series",
     "difficulty": "Medium",
@@ -25,8 +35,18 @@
     "exam": "December 2024",
     "question_en": "A coin toss experiment is conducted using a biased coin with only 30% chance of returning head. The probability of getting exactly 2 heads in 5 trials is:",
     "question_gu": "30% head probability ધરાવતા biased coinને 5 વખત toss કરતાં exactly 2 heads મળવાની probability કેટલી?",
-    "options_en": ["13%", "21%", "31%", "44%"],
-    "options_gu": ["13%", "21%", "31%", "44%"],
+    "options_en": [
+      "13%",
+      "21%",
+      "31%",
+      "44%"
+    ],
+    "options_gu": [
+      "13%",
+      "21%",
+      "31%",
+      "44%"
+    ],
     "answer": "C",
     "topic": "Mathematical Physics — Probability",
     "difficulty": "Easy",
@@ -45,8 +65,18 @@
     "exam": "December 2024",
     "question_en": "Consider f(z)=2z³−3iz²+4, where z is a complex variable. Which statement is TRUE?",
     "question_gu": "f(z)=2z³−3iz²+4 માટે કયું statement સાચું છે?",
-    "options_en": ["f(z) is holomorphic everywhere in the complex plane", "f(z) is not holomorphic", "f(z) is holomorphic in some regions of the complex plane", "f(z) is holomorphic only near z=0 but not elsewhere"],
-    "options_gu": ["f(z) is holomorphic everywhere in the complex plane", "f(z) is not holomorphic", "f(z) is holomorphic in some regions of the complex plane", "f(z) is holomorphic only near z=0 but not elsewhere"],
+    "options_en": [
+      "f(z) is holomorphic everywhere in the complex plane",
+      "f(z) is not holomorphic",
+      "f(z) is holomorphic in some regions of the complex plane",
+      "f(z) is holomorphic only near z=0 but not elsewhere"
+    ],
+    "options_gu": [
+      "f(z) is holomorphic everywhere in the complex plane",
+      "f(z) is not holomorphic",
+      "f(z) is holomorphic in some regions of the complex plane",
+      "f(z) is holomorphic only near z=0 but not elsewhere"
+    ],
     "answer": "A",
     "topic": "Mathematical Physics — Complex Analysis",
     "difficulty": "Easy",
@@ -65,8 +95,18 @@
     "exam": "December 2024",
     "question_en": "Matrix A=[[2,1],[3,4]], then 4A²−6A+5I (I is the identity matrix) is:",
     "question_gu": "A=[[2,1],[3,4]] માટે 4A²−6A+5I નું મૂલ્ય શું છે?",
-    "options_en": ["A²", "3A²", "A²−6A+5I", "3A²−6A+5I"],
-    "options_gu": ["A²", "3A²", "A²−6A+5I", "3A²−6A+5I"],
+    "options_en": [
+      "A²",
+      "3A²",
+      "A²−6A+5I",
+      "3A²−6A+5I"
+    ],
+    "options_gu": [
+      "A²",
+      "3A²",
+      "A²−6A+5I",
+      "3A²−6A+5I"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Matrices",
     "difficulty": "Medium",
@@ -85,8 +125,18 @@
     "exam": "December 2024",
     "question_en": "The value of the integral G(F)=∫₋∞^∞δ(x)e^(i2πFx)dx, where δ(x) is the Dirac delta, is:",
     "question_gu": "Dirac delta function માટે G(F)=∫₋∞^∞δ(x)e^(i2πFx)dx નું મૂલ્ય શું છે?",
-    "options_en": ["G(F)=0", "G(F)=1", "G(F)=F", "G(F)=2πF"],
-    "options_gu": ["G(F)=0", "G(F)=1", "G(F)=F", "G(F)=2πF"],
+    "options_en": [
+      "G(F)=0",
+      "G(F)=1",
+      "G(F)=F",
+      "G(F)=2πF"
+    ],
+    "options_gu": [
+      "G(F)=0",
+      "G(F)=1",
+      "G(F)=F",
+      "G(F)=2πF"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Fourier Transform",
     "difficulty": "Easy",
@@ -105,8 +155,18 @@
     "exam": "December 2024",
     "question_en": "A complex number satisfies z²+2z+1=0. Then the value of z for which the real and imaginary parts are non-zero is:",
     "question_gu": "z²+2z+1=0 હોય ત્યારે real અને imaginary બંને parts non-zero હોય તેવું z કયું છે?",
-    "options_en": ["z=−1+1i", "z=−1+2i", "z=2+1i", "z=1+2i"],
-    "options_gu": ["z=−1+1i", "z=−1+2i", "z=2+1i", "z=1+2i"],
+    "options_en": [
+      "z=−1+1i",
+      "z=−1+2i",
+      "z=2+1i",
+      "z=1+2i"
+    ],
+    "options_gu": [
+      "z=−1+1i",
+      "z=−1+2i",
+      "z=2+1i",
+      "z=1+2i"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Complex Numbers",
     "difficulty": "Easy",
@@ -125,8 +185,18 @@
     "exam": "December 2024",
     "question_en": "The second term in the Taylor series expansion of (n²−1)/(n²+2n+1) around 0 is:",
     "question_gu": "(n²−1)/(n²+2n+1) નું 0 આસપાસ Taylor expansionમાં second term શું છે?",
-    "options_en": ["1", "n", "2n", "−n²"],
-    "options_gu": ["1", "n", "2n", "−n²"],
+    "options_en": [
+      "1",
+      "n",
+      "2n",
+      "−n²"
+    ],
+    "options_gu": [
+      "1",
+      "n",
+      "2n",
+      "−n²"
+    ],
     "answer": "C",
     "topic": "Mathematical Physics — Taylor Series",
     "difficulty": "Medium",
@@ -145,8 +215,18 @@
     "exam": "December 2024",
     "question_en": "Bisection method is used to estimate the roots of n²−4=0 with initial values a=0 and b=6. The value of the estimated root after 5 iterations is:",
     "question_gu": "n²−4=0 માટે bisection methodમાં a=0 અને b=6 હોય તો 5 iterations પછી estimated root શું હશે?",
-    "options_en": ["1.52", "1.875", "2.062", "2.250"],
-    "options_gu": ["1.52", "1.875", "2.062", "2.250"],
+    "options_en": [
+      "1.52",
+      "1.875",
+      "2.062",
+      "2.250"
+    ],
+    "options_gu": [
+      "1.52",
+      "1.875",
+      "2.062",
+      "2.250"
+    ],
     "answer": "C",
     "topic": "Mathematical Physics — Numerical Methods",
     "difficulty": "Medium",
@@ -165,8 +245,18 @@
     "exam": "December 2024",
     "question_en": "The residue of f(z)=4z²/[(z¹¹+2)(z−1)] for a simple pole at z=1 is:",
     "question_gu": "z=1 પર simple pole માટે f(z)=4z²/[(z¹¹+2)(z−1)] નો residue શું છે?",
-    "options_en": ["0", "3/4", "1", "4/3"],
-    "options_gu": ["0", "3/4", "1", "4/3"],
+    "options_en": [
+      "0",
+      "3/4",
+      "1",
+      "4/3"
+    ],
+    "options_gu": [
+      "0",
+      "3/4",
+      "1",
+      "4/3"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Complex Analysis",
     "difficulty": "Medium",
@@ -185,8 +275,18 @@
     "exam": "December 2024",
     "question_en": "Value of third order (n=3) Laguerre polynomial L₃(n) at n=1 is:",
     "question_gu": "Third-order Laguerre polynomial L₃(n) નું n=1 પર value શું છે?",
-    "options_en": ["−2/3", "2/3", "−3/2", "3/2"],
-    "options_gu": ["−2/3", "2/3", "−3/2", "3/2"],
+    "options_en": [
+      "−2/3",
+      "2/3",
+      "−3/2",
+      "3/2"
+    ],
+    "options_gu": [
+      "−2/3",
+      "2/3",
+      "−3/2",
+      "3/2"
+    ],
     "answer": "A",
     "topic": "Mathematical Physics — Special Functions",
     "difficulty": "Medium",
@@ -205,8 +305,18 @@
     "exam": "December 2024",
     "question_en": "Which of the following is true for a covariant tensor?",
     "question_gu": "Covariant tensor માટે કયું statement સાચું છે?",
-    "options_en": ["It transforms using inverse of the Jacobian matrix", "It transforms using the Jacobian matrix", "It does not transform under coordinate changes", "It transforms as a covariant vector"],
-    "options_gu": ["It transforms using inverse of the Jacobian matrix", "It transforms using the Jacobian matrix", "It does not transform under coordinate changes", "It transforms as a covariant vector"],
+    "options_en": [
+      "It transforms using inverse of the Jacobian matrix",
+      "It transforms using the Jacobian matrix",
+      "It does not transform under coordinate changes",
+      "It transforms as a covariant vector"
+    ],
+    "options_gu": [
+      "It transforms using inverse of the Jacobian matrix",
+      "It transforms using the Jacobian matrix",
+      "It does not transform under coordinate changes",
+      "It transforms as a covariant vector"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Tensor Analysis",
     "difficulty": "Medium",
@@ -225,8 +335,18 @@
     "exam": "December 2024",
     "question_en": "In electrical circuits, the Laplace transform is used to analyze circuit behavior. If V(s) is the Laplace transform of the time-varying voltage, what does the variable s represent?",
     "question_gu": "Electrical circuitsમાં Laplace transform માટે V(s) હોય તો variable s શું દર્શાવે છે?",
-    "options_en": ["Frequency of the voltage source", "Complex frequency, including decay and oscillation", "Time variation of frequency", "Resistance in the circuit"],
-    "options_gu": ["Frequency of the voltage source", "Complex frequency, including decay and oscillation", "Time variation of frequency", "Resistance in the circuit"],
+    "options_en": [
+      "Frequency of the voltage source",
+      "Complex frequency, including decay and oscillation",
+      "Time variation of frequency",
+      "Resistance in the circuit"
+    ],
+    "options_gu": [
+      "Frequency of the voltage source",
+      "Complex frequency, including decay and oscillation",
+      "Time variation of frequency",
+      "Resistance in the circuit"
+    ],
     "answer": "B",
     "topic": "Mathematical Physics — Laplace Transform",
     "difficulty": "Easy",
@@ -245,8 +365,18 @@
     "exam": "December 2024",
     "question_en": "The Coriolis effect is most noticeable:",
     "question_gu": "Coriolis effect સૌથી વધુ ક્યાં noticeable છે?",
-    "options_en": ["At poles of the Earth", "At the equator", "At mid-latitudes", "Everywhere on Earth equally"],
-    "options_gu": ["At poles of the Earth", "At the equator", "At mid-latitudes", "Everywhere on Earth equally"],
+    "options_en": [
+      "At poles of the Earth",
+      "At the equator",
+      "At mid-latitudes",
+      "Everywhere on Earth equally"
+    ],
+    "options_gu": [
+      "At poles of the Earth",
+      "At the equator",
+      "At mid-latitudes",
+      "Everywhere on Earth equally"
+    ],
     "answer": "A",
     "topic": "Classical Mechanics — Rotating Frames",
     "difficulty": "Easy",
@@ -265,8 +395,18 @@
     "exam": "December 2024",
     "question_en": "A particle of mass m moves under the potential V(r)=A/r²−B/r, where A,B>0. The frequency ω of small oscillations around the equilibrium point is:",
     "question_gu": "V(r)=A/r²−B/r potentialમાં equilibrium point આસપાસ small oscillationsની frequency ω શું છે?",
-    "options_en": ["√(2A/(mB))", "√(2B/(mA))", "√(B⁴/(8mA³))", "√(A⁴/(8mB³))"],
-    "options_gu": ["√(2A/(mB))", "√(2B/(mA))", "√(B⁴/(8mA³))", "√(A⁴/(8mB³))"],
+    "options_en": [
+      "√(2A/(mB))",
+      "√(2B/(mA))",
+      "√(B⁴/(8mA³))",
+      "√(A⁴/(8mB³))"
+    ],
+    "options_gu": [
+      "√(2A/(mB))",
+      "√(2B/(mA))",
+      "√(B⁴/(8mA³))",
+      "√(A⁴/(8mB³))"
+    ],
     "answer": "C",
     "topic": "Classical Mechanics — Small Oscillations",
     "difficulty": "Hard",
@@ -285,8 +425,18 @@
     "exam": "December 2024",
     "question_en": "The Lagrangian for a particle of mass m moving in a central force field is L=(m/2)(ṙ²+r²θ̇²)+k/r. Which represents a conserved quantity?",
     "question_gu": "Central force fieldમાં L=(m/2)(ṙ²+r²θ̇²)+k/r હોય તો conserved quantity કયું છે?",
-    "options_en": ["mr²θ̇", "mrθ̇²−k/r²", "mr²θ̇²", "mṙ"],
-    "options_gu": ["mr²θ̇", "mrθ̇²−k/r²", "mr²θ̇²", "mṙ"],
+    "options_en": [
+      "mr²θ̇",
+      "mrθ̇²−k/r²",
+      "mr²θ̇²",
+      "mṙ"
+    ],
+    "options_gu": [
+      "mr²θ̇",
+      "mrθ̇²−k/r²",
+      "mr²θ̇²",
+      "mṙ"
+    ],
     "answer": "A",
     "topic": "Classical Mechanics — Lagrangian Mechanics",
     "difficulty": "Medium",
@@ -305,8 +455,18 @@
     "exam": "December 2024",
     "question_en": "Two masses m₁ and m₂ are connected by three springs with spring constants K₁, K₂ and K₃, and the masses are free to move in one dimension. The number of generalized coordinates needed to describe the motion is:",
     "question_gu": "બે masses m₁ અને m₂ one-dimensional motionમાં હોય તો motion describe કરવા કેટલા generalized coordinates જોઈએ?",
-    "options_en": ["1", "2", "3", "4"],
-    "options_gu": ["1", "2", "3", "4"],
+    "options_en": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "options_gu": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "B",
     "topic": "Classical Mechanics — Generalized Coordinates",
     "difficulty": "Easy",
@@ -316,6 +476,276 @@
     "review_note": "",
     "tip_en": "Number of generalized coordinates equals the number of independent degrees of freedom.",
     "tip_gu": "Generalized coordinatesની સંખ્યા = independent degrees of freedom.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q17",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "For a rigid body, the diagonal components of the moment of inertia tensor represent",
+    "question_gu": "Rigid body માટે moment of inertia tensor ના diagonal components શું દર્શાવે છે?",
+    "options_en": [
+      "Products of inertia",
+      "Principal moments of inertia",
+      "Mass of the body",
+      "Angular momentum"
+    ],
+    "options_gu": [
+      "Products of inertia",
+      "Principal moments of inertia",
+      "Mass of the body",
+      "Angular momentum"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics — Rigid Body Dynamics",
+    "difficulty": "Easy",
+    "explanation_en": "In principal axes, the inertia tensor is diagonal and its diagonal elements are the principal moments of inertia I₁, I₂ and I₃. Hence B.",
+    "explanation_gu": "Principal axesમાં inertia tensor diagonal બને છે અને તેના diagonal elements I₁, I₂, I₃ principal moments of inertia હોય છે. એટલે B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Diagonalize the inertia tensor to identify the principal moments.",
+    "tip_gu": "Inertia tensorને diagonalize કરતાં principal moments મળે છે.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q18",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "In a two body collision problem of two masses m₁ and m₂ moving with velocities v₁ and v₂ respectively, the velocity of the centre of mass is given by",
+    "question_gu": "m₁ અને m₂ masses અનુક્રમે v₁ અને v₂ velocityથી ચાલે ત્યારે centre of massની velocity શું છે?",
+    "options_en": [
+      "0",
+      "(m₁v₁ + m₂v₂)/(m₁ + m₂)",
+      "(v₁ + v₂)/2",
+      "(m₁v₂ + m₂v₁)/(m₁ + m₂)"
+    ],
+    "options_gu": [
+      "0",
+      "(m₁v₁ + m₂v₂)/(m₁ + m₂)",
+      "(v₁ + v₂)/2",
+      "(m₁v₂ + m₂v₁)/(m₁ + m₂)"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics — Centre of Mass",
+    "difficulty": "Easy",
+    "explanation_en": "The centre-of-mass velocity is total momentum divided by total mass: V_CM=(m₁v₁+m₂v₂)/(m₁+m₂). Hence B.",
+    "explanation_gu": "V_CM = કુલ momentum / કુલ mass = (m₁v₁+m₂v₂)/(m₁+m₂). એટલે B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For two particles, use mass-weighted average of their velocities.",
+    "tip_gu": "Centre-of-mass velocity એટલે velocityનું mass-weighted average.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q19",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A rigid rod of negligible thickness has N rotational degrees of freedom in a 3-space coordinate system. Then N equals",
+    "question_gu": "3-dimensional spaceમાં negligible thickness ધરાવતા rigid rodના rotational degrees of freedom N કેટલા છે?",
+    "options_en": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "options_gu": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics — Degrees of Freedom",
+    "difficulty": "Easy",
+    "explanation_en": "A rigid body in three-dimensional space has three independent rotational degrees of freedom, corresponding to its orientation. Thus N=3, option C.",
+    "explanation_gu": "3Dમાં rigid bodyની orientation નક્કી કરવા 3 independent rotational degrees of freedom જોઈએ. તેથી N=3, એટલે C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Rigid body in 3D: 3 translational + 3 rotational degrees of freedom.",
+    "tip_gu": "3D rigid body માટે કુલ 6 DOF: 3 translational + 3 rotational.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q20",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "A two dimensional dynamical system is governed by the Lagrangian L = k²(ẋ² + ẏ²) − m²(x + y)². The Hamiltonian in this case becomes",
+    "question_gu": "L = k²(ẋ² + ẏ²) − m²(x+y)² હોય તો corresponding Hamiltonian શું છે?",
+    "options_en": [
+      "m²(ẋ² + ẏ²) + k²(x + y)²",
+      "2k²(ẋ² + ẏ²) + m²(x + y)²",
+      "2k²(ẋ² + ẏ²) + m²(x² + y²)",
+      "m²(x + y)² + k²(ẋ² + ẏ²)"
+    ],
+    "options_gu": [
+      "m²(ẋ² + ẏ²) + k²(x + y)²",
+      "2k²(ẋ² + ẏ²) + m²(x + y)²",
+      "2k²(ẋ² + ẏ²) + m²(x² + y²)",
+      "m²(x + y)² + k²(ẋ² + ẏ²)"
+    ],
+    "answer": "D",
+    "topic": "Classical Mechanics — Hamiltonian Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Using H = Σ pᵢq̇ᵢ − L and pₓ=2k²ẋ, pᵧ=2k²ẏ, we get H = k²(ẋ²+ẏ²)+m²(x+y)². This is option D.",
+    "explanation_gu": "pₓ=∂L/∂ẋ=2k²ẋ અને pᵧ=2k²ẏ. તેથી H=pₓẋ+pᵧẏ−L = k²(ẋ²+ẏ²)+m²(x+y)². એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use H=Σpᵢq̇ᵢ−L; if the question leaves H in velocity form, substitute p=∂L/∂q̇ back into H.",
+    "tip_gu": "H=Σpᵢq̇ᵢ−L formula વાપરો અને p=∂L/∂q̇ substitute કરો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q21",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "In the recent SOLAR mission by ISRO, Aditya L1 is believed to move in a “halo” orbit around an axis connecting the SUN and the EARTH. Select the correct statement from below on the “Halo Orbit”.",
+    "question_gu": "ISROની Aditya L1 missionમાં Sun–Earth axisની આસપાસ halo orbit માટે કયું statement સાચું છે?",
+    "options_en": [
+      "It is an elliptical orbit in 3-space",
+      "It is an elliptical orbit in 2-space",
+      "It is a circular orbit in 2-space",
+      "It is a circular orbit in 3-space"
+    ],
+    "options_gu": [
+      "It is an elliptical orbit in 3-space",
+      "It is an elliptical orbit in 2-space",
+      "It is a circular orbit in 2-space",
+      "It is a circular orbit in 3-space"
+    ],
+    "answer": "D",
+    "topic": "Classical Mechanics — Celestial Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "A halo orbit is a three-dimensional periodic orbit around a collinear Lagrange point in the restricted three-body problem. The Aditya-L1 spacecraft follows a three-dimensional halo orbit about the Sun–Earth L1 region. Hence D.",
+    "explanation_gu": "Halo orbit restricted three-body problemમાં Lagrange pointની આસપાસનું 3-dimensional periodic orbit છે. Aditya-L1 Sun–Earth L1 regionની આસપાસ halo orbitમાં ચાલે છે. એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Halo orbit is 3D; do not confuse it with a planar Lissajous or ordinary circular orbit.",
+    "tip_gu": "Halo orbit 3D હોય છે; તેને ordinary circular orbit સાથે confuse ન કરો.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q22",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "The Lagrangian L(qᵢ, q̇ᵢ, t) is defined for all cyclic coordinates. Select the correct statement from below.",
+    "question_gu": "Lagrangian L(qᵢ,q̇ᵢ,t)માં cyclic coordinates માટે કયું statement સાચું છે?",
+    "options_en": [
+      "The canonical conjugates pᵢ to qᵢ are conserved",
+      "The canonical conjugates pᵢ to qᵢ are not conserved",
+      "The energy remains conserved",
+      "The applied force remains conserved"
+    ],
+    "options_gu": [
+      "The canonical conjugates pᵢ to qᵢ are conserved",
+      "The canonical conjugates pᵢ to qᵢ are not conserved",
+      "The energy remains conserved",
+      "The applied force remains conserved"
+    ],
+    "answer": "A",
+    "topic": "Classical Mechanics — Cyclic Coordinates",
+    "difficulty": "Easy",
+    "explanation_en": "If qᵢ is cyclic, ∂L/∂qᵢ=0. Euler–Lagrange gives d pᵢ/dt=0, so its canonical conjugate momentum pᵢ is conserved. Hence A.",
+    "explanation_gu": "Cyclic coordinate માટે ∂L/∂qᵢ=0. Euler–Lagrangeથી dpᵢ/dt=0 મળે છે, એટલે canonical momentum pᵢ conserved છે. A.",
+    "review_flag": true,
+    "review_note": "The wording 'for all cyclic coordinates' is broad; the conserved statement applies to each coordinate that is cyclic. Preserve the official key A.",
+    "tip_en": "Cyclic coordinate → conserved canonical momentum.",
+    "tip_gu": "Cyclic coordinate હોય તો corresponding canonical momentum conserved.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q23",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "The time dependent Hamilton-Jacobi equation for a harmonic system described with two degrees of freedom is given by",
+    "question_gu": "Two degrees of freedom ધરાવતા harmonic system માટે time-dependent Hamilton–Jacobi equation કઈ છે?",
+    "options_en": [
+      "H(q₁,q₂,q₃,...,qₙ, ∂w/∂q₁, ∂w/∂q₂,...) + ∂w/∂t = 0",
+      "H(q₁,q₂,q₃,...,qₙ, dw/dq₁, dw/dq₂,...) + dw/dt = 0",
+      "H(q₁,q₂) + dw/dt = 0",
+      "H(q₁,q₂, ∂w/∂q₁, ∂w/∂q₂) + ∂w/∂t = 0"
+    ],
+    "options_gu": [
+      "H(q₁,q₂,q₃,...,qₙ, ∂w/∂q₁, ∂w/∂q₂,...) + ∂w/∂t = 0",
+      "H(q₁,q₂,q₃,...,qₙ, dw/dq₁, dw/dq₂,...) + dw/dt = 0",
+      "H(q₁,q₂) + dw/dt = 0",
+      "H(q₁,q₂, ∂w/∂q₁, ∂w/∂q₂) + ∂w/∂t = 0"
+    ],
+    "answer": "D",
+    "topic": "Classical Mechanics — Hamilton-Jacobi Theory",
+    "difficulty": "Medium",
+    "explanation_en": "For two generalized coordinates, the Hamilton–Jacobi equation is H(q₁,q₂, ∂W/∂q₁, ∂W/∂q₂,t)+∂W/∂t=0. Thus D is the specific two-degree-of-freedom form.",
+    "explanation_gu": "બે generalized coordinates માટે H(q₁,q₂,∂W/∂q₁,∂W/∂q₂,t)+∂W/∂t=0. એટલે D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "HJ equation: replace pᵢ by ∂W/∂qᵢ and add ∂W/∂t.",
+    "tip_gu": "HJ equation માટે pᵢ → ∂W/∂qᵢ અને +∂W/∂t=0.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q24",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "The proper time (T) in special theory of relativity is given as dT² = (−c²dt² + dx² + dy² + dz²). Select the correct statement from the options below.",
+    "question_gu": "Special relativityમાં dT² = (−c²dt² + dx² + dy² + dz²) હોય તો કયું statement સાચું છે?",
+    "options_en": [
+      "dT² > 0 for space-like and dT² < 0 for time-like",
+      "dT² < 0 for space-like and dT² > 0 for time-like",
+      "dT² < 0 for space-like and dT² = 0 for time-like",
+      "dT² > 0 for space-like and dT² = 0 for time-like"
+    ],
+    "options_gu": [
+      "dT² > 0 for space-like and dT² < 0 for time-like",
+      "dT² < 0 for space-like and dT² > 0 for time-like",
+      "dT² < 0 for space-like and dT² = 0 for time-like",
+      "dT² > 0 for space-like and dT² = 0 for time-like"
+    ],
+    "answer": "A",
+    "topic": "Relativity — Spacetime Interval",
+    "difficulty": "Medium",
+    "explanation_en": "With the metric convention used in the question, the interval is negative for timelike separations and positive for spacelike separations; it is zero for lightlike separation. Hence A.",
+    "explanation_gu": "આ metric conventionમાં timelike interval negative, spacelike interval positive અને lightlike માટે zero હોય છે. તેથી A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Always check the metric signature first; here the time term has the minus sign.",
+    "tip_gu": "Metric signature પહેલા જુઓ; અહીં time term negative છે.",
+    "source_verified": true,
+    "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
+  },
+  {
+    "id": "physical_dec24_q25",
+    "paper_id": "physical_dec24",
+    "exam": "December 2024",
+    "question_en": "Electromagnetic wave of wavelength 532 nm, polarized parallel to the plane of incidence, is obliquely incident at an angle of 49° with respect to the surface normal at the interface between two non-magnetic dielectric media of refractive indices n₁=1.33 and n₂=1.53. The percentage of incident light which is reflected is",
+    "question_gu": "532 nm wavelengthનું p-polarized EM wave 49° incidence angle પર n₁=1.33 થી n₂=1.53 interface પર પડે છે. Reflected lightની percentage કેટલી?",
+    "options_en": [
+      "0",
+      "5",
+      "7",
+      "26.4"
+    ],
+    "options_gu": [
+      "0",
+      "5",
+      "7",
+      "26.4"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism — Fresnel Equations",
+    "difficulty": "Medium",
+    "explanation_en": "For p-polarization, the Fresnel amplitude coefficient is rₚ=(n₂cosθᵢ−n₁cosθₜ)/(n₂cosθᵢ+n₁cosθₜ). Snell's law gives θₜ≈41.0°. At θᵢ=49°, which is essentially the Brewster angle arctan(n₂/n₁)≈49.0°, rₚ≈0, so the reflected percentage is approximately 0%. Hence A.",
+    "explanation_gu": "p-polarization માટે Fresnel coefficient rₚ વાપરો. Snell lawથી θₜ≈41°. 49° angle લગભગ Brewster angle θ_B=tan⁻¹(n₂/n₁)≈49° છે, તેથી rₚ≈0 અને reflected intensity લગભગ 0%. એટલે A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "At Brewster angle for non-magnetic dielectrics, p-polarized reflected intensity becomes zero.",
+    "tip_gu": "Brewster angle પર p-polarized reflected intensity zero થાય છે.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key"
   }
