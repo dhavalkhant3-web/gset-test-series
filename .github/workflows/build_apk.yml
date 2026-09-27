@@ -48,6 +48,22 @@ jobs:
           assert all(x.get("answer") in {"A","B","C","D"} for x in q)
           print("Nov 2025 Physical Sciences: 100 questions generated cleanly")
           PY
+          python3 - <<'PY'
+          import json
+          target = "assets/subjects/physical_sciences/questions.json"
+          generated = "assets/subjects/physical_sciences/nov25_questions.json"
+          existing = json.load(open(target, encoding="utf-8"))
+          added = json.load(open(generated, encoding="utf-8"))
+          old = {str(x.get("id")) for x in existing}
+          added = [x for x in added if str(x.get("id")) not in old]
+          for x in added:
+              x["question_gu"] = x.get("question_en", "")
+              x["options_gu"] = list(x.get("options_en", ["","","",""]))
+          merged = existing + added
+          assert len(merged) == 225, f"Expected 225 Physical Sciences questions, found {len(merged)}"
+          json.dump(merged, open(target, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print("Physical Sciences question bank merged:", len(merged))
+          PY
 
       - name: Validate question bank integrity
         run: python3 tool/validate_questions.py
