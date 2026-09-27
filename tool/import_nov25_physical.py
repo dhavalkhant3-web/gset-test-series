@@ -1,7 +1,7 @@
 import json, re, subprocess, urllib.request
 from pathlib import Path
 
-URL='https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2502.pdf'
+URL='https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2502.pdf'
 ANS='''D D A A B C B C D B
 C D C D D A C D A C
 A B C D A A B B D B
