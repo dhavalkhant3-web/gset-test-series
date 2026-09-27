@@ -64,6 +64,16 @@ def extract_pages(pdf, stem):
     )
     if numbered >= 20:
         return [(f"text-{i+1}", p) for i, p in enumerate(pages) if p.strip()]
+    raw_txt = stem.with_name(stem.name + "_raw.txt")
+    run(["pdftotext", "-raw", str(pdf), str(raw_txt)])
+    raw_text = raw_txt.read_text(encoding="utf-8", errors="ignore")
+    raw_pages = raw_text.split("\f")
+    raw_numbered = sum(
+        1 for page in raw_pages
+        for _ in re.finditer(r"(?m)^\s*(?:Q(?:uestion)?\.?\s*)?\d{1,3}[\.)]?\s+", page)
+    )
+    if raw_numbered >= 10:
+        return [(f"raw-{i+1}", p) for i, p in enumerate(raw_pages) if p.strip()]
     return None
 
 def normalize_question_number(s):
@@ -172,7 +182,18 @@ def update_papers_metadata(report):
     PAPERS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def main():
-    selected = set(sys.argv[1:])
+    args = sys.argv[1:]
+    selected = set()
+    if args[:1] == ["--paper"]:
+        if len(args) != 2:
+            raise SystemExit("Usage: python3 tool/import_physical_archive.py [--paper PAPER_ID]")
+        selected = {args[1]}
+    elif args:
+        selected = set(args)
+    valid_ids = {p[0] for p in PAPERS}
+    unknown = selected - valid_ids
+    if unknown:
+        raise SystemExit("Unknown paper(s): " + ",".join(sorted(unknown)))
     WORK.mkdir(parents=True, exist_ok=True)
 
     allq = json.loads(OUT.read_text(encoding="utf-8"))
@@ -218,6 +239,11 @@ def main():
             block = blocks.get(qn, "")
             if not block:
                 review_count += 1
+                qid = f"{pid}_q{qn:02d}"
+                existing = byid.get(qid)
+                if existing:
+                    existing["review_flag"] = True
+                    existing["review_note"] = "Official source exists but automatic reconstruction is incomplete; retained existing record and flagged for manual source review."
                 continue
             opts = parse_options(block)
             # Question ends immediately before first option marker.
@@ -278,7 +304,7 @@ def main():
     overall_fail = False
     for r in report:
         missing = ",".join(f"Q{q}" for q in r["missing"]) if r["missing"] else "none"
-        status = "REVIEW_REQUIRED" if r["missing"] else "OK"
+        status = "REVIEW_REQUIRED" if r["missing"] or r["review"] else "OK"
         print(f"Paper: {r['paper_id']}")
         print(f"Expected: {r['expected']}")
         print(f"Parsed: {r['parsed']}")
