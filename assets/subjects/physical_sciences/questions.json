@@ -3623,8 +3623,8 @@
     "id": "physical_nov25_q08",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Newton Raphson method is used to find the roots of the function f(x) = x8 - 2x-5 with an initial approximation of X,) = 4. The approximated root after 15, 2\"4 and 3\"¢ iterations of the method is",
-    "question_gu": "Newton Raphson method is used to find the roots of the function f(x) = x8 - 2x-5 with an initial approximation of X,) = 4. The approximated root after 15, 2\"4 and 3\"¢ iterations of the method is",
+    "question_en": "Newton Raphson method is used to find the roots of the function f(x) = x³ − 2x − 5 with an initial approximation of x₀ = 4. The approximated root after 1st, 2nd and 3rd iterations of the method is",
+    "question_gu": "Newton Raphson method is used to find the roots of the function f(x) = x³ − 2x − 5 with an initial approximation of x₀ = 4. The approximated root after 1st, 2nd and 3rd iterations of the method is",
     "options_en": [
       "2.71, 2.53, 2.04",
       "2.71, 2.64, 2.31",
@@ -3653,19 +3653,19 @@
     "id": "physical_nov25_q09",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A function is given by f(x, y) = 4ax? + 16by2+ c. The value of a, b, c for which f(x, y) satisfies the Laplace equation is",
-    "question_gu": "A function is given by f(x, y) = 4ax? + 16by2+ c. The value of a, b, c for which f(x, y) satisfies the Laplace equation is",
+    "question_en": "A function is given by f(x, y) = 4ax² + 16by² + c. The value of a, b, c for which f(x, y) satisfies the Laplace equation is",
+    "question_gu": "A function is given by f(x, y) = 4ax² + 16by² + c. The value of a, b, c for which f(x, y) satisfies the Laplace equation is",
     "options_en": [
-      "a=1,b=-4,c=1",
-      "a=4,b=1,c=1",
-      "a=1,b=4,c=1",
-      "a=4,b=-1,c=1"
+      "a = 1, b = −4, c = 1",
+      "a = 4, b = 1, c = 1",
+      "a = 1, b = 4, c = 1",
+      "a = 4, b = −1, c = 1"
     ],
     "options_gu": [
-      "a=1,b=-4,c=1",
-      "a=4,b=1,c=1",
-      "a=1,b=4,c=1",
-      "a=4,b=-1,c=1"
+      "a = 1, b = −4, c = 1",
+      "a = 4, b = 1, c = 1",
+      "a = 1, b = 4, c = 1",
+      "a = 4, b = −1, c = 1"
     ],
     "answer": "D",
     "topic": "Physical Sciences",
@@ -3683,8 +3683,8 @@
     "id": "physical_nov25_q10",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Bessel function of first kind J.(x) satisfies the differential equation 2 ye FV (x?-n?)y =0. Given that J,(2) ~ 0.2239 and J, (2) ~ 0.5767, dx? dx then the approximate value of J,(2) is",
-    "question_gu": "Bessel function of first kind J.(x) satisfies the differential equation 2 ye FV (x?-n?)y =0. Given that J,(2) ~ 0.2239 and J, (2) ~ 0.5767, dx? dx then the approximate value of J,(2) is",
+    "question_en": "Bessel function of first kind Jₙ(x) satisfies the differential equation x² d²y/dx² + x dy/dx + (x² − n²)y = 0. Given that J₀(2) ≈ 0.2239 and J₁(2) ≈ 0.5767, then the approximate value of J₂(2) is",
+    "question_gu": "Bessel function of first kind Jₙ(x) satisfies the differential equation x² d²y/dx² + x dy/dx + (x² − n²)y = 0. Given that J₀(2) ≈ 0.2239 and J₁(2) ≈ 0.5767, then the approximate value of J₂(2) is",
     "options_en": [
       "0.2239",
       "0.3528",
@@ -3713,8 +3713,8 @@
     "id": "physical_nov25_q11",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A watch making company manufactures 1000 watches in a day, out of which 5% are defective. If 10 watches from all those manufactured are randomly selected, what is the probability that exactly 2 of them are defective ?",
-    "question_gu": "A watch making company manufactures 1000 watches in a day, out of which 5% are defective. If 10 watches from all those manufactured are randomly selected, what is the probability that exactly 2 of them are defective ?",
+    "question_en": "A watch making company manufactures 1000 watches in a day, out of which 5% are defective. If 10 watches from all those manufactured are randomly selected, what is the probability that exactly 2 of them are defective?",
+    "question_gu": "A watch making company manufactures 1000 watches in a day, out of which 5% are defective. If 10 watches from all those manufactured are randomly selected, what is the probability that exactly 2 of them are defective?",
     "options_en": [
       "3.47%",
       "5.47%",
@@ -3743,8 +3743,8 @@
     "id": "physical_nov25_q12",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A vector field is defined by F = (3x?, 2y, z°). The flux of this field through the surface of a cube defined by 0 < x,y,z < 2is",
-    "question_gu": "A vector field is defined by F = (3x?, 2y, z°). The flux of this field through the surface of a cube defined by 0 < x,y,z < 2is",
+    "question_en": "A vector field is defined by F = (3x², 2y, z³). The flux of this field through the surface of a cube defined by 0 ≤ x, y, z ≤ 2 is",
+    "question_gu": "A vector field is defined by F = (3x², 2y, z³). The flux of this field through the surface of a cube defined by 0 ≤ x, y, z ≤ 2 is",
     "options_en": [
       "48",
       "384",
@@ -4013,19 +4013,19 @@
     "id": "physical_nov25_q21",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Two particles A and B move toward each other, each with speed 0.8c relative to the lab frame. What is the speed of B as observed from A?",
-    "question_gu": "Two particles A and B move toward each other, each with speed 0.8c relative to the lab frame. What is the speed of B as observed from A?",
+    "question_en": "Two particles A and B move toward each other, each with speed 0.8 c relative to lab frame. What is the speed of B as observed from A?",
+    "question_gu": "Two particles A and B move toward each other, each with speed 0.8 c relative to lab frame. What is the speed of B as observed from A?",
     "options_en": [
-      "2.93×10^8 m/s",
-      "2.56×10^8 m/s",
-      "2.18×10^8 m/s",
-      "1.96×10^8 m/s"
+      "2.93 × 10⁸ m/s",
+      "2.56 × 10⁸ m/s",
+      "2.18 × 10⁸ m/s",
+      "1.96 × 10⁸ m/s"
     ],
     "options_gu": [
-      "2.93×10^8 m/s",
-      "2.56×10^8 m/s",
-      "2.18×10^8 m/s",
-      "1.96×10^8 m/s"
+      "2.93 × 10⁸ m/s",
+      "2.56 × 10⁸ m/s",
+      "2.18 × 10⁸ m/s",
+      "1.96 × 10⁸ m/s"
     ],
     "answer": "A",
     "topic": "Physical Sciences",
@@ -4043,8 +4043,8 @@
     "id": "physical_nov25_q22",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The highest and lowest velocities of a planet in its orbit around the Sun are 30.0 and 29.2 km/s, respectively. What is the shape of the orbit?",
-    "question_gu": "The highest and lowest velocities of a planet in its orbit around the Sun are 30.0 and 29.2 km/s, respectively. What is the shape of the orbit?",
+    "question_en": "The highest and lowest velocities of a planet in its orbit around the sun are 30.0 and 29.2 km/s, respectively. What is the shape of the orbit?",
+    "question_gu": "The highest and lowest velocities of a planet in its orbit around the sun are 30.0 and 29.2 km/s, respectively. What is the shape of the orbit?",
     "options_en": [
       "Circular",
       "Elliptical",
@@ -4103,19 +4103,19 @@
     "id": "physical_nov25_q24",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Under what condition can the Lorentz transformation reduce to Galilean transformation?",
-    "question_gu": "Under what condition can the Lorentz transformation reduce to Galilean transformation?",
+    "question_en": "Under what condition can the Lorentz condition reduce to Galilean transformation?",
+    "question_gu": "Under what condition can the Lorentz condition reduce to Galilean transformation?",
     "options_en": [
-      "When speeds are relativistic",
+      "When the speeds are relativistic",
       "When the frame of reference is accelerating",
-      "When the frame of reference is decelerating",
-      "When speeds are small compared to the speed of light"
+      "When the frame of reference is deaccelerating",
+      "When the speeds are small as compared to the speed of light"
     ],
     "options_gu": [
-      "When speeds are relativistic",
+      "When the speeds are relativistic",
       "When the frame of reference is accelerating",
-      "When the frame of reference is decelerating",
-      "When speeds are small compared to the speed of light"
+      "When the frame of reference is deaccelerating",
+      "When the speeds are small as compared to the speed of light"
     ],
     "answer": "D",
     "topic": "Physical Sciences",
@@ -4163,8 +4163,8 @@
     "id": "physical_nov25_q26",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A pair of scalar and vector potentials are V=V₀ (constant) and A=A₀ sin(kx−ωt) ŷ. Which statement is true?",
-    "question_gu": "A pair of scalar and vector potentials are V=V₀ (constant) and A=A₀ sin(kx−ωt) ŷ. Which statement is true?",
+    "question_en": "A pair of scalar and vector potentials are given by V = V₀ (Constant) and A⃗ = A₀ sin(kx − ωt) ŷ. Which of the following statement is true?",
+    "question_gu": "A pair of scalar and vector potentials are given by V = V₀ (Constant) and A⃗ = A₀ sin(kx − ωt) ŷ. Which of the following statement is true?",
     "options_en": [
       "They satisfy Coulomb and Lorenz gauges",
       "They satisfy Coulomb gauge only",
@@ -4583,19 +4583,19 @@
     "id": "physical_nov25_q40",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Which one is NOT correct expression of Hamiltonian in terms of creation, annihilation and number operators for linear harmonic oscillator?",
-    "question_gu": "Which one is NOT correct expression of Hamiltonian in terms of creation, annihilation and number operators for linear harmonic oscillator?",
+    "question_en": "Which one is NOT correct expression of Hamiltonian in terms of creation, annihilation and number operators for linear Harmonic oscillator?",
+    "question_gu": "Which one is NOT correct expression of Hamiltonian in terms of creation, annihilation and number operators for linear Harmonic oscillator?",
     "options_en": [
-      "H=ℏω(N+1/2)",
-      "H=ℏω(a†a+1/2)",
-      "H=ℏω(aa†+1/2)",
-      "H=ℏω(aa†−1/2)"
+      "Ĥ = ℏω(N̂ + 1/2)",
+      "Ĥ = ℏω(aa† + 1/2)",
+      "Ĥ = ℏω(a†a + 1/2)",
+      "Ĥ = ℏω(aa† − 1/2)"
     ],
     "options_gu": [
-      "H=ℏω(N+1/2)",
-      "H=ℏω(a†a+1/2)",
-      "H=ℏω(aa†+1/2)",
-      "H=ℏω(aa†−1/2)"
+      "Ĥ = ℏω(N̂ + 1/2)",
+      "Ĥ = ℏω(aa† + 1/2)",
+      "Ĥ = ℏω(a†a + 1/2)",
+      "Ĥ = ℏω(aa† − 1/2)"
     ],
     "answer": "B",
     "topic": "Physical Sciences",
@@ -4613,17 +4613,17 @@
     "id": "physical_nov25_q41",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Aparticle of mass m is constrained to move in the potential V(x) smotx! For x >0 = 00 For x <0 Which one of the following statements is correct ?",
-    "question_gu": "Aparticle of mass m is constrained to move in the potential V(x) smotx! For x >0 = 00 For x <0 Which one of the following statements is correct ?",
+    "question_en": "A particle of mass m is constrained to move in the potential V(x) = 1/2 mω²x² for x > 0; V(x) = ∞ for x ≤ 0. Which one of the following statements is correct?",
+    "question_gu": "A particle of mass m is constrained to move in the potential V(x) = 1/2 mω²x² for x > 0; V(x) = ∞ for x ≤ 0. Which one of the following statements is correct?",
     "options_en": [
-      "The ground state energy is 7",
-      "The first excited state energy is ave",
+      "The ground state energy is 1/2 ℏω",
+      "The first excited state energy is 1/2 ℏω",
       "The ground state parity is odd",
       "The first excited state parity is even"
     ],
     "options_gu": [
-      "The ground state energy is 7",
-      "The first excited state energy is ave",
+      "The ground state energy is 1/2 ℏω",
+      "The first excited state energy is 1/2 ℏω",
       "The ground state parity is odd",
       "The first excited state parity is even"
     ],
@@ -4643,8 +4643,8 @@
     "id": "physical_nov25_q42",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A particle of mass m is confined in a two-dimensional well: V(x,y)=0 for −a<x<a and −a<y<a, and ∞ otherwise. What is the energy of the first excited state?",
-    "question_gu": "A particle of mass m is confined in a two-dimensional well: V(x,y)=0 for −a<x<a and −a<y<a, and ∞ otherwise. What is the energy of the first excited state?",
+    "question_en": "A particle of mass m is confined in a two-dimensional well potential of dimension a. The potential V(x, y) is given by V(x, y) = 0 for −a < x < a; −a < y < a, and V(x, y) = ∞ otherwise. What is the energy of the first excited state for this particle?",
+    "question_gu": "A particle of mass m is confined in a two-dimensional well potential of dimension a. The potential V(x, y) is given by V(x, y) = 0 for −a < x < a; −a < y < a, and V(x, y) = ∞ otherwise. What is the energy of the first excited state for this particle?",
     "options_en": [
       "π²ℏ²/(ma²)",
       "2π²ℏ²/(ma²)",
@@ -4673,8 +4673,8 @@
     "id": "physical_nov25_q43",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Aspin half particle is in a linear superposition (0.8 | T)+0.6 |L)) of its spin up and spin down states. If \\T) and |/) are the eigenstates of o,, then what is the expectation value of operator (20, + 6,) ? Here symbols have their usual meanings.",
-    "question_gu": "Aspin half particle is in a linear superposition (0.8 | T)+0.6 |L)) of its spin up and spin down states. If \\T) and |/) are the eigenstates of o,, then what is the expectation value of operator (20, + 6,) ? Here symbols have their usual meanings.",
+    "question_en": "A spin half particle is in a linear superposition (0.8 |↑⟩ + 0.6 |↓⟩) of its spin up and spin down states. If |↑⟩ and |↓⟩ are the eigenstates of σ_z, then what is the expectation value of operator (2σ_z + σ_x)? Here symbols have their usual meanings.",
+    "question_gu": "A spin half particle is in a linear superposition (0.8 |↑⟩ + 0.6 |↓⟩) of its spin up and spin down states. If |↑⟩ and |↓⟩ are the eigenstates of σ_z, then what is the expectation value of operator (2σ_z + σ_x)? Here symbols have their usual meanings.",
     "options_en": [
       "0.48",
       "1.0",
@@ -4692,8 +4692,8 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: C. This item is transcribed from the official November 2025 Physical Sciences Paper-II; use the stated options and key for historical-paper practice.",
     "explanation_gu": "Official GSET final answer: C. આ પ્રશ્ન official November 2025 Physical Sciences Paper-IIમાંથી transcribe કરવામાં આવ્યો છે; historical-paper practice માટે official options અને key જ રાખવામાં આવ્યા છે.",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Official paper wording gives (0.8|↑⟩ + 0.6|↓⟩) and operator (2σ_z + σ_x), while the official key is C (1.54). Direct evaluation of the displayed state/operator gives 1.52; preserve the official key and flag for review.",
     "tip_en": "Use the standard concept/formula for the topic and verify the option against the official final key.",
     "tip_gu": "આ topicનું standard concept/formula વાપરો અને optionને official final key સાથે ચકાસો.",
     "source_verified": true,
@@ -4733,19 +4733,19 @@
     "id": "physical_nov25_q45",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A free particle has normalized wavefunction ψ(x,0)=(2πσ_x²)^−1/4 exp(−x²/(4σ_x²)), where σ_x²=⟨x²⟩. What is the momentum spread σ_p=√(⟨p²⟩−⟨p⟩²)?",
-    "question_gu": "A free particle has normalized wavefunction ψ(x,0)=(2πσ_x²)^−1/4 exp(−x²/(4σ_x²)), where σ_x²=⟨x²⟩. What is the momentum spread σ_p=√(⟨p²⟩−⟨p⟩²)?",
+    "question_en": "A free particle of mass m moves in one dimension. At time t = 0, the normalized wave function of the particle is ψ(x,0) = (2πσₓ²)⁻¹⁄⁴ exp(−x²/4σₓ²) where σₓ² = ⟨x²⟩. What is the momentum spread σₚ = √(⟨p²⟩ − ⟨p⟩²) associated with the wave function?",
+    "question_gu": "A free particle of mass m moves in one dimension. At time t = 0, the normalized wave function of the particle is ψ(x,0) = (2πσₓ²)⁻¹⁄⁴ exp(−x²/4σₓ²) where σₓ² = ⟨x²⟩. What is the momentum spread σₚ = √(⟨p²⟩ − ⟨p⟩²) associated with the wave function?",
     "options_en": [
-      "3ℏ/(4σ_x²)",
-      "3ℏ/(5σ_x)",
-      "2ℏ²/(3σ_x²)",
-      "ℏ/(2σ_x)"
+      "3ℏ/(4σₓ²)",
+      "3ℏ/(5σₓ)",
+      "2ℏ²/(3σₓ²)",
+      "ℏ/(2σₓ)"
     ],
     "options_gu": [
-      "3ℏ/(4σ_x²)",
-      "3ℏ/(5σ_x)",
-      "2ℏ²/(3σ_x²)",
-      "ℏ/(2σ_x)"
+      "3ℏ/(4σₓ²)",
+      "3ℏ/(5σₓ)",
+      "2ℏ²/(3σₓ²)",
+      "ℏ/(2σₓ)"
     ],
     "answer": "D",
     "topic": "Physical Sciences",
@@ -4763,8 +4763,8 @@
     "id": "physical_nov25_q46",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "What is the consequence of identical fermions occupying same quantum state ?",
-    "question_gu": "What is the consequence of identical fermions occupying same quantum state ?",
+    "question_en": "What is the consequence of identical fermions occupying same quantum state?",
+    "question_gu": "What is the consequence of identical fermions occupying same quantum state?",
     "options_en": [
       "They violate Pauli exclusion principle",
       "They form Bose-Einstein condensate",
@@ -4793,8 +4793,8 @@
     "id": "physical_nov25_q47",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The Klein-Gordon equation is essential for the description of which type of particle in relativistic quantum mechanics ?",
-    "question_gu": "The Klein-Gordon equation is essential for the description of which type of particle in relativistic quantum mechanics ?",
+    "question_en": "The Klein-Gordon equation is essential for the description of which type of particle in relativistic quantum mechanics?",
+    "question_gu": "The Klein-Gordon equation is essential for the description of which type of particle in relativistic quantum mechanics?",
     "options_en": [
       "Neutrinos",
       "Mesons",
@@ -4853,8 +4853,8 @@
     "id": "physical_nov25_q49",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "For the phase transition during freezing of water, which statement is true according to the Clausius-Clapeyron equation?",
-    "question_gu": "For the phase transition during freezing of water, which statement is true according to the Clausius-Clapeyron equation?",
+    "question_en": "For the phase transition during freezing of water, which of the following is true according to the Clausius-Clapeyron equation?",
+    "question_gu": "For the phase transition during freezing of water, which of the following is true according to the Clausius-Clapeyron equation?",
     "options_en": [
       "dP/dT < 0",
       "dP/dT > 0",
@@ -5153,19 +5153,19 @@
     "id": "physical_nov25_q59",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Which of the following gives a correct dependence of the ground state pressure (P,) of the ideal Fermi gas in non-relativistic case on the number density (n) of the system ?",
-    "question_gu": "Which of the following gives a correct dependence of the ground state pressure (P,) of the ideal Fermi gas in non-relativistic case on the number density (n) of the system ?",
+    "question_en": "Which of the following gives a correct dependence of the ground state pressure (P₀) of the ideal Fermi gas in non-relativistic case on the number density (n) of the system?",
+    "question_gu": "Which of the following gives a correct dependence of the ground state pressure (P₀) of the ideal Fermi gas in non-relativistic case on the number density (n) of the system?",
     "options_en": [
-      "P, ons?",
-      "P, «n28",
-      "P, an",
-      "P, « n88"
+      "P₀ ∝ n³⁄²",
+      "P₀ ∝ n²⁄³",
+      "P₀ ∝ n³⁄⁵",
+      "P₀ ∝ n⁵⁄³"
     ],
     "options_gu": [
-      "P, ons?",
-      "P, «n28",
-      "P, an",
-      "P, « n88"
+      "P₀ ∝ n³⁄²",
+      "P₀ ∝ n²⁄³",
+      "P₀ ∝ n³⁄⁵",
+      "P₀ ∝ n⁵⁄³"
     ],
     "answer": "D",
     "topic": "Physical Sciences",
@@ -5183,19 +5183,19 @@
     "id": "physical_nov25_q60",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "What is the correct expression for energy fluctuation of canonical ensemble ?",
-    "question_gu": "What is the correct expression for energy fluctuation of canonical ensemble ?",
+    "question_en": "What is the correct expression for energy fluctuation of canonical ensemble?",
+    "question_gu": "What is the correct expression for energy fluctuation of canonical ensemble?",
     "options_en": [
-      "k,T? Cy,",
-      "k,T?",
-      "k,T",
-      "k,T Cy"
+      "kᴮT² Cᵥ",
+      "kᴮT²",
+      "kᴮT",
+      "kᴮT Cᵥ"
     ],
     "options_gu": [
-      "k,T? Cy,",
-      "k,T?",
-      "k,T",
-      "k,T Cy"
+      "kᴮT² Cᵥ",
+      "kᴮT²",
+      "kᴮT",
+      "kᴮT Cᵥ"
     ],
     "answer": "A",
     "topic": "Physical Sciences",
@@ -5213,8 +5213,8 @@
     "id": "physical_nov25_q61",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "What type of error occurs due to unpredictable variations in measurement conditions ?",
-    "question_gu": "What type of error occurs due to unpredictable variations in measurement conditions ?",
+    "question_en": "What type of error occurs due to unpredictable variations in measurement conditions?",
+    "question_gu": "What type of error occurs due to unpredictable variations in measurement conditions?",
     "options_en": [
       "Gross error",
       "Random error",
@@ -5273,8 +5273,8 @@
     "id": "physical_nov25_q63",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A DC voltage of 80 volts switched on across a circuit containing a resistance of 5 Q in series with an inductance of 20 H. What is the rate of change of current at the instant when the current is 12 A ?",
-    "question_gu": "A DC voltage of 80 volts switched on across a circuit containing a resistance of 5 Q in series with an inductance of 20 H. What is the rate of change of current at the instant when the current is 12 A ?",
+    "question_en": "A DC voltage of 80 volts is switched on across a circuit containing a resistance of 5 Ω in series with an inductance of 20 H. What is the rate of change of current at the instant when the current is 12 A?",
+    "question_gu": "A DC voltage of 80 volts is switched on across a circuit containing a resistance of 5 Ω in series with an inductance of 20 H. What is the rate of change of current at the instant when the current is 12 A?",
     "options_en": [
       "5 A/sec.",
       "10 A/sec.",
@@ -5333,19 +5333,19 @@
     "id": "physical_nov25_q65",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The truth table gives Y(A,B,C). Which option represents the minimal Product of Sums (POS) expression for Y?",
-    "question_gu": "The truth table gives Y(A,B,C). Which option represents the minimal Product of Sums (POS) expression for Y?",
+    "question_en": "The truth table below gives the value Y(A, B, C) where A, B and C are binary variables. Which of the following represents the minimal Product of Sums (POS) expression for the function Y?",
+    "question_gu": "The truth table below gives the value Y(A, B, C) where A, B and C are binary variables. Which of the following represents the minimal Product of Sums (POS) expression for the function Y?",
     "options_en": [
-      "Y=(A+B+C)(A+B′+C′)(A′+B+C′)(A′+B′+C)",
-      "Y=(A+B′+C)(A′+B+C)(A′+B′+C′)(A+B+C′)",
-      "Y=(A+C)(B′+C′)(A′+B)",
-      "Y=(A′+B+C)(A+B′+C′)(A+B+C)(A′+B′+C′)"
+      "Y = (A + B + C)(A + B′ + C′)(A′ + B + C′)(A′ + B′ + C)",
+      "Y = (A + B′ + C)(A′ + B + C)(A′ + B′ + C′)(A + B + C′)",
+      "Y = (A + C)(B′ + C′)(A′ + B)",
+      "Y = (A′ + B + C)(A + B′ + C′)(A + B + C)(A′ + B′ + C′)"
     ],
     "options_gu": [
-      "Y=(A+B+C)(A+B′+C′)(A′+B+C′)(A′+B′+C)",
-      "Y=(A+B′+C)(A′+B+C)(A′+B′+C′)(A+B+C′)",
-      "Y=(A+C)(B′+C′)(A′+B)",
-      "Y=(A′+B+C)(A+B′+C′)(A+B+C)(A′+B′+C′)"
+      "Y = (A + B + C)(A + B′ + C′)(A′ + B + C′)(A′ + B′ + C)",
+      "Y = (A + B′ + C)(A′ + B + C)(A′ + B′ + C′)(A + B + C′)",
+      "Y = (A + C)(B′ + C′)(A′ + B)",
+      "Y = (A′ + B + C)(A + B′ + C′)(A + B + C)(A′ + B′ + C′)"
     ],
     "answer": "B",
     "topic": "Physical Sciences",
@@ -5363,19 +5363,19 @@
     "id": "physical_nov25_q66",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A Silicon solar cell has the following parameters Open circuit voltage V4, = 0.6 V Short circuit current I,, = 40 mA Maximum power point Vinp = 0.48 V, Lag =36mA Calculate Fill Factor (FF) and power conversion efficiency (n) of the solar cell. Assume the incident power is 100 mW.",
-    "question_gu": "A Silicon solar cell has the following parameters Open circuit voltage V4, = 0.6 V Short circuit current I,, = 40 mA Maximum power point Vinp = 0.48 V, Lag =36mA Calculate Fill Factor (FF) and power conversion efficiency (n) of the solar cell. Assume the incident power is 100 mW.",
+    "question_en": "A Silicon solar cell has the following parameters: Open circuit voltage V_OC = 0.6 V; Short circuit current I_SC = 40 mA; Maximum power point V_mp = 0.48 V, I_mp = 36 mA. Calculate Fill Factor (FF) and power conversion efficiency (η) of the solar cell. Assume the incident power is 100 mW.",
+    "question_gu": "A Silicon solar cell has the following parameters: Open circuit voltage V_OC = 0.6 V; Short circuit current I_SC = 40 mA; Maximum power point V_mp = 0.48 V, I_mp = 36 mA. Calculate Fill Factor (FF) and power conversion efficiency (η) of the solar cell. Assume the incident power is 100 mW.",
     "options_en": [
-      "FF = 0.72 and n = 17.28%",
-      "FF = 0.72 and n = 20.00%",
-      "FF =0.5 and n = 15.28%",
-      "FF =0.5 and n = 17.28%"
+      "FF = 0.72 and η = 17.28%",
+      "FF = 0.72 and η = 20.00%",
+      "FF = 0.5 and η = 15.28%",
+      "FF = 0.5 and η = 17.28%"
     ],
     "options_gu": [
-      "FF = 0.72 and n = 17.28%",
-      "FF = 0.72 and n = 20.00%",
-      "FF =0.5 and n = 15.28%",
-      "FF =0.5 and n = 17.28%"
+      "FF = 0.72 and η = 17.28%",
+      "FF = 0.72 and η = 20.00%",
+      "FF = 0.5 and η = 15.28%",
+      "FF = 0.5 and η = 17.28%"
     ],
     "answer": "A",
     "topic": "Physical Sciences",
@@ -5393,19 +5393,19 @@
     "id": "physical_nov25_q67",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A resistive transducer changes its resistance by 2 Q per °C. If its initial resistance is 100 Q at 25°C, what is its resistance at 75°C ?",
-    "question_gu": "A resistive transducer changes its resistance by 2 Q per °C. If its initial resistance is 100 Q at 25°C, what is its resistance at 75°C ?",
+    "question_en": "A resistive transducer changes its resistance by 2 Ω per °C. If its initial resistance is 100 Ω at 25°C, what is its resistance at 75°C?",
+    "question_gu": "A resistive transducer changes its resistance by 2 Ω per °C. If its initial resistance is 100 Ω at 25°C, what is its resistance at 75°C?",
     "options_en": [
-      "1002",
-      "150.2",
-      "200 2",
-      "2502"
+      "100 Ω",
+      "150 Ω",
+      "200 Ω",
+      "250 Ω"
     ],
     "options_gu": [
-      "1002",
-      "150.2",
-      "200 2",
-      "2502"
+      "100 Ω",
+      "150 Ω",
+      "200 Ω",
+      "250 Ω"
     ],
     "answer": "C",
     "topic": "Physical Sciences",
@@ -5423,19 +5423,19 @@
     "id": "physical_nov25_q68",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "An 8085 microprocessor has a clock frequency of 3 MHz. How much time will a single machine cycle take ?",
-    "question_gu": "An 8085 microprocessor has a clock frequency of 3 MHz. How much time will a single machine cycle take ?",
+    "question_en": "An 8085 microprocessor has a clock frequency of 3 MHz. How much time will a single machine cycle take?",
+    "question_gu": "An 8085 microprocessor has a clock frequency of 3 MHz. How much time will a single machine cycle take?",
     "options_en": [
-      "1 us",
-      "2us",
-      "3us",
-      "4 us (Higsteal Scienceet SR: Re |"
+      "1 μs",
+      "2 μs",
+      "3 μs",
+      "4 μs"
     ],
     "options_gu": [
-      "1 us",
-      "2us",
-      "3us",
-      "4 us (Higsteal Scienceet SR: Re |"
+      "1 μs",
+      "2 μs",
+      "3 μs",
+      "4 μs"
     ],
     "answer": "A",
     "topic": "Physical Sciences",
@@ -5453,8 +5453,8 @@
     "id": "physical_nov25_q69",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "How many address lines are required to access 16 kB memory ?",
-    "question_gu": "How many address lines are required to access 16 kB memory ?",
+    "question_en": "How many address lines are required to access 16 kB memory?",
+    "question_gu": "How many address lines are required to access 16 kB memory?",
     "options_en": [
       "16",
       "8",
@@ -5543,19 +5543,19 @@
     "id": "physical_nov25_q72",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The ground state of the hydrogen atom splits into two hyperfine levels due to electron-proton spin interaction. What is the energy difference between these levels ? 3 1 A",
-    "question_gu": "The ground state of the hydrogen atom splits into two hyperfine levels due to electron-proton spin interaction. What is the energy difference between these levels ? 3 1 A",
+    "question_en": "The ground state of the hydrogen atom splits into two hyperfine levels due to electron-proton spin interaction. What is the energy difference between these levels?",
+    "question_gu": "The ground state of the hydrogen atom splits into two hyperfine levels due to electron-proton spin interaction. What is the energy difference between these levels?",
     "options_en": [
-      "5A",
+      "3A/4",
       "A",
-      "5A",
-      "7A"
+      "A/2",
+      "A/4"
     ],
     "options_gu": [
-      "5A",
+      "3A/4",
       "A",
-      "5A",
-      "7A"
+      "A/2",
+      "A/4"
     ],
     "answer": "B",
     "topic": "Physical Sciences",
@@ -5603,8 +5603,8 @@
     "id": "physical_nov25_q74",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Which of the following best describes the effect of anharmonicity in the vibration spectra ?",
-    "question_gu": "Which of the following best describes the effect of anharmonicity in the vibration spectra ?",
+    "question_en": "Which of the following best describes the effect of anharmonicity in the vibration spectra?",
+    "question_gu": "Which of the following best describes the effect of anharmonicity in the vibration spectra?",
     "options_en": [
       "Decreases the energy gap between successive levels",
       "Increases degeneracy",
@@ -5693,19 +5693,19 @@
     "id": "physical_nov25_q77",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A two-level atomic system has an energy gap corresponding to A = 600 nm. The Einstein coefficient for spontaneous emission for this system is A,, = 5x107/s. What is the spectral energy density u(6) in Js/m3 required so that the rate of stimulated emission equals the rate of spontaneous emission ?",
-    "question_gu": "A two-level atomic system has an energy gap corresponding to A = 600 nm. The Einstein coefficient for spontaneous emission for this system is A,, = 5x107/s. What is the spectral energy density u(6) in Js/m3 required so that the rate of stimulated emission equals the rate of spontaneous emission ?",
+    "question_en": "A two-level atomic system has an energy gap corresponding to λ = 600 nm. The Einstein coefficient for spontaneous emission for this system is A₂₁ = 5 × 10⁷/s. What is the spectral energy density u(ν) in J s/m³ required so that the rate of stimulated emission equals the rate of spontaneous emission?",
+    "question_gu": "A two-level atomic system has an energy gap corresponding to λ = 600 nm. The Einstein coefficient for spontaneous emission for this system is A₂₁ = 5 × 10⁷/s. What is the spectral energy density u(ν) in J s/m³ required so that the rate of stimulated emission equals the rate of spontaneous emission?",
     "options_en": [
-      "2.7x10-%6",
-      "4.5x10-2°",
-      "7.3x10-14",
-      "1.21077"
+      "2.7 × 10⁻²⁶",
+      "4.5 × 10⁻²⁰",
+      "7.3 × 10⁻¹⁴",
+      "1.2 × 10⁻⁷"
     ],
     "options_gu": [
-      "2.7x10-%6",
-      "4.5x10-2°",
-      "7.3x10-14",
-      "1.21077"
+      "2.7 × 10⁻²⁶",
+      "4.5 × 10⁻²⁰",
+      "7.3 × 10⁻¹⁴",
+      "1.2 × 10⁻⁷"
     ],
     "answer": "C",
     "topic": "Physical Sciences",
@@ -5783,18 +5783,18 @@
     "id": "physical_nov25_q80",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The charge density of a nucleus is p(r) = pe @ . What is the RMS radius of the nucleus in terms of a ?",
-    "question_gu": "The charge density of a nucleus is p(r) = pe @ . What is the RMS radius of the nucleus in terms of a ?",
+    "question_en": "The charge density of a nucleus is ρ(r) = ρ₀e⁻ʳ⁄ᵃ. What is the RMS radius of the nucleus in terms of a?",
+    "question_gu": "The charge density of a nucleus is ρ(r) = ρ₀e⁻ʳ⁄ᵃ. What is the RMS radius of the nucleus in terms of a?",
     "options_en": [
       "a",
-      "12a?",
-      "a?",
+      "12a²",
+      "a²",
       "12a"
     ],
     "options_gu": [
       "a",
-      "12a?",
-      "a?",
+      "12a²",
+      "a²",
       "12a"
     ],
     "answer": "B",
@@ -5802,8 +5802,8 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: B. This item is transcribed from the official November 2025 Physical Sciences Paper-II; use the stated options and key for historical-paper practice.",
     "explanation_gu": "Official GSET final answer: B. આ પ્રશ્ન official November 2025 Physical Sciences Paper-IIમાંથી transcribe કરવામાં આવ્યો છે; historical-paper practice માટે official options અને key જ રાખવામાં આવ્યા છે.",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Official paper asks for RMS radius but option B is 12a², which has dimensions of length squared. Preserve the printed wording/options and official key B; flag for review.",
     "tip_en": "Use the standard concept/formula for the topic and verify the option against the official final key.",
     "tip_gu": "આ topicનું standard concept/formula વાપરો અને optionને official final key સાથે ચકાસો.",
     "source_verified": true,
@@ -5843,19 +5843,19 @@
     "id": "physical_nov25_q82",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "A nucleus has a size of 10-® m, consider an electron bound within a nucleus. What is the estimated energy of that nucleus ?",
-    "question_gu": "A nucleus has a size of 10-® m, consider an electron bound within a nucleus. What is the estimated energy of that nucleus ?",
+    "question_en": "A nucleus has a size of 10⁻¹⁵ m, consider an electron bound within a nucleus. What is the estimated energy of that nucleus?",
+    "question_gu": "A nucleus has a size of 10⁻¹⁵ m, consider an electron bound within a nucleus. What is the estimated energy of that nucleus?",
     "options_en": [
-      "1.0 x 102 MeV",
-      "1.9 x 102 MeV",
+      "1.0 × 10² MeV",
+      "1.9 × 10² MeV",
       "1.9 MeV",
-      "1.9 x 10? MeV [Biysical Sciences = a oe"
+      "1.9 × 10³ MeV"
     ],
     "options_gu": [
-      "1.0 x 102 MeV",
-      "1.9 x 102 MeV",
+      "1.0 × 10² MeV",
+      "1.9 × 10² MeV",
       "1.9 MeV",
-      "1.9 x 10? MeV [Biysical Sciences = a oe"
+      "1.9 × 10³ MeV"
     ],
     "answer": "B",
     "topic": "Physical Sciences",
@@ -5903,8 +5903,8 @@
     "id": "physical_nov25_q84",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Aneutral pion whose kinetic energy is equal to its rest mass energy decays in flight. What is the angle between two y-ray photons that are produced, if they are in the same energy state ?",
-    "question_gu": "Aneutral pion whose kinetic energy is equal to its rest mass energy decays in flight. What is the angle between two y-ray photons that are produced, if they are in the same energy state ?",
+    "question_en": "A neutral pion whose kinetic energy is equal to its rest mass energy decays in flight. What is the angle between two γ-ray photons that are produced, if they are in the same energy state?",
+    "question_gu": "A neutral pion whose kinetic energy is equal to its rest mass energy decays in flight. What is the angle between two γ-ray photons that are produced, if they are in the same energy state?",
     "options_en": [
       "60°",
       "30°",
@@ -5933,27 +5933,27 @@
     "id": "physical_nov25_q85",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "n> p +e +, decays at rest. Given m, = 939.6 MeV/c?, m, = 938.3 MeV/c?, m, = 0.511 MeV/c? and m,=0 If in a particular decay, the neutron as well as proton (created due to decay) are at rest, then the energy of anti-neutron is",
-    "question_gu": "n> p +e +, decays at rest. Given m, = 939.6 MeV/c?, m, = 938.3 MeV/c?, m, = 0.511 MeV/c? and m,=0 If in a particular decay, the neutron as well as proton (created due to decay) are at rest, then the energy of anti-neutron is",
+    "question_en": "n → p + e⁻ + ν̄ₑ decays at rest. Given mₙ = 939.6 MeV/c², mₚ = 938.3 MeV/c², mₑ = 0.511 MeV/c² and m_νₑ = 0. If in a particular decay, the neutron as well as proton (created due to decay) are at rest, then the energy of anti-neutron is",
+    "question_gu": "n → p + e⁻ + ν̄ₑ decays at rest. Given mₙ = 939.6 MeV/c², mₚ = 938.3 MeV/c², mₑ = 0.511 MeV/c² and m_νₑ = 0. If in a particular decay, the neutron as well as proton (created due to decay) are at rest, then the energy of anti-neutron is",
     "options_en": [
       "0.549 MeV",
       "5.49 MeV",
       "54.9 MeV",
-      "549 Mev"
+      "549 MeV"
     ],
     "options_gu": [
       "0.549 MeV",
       "5.49 MeV",
       "54.9 MeV",
-      "549 Mev"
+      "549 MeV"
     ],
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: A. This item is transcribed from the official November 2025 Physical Sciences Paper-II; use the stated options and key for historical-paper practice.",
     "explanation_gu": "Official GSET final answer: A. આ પ્રશ્ન official November 2025 Physical Sciences Paper-IIમાંથી transcribe કરવામાં આવ્યો છે; historical-paper practice માટે official options અને key જ રાખવામાં આવ્યા છે.",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Official paper prints the decay n → p + e⁻ + ν̄ₑ but asks for the energy of anti-neutron. Preserve the printed wording and official key A; likely terminology/printing issue, so flag for review.",
     "tip_en": "Use the standard concept/formula for the topic and verify the option against the official final key.",
     "tip_gu": "આ topicનું standard concept/formula વાપરો અને optionને official final key સાથે ચકાસો.",
     "source_verified": true,
@@ -5963,18 +5963,18 @@
     "id": "physical_nov25_q86",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "The strong nuclear force between a neutron and a proton in a zero orbital angular momentum state is denoted by Fio(') is the separation between them, similarly F,,(r) and Foo(t) denote the force between a pair of neutrons and protons respectively in a zero orbital momentum state. Which of the following is true on average, if the inter nucleon distance is 0.2 fn<0<2t,, ? ,",
-    "question_gu": "The strong nuclear force between a neutron and a proton in a zero orbital angular momentum state is denoted by Fio(') is the separation between them, similarly F,,(r) and Foo(t) denote the force between a pair of neutrons and protons respectively in a zero orbital momentum state. Which of the following is true on average, if the inter nucleon distance is 0.2 fn<0<2t,, ? ,",
+    "question_en": "The strong nuclear force between a neutron and a proton in a zero orbital angular momentum state is denoted by Fₙₚ(r), r is the separation between them, similarly Fₙₙ(r) and Fₚₚ(r) denote the force between a pair of neutrons and protons, respectively in a zero orbital momentum state. Which of the following is true on average, if the inter nucleon distance is 0.2 fm < r < 2 fm?",
+    "question_gu": "The strong nuclear force between a neutron and a proton in a zero orbital angular momentum state is denoted by Fₙₚ(r), r is the separation between them, similarly Fₙₙ(r) and Fₚₚ(r) denote the force between a pair of neutrons and protons, respectively in a zero orbital momentum state. Which of the following is true on average, if the inter nucleon distance is 0.2 fm < r < 2 fm?",
     "options_en": [
-      "Fg is attractive for triplet spin state and F_, and Foo are always repulsive",
-      "Fig and F,, are always attractive and Fe is repulsive in the triplet spin state",
-      "Fopand F., are always attractive F., is always repulsive",
+      "Fₙₚ is attractive for triplet spin state and Fₙₙ and Fₚₚ are always repulsive",
+      "Fₙₚ and Fₙₙ are always attractive and Fₚₚ is repulsive in the triplet spin state",
+      "Fₚₚ and Fₙₚ are always attractive Fₙₙ is always repulsive",
       "All three forces are always attractive"
     ],
     "options_gu": [
-      "Fg is attractive for triplet spin state and F_, and Foo are always repulsive",
-      "Fig and F,, are always attractive and Fe is repulsive in the triplet spin state",
-      "Fopand F., are always attractive F., is always repulsive",
+      "Fₙₚ is attractive for triplet spin state and Fₙₙ and Fₚₚ are always repulsive",
+      "Fₙₚ and Fₙₙ are always attractive and Fₚₚ is repulsive in the triplet spin state",
+      "Fₚₚ and Fₙₚ are always attractive Fₙₙ is always repulsive",
       "All three forces are always attractive"
     ],
     "answer": "B",
@@ -6383,19 +6383,19 @@
     "id": "physical_nov25_q100",
     "paper_id": "physical_nov25",
     "exam": "November 2025",
-    "question_en": "Which of the following diffraction peaks will be absent in a powder diffraction pattern for BCC crystalline powder such as Fe ?",
-    "question_gu": "Which of the following diffraction peaks will be absent in a powder diffraction pattern for BCC crystalline powder such as Fe ?",
+    "question_en": "Which of the following diffraction peaks will be absent in a powder diffraction pattern for BCC crystalline powder such as Fe?",
+    "question_gu": "Which of the following diffraction peaks will be absent in a powder diffraction pattern for BCC crystalline powder such as Fe?",
     "options_en": [
       "(1 1 0)",
-      "(11 1)",
-      "(200)",
-      "(21 1) [Physical Sclencés 0"
+      "(1 1 1)",
+      "(2 0 0)",
+      "(2 1 1)"
     ],
     "options_gu": [
       "(1 1 0)",
-      "(11 1)",
-      "(200)",
-      "(21 1) [Physical Sclencés 0"
+      "(1 1 1)",
+      "(2 0 0)",
+      "(2 1 1)"
     ],
     "answer": "B",
     "topic": "Physical Sciences",
