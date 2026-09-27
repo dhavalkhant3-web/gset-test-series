@@ -35,6 +35,20 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Generate clean Paper-II Physical Sciences Nov 2025 bank
+        run: |
+          python3 tool/import_nov25_physical.py
+          test -s assets/subjects/physical_sciences/nov25_questions.json
+          python3 - <<'PY'
+          import json
+          p = "assets/subjects/physical_sciences/nov25_questions.json"
+          q = json.load(open(p, encoding="utf-8"))
+          assert len(q) == 100
+          assert all(len(x.get("options_en", [])) == 4 for x in q)
+          assert all(x.get("answer") in {"A","B","C","D"} for x in q)
+          print("Nov 2025 Physical Sciences: 100 questions generated cleanly")
+          PY
+
       - name: Validate question bank integrity
         run: python3 tool/validate_questions.py
 
