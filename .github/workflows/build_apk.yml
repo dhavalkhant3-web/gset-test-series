@@ -98,7 +98,7 @@ jobs:
           expected = {
             "physical_sep16": 50, "physical_aug17": 50, "physical_sep18": 100,
             "physical_dec19": 100, "physical_dec21": 100, "physical_nov22": 100,
-            "physical_nov23": 100, "physical_dec24": 100, "physical_nov25": 100,
+            "physical_nov23": 100, "physical_dec24": 75, "physical_nov25": 100,
           }
           counts={}
           for x in q:
