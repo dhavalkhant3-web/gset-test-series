@@ -48,18 +48,71 @@ jobs:
           q=json.load(open(p,encoding="utf-8"))
           assert len(q)==100
           assert all(len(x.get("options_en",[]))==4 for x in q)
-          assert all(x.get("answer") in {"A","B","C","D"} for x in q)
+          assert all(x.get("answer") in {"A","B","C","D","Z"} for x in q)
+
           target="assets/subjects/physical_sciences/questions.json"
           existing=json.load(open(target,encoding="utf-8"))
+
+          # Guard against accidental archive loss/duplication while preserving
+          # every existing record exactly unless the importer owns that paper.
+          existing_ids=[str(x.get("id")) for x in existing]
+          assert len(existing_ids)==len(set(existing_ids)), "Duplicate question IDs already present"
+
           old={str(x.get("id")) for x in existing}
           for x in q:
               if str(x.get("id")) not in old:
                   x["question_gu"]=x.get("question_en","")
                   x["options_gu"]=list(x.get("options_en",["","","",""]))
                   existing.append(x)
-          assert len(existing)>=325, f"Expected at least 325 questions, found {len(existing)}"
+
+          # Validate by paper rather than by a global minimum.
+          expected = {
+            "physical_sep16": 50,
+            "physical_aug17": 50,
+            "physical_sep18": 100,
+            "physical_dec19": 100,
+            "physical_dec21": 100,
+            "physical_nov22": 100,
+            "physical_nov23": 100,
+            "physical_dec24": 100,
+            "physical_nov25": 100,
+          }
+          counts={}
+          for x in existing:
+              pid=str(x.get("paper_id") or x.get("paperId") or "")
+              counts[pid]=counts.get(pid,0)+1
+          for pid,n in expected.items():
+              assert counts.get(pid,0)==n, f"{pid}: expected {n}, found {counts.get(pid,0)}"
+
+          # Existing verified archive records may use Z; never coerce them.
           json.dump(existing,open(target,"w",encoding="utf-8"),ensure_ascii=False,indent=2)
-          print("Physical Sciences total questions:",len(existing))
+          print("Physical Sciences per-paper counts:", {k:counts[k] for k in expected})
+          PY
+
+      - name: Validate Physical Sciences archive metadata
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open("assets/subjects/physical_sciences/papers.json",encoding="utf-8"))
+          q=json.load(open("assets/subjects/physical_sciences/questions.json",encoding="utf-8"))
+          expected = {
+            "physical_sep16": 50, "physical_aug17": 50, "physical_sep18": 100,
+            "physical_dec19": 100, "physical_dec21": 100, "physical_nov22": 100,
+            "physical_nov23": 100, "physical_dec24": 100, "physical_nov25": 100,
+          }
+          counts={}
+          for x in q:
+              pid=x.get("paper_id")
+              counts[pid]=counts.get(pid,0)+1
+              assert len(x.get("options_en",[]))==4, f"{x.get('id')}: invalid options"
+              assert x.get("answer") in {"A","B","C","D","Z"}, f"{x.get('id')}: invalid answer"
+          byid={p["paper_id"]:p for p in d["papers"]}
+          for pid,n in expected.items():
+              assert counts.get(pid,0)==n, f"{pid}: question count {counts.get(pid,0)} != {n}"
+              assert byid[pid]["questions_loaded"]==n, f"{pid}: stale questions_loaded"
+              assert byid[pid]["questions_count"]==n, f"{pid}: stale questions_count"
+          assert counts["physical_nov25"]==100, "November 2025 must remain intact"
+          print("Physical Sciences archive metadata is consistent")
           PY
 
       - name: Validate question bank integrity
