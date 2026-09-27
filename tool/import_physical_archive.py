@@ -52,29 +52,44 @@ def render_ocr(pdf, stem, dpi=220):
     return texts
 
 def extract_pages(pdf, stem):
+    """
+    Return native PDF text page-by-page. Never discard usable native text just
+    because question-number detection is weak; OCR is a secondary evidence
+    stream, not a replacement for the PDF source.
+    """
     txt = stem.with_suffix(".txt")
     run(["pdftotext", "-layout", str(pdf), str(txt)])
     raw = txt.read_text(encoding="utf-8", errors="ignore")
-    log("EXTRACT", f"pdftotext lines={len(raw.splitlines())}")
-    # Keep page separators so question blocks can be page-aware.
     pages = raw.split("\f")
+    nonempty = [(f"text-{i+1}", p) for i, p in enumerate(pages) if p.strip()]
     numbered = sum(
-        1 for page in pages
-        for _ in re.finditer(r"(?m)^\s*(?:Q\.?\s*)?\d{1,3}[\.\)]?\s+", page)
+        1 for _, page in nonempty
+        for _ in re.finditer(
+            r"(?m)^\s*(?:Q(?:uestion)?\.?\s*)?\d{1,3}\s*[\.\)]?\s*",
+            page
+        )
     )
-    if numbered >= 20:
-        return [(f"text-{i+1}", p) for i, p in enumerate(pages) if p.strip()]
+    log("EXTRACT", f"pdftotext lines={len(raw.splitlines())}, pages={len(nonempty)}, question-markers={numbered}")
+    if not nonempty:
+        return []
+    # Preserve both native layout and raw extraction when available. The caller
+    # can compare them page-by-page and only OCR unresolved pages.
     raw_txt = stem.with_name(stem.name + "_raw.txt")
     run(["pdftotext", "-raw", str(pdf), str(raw_txt)])
     raw_text = raw_txt.read_text(encoding="utf-8", errors="ignore")
     raw_pages = raw_text.split("\f")
+    raw_nonempty = [(f"raw-{i+1}", p) for i, p in enumerate(raw_pages) if p.strip()]
     raw_numbered = sum(
-        1 for page in raw_pages
-        for _ in re.finditer(r"(?m)^\s*(?:Q(?:uestion)?\.?\s*)?\d{1,3}[\.)]?\s+", page)
+        1 for _, page in raw_nonempty
+        for _ in re.finditer(
+            r"(?m)^\s*(?:Q(?:uestion)?\.?(?:\s*)?\s*)?\d{1,3}\s*[\.\)]?\s*",
+            page
+        )
     )
-    if raw_numbered >= 10:
-        return [(f"raw-{i+1}", p) for i, p in enumerate(raw_pages) if p.strip()]
-    return None
+    log("EXTRACT", f"pdftotext-raw pages={len(raw_nonempty)}, question-markers={raw_numbered}")
+    # Keep layout pages as the primary source; raw pages are appended only when
+    # they add page-local evidence. Page identity is retained for diagnostics.
+    return nonempty + [item for item in raw_nonempty if item[0].split("-")[-1] not in {x[0].split("-")[-1] for x in nonempty}]
 
 def normalize_question_number(s):
     s = s.replace("O", "0").replace("I", "1")
@@ -82,42 +97,74 @@ def normalize_question_number(s):
     return int(s) if s else None
 
 def candidate_starts(text, expected):
-    patterns = [
-        re.compile(r"(?m)^\s*(?:Q\.?\s*)?(\d{1,3})[\.]\s+"),
-        re.compile(r"(?m)^\s*(?:Q\.?\s*)?(\d{1,3})[\)]\s+"),
-        re.compile(r"(?m)^\s*(?:Q\.?\s*)?(\d{1,3})\s+"),
-    ]
+    # Question headings can be wrapped, OCR'd as Q39., 39), 39. or "39"
+    # without a following space. Avoid matching decimal fragments by requiring
+    # a line boundary and a reasonable question-heading shape.
+    pat = re.compile(
+        r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})"
+        r"\s*(?:[\.\)]\s*|[-:]\s+|(?=\s+))"
+    )
     starts = []
-    for pat in patterns:
-        for m in pat.finditer(text):
-            q = int(m.group(1))
-            if 1 <= q <= expected:
-                starts.append((m.start(), m.end(), q))
-    # Keep the earliest start for each q; duplicates often come from OCR/header artefacts.
+    for m in pat.finditer(text):
+        q = int(m.group(1))
+        if 1 <= q <= expected:
+            starts.append((m.start(), m.end(), q))
+    # Reject impossible duplicate/question-jump noise using nearest occurrence
+    # to the expected numeric sequence, while retaining page-local ordering.
     best = {}
     for item in starts:
-        best[item[2]] = min(best.get(item[2], item), item)
+        q = item[2]
+        best[q] = min(best.get(q, item), item)
     return [best[q] for q in sorted(best)]
 
+def _page_join(page_texts):
+    return "\n\n".join(text for _, text in page_texts)
+
 def build_blocks(page_texts, expected):
-    all_pages = list(page_texts)
-    global_text = "\n\n".join(t for _, t in all_pages)
-    starts = candidate_starts(global_text, expected)
+    """
+    Parse each page independently first. This prevents headers/footers and
+    column breaks from changing the global question boundaries.
+    """
     blocks = {}
+    for page_id, text in page_texts:
+        starts = candidate_starts(text, expected)
+        if not starts:
+            continue
+        for idx, (start, end, q) in enumerate(starts):
+            stop = starts[idx + 1][0] if idx + 1 < len(starts) else len(text)
+            candidate = clean(text[end:stop])
+            if q not in blocks or len(candidate) > len(blocks[q]):
+                blocks[q] = candidate
+
+    # Recovery pass over the page-joined source catches a question that crosses
+    # a page boundary. It is deliberately secondary to page-local parsing.
+    global_text = _page_join(page_texts)
+    starts = candidate_starts(global_text, expected)
     for idx, (start, end, q) in enumerate(starts):
         stop = starts[idx + 1][0] if idx + 1 < len(starts) else len(global_text)
-        blocks[q] = global_text[end:stop]
+        candidate = clean(global_text[end:stop])
+        if q not in blocks or len(candidate) > len(blocks[q]):
+            blocks[q] = candidate
     return blocks
 
 def parse_options(block):
     pats = [
-        re.compile(r"(?m)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s+"),
-        re.compile(r"(?m)(?:^|\s)\(?([ABCD])\)?\s*[\.:\)]\s+"),
-        re.compile(r"(?m)\s*\(([ABCD])\)\s+"),
+        re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s+"),
+        re.compile(r"(?mi)(?:^|\s)\(?([ABCD])\)?\s*[\.:\)]\s+"),
+        re.compile(r"(?mi)\s*\(([ABCD])\)\s+"),
+        re.compile(r"(?mi)(?:^|\n)\s*([ABCD])\s+"),
     ]
     chosen = None
     for pat in pats:
         ms = list(pat.finditer(block))
+        labels = [m.group(1).upper() for m in ms]
+        # Require the canonical A,B,C,D sequence when possible.
+        for i in range(0, max(0, len(ms)-3)):
+            if labels[i:i+4] == ["A","B","C","D"]:
+                chosen = ms[i:i+4]
+                break
+        if chosen:
+            break
         if len(ms) >= 4:
             chosen = ms[:4]
             break
