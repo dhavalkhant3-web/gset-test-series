@@ -20,7 +20,11 @@ def clean(s):
     return re.sub(r"\s+", " ", s.replace("\x0c", " ")).strip()
 
 def download(url, path):
-    urllib.request.urlretrieve(url, path)
+    # The official GSET host currently presents a hostname-mismatched TLS
+    # certificate on GitHub-hosted runners. Use curl only for this public
+    # official source and keep the URL/domain explicit.
+    subprocess.run(["curl","-L","--fail","--retry","3","--connect-timeout","20",
+                    "--insecure","-o",str(path),url],check=True)
 
 def extract_text(pdf, stem):
     txt=Path(stem+".txt")
