@@ -36,7 +36,7 @@ def download(url, path):
         "--insecure", "-o", str(path), url
     ], check=True)
 
-def render_ocr(pdf, stem, dpi=260):
+def render_ocr(pdf, stem, dpi=220):
     log("OCR", f"rendering {pdf.name} at {dpi} dpi")
     page_dir = stem.parent / (stem.name + "_pages")
     page_dir.mkdir(parents=True, exist_ok=True)
@@ -45,7 +45,7 @@ def render_ocr(pdf, stem, dpi=260):
     for img in sorted(page_dir.glob("page-*.png")):
         out = img.with_suffix(".txt")
         subprocess.run(
-            ["tesseract", str(img), str(out.with_suffix("")), "--psm", "6"],
+            ["tesseract", str(img), str(out.with_suffix("")), "--psm", "3"],
             check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
         )
         texts.append((img.name, out.read_text(encoding="utf-8", errors="ignore")))
@@ -132,12 +132,12 @@ def parse_key_text(text, expected):
 def parse_key(pdf, stem, expected):
     pages = extract_pages(pdf, stem)
     if pages is None:
-        pages = render_ocr(pdf, stem, 240)
+        pages = render_ocr(pdf, stem, 220)
     joined = "\n".join(t for _, t in pages)
     keys = parse_key_text(joined, expected)
     log("KEY", f"parsed {len(keys)}/{expected}")
     if len(keys) < expected:
-        ocr = render_ocr(pdf, stem.with_name(stem.name + "_keyocr"), 300)
+        ocr = render_ocr(pdf, stem.with_name(stem.name + "_keyocr"), 240)
         keys = parse_key_text("\n".join(t for _, t in ocr), expected)
         log("KEY", f"OCR parsed {len(keys)}/{expected}")
     if len(keys) < expected:
@@ -195,7 +195,7 @@ def main():
 
         pages = extract_pages(pdf, WORK / stem)
         if pages is None:
-            pages = render_ocr(pdf, WORK / stem, 260)
+            pages = render_ocr(pdf, WORK / stem, 220)
 
         blocks = build_blocks(pages, expected)
         missing = [q for q in range(1, expected + 1) if q not in blocks]
@@ -203,7 +203,7 @@ def main():
 
         # A second OCR pass is used only for unresolved question numbers.
         if missing:
-            ocr_pages = render_ocr(pdf, WORK / f"{stem}_ocr", 320)
+            ocr_pages = render_ocr(pdf, WORK / f"{stem}_ocr", 240)
             ocr_blocks = build_blocks(ocr_pages, expected)
             for q, b in ocr_blocks.items():
                 if q in missing:
