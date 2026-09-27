@@ -12,7 +12,6 @@ permissions:
 jobs:
   build-apk:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,34 +37,29 @@ jobs:
       - name: Install OCR tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
-      - name: Generate clean Paper-II Physical Sciences Nov 2025 bank
+      - name: Generate official Physical Sciences archive bank
         run: |
+          python3 tool/import_physical_archive.py
           python3 tool/import_nov25_physical.py
           test -s assets/subjects/physical_sciences/nov25_questions.json
           python3 - <<'PY'
           import json
-          p = "assets/subjects/physical_sciences/nov25_questions.json"
-          q = json.load(open(p, encoding="utf-8"))
-          assert len(q) == 100
-          assert all(len(x.get("options_en", [])) == 4 for x in q)
+          p="assets/subjects/physical_sciences/nov25_questions.json"
+          q=json.load(open(p,encoding="utf-8"))
+          assert len(q)==100
+          assert all(len(x.get("options_en",[]))==4 for x in q)
           assert all(x.get("answer") in {"A","B","C","D"} for x in q)
-          print("Nov 2025 Physical Sciences: 100 questions generated cleanly")
-          PY
-          python3 - <<'PY'
-          import json
-          target = "assets/subjects/physical_sciences/questions.json"
-          generated = "assets/subjects/physical_sciences/nov25_questions.json"
-          existing = json.load(open(target, encoding="utf-8"))
-          added = json.load(open(generated, encoding="utf-8"))
-          old = {str(x.get("id")) for x in existing}
-          added = [x for x in added if str(x.get("id")) not in old]
-          for x in added:
-              x["question_gu"] = x.get("question_en", "")
-              x["options_gu"] = list(x.get("options_en", ["","","",""]))
-          merged = existing + added
-          assert len(merged) == 225, f"Expected 225 Physical Sciences questions, found {len(merged)}"
-          json.dump(merged, open(target, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-          print("Physical Sciences question bank merged:", len(merged))
+          target="assets/subjects/physical_sciences/questions.json"
+          existing=json.load(open(target,encoding="utf-8"))
+          old={str(x.get("id")) for x in existing}
+          for x in q:
+              if str(x.get("id")) not in old:
+                  x["question_gu"]=x.get("question_en","")
+                  x["options_gu"]=list(x.get("options_en",["","","",""]))
+                  existing.append(x)
+          assert len(existing)>=325, f"Expected at least 325 questions, found {len(existing)}"
+          json.dump(existing,open(target,"w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          print("Physical Sciences total questions:",len(existing))
           PY
 
       - name: Validate question bank integrity
@@ -74,9 +68,6 @@ jobs:
       - name: Analyze project
         run: flutter analyze
 
-      # Debug APK is automatically signed with Android's debug keystore.
-      # This is intentional for device testing; production release signing
-      # should use a private release keystore kept in GitHub Secrets.
       - name: Build installable debug APK
         run: flutter build apk --debug
 
