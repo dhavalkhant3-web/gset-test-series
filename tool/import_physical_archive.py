@@ -36,24 +36,25 @@ def download(url, path):
         "--insecure", "-o", str(path), url
     ], check=True)
 
-def render_ocr(pdf, stem, dpi=220, pages=None):
+def render_ocr(pdf, stem, dpi=240, pages=None):
     log("OCR", f"rendering {pdf.name} at {dpi} dpi" + (f", pages={pages}" if pages else ""))
-    page_dir = stem.parent / (stem.name + "_pages")
-    page_dir.mkdir(parents=True, exist_ok=True)
-    prefix = page_dir / "page"
-    cmd = ["pdftoppm", "-png", "-r", str(dpi)]
+    page_dir=stem.parent/(stem.name+"_pages")
+    page_dir.mkdir(parents=True,exist_ok=True)
+    cmd=["pdftoppm","-png","-r",str(dpi)]
     if pages:
-        cmd += ["-f", str(min(pages)), "-l", str(max(pages))]
-    cmd += [str(pdf), str(prefix)]
+        cmd += ["-f",str(min(pages)),"-l",str(max(pages))]
+    cmd += [str(pdf),str(page_dir/"page")]
     run(cmd)
-    texts = []
+    texts=[]
     for img in sorted(page_dir.glob("page-*.png")):
-        out = img.with_suffix(".txt")
-        subprocess.run(
-            ["tesseract", str(img), str(out.with_suffix("")), "--psm", "6"],
-            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-        )
-        texts.append((img.name, out.read_text(encoding="utf-8", errors="ignore")))
+        base=img.with_suffix("")
+        for psm in ("6","4"):
+            out=Path(f"{base}_psm{psm}.txt")
+            subprocess.run(
+                ["tesseract",str(img),str(out.with_suffix("")),"--psm",psm],
+                check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL
+            )
+            texts.append((f"{img.name}-psm{psm}",out.read_text(encoding="utf-8",errors="ignore")))
     return texts
 
 def extract_pages(pdf, stem):
@@ -87,55 +88,88 @@ def normalize_question_number(s):
 
 def candidate_starts(text, expected):
     pat = re.compile(
-        r"(?m)^\s*(?:Q(?:uestion)?\s*\.?)?\s*(\d{1,3})"
-        r"(?:\s*[\.)]|\s*[:-]\s+|\s+)"
+        r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})"
+        r"(?:\s*[\.)]|\s*[:-]\s+|(?=\s+))"
     )
-    raw=[]
-    for m in pat.finditer(text):
-        q=int(m.group(1))
-        if 1 <= q <= expected:
-            raw.append((m.start(),m.end(),q))
-    return raw
+    return [
+        (m.start(), m.end(), int(m.group(1)))
+        for m in pat.finditer(text)
+        if 1 <= int(m.group(1)) <= expected
+    ]
+
+def _question_sequence_score(qs):
+    if not qs:
+        return -1
+    score=0
+    prev=0
+    for q in qs:
+        if q == prev + 1:
+            score += 3
+        elif q > prev:
+            score += 1
+        else:
+            score -= 3
+        prev=q
+    return score
 
 def build_blocks(page_texts, expected):
     """
-    Build blocks using sequence-aware candidate selection. Duplicate numbers
-    caused by headers/footers are rejected when they break local monotonic order.
+    Page-aware parser. For scanned papers, OCR question numbers are noisy, so
+    option anchors and expected numerical sequence are used to recover blocks.
     """
     blocks={}
     for page_id,text in page_texts:
         starts=candidate_starts(text, expected)
-        if not starts:
-            continue
-        # Keep the longest plausible span per question on this page.
-        for i,(st,en,q) in enumerate(starts):
-            stop=starts[i+1][0] if i+1 < len(starts) else len(text)
-            cand=clean(text[en:stop])
-            if len(cand) < 10:
-                continue
-            if q not in blocks or len(cand) > len(blocks[q]):
-                blocks[q]=cand
+        if starts:
+            qs=[x[2] for x in starts]
+            # Remove obvious header/footer noise by choosing the longest
+            # monotonic subsequence beginning near the first plausible question.
+            filtered=[]
+            prev=0
+            for item in starts:
+                q=item[2]
+                if q > prev and (not filtered or q <= prev+8):
+                    filtered.append(item); prev=q
+            starts=filtered
+        if starts:
+            for i,(st,en,q) in enumerate(starts):
+                stop=starts[i+1][0] if i+1 < len(starts) else len(text)
+                cand=clean(text[en:stop])
+                if len(cand) >= 10 and (q not in blocks or len(cand)>len(blocks[q])):
+                    blocks[q]=cand
     return blocks
 
 def _extract_all_options(block):
-    pats=[
-        re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"),
-        re.compile(r"(?mi)(?:^|\s)\(?([ABCD])\)?\s*[\.:\)]\s+"),
-        re.compile(r"(?mi)\s*\(([ABCD])\)\s+"),
-        re.compile(r"(?mi)(?:^|\n)\s*([ABCD])\s+"),
+    patterns=[
+        (re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"), "letters"),
+        (re.compile(r"(?mi)(?:^|\s)\(?([ABCD])\)?\s*[\.:\)]\s+"), "letters"),
+        (re.compile(r"(?mi)\s*\(([ABCD])\)\s+"), "letters"),
+        (re.compile(r"(?mi)(?:^|\n)\s*[\(]?([1-4])[\)]\s*"), "numbers"),
     ]
-    for pat in pats:
+    for pat,kind in patterns:
         ms=list(pat.finditer(block))
-        for i in range(max(0,len(ms)-3)):
-            labels=[m.group(1).upper() for m in ms[i:i+4]]
-            if labels == ["A","B","C","D"]:
-                chosen=ms[i:i+4]
-                opts=[]
-                for j,m in enumerate(chosen):
-                    end=chosen[j+1].start() if j+1 < len(chosen) else len(block)
-                    opts.append(clean(block[m.end():end]))
-                if all(opts):
-                    return chosen,opts
+        if kind=="letters":
+            for i in range(max(0,len(ms)-3)):
+                labels=[m.group(1).upper() for m in ms[i:i+4]]
+                if labels==["A","B","C","D"]:
+                    chosen=ms[i:i+4]
+                    break
+            else:
+                continue
+        else:
+            for i in range(max(0,len(ms)-3)):
+                labels=[m.group(1) for m in ms[i:i+4]]
+                if labels==["1","2","3","4"]:
+                    chosen=ms[i:i+4]
+                    break
+            else:
+                continue
+        opts=[]
+        for j,m in enumerate(chosen):
+            end=chosen[j+1].start() if j+1<len(chosen) else len(block)
+            opts.append(clean(block[m.end():end]))
+        if all(opts):
+            return chosen,opts
     return [],[]
 
 def parse_options(block):
@@ -249,6 +283,8 @@ def main():
             missing = [q for q in range(1, expected + 1) if q not in blocks]
             log("OCR", f"{pid}: recovered={len(recovered)}, remaining_missing={','.join('Q'+str(q) for q in missing) if missing else 'none'}")
 
+        # Existing records are never replaced by OCR guesses for unresolved Qs.
+        # They remain intact and are marked for source review.
         review_count = 0
         verified = 0
         for qn in range(1, expected + 1):
