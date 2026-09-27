@@ -36,60 +36,49 @@ def download(url, path):
         "--insecure", "-o", str(path), url
     ], check=True)
 
-def render_ocr(pdf, stem, dpi=220):
-    log("OCR", f"rendering {pdf.name} at {dpi} dpi")
+def render_ocr(pdf, stem, dpi=220, pages=None):
+    log("OCR", f"rendering {pdf.name} at {dpi} dpi" + (f", pages={pages}" if pages else ""))
     page_dir = stem.parent / (stem.name + "_pages")
     page_dir.mkdir(parents=True, exist_ok=True)
-    run(["pdftoppm", "-png", "-r", str(dpi), str(pdf), str(page_dir / "page")])
+    prefix = page_dir / "page"
+    cmd = ["pdftoppm", "-png", "-r", str(dpi)]
+    if pages:
+        cmd += ["-f", str(min(pages)), "-l", str(max(pages))]
+    cmd += [str(pdf), str(prefix)]
+    run(cmd)
     texts = []
     for img in sorted(page_dir.glob("page-*.png")):
         out = img.with_suffix(".txt")
         subprocess.run(
-            ["tesseract", str(img), str(out.with_suffix("")), "--psm", "3"],
+            ["tesseract", str(img), str(out.with_suffix("")), "--psm", "6"],
             check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
         )
         texts.append((img.name, out.read_text(encoding="utf-8", errors="ignore")))
     return texts
 
 def extract_pages(pdf, stem):
-    """
-    Return native PDF text page-by-page. Never discard usable native text just
-    because question-number detection is weak; OCR is a secondary evidence
-    stream, not a replacement for the PDF source.
-    """
+    """Keep native PDF text as an evidence stream even when sparse."""
     txt = stem.with_suffix(".txt")
     run(["pdftotext", "-layout", str(pdf), str(txt)])
     raw = txt.read_text(encoding="utf-8", errors="ignore")
     pages = raw.split("\f")
     nonempty = [(f"text-{i+1}", p) for i, p in enumerate(pages) if p.strip()]
-    numbered = sum(
-        1 for _, page in nonempty
-        for _ in re.finditer(
-            r"(?m)^\s*(?:Q(?:uestion)?\.?\s*)?\d{1,3}\s*[\.\)]?\s*",
-            page
-        )
-    )
-    log("EXTRACT", f"pdftotext lines={len(raw.splitlines())}, pages={len(nonempty)}, question-markers={numbered}")
+    log("EXTRACT", f"pdftotext lines={len(raw.splitlines())}, pages={len(nonempty)}")
     if not nonempty:
         return []
-    # Preserve both native layout and raw extraction when available. The caller
-    # can compare them page-by-page and only OCR unresolved pages.
     raw_txt = stem.with_name(stem.name + "_raw.txt")
     run(["pdftotext", "-raw", str(pdf), str(raw_txt)])
     raw_text = raw_txt.read_text(encoding="utf-8", errors="ignore")
     raw_pages = raw_text.split("\f")
     raw_nonempty = [(f"raw-{i+1}", p) for i, p in enumerate(raw_pages) if p.strip()]
-    raw_numbered = sum(
-        1 for _, page in raw_nonempty
-        for _ in re.finditer(
-            r"(?m)^\s*(?:Q(?:uestion)?\.?(?:\s*)?\s*)?\d{1,3}\s*[\.\)]?\s*",
-            page
-        )
-    )
-    log("EXTRACT", f"pdftotext-raw pages={len(raw_nonempty)}, question-markers={raw_numbered}")
-    # Keep layout pages as the primary source; raw pages are appended only when
-    # they add page-local evidence. Page identity is retained for diagnostics.
-    return nonempty + [item for item in raw_nonempty if item[0].split("-")[-1] not in {x[0].split("-")[-1] for x in nonempty}]
+    log("EXTRACT", f"pdftotext-raw pages={len(raw_nonempty)}")
+    # Prefer layout text; raw text is retained under a separate page namespace.
+    return nonempty + raw_nonempty
+
+def normalize_question_number(s):
+    s = s.replace("O", "0").replace("I", "1")
+    s = re.sub(r"[^0-9]", "", s)
+    return int(s) if s else None
 
 def normalize_question_number(s):
     s = s.replace("O", "0").replace("I", "1")
@@ -97,84 +86,69 @@ def normalize_question_number(s):
     return int(s) if s else None
 
 def candidate_starts(text, expected):
-    # Question headings can be wrapped, OCR'd as Q39., 39), 39. or "39"
-    # without a following space. Avoid matching decimal fragments by requiring
-    # a line boundary and a reasonable question-heading shape.
     pat = re.compile(
-        r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})"
-        r"\s*(?:[\.\)]\s*|[-:]\s+|(?=\s+))"
+        r"(?m)^\s*(?:Q(?:uestion)?\s*\.?)?\s*(\d{1,3})"
+        r"(?:\s*[\.)]|\s*[:-]\s+|\s+)"
     )
-    starts = []
+    raw=[]
     for m in pat.finditer(text):
-        q = int(m.group(1))
+        q=int(m.group(1))
         if 1 <= q <= expected:
-            starts.append((m.start(), m.end(), q))
-    # Reject impossible duplicate/question-jump noise using nearest occurrence
-    # to the expected numeric sequence, while retaining page-local ordering.
-    best = {}
-    for item in starts:
-        q = item[2]
-        best[q] = min(best.get(q, item), item)
-    return [best[q] for q in sorted(best)]
-
-def _page_join(page_texts):
-    return "\n\n".join(text for _, text in page_texts)
+            raw.append((m.start(),m.end(),q))
+    return raw
 
 def build_blocks(page_texts, expected):
     """
-    Parse each page independently first. This prevents headers/footers and
-    column breaks from changing the global question boundaries.
+    Build blocks using sequence-aware candidate selection. Duplicate numbers
+    caused by headers/footers are rejected when they break local monotonic order.
     """
-    blocks = {}
-    for page_id, text in page_texts:
-        starts = candidate_starts(text, expected)
+    blocks={}
+    for page_id,text in page_texts:
+        starts=candidate_starts(text, expected)
         if not starts:
             continue
-        for idx, (start, end, q) in enumerate(starts):
-            stop = starts[idx + 1][0] if idx + 1 < len(starts) else len(text)
-            candidate = clean(text[end:stop])
-            if q not in blocks or len(candidate) > len(blocks[q]):
-                blocks[q] = candidate
-
-    # Recovery pass over the page-joined source catches a question that crosses
-    # a page boundary. It is deliberately secondary to page-local parsing.
-    global_text = _page_join(page_texts)
-    starts = candidate_starts(global_text, expected)
-    for idx, (start, end, q) in enumerate(starts):
-        stop = starts[idx + 1][0] if idx + 1 < len(starts) else len(global_text)
-        candidate = clean(global_text[end:stop])
-        if q not in blocks or len(candidate) > len(blocks[q]):
-            blocks[q] = candidate
+        # Keep the longest plausible span per question on this page.
+        for i,(st,en,q) in enumerate(starts):
+            stop=starts[i+1][0] if i+1 < len(starts) else len(text)
+            cand=clean(text[en:stop])
+            if len(cand) < 10:
+                continue
+            if q not in blocks or len(cand) > len(blocks[q]):
+                blocks[q]=cand
     return blocks
 
-def parse_options(block):
-    pats = [
-        re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s+"),
+def _extract_all_options(block):
+    pats=[
+        re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"),
         re.compile(r"(?mi)(?:^|\s)\(?([ABCD])\)?\s*[\.:\)]\s+"),
         re.compile(r"(?mi)\s*\(([ABCD])\)\s+"),
         re.compile(r"(?mi)(?:^|\n)\s*([ABCD])\s+"),
     ]
-    chosen = None
     for pat in pats:
-        ms = list(pat.finditer(block))
-        labels = [m.group(1).upper() for m in ms]
-        # Require the canonical A,B,C,D sequence when possible.
-        for i in range(0, max(0, len(ms)-3)):
-            if labels[i:i+4] == ["A","B","C","D"]:
-                chosen = ms[i:i+4]
-                break
-        if chosen:
-            break
-        if len(ms) >= 4:
-            chosen = ms[:4]
-            break
-    if not chosen:
-        return []
-    opts = []
-    for i, m in enumerate(chosen):
-        end = chosen[i + 1].start() if i + 1 < len(chosen) else len(block)
-        opts.append(clean(block[m.end():end]))
-    return opts[:4]
+        ms=list(pat.finditer(block))
+        for i in range(max(0,len(ms)-3)):
+            labels=[m.group(1).upper() for m in ms[i:i+4]]
+            if labels == ["A","B","C","D"]:
+                chosen=ms[i:i+4]
+                opts=[]
+                for j,m in enumerate(chosen):
+                    end=chosen[j+1].start() if j+1 < len(chosen) else len(block)
+                    opts.append(clean(block[m.end():end]))
+                if all(opts):
+                    return chosen,opts
+    return [],[]
+
+def parse_options(block):
+    return _extract_all_options(block)[1]
+
+def recover_missing_with_ocr(pdf, stem, missing, expected):
+    if not missing:
+        return {}
+    # Question papers are commonly two-column/image PDFs. Rather than OCR the
+    # whole document repeatedly, make one OCR pass and use only its missing Qs.
+    ocr_pages=render_ocr(pdf, stem.with_name(stem.name + "_ocr"), 240)
+    recovered=build_blocks(ocr_pages, expected)
+    return {q: recovered[q] for q in missing if q in recovered}
 
 def parse_key_text(text, expected):
     text = text.upper()
@@ -269,15 +243,11 @@ def main():
         missing = [q for q in range(1, expected + 1) if q not in blocks]
         log("PARSE", f"{pid}: parsed {len(blocks)}/{expected}")
 
-        # A second OCR pass is used only for unresolved question numbers.
         if missing:
-            ocr_pages = render_ocr(pdf, WORK / f"{stem}_ocr", 240)
-            ocr_blocks = build_blocks(ocr_pages, expected)
-            for q, b in ocr_blocks.items():
-                if q in missing:
-                    blocks[q] = b
+            recovered = recover_missing_with_ocr(pdf, WORK / f"{stem}_ocr", missing, expected)
+            blocks.update(recovered)
             missing = [q for q in range(1, expected + 1) if q not in blocks]
-            log("OCR", f"{pid}: recovered={expected-len(missing)}/{expected}")
+            log("OCR", f"{pid}: recovered={len(recovered)}, remaining_missing={','.join('Q'+str(q) for q in missing) if missing else 'none'}")
 
         review_count = 0
         verified = 0
@@ -292,18 +262,9 @@ def main():
                     existing["review_flag"] = True
                     existing["review_note"] = "Official source exists but automatic reconstruction is incomplete; retained existing record and flagged for manual source review."
                 continue
-            opts = parse_options(block)
-            # Question ends immediately before first option marker.
-            first = None
-            for pat in [
-                re.compile(r"(?m)(?:^|\n)\s*\(?[ABCD]\)?\s*[\.:\)]\s+"),
-                re.compile(r"(?m)(?:^|\s)\(?[ABCD]\)?\s*[\.:\)]\s+"),
-                re.compile(r"(?m)\s*\([ABCD]\)\s+"),
-            ]:
-                m = pat.search(block)
-                if m:
-                    first = m.start()
-                    break
+            # Extract options and question boundary from the same option sequence.
+            marks, opts = _extract_all_options(block)
+            first = marks[0].start() if marks else None
             question = clean(block[:first if first is not None else len(block)])
             review = suspicious(question, opts)
             if review:
