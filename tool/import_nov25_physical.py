@@ -9,7 +9,7 @@ B C C B A C A B A B
 B D C A D A B C A B
 B D C A B B A B D A
 B D D B B A C A D B
-B B C A C C C D D B
+B B C B D A B C A B
 D B A B A B C B D B
 C B D A A C B C B B'''.split()
 assert len(ANS)==100
