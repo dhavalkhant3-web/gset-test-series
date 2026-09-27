@@ -138,9 +138,12 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/sept16/sept1602.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf",
-      "questions_loaded": false,
+      "questions_loaded": 50,
       "answer_key_verified": true,
-      "source": "GSET official uploaded question paper + final/corrected answer key"
+      "source": "GSET official uploaded question paper + final/corrected answer key",
+      "questions_count": 50,
+      "review_count": 5,
+      "source_verified": false
     },
     {
       "paper_id": "physical_aug17",
@@ -222,9 +225,12 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
-      "questions_loaded": false,
+      "questions_loaded": 75,
       "answer_key_verified": true,
-      "source": "GSET official uploaded question paper + final answer key"
+      "source": "GSET official uploaded question paper + final answer key",
+      "questions_count": 100,
+      "review_count": 13,
+      "source_verified": false
     },
     {
       "paper_id": "physical_nov25",
@@ -237,7 +243,10 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
-      "question_source_verified": true
+      "question_source_verified": true,
+      "questions_count": 100,
+      "review_count": 3,
+      "source_verified": false
     }
   ]
 }
