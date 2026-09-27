@@ -26,7 +26,7 @@ def extract_text(pdf, stem):
     txt=Path(stem+".txt")
     run(["pdftotext","-layout",str(pdf),str(txt)])
     t=txt.read_text(errors="ignore")
-    if len(re.findall(r"(?m)^\s*\d{1,3}[\.\)]\s+",t)) >= 20:
+    if len(re.findall(r"(?m)^\s*\d{1,3}[\.\)]?\s+",t)) >= 20:
         return t
     imgstem=Path(stem)
     run(["pdftoppm","-f","1","-l","-1","-png","-r","180",str(pdf),str(imgstem)])
@@ -46,7 +46,7 @@ def parse_key(text, expected):
     return d
 
 def question_blocks(text, expected):
-    matches=list(re.finditer(r"(?m)^\s*(\d{1,3})[\.\)]\s+",text))
+    matches=list(re.finditer(r"(?m)^\s*(\d{1,3})[\.\)]?\s+",text))
     chosen=[]; wanted=1
     for m in matches:
         q=int(m.group(1))
@@ -84,7 +84,17 @@ def main():
         keys=parse_key(extract_text(keypdf,str(WORK/(stem+"_key"))),expected)
         if len(keys)<expected: raise SystemExit(f"{pid}: only {len(keys)}/{expected} answer keys parsed")
         blocks=question_blocks(extract_text(pdf,str(WORK/stem)),expected)
-        if len(blocks)<expected: raise SystemExit(f"{pid}: only {len(blocks)}/{expected} question blocks parsed")
+        if len(blocks)<expected:
+            print(f"{pid}: parsed {len(blocks)}/{expected} question blocks; falling back to OCR")
+            ocrstem=WORK/(stem+"_ocr")
+            run(["pdftoppm","-f","1","-l","-1","-png","-r","220",str(pdf),str(ocrstem)])
+            chunks=[]
+            for img in sorted(WORK.glob(ocrstem.name+"-*.png")):
+                out=img.with_suffix("")
+                subprocess.run(["tesseract",str(img),str(out),"--psm","6"],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+                chunks.append(Path(str(out)+".txt").read_text(errors="ignore"))
+            blocks=question_blocks("\n".join(chunks),expected)
+        if len(blocks)<expected: raise SystemExit(f"{pid}: only {len(blocks)}/{expected} question blocks parsed after OCR")
         bad=0
         for qn in range(1,expected+1):
             block=blocks[qn]
