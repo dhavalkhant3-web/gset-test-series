@@ -1,0 +1,46 @@
+name: Build verified Sept 2016 Chemical visual assets
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/images/chemical_sep16_q*.png"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-visual-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF crop dependencies
+        run: python -m pip install --disable-pip-version-check pymupdf
+
+      - name: Download official Paper-III and verify SHA-256
+        run: |
+          python tool/extract_chemical_sep16_visuals.py --source /tmp/sept16p303.pdf --download
+
+      - name: Commit verified original-image crops
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/chemical_sep16_q*.png
+          if git diff --cached --quiet; then
+            echo "No visual asset changes."
+            exit 0
+          fi
+          git commit -m "Add verified Sept 2016 Chemical Sciences visual assets"
+          git push origin HEAD:main
