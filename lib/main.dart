@@ -1435,7 +1435,8 @@ class _TestPageState extends State<TestPage> {
         ),
         Expanded(child: ListView(padding: const EdgeInsets.all(16), children: [
           if (passage.isNotEmpty) Card(child: Padding(padding: const EdgeInsets.all(12), child: Text(passage, style: const TextStyle(height: 1.35)))),
-          if ((q['image_asset'] ?? '').toString().isNotEmpty) Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(q['image_asset'], fit: BoxFit.contain))),
+          final explicitImage = (q['image_asset'] ?? '').toString(); final qNo = q['question_no']?.toString(); final paperId = q['paper_id']?.toString(); final derivedImage = paperId == 'chemical_sep18' && qNo != null ? 'assets/images/chemical_sep18_q${int.tryParse(qNo) ?? 0}.png' : ''; final imageAsset = explicitImage.isNotEmpty ? explicitImage : derivedImage;
+          if (imageAsset.isNotEmpty) Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(imageAsset, fit: BoxFit.contain))),
           Row(children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), const SizedBox(width: 8), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
           const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: Text(gu ? q['question_gu'] : q['question_en'], style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
