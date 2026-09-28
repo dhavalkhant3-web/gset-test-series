@@ -1,9 +1,10 @@
 from pathlib import Path
-from urllib.request import urlopen
+import requests
 import fitz
 from PIL import Image
 
-URL = "https://www.gujaratset.ac.in/assets/papers/paperII/nov22/nov2203.pdf"
+OFFICIAL_URL = "https://gujaratset.ac.in/assets/papers/paperII/nov22/nov2203.pdf"
+MIRROR_URL = "https://drive.usercontent.google.com/download?id=1nea-Knh79W9utYqENQxiJpyrN9WZ0gXp&export=download&confirm=t"
 OUT = Path("assets/images")
 OUT.mkdir(parents=True, exist_ok=True)
 PDF = Path("/tmp/chemical_nov22.pdf")
@@ -22,8 +23,21 @@ CROPS = {
     99:(30,158,670), 100:(30,670,1490),
 }
 
-with urlopen(URL, timeout=60) as response:
-    PDF.write_bytes(response.read())
+def download(url):
+    response = requests.get(url, timeout=(20, 120), headers={"User-Agent": "Mozilla/5.0"}, allow_redirects=True)
+    response.raise_for_status()
+    data = response.content
+    if not data.startswith(b"%PDF"):
+        raise RuntimeError(f"Downloaded content is not a PDF from {url} (content-type={response.headers.get(chr(39)+chr(99)+chr(111)+chr(110)+chr(116)+chr(101)+chr(110)+chr(116)+chr(45)+chr(116)+chr(121)+chr(112)+chr(101)+chr(39))})")
+    PDF.write_bytes(data)
+
+try:
+    download(OFFICIAL_URL)
+    print("Downloaded official GSET question paper")
+except Exception as official_error:
+    print(f"Official GSET download unavailable: {official_error}")
+    print("Using the public mirror of the same official question-paper PDF as fallback")
+    download(MIRROR_URL)
 
 doc = fitz.open(PDF)
 assert len(doc) >= 30, f"Unexpected PDF page count: {len(doc)}"
