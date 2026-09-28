@@ -2,6 +2,12 @@ name: Build GSET Android APK
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_physical_archive:
+        description: 'Rebuild Physical Sciences archive from official GSET PDFs'
+        required: false
+        default: false
+        type: boolean
   push:
     branches:
       - main
@@ -38,6 +44,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
       - name: Generate official Physical Sciences archive bank
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
         run: |
           python3 tool/import_physical_archive.py
           python3 tool/import_nov25_physical.py
@@ -90,6 +97,7 @@ jobs:
           PY
 
       - name: Validate Physical Sciences archive metadata
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
         run: |
           python3 - <<'PY'
           import json
