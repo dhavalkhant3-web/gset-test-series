@@ -176,6 +176,22 @@
       "source": "Uploaded official GSET question paper + uploaded official final answer key"
     },
     {
+      "paper_id": "chemical_sep16_p3",
+      "exam": "September 2016",
+      "year": "2016",
+      "subject_code": "03",
+      "question_count": 75,
+      "marks": 150,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperIII/sept16/sept16p303.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperIII/sept16/sept1603.pdf",
+      "questions_loaded": false,
+      "questions_loaded_count": 0,
+      "answer_key_verified": true,
+      "status": "visual_audit_verified_pending_questions",
+      "visual_audit_manifest": "assets/sources/chemical_sep16_p3_visual_manifest.json",
+      "source": "Uploaded original official GSET Paper-III + uploaded final/corrected answer key; source hash verified in the visual-assets workflow"
+    },
+    {
       "paper_id": "chemical_aug17",
       "exam": "August 2017",
       "year": "2017",
