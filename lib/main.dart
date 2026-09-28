@@ -320,10 +320,25 @@ class PaperIIDataService {
     try {
       final raw = await rootBundle.loadString(path);
       final decoded = jsonDecode(raw);
-      if (decoded is List) return decoded.map((e) => Map<String, dynamic>.from(e as Map)).toList();
-      if (decoded is Map && decoded['questions'] is List) {
-        return (decoded['questions'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      final loaded = <Map<String, dynamic>>[];
+      if (decoded is List) {
+        loaded.addAll(decoded.map((e) => Map<String, dynamic>.from(e as Map)));
+      } else if (decoded is Map && decoded['questions'] is List) {
+        loaded.addAll((decoded['questions'] as List).map((e) => Map<String, dynamic>.from(e as Map)));
       }
+      // Paper-specific verified archives can be stored separately so a large
+      // subject question bank does not need to be rewritten for every paper.
+      if (subjectId == 'chemical_sciences') {
+        try {
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/chemical_sciences/questions_sep16_p3.json',
+          ));
+          if (extra is List) {
+            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          }
+        } catch (_) {}
+      }
+      if (loaded.isNotEmpty) return loaded;
     } catch (_) {}
     return [];
   }
