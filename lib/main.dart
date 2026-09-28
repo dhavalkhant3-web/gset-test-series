@@ -197,7 +197,8 @@ class _SubjectHubPageState extends State<SubjectHubPage> {
 
   Future<void> _loadSubjects() async {
     try {
-      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/subjects.json')) as Map;      final list = (raw['subjects'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/subjects.json')) as Map;
+      final list = (raw['subjects'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
       if (mounted) setState(() => subjects = list);
     } catch (_) { if (mounted) setState(() => subjects = []); }
   }
@@ -329,23 +330,23 @@ class PaperIIDataService {
       // subject question bank does not need to be rewritten for every paper.
       if (subjectId == 'physical_sciences') {
         try {
-          final extra = jsonDecode(await rootBundle.loadString('assets/subjects/physical_sciences/questions_sep16_p2.json'));
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_sep16_p2.json',
+          ));
           if (extra is List) {
             loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
           }
         } catch (_) {}
-      }\n      if (subjectId == 'chemical_sciences') {
-        for (final archive in const [
-          'assets/subjects/chemical_sciences/questions_sep16_p2.json',
-          'assets/subjects/chemical_sciences/questions_sep16_p3.json',
-        ]) {
-          try {
-            final extra = jsonDecode(await rootBundle.loadString(archive));
-            if (extra is List) {
-              loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
-            }
-          } catch (_) {}
-        }
+      }
+      if (subjectId == 'chemical_sciences') {
+        try {
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/chemical_sciences/questions_sep16_p3.json',
+          ));
+          if (extra is List) {
+            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          }
+        } catch (_) {}
       }
       if (loaded.isNotEmpty) return loaded;
     } catch (_) {}
@@ -396,7 +397,8 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
   Future<void> _saveState(Set<String> b, Set<String> m) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setStringList('bookmarks', b.toList());
-    await prefs.setStringList('mistakes', m.toList());    if (mounted) setState(() { bookmarks = b; mistakes = m; });
+    await prefs.setStringList('mistakes', m.toList());
+    if (mounted) setState(() { bookmarks = b; mistakes = m; });
     await FirebaseSync.pushLocal(prefs);
   }
 
@@ -595,7 +597,8 @@ class _HomePageState extends State<HomePage> {
     if (index == 1) {
       setState(() => selectedNav = 1);
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        final c = _papersKey.currentContext;        if (c != null) Scrollable.ensureVisible(c, duration: const Duration(milliseconds: 450), curve: Curves.easeOutCubic);
+        final c = _papersKey.currentContext;
+        if (c != null) Scrollable.ensureVisible(c, duration: const Duration(milliseconds: 450), curve: Curves.easeOutCubic);
       });
     } else if (index == 2) {
       _openPractice();
@@ -794,7 +797,8 @@ class _HomePageState extends State<HomePage> {
                   onTap: ok ? () async {
                     await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: p.title, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
                     await _load();
-                  } : () => _showNote(p, qs.length),                  child: Padding(
+                  } : () => _showNote(p, qs.length),
+                  child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 10),
                     child: Row(children: [
                       Container(
@@ -993,7 +997,8 @@ class AccountPage extends StatefulWidget {
 }
 
 class _AccountPageState extends State<AccountPage> {
-  late bool gu;  bool phoneMode = false, obscure = true, busy = false;
+  late bool gu;
+  bool phoneMode = false, obscure = true, busy = false;
   final email = TextEditingController();
   final phone = TextEditingController();
   final password = TextEditingController();
@@ -1192,7 +1197,8 @@ class _AccountPageState extends State<AccountPage> {
               TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: const InputDecoration(prefixIcon: Icon(Icons.email_outlined), labelText: 'Email')),
               const SizedBox(height: 12),
               TextField(controller: password, obscureText: obscure, decoration: InputDecoration(prefixIcon: const Icon(Icons.lock_outline), labelText: 'Password', suffixIcon: IconButton(onPressed: () => setState(() => obscure = !obscure), icon: Icon(obscure ? Icons.visibility_outlined : Icons.visibility_off_outlined)))),
-              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: busy ? null : _resetPassword, child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),              FilledButton.icon(onPressed: busy ? null : _login, icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
+              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: busy ? null : _resetPassword, child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),
+              FilledButton.icon(onPressed: busy ? null : _login, icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
               const SizedBox(height: 8),
               OutlinedButton.icon(onPressed: busy ? null : _register, icon: const Icon(Icons.person_add_alt_1), label: Text(gu ? 'નવું Account બનાવો' : 'Create new account')),
             ] else ...[
@@ -1391,7 +1397,8 @@ class _TestPageState extends State<TestPage> {
     timer?.cancel();
     final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
     final prefs = await SharedPreferences.getInstance();
-    final today = DateTime.now().toIso8601String().substring(0, 10);    final previousDay = prefs.getString('gset_progress_day') ?? '';
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final previousDay = prefs.getString('gset_progress_day') ?? '';
     var done = prefs.getInt('gset_today_done') ?? 0;
     var currentStreak = prefs.getInt('gset_streak') ?? 0;
     if (previousDay != today) {
@@ -1457,13 +1464,16 @@ class _TestPageState extends State<TestPage> {
             final explicitImage = (q['image_asset'] ?? '').toString();
             final qNo = q['question_no']?.toString();
             final paperId = q['paper_id']?.toString();
-            const sep16VisualQs = {17, 19, 31, 32, 34, 36, 37, 38, 40, 43, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};\n            const physicalSep16VisualQs = {29};
+            const sep16VisualQs = {17, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
+            const physicalSep16VisualQs = {29};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
             const nov22VisualQs = {28, 32, 43, 63, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 84, 86, 87, 88, 91, 93, 94, 95, 96, 98, 99, 100};
             final parsedQNo = int.tryParse(qNo ?? '');
-            final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)\n                ? 'assets/images/physical_sep16_q$parsedQNo.png'\n                : (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
+            final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)
+                ? 'assets/images/physical_sep16_q$parsedQNo.png'
+                : (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep16_q$parsedQNo.png'
                 : paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep18_q$parsedQNo.png'
@@ -1590,7 +1600,8 @@ class _AnalyticsPageState extends State<AnalyticsPage> {
       final pb = ab == 0 ? 0 : ((rights[b] ?? 0) * 100 / ab).round();
       return pa.compareTo(pb);
     });
-    return Scaffold(      appBar: AppBar(title: Text(widget.gu ? 'મારું Analytics' : 'My Analytics')),
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'મારું Analytics' : 'My Analytics')),
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
@@ -1790,3 +1801,24 @@ class _WeakAreasPageState extends State<WeakAreasPage> {
 class ResultPage extends StatelessWidget {
   final String title; final int score, total, attempted; final bool gu, practice, mock;
   final List<Map<String, dynamic>> questions; final Map<int, String> answers;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const ResultPage({super.key, required this.title, required this.score, required this.total, required this.attempted, required this.gu, required this.questions, required this.answers, required this.bookmarks, required this.mistakes, required this.onStateChanged, required this.practice, this.mock = false});
+  @override Widget build(BuildContext context) {
+    final pct = total == 0 ? 0.0 : score * 100.0 / total;
+    return Scaffold(appBar: AppBar(title: Text(gu ? 'પરિણામ' : 'Result')), body: ListView(padding: const EdgeInsets.all(20), children: [
+      Card(child: Padding(padding: const EdgeInsets.all(22), child: Column(children: [const Icon(Icons.emoji_events_outlined, size: 64), const SizedBox(height: 12), Text(title, style: Theme.of(context).textTheme.titleLarge, textAlign: TextAlign.center), const SizedBox(height: 10), Text('$score / $total', style: Theme.of(context).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.bold)), Text('${pct.toStringAsFixed(1)}%', style: Theme.of(context).textTheme.headlineSmall), const SizedBox(height: 8), Text(gu ? 'પ્રયાસ કરેલા પ્રશ્નો: $attempted / ${questions.length}' : 'Attempted: $attempted / ${questions.length}')]))),      const SizedBox(height: 14),
+      Row(children: [Expanded(child: FilledButton.icon(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ReviewPage(title: title, questions: questions, answers: answers, gu: gu))), icon: const Icon(Icons.fact_check_outlined), label: Text(gu ? 'Review' : 'Review'))), const SizedBox(width: 10), Expanded(child: OutlinedButton.icon(onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => TestPage(data: questions, gu: gu, title: title, practice: practice, mock: mock, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: onStateChanged))), icon: const Icon(Icons.refresh), label: Text(gu ? 'ફરી ટેસ્ટ' : 'Retry')))]),
+      const SizedBox(height: 10), OutlinedButton.icon(onPressed: () => Navigator.pop(context), icon: const Icon(Icons.home_outlined), label: Text(gu ? 'હોમ' : 'Home')),
+    ]));
+  }
+}
+
+class ReviewPage extends StatelessWidget {
+  final String title; final List<Map<String, dynamic>> questions; final Map<int, String> answers; final bool gu;
+  const ReviewPage({super.key, required this.title, required this.questions, required this.answers, required this.gu});
+  @override Widget build(BuildContext context) => Scaffold(appBar: AppBar(title: Text(gu ? 'જવાબોની સમીક્ષા' : 'Answer Review')), body: ListView.builder(padding: const EdgeInsets.all(14), itemCount: questions.length, itemBuilder: (_, i) {
+    final q = questions[i]; final correct = q['answer'] as String; final selected = answers[i]; final notEval = {'Z', 'X'}.contains(correct); final ok = !notEval && selected == correct;
+    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), title: Text(gu ? q['question_gu'] : q['question_en']), subtitle: Text(selected == null ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) Text(gu ? q['explanation_gu'] : q['explanation_en'])]));
+  }));
+}
