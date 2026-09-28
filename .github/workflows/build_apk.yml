@@ -43,6 +43,12 @@ jobs:
       - name: Install OCR tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
+      - name: Generate December 2021 Chemical Sciences visual assets
+        run: |
+          python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow
+          python3 tool/extract_chemical_dec21_visuals.py
+          test $(find assets/images -maxdepth 1 -name 'chemical_dec21_q*.jpg' | wc -l) -eq 25
+
       - name: Generate official Physical Sciences archive bank
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
         run: |
