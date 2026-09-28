@@ -329,14 +329,17 @@ class PaperIIDataService {
       // Paper-specific verified archives can be stored separately so a large
       // subject question bank does not need to be rewritten for every paper.
       if (subjectId == 'chemical_sciences') {
-        try {
-          final extra = jsonDecode(await rootBundle.loadString(
-            'assets/subjects/chemical_sciences/questions_sep16_p3.json',
-          ));
-          if (extra is List) {
-            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
-          }
-        } catch (_) {}
+        for (final archive in const [
+          'assets/subjects/chemical_sciences/questions_sep16_p2.json',
+          'assets/subjects/chemical_sciences/questions_sep16_p3.json',
+        ]) {
+          try {
+            final extra = jsonDecode(await rootBundle.loadString(archive));
+            if (extra is List) {
+              loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+            }
+          } catch (_) {}
+        }
       }
       if (loaded.isNotEmpty) return loaded;
     } catch (_) {}
@@ -1454,7 +1457,7 @@ class _TestPageState extends State<TestPage> {
             final explicitImage = (q['image_asset'] ?? '').toString();
             final qNo = q['question_no']?.toString();
             final paperId = q['paper_id']?.toString();
-            const sep16VisualQs = {17, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
+            const sep16VisualQs = {17, 19, 31, 32, 34, 36, 37, 38, 40, 43, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
