@@ -335,8 +335,7 @@ class PaperIIDataService {
             loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
           }
         } catch (_) {}
-      }
-      if (subjectId == 'chemical_sciences') {
+      }\n      if (subjectId == 'chemical_sciences') {
         for (final archive in const [
           'assets/subjects/chemical_sciences/questions_sep16_p2.json',
           'assets/subjects/chemical_sciences/questions_sep16_p3.json',
@@ -715,14 +714,10 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 14),
             LayoutBuilder(builder: (_, c) {
               final achievements = _section(gu ? 'તાજેતરની સિદ્ધિઓ 🏆' : 'Recent Achievements 🏆', Row(children: [
-                _badge(Icons.play_circle_fill_rounded, 'First
-Practice', done > 0),
-                _badge(Icons.check_circle_rounded, '10
-Questions', done >= 10),
-                _badge(Icons.local_fire_department_rounded, '3-Day
-Streak', streak >= 3),
-                _badge(Icons.psychology_rounded, '100
-Questions', totalAttempted >= 100),
+                _badge(Icons.play_circle_fill_rounded, 'First\nPractice', done > 0),
+                _badge(Icons.check_circle_rounded, '10\nQuestions', done >= 10),
+                _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
+                _badge(Icons.psychology_rounded, '100\nQuestions', totalAttempted >= 100),
               ]), Text(gu ? 'ચાલુ રાખો →' : 'Keep going →', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
               final progress = _section(gu ? 'તમારો Progress' : 'Your Progress', SizedBox(height: 112, child: Row(children: [
                 SizedBox(width: 92, height: 92, child: Stack(alignment: Alignment.center, children: [
@@ -731,11 +726,7 @@ Questions', totalAttempted >= 100),
                 ])),
                 const SizedBox(width: 10),
                 Expanded(child: Text(
-                  gu ? 'પ્રયાસ: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '
-' + mistakes.length.toString() + ' ભૂલો સાચવેલી.
-પ્રેક્ટિસ ચાલુ રાખો! 🚀' : 'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '
-' + mistakes.length.toString() + ' mistakes saved.
-Keep practicing! 🚀',
+                  gu ? 'પ્રયાસ: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' ભૂલો સાચવેલી.\nપ્રેક્ટિસ ચાલુ રાખો! 🚀' : 'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' mistakes saved.\nKeep practicing! 🚀',
                   style: const TextStyle(fontSize: 12, height: 1.35, fontWeight: FontWeight.w700),
                 )),
               ])));
@@ -899,9 +890,7 @@ Keep practicing! 🚀',
           Text(gu ? 'નાના પગલાં,' : 'Small Steps,', style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900, height: 1)),
           Text(gu ? 'મોટી સફળતા! 🚀' : 'Big Success! 🚀', style: const TextStyle(color: Color(0xFFFFD34E), fontSize: 26, fontWeight: FontWeight.w900, height: 1)),
           const SizedBox(height: 9),
-          Text(gu ? 'આજે માત્ર 10 પ્રશ્નો.
-GSET journey રોજ આગળ વધારો.' : 'Just 10 questions today.
-Build your GSET journey one day at a time.', style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.35, fontWeight: FontWeight.w600)),
+          Text(gu ? 'આજે માત્ર 10 પ્રશ્નો.\nGSET journey રોજ આગળ વધારો.' : 'Just 10 questions today.\nBuild your GSET journey one day at a time.', style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.35, fontWeight: FontWeight.w600)),
           const Spacer(),
           FilledButton.icon(
             style: FilledButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6), foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12), shape: const StadiumBorder()),
@@ -1041,11 +1030,7 @@ class _AccountPageState extends State<AccountPage> {
         case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે. Login કરો.' : 'This email is already registered. Please login.';
         case 'weak-password': return gu ? 'Password ઓછામાં ઓછો 6 characters રાખો.' : 'Password must be at least 6 characters.';
         case 'too-many-requests': return gu ? 'ઘણા પ્રયાસ થયા. થોડા સમય પછી ફરી પ્રયાસ કરો.' : 'Too many attempts. Please try again later.';
-        case 'operation-not-allowed': return gu ? 'Firebase Auth error: operation-not-allowed\
-Code: ${e.code}\
-Message: ${e.message ?? '-'}' : 'Firebase Auth error: operation-not-allowed\
-Code: ${e.code}\
-Message: ${e.message ?? '-'}';
+        case 'operation-not-allowed': return gu ? 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}' : 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}';
         case 'network-request-failed': return gu ? 'Internet connection તપાસો.' : 'Please check your internet connection.';
         case 'configuration-not-found': return gu ? 'Firebase Phone Authentication configuration અધૂરી છે.' : 'Firebase Phone Authentication is not fully configured.';
         case 'invalid-verification-code': return gu ? 'OTP ખોટો છે.' : 'Invalid OTP.';
@@ -1479,16 +1464,13 @@ class _TestPageState extends State<TestPage> {
             final explicitImage = (q['image_asset'] ?? '').toString();
             final qNo = q['question_no']?.toString();
             final paperId = q['paper_id']?.toString();
-            const sep16VisualQs = {17, 19, 31, 32, 34, 36, 37, 38, 40, 43, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
-            const physicalSep16VisualQs = {29};
+            const sep16VisualQs = {17, 19, 31, 32, 34, 36, 37, 38, 40, 43, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};\n            const physicalSep16VisualQs = {29};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
             const nov22VisualQs = {28, 32, 43, 63, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 84, 86, 87, 88, 91, 93, 94, 95, 96, 98, 99, 100};
             final parsedQNo = int.tryParse(qNo ?? '');
-            final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)
-                ? 'assets/images/physical_sep16_q$parsedQNo.png'
-                : (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
+            final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)\n                ? 'assets/images/physical_sep16_q$parsedQNo.png'\n                : (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep16_q$parsedQNo.png'
                 : paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep18_q$parsedQNo.png'
