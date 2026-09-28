@@ -1439,12 +1439,15 @@ class _TestPageState extends State<TestPage> {
             final explicitImage = (q['image_asset'] ?? '').toString();
             final qNo = q['question_no']?.toString();
             final paperId = q['paper_id']?.toString();
+            const sep16VisualQs = {17, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
             const nov22VisualQs = {28, 32, 43, 63, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 84, 86, 87, 88, 91, 93, 94, 95, 96, 98, 99, 100};
             final parsedQNo = int.tryParse(qNo ?? '');
-            final derivedImage = paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
+            final derivedImage = (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
+                ? 'assets/images/chemical_sep16_q$parsedQNo.png'
+                : paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep18_q$parsedQNo.png'
                 : paperId == 'chemical_dec19' && parsedQNo != null && dec19VisualQs.contains(parsedQNo)
                     ? 'assets/images/chemical_dec19_q$parsedQNo.png'
