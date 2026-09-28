@@ -1442,6 +1442,7 @@ class _TestPageState extends State<TestPage> {
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
+            const nov22VisualQs = {28, 32, 43, 63, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 84, 86, 87, 88, 91, 93, 94, 95, 96, 98, 99, 100};
             final parsedQNo = int.tryParse(qNo ?? '');
             final derivedImage = paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep18_q$parsedQNo.png'
@@ -1449,7 +1450,9 @@ class _TestPageState extends State<TestPage> {
                     ? 'assets/images/chemical_dec19_q$parsedQNo.png'
                     : paperId == 'chemical_dec21' && parsedQNo != null && dec21VisualQs.contains(parsedQNo)
                         ? 'assets/images/chemical_dec21_q$parsedQNo.jpg'
-                        : '';
+                        : paperId == 'chemical_nov22' && parsedQNo != null && nov22VisualQs.contains(parsedQNo)
+                            ? 'assets/images/chemical_nov22_q$parsedQNo.png'
+                            : '';
             final imageAsset = explicitImage.isNotEmpty ? explicitImage : derivedImage;
             return imageAsset.isNotEmpty ? Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(imageAsset, fit: BoxFit.contain))) : const SizedBox.shrink();
           }),
