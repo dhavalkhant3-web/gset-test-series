@@ -143,7 +143,9 @@
       "source": "GSET official uploaded question paper + final/corrected answer key",
       "questions_count": 50,
       "review_count": 5,
-      "source_verified": false
+      "source_verified": true,
+      "question_source_verified": true,
+      "status": "verified_complete"
     },
     {
       "paper_id": "physical_aug17",
