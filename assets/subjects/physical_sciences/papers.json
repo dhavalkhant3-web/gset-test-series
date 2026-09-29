@@ -262,10 +262,10 @@
       "questions_loaded": 75,
       "answer_key_verified": true,
       "questions_count": 75,
-      "review_count": 37,
-      "source_verified": false,
-      "question_source_verified": false,
-      "status": "review_required",
+      "review_count": 0,
+      "source_verified": true,
+      "question_source_verified": true,
+      "status": "verified_complete",
       "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
     }
   ]
