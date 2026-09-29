@@ -13,6 +13,7 @@ doc=fitz.open(pdf)
 # Crops retain the original source visual; no OCR/redrawing is used.
 crops={
   6:(250,350,2050,1550,"physical_sep16_p3_q6.png"),
+  12:(70,520,1350,1600,"physical_sep16_p3_q12.png"),
   22:(180,650,2150,2850,"physical_sep16_p3_q64.png"),
   24:(180,300,2150,2050,"physical_sep16_p3_q69.png"),
 }
