@@ -18,11 +18,11 @@ crops={
 }
 for page_no,box in crops.items():
     page=doc[page_no-1]
-    pix=page.get_pixmap(matrix=fitz.Matrix(3,3),alpha=False)
+    pix=page.get_pixmap(matrix=fitz.Matrix(300/72,300/72),alpha=False)
     img=fitz.Pixmap(fitz.csRGB,pix)
     # crop coordinates are based on 300dpi rendering dimensions (72pt -> 300dpi scale ~4.1667);
     # use the same fixed source-region proportions by converting from rendered pixels.
-    scale=3.0
+    scale=300/72
     # Instead of reusing OCR, render and crop with PIL for exact pixel output.
     from PIL import Image
     import io
