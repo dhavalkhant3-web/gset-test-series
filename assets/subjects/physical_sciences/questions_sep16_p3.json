@@ -48,9 +48,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -75,9 +75,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -102,9 +102,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -129,9 +129,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -156,9 +156,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -183,9 +183,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -210,9 +210,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -318,9 +318,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -372,9 +372,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -385,23 +385,23 @@
     "question_en": "A one-dimensional harmonic oscillator carrying a charge q (positive) is placed in a uniform electric field E along the positive X-axis. The corresponding Hamiltonian operator is :",
     "question_gu": "A one-dimensional harmonic oscillator carrying a charge q (positive) is placed in a uniform electric field E along the positive X-axis. The corresponding Hamiltonian operator is :",
     "options_en": [
-      "−(ℏ²/2m)d²/dx² + ½kx² + qEx",
-      "−(ℏ²/2m)d²/dx² + ½kx² − qEx",
-      "+(ℏ²/2m)d²/dx² + ½kx² + qEx",
-      "+(ℏ²/2m)d²/dx² + ½kx² − qEx"
+      "ℏ²/(2m) d²/dx² + ½kx² + qEx",
+      "ℏ²/(2m) d²/dx² + ½kx² − qEx",
+      "−ℏ²/(2m) d²/dx² + ½kx² + qEx",
+      "−ℏ²/(2m) d²/dx² + ½kx² − qEx"
     ],
     "options_gu": [
-      "−(ℏ²/2m)d²/dx² + ½kx² + qEx",
-      "−(ℏ²/2m)d²/dx² + ½kx² − qEx",
-      "+(ℏ²/2m)d²/dx² + ½kx² + qEx",
-      "+(ℏ²/2m)d²/dx² + ½kx² − qEx"
+      "ℏ²/(2m) d²/dx² + ½kx² + qEx",
+      "ℏ²/(2m) d²/dx² + ½kx² − qEx",
+      "−ℏ²/(2m) d²/dx² + ½kx² + qEx",
+      "−ℏ²/(2m) d²/dx² + ½kx² − qEx"
     ],
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -534,9 +534,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -588,9 +588,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -642,9 +642,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -696,9 +696,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -706,8 +706,8 @@
     "paper_id": "physical_sep16_p3",
     "exam": "September 2016",
     "question_no": 27,
-    "question_en": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−ax²+b), where a and b are real constants. This means that the potential V(x) is of the form :",
-    "question_gu": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−ax²+b), where a and b are real constants. This means that the potential V(x) is of the form :",
+    "question_en": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−iax+b), where a and b are real constants. This means that the potential V(x) is of the form :",
+    "question_gu": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−iax+b), where a and b are real constants. This means that the potential V(x) is of the form :",
     "options_en": [
       "V(x) ∝ x",
       "V(x) ∝ x²",
@@ -723,9 +723,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -777,9 +777,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -804,9 +804,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -831,9 +831,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -858,9 +858,9 @@
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -993,9 +993,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1047,9 +1047,9 @@
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1101,9 +1101,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1128,9 +1128,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1236,9 +1236,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1290,9 +1290,9 @@
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1479,9 +1479,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1506,9 +1506,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1560,9 +1560,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1614,9 +1614,9 @@
     "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1668,9 +1668,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1695,9 +1695,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1722,9 +1722,9 @@
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1749,9 +1749,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1776,9 +1776,9 @@
     "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1803,9 +1803,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1830,9 +1830,9 @@
     "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
@@ -1857,9 +1857,9 @@
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": true,
-    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
-    "source_verified": false,
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
     "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
   },
   {
