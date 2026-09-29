@@ -340,6 +340,25 @@ class PaperIIDataService {
             }
           } catch (_) {}
         }
+        // Keep official-key corrections as a small overlay so the large
+        // historical question bank does not need a risky full-file rewrite.
+        try {
+          final corrections = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/dec24_answer_corrections.json',
+          ));
+          if (corrections is List) {
+            for (final correction in corrections) {
+              final c = Map<String, dynamic>.from(correction as Map);
+              final id = c['id'];
+              final index = loaded.indexWhere((q) => q['id'] == id);
+              if (index >= 0) {
+                loaded[index]['answer'] = c['answer'];
+                loaded[index]['explanation_en'] = c['explanation_en'];
+                loaded[index]['explanation_gu'] = c['explanation_gu'];
+              }
+            }
+          }
+        } catch (_) {}
       }
       if (subjectId == 'chemical_sciences') {
         try {
