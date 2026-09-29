@@ -23,13 +23,11 @@ for page_no,box in crops.items():
     img=fitz.Pixmap(fitz.csRGB,pix)
     # crop coordinates are based on 300dpi rendering dimensions (72pt -> 300dpi scale ~4.1667);
     # use the same fixed source-region proportions by converting from rendered pixels.
-    scale=300/72
-    # Instead of reusing OCR, render and crop with PIL for exact pixel output.
-    from PIL import Image
+        from PIL import Image
     import io
     png=pix.tobytes("png")
     im=Image.open(io.BytesIO(png))
     sx=300/72
-    crop=tuple(int(v*sx) for v in box)
+    crop=tuple(int(v) for v in box[:4])
     im.crop(crop).save(OUT/box[4],format="PNG")
     print("generated",OUT/box[4])
