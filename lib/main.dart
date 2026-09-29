@@ -329,14 +329,17 @@ class PaperIIDataService {
       // Paper-specific verified archives can be stored separately so a large
       // subject question bank does not need to be rewritten for every paper.
       if (subjectId == 'physical_sciences') {
-        try {
-          final extra = jsonDecode(await rootBundle.loadString(
-            'assets/subjects/physical_sciences/questions_sep16_p2.json',
-          ));
-          if (extra is List) {
-            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
-          }
-        } catch (_) {}
+        for (final archive in [
+          'assets/subjects/physical_sciences/questions_sep16_p2.json',
+          'assets/subjects/physical_sciences/questions_sep16_p3.json',
+        ]) {
+          try {
+            final extra = jsonDecode(await rootBundle.loadString(archive));
+            if (extra is List) {
+              loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+            }
+          } catch (_) {}
+        }
       }
       if (subjectId == 'chemical_sciences') {
         try {
@@ -1466,6 +1469,7 @@ class _TestPageState extends State<TestPage> {
             final paperId = q['paper_id']?.toString();
             const sep16VisualQs = {17, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
             const physicalSep16VisualQs = {29};
+            const physicalSep16P3VisualQs = {6, 64, 69};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
@@ -1473,6 +1477,8 @@ class _TestPageState extends State<TestPage> {
             final parsedQNo = int.tryParse(qNo ?? '');
             final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)
                 ? 'assets/images/physical_sep16_q$parsedQNo.png'
+                : paperId == 'physical_sep16_p3' && parsedQNo != null && physicalSep16P3VisualQs.contains(parsedQNo)
+                ? 'assets/images/physical_sep16_p3_q$parsedQNo.png'
                 : (paperId == 'chemical_sep16' || paperId == 'chemical_sep16_p3') && parsedQNo != null && sep16VisualQs.contains(parsedQNo)
                 ? 'assets/images/chemical_sep16_q$parsedQNo.png'
                 : paperId == 'chemical_sep18' && parsedQNo != null && sep18VisualQs.contains(parsedQNo)
