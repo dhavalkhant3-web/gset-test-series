@@ -1469,7 +1469,7 @@ class _TestPageState extends State<TestPage> {
             final paperId = q['paper_id']?.toString();
             const sep16VisualQs = {17, 46, 48, 49, 50, 51, 52, 54, 55, 56, 58, 59, 60, 62, 63, 66, 68};
             const physicalSep16VisualQs = {29};
-            const physicalSep16P3VisualQs = {6, 64, 69};
+            const physicalSep16P3VisualQs = {6, 12, 64, 69};
             const sep18VisualQs = {28, 58, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 98};
             const dec19VisualQs = {20, 30, 35, 39, 59, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 87, 88, 91, 92, 93, 95, 96, 97, 98, 99, 100};
             const dec21VisualQs = {18, 43, 53, 64, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93};
