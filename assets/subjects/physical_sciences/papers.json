@@ -232,7 +232,9 @@
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
       "review_count": 13,
-      "source_verified": false
+      "source_verified": false,
+      "question_source_verified": false,
+      "status": "partial_pending_source"
     },
     {
       "paper_id": "physical_nov25",
