@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "physical_sep16_p3_q01",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 1,
+    "question_en": "If function f(x) represents the normal distribution, then its Fourier transform will be :",
+    "question_gu": "If function f(x) represents the normal distribution, then its Fourier transform will be :",
+    "options_en": [
+      "Gaussian function",
+      "Dirac delta function",
+      "Green's function",
+      "Linear polynomial function"
+    ],
+    "options_gu": [
+      "Gaussian function",
+      "Dirac delta function",
+      "Green's function",
+      "Linear polynomial function"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q02",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 2,
+    "question_en": "The range of the function f(x) = 9 − 7 sin x is :",
+    "question_gu": "The range of the function f(x) = 9 − 7 sin x is :",
+    "options_en": [
+      "[2, 16]",
+      "[1, −1]",
+      "[1, 2]",
+      "[9, 7]"
+    ],
+    "options_gu": [
+      "[2, 16]",
+      "[1, −1]",
+      "[1, 2]",
+      "[9, 7]"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q03",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 3,
+    "question_en": "In the standard notation, the spherical harmonic Y₀⁰ with l = 0 and m = 0 is :",
+    "question_gu": "In the standard notation, the spherical harmonic Y₀⁰ with l = 0 and m = 0 is :",
+    "options_en": [
+      "1/√2",
+      "1/√(2π)",
+      "1/√(4π)",
+      "1/π"
+    ],
+    "options_gu": [
+      "1/√2",
+      "1/√(2π)",
+      "1/√(4π)",
+      "1/π"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q04",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 4,
+    "question_en": "Which of the following corresponds to √i, where i = √−1 ?",
+    "question_gu": "Which of the following corresponds to √i, where i = √−1 ?",
+    "options_en": [
+      "(1+i)/√2",
+      "(1−i)/√2",
+      "−1",
+      "i is undefined"
+    ],
+    "options_gu": [
+      "(1+i)/√2",
+      "(1−i)/√2",
+      "−1",
+      "i is undefined"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q05",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 5,
+    "question_en": "Which of the following defines a conservative force F ?",
+    "question_gu": "Which of the following defines a conservative force F ?",
+    "options_en": [
+      "dF/dt = 0",
+      "∇·F = 0",
+      "∇×F = 0",
+      "∮F·dr ≠ 0"
+    ],
+    "options_gu": [
+      "dF/dt = 0",
+      "∇·F = 0",
+      "∇×F = 0",
+      "∮F·dr ≠ 0"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q06",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 6,
+    "question_en": "What is the value of the line integral ∮(3y dx + 4x dy) for the path shown in the figure?",
+    "question_gu": "What is the value of the line integral ∮(3y dx + 4x dy) for the path shown in the figure?",
+    "options_en": [
+      "0",
+      "1",
+      "3",
+      "7"
+    ],
+    "options_gu": [
+      "0",
+      "1",
+      "3",
+      "7"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q07",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 7,
+    "question_en": "If f(t) = p sin t + qt cos t + t², and f(2) = 30, what is the value of f(−2) ?",
+    "question_gu": "If f(t) = p sin t + qt cos t + t², and f(2) = 30, what is the value of f(−2) ?",
+    "options_en": [
+      "10",
+      "−10",
+      "−22",
+      "cannot be determined as p and q are unknowns"
+    ],
+    "options_gu": [
+      "10",
+      "−10",
+      "−22",
+      "cannot be determined as p and q are unknowns"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q08",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 8,
+    "question_en": "y = y₀e^(−bt) with positive b will describe all of the processes given below except one. Which one?",
+    "question_gu": "y = y₀e^(−bt) with positive b will describe all of the processes given below except one. Which one?",
+    "options_en": [
+      "Radioactive decay",
+      "Attaining non-zero drift velocity for an object falling through viscous medium",
+      "Energy dissipation in a dissipative system",
+      "Discharge of a charged capacitor through a resistor"
+    ],
+    "options_gu": [
+      "Radioactive decay",
+      "Attaining non-zero drift velocity for an object falling through viscous medium",
+      "Energy dissipation in a dissipative system",
+      "Discharge of a charged capacitor through a resistor"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q09",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 9,
+    "question_en": "A ball of mass m is thrown vertically upwards. Another ball of mass 2m is thrown at an angle θ with the vertical. Both of them stay in the air for same period. The heights attained by the two balls (m to 2m) are in the ratio of :",
+    "question_gu": "A ball of mass m is thrown vertically upwards. Another ball of mass 2m is thrown at an angle θ with the vertical. Both of them stay in the air for same period. The heights attained by the two balls (m to 2m) are in the ratio of :",
+    "options_en": [
+      "2 : 1",
+      "1 : 1",
+      "1 : cos θ",
+      "1 : sec θ"
+    ],
+    "options_gu": [
+      "2 : 1",
+      "1 : 1",
+      "1 : cos θ",
+      "1 : sec θ"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q10",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 10,
+    "question_en": "A satellite orbits the Earth in a circular orbit. An astronaut on board, perturbs the orbit slightly by briefly firing control jet aimed towards the Earth's center. Afterward, which of the following is true for the satellite's trajectory?",
+    "question_gu": "A satellite orbits the Earth in a circular orbit. An astronaut on board, perturbs the orbit slightly by briefly firing control jet aimed towards the Earth's center. Afterward, which of the following is true for the satellite's trajectory?",
+    "options_en": [
+      "It is an ellipse",
+      "It is a hyperbola",
+      "It is a circle with larger radius",
+      "It exhibits many radial oscillations per revolution"
+    ],
+    "options_gu": [
+      "It is an ellipse",
+      "It is a hyperbola",
+      "It is a circle with larger radius",
+      "It exhibits many radial oscillations per revolution"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q11",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 11,
+    "question_en": "A newly discovered particle X moves with a speed equal to the speed of light in vacuum, then which of the following must be true?",
+    "question_gu": "A newly discovered particle X moves with a speed equal to the speed of light in vacuum, then which of the following must be true?",
+    "options_en": [
+      "The spin of X equals the spin of a photon",
+      "X does not have any spin",
+      "The charge of X is carried on its surface",
+      "The rest mass of X is zero"
+    ],
+    "options_gu": [
+      "The spin of X equals the spin of a photon",
+      "X does not have any spin",
+      "The charge of X is carried on its surface",
+      "The rest mass of X is zero"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q12",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 12,
+    "question_en": "A block of mass m, sliding down an incline at a constant speed is initially at height h above the ground. The kinetic coefficient of friction is μ. How much energy is dissipated by friction by the time it reaches the bottom of incline?",
+    "question_gu": "A block of mass m, sliding down an incline at a constant speed is initially at height h above the ground. The kinetic coefficient of friction is μ. How much energy is dissipated by friction by the time it reaches the bottom of incline?",
+    "options_en": [
+      "mgh/μ",
+      "mgh",
+      "μmgh/sin θ",
+      "mgh sin θ"
+    ],
+    "options_gu": [
+      "mgh/μ",
+      "mgh",
+      "μmgh/sin θ",
+      "mgh sin θ"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q13",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 13,
+    "question_en": "A particle of mass m undergoes harmonic oscillation with period T₀. A force f proportional to the speed v of the particle, f = −bv, is introduced. If the particle continues to oscillate, the period with f acting is :",
+    "question_gu": "A particle of mass m undergoes harmonic oscillation with period T₀. A force f proportional to the speed v of the particle, f = −bv, is introduced. If the particle continues to oscillate, the period with f acting is :",
+    "options_en": [
+      "Larger than T₀",
+      "Smaller than T₀",
+      "Independent of b",
+      "T₀"
+    ],
+    "options_gu": [
+      "Larger than T₀",
+      "Smaller than T₀",
+      "Independent of b",
+      "T₀"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q14",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 14,
+    "question_en": "The Lagrangian of a particle of mass m is L = (m/2)[(dx/dt)²+(dy/dt)²+(dz/dt)²] − (v/2)(x²+y²) + w sin ωt, where v, w and ω are constants. The conserved quantities are :",
+    "question_gu": "The Lagrangian of a particle of mass m is L = (m/2)[(dx/dt)²+(dy/dt)²+(dz/dt)²] − (v/2)(x²+y²) + w sin ωt, where v, w and ω are constants. The conserved quantities are :",
+    "options_en": [
+      "energy and z component of linear momentum only",
+      "energy and z component of angular momentum only",
+      "z components of both linear and angular momenta only",
+      "energy and z-components of both linear and angular momenta"
+    ],
+    "options_gu": [
+      "energy and z component of linear momentum only",
+      "energy and z component of angular momentum only",
+      "z components of both linear and angular momenta only",
+      "energy and z-components of both linear and angular momenta"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q15",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 15,
+    "question_en": "A one-dimensional harmonic oscillator carrying a charge q (positive) is placed in a uniform electric field E along the positive X-axis. The corresponding Hamiltonian operator is :",
+    "question_gu": "A one-dimensional harmonic oscillator carrying a charge q (positive) is placed in a uniform electric field E along the positive X-axis. The corresponding Hamiltonian operator is :",
+    "options_en": [
+      "−(ℏ²/2m)d²/dx² + ½kx² + qEx",
+      "−(ℏ²/2m)d²/dx² + ½kx² − qEx",
+      "+(ℏ²/2m)d²/dx² + ½kx² + qEx",
+      "+(ℏ²/2m)d²/dx² + ½kx² − qEx"
+    ],
+    "options_gu": [
+      "−(ℏ²/2m)d²/dx² + ½kx² + qEx",
+      "−(ℏ²/2m)d²/dx² + ½kx² − qEx",
+      "+(ℏ²/2m)d²/dx² + ½kx² + qEx",
+      "+(ℏ²/2m)d²/dx² + ½kx² − qEx"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q16",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 16,
+    "question_en": "Particle A of mass m moving with velocity v collides head on with particle B at rest, and of the same mass. Assuming elastic collision, which of the following is correct for motion after the collision?",
+    "question_gu": "Particle A of mass m moving with velocity v collides head on with particle B at rest, and of the same mass. Assuming elastic collision, which of the following is correct for motion after the collision?",
+    "options_en": [
+      "Particle A moves backwards with speed v/2 and B moves forward with speed v/2",
+      "Particle A comes to a stop and B moves forward with speed v",
+      "Both move forward with speed v/2",
+      "Both of them move forward with speed v/√2"
+    ],
+    "options_gu": [
+      "Particle A moves backwards with speed v/2 and B moves forward with speed v/2",
+      "Particle A comes to a stop and B moves forward with speed v",
+      "Both move forward with speed v/2",
+      "Both of them move forward with speed v/√2"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q17",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 17,
+    "question_en": "Electromagnetic waves are generated by :",
+    "question_gu": "Electromagnetic waves are generated by :",
+    "options_en": [
+      "Charges that are accelerating",
+      "Charges moving with constant velocity (relativistic)",
+      "Charges at rest",
+      "Steady currents"
+    ],
+    "options_gu": [
+      "Charges that are accelerating",
+      "Charges moving with constant velocity (relativistic)",
+      "Charges at rest",
+      "Steady currents"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q18",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 18,
+    "question_en": "Bohr’s assumption of stationary orbits of an electron around the nucleus :",
+    "question_gu": "Bohr’s assumption of stationary orbits of an electron around the nucleus :",
+    "options_en": [
+      "Violates the conservation of angular momentum principle",
+      "Violates Maxwell's equations",
+      "Violates the laws of thermodynamics",
+      "Violates energy conservation principle"
+    ],
+    "options_gu": [
+      "Violates the conservation of angular momentum principle",
+      "Violates Maxwell's equations",
+      "Violates the laws of thermodynamics",
+      "Violates energy conservation principle"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q19",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 19,
+    "question_en": "Mutual inductance of two coils :",
+    "question_gu": "Mutual inductance of two coils :",
+    "options_en": [
+      "depends on the currents passing through coils",
+      "depends on geometrical properties of the coils",
+      "depends on the distance between the coils only",
+      "depends on the sizes of the coils only"
+    ],
+    "options_gu": [
+      "depends on the currents passing through coils",
+      "depends on geometrical properties of the coils",
+      "depends on the distance between the coils only",
+      "depends on the sizes of the coils only"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q20",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 20,
+    "question_en": "The velocity of TEM mode in a coaxial transmission line with ε = ε₀ and μ = μ₀ is :",
+    "question_gu": "The velocity of TEM mode in a coaxial transmission line with ε = ε₀ and μ = μ₀ is :",
+    "options_en": [
+      "C",
+      "C/√2",
+      "always smaller than C",
+      "always larger than C"
+    ],
+    "options_gu": [
+      "C",
+      "C/√2",
+      "always smaller than C",
+      "always larger than C"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q21",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 21,
+    "question_en": "Magnetic moment induced due to an externally applied magnetic field is :",
+    "question_gu": "Magnetic moment induced due to an externally applied magnetic field is :",
+    "options_en": [
+      "always along the direction of the applied field",
+      "along the direction of the applied field for paramagnetic material",
+      "along the direction perpendicular to the direction of applied field for diamagnetic material",
+      "along the direction opposite to the direction of applied field for ferromagnetic material"
+    ],
+    "options_gu": [
+      "always along the direction of the applied field",
+      "along the direction of the applied field for paramagnetic material",
+      "along the direction perpendicular to the direction of applied field for diamagnetic material",
+      "along the direction opposite to the direction of applied field for ferromagnetic material"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q22",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 22,
+    "question_en": "The electrical potential in a region of space is given by φ = φ₀e^(−αx²) where φ₀ and α are constants. The charge density in this region is :",
+    "question_gu": "The electrical potential in a region of space is given by φ = φ₀e^(−αx²) where φ₀ and α are constants. The charge density in this region is :",
+    "options_en": [
+      "zero",
+      "2αε₀xφ",
+      "2αε₀(1 − 2αx²)φ",
+      "2αε₀(1 + 2αx²)φ"
+    ],
+    "options_gu": [
+      "zero",
+      "2αε₀xφ",
+      "2αε₀(1 − 2αx²)φ",
+      "2αε₀(1 + 2αx²)φ"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q23",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 23,
+    "question_en": "Four point charges are placed in a plane at the following positions: +Q at (1,0), −Q at (−1,0), +Q at (0,1) and −Q at (0,−1). At large distances the electrostatic potential due to this charge distribution will be dominated by :",
+    "question_gu": "Four point charges are placed in a plane at the following positions: +Q at (1,0), −Q at (−1,0), +Q at (0,1) and −Q at (0,−1). At large distances the electrostatic potential due to this charge distribution will be dominated by :",
+    "options_en": [
+      "Monopole moment",
+      "Dipole moment",
+      "Quadrupole moment",
+      "Octupole moment"
+    ],
+    "options_gu": [
+      "Monopole moment",
+      "Dipole moment",
+      "Quadrupole moment",
+      "Octupole moment"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q24",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 24,
+    "question_en": "For normal incidence of light on air-water interface, the fraction of the energy reflected is (water refractive index = 4/3).",
+    "question_gu": "For normal incidence of light on air-water interface, the fraction of the energy reflected is (water refractive index = 4/3).",
+    "options_en": [
+      "1/9",
+      "1/7",
+      "1/49",
+      "1/3"
+    ],
+    "options_gu": [
+      "1/9",
+      "1/7",
+      "1/49",
+      "1/3"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q25",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 25,
+    "question_en": "In the ³S state of the helium atom, the possible values of the total electronic angular momentum quantum numbers are :",
+    "question_gu": "In the ³S state of the helium atom, the possible values of the total electronic angular momentum quantum numbers are :",
+    "options_en": [
+      "0 only",
+      "1 only",
+      "0, 1 and 2",
+      "0 and 1 only"
+    ],
+    "options_gu": [
+      "0 only",
+      "1 only",
+      "0, 1 and 2",
+      "0 and 1 only"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q26",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 26,
+    "question_en": "Commutator [Jx, Jy, Jz] is proportional to :",
+    "question_gu": "Commutator [Jx, Jy, Jz] is proportional to :",
+    "options_en": [
+      "Jy Jz",
+      "Jy² − Jz²",
+      "Jx² + Jy² + Jz²",
+      "Jx Jy + Jy Jx + Jz Jx"
+    ],
+    "options_gu": [
+      "Jy Jz",
+      "Jy² − Jz²",
+      "Jx² + Jy² + Jz²",
+      "Jx Jy + Jy Jx + Jz Jx"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q27",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 27,
+    "question_en": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−ax²+b), where a and b are real constants. This means that the potential V(x) is of the form :",
+    "question_gu": "The wave function of a particle moving in one-dimensional time-independent potential V(x) is represented by ψ(x) = e^(−ax²+b), where a and b are real constants. This means that the potential V(x) is of the form :",
+    "options_en": [
+      "V(x) ∝ x",
+      "V(x) ∝ x²",
+      "V(x) = constant",
+      "V(x) = e^(−ax+b)"
+    ],
+    "options_gu": [
+      "V(x) ∝ x",
+      "V(x) ∝ x²",
+      "V(x) = constant",
+      "V(x) = e^(−ax+b)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q28",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 28,
+    "question_en": "The wave function for identical fermions is antisymmetric under particle exchange. Which of the following is responsible for this property?",
+    "question_gu": "The wave function for identical fermions is antisymmetric under particle exchange. Which of the following is responsible for this property?",
+    "options_en": [
+      "Bohr’s correspondence principle",
+      "Heisenberg’s uncertainty principle",
+      "Bose-Einstein condensation",
+      "Pauli’s exclusion principle"
+    ],
+    "options_gu": [
+      "Bohr’s correspondence principle",
+      "Heisenberg’s uncertainty principle",
+      "Bose-Einstein condensation",
+      "Pauli’s exclusion principle"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q29",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 29,
+    "question_en": "If the θ dependent part of the eigen function of an electron in a Hydrogen atom is e^(i2θ), then the minimum principal quantum number n and minimum orbital angular momentum quantum number l respectively will be :",
+    "question_gu": "If the θ dependent part of the eigen function of an electron in a Hydrogen atom is e^(i2θ), then the minimum principal quantum number n and minimum orbital angular momentum quantum number l respectively will be :",
+    "options_en": [
+      "n = 2, l = 1",
+      "n = 3, l = 2",
+      "n = 1, l = 2",
+      "n = 2, l = 2"
+    ],
+    "options_gu": [
+      "n = 2, l = 1",
+      "n = 3, l = 2",
+      "n = 1, l = 2",
+      "n = 2, l = 2"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q30",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 30,
+    "question_en": "The ground state energy of a particle in an infinite square well is 1 eV. If four particles obeying BE statistics are kept in this well, then the ground state energy will be :",
+    "question_gu": "The ground state energy of a particle in an infinite square well is 1 eV. If four particles obeying BE statistics are kept in this well, then the ground state energy will be :",
+    "options_en": [
+      "30 eV",
+      "10 eV",
+      "4 eV",
+      "1/4 eV"
+    ],
+    "options_gu": [
+      "30 eV",
+      "10 eV",
+      "4 eV",
+      "1/4 eV"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q31",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 31,
+    "question_en": "For 3-dimensional square well potential in quantum mechanics (V = −V₀ for 0 < r < a and V = 0 for r > a),",
+    "question_gu": "For 3-dimensional square well potential in quantum mechanics (V = −V₀ for 0 < r < a and V = 0 for r > a),",
+    "options_en": [
+      "There always exists at least one bound state",
+      "Bound state exists only if the potential is sufficiently deep",
+      "There are at least three bound states",
+      "Bound state wave function has property ψ(r = 0) = 0"
+    ],
+    "options_gu": [
+      "There always exists at least one bound state",
+      "Bound state exists only if the potential is sufficiently deep",
+      "There are at least three bound states",
+      "Bound state wave function has property ψ(r = 0) = 0"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q32",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 32,
+    "question_en": "A harmonic oscillator is perturbed by a perturbation potential αx³. The ground state energy of the oscillator to a first order perturbation is :",
+    "question_gu": "A harmonic oscillator is perturbed by a perturbation potential αx³. The ground state energy of the oscillator to a first order perturbation is :",
+    "options_en": [
+      "ℏω/2 + α",
+      "3ℏω/2 + α",
+      "ℏω/2 + α³",
+      "ℏω/2"
+    ],
+    "options_gu": [
+      "ℏω/2 + α",
+      "3ℏω/2 + α",
+      "ℏω/2 + α³",
+      "ℏω/2"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q33",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 33,
+    "question_en": "A canonical ensemble represents :",
+    "question_gu": "A canonical ensemble represents :",
+    "options_en": [
+      "A system in contact with heat reservoir with no exchange of particles",
+      "An isolated system in equilibrium",
+      "A system which can exchange particles as well as energy",
+      "A system under constant external pressure"
+    ],
+    "options_gu": [
+      "A system in contact with heat reservoir with no exchange of particles",
+      "An isolated system in equilibrium",
+      "A system which can exchange particles as well as energy",
+      "A system under constant external pressure"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q34",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 34,
+    "question_en": "Molecules of samples of two different substances (with different molecular masses) are known to have same RMS speeds. We can be sure that the substances have :",
+    "question_gu": "Molecules of samples of two different substances (with different molecular masses) are known to have same RMS speeds. We can be sure that the substances have :",
+    "options_en": [
+      "Same specific heat",
+      "Same absolute temperature",
+      "Same internal energy",
+      "Different absolute temperatures"
+    ],
+    "options_gu": [
+      "Same specific heat",
+      "Same absolute temperature",
+      "Same internal energy",
+      "Different absolute temperatures"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q35",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 35,
+    "question_en": "Bose-Einstein condensation temperature T_B refers to the temperature below which :",
+    "question_gu": "Bose-Einstein condensation temperature T_B refers to the temperature below which :",
+    "options_en": [
+      "The assembly of Bose gas condenses to liquid state",
+      "Fermions turn into Bosons",
+      "There is significantly large occupancy of the ground state in a system of Bosons",
+      "Bosons essentially behave like Fermions"
+    ],
+    "options_gu": [
+      "The assembly of Bose gas condenses to liquid state",
+      "Fermions turn into Bosons",
+      "There is significantly large occupancy of the ground state in a system of Bosons",
+      "Bosons essentially behave like Fermions"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q36",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 36,
+    "question_en": "If one exactly halves the speed of every molecule of ideal gas in a given vessel, one would make :",
+    "question_gu": "If one exactly halves the speed of every molecule of ideal gas in a given vessel, one would make :",
+    "options_en": [
+      "the pressure half of original pressure",
+      "no change in the absolute temperature",
+      "the absolute temperature half of the original temperature",
+      "the absolute temperature one-fourth of the original temperature"
+    ],
+    "options_gu": [
+      "the pressure half of original pressure",
+      "no change in the absolute temperature",
+      "the absolute temperature half of the original temperature",
+      "the absolute temperature one-fourth of the original temperature"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q37",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 37,
+    "question_en": "Consider a system whose three energy levels are given by 0, ε and 2ε. The energy level with energy ε is two-fold degenerate and the other two levels are non-degenerate. The partition function of the system with β = 1/(kBT) is given by :",
+    "question_gu": "Consider a system whose three energy levels are given by 0, ε and 2ε. The energy level with energy ε is two-fold degenerate and the other two levels are non-degenerate. The partition function of the system with β = 1/(kBT) is given by :",
+    "options_en": [
+      "1 + 2e^(−βε)",
+      "2e^(−βε) + e^(−2βε)",
+      "(1 + e^(−βε))²",
+      "1 + e^(−βε) + e^(−2βε)"
+    ],
+    "options_gu": [
+      "1 + 2e^(−βε)",
+      "2e^(−βε) + e^(−2βε)",
+      "(1 + e^(−βε))²",
+      "1 + e^(−βε) + e^(−2βε)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q38",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 38,
+    "question_en": "A second order phase transition is characterized by :",
+    "question_gu": "A second order phase transition is characterized by :",
+    "options_en": [
+      "Latent heat",
+      "A discontinuous change in specific heat",
+      "A change in volume",
+      "A discontinuous change in Gibbs' function"
+    ],
+    "options_gu": [
+      "Latent heat",
+      "A discontinuous change in specific heat",
+      "A change in volume",
+      "A discontinuous change in Gibbs' function"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q39",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 39,
+    "question_en": "A large isolated system of N-particles is in thermal equilibrium. Each particle has only three possible non-degenerate states of energies 0, ε and 3ε. When the system is at an absolute temperature T >> ε/k, where k is Boltzmann's constant, the average energy of each particle is :",
+    "question_gu": "A large isolated system of N-particles is in thermal equilibrium. Each particle has only three possible non-degenerate states of energies 0, ε and 3ε. When the system is at an absolute temperature T >> ε/k, where k is Boltzmann's constant, the average energy of each particle is :",
+    "options_en": [
+      "3ε",
+      "ε",
+      "4ε/3",
+      "2ε"
+    ],
+    "options_gu": [
+      "3ε",
+      "ε",
+      "4ε/3",
+      "2ε"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q40",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 40,
+    "question_en": "The first law of thermodynamics is a statement of -",
+    "question_gu": "The first law of thermodynamics is a statement of -",
+    "options_en": [
+      "Conservation of heat",
+      "Conservation of work",
+      "Conservation of entropy",
+      "Conservation of energy"
+    ],
+    "options_gu": [
+      "Conservation of heat",
+      "Conservation of work",
+      "Conservation of entropy",
+      "Conservation of energy"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q41",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 41,
+    "question_en": "OP-AMP 741 is rigged as inverting amplifier of voltage gain 5. Power supply voltages are ±15 V. A sinusoidal signal of 150 kHz peak-to-peak 2 V is applied as input. Which of the following is true ?",
+    "question_gu": "OP-AMP 741 is rigged as inverting amplifier of voltage gain 5. Power supply voltages are ±15 V. A sinusoidal signal of 150 kHz peak-to-peak 2 V is applied as input. Which of the following is true ?",
+    "options_en": [
+      "The amplifier will produce proper output without distortion",
+      "The output is distorted due to unity gain bandwidth limitations",
+      "The output is distorted due to slew rate limitations",
+      "The output is distorted due to power supply limitations"
+    ],
+    "options_gu": [
+      "The amplifier will produce proper output without distortion",
+      "The output is distorted due to unity gain bandwidth limitations",
+      "The output is distorted due to slew rate limitations",
+      "The output is distorted due to power supply limitations"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q42",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 42,
+    "question_en": "8 bit ADC based on successive approximation technique is used to convert 435 mV into digital. Find the output and time taken for conversion if ADC uses 1 MHz clock and analog input voltage range is 0 to 1 V.",
+    "question_gu": "8 bit ADC based on successive approximation technique is used to convert 435 mV into digital. Find the output and time taken for conversion if ADC uses 1 MHz clock and analog input voltage range is 0 to 1 V.",
+    "options_en": [
+      "01101101, 256 μs",
+      "01101101, 8 μs",
+      "00110111, 256 μs",
+      "00110111, 8 μs"
+    ],
+    "options_gu": [
+      "01101101, 256 μs",
+      "01101101, 8 μs",
+      "00110111, 256 μs",
+      "00110111, 8 μs"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q43",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 43,
+    "question_en": "When OP-AMP is used as comparator, which of the following is FALSE ?",
+    "question_gu": "When OP-AMP is used as comparator, which of the following is FALSE ?",
+    "options_en": [
+      "There is no external feedback resistor connected",
+      "The OP-AMP operates in saturation region",
+      "The output is proportional to input",
+      "Power supplies affect the output"
+    ],
+    "options_gu": [
+      "There is no external feedback resistor connected",
+      "The OP-AMP operates in saturation region",
+      "The output is proportional to input",
+      "Power supplies affect the output"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q44",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 44,
+    "question_en": "Which type of instructions do not affect the 8085 Flags ?",
+    "question_gu": "Which type of instructions do not affect the 8085 Flags ?",
+    "options_en": [
+      "Arithmetic instructions",
+      "Logical instructions",
+      "Data transfer instructions",
+      "Rotate instructions"
+    ],
+    "options_gu": [
+      "Arithmetic instructions",
+      "Logical instructions",
+      "Data transfer instructions",
+      "Rotate instructions"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q45",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 45,
+    "question_en": "A diode that has negative resistance characteristics is :",
+    "question_gu": "A diode that has negative resistance characteristics is :",
+    "options_en": [
+      "Schottky Diode",
+      "Tunnel Diode",
+      "Laser Diode",
+      "Hot-Carrier Diode"
+    ],
+    "options_gu": [
+      "Schottky Diode",
+      "Tunnel Diode",
+      "Laser Diode",
+      "Hot-Carrier Diode"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q46",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 46,
+    "question_en": "To saturate a BJT :",
+    "question_gu": "To saturate a BJT :",
+    "options_en": [
+      "I_B = I_C(sat)",
+      "I_B > I_C(sat)/β_DC",
+      "V_CC must be at least 10 V",
+      "The emitter must be grounded"
+    ],
+    "options_gu": [
+      "I_B = I_C(sat)",
+      "I_B > I_C(sat)/β_DC",
+      "V_CC must be at least 10 V",
+      "The emitter must be grounded"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q47",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 47,
+    "question_en": "In Wien bridge oscillator, the positive feedback circuit is :",
+    "question_gu": "In Wien bridge oscillator, the positive feedback circuit is :",
+    "options_en": [
+      "An RL circuit",
+      "An LC circuit",
+      "A voltage divider",
+      "A lead-lag circuit"
+    ],
+    "options_gu": [
+      "An RL circuit",
+      "An LC circuit",
+      "A voltage divider",
+      "A lead-lag circuit"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q48",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 48,
+    "question_en": "A thermocouple :",
+    "question_gu": "A thermocouple :",
+    "options_en": [
+      "Has same time constant whether it is bare or provided with sheath",
+      "Has nothing to do with time constant",
+      "Has a time constant when it is bare",
+      "Has a low time constant when it is provided with a sheath"
+    ],
+    "options_gu": [
+      "Has same time constant whether it is bare or provided with sheath",
+      "Has nothing to do with time constant",
+      "Has a time constant when it is bare",
+      "Has a low time constant when it is provided with a sheath"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q49",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 49,
+    "question_en": "Resistor has a tolerance of 1% and the current through it measured with an accuracy of 2%. The accuracy to which power will be measured is :",
+    "question_gu": "Resistor has a tolerance of 1% and the current through it measured with an accuracy of 2%. The accuracy to which power will be measured is :",
+    "options_en": [
+      "5%",
+      "2%",
+      "3%",
+      "1%"
+    ],
+    "options_gu": [
+      "5%",
+      "2%",
+      "3%",
+      "1%"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q50",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 50,
+    "question_en": "Typical non-contact sensors include :",
+    "question_gu": "Typical non-contact sensors include :",
+    "options_en": [
+      "Touch sensors",
+      "Force sensors",
+      "Torque sensors",
+      "Proximity sensors"
+    ],
+    "options_gu": [
+      "Touch sensors",
+      "Force sensors",
+      "Torque sensors",
+      "Proximity sensors"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q51",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 51,
+    "question_en": "Which of the following cannot be used for noise reduction ?",
+    "question_gu": "Which of the following cannot be used for noise reduction ?",
+    "options_en": [
+      "Comparator",
+      "Schmitt Trigger",
+      "Tuned Amplifier",
+      "RC coupled Amplifier"
+    ],
+    "options_gu": [
+      "Comparator",
+      "Schmitt Trigger",
+      "Tuned Amplifier",
+      "RC coupled Amplifier"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q52",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 52,
+    "question_en": "A second order LPF has a slope characteristics of :",
+    "question_gu": "A second order LPF has a slope characteristics of :",
+    "options_en": [
+      "20 dB per decade",
+      "20 dB per octave",
+      "12 dB per octave",
+      "6 dB per octave"
+    ],
+    "options_gu": [
+      "20 dB per decade",
+      "20 dB per octave",
+      "12 dB per octave",
+      "6 dB per octave"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q53",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 53,
+    "question_en": "The band reject filter to reject frequencies in the range 5 kHz to 17 kHz can be realized by :",
+    "question_gu": "The band reject filter to reject frequencies in the range 5 kHz to 17 kHz can be realized by :",
+    "options_en": [
+      "Connecting LPF with f_c = 5 kHz and HPF with f_c = 17 kHz in series",
+      "Applying input parallelly to HPF with f_c = 17 kHz and LPF with f_c = 5 kHz and summing their outputs",
+      "Applying input parallelly to HPF with f_c = 5 kHz and LPF with f_c = 17 kHz and summing their outputs",
+      "Connecting LPF with f_c = 17 kHz and HPF with f_c = 5 kHz in series"
+    ],
+    "options_gu": [
+      "Connecting LPF with f_c = 5 kHz and HPF with f_c = 17 kHz in series",
+      "Applying input parallelly to HPF with f_c = 17 kHz and LPF with f_c = 5 kHz and summing their outputs",
+      "Applying input parallelly to HPF with f_c = 5 kHz and LPF with f_c = 17 kHz and summing their outputs",
+      "Connecting LPF with f_c = 17 kHz and HPF with f_c = 5 kHz in series"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q54",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 54,
+    "question_en": "Pulse rise time is defined as :",
+    "question_gu": "Pulse rise time is defined as :",
+    "options_en": [
+      "Time taken by pulse to rise from 50% to 100% of maximum amplitude",
+      "Time taken by pulse to rise from 10% to 90% of maximum amplitude",
+      "Time between the 50% amplitude points",
+      "Time when it is having more than 90% amplitude"
+    ],
+    "options_gu": [
+      "Time taken by pulse to rise from 50% to 100% of maximum amplitude",
+      "Time taken by pulse to rise from 10% to 90% of maximum amplitude",
+      "Time between the 50% amplitude points",
+      "Time when it is having more than 90% amplitude"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q55",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 55,
+    "question_en": "If the magnitude of charge of proton and electron in a hydrogen atom were doubled, the energy of photon radiated by the atom as a result of a transition from n = 2 to n = 1 state will be multiplied by :",
+    "question_gu": "If the magnitude of charge of proton and electron in a hydrogen atom were doubled, the energy of photon radiated by the atom as a result of a transition from n = 2 to n = 1 state will be multiplied by :",
+    "options_en": [
+      "0.5",
+      "4",
+      "12",
+      "16"
+    ],
+    "options_gu": [
+      "0.5",
+      "4",
+      "12",
+      "16"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q56",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 56,
+    "question_en": "Line width of electromagnetic radiation does not depend on :",
+    "question_gu": "Line width of electromagnetic radiation does not depend on :",
+    "options_en": [
+      "Temperature",
+      "Sharpness of concerned energy levels",
+      "Energy difference between the levels",
+      "Average life time of the charge carriers in the concerned energy levels"
+    ],
+    "options_gu": [
+      "Temperature",
+      "Sharpness of concerned energy levels",
+      "Energy difference between the levels",
+      "Average life time of the charge carriers in the concerned energy levels"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q57",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 57,
+    "question_en": "Which of the following is an allowed electric dipole transition ?",
+    "question_gu": "Which of the following is an allowed electric dipole transition ?",
+    "options_en": [
+      "³P₀ → ³P₀",
+      "³P₂ → ³P₁",
+      "³S₁ → ³P₂",
+      "²D₃/₂ → ²S₁/₂"
+    ],
+    "options_gu": [
+      "³P₀ → ³P₀",
+      "³P₂ → ³P₁",
+      "³S₁ → ³P₂",
+      "²D₃/₂ → ²S₁/₂"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q58",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 58,
+    "question_en": "The estimated (order of magnitude) value of the Doppler width of an emission line of wavelength 5000 Å emitted by Argon (A = 40, Z = 18) at 300 K is :",
+    "question_gu": "The estimated (order of magnitude) value of the Doppler width of an emission line of wavelength 5000 Å emitted by Argon (A = 40, Z = 18) at 300 K is :",
+    "options_en": [
+      "1.44 × 10⁻² Å",
+      "0.72 × 10⁻² Å",
+      "0.72 × 10⁻³ Å",
+      "1.44 × 10⁻³ Å"
+    ],
+    "options_gu": [
+      "1.44 × 10⁻² Å",
+      "0.72 × 10⁻² Å",
+      "0.72 × 10⁻³ Å",
+      "1.44 × 10⁻³ Å"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q59",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 59,
+    "question_en": "If the number density of free electron gas in three dimensions is increased 8 times, its Fermi temperature will :",
+    "question_gu": "If the number density of free electron gas in three dimensions is increased 8 times, its Fermi temperature will :",
+    "options_en": [
+      "increase by a factor of 4",
+      "decrease by a factor of 4",
+      "increase by a factor of 8",
+      "decrease by a factor of 8"
+    ],
+    "options_gu": [
+      "increase by a factor of 4",
+      "decrease by a factor of 4",
+      "increase by a factor of 8",
+      "decrease by a factor of 8"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q60",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 60,
+    "question_en": "X-ray of wavelength λ = a is reflected from (1, 0, 0) plane of a simple cubic lattice, a = lattice parameter. The corresponding Bragg angle in radians is :",
+    "question_gu": "X-ray of wavelength λ = a is reflected from (1, 0, 0) plane of a simple cubic lattice, a = lattice parameter. The corresponding Bragg angle in radians is :",
+    "options_en": [
+      "π/8",
+      "π/6",
+      "π/4",
+      "π/3"
+    ],
+    "options_gu": [
+      "π/8",
+      "π/6",
+      "π/4",
+      "π/3"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q61",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 61,
+    "question_en": "The short wavelength limit of X-rays depends upon :",
+    "question_gu": "The short wavelength limit of X-rays depends upon :",
+    "options_en": [
+      "Nature of the target",
+      "Nature of the filament used",
+      "Potential difference across the X-ray tube",
+      "Time for which X-ray tube is used"
+    ],
+    "options_gu": [
+      "Nature of the target",
+      "Nature of the filament used",
+      "Potential difference across the X-ray tube",
+      "Time for which X-ray tube is used"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q62",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 62,
+    "question_en": "The critical magnetic fields of a superconductor at temperature 6 K and 12 K are 12 × 10⁻³ A/m and 6 × 10⁻³ A/m respectively. The transition temperature is approximately :",
+    "question_gu": "The critical magnetic fields of a superconductor at temperature 6 K and 12 K are 12 × 10⁻³ A/m and 6 × 10⁻³ A/m respectively. The transition temperature is approximately :",
+    "options_en": [
+      "10.6 K",
+      "20.2 K",
+      "15.8 K",
+      "18.0 K"
+    ],
+    "options_gu": [
+      "10.6 K",
+      "20.2 K",
+      "15.8 K",
+      "18.0 K"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q63",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 63,
+    "question_en": "The Einstein frequency of a solid is 2.49 × 10¹² Hz. Its specific heat (molar) will be equal to 3 R :",
+    "question_gu": "The Einstein frequency of a solid is 2.49 × 10¹² Hz. Its specific heat (molar) will be equal to 3 R :",
+    "options_en": [
+      "at temperature near T = 0",
+      "at temperature of 120 K",
+      "at temperature much higher than 120 K",
+      "slightly below 120 K"
+    ],
+    "options_gu": [
+      "at temperature near T = 0",
+      "at temperature of 120 K",
+      "at temperature much higher than 120 K",
+      "slightly below 120 K"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q64",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 64,
+    "question_en": "The isotope effect in a superconductor is correctly represented by graph. (M = isotopic mass, T = transition temperature)",
+    "question_gu": "The isotope effect in a superconductor is correctly represented by graph. (M = isotopic mass, T = transition temperature)",
+    "options_en": [
+      "Graph A: ln T increases linearly with ln M",
+      "Graph B: ln T decreases hyperbolically with ln M",
+      "Graph C: ln T decreases linearly with ln M",
+      "Graph D: ln T increases and saturates with ln M"
+    ],
+    "options_gu": [
+      "Graph A: ln T increases linearly with ln M",
+      "Graph B: ln T decreases hyperbolically with ln M",
+      "Graph C: ln T decreases linearly with ln M",
+      "Graph D: ln T increases and saturates with ln M"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q65",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 65,
+    "question_en": "In a simple cubic lattice d₁₀₀ : d₁₁₀ : d₁₁₁ is :",
+    "question_gu": "In a simple cubic lattice d₁₀₀ : d₁₁₀ : d₁₁₁ is :",
+    "options_en": [
+      "6 : 3 : 2",
+      "6 : 3 : √2",
+      "√6 : √3 : √2",
+      "√6 : √3 : √4"
+    ],
+    "options_gu": [
+      "6 : 3 : 2",
+      "6 : 3 : √2",
+      "√6 : √3 : √2",
+      "√6 : √3 : √4"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q66",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 66,
+    "question_en": "Paramagnetic susceptibility of Fermi gas of conduction electrons is :",
+    "question_gu": "Paramagnetic susceptibility of Fermi gas of conduction electrons is :",
+    "options_en": [
+      "Proportional to 1/T",
+      "Proportional to 1/T²",
+      "Proportional to 1/T³",
+      "Independent of temperature"
+    ],
+    "options_gu": [
+      "Proportional to 1/T",
+      "Proportional to 1/T²",
+      "Proportional to 1/T³",
+      "Independent of temperature"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q67",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 67,
+    "question_en": "Match the reactions on the left with the associated interactions on the right: (a) π⁺ → μ⁺ + ν_μ; (b) π⁰ → γ + γ; (c) π⁰ + n → π⁻ + p. (i) strong (ii) electromagnetic (iii) weak",
+    "question_gu": "Match the reactions on the left with the associated interactions on the right: (a) π⁺ → μ⁺ + ν_μ; (b) π⁰ → γ + γ; (c) π⁰ + n → π⁻ + p. (i) strong (ii) electromagnetic (iii) weak",
+    "options_en": [
+      " (a, iii), (b, ii), (c, i)",
+      "(a, i), (b, ii), (c, iii)",
+      "(a, ii), (b, i), (c, iii)",
+      "(a, iii), (b, i), (c, ii)"
+    ],
+    "options_gu": [
+      " (a, iii), (b, ii), (c, i)",
+      "(a, i), (b, ii), (c, iii)",
+      "(a, ii), (b, i), (c, iii)",
+      "(a, iii), (b, i), (c, ii)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q68",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 68,
+    "question_en": "The ground state wave function of deuteron is in a superposition of s and d states. Which of the following is not true ?",
+    "question_gu": "The ground state wave function of deuteron is in a superposition of s and d states. Which of the following is not true ?",
+    "options_en": [
+      "It has non-zero quadrupole moment",
+      "The neutron-proton potential is non-central",
+      "The Hamiltonian does not conserve total angular momentum",
+      "Probability of deuteron in d-state is smaller than it being in s-state"
+    ],
+    "options_gu": [
+      "It has non-zero quadrupole moment",
+      "The neutron-proton potential is non-central",
+      "The Hamiltonian does not conserve total angular momentum",
+      "Probability of deuteron in d-state is smaller than it being in s-state"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q69",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 69,
+    "question_en": "The first three energy levels of ²²⁸₉₀Th are shown below: 4⁺ at 187 KeV, 2⁺ at 57.5 KeV, 0⁺ at 0 KeV. The expected spin-parity and energy of the next level are given by :",
+    "question_gu": "The first three energy levels of ²²⁸₉₀Th are shown below: 4⁺ at 187 KeV, 2⁺ at 57.5 KeV, 0⁺ at 0 KeV. The expected spin-parity and energy of the next level are given by :",
+    "options_en": [
+      "(6⁺, 400 KeV)",
+      "(6⁺, 300 KeV)",
+      "(2⁺, 400 KeV)",
+      "(4⁺, 300 KeV)"
+    ],
+    "options_gu": [
+      "(6⁺, 400 KeV)",
+      "(6⁺, 300 KeV)",
+      "(2⁺, 400 KeV)",
+      "(4⁺, 300 KeV)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": true,
+    "review_note": "Transcription contains mathematical/scientific notation or a visual element and must be checked against the original scanned paper before being treated as fully verified.",
+    "source_verified": false,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q70",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 70,
+    "question_en": "The decay of a free neutron n → p + e⁻ + ν̄_e",
+    "question_gu": "The decay of a free neutron n → p + e⁻ + ν̄_e",
+    "options_en": [
+      "Does not occur because of strangeness conservation law",
+      "Occurs in nature with a half life of about 1000 seconds",
+      "Does not occur because of energy conservation",
+      "Occurs in nature with a half life of about 10⁸ years"
+    ],
+    "options_gu": [
+      "Does not occur because of strangeness conservation law",
+      "Occurs in nature with a half life of about 1000 seconds",
+      "Does not occur because of energy conservation",
+      "Occurs in nature with a half life of about 10⁸ years"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q71",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 71,
+    "question_en": "Parity is violated in :",
+    "question_gu": "Parity is violated in :",
+    "options_en": [
+      "α-decay",
+      "β-decay",
+      "γ-decay",
+      "Fission of Uranium"
+    ],
+    "options_gu": [
+      "α-decay",
+      "β-decay",
+      "γ-decay",
+      "Fission of Uranium"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q72",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 72,
+    "question_en": "Quarks are :",
+    "question_gu": "Quarks are :",
+    "options_en": [
+      "Bosons",
+      "Composite particles",
+      "Fermions",
+      "Particles with integral charges in terms of e"
+    ],
+    "options_gu": [
+      "Bosons",
+      "Composite particles",
+      "Fermions",
+      "Particles with integral charges in terms of e"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q73",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 73,
+    "question_en": "The contribution of surface energy term to the total binding energy of a nucleus ᴬ_ZX is proportional to :",
+    "question_gu": "The contribution of surface energy term to the total binding energy of a nucleus ᴬ_ZX is proportional to :",
+    "options_en": [
+      "A",
+      "A^(1/3)",
+      "A^(2/3)",
+      "A^(−1/3)"
+    ],
+    "options_gu": [
+      "A",
+      "A^(1/3)",
+      "A^(2/3)",
+      "A^(−1/3)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q74",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 74,
+    "question_en": "The electric dipole moment of a nucleus ᴬ_ZX :",
+    "question_gu": "The electric dipole moment of a nucleus ᴬ_ZX :",
+    "options_en": [
+      "Increases with Z but is independent of A",
+      "Is always zero",
+      "Decreases with Z",
+      "Increases with Z and A"
+    ],
+    "options_gu": [
+      "Increases with Z but is independent of A",
+      "Is always zero",
+      "Decreases with Z",
+      "Increases with Z and A"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  },
+  {
+    "id": "physical_sep16_p3_q75",
+    "paper_id": "physical_sep16_p3",
+    "exam": "September 2016",
+    "question_no": 75,
+    "question_en": "Moderator in a nuclear reactor :",
+    "question_gu": "Moderator in a nuclear reactor :",
+    "options_en": [
+      "Converts the fast fission neutrons to slow thermal neutrons",
+      "Catalyzes the fission process",
+      "Absorbs the extra neutrons",
+      "Increases the neutron energy of the neutrons produced in fission"
+    ],
+    "options_gu": [
+      "Converts the fast fission neutrons to slow thermal neutrons",
+      "Catalyzes the fission process",
+      "Absorbs the extra neutrons",
+      "Increases the neutron energy of the neutrons produced in fission"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Official PYQ",
+    "review_flag": false,
+    "review_note": "",
+    "source_verified": true,
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+  }
+]
