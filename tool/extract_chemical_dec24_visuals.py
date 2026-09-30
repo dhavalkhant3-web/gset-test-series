@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import hashlib, urllib.request
+import hashlib, urllib.request, time, socket
 import fitz
 from PIL import Image
 
@@ -10,7 +10,21 @@ PDF = Path("/tmp/chemical_dec24_p2.pdf")
 OUT = Path("assets/images")
 OUT.mkdir(parents=True, exist_ok=True)
 
-urllib.request.urlretrieve(URL, PDF)
+last_error = None
+for attempt in range(1, 6):
+    try:
+        req = urllib.request.Request(URL, headers={"User-Agent": "GSET-Test-Series-Visual-Asset-Builder/1.0"})
+        with urllib.request.urlopen(req, timeout=180) as response:
+            PDF.write_bytes(response.read())
+        if PDF.stat().st_size > 0:
+            break
+    except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
+        last_error = exc
+        if attempt == 5:
+            raise SystemExit(f"Official PDF download failed after 5 attempts: {last_error}")
+        delay = attempt * 10
+        print(f"Download attempt {attempt}/5 failed: {exc}; retrying in {delay}s", flush=True)
+        time.sleep(delay)
 sha = hashlib.sha256(PDF.read_bytes()).hexdigest()
 if sha != EXPECTED_SHA256:
     raise SystemExit(f"SHA256 mismatch: {sha} != {EXPECTED_SHA256}")
