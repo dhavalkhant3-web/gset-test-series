@@ -133,7 +133,7 @@ def main():
 
             page = find_page(q, texts)
             if page is None:
-                raise AssertionError(f"{qid}: could not locate source page safely")
+                # Do not fail the entire build for a source page that OCR cannot match.\n            # The page must be mapped manually from the official PDF before adding an image.\n            print(f"{qid}: source page not matched; leaving question unchanged")\n            continue
 
             dest = OUT / f"paper1_{pid}_q{n}.png"
             render_page(doc, page, dest)
