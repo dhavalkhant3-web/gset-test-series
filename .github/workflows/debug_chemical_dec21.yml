@@ -18,21 +18,27 @@ jobs:
       - name: Download official Dec 2021 Chemical Sciences paper
         run: |
           mkdir -p build/chemical_dec21
-          curl -L --fail --retry 5 --connect-timeout 30 --max-time 180 --insecure -o build/chemical_dec21/dec2103.pdf https://www.gujaratset.ac.in/assets/papers/paperII/dec21/dec2103.pdf
+          curl -L --fail --retry 5 --retry-delay 5 --connect-timeout 30 --max-time 300 --insecure -o build/chemical_dec21/dec2103.pdf https://www.gujaratset.ac.in/assets/papers/paperII/dec21/dec2103.pdf
           pdfinfo build/chemical_dec21/dec2103.pdf | head -20
-      - name: OCR official PDF
+      - name: Render and OCR official PDF
         run: |
           mkdir -p build/chemical_dec21/pages build/chemical_dec21/ocr
-          pdftoppm -jpeg -r 200 build/chemical_dec21/dec2103.pdf build/chemical_dec21/pages/page
+          pdftoppm -jpeg -r 300 -gray build/chemical_dec21/dec2103.pdf build/chemical_dec21/pages/page
           for f in build/chemical_dec21/pages/*.jpg; do
             base=$(basename "$f" .jpg)
             tesseract "$f" "build/chemical_dec21/ocr/$base" --psm 6 2>/dev/null || true
+            tesseract "$f" "build/chemical_dec21/ocr/$base-11" --psm 11 2>/dev/null || true
           done
-          cat build/chemical_dec21/ocr/*.txt > build/chemical_dec21/ocr_all.txt
-          wc -l build/chemical_dec21/ocr_all.txt
-          sed -n '1,260p' build/chemical_dec21/ocr_all.txt
-      - name: Upload OCR text
+          for f in build/chemical_dec21/ocr/*.txt; do
+            echo "===== $f ====="
+            cat "$f"
+          done > build/chemical_dec21/ocr_combined.txt
+          wc -l build/chemical_dec21/ocr_combined.txt
+          sed -n '1,900p' build/chemical_dec21/ocr_combined.txt
+      - name: Upload OCR and rendered source pages
         uses: actions/upload-artifact@v4
         with:
-          name: chemical-dec21-ocr-text
-          path: build/chemical_dec21/ocr_all.txt
+          name: chemical-dec21-ocr-300dpi
+          path: |
+            build/chemical_dec21/ocr_combined.txt
+            build/chemical_dec21/pages/*.jpg
