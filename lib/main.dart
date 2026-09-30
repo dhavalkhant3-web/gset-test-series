@@ -340,6 +340,17 @@ class PaperIIDataService {
             }
           } catch (_) {}
         }
+        // Source-verified Dec 2024 additions are kept separately until
+        // the full paper audit is complete; this avoids risky edits to the
+        // large historical question bank.
+        try {
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_dec24_verified_additions.json',
+          ));
+          if (extra is List) {
+            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          }
+        } catch (_) {}
         // Keep official-key corrections as a small overlay so the large
         // historical question bank does not need a risky full-file rewrite.
         try {
