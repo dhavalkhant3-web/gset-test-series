@@ -294,8 +294,11 @@
       "questions_loaded": true,
       "questions_loaded_count": 100,
       "answer_key_verified": true,
-      "status": "verified_complete",
-      "source": "Uploaded official GSET question paper + uploaded official final answer key"
+      "status": "loaded_with_review_flags",
+      "source": "Official GSET December 2024 Chemical Sciences Paper-II + official final answer key; answer key cross-checked 100/100. Question/visual source audit remains incomplete because the original question-paper PDF/crops are not present in the current repository source set.",
+      "question_source_verified": false,
+      "source_verified": false,
+      "review_count": 25
     },
     {
       "paper_id": "chemical_nov25",
