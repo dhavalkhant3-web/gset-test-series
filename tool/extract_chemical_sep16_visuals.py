@@ -11,6 +11,8 @@ import argparse
 import hashlib
 import pathlib
 import urllib.request
+import time
+import socket
 
 import fitz
 
@@ -53,8 +55,21 @@ def download_source(destination: pathlib.Path) -> None:
         SOURCE_URL,
         headers={"User-Agent": "GSET-Test-Series-Visual-Asset-Builder/1.0"},
     )
-    with urllib.request.urlopen(req, timeout=60) as response:
-        destination.write_bytes(response.read())
+    last_error = None
+    for attempt in range(1, 6):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as response:
+                destination.write_bytes(response.read())
+            if destination.stat().st_size > 0:
+                return
+        except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
+            last_error = exc
+            if attempt == 5:
+                break
+            delay = attempt * 10
+            print(f"Download attempt {attempt}/5 failed: {exc}; retrying in {delay}s", flush=True)
+            time.sleep(delay)
+    raise RuntimeError(f"Unable to download official source after 5 attempts: {last_error}")
 
 
 def build_crops(source_pdf: pathlib.Path, output_dir: pathlib.Path) -> None:
