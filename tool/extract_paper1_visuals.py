@@ -27,9 +27,7 @@ VISUALS = {
     "2010_oct": [46, 51, 53, 54],
     "2011_oct": [43, 44, 45],
     "2013_sep": [55],
-    "2014_oct": [33],
     "2017_aug": [41],
-    "2021_dec": [8, 17, 18],
 }
 
 SOURCES = {
@@ -38,13 +36,10 @@ SOURCES = {
     "2010_oct": ROOT / "assets/sources/oct10p1.pdf",
     "2011_oct": ROOT / "assets/source_papers/oct11p1.pdf",
     "2013_sep": ROOT / "assets/source_papers/sept13p1.pdf",
-    "2014_oct": ROOT / "assets/source_papers/oct14p1(4).pdf",
     "2017_aug": ROOT / "assets/source_papers/aug17p1.pdf",
-    "2021_dec": TMP / "dec21p1.pdf",
 }
 
 OFFICIAL_URLS = {
-    "2021_dec": "https://www.gujaratset.ac.in/assets/papers/paperI/dec21p1.pdf",
 }
 
 def norm(s):
