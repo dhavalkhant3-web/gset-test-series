@@ -13,23 +13,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install PDF tools
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Install PDF and OCR tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
       - name: Download official Dec 2021 Chemical Sciences paper
         run: |
           mkdir -p build/chemical_dec21
-          curl -L --fail --retry 5 --connect-timeout 30 --max-time 180 --insecure \
-            -o build/chemical_dec21/dec2103.pdf \
-            https://www.gujaratset.ac.in/assets/papers/paperII/dec21/dec2103.pdf
+          curl -L --fail --retry 5 --connect-timeout 30 --max-time 180 --insecure -o build/chemical_dec21/dec2103.pdf https://www.gujaratset.ac.in/assets/papers/paperII/dec21/dec2103.pdf
           pdfinfo build/chemical_dec21/dec2103.pdf | head -20
-      - name: Extract PDF text
+      - name: OCR official PDF
         run: |
-          pdftotext -layout build/chemical_dec21/dec2103.pdf build/chemical_dec21/dec2103.txt
-          wc -l build/chemical_dec21/dec2103.txt
-          echo '--- FIRST 220 LINES ---'
-          sed -n '1,220p' build/chemical_dec21/dec2103.txt
-      - name: Upload extracted text
+          mkdir -p build/chemical_dec21/pages build/chemical_dec21/ocr
+          pdftoppm -jpeg -r 200 build/chemical_dec21/dec2103.pdf build/chemical_dec21/pages/page
+          for f in build/chemical_dec21/pages/*.jpg; do
+            base=$(basename "$f" .jpg)
+            tesseract "$f" "build/chemical_dec21/ocr/$base" --psm 6 2>/dev/null || true
+          done
+          cat build/chemical_dec21/ocr/*.txt > build/chemical_dec21/ocr_all.txt
+          wc -l build/chemical_dec21/ocr_all.txt
+          sed -n '1,260p' build/chemical_dec21/ocr_all.txt
+      - name: Upload OCR text
         uses: actions/upload-artifact@v4
         with:
-          name: chemical-dec21-extracted-text
-          path: build/chemical_dec21/dec2103.txt
+          name: chemical-dec21-ocr-text
+          path: build/chemical_dec21/ocr_all.txt
