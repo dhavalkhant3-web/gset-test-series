@@ -12700,8 +12700,10 @@
     "tip_en": "Read the wording carefully and verify the selected option against the original paper/key.",
     "tip_gu": "પ્રશ્નનું wording ધ્યાનથી વાંચો અને મૂળ પ્રશ્નપત્ર/કી સાથે જવાબ ચકાસો.",
     "source_verified": true,
-    "review_flag": false,
-    "review_note": ""
+    "review_flag": true,
+    "review_note": "Original figure is required for this figure-based question. The source-page image is now displayed in the app; official final key B is preserved.",
+    "image_asset": "assets/sources/oct11/page-19.jpg",
+    "source_page": 19
   },
   {
     "id": "2011_oct_Q48",
