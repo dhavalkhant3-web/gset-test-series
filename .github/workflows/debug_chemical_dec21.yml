@@ -1,0 +1,35 @@
+name: Debug Chemical Dec 2021 PDF extraction
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install PDF tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Download official Dec 2021 Chemical Sciences paper
+        run: |
+          mkdir -p build/chemical_dec21
+          curl -L --fail --retry 5 --connect-timeout 30 --max-time 180 --insecure \
+            -o build/chemical_dec21/dec2103.pdf \
+            https://www.gujaratset.ac.in/assets/papers/paperII/dec21/dec2103.pdf
+          pdfinfo build/chemical_dec21/dec2103.pdf | head -20
+      - name: Extract PDF text
+        run: |
+          pdftotext -layout build/chemical_dec21/dec2103.pdf build/chemical_dec21/dec2103.txt
+          wc -l build/chemical_dec21/dec2103.txt
+          echo '--- FIRST 220 LINES ---'
+          sed -n '1,220p' build/chemical_dec21/dec2103.txt
+      - name: Upload extracted text
+        uses: actions/upload-artifact@v4
+        with:
+          name: chemical-dec21-extracted-text
+          path: build/chemical_dec21/dec2103.txt
