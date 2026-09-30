@@ -5898,7 +5898,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 15,
-    "question_en": "The experimental magnetic moment (3.4 BM) of a hydrated salt of Eu2+ at 27°C is significantly different from the calculated value. The difference is due to",
+    "question_en": "The experimental magnetic moment (3.4 BM) of a hydrated salt of Eu3+ at 27°C is significantly different from the calculated value. The difference is due to",
     "question_gu": "Eu2+માં thermal population of higher J levelsને કારણે experimental magnetic moment calculated valueથી બદલાય છે.",
     "options_en": [
       "Population of electrons at higher J level(s) via thermal excitation",
@@ -5995,7 +5995,8 @@
     "tip_gu": "સંબંધિત chemical principle, equation અથવા symmetry rule લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 11
+    "source_page": 11,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q18",
@@ -6010,8 +6011,8 @@
     "question_gu": "The complex [(η5-C5H5)2Mo(CO)2] has a 150°C bond order for the elimination of 2 equivalents of CO. Predict the change in the Mo–Mo bond order for the reaction.",
     "options_en": [
       "0 to 2",
+      "1 to 4",
       "2 to 3",
-      "1 to 3",
       "1 to 3"
     ],
     "options_gu": [
@@ -6103,7 +6104,8 @@
     "tip_gu": "સંબંધિત chemical principle, equation અથવા symmetry rule લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 11
+    "source_page": 11,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q21",
@@ -6319,7 +6321,8 @@
     "tip_gu": "સંબંધિત chemical principle, equation અથવા symmetry rule લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 12
+    "source_page": 12,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q27",
@@ -6474,7 +6477,7 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 31,
-    "question_en": "Which of the following ion has both a C3 axis and an S4 axis?",
+    "question_en": "Which of the following ion has both a centre of inversion and an S4 axis ?",
     "question_gu": "Which of the following ion has both a C3 axis and an S4 axis?",
     "options_en": [
       "BF4−",
@@ -6560,7 +6563,7 @@
       "ψ is infinite",
       "ψ is one"
     ],
-    "answer": "B",
+    "answer": "A",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "For an infinite potential outside the box, the physically acceptable wavefunction is zero outside the box.",
@@ -6585,10 +6588,10 @@
     "question_en": "The ground state term symbol and the calculated magnetic moment (in BM) for Dy3+ ion respectively are",
     "question_gu": "The ground state term symbol and the calculated magnetic moment (in BM) for Dy3+ ion respectively are",
     "options_en": [
-      "^6H15/2 and 1.65",
-      "^6H15/2 and 5.91",
-      "^6H5/2 and 6.23",
-      "^6H5/2 and 5.91"
+      "⁶H15/2 and 10.65",
+      "⁶H15/2 and 5.91",
+      "⁶H5/2 and 6.23",
+      "⁶H5/2 and 5.91"
     ],
     "options_gu": [
       "^6H15/2 and 1.65",
@@ -6693,10 +6696,10 @@
     "question_en": "The translational partition function, qtrans, for a molecule in one dimension having length l is given by",
     "question_gu": "The translational partition function, qtrans, for a molecule in one dimension having length l is given by",
     "options_en": [
-      "(2πmkT)^(1/2)l/h",
-      "(2πmkT)^(1/2)l/h",
-      "(2πmRT)^(1/3)l/h",
-      "(2πmkT)^(1/3)l/h"
+      "qtrans = (lx/h)(2πmRT)^(1/2)",
+      "qtrans = (lx/h)(2πmRT)^(1/3)",
+      "qtrans = (lx/h)(2πmkT)^(1/2)",
+      "qtrans = (lx/h)(2πmkT)^(1/3)"
     ],
     "options_gu": [
       "(2πmkT)^(1/2)l/h",
@@ -6837,10 +6840,10 @@
     "question_en": "The correct empirical equation proposed by Freundlich for adsorption of gases on solid is (where x = amount adsorbed, m = amount of adsorbent, P = pressure, k and n are constants)",
     "question_gu": "The correct empirical equation proposed by Freundlich for adsorption of gases on solid is (where x = amount adsorbed, m = amount of adsorbent, P = pressure, k and n are constants)",
     "options_en": [
-      "x/m = k·P^(1/n)",
-      "x/m = k·P^n",
-      "x/m = k/P^n",
-      "x/m = k/P^(1/n)"
+      "x/m = k · P^(1/n)",
+      "x · m = k · P^(1/n)",
+      "x/m = k · P^n",
+      "x · m = k/P^(1/n)"
     ],
     "options_gu": [
       "x/m = k·P^(1/n)",
@@ -7089,9 +7092,9 @@
     "question_en": "In case of kinetics of photodecomposition of HI: 2HI → H2 + I2, the rate of reaction, −d[HI]/dt, is",
     "question_gu": "In case of kinetics of photodecomposition of HI: 2HI → H2 + I2, the rate of reaction, −d[HI]/dt, is",
     "options_en": [
-      "Equal to intensity of absorbed light",
+      "Equal to zero",
       "Equal to [HI]",
-      "Inversely proportional to intensity of absorbed light",
+      "Equal to intensity of absorbed light",
       "Inversely proportional to intensity of absorbed light"
     ],
     "options_gu": [
@@ -7136,7 +7139,7 @@
       "Charge of ions",
       "Ionic radius"
     ],
-    "answer": "C",
+    "answer": "D",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key marks option C.",
@@ -7230,13 +7233,13 @@
     "subject_id": "chemical_sciences",
     "subject_code": "03",
     "question_no": 52,
-    "question_en": "The E° of the reaction at 25°C is calculated from the given data. Assuming that the salt is dissociated to the extent of 95% at this temperature, what is the cell potential at the stated concentration?",
+    "question_en": "A zinc rod is placed in 0.1 M solution of ZnSO4 at 25°C. Assuming that the salt is dissociated to the extent of 95% at this dilution. What is the cell potential at this temperature ? (Given : E°Zn2+, Zn = −0.76 V)",
     "question_gu": "The E° of the reaction at 25°C is calculated from the given data. Assuming that the salt is dissociated to the extent of 95% at this temperature, what is the cell potential at the stated concentration?",
     "options_en": [
       "−0.76 V",
       "−0.79 V",
-      "−0.76 V",
-      "−0.79 V"
+      "+0.79 V",
+      "+0.76 V"
     ],
     "options_gu": [
       "−0.76 V",
@@ -7269,10 +7272,10 @@
     "question_en": "For 0.001 mol kg−1 aqueous AlCl3 solution, what is the ionic strength at 25°C?",
     "question_gu": "For 0.001 mol kg−1 aqueous AlCl3 solution, what is the ionic strength at 25°C?",
     "options_en": [
-      "0.003 mol kg−1",
-      "0.009 mol kg−1",
-      "0.001 mol kg−1",
-      "0.004 mol kg−1"
+      "0.006 mol·kg⁻¹",
+      "0.009 mol·kg⁻¹",
+      "0.003 mol·kg⁻¹",
+      "0.004 mol·kg⁻¹"
     ],
     "options_gu": [
       "0.003 mol kg−1",
@@ -7343,7 +7346,7 @@
     "options_en": [
       "(2 3 3)",
       "(2 3̄ 3̄)",
-      "(3 2 2̄)",
+      "(3 2̄ 2̄)",
       "(2̄ 3 3)"
     ],
     "options_gu": [
@@ -7352,7 +7355,7 @@
       "(3 2 2̄)",
       "(2̄ 3 3)"
     ],
-    "answer": "D",
+    "answer": "C",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "Take reciprocals of the intercepts and reduce to the smallest integers, retaining the appropriate negative signs; the official key is D.",
@@ -7377,10 +7380,10 @@
     "question_en": "Calculate the interplanar distance, d_hkl, for a cubic crystal system having plane (2 2 2), assuming that a is the edge length of the unit cell.",
     "question_gu": "Calculate the interplanar distance, d_hkl, for a cubic crystal system having plane (2 2 2), assuming that a is the edge length of the unit cell.",
     "options_en": [
-      "a/2",
+      "a/√2",
       "a/√3",
-      "a/2",
-      "a/√2"
+      "a/(2√3)",
+      "a/2"
     ],
     "options_gu": [
       "a/2",
@@ -7460,7 +7463,7 @@
       "Adsorption of oxygen on tungsten",
       "Ethyl alcohol vapours condensed on the divided nickel"
     ],
-    "answer": "D",
+    "answer": "B",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "Condensation of ethyl alcohol vapour is physical adsorption/condensation rather than chemisorption.",
@@ -7579,7 +7582,8 @@
     "tip_gu": "સંબંધિત principle, equation અથવા definition લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 15
+    "source_page": 15,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q62",
@@ -7687,7 +7691,8 @@
     "tip_gu": "સંબંધિત principle, equation અથવા definition લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 15
+    "source_page": 15,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q65",
@@ -7712,18 +7717,19 @@
       "C",
       "D"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key marks option B for the depicted rearrangement/elimination product.",
     "explanation_gu": "The official final key marks option B for the depicted rearrangement/elimination product.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 17
+    "source_page": 17,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q66",
@@ -7748,7 +7754,7 @@
       "Thermal and photochemical pathways yield stereoisomerically different products.",
       "Stereoselectivity and rate are affected significantly by solvent polarity."
     ],
-    "answer": "A",
+    "answer": "D",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key marks option A.",
@@ -7784,18 +7790,19 @@
       "C",
       "D"
     ],
-    "answer": "D",
+    "answer": "B",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option D for the depicted rearrangement product.",
     "explanation_gu": "The official final key gives option D for the depicted rearrangement product.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 17
+    "source_page": 17,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q68",
@@ -7820,18 +7827,19 @@
       "C",
       "D"
     ],
-    "answer": "D",
+    "answer": "A",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option D for the depicted cycloaddition product.",
     "explanation_gu": "The official final key gives option D for the depicted cycloaddition product.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 17
+    "source_page": 17,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q69",
@@ -7903,7 +7911,8 @@
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 17
+    "source_page": 17,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q71",
@@ -7939,7 +7948,8 @@
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 18
+    "source_page": 18,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q72",
@@ -7964,18 +7974,19 @@
       "C",
       "D"
     ],
-    "answer": "A",
+    "answer": "C",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option A for the retrosynthetic disconnection.",
     "explanation_gu": "The official final key gives option A for the retrosynthetic disconnection.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 18
+    "source_page": 18,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q73",
@@ -8011,7 +8022,8 @@
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 18
+    "source_page": 18,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q74",
@@ -8041,13 +8053,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option D.",
     "explanation_gu": "The official final key gives option D.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 18
+    "source_page": 18,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q75",
@@ -8113,13 +8126,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option D for the displayed structures.",
     "explanation_gu": "The official final key gives option D for the displayed structures.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 18
+    "source_page": 18,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q77",
@@ -8252,18 +8266,19 @@
       "NaBH4/CeCl3",
       "Li/liquid NH3"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Chemical Sciences - GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option B for the depicted reduction.",
     "explanation_gu": "The official final key gives option B for the depicted reduction.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter is retained from the official key and figure should be preserved in the app.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant reaction mechanism or spectroscopy principle.",
     "tip_gu": "સંબંધિત reaction mechanism અથવા spectroscopy principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 19
+    "source_page": 19,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q81",
@@ -8293,13 +8308,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option A for the displayed alkylation product.",
     "explanation_gu": "The official final key gives option A for the displayed alkylation product.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 25
+    "source_page": 25,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q82",
@@ -8365,13 +8381,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option B for the displayed stereochemical structure.",
     "explanation_gu": "The official final key gives option B for the displayed stereochemical structure.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 25
+    "source_page": 25,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q84",
@@ -8401,13 +8418,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option A for the displayed Newman projection.",
     "explanation_gu": "The official final key gives option A for the displayed Newman projection.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 25
+    "source_page": 25,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q85",
@@ -8473,13 +8491,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option A for the depicted conformer.",
     "explanation_gu": "The official final key gives option A for the depicted conformer.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 26
+    "source_page": 26,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q87",
@@ -8509,13 +8528,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option C for the paired thermal transformations.",
     "explanation_gu": "The official final key gives option C for the paired thermal transformations.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 26
+    "source_page": 26,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q88",
@@ -8551,7 +8571,8 @@
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 26
+    "source_page": 26,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q89",
@@ -8581,13 +8602,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option A for the asymmetric epoxidation product.",
     "explanation_gu": "The official final key gives option A for the asymmetric epoxidation product.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 27
+    "source_page": 27,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q90",
@@ -8617,13 +8639,14 @@
     "difficulty": "Medium",
     "explanation_en": "The official final key gives option C for the displayed asymmetric reduction.",
     "explanation_gu": "The official final key gives option C for the displayed asymmetric reduction.",
-    "review_flag": true,
-    "review_note": "Original structural options are graphical in the source; option letter retained from official key.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Apply the relevant organic, materials or medicinal chemistry principle.",
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 27
+    "source_page": 27,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q91",
@@ -8637,10 +8660,10 @@
     "question_en": "Which of the following cannot be used as additives in oxygenated gasoline?",
     "question_gu": "Which of the following cannot be used as additives in oxygenated gasoline?",
     "options_en": [
-      "MTBE",
-      "OH",
-      "CH3CH2–O–C(CH3)3",
-      "tert-butanol"
+      "CH3–O–C(CH3)3",
+      "CH3CH2OH",
+      "CH3–CH2–O–C(CH3)3",
+      "(CH3)3COH"
     ],
     "options_gu": [
       "MTBE",
@@ -8659,7 +8682,8 @@
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 27
+    "source_page": 27,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q92",
@@ -8817,10 +8841,10 @@
     "question_en": "Match the active oxygen content in the commonly used green oxidants: O2, O2/Reductor, H2O2 and O3.",
     "question_gu": "Match the active oxygen content in the commonly used green oxidants: O2, O2/Reductor, H2O2 and O3.",
     "options_en": [
-      "1-iv; 2-iv; 3-i; 4-ii",
-      "1-ii; 2-iv; 3-iii; 4-i",
-      "1-ii; 2-iv; 3-ii; 4-i",
-      "1-iv; 2-ii; 3-i; 4-iii"
+      "1 – ii; 2 – iv; 3 – i; 4 – iii",
+      "1 – iv; 2 – i; 3 – iii; 4 – ii",
+      "1 – ii; 2 – iii; 3 – iv; 4 – i",
+      "1 – iv; 2 – iii; 3 – ii; 4 – i"
     ],
     "options_gu": [
       "1-iv; 2-iv; 3-i; 4-ii",
@@ -8839,7 +8863,8 @@
     "tip_gu": "સંબંધિત chemistry principle લાગુ કરો.",
     "source_verified": true,
     "source": "Official GSET December 2024 Chemical Sciences Paper-II question paper and official final answer key",
-    "source_page": 28
+    "source_page": 28,
+    "figure_required": true
   },
   {
     "id": "chemical_dec24_q97",
