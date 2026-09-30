@@ -43,6 +43,12 @@ jobs:
       - name: Install OCR tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
+      - name: Generate Paper-I source-preserving visual assets
+        run: |
+          python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow pytesseract
+          python3 tool/extract_paper1_visuals.py
+          test $(find assets/images -maxdepth 1 -name 'paper1_*.png' | wc -l) -ge 20
+
       - name: Generate December 2021 Chemical Sciences visual assets
         run: |
           python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow
