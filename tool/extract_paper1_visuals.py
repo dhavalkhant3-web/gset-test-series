@@ -133,7 +133,10 @@ def main():
 
             page = find_page(q, texts)
             if page is None:
-                # Do not fail the entire build for a source page that OCR cannot match.\n            # The page must be mapped manually from the official PDF before adding an image.\n            print(f"{qid}: source page not matched; leaving question unchanged")\n            continue
+                # Do not fail the entire build when OCR cannot safely match a source page.
+                # Unmatched questions are left unchanged rather than attaching a guessed page.
+                print(f"{qid}: source page not matched; leaving question unchanged")
+                continue
 
             dest = OUT / f"paper1_{pid}_q{n}.png"
             render_page(doc, page, dest)
