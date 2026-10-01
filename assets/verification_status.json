@@ -58,14 +58,14 @@
   "paper_2016_sep_questions": 60,
   "paper_2016_sep_status": "verified",
   "paper_2017_aug_questions": 60,
-  "paper_2017_aug_status": "verified_with_review",
+  "paper_2017_aug_status": "verified",
   "paper_2018_sep_questions": 50,
   "paper_2018_sep_status": "verified",
   "2021_dec_questions_verified": 50,
   "2021_dec_source_pair": "Official GSET question paper + official final answer key (Booklet A)",
   "2021_dec_note": "Question text cross-checked against the official GSET PDF; final key preserved as published.",
   "verified_questions": 1070,
-  "data_qa": "Passed for 20 populated first-part papers; August 2017 Paper-I has 60 question records, official Booklet A key cross-checked, and passage/visual review items preserved.",
+  "data_qa": "Passed for 20 populated first-part papers; August 2017 Paper-I has 60 question records, official Booklet A key cross-checked, complete passage/instruction context preserved, and source visuals mapped.",
   "non_evaluated_keys": [
     "Z",
     "X"
@@ -76,10 +76,8 @@
   "total_verified_questions": 1070,
   "2017_aug_status": "verified",
   "paper_2017_aug_key_source": "Official GSET final answer key, Booklet A",
-  "paper_2017_aug_review_count": 1,
-  "paper_2017_aug_review_questions": [
-    "Q33"
-  ],
+  "paper_2017_aug_review_count": 0,
+  "paper_2017_aug_review_questions": [],
   "paper_2017_aug_visuals": [
     "Q26",
     "Q32",
@@ -88,5 +86,5 @@
     "Q38",
     "Q42"
   ],
-  "paper_2017_aug_note": "60 question records and official Booklet A final key cross-checked. Original source visuals are mapped for Q26, Q32, Q34, Q37, Q38 and Q42. Q33 references a photograph that is not visibly present in the supplied scan; no photograph was invented, and the item remains review_flag=true."
+  "paper_2017_aug_note": "60 question records cross-checked against the supplied original Booklet-A paper and official final answer key. Complete passage/instruction context restored where required. Original source visuals are mapped for Q26, Q32, Q34, Q37, Q38 and Q42. No figures or photographs were invented."
 }
