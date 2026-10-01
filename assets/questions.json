@@ -32104,7 +32104,7 @@
     "exam": "August 2017",
     "paper": "Paper-I",
     "booklet": "A",
-    "question_en": "How is Tanya related to the man in the photograph? Statement I: The man in the photograph is the only son of Tanya’s grandfather. Statement II: The man has no brothers or sisters and his father is Tanya’s grandfather.",
+    "question_en": "The question below consists of two statements numbered I and II. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer:\n\nHow is Tanya related to the man in the photograph? Statement I: The man in the photograph is the only son of Tanya’s grandfather. Statement II: The man has no brothers or sisters and his father is Tanya’s grandfather.",
     "question_gu": "Tanya અને photographમાંના માણસ વચ્ચેનો સંબંધ શોધો.",
     "options_en": [
       "Statement I alone is sufficient; II alone is not",
@@ -32126,8 +32126,7 @@
     "tip_en": "Use the key concept or calculation directly; for figure/table items, inspect the original source figure.",
     "tip_gu": "મુખ્ય concept અથવા calculation સીધી લાગુ કરો; figure/table પ્રશ્નમાં original source figure જુઓ.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "The source question refers to a photograph, but the supplied scanned page does not contain a visible photograph to preserve. Do not invent or reconstruct the photograph."
+    "review_flag": false
   },
   {
     "id": "2017_aug_Q34",
