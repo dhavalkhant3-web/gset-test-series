@@ -28,6 +28,7 @@ VISUALS = {
     "2011_oct": [43, 44, 45],
     "2013_sep": [55],
     "2017_aug": [26, 32, 34, 37, 38, 42],
+    "2002_dec": [26, 34],
 }
 
 SOURCES = {
@@ -37,6 +38,7 @@ SOURCES = {
     "2011_oct": ROOT / "assets/source_papers/oct11p1.pdf",
     "2013_sep": ROOT / "assets/source_papers/sept13p1.pdf",
     "2017_aug": ROOT / "assets/source_papers/aug17p1.pdf",
+    "2002_dec": ROOT / "assets/source_papers/dec02p1.pdf",
 }
 
 OFFICIAL_URLS = {
