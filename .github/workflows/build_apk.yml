@@ -48,6 +48,19 @@ jobs:
           python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow pytesseract
           python3 tool/extract_paper1_visuals.py
           test $(find assets/images -maxdepth 1 -name 'paper1_*.png' | wc -l) -ge 20
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          qs=json.load(open("assets/questions.json",encoding="utf-8"))
+          refs=[q.get("image_asset") for q in qs if q.get("image_asset")]
+          assert refs, "No source-linked Paper-I image_asset references were generated"
+          missing=[p for p in refs if not Path(p).is_file()]
+          assert not missing, "Missing image assets: " + ", ".join(missing)
+          for pid in ["2002_dec","2003_dec","2008_dec","2010_oct","2011_oct","2013_sep","2017_aug"]:
+              items=[q for q in qs if q.get("paperId")==pid and q.get("image_asset")]
+              print(pid, "visual assets:", len(items))
+          print("Paper-I image_asset paths: all exist")
+          PY
 
       - name: Generate December 2021 Chemical Sciences visual assets
         run: |
