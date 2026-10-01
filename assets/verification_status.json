@@ -1,7 +1,7 @@
 {
   "total_papers": 20,
   "source_pairs_present": 20,
-  "verified_question_count": 1010,
+  "verified_question_count": 1070,
   "note": "Question text is production-ready for the verified paper set through November 2025. Official final answer keys are preserved; Z/ambiguous/key-sensitive items are flagged rather than silently corrected.",
   "paper_status": {
     "2011_oct": {
@@ -59,20 +59,21 @@
   "paper_2016_sep_status": "verified",
   "paper_2017_aug_questions": 60,
   "paper_2017_aug_status": "verified",
-  "paper_2017_aug_key_source": "Official GSET final answer key, Booklet A",
   "paper_2018_sep_questions": 50,
   "paper_2018_sep_status": "verified",
   "2021_dec_questions_verified": 50,
   "2021_dec_source_pair": "Official GSET question paper + official final answer key (Booklet A)",
   "2021_dec_note": "Question text cross-checked against the official GSET PDF; final key preserved as published.",
-  "verified_questions": 1010,
-  "data_qa": "Passed for 19 populated papers; 2017_aug is listed in papers.json but has no question records and remains locked until source transcription is verified.",
+  "verified_questions": 1070,
+  "data_qa": "Passed for 20 populated first-part papers; August 2017 Paper-I has 60 question records, official Booklet A key cross-checked, and passage/visual review items preserved.",
   "non_evaluated_keys": [
     "Z",
     "X"
   ],
-  "total_questions_loaded": 1010,
+  "total_questions_loaded": 1070,
   "2017_aug_questions": 60,
-  "2017_aug_source": "Official GSET final answer key Booklet A and original question paper; all 60 question records restored.",
-  "total_verified_questions": 1070
+  "2017_aug_source": "Original GSET Paper-I Booklet A question paper and official final answer key; 60 question records present and key cross-checked.",
+  "total_verified_questions": 1070,
+  "2017_aug_status": "verified",
+  "paper_2017_aug_key_source": "Official GSET final answer key, Booklet A"
 }
