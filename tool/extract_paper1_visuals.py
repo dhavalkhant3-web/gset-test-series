@@ -133,7 +133,9 @@ def main():
             if q is None:
                 raise AssertionError(f"Missing question record: {qid}")
 
-            page = find_page(q, texts)
+            page = MANUAL_PAGE_OVERRIDES.get((pid, n))
+            if page is None:
+                page = find_page(q, texts)
             if page is None:
                 # Do not fail the entire build when OCR cannot safely match a source page.
                 # Unmatched questions are left unchanged rather than attaching a guessed page.
