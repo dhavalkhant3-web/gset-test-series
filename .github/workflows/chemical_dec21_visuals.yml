@@ -49,4 +49,6 @@ jobs:
             exit 0
           fi
           git commit -m "Add verified Dec 2021 Chemical visual assets"
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
