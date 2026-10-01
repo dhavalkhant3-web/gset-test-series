@@ -2376,8 +2376,7 @@
     "tip_en": "Convert each sector into a percentage before combining sectors.",
     "tip_gu": "દરેક sectorની ટકાવારી નક્કી કરીને પછી તેને ઉમેરો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent pie-chart is on the original paper page 15; preserve the original chart and do not redraw it."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q27",
@@ -2408,8 +2407,7 @@
     "tip_en": "Use sector fractions from the chart rather than visual area estimates.",
     "tip_gu": "ચાર્ટના sectorના પ્રમાણનો ઉપયોગ કરો, માત્ર આંખે અંદાજ ન લગાવો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent pie-chart is on the original paper page 15; preserve the original chart and do not redraw it."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q28",
@@ -2440,8 +2438,7 @@
     "tip_en": "Add the relevant pie-chart sectors.",
     "tip_gu": "સંબંધિત pie-chart sectorsની ટકાવારી ઉમેરો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent pie-chart is on the original paper page 15; preserve the original chart and do not redraw it."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q29",
@@ -2472,8 +2469,7 @@
     "tip_en": "First calculate the total from the known percentage, then calculate the target sector.",
     "tip_gu": "પહેલાં જાણીતી ટકાવારી પરથી કુલ શોધો, પછી માંગેલી sector શોધો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent pie-chart is on the original paper page 15; preserve the original chart and do not redraw it."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q30",
@@ -2504,8 +2500,7 @@
     "tip_en": "The requested sectors may be easier to get by subtracting the Engineering sector from 100%.",
     "tip_gu": "માગેલી sectorsને 100%માંથી Engineeringનો ભાગ બાદ કરીને પણ મેળવી શકાય.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent pie-chart is on the original paper page 15; preserve the original chart and do not redraw it."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q31",
@@ -2628,8 +2623,7 @@
     "tip_en": "Compare actual export as a proportion of expected export.",
     "tip_gu": "Actual export ને expected exportના પ્રમાણ તરીકે સરખાવો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent table is on the original paper page 21; preserve the original table and do not reconstruct it from prose."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q35",
@@ -2660,8 +2654,7 @@
     "tip_en": "Calculate actual ÷ expected × 100 for each item.",
     "tip_gu": "દરેક વસ્તુ માટે actual ÷ expected × 100 કરો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent table is on the original paper page 21; preserve the original table and do not reconstruct it from prose."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q36",
@@ -2692,8 +2685,7 @@
     "tip_en": "Make a small year-wise ratio table for DI questions.",
     "tip_gu": "DI પ્રશ્નમાં વર્ષવાર ratioની નાની કોષ્ટક બનાવો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent table is on the original paper page 21; preserve the original table and do not reconstruct it from prose."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q37",
@@ -2724,8 +2716,7 @@
     "tip_en": "Check whether the question asks for absolute export or percentage export.",
     "tip_gu": "પ્રશ્ન absolute export પૂછે છે કે percentage export તે ચોક્કસ વાંચો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent table is on the original paper page 21; preserve the original table and do not reconstruct it from prose."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q38",
@@ -2756,8 +2747,7 @@
     "tip_en": "For percentage comparisons, calculate each ratio before choosing.",
     "tip_gu": "ટકાવારી સરખામણીમાં દરેક ratio કાઢ્યા પછી જવાબ પસંદ કરો.",
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Source-dependent table is on the original paper page 21; preserve the original table and do not reconstruct it from prose."
+    "review_flag": false
   },
   {
     "id": "2002_dec_Q39",
