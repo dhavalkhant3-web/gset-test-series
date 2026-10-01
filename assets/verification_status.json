@@ -86,5 +86,35 @@
     "Q38",
     "Q42"
   ],
-  "paper_2017_aug_note": "60 question records cross-checked against the supplied original Booklet-A paper and official final answer key. Complete passage/instruction context restored where required. Original source visuals are mapped for Q26, Q32, Q34, Q37, Q38 and Q42. No figures or photographs were invented."
+  "paper_2017_aug_note": "60 question records cross-checked against the supplied original Booklet-A paper and official final answer key. Complete passage/instruction context restored where required. Original source visuals are mapped for Q26, Q32, Q34, Q37, Q38 and Q42. No figures or photographs were invented.",
+  "paper_2002_dec_questions": 50,
+  "paper_2002_dec_status": "verified_with_source_visuals",
+  "paper_2002_dec_review_count": 12,
+  "paper_2002_dec_review_questions": [
+    "Q23",
+    "Q26",
+    "Q27",
+    "Q28",
+    "Q29",
+    "Q30",
+    "Q33",
+    "Q34",
+    "Q35",
+    "Q36",
+    "Q37",
+    "Q38"
+  ],
+  "paper_2002_dec_visuals": [
+    "Q26",
+    "Q27",
+    "Q28",
+    "Q29",
+    "Q30",
+    "Q34",
+    "Q35",
+    "Q36",
+    "Q37",
+    "Q38"
+  ],
+  "paper_2002_dec_note": "50 question records cross-checked against the supplied original December 2002 Booklet-B paper and official final answer key. Complete passage/instruction context restored for Q13-22 and Q31-33. Source-dependent pie-chart/table items are configured for original source-page visual extraction; unusual historical wording/key items Q23 and Q33 are preserved without silent correction."
 }
