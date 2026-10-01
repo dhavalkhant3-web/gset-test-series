@@ -104,6 +104,12 @@ def find_page(q, texts):
     candidates.sort(reverse=True)
     return candidates[0][1] if candidates and candidates[0][0] >= 1.0 else None
 
+# Verified manual source-page override for the Dec-2008 visual-only Q11.
+# The original source page is preserved; no figure is recreated.
+MANUAL_PAGE_OVERRIDES = {
+    ("2008_dec", 11): 7,
+}
+
 def render_page(doc, page_index, dest):
     page = doc[page_index]
     pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), alpha=False)
