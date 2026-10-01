@@ -1506,6 +1506,7 @@ class _TestPageState extends State<TestPage> {
             const nov22VisualQs = {28, 32, 43, 63, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 84, 86, 87, 88, 91, 93, 94, 95, 96, 98, 99, 100};
             const chemicalDec24VisualQs = {17, 20, 26, 61, 64, 65, 67, 68, 70, 71, 72, 73, 74, 76, 80, 81, 83, 84, 86, 87, 88, 89, 90, 91, 96};
             const paper1Aug17VisualAssets = <int, String>{26: 'assets/aug17_q26.jpg', 32: 'assets/aug17_q32.jpg', 34: 'assets/aug17_q34.jpg', 37: 'assets/aug17_q37.jpg', 38: 'assets/aug17_q38.jpg', 42: 'assets/aug17_q42.jpg'};
+const paper1Dec02VisualAssets = <int, String>{26: 'assets/dec02_q26.jpg', 27: 'assets/dec02_q26.jpg', 28: 'assets/dec02_q26.jpg', 29: 'assets/dec02_q26.jpg', 30: 'assets/dec02_q26.jpg', 34: 'assets/dec02_q34.jpg', 35: 'assets/dec02_q34.jpg', 36: 'assets/dec02_q34.jpg', 37: 'assets/dec02_q34.jpg', 38: 'assets/dec02_q34.jpg'};
             final parsedQNo = int.tryParse(qNo ?? '');
             final derivedImage = paperId == 'physical_sep16' && parsedQNo != null && physicalSep16VisualQs.contains(parsedQNo)
                 ? 'assets/images/physical_sep16_q$parsedQNo.png'
@@ -1525,7 +1526,9 @@ class _TestPageState extends State<TestPage> {
                                 ? 'assets/images/chemical_dec24_q$parsedQNo.png'
                                 : paperId == '2017_aug' && parsedQNo != null && paper1Aug17VisualAssets.containsKey(parsedQNo)
                                     ? paper1Aug17VisualAssets[parsedQNo]!
-                                    : '';
+                                    : paperId == '2002_dec' && parsedQNo != null && paper1Dec02VisualAssets.containsKey(parsedQNo)
+                                        ? paper1Dec02VisualAssets[parsedQNo]!
+                                        : '';
             final imageAsset = explicitImage.isNotEmpty ? explicitImage : derivedImage;
             return imageAsset.isNotEmpty ? Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(imageAsset, fit: BoxFit.contain))) : const SizedBox.shrink();
           }),
