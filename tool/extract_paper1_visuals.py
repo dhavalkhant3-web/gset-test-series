@@ -108,6 +108,16 @@ def find_page(q, texts):
 # The original source page is preserved; no figure is recreated.
 MANUAL_PAGE_OVERRIDES = {
     ("2008_dec", 11): 7,
+    ("2002_dec", 26): 14,
+    ("2002_dec", 27): 14,
+    ("2002_dec", 28): 14,
+    ("2002_dec", 29): 14,
+    ("2002_dec", 30): 14,
+    ("2002_dec", 34): 20,
+    ("2002_dec", 35): 20,
+    ("2002_dec", 36): 20,
+    ("2002_dec", 37): 20,
+    ("2002_dec", 38): 20,
 }
 
 def render_page(doc, page_index, dest):
