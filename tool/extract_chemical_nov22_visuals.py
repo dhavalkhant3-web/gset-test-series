@@ -5,12 +5,12 @@ import hashlib
 import time
 import socket
 import urllib.request
+import urllib.error
 import fitz
 
 URL = "https://www.gujaratset.ac.in/assets/papers/paperII/nov22/nov2203.pdf"
 OUT = Path("assets/images")
 PAGES = list(range(20, 31))
-EXPECTED_SHA256 = "REPLACE_WITH_OFFICIAL_SHA256"
 
 def download_with_retry(url: str, target: Path, attempts: int = 5) -> None:
     last = None
@@ -42,9 +42,6 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     pdf = Path("/tmp/nov2203.pdf")
     download_with_retry(URL, pdf)
-    if EXPECTED_SHA256 != "REPLACE_WITH_OFFICIAL_SHA256":
-        actual = hashlib.sha256(pdf.read_bytes()).hexdigest()
-        assert actual == EXPECTED_SHA256, f"SHA256 mismatch: {actual} != {EXPECTED_SHA256}"
     doc = fitz.open(pdf)
     assert len(doc) == 32, f"Unexpected page count: {len(doc)}"
     for page_no in PAGES:
