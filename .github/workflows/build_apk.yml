@@ -94,6 +94,12 @@ jobs:
           python3 tool/extract_chemical_dec24_visuals.py
           test $(find assets/images -maxdepth 1 -name 'chemical_dec24_q*.png' | wc -l) -eq 25
 
+      - name: Generate official Chemical Sciences November 2025 source-page visuals
+        run: |
+          python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow
+          python3 tool/extract_chemical_nov25_visuals.py
+          test $(find assets/images -maxdepth 1 -name 'chemical_nov25_page*.png' | wc -l) -eq 14
+
       - name: Generate official Physical Sciences December 2024 visual assets
         run: |
           python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow
