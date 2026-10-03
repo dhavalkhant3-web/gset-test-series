@@ -98,7 +98,7 @@ jobs:
         run: |
           python3 -m pip install --disable-pip-version-check --break-system-packages PyMuPDF Pillow
           python3 tool/extract_chemical_nov25_visuals.py
-          test $(find assets/images -maxdepth 1 -name 'chemical_nov25_page*.png' | wc -l) -eq 14
+          test $(find assets/images -maxdepth 1 -name 'chemical_nov25_page*.png' | wc -l) -eq 15
 
       - name: Generate official Physical Sciences December 2024 visual assets
         run: |
