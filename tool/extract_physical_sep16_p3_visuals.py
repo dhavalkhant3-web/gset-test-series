@@ -9,7 +9,24 @@ URL="https://www.gujaratset.ac.in/assets/papers/paperIII/sept16/sept16p302.pdf"
 OUT=Path("assets/images")
 OUT.mkdir(parents=True,exist_ok=True)
 pdf=Path("/tmp/sept16p302.pdf")
-urllib.request.urlretrieve(URL,pdf)
+
+# Retry official GSET PDF download to tolerate transient TLS/network timeouts.
+last_error = None
+for attempt in range(1, 6):
+    try:
+        req = urllib.request.Request(URL, headers={"User-Agent": "GSET-Test-Series-Visual-Asset-Builder/1.0"})
+        with urllib.request.urlopen(req, timeout=60) as response:
+            data = response.read()
+        if len(data) < 100_000:
+            raise RuntimeError(f"Downloaded PDF is unexpectedly small: {len(data)} bytes")
+        pdf.write_bytes(data)
+        break
+    except Exception as exc:
+        last_error = exc
+        if attempt == 5:
+            raise SystemExit(f"Official Physical Sciences Sept 2016 Paper-III PDF download failed after 5 attempts: {last_error}")
+        print(f"Download attempt {attempt}/5 failed: {exc}; retrying...", flush=True)
+
 doc=fitz.open(pdf)
 
 # Crops retain the original source visual from the official scanned PDF.
