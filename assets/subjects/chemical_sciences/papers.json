@@ -316,10 +316,13 @@
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2503.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2503.pdf",
       "questions_loaded": true,
-      "questions_loaded_count": 60,
+      "questions_loaded_count": 100,
       "answer_key_verified": true,
-      "status": "verified_pair",
-      "source": "Uploaded official GSET question paper + uploaded official final answer key"
+      "status": "loaded_with_visual_review_flags",
+      "source": "Uploaded official GSET question paper + uploaded official final answer key; 100 questions present. 19 structure/reaction/diagram questions are source-page linked for visual fidelity.",
+      "question_source_verified": true,
+      "source_verified": false,
+      "review_count": 19
     }
   ]
 }
