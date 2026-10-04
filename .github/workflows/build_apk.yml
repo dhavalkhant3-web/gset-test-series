@@ -219,3 +219,5 @@ jobs:
           name: gset-test-series-apk-debug
           path: build/app/outputs/flutter-apk/app-debug.apk
           if-no-files-found: error
+
+# Manual APK rebuild trigger: source/data unchanged.
