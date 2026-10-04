@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate verified original-image crops for GSET September 2016 Chemical Sciences Paper-II."""
 from __future__ import annotations
-import argparse, hashlib, pathlib, urllib.request
+import argparse, hashlib, pathlib, subprocess
 import fitz
 
 SOURCE_URL = "https://www.gujaratset.ac.in/assets/papers/paperII/sept16/sept1603.pdf"
@@ -29,9 +29,26 @@ def sha256(path: pathlib.Path) -> str:
     return h.hexdigest()
 
 def download_source(destination: pathlib.Path) -> None:
-    req = urllib.request.Request(SOURCE_URL, headers={"User-Agent": "GSET-Test-Series-Visual-Asset-Builder/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as response:
-        destination.write_bytes(response.read())
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    tmp = destination.with_suffix(destination.suffix + ".part")
+    if tmp.exists():
+        tmp.unlink()
+    # The official host occasionally stalls during TLS negotiation. curl provides
+    # retries for transient network/SSL failures without weakening certificate checks.
+    cmd = [
+        "curl", "--fail", "--location", "--silent", "--show-error",
+        "--retry", "6", "--retry-delay", "5", "--retry-max-time", "300",
+        "--connect-timeout", "30", "--max-time", "180",
+        "-A", "GSET-Test-Series-Visual-Asset-Builder/1.0",
+        "-o", str(tmp), SOURCE_URL,
+    ]
+    try:
+        subprocess.run(cmd, check=True)
+        tmp.replace(destination)
+    except Exception:
+        if tmp.exists():
+            tmp.unlink()
+        raise
 
 def build_crops(source_pdf: pathlib.Path, output_dir: pathlib.Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
