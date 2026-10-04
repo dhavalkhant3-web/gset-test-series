@@ -371,16 +371,8 @@ class PaperIIDataService {
           }
         } catch (_) {}
       }
-      if (subjectId == 'chemical_sciences') {
-        try {
-          final extra = jsonDecode(await rootBundle.loadString(
-            'assets/subjects/chemical_sciences/questions_sep16_p3.json',
-          ));
-          if (extra is List) {
-            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
-          }
-        } catch (_) {}
-      }
+      // Chemical Sciences Paper-III is intentionally kept separate from
+      // the Paper-II question bank. It must not be appended here.
       if (loaded.isNotEmpty) return loaded;
     } catch (_) {}
     return [];
@@ -391,7 +383,15 @@ class PaperIIDataService {
       final raw = await rootBundle.loadString('assets/subjects/' + subjectId + '/papers.json');
       final decoded = jsonDecode(raw) as Map;
       final list = decoded['papers'];
-      if (list is List) return list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      if (list is List) {
+        final papers = list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+        // The app is Paper-II focused. Keep Paper-III metadata in the
+        // archive, but exclude it from the Paper-II paper count/list.
+        if (subjectId == 'chemical_sciences') {
+          papers.removeWhere((paper) => paper['paper_id'] == 'chemical_sep16_p3');
+        }
+        return papers;
+      }
     } catch (_) {}
     return [];
   }
