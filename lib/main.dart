@@ -627,7 +627,7 @@ class ChemicalPaperListPage extends StatelessWidget {
               title: Text(p['exam'].toString(),
                 style: const TextStyle(fontWeight: FontWeight.w900)),
               subtitle: Text(
-                '\$count questions • \${verified ? 'Final key verified' : 'Review pending'}',
+                '$count questions • ${verified ? 'Final key verified' : 'Review pending'}',
                 style: const TextStyle(fontSize: 11),
               ),
               trailing: const Icon(Icons.chevron_right_rounded),
