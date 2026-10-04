@@ -502,7 +502,18 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
           const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
           const SizedBox(height: 9),
           _action(Icons.description_rounded, 'Previous Year Papers', papers.isEmpty ? 'Archive pending' : papers.length.toString() + ' official papers mapped', () {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official archive mapped છે અને verified questions ઉપલબ્ધ છે. Paper-wise tests ઉપલબ્ધ છે.' : 'Official archive is mapped and verified questions are available. Paper-wise tests are available.')));
+            if (papers.isEmpty) {
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official paper archive હજુ load થયો નથી.' : 'Official paper archive is not loaded yet.')));
+              return;
+            }
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ChemicalPaperListPage(
+              papers: papers,
+              questions: questions,
+              gu: widget.gu,
+              bookmarks: bookmarks,
+              mistakes: mistakes,
+              onStateChanged: _saveState,
+            )));
           }),
           _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Unit-wise syllabus data હવે પછી ઉમેરાશે.' : 'Unit-wise syllabus data will be added next.')));
@@ -544,6 +555,89 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
       ]),
     ),
   );
+}
+
+
+class ChemicalPaperListPage extends StatelessWidget {
+  final List<Map<String, dynamic>> papers;
+  final List<Map<String, dynamic>> questions;
+  final bool gu;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+
+  const ChemicalPaperListPage({
+    super.key,
+    required this.papers,
+    required this.questions,
+    required this.gu,
+    required this.bookmarks,
+    required this.mistakes,
+    required this.onStateChanged,
+  });
+
+  Future<void> _openPaper(BuildContext context, Map<String, dynamic> paper) async {
+    final id = paper['paper_id'].toString();
+    final qs = questions.where((q) => q['paper_id'].toString() == id).toList();
+    if (qs.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        content: Text(gu ? 'આ paperના verified questions ઉપલબ્ધ નથી.' : 'Verified questions for this paper are not available.'),
+      ));
+      return;
+    }
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: qs,
+      gu: gu,
+      title: paper['exam'].toString(),
+      practice: false,
+      mock: false,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: onStateChanged,
+    )));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF5F7FF),
+      appBar: AppBar(
+        title: Text('Previous Year Papers',
+          style: const TextStyle(fontWeight: FontWeight.w900)),
+      ),
+      body: ListView.separated(
+        padding: const EdgeInsets.fromLTRB(14, 10, 14, 90),
+        itemCount: papers.length,
+        separatorBuilder: (_, __) => const SizedBox(height: 8),
+        itemBuilder: (_, index) {
+          final p = papers[index];
+          final id = p['paper_id'].toString();
+          final count = questions.where((q) => q['paper_id'].toString() == id).length;
+          final verified = p['answer_key_verified'] == true;
+          return Card(
+            child: ListTile(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 7),
+              leading: Container(
+                width: 46, height: 46,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFEDE9FE),
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: const Icon(Icons.description_rounded, color: Color(0xFF6D28D9)),
+              ),
+              title: Text(p['exam'].toString(),
+                style: const TextStyle(fontWeight: FontWeight.w900)),
+              subtitle: Text(
+                '\$count questions • \${verified ? 'Final key verified' : 'Review pending'}',
+                style: const TextStyle(fontSize: 11),
+              ),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () => _openPaper(context, p),
+            ),
+          );
+        },
+      ),
+    );
+  }
 }
 
 class HomePage extends StatefulWidget {
