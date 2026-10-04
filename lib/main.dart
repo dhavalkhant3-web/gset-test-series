@@ -502,7 +502,7 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
           const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
           const SizedBox(height: 9),
           _action(Icons.description_rounded, 'Previous Year Papers', papers.isEmpty ? 'Archive pending' : papers.length.toString() + ' official papers mapped', () {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official archive mapped છે; verified questions ઉમેરાયા પછી paper-wise tests ચાલુ થશે.' : 'Official archive is mapped; paper-wise tests will activate as verified questions are added.')));
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official archive mapped છે અને verified questions ઉપલબ્ધ છે. Paper-wise tests ઉપલબ્ધ છે.' : 'Official archive is mapped and verified questions are available. Paper-wise tests are available.')));
           }),
           _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Unit-wise syllabus data હવે પછી ઉમેરાશે.' : 'Unit-wise syllabus data will be added next.')));
