@@ -1561,7 +1561,7 @@ class _TestPageState extends State<TestPage> {
             // Flutter 3.38 deprecates RadioListTile.groupValue/onChanged in favor of RadioGroup.
             // Keep the current behavior intact until the RadioGroup migration is made in a dedicated UI refactor.
             // ignore: deprecated_member_use
-            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: Text('$letter. \${_displayOption(opts[j], j)}'))); }),
+            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: Text('$letter. ${_displayOption(opts[j], j)}'))); }),
           const SizedBox(height: 8),
           if (widget.mock)
             Row(children: [
