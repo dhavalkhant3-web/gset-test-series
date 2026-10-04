@@ -1380,7 +1380,24 @@ class _TestPageState extends State<TestPage> {
       return;
     }
     final id = (q['id'] ?? '').toString();
-    if (!RegExp(r'^chemical_[a-z0-9]+_q\\d+
+    if (!RegExp(r'^chemical_[a-z0-9]+_q[0-9]+$').hasMatch(id)) return;
+    final candidate = 'assets/images/$id.png';
+    try {
+      await rootBundle.load(candidate);
+      if (mounted) setState(() => _visualAsset = candidate);
+    } catch (_) {
+      if (mounted) setState(() => _visualAsset = null);
+    }
+  }
+
+  String _displayOption(String option, int index) {
+    if (_visualAsset != null &&
+        RegExp(r'^(Official|Structure|Product structure|Adduct structure|Option [A-D])', caseSensitive: false).hasMatch(option.trim())) {
+      return String.fromCharCode(65 + index);
+    }
+    return option;
+  }
+
   String get remaining { final left = max(0, maxSeconds - DateTime.now().difference(started).inSeconds); final mm = (left ~/ 60).toString().padLeft(2, '0'); final ss = (left % 60).toString().padLeft(2, '0'); return '$mm:$ss'; }
 
   void _selectMockAnswer(String? value) {
