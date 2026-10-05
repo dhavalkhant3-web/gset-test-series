@@ -74,9 +74,9 @@
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 50,
       "question_source_verified": true,
-      "source_verified": false,
-      "status": "verified_complete_with_review",
-      "review_count": 25
+      "source_verified": true,
+      "status": "verified_complete",
+      "review_count": 0
     },
     {
       "paper_id": "physical_jul06",
