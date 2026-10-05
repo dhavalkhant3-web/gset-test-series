@@ -21335,5 +21335,1495 @@
     "source_verified": false,
     "question_source_verified": false,
     "source": "GSET official October 2014 Physical Sciences Paper-II question paper and final/corrected answer key"
+  },
+  {
+    "id": "physical_aug17_q01",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The Laplace transform F(s) of a constant function f(t) = c is :",
+    "question_gu": "The Laplace transform F(s) of a constant function f(t) = c is :",
+    "options_en": [
+      "c",
+      "c/s",
+      "cs",
+      "Zero"
+    ],
+    "options_gu": [
+      "c",
+      "c/s",
+      "cs",
+      "Zero"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q02",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The determinant of a 3 × 3 real-symmetric matrix is 16. If two of its eigen values are −1 and 2, then the sum of the eigen values is :",
+    "question_gu": "The determinant of a 3 × 3 real-symmetric matrix is 16. If two of its eigen values are −1 and 2, then the sum of the eigen values is :",
+    "options_en": [
+      "−9",
+      "−7",
+      "11",
+      "7"
+    ],
+    "options_gu": [
+      "−9",
+      "−7",
+      "11",
+      "7"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q03",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Let Pₙ(x) be a Legendre polynomial of degree n > 1, then: ∫₋₁¹(1 + 2x)Pₙ(x)dx is equal to :",
+    "question_gu": "Let Pₙ(x) be a Legendre polynomial of degree n > 1, then: ∫₋₁¹(1 + 2x)Pₙ(x)dx is equal to :",
+    "options_en": [
+      "0",
+      "1/(2n+1)",
+      "2n/(2n+1)",
+      "(n+1)/(2n+1)"
+    ],
+    "options_gu": [
+      "0",
+      "1/(2n+1)",
+      "2n/(2n+1)",
+      "(n+1)/(2n+1)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q04",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "If z = x + iy, the imaginary part of z² is :",
+    "question_gu": "If z = x + iy, the imaginary part of z² is :",
+    "options_en": [
+      "2xy",
+      "x² − y²",
+      "√2xy",
+      "0"
+    ],
+    "options_gu": [
+      "2xy",
+      "x² − y²",
+      "√2xy",
+      "0"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q05",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the following equations is best represented by adjoining graph:",
+    "question_gu": "Which of the following equations is best represented by adjoining graph:",
+    "options_en": [],
+    "options_gu": [],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": true,
+    "review_note": "Question 5 contains an original log y vs log x graph in the source paper. The JSON record preserves the textual description, but the original figure should be retained/linked separately for exact visual fidelity.",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": false,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q06",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "For rocket motion in free space, which of the following law is used for obtaining its equation of motion ?",
+    "question_gu": "For rocket motion in free space, which of the following law is used for obtaining its equation of motion ?",
+    "options_en": [
+      "Conservation of energy",
+      "Conservation of angular momentum",
+      "Conservation of linear momentum",
+      "Conservation of mass and energy"
+    ],
+    "options_gu": [
+      "Conservation of energy",
+      "Conservation of angular momentum",
+      "Conservation of linear momentum",
+      "Conservation of mass and energy"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q07",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "If the force is inverse square in character and attractive, then:",
+    "question_gu": "If the force is inverse square in character and attractive, then:",
+    "options_en": [
+      "⟨K.E.⟩ = ⟨P.E.⟩",
+      "⟨K.E.⟩ = −⟨P.E.⟩",
+      "⟨K.E.⟩ = −½⟨P.E.⟩",
+      "⟨K.E.⟩ = ½⟨P.E.⟩"
+    ],
+    "options_gu": [
+      "⟨K.E.⟩ = ⟨P.E.⟩",
+      "⟨K.E.⟩ = −⟨P.E.⟩",
+      "⟨K.E.⟩ = −½⟨P.E.⟩",
+      "⟨K.E.⟩ = ½⟨P.E.⟩"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q08",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The magnitude of Earth’s gravitational force on a point mass is F(r), where r is the distance of point mass from the Earth’s center. If the mass is kept at r = R/2 where R is the radius of the Earth, then what is the value of F(R)/F(R/2) ?",
+    "question_gu": "The magnitude of Earth’s gravitational force on a point mass is F(r), where r is the distance of point mass from the Earth’s center. If the mass is kept at r = R/2 where R is the radius of the Earth, then what is the value of F(R)/F(R/2) ?",
+    "options_en": [
+      "1/2",
+      "2",
+      "4",
+      "1/4"
+    ],
+    "options_gu": [
+      "1/2",
+      "2",
+      "4",
+      "1/4"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q09",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A satellite in an elliptical orbit around a planet with radius of 4000 miles, has a perigee of 500 miles from the surface of the planet. Apogee is at 2000 miles from the surface of the planet. If maximum speed of the satellite is 16000 miles/hour, what is its minimum speed ?",
+    "question_gu": "A satellite in an elliptical orbit around a planet with radius of 4000 miles, has a perigee of 500 miles from the surface of the planet. Apogee is at 2000 miles from the surface of the planet. If maximum speed of the satellite is 16000 miles/hour, what is its minimum speed ?",
+    "options_en": [
+      "16,000 miles/hour",
+      "14,000 miles/hour",
+      "12,000 miles/hour",
+      "8,000 miles/hour"
+    ],
+    "options_gu": [
+      "16,000 miles/hour",
+      "14,000 miles/hour",
+      "12,000 miles/hour",
+      "8,000 miles/hour"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q10",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A particle of mass m that moves along the x-axis has potential energy V(x) = a + bx², where a and b are positive constants. Its initial velocity at x = 0 is V₀; it will execute SHM, with frequency determined by:",
+    "question_gu": "A particle of mass m that moves along the x-axis has potential energy V(x) = a + bx², where a and b are positive constants. Its initial velocity at x = 0 is V₀; it will execute SHM, with frequency determined by:",
+    "options_en": [
+      "b alone",
+      "a and b only",
+      "b and V₀ only",
+      "b and m only"
+    ],
+    "options_gu": [
+      "b alone",
+      "a and b only",
+      "b and V₀ only",
+      "b and m only"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q11",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A charged particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel, then the path of the particle is:",
+    "question_gu": "A charged particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel, then the path of the particle is:",
+    "options_en": [
+      "Circle",
+      "Parabola",
+      "Straight line",
+      "Helix"
+    ],
+    "options_gu": [
+      "Circle",
+      "Parabola",
+      "Straight line",
+      "Helix"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q12",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Self inductance of a coil:",
+    "question_gu": "Self inductance of a coil:",
+    "options_en": [
+      "is always positive",
+      "is proportional to dI/dt",
+      "is proportional to I²",
+      "is zero when current I passing through it is zero"
+    ],
+    "options_gu": [
+      "is always positive",
+      "is proportional to dI/dt",
+      "is proportional to I²",
+      "is zero when current I passing through it is zero"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q13",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the following is non-dispersive for EM wave in visible region ?",
+    "question_gu": "Which of the following is non-dispersive for EM wave in visible region ?",
+    "options_en": [
+      "Glass",
+      "Water",
+      "Vacuum",
+      "Diamond"
+    ],
+    "options_gu": [
+      "Glass",
+      "Water",
+      "Vacuum",
+      "Diamond"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q14",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The work required to take a charge q from a distance d in front of an infinite, grounded conducting plane to infinite distance from the plane is:",
+    "question_gu": "The work required to take a charge q from a distance d in front of an infinite, grounded conducting plane to infinite distance from the plane is:",
+    "options_en": [
+      "(1/(4π ε₀)) q²/(2d)",
+      "(1/(4π ε₀)) q²/(4d)",
+      "(1/(4π ε₀)) q/(2d)",
+      "(1/(4π ε₀)) q²/d"
+    ],
+    "options_gu": [
+      "(1/(4π ε₀)) q²/(2d)",
+      "(1/(4π ε₀)) q²/(4d)",
+      "(1/(4π ε₀)) q/(2d)",
+      "(1/(4π ε₀)) q²/d"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q15",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the following Maxwell’s equations dictate that EM waves must be transverse in nature? (i) ∇·D = 0  (ii) ∇·B = 0  (iii) ∇×E = −∂B/∂t  (iv) ∇×H = −∂D/∂t. Codes:",
+    "question_gu": "Which of the following Maxwell’s equations dictate that EM waves must be transverse in nature? (i) ∇·D = 0  (ii) ∇·B = 0  (iii) ∇×E = −∂B/∂t  (iv) ∇×H = −∂D/∂t. Codes:",
+    "options_en": [
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "(iii) and (iv)",
+      "(ii) and (iv)"
+    ],
+    "options_gu": [
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "(iii) and (iv)",
+      "(ii) and (iv)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q16",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "L⃗ is orbital momentum operator, then L⃗ × L⃗ is:",
+    "question_gu": "L⃗ is orbital momentum operator, then L⃗ × L⃗ is:",
+    "options_en": [
+      "0",
+      "L²",
+      "l(l + 1)ħ²",
+      "iħL⃗"
+    ],
+    "options_gu": [
+      "0",
+      "L²",
+      "l(l + 1)ħ²",
+      "iħL⃗"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q17",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Expectation value of an operator V in quantum mechanics is represented by:",
+    "question_gu": "Expectation value of an operator V in quantum mechanics is represented by:",
+    "options_en": [
+      "⟨ψ|V|ψ⟩/⟨ψ|ψ⟩",
+      "⟨ψ|V|ψ⟩",
+      "⟨ψ|ψ⟩/⟨ψ|(1/V)|ψ⟩",
+      "V⟨ψ|ψ⟩"
+    ],
+    "options_gu": [
+      "⟨ψ|V|ψ⟩/⟨ψ|ψ⟩",
+      "⟨ψ|V|ψ⟩",
+      "⟨ψ|ψ⟩/⟨ψ|(1/V)|ψ⟩",
+      "V⟨ψ|ψ⟩"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q18",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The energy levels of a particle with mass m and rigid one dimensional box of length L, are given by:",
+    "question_gu": "The energy levels of a particle with mass m and rigid one dimensional box of length L, are given by:",
+    "options_en": [
+      "nL/(2π)",
+      "2mL²/(n²π²ħ²)",
+      "n²π²ħ²/(2mL²)",
+      "nħ/L"
+    ],
+    "options_gu": [
+      "nL/(2π)",
+      "2mL²/(n²π²ħ²)",
+      "n²π²ħ²/(2mL²)",
+      "nħ/L"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q19",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the following is a quantum mechanical wave function for a free particle in one dimension, moving in positive x-direction?",
+    "question_gu": "Which of the following is a quantum mechanical wave function for a free particle in one dimension, moving in positive x-direction?",
+    "options_en": [
+      "Aeⁱᵏˣ",
+      "Ae⁻ⁱᵏˣ",
+      "Ae⁻ᵏˣ",
+      "Aeⁱᵏˣ/x"
+    ],
+    "options_gu": [
+      "Aeⁱᵏˣ",
+      "Ae⁻ⁱᵏˣ",
+      "Ae⁻ᵏˣ",
+      "Aeⁱᵏˣ/x"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q20",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The eigenvalues of a Hermitian operator must be:",
+    "question_gu": "The eigenvalues of a Hermitian operator must be:",
+    "options_en": [
+      "Positive",
+      "Negative",
+      "Real",
+      "Complex"
+    ],
+    "options_gu": [
+      "Positive",
+      "Negative",
+      "Real",
+      "Complex"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q21",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A black body at temperature T radiates at a power of 80 mW. The same black body at temperature T/2 will radiate at a power level of:",
+    "question_gu": "A black body at temperature T radiates at a power of 80 mW. The same black body at temperature T/2 will radiate at a power level of:",
+    "options_en": [
+      "40 mW",
+      "80/√2 mW",
+      "5 mW",
+      "10 mW"
+    ],
+    "options_gu": [
+      "40 mW",
+      "80/√2 mW",
+      "5 mW",
+      "10 mW"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q22",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Boltzman’s grave is engraved with the formula S = k ln W here:",
+    "question_gu": "Boltzman’s grave is engraved with the formula S = k ln W here:",
+    "options_en": [
+      "W is the number of macro states in the system",
+      "W is the number of micro states in the system",
+      "W is the number of particles in the system",
+      "W is the work required to assemble the system"
+    ],
+    "options_gu": [
+      "W is the number of macro states in the system",
+      "W is the number of micro states in the system",
+      "W is the number of particles in the system",
+      "W is the work required to assemble the system"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q23",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the particles do not obey Fermi-Dirac statistics?",
+    "question_gu": "Which of the particles do not obey Fermi-Dirac statistics?",
+    "options_en": [
+      "Pions",
+      "Electrons",
+      "Neutrons",
+      "Quarks"
+    ],
+    "options_gu": [
+      "Pions",
+      "Electrons",
+      "Neutrons",
+      "Quarks"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q24",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "What is the difference between Einstein’s theory of specific heat and Debye’s theory of specific heat:",
+    "question_gu": "What is the difference between Einstein’s theory of specific heat and Debye’s theory of specific heat:",
+    "options_en": [
+      "Einstein’s theory describes high temperature limit successfully while the other fails in the high temperature region",
+      "Einstein’s theory involves quantization of vibrational energy while Debye’s theory does not take into account the quantization of vibrational energy",
+      "Einstein’s theory involves fixed frequency of vibration while Debye’s theory involves vibrational frequency distribution",
+      "Einstein’s theory involves frequency distribution while Debye’s theory assumes fixed frequency vibration"
+    ],
+    "options_gu": [
+      "Einstein’s theory describes high temperature limit successfully while the other fails in the high temperature region",
+      "Einstein’s theory involves quantization of vibrational energy while Debye’s theory does not take into account the quantization of vibrational energy",
+      "Einstein’s theory involves fixed frequency of vibration while Debye’s theory involves vibrational frequency distribution",
+      "Einstein’s theory involves frequency distribution while Debye’s theory assumes fixed frequency vibration"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q25",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "According to the equipartition theorem, each degree of freedom, in which the corresponding co-ordinate appears quadratically in the Hamiltonian has an average energy of:",
+    "question_gu": "According to the equipartition theorem, each degree of freedom, in which the corresponding co-ordinate appears quadratically in the Hamiltonian has an average energy of:",
+    "options_en": [
+      "kT",
+      "kT/3",
+      "kT/2",
+      "3kT/2"
+    ],
+    "options_gu": [
+      "kT",
+      "kT/3",
+      "kT/2",
+      "3kT/2"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q26",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "In which of the following configurations of BJT amplifier has high input impedance and low output impedance?",
+    "question_gu": "In which of the following configurations of BJT amplifier has high input impedance and low output impedance?",
+    "options_en": [
+      "CE",
+      "CB",
+      "CC",
+      "Both in CB and CC"
+    ],
+    "options_gu": [
+      "CE",
+      "CB",
+      "CC",
+      "Both in CB and CC"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q27",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The reduction in width of base of a transistor is due to:",
+    "question_gu": "The reduction in width of base of a transistor is due to:",
+    "options_en": [
+      "zener breakdown",
+      "avalanche breakdown",
+      "thermal breakdown",
+      "early effect"
+    ],
+    "options_gu": [
+      "zener breakdown",
+      "avalanche breakdown",
+      "thermal breakdown",
+      "early effect"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q28",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "LDR is a:",
+    "question_gu": "LDR is a:",
+    "options_en": [
+      "p-n junction",
+      "bulk semiconductor",
+      "dielectric material",
+      "p-n-p-n structure"
+    ],
+    "options_gu": [
+      "p-n junction",
+      "bulk semiconductor",
+      "dielectric material",
+      "p-n-p-n structure"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q29",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The maximum rate of change of output voltage with time in an operational amplifier is called:",
+    "question_gu": "The maximum rate of change of output voltage with time in an operational amplifier is called:",
+    "options_en": [
+      "CMRR",
+      "Slew rate",
+      "Offset voltage",
+      "Supply voltage"
+    ],
+    "options_gu": [
+      "CMRR",
+      "Slew rate",
+      "Offset voltage",
+      "Supply voltage"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q30",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "What is the approximate error due to digitization when analog voltage in the range 0 to 4 V is converted using 10 bit ADC?",
+    "question_gu": "What is the approximate error due to digitization when analog voltage in the range 0 to 4 V is converted using 10 bit ADC?",
+    "options_en": [
+      "0.4 V",
+      "16 mV",
+      "4 mV",
+      "0.2 V"
+    ],
+    "options_gu": [
+      "0.4 V",
+      "16 mV",
+      "4 mV",
+      "0.2 V"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q31",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Magnetic properties of material can be studied by:",
+    "question_gu": "Magnetic properties of material can be studied by:",
+    "options_en": [
+      "X-ray diffraction",
+      "Electron diffraction",
+      "Neutron diffraction",
+      "Laser diffraction"
+    ],
+    "options_gu": [
+      "X-ray diffraction",
+      "Electron diffraction",
+      "Neutron diffraction",
+      "Laser diffraction"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q32",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A CRO has 8 big divisions, each having 5 small divisions on the vertical axis of the screen. If the gain knob is at 2 V per big division, what is the resolution in voltage measurement?",
+    "question_gu": "A CRO has 8 big divisions, each having 5 small divisions on the vertical axis of the screen. If the gain knob is at 2 V per big division, what is the resolution in voltage measurement?",
+    "options_en": [
+      "400 mV",
+      "250 mV",
+      "50 mV",
+      "2000 mV"
+    ],
+    "options_gu": [
+      "400 mV",
+      "250 mV",
+      "50 mV",
+      "2000 mV"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q33",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which is the fastest ADC?",
+    "question_gu": "Which is the fastest ADC?",
+    "options_en": [
+      "Dual slope ADC",
+      "Flash ADC",
+      "Counter method ADC",
+      "Successive approximation ADC"
+    ],
+    "options_gu": [
+      "Dual slope ADC",
+      "Flash ADC",
+      "Counter method ADC",
+      "Successive approximation ADC"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q34",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Arrange following in order of increasing energy content in photon. (1) Infra red (2) X-ray (3) Gamma ray (4) Radio wave",
+    "question_gu": "Arrange following in order of increasing energy content in photon. (1) Infra red (2) X-ray (3) Gamma ray (4) Radio wave",
+    "options_en": [
+      "(4) (3) (2) (1)",
+      "(1) (2) (3) (4)",
+      "(3) (2) (1) (4)",
+      "(4) (1) (2) (3)"
+    ],
+    "options_gu": [
+      "(4) (3) (2) (1)",
+      "(1) (2) (3) (4)",
+      "(3) (2) (1) (4)",
+      "(4) (1) (2) (3)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q35",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "LVDT is a:",
+    "question_gu": "LVDT is a:",
+    "options_en": [
+      "Capacitative transducer",
+      "Resistive transducer",
+      "Inductive transducer",
+      "Temperature transducer"
+    ],
+    "options_gu": [
+      "Capacitative transducer",
+      "Resistive transducer",
+      "Inductive transducer",
+      "Temperature transducer"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q36",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Sodium doublet radiation is due to:",
+    "question_gu": "Sodium doublet radiation is due to:",
+    "options_en": [
+      "Hyperfine interaction",
+      "Spin-orbit interaction",
+      "Lamb shift",
+      "j-j coupling"
+    ],
+    "options_gu": [
+      "Hyperfine interaction",
+      "Spin-orbit interaction",
+      "Lamb shift",
+      "j-j coupling"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q37",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "For which of the following set of operators it is not possible to find simultaneous set of eigen functions for hydrogen atom?",
+    "question_gu": "For which of the following set of operators it is not possible to find simultaneous set of eigen functions for hydrogen atom?",
+    "options_en": [
+      "H, L², Lz",
+      "H, L², Lx",
+      "H, Lz",
+      "H, Lx, Ly"
+    ],
+    "options_gu": [
+      "H, L², Lz",
+      "H, L², Lx",
+      "H, Lz",
+      "H, Lx, Ly"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q38",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The radius of first orbit of hydrogen atom is:",
+    "question_gu": "The radius of first orbit of hydrogen atom is:",
+    "options_en": [
+      "0.0529 nm",
+      "0.529 nm",
+      "5.29 Å",
+      "0.0529 Å"
+    ],
+    "options_gu": [
+      "0.0529 nm",
+      "0.529 nm",
+      "5.29 Å",
+      "0.0529 Å"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q39",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The energy E of Kα x-rays emitted from targets of different atomic number z, varies as:",
+    "question_gu": "The energy E of Kα x-rays emitted from targets of different atomic number z, varies as:",
+    "options_en": [
+      "z²",
+      "2/z³",
+      "z",
+      "1/z²"
+    ],
+    "options_gu": [
+      "z²",
+      "2/z³",
+      "z",
+      "1/z²"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q40",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The typical wavelengths emitted by diatomic molecules in purely rotational and purely vibrational transitions are respectively in the region of:",
+    "question_gu": "The typical wavelengths emitted by diatomic molecules in purely rotational and purely vibrational transitions are respectively in the region of:",
+    "options_en": [
+      "Visible, infra-red",
+      "Microwave, infra-red",
+      "Infra-red, visible",
+      "Microwave, visible"
+    ],
+    "options_gu": [
+      "Visible, infra-red",
+      "Microwave, infra-red",
+      "Infra-red, visible",
+      "Microwave, visible"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q41",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The cyclotron frequency of a Bloch electron with effective mass m*, in magnetic field B is:",
+    "question_gu": "The cyclotron frequency of a Bloch electron with effective mass m*, in magnetic field B is:",
+    "options_en": [
+      "ωc = eB/m*",
+      "ωc = em*/B",
+      "ωc = m*B/e",
+      "ωc = em*B"
+    ],
+    "options_gu": [
+      "ωc = eB/m*",
+      "ωc = em*/B",
+      "ωc = m*B/e",
+      "ωc = em*B"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q42",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "An atom displaced to interstitial site, creating nearby vacancy is called:",
+    "question_gu": "An atom displaced to interstitial site, creating nearby vacancy is called:",
+    "options_en": [
+      "interstitial",
+      "Schottky defect",
+      "Frenkel defect",
+      "Skew dislocation"
+    ],
+    "options_gu": [
+      "interstitial",
+      "Schottky defect",
+      "Frenkel defect",
+      "Skew dislocation"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q43",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The repulsive part of the van der Waal’s interaction potential varies as rⁿ, where n is:",
+    "question_gu": "The repulsive part of the van der Waal’s interaction potential varies as rⁿ, where n is:",
+    "options_en": [
+      "−2",
+      "−4",
+      "−6",
+      "−12"
+    ],
+    "options_gu": [
+      "−2",
+      "−4",
+      "−6",
+      "−12"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q44",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "One orthorhombic and the other cubic solid are given. At low temperature, the behaviour of the lattice contribution to the specific heat will depend as a function of temperature T as:",
+    "question_gu": "One orthorhombic and the other cubic solid are given. At low temperature, the behaviour of the lattice contribution to the specific heat will depend as a function of temperature T as:",
+    "options_en": [
+      "T² for cubic, T³ for orthorhombic",
+      "T for cubic, T³ for orthorhombic",
+      "T for both solids",
+      "T³ for both solids"
+    ],
+    "options_gu": [
+      "T² for cubic, T³ for orthorhombic",
+      "T for cubic, T³ for orthorhombic",
+      "T for both solids",
+      "T³ for both solids"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q45",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The energy of a spin wave is quantized. Then the quantized unit, is called:",
+    "question_gu": "The energy of a spin wave is quantized. Then the quantized unit, is called:",
+    "options_en": [
+      "Phonon",
+      "Magnon",
+      "Polaron",
+      "Exciton"
+    ],
+    "options_gu": [
+      "Phonon",
+      "Magnon",
+      "Polaron",
+      "Exciton"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q46",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Which of the following reactions violates the lepton number conservation?",
+    "question_gu": "Which of the following reactions violates the lepton number conservation?",
+    "options_en": [
+      "e⁺ + e⁻ → νₑ + ν̄ₑ",
+      "e⁻ + p → νₑ + n",
+      "e⁺ + n → p + νₑ",
+      "μ⁻ → e⁻ + ν̄μ + νₑ"
+    ],
+    "options_gu": [
+      "e⁺ + e⁻ → νₑ + ν̄ₑ",
+      "e⁻ + p → νₑ + n",
+      "e⁺ + n → p + νₑ",
+      "μ⁻ → e⁻ + ν̄μ + νₑ"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: C.",
+    "explanation_gu": "Official GSET final answer key: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q47",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Typical energy of a thermal neutron in a nuclear reactor is of the order of:",
+    "question_gu": "Typical energy of a thermal neutron in a nuclear reactor is of the order of:",
+    "options_en": [
+      "0.02 eV",
+      "2 KeV",
+      "2 MeV",
+      "200 MeV"
+    ],
+    "options_gu": [
+      "0.02 eV",
+      "2 KeV",
+      "2 MeV",
+      "200 MeV"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q48",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "Except for mass, the properties of muon, most closely resembles the properties of:",
+    "question_gu": "Except for mass, the properties of muon, most closely resembles the properties of:",
+    "options_en": [
+      "electron",
+      "photon",
+      "pion",
+      "neutron"
+    ],
+    "options_gu": [
+      "electron",
+      "photon",
+      "pion",
+      "neutron"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: A.",
+    "explanation_gu": "Official GSET final answer key: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q49",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "A uranium nucleus at rest decays as given: ²³⁵₉₂U → ²³¹₉₀Th + ⁴₂He. Which of the following is correct?",
+    "question_gu": "A uranium nucleus at rest decays as given: ²³⁵₉₂U → ²³¹₉₀Th + ⁴₂He. Which of the following is correct?",
+    "options_en": [
+      "Each decay product has same kinetic energy",
+      "The helium nucleus has more kinetic energy than that of the thorium nucleus",
+      "Each decay product has same speed",
+      "The decay products tend to go in the same direction"
+    ],
+    "options_gu": [
+      "Each decay product has same kinetic energy",
+      "The helium nucleus has more kinetic energy than that of the thorium nucleus",
+      "Each decay product has same speed",
+      "The decay products tend to go in the same direction"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: B.",
+    "explanation_gu": "Official GSET final answer key: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+  },
+  {
+    "id": "physical_aug17_q50",
+    "paper_id": "physical_aug17",
+    "exam": "August 2017",
+    "question_en": "The ground state spin and parity of ¹⁷₉F nucleus is:",
+    "question_gu": "The ground state spin and parity of ¹⁷₉F nucleus is:",
+    "options_en": [
+      "3⁺/2",
+      "3⁻/2",
+      "5⁻/2",
+      "5⁺/2"
+    ],
+    "options_gu": [
+      "3⁺/2",
+      "3⁻/2",
+      "5⁻/2",
+      "5⁺/2"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — Official Paper-II",
+    "difficulty": "Not specified",
+    "explanation_en": "Official GSET final answer key: D.",
+    "explanation_gu": "Official GSET final answer key: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
   }
 ]
