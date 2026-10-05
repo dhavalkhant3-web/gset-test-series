@@ -13912,5 +13912,1455 @@
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": false,
     "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec08_q01",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The trace of N × N unit matrix is:",
+    "question_gu": "The trace of N × N unit matrix is:",
+    "options_en": [
+      "0",
+      "N²",
+      "2N",
+      "N"
+    ],
+    "options_gu": [
+      "0",
+      "N²",
+      "2N",
+      "N"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q02",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The average value of sin mx · cos nx over a period is:",
+    "question_gu": "The average value of sin mx · cos nx over a period is:",
+    "options_en": [
+      "0",
+      "1/2",
+      "1",
+      "1/√2"
+    ],
+    "options_gu": [
+      "0",
+      "1/2",
+      "1",
+      "1/√2"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q03",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If 1 kg of a substance is fully converted into energy, the total amount of energy (in Joule) could be:",
+    "question_gu": "If 1 kg of a substance is fully converted into energy, the total amount of energy (in Joule) could be:",
+    "options_en": [
+      "9 × 10²⁰ J",
+      "9 × 10¹⁶ J",
+      "3 × 10⁸ J",
+      "9 × 10¹⁰ J"
+    ],
+    "options_gu": [
+      "9 × 10²⁰ J",
+      "9 × 10¹⁶ J",
+      "3 × 10⁸ J",
+      "9 × 10¹⁰ J"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q04",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If the total energy of the particle is conserved, then:",
+    "question_gu": "If the total energy of the particle is conserved, then:",
+    "options_en": [
+      "T is constant",
+      "V is constant",
+      "T + V is constant",
+      "T − V is constant"
+    ],
+    "options_gu": [
+      "T is constant",
+      "V is constant",
+      "T + V is constant",
+      "T − V is constant"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q05",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The unit of Lagrangian is the unit of:",
+    "question_gu": "The unit of Lagrangian is the unit of:",
+    "options_en": [
+      "Force",
+      "Angular momentum",
+      "Energy",
+      "Linear momentum"
+    ],
+    "options_gu": [
+      "Force",
+      "Angular momentum",
+      "Energy",
+      "Linear momentum"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q06",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "A particle moves along an ellipse under a central force. If the centre of the ellipse is the force centre for a constant K, then force is:",
+    "question_gu": "A particle moves along an ellipse under a central force. If the centre of the ellipse is the force centre for a constant K, then force is:",
+    "options_en": [
+      "−K r⃗",
+      "−K r⃗/r³",
+      "−K",
+      "r⃗"
+    ],
+    "options_gu": [
+      "−K r⃗",
+      "−K r⃗/r³",
+      "−K",
+      "r⃗"
+    ],
+    "answer": "²",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: ²",
+    "explanation_gu": "Official final answer: ²",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q07",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "In scattering the total cross-section represents particles scattered in:",
+    "question_gu": "In scattering the total cross-section represents particles scattered in:",
+    "options_en": [
+      "Forward direction",
+      "Backward direction",
+      "All the directions",
+      "Cone of scattering"
+    ],
+    "options_gu": [
+      "Forward direction",
+      "Backward direction",
+      "All the directions",
+      "Cone of scattering"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q08",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Considering small oscillations the total number of modes for CO₂ are:",
+    "question_gu": "Considering small oscillations the total number of modes for CO₂ are:",
+    "options_en": [
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "options_gu": [
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q09",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "In special relativity Lorentz transformations are:",
+    "question_gu": "In special relativity Lorentz transformations are:",
+    "options_en": [
+      "Orthogonal transformations of four-dimensional space",
+      "Non-orthogonal transformations of four-dimensional space",
+      "Orthogonal transformations of three-dimensional space",
+      "Non-orthogonal transformations of three-dimensional space"
+    ],
+    "options_gu": [
+      "Orthogonal transformations of four-dimensional space",
+      "Non-orthogonal transformations of four-dimensional space",
+      "Orthogonal transformations of three-dimensional space",
+      "Non-orthogonal transformations of three-dimensional space"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q10",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The potential of electric quadrupole varies as:",
+    "question_gu": "The potential of electric quadrupole varies as:",
+    "options_en": [
+      "1/r",
+      "1/r²",
+      "1/r³",
+      "1/r⁴"
+    ],
+    "options_gu": [
+      "1/r",
+      "1/r²",
+      "1/r³",
+      "1/r⁴"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q11",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "A point charge is near a grounded conducting sphere. The force of attraction is given by one of the source formulas shown on page 5.",
+    "question_gu": "A point charge is near a grounded conducting sphere. The force of attraction is given by one of the source formulas shown on page 5.",
+    "options_en": [
+      "source formula A",
+      "source formula B",
+      "source formula C",
+      "source formula D"
+    ],
+    "options_gu": [
+      "source formula A",
+      "source formula B",
+      "source formula C",
+      "source formula D"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q12",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Electrostatic force between parallel capacitor plates separated by s is proportional to:",
+    "question_gu": "Electrostatic force between parallel capacitor plates separated by s is proportional to:",
+    "options_en": [
+      "ε",
+      "ε²",
+      "dε/ds",
+      "d²ε/ds²"
+    ],
+    "options_gu": [
+      "ε",
+      "ε²",
+      "dε/ds",
+      "d²ε/ds²"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q13",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Skin depth of electromagnetic radiation varies with frequency as:",
+    "question_gu": "Skin depth of electromagnetic radiation varies with frequency as:",
+    "options_en": [
+      "1/f",
+      "1/f²",
+      "√f",
+      "1/√f"
+    ],
+    "options_gu": [
+      "1/f",
+      "1/f²",
+      "√f",
+      "1/√f"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q14",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Power radiated by an oscillating point charge is proportional to:",
+    "question_gu": "Power radiated by an oscillating point charge is proportional to:",
+    "options_en": [
+      "v",
+      "a",
+      "v²",
+      "a²"
+    ],
+    "options_gu": [
+      "v",
+      "a",
+      "v²",
+      "a²"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q15",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If magnetic monopoles exist, which Maxwell equations would be modified?",
+    "question_gu": "If magnetic monopoles exist, which Maxwell equations would be modified?",
+    "options_en": [
+      "only (iv)",
+      "only (ii) and (iv)",
+      "only (ii)",
+      "all of these"
+    ],
+    "options_gu": [
+      "only (iv)",
+      "only (ii) and (iv)",
+      "only (ii)",
+      "all of these"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q16",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Self inductance of a long coaxial cable is:",
+    "question_gu": "Self inductance of a long coaxial cable is:",
+    "options_en": [
+      "μ₀l/(2πa²)",
+      "(μ₀l/2π) ln(b/a)",
+      "(μ₀l/2π) ln((b+a)/(b−a))",
+      "(μ₀l/2π) ln(b²/a²)"
+    ],
+    "options_gu": [
+      "μ₀l/(2πa²)",
+      "(μ₀l/2π) ln(b/a)",
+      "(μ₀l/2π) ln((b+a)/(b−a))",
+      "(μ₀l/2π) ln(b²/a²)"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q17",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If an infinite plane carries uniform surface charge σ, its electric field varies as:",
+    "question_gu": "If an infinite plane carries uniform surface charge σ, its electric field varies as:",
+    "options_en": [
+      "1/r",
+      "1/r²",
+      "1/r³",
+      "independent of r"
+    ],
+    "options_gu": [
+      "1/r",
+      "1/r²",
+      "1/r³",
+      "independent of r"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q18",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Energy transported by electromagnetic fields per unit area per unit time is:",
+    "question_gu": "Energy transported by electromagnetic fields per unit area per unit time is:",
+    "options_en": [
+      "½ε₀E²",
+      "½B²/μ₀",
+      "½(ε₀E²+B²/μ₀)",
+      "(1/μ₀)(E⃗ ×B⃗)"
+    ],
+    "options_gu": [
+      "½ε₀E²",
+      "½B²/μ₀",
+      "½(ε₀E²+B²/μ₀)",
+      "(1/μ₀)(E⃗ ×B⃗)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q19",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "In a good conductor magnetic field lags electric field by:",
+    "question_gu": "In a good conductor magnetic field lags electric field by:",
+    "options_en": [
+      "0°",
+      "90°",
+      "180°",
+      "45°"
+    ],
+    "options_gu": [
+      "0°",
+      "90°",
+      "180°",
+      "45°"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q20",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "For ψ = e^{i(kx−ωt)}, x component of momentum is:",
+    "question_gu": "For ψ = e^{i(kx−ωt)}, x component of momentum is:",
+    "options_en": [
+      "ℏω",
+      "ℏk",
+      "zero",
+      "ℏω/c"
+    ],
+    "options_gu": [
+      "ℏω",
+      "ℏk",
+      "zero",
+      "ℏω/c"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q21",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "de Broglie wavelength for an electron accelerated by 150 V is of order:",
+    "question_gu": "de Broglie wavelength for an electron accelerated by 150 V is of order:",
+    "options_en": [
+      "0.1 Å",
+      "1 Å",
+      "10 Å",
+      "100 Å"
+    ],
+    "options_gu": [
+      "0.1 Å",
+      "1 Å",
+      "10 Å",
+      "100 Å"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q22",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "'Photon' has all properties except:",
+    "question_gu": "'Photon' has all properties except:",
+    "options_en": [
+      "zero rest mass",
+      "zero intrinsic momentum",
+      "integral spin",
+      "total energy is kinetic"
+    ],
+    "options_gu": [
+      "zero rest mass",
+      "zero intrinsic momentum",
+      "integral spin",
+      "total energy is kinetic"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q23",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If position uncertainty is about 1 Å, momentum uncertainty is of order:",
+    "question_gu": "If position uncertainty is about 1 Å, momentum uncertainty is of order:",
+    "options_en": [
+      "10⁻¹⁹",
+      "10⁻²⁷",
+      "10⁻³⁵",
+      "None of these"
+    ],
+    "options_gu": [
+      "10⁻¹⁹",
+      "10⁻²⁷",
+      "10⁻³⁵",
+      "None of these"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q24",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The curve between potential energy and distance for harmonic oscillator is:",
+    "question_gu": "The curve between potential energy and distance for harmonic oscillator is:",
+    "options_en": [
+      "semicircle",
+      "hyperbola",
+      "parabola",
+      "none of these"
+    ],
+    "options_gu": [
+      "semicircle",
+      "hyperbola",
+      "parabola",
+      "none of these"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q25",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Angular momentum of an atomic electron is:",
+    "question_gu": "Angular momentum of an atomic electron is:",
+    "options_en": [
+      "quantized in magnitude only",
+      "quantized in direction only",
+      "quantized in magnitude and direction",
+      "not quantized"
+    ],
+    "options_gu": [
+      "quantized in magnitude only",
+      "quantized in direction only",
+      "quantized in magnitude and direction",
+      "not quantized"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q26",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "For a spherically symmetric probability cloud of an electron:",
+    "question_gu": "For a spherically symmetric probability cloud of an electron:",
+    "options_en": [
+      "principal quantum number is zero",
+      "orbital quantum number is zero",
+      "spin quantum number is zero",
+      "none of the above quantum number is zero"
+    ],
+    "options_gu": [
+      "principal quantum number is zero",
+      "orbital quantum number is zero",
+      "spin quantum number is zero",
+      "none of the above quantum number is zero"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q27",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "The exact expression for the operator [x² d²/dx²] is:",
+    "question_gu": "The exact expression for the operator [x² d²/dx²] is:",
+    "options_en": [
+      "x⁴ d²/dx² + 2x³ d/dx + 1",
+      "x⁴ d²/dx² + 2x³ d/dx − 1",
+      "x³ d²/dx² + 2x³ d/dx",
+      "x⁴ d²/dx² + 2x² d/dx"
+    ],
+    "options_gu": [
+      "x⁴ d²/dx² + 2x³ d/dx + 1",
+      "x⁴ d²/dx² + 2x³ d/dx − 1",
+      "x³ d²/dx² + 2x³ d/dx",
+      "x⁴ d²/dx² + 2x² d/dx"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q28",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "If L_± = L_x ± iL_y, then [L_+, L_−] =:",
+    "question_gu": "If L_± = L_x ± iL_y, then [L_+, L_−] =:",
+    "options_en": [
+      "−L_z",
+      "−L_+",
+      "L_+",
+      "L_z"
+    ],
+    "options_gu": [
+      "−L_z",
+      "−L_+",
+      "L_+",
+      "L_z"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q29",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Hydrogen atomic state shown by the source wavefunction has quantum numbers:",
+    "question_gu": "Hydrogen atomic state shown by the source wavefunction has quantum numbers:",
+    "options_en": [
+      "n=0,l=0,m=0",
+      "n=2,l=1,m=0",
+      "n=2,l=0,m=0",
+      "n=3,l=2,m=0"
+    ],
+    "options_gu": [
+      "n=0,l=0,m=0",
+      "n=2,l=1,m=0",
+      "n=2,l=0,m=0",
+      "n=3,l=2,m=0"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q30",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Fermi Golden Rule expresses:",
+    "question_gu": "Fermi Golden Rule expresses:",
+    "options_en": [
+      "transition matrix element",
+      "probability per unit volume",
+      "density of states",
+      "probable transition rate"
+    ],
+    "options_gu": [
+      "transition matrix element",
+      "probability per unit volume",
+      "density of states",
+      "probable transition rate"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D",
+    "explanation_gu": "Official final answer: D",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q31",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Phase space trajectory of a particle thrown vertically in constant gravity is:",
+    "question_gu": "Phase space trajectory of a particle thrown vertically in constant gravity is:",
+    "options_en": [
+      "Straight line",
+      "Parabola",
+      "Ellipse",
+      "Hyperbola"
+    ],
+    "options_gu": [
+      "Straight line",
+      "Parabola",
+      "Ellipse",
+      "Hyperbola"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q32",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Grand canonical ensemble:",
+    "question_gu": "Grand canonical ensemble:",
+    "options_en": [
+      "no energy exchange",
+      "exchanges energy and particles",
+      "energy but no particles",
+      "particles but not energy"
+    ],
+    "options_gu": [
+      "no energy exchange",
+      "exchanges energy and particles",
+      "energy but no particles",
+      "particles but not energy"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q33",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Rayleigh Jeans law from Planck law requires:",
+    "question_gu": "Rayleigh Jeans law from Planck law requires:",
+    "options_en": [
+      "hν/RT << 1",
+      "hν/RT >> 1",
+      "quantum mechanics description",
+      "relativistic mechanics description"
+    ],
+    "options_gu": [
+      "hν/RT << 1",
+      "hν/RT >> 1",
+      "quantum mechanics description",
+      "relativistic mechanics description"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q34",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Which can display Bose-Einstein condensation?",
+    "question_gu": "Which can display Bose-Einstein condensation?",
+    "options_en": [
+      "Photons",
+      "Free electron gas",
+      "He⁴ gas",
+      "Mercury at low temperature"
+    ],
+    "options_gu": [
+      "Photons",
+      "Free electron gas",
+      "He⁴ gas",
+      "Mercury at low temperature"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q35",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "When water is completely converted to steam by boiling:",
+    "question_gu": "When water is completely converted to steam by boiling:",
+    "options_en": [
+      "second order phase transition",
+      "vapour chemical potential is less",
+      "steam entropy is greater than water entropy",
+      "boiling temperature increases under decreased pressure"
+    ],
+    "options_gu": [
+      "second order phase transition",
+      "vapour chemical potential is less",
+      "steam entropy is greater than water entropy",
+      "boiling temperature increases under decreased pressure"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q36",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "At low temperature specific heat of insulating crystal varies as:",
+    "question_gu": "At low temperature specific heat of insulating crystal varies as:",
+    "options_en": [
+      "AT³",
+      "BT + CT³",
+      "D exp(E/T)",
+      "Constant"
+    ],
+    "options_gu": [
+      "AT³",
+      "BT + CT³",
+      "D exp(E/T)",
+      "Constant"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q37",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Negative temperature system if:",
+    "question_gu": "Negative temperature system if:",
+    "options_en": [
+      "entropy increases with internal energy",
+      "entropy decreases with internal energy",
+      "entropy reaches maximum",
+      "entropy independent of internal energy"
+    ],
+    "options_gu": [
+      "entropy increases with internal energy",
+      "entropy decreases with internal energy",
+      "entropy reaches maximum",
+      "entropy independent of internal energy"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q38",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "For a classical ideal gas restricted to two dimensions, v_rms is:",
+    "question_gu": "For a classical ideal gas restricted to two dimensions, v_rms is:",
+    "options_en": [
+      "√(kT/m)",
+      "√(2kT/m)",
+      "√(3kT/m)",
+      "√(kT/2m)"
+    ],
+    "options_gu": [
+      "√(kT/m)",
+      "√(2kT/m)",
+      "√(3kT/m)",
+      "√(kT/2m)"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q39",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Fermi-Dirac occupation probability at absolute zero is:",
+    "question_gu": "Fermi-Dirac occupation probability at absolute zero is:",
+    "options_en": [
+      "zero",
+      "1",
+      "1/2",
+      "undetermined"
+    ],
+    "options_gu": [
+      "zero",
+      "1",
+      "1/2",
+      "undetermined"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q40",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Which is not a thermodynamic state function?",
+    "question_gu": "Which is not a thermodynamic state function?",
+    "options_en": [
+      "Internal energy",
+      "Heat absorbed by a system",
+      "Entropy",
+      "Helmholtz free energy"
+    ],
+    "options_gu": [
+      "Internal energy",
+      "Heat absorbed by a system",
+      "Entropy",
+      "Helmholtz free energy"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q41",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Leakage resistance of a capacitor is:",
+    "question_gu": "Leakage resistance of a capacitor is:",
+    "options_en": [
+      "very low",
+      "zero",
+      "high",
+      "infinity"
+    ],
+    "options_gu": [
+      "very low",
+      "zero",
+      "high",
+      "infinity"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q42",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Momentum transfer pump is:",
+    "question_gu": "Momentum transfer pump is:",
+    "options_en": [
+      "diffusion pump",
+      "cryo pump",
+      "rotary pump",
+      "water pump"
+    ],
+    "options_gu": [
+      "diffusion pump",
+      "cryo pump",
+      "rotary pump",
+      "water pump"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q43",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Stopping potential of a metal:",
+    "question_gu": "Stopping potential of a metal:",
+    "options_en": [
+      "decreases linearly with work function",
+      "increases linearly with work function",
+      "neither increases nor decreases",
+      "proportional to square of work function"
+    ],
+    "options_gu": [
+      "decreases linearly with work function",
+      "increases linearly with work function",
+      "neither increases nor decreases",
+      "proportional to square of work function"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q44",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Hydrogen ground state −13.6 eV; wavelength for 2nd to 1st transition:",
+    "question_gu": "Hydrogen ground state −13.6 eV; wavelength for 2nd to 1st transition:",
+    "options_en": [
+      "60.5 nm",
+      "121 nm",
+      "240 nm",
+      "323 nm"
+    ],
+    "options_gu": [
+      "60.5 nm",
+      "121 nm",
+      "240 nm",
+      "323 nm"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q45",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "At 4.2 K:",
+    "question_gu": "At 4.2 K:",
+    "options_en": [
+      "electrical conductance of mercury drops to zero",
+      "thermal conductance drops to zero",
+      "electrical conductance tends to infinity",
+      "thermal conductance tends to infinity"
+    ],
+    "options_gu": [
+      "electrical conductance of mercury drops to zero",
+      "thermal conductance drops to zero",
+      "electrical conductance tends to infinity",
+      "thermal conductance tends to infinity"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q46",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "β-ray can be detected by:",
+    "question_gu": "β-ray can be detected by:",
+    "options_en": [
+      "Photo-diode",
+      "Scintillation detector",
+      "GM Counter",
+      "Photomultiplier"
+    ],
+    "options_gu": [
+      "Photo-diode",
+      "Scintillation detector",
+      "GM Counter",
+      "Photomultiplier"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q47",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Increasing temperature order for iron melting point, liquid He, liquid N2, ice melting point:",
+    "question_gu": "Increasing temperature order for iron melting point, liquid He, liquid N2, ice melting point:",
+    "options_en": [
+      "(2),(3),(4),(1)",
+      "(4),(1),(3),(2)",
+      "(1),(3),(4),(2)",
+      "(3),(1),(4),(2)"
+    ],
+    "options_gu": [
+      "(2),(3),(4),(1)",
+      "(4),(1),(3),(2)",
+      "(1),(3),(4),(2)",
+      "(3),(1),(4),(2)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q48",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Conversion time for 16-bit Successive Approximation ADC at 2 MHz:",
+    "question_gu": "Conversion time for 16-bit Successive Approximation ADC at 2 MHz:",
+    "options_en": [
+      "0.5 microseconds",
+      "16 microseconds",
+      "8 microseconds",
+      "65,535 microseconds"
+    ],
+    "options_gu": [
+      "0.5 microseconds",
+      "16 microseconds",
+      "8 microseconds",
+      "65,535 microseconds"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C",
+    "explanation_gu": "Official final answer: C",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
+  },
+  {
+    "id": "physical_dec08_q49",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "Source producing coherent light:",
+    "question_gu": "Source producing coherent light:",
+    "options_en": [
+      "CFL bulb",
+      "He-Ne Laser",
+      "60 Watt Tungsten Filament Bulb",
+      "Sodium Lamp in Laboratory"
+    ],
+    "options_gu": [
+      "CFL bulb",
+      "He-Ne Laser",
+      "60 Watt Tungsten Filament Bulb",
+      "Sodium Lamp in Laboratory"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B",
+    "explanation_gu": "Official final answer: B",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": true
+  },
+  {
+    "id": "physical_dec08_q50",
+    "paper_id": "physical_dec08",
+    "exam": "December 2008",
+    "question_en": "CRO has 50 X divisions and 40 Y divisions. Resolution in frequency and voltage measurement:",
+    "question_gu": "CRO has 50 X divisions and 40 Y divisions. Resolution in frequency and voltage measurement:",
+    "options_en": [
+      "2% and 2.5%",
+      "50% and 40%",
+      "4% and 5%",
+      "40% and 50%"
+    ],
+    "options_gu": [
+      "2% and 2.5%",
+      "50% and 40%",
+      "4% and 5%",
+      "40% and 50%"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A",
+    "explanation_gu": "Official final answer: A",
+    "review_flag": true,
+    "review_note": "Verify notation against original scan.",
+    "tip_en": "Official final key is authoritative.",
+    "tip_gu": "Official final key authoritative છે.",
+    "source_verified:": false
   }
 ]
