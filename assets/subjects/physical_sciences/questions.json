@@ -15362,5 +15362,1455 @@
     "tip_en": "Official final key is authoritative.",
     "tip_gu": "Official final key authoritative છે.",
     "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q01",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "If a coin is tossed 6 times in succession, the probability of getting at least one head is:",
+    "question_gu": "If a coin is tossed 6 times in succession, the probability of getting at least one head is:",
+    "options_en": [
+      "1/64",
+      "3/32",
+      "1/2",
+      "63/64"
+    ],
+    "options_gu": [
+      "1/64",
+      "3/32",
+      "1/2",
+      "63/64"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q02",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The eigenvalues of the given 3×3 matrix are λ₁, λ₂ and λ₃. Which statement is not true?",
+    "question_gu": "The eigenvalues of the given 3×3 matrix are λ₁, λ₂ and λ₃. Which statement is not true?",
+    "options_en": [
+      "λ₁+λ₂+λ₃=0",
+      "All eigenvalues are real",
+      "Product of eigenvalues is 1",
+      "λ₁λ₂+λ₂λ₃+λ₃λ₁=0"
+    ],
+    "options_gu": [
+      "λ₁+λ₂+λ₃=0",
+      "All eigenvalues are real",
+      "Product of eigenvalues is 1",
+      "λ₁λ₂+λ₂λ₃+λ₃λ₁=0"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q03",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "If A·(B×C)=0 in 3-dimensional space, then:",
+    "question_gu": "If A·(B×C)=0 in 3-dimensional space, then:",
+    "options_en": [
+      "A, B, C are coplanar",
+      "A is a null vector",
+      "A, B, C form a complete set of vectors",
+      "A, B and C are mutually orthogonal"
+    ],
+    "options_gu": [
+      "A, B, C are coplanar",
+      "A is a null vector",
+      "A, B, C form a complete set of vectors",
+      "A, B and C are mutually orthogonal"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q04",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "For f(x)=1 for 0<x<π and 0 for −π<x<0, the value of its Fourier series at x=0 is:",
+    "question_gu": "For f(x)=1 for 0<x<π and 0 for −π<x<0, the value of its Fourier series at x=0 is:",
+    "options_en": [
+      "1",
+      "0",
+      "1/2",
+      "1/√2"
+    ],
+    "options_gu": [
+      "1",
+      "0",
+      "1/2",
+      "1/√2"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q05",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Pauli matrices form a set of generators for group:",
+    "question_gu": "Pauli matrices form a set of generators for group:",
+    "options_en": [
+      "SU(2)",
+      "SU(3)",
+      "symmetric",
+      "O(3)"
+    ],
+    "options_gu": [
+      "SU(2)",
+      "SU(3)",
+      "symmetric",
+      "O(3)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q06",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The order of differential equation representing Newton’s second law of motion is:",
+    "question_gu": "The order of differential equation representing Newton’s second law of motion is:",
+    "options_en": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "options_gu": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q07",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The unit of moment of inertia is:",
+    "question_gu": "The unit of moment of inertia is:",
+    "options_en": [
+      "kg·m",
+      "kg·m/s²",
+      "kg·m²",
+      "kg·m/s"
+    ],
+    "options_gu": [
+      "kg·m",
+      "kg·m/s²",
+      "kg·m²",
+      "kg·m/s"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q08",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "In rigid body dynamics, the number of Euler angles are:",
+    "question_gu": "In rigid body dynamics, the number of Euler angles are:",
+    "options_en": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "options_gu": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q09",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The length of a rod moving with velocity 0.8c, whose proper length is 1 m, is:",
+    "question_gu": "The length of a rod moving with velocity 0.8c, whose proper length is 1 m, is:",
+    "options_en": [
+      "1 m",
+      "0.4 m",
+      "0.6 m",
+      "0.8 m"
+    ],
+    "options_gu": [
+      "1 m",
+      "0.4 m",
+      "0.6 m",
+      "0.8 m"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q10",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The unit of Lagrangian is the unit of:",
+    "question_gu": "The unit of Lagrangian is the unit of:",
+    "options_en": [
+      "energy",
+      "angular momentum",
+      "torque",
+      "force"
+    ],
+    "options_gu": [
+      "energy",
+      "angular momentum",
+      "torque",
+      "force"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q11",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which of the following suggests that the electrostatic field is conservative?",
+    "question_gu": "Which of the following suggests that the electrostatic field is conservative?",
+    "options_en": [
+      "∇·E=0",
+      "∇×E=0",
+      "∇·E=ρ/ε₀",
+      "∇²E=0"
+    ],
+    "options_gu": [
+      "∇·E=0",
+      "∇×E=0",
+      "∇·E=ρ/ε₀",
+      "∇²E=0"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q12",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "A point charge q is kept a vertical distance d from an infinite grounded conducting plane. Which is true?",
+    "question_gu": "A point charge q is kept a vertical distance d from an infinite grounded conducting plane. Which is true?",
+    "options_en": [
+      "The net charge on the sheet is −q",
+      "The electric field is not zero below the plane",
+      "The charge density on the plane is independent of d",
+      "There is no force between the plane and the point charge"
+    ],
+    "options_gu": [
+      "The net charge on the sheet is −q",
+      "The electric field is not zero below the plane",
+      "The charge density on the plane is independent of d",
+      "There is no force between the plane and the point charge"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q13",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "If relative permittivity of a non-magnetic material is ε, its refractive index is:",
+    "question_gu": "If relative permittivity of a non-magnetic material is ε, its refractive index is:",
+    "options_en": [
+      "1/√ε",
+      "1/ε",
+      "ε/2",
+      "√ε"
+    ],
+    "options_gu": [
+      "1/√ε",
+      "1/ε",
+      "ε/2",
+      "√ε"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q14",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "A negatively charged particle moves near a long straight current-carrying wire. The force is along the current direction if the charge moves:",
+    "question_gu": "A negatively charged particle moves near a long straight current-carrying wire. The force is along the current direction if the charge moves:",
+    "options_en": [
+      "towards the wire",
+      "away from the wire",
+      "in the same direction as current",
+      "opposite to current direction"
+    ],
+    "options_gu": [
+      "towards the wire",
+      "away from the wire",
+      "in the same direction as current",
+      "opposite to current direction"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q15",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The resonance frequency of an LCR circuit is:",
+    "question_gu": "The resonance frequency of an LCR circuit is:",
+    "options_en": [
+      "1/√LCR",
+      "1/√LC",
+      "1/LC",
+      "√LC"
+    ],
+    "options_gu": [
+      "1/√LCR",
+      "1/√LC",
+      "1/LC",
+      "√LC"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q16",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which experiment indicated the existence of electron spin?",
+    "question_gu": "Which experiment indicated the existence of electron spin?",
+    "options_en": [
+      "Photoelectric effect",
+      "Frank-Hertz experiment",
+      "Davisson-Germer experiment",
+      "Stern-Gerlach experiment"
+    ],
+    "options_gu": [
+      "Photoelectric effect",
+      "Frank-Hertz experiment",
+      "Davisson-Germer experiment",
+      "Stern-Gerlach experiment"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q17",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The total degeneracy of the state with principal quantum number n is:",
+    "question_gu": "The total degeneracy of the state with principal quantum number n is:",
+    "options_en": [
+      "n²",
+      "n−1",
+      "n",
+      "2n²"
+    ],
+    "options_gu": [
+      "n²",
+      "n−1",
+      "n",
+      "2n²"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q18",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which is an eigenfunction of the linear momentum operator describing a free particle moving in +x direction with definite momentum?",
+    "question_gu": "Which is an eigenfunction of the linear momentum operator describing a free particle moving in +x direction with definite momentum?",
+    "options_en": [
+      "cos kx",
+      "sin kx",
+      "e^(−ikx)",
+      "e^(ikx)"
+    ],
+    "options_gu": [
+      "cos kx",
+      "sin kx",
+      "e^(−ikx)",
+      "e^(ikx)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q19",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Parity of wave function is associated with:",
+    "question_gu": "Parity of wave function is associated with:",
+    "options_en": [
+      "space translation",
+      "space rotation",
+      "space inversion",
+      "space exchange of two particles"
+    ],
+    "options_gu": [
+      "space translation",
+      "space rotation",
+      "space inversion",
+      "space exchange of two particles"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q20",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which process involves tunnelling through a potential barrier?",
+    "question_gu": "Which process involves tunnelling through a potential barrier?",
+    "options_en": [
+      "α-decay",
+      "β-decay",
+      "γ-decay",
+      "pair production"
+    ],
+    "options_gu": [
+      "α-decay",
+      "β-decay",
+      "γ-decay",
+      "pair production"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q21",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The first law of thermodynamics is a statement of:",
+    "question_gu": "The first law of thermodynamics is a statement of:",
+    "options_en": [
+      "conservation of heat",
+      "conservation of work",
+      "conservation of momentum",
+      "conservation of energy"
+    ],
+    "options_gu": [
+      "conservation of heat",
+      "conservation of work",
+      "conservation of momentum",
+      "conservation of energy"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q22",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "An ideal black-body surface initially at room temperature is thrown into a furnace much hotter than room temperature. It is observed that:",
+    "question_gu": "An ideal black-body surface initially at room temperature is thrown into a furnace much hotter than room temperature. It is observed that:",
+    "options_en": [
+      "initially darkest and later brightest",
+      "darkest at all times",
+      "cannot be distinguished at all times",
+      "initially darkest and later cannot be distinguished"
+    ],
+    "options_gu": [
+      "initially darkest and later brightest",
+      "darkest at all times",
+      "cannot be distinguished at all times",
+      "initially darkest and later cannot be distinguished"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q23",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "For a canonical ensemble of N particles in contact with a heat reservoir at temperature T:",
+    "question_gu": "For a canonical ensemble of N particles in contact with a heat reservoir at temperature T:",
+    "options_en": [
+      "energy is constant",
+      "energy and number of particles are constant",
+      "energy and number can both vary",
+      "energy can vary but number is constant"
+    ],
+    "options_gu": [
+      "energy is constant",
+      "energy and number of particles are constant",
+      "energy and number can both vary",
+      "energy can vary but number is constant"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q24",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Three distinguishable particles have total energy 9ε and are distributed over energy states 0, ε, 2ε, 3ε, 4ε. Total number of microstates is:",
+    "question_gu": "Three distinguishable particles have total energy 9ε and are distributed over energy states 0, ε, 2ε, 3ε, 4ε. Total number of microstates is:",
+    "options_en": [
+      "3",
+      "1",
+      "10",
+      "6"
+    ],
+    "options_gu": [
+      "3",
+      "1",
+      "10",
+      "6"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q25",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "If de Broglie wavelength of helium atom at 300 K is 0.6×10⁻⁸ cm, wavelength of neon atom (5 times heavier) at 600 K is:",
+    "question_gu": "If de Broglie wavelength of helium atom at 300 K is 0.6×10⁻⁸ cm, wavelength of neon atom (5 times heavier) at 600 K is:",
+    "options_en": [
+      "6×10⁻⁸ cm",
+      "0.06×10⁻⁸ cm",
+      "0.6√10×10⁻⁸ cm",
+      "(0.6/√10)×10⁻⁸ cm"
+    ],
+    "options_gu": [
+      "6×10⁻⁸ cm",
+      "0.06×10⁻⁸ cm",
+      "0.6√10×10⁻⁸ cm",
+      "(0.6/√10)×10⁻⁸ cm"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q26",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "When negative feedback is applied to an amplifier, its gain-bandwidth product will:",
+    "question_gu": "When negative feedback is applied to an amplifier, its gain-bandwidth product will:",
+    "options_en": [
+      "reduce",
+      "increase",
+      "remain the same",
+      "become infinite"
+    ],
+    "options_gu": [
+      "reduce",
+      "increase",
+      "remain the same",
+      "become infinite"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q27",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "When a square wave is differentiated, the resulting output waveform is:",
+    "question_gu": "When a square wave is differentiated, the resulting output waveform is:",
+    "options_en": [
+      "sine-wave",
+      "triangle-wave",
+      "spikes at transition",
+      "cosine-wave"
+    ],
+    "options_gu": [
+      "sine-wave",
+      "triangle-wave",
+      "spikes at transition",
+      "cosine-wave"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q28",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which is the fastest light sensor?",
+    "question_gu": "Which is the fastest light sensor?",
+    "options_en": [
+      "p-i-n photodiode",
+      "photovoltaic diode",
+      "phototransistor",
+      "avalanche photodiode"
+    ],
+    "options_gu": [
+      "p-i-n photodiode",
+      "photovoltaic diode",
+      "phototransistor",
+      "avalanche photodiode"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q29",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The slew rate for a 741 op-amp is 0.5 V/μs. Maximum frequency of undistorted sine-wave output of +5 V to −5 V is:",
+    "question_gu": "The slew rate for a 741 op-amp is 0.5 V/μs. Maximum frequency of undistorted sine-wave output of +5 V to −5 V is:",
+    "options_en": [
+      "20 kHz",
+      "25 kHz",
+      "50 kHz",
+      "10 kHz"
+    ],
+    "options_gu": [
+      "20 kHz",
+      "25 kHz",
+      "50 kHz",
+      "10 kHz"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q30",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The 3-input K-map shown in the original paper has its 1-cells as depicted. What is its logical expression?",
+    "question_gu": "The 3-input K-map shown in the original paper has its 1-cells as depicted. What is its logical expression?",
+    "options_en": [
+      "AB+C",
+      "A̅BC + ABC + AB̅C",
+      "A⊕B⊕C",
+      "AB + AC + BC"
+    ],
+    "options_gu": [
+      "AB+C",
+      "A̅BC + ABC + AB̅C",
+      "A⊕B⊕C",
+      "AB + AC + BC"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q31",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "To measure temperature of an object above 4000 K, the most suitable method is:",
+    "question_gu": "To measure temperature of an object above 4000 K, the most suitable method is:",
+    "options_en": [
+      "thermocouple",
+      "optical pyrometer",
+      "resistance thermometer",
+      "gas thermometer based on Boyle’s law"
+    ],
+    "options_gu": [
+      "thermocouple",
+      "optical pyrometer",
+      "resistance thermometer",
+      "gas thermometer based on Boyle’s law"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q32",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "A 0–150 V voltmeter has guaranteed accuracy of 1% full-scale. If measured voltage is 60 V, limiting error in percent is:",
+    "question_gu": "A 0–150 V voltmeter has guaranteed accuracy of 1% full-scale. If measured voltage is 60 V, limiting error in percent is:",
+    "options_en": [
+      "1%",
+      "1.5%",
+      "2%",
+      "2.5%"
+    ],
+    "options_gu": [
+      "1%",
+      "1.5%",
+      "2%",
+      "2.5%"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q33",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "If a resonant LC circuit is fed square-wave signals of appropriate frequency through coupling resistance, output waveform is:",
+    "question_gu": "If a resonant LC circuit is fed square-wave signals of appropriate frequency through coupling resistance, output waveform is:",
+    "options_en": [
+      "triangular wave",
+      "square wave",
+      "sine wave",
+      "sawtooth wave"
+    ],
+    "options_gu": [
+      "triangular wave",
+      "square wave",
+      "sine wave",
+      "sawtooth wave"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q34",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Noise generated by movement of charge carriers as they cross a p-n junction or arrive at electrode surfaces is:",
+    "question_gu": "Noise generated by movement of charge carriers as they cross a p-n junction or arrive at electrode surfaces is:",
+    "options_en": [
+      "thermal noise",
+      "shot noise",
+      "flicker noise",
+      "environmental noise"
+    ],
+    "options_gu": [
+      "thermal noise",
+      "shot noise",
+      "flicker noise",
+      "environmental noise"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q35",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "A linear variable differential transformer is used to measure:",
+    "question_gu": "A linear variable differential transformer is used to measure:",
+    "options_en": [
+      "voltage fluctuations",
+      "distance",
+      "radio-frequency oscillations",
+      "angle"
+    ],
+    "options_gu": [
+      "voltage fluctuations",
+      "distance",
+      "radio-frequency oscillations",
+      "angle"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q36",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "For ground-state configuration 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹, which is true?",
+    "question_gu": "For ground-state configuration 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹, which is true?",
+    "options_en": [
+      "n=3 shell completely filled",
+      "electronic cloud is spherically symmetric",
+      "most loosely bound electron has l=4",
+      "most loosely bound electron is in K-shell"
+    ],
+    "options_gu": [
+      "n=3 shell completely filled",
+      "electronic cloud is spherically symmetric",
+      "most loosely bound electron has l=4",
+      "most loosely bound electron is in K-shell"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q37",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which represents Moseley’s law of X-ray spectra, where Z is atomic number and M is mass number?",
+    "question_gu": "Which represents Moseley’s law of X-ray spectra, where Z is atomic number and M is mass number?",
+    "options_en": [
+      "ν∝√Z",
+      "ν∝M",
+      "ν∝√Z (equivalent source relation)",
+      "ν∝√M"
+    ],
+    "options_gu": [
+      "ν∝√Z",
+      "ν∝M",
+      "ν∝√Z (equivalent source relation)",
+      "ν∝√M"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q38",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Rotational energy levels of a diatomic molecule lie in:",
+    "question_gu": "Rotational energy levels of a diatomic molecule lie in:",
+    "options_en": [
+      "infrared region",
+      "microwave region",
+      "visible region",
+      "X-ray region"
+    ],
+    "options_gu": [
+      "infrared region",
+      "microwave region",
+      "visible region",
+      "X-ray region"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q39",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which does not represent a laser system?",
+    "question_gu": "Which does not represent a laser system?",
+    "options_en": [
+      "CO₂",
+      "Hg",
+      "semiconductor",
+      "He-Ne"
+    ],
+    "options_gu": [
+      "CO₂",
+      "Hg",
+      "semiconductor",
+      "He-Ne"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q40",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which has the lowest ionization potential?",
+    "question_gu": "Which has the lowest ionization potential?",
+    "options_en": [
+      "²He⁴",
+      "⁷N¹⁴",
+      "⁵⁵Cs¹³³",
+      "⁸O¹⁶"
+    ],
+    "options_gu": [
+      "²He⁴",
+      "⁷N¹⁴",
+      "⁵⁵Cs¹³³",
+      "⁸O¹⁶"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q41",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The coordination number for the fcc lattice is:",
+    "question_gu": "The coordination number for the fcc lattice is:",
+    "options_en": [
+      "3",
+      "4",
+      "8",
+      "12"
+    ],
+    "options_gu": [
+      "3",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q42",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Thermal vibrations of atoms in crystals are responsible for producing:",
+    "question_gu": "Thermal vibrations of atoms in crystals are responsible for producing:",
+    "options_en": [
+      "photons",
+      "plasmons",
+      "phonons",
+      "magnons"
+    ],
+    "options_gu": [
+      "photons",
+      "plasmons",
+      "phonons",
+      "magnons"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q43",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "In n-type semiconductors the Fermi level lies:",
+    "question_gu": "In n-type semiconductors the Fermi level lies:",
+    "options_en": [
+      "above conduction band",
+      "below valence band",
+      "near conduction band",
+      "near valence band"
+    ],
+    "options_gu": [
+      "above conduction band",
+      "below valence band",
+      "near conduction band",
+      "near valence band"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C.",
+    "explanation_gu": "Official final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q44",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "In a paramagnetic material, nuclear magnetic moments of the nuclei are:",
+    "question_gu": "In a paramagnetic material, nuclear magnetic moments of the nuclei are:",
+    "options_en": [
+      "infinite",
+      "zero",
+      "more than those of electrons",
+      "less than those of electrons"
+    ],
+    "options_gu": [
+      "infinite",
+      "zero",
+      "more than those of electrons",
+      "less than those of electrons"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q45",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The value of the energy-gap parameter of a superconductor in its ground state is:",
+    "question_gu": "The value of the energy-gap parameter of a superconductor in its ground state is:",
+    "options_en": [
+      "zero",
+      "infinite",
+      "0.5 eV",
+      "1 eV"
+    ],
+    "options_gu": [
+      "zero",
+      "infinite",
+      "0.5 eV",
+      "1 eV"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q46",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The ratio of nuclear radii for ²⁶Fe⁵⁶ and ¹⁴Si²⁸ is approximately:",
+    "question_gu": "The ratio of nuclear radii for ²⁶Fe⁵⁶ and ¹⁴Si²⁸ is approximately:",
+    "options_en": [
+      "2",
+      "2^(1/2)",
+      "2^(1/3)",
+      "√(26/14)"
+    ],
+    "options_gu": [
+      "2",
+      "2^(1/2)",
+      "2^(1/3)",
+      "√(26/14)"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q47",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Very few stable nuclei have odd numbers of protons and neutrons. This manifests:",
+    "question_gu": "Very few stable nuclei have odd numbers of protons and neutrons. This manifests:",
+    "options_en": [
+      "charge independence of nuclear force",
+      "pairing nature of nuclear force",
+      "Coulomb force dominance",
+      "saturation property of nuclear force"
+    ],
+    "options_gu": [
+      "charge independence of nuclear force",
+      "pairing nature of nuclear force",
+      "Coulomb force dominance",
+      "saturation property of nuclear force"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q48",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Parity non-conservation is associated with:",
+    "question_gu": "Parity non-conservation is associated with:",
+    "options_en": [
+      "gravitational force",
+      "magnetic force",
+      "strong nuclear force",
+      "weak nuclear force"
+    ],
+    "options_gu": [
+      "gravitational force",
+      "magnetic force",
+      "strong nuclear force",
+      "weak nuclear force"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D.",
+    "explanation_gu": "Official final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q49",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "The ground-state spin and parity of ⁸O¹⁷ is:",
+    "question_gu": "The ground-state spin and parity of ⁸O¹⁷ is:",
+    "options_en": [
+      "1/2⁺",
+      "5/2⁺",
+      "5/2⁻",
+      "3/2⁻"
+    ],
+    "options_gu": [
+      "1/2⁺",
+      "5/2⁺",
+      "5/2⁻",
+      "3/2⁻"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B.",
+    "explanation_gu": "Official final answer: B.",
+    "review_flag": true,
+    "review_note": "Verify mathematical notation, nuclear notation, or figure against original scanned page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "physical_oct10_q50",
+    "paper_id": "physical_oct10",
+    "exam": "24th October 2010",
+    "question_en": "Which quark combination corresponds to a proton?",
+    "question_gu": "Which quark combination corresponds to a proton?",
+    "options_en": [
+      "uud",
+      "udd",
+      "uds",
+      "uuu"
+    ],
+    "options_gu": [
+      "uud",
+      "udd",
+      "uds",
+      "uuu"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A.",
+    "explanation_gu": "Official final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
   }
 ]
