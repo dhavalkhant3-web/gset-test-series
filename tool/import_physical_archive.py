@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 PAPERS = [
+    ("physical_jan02", "January 2002", "jan02", "jan0202", 50),
     ("physical_aug17", "August 2017", "aug17", "aug1702", 50),
     ("physical_sep18", "September 2018", "sept18", "sept1802", 100),
     ("physical_dec19", "December 2019", "dec19", "dec1902", 100),
