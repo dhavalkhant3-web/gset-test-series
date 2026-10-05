@@ -6408,5 +6408,1505 @@
     "tip_gu": "આ topicનું standard concept/formula વાપરો અને optionને official final key સાથે ચકાસો.",
     "source_verified": true,
     "source": "GSET official November 2025 Physical Sciences Paper-II and final answer key"
+  },
+  {
+    "id": "physical_jan02_q01",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Which of the following is not an eigenvalue of the matrix:\n[[i, -i, 0], [0, 1, i], [0, 0, -i]]?",
+    "question_gu": "Which of the following is not an eigenvalue of the matrix:\n[[i, -i, 0], [0, 1, i], [0, 0, -i]]?",
+    "options_en": [
+      "1",
+      "−i",
+      "+i",
+      "−1"
+    ],
+    "options_gu": [
+      "1",
+      "−i",
+      "+i",
+      "−1"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q02",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The sum, the difference and the cross product of two vectors A and B are all mutually perpendicular to one another, if:",
+    "question_gu": "The sum, the difference and the cross product of two vectors A and B are all mutually perpendicular to one another, if:",
+    "options_en": [
+      "A and B are perpendicular to each other with |A| = |B|",
+      "A and B are perpendicular to each other with |A| ≠ |B|",
+      "|A| = |B| and their directions are arbitrary",
+      "|A| = |B| and they make an angle of 60°"
+    ],
+    "options_gu": [
+      "A and B are perpendicular to each other with |A| = |B|",
+      "A and B are perpendicular to each other with |A| ≠ |B|",
+      "|A| = |B| and their directions are arbitrary",
+      "|A| = |B| and they make an angle of 60°"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q03",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "What is the magnitude and phase of the complex number defined by Σ(n=1 to 3)[cos(2πn/3) + i sin(2πn/3)]?",
+    "question_gu": "What is the magnitude and phase of the complex number defined by Σ(n=1 to 3)[cos(2πn/3) + i sin(2πn/3)]?",
+    "options_en": [
+      "3, 0°",
+      "√3, 120°",
+      "0, 0°",
+      "√3, 0°"
+    ],
+    "options_gu": [
+      "3, 0°",
+      "√3, 120°",
+      "0, 0°",
+      "√3, 0°"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q04",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The equation of motion for a body falling through atmosphere is m d²x/dt² + b dx/dt + mg = 0. Then, the terminal speed is given by:",
+    "question_gu": "The equation of motion for a body falling through atmosphere is m d²x/dt² + b dx/dt + mg = 0. Then, the terminal speed is given by:",
+    "options_en": [
+      "g/m",
+      "g/b",
+      "mg/b",
+      "g²/b"
+    ],
+    "options_gu": [
+      "g/m",
+      "g/b",
+      "mg/b",
+      "g²/b"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q05",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If A and B are vectors, then:",
+    "question_gu": "If A and B are vectors, then:",
+    "options_en": [
+      "A·(A×B) = A×(A·B)",
+      "A·(A×B) = (A×A)·B = 0",
+      "A·(A×B) = A×(A·B) = 0",
+      "A×(A×B) = A·(A·B) = 0"
+    ],
+    "options_gu": [
+      "A·(A×B) = A×(A·B)",
+      "A·(A×B) = (A×A)·B = 0",
+      "A·(A×B) = A×(A·B) = 0",
+      "A×(A×B) = A·(A·B) = 0"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q06",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If A is an antisymmetric matrix and Aᵀ is its transpose, which of the following is wrong?",
+    "question_gu": "If A is an antisymmetric matrix and Aᵀ is its transpose, which of the following is wrong?",
+    "options_en": [
+      "Aᵀ = −A",
+      "AAᵀ = AᵀA",
+      "A² is an antisymmetric matrix",
+      "A² is a symmetric matrix"
+    ],
+    "options_gu": [
+      "Aᵀ = −A",
+      "AAᵀ = AᵀA",
+      "A² is an antisymmetric matrix",
+      "A² is a symmetric matrix"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q07",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A particle is moving in a straight line along x = a (a ≠ 0) with constant velocity. The angular momentum of the particle about the origin:",
+    "question_gu": "A particle is moving in a straight line along x = a (a ≠ 0) with constant velocity. The angular momentum of the particle about the origin:",
+    "options_en": [
+      "cannot be defined",
+      "is zero",
+      "is nonzero but constant",
+      "is nonzero and varies with time"
+    ],
+    "options_gu": [
+      "cannot be defined",
+      "is zero",
+      "is nonzero but constant",
+      "is nonzero and varies with time"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q08",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Two particles of masses m₁ and m₂ move under the influence of gravitational field of each other. No external force is present. Which equation is correct, if A₁ and A₂ are the accelerations of the two masses?",
+    "question_gu": "Two particles of masses m₁ and m₂ move under the influence of gravitational field of each other. No external force is present. Which equation is correct, if A₁ and A₂ are the accelerations of the two masses?",
+    "options_en": [
+      "m₁A₁ + m₂A₂ = 0",
+      "A₁ = A₂",
+      "m₁A₁ = m₂A₂",
+      "A₁ = A₂ = 0"
+    ],
+    "options_gu": [
+      "m₁A₁ + m₂A₂ = 0",
+      "A₁ = A₂",
+      "m₁A₁ = m₂A₂",
+      "A₁ = A₂ = 0"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q09",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The Lagrangian defining the motion of a charged particle in an electromagnetic field with potentials φ and A is:",
+    "question_gu": "The Lagrangian defining the motion of a charged particle in an electromagnetic field with potentials φ and A is:",
+    "options_en": [
+      "(1/2)m r²(θ̇² + sin²θ φ̇²) − φ",
+      "(1/2)m(ṙ² + r²θ̇² + ż²) − φ",
+      "(1/2)m v² + qφ − (q/c)(A·v)",
+      "(1/2)m v² − qφ + (q/c)(A·v)"
+    ],
+    "options_gu": [
+      "(1/2)m r²(θ̇² + sin²θ φ̇²) − φ",
+      "(1/2)m(ṙ² + r²θ̇² + ż²) − φ",
+      "(1/2)m v² + qφ − (q/c)(A·v)",
+      "(1/2)m v² − qφ + (q/c)(A·v)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q10",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If qₖ is a cyclic co-ordinate, then:",
+    "question_gu": "If qₖ is a cyclic co-ordinate, then:",
+    "options_en": [
+      "H = H(q₁, q₂, …, qₙ, p₁, p₂, …, pₙ, t)",
+      "L = L(q₁, q₂, …, qₙ, q̇₁, q̇₂, …, q̇ₙ, t)",
+      "H = H(q₁, q₂, …, qₖ₋₁, qₖ₊₁, …, qₙ, p₁, p₂, …, pₖ₋₁, α, pₖ₊₁, …, pₙ, t)",
+      "L = L(q₁, q₂, …, qₙ, q̇₁, q̇₂, …, q̇ₖ₋₁, q̇ₖ, q̇ₖ₊₁, …, q̇ₙ, t)"
+    ],
+    "options_gu": [
+      "H = H(q₁, q₂, …, qₙ, p₁, p₂, …, pₙ, t)",
+      "L = L(q₁, q₂, …, qₙ, q̇₁, q̇₂, …, q̇ₙ, t)",
+      "H = H(q₁, q₂, …, qₖ₋₁, qₖ₊₁, …, qₙ, p₁, p₂, …, pₖ₋₁, α, pₖ₊₁, …, pₙ, t)",
+      "L = L(q₁, q₂, …, qₙ, q̇₁, q̇₂, …, q̇ₖ₋₁, q̇ₖ, q̇ₖ₊₁, …, q̇ₙ, t)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q11",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A satellite is orbiting earth in an elliptic orbit with maximum and minimum distances from the centre of earth as Lmax and Lmin, respectively. In order to make the satellite orbit circular with radius equal to Lmax, one has to provide thrust to the satellite. Which is a proper thrust?",
+    "question_gu": "A satellite is orbiting earth in an elliptic orbit with maximum and minimum distances from the centre of earth as Lmax and Lmin, respectively. In order to make the satellite orbit circular with radius equal to Lmax, one has to provide thrust to the satellite. Which is a proper thrust?",
+    "options_en": [
+      "retarding thrust when the satellite is at Lmax",
+      "retarding thrust when the satellite is at Lmin",
+      "accelerating thrust when the satellite is at Lmax",
+      "thrust in radial direction at Lmax"
+    ],
+    "options_gu": [
+      "retarding thrust when the satellite is at Lmax",
+      "retarding thrust when the satellite is at Lmin",
+      "accelerating thrust when the satellite is at Lmax",
+      "thrust in radial direction at Lmax"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q12",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The electrical energy obtained, ideally, by annihilation of 1 gm of matter is:",
+    "question_gu": "The electrical energy obtained, ideally, by annihilation of 1 gm of matter is:",
+    "options_en": [
+      "5.6 × 10³² eV",
+      "9.1 × 10²⁰ eV",
+      "5.5 × 10²⁰ J",
+      "9.1 × 10³² J"
+    ],
+    "options_gu": [
+      "5.6 × 10³² eV",
+      "9.1 × 10²⁰ eV",
+      "5.5 × 10²⁰ J",
+      "9.1 × 10³² J"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q13",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The dispersion relation of lattice waves in a one-dimensional solid can be expressed as ω = ω₀ sin(ka/2).",
+    "question_gu": "The dispersion relation of lattice waves in a one-dimensional solid can be expressed as ω = ω₀ sin(ka/2).",
+    "options_en": [
+      "The group velocity will be greater than phase velocity irrespective of wavelength",
+      "The group velocity will be equal to phase velocity for all wavelengths",
+      "The group velocity will be smaller than phase velocity for all wavelengths",
+      "The group velocity will be larger or smaller than phase velocity depending upon the wavelength"
+    ],
+    "options_gu": [
+      "The group velocity will be greater than phase velocity irrespective of wavelength",
+      "The group velocity will be equal to phase velocity for all wavelengths",
+      "The group velocity will be smaller than phase velocity for all wavelengths",
+      "The group velocity will be larger or smaller than phase velocity depending upon the wavelength"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q14",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A lightning strikes earth at x = 20 km. A car is moving on earth along X-axis with speed 0.6 times the speed of light. The car is found to be at the origin on earth at the same time as lightning, in earth’s frame. According to an observer in the car, the lightning struck the earth:",
+    "question_gu": "A lightning strikes earth at x = 20 km. A car is moving on earth along X-axis with speed 0.6 times the speed of light. The car is found to be at the origin on earth at the same time as lightning, in earth’s frame. According to an observer in the car, the lightning struck the earth:",
+    "options_en": [
+      "before he reached the origin on earth",
+      "after he passed the origin on earth",
+      "when he was at the origin on earth",
+      "the information given is incomplete to draw any conclusion"
+    ],
+    "options_gu": [
+      "before he reached the origin on earth",
+      "after he passed the origin on earth",
+      "when he was at the origin on earth",
+      "the information given is incomplete to draw any conclusion"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q15",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A rod of copper of length 1 metre moves with a speed 0.6 times the speed of light (γ = 1.25) c in +x direction, and a particle moves with speed 0.6 times the speed of light in −x direction, both in the same inertial frame S. How much time will the particle take to cross the rod in the same frame S?",
+    "question_gu": "A rod of copper of length 1 metre moves with a speed 0.6 times the speed of light (γ = 1.25) c in +x direction, and a particle moves with speed 0.6 times the speed of light in −x direction, both in the same inertial frame S. How much time will the particle take to cross the rod in the same frame S?",
+    "options_en": [
+      "1.36/(1.2 c)",
+      "1/[1.25(1.2 c)]",
+      "1.25/(1.2 c)",
+      "1.36/[1.25(1.2 c)]"
+    ],
+    "options_gu": [
+      "1.36/(1.2 c)",
+      "1/[1.25(1.2 c)]",
+      "1.25/(1.2 c)",
+      "1.36/[1.25(1.2 c)]"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q16",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Under Lorentz transformation, which is invariant?",
+    "question_gu": "Under Lorentz transformation, which is invariant?",
+    "options_en": [
+      "threshold photon energy in photoelectric effect",
+      "Poynting vector E × H of electromagnetic radiation from a star",
+      "Doppler shift",
+      "line element of energy-momentum four vector"
+    ],
+    "options_gu": [
+      "threshold photon energy in photoelectric effect",
+      "Poynting vector E × H of electromagnetic radiation from a star",
+      "Doppler shift",
+      "line element of energy-momentum four vector"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q17",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A charged particle with charge +q and velocity vₓ î + vᵧ ĵ (vₓ ≠ 0, vᵧ ≠ 0) enters a magnetic field k̂B. After entering the field:",
+    "question_gu": "A charged particle with charge +q and velocity vₓ î + vᵧ ĵ (vₓ ≠ 0, vᵧ ≠ 0) enters a magnetic field k̂B. After entering the field:",
+    "options_en": [
+      "both vₓ and vᵧ would remain constant",
+      "vₓ would change, but vᵧ remains constant",
+      "vᵧ would change, but vₓ remains constant",
+      "both vₓ and vᵧ would change"
+    ],
+    "options_gu": [
+      "both vₓ and vᵧ would remain constant",
+      "vₓ would change, but vᵧ remains constant",
+      "vᵧ would change, but vₓ remains constant",
+      "both vₓ and vᵧ would change"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q18",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A photon, an electron and a neutron have the same wavelength. If Eₚ is the energy of photon, and Eₑ and Eₙ are the kinetic energies of electron and neutron, respectively, then:",
+    "question_gu": "A photon, an electron and a neutron have the same wavelength. If Eₚ is the energy of photon, and Eₑ and Eₙ are the kinetic energies of electron and neutron, respectively, then:",
+    "options_en": [
+      "Eₚ > Eₑ > Eₙ",
+      "Eₙ > Eₑ > Eₚ",
+      "Eₑ > Eₙ > Eₚ",
+      "Eₚ > Eₙ > Eₑ"
+    ],
+    "options_gu": [
+      "Eₚ > Eₑ > Eₙ",
+      "Eₙ > Eₑ > Eₚ",
+      "Eₑ > Eₙ > Eₚ",
+      "Eₚ > Eₙ > Eₑ"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q19",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A constant, uniform current is flowing through a wire. At the surface, the Poynting vector is pointing:",
+    "question_gu": "A constant, uniform current is flowing through a wire. At the surface, the Poynting vector is pointing:",
+    "options_en": [
+      "along the direction of current",
+      "opposite to the direction of current",
+      "radially inside",
+      "radially outside"
+    ],
+    "options_gu": [
+      "along the direction of current",
+      "opposite to the direction of current",
+      "radially inside",
+      "radially outside"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q20",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Potential of a spherically symmetric charge distribution is given by V(r) = V₀/2 (3 − r²/R²), r < R; V(r) = V₀ R/r, r > R. The charge distribution ρ then can be described by:",
+    "question_gu": "Potential of a spherically symmetric charge distribution is given by V(r) = V₀/2 (3 − r²/R²), r < R; V(r) = V₀ R/r, r > R. The charge distribution ρ then can be described by:",
+    "options_en": [
+      "ρ = constant for r < R, ρ = 0 for r > R",
+      "ρ ∝ r for r < R, ρ ∝ 1/r for r > R",
+      "ρ = 0 for r < R, ρ = constant for r > R",
+      "ρ ∝ e^(−r/R) for all r"
+    ],
+    "options_gu": [
+      "ρ = constant for r < R, ρ = 0 for r > R",
+      "ρ ∝ r for r < R, ρ ∝ 1/r for r > R",
+      "ρ = 0 for r < R, ρ = constant for r > R",
+      "ρ ∝ e^(−r/R) for all r"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q21",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A uniform and constant magnetic field B is directed perpendicularly into the plane of the page everywhere within a rectangular region as shown. A wire circuit in the shape of a semicircle is uniformly rotated counterclockwise in the plane of the page about an axis at A. The axis is perpendicular to the page at the edge of the field, and is at the centre of straight line portion of the wire. The e.m.f. generated is best described by: [original figure on source page 7]",
+    "question_gu": "A uniform and constant magnetic field B is directed perpendicularly into the plane of the page everywhere within a rectangular region as shown. A wire circuit in the shape of a semicircle is uniformly rotated counterclockwise in the plane of the page about an axis at A. The axis is perpendicular to the page at the edge of the field, and is at the centre of straight line portion of the wire. The e.m.f. generated is best described by: [original figure on source page 7]",
+    "options_en": [
+      "triangular wave",
+      "sinusoidal wave",
+      "exponentially damped sinusoidal wave",
+      "square wave"
+    ],
+    "options_gu": [
+      "triangular wave",
+      "sinusoidal wave",
+      "exponentially damped sinusoidal wave",
+      "square wave"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": true,
+    "review_note": "Original figure/graph is present in the official source page but is not embedded in this JSON record; manual visual review required.",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": false,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q22",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "For a uniform plane e.m. wave propagating in free space, one observes characteristically that:",
+    "question_gu": "For a uniform plane e.m. wave propagating in free space, one observes characteristically that:",
+    "options_en": [
+      "the ratio (E/H) is equal to √μ₀/√ε₀ ohms",
+      "E and H are in phase",
+      "E and H bear a definite ratio, E/H = magnitude of energy flowing",
+      "E × H is perpendicular to the direction of propagation"
+    ],
+    "options_gu": [
+      "the ratio (E/H) is equal to √μ₀/√ε₀ ohms",
+      "E and H are in phase",
+      "E and H bear a definite ratio, E/H = magnitude of energy flowing",
+      "E × H is perpendicular to the direction of propagation"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q23",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A small current element dl metres long, carrying a current of 1 coulomb per second, produces at a distance of 1 metre from the element and perpendicular to it, a magnetic field given by:",
+    "question_gu": "A small current element dl metres long, carrying a current of 1 coulomb per second, produces at a distance of 1 metre from the element and perpendicular to it, a magnetic field given by:",
+    "options_en": [
+      "dl · μ₀/4π",
+      "1 T",
+      "dl · 3 × 10⁸ gauss",
+      "10⁻⁷ T"
+    ],
+    "options_gu": [
+      "dl · μ₀/4π",
+      "1 T",
+      "dl · 3 × 10⁸ gauss",
+      "10⁻⁷ T"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": true,
+    "review_note": "Official final answer key is D. The printed expression/options should be retained as source; manual review recommended because the direct Biot–Savart reading can suggest option A depending on interpretation of dl.",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": false,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q24",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If P is the polarisation vector and E the electric field, then the polarizability α defined by P = αE [P and E are not in the same direction] is:",
+    "question_gu": "If P is the polarisation vector and E the electric field, then the polarizability α defined by P = αE [P and E are not in the same direction] is:",
+    "options_en": [
+      "a scalar",
+      "a vector",
+      "a numerical constant",
+      "a tensor"
+    ],
+    "options_gu": [
+      "a scalar",
+      "a vector",
+      "a numerical constant",
+      "a tensor"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q25",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The intensity of radiation emitted by an isotropic dipole oscillating in X-direction is zero along:",
+    "question_gu": "The intensity of radiation emitted by an isotropic dipole oscillating in X-direction is zero along:",
+    "options_en": [
+      "X-direction",
+      "Y-direction",
+      "Z-direction",
+      "no direction"
+    ],
+    "options_gu": [
+      "X-direction",
+      "Y-direction",
+      "Z-direction",
+      "no direction"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q26",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The φ-dependence of wavefunction of a particle in central force field is given by e^(±imφ). Here m has to be an integer because of the requirement that:",
+    "question_gu": "The φ-dependence of wavefunction of a particle in central force field is given by e^(±imφ). Here m has to be an integer because of the requirement that:",
+    "options_en": [
+      "the wavefunction has to be continuous",
+      "derivative of the wavefunction has to be continuous",
+      "the wavefunction has to be single valued",
+      "the wavefunction has to be finite"
+    ],
+    "options_gu": [
+      "the wavefunction has to be continuous",
+      "derivative of the wavefunction has to be continuous",
+      "the wavefunction has to be single valued",
+      "the wavefunction has to be finite"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q27",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "At t = 0, a one-dimensional harmonic oscillator of angular frequency ω is in a state given by ψ(x,0) = 3/5 u₀(x) + 4/5 u₁(x), where u₀ and u₁ are the first two normalised eigenfunctions. The average energy of the oscillator is:",
+    "question_gu": "At t = 0, a one-dimensional harmonic oscillator of angular frequency ω is in a state given by ψ(x,0) = 3/5 u₀(x) + 4/5 u₁(x), where u₀ and u₁ are the first two normalised eigenfunctions. The average energy of the oscillator is:",
+    "options_en": [
+      "ℏω",
+      "2ℏω",
+      "1.14ℏω",
+      "1.4ℏω"
+    ],
+    "options_gu": [
+      "ℏω",
+      "2ℏω",
+      "1.14ℏω",
+      "1.4ℏω"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q28",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The following function cannot represent a correct wavefunction of a particle, because: ψ = A e^(x/x₀) for x < 0; ψ = A x₀/(x + x₀) for x > 0, x₀ > 0",
+    "question_gu": "The following function cannot represent a correct wavefunction of a particle, because: ψ = A e^(x/x₀) for x < 0; ψ = A x₀/(x + x₀) for x > 0, x₀ > 0",
+    "options_en": [
+      "it diverges at X = +∞",
+      "it diverges at X = −X₀",
+      "it is not continuous at X = 0",
+      "its derivative is not continuous at X = 0"
+    ],
+    "options_gu": [
+      "it diverges at X = +∞",
+      "it diverges at X = −X₀",
+      "it is not continuous at X = 0",
+      "its derivative is not continuous at X = 0"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q29",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A particle moves in an infinite square well V=0 for |x|<a and V=∞ for |x|>a. ψ₀, ψ₁,… are its energy eigenfunctions with ψ₀ the ground state. A small perturbing potential V′=ε for |x|<a/2 and V′=0 for |x|>a/2 is introduced. Then the new ground state wavefunction ψ′₀ is best described by:",
+    "question_gu": "A particle moves in an infinite square well V=0 for |x|<a and V=∞ for |x|>a. ψ₀, ψ₁,… are its energy eigenfunctions with ψ₀ the ground state. A small perturbing potential V′=ε for |x|<a/2 and V′=0 for |x|>a/2 is introduced. Then the new ground state wavefunction ψ′₀ is best described by:",
+    "options_en": [
+      "ψ′₀ = a₀₀ψ₀, a₀₀ ≠ 0",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ = 0 for all odd values of n",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ = 0 for all even values of n",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ ≠ 0 for all n"
+    ],
+    "options_gu": [
+      "ψ′₀ = a₀₀ψ₀, a₀₀ ≠ 0",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ = 0 for all odd values of n",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ = 0 for all even values of n",
+      "ψ′₀ = Σ(n=0 to ∞) a₀ₙψₙ with a₀ₙ ≠ 0 for all n"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q30",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If L₊ and L₋ are angular momentum ladder operators, then the value of the commutator [L₊, L₋] is:",
+    "question_gu": "If L₊ and L₋ are angular momentum ladder operators, then the value of the commutator [L₊, L₋] is:",
+    "options_en": [
+      "L₊² + L₋²",
+      "2ℏLz",
+      "L²",
+      "zero"
+    ],
+    "options_gu": [
+      "L₊² + L₋²",
+      "2ℏLz",
+      "L²",
+      "zero"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q31",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "For a finite well potential in three dimensions, V(r)=−V₀ for r<R, and V(r)=0 for r>R. Which of the following is true?",
+    "question_gu": "For a finite well potential in three dimensions, V(r)=−V₀ for r<R, and V(r)=0 for r>R. Which of the following is true?",
+    "options_en": [
+      "there always exists at least one bound state and it has angular momentum equal to zero",
+      "number of bound states are always infinite",
+      "it is possible that there exists no bound state for the problem",
+      "all bound states have angular momentum equal to zero"
+    ],
+    "options_gu": [
+      "there always exists at least one bound state and it has angular momentum equal to zero",
+      "number of bound states are always infinite",
+      "it is possible that there exists no bound state for the problem",
+      "all bound states have angular momentum equal to zero"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q32",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The degeneracy of the first excited state of a three-dimensional harmonic oscillator is:",
+    "question_gu": "The degeneracy of the first excited state of a three-dimensional harmonic oscillator is:",
+    "options_en": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "options_gu": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q33",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The potential described by V(x)=∞ for x<0; V(x)=1/2 kx² for x>0, then the ground state energy of a particle in terms of ω=√(k/m) is:",
+    "question_gu": "The potential described by V(x)=∞ for x<0; V(x)=1/2 kx² for x>0, then the ground state energy of a particle in terms of ω=√(k/m) is:",
+    "options_en": [
+      "1/2ℏω",
+      "ℏω",
+      "3/2ℏω",
+      "5/2ℏω"
+    ],
+    "options_gu": [
+      "1/2ℏω",
+      "ℏω",
+      "3/2ℏω",
+      "5/2ℏω"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q34",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A system containing two identical particles is described by a wavefunction of the form ψ = 1/√2 [ψα(x₁)ψβ(x₂) + ψβ(x₁)ψα(x₂)], where x₁ and x₂ represent spatial co-ordinates, and α₁ and α₂ represent all the quantum numbers including spin. The particles must be:",
+    "question_gu": "A system containing two identical particles is described by a wavefunction of the form ψ = 1/√2 [ψα(x₁)ψβ(x₂) + ψβ(x₁)ψα(x₂)], where x₁ and x₂ represent spatial co-ordinates, and α₁ and α₂ represent all the quantum numbers including spin. The particles must be:",
+    "options_en": [
+      "positrons",
+      "electrons",
+      "protons",
+      "α-particles"
+    ],
+    "options_gu": [
+      "positrons",
+      "electrons",
+      "protons",
+      "α-particles"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q35",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A particle of mass 10⁻²⁷ kg moving with speed 10⁷ m/s in +X direction encounters a slit of width 1 Å in Y-direction. According to the Uncertainty Principle, it could acquire a velocity in Y-direction which is of the order of (take ℏ ~ 10⁻³⁴ J·s):",
+    "question_gu": "A particle of mass 10⁻²⁷ kg moving with speed 10⁷ m/s in +X direction encounters a slit of width 1 Å in Y-direction. According to the Uncertainty Principle, it could acquire a velocity in Y-direction which is of the order of (take ℏ ~ 10⁻³⁴ J·s):",
+    "options_en": [
+      "10⁻³ m/s",
+      "1 m/s",
+      "10³ m/s",
+      "10⁶ m/s"
+    ],
+    "options_gu": [
+      "10⁻³ m/s",
+      "1 m/s",
+      "10³ m/s",
+      "10⁶ m/s"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q36",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "In a first order phase transition:",
+    "question_gu": "In a first order phase transition:",
+    "options_en": [
+      "chemical potential and its first derivative are continuous",
+      "chemical potential is continuous while its first derivative is discontinuous",
+      "chemical potential is discontinuous while its first derivative is continuous",
+      "chemical potential and its second derivative are discontinuous"
+    ],
+    "options_gu": [
+      "chemical potential and its first derivative are continuous",
+      "chemical potential is continuous while its first derivative is discontinuous",
+      "chemical potential is discontinuous while its first derivative is continuous",
+      "chemical potential and its second derivative are discontinuous"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q37",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "³He and ⁴He:",
+    "question_gu": "³He and ⁴He:",
+    "options_en": [
+      "both obey Fermi-Dirac statistics",
+      "³He obeys BE statistics, while ⁴He obeys FD statistics",
+      "both obey Bose-Einstein statistics",
+      "³He obeys FD statistics, while ⁴He obeys BE statistics"
+    ],
+    "options_gu": [
+      "both obey Fermi-Dirac statistics",
+      "³He obeys BE statistics, while ⁴He obeys FD statistics",
+      "both obey Bose-Einstein statistics",
+      "³He obeys FD statistics, while ⁴He obeys BE statistics"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q38",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The energy equation for a fluid, viz., dU = T dS − p dV, results that:",
+    "question_gu": "The energy equation for a fluid, viz., dU = T dS − p dV, results that:",
+    "options_en": [
+      "the equilibrium state need not be characterised by minimal dU",
+      "the internal energy is only a function of entropy S and volume V",
+      "a fluid can be transported, quasi-statically, since dH = dU + p dV",
+      "(∂T/∂V)S = −(∂p/∂S)V"
+    ],
+    "options_gu": [
+      "the equilibrium state need not be characterised by minimal dU",
+      "the internal energy is only a function of entropy S and volume V",
+      "a fluid can be transported, quasi-statically, since dH = dU + p dV",
+      "(∂T/∂V)S = −(∂p/∂S)V"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q39",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If the temperature of a black body is doubled, the total energy radiated would increase by a factor of:",
+    "question_gu": "If the temperature of a black body is doubled, the total energy radiated would increase by a factor of:",
+    "options_en": [
+      "32",
+      "16",
+      "8",
+      "4"
+    ],
+    "options_gu": [
+      "32",
+      "16",
+      "8",
+      "4"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q40",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If Debye temperature of solid A is twice that of solid B, the ratio of lattice specific heats C_VA/C_VB at low temperatures, assuming Debye’s theory, would be given by:",
+    "question_gu": "If Debye temperature of solid A is twice that of solid B, the ratio of lattice specific heats C_VA/C_VB at low temperatures, assuming Debye’s theory, would be given by:",
+    "options_en": [
+      "8",
+      "1/8",
+      "4",
+      "1/4"
+    ],
+    "options_gu": [
+      "8",
+      "1/8",
+      "4",
+      "1/4"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q41",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Which one of the following statements is true?",
+    "question_gu": "Which one of the following statements is true?",
+    "options_en": [
+      "Both Einstein and Debye models give C_V → 3R at high temperatures",
+      "Both Einstein and Debye models give C_V ∝ T³ at low temperatures",
+      "In Einstein’s model C_V ∝ T³ at low temperatures but not so in Debye’s model",
+      "In Debye’s model C_V → 3R at high temperatures but not so in Einstein’s"
+    ],
+    "options_gu": [
+      "Both Einstein and Debye models give C_V → 3R at high temperatures",
+      "Both Einstein and Debye models give C_V ∝ T³ at low temperatures",
+      "In Einstein’s model C_V ∝ T³ at low temperatures but not so in Debye’s model",
+      "In Debye’s model C_V → 3R at high temperatures but not so in Einstein’s"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q42",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A system consisting of N₀ subsystems is in thermal equilibrium at temperature T. The system can exist only in two energy states E₁ and E₂. If N₀ is very large and (E₂−E₁)=ε>0, then the average number of systems in the state of energy E₁ is given by:",
+    "question_gu": "A system consisting of N₀ subsystems is in thermal equilibrium at temperature T. The system can exist only in two energy states E₁ and E₂. If N₀ is very large and (E₂−E₁)=ε>0, then the average number of systems in the state of energy E₁ is given by:",
+    "options_en": [
+      "1/2 N₀",
+      "N₀/(1 + e^(−ε/kT))",
+      "N₀ e^(−ε/kT)",
+      "1/2 N₀ e^(−ε/kT)"
+    ],
+    "options_gu": [
+      "1/2 N₀",
+      "N₀/(1 + e^(−ε/kT))",
+      "N₀ e^(−ε/kT)",
+      "1/2 N₀ e^(−ε/kT)"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q43",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The Hall coefficient for metals is always:",
+    "question_gu": "The Hall coefficient for metals is always:",
+    "options_en": [
+      "negative",
+      "positive",
+      "independent of mobility of charge carriers",
+      "dependent on the concentration of charge carriers"
+    ],
+    "options_gu": [
+      "negative",
+      "positive",
+      "independent of mobility of charge carriers",
+      "dependent on the concentration of charge carriers"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q44",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The temperature of liquid hydrogen can be measured by:",
+    "question_gu": "The temperature of liquid hydrogen can be measured by:",
+    "options_en": [
+      "thermocouple",
+      "optical pyrometer",
+      "vapour pressure thermometer",
+      "bolometer"
+    ],
+    "options_gu": [
+      "thermocouple",
+      "optical pyrometer",
+      "vapour pressure thermometer",
+      "bolometer"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q45",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "A photomultiplier tube works on:",
+    "question_gu": "A photomultiplier tube works on:",
+    "options_en": [
+      "emission of secondary electrons",
+      "emission of photons",
+      "emission of photoelectrons",
+      "emission of secondary photons"
+    ],
+    "options_gu": [
+      "emission of secondary electrons",
+      "emission of photons",
+      "emission of photoelectrons",
+      "emission of secondary photons"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q46",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "In experiments on diffraction by solids, the energy of particles involved is 0.1 eV. This refers to:",
+    "question_gu": "In experiments on diffraction by solids, the energy of particles involved is 0.1 eV. This refers to:",
+    "options_en": [
+      "X-ray diffraction",
+      "electron diffraction",
+      "neutron diffraction",
+      "optical diffraction"
+    ],
+    "options_gu": [
+      "X-ray diffraction",
+      "electron diffraction",
+      "neutron diffraction",
+      "optical diffraction"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q47",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "Which one of the following equations best represents the above curve C? [original graph on source page 12: straight line on log y versus log x axes]",
+    "question_gu": "Which one of the following equations best represents the above curve C? [original graph on source page 12: straight line on log y versus log x axes]",
+    "options_en": [
+      "xy = a",
+      "y = ax^m",
+      "y = ax² + b",
+      "y = e^x + a"
+    ],
+    "options_gu": [
+      "xy = a",
+      "y = ax^m",
+      "y = ax² + b",
+      "y = e^x + a"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": true,
+    "review_note": "Original figure/graph is present in the official source page but is not embedded in this JSON record; manual visual review required.",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": false,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q48",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "If length can be measured with an accuracy of ±1 percent, with what accuracy the volume of a cube can be measured?",
+    "question_gu": "If length can be measured with an accuracy of ±1 percent, with what accuracy the volume of a cube can be measured?",
+    "options_en": [
+      "±6%",
+      "±3%",
+      "±2%",
+      "±1%"
+    ],
+    "options_gu": [
+      "±6%",
+      "±3%",
+      "±2%",
+      "±1%"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q49",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "The signal e(t) = −5 sin 2π·500t can be sampled without aliasing error by a sampling frequency given by:",
+    "question_gu": "The signal e(t) = −5 sin 2π·500t can be sampled without aliasing error by a sampling frequency given by:",
+    "options_en": [
+      "5000 Hz",
+      "500 Hz",
+      "600 Hz",
+      "900 Hz"
+    ],
+    "options_gu": [
+      "5000 Hz",
+      "500 Hz",
+      "600 Hz",
+      "900 Hz"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jan02_q50",
+    "paper_id": "physical_jan02",
+    "exam": "January 2002",
+    "question_en": "In oil rotary pump for low vacuum, the oil primarily serves:",
+    "question_gu": "In oil rotary pump for low vacuum, the oil primarily serves:",
+    "options_en": [
+      "as a lubricant",
+      "to isolate rotating and stationary members of the pump",
+      "to discharge the exhaust against atmospheric pressure",
+      "to prevent air from leaking back into the pump side"
+    ],
+    "options_gu": [
+      "as a lubricant",
+      "to isolate rotating and stationary members of the pump",
+      "to discharge the exhaust against atmospheric pressure",
+      "to prevent air from leaking back into the pump side"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
   }
 ]
