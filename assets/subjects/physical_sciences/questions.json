@@ -12432,12 +12432,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q02",
@@ -12462,12 +12463,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q03",
@@ -12492,12 +12494,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q04",
@@ -12527,7 +12530,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q05",
@@ -12547,17 +12551,18 @@
       "∂²/∂x² + ∂²/∂y² + ∂²/∂z² + (1/c²)∂²/∂t²",
       "∂²/∂x² + ∂²/∂y² + ∂²/∂z²"
     ],
-    "answer": "B",
+    "answer": "C",
     "topic": "Physical Sciences — GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_note": "Official final key gives C, while the printed Lorentz-invariant d'Alembertian expression appears as option B in the scanned question paper. Per project rule, official key is retained; manual review required.",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q06",
@@ -12582,12 +12587,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q07",
@@ -12612,12 +12618,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q08",
@@ -12647,7 +12654,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q09",
@@ -12677,7 +12685,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q10",
@@ -12702,12 +12711,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q11",
@@ -12732,12 +12742,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q12",
@@ -12762,12 +12773,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q13",
@@ -12797,7 +12809,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q14",
@@ -12827,7 +12840,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q15",
@@ -12852,46 +12866,44 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q16",
     "paper_id": "physical_jul06",
     "exam": "July 2006",
-    "question_en": "Listed below are Maxwell's equations of electromagnetism. If magnetic poles exist, which of the equations would need modification?",
-    "question_gu": "Listed below are Maxwell's equations of electromagnetism. If magnetic poles exist, which of the equations would need modification?",
+    "question_en": "Listed below are Maxwell's equations of electromagnetism. If the magnetic poles exist, which of the equations would need modifications?",
+    "question_gu": "Listed below are Maxwell's equations of electromagnetism. If the magnetic poles exist, which of the equations would need modifications?",
     "options_en": [
-      "(i) curl H = J + ∂D/∂t",
-      "(ii) curl E = −∂B/∂t",
-      "(iii) div D = ρ",
-      "(iv) div B = 0",
-      "(v) curl E = ∂B/∂t",
-      "(vi) div B = 0"
+      "(iv) only",
+      "(i) & (ii)",
+      "(ii) & (iv)",
+      "(iii) & (iv)"
     ],
     "options_gu": [
-      "(i) curl H = J + ∂D/∂t",
-      "(ii) curl E = −∂B/∂t",
-      "(iii) div D = ρ",
-      "(iv) div B = 0",
-      "(v) curl E = ∂B/∂t",
-      "(vi) div B = 0"
+      "(iv) only",
+      "(i) & (ii)",
+      "(ii) & (iv)",
+      "(iii) & (iv)"
     ],
-    "answer": "D",
+    "answer": "C",
     "topic": "Physical Sciences — GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q17",
@@ -12921,37 +12933,39 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q18",
     "paper_id": "physical_jul06",
     "exam": "July 2006",
-    "question_en": "The value of [L_z, x] is:",
-    "question_gu": "The value of [L_z, x] is:",
+    "question_en": "The value of [L_z, y] is",
+    "question_gu": "The value of [L_z, y] is",
     "options_en": [
       "−iℏx",
       "iℏx",
-      "−iℏL_z",
-      "iℏL_z"
+      "−iℏL_x",
+      "iℏL_x"
     ],
     "options_gu": [
       "−iℏx",
       "iℏx",
-      "−iℏL_z",
-      "iℏL_z"
+      "−iℏL_x",
+      "iℏL_x"
     ],
     "answer": "A",
     "topic": "Physical Sciences — GSET Paper-II",
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q19",
@@ -12976,12 +12990,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q20",
@@ -13006,12 +13021,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q21",
@@ -13036,12 +13052,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q22",
@@ -13066,12 +13083,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q23",
@@ -13096,12 +13114,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q24",
@@ -13126,12 +13145,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q25",
@@ -13156,12 +13176,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q26",
@@ -13191,7 +13212,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q27",
@@ -13221,7 +13243,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q28",
@@ -13246,12 +13269,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q29",
@@ -13281,7 +13305,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q30",
@@ -13306,12 +13331,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q31",
@@ -13336,12 +13362,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q32",
@@ -13366,12 +13393,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q33",
@@ -13396,12 +13424,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q34",
@@ -13427,11 +13456,12 @@
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_note": "Official final key gives A, while the printed statistical-counting options make C (six) appear physically expected. Per project rule, official key is retained; manual review required.",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q35",
@@ -13456,12 +13486,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q36",
@@ -13486,12 +13517,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q37",
@@ -13521,7 +13553,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q38",
@@ -13546,12 +13579,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q39",
@@ -13576,12 +13610,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q40",
@@ -13611,7 +13646,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q41",
@@ -13641,7 +13677,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q42",
@@ -13666,12 +13703,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q43",
@@ -13701,7 +13739,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q44",
@@ -13731,7 +13770,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q45",
@@ -13757,11 +13797,12 @@
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_note": "Official final key gives C, while the printed relation in the scanned question paper appears inconsistent with the standard c = 1/√(μ₀ε₀) relation. Per project rule, official key is retained; manual review required.",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q46",
@@ -13786,12 +13827,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q47",
@@ -13821,7 +13863,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q48",
@@ -13846,12 +13889,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q49",
@@ -13881,7 +13925,8 @@
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
     "source_verified": true,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_jul06_q50",
@@ -13906,12 +13951,13 @@
     "difficulty": "Medium",
     "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
     "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
-    "review_flag": true,
-    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
     "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+    "source_verified": true,
+    "source": "GSET official July 2006 Physical Sciences Paper-II question paper and final answer key",
+    "question_source_verified": true
   },
   {
     "id": "physical_dec08_q01",
