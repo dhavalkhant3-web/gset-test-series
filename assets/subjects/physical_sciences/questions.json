@@ -18278,5 +18278,1505 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": false
+  },
+  {
+    "id": "physical_sep13_q01",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The dimension of the subspace spanned by the 6 real vectors represented by corresponding four components column matrices is :",
+    "question_gu": "The dimension of the subspace spanned by the 6 real vectors represented by corresponding four components column matrices is :",
+    "options_en": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "options_gu": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q02",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The trace of the 10 × 10 unit matrix is :",
+    "question_gu": "The trace of the 10 × 10 unit matrix is :",
+    "options_en": [
+      "10",
+      "100",
+      "0",
+      "5"
+    ],
+    "options_gu": [
+      "10",
+      "100",
+      "0",
+      "5"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q03",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The Laplace transform of ‘1’ is :",
+    "question_gu": "The Laplace transform of ‘1’ is :",
+    "options_en": [
+      "1",
+      "0",
+      "s",
+      "1/s"
+    ],
+    "options_gu": [
+      "1",
+      "0",
+      "s",
+      "1/s"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q04",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Hermite functions are useful in the study of :",
+    "question_gu": "Hermite functions are useful in the study of :",
+    "options_en": [
+      "Electrostatic problems involving multipolar charge distribution",
+      "Hydrogen atom in quantum mechanics",
+      "Linear harmonic oscillator in quantum mechanics",
+      "Periodic potential problem in crystalline solids"
+    ],
+    "options_gu": [
+      "Electrostatic problems involving multipolar charge distribution",
+      "Hydrogen atom in quantum mechanics",
+      "Linear harmonic oscillator in quantum mechanics",
+      "Periodic potential problem in crystalline solids"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q05",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "If a coin is tossed 6 times in succession, the probability of getting at least one head is :",
+    "question_gu": "If a coin is tossed 6 times in succession, the probability of getting at least one head is :",
+    "options_en": [
+      "1/64",
+      "3/32",
+      "1/2",
+      "63/64"
+    ],
+    "options_gu": [
+      "1/64",
+      "3/32",
+      "1/2",
+      "63/64"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q06",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The order of the differential equation for displacement representing Newton’s second law of motion is :",
+    "question_gu": "The order of the differential equation for displacement representing Newton’s second law of motion is :",
+    "options_en": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "options_gu": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q07",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The degrees of freedom of 8 particles lying on a plane are :",
+    "question_gu": "The degrees of freedom of 8 particles lying on a plane are :",
+    "options_en": [
+      "16",
+      "8",
+      "64",
+      "24"
+    ],
+    "options_gu": [
+      "16",
+      "8",
+      "64",
+      "24"
+    ],
+    "answer": "A",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q08",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The Hamiltonian of the mass ‘m’ executing simple harmonic motion in one dimension can be given as :",
+    "question_gu": "The Hamiltonian of the mass ‘m’ executing simple harmonic motion in one dimension can be given as :",
+    "options_en": [
+      "p²/(2m)",
+      "p²/(2m) + (1/2)kx²",
+      "p²/(2m) − (1/2)kx²",
+      "(1/2)kx²"
+    ],
+    "options_gu": [
+      "p²/(2m)",
+      "p²/(2m) + (1/2)kx²",
+      "p²/(2m) − (1/2)kx²",
+      "(1/2)kx²"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q09",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "According to special theory of relativity, the length of the rod in motion varies as L = L₀√(1 − v²/c²). Therefore, the length of the rod appears to an observer.",
+    "question_gu": "According to special theory of relativity, the length of the rod in motion varies as L = L₀√(1 − v²/c²). Therefore, the length of the rod appears to an observer.",
+    "options_en": [
+      "Shorter",
+      "Longer",
+      "Unchanged",
+      "Infinite"
+    ],
+    "options_gu": [
+      "Shorter",
+      "Longer",
+      "Unchanged",
+      "Infinite"
+    ],
+    "answer": "A",
+    "topic": "Relativity",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q10",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Considering three-dimensional case of a rigid body rotation the number of Euler’s angles are :",
+    "question_gu": "Considering three-dimensional case of a rigid body rotation the number of Euler’s angles are :",
+    "options_en": [
+      "2",
+      "6",
+      "3",
+      "9"
+    ],
+    "options_gu": [
+      "2",
+      "6",
+      "3",
+      "9"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q11",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel to each other, the path of the particle is a :",
+    "question_gu": "A particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel to each other, the path of the particle is a :",
+    "options_en": [
+      "circle",
+      "parabola",
+      "straight line",
+      "helix"
+    ],
+    "options_gu": [
+      "circle",
+      "parabola",
+      "straight line",
+      "helix"
+    ],
+    "answer": "C",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q12",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A cube has a constant electric potential V on its surface. If there are no charges inside the cube, the potential at the center of the cube is :",
+    "question_gu": "A cube has a constant electric potential V on its surface. If there are no charges inside the cube, the potential at the center of the cube is :",
+    "options_en": [
+      "zero",
+      "V",
+      "V/6",
+      "V/2"
+    ],
+    "options_gu": [
+      "zero",
+      "V",
+      "V/6",
+      "V/2"
+    ],
+    "answer": "B",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q13",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The power radiated by a charge that is being accelerated is :",
+    "question_gu": "The power radiated by a charge that is being accelerated is :",
+    "options_en": [
+      "in the direction of acceleration",
+      "in the direction opposite to that of the acceleration",
+      "in a donut (toroidal shape) perpendicular about the direction of acceleration",
+      "distributed uniformly on a sphere around the position of the charge"
+    ],
+    "options_gu": [
+      "in the direction of acceleration",
+      "in the direction opposite to that of the acceleration",
+      "in a donut (toroidal shape) perpendicular about the direction of acceleration",
+      "distributed uniformly on a sphere around the position of the charge"
+    ],
+    "answer": "C",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q14",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "E⃗/B⃗ has the dimension of :",
+    "question_gu": "E⃗/B⃗ has the dimension of :",
+    "options_en": [
+      "Velocity",
+      "Charge density",
+      "Force",
+      "Energy"
+    ],
+    "options_gu": [
+      "Velocity",
+      "Charge density",
+      "Force",
+      "Energy"
+    ],
+    "answer": "A",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q15",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Listed below are the Maxwell’s equations of electromagnetism. If the magnetic monopoles exist, which of these equations have to be modified? (I) curl H⃗ = J⃗ + ∂D⃗/∂t; (II) curl E⃗ = −∂B⃗/∂t; (III) div D⃗ = ρ; (IV) div B⃗ = 0",
+    "question_gu": "Listed below are the Maxwell’s equations of electromagnetism. If the magnetic monopoles exist, which of these equations have to be modified? (I) curl H⃗ = J⃗ + ∂D⃗/∂t; (II) curl E⃗ = −∂B⃗/∂t; (III) div D⃗ = ρ; (IV) div B⃗ = 0",
+    "options_en": [
+      "(IV) only",
+      "(I) and (III)",
+      "(III) and (IV)",
+      "(II) and (IV)"
+    ],
+    "options_gu": [
+      "(IV) only",
+      "(I) and (III)",
+      "(III) and (IV)",
+      "(II) and (IV)"
+    ],
+    "answer": "D",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q16",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The plot of the eigenfunction of the linear harmonic oscillator is given below. Corresponding eigenvalue is :",
+    "question_gu": "The plot of the eigenfunction of the linear harmonic oscillator is given below. Corresponding eigenvalue is :",
+    "options_en": [
+      "5 ħω",
+      "4 ħω",
+      "9/2 ħω",
+      "11/2 ħω"
+    ],
+    "options_gu": [
+      "5 ħω",
+      "4 ħω",
+      "9/2 ħω",
+      "11/2 ħω"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q17",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The commutator bracket [x, d/dx] is equal to :",
+    "question_gu": "The commutator bracket [x, d/dx] is equal to :",
+    "options_en": [
+      "−1",
+      "1",
+      "zero",
+      "none of these"
+    ],
+    "options_gu": [
+      "−1",
+      "1",
+      "zero",
+      "none of these"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q18",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A one-dimensional harmonic oscillator is in the state ψ(x) = (1/√14)[3ψ₀(x) − 2ψ₁(x) + ψ₂(x)] where ψ₀(x), ψ₁(x) and ψ₂(x) are the wave functions of ground, first and second excited states respectively. The probability of finding the oscillator in the first excited state is :",
+    "question_gu": "A one-dimensional harmonic oscillator is in the state ψ(x) = (1/√14)[3ψ₀(x) − 2ψ₁(x) + ψ₂(x)] where ψ₀(x), ψ₁(x) and ψ₂(x) are the wave functions of ground, first and second excited states respectively. The probability of finding the oscillator in the first excited state is :",
+    "options_en": [
+      "4/14",
+      "1/14",
+      "2/7",
+      "3/7"
+    ],
+    "options_gu": [
+      "4/14",
+      "1/14",
+      "2/7",
+      "3/7"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q19",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Which of the following is not fermion ?",
+    "question_gu": "Which of the following is not fermion ?",
+    "options_en": [
+      "A photon",
+      "An electron",
+      "A neutron",
+      "A muon"
+    ],
+    "options_gu": [
+      "A photon",
+      "An electron",
+      "A neutron",
+      "A muon"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q20",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The angular momentum operators Lx, Ly and Lz are :",
+    "question_gu": "The angular momentum operators Lx, Ly and Lz are :",
+    "options_en": [
+      "Non-hermitian",
+      "Hermitian",
+      "Parity operator",
+      "Unitary"
+    ],
+    "options_gu": [
+      "Non-hermitian",
+      "Hermitian",
+      "Parity operator",
+      "Unitary"
+    ],
+    "answer": "B",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q21",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The combination of first and second law of thermodynamics is given by :",
+    "question_gu": "The combination of first and second law of thermodynamics is given by :",
+    "options_en": [
+      "TdS = dU + PdV",
+      "dQ = TdS + PdV",
+      "dU = TdS + dQ",
+      "TdS = dU − PdV"
+    ],
+    "options_gu": [
+      "TdS = dU + PdV",
+      "dQ = TdS + PdV",
+      "dU = TdS + dQ",
+      "TdS = dU − PdV"
+    ],
+    "answer": "A",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q22",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The work done W during the isothermal process in which the one mole of ideal gas expands from initial volume V₁ to the final volume V₂ is given by :",
+    "question_gu": "The work done W during the isothermal process in which the one mole of ideal gas expands from initial volume V₁ to the final volume V₂ is given by :",
+    "options_en": [
+      "RT log(V₂/V₁)",
+      "RT log(V₁/V₂)",
+      "RT log((V₂/V₁)²)",
+      "RT log((V₁/V₂)²)"
+    ],
+    "options_gu": [
+      "RT log(V₂/V₁)",
+      "RT log(V₁/V₂)",
+      "RT log((V₂/V₁)²)",
+      "RT log((V₁/V₂)²)"
+    ],
+    "answer": "A",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q23",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Which of the following represents enthalpy ?",
+    "question_gu": "Which of the following represents enthalpy ?",
+    "options_en": [
+      "E",
+      "E + PV",
+      "E − TS",
+      "E = TS + PV"
+    ],
+    "options_gu": [
+      "E",
+      "E + PV",
+      "E − TS",
+      "E = TS + PV"
+    ],
+    "answer": "B",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q24",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "In a case of a monatomic ideal gas containing N molecules the specific heat at constant volume Cv of a gas at temperature T is :",
+    "question_gu": "In a case of a monatomic ideal gas containing N molecules the specific heat at constant volume Cv of a gas at temperature T is :",
+    "options_en": [
+      "(1/2) Nk",
+      "Nk",
+      "2 Nk",
+      "(3/2) Nk"
+    ],
+    "options_gu": [
+      "(1/2) Nk",
+      "Nk",
+      "2 Nk",
+      "(3/2) Nk"
+    ],
+    "answer": "D",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q25",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Probability of occupation of state EF at any T by electron in FD statistics is :",
+    "question_gu": "Probability of occupation of state EF at any T by electron in FD statistics is :",
+    "options_en": [
+      "0",
+      "1/2",
+      "1",
+      "∞"
+    ],
+    "options_gu": [
+      "0",
+      "1/2",
+      "1",
+      "∞"
+    ],
+    "answer": "B",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q26",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "PN junction diodes are used in power supply to :",
+    "question_gu": "PN junction diodes are used in power supply to :",
+    "options_en": [
+      "Filter AC",
+      "Rectify AC",
+      "Modulate AC",
+      "Differentiate AC"
+    ],
+    "options_gu": [
+      "Filter AC",
+      "Rectify AC",
+      "Modulate AC",
+      "Differentiate AC"
+    ],
+    "answer": "B",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q27",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "In a Zener diode the voltage limiting occurs at :",
+    "question_gu": "In a Zener diode the voltage limiting occurs at :",
+    "options_en": [
+      "Forward knee voltage",
+      "Reverse high voltage",
+      "Breakdown voltage",
+      "Cut-in voltage"
+    ],
+    "options_gu": [
+      "Forward knee voltage",
+      "Reverse high voltage",
+      "Breakdown voltage",
+      "Cut-in voltage"
+    ],
+    "answer": "C",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q28",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "In a non-inverting amplifier, if the value of feedback resistor is zero, the resulting configuration is called :",
+    "question_gu": "In a non-inverting amplifier, if the value of feedback resistor is zero, the resulting configuration is called :",
+    "options_en": [
+      "Inverting amplifier",
+      "Voltage follower",
+      "Open loop amplifier",
+      "A comparator"
+    ],
+    "options_gu": [
+      "Inverting amplifier",
+      "Voltage follower",
+      "Open loop amplifier",
+      "A comparator"
+    ],
+    "answer": "B",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q29",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A Ge p-n junction diode is forward biased and draws a typical current of 5 mA. The cut-in voltage of its forward I-V curve is about :",
+    "question_gu": "A Ge p-n junction diode is forward biased and draws a typical current of 5 mA. The cut-in voltage of its forward I-V curve is about :",
+    "options_en": [
+      "0.3 V",
+      "0.7 V",
+      "1.1 V",
+      "1.4 V"
+    ],
+    "options_gu": [
+      "0.3 V",
+      "0.7 V",
+      "1.1 V",
+      "1.4 V"
+    ],
+    "answer": "A",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q30",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A Field Effect Transistor (FET) makes an excellent signal chopper, because :",
+    "question_gu": "A Field Effect Transistor (FET) makes an excellent signal chopper, because :",
+    "options_en": [
+      "It is an-unipolar device",
+      "It exhibits a high input impedance",
+      "It is less noisy than a BJT",
+      "It exhibits no offset voltage at zero drain current"
+    ],
+    "options_gu": [
+      "It is an-unipolar device",
+      "It exhibits a high input impedance",
+      "It is less noisy than a BJT",
+      "It exhibits no offset voltage at zero drain current"
+    ],
+    "answer": "D",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q31",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The result of any measurement can be expressed as :",
+    "question_gu": "The result of any measurement can be expressed as :",
+    "options_en": [
+      "Value and Units",
+      "Value + Uncertainty and Units",
+      "Value ± Uncertainty",
+      "Value ± Uncertainty and Units"
+    ],
+    "options_gu": [
+      "Value and Units",
+      "Value + Uncertainty and Units",
+      "Value ± Uncertainty",
+      "Value ± Uncertainty and Units"
+    ],
+    "answer": "D",
+    "topic": "Experimental Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q32",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "To remove the interference due to 50 Hz A.C. in a weak signal which of the following is used ?",
+    "question_gu": "To remove the interference due to 50 Hz A.C. in a weak signal which of the following is used ?",
+    "options_en": [
+      "Notch Filter",
+      "Low Pass Filter",
+      "Band Pass Filter",
+      "Band Reject Filter"
+    ],
+    "options_gu": [
+      "Notch Filter",
+      "Low Pass Filter",
+      "Band Pass Filter",
+      "Band Reject Filter"
+    ],
+    "answer": "A",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q33",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The energy stored in a parallel plate capacitor of 2 μF, dielectric permittivity εr = 100 and applied voltage 1000 V is :",
+    "question_gu": "The energy stored in a parallel plate capacitor of 2 μF, dielectric permittivity εr = 100 and applied voltage 1000 V is :",
+    "options_en": [
+      "1 joule",
+      "2 joule",
+      "0.5 joule",
+      "1.5 joule"
+    ],
+    "options_gu": [
+      "1 joule",
+      "2 joule",
+      "0.5 joule",
+      "1.5 joule"
+    ],
+    "answer": "A",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q34",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Hall effect device can be used for measuring :",
+    "question_gu": "Hall effect device can be used for measuring :",
+    "options_en": [
+      "Pressure",
+      "Temperature",
+      "Magnetic field",
+      "Electrostatic Force"
+    ],
+    "options_gu": [
+      "Pressure",
+      "Temperature",
+      "Magnetic field",
+      "Electrostatic Force"
+    ],
+    "answer": "C",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q35",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "In order to transfer maximum power from output circuit of one stage to input circuit of next stage their output and input impedances should respectively be :",
+    "question_gu": "In order to transfer maximum power from output circuit of one stage to input circuit of next stage their output and input impedances should respectively be :",
+    "options_en": [
+      "∞ and 0",
+      "equal",
+      "0 and 0",
+      "∞ and ∞"
+    ],
+    "options_gu": [
+      "∞ and 0",
+      "equal",
+      "0 and 0",
+      "∞ and ∞"
+    ],
+    "answer": "B",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q36",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Which of the following state exists ?",
+    "question_gu": "Which of the following state exists ?",
+    "options_en": [
+      "²F₉/₂",
+      "²F₅/₂",
+      "³F₇/₂",
+      "³F₅/₂"
+    ],
+    "options_gu": [
+      "²F₉/₂",
+      "²F₅/₂",
+      "³F₇/₂",
+      "³F₅/₂"
+    ],
+    "answer": "D",
+    "topic": "Atomic Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q37",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The Lande g factor for ²P₃/₂ term is :",
+    "question_gu": "The Lande g factor for ²P₃/₂ term is :",
+    "options_en": [
+      "3/4",
+      "4/3",
+      "6/5",
+      "5/6"
+    ],
+    "options_gu": [
+      "3/4",
+      "4/3",
+      "6/5",
+      "5/6"
+    ],
+    "answer": "B",
+    "topic": "Atomic Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q38",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "For case of measurements of chemical shift in NMR one of the following reference compound is added. It is :",
+    "question_gu": "For case of measurements of chemical shift in NMR one of the following reference compound is added. It is :",
+    "options_en": [
+      "Acetaldehyde",
+      "Alcohol",
+      "Glycol",
+      "Tetramethyl silane"
+    ],
+    "options_gu": [
+      "Acetaldehyde",
+      "Alcohol",
+      "Glycol",
+      "Tetramethyl silane"
+    ],
+    "answer": "D",
+    "topic": "NMR",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q39",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The minimum wavelength of X-ray emitted at an operating voltage 12.37 kV is :",
+    "question_gu": "The minimum wavelength of X-ray emitted at an operating voltage 12.37 kV is :",
+    "options_en": [
+      "0.01 Å",
+      "0.1 Å",
+      "1 Å",
+      "10 Å"
+    ],
+    "options_gu": [
+      "0.01 Å",
+      "0.1 Å",
+      "1 Å",
+      "10 Å"
+    ],
+    "answer": "C",
+    "topic": "X-ray Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q40",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The laser pointers used in lecture halls are :",
+    "question_gu": "The laser pointers used in lecture halls are :",
+    "options_en": [
+      "Excimer laser",
+      "Dye laser",
+      "Ruby laser",
+      "Semiconductor laser"
+    ],
+    "options_gu": [
+      "Excimer laser",
+      "Dye laser",
+      "Ruby laser",
+      "Semiconductor laser"
+    ],
+    "answer": "D",
+    "topic": "Laser Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q41",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Dielectric function ε(ω) at frequency ω for free electron gas is equal to :",
+    "question_gu": "Dielectric function ε(ω) at frequency ω for free electron gas is equal to :",
+    "options_en": [
+      "1 − 4πne²/(mω²)",
+      "1 + 4πne²/(mω²)",
+      "√(4πne²/(mω²))",
+      "√(mω²/(4πne²))"
+    ],
+    "options_gu": [
+      "1 − 4πne²/(mω²)",
+      "1 + 4πne²/(mω²)",
+      "√(4πne²/(mω²))",
+      "√(mω²/(4πne²))"
+    ],
+    "answer": "A",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q42",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Superconductors are perfect diamagnets with susceptibility χ in CGS units :",
+    "question_gu": "Superconductors are perfect diamagnets with susceptibility χ in CGS units :",
+    "options_en": [
+      "−1/(4π)",
+      "−10⁻⁶",
+      "~10⁶",
+      "4π"
+    ],
+    "options_gu": [
+      "−1/(4π)",
+      "−10⁻⁶",
+      "~10⁶",
+      "4π"
+    ],
+    "answer": "A",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q43",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The ratio of skin depth in copper at 1 kHz to that at 100 MHz is :",
+    "question_gu": "The ratio of skin depth in copper at 1 kHz to that at 100 MHz is :",
+    "options_en": [
+      "3",
+      "30",
+      "300",
+      "3000"
+    ],
+    "options_gu": [
+      "3",
+      "30",
+      "300",
+      "3000"
+    ],
+    "answer": "C",
+    "topic": "Electrodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q44",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The number of atoms per unit cell of f.c.c. structure is :",
+    "question_gu": "The number of atoms per unit cell of f.c.c. structure is :",
+    "options_en": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "options_gu": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "D",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q45",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The thermal vibrations of atoms in crystals are responsible for producing :",
+    "question_gu": "The thermal vibrations of atoms in crystals are responsible for producing :",
+    "options_en": [
+      "Phonons",
+      "Plasmons",
+      "Photons",
+      "Magnons"
+    ],
+    "options_gu": [
+      "Phonons",
+      "Plasmons",
+      "Photons",
+      "Magnons"
+    ],
+    "answer": "A",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q46",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Ground state spin and parity of ¹⁷O nucleus is :",
+    "question_gu": "Ground state spin and parity of ¹⁷O nucleus is :",
+    "options_en": [
+      "3/2⁺",
+      "5/2⁺",
+      "3/2⁻",
+      "5/2⁻"
+    ],
+    "options_gu": [
+      "3/2⁺",
+      "5/2⁺",
+      "3/2⁻",
+      "5/2⁻"
+    ],
+    "answer": "B",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: B.",
+    "explanation_gu": "Official GSET corrected final answer: B.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q47",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "Except for mass, the properties of muon, most closely resemble the properties of :",
+    "question_gu": "Except for mass, the properties of muon, most closely resemble the properties of :",
+    "options_en": [
+      "Electron",
+      "Photon",
+      "Pion",
+      "Proton"
+    ],
+    "options_gu": [
+      "Electron",
+      "Photon",
+      "Pion",
+      "Proton"
+    ],
+    "answer": "A",
+    "topic": "Particle Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: A.",
+    "explanation_gu": "Official GSET corrected final answer: A.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q48",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The deviation of the charge distribution of a nucleus from spherical symmetry can be estimated by measuring its :",
+    "question_gu": "The deviation of the charge distribution of a nucleus from spherical symmetry can be estimated by measuring its :",
+    "options_en": [
+      "Electric charge",
+      "Magnetic dipole moment",
+      "Electric quadrupole moment",
+      "Angular momentum and parity"
+    ],
+    "options_gu": [
+      "Electric charge",
+      "Magnetic dipole moment",
+      "Electric quadrupole moment",
+      "Angular momentum and parity"
+    ],
+    "answer": "C",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: C.",
+    "explanation_gu": "Official GSET corrected final answer: C.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q49",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "The ratio of radii of ²⁰⁸₈₂Pb and ²⁶₁₂Mg is approximately :",
+    "question_gu": "The ratio of radii of ²⁰⁸₈₂Pb and ²⁶₁₂Mg is approximately :",
+    "options_en": [
+      "16",
+      "8",
+      "4",
+      "2"
+    ],
+    "options_gu": [
+      "16",
+      "8",
+      "4",
+      "2"
+    ],
+    "answer": "D",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
+  },
+  {
+    "id": "physical_sep13_q50",
+    "paper_id": "physical_sep13",
+    "exam": "22nd September 2013",
+    "question_en": "A uranium nucleus decays at rest into thorium nucleus and a helium nucleus: ²³⁵₉₂U → ²³¹₉₀Th + ⁴₂He. Which of the following is true ?",
+    "question_gu": "A uranium nucleus decays at rest into thorium nucleus and a helium nucleus: ²³⁵₉₂U → ²³¹₉₀Th + ⁴₂He. Which of the following is true ?",
+    "options_en": [
+      "Each decay product has the same kinetic energy",
+      "Each decay product has the same speed",
+      "The decay products tend to go in the same direction",
+      "The helium nucleus has more kinetic energy than that of the thorium nucleus"
+    ],
+    "options_gu": [
+      "Each decay product has the same kinetic energy",
+      "Each decay product has the same speed",
+      "The decay products tend to go in the same direction",
+      "The helium nucleus has more kinetic energy than that of the thorium nucleus"
+    ],
+    "answer": "D",
+    "topic": "Nuclear Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET corrected final answer: D.",
+    "explanation_gu": "Official GSET corrected final answer: D.",
+    "review_flag": true,
+    "review_note": "Original scanned page contains a figure/term/notation that should remain source-preserved; verify rendering against the uploaded official paper before clearing review_flag.",
+    "tip_en": "Use the official corrected final answer key as authoritative.",
+    "tip_gu": "Official corrected final answer key authoritative છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Physical Sciences Paper-II and corrected final answer key"
   }
 ]
