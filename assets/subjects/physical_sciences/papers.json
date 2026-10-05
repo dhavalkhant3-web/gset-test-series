@@ -137,9 +137,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1102.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
-      "questions_loaded": false,
+      "questions_loaded": 50,
       "answer_key_verified": true,
-      "source": "GSET official uploaded question paper + final/corrected answer key"
+      "source": "GSET official uploaded question paper + final/corrected answer key",
+      "questions_count": 50,
+      "question_source_verified": true,
+      "source_verified": false,
+      "status": "verified_complete_with_review",
+      "review_count": 23
     },
     {
       "paper_id": "physical_sep13",
