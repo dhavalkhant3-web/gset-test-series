@@ -390,6 +390,9 @@ class PaperIIDataService {
         if (subjectId == 'chemical_sciences') {
           papers.removeWhere((paper) => paper['paper_id'] == 'chemical_sep16_p3');
         }
+        if (subjectId == 'physical_sciences') {
+          papers.removeWhere((paper) => paper['paper_id'] == 'physical_sep16_p3');
+        }
         return papers;
       }
     } catch (_) {}
