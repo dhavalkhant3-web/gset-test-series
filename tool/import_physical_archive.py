@@ -81,7 +81,6 @@ def normalize_question_number(s):
     s = re.sub(r"[^0-9]", "", s)
     return int(s) if s else None
 
-def normalize_question_number(s):
     s = s.replace("O", "0").replace("I", "1")
     s = re.sub(r"[^0-9]", "", s)
     return int(s) if s else None
