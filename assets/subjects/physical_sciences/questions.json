@@ -12408,5 +12408,1509 @@
     "tip_gu": "Official final keyને authoritative ગણો.",
     "source_verified": true,
     "source": "GSET official July 2004 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q01",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Which of the following does not satisfy the wave equation?",
+    "question_gu": "Which of the following does not satisfy the wave equation?",
+    "options_en": [
+      "50 exp[i(ωt − βz)]",
+      "sin(10z + 5t)",
+      "(x + 2t)²",
+      "cos(5y + 2x)"
+    ],
+    "options_gu": [
+      "50 exp[i(ωt − βz)]",
+      "sin(10z + 5t)",
+      "(x + 2t)²",
+      "cos(5y + 2x)"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q02",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "What is the value of ∫∫∫ F·dxdydz over the region x² + y² + z² < 16, where F = (x² + y² + z²)(x î + y ĵ + z k̂)?",
+    "question_gu": "What is the value of ∫∫∫ F·dxdydz over the region x² + y² + z² < 16, where F = (x² + y² + z²)(x î + y ĵ + z k̂)?",
+    "options_en": [
+      "4π",
+      "48π",
+      "64π",
+      "zero"
+    ],
+    "options_gu": [
+      "4π",
+      "48π",
+      "64π",
+      "zero"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q03",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The Lagrangian of a particle of mass M moving in a plane is given by L = ½M(vₓ² + vᵧ²) + a(xvᵧ − yvₓ), where vₓ and vᵧ are velocity components and a is a constant. The canonical momenta of the particle are given by:",
+    "question_gu": "The Lagrangian of a particle of mass M moving in a plane is given by L = ½M(vₓ² + vᵧ²) + a(xvᵧ − yvₓ), where vₓ and vᵧ are velocity components and a is a constant. The canonical momenta of the particle are given by:",
+    "options_en": [
+      "pₓ = Mvₓ and pᵧ = Mvᵧ",
+      "pₓ = Mvₓ + ay and pᵧ = Mvᵧ + ax",
+      "pₓ = Mvₓ − ay and pᵧ = Mvᵧ + ax",
+      "pₓ = Mvₓ − ay and pᵧ = Mvᵧ − ax"
+    ],
+    "options_gu": [
+      "pₓ = Mvₓ and pᵧ = Mvᵧ",
+      "pₓ = Mvₓ + ay and pᵧ = Mvᵧ + ax",
+      "pₓ = Mvₓ − ay and pᵧ = Mvᵧ + ax",
+      "pₓ = Mvₓ − ay and pᵧ = Mvᵧ − ax"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q04",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Given a wave with the dispersion relation ω = ck + m for k > 0 and m > 0, which one of the following is true?",
+    "question_gu": "Given a wave with the dispersion relation ω = ck + m for k > 0 and m > 0, which one of the following is true?",
+    "options_en": [
+      "The group velocity is greater than the phase velocity",
+      "The group velocity is less than the phase velocity",
+      "The group velocity and the phase velocity are equal",
+      "There is no definite relation between the group velocity and the phase velocity"
+    ],
+    "options_gu": [
+      "The group velocity is greater than the phase velocity",
+      "The group velocity is less than the phase velocity",
+      "The group velocity and the phase velocity are equal",
+      "There is no definite relation between the group velocity and the phase velocity"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: B. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q05",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Which one of the following remains invariant under Lorentz transformation?",
+    "question_gu": "Which one of the following remains invariant under Lorentz transformation?",
+    "options_en": [
+      "∂ρ/∂x + ∂ρ/∂y + ∂ρ/∂z − (1/c)∂ρ/∂t",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z² − (1/c²)∂²/∂t²",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z² + (1/c²)∂²/∂t²",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z²"
+    ],
+    "options_gu": [
+      "∂ρ/∂x + ∂ρ/∂y + ∂ρ/∂z − (1/c)∂ρ/∂t",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z² − (1/c²)∂²/∂t²",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z² + (1/c²)∂²/∂t²",
+      "∂²/∂x² + ∂²/∂y² + ∂²/∂z²"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q06",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The Lagrangian of a particle moving in a plane under the influence of a central potential is given by L = ½m(ṙ² + r²θ̇²) − V(r). The generalised momenta corresponding to r and θ are given by:",
+    "question_gu": "The Lagrangian of a particle moving in a plane under the influence of a central potential is given by L = ½m(ṙ² + r²θ̇²) − V(r). The generalised momenta corresponding to r and θ are given by:",
+    "options_en": [
+      "mṙ and mr²θ̇",
+      "mr and mrθ̇",
+      "mr² and mr²θ̇",
+      "mr² and mr²θ̇²"
+    ],
+    "options_gu": [
+      "mṙ and mr²θ̇",
+      "mr and mrθ̇",
+      "mr² and mr²θ̇",
+      "mr² and mr²θ̇²"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q07",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The Hamiltonian corresponding to the Lagrangian L = ax² + by² − kxy is:",
+    "question_gu": "The Hamiltonian corresponding to the Lagrangian L = ax² + by² − kxy is:",
+    "options_en": [
+      "pₓ²/(2a) + pᵧ²/(2b) + kxy",
+      "pₓ²/(4a) + pᵧ²/(4b) − kxy",
+      "pₓ²/(4a) + pᵧ²/(4b) + kxy",
+      "(pₓ²+pᵧ²)/(4ab) + kxy"
+    ],
+    "options_gu": [
+      "pₓ²/(2a) + pᵧ²/(2b) + kxy",
+      "pₓ²/(4a) + pᵧ²/(4b) − kxy",
+      "pₓ²/(4a) + pᵧ²/(4b) + kxy",
+      "(pₓ²+pᵧ²)/(4ab) + kxy"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q08",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The value of the Poisson bracket [a·r, b·p], where a and b are constant vectors, is:",
+    "question_gu": "The value of the Poisson bracket [a·r, b·p], where a and b are constant vectors, is:",
+    "options_en": [
+      "a·b",
+      "a−b",
+      "a+b",
+      "a×b"
+    ],
+    "options_gu": [
+      "a·b",
+      "a−b",
+      "a+b",
+      "a×b"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q09",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The homogeneity of time leads to the law of conservation of:",
+    "question_gu": "The homogeneity of time leads to the law of conservation of:",
+    "options_en": [
+      "Linear momentum",
+      "Angular momentum",
+      "Energy",
+      "Parity"
+    ],
+    "options_gu": [
+      "Linear momentum",
+      "Angular momentum",
+      "Energy",
+      "Parity"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: C. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q10",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A sphere of radius R carries charge density proportional to the distance from the center, ρ = Ar where A is a positive constant. At a distance of R/2 from the center the magnitude of the electric field is:",
+    "question_gu": "A sphere of radius R carries charge density proportional to the distance from the center, ρ = Ar where A is a positive constant. At a distance of R/2 from the center the magnitude of the electric field is:",
+    "options_en": [
+      "AR/(4ε₀)",
+      "AR/ε₀",
+      "AR²/(16ε₀)",
+      "AR²/(4ε₀)"
+    ],
+    "options_gu": [
+      "AR/(4ε₀)",
+      "AR/ε₀",
+      "AR²/(16ε₀)",
+      "AR²/(4ε₀)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q11",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Steady current I flows down a uniform circular wire of length L, radius R and resistivity ρ. If V is the applied voltage, the Poynting vector at the surface of the wire is:",
+    "question_gu": "Steady current I flows down a uniform circular wire of length L, radius R and resistivity ρ. If V is the applied voltage, the Poynting vector at the surface of the wire is:",
+    "options_en": [
+      "zero",
+      "pointing along wire with magnitude VI/(πR²)",
+      "pointing inward at the surface with magnitude VI/(2πRL)",
+      "pointing inside the wire at the surface with magnitude ρL/(πR²)"
+    ],
+    "options_gu": [
+      "zero",
+      "pointing along wire with magnitude VI/(πR²)",
+      "pointing inward at the surface with magnitude VI/(2πRL)",
+      "pointing inside the wire at the surface with magnitude ρL/(πR²)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q12",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "An infinite x−y plane is a non-conducting surface, with surface charge density σ as measured by an observer at rest on the surface. A second observer moves with velocity v x̂ relative to the surface at a height h above it. Which expression gives the electric field measured by the second observer?",
+    "question_gu": "An infinite x−y plane is a non-conducting surface, with surface charge density σ as measured by an observer at rest on the surface. A second observer moves with velocity v x̂ relative to the surface at a height h above it. Which expression gives the electric field measured by the second observer?",
+    "options_en": [
+      "σ/(2ε₀) ẑ",
+      "σ/(2ε₀)√(1−v²/c²) ẑ",
+      "σ/(2ε₀√(1−v²/c²)) ẑ",
+      "σ/(2ε₀)(√(1−v²/c²) ẑ + (v/c) x̂)"
+    ],
+    "options_gu": [
+      "σ/(2ε₀) ẑ",
+      "σ/(2ε₀)√(1−v²/c²) ẑ",
+      "σ/(2ε₀√(1−v²/c²)) ẑ",
+      "σ/(2ε₀)(√(1−v²/c²) ẑ + (v/c) x̂)"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q13",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The electric field in an electromagnetic wave is described by E(r,t) = (ê₁E₁ + ê₂E₂)e^{i(kx−ωt)}, where ê₁ and ê₂ are mutually orthogonal unit vectors, both perpendicular to x, and E₁ and E₂ are two numbers. If E₂ = iE₁, then the electromagnetic wave is:",
+    "question_gu": "The electric field in an electromagnetic wave is described by E(r,t) = (ê₁E₁ + ê₂E₂)e^{i(kx−ωt)}, where ê₁ and ê₂ are mutually orthogonal unit vectors, both perpendicular to x, and E₁ and E₂ are two numbers. If E₂ = iE₁, then the electromagnetic wave is:",
+    "options_en": [
+      "plane polarized",
+      "circularly polarized",
+      "partially polarized",
+      "elliptically polarized"
+    ],
+    "options_gu": [
+      "plane polarized",
+      "circularly polarized",
+      "partially polarized",
+      "elliptically polarized"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: B. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q14",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A charged particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel to each other, the path of the particle is:",
+    "question_gu": "A charged particle is released from rest in a region where there is a constant electric field and a constant magnetic field. If the two fields are parallel to each other, the path of the particle is:",
+    "options_en": [
+      "Helix",
+      "Parabola",
+      "Straight line",
+      "Cycloid"
+    ],
+    "options_gu": [
+      "Helix",
+      "Parabola",
+      "Straight line",
+      "Cycloid"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: D. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q15",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "For electrostatic fields E₁ and E₂ shown at the interface between two dielectrics with dielectric constants k₁ and k₂, the angles θ₁ and θ₂ are related by:",
+    "question_gu": "For electrostatic fields E₁ and E₂ shown at the interface between two dielectrics with dielectric constants k₁ and k₂, the angles θ₁ and θ₂ are related by:",
+    "options_en": [
+      "k₁ tanθ₁ = k₂ tanθ₂",
+      "k₁ sinθ₁ = k₂ sinθ₂",
+      "k₁ cotθ₁ = k₂ cotθ₂",
+      "k₁ cosθ₁ = k₂ cosθ₂"
+    ],
+    "options_gu": [
+      "k₁ tanθ₁ = k₂ tanθ₂",
+      "k₁ sinθ₁ = k₂ sinθ₂",
+      "k₁ cotθ₁ = k₂ cotθ₂",
+      "k₁ cosθ₁ = k₂ cosθ₂"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q16",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Listed below are Maxwell's equations of electromagnetism. If magnetic poles exist, which of the equations would need modification?",
+    "question_gu": "Listed below are Maxwell's equations of electromagnetism. If magnetic poles exist, which of the equations would need modification?",
+    "options_en": [
+      "(i) curl H = J + ∂D/∂t",
+      "(ii) curl E = −∂B/∂t",
+      "(iii) div D = ρ",
+      "(iv) div B = 0",
+      "(v) curl E = ∂B/∂t",
+      "(vi) div B = 0"
+    ],
+    "options_gu": [
+      "(i) curl H = J + ∂D/∂t",
+      "(ii) curl E = −∂B/∂t",
+      "(iii) div D = ρ",
+      "(iv) div B = 0",
+      "(v) curl E = ∂B/∂t",
+      "(vi) div B = 0"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q17",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "If the matrices σₓ, σᵧ and σ_z have their usual meaning, the value of [σₓ, σᵧ] is:",
+    "question_gu": "If the matrices σₓ, σᵧ and σ_z have their usual meaning, the value of [σₓ, σᵧ] is:",
+    "options_en": [
+      "iσ_z",
+      "2iσ_z",
+      "σ_z",
+      "2σ_z"
+    ],
+    "options_gu": [
+      "iσ_z",
+      "2iσ_z",
+      "σ_z",
+      "2σ_z"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: B. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q18",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The value of [L_z, x] is:",
+    "question_gu": "The value of [L_z, x] is:",
+    "options_en": [
+      "−iℏx",
+      "iℏx",
+      "−iℏL_z",
+      "iℏL_z"
+    ],
+    "options_gu": [
+      "−iℏx",
+      "iℏx",
+      "−iℏL_z",
+      "iℏL_z"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q19",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The explicit expression for the operator (x d/dx)² is:",
+    "question_gu": "The explicit expression for the operator (x d/dx)² is:",
+    "options_en": [
+      "x² d²/dx² + 3x d/dx + 1",
+      "x² d²/dx²",
+      "d/dx x² + 1",
+      "x² d²/dx² + x d/dx"
+    ],
+    "options_gu": [
+      "x² d²/dx² + 3x d/dx + 1",
+      "x² d²/dx²",
+      "d/dx x² + 1",
+      "x² d²/dx² + x d/dx"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q20",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A particle of mass m is represented by a wave equation ψ(x) = Ae^{ikx}, where k is wave vector and A is a constant. The magnitude of probability current density of the particle is:",
+    "question_gu": "A particle of mass m is represented by a wave equation ψ(x) = Ae^{ikx}, where k is wave vector and A is a constant. The magnitude of probability current density of the particle is:",
+    "options_en": [
+      "(ℏk/m)|A|²",
+      "(ℏk/2m)|A|²",
+      "|A|²(ℏk/m)²",
+      "(ℏk)²/(2m)"
+    ],
+    "options_gu": [
+      "(ℏk/m)|A|²",
+      "(ℏk/2m)|A|²",
+      "|A|²(ℏk/m)²",
+      "(ℏk)²/(2m)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q21",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The normalised wavefunction of a certain particle is ψ = A cos x for −π/2 ≤ x ≤ π/2. Then the value of A is:",
+    "question_gu": "The normalised wavefunction of a certain particle is ψ = A cos x for −π/2 ≤ x ≤ π/2. Then the value of A is:",
+    "options_en": [
+      "√(3/8π)",
+      "√(2/π)",
+      "√(π/2)",
+      "√(8π/3)"
+    ],
+    "options_gu": [
+      "√(3/8π)",
+      "√(2/π)",
+      "√(π/2)",
+      "√(8π/3)"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q22",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The ground state wave function of the harmonic oscillator is:",
+    "question_gu": "The ground state wave function of the harmonic oscillator is:",
+    "options_en": [
+      "ψ₀(x) = (mω/πℏ)^{1/4} exp(−mωx²/2ℏ)",
+      "ψ₀(x) = (πℏ/mω)^{1/4} exp(−mωx²/2ℏ)",
+      "ψ₀(x) = (mω/πℏ)^{1/4} exp(−mω²x²/2ℏ)",
+      "ψ₀(x) = (πℏ/mω)^{1/4} exp(−mω²x²/2ℏ)"
+    ],
+    "options_gu": [
+      "ψ₀(x) = (mω/πℏ)^{1/4} exp(−mωx²/2ℏ)",
+      "ψ₀(x) = (πℏ/mω)^{1/4} exp(−mωx²/2ℏ)",
+      "ψ₀(x) = (mω/πℏ)^{1/4} exp(−mω²x²/2ℏ)",
+      "ψ₀(x) = (πℏ/mω)^{1/4} exp(−mω²x²/2ℏ)"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q23",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "One dimensional harmonic oscillator is in the state ψ(x) = 1/√29 [4ψ₀(x) − 3ψ₁(x) + 2ψ₂(x)], where ψ₀, ψ₁ and ψ₂ are ground, first excited and second excited states respectively. The probability of finding the oscillator in the first excited state is:",
+    "question_gu": "One dimensional harmonic oscillator is in the state ψ(x) = 1/√29 [4ψ₀(x) − 3ψ₁(x) + 2ψ₂(x)], where ψ₀, ψ₁ and ψ₂ are ground, first excited and second excited states respectively. The probability of finding the oscillator in the first excited state is:",
+    "options_en": [
+      "zero",
+      "9/29",
+      "3/√29",
+      "16/√29"
+    ],
+    "options_gu": [
+      "zero",
+      "9/29",
+      "3/√29",
+      "16/√29"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q24",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A harmonic oscillator is perturbed by a perturbation potential αx³. The ground state energy of the oscillator to first order in perturbation is:",
+    "question_gu": "A harmonic oscillator is perturbed by a perturbation potential αx³. The ground state energy of the oscillator to first order in perturbation is:",
+    "options_en": [
+      "½ℏω",
+      "½ℏω + α",
+      "3/2ℏω + α",
+      "(n + ½)ℏω where n is odd"
+    ],
+    "options_gu": [
+      "½ℏω",
+      "½ℏω + α",
+      "3/2ℏω + α",
+      "(n + ½)ℏω where n is odd"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q25",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "For a rigid sphere of radius a the quantum mechanical scattering cross section is given by:",
+    "question_gu": "For a rigid sphere of radius a the quantum mechanical scattering cross section is given by:",
+    "options_en": [
+      "3πa²",
+      "πa²",
+      "4πa²",
+      "2πa²"
+    ],
+    "options_gu": [
+      "3πa²",
+      "πa²",
+      "4πa²",
+      "2πa²"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q26",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The three dimensional wave function ψ(r):",
+    "question_gu": "The three dimensional wave function ψ(r):",
+    "options_en": [
+      "has dimension of energy·time",
+      "has dimension of (length)^{-3/2}",
+      "is a dimensionless quantity",
+      "has dimension of energy"
+    ],
+    "options_gu": [
+      "has dimension of energy·time",
+      "has dimension of (length)^{-3/2}",
+      "is a dimensionless quantity",
+      "has dimension of energy"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: B. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q27",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The Fermi Golden rule expresses:",
+    "question_gu": "The Fermi Golden rule expresses:",
+    "options_en": [
+      "probable transition rate",
+      "density of states",
+      "probability per unit volume",
+      "transition matrix element"
+    ],
+    "options_gu": [
+      "probable transition rate",
+      "density of states",
+      "probability per unit volume",
+      "transition matrix element"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q28",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Given a thermodynamic system at pressure P in volume V at temperature T, the Helmholtz free energy is given by, where S is entropy and U is internal energy:",
+    "question_gu": "Given a thermodynamic system at pressure P in volume V at temperature T, the Helmholtz free energy is given by, where S is entropy and U is internal energy:",
+    "options_en": [
+      "F = U + PV",
+      "F = U − TS",
+      "F = U + PV + TS",
+      "F = U − PV + TS"
+    ],
+    "options_gu": [
+      "F = U + PV",
+      "F = U − TS",
+      "F = U + PV + TS",
+      "F = U − PV + TS"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: B. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q29",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "In a throttling process:",
+    "question_gu": "In a throttling process:",
+    "options_en": [
+      "enthalpy remains constant",
+      "free energy remains constant",
+      "Gibbs' energy remains constant",
+      "internal energy remains fixed"
+    ],
+    "options_gu": [
+      "enthalpy remains constant",
+      "free energy remains constant",
+      "Gibbs' energy remains constant",
+      "internal energy remains fixed"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q30",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "There are N Fermi particles with energies ε₀, ε₁, ε₂, … ε_{N−1}. At absolute zero, they are distributed as:",
+    "question_gu": "There are N Fermi particles with energies ε₀, ε₁, ε₂, … ε_{N−1}. At absolute zero, they are distributed as:",
+    "options_en": [
+      "one particle in each energy level",
+      "two particles in each energy level",
+      "all particles in ε₀",
+      "half particle in ε₀ and remaining half in ε₁"
+    ],
+    "options_gu": [
+      "one particle in each energy level",
+      "two particles in each energy level",
+      "all particles in ε₀",
+      "half particle in ε₀ and remaining half in ε₁"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q31",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Specific heat of black body radiation is:",
+    "question_gu": "Specific heat of black body radiation is:",
+    "options_en": [
+      "proportional to T",
+      "proportional to T²",
+      "proportional to T³",
+      "proportional to T⁴"
+    ],
+    "options_gu": [
+      "proportional to T",
+      "proportional to T²",
+      "proportional to T³",
+      "proportional to T⁴"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q32",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "For Bose-Einstein condensation, the chemical potential μ is:",
+    "question_gu": "For Bose-Einstein condensation, the chemical potential μ is:",
+    "options_en": [
+      "μ = −∞",
+      "μ is negative but not −∞",
+      "μ is positive",
+      "μ is zero"
+    ],
+    "options_gu": [
+      "μ = −∞",
+      "μ is negative but not −∞",
+      "μ is positive",
+      "μ is zero"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q33",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "You are given N particles, each with spin 1/2. Its entropy at T = 0 K is:",
+    "question_gu": "You are given N particles, each with spin 1/2. Its entropy at T = 0 K is:",
+    "options_en": [
+      "k_B ln 2",
+      "Nk_B/2",
+      "Nk_B ln 2",
+      "k_B(ln 2)^N"
+    ],
+    "options_gu": [
+      "k_B ln 2",
+      "Nk_B/2",
+      "Nk_B ln 2",
+      "k_B(ln 2)^N"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q34",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Given three energy states with energies E₁, E₂ and E₃, number of ways by which two Fermions can be distributed is:",
+    "question_gu": "Given three energy states with energies E₁, E₂ and E₃, number of ways by which two Fermions can be distributed is:",
+    "options_en": [
+      "three",
+      "ten",
+      "six",
+      "one"
+    ],
+    "options_gu": [
+      "three",
+      "ten",
+      "six",
+      "one"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q35",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "When thermal energy is much larger than vibrational energy of the diatomic molecules, gas of the diatomic molecules has specific heat per gramme atom to be:",
+    "question_gu": "When thermal energy is much larger than vibrational energy of the diatomic molecules, gas of the diatomic molecules has specific heat per gramme atom to be:",
+    "options_en": [
+      "3k_BN_A",
+      "(3/2)k_BN_A",
+      "(1/2)k_BN_A",
+      "k_BN_A"
+    ],
+    "options_gu": [
+      "3k_BN_A",
+      "(3/2)k_BN_A",
+      "(1/2)k_BN_A",
+      "k_BN_A"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q36",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A gas of N molecules is contained in a volume V. The probability that all N molecules go in a volume V/2 is:",
+    "question_gu": "A gas of N molecules is contained in a volume V. The probability that all N molecules go in a volume V/2 is:",
+    "options_en": [
+      "1/2",
+      "(N/2)ln2",
+      "N ln2",
+      "(1/2)^N"
+    ],
+    "options_gu": [
+      "1/2",
+      "(N/2)ln2",
+      "N ln2",
+      "(1/2)^N"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q37",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Consider an ideal gas enclosed in volume V at a temperature T. The gas is at pressure P > P₀, where P₀ is atmospheric pressure. A small hole is pierced to the wall of the enclosure and the gas comes out from it until inside pressure equalises to P₀. Then:",
+    "question_gu": "Consider an ideal gas enclosed in volume V at a temperature T. The gas is at pressure P > P₀, where P₀ is atmospheric pressure. A small hole is pierced to the wall of the enclosure and the gas comes out from it until inside pressure equalises to P₀. Then:",
+    "options_en": [
+      "Temperature of an emerging gas is T",
+      "Temperature of an emerging gas is less than T",
+      "Temperature of an emerging gas is more than T",
+      "Emerging gas obeys PV^γ = constant"
+    ],
+    "options_gu": [
+      "Temperature of an emerging gas is T",
+      "Temperature of an emerging gas is less than T",
+      "Temperature of an emerging gas is more than T",
+      "Emerging gas obeys PV^γ = constant"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q38",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A point charge Q is placed at a distance a from an infinite plane conducting surface. If the surface is grounded, what is the charge induced on the surface?",
+    "question_gu": "A point charge Q is placed at a distance a from an infinite plane conducting surface. If the surface is grounded, what is the charge induced on the surface?",
+    "options_en": [
+      "Q/2",
+      "−Q/2",
+      "−Q",
+      "Q"
+    ],
+    "options_gu": [
+      "Q/2",
+      "−Q/2",
+      "−Q",
+      "Q"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q39",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Which of the following equations rules out the possibility of magnetic monopoles?",
+    "question_gu": "Which of the following equations rules out the possibility of magnetic monopoles?",
+    "options_en": [
+      "∇×E = 0",
+      "∇²φ = 0",
+      "∇·B = 0",
+      "∇×E = −∂B/∂t"
+    ],
+    "options_gu": [
+      "∇×E = 0",
+      "∇²φ = 0",
+      "∇·B = 0",
+      "∇×E = −∂B/∂t"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q40",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "The intensity of radiation by an oscillating electric dipole is:",
+    "question_gu": "The intensity of radiation by an oscillating electric dipole is:",
+    "options_en": [
+      "maximum along the direction of dipole moment",
+      "maximum in direction perpendicular to the dipole moment",
+      "zero along the direction perpendicular to the dipole moment",
+      "same along all directions"
+    ],
+    "options_gu": [
+      "maximum along the direction of dipole moment",
+      "maximum in direction perpendicular to the dipole moment",
+      "zero along the direction perpendicular to the dipole moment",
+      "same along all directions"
+    ],
+    "answer": "B",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: B. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: B. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q41",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "For γ-ray spectroscopy, the following detector is used:",
+    "question_gu": "For γ-ray spectroscopy, the following detector is used:",
+    "options_en": [
+      "scintillation detector",
+      "photomultiplier",
+      "G-M counter",
+      "bolometer"
+    ],
+    "options_gu": [
+      "scintillation detector",
+      "photomultiplier",
+      "G-M counter",
+      "bolometer"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q42",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Which of the following gauge can measure vacuum in the range of 10^{-10} to 10^{-3} torr?",
+    "question_gu": "Which of the following gauge can measure vacuum in the range of 10^{-10} to 10^{-3} torr?",
+    "options_en": [
+      "McLeod gauge",
+      "Pirani gauge",
+      "Penning gauge",
+      "Ionization gauge"
+    ],
+    "options_gu": [
+      "McLeod gauge",
+      "Pirani gauge",
+      "Penning gauge",
+      "Ionization gauge"
+    ],
+    "answer": "D",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: D. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: D. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q43",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "X-rays are:",
+    "question_gu": "X-rays are:",
+    "options_en": [
+      "electromagnetic radiation of frequency higher than that of visible light",
+      "electromagnetic radiation of frequency lower than that of visible light",
+      "beam of electrons",
+      "beam of positive ions"
+    ],
+    "options_gu": [
+      "electromagnetic radiation of frequency higher than that of visible light",
+      "electromagnetic radiation of frequency lower than that of visible light",
+      "beam of electrons",
+      "beam of positive ions"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q44",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "To measure temperature above 1800°C the most suitable instrument is:",
+    "question_gu": "To measure temperature above 1800°C the most suitable instrument is:",
+    "options_en": [
+      "Platinum resistance thermometer",
+      "thermocouple",
+      "radiation pyrometer",
+      "gas thermometer"
+    ],
+    "options_gu": [
+      "Platinum resistance thermometer",
+      "thermocouple",
+      "radiation pyrometer",
+      "gas thermometer"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: C. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q45",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Velocity of light is related to electric permittivity ε₀ and magnetic permeability μ₀ by the relation:",
+    "question_gu": "Velocity of light is related to electric permittivity ε₀ and magnetic permeability μ₀ by the relation:",
+    "options_en": [
+      "c = (μ₀ε₀)^{-1/2}",
+      "c = (μ₀/ε₀)^{1/2}",
+      "c = (ε₀/μ₀)^{1/2}",
+      "c = (ε₀/μ₀)^{-1/2}"
+    ],
+    "options_gu": [
+      "c = (μ₀ε₀)^{-1/2}",
+      "c = (μ₀/ε₀)^{1/2}",
+      "c = (ε₀/μ₀)^{1/2}",
+      "c = (ε₀/μ₀)^{-1/2}"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q46",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "Relation between pumping speed S, throughput Q and pressure P is given by:",
+    "question_gu": "Relation between pumping speed S, throughput Q and pressure P is given by:",
+    "options_en": [
+      "Q = S/P",
+      "Q = P/S",
+      "Q = PS",
+      "Q = e^{PS}"
+    ],
+    "options_gu": [
+      "Q = S/P",
+      "Q = P/S",
+      "Q = PS",
+      "Q = e^{PS}"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q47",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "In a linear regression analysis data are fitted with equation Y = mx + c and results yield slope, intercept and regression coefficient r. The fit is good if r is:",
+    "question_gu": "In a linear regression analysis data are fitted with equation Y = mx + c and results yield slope, intercept and regression coefficient r. The fit is good if r is:",
+    "options_en": [
+      "1.0",
+      "0.5",
+      "0.3",
+      "0.7"
+    ],
+    "options_gu": [
+      "1.0",
+      "0.5",
+      "0.3",
+      "0.7"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: A. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q48",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "A 10-bit A/D converter has a full scale range of 10 V. The percentage resolution is:",
+    "question_gu": "A 10-bit A/D converter has a full scale range of 10 V. The percentage resolution is:",
+    "options_en": [
+      "10",
+      "1.0",
+      "0.1",
+      "0.01"
+    ],
+    "options_gu": [
+      "10",
+      "1.0",
+      "0.1",
+      "0.01"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: C. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q49",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "To attain temperature less than 4 K, one utilizes:",
+    "question_gu": "To attain temperature less than 4 K, one utilizes:",
+    "options_en": [
+      "Newton's law of cooling",
+      "Joule Thomson Effect",
+      "Adiabatic demagnetization",
+      "Peltier cooling"
+    ],
+    "options_gu": [
+      "Newton's law of cooling",
+      "Joule Thomson Effect",
+      "Adiabatic demagnetization",
+      "Peltier cooling"
+    ],
+    "answer": "C",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: C. Transcribed from the uploaded scanned source.",
+    "explanation_gu": "Official final answer: C. Uploaded scanned source પરથી transcription.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_jul06_q50",
+    "paper_id": "physical_jul06",
+    "exam": "July 2006",
+    "question_en": "If the results are expressed as x ± 3σ, where x = mean value and σ is the standard deviation, it means that:",
+    "question_gu": "If the results are expressed as x ± 3σ, where x = mean value and σ is the standard deviation, it means that:",
+    "options_en": [
+      "approximately 99% of the readings will lie between ±3σ",
+      "66% of the readings will lie between ±3σ",
+      "33% of the readings will lie between ±3σ",
+      "none of the readings will lie between ±3σ"
+    ],
+    "options_gu": [
+      "approximately 99% of the readings will lie between ±3σ",
+      "66% of the readings will lie between ±3σ",
+      "33% of the readings will lie between ±3σ",
+      "none of the readings will lie between ±3σ"
+    ],
+    "answer": "A",
+    "topic": "Physical Sciences — GSET Paper-II",
+    "difficulty": "Medium",
+    "explanation_en": "Official final answer: A. Mathematical/symbolic content is flagged for source-visual verification.",
+    "explanation_gu": "Official final answer: A. Mathematical/symbolic content માટે source-visual verification flag રાખ્યો છે.",
+    "review_flag": true,
+    "review_note": "Verify every symbol/formula against the original scanned PDF before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative; review flagged source notation before publishing.",
+    "tip_gu": "Official final answer key authoritative છે; flagged notation publish કરતા પહેલાં source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official 2nd July 2006 Physical Sciences Paper-II question paper and final answer key"
   }
 ]
