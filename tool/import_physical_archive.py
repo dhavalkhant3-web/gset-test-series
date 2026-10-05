@@ -81,10 +81,6 @@ def normalize_question_number(s):
     s = re.sub(r"[^0-9]", "", s)
     return int(s) if s else None
 
-    s = s.replace("O", "0").replace("I", "1")
-    s = re.sub(r"[^0-9]", "", s)
-    return int(s) if s else None
-
 def candidate_starts(text, expected):
     pat = re.compile(
         r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})"
@@ -308,6 +304,13 @@ def main():
                 verified += 1
 
             qid = f"{pid}_q{qn:02d}"
+            existing = byid.get(qid)
+            # Never overwrite an already source-verified record with an automatic
+            # reconstruction. Verified/manual records are authoritative and must
+            # remain intact; only missing or explicitly unverified records may be
+            # populated by this importer.
+            if existing and existing.get("source_verified") is True:
+                continue
             record = {
                 "id": qid,
                 "paper_id": pid,
