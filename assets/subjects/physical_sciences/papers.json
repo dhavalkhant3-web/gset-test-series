@@ -18,9 +18,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/jan02/jan0202.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/jan02/jan0202.pdf",
-      "questions_loaded": false,
+      "questions_loaded": 50,
       "answer_key_verified": true,
-      "source": "GSET official uploaded question paper + final answer key"
+      "source": "GSET official uploaded question paper + final answer key",
+      "questions_count": 50,
+      "review_count": 2,
+      "source_verified": false,
+      "question_source_verified": true,
+      "status": "verified_complete_with_review"
     },
     {
       "paper_id": "physical_dec02",
