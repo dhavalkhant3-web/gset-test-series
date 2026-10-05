@@ -9408,5 +9408,1505 @@
     "tip_gu": "",
     "source_verified": true,
     "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q01",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a matrix A = [[cos φ, sin φ], [−sin φ, cos φ]], the eigenvalues of A are:",
+    "question_gu": "Given a matrix A = [[cos φ, sin φ], [−sin φ, cos φ]], the eigenvalues of A are:",
+    "options_en": [
+      "cos φ, e^{−iφ}",
+      "e^{iφ}, cos φ",
+      "e^{iφ}, sin φ",
+      "sin φ, cos φ"
+    ],
+    "options_gu": [
+      "cos φ, e^{−iφ}",
+      "e^{iφ}, cos φ",
+      "e^{iφ}, sin φ",
+      "sin φ, cos φ"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Physics — Linear Algebra",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q02",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The poles of f(z) = 1/(e^z + 1) are:",
+    "question_gu": "The poles of f(z) = 1/(e^z + 1) are:",
+    "options_en": [
+      "z = 0, 2πi, 4πi, …, 2nπi",
+      "z = 0, πi, 2πi, 3πi, …, nπi",
+      "z = πi, 3πi, 5πi, …, (2n+1)πi",
+      "z = 0, π, 2π, 3π, …, nπ"
+    ],
+    "options_gu": [
+      "z = 0, 2πi, 4πi, …, 2nπi",
+      "z = 0, πi, 2πi, 3πi, …, nπi",
+      "z = πi, 3πi, 5πi, …, (2n+1)πi",
+      "z = 0, π, 2π, 3π, …, nπ"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Physics — Complex Analysis",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q03",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a Lagrangian L = 1/2 m(ẋ² + ẏ²) − mgy, which statement is correct?",
+    "question_gu": "Given a Lagrangian L = 1/2 m(ẋ² + ẏ²) − mgy, which statement is correct?",
+    "options_en": [
+      "x is cyclic co-ordinate, p_x is constant but energy E is not constant",
+      "y is cyclic, p_y is constant and E is also constant",
+      "Both p_x and p_y are constant and therefore the energy is also constant",
+      "Both p_y and E are constant and x is cyclic co-ordinate"
+    ],
+    "options_gu": [
+      "x is cyclic co-ordinate, p_x is constant but energy E is not constant",
+      "y is cyclic, p_y is constant and E is also constant",
+      "Both p_x and p_y are constant and therefore the energy is also constant",
+      "Both p_y and E are constant and x is cyclic co-ordinate"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q04",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Points α and β are connected by a wire. A bead moves from α to β along the curve under the action of gravity. The curve αβ for which the time of motion is shortest is:",
+    "question_gu": "Points α and β are connected by a wire. A bead moves from α to β along the curve under the action of gravity. The curve αβ for which the time of motion is shortest is:",
+    "options_en": [
+      "Cycloid",
+      "Straight line",
+      "Parabola",
+      "Arc of a circle"
+    ],
+    "options_gu": [
+      "Cycloid",
+      "Straight line",
+      "Parabola",
+      "Arc of a circle"
+    ],
+    "answer": "A",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q05",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The phase space diagram for free particle motion is:",
+    "question_gu": "The phase space diagram for free particle motion is:",
+    "options_en": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "options_gu": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "answer": "A",
+    "topic": "Classical Mechanics — Phase Space",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q06",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The degrees of freedom for the motion of rigid body of N particles are:",
+    "question_gu": "The degrees of freedom for the motion of rigid body of N particles are:",
+    "options_en": [
+      "3N",
+      "6N",
+      "6",
+      "Infinite"
+    ],
+    "options_gu": [
+      "3N",
+      "6N",
+      "6",
+      "Infinite"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q07",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "If p is momentum of the particle of rest mass m and energy E, then its kinetic energy is (cp ≤ E):",
+    "question_gu": "If p is momentum of the particle of rest mass m and energy E, then its kinetic energy is (cp ≤ E):",
+    "options_en": [
+      "p²/(2m)",
+      "√(c²p² + m²c⁴)",
+      "√(c²p² + m²c⁴) − mc²",
+      "mc²"
+    ],
+    "options_gu": [
+      "p²/(2m)",
+      "√(c²p² + m²c⁴)",
+      "√(c²p² + m²c⁴) − mc²",
+      "mc²"
+    ],
+    "answer": "C",
+    "topic": "Relativistic Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q08",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Choose the correct statement:",
+    "question_gu": "Choose the correct statement:",
+    "options_en": [
+      "Kepler’s second law is a consequence of elliptic orbit",
+      "Kepler’s second law is a consequence of the fact that the period of motion is proportional to a³⁄²",
+      "Kepler’s second law is a consequence of the fact that the orbit has apsidal points",
+      "Kepler’s second law is a consequence of constancy of angular momentum"
+    ],
+    "options_gu": [
+      "Kepler’s second law is a consequence of elliptic orbit",
+      "Kepler’s second law is a consequence of the fact that the period of motion is proportional to a³⁄²",
+      "Kepler’s second law is a consequence of the fact that the orbit has apsidal points",
+      "Kepler’s second law is a consequence of constancy of angular momentum"
+    ],
+    "answer": "D",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q09",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a linear triatomic molecule, the normal modes of oscillation along its line are:",
+    "question_gu": "Given a linear triatomic molecule, the normal modes of oscillation along its line are:",
+    "options_en": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "options_gu": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics — Normal Modes",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q10",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The general solution ψ(x,t) of a wave motion for a wave moving in x direction with velocity v is:",
+    "question_gu": "The general solution ψ(x,t) of a wave motion for a wave moving in x direction with velocity v is:",
+    "options_en": [
+      "ψ(x,t)=f(x)g(x)+g(x)f(t)",
+      "ψ(x,t)=Af(x+vt)+Bf(x−vt)",
+      "ψ(x,t)=e^{ikx}/(x+vt)",
+      "ψ(x,t)=e^{−ikx}/(x−vt)"
+    ],
+    "options_gu": [
+      "ψ(x,t)=f(x)g(x)+g(x)f(t)",
+      "ψ(x,t)=Af(x+vt)+Bf(x−vt)",
+      "ψ(x,t)=e^{ikx}/(x+vt)",
+      "ψ(x,t)=e^{−ikx}/(x−vt)"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Physics — Wave Motion",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q11",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a magnetic vector potential A(x,y,z) = 1/2 (y î − x ĵ) B₀, where B₀ is a constant, the magnetic induction produced is:",
+    "question_gu": "Given a magnetic vector potential A(x,y,z) = 1/2 (y î − x ĵ) B₀, where B₀ is a constant, the magnetic induction produced is:",
+    "options_en": [
+      "B₀ k̂",
+      "B₀ ĵ",
+      "B₀ î",
+      "B₀xy/(x²+y²) k̂"
+    ],
+    "options_gu": [
+      "B₀ k̂",
+      "B₀ ĵ",
+      "B₀ î",
+      "B₀xy/(x²+y²) k̂"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q12",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "A long wire carries a steady current I. Then the magnetic induction at a distance r from wire:",
+    "question_gu": "A long wire carries a steady current I. Then the magnetic induction at a distance r from wire:",
+    "options_en": [
+      "Varies as 1/r and is along the direction of the wire",
+      "varies as 1/r² and is along the direction of the wire",
+      "varies as 1/r² and is at right angles to the wire",
+      "varies as 1/r and is at right angles to the wire"
+    ],
+    "options_gu": [
+      "Varies as 1/r and is along the direction of the wire",
+      "varies as 1/r² and is along the direction of the wire",
+      "varies as 1/r² and is at right angles to the wire",
+      "varies as 1/r and is at right angles to the wire"
+    ],
+    "answer": "B",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q13",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Consider an oscillating dipole with time variation q=q₀e^{iωt}. The dipole moment has its maximum value as p₀. The electric field E and magnetic field H:",
+    "question_gu": "Consider an oscillating dipole with time variation q=q₀e^{iωt}. The dipole moment has its maximum value as p₀. The electric field E and magnetic field H:",
+    "options_en": [
+      "varies as p₀ke^{ikr}/r sinθ",
+      "varies as p₀k²e^{ikr}/r sinθ",
+      "varies as p₀k²e^{ikr} sinθ",
+      "varies as p₀k²e^{ikr}/r"
+    ],
+    "options_gu": [
+      "varies as p₀ke^{ikr}/r sinθ",
+      "varies as p₀k²e^{ikr}/r sinθ",
+      "varies as p₀k²e^{ikr} sinθ",
+      "varies as p₀k²e^{ikr}/r"
+    ],
+    "answer": "D",
+    "topic": "Electrodynamics — Radiation",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q14",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a spherical charge distribution ρ=ρ₀(1−r²/a²) for r≤a and ρ=0 for r>a, the electric field inside the distribution is:",
+    "question_gu": "Given a spherical charge distribution ρ=ρ₀(1−r²/a²) for r≤a and ρ=0 for r>a, the electric field inside the distribution is:",
+    "options_en": [
+      "E=constant=4πρ₀a/3 and radial",
+      "E=(ρ₀/ε₀)(r/3−r³/(5a²)) in radial direction",
+      "E=(ρ₀/ε₀)(r/3−r³/(5a²)) in axial direction",
+      "E=(8πρ₀a³/4πε₀)(1/r) in radial direction"
+    ],
+    "options_gu": [
+      "E=constant=4πρ₀a/3 and radial",
+      "E=(ρ₀/ε₀)(r/3−r³/(5a²)) in radial direction",
+      "E=(ρ₀/ε₀)(r/3−r³/(5a²)) in axial direction",
+      "E=(8πρ₀a³/4πε₀)(1/r) in radial direction"
+    ],
+    "answer": "B",
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q15",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Two metallic grounded plates are held at right angles as shown in the figure. A charge q is kept at position (a,b). The image charges q′ are at:",
+    "question_gu": "Two metallic grounded plates are held at right angles as shown in the figure. A charge q is kept at position (a,b). The image charges q′ are at:",
+    "options_en": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "options_gu": [
+      "Option A — see original source figure",
+      "Option B — see original source figure",
+      "Option C — see original source figure",
+      "Option D — see original source figure"
+    ],
+    "answer": "C",
+    "topic": "Electrostatics — Method of Images",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q16",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "For an electromagnetic wave in vacuum:",
+    "question_gu": "For an electromagnetic wave in vacuum:",
+    "options_en": [
+      "The group and phase velocity are same",
+      "The group velocity is C but phase velocity is smaller than C",
+      "Phase velocity is C and group velocity is smaller than C",
+      "The phase velocity can exceed C but group velocity is always less than C"
+    ],
+    "options_gu": [
+      "The group and phase velocity are same",
+      "The group velocity is C but phase velocity is smaller than C",
+      "Phase velocity is C and group velocity is smaller than C",
+      "The phase velocity can exceed C but group velocity is always less than C"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism — EM Waves",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q17",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Poynting’s vector:",
+    "question_gu": "Poynting’s vector:",
+    "options_en": [
+      "is proportional to (E²+B²)/2 · k̂ and is also energy density",
+      "is proportional to E·B·k̂ and gives intensity of e.m. wave",
+      "is proportional to angular momentum of the wave",
+      "is proportional to E×B and is proportional to the intensity of the wave"
+    ],
+    "options_gu": [
+      "is proportional to (E²+B²)/2 · k̂ and is also energy density",
+      "is proportional to E·B·k̂ and gives intensity of e.m. wave",
+      "is proportional to angular momentum of the wave",
+      "is proportional to E×B and is proportional to the intensity of the wave"
+    ],
+    "answer": "D",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q18",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Choose correct statement:",
+    "question_gu": "Choose correct statement:",
+    "options_en": [
+      "Newton’s law of gravitation, Coulomb’s law and Biot-Savart’s law are same because all behave as 1/r²",
+      "Newton’s law of gravitation, Coulomb’s law and Biot-Savart’s law give central force",
+      "Biot-Savart’s law is applicable for stationary charges",
+      "Newton’s law and Coulomb’s law give a central force between its sources, whereas Biot-Savart’s law gives a force at right angles to the line joining the point of observation and the current element"
+    ],
+    "options_gu": [
+      "Newton’s law of gravitation, Coulomb’s law and Biot-Savart’s law are same because all behave as 1/r²",
+      "Newton’s law of gravitation, Coulomb’s law and Biot-Savart’s law give central force",
+      "Biot-Savart’s law is applicable for stationary charges",
+      "Newton’s law and Coulomb’s law give a central force between its sources, whereas Biot-Savart’s law gives a force at right angles to the line joining the point of observation and the current element"
+    ],
+    "answer": "D",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q19",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Given a charge density ρ(r) = (q/(64πa⁵)) r² e^{−r/a} sin²θ, then:",
+    "question_gu": "Given a charge density ρ(r) = (q/(64πa⁵)) r² e^{−r/a} sin²θ, then:",
+    "options_en": [
+      "It is a mixture of monopole and dipole charge distribution",
+      "It is a mixture of monopole and quadrupole charge distribution",
+      "It is a monopole distribution",
+      "It is a quadrupole distribution"
+    ],
+    "options_gu": [
+      "It is a mixture of monopole and dipole charge distribution",
+      "It is a mixture of monopole and quadrupole charge distribution",
+      "It is a monopole distribution",
+      "It is a quadrupole distribution"
+    ],
+    "answer": "B",
+    "topic": "Electrostatics — Multipole Expansion",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q20",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Choose the correct statement:",
+    "question_gu": "Choose the correct statement:",
+    "options_en": [
+      "Both Coulomb and Lorentz gauges are relativistically invariant",
+      "Both Coulomb and Lorentz gauges are not consistent with special theory of relativity",
+      "Lorentz gauge is relativistically covariant whereas Coulomb gauge is not relativistically covariant",
+      "Lorentz gauge is not relativistically invariant whereas Coulomb gauge is"
+    ],
+    "options_gu": [
+      "Both Coulomb and Lorentz gauges are relativistically invariant",
+      "Both Coulomb and Lorentz gauges are not consistent with special theory of relativity",
+      "Lorentz gauge is relativistically covariant whereas Coulomb gauge is not relativistically covariant",
+      "Lorentz gauge is not relativistically invariant whereas Coulomb gauge is"
+    ],
+    "answer": "C",
+    "topic": "Electrodynamics — Gauge",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q21",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "According to de Broglie’s hypothesis for matter waves, the linear momentum of the particle can be expressed by:",
+    "question_gu": "According to de Broglie’s hypothesis for matter waves, the linear momentum of the particle can be expressed by:",
+    "options_en": [
+      "ℏk",
+      "ℏω",
+      "λ/h",
+      "hλ"
+    ],
+    "options_gu": [
+      "ℏk",
+      "ℏω",
+      "λ/h",
+      "hλ"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q22",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "If A and B are canonically conjugate pair of dynamical variables, according to Heisenberg’s uncertainty principle, the value of [A,B] is:",
+    "question_gu": "If A and B are canonically conjugate pair of dynamical variables, according to Heisenberg’s uncertainty principle, the value of [A,B] is:",
+    "options_en": [
+      "ℏ/2",
+      "iℏ",
+      "ℏ",
+      "h²/4"
+    ],
+    "options_gu": [
+      "ℏ/2",
+      "iℏ",
+      "ℏ",
+      "h²/4"
+    ],
+    "answer": "B",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q23",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The principal degeneracy of the energy eigenvalue for a free particle Schrödinger equation is:",
+    "question_gu": "The principal degeneracy of the energy eigenvalue for a free particle Schrödinger equation is:",
+    "options_en": [
+      "0",
+      "2",
+      "4",
+      "9"
+    ],
+    "options_gu": [
+      "0",
+      "2",
+      "4",
+      "9"
+    ],
+    "answer": "B",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q24",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The Hamiltonian of the anharmonic oscillator is given by H=p²/(2m)+1/2 mω²x²+λx⁴ in one dimension. The perturbation term of this expression is:",
+    "question_gu": "The Hamiltonian of the anharmonic oscillator is given by H=p²/(2m)+1/2 mω²x²+λx⁴ in one dimension. The perturbation term of this expression is:",
+    "options_en": [
+      "p²/(2m)",
+      "p²/(2m)+1/2 mω²x²",
+      "1/2 mω²x²",
+      "λx⁴"
+    ],
+    "options_gu": [
+      "p²/(2m)",
+      "p²/(2m)+1/2 mω²x²",
+      "1/2 mω²x²",
+      "λx⁴"
+    ],
+    "answer": "D",
+    "topic": "Quantum Mechanics — Perturbation Theory",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q25",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The eigenvalue of the L_z component of orbital angular momentum L can be:",
+    "question_gu": "The eigenvalue of the L_z component of orbital angular momentum L can be:",
+    "options_en": [
+      "lℏ",
+      "l(l+1)ℏ²",
+      "l(l+1)ℏ",
+      "√[l(l+1)]ℏ"
+    ],
+    "options_gu": [
+      "lℏ",
+      "l(l+1)ℏ²",
+      "l(l+1)ℏ",
+      "√[l(l+1)]ℏ"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics — Angular Momentum",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q26",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The total number of degenerate states excluding spin for the 5th excited state in Hydrogen atom are:",
+    "question_gu": "The total number of degenerate states excluding spin for the 5th excited state in Hydrogen atom are:",
+    "options_en": [
+      "4",
+      "5",
+      "9",
+      "36"
+    ],
+    "options_gu": [
+      "4",
+      "5",
+      "9",
+      "36"
+    ],
+    "answer": "D",
+    "topic": "Quantum Mechanics — Hydrogen Atom",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q27",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "According to time-independent non-degenerate perturbation theory, the first order correction to the energy of the respective state is:",
+    "question_gu": "According to time-independent non-degenerate perturbation theory, the first order correction to the energy of the respective state is:",
+    "options_en": [
+      "negative value of the perturbation",
+      "expectation value of the perturbation",
+      "positive value of the perturbation",
+      "square root of the perturbation"
+    ],
+    "options_gu": [
+      "negative value of the perturbation",
+      "expectation value of the perturbation",
+      "positive value of the perturbation",
+      "square root of the perturbation"
+    ],
+    "answer": "B",
+    "topic": "Quantum Mechanics — Perturbation Theory",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q28",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Fastest transitions in atom are dipole transitions which involve the matrix elements ⟨m|er|n⟩. Then:",
+    "question_gu": "Fastest transitions in atom are dipole transitions which involve the matrix elements ⟨m|er|n⟩. Then:",
+    "options_en": [
+      "States |m⟩ and |n⟩ have same angular momentum",
+      "States |m⟩ and |n⟩ differ in angular momentum by 2ℏ",
+      "States |m⟩ and |n⟩ have same parity",
+      "States |m⟩ and |n⟩ differ in angular momentum by ℏ"
+    ],
+    "options_gu": [
+      "States |m⟩ and |n⟩ have same angular momentum",
+      "States |m⟩ and |n⟩ differ in angular momentum by 2ℏ",
+      "States |m⟩ and |n⟩ have same parity",
+      "States |m⟩ and |n⟩ differ in angular momentum by ℏ"
+    ],
+    "answer": "D",
+    "topic": "Quantum Mechanics — Selection Rules",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q29",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "A particle is scattered by a spherically symmetric potential V(r). The incident wave is ψ=A exp(ikx) and the scattered wave is ψ_sc=A exp(ikx)+f(θ)exp(ikr)/r. Then the differential cross-section is:",
+    "question_gu": "A particle is scattered by a spherically symmetric potential V(r). The incident wave is ψ=A exp(ikx) and the scattered wave is ψ_sc=A exp(ikx)+f(θ)exp(ikr)/r. Then the differential cross-section is:",
+    "options_en": [
+      "|f(θ)|²",
+      "|f(θ)|²r²",
+      "|A|²",
+      "|f(θ)|²|A|²"
+    ],
+    "options_gu": [
+      "|f(θ)|²",
+      "|f(θ)|²r²",
+      "|A|²",
+      "|f(θ)|²|A|²"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics — Scattering",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q30",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "For the systems of identical particles, the eigenvalues of the exchange operator are:",
+    "question_gu": "For the systems of identical particles, the eigenvalues of the exchange operator are:",
+    "options_en": [
+      "always unity",
+      "negative",
+      "+1",
+      "zero"
+    ],
+    "options_gu": [
+      "always unity",
+      "negative",
+      "+1",
+      "zero"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics — Identical Particles",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q31",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Change in free energy at constant temperature and change in enthalpy at constant pressure, give:",
+    "question_gu": "Change in free energy at constant temperature and change in enthalpy at constant pressure, give:",
+    "options_en": [
+      "amount of heat absorbed and amount of work done respectively",
+      "amount of work done and amount of heat absorbed respectively",
+      "change in chemical potential and change in pressure respectively",
+      "change in pressure and change in chemical potential respectively"
+    ],
+    "options_gu": [
+      "amount of heat absorbed and amount of work done respectively",
+      "amount of work done and amount of heat absorbed respectively",
+      "change in chemical potential and change in pressure respectively",
+      "change in pressure and change in chemical potential respectively"
+    ],
+    "answer": "B",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q32",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "During the solid-liquid transition:",
+    "question_gu": "During the solid-liquid transition:",
+    "options_en": [
+      "Gibbs’ free energy for both phases remain the same",
+      "Helmholtz free energy for both phases remain the same",
+      "Enthalpy for both phases remain the same",
+      "Entropy for both phases remain the same"
+    ],
+    "options_gu": [
+      "Gibbs’ free energy for both phases remain the same",
+      "Helmholtz free energy for both phases remain the same",
+      "Enthalpy for both phases remain the same",
+      "Entropy for both phases remain the same"
+    ],
+    "answer": "A",
+    "topic": "Thermodynamics — Phase Transition",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q33",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "You are given a gas of 1 gm mole of N₂ molecules at NTP. Its temperature is raised to 100°C. Then the specific heat of the gas per molecule is:",
+    "question_gu": "You are given a gas of 1 gm mole of N₂ molecules at NTP. Its temperature is raised to 100°C. Then the specific heat of the gas per molecule is:",
+    "options_en": [
+      "(7/2)k_B T where T=373 K",
+      "(5/2)k_B T where T=373 K",
+      "(5/2)k_B T where T=100°C",
+      "(7/2)k_B T where T=100°C"
+    ],
+    "options_gu": [
+      "(7/2)k_B T where T=373 K",
+      "(5/2)k_B T where T=373 K",
+      "(5/2)k_B T where T=100°C",
+      "(7/2)k_B T where T=100°C"
+    ],
+    "answer": "A",
+    "topic": "Statistical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q34",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "If two states i and j having energies E_i and E_j respectively and have probabilities of occurring as P_i and P_j, then temperature of the system will be given by:",
+    "question_gu": "If two states i and j having energies E_i and E_j respectively and have probabilities of occurring as P_i and P_j, then temperature of the system will be given by:",
+    "options_en": [
+      "T=(E_i−E_j)/(k ln(P_i/P_j))",
+      "T=(E_j−E_i)/(k ln(P_i/P_j))",
+      "T=−k(E_i−E_j)ln(P_i/P_j)",
+      "T=k ln(P_i/P_j)/(E_i−E_j)"
+    ],
+    "options_gu": [
+      "T=(E_i−E_j)/(k ln(P_i/P_j))",
+      "T=(E_j−E_i)/(k ln(P_i/P_j))",
+      "T=−k(E_i−E_j)ln(P_i/P_j)",
+      "T=k ln(P_i/P_j)/(E_i−E_j)"
+    ],
+    "answer": "A",
+    "topic": "Statistical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q35",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Consider two identical particles. Each particle can be in one of the three possible quantum states 0, ε and 3ε. Then the number of microstates of the system for Fermi-Dirac statistics will be:",
+    "question_gu": "Consider two identical particles. Each particle can be in one of the three possible quantum states 0, ε and 3ε. Then the number of microstates of the system for Fermi-Dirac statistics will be:",
+    "options_en": [
+      "6",
+      "9",
+      "3",
+      "12"
+    ],
+    "options_gu": [
+      "6",
+      "9",
+      "3",
+      "12"
+    ],
+    "answer": "C",
+    "topic": "Statistical Mechanics — Quantum Statistics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q36",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "A system has 5 different macrostates under which there are 6, 20, 42, 12 and 2 microstates. A certain property X associated with the system has values 4, 4, 2, 6 and 10 respectively, for 5 macrostates. The expectation value ⟨x⟩ will be:",
+    "question_gu": "A system has 5 different macrostates under which there are 6, 20, 42, 12 and 2 microstates. A certain property X associated with the system has values 4, 4, 2, 6 and 10 respectively, for 5 macrostates. The expectation value ⟨x⟩ will be:",
+    "options_en": [
+      "6.25",
+      "12.50",
+      "3.41",
+      "9.41"
+    ],
+    "options_gu": [
+      "6.25",
+      "12.50",
+      "3.41",
+      "9.41"
+    ],
+    "answer": "C",
+    "topic": "Statistical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q37",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The value of chemical potential for photon gas is:",
+    "question_gu": "The value of chemical potential for photon gas is:",
+    "options_en": [
+      "k_BT ln(λ³N/V), where λ=h/√(2πmk_BT) and N is number of photons in volume V",
+      "(k_BT/E) ln(λ³N/V), where E is energy of photon of frequency ω",
+      "k_BT ln(e^{ℏω/k_BT}−1)",
+      "Zero"
+    ],
+    "options_gu": [
+      "k_BT ln(λ³N/V), where λ=h/√(2πmk_BT) and N is number of photons in volume V",
+      "(k_BT/E) ln(λ³N/V), where E is energy of photon of frequency ω",
+      "k_BT ln(e^{ℏω/k_BT}−1)",
+      "Zero"
+    ],
+    "answer": "D",
+    "topic": "Statistical Mechanics — Photon Gas",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q38",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "You are given N particles of spin 1/2 arranged in one line, and periodically placed. Distance between two spins is a. The length of line is L=Na. The system is at temperature T=0 K. The entropy of the spin system is:",
+    "question_gu": "You are given N particles of spin 1/2 arranged in one line, and periodically placed. Distance between two spins is a. The length of line is L=Na. The system is at temperature T=0 K. The entropy of the spin system is:",
+    "options_en": [
+      "S=k_B",
+      "S=2k_BN",
+      "S=Nk_B ln 2",
+      "S=ln(2Nk_B)"
+    ],
+    "options_gu": [
+      "S=k_B",
+      "S=2k_BN",
+      "S=Nk_B ln 2",
+      "S=ln(2Nk_B)"
+    ],
+    "answer": "C",
+    "topic": "Statistical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q39",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Consider a black-body spectrum at an absolute temperature T. Then the energy density between ω and ω+dω:",
+    "question_gu": "Consider a black-body spectrum at an absolute temperature T. Then the energy density between ω and ω+dω:",
+    "options_en": [
+      "goes as ω³e^{−ℏω/k_BT} at high frequencies and as k_BT·ω² at low frequencies",
+      "goes as (k_BT)ω² at high frequencies and as ω³e^{−ℏω/k_BT} at low frequencies",
+      "goes as e^{−ℏω/k_BT} at high frequencies and as e^{−ℏω/k_BT} at low frequencies",
+      "goes as (k_BT)ω at high frequencies and as e^{−ℏω/k_BT} at low frequencies"
+    ],
+    "options_gu": [
+      "goes as ω³e^{−ℏω/k_BT} at high frequencies and as k_BT·ω² at low frequencies",
+      "goes as (k_BT)ω² at high frequencies and as ω³e^{−ℏω/k_BT} at low frequencies",
+      "goes as e^{−ℏω/k_BT} at high frequencies and as e^{−ℏω/k_BT} at low frequencies",
+      "goes as (k_BT)ω at high frequencies and as e^{−ℏω/k_BT} at low frequencies"
+    ],
+    "answer": "A",
+    "topic": "Statistical Mechanics — Blackbody Radiation",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q40",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Which one of the following is a correct statement?",
+    "question_gu": "Which one of the following is a correct statement?",
+    "options_en": [
+      "In canonical ensemble, both the energy and matter are exchanged with the reservoir",
+      "In grand canonical ensemble only the energy is exchanged with the reservoir",
+      "In canonical ensemble, only energy is exchanged with the reservoir whereas in grand canonical ensemble, both the energy and the matter are exchanged with the reservoir",
+      "In grand canonical ensemble no energy but only the matter is exchanged with reservoir"
+    ],
+    "options_gu": [
+      "In canonical ensemble, both the energy and matter are exchanged with the reservoir",
+      "In grand canonical ensemble only the energy is exchanged with the reservoir",
+      "In canonical ensemble, only energy is exchanged with the reservoir whereas in grand canonical ensemble, both the energy and the matter are exchanged with the reservoir",
+      "In grand canonical ensemble no energy but only the matter is exchanged with reservoir"
+    ],
+    "answer": "C",
+    "topic": "Statistical Mechanics — Ensembles",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q41",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "For low energy X-rays the following detector has the best energy resolution:",
+    "question_gu": "For low energy X-rays the following detector has the best energy resolution:",
+    "options_en": [
+      "Ionisation chamber",
+      "G.M. Counter",
+      "Scintillation counter",
+      "Si(Li) detector"
+    ],
+    "options_gu": [
+      "Ionisation chamber",
+      "G.M. Counter",
+      "Scintillation counter",
+      "Si(Li) detector"
+    ],
+    "answer": "D",
+    "topic": "Nuclear & Particle Physics — Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q42",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The intensity of a beam of the following particles passing through matter undergoes an exponential attenuation:",
+    "question_gu": "The intensity of a beam of the following particles passing through matter undergoes an exponential attenuation:",
+    "options_en": [
+      "Electrons",
+      "Protons",
+      "Gamma rays",
+      "β-particles"
+    ],
+    "options_gu": [
+      "Electrons",
+      "Protons",
+      "Gamma rays",
+      "β-particles"
+    ],
+    "answer": "C",
+    "topic": "Nuclear & Particle Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q43",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Hall effect experiment measures:",
+    "question_gu": "Hall effect experiment measures:",
+    "options_en": [
+      "Amount of ionisation produced",
+      "Charge carrier density in the material",
+      "Energy of the electron",
+      "The density of minority carrier in a solid"
+    ],
+    "options_gu": [
+      "Amount of ionisation produced",
+      "Charge carrier density in the material",
+      "Energy of the electron",
+      "The density of minority carrier in a solid"
+    ],
+    "answer": "B",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q44",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "In order to measure the ‘time’ using the electronic signals from the detectors the output pulse should have:",
+    "question_gu": "In order to measure the ‘time’ using the electronic signals from the detectors the output pulse should have:",
+    "options_en": [
+      "a very short rise time",
+      "a very long decay time",
+      "a very long rise time",
+      "a very large pulse width"
+    ],
+    "options_gu": [
+      "a very short rise time",
+      "a very long decay time",
+      "a very long rise time",
+      "a very large pulse width"
+    ],
+    "answer": "A",
+    "topic": "Experimental Physics — Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q45",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Coincidence measurements are used to:",
+    "question_gu": "Coincidence measurements are used to:",
+    "options_en": [
+      "Improve noise to signal ratio",
+      "Improve signal to noise ratio",
+      "Improve the efficiency of detection",
+      "Reduce the time of collection of data"
+    ],
+    "options_gu": [
+      "Improve noise to signal ratio",
+      "Improve signal to noise ratio",
+      "Improve the efficiency of detection",
+      "Reduce the time of collection of data"
+    ],
+    "answer": "B",
+    "topic": "Experimental Physics — Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q46",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "The timing measurements that can be done with the pulses from the detectors are in the range of:",
+    "question_gu": "The timing measurements that can be done with the pulses from the detectors are in the range of:",
+    "options_en": [
+      "Minutes",
+      "Seconds",
+      "Milliseconds",
+      "Microseconds"
+    ],
+    "options_gu": [
+      "Minutes",
+      "Seconds",
+      "Milliseconds",
+      "Microseconds"
+    ],
+    "answer": "D",
+    "topic": "Experimental Physics — Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: D. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: D. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q47",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "A preamplifier at the output of detector is used to:",
+    "question_gu": "A preamplifier at the output of detector is used to:",
+    "options_en": [
+      "Amplify the signal",
+      "Match the impedance",
+      "Count the pulses",
+      "Feedback the signal"
+    ],
+    "options_gu": [
+      "Amplify the signal",
+      "Match the impedance",
+      "Count the pulses",
+      "Feedback the signal"
+    ],
+    "answer": "B",
+    "topic": "Experimental Physics — Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q48",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "To measure the temperatures below the liquid nitrogen temperature we need to use:",
+    "question_gu": "To measure the temperatures below the liquid nitrogen temperature we need to use:",
+    "options_en": [
+      "Thermocouple",
+      "Semiconductor diode",
+      "Transistor",
+      "Thermistor"
+    ],
+    "options_gu": [
+      "Thermocouple",
+      "Semiconductor diode",
+      "Transistor",
+      "Thermistor"
+    ],
+    "answer": "B",
+    "topic": "Experimental Physics — Sensors",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q49",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "Reproducibility of a measurement is determined by:",
+    "question_gu": "Reproducibility of a measurement is determined by:",
+    "options_en": [
+      "Deviation from standard value",
+      "Standard deviation",
+      "Mean of the measurement",
+      "Mode of the measurement"
+    ],
+    "options_gu": [
+      "Deviation from standard value",
+      "Standard deviation",
+      "Mean of the measurement",
+      "Mode of the measurement"
+    ],
+    "answer": "B",
+    "topic": "Experimental Physics — Measurement",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; the textual question and four choices were checked against the uploaded paper.",
+    "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; question અને ચારેય options source સામે ચકાસેલ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": true,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec03_q50",
+    "paper_id": "physical_dec03",
+    "exam": "December 2003",
+    "question_en": "If a signal x(t+T)=−x(t) with T is the period of its signal, the signal is an:",
+    "question_gu": "If a signal x(t+T)=−x(t) with T is the period of its signal, the signal is an:",
+    "options_en": [
+      "Even function",
+      "Odd function",
+      "Energy function",
+      "Even-odd function"
+    ],
+    "options_gu": [
+      "Even function",
+      "Odd function",
+      "Energy function",
+      "Even-odd function"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Physics — Signals",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
+    "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
+    "review_flag": true,
+    "review_note": "Original source contains formula/diagram notation; preserve/check against the original PDF before removing this flag.",
+    "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
+    "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
+    "source_verified": false,
+    "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key"
   }
 ]
