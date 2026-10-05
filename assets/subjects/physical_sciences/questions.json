@@ -7908,5 +7908,1505 @@
     "tip_gu": "",
     "source_verified": true,
     "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q01",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Which one of the following is a scalar quantity ?",
+    "question_gu": "Which one of the following is a scalar quantity ?",
+    "options_en": [
+      "Area",
+      "Pressure",
+      "Moment of Inertia",
+      "Potential Energy"
+    ],
+    "options_gu": [
+      "Area",
+      "Pressure",
+      "Moment of Inertia",
+      "Potential Energy"
+    ],
+    "answer": "D",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q02",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Considering i² = −1, the value of √i could be :",
+    "question_gu": "Considering i² = −1, the value of √i could be :",
+    "options_en": [
+      "1",
+      "1/√2 + i/√2",
+      "i/√2",
+      "−1 + i"
+    ],
+    "options_gu": [
+      "1",
+      "1/√2 + i/√2",
+      "i/√2",
+      "−1 + i"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q03",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The result of scalar triple product V⃗ · (V⃗ × V⃗) is :",
+    "question_gu": "The result of scalar triple product V⃗ · (V⃗ × V⃗) is :",
+    "options_en": [
+      "∇²V⃗",
+      "V⃗ · V⃗",
+      "V⃗ × V⃗",
+      "0"
+    ],
+    "options_gu": [
+      "∇²V⃗",
+      "V⃗ · V⃗",
+      "V⃗ × V⃗",
+      "0"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q04",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The Fourier series of an odd function f(t) of period T is :",
+    "question_gu": "The Fourier series of an odd function f(t) of period T is :",
+    "options_en": [
+      "Fourier cosine series",
+      "Fourier transform",
+      "Fourier sine series",
+      "Not possible"
+    ],
+    "options_gu": [
+      "Fourier cosine series",
+      "Fourier transform",
+      "Fourier sine series",
+      "Not possible"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q05",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The number of independent solutions of a given third order differential equation is :",
+    "question_gu": "The number of independent solutions of a given third order differential equation is :",
+    "options_en": [
+      "3",
+      "6",
+      "9",
+      "Infinite"
+    ],
+    "options_gu": [
+      "3",
+      "6",
+      "9",
+      "Infinite"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q06",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A charge q₁ is fixed at the origin of coordinates. If another charge q₂ is placed at a distance r from q₁, and if the electrostatic potential is taken to be zero at a point s from q₁ and if this point lies between the line joining q₁ and q₂, then the electrostatic energy of q₂ is :",
+    "question_gu": "A charge q₁ is fixed at the origin of coordinates. If another charge q₂ is placed at a distance r from q₁, and if the electrostatic potential is taken to be zero at a point s from q₁ and if this point lies between the line joining q₁ and q₂, then the electrostatic energy of q₂ is :",
+    "options_en": [
+      "−q₁q₂/s + q₁q₂/r",
+      "q₁q₂/s + q₁q₂/r",
+      "q₁q₂/r",
+      "(q₁q₂/r)[1 + (r/s)²]"
+    ],
+    "options_gu": [
+      "−q₁q₂/s + q₁q₂/r",
+      "q₁q₂/s + q₁q₂/r",
+      "q₁q₂/r",
+      "(q₁q₂/r)[1 + (r/s)²]"
+    ],
+    "answer": "A",
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q07",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The kinetic energy of a particle in terms of coordinates r and q = sin θ, where r and θ are polar coordinates, is :",
+    "question_gu": "The kinetic energy of a particle in terms of coordinates r and q = sin θ, where r and θ are polar coordinates, is :",
+    "options_en": [
+      "(1/2)m(ṙ² + r²q̇²)",
+      "(1/2)m(ṙ² + r²q̇²/(1−q²))",
+      "(1/2)m(ṙ²q² + r²q̇²)",
+      "(1/2)m(ṙ² + r²θ̇²q̇²)"
+    ],
+    "options_gu": [
+      "(1/2)m(ṙ² + r²q̇²)",
+      "(1/2)m(ṙ² + r²q̇²/(1−q²))",
+      "(1/2)m(ṙ²q² + r²q̇²)",
+      "(1/2)m(ṙ² + r²θ̇²q̇²)"
+    ],
+    "answer": "B",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q08",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The Lagrangian L = (1/2)m ẋ² + a x ẋ t, where m is the mass of the particle and a is constant, describes the motion of the particle under potential energy V proportional to :",
+    "question_gu": "The Lagrangian L = (1/2)m ẋ² + a x ẋ t, where m is the mass of the particle and a is constant, describes the motion of the particle under potential energy V proportional to :",
+    "options_en": [
+      "x",
+      "1/x",
+      "x²",
+      "1/x²"
+    ],
+    "options_gu": [
+      "x",
+      "1/x",
+      "x²",
+      "1/x²"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q09",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The total energy of a particle moving in an attractive inverse square force field is given by E = (1/2)m ṙ² − k/r + l²/(2mr²), k > 0. The turning points of the motion are given by :",
+    "question_gu": "The total energy of a particle moving in an attractive inverse square force field is given by E = (1/2)m ṙ² − k/r + l²/(2mr²), k > 0. The turning points of the motion are given by :",
+    "options_en": [
+      "E = 0",
+      "r = l²/(2mk)",
+      "E = −k/r + l²/(2mr²)",
+      "l = 0"
+    ],
+    "options_gu": [
+      "E = 0",
+      "r = l²/(2mk)",
+      "E = −k/r + l²/(2mr²)",
+      "l = 0"
+    ],
+    "answer": "C",
+    "topic": "Classical Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q10",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A beam of charged pions leaves an accelerator target at a speed of 0.99c. The half-life of pions is 1.77 × 10⁻⁸ s. The beam intensity will drop to half its original intensity at the following distance from the target :",
+    "question_gu": "A beam of charged pions leaves an accelerator target at a speed of 0.99c. The half-life of pions is 1.77 × 10⁻⁸ s. The beam intensity will drop to half its original intensity at the following distance from the target :",
+    "options_en": [
+      "5.3 m",
+      "39 m",
+      "530 m",
+      "390 m"
+    ],
+    "options_gu": [
+      "5.3 m",
+      "39 m",
+      "530 m",
+      "390 m"
+    ],
+    "answer": "B",
+    "topic": "Special Relativity",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q11",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The dispersion relation of a wave is given by ω(k) = c√(k² + k₀²), where c and k₀ are constants. The group and phase velocities respectively are :",
+    "question_gu": "The dispersion relation of a wave is given by ω(k) = c√(k² + k₀²), where c and k₀ are constants. The group and phase velocities respectively are :",
+    "options_en": [
+      "c²k/ω, ω/k",
+      "ω/k, c²k/ω",
+      "c/2, c",
+      "ω²/(ck²), c²k/ω²"
+    ],
+    "options_gu": [
+      "c²k/ω, ω/k",
+      "ω/k, c²k/ω",
+      "c/2, c",
+      "ω²/(ck²), c²k/ω²"
+    ],
+    "answer": "A",
+    "topic": "Waves",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q12",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A point particle is scattered by a rigid sphere of radius R. The total scattering cross-section is :",
+    "question_gu": "A point particle is scattered by a rigid sphere of radius R. The total scattering cross-section is :",
+    "options_en": [
+      "16πR²",
+      "2πR²",
+      "4πR²",
+      "πR²"
+    ],
+    "options_gu": [
+      "16πR²",
+      "2πR²",
+      "4πR²",
+      "πR²"
+    ],
+    "answer": "D",
+    "topic": "Scattering",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q13",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Listed below are four Maxwell's equations of electromagnetism. If magnetic monopoles exist, which of these would need modifications? (i) ∇×H = J + ∂D/∂t; (ii) ∇×E = −∂B/∂t; (iii) ∇·D = ρ; (iv) ∇·B = 0",
+    "question_gu": "Listed below are four Maxwell's equations of electromagnetism. If magnetic monopoles exist, which of these would need modifications? (i) ∇×H = J + ∂D/∂t; (ii) ∇×E = −∂B/∂t; (iii) ∇·D = ρ; (iv) ∇·B = 0",
+    "options_en": [
+      "Only (iv)",
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "(ii) and (iv)"
+    ],
+    "options_gu": [
+      "Only (iv)",
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "(ii) and (iv)"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q14",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "If an electric field is given in a certain region by Eₓ = 0, Eᵧ = 0, E_z = kz, where k is a nonzero constant, which of the following is true?",
+    "question_gu": "If an electric field is given in a certain region by Eₓ = 0, Eᵧ = 0, E_z = kz, where k is a nonzero constant, which of the following is true?",
+    "options_en": [
+      "There is a charge density in the region",
+      "There is a time-varying magnetic field associated with it",
+      "The electric field cannot be constant in time",
+      "This electric field is impossible"
+    ],
+    "options_gu": [
+      "There is a charge density in the region",
+      "There is a time-varying magnetic field associated with it",
+      "The electric field cannot be constant in time",
+      "This electric field is impossible"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q15",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A circular loop of radius R, carrying a current I, lies in X-Y plane with its centre at the origin. The total magnetic flux in the x-y plane is :",
+    "question_gu": "A circular loop of radius R, carrying a current I, lies in X-Y plane with its centre at the origin. The total magnetic flux in the x-y plane is :",
+    "options_en": [
+      "Directly proportional to I",
+      "Directly proportional to R",
+      "Inversely proportional to R",
+      "Zero"
+    ],
+    "options_gu": [
+      "Directly proportional to I",
+      "Directly proportional to R",
+      "Inversely proportional to R",
+      "Zero"
+    ],
+    "answer": "D",
+    "topic": "Magnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q16",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Which of the following is not part of Maxwell's equations?",
+    "question_gu": "Which of the following is not part of Maxwell's equations?",
+    "options_en": [
+      "F⃗ = q(E⃗ + v⃗ × B⃗)",
+      "∇·E⃗ = ρ/ε₀",
+      "∇·B⃗ = 0",
+      "∇×E⃗ = −∂B⃗/∂t"
+    ],
+    "options_gu": [
+      "F⃗ = q(E⃗ + v⃗ × B⃗)",
+      "∇·E⃗ = ρ/ε₀",
+      "∇·B⃗ = 0",
+      "∇×E⃗ = −∂B⃗/∂t"
+    ],
+    "answer": "A",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q17",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A charged particle of mass m enters a region of uniform magnetic field B⃗ with velocity v⃗ making an angle of 30° with the direction of the magnetic field. The path of such a particle is :",
+    "question_gu": "A charged particle of mass m enters a region of uniform magnetic field B⃗ with velocity v⃗ making an angle of 30° with the direction of the magnetic field. The path of such a particle is :",
+    "options_en": [
+      "Circular",
+      "Parabolic",
+      "Helical",
+      "Sinusoidal"
+    ],
+    "options_gu": [
+      "Circular",
+      "Parabolic",
+      "Helical",
+      "Sinusoidal"
+    ],
+    "answer": "C",
+    "topic": "Charged Particle Motion",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q18",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The scalar and vector potentials are given by Φ = 0, A⃗ = a(ct − |X|)² k̂, |X| < ct; = 0, |X| > ct, where a is a constant. The electric field then is :",
+    "question_gu": "The scalar and vector potentials are given by Φ = 0, A⃗ = a(ct − |X|)² k̂, |X| < ct; = 0, |X| > ct, where a is a constant. The electric field then is :",
+    "options_en": [
+      "−(ct − |X|) k̂, |X| < ct; 0, |X| > ct",
+      "0, |X| < ct; −(ct − |X|) k̂, |X| > ct",
+      "−2ac(ct − |X|) k̂, |X| < ct; 0, |X| > ct",
+      "Zero"
+    ],
+    "options_gu": [
+      "−(ct − |X|) k̂, |X| < ct; 0, |X| > ct",
+      "0, |X| < ct; −(ct − |X|) k̂, |X| > ct",
+      "−2ac(ct − |X|) k̂, |X| < ct; 0, |X| > ct",
+      "Zero"
+    ],
+    "answer": "C",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q19",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The frequency of a television transmitter is :",
+    "question_gu": "The frequency of a television transmitter is :",
+    "options_en": [
+      "100 kHz",
+      "1 MHz",
+      "10 MHz",
+      "100 MHz"
+    ],
+    "options_gu": [
+      "100 kHz",
+      "1 MHz",
+      "10 MHz",
+      "100 MHz"
+    ],
+    "answer": "D",
+    "topic": "Electronics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q20",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "If a charged particle q is moving in a circular path of radius R under the action of a constant magnetic field B, then its momentum is given by :",
+    "question_gu": "If a charged particle q is moving in a circular path of radius R under the action of a constant magnetic field B, then its momentum is given by :",
+    "options_en": [
+      "p²/(2m) = B²/(2μ₀)",
+      "p = qBR",
+      "p = 1/(qBR)",
+      "p = √(qBR)"
+    ],
+    "options_gu": [
+      "p²/(2m) = B²/(2μ₀)",
+      "p = qBR",
+      "p = 1/(qBR)",
+      "p = √(qBR)"
+    ],
+    "answer": "B",
+    "topic": "Charged Particle Motion",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q21",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Total power radiated by an accelerated charge is proportional to (a = acceleration) :",
+    "question_gu": "Total power radiated by an accelerated charge is proportional to (a = acceleration) :",
+    "options_en": [
+      "a",
+      "a⁻²",
+      "a⁻¹",
+      "a²"
+    ],
+    "options_gu": [
+      "a",
+      "a⁻²",
+      "a⁻¹",
+      "a²"
+    ],
+    "answer": "D",
+    "topic": "Radiation",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q22",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The wave vector k of propagation of electromagnetic wave in a plasma is given by k² = (1/c²)(ω² − ωₚ²), where ωₚ is the constant plasma frequency. The group velocity is given by :",
+    "question_gu": "The wave vector k of propagation of electromagnetic wave in a plasma is given by k² = (1/c²)(ω² − ωₚ²), where ωₚ is the constant plasma frequency. The group velocity is given by :",
+    "options_en": [
+      "c/(1 − ωₚ²/ω²)¹ᐟ²",
+      "c(1 − ωₚ²/ω²)",
+      "cω/ωₚ",
+      "c(1 − ωₚ²/ω²)¹ᐟ²"
+    ],
+    "options_gu": [
+      "c/(1 − ωₚ²/ω²)¹ᐟ²",
+      "c(1 − ωₚ²/ω²)",
+      "cω/ωₚ",
+      "c(1 − ωₚ²/ω²)¹ᐟ²"
+    ],
+    "answer": "D",
+    "topic": "Plasma Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q23",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Which one of the following is an admissible wave function of a particle?",
+    "question_gu": "Which one of the following is an admissible wave function of a particle?",
+    "options_en": [
+      "1/(x² + a²)",
+      "e^(ax)",
+      "e^(−ax)",
+      "x²"
+    ],
+    "options_gu": [
+      "1/(x² + a²)",
+      "e^(ax)",
+      "e^(−ax)",
+      "x²"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q24",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Which one of the following is an eigenfunction of linear momentum operator in one dimension with a positive eigenvalue ħk?",
+    "question_gu": "Which one of the following is an eigenfunction of linear momentum operator in one dimension with a positive eigenvalue ħk?",
+    "options_en": [
+      "cos kx",
+      "sin kx",
+      "e^(kx)",
+      "e^(ikx)"
+    ],
+    "options_gu": [
+      "cos kx",
+      "sin kx",
+      "e^(kx)",
+      "e^(ikx)"
+    ],
+    "answer": "D",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q25",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A system is known to be in the normalized state described by the wave function ψ(θ,φ) = (1/√30){5Y₄³ + Y₆³ − 2Y₆⁰}, where Y_l^m(θ,φ) are the spherical harmonics. The probability density of finding the system in a state with azimuthal quantum number m = 3 is :",
+    "question_gu": "A system is known to be in the normalized state described by the wave function ψ(θ,φ) = (1/√30){5Y₄³ + Y₆³ − 2Y₆⁰}, where Y_l^m(θ,φ) are the spherical harmonics. The probability density of finding the system in a state with azimuthal quantum number m = 3 is :",
+    "options_en": [
+      "0",
+      "1/15",
+      "13/15",
+      "1/6"
+    ],
+    "options_gu": [
+      "0",
+      "1/15",
+      "13/15",
+      "1/6"
+    ],
+    "answer": "C",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q26",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The number of degenerate states for the first excited state of hydrogen atom is :",
+    "question_gu": "The number of degenerate states for the first excited state of hydrogen atom is :",
+    "options_en": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "options_gu": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "answer": "C",
+    "topic": "Atomic Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q27",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The spherical harmonics Y_lm(θ,φ) are the eigenfunctions of :",
+    "question_gu": "The spherical harmonics Y_lm(θ,φ) are the eigenfunctions of :",
+    "options_en": [
+      "L² and L_z",
+      "L_x, L_y and L_z",
+      "L⃗ and L_z",
+      "L² and L_x"
+    ],
+    "options_gu": [
+      "L² and L_z",
+      "L_x, L_y and L_z",
+      "L⃗ and L_z",
+      "L² and L_x"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q28",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "In the Hamiltonian of anharmonic oscillator H = p²/(2m) + (1/2)mω²x² + λx⁴, the perturbation term is :",
+    "question_gu": "In the Hamiltonian of anharmonic oscillator H = p²/(2m) + (1/2)mω²x² + λx⁴, the perturbation term is :",
+    "options_en": [
+      "p²/(2m)",
+      "(1/2)mω²x²",
+      "(1/2)ħω",
+      "λx⁴"
+    ],
+    "options_gu": [
+      "p²/(2m)",
+      "(1/2)mω²x²",
+      "(1/2)ħω",
+      "λx⁴"
+    ],
+    "answer": "D",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q29",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "For angular momentum J⃗, in the quantum mechanical context the value of the commutator [(Jₓ + Jᵧ + J_z), J²] is :",
+    "question_gu": "For angular momentum J⃗, in the quantum mechanical context the value of the commutator [(Jₓ + Jᵧ + J_z), J²] is :",
+    "options_en": [
+      "0",
+      "iħJₓ",
+      "iħJᵧ",
+      "iħJ_z"
+    ],
+    "options_gu": [
+      "0",
+      "iħJₓ",
+      "iħJᵧ",
+      "iħJ_z"
+    ],
+    "answer": "A",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q30",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "If R and T are the reflection and transmission coefficients of particles incident on a potential barrier, one can expect :",
+    "question_gu": "If R and T are the reflection and transmission coefficients of particles incident on a potential barrier, one can expect :",
+    "options_en": [
+      "R = T",
+      "R + T = 0",
+      "R + T = 1",
+      "T = 1"
+    ],
+    "options_gu": [
+      "R = T",
+      "R + T = 0",
+      "R + T = 1",
+      "T = 1"
+    ],
+    "answer": "C",
+    "topic": "Quantum Scattering",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q31",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "In the first Born approximation, the scattering amplitude is :",
+    "question_gu": "In the first Born approximation, the scattering amplitude is :",
+    "options_en": [
+      "Real",
+      "Complex",
+      "Imaginary",
+      "Zero"
+    ],
+    "options_gu": [
+      "Real",
+      "Complex",
+      "Imaginary",
+      "Zero"
+    ],
+    "answer": "A",
+    "topic": "Quantum Scattering",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q32",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The total wave function of a system of N electrons is :",
+    "question_gu": "The total wave function of a system of N electrons is :",
+    "options_en": [
+      "Symmetric",
+      "N × N determinant",
+      "(N − 1) × (N + 1) determinant",
+      "N determinants"
+    ],
+    "options_gu": [
+      "Symmetric",
+      "N × N determinant",
+      "(N − 1) × (N + 1) determinant",
+      "N determinants"
+    ],
+    "answer": "B",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q33",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Consider the two isotopes ³He and ⁴He. Bose-Einstein condensation will take place in :",
+    "question_gu": "Consider the two isotopes ³He and ⁴He. Bose-Einstein condensation will take place in :",
+    "options_en": [
+      "both the isotopes",
+      "Neither",
+      "³He",
+      "⁴He"
+    ],
+    "options_gu": [
+      "both the isotopes",
+      "Neither",
+      "³He",
+      "⁴He"
+    ],
+    "answer": "D",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q34",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Which law of thermodynamics states that at T = 0, S = 0?",
+    "question_gu": "Which law of thermodynamics states that at T = 0, S = 0?",
+    "options_en": [
+      "Zeroth law",
+      "First law",
+      "Second law",
+      "Third law"
+    ],
+    "options_gu": [
+      "Zeroth law",
+      "First law",
+      "Second law",
+      "Third law"
+    ],
+    "answer": "D",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q35",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "If the Debye temperature of a solid is 2500 K, then at 27°C the specific heat :",
+    "question_gu": "If the Debye temperature of a solid is 2500 K, then at 27°C the specific heat :",
+    "options_en": [
+      "will be that given by Dulong-Petit’s law",
+      "will be less than that given by Dulong-Petit’s law",
+      "will be more than that given by Dulong-Petit’s law",
+      "will follow Einstein’s theory"
+    ],
+    "options_gu": [
+      "will be that given by Dulong-Petit’s law",
+      "will be less than that given by Dulong-Petit’s law",
+      "will be more than that given by Dulong-Petit’s law",
+      "will follow Einstein’s theory"
+    ],
+    "answer": "B",
+    "topic": "Solid State Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q36",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Four fermions are to be distributed amongst five energy states including spin. The number of possible ways for such distribution is :",
+    "question_gu": "Four fermions are to be distributed amongst five energy states including spin. The number of possible ways for such distribution is :",
+    "options_en": [
+      "Four",
+      "Eight",
+      "Ten",
+      "Five"
+    ],
+    "options_gu": [
+      "Four",
+      "Eight",
+      "Ten",
+      "Five"
+    ],
+    "answer": "D",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q37",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A vessel contains 7 balls. The number of ways in which we can first draw 2 balls, then 3 balls and finally 2 balls from the vessel is :",
+    "question_gu": "A vessel contains 7 balls. The number of ways in which we can first draw 2 balls, then 3 balls and finally 2 balls from the vessel is :",
+    "options_en": [
+      "7!/(2!3!)",
+      "7!/5!",
+      "7!/[3!(2!)²]",
+      "7!/(5!2!)"
+    ],
+    "options_gu": [
+      "7!/(2!3!)",
+      "7!/5!",
+      "7!/[3!(2!)²]",
+      "7!/(5!2!)"
+    ],
+    "answer": "C",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q38",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A closed thermodynamic cycle is described in a clockwise direction in the P-V diagram with volume V plotted along the X-axis and pressure p along the Y-axis. The work done by the system, the heat energy absorbed by the system and the change in the internal energy of the system are, respectively :",
+    "question_gu": "A closed thermodynamic cycle is described in a clockwise direction in the P-V diagram with volume V plotted along the X-axis and pressure p along the Y-axis. The work done by the system, the heat energy absorbed by the system and the change in the internal energy of the system are, respectively :",
+    "options_en": [
+      "Negative, positive, zero",
+      "Positive, negative, zero",
+      "Positive, zero, negative",
+      "Positive, positive, zero"
+    ],
+    "options_gu": [
+      "Negative, positive, zero",
+      "Positive, negative, zero",
+      "Positive, zero, negative",
+      "Positive, positive, zero"
+    ],
+    "answer": "D",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q39",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The entropy S of a system is related to the number, Ω, of microscopic states accessible to the system by (K = Boltzmann constant) :",
+    "question_gu": "The entropy S of a system is related to the number, Ω, of microscopic states accessible to the system by (K = Boltzmann constant) :",
+    "options_en": [
+      "S = ln Ω",
+      "S = K ln Ω",
+      "S ln Ω = K",
+      "S = 1/ln Ω"
+    ],
+    "options_gu": [
+      "S = ln Ω",
+      "S = K ln Ω",
+      "S ln Ω = K",
+      "S = 1/ln Ω"
+    ],
+    "answer": "B",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q40",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The ratio of specific heat at constant pressure and at constant volume of an ideal diatomic gas, when no vibrational degrees of freedom are excited, is :",
+    "question_gu": "The ratio of specific heat at constant pressure and at constant volume of an ideal diatomic gas, when no vibrational degrees of freedom are excited, is :",
+    "options_en": [
+      "7/5",
+      "5/3",
+      "9/7",
+      "9/5"
+    ],
+    "options_gu": [
+      "7/5",
+      "5/3",
+      "9/7",
+      "9/5"
+    ],
+    "answer": "A",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q41",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The pressures of ideal Bose and Fermi gases at absolute zero are, respectively :",
+    "question_gu": "The pressures of ideal Bose and Fermi gases at absolute zero are, respectively :",
+    "options_en": [
+      "Zero, Zero",
+      "Zero, Non-zero",
+      "Non-zero, Zero",
+      "Non-zero, Non-zero"
+    ],
+    "options_gu": [
+      "Zero, Zero",
+      "Zero, Non-zero",
+      "Non-zero, Zero",
+      "Non-zero, Non-zero"
+    ],
+    "answer": "B",
+    "topic": "Statistical Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q42",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A photomultiplier can detect a feeble optical signal because of :",
+    "question_gu": "A photomultiplier can detect a feeble optical signal because of :",
+    "options_en": [
+      "The shape of its photocathode",
+      "Multiplication of the output pulse",
+      "Multiplication of secondary electrons",
+      "Multiplication of photons"
+    ],
+    "options_gu": [
+      "The shape of its photocathode",
+      "Multiplication of the output pulse",
+      "Multiplication of secondary electrons",
+      "Multiplication of photons"
+    ],
+    "answer": "C",
+    "topic": "Nuclear/Particle Detection",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q43",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Precise value of h/e can be obtained by :",
+    "question_gu": "Precise value of h/e can be obtained by :",
+    "options_en": [
+      "Thomson’s method",
+      "Millikan’s method",
+      "Bragg’s method",
+      "Compton effect"
+    ],
+    "options_gu": [
+      "Thomson’s method",
+      "Millikan’s method",
+      "Bragg’s method",
+      "Compton effect"
+    ],
+    "answer": "D",
+    "topic": "Modern Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q44",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Diffraction pattern for different isotopes will be different for :",
+    "question_gu": "Diffraction pattern for different isotopes will be different for :",
+    "options_en": [
+      "X-ray Diffraction",
+      "Electron Diffraction",
+      "Optical Diffraction",
+      "Neutron Diffraction"
+    ],
+    "options_gu": [
+      "X-ray Diffraction",
+      "Electron Diffraction",
+      "Optical Diffraction",
+      "Neutron Diffraction"
+    ],
+    "answer": "D",
+    "topic": "Diffraction",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q45",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Hall coefficient of 5 mm wide and 1 mm thick strip of InSb was found to be 4 × 10⁻⁴ m³C⁻¹. When it is placed in a field of 1 T Hall voltage was found to be 40.7 mV for 100 mA current passing along the sample. For the same amount of current if width is doubled and thickness is halved, then the voltage will be :",
+    "question_gu": "Hall coefficient of 5 mm wide and 1 mm thick strip of InSb was found to be 4 × 10⁻⁴ m³C⁻¹. When it is placed in a field of 1 T Hall voltage was found to be 40.7 mV for 100 mA current passing along the sample. For the same amount of current if width is doubled and thickness is halved, then the voltage will be :",
+    "options_en": [
+      "40.7 mV",
+      "81.4 mV",
+      "20.35 mV",
+      "10.17 mV"
+    ],
+    "options_gu": [
+      "40.7 mV",
+      "81.4 mV",
+      "20.35 mV",
+      "10.17 mV"
+    ],
+    "answer": "B",
+    "topic": "Semiconductor Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q46",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "For low pressure measurement between 10⁻⁸ – 10⁻¹¹ torr, the suitable gauge is :",
+    "question_gu": "For low pressure measurement between 10⁻⁸ – 10⁻¹¹ torr, the suitable gauge is :",
+    "options_en": [
+      "Thermocouple gauge",
+      "McLeod gauge",
+      "Penning gauge",
+      "Hot cathode gauge"
+    ],
+    "options_gu": [
+      "Thermocouple gauge",
+      "McLeod gauge",
+      "Penning gauge",
+      "Hot cathode gauge"
+    ],
+    "answer": "D",
+    "topic": "Vacuum Technology",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q47",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "The operation of an ionization chamber is comparable to that of a :",
+    "question_gu": "The operation of an ionization chamber is comparable to that of a :",
+    "options_en": [
+      "Scintillation detector",
+      "Proportional counter",
+      "Solid state detector",
+      "G. M. counter"
+    ],
+    "options_gu": [
+      "Scintillation detector",
+      "Proportional counter",
+      "Solid state detector",
+      "G. M. counter"
+    ],
+    "answer": "C",
+    "topic": "Radiation Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q48",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Pulse height analysis cannot be used with :",
+    "question_gu": "Pulse height analysis cannot be used with :",
+    "options_en": [
+      "Proportional counters",
+      "G. M. counters",
+      "Scintillation detectors",
+      "HpGe detectors"
+    ],
+    "options_gu": [
+      "Proportional counters",
+      "G. M. counters",
+      "Scintillation detectors",
+      "HpGe detectors"
+    ],
+    "answer": "B",
+    "topic": "Radiation Detectors",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q49",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "Standard deviation is a measure of :",
+    "question_gu": "Standard deviation is a measure of :",
+    "options_en": [
+      "Goodness of fit",
+      "Reproducibility of measurement",
+      "Time dependence of measurement",
+      "Deviation from the standard value"
+    ],
+    "options_gu": [
+      "Goodness of fit",
+      "Reproducibility of measurement",
+      "Time dependence of measurement",
+      "Deviation from the standard value"
+    ],
+    "answer": "B",
+    "topic": "Experimental Physics",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
+  },
+  {
+    "id": "physical_dec02_q50",
+    "paper_id": "physical_dec02",
+    "exam": "December 2002",
+    "question_en": "A charged particle in a magnetic field :",
+    "question_gu": "A charged particle in a magnetic field :",
+    "options_en": [
+      "gains energy",
+      "loses energy",
+      "does not gain energy",
+      "gains momentum"
+    ],
+    "options_gu": [
+      "gains energy",
+      "loses energy",
+      "does not gain energy",
+      "gains momentum"
+    ],
+    "answer": "C",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "source_verified": true,
+    "source": "GSET official December 2002 Physical Sciences Paper-II question paper and final answer key"
   }
 ]
