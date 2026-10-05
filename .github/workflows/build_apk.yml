@@ -8,6 +8,11 @@ on:
         required: false
         default: false
         type: boolean
+      physical_archive_paper:
+        description: 'One Physical Sciences paper ID to process (e.g. physical_jan02)'
+        required: false
+        default: 'physical_jan02'
+        type: string
   push:
     branches:
       - main
@@ -121,7 +126,7 @@ jobs:
       - name: Generate official Physical Sciences archive bank
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
         run: |
-          python3 tool/import_physical_archive.py
+          python3 tool/import_physical_archive.py --paper "${{ inputs.physical_archive_paper }}"
           python3 tool/import_nov25_physical.py
           test -s assets/subjects/physical_sciences/nov25_questions.json
           python3 - <<'PY'
@@ -149,6 +154,7 @@ jobs:
 
           # Validate by paper rather than by a global minimum.
           expected = {
+            "physical_jan02": 50,
             "physical_sep16": 50,
             "physical_aug17": 50,
             "physical_sep18": 100,
@@ -159,12 +165,15 @@ jobs:
             "physical_dec24": 75,
             "physical_nov25": 100,
           }
+          target_pid = "${{ inputs.physical_archive_paper }}"
+          assert target_pid in expected, f"Unknown target paper: {target_pid}"
           counts={}
           for x in existing:
               pid=str(x.get("paper_id") or x.get("paperId") or "")
               counts[pid]=counts.get(pid,0)+1
           for pid,n in expected.items():
-              assert counts.get(pid,0)==n, f"{pid}: expected {n}, found {counts.get(pid,0)}"
+              if pid == target_pid:
+                  assert counts.get(pid,0)==n, f"{pid}: expected {n}, found {counts.get(pid,0)}"
 
           # Existing verified archive records may use Z; never coerce them.
           json.dump(existing,open(target,"w",encoding="utf-8"),ensure_ascii=False,indent=2)
