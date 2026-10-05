@@ -192,7 +192,7 @@ def parse_key_text(text, expected):
 
 def parse_key(pdf, stem, expected):
     pages = extract_pages(pdf, stem)
-    if pages is None:
+    if not pages:
         pages = render_ocr(pdf, stem, 220)
     joined = "\n".join(t for _, t in pages)
     keys = parse_key_text(joined, expected)
