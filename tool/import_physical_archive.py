@@ -12,6 +12,7 @@ PAPERS = [
     ("physical_dec21", "December 2021 (January 2022)", "dec21", "dec2102", 100),
     ("physical_nov22", "November 2022", "nov22", "nov2202", 100),
     ("physical_nov23", "November 2023", "nov23", "nov2302", 100),
+    ("physical_dec24", "December 2024", "dec24", "dec2402", 100),
 ]
 
 BASE = "https://gujaratset.ac.in/assets"
@@ -354,7 +355,10 @@ def main():
             # reconstruction. Verified/manual records are authoritative and must
             # remain intact; only missing or explicitly unverified records may be
             # populated by this importer.
-            if existing and existing.get("source_verified") is True:
+            # Never overwrite an existing record automatically. Existing
+            # source-reviewed/manual records are preserved; unresolved records
+            # remain flagged for review rather than being replaced by OCR.
+            if existing:
                 continue
             record = {
                 "id": qid,
