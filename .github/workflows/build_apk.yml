@@ -169,14 +169,15 @@ jobs:
             "physical_dec24": 100,
             "physical_nov25": 100,
           }
-          target_pid = "${{ inputs.physical_archive_paper }}"
-          assert target_pid in expected, f"Unknown target paper: {target_pid}"
+          target_pid = "${{ inputs.physical_archive_paper }}" if "${{ github.event_name }}" == "workflow_dispatch" else ""
+          if target_pid:
+            assert target_pid in expected, f"Unknown target paper: {target_pid}"
           counts={}
           for x in existing:
               pid=str(x.get("paper_id") or x.get("paperId") or "")
               counts[pid]=counts.get(pid,0)+1
           for pid,n in expected.items():
-              if pid == target_pid:
+              if not target_pid or pid == target_pid:
                   assert counts.get(pid,0)==n, f"{pid}: expected {n}, found {counts.get(pid,0)}"
 
           # Existing verified archive records may use Z; never coerce them.
@@ -185,7 +186,7 @@ jobs:
           PY
 
       - name: Validate Physical Sciences archive metadata
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
+        if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true) }}
         run: |
           python3 - <<'PY'
           import json
@@ -194,7 +195,7 @@ jobs:
           expected = {
             "physical_sep16": 50, "physical_aug17": 50, "physical_sep18": 100,
             "physical_dec19": 100, "physical_dec21": 100, "physical_nov22": 100,
-            "physical_nov23": 100, "physical_dec24": 75, "physical_nov25": 100,
+            "physical_nov23": 100, "physical_dec24": 100, "physical_nov25": 100,
           }
           counts={}
           for x in q:
