@@ -239,17 +239,43 @@ def suspicious(question, opts):
 
 def update_papers_metadata(report):
     data = json.loads(PAPERS_JSON.read_text(encoding="utf-8"))
+    questions = json.loads(OUT.read_text(encoding="utf-8"))
     byid = {p["paper_id"]: p for p in data["papers"]}
+    grouped = {}
+    for q in questions:
+        grouped.setdefault(q.get("paper_id"), []).append(q)
+
+    # Synchronize metadata from the actual question bank instead of only the
+    # papers processed in the current run. This prevents stale review counts
+    # and loaded counts after manual/source-preserving corrections.
+    for pid, p in byid.items():
+        # Paper-III and other non-Paper-II records are maintained separately.
+        if p.get("paper_type") == "Paper-III":
+            continue
+        expected = p.get("question_count")
+        if not isinstance(expected, int):
+            continue
+        qs = grouped.get(pid, [])
+        loaded = len(qs)
+        reviews = sum(1 for q in qs if q.get("review_flag") is True)
+        source_ok = loaded == expected and loaded > 0 and all(
+            q.get("source_verified") is True for q in qs
+        )
+        p["questions_loaded"] = loaded
+        p["questions_count"] = expected
+        p["review_count"] = reviews
+        p["question_source_verified"] = source_ok
+        p["source_verified"] = source_ok
+        if loaded == expected and expected > 0:
+            p["status"] = "verified_complete" if reviews == 0 else "verified_complete_with_review"
+        else:
+            p["status"] = "partial_pending_source"
+
     for r in report:
         p = byid[r["paper_id"]]
-        p["questions_loaded"] = r["parsed"]
-        p["questions_count"] = r["expected"]
-        p["review_count"] = r["review"]
-        p["missing_questions"] = r["missing"]
-        p["source_verified"] = r["verified"] == r["expected"] and not r["missing"]
         p["answer_key_verified"] = r["key_verified"]
-    PAPERS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    PAPERS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 def main():
     args = sys.argv[1:]
     selected = set()
