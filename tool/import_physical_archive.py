@@ -333,8 +333,17 @@ def main():
         review_count = 0
         verified = 0
         for qn in range(1, expected + 1):
-            answer = keys[qn]
+            answer = keys.get(qn)
             block = blocks.get(qn, "")
+            if answer is None:
+                review_count += 1
+                qid = f"{pid}_q{qn:02d}"
+                existing = byid.get(qid)
+                if existing:
+                    existing["review_flag"] = True
+                    existing["source_verified"] = False
+                    existing["review_note"] = "Official answer-key PDF is available, but automated extraction did not recover this key entry; retained existing record and flagged for manual source review."
+                continue
             if not block:
                 review_count += 1
                 qid = f"{pid}_q{qn:02d}"
