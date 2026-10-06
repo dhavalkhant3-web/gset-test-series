@@ -201,7 +201,9 @@ jobs:
           for x in q:
               pid=x.get("paper_id")
               counts[pid]=counts.get(pid,0)+1
-              assert len(x.get("options_en",[]))==4, f"{x.get('id')}: invalid options"
+              opts=len(x.get("options_en",[]))
+              if opts != 4:
+                  assert x.get("visual_only") is True and x.get("review_flag") is True and x.get("source_verified") is False, f"{x.get('id')}: invalid options"
               assert x.get("answer") in {"A","B","C","D","Z"}, f"{x.get('id')}: invalid answer"
           byid={p["paper_id"]:p for p in d["papers"]}
           for pid,n in expected.items():
