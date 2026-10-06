@@ -217,9 +217,12 @@ def parse_key(pdf, stem, expected):
     keys = parse_key_text(joined, expected)
     log("KEY", f"parsed {len(keys)}/{expected}")
     if len(keys) < expected:
-        ocr = render_ocr(pdf, stem.with_name(stem.name + "_keyocr"), 240)
-        keys = parse_key_text("\n".join(t for _, t in ocr), expected)
-        log("KEY", f"OCR parsed {len(keys)}/{expected}")
+        for dpi in (300, 360):
+            ocr = render_ocr(pdf, stem.with_name(stem.name + f"_keyocr_{dpi}"), dpi)
+            pass_keys = parse_key_text("\n".join(t for _, t in ocr), expected)
+            for q, ans in pass_keys.items():
+                keys.setdefault(q, ans)
+            log("KEY", f"OCR merge at {dpi} dpi: {len(keys)}/{expected}")
     if len(keys) < expected:
         missing = [q for q in range(1, expected + 1) if q not in keys]
         # The official key remains authoritative. Never synthesize missing
