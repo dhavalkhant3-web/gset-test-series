@@ -193,6 +193,35 @@ def recover_sequence_gaps(page_texts, missing, expected):
                 if not unresolved:
                     return recovered
     return recovered
+
+def recover_cross_page_sequence_gaps(page_texts, missing, expected):
+    """Recover a single numbered question split across two adjacent OCR pages."""
+    unresolved = set(missing)
+    recovered = {}
+    if not unresolved or len(page_texts) < 2:
+        return recovered
+    for i in range(len(page_texts) - 1):
+        left_text = page_texts[i][1]
+        right_text = page_texts[i + 1][1]
+        left_starts = candidate_starts(left_text, expected)
+        right_starts = candidate_starts(right_text, expected)
+        if not left_starts or not right_starts:
+            continue
+        qa = left_starts[-1][2]
+        qb = right_starts[0][2]
+        if qb != qa + 2 or (qa + 1) not in unresolved:
+            continue
+        left_seg = left_text[left_starts[-1][1]:]
+        right_seg = right_text[:right_starts[0][0]]
+        seg = clean(left_seg + " " + right_seg)
+        marks, opts = _extract_all_options(seg)
+        if len(opts) == 4 and all(opts):
+            recovered[qa + 1] = seg
+            unresolved.remove(qa + 1)
+            if not unresolved:
+                return recovered
+    return recovered
+
 def recover_missing_with_ocr(pdf, stem, missing, expected):
     if not missing:
         return {}
@@ -218,6 +247,9 @@ def recover_missing_with_ocr(pdf, stem, missing, expected):
         seq = recover_sequence_gaps(texts, missing, expected)
         for q, block in seq.items():
             recovered.setdefault(q, block)
+        cross = recover_cross_page_sequence_gaps(texts, missing, expected)
+        for q, block in cross.items():
+            recovered.setdefault(q, block)
         for q in missing:
             if q in blocks and q not in recovered:
                 recovered[q] = blocks[q]
@@ -238,6 +270,9 @@ def recover_missing_with_ocr(pdf, stem, missing, expected):
             texts.append((f"{img.name}-psm{psm}", txt))
         seq = recover_sequence_gaps(texts, unresolved, expected)
         for q, block in seq.items():
+            recovered.setdefault(q, block)
+        cross = recover_cross_page_sequence_gaps(texts, unresolved, expected)
+        for q, block in cross.items():
             recovered.setdefault(q, block)
         blocks = build_blocks(texts, expected)
         for q in unresolved:
