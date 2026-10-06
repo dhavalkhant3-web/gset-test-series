@@ -227,6 +227,20 @@ jobs:
           APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -n 1)
           "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-debug.apk
 
+      - name: Persist official Physical Sciences archive updates
+        if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && success() }}
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/physical_sciences/questions.json assets/subjects/physical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "No Physical Sciences archive changes to persist."
+            exit 0
+          fi
+          git commit -m "[skip ci] Persist official Physical Sciences archive import"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
       - name: Upload installable APK
         uses: actions/upload-artifact@v4
         with:
