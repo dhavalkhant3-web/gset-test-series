@@ -124,9 +124,13 @@ jobs:
           test $(find assets/images -maxdepth 1 -name 'physical_sep16_p3_q*.png' | wc -l) -eq 4
 
       - name: Generate official Physical Sciences archive bank
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true }}
+        if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true) }}
         run: |
-          python3 tool/import_physical_archive.py --paper "${{ inputs.physical_archive_paper }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python3 tool/import_physical_archive.py --paper "${{ inputs.physical_archive_paper }}"
+          else
+            python3 tool/import_physical_archive.py
+          fi
           python3 tool/import_nov25_physical.py
           test -s assets/subjects/physical_sciences/nov25_questions.json
           python3 - <<'PY'
@@ -162,7 +166,7 @@ jobs:
             "physical_dec21": 100,
             "physical_nov22": 100,
             "physical_nov23": 100,
-            "physical_dec24": 75,
+            "physical_dec24": 100,
             "physical_nov25": 100,
           }
           target_pid = "${{ inputs.physical_archive_paper }}"
