@@ -133,11 +133,12 @@
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key: D.",
     "review_flag": true,
-    "review_note": "Question 5 contains an original log y vs log x graph in the source paper. The JSON record preserves the textual description, but the original figure should be retained/linked separately for exact visual fidelity.",
+    "review_note": "Original question contains a graph and graph-based answer options. Exact option text/figure is not yet safely represented in the subject JSON; preserve this as visual-only/manual-review rather than inventing options.",
     "tip_en": "",
     "tip_gu": "",
     "source_verified": false,
-    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key"
+    "source": "GSET official August 2017 Physical Sciences Paper-II question paper + final answer key",
+    "visual_only": true
   },
   {
     "id": "physical_aug17_q06",
