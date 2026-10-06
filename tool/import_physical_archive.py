@@ -174,11 +174,29 @@ def parse_options(block):
 def recover_missing_with_ocr(pdf, stem, missing, expected):
     if not missing:
         return {}
-    # Question papers are commonly two-column/image PDFs. Rather than OCR the
-    # whole document repeatedly, make one OCR pass and use only its missing Qs.
-    ocr_pages=render_ocr(pdf, stem.with_name(stem.name + "_ocr"), 240)
-    recovered=build_blocks(ocr_pages, expected)
-    return {q: recovered[q] for q in missing if q in recovered}
+    # OCR is evidence only. Use several conservative passes and never invent
+    # unresolved questions from partial text.
+    recovered = {}
+    for dpi, psm in ((300, "6"), (300, "4"), (360, "11")):
+        log("OCR", f"recovering {len(missing)} missing questions at {dpi} dpi, psm={psm}")
+        page_dir = stem.parent / f"{stem.name}_pages_{dpi}_{psm}"
+        page_dir.mkdir(parents=True, exist_ok=True)
+        prefix = page_dir / "page"
+        run(["pdftoppm", "-png", "-r", str(dpi), str(pdf), str(prefix)])
+        texts = []
+        for img in sorted(page_dir.glob("page-*.png")):
+            out = img.with_suffix("")
+            subprocess.run(
+                ["tesseract", str(img), str(out), "--psm", psm],
+                check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+            )
+            txt = Path(str(out) + ".txt").read_text(encoding="utf-8", errors="ignore")
+            texts.append((f"{img.name}-psm{psm}", txt))
+        blocks = build_blocks(texts, expected)
+        for q in missing:
+            if q in blocks and q not in recovered:
+                recovered[q] = blocks[q]
+    return recovered
 
 def parse_key_text(text, expected):
     text = text.upper()
