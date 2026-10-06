@@ -221,8 +221,12 @@ def parse_key(pdf, stem, expected):
         keys = parse_key_text("\n".join(t for _, t in ocr), expected)
         log("KEY", f"OCR parsed {len(keys)}/{expected}")
     if len(keys) < expected:
-        missing = ",".join(str(q) for q in range(1, expected + 1) if q not in keys)
-        raise RuntimeError(f"answer key incomplete: missing {missing}")
+        missing = [q for q in range(1, expected + 1) if q not in keys]
+        # The official key remains authoritative. Never synthesize missing
+        # letters from calculations or OCR guesses. Existing source-verified
+        # records remain intact and missing key entries trigger source review.
+        log("KEY", "incomplete official-key extraction; preserving existing records and flagging missing entries: "
+            + ",".join(f"Q{q}" for q in missing))
     return keys
 
 def suspicious(question, opts):
