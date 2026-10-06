@@ -172,6 +172,27 @@ def _extract_all_options(block):
 def parse_options(block):
     return _extract_all_options(block)[1]
 
+def recover_sequence_gaps(page_texts, missing, expected):
+    """Recover single-question gaps between adjacent numbered OCR blocks."""
+    unresolved = set(missing)
+    recovered = {}
+    if not unresolved:
+        return recovered
+    for _, text in page_texts:
+        starts = candidate_starts(text, expected)
+        for i in range(len(starts) - 1):
+            qa = starts[i][2]
+            qb = starts[i + 1][2]
+            if qb != qa + 2 or (qa + 1) not in unresolved:
+                continue
+            seg = clean(text[starts[i][1]:starts[i + 1][0]])
+            marks, opts = _extract_all_options(seg)
+            if len(opts) == 4 and all(opts):
+                recovered[qa + 1] = seg
+                unresolved.remove(qa + 1)
+                if not unresolved:
+                    return recovered
+    return recovered
 def recover_missing_with_ocr(pdf, stem, missing, expected):
     if not missing:
         return {}
@@ -194,7 +215,32 @@ def recover_missing_with_ocr(pdf, stem, missing, expected):
             txt = Path(str(out) + ".txt").read_text(encoding="utf-8", errors="ignore")
             texts.append((f"{img.name}-psm{psm}", txt))
         blocks = build_blocks(texts, expected)
+        seq = recover_sequence_gaps(texts, missing, expected)
+        for q, block in seq.items():
+            recovered.setdefault(q, block)
         for q in missing:
+            if q in blocks and q not in recovered:
+                recovered[q] = blocks[q]
+
+    unresolved = [q for q in missing if q not in recovered]
+    if unresolved:
+        dpi, psm = 450, "6"
+        log("OCR", f"targeted recovery for {len(unresolved)} questions at {dpi} dpi, psm={psm}")
+        page_dir = stem.parent / f"{stem.name}_pages_{dpi}_{psm}"
+        page_dir.mkdir(parents=True, exist_ok=True)
+        prefix = page_dir / "page"
+        run(["pdftoppm", "-png", "-r", str(dpi), str(pdf), str(prefix)])
+        texts = []
+        for img in sorted(page_dir.glob("page-*.png")):
+            out = img.with_suffix("")
+            subprocess.run(["tesseract", str(img), str(out), "--psm", psm], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            txt = Path(str(out) + ".txt").read_text(encoding="utf-8", errors="ignore")
+            texts.append((f"{img.name}-psm{psm}", txt))
+        seq = recover_sequence_gaps(texts, unresolved, expected)
+        for q, block in seq.items():
+            recovered.setdefault(q, block)
+        blocks = build_blocks(texts, expected)
+        for q in unresolved:
             if q in blocks and q not in recovered:
                 recovered[q] = blocks[q]
     return recovered
