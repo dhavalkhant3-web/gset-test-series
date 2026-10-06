@@ -14161,24 +14161,24 @@
     "question_en": "A particle moves along an ellipse under a central force. If the centre of the ellipse is the force centre for a constant K, then force is:",
     "question_gu": "A particle moves along an ellipse under a central force. If the centre of the ellipse is the force centre for a constant K, then force is:",
     "options_en": [
-      "−K r⃗",
-      "−K r⃗/r³",
-      "−K",
-      "r⃗"
+      "-K r⃗",
+      "-K r⃗/r³",
+      "-K |r⃗|²",
+      "-K r⃗/r²"
     ],
     "options_gu": [
-      "−K r⃗",
-      "−K r⃗/r³",
-      "−K",
-      "r⃗"
+      "-K r⃗",
+      "-K r⃗/r³",
+      "-K |r⃗|²",
+      "-K r⃗/r²"
     ],
-    "answer": "²",
+    "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Medium",
     "explanation_en": "Official final answer: ²",
     "explanation_gu": "Official final answer: ²",
     "review_flag": true,
-    "review_note": "Verify notation against original scan.",
+    "review_note": "Exact question/options verified against the official December 2008 GSET PDF; official final key is B. Retained review flag because the source uses mathematical vector notation that should remain source-preserved.",
     "tip_en": "Official final key is authoritative.",
     "tip_gu": "Official final key authoritative છે.",
     "source_verified": false
