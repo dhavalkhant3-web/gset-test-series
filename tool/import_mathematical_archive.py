@@ -10,8 +10,15 @@ from pathlib import Path
 SUBJECT="mathematical_sciences"
 BASE="https://www.gujaratset.ac.in/assets"
 
+ARCHIVE_FOLDERS = {
+    "jan02":"jan02","dec02":"dec02","dec03":"dec03","jul04":"jy04",
+    "jul06":"jy06","dec08":"dec08","oct10":"oct10","oct11":"oct11",
+    "sep13":"sep13","oct14":"oct14","sep16":"sep16","aug17":"aug17",
+    "sep18":"sep18","dec19":"dec19","dec21":"dec21","nov22":"nov22",
+    "nov23":"nov23","dec24":"dec24","nov25":"nov25",
+}
 def archive_folder(session):
-    return "jy04" if session == "jul04" else session
+    return ARCHIVE_FOLDERS[session]
 SESSIONS=[
 ("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
