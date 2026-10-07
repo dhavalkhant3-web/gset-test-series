@@ -1,0 +1,63 @@
+name: Mathematical Sciences Archive
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tool/import_mathematical_archive.py'
+      - 'assets/subjects/mathematical_sciences/**'
+      - 'assets/subjects/syllabus_units.json'
+
+permissions:
+  contents: write
+
+jobs:
+  mathematical-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr
+      - name: Generate official Mathematical Sciences archive
+        run: python3 tool/import_mathematical_archive.py
+      - name: Validate 19 official sessions
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          q=json.load(open("assets/subjects/mathematical_sciences/questions.json",encoding="utf-8"))
+          expected={"mathematical_sciences_jan02":50,"mathematical_sciences_dec02":50,"mathematical_sciences_dec03":50,"mathematical_sciences_jul04":50,"mathematical_sciences_jul06":50,"mathematical_sciences_dec08":50,"mathematical_sciences_oct10":50,"mathematical_sciences_oct11":50,"mathematical_sciences_sep13":50,"mathematical_sciences_oct14":50,"mathematical_sciences_sep16":50,"mathematical_sciences_aug17":50,"mathematical_sciences_sep18":100,"mathematical_sciences_dec19":100,"mathematical_sciences_dec21":100,"mathematical_sciences_nov22":100,"mathematical_sciences_nov23":100,"mathematical_sciences_dec24":100,"mathematical_sciences_nov25":100}
+          c=Counter(x.get("paper_id") for x in q)
+          missing={k:(c.get(k,0),v) for k,v in expected.items() if c.get(k,0)!=v}
+          assert not missing, f"Mathematical archive incomplete: {missing}"
+          assert len(q)==1300, f"Expected 1300 questions, found {len(q)}"
+          assert len({x.get("id") for x in q})==1300, "Duplicate Mathematical question IDs"
+          assert all(x.get("answer") in {"A","B","C","D","Z"} for x in q)
+          print("Mathematical Sciences archive: 1300/1300")
+          PY
+      - name: Persist Mathematical archive
+        if: ${{ success() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "No Mathematical archive changes."
+          else
+            git commit -m "[skip ci] Persist official Mathematical Sciences archive"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Upload Mathematical archive for review
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: mathematical-sciences-archive
+          path: |
+            assets/subjects/mathematical_sciences/questions.json
+            assets/subjects/mathematical_sciences/papers.json
+          if-no-files-found: warn
