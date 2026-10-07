@@ -518,8 +518,15 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
               onStateChanged: _saveState,
             )));
           }),
-          _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Unit-wise syllabus data હવે પછી ઉમેરાશે.' : 'Unit-wise syllabus data will be added next.')));
+          _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () async {
+            await Navigator.push(context, MaterialPageRoute(builder: (_) => UnitWiseTestPage(
+              subject: widget.subject,
+              questions: questions,
+              gu: widget.gu,
+              bookmarks: bookmarks,
+              mistakes: mistakes,
+              onStateChanged: _saveState,
+            )));
           }),
           _action(Icons.shuffle_rounded, 'Practice Questions', questions.isEmpty ? 'Verified data pending' : questions.length.toString() + ' verified questions', () => _openTest(practice: true)),
           _action(Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks', () => _openTest(mock: true)),
@@ -560,6 +567,99 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
   );
 }
 
+
+class UnitWiseTestPage extends StatelessWidget {
+  final Map<String, dynamic> subject;
+  final List<Map<String, dynamic>> questions;
+  final bool gu;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+
+  const UnitWiseTestPage({
+    super.key,
+    required this.subject,
+    required this.questions,
+    required this.gu,
+    required this.bookmarks,
+    required this.mistakes,
+    required this.onStateChanged,
+  });
+
+  List<MapEntry<String, List<Map<String, dynamic>>>> get groups {
+    final map = <String, List<Map<String, dynamic>>>{};
+    for (final q in questions) {
+      final raw = (q['unit'] ?? q['unit_name'] ?? q['unitName'] ?? q['topic'] ?? 'General').toString().trim();
+      final key = raw.isEmpty ? 'General' : raw;
+      map.putIfAbsent(key, () => []).add(q);
+    }
+    final list = map.entries.toList();
+    list.sort((a, b) => a.key.compareTo(b.key));
+    return list;
+  }
+
+  Future<void> _openUnit(BuildContext context, String name, List<Map<String, dynamic>> qs) async {
+    if (qs.isEmpty) return;
+    final shuffled = [...qs]..shuffle(Random());
+    final selected = shuffled.take(min(25, shuffled.length)).toList();
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: selected,
+      gu: gu,
+      title: name,
+      practice: true,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: onStateChanged,
+    )));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final name = subject['name_en'].toString();
+    final gs = groups;
+    return Scaffold(
+      backgroundColor: const Color(0xFFF5F7FF),
+      appBar: AppBar(
+        title: const Text('Unit-wise Tests', style: TextStyle(fontWeight: FontWeight.w900)),
+      ),
+      body: gs.isEmpty
+          ? Center(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Text(
+                  gu ? '$name માટે Unit-wise questions હજુ ઉપલબ્ધ નથી.' : 'Unit-wise questions are not available for $name yet.',
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontWeight: FontWeight.w700),
+                ),
+              ),
+            )
+          : ListView.separated(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 90),
+              itemCount: gs.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 9),
+              itemBuilder: (_, index) {
+                final e = gs[index];
+                return Card(
+                  child: ListTile(
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    leading: Container(
+                      width: 46, height: 46,
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFEDE9FE),
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      child: const Icon(Icons.view_module_rounded, color: Color(0xFF6D28D9)),
+                    ),
+                    title: Text(e.key, style: const TextStyle(fontWeight: FontWeight.w900)),
+                    subtitle: Text('${e.value.length} questions • ${gu ? 'ટેસ્ટ શરૂ કરો' : 'Start test'}'),
+                    trailing: const Icon(Icons.chevron_right_rounded),
+                    onTap: () => _openUnit(context, e.key, e.value),
+                  ),
+                );
+              },
+            ),
+    );
+  }
+}
 
 class ChemicalPaperListPage extends StatelessWidget {
   final List<Map<String, dynamic>> papers;
