@@ -33,7 +33,7 @@ STEMS = {
 def fetch(url):
     ctx=ssl._create_unverified_context()
     req=urllib.request.Request(url,headers={"User-Agent":"gset-test-series-archive-discovery/1.0"})
-    with urllib.request.urlopen(req,timeout=30,context=ctx) as r:
+    with urllib.request.urlopen(req,timeout=90,context=ctx) as r:
         return r.read().decode("utf-8","ignore")
 
 def main():
