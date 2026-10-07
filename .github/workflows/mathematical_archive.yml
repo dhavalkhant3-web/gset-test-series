@@ -61,3 +61,5 @@ jobs:
             assets/subjects/mathematical_sciences/questions.json
             assets/subjects/mathematical_sciences/papers.json
           if-no-files-found: warn
+
+# Official-source-only Mathematical archive pipeline.
