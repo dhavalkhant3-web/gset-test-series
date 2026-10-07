@@ -201,9 +201,17 @@ jobs:
           for x in q:
               pid=x.get("paper_id")
               counts[pid]=counts.get(pid,0)+1
-              opts=len(x.get("options_en",[]))
-              if opts != 4:
-                  assert x.get("visual_only") is True and x.get("review_flag") is True and x.get("source_verified") is False, f"{x.get('id')}: invalid options"
+              # The archive contains both the newer options_en schema and legacy
+              # verified records that use an A/B/C/D options object. Accept either
+              # schema without inventing or rewriting legacy content.
+              if "options_en" in x:
+                  opts=len(x.get("options_en",[]))
+                  if opts != 4:
+                      assert x.get("visual_only") is True and x.get("review_flag") is True and x.get("source_verified") is False, f"{x.get('id')}: invalid options"
+              elif isinstance(x.get("options"), dict):
+                  assert set(x.get("options",{}).keys()) == {"A","B","C","D"}, f"{x.get('id')}: invalid legacy options"
+              else:
+                  raise AssertionError(f"{x.get('id')}: missing options schema")
               assert x.get("answer") in {"A","B","C","D","Z"}, f"{x.get('id')}: invalid answer"
           byid={p["paper_id"]:p for p in d["papers"]}
           for pid,n in expected.items():
