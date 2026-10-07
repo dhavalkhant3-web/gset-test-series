@@ -17600,33 +17600,17 @@
     "question_en": "For the wave function Ψ=A exp[i(kx−ωt)] the probability current density is:",
     "question_gu": "For the wave function Ψ=A exp[i(kx−ωt)] the probability current density is:",
     "options_en": [
-      "(ℏω/m)",
-      "A",
-      "²",
-      "(ℏm/k)",
-      "A",
-      "²",
-      "(ℏk/m)",
-      "A",
-      "²",
-      "(ℏk/ω)",
-      "A",
-      "²"
-    ],
+      "(ℏω/m) A²",
+      "(ℏm/k) A²",
+      "(ℏk/m) A²",
+      "(ℏk/ω) A²"
+    ]
     "options_gu": [
-      "(ℏω/m)",
-      "A",
-      "²",
-      "(ℏm/k)",
-      "A",
-      "²",
-      "(ℏk/m)",
-      "A",
-      "²",
-      "(ℏk/ω)",
-      "A",
-      "²"
-    ],
+      "(ℏω/m) A²",
+      "(ℏm/k) A²",
+      "(ℏk/m) A²",
+      "(ℏk/ω) A²"
+    ]
     "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Medium",
