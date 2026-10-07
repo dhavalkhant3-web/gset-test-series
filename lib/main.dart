@@ -568,96 +568,90 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
 }
 
 
-class UnitWiseTestPage extends StatelessWidget {
+class UnitWiseTestPage extends StatefulWidget {
   final Map<String, dynamic> subject;
   final List<Map<String, dynamic>> questions;
   final bool gu;
   final Set<String> bookmarks, mistakes;
   final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const UnitWiseTestPage({super.key, required this.subject, required this.questions, required this.gu, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  @override State<UnitWiseTestPage> createState() => _UnitWiseTestPageState();
+}
 
-  const UnitWiseTestPage({
-    super.key,
-    required this.subject,
-    required this.questions,
-    required this.gu,
-    required this.bookmarks,
-    required this.mistakes,
-    required this.onStateChanged,
-  });
+class _UnitWiseTestPageState extends State<UnitWiseTestPage> {
+  List<Map<String, dynamic>> syllabusUnits = [];
+  bool loadingSyllabus = true;
 
-  List<MapEntry<String, List<Map<String, dynamic>>>> get groups {
-    final map = <String, List<Map<String, dynamic>>>{};
-    for (final q in questions) {
-      final raw = (q['unit'] ?? q['unit_name'] ?? q['unitName'] ?? q['topic'] ?? 'General').toString().trim();
-      final key = raw.isEmpty ? 'General' : raw;
-      map.putIfAbsent(key, () => []).add(q);
-    }
-    final list = map.entries.toList();
-    list.sort((a, b) => a.key.compareTo(b.key));
-    return list;
+  @override void initState() { super.initState(); _loadSyllabus(); }
+
+  Future<void> _loadSyllabus() async {
+    try {
+      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/syllabus_units.json')) as Map;
+      final subjects = Map<String, dynamic>.from(raw['subjects'] as Map);
+      final entry = subjects[widget.subject['id'].toString()];
+      final units = entry is Map ? entry['units'] : null;
+      if (mounted) setState(() {
+        syllabusUnits = units is List ? units.map((e) => Map<String, dynamic>.from(e as Map)).toList() : [];
+        loadingSyllabus = false;
+      });
+    } catch (_) { if (mounted) setState(() => loadingSyllabus = false); }
   }
 
-  Future<void> _openUnit(BuildContext context, String name, List<Map<String, dynamic>> qs) async {
-    if (qs.isEmpty) return;
-    final shuffled = [...qs]..shuffle(Random());
-    final selected = shuffled.take(min(25, shuffled.length)).toList();
-    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
-      data: selected,
-      gu: gu,
-      title: name,
-      practice: true,
-      bookmarks: bookmarks,
-      mistakes: mistakes,
-      onStateChanged: onStateChanged,
-    )));
+  String _unitId(Map<String,dynamic> q) => (q['unit_id'] ?? q['unitId'] ?? '').toString().trim();
+  String _unitName(Map<String,dynamic> q) => (q['unit'] ?? q['unit_name'] ?? q['unitName'] ?? '').toString().trim();
+
+  List<Map<String,dynamic>> _forUnit(Map<String,dynamic> unit) {
+    final id=unit['id'].toString(), number=unit['number'].toString(), name=unit['name'].toString().trim().toLowerCase();
+    return widget.questions.where((q) {
+      final qid=_unitId(q); final qname=_unitName(q).toLowerCase();
+      return qid==id || qid==number || (qname==name && qname.isNotEmpty);
+    }).toList();
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final name = subject['name_en'].toString();
-    final gs = groups;
+  List<Map<String,dynamic>> get unassigned {
+    final assigned=<String>{};
+    for(final u in syllabusUnits) for(final q in _forUnit(u)) { final id=q['id']?.toString(); if(id!=null) assigned.add(id); }
+    return widget.questions.where((q)=>!assigned.contains(q['id']?.toString())).toList();
+  }
+
+  Future<void> _openUnit(BuildContext context,String title,List<Map<String,dynamic>> qs) async {
+    if(qs.isEmpty) return;
+    final selected=[...qs]..shuffle(Random());
+    await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(
+      data:selected.take(min(25,selected.length)).toList(), gu:widget.gu, title:title, practice:true,
+      bookmarks:widget.bookmarks, mistakes:widget.mistakes, onStateChanged:widget.onStateChanged)));
+  }
+
+  @override Widget build(BuildContext context) {
+    final name=widget.subject['name_en'].toString();
+    if(loadingSyllabus) return const Scaffold(body:Center(child:CircularProgressIndicator()));
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FF),
-      appBar: AppBar(
-        title: const Text('Unit-wise Tests', style: TextStyle(fontWeight: FontWeight.w900)),
-      ),
-      body: gs.isEmpty
-          ? Center(
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Text(
-                  gu ? '$name માટે Unit-wise questions હજુ ઉપલબ્ધ નથી.' : 'Unit-wise questions are not available for $name yet.',
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontWeight: FontWeight.w700),
-                ),
-              ),
-            )
-          : ListView.separated(
-              padding: const EdgeInsets.fromLTRB(14, 12, 14, 90),
-              itemCount: gs.length,
-              separatorBuilder: (_, __) => const SizedBox(height: 9),
-              itemBuilder: (_, index) {
-                final e = gs[index];
-                return Card(
-                  child: ListTile(
-                    contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                    leading: Container(
-                      width: 46, height: 46,
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFEDE9FE),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: const Icon(Icons.view_module_rounded, color: Color(0xFF6D28D9)),
-                    ),
-                    title: Text(e.key, style: const TextStyle(fontWeight: FontWeight.w900)),
-                    subtitle: Text('${e.value.length} questions • ${gu ? 'ટેસ્ટ શરૂ કરો' : 'Start test'}'),
-                    trailing: const Icon(Icons.chevron_right_rounded),
-                    onTap: () => _openUnit(context, e.key, e.value),
-                  ),
-                );
-              },
-            ),
-    );
+      backgroundColor:const Color(0xFFF5F7FF),
+      appBar:AppBar(title:Text(widget.gu?'Syllabus પ્રમાણે Unit Tests':'Syllabus-wise Unit Tests',style:const TextStyle(fontWeight:FontWeight.w900))),
+      body:syllabusUnits.isEmpty
+        ? Center(child:Padding(padding:const EdgeInsets.all(24),child:Text(
+            widget.gu?'$name માટે official syllabus units હજુ appમાં mapped નથી.':'Official syllabus units for $name are not mapped in the app yet.',
+            textAlign:TextAlign.center,style:const TextStyle(fontWeight:FontWeight.w700))))
+        : ListView.separated(
+          padding:const EdgeInsets.fromLTRB(14,12,14,90),
+          itemCount:syllabusUnits.length+(unassigned.isEmpty?0:1),
+          separatorBuilder:(_,__)=>const SizedBox(height:9),
+          itemBuilder:(_,index){
+            if(index==syllabusUnits.length) return Card(child:ListTile(
+              title:Text(widget.gu?'Unitમાં હજી mapped નથી':'Not yet mapped to a unit',style:const TextStyle(fontWeight:FontWeight.w900)),
+              subtitle:Text('${unassigned.length} questions • review/mapping pending'),
+              leading:const Icon(Icons.pending_actions_rounded)));
+            final u=syllabusUnits[index], qs=_forUnit(u);
+            final title=widget.gu?'Unit ${u['number']}: ${u['name_gu'] ?? u['name']}':'Unit ${u['number']}: ${u['name']}';
+            return Card(child:ListTile(
+              contentPadding:const EdgeInsets.symmetric(horizontal:16,vertical:8),
+              leading:Container(width:46,height:46,decoration:BoxDecoration(color:const Color(0xFFEDE9FE),borderRadius:BorderRadius.circular(14)),
+                child:Text('${u['number']}',textAlign:TextAlign.center,style:const TextStyle(fontWeight:FontWeight.w900,fontSize:18,color:Color(0xFF6D28D9)))),
+              title:Text(title,style:const TextStyle(fontWeight:FontWeight.w900)),
+              subtitle:Text(qs.isEmpty?(widget.gu?'Questions mapping pending':'Question mapping pending'):'${qs.length} questions • ${widget.gu?'ટેસ્ટ શરૂ કરો':'Start test'}'),
+              trailing:qs.isEmpty?const Icon(Icons.lock_outline_rounded):const Icon(Icons.chevron_right_rounded),
+              onTap:qs.isEmpty?null:()=>_openUnit(context,title,qs)));
+          }));
   }
 }
 
