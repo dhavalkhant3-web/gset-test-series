@@ -8,7 +8,7 @@ import json,re,subprocess
 from pathlib import Path
 
 SUBJECT="mathematical_sciences"
-BASE="https://www.gujaratset.ac.in/assets"
+BASE="https://gujaratset.ac.in/assets"
 SESSIONS=[
 ("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
