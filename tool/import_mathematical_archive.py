@@ -9,6 +9,9 @@ from pathlib import Path
 
 SUBJECT="mathematical_sciences"
 BASE="https://gujaratset.ac.in/assets"
+
+def archive_folder(session):
+    return "jy04" if session == "jul04" else session
 SESSIONS=[
 ("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
@@ -78,8 +81,9 @@ def main():
     for sess,exam,stem,expected in targets:
         pid=f"{SUBJECT}_{sess}"; w=WORK/pid; w.mkdir(parents=True,exist_ok=True)
         pdf=w/f"{stem}.pdf"; key=w/f"{stem}_key.pdf"
-        download(f"{BASE}/papers/paperII/{sess}/{stem}.pdf",pdf)
-        download(f"{BASE}/anskey/paperII/{sess}/{stem}.pdf",key)
+        folder=archive_folder(sess)
+        download(f"{BASE}/papers/paperII/{folder}/{stem}.pdf",pdf)
+        download(f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
         pg=pages(pdf,w/"paper"); blocks=parse_blocks(pg,expected); keys=keymap(key,w/"key",expected)
         loaded=0
         for q in range(1,expected+1):
@@ -102,8 +106,8 @@ def main():
               "source_verified":False})
             old.add(rid); loaded+=1
         bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
-          "marks":200,"question_paper_url":f"{BASE}/papers/paperII/{sess}/{stem}.pdf",
-          "answer_key_url":f"{BASE}/anskey/paperII/{sess}/{stem}.pdf",
+          "marks":200,"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
+          "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
           "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
           "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
           "answer_key_verified":len(keys)==expected,
