@@ -20,6 +20,35 @@ OUT = Path("assets/subjects/physical_sciences/questions.json")
 PAPERS_JSON = Path("assets/subjects/physical_sciences/papers.json")
 WORK = Path("build/physical_archive")
 
+# Source-verified fallbacks for historical questions whose notation is not
+# reliably recoverable by generic OCR. These are checked directly against
+# the official GSET PDF and final answer key; they are not OCR guesses.
+SOURCE_VERIFIED_OVERRIDES = {
+    "physical_sep18": {
+        32: {
+            "id": "physical_sep18_q32", "paper_id": "physical_sep18", "exam": "September 2018",
+            "question_en": "Listed below are the Maxwell's equations of electrodynamics. If magnetic monopoles exist, which of these equations have to be modified?\n\nI. ∇×H⃗ = J⃗ + ∂D⃗/∂t\nII. ∇×E⃗ = −∂B⃗/∂t\nIII. ∇·D⃗ = ρ\nIV. ∇·B⃗ = 0",
+            "question_gu": "Listed below are the Maxwell's equations of electrodynamics. If magnetic monopoles exist, which of these equations have to be modified?\n\nI. ∇×H⃗ = J⃗ + ∂D⃗/∂t\nII. ∇×E⃗ = −∂B⃗/∂t\nIII. ∇·D⃗ = ρ\nIV. ∇·B⃗ = 0",
+            "options_en": ["IV only", "I and III", "II and IV", "All four"], "options_gu": ["IV only", "I and III", "II and IV", "All four"],
+            "answer": "C", "topic": "Electromagnetism — Maxwell's equations", "difficulty": "Medium",
+            "explanation_en": "Official GSET final answer key: C.", "explanation_gu": "Official GSET final answer key: C.",
+            "review_flag": False, "review_note": "", "tip_en": "", "tip_gu": "", "source_verified": True
+        },
+        86: {
+            "id": "physical_sep18_q86", "paper_id": "physical_sep18", "exam": "September 2018",
+            "question_en": "If the primitives a ≠ b ≠ c and interfacial angles α ≠ β ≠ γ ≠ 90°, then it belongs to the following crystal system:",
+            "question_gu": "If the primitives a ≠ b ≠ c and interfacial angles α ≠ β ≠ γ ≠ 90°, then it belongs to the following crystal system:",
+            "options_en": ["Cubic", "Tetragonal", "Orthogonal", "Monoclinic"], "options_gu": ["Cubic", "Tetragonal", "Orthogonal", "Monoclinic"],
+            "answer": "Z", "topic": "Solid State Physics — Crystal systems", "difficulty": "Medium",
+            "explanation_en": "Official GSET final answer key: Z. The official key notes that a question with answer key 'Z' is not considered for evaluation.",
+            "explanation_gu": "Official GSET final answer key: Z. The official key notes that a question with answer key 'Z' is not considered for evaluation.",
+            "review_flag": True,
+            "review_note": "Source-verified directly against the official September 2018 Physical Sciences Paper-II PDF. The paper gives a ≠ b ≠ c and α ≠ β ≠ γ ≠ 90° but does not offer triclinic among the four choices; the official final answer key is Z. Preserve Z exactly and retain review_flag=true.",
+            "tip_en": "", "tip_gu": "", "source_verified": True
+        }
+    }
+}
+
 def log(tag, msg):
     print(f"[{tag}] {msg}", flush=True)
 
@@ -415,6 +444,25 @@ def main():
             blocks.update(recovered)
             missing = [q for q in range(1, expected + 1) if q not in blocks]
             log("OCR", f"{pid}: recovered={len(recovered)}, remaining_missing={','.join('Q'+str(q) for q in missing) if missing else 'none'}")
+
+        # Use only explicit source-verified fallbacks for unresolved historical
+        # questions. This preserves exact source content without weakening the
+        # completeness assertion or inventing OCR-derived text.
+        overrides = SOURCE_VERIFIED_OVERRIDES.get(pid, {})
+        if missing and overrides:
+            for qn in list(missing):
+                override = overrides.get(qn)
+                if not override:
+                    continue
+                qid = f"{pid}_q{qn:02d}"
+                if qid not in byid:
+                    record = dict(override)
+                    record["source"] = f"GSET official {exam} Physical Sciences Paper-II and final answer key"
+                    record["source_url"] = paper_url
+                    record["answer_key_url"] = key_url
+                    byid[qid] = record
+                missing.remove(qn)
+                log("SOURCE", f"{pid}: used source-verified fallback Q{qn}")
 
         # Existing records are never replaced by OCR guesses for unresolved Qs.
         # They remain intact and are marked for source review.
