@@ -259,3 +259,4 @@ jobs:
           if-no-files-found: error
 
 # Manual APK rebuild trigger: source/data unchanged.
+# CI trigger: rerun archive validation after the Physical Sciences JSON correction.
