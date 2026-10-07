@@ -8,7 +8,7 @@ import json,re,subprocess
 from pathlib import Path
 
 SUBJECT="mathematical_sciences"
-BASE="https://gujaratset.ac.in/assets"
+BASE="https://www.gujaratset.ac.in/assets"
 
 def archive_folder(session):
     return "jy04" if session == "jul04" else session
