@@ -119,3 +119,5 @@ def main():
     json.dump(existing,OUT.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
     json.dump(meta,META.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
 if __name__=="__main__": main()
+
+# Official GSET archive mapping is resolved from the official old-paper links.
