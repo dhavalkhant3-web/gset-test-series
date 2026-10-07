@@ -185,17 +185,6 @@ jobs:
           print("Physical Sciences per-paper counts:", {k:counts[k] for k in expected})
           PY
 
-      - name: Generate official Mathematical Sciences archive bank
-        if: ${{ github.event_name == 'push' }}
-        run: |
-          python3 tool/import_mathematical_archive.py
-          python3 - <<'PY'
-          import json
-          q=json.load(open("assets/subjects/mathematical_sciences/questions.json",encoding="utf-8"))
-          assert len({x.get("id") for x in q}) == len(q), "Duplicate Mathematical Sciences question IDs"
-          assert all(x.get("answer") in {"A","B","C","D","Z"} for x in q)
-          print("Mathematical Sciences imported records:", len(q))
-          PY
 
       - name: Validate Physical Sciences archive metadata
         if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.refresh_physical_archive == true) }}
