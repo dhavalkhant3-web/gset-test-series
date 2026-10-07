@@ -12,7 +12,7 @@ OUT_FILE = Path("assets/subjects/archive_manifest.json")
 
 SESSIONS = [
     ("jan02","January 2002","jan02",50),("dec02","December 2002","dec02",50),
-    ("dec03","December 2003","dec03",50),("jul04","July 2004","jul04",50),
+    ("dec03","December 2003","dec03",50),("jul04","July 2004","jy04",50),
     ("jul06","July 2006","jul06",50),("dec08","December 2008","dec08",50),
     ("oct10","October 2010","oct10",50),("oct11","October 2011","oct11",50),
     ("sep13","September 2013","sep13",50),("oct14","October 2014","oct14",50),
