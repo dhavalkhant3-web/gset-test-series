@@ -1,0 +1,38 @@
+name: Discover GSET Paper-II Archive Inventory
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Discover official archive
+        run: python3 tool/discover_gset_archive.py
+      - name: Validate inventory
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open("assets/subjects/archive_manifest.json",encoding="utf-8"))
+          assert d["subject_count"] == 36
+          assert d["session_count"] == 19
+          assert d["paper_count"] == 684
+          print(f"Inventory OK: {d['paper_count']} Paper-II entries")
+          print(f"Ready for batch import: {d['ready_count']}")
+          PY
+      - name: Persist inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/archive_manifest.json
+          if git diff --cached --quiet; then echo "Inventory unchanged."; exit 0; fi
+          git commit -m "[skip ci] Refresh official GSET Paper-II archive inventory"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
