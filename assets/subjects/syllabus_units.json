@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "source_policy": "Official GSET syllabus only. Questions are assigned to a unit only when an explicit verified unit/topic mapping exists.",
+  "subjects": {
+    "mathematical_sciences": {
+      "code": "01",
+      "name_en": "Mathematical Sciences",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/01.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Analysis and Linear Algebra",
+          "name_gu": "Analysis અને Linear Algebra"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Complex Analysis, Algebra and Topology",
+          "name_gu": "Complex Analysis, Algebra અને Topology"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Ordinary and Partial Differential Equations, Numerical Analysis, Calculus of Variations, Linear Integral Equations and Classical Mechanics",
+          "name_gu": "ODE/PDE, Numerical Analysis, Calculus of Variations, Linear Integral Equations અને Classical Mechanics"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Probability and Statistics",
+          "name_gu": "Probability અને Statistics"
+        }
+      ]
+    },
+    "physical_sciences": {
+      "code": "02",
+      "name_en": "Physical Sciences",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Mathematical Methods of Physics",
+          "name_gu": "Mathematical Methods of Physics"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Classical Mechanics",
+          "name_gu": "Classical Mechanics"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Electromagnetic Theory",
+          "name_gu": "Electromagnetic Theory"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Quantum Mechanics",
+          "name_gu": "Quantum Mechanics"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Thermodynamic and Statistical Physics",
+          "name_gu": "Thermodynamic and Statistical Physics"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Electronics and Experimental Methods",
+          "name_gu": "Electronics and Experimental Methods"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Atomic and Molecular Physics",
+          "name_gu": "Atomic and Molecular Physics"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Condensed Matter Physics",
+          "name_gu": "Condensed Matter Physics"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Nuclear and Particle Physics",
+          "name_gu": "Nuclear and Particle Physics"
+        }
+      ]
+    },
+    "chemical_sciences": {
+      "code": "03",
+      "name_en": "Chemical Sciences",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/03.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Inorganic Chemistry",
+          "name_gu": "Inorganic Chemistry"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Physical Chemistry",
+          "name_gu": "Physical Chemistry"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Organic Chemistry",
+          "name_gu": "Organic Chemistry"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Interdisciplinary Topics",
+          "name_gu": "Interdisciplinary Topics"
+        }
+      ]
+    }
+  }
+}
