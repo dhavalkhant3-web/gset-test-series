@@ -22,7 +22,7 @@ def archive_folder(session):
 SESSIONS=[
 ("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
-("jul06","July 2006","jul0601",50),("dec08","December 2008","dec0801",50),
+("jul06","July 2006","jy0601",50),("dec08","December 2008","dec0801",50),
 ("oct10","October 2010","oct1001",50),("oct11","October 2011","oct1101",50),
 ("sep13","September 2013","sep1301",50),("oct14","October 2014","oct1401",50),
 ("sep16","September 2016","sep1601",50),("aug17","August 2017","aug1701",50),
