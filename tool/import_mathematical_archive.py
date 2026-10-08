@@ -99,13 +99,13 @@ def main():
         pid=f"{SUBJECT}_{sess}"; w=WORK/pid; w.mkdir(parents=True,exist_ok=True)
         pdf=w/f"{stem}.pdf"; key=w/f"{stem}_key.pdf"
         folder=archive_folder(sess)
-        paper_ok=download(f"${BASE}/papers/paperII/{folder}/{stem}.pdf",pdf)
-        key_ok=download(f"${BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
+        paper_ok=download(f"{BASE}/papers/paperII/{folder}/{stem}.pdf",pdf)
+        key_ok=download(f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
         if not paper_ok or not key_ok:
             bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
               "marks":200,
-              "question_paper_url":f"${BASE}/papers/paperII/{folder}/{stem}.pdf",
-              "answer_key_url":f"${BASE}/anskey/paperII/{folder}/{stem}.pdf",
+              "question_paper_url":f"{BASE}/papers/paperII/{folder}/{stem}.pdf",
+              "answer_key_url":f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",
               "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
               "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
               "answer_key_verified":False,"source":"GSET official uploaded question paper + final answer key",
