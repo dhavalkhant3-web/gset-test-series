@@ -36,8 +36,22 @@ CROPS = {
 def run(cmd):
     subprocess.run(cmd, check=True)
 
-run(["curl","-L","--fail","--retry","5","--retry-delay","5",
-     "--connect-timeout","30","--max-time","300","--insecure","-o",str(PDF),URL])
+# The official legacy GSET server can temporarily refuse connections.
+# Retry longer, but do not fabricate or substitute the source PDF.
+download_ok = False
+for attempt in range(3):
+    try:
+        run(["curl","-L","--fail","--retry","8","--retry-all-errors","--retry-delay","5",
+             "--connect-timeout","60","--max-time","360","--insecure","-o",str(PDF),URL])
+        download_ok = PDF.exists() and PDF.stat().st_size > 1000
+        if download_ok:
+            break
+    except subprocess.CalledProcessError:
+        if PDF.exists():
+            PDF.unlink()
+
+if not download_ok:
+    raise RuntimeError("Official GSET Dec-2021 Chemical Sciences PDF temporarily unavailable; no substitute source was used.")
 
 doc = fitz.open(PDF)
 assert len(doc) == 32, f"Unexpected page count: {len(doc)}"
