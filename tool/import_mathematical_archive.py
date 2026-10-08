@@ -40,7 +40,17 @@ def clean(s):
     return re.sub(r"\s+"," ",s.replace("\x0c"," ")).strip()
 def download(url,p):
     p.parent.mkdir(parents=True,exist_ok=True)
-    run(["curl","-L","--fail","--retry","3","--connect-timeout","20","--insecure","-o",str(p),url])
+    cmd=["curl","-L","--fail","--retry","6","--retry-all-errors","--retry-delay","5",
+         "--connect-timeout","60","--max-time","240","--insecure","-o",str(p),url]
+    try:
+        run(cmd)
+        return True
+    except subprocess.CalledProcessError as e:
+        if p.exists() and p.stat().st_size:
+            p.unlink()
+        print(f"[PENDING SOURCE] download failed: {url} (curl exit {e.returncode})")
+        return False
+
 def pages(pdf,stem):
     txt=stem.with_suffix(".txt"); run(["pdftotext","-layout",str(pdf),str(txt)])
     raw=txt.read_text(encoding="utf-8",errors="ignore")
@@ -89,8 +99,20 @@ def main():
         pid=f"{SUBJECT}_{sess}"; w=WORK/pid; w.mkdir(parents=True,exist_ok=True)
         pdf=w/f"{stem}.pdf"; key=w/f"{stem}_key.pdf"
         folder=archive_folder(sess)
-        download(f"{BASE}/papers/paperII/{folder}/{stem}.pdf",pdf)
-        download(f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
+        paper_ok=download(f"${BASE}/papers/paperII/{folder}/{stem}.pdf",pdf)
+        key_ok=download(f"${BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
+        if not paper_ok or not key_ok:
+            bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
+              "marks":200,
+              "question_paper_url":f"${BASE}/papers/paperII/{folder}/{stem}.pdf",
+              "answer_key_url":f"${BASE}/anskey/paperII/{folder}/{stem}.pdf",
+              "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
+              "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
+              "answer_key_verified":False,"source":"GSET official uploaded question paper + final answer key",
+              "source_verified":False,"question_source_verified":False,
+              "status":"pending_source"}
+            print(pid, "PENDING SOURCE")
+            continue
         pg=pages(pdf,w/"paper"); blocks=parse_blocks(pg,expected); keys=keymap(key,w/"key",expected)
         loaded=0
         for q in range(1,expected+1):
