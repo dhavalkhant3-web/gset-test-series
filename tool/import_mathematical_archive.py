@@ -52,11 +52,21 @@ def download(url,p):
         return False
 
 def pages(pdf,stem):
-    txt=stem.with_suffix(".txt"); run(["pdftotext","-layout",str(pdf),str(txt)])
+    txt=stem.with_suffix(".txt")
+    # Preserve source text first. If the PDF's layout encoding prevents the
+    # question-number parser from seeing boundaries, also keep a raw extraction
+    # as a fallback; no OCR text is treated as authoritative.
+    run(["pdftotext","-layout",str(pdf),str(txt)])
     raw=txt.read_text(encoding="utf-8",errors="ignore")
-    return [(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
+    out=[(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
+    if out:
+        return out
+    rawtxt=stem.with_name(stem.name+"_raw.txt")
+    run(["pdftotext","-raw",str(pdf),str(rawtxt)])
+    raw2=rawtxt.read_text(encoding="utf-8",errors="ignore")
+    return [(i+1,x) for i,x in enumerate(raw2.split("\f")) if x.strip()]
 def starts(t,expected):
-    pat=re.compile(r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[\.)]|\s*[:-]\s+|(?=\s+))")
+    pat=re.compile(r"(?m)(?<!\d)(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[\.)]|\s*[:-]\s+|(?=\s+)|(?=[A-Z]))")
     return [(m.start(),m.end(),int(m.group(1))) for m in pat.finditer(t) if 1<=int(m.group(1))<=expected]
 def options(block):
     pats=[re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"),
@@ -74,6 +84,10 @@ def parse_blocks(pg,expected):
     d={}
     for _,t in pg:
         st=starts(t,expected)
+        # Keep only plausible question-number sequences. This avoids treating
+        # years, marks and page numbers as question starts in legacy PDFs.
+        if len(st) > expected * 2:
+            st=[x for x in st if x[2] <= expected]
         for i,(a,b,q) in enumerate(st):
             z=st[i+1][0] if i+1<len(st) else len(t)
             block=clean(t[b:z])
