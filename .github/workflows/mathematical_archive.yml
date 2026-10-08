@@ -63,3 +63,4 @@ jobs:
           if-no-files-found: warn
 
 # Official-source-only Mathematical archive pipeline.
+# Timeout-hardened downloader; run sequentially by session.
