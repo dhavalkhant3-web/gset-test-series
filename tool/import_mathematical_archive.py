@@ -51,20 +51,11 @@ def download(url,p):
         print(f"[PENDING SOURCE] download failed: {url} (curl exit {e.returncode})")
         return False
 
-def pages(pdf,stem):
-    txt=stem.with_suffix(".txt")
-    # Preserve source text first. If the PDF's layout encoding prevents the
-    # question-number parser from seeing boundaries, also keep a raw extraction
-    # as a fallback; no OCR text is treated as authoritative.
-    run(["pdftotext","-layout",str(pdf),str(txt)])
+def pages(pdf,stem,mode="layout"):
+    txt=stem.with_name(stem.name+"_"+mode+".txt")
+    run(["pdftotext","-"+mode,str(pdf),str(txt)])
     raw=txt.read_text(encoding="utf-8",errors="ignore")
-    out=[(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
-    if out:
-        return out
-    rawtxt=stem.with_name(stem.name+"_raw.txt")
-    run(["pdftotext","-raw",str(pdf),str(rawtxt)])
-    raw2=rawtxt.read_text(encoding="utf-8",errors="ignore")
-    return [(i+1,x) for i,x in enumerate(raw2.split("\f")) if x.strip()]
+    return [(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
 def starts(t,expected):
     pat=re.compile(r"(?m)(?<!\d)(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[\.)]|\s*[:-]\s+|(?=\s+)|(?=[A-Z]))")
     return [(m.start(),m.end(),int(m.group(1))) for m in pat.finditer(t) if 1<=int(m.group(1))<=expected]
@@ -127,7 +118,15 @@ def main():
               "status":"pending_source"}
             print(pid, "PENDING SOURCE")
             continue
-        pg=pages(pdf,w/"paper"); blocks=parse_blocks(pg,expected); keys=keymap(key,w/"key",expected)
+        pg_layout=pages(pdf,w/"paper","layout")
+        pg_raw=pages(pdf,w/"paper","raw")
+        blocks_layout=parse_blocks(pg_layout,expected)
+        blocks_raw=parse_blocks(pg_raw,expected)
+        # Choose the extraction layout with more complete four-option MCQs.
+        score=lambda d: sum(1 for block in d.values() if len(options(block))==4)
+        blocks=blocks_raw if score(blocks_raw)>score(blocks_layout) else blocks_layout
+        print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":score(blocks_layout),"raw_blocks":len(blocks_raw),"raw_mcq":score(blocks_raw)})
+        keys=keymap(key,w/"key",expected)
         loaded=0
         for q in range(1,expected+1):
             b=blocks.get(q); opts=options(b or "")
