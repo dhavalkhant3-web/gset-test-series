@@ -61,12 +61,23 @@ def clean(s):
     return re.sub(r"\s+", " ", s).strip()
 
 def download(url, path):
+    """Download official source PDFs with resilient retries; fail clearly if unavailable."""
+    path.parent.mkdir(parents=True, exist_ok=True)
     log("DOWNLOAD", url)
-    subprocess.run([
-        "curl", "-L", "--fail", "--retry", "3", "--connect-timeout", "20",
+    cmd = [
+        "curl", "-L", "--fail", "--silent", "--show-error",
+        "--retry", "6", "--retry-all-errors", "--retry-delay", "5",
+        "--connect-timeout", "60", "--max-time", "240",
         "--insecure", "-o", str(path), url
-    ], check=True)
-
+    ]
+    try:
+        subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if not path.exists() or path.stat().st_size == 0:
+            raise RuntimeError("Downloaded source file is empty")
+    except (subprocess.CalledProcessError, RuntimeError) as exc:
+        if path.exists() and path.stat().st_size == 0:
+            path.unlink()
+        raise RuntimeError(f"Official GSET source download failed after retries: {url}: {exc}") from exc
 def render_ocr(pdf, stem, dpi=240, pages=None):
     log("OCR", f"rendering {pdf.name} at {dpi} dpi" + (f", pages={pages}" if pages else ""))
     page_dir=stem.parent/(stem.name+"_pages")
