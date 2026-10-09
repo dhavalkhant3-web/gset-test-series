@@ -75,7 +75,11 @@ def pages(pdf,stem,mode="layout",expected=None):
     extracted=[(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
     # Legacy GSET PDFs can be image-only scans. OCR when native extraction
     # has no plausible numbered questions, rather than silently importing zero.
-    native_count=len({q for _,page in extracted for _,_,q in starts(page, expected or 100)})\n    # OCR is required when native text extraction recovers only a fraction of the expected questions.\n    # Some old scans contain stray selectable text, so checking only for zero matches\n    # incorrectly skipped OCR and produced incomplete archives.\n    if mode == "layout" and native_count < int((expected or 100)*0.75):
+    native_count=len({q for _,page in extracted for _,_,q in starts(page, expected or 100)})
+    # OCR is required when native text extraction recovers only a fraction of the expected questions.
+    # Some old scans contain stray selectable text, so checking only for zero matches
+    # incorrectly skipped OCR and produced incomplete archives.
+    if mode == "layout" and native_count < int((expected or 100)*0.75):
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
