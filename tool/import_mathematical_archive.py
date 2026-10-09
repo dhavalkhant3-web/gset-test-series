@@ -8,7 +8,7 @@ import json,re,subprocess
 from pathlib import Path
 
 SUBJECT="mathematical_sciences"
-BASE="https://www.gujaratset.ac.in/assets"
+BASE="https://gujaratset.ac.in/assets"
 
 ARCHIVE_FOLDERS = {
     "jan02":"jan02","dec02":"dec02","dec03":"dec03","jul04":"jy04",
