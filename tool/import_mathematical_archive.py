@@ -37,7 +37,24 @@ WORK=Path("build/mathematical_archive")
 def run(c):
     return subprocess.run(c,check=True,text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 def clean(s):
+    """Collapse whitespace for display-only fields."""
     return re.sub(r"\s+"," ",s.replace("\x0c"," ")).strip()
+
+def preserve_lines(s):
+    """Normalize each source line without joining adjacent MCQ/options lines."""
+    lines=[]
+    for line in s.replace("\x0c","\n").splitlines():
+        line=re.sub(r"[ \t]+"," ",line).strip()
+        if line:
+            lines.append(line)
+    return "\n".join(lines)
+
+def question_stem(block):
+    """Return the prompt before option A, preserving equations and line breaks."""
+    m=re.search(r"(?im)^\s*(?:\(?A\)?[.) :]\s+|\(A\)\s+)",block)
+    if not m:
+        m=re.search(r"(?i)\s+\(A\)\s+",block)
+    return clean(block[:m.start()]) if m else clean(block)
 def download(url,p):
     p.parent.mkdir(parents=True,exist_ok=True)
     cmd=["curl","-L","--fail","--retry","6","--retry-all-errors","--retry-delay","5",
@@ -98,7 +115,9 @@ def parse_blocks(pg,expected):
             st=[x for x in st if x[2] <= expected]
         for i,(a,b,q) in enumerate(st):
             z=st[i+1][0] if i+1<len(st) else len(t)
-            block=clean(t[b:z])
+            # Preserve source line boundaries: flattening here made the option
+            # parser miss OCR choices and corrupted the question prompt.
+            block=preserve_lines(t[b:z])
             if len(block)>8 and (q not in d or len(block)>len(d[q])): d[q]=block
     return d
 def keymap(pdf,stem,expected):
@@ -151,7 +170,7 @@ def main():
                 continue
             # Conservative split: retain only questions whose four options and key
             # are recoverable. Ambiguous/visual questions remain for review.
-            first=re.split(r"(?m)(?:\s{2,}|\n)",b)[0].strip()
+            first=question_stem(b)
             if len(first)<8: continue
             rid=f"{pid}_q{q}"
             if rid in old: continue
