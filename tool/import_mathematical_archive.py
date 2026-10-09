@@ -68,14 +68,14 @@ def download(url,p):
         print(f"[PENDING SOURCE] download failed: {url} (curl exit {e.returncode})")
         return False
 
-def pages(pdf,stem,mode="layout"):
+def pages(pdf,stem,mode="layout",expected=None):
     txt=stem.with_name(stem.name+"_"+mode+".txt")
     run(["pdftotext","-"+mode,str(pdf),str(txt)])
     raw=txt.read_text(encoding="utf-8",errors="ignore")
-    extracted=[(i+1,x) for i,x in enumerate(raw.split("\\f")) if x.strip()]
+    extracted=[(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
     # Legacy GSET PDFs can be image-only scans. OCR when native extraction
     # has no plausible numbered questions, rather than silently importing zero.
-    if mode == "layout" and not any(starts(page,100) for _,page in extracted):
+    native_count=len({q for _,page in extracted for _,_,q in starts(page, expected or 100)})\n    # OCR is required when native text extraction recovers only a fraction of the expected questions.\n    # Some old scans contain stray selectable text, so checking only for zero matches\n    # incorrectly skipped OCR and produced incomplete archives.\n    if mode == "layout" and native_count < int((expected or 100)*0.75):
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
@@ -156,7 +156,7 @@ def main():
               "status":"pending_source"}
             print(pid, "PENDING SOURCE")
             continue
-        pg_layout=pages(pdf,w/"paper","layout")
+        pg_layout=pages(pdf,w/"paper","layout",expected=expected)
         pg_raw=pages(pdf,w/"paper","raw")
         blocks_layout=parse_blocks(pg_layout,expected)
         blocks_raw=parse_blocks(pg_raw,expected)
