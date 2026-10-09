@@ -13,8 +13,8 @@ BASE="https://gujaratset.ac.in/assets"
 ARCHIVE_FOLDERS = {
     "jan02":"jan02","dec02":"dec02","dec03":"dec03","jul04":"jy04",
     "jul06":"jy06","dec08":"dec08","oct10":"oct10","oct11":"oct11",
-    "sep13":"sep13","oct14":"oct14","sep16":"sep16","aug17":"aug17",
-    "sep18":"sep18","dec19":"dec19","dec21":"dec21","nov22":"nov22",
+    "sep13":"sept13","oct14":"oct14","sep16":"sept16","aug17":"aug17",
+    "sep18":"sept18","dec19":"dec19","dec21":"dec21","nov22":"nov22",
     "nov23":"nov23","dec24":"dec24","nov25":"nov25",
 }
 def archive_folder(session):
