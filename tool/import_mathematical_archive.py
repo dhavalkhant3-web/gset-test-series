@@ -72,7 +72,10 @@ def pages(pdf,stem,mode="layout"):
             return ocr
     return extracted
 def starts(t,expected):
-    pat=re.compile(r"(?m)(?<!\d)(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[\.)]|\s*[:-]\s+|(?=\s+)|(?=[A-Z]))")
+    # Anchor question numbers to line starts. The old unanchored expression
+    # treated years, values in equations, and option text as new questions,
+    # fragmenting valid MCQ blocks and causing most of the archive to vanish.
+    pat=re.compile(r"(?m)^\\s*(?:Q(?:uestion)?\\s*\\.?\\s*)?(\\d{1,3})(?:\\s*[\\.)]|\\s*[:-]\\s+|(?=\\s+))")
     return [(m.start(),m.end(),int(m.group(1))) for m in pat.finditer(t) if 1<=int(m.group(1))<=expected]
 def options(block):
     pats=[re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"),
