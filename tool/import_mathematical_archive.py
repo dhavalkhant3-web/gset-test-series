@@ -55,7 +55,22 @@ def pages(pdf,stem,mode="layout"):
     txt=stem.with_name(stem.name+"_"+mode+".txt")
     run(["pdftotext","-"+mode,str(pdf),str(txt)])
     raw=txt.read_text(encoding="utf-8",errors="ignore")
-    return [(i+1,x) for i,x in enumerate(raw.split("\f")) if x.strip()]
+    extracted=[(i+1,x) for i,x in enumerate(raw.split("\\f")) if x.strip()]
+    # Legacy GSET PDFs can be image-only scans. OCR when native extraction
+    # has no plausible numbered questions, rather than silently importing zero.
+    if mode == "layout" and not any(starts(page,100) for _,page in extracted):
+        prefix=stem.with_name(stem.name+"_ocrpage")
+        run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
+        images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
+        ocr=[]
+        for i,img in enumerate(images,1):
+            p=subprocess.run(["tesseract",str(img),"stdout","--psm","6"],
+                text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+            ocr.append((i,p.stdout))
+        if any(text.strip() for _,text in ocr):
+            print(f"[OCR FALLBACK] {pdf.name}: {len(ocr)} pages")
+            return ocr
+    return extracted
 def starts(t,expected):
     pat=re.compile(r"(?m)(?<!\d)(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[\.)]|\s*[:-]\s+|(?=\s+)|(?=[A-Z]))")
     return [(m.start(),m.end(),int(m.group(1))) for m in pat.finditer(t) if 1<=int(m.group(1))<=expected]
