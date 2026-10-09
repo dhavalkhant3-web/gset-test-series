@@ -94,8 +94,10 @@ def starts(t,expected):
     pat=re.compile(r"(?m)^\s*(?:Q(?:uestion)?\s*\.?\s*)?(\d{1,3})(?:\s*[.)]|\s*[:-]\s+|(?=\s+))")
     return [(m.start(),m.end(),int(m.group(1))) for m in pat.finditer(t) if 1<=int(m.group(1))<=expected]
 def options(block):
-    pats=[re.compile(r"(?mi)(?:^|\n)\s*\(?([ABCD])\)?\s*[\.:\)]\s*"),
-          re.compile(r"(?mi)\(([ABCD])\)\s+")]
+    # Labels can be on separate lines or inline in older scanned papers.
+    pats=[re.compile(r"(?mi)^[ \t]*\(?([ABCD])\)?[ \t]*[.:)][ \t]*"),
+          re.compile(r"(?i)(?<!\w)\(([ABCD])\)[ \t]*"),
+          re.compile(r"(?i)(?<!\w)([ABCD])[.)][ \t]+")]
     for pat in pats:
         ms=list(pat.finditer(block))
         for i in range(max(0,len(ms)-3)):
