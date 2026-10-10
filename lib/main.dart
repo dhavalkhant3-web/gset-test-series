@@ -600,11 +600,64 @@ class _UnitWiseTestPageState extends State<UnitWiseTestPage> {
   String _unitId(Map<String,dynamic> q) => (q['unit_id'] ?? q['unitId'] ?? '').toString().trim();
   String _unitName(Map<String,dynamic> q) => (q['unit'] ?? q['unit_name'] ?? q['unitName'] ?? '').toString().trim();
 
+  // Use explicit unit metadata first, then the question's existing topic label.
+  // Generic archive labels (for example "Physical Sciences") are deliberately
+  // not guessed: those questions remain unassigned until reviewed.
+  int? _topicUnitNumber(Map<String,dynamic> q) {
+    final subjectId = widget.subject['id'].toString();
+    final topic = (q['topic'] ?? '').toString().toLowerCase().trim();
+    if (topic.isEmpty) return null;
+
+    if (subjectId == 'chemical_sciences') {
+      if (topic == 'inorganic chemistry' || topic.startsWith('inorganic chemistry -') ||
+          topic.contains('coordination chemistry') || topic.contains('organometallic') ||
+          topic.contains('bioinorganic') || topic.contains('chemical bonding') ||
+          topic.contains('atomic structure')) return 1;
+      if (topic == 'physical chemistry' || topic.startsWith('physical chemistry -') ||
+          topic.contains('quantum chemistry') || topic.contains('thermodynamics') ||
+          topic.contains('statistical mechanics') || topic.contains('chemical kinetics') ||
+          topic.contains('electrochemistry') || topic.contains('solid state chemistry') ||
+          topic.contains('polymer chemistry')) return 2;
+      if (topic == 'organic chemistry' || topic.startsWith('organic chemistry -') ||
+          topic.contains('stereochemistry') || topic.contains('medicinal chemistry') ||
+          topic.contains('supramolecular chemistry')) return 3;
+      if (topic.contains('analytical') || topic.contains('spectroscopy') ||
+          topic.contains('environmental') || topic.contains('biochemistry') ||
+          topic.contains('materials') || topic.contains('nanoscience') ||
+          topic.contains('nuclear chemistry') || topic.contains('interdisciplinary') ||
+          topic.contains('physical/environmental') || topic.contains('physical/polymer')) return 4;
+      return null;
+    }
+
+    if (subjectId == 'physical_sciences') {
+      if (topic.contains('mathematical physics') || topic.contains('mathematical methods')) return 1;
+      if (topic.contains('classical mechanics') || topic == 'relativity' ||
+          topic.contains('charged particle motion') || topic.contains('waves')) return 2;
+      if (topic.contains('electromagnet') || topic.contains('electrodynamics') ||
+          topic.contains('electrostatics') || topic.contains('magnetism') ||
+          topic.contains('plasma physics') || topic.contains('radiation')) return 3;
+      if (topic.contains('quantum mechanics') || topic.contains('quantum scattering')) return 4;
+      if (topic.contains('statistical physics') || topic.contains('statistical mechanics') ||
+          topic.contains('thermodynamics')) return 5;
+      if (topic.contains('electronics') || topic.contains('experimental physics') ||
+          topic.contains('detector') || topic.contains('detection')) return 6;
+      if (topic.contains('atomic physics') || topic.contains('molecular physics') ||
+          topic.contains('optics') || topic.contains('modern physics')) return 7;
+      if (topic.contains('solid state') || topic.contains('condensed matter') ||
+          topic.contains('x-ray physics') || topic.contains('diffraction')) return 8;
+      if (topic.contains('nuclear physics') || topic.contains('particle physics') ||
+          topic.contains('nuclear/particle')) return 9;
+    }
+    return null;
+  }
+
   List<Map<String,dynamic>> _forUnit(Map<String,dynamic> unit) {
     final id=unit['id'].toString(), number=unit['number'].toString(), name=unit['name'].toString().trim().toLowerCase();
+    final unitNumber = int.tryParse(number);
     return widget.questions.where((q) {
       final qid=_unitId(q); final qname=_unitName(q).toLowerCase();
-      return qid==id || qid==number || (qname==name && qname.isNotEmpty);
+      if (qid==id || qid==number || (qname==name && qname.isNotEmpty)) return true;
+      return unitNumber != null && _topicUnitNumber(q) == unitNumber;
     }).toList();
   }
 
