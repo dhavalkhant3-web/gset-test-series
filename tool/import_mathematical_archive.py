@@ -57,16 +57,28 @@ def question_stem(block):
     return clean(block[:m.start()]) if m else clean(block)
 def download(url,p):
     p.parent.mkdir(parents=True,exist_ok=True)
-    cmd=["curl","-L","--fail","--retry","6","--retry-all-errors","--retry-delay","5",
-         "--connect-timeout","60","--max-time","240","--insecure","-o",str(p),url]
-    try:
-        run(cmd)
-        return True
-    except subprocess.CalledProcessError as e:
-        if p.exists() and p.stat().st_size:
-            p.unlink()
-        print(f"[PENDING SOURCE] download failed: {url} (curl exit {e.returncode})")
-        return False
+    # Official GSET archive has used both short and "sept" folder spellings
+    # for September sessions. Try known official URL variants, never guessed content.
+    candidates=[url]
+    if "/sep16/" in url: candidates.append(url.replace("/sep16/","/sept16/"))
+    if "/sept16/" in url: candidates.append(url.replace("/sept16/","/sep16/"))
+    if "/sep18/" in url: candidates.append(url.replace("/sep18/","/sept18/"))
+    if "/sept18/" in url: candidates.append(url.replace("/sept18/","/sep18/"))
+    if "/sept18/sep1801.pdf" in url: candidates.append(url.replace("/sep1801.pdf","/sept1801.pdf"))
+    if "/sep18/sept1801.pdf" in url: candidates.append(url.replace("/sept1801.pdf","/sep1801.pdf"))
+    for candidate in dict.fromkeys(candidates):
+        cmd=["curl","-L","--fail","--retry","2","--retry-all-errors","--retry-delay","2",
+             "--connect-timeout","30","--max-time","180","--insecure","-o",str(p),candidate]
+        try:
+            run(cmd)
+            if p.exists() and p.stat().st_size>5000:
+                print(f"[SOURCE OK] {candidate}")
+                return True
+        except subprocess.CalledProcessError as e:
+            if p.exists(): p.unlink()
+            print(f"[SOURCE RETRY] {candidate} (curl exit {e.returncode})")
+    print(f"[PENDING SOURCE] all official URL variants failed for {url}")
+    return False
 
 def pages(pdf,stem,mode="layout",expected=None):
     txt=stem.with_name(stem.name+"_"+mode+".txt")
