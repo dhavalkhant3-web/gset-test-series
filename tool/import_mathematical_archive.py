@@ -88,10 +88,19 @@ def pages(pdf,stem,mode="layout",expected=None):
     # Legacy GSET PDFs can be image-only scans. OCR when native extraction
     # has no plausible numbered questions, rather than silently importing zero.
     native_count=len({q for _,page in extracted for _,_,q in starts(page, expected or 100)})
-    # OCR is required when native text extraction recovers only a fraction of the expected questions.
-    # Some old scans contain stray selectable text, so checking only for zero matches
-    # incorrectly skipped OCR and produced incomplete archives.
-    if mode == "layout" and native_count < int((expected or 100)*0.75):
+    # Question-number detection alone is misleading in math PDFs: page numbers,
+    # equations and selectable fragments can make a broken extraction look complete.
+    # Trigger OCR based on recoverable MCQs (prompt + all four options), not just
+    # the count of numbered fragments.
+    native_mcq=0
+    if mode == "layout":
+        try:
+            native_mcq=sum(1 for block in parse_blocks(extracted, expected or 100).values()
+                           if len(options(block))==4)
+        except NameError:
+            native_mcq=0
+    if mode == "layout" and native_mcq < int((expected or 100)*0.75):
+        print(f"[OCR TRIGGER] {pdf.name}: numbered={native_count}, four_option_mcq={native_mcq}/{expected or 100}")
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
