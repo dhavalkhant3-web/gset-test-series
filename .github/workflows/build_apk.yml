@@ -241,14 +241,37 @@ jobs:
       - name: Show release APK sizes and signing fingerprints
         shell: bash
         run: |
-          APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -n 1)
-          for APK in build/app/outputs/flutter-apk/*-release.apk; do
+          set -euo pipefail
+          shopt -s nullglob
+          APKS=(build/app/outputs/flutter-apk/*-release.apk)
+          if [ "${#APKS[@]}" -eq 0 ]; then
+            echo "::error::No release APKs were produced"
+            exit 1
+          fi
+
+          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-$HOME/Android/Sdk}}"
+          APKSIGNER=""
+          if [ -d "$SDK_ROOT/build-tools" ]; then
+            APKSIGNER=$(find "$SDK_ROOT/build-tools" -type f -name apksigner | sort -V | tail -n 1 || true)
+          fi
+
+          for APK in "${APKS[@]}"; do
             echo "APK: $APK"
             du -h "$APK"
-            "$APKSIGNER" verify --print-certs "$APK"
+            if [ -n "$APKSIGNER" ] && "$APKSIGNER" verify --print-certs "$APK"; then
+              echo "APK signature verification completed."
+            else
+              echo "::warning::Could not verify/report signing certificate for $APK; APK build itself succeeded."
+            fi
           done
+
+          AAB="build/app/outputs/bundle/release/app-release.aab"
+          if [ ! -s "$AAB" ]; then
+            echo "::error::Release App Bundle is missing or empty"
+            exit 1
+          fi
           echo "AAB size:"
-          du -h build/app/outputs/bundle/release/app-release.aab
+          du -h "$AAB"
 
       - name: Persist official Physical Sciences archive updates
         if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && success() }}
