@@ -655,8 +655,13 @@ class _UnitWiseTestPageState extends State<UnitWiseTestPage> {
     final id=unit['id'].toString(), number=unit['number'].toString(), name=unit['name'].toString().trim().toLowerCase();
     final unitNumber = int.tryParse(number);
     return widget.questions.where((q) {
-      final qid=_unitId(q); final qname=_unitName(q).toLowerCase();
-      if (qid==id || qid==number || (qname==name && qname.isNotEmpty)) return true;
+      final qid=_unitId(q);
+      final qname=_unitName(q).toLowerCase();
+      // Explicit unit metadata is authoritative. Never reassign a question
+      // through topic fallback when its explicit unit points elsewhere.
+      if (qid.isNotEmpty || qname.isNotEmpty) {
+        return qid==id || qid==number || (qname==name && qname.isNotEmpty);
+      }
       return unitNumber != null && _topicUnitNumber(q) == unitNumber;
     }).toList();
   }
