@@ -229,14 +229,23 @@ jobs:
       - name: Analyze project
         run: flutter analyze
 
-      - name: Build installable debug APK
-        run: flutter build apk --debug
+      - name: Build optimized release APKs per ABI
+        run: flutter build apk --release --split-per-abi
 
-      - name: Show APK signing fingerprints
+      - name: Build Android App Bundle for Play Store
+        run: flutter build appbundle --release
+
+      - name: Show release APK sizes and signing fingerprints
         shell: bash
         run: |
           APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort -V | tail -n 1)
-          "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-debug.apk
+          for APK in build/app/outputs/flutter-apk/*-release.apk; do
+            echo "APK: $APK"
+            du -h "$APK"
+            "$APKSIGNER" verify --print-certs "$APK"
+          done
+          echo "AAB size:"
+          du -h build/app/outputs/bundle/release/app-release.aab
 
       - name: Persist official Physical Sciences archive updates
         if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && success() }}
@@ -252,12 +261,19 @@ jobs:
           git commit -m "[skip ci] Persist official Physical Sciences archive import"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
-      - name: Upload installable APK
+      - name: Upload optimized release APKs
         uses: actions/upload-artifact@v4
         with:
-          name: gset-test-series-apk-debug
-          path: build/app/outputs/flutter-apk/app-debug.apk
+          name: gset-test-series-release-apks
+          path: build/app/outputs/flutter-apk/*-release.apk
           if-no-files-found: error
 
-# Manual APK rebuild trigger: source/data unchanged.
-# CI trigger: rerun archive validation after the Physical Sciences JSON correction.
+      - name: Upload Play Store App Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: gset-test-series-release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+
+# Release builds are split per ABI to reduce the APK size users install.
+# The AAB is provided for Play Store delivery; debug builds are not distributed as release artifacts.
