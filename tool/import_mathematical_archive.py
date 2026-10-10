@@ -176,10 +176,16 @@ def main():
         pg_raw=pages(pdf,w/"paper","raw")
         blocks_layout=parse_blocks(pg_layout,expected)
         blocks_raw=parse_blocks(pg_raw,expected)
-        # Choose the extraction layout with more complete four-option MCQs.
-        score=lambda d: sum(1 for block in d.values() if len(options(block))==4)
-        blocks=blocks_raw if score(blocks_raw)>score(blocks_layout) else blocks_layout
-        print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":score(blocks_layout),"raw_blocks":len(blocks_raw),"raw_mcq":score(blocks_raw)})
+        # Merge per-question across layout, raw, and OCR extraction. Selecting
+        # one whole document loses valid questions when different pages extract
+        # better under different modes. Prefer four-option blocks, then fuller text.
+        score=lambda block: (1 if len(options(block))==4 else 0, len(block))
+        blocks={}
+        for candidate in (blocks_layout, blocks_raw):
+            for q,block in candidate.items():
+                if q not in blocks or score(block)>score(blocks[q]):
+                    blocks[q]=block
+        print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
         keys=keymap(key,w/"key",expected)
         loaded=0
         for q in range(1,expected+1):
