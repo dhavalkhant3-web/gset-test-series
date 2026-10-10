@@ -226,6 +226,9 @@ jobs:
       - name: Validate question bank integrity
         run: python3 tool/validate_questions.py
 
+      - name: Audit syllabus unit mappings
+        run: python3 tool/validate_syllabus_mapping.py
+
       - name: Analyze project
         run: flutter analyze
 
