@@ -115,7 +115,29 @@ def pages(pdf,stem,mode="layout",expected=None):
                 if p.stdout.strip():
                     ocr.append((i,p.stdout))
         if any(text.strip() for _,text in ocr):
-            print(f"[OCR FALLBACK] {pdf.name}: {len(images)} pages x 3 modes, {len(ocr)} candidates")
+            first_mcq=sum(1 for block in parse_blocks(ocr, expected or 100).values()
+                          if len(options(block))==4)
+            print(f"[OCR FALLBACK] {pdf.name}: {len(images)} pages x 3 modes, {len(ocr)} candidates; recoverable_mcq={first_mcq}/{expected or 100}")
+            # Old scans and math-heavy layouts can lose superscripts, option labels,
+            # or question numbers at 300 DPI. Run a higher-resolution recovery pass
+            # only when the first pass still leaves a substantial gap. These remain
+            # OCR candidates, never auto-verified; every imported item keeps review_flag.
+            if first_mcq < int((expected or 100)*0.85):
+                prefix_hi=stem.with_name(stem.name+"_ocr450page")
+                run(["pdftoppm","-jpeg","-r","450","-jpegopt","quality=95",str(pdf),str(prefix_hi)])
+                images_hi=sorted(prefix_hi.parent.glob(prefix_hi.name+"-*.jpg"))
+                extra=[]
+                for i,img in enumerate(images_hi,1):
+                    for psm in ("6","4","11","12","13"):
+                        p=subprocess.run(["tesseract",str(img),"stdout","--psm",psm],
+                            text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                        if p.stdout.strip():
+                            extra.append((i,p.stdout))
+                if extra:
+                    ocr.extend(extra)
+                    recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
+                                  if len(options(block))==4)
+                    print(f"[OCR 450 DPI RECOVERY] {pdf.name}: {len(images_hi)} pages x 5 modes; recoverable_mcq={recovered}/{expected or 100}")
             return ocr
     return extracted
 def starts(t,expected):
