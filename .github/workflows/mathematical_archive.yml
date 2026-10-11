@@ -14,9 +14,34 @@ permissions:
   contents: write
 
 jobs:
-  mathematical-archive:
+  import-session:
+    name: Import official session (${{ matrix.session }})
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        session:
+          - jan02
+          - dec02
+          - dec03
+          - jul04
+          - jul06
+          - dec08
+          - oct10
+          - oct11
+          - sep13
+          - oct14
+          - sep16
+          - aug17
+          - sep18
+          - dec19
+          - dec21
+          - nov22
+          - nov23
+          - dec24
+          - nov25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,19 +49,72 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils tesseract-ocr
-      - name: Generate official Mathematical Sciences archive
-        run: python3 tool/import_mathematical_archive.py
+      - name: Generate one official session
+        run: python3 tool/import_mathematical_archive.py --paper mathematical_sciences_${{ matrix.session }}
+      - name: Upload session output
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: math-session-${{ matrix.session }}
+          path: |
+            assets/subjects/mathematical_sciences/questions.json
+            assets/subjects/mathematical_sciences/papers.json
+          if-no-files-found: warn
+          retention-days: 7
+
+  combine-and-persist:
+    name: Combine, validate, and persist
+    runs-on: ubuntu-latest
+    needs: import-session
+    if: ${{ always() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download per-session outputs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: math-session-*
+          path: build/math-artifacts
+          merge-multiple: false
+      - name: Combine official session banks
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          qpath=Path("assets/subjects/mathematical_sciences/questions.json")
+          mpath=Path("assets/subjects/mathematical_sciences/papers.json")
+          qpath.parent.mkdir(parents=True,exist_ok=True)
+          existing=json.loads(qpath.read_text(encoding="utf-8")) if qpath.exists() else []
+          byid={x.get("id"):x for x in existing if x.get("id")}
+          meta=json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {"schema_version":1,"subject_id":"mathematical_sciences","subject_code":"01","papers":[]}
+          papers={x.get("paper_id"):x for x in meta.get("papers",[]) if x.get("paper_id")}
+          artifacts=Path("build/math-artifacts")
+          for folder in sorted(artifacts.glob("math-session-*")):
+              qp=folder/"questions.json"
+              mp=folder/"papers.json"
+              if qp.exists():
+                  for item in json.loads(qp.read_text(encoding="utf-8")):
+                      if item.get("id"): byid[item["id"]]=item
+              if mp.exists():
+                  data=json.loads(mp.read_text(encoding="utf-8"))
+                  for item in data.get("papers",[]):
+                      if item.get("paper_id"): papers[item["paper_id"]]=item
+          qpath.write_text(json.dumps(list(byid.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          order=["jan02","dec02","dec03","jul04","jul06","dec08","oct10","oct11","sep13","oct14","sep16","aug17","sep18","dec19","dec21","nov22","nov23","dec24","nov25"]
+          meta["papers"]=[papers[f"mathematical_sciences_{s}"] for s in order if f"mathematical_sciences_{s}" in papers]
+          mpath.write_text(json.dumps(meta,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print(f"Combined {len(byid)} unique questions from per-session artifacts; metadata for {len(meta['papers'])}/19 sessions.")
+          PY
       - name: Validate and report Mathematical Sciences progress
         run: |
           python3 - <<'PY'
           import json
           from collections import Counter
           from pathlib import Path
-          path=Path("assets/subjects/mathematical_sciences/questions.json")
-          q=json.loads(path.read_text(encoding="utf-8"))
+          q=json.loads(Path("assets/subjects/mathematical_sciences/questions.json").read_text(encoding="utf-8"))
           assert isinstance(q,list), "Mathematical question bank must be a list"
           expected={"mathematical_sciences_jan02":50,"mathematical_sciences_dec02":50,"mathematical_sciences_dec03":50,"mathematical_sciences_jul04":50,"mathematical_sciences_jul06":50,"mathematical_sciences_dec08":50,"mathematical_sciences_oct10":50,"mathematical_sciences_oct11":50,"mathematical_sciences_sep13":50,"mathematical_sciences_oct14":50,"mathematical_sciences_sep16":50,"mathematical_sciences_aug17":50,"mathematical_sciences_sep18":100,"mathematical_sciences_dec19":100,"mathematical_sciences_dec21":100,"mathematical_sciences_nov22":100,"mathematical_sciences_nov23":100,"mathematical_sciences_dec24":100,"mathematical_sciences_nov25":100}
-          c=Counter(x.get("paper_id") for x in q)
+          counts=Counter(x.get("paper_id") for x in q)
           ids=[x.get("id") for x in q]
           assert all(ids), "Missing question ID"
           assert len(ids)==len(set(ids)), "Duplicate Mathematical question IDs"
@@ -45,10 +123,8 @@ jobs:
               assert isinstance(x.get("options_en"),list) and len(x["options_en"])==4, f"{x.get('id')}: four source options required"
               assert isinstance(x.get("options_gu"),list) and len(x["options_gu"])==4, f"{x.get('id')}: four Gujarati options required"
           print(f"Mathematical Sciences imported: {len(q)}/1300 questions")
-          print("Per-session counts (loaded/expected):")
-          for pid,n in expected.items():
-              print(f"  {pid}: {c.get(pid,0)}/{n}")
-          print("Incomplete sessions remain flagged for further official-source recovery; no questions or answers are fabricated.")
+          for pid,n in expected.items(): print(f"{pid}: {counts.get(pid,0)}/{n}")
+          print("Incomplete sessions remain pending official-source recovery; no questions or answers are fabricated.")
           PY
       - name: Persist Mathematical archive
         if: ${{ success() }}
@@ -62,7 +138,7 @@ jobs:
             git commit -m "[skip ci] Persist official Mathematical Sciences archive"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
-      - name: Upload Mathematical archive for review
+      - name: Upload combined Mathematical archive
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
@@ -71,6 +147,6 @@ jobs:
             assets/subjects/mathematical_sciences/questions.json
             assets/subjects/mathematical_sciences/papers.json
           if-no-files-found: warn
+          retention-days: 14
 
-# Official-source-only Mathematical archive pipeline.
-# Timeout-hardened downloader; run sequentially by session.
+# Parallel per-session imports reduce waiting time while preserving official-source-only data.
