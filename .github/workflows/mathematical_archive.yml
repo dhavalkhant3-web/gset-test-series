@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/mathematical_archive.yml'
       - 'tool/import_mathematical_archive.py'
       - 'assets/subjects/mathematical_sciences/**'
       - 'assets/subjects/syllabus_units.json'
