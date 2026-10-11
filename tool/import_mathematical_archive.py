@@ -106,11 +106,16 @@ def pages(pdf,stem,mode="layout",expected=None):
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
         ocr=[]
         for i,img in enumerate(images,1):
-            p=subprocess.run(["tesseract",str(img),"stdout","--psm","6"],
-                text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-            ocr.append((i,p.stdout))
+            # Old math papers contain dense equations and multi-column choices.
+            # Keep independent OCR candidates; parse_blocks will prefer a candidate
+            # with all four choices, then the fuller source text.
+            for psm in ("6","4","11"):
+                p=subprocess.run(["tesseract",str(img),"stdout","--psm",psm],
+                    text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                if p.stdout.strip():
+                    ocr.append((i,p.stdout))
         if any(text.strip() for _,text in ocr):
-            print(f"[OCR FALLBACK] {pdf.name}: {len(ocr)} pages")
+            print(f"[OCR FALLBACK] {pdf.name}: {len(images)} pages x 3 modes, {len(ocr)} candidates")
             return ocr
     return extracted
 def starts(t,expected):
@@ -145,7 +150,12 @@ def parse_blocks(pg,expected):
             # Preserve source line boundaries: flattening here made the option
             # parser miss OCR choices and corrupted the question prompt.
             block=preserve_lines(t[b:z])
-            if len(block)>8 and (q not in d or len(block)>len(d[q])): d[q]=block
+            # Prefer a candidate that retains all four options before comparing
+            # text length; this matters when combining PSM 6/4/11 OCR results.
+            score=(1 if len(options(block))==4 else 0,len(block))
+            previous=d.get(q,"")
+            previous_score=(1 if len(options(previous))==4 else 0,len(previous))
+            if len(block)>8 and (q not in d or score>previous_score): d[q]=block
     return d
 def keymap(pdf,stem,expected):
     pg=pages(pdf,stem); text="\n".join(x for _,x in pg).upper()
