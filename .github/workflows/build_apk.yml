@@ -42,6 +42,29 @@ jobs:
       - name: Flutter version
         run: flutter --version
 
+      - name: Configure release signing
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${ANDROID_KEYSTORE_BASE64}" || -z "${ANDROID_KEY_ALIAS}" || -z "${ANDROID_KEY_PASSWORD}" || -z "${ANDROID_STORE_PASSWORD}" ]]; then
+            echo "::error::Release signing secrets are missing. Add ANDROID_KEYSTORE_BASE64, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD, ANDROID_STORE_PASSWORD in GitHub repository Settings > Secrets and variables > Actions. Refusing to publish unsigned/invalid release APKs."
+            exit 1
+          fi
+          echo "${ANDROID_KEYSTORE_BASE64}" | base64 --decode > android/app/release-keystore.jks
+          cat > android/key.properties <<EOF
+          storePassword=${ANDROID_STORE_PASSWORD}
+          keyPassword=${ANDROID_KEY_PASSWORD}
+          keyAlias=${ANDROID_KEY_ALIAS}
+          storeFile=release-keystore.jks
+          EOF
+          test -s android/app/release-keystore.jks
+          echo "Release signing configuration prepared."
+
       - name: Get dependencies
         run: flutter pub get
 
@@ -258,10 +281,14 @@ jobs:
           for APK in "${APKS[@]}"; do
             echo "APK: $APK"
             du -h "$APK"
-            if [ -n "$APKSIGNER" ] && "$APKSIGNER" verify --print-certs "$APK"; then
-              echo "APK signature verification completed."
-            else
-              echo "::warning::Could not verify/report signing certificate for $APK; APK build itself succeeded."
+            if [ -z "$APKSIGNER" ]; then
+              echo "::error::Android apksigner tool not found; refusing to publish unverified APK."
+              exit 1
+            fi
+            "$APKSIGNER" verify --verbose --print-certs "$APK"
+            echo "APK signature verification passed."
+            if command -v aapt >/dev/null 2>&1; then
+              aapt dump badging "$APK" | grep -q "^package:"
             fi
           done
 
