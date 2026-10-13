@@ -294,7 +294,16 @@ def main():
                 # Refresh only when the newly extracted official-source candidate
                 # scores better. Otherwise enrich provenance without altering content.
                 if quality_score(candidate) > quality_score(previous):
-                    previous.update(candidate)
+                    # Replace only OCR-derived content/provenance fields. Keep
+                    # existing syllabus mappings, topic tags, image assets, and
+                    # any hand-authored explanation or metadata intact.
+                    for field in (
+                        "question_en", "question_gu", "options_en", "options_gu",
+                        "answer", "source_question_paper_url", "source_answer_key_url",
+                        "source_page", "review_flag", "review_note", "source_verified",
+                    ):
+                        if field in candidate:
+                            previous[field]=candidate[field]
                     updated+=1
                 else:
                     previous.setdefault("source_question_paper_url",paper_url)
