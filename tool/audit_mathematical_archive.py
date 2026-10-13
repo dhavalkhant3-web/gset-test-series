@@ -29,6 +29,26 @@ def question_number(record):
     match = QUESTION_NUMBER.search(str(record.get("id", "")))
     return int(match.group(1)) if match else None
 
+def looks_like_cover_or_instruction(record):
+    """Flag obvious booklet text that OCR may have misread as a numbered MCQ."""
+    text = " ".join(
+        [str(record.get("question_en") or "")]
+        + [str(x) for x in (record.get("options_en") or [])]
+    )
+    text = re.sub(r"\\s+", " ", text).strip().lower()
+    markers = (
+        "at the commencement of examination",
+        "instructions for the candidates",
+        "write your roll number in the space provided",
+        "this paper consists of one hundred questions",
+        "omr answer sheet",
+        "signature of the invigilator",
+        "tear off the paper seal",
+        "do not accept a booklet",
+        "rough work",
+    )
+    return any(marker in text for marker in markers)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--paper", help="Limit the report to one exact paper_id")
@@ -57,6 +77,7 @@ def main():
     answer_counts = Counter()
     unverified = 0
     missing_source_reference = 0
+    cover_instruction_suspects = defaultdict(list)
 
     selected = {args.paper} if args.paper else set(by_paper)
     for q in questions:
@@ -99,6 +120,8 @@ def main():
         topic_counts[topic or "(empty topic)"] += 1
         text = str(q.get("question_en") or "")
         lowered = text.lower()
+        if looks_like_cover_or_instruction(q):
+            cover_instruction_suspects[pid].append(qid)
         if (len(text.strip()) < 20
                 or any(marker in lowered for marker in OCR_RISK)
                 or "\ufffd" in text
@@ -147,6 +170,12 @@ def main():
     print(f"  Total records: {len(questions)}; unique IDs: {len(seen_ids)}")
     print(f"  Selected unverified/review-required records: {unverified}")
     print(f"  Selected records missing a source-page reference: {missing_source_reference}")
+    suspect_total = sum(len(v) for k, v in cover_instruction_suspects.items() if k in selected)
+    print(f"  Selected cover/instruction OCR suspects: {suspect_total}")
+    for pid in sorted(selected):
+        suspects = cover_instruction_suspects.get(pid, [])
+        if suspects:
+            print(f"  {pid} suspected non-question records: " + ", ".join(suspects[:30]))
     print(f"  Selected high-risk OCR records: {sum(len(v) for k,v in high_risk.items() if k in selected)}")
     print(f"  Most common topics: {topic_counts.most_common(6)}")
     print(f"  Selected answer counts: {dict(answer_counts)}")
