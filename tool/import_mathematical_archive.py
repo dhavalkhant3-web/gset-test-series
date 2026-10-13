@@ -188,6 +188,22 @@ def quality_score(record):
     score -= combined.count("\ufffd") * 12
     score -= sum(1 for ch in combined if ord(ch) < 32 and ch not in "\n\t")
     return score
+def looks_like_cover_or_instruction(block):
+    """Reject obvious booklet instructions misread as numbered MCQs by OCR."""
+    text = re.sub(r"\\s+", " ", str(block or "")).strip().lower()
+    markers = (
+        "at the commencement of examination",
+        "instructions for the candidates",
+        "write your roll number in the space provided",
+        "this paper consists of one hundred questions",
+        "omr answer sheet",
+        "signature of the invigilator",
+        "tear off the paper seal",
+        "do not accept a booklet",
+        "rough work",
+    )
+    return any(marker in text for marker in markers)
+
 def parse_blocks(pg,expected,include_page=False):
     d={}
     page_for={}
@@ -274,6 +290,11 @@ def main():
             # are recoverable. Ambiguous/visual questions remain for review.
             first=question_stem(b)
             if len(first)<8: continue
+            # OCR can mistake cover instructions/OMR examples for MCQs because
+            # they contain A/B/C/D labels. Never import these as exam questions.
+            if looks_like_cover_or_instruction(b):
+                print(f"[REVIEW SKIP] {pid} Q{q}: source block resembles cover/instructions")
+                continue
             rid=f"{pid}_q{q}"
             paper_url=f"{BASE}/papers/paperII/{folder}/{stem}.pdf"
             key_url=f"{BASE}/anskey/paperII/{folder}/{stem}.pdf"
