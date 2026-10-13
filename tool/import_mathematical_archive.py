@@ -216,8 +216,15 @@ def keymap(pdf,stem,expected):
     return d
 def main():
     import argparse
-    ap=argparse.ArgumentParser(); ap.add_argument("--paper"); args=ap.parse_args()
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--paper", help="Import one exact paper_id, e.g. mathematical_sciences_nov25")
+    args=ap.parse_args()
+    known_papers={"mathematical_sciences_"+x[0] for x in SESSIONS}
+    if args.paper and args.paper not in known_papers:
+        ap.error(f"unknown paper_id {args.paper!r}; choose one of: "+", ".join(sorted(known_papers)))
     targets=[x for x in SESSIONS if not args.paper or "mathematical_sciences_"+x[0]==args.paper]
+    if args.paper and len(targets)!=1:
+        ap.error(f"expected exactly one session for {args.paper!r}, found {len(targets)}")
     OUT.parent.mkdir(parents=True,exist_ok=True); META.parent.mkdir(parents=True,exist_ok=True)
     existing=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
     existing_by_id={str(x.get("id")):x for x in existing if x.get("id")}
