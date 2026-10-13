@@ -105,7 +105,13 @@ def main():
                 or len(re.findall(r"[^\w\s.,;:!?()\[\]{}+*/=<>|^%$\\-]", text)) > max(20, len(text) // 3)):
             high_risk[pid].append(qid)
 
-    total_errors_before_metadata = len(errors)
+    for pid, numbers in duplicates.items():
+        if numbers:
+            errors.append(
+                f"{pid}: duplicate question numbers: " +
+                ", ".join(map(str, sorted(set(numbers))[:30]))
+            )
+
     for pid in sorted(selected):
         meta = by_paper[pid]
         actual = records_by_paper.get(pid, [])
