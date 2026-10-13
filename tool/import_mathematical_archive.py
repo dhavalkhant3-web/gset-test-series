@@ -144,6 +144,45 @@ def pages(pdf,stem,mode="layout",expected=None):
                     recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
                                   if len(options(block))==4)
                     print(f"[OCR 450 DPI RECOVERY] {pdf.name}: {len(images_hi)} pages x 5 modes; recoverable_mcq={recovered}/{expected or 100}")
+            # Targeted high-resolution recovery: re-render only pages where the OCR
+            # candidates failed to recover at least two numbered question starts.
+            # This is still source OCR; all resulting records remain review-flagged.
+            weak_pages = []
+            for page_no in range(1, len(images) + 1):
+                page_candidates = [text for n, text in ocr if n == page_no]
+                best_count = max(
+                    (len(starts(candidate, expected or 100)) for candidate in page_candidates),
+                    default=0,
+                )
+                if best_count < 2:
+                    weak_pages.append(page_no)
+            if weak_pages and recovered < (expected or 100):
+                print(f"[OCR TARGETED 600 DPI] {pdf.name}: retrying weak pages {weak_pages}")
+                prefix_600 = stem.with_name(stem.name + "_ocr600page")
+                run(["pdftoppm", "-jpeg", "-r", "600", "-jpegopt", "quality=95",
+                     "-f", str(min(weak_pages)), "-l", str(max(weak_pages)),
+                     str(pdf), str(prefix_600)])
+                extra_600 = []
+                for page_no in weak_pages:
+                    img = prefix_600.with_name(prefix_600.name + f"-{page_no:02d}.jpg")
+                    if not img.exists():
+                        img = prefix_600.with_name(prefix_600.name + f"-{page_no}.jpg")
+                    if not img.exists():
+                        continue
+                    for psm in ("6", "11"):
+                        p = subprocess.run(
+                            ["tesseract", str(img), "stdout", "--psm", psm],
+                            text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                        )
+                        if p.stdout.strip():
+                            extra_600.append((page_no, p.stdout))
+                if extra_600:
+                    ocr.extend(extra_600)
+                    recovered_600 = sum(
+                        1 for block in parse_blocks(ocr, expected or 100).values()
+                        if len(options(block)) == 4
+                    )
+                    print(f"[OCR TARGETED 600 DPI] {pdf.name}: added {len(extra_600)} candidates; recoverable_mcq={recovered_600}/{expected or 100}")
             return ocr
     return extracted
 def starts(t,expected):
