@@ -139,6 +139,7 @@ def pages(pdf,stem,mode="layout",expected=None):
                             text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
                         if p.stdout.strip():
                             extra.append((i,p.stdout))
+                recovered = first_mcq
                 if extra:
                     ocr.extend(extra)
                     recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
