@@ -1,0 +1,61 @@
+name: Import Missing Mathematical Sciences Papers
+
+on:
+  push:
+    branches:
+      - audit/mathematical-sciences-quality-gates
+    paths:
+      - "tool/import_mathematical_archive.py"
+      - "tool/audit_mathematical_archive.py"
+      - "assets/subjects/mathematical_sciences/papers.json"
+      - ".github/workflows/import_missing_mathematical_papers.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  import-official-papers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: audit/mathematical-sciences-quality-gates
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install official PDF extraction tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr
+          python3 -m pip install --disable-pip-version-check PyMuPDF Pillow pytesseract
+
+      - name: Import September 2013 Mathematical Sciences from official GSET PDFs
+        run: python3 tool/import_mathematical_archive.py --paper mathematical_sciences_sep13
+
+      - name: Import September 2016 Mathematical Sciences from official GSET PDFs
+        run: python3 tool/import_mathematical_archive.py --paper mathematical_sciences_sep16
+
+      - name: Audit imported archive
+        run: |
+          python3 -m py_compile tool/import_mathematical_archive.py tool/audit_mathematical_archive.py
+          python3 tool/audit_mathematical_archive.py --paper mathematical_sciences_sep13
+          python3 tool/audit_mathematical_archive.py --paper mathematical_sciences_sep16
+
+      - name: Persist official-source imports to this branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "No changes produced by official-source importer."
+            exit 0
+          fi
+          git commit -m "[skip ci] Import official September 2013 and 2016 Mathematical Sciences papers"
+          git push origin HEAD:audit/mathematical-sciences-quality-gates
