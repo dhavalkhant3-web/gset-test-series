@@ -1,0 +1,39 @@
+name: Validate Mathematical Sciences Archive
+
+on:
+  pull_request:
+    paths:
+      - "assets/subjects/mathematical_sciences/**"
+      - "tool/import_mathematical_archive.py"
+      - "tool/audit_mathematical_archive.py"
+      - ".github/workflows/validate_mathematical_archive.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/subjects/mathematical_sciences/**"
+      - "tool/import_mathematical_archive.py"
+      - "tool/audit_mathematical_archive.py"
+      - ".github/workflows/validate_mathematical_archive.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile archive tools
+        run: python3 -m py_compile tool/import_mathematical_archive.py tool/audit_mathematical_archive.py
+
+      - name: Audit existing Mathematical Sciences bank
+        run: python3 tool/audit_mathematical_archive.py
