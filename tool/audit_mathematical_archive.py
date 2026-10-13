@@ -113,6 +113,12 @@ def main():
             unverified += 1
         if q.get("source_verified") is False and q.get("review_flag") is not True:
             errors.append(f"{qid}: unverified source must remain review_flag=true")
+        expected_paper_url = str(by_paper.get(pid, {}).get("question_paper_url") or "")
+        expected_key_url = str(by_paper.get(pid, {}).get("answer_key_url") or "")
+        if q.get("source_question_paper_url") != expected_paper_url:
+            errors.append(f"{qid}: source_question_paper_url does not match papers.json")
+        if q.get("source_answer_key_url") != expected_key_url:
+            errors.append(f"{qid}: source_answer_key_url does not match papers.json")
         if not q.get("source_question_paper_url") or q.get("source_page") is None:
             missing_source_reference += 1
 
@@ -161,6 +167,11 @@ def main():
             print("  Question IDs beyond declared target (check official cover page): " + ", ".join(map(str, beyond_target)))
         if args.require_complete and (status != "COMPLETE" or beyond_target):
             errors.append(f"{pid}: archive completeness gate failed")
+        page_referenced = sum(1 for x in actual if x.get("source_page") is not None)
+        generic_topics = sum(1 for x in actual if str(x.get("topic") or "").strip().lower() in ("", "mathematical sciences"))
+        print(f"  Source-page coverage: {page_referenced}/{actual_count}; generic/unmapped topic labels: {generic_topics}/{actual_count}")
+        if generic_topics:
+            print("  WARNING: topic labels are generic; do not include these records in syllabus-unit tests until individually mapped.")
         if meta.get("source_verified") is True and meta.get("question_source_verified") is not True:
             print("  WARNING: paper-level source_verified=true but question_source_verified is not true")
         if meta.get("answer_key_verified") is not True:
