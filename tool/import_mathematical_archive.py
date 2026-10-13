@@ -105,8 +105,8 @@ def pages(pdf,stem,mode="layout",expected=None):
                            if len(options(block))==4)
         except NameError:
             native_mcq=0
-    if mode == "layout" and native_mcq < int((expected or 100)*0.75):
-        print(f"[OCR TRIGGER] {pdf.name}: numbered={native_count}, four_option_mcq={native_mcq}/{expected or 100}")
+    if mode == "layout" and native_mcq < int((expected or 100)*0.95):
+        print(f"[OCR TRIGGER] {pdf.name}: native four-option MCQs={native_mcq}/{expected or 100}; enabling OCR because the archive is incomplete")
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
@@ -128,7 +128,7 @@ def pages(pdf,stem,mode="layout",expected=None):
             # or question numbers at 300 DPI. Run a higher-resolution recovery pass
             # only when the first pass still leaves a substantial gap. These remain
             # OCR candidates, never auto-verified; every imported item keeps review_flag.
-            if first_mcq < int((expected or 100)*0.85):
+            if first_mcq < int((expected or 100)*0.90):
                 prefix_hi=stem.with_name(stem.name+"_ocr450page")
                 run(["pdftoppm","-jpeg","-r","450","-jpegopt","quality=95",str(pdf),str(prefix_hi)])
                 images_hi=sorted(prefix_hi.parent.glob(prefix_hi.name+"-*.jpg"))
