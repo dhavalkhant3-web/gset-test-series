@@ -20,7 +20,7 @@ ARCHIVE_FOLDERS = {
 def archive_folder(session):
     return ARCHIVE_FOLDERS[session]
 SESSIONS=[
-("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
+("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",70),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
 ("jul06","July 2006","jy0601",50),("dec08","December 2008","dec0801",50),
 ("oct10","October 2010","oct1001",50),("oct11","October 2011","oct1101",50),
@@ -33,6 +33,10 @@ SESSIONS=[
 OUT=Path("assets/subjects/mathematical_sciences/questions.json")
 META=Path("assets/subjects/mathematical_sciences/papers.json")
 WORK=Path("build/mathematical_archive")
+# The official December 2002 paper contains 70 questions, but candidates attempt
+# any 50, yielding a 100-mark paper. Other sessions retain their existing metadata
+# until their cover pages have been individually source-checked.
+MARKS_OVERRIDE={"dec02":100}
 
 def run(c):
     return subprocess.run(c,check=True,text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -203,7 +207,7 @@ def main():
         key_ok=download(f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
         if not paper_ok or not key_ok:
             bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
-              "marks":200,
+              "marks":MARKS_OVERRIDE.get(sess,200),
               "question_paper_url":f"{BASE}/papers/paperII/{folder}/{stem}.pdf",
               "answer_key_url":f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",
               "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
@@ -249,7 +253,7 @@ def main():
               "source_verified":False})
             old.add(rid); loaded+=1
         bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
-          "marks":200,"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
+          "marks":MARKS_OVERRIDE.get(sess,200),"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
           "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
           "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
           "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
