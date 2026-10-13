@@ -35,7 +35,7 @@ def looks_like_cover_or_instruction(record):
         [str(record.get("question_en") or "")]
         + [str(x) for x in (record.get("options_en") or [])]
     )
-    text = re.sub(r"\\s+", " ", text).strip().lower()
+    text = re.sub(r"\s+", " ", text).strip().lower()
     markers = (
         "at the commencement of examination",
         "instructions for the candidates",
