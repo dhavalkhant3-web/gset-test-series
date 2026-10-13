@@ -58,7 +58,9 @@ def question_stem(block):
     m=re.search(r"(?im)^\s*(?:\(?A\)?[.) :]\s+|\(A\)\s+)",block)
     if not m:
         m=re.search(r"(?i)\s+\(A\)\s+",block)
-    return clean(block[:m.start()]) if m else clean(block)
+    stem = block[:m.start()] if m else block
+    # Preserve source line boundaries for equations and matrix layouts.
+    return preserve_lines(stem)
 def download(url,p):
     p.parent.mkdir(parents=True,exist_ok=True)
     # Official GSET archive has used both short and "sept" folder spellings
@@ -160,12 +162,13 @@ def options(block):
             if [m.group(1).upper() for m in ms[i:i+4]]==list("ABCD"):
                 m=ms[i:i+4]; out=[]
                 for j,a in enumerate(m):
-                    out.append(clean(block[a.end():(m[j+1].start() if j<3 else len(block))]))
+                    out.append(preserve_lines(block[a.end():(m[j+1].start() if j<3 else len(block))]))
                 if all(out): return out
     return []
-def parse_blocks(pg,expected):
+def parse_blocks(pg,expected,include_page=False):
     d={}
-    for _,t in pg:
+    page_for={}
+    for page_no,t in pg:
         st=starts(t,expected)
         # Keep only plausible question-number sequences. This avoids treating
         # years, marks and page numbers as question starts in legacy PDFs.
@@ -173,16 +176,14 @@ def parse_blocks(pg,expected):
             st=[x for x in st if x[2] <= expected]
         for i,(a,b,q) in enumerate(st):
             z=st[i+1][0] if i+1<len(st) else len(t)
-            # Preserve source line boundaries: flattening here made the option
-            # parser miss OCR choices and corrupted the question prompt.
             block=preserve_lines(t[b:z])
-            # Prefer a candidate that retains all four options before comparing
-            # text length; this matters when combining PSM 6/4/11 OCR results.
             score=(1 if len(options(block))==4 else 0,len(block))
             previous=d.get(q,"")
             previous_score=(1 if len(options(previous))==4 else 0,len(previous))
-            if len(block)>8 and (q not in d or score>previous_score): d[q]=block
-    return d
+            if len(block)>8 and (q not in d or score>previous_score):
+                d[q]=block
+                page_for[q]=page_no
+    return (d,page_for) if include_page else d
 def keymap(pdf,stem,expected):
     pg=pages(pdf,stem); text="\n".join(x for _,x in pg).upper()
     d={}
@@ -219,17 +220,18 @@ def main():
             continue
         pg_layout=pages(pdf,w/"paper","layout",expected=expected)
         pg_raw=pages(pdf,w/"paper","raw")
-        blocks_layout=parse_blocks(pg_layout,expected)
-        blocks_raw=parse_blocks(pg_raw,expected)
-        # Merge per-question across layout, raw, and OCR extraction. Selecting
-        # one whole document loses valid questions when different pages extract
-        # better under different modes. Prefer four-option blocks, then fuller text.
+        blocks_layout,pages_layout=parse_blocks(pg_layout,expected,include_page=True)
+        blocks_raw,pages_raw=parse_blocks(pg_raw,expected,include_page=True)
+        # Merge per-question across layout and raw extraction, retaining the
+        # physical source page number associated with the winning block.
         score=lambda block: (1 if len(options(block))==4 else 0, len(block))
         blocks={}
-        for candidate in (blocks_layout, blocks_raw):
+        source_pages={}
+        for candidate,page_map in ((blocks_layout,pages_layout),(blocks_raw,pages_raw)):
             for q,block in candidate.items():
                 if q not in blocks or score(block)>score(blocks[q]):
                     blocks[q]=block
+                    source_pages[q]=page_map.get(q)
         print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
         keys=keymap(key,w/"key",expected)
         loaded=0
@@ -243,24 +245,29 @@ def main():
             if len(first)<8: continue
             rid=f"{pid}_q{q}"
             if rid in old: continue
+            paper_url=f"{BASE}/papers/paperII/{folder}/{stem}.pdf"
+            key_url=f"{BASE}/anskey/paperII/{folder}/{stem}.pdf"
+            page_no=source_pages.get(q)
             existing.append({"id":rid,"paper_id":pid,"exam":exam,
               "question_en":first,"question_gu":first,"options_en":opts,"options_gu":opts,
               "answer":keys[q],"topic":"Mathematical Sciences","difficulty":"Medium",
               "explanation_en":"Official GSET final answer key is authoritative.",
               "explanation_gu":"Official GSET final answer key is authoritative.",
-              "review_flag":True,"review_note":"Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+              "review_flag":True,"review_note":"Extracted from official PDF/final key. Verify wording, mathematical notation, all options and answer against the cited source page before clearing review_flag.",
               "tip_en":"Official final answer key is authoritative.","tip_gu":"Official final answer key authoritative છે.",
-              "source_verified":False})
+              "source_question_paper_url":paper_url,"source_answer_key_url":key_url,
+              "source_page":page_no,"source_verified":False})
             old.add(rid); loaded+=1
         bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
           "marks":MARKS_OVERRIDE.get(sess,200),"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
           "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
           "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
           "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
-          "answer_key_verified":len(keys)==expected,
+          # Official URLs and successful extraction do not amount to manual review.
+          "answer_key_verified":False,
           "source":"GSET official uploaded question paper + final answer key",
           "source_verified":False,"question_source_verified":False,
-          "status":"verified_complete_with_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
+          "status":"complete_pending_source_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
         print(pid, "parsed",loaded,"new; total",bymeta[pid]["questions_loaded"],"/",expected)
     meta["papers"]=[bymeta[f"{SUBJECT}_{s[0]}"] for s in SESSIONS if f"{SUBJECT}_{s[0]}" in bymeta]
     json.dump(existing,OUT.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
