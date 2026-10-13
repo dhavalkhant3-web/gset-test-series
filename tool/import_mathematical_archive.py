@@ -190,7 +190,7 @@ def quality_score(record):
     return score
 def looks_like_cover_or_instruction(block):
     """Reject obvious booklet instructions misread as numbered MCQs by OCR."""
-    text = re.sub(r"\\s+", " ", str(block or "")).strip().lower()
+    text = re.sub(r"\s+", " ", str(block or "")).strip().lower()
     markers = (
         "at the commencement of examination",
         "instructions for the candidates",
