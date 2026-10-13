@@ -6,6 +6,7 @@ on:
       - "assets/subjects/mathematical_sciences/**"
       - "tool/import_mathematical_archive.py"
       - "tool/audit_mathematical_archive.py"
+      - "tool/test_mathematical_archive.py"
       - ".github/workflows/validate_mathematical_archive.yml"
   push:
     branches:
@@ -33,7 +34,10 @@ jobs:
           python-version: "3.12"
 
       - name: Compile archive tools
-        run: python3 -m py_compile tool/import_mathematical_archive.py tool/audit_mathematical_archive.py
+        run: python3 -m py_compile tool/import_mathematical_archive.py tool/audit_mathematical_archive.py tool/test_mathematical_archive.py
+
+      - name: Run Mathematical Sciences parser regression tests
+        run: python3 -m unittest tool.test_mathematical_archive
 
       - name: Audit existing Mathematical Sciences bank
         run: python3 tool/audit_mathematical_archive.py
