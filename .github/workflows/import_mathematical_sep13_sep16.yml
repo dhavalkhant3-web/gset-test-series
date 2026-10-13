@@ -1,0 +1,93 @@
+name: Import Missing Mathematical Sciences Papers
+
+on:
+  push:
+    branches:
+      - audit/mathematical-sciences-quality-gates
+    paths:
+      - "tool/import_mathematical_archive.py"
+      - "tool/audit_mathematical_archive.py"
+      - "tool/test_mathematical_archive.py"
+      - ".github/workflows/import_mathematical_sep13_sep16.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mathematical-sciences-sep13-sep16-import
+  cancel-in-progress: false
+
+jobs:
+  import-official-papers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install official-PDF extraction tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr
+
+      - name: Run parser regression tests
+        run: python3 -m unittest tool.test_mathematical_archive
+
+      - name: Import September 2013 from official GSET PDF and final key
+        run: python3 tool/import_mathematical_archive.py --paper mathematical_sciences_sep13
+
+      - name: Import September 2016 from official GSET PDF and final key
+        run: python3 tool/import_mathematical_archive.py --paper mathematical_sciences_sep16
+
+      - name: Verify imported records and provenance
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          q = json.loads(Path("assets/subjects/mathematical_sciences/questions.json").read_text(encoding="utf-8"))
+          m = json.loads(Path("assets/subjects/mathematical_sciences/papers.json").read_text(encoding="utf-8"))
+          by = {p["paper_id"]: p for p in m["papers"]}
+          for pid in ("mathematical_sciences_sep13", "mathematical_sciences_sep16"):
+              rows = [x for x in q if x.get("paper_id") == pid]
+              if not rows:
+                  raise SystemExit(f"{pid}: no MCQs recovered from the official PDF and final key; refusing to report import as complete")
+              for row in rows:
+                  if row.get("source_verified") is not False or row.get("review_flag") is not True:
+                      raise SystemExit(f"{row.get('id')}: OCR import must remain flagged for manual source review")
+                  if row.get("source_question_paper_url") != by[pid]["question_paper_url"]:
+                      raise SystemExit(f"{row.get('id')}: question-paper URL mismatch")
+                  if row.get("source_answer_key_url") != by[pid]["answer_key_url"]:
+                      raise SystemExit(f"{row.get('id')}: final-key URL mismatch")
+              actual = len(rows)
+              if by[pid]["questions_loaded"] != actual or by[pid]["questions_count"] != actual:
+                  raise SystemExit(f"{pid}: metadata count does not match actual {actual}")
+              print(f"{pid}: recovered {actual}/{by[pid]['question_count']} candidate MCQs; all remain flagged for verification")
+          PY
+
+      - name: Audit archive and syllabus safety
+        run: |
+          python3 tool/audit_mathematical_archive.py --paper mathematical_sciences_sep13
+          python3 tool/audit_mathematical_archive.py --paper mathematical_sciences_sep16
+
+      - name: Persist official-source extraction
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "No archive changes to persist."
+            exit 0
+          fi
+          git commit -m "[skip ci] Import official Mathematical Sciences Sep 2013 and Sep 2016 papers"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
