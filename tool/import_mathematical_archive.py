@@ -33,6 +33,10 @@ SESSIONS=[
 OUT=Path("assets/subjects/mathematical_sciences/questions.json")
 META=Path("assets/subjects/mathematical_sciences/papers.json")
 WORK=Path("build/mathematical_archive")
+# The indexed official December 2002 cover specifies a 100-mark Paper II.
+# The 50-question target remains unchanged until the question count is verified
+# from the complete original booklet, not inferred from OCR.
+MARKS_OVERRIDE={"dec02":100}
 
 def run(c):
     return subprocess.run(c,check=True,text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -54,7 +58,9 @@ def question_stem(block):
     m=re.search(r"(?im)^\s*(?:\(?A\)?[.) :]\s+|\(A\)\s+)",block)
     if not m:
         m=re.search(r"(?i)\s+\(A\)\s+",block)
-    return clean(block[:m.start()]) if m else clean(block)
+    stem = block[:m.start()] if m else block
+    # Preserve source line boundaries for equations and matrix layouts.
+    return preserve_lines(stem)
 def download(url,p):
     p.parent.mkdir(parents=True,exist_ok=True)
     # Official GSET archive has used both short and "sept" folder spellings
@@ -99,8 +105,8 @@ def pages(pdf,stem,mode="layout",expected=None):
                            if len(options(block))==4)
         except NameError:
             native_mcq=0
-    if mode == "layout" and native_mcq < int((expected or 100)*0.75):
-        print(f"[OCR TRIGGER] {pdf.name}: numbered={native_count}, four_option_mcq={native_mcq}/{expected or 100}")
+    if mode == "layout" and native_mcq < int((expected or 100)*0.95):
+        print(f"[OCR TRIGGER] {pdf.name}: native four-option MCQs={native_mcq}/{expected or 100}; enabling OCR because the archive is incomplete")
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
         images=sorted(prefix.parent.glob(prefix.name+"-*.jpg"))
@@ -122,7 +128,7 @@ def pages(pdf,stem,mode="layout",expected=None):
             # or question numbers at 300 DPI. Run a higher-resolution recovery pass
             # only when the first pass still leaves a substantial gap. These remain
             # OCR candidates, never auto-verified; every imported item keeps review_flag.
-            if first_mcq < int((expected or 100)*0.85):
+            if first_mcq < int((expected or 100)*0.90):
                 prefix_hi=stem.with_name(stem.name+"_ocr450page")
                 run(["pdftoppm","-jpeg","-r","450","-jpegopt","quality=95",str(pdf),str(prefix_hi)])
                 images_hi=sorted(prefix_hi.parent.glob(prefix_hi.name+"-*.jpg"))
@@ -133,11 +139,51 @@ def pages(pdf,stem,mode="layout",expected=None):
                             text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
                         if p.stdout.strip():
                             extra.append((i,p.stdout))
+                recovered = first_mcq
                 if extra:
                     ocr.extend(extra)
                     recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
                                   if len(options(block))==4)
                     print(f"[OCR 450 DPI RECOVERY] {pdf.name}: {len(images_hi)} pages x 5 modes; recoverable_mcq={recovered}/{expected or 100}")
+            # Targeted high-resolution recovery: re-render only pages where the OCR
+            # candidates failed to recover at least two numbered question starts.
+            # This is still source OCR; all resulting records remain review-flagged.
+            weak_pages = []
+            for page_no in range(1, len(images) + 1):
+                page_candidates = [text for n, text in ocr if n == page_no]
+                best_count = max(
+                    (len(starts(candidate, expected or 100)) for candidate in page_candidates),
+                    default=0,
+                )
+                if best_count < 2:
+                    weak_pages.append(page_no)
+            if weak_pages and recovered < (expected or 100):
+                print(f"[OCR TARGETED 600 DPI] {pdf.name}: retrying weak pages {weak_pages}")
+                prefix_600 = stem.with_name(stem.name + "_ocr600page")
+                run(["pdftoppm", "-jpeg", "-r", "600", "-jpegopt", "quality=95",
+                     "-f", str(min(weak_pages)), "-l", str(max(weak_pages)),
+                     str(pdf), str(prefix_600)])
+                extra_600 = []
+                for page_no in weak_pages:
+                    img = prefix_600.with_name(prefix_600.name + f"-{page_no:02d}.jpg")
+                    if not img.exists():
+                        img = prefix_600.with_name(prefix_600.name + f"-{page_no}.jpg")
+                    if not img.exists():
+                        continue
+                    for psm in ("6", "11"):
+                        p = subprocess.run(
+                            ["tesseract", str(img), "stdout", "--psm", psm],
+                            text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                        )
+                        if p.stdout.strip():
+                            extra_600.append((page_no, p.stdout))
+                if extra_600:
+                    ocr.extend(extra_600)
+                    recovered_600 = sum(
+                        1 for block in parse_blocks(ocr, expected or 100).values()
+                        if len(options(block)) == 4
+                    )
+                    print(f"[OCR TARGETED 600 DPI] {pdf.name}: added {len(extra_600)} candidates; recoverable_mcq={recovered_600}/{expected or 100}")
             return ocr
     return extracted
 def starts(t,expected):
@@ -156,12 +202,52 @@ def options(block):
             if [m.group(1).upper() for m in ms[i:i+4]]==list("ABCD"):
                 m=ms[i:i+4]; out=[]
                 for j,a in enumerate(m):
-                    out.append(clean(block[a.end():(m[j+1].start() if j<3 else len(block))]))
+                    out.append(preserve_lines(block[a.end():(m[j+1].start() if j<3 else len(block))]))
                 if all(out): return out
     return []
-def parse_blocks(pg,expected):
+
+def quality_score(record):
+    """Conservative OCR quality heuristic; it never sets verification flags."""
+    stem = str(record.get("question_en") or "").strip()
+    opts = record.get("options_en") if isinstance(record.get("options_en"), list) else []
+    combined = "\n".join([stem] + [str(o) for o in opts]).lower()
+    score = sum(bool(str(o).strip()) for o in opts) * 4
+    if len(opts) == 4:
+        score += 4
+    if len(stem) >= 20:
+        score += 2
+    if len(stem) < 600:
+        score += 1
+    if "\ufffd" not in combined:
+        score += 3
+    for marker in ("mathematical sciences-ii", "rough work", "omr answer sheet",
+                   "instructions for the candidates", "signature of the invigilator", "p.t.o."):
+        if marker in combined:
+            score -= 8
+    # Preserve mathematical symbols; only penalize obvious replacement/control characters.
+    score -= combined.count("\ufffd") * 12
+    score -= sum(1 for ch in combined if ord(ch) < 32 and ch not in "\n\t")
+    return score
+def looks_like_cover_or_instruction(block):
+    """Reject obvious booklet instructions misread as numbered MCQs by OCR."""
+    text = re.sub(r"\s+", " ", str(block or "")).strip().lower()
+    markers = (
+        "at the commencement of examination",
+        "instructions for the candidates",
+        "write your roll number in the space provided",
+        "this paper consists of one hundred questions",
+        "omr answer sheet",
+        "signature of the invigilator",
+        "tear off the paper seal",
+        "do not accept a booklet",
+        "rough work",
+    )
+    return any(marker in text for marker in markers)
+
+def parse_blocks(pg,expected,include_page=False):
     d={}
-    for _,t in pg:
+    page_for={}
+    for page_no,t in pg:
         st=starts(t,expected)
         # Keep only plausible question-number sequences. This avoids treating
         # years, marks and page numbers as question starts in legacy PDFs.
@@ -169,16 +255,14 @@ def parse_blocks(pg,expected):
             st=[x for x in st if x[2] <= expected]
         for i,(a,b,q) in enumerate(st):
             z=st[i+1][0] if i+1<len(st) else len(t)
-            # Preserve source line boundaries: flattening here made the option
-            # parser miss OCR choices and corrupted the question prompt.
             block=preserve_lines(t[b:z])
-            # Prefer a candidate that retains all four options before comparing
-            # text length; this matters when combining PSM 6/4/11 OCR results.
             score=(1 if len(options(block))==4 else 0,len(block))
             previous=d.get(q,"")
             previous_score=(1 if len(options(previous))==4 else 0,len(previous))
-            if len(block)>8 and (q not in d or score>previous_score): d[q]=block
-    return d
+            if len(block)>8 and (q not in d or score>previous_score):
+                d[q]=block
+                page_for[q]=page_no
+    return (d,page_for) if include_page else d
 def keymap(pdf,stem,expected):
     pg=pages(pdf,stem); text="\n".join(x for _,x in pg).upper()
     d={}
@@ -188,11 +272,18 @@ def keymap(pdf,stem,expected):
     return d
 def main():
     import argparse
-    ap=argparse.ArgumentParser(); ap.add_argument("--paper"); args=ap.parse_args()
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--paper", help="Import one exact paper_id, e.g. mathematical_sciences_nov25")
+    args=ap.parse_args()
+    known_papers={"mathematical_sciences_"+x[0] for x in SESSIONS}
+    if args.paper and args.paper not in known_papers:
+        ap.error(f"unknown paper_id {args.paper!r}; choose one of: "+", ".join(sorted(known_papers)))
     targets=[x for x in SESSIONS if not args.paper or "mathematical_sciences_"+x[0]==args.paper]
+    if args.paper and len(targets)!=1:
+        ap.error(f"expected exactly one session for {args.paper!r}, found {len(targets)}")
     OUT.parent.mkdir(parents=True,exist_ok=True); META.parent.mkdir(parents=True,exist_ok=True)
     existing=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
-    old={x["id"] for x in existing}
+    existing_by_id={str(x.get("id")):x for x in existing if x.get("id")}
     meta=json.loads(META.read_text(encoding="utf-8")) if META.exists() else {"schema_version":1,"subject_id":SUBJECT,"subject_code":"01","papers":[]}
     bymeta={x["paper_id"]:x for x in meta["papers"]}
     for sess,exam,stem,expected in targets:
@@ -203,7 +294,7 @@ def main():
         key_ok=download(f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",key)
         if not paper_ok or not key_ok:
             bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
-              "marks":200,
+              "marks":MARKS_OVERRIDE.get(sess,200),
               "question_paper_url":f"{BASE}/papers/paperII/{folder}/{stem}.pdf",
               "answer_key_url":f"{BASE}/anskey/paperII/{folder}/{stem}.pdf",
               "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
@@ -215,20 +306,22 @@ def main():
             continue
         pg_layout=pages(pdf,w/"paper","layout",expected=expected)
         pg_raw=pages(pdf,w/"paper","raw")
-        blocks_layout=parse_blocks(pg_layout,expected)
-        blocks_raw=parse_blocks(pg_raw,expected)
-        # Merge per-question across layout, raw, and OCR extraction. Selecting
-        # one whole document loses valid questions when different pages extract
-        # better under different modes. Prefer four-option blocks, then fuller text.
+        blocks_layout,pages_layout=parse_blocks(pg_layout,expected,include_page=True)
+        blocks_raw,pages_raw=parse_blocks(pg_raw,expected,include_page=True)
+        # Merge per-question across layout and raw extraction, retaining the
+        # physical source page number associated with the winning block.
         score=lambda block: (1 if len(options(block))==4 else 0, len(block))
         blocks={}
-        for candidate in (blocks_layout, blocks_raw):
+        source_pages={}
+        for candidate,page_map in ((blocks_layout,pages_layout),(blocks_raw,pages_raw)):
             for q,block in candidate.items():
                 if q not in blocks or score(block)>score(blocks[q]):
                     blocks[q]=block
+                    source_pages[q]=page_map.get(q)
         print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
         keys=keymap(key,w/"key",expected)
         loaded=0
+        updated=0
         for q in range(1,expected+1):
             b=blocks.get(q); opts=options(b or "")
             if not b or len(opts)!=4 or q not in keys:
@@ -237,27 +330,69 @@ def main():
             # are recoverable. Ambiguous/visual questions remain for review.
             first=question_stem(b)
             if len(first)<8: continue
+            # OCR can mistake cover instructions/OMR examples for MCQs because
+            # they contain A/B/C/D labels. Never import these as exam questions.
+            if looks_like_cover_or_instruction(b):
+                print(f"[REVIEW SKIP] {pid} Q{q}: source block resembles cover/instructions")
+                continue
             rid=f"{pid}_q{q}"
-            if rid in old: continue
-            existing.append({"id":rid,"paper_id":pid,"exam":exam,
+            paper_url=f"{BASE}/papers/paperII/{folder}/{stem}.pdf"
+            key_url=f"{BASE}/anskey/paperII/{folder}/{stem}.pdf"
+            page_no=source_pages.get(q)
+            candidate={"id":rid,"paper_id":pid,"exam":exam,
               "question_en":first,"question_gu":first,"options_en":opts,"options_gu":opts,
               "answer":keys[q],"topic":"Mathematical Sciences","difficulty":"Medium",
               "explanation_en":"Official GSET final answer key is authoritative.",
               "explanation_gu":"Official GSET final answer key is authoritative.",
-              "review_flag":True,"review_note":"Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+              "review_flag":True,"review_note":"Extracted from official PDF/final key. Verify wording, mathematical notation, all options and answer against the cited source page before clearing review_flag.",
               "tip_en":"Official final answer key is authoritative.","tip_gu":"Official final answer key authoritative છે.",
-              "source_verified":False})
-            old.add(rid); loaded+=1
+              "source_question_paper_url":paper_url,"source_answer_key_url":key_url,
+              "source_verified":False}
+            if page_no is not None:
+                candidate["source_page"]=page_no
+            previous=existing_by_id.get(rid)
+            if previous is None:
+                existing.append(candidate)
+                existing_by_id[rid]=candidate
+                loaded+=1
+            elif previous.get("source_verified") is True:
+                # A verified record is immutable to this OCR importer.
+                continue
+            else:
+                # Refresh only when the newly extracted official-source candidate
+                # scores better. Otherwise enrich provenance without altering content.
+                if quality_score(candidate) > quality_score(previous):
+                    # Replace only OCR-derived content/provenance fields. Keep
+                    # existing syllabus mappings, topic tags, image assets, and
+                    # any hand-authored explanation or metadata intact.
+                    for field in (
+                        "question_en", "question_gu", "options_en", "options_gu",
+                        "answer", "source_question_paper_url", "source_answer_key_url",
+                        "source_page", "review_flag", "review_note", "source_verified",
+                    ):
+                        if field in candidate:
+                            previous[field]=candidate[field]
+                    updated+=1
+                else:
+                    previous.setdefault("source_question_paper_url",paper_url)
+                    previous.setdefault("source_answer_key_url",key_url)
+                    if page_no is not None:
+                        previous.setdefault("source_page",page_no)
+                    previous["review_flag"]=True
+                    previous["source_verified"]=False
+                    if not previous.get("review_note"):
+                        previous["review_note"]="Pending direct comparison with official question-paper page and final answer key."
         bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
-          "marks":200,"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
+          "marks":MARKS_OVERRIDE.get(sess,200),"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
           "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
           "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
           "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
-          "answer_key_verified":len(keys)==expected,
+          # Official URLs and successful extraction do not amount to manual review.
+          "answer_key_verified":False,
           "source":"GSET official uploaded question paper + final answer key",
           "source_verified":False,"question_source_verified":False,
-          "status":"verified_complete_with_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
-        print(pid, "parsed",loaded,"new; total",bymeta[pid]["questions_loaded"],"/",expected)
+          "status":"complete_pending_source_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
+        print(pid, "parsed",loaded,"new,",updated,"unverified records improved; total",bymeta[pid]["questions_loaded"],"/",expected)
     meta["papers"]=[bymeta[f"{SUBJECT}_{s[0]}"] for s in SESSIONS if f"{SUBJECT}_{s[0]}" in bymeta]
     json.dump(existing,OUT.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
     json.dump(meta,META.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
