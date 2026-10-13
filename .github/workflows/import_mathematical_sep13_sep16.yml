@@ -15,6 +15,7 @@ permissions:
   contents: write
 
 concurrency:
+  # Avoid overlapping imports while OCR recovery is being tuned.
   group: mathematical-sciences-sep13-sep16-import
   cancel-in-progress: false
 
