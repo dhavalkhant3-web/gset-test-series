@@ -20,7 +20,7 @@ ARCHIVE_FOLDERS = {
 def archive_folder(session):
     return ARCHIVE_FOLDERS[session]
 SESSIONS=[
-("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",70),
+("jan02","January 2002","jan0201",50),("dec02","December 2002","dec0201",50),
 ("dec03","December 2003","dec0301",50),("jul04","July 2004","jy0401",50),
 ("jul06","July 2006","jy0601",50),("dec08","December 2008","dec0801",50),
 ("oct10","October 2010","oct1001",50),("oct11","October 2011","oct1101",50),
@@ -33,9 +33,9 @@ SESSIONS=[
 OUT=Path("assets/subjects/mathematical_sciences/questions.json")
 META=Path("assets/subjects/mathematical_sciences/papers.json")
 WORK=Path("build/mathematical_archive")
-# The official December 2002 paper contains 70 questions, but candidates attempt
-# any 50, yielding a 100-mark paper. Other sessions retain their existing metadata
-# until their cover pages have been individually source-checked.
+# The indexed official December 2002 cover specifies a 100-mark Paper II.
+# The 50-question target remains unchanged until the question count is verified
+# from the complete original booklet, not inferred from OCR.
 MARKS_OVERRIDE={"dec02":100}
 
 def run(c):
@@ -165,6 +165,29 @@ def options(block):
                     out.append(preserve_lines(block[a.end():(m[j+1].start() if j<3 else len(block))]))
                 if all(out): return out
     return []
+
+def quality_score(record):
+    """Conservative OCR quality heuristic; it never sets verification flags."""
+    stem = str(record.get("question_en") or "").strip()
+    opts = record.get("options_en") if isinstance(record.get("options_en"), list) else []
+    combined = "\n".join([stem] + [str(o) for o in opts]).lower()
+    score = sum(bool(str(o).strip()) for o in opts) * 4
+    if len(opts) == 4:
+        score += 4
+    if len(stem) >= 20:
+        score += 2
+    if len(stem) < 600:
+        score += 1
+    if "\ufffd" not in combined:
+        score += 3
+    for marker in ("mathematical sciences-ii", "rough work", "omr answer sheet",
+                   "instructions for the candidates", "signature of the invigilator", "p.t.o."):
+        if marker in combined:
+            score -= 8
+    # Preserve mathematical symbols; only penalize obvious replacement/control characters.
+    score -= combined.count("\ufffd") * 12
+    score -= sum(1 for ch in combined if ord(ch) < 32 and ch not in "\n\t")
+    return score
 def parse_blocks(pg,expected,include_page=False):
     d={}
     page_for={}
@@ -197,7 +220,7 @@ def main():
     targets=[x for x in SESSIONS if not args.paper or "mathematical_sciences_"+x[0]==args.paper]
     OUT.parent.mkdir(parents=True,exist_ok=True); META.parent.mkdir(parents=True,exist_ok=True)
     existing=json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
-    old={x["id"] for x in existing}
+    existing_by_id={str(x.get("id")):x for x in existing if x.get("id")}
     meta=json.loads(META.read_text(encoding="utf-8")) if META.exists() else {"schema_version":1,"subject_id":SUBJECT,"subject_code":"01","papers":[]}
     bymeta={x["paper_id"]:x for x in meta["papers"]}
     for sess,exam,stem,expected in targets:
@@ -235,6 +258,7 @@ def main():
         print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
         keys=keymap(key,w/"key",expected)
         loaded=0
+        updated=0
         for q in range(1,expected+1):
             b=blocks.get(q); opts=options(b or "")
             if not b or len(opts)!=4 or q not in keys:
@@ -244,11 +268,10 @@ def main():
             first=question_stem(b)
             if len(first)<8: continue
             rid=f"{pid}_q{q}"
-            if rid in old: continue
             paper_url=f"{BASE}/papers/paperII/{folder}/{stem}.pdf"
             key_url=f"{BASE}/anskey/paperII/{folder}/{stem}.pdf"
             page_no=source_pages.get(q)
-            existing.append({"id":rid,"paper_id":pid,"exam":exam,
+            candidate={"id":rid,"paper_id":pid,"exam":exam,
               "question_en":first,"question_gu":first,"options_en":opts,"options_gu":opts,
               "answer":keys[q],"topic":"Mathematical Sciences","difficulty":"Medium",
               "explanation_en":"Official GSET final answer key is authoritative.",
@@ -256,8 +279,32 @@ def main():
               "review_flag":True,"review_note":"Extracted from official PDF/final key. Verify wording, mathematical notation, all options and answer against the cited source page before clearing review_flag.",
               "tip_en":"Official final answer key is authoritative.","tip_gu":"Official final answer key authoritative છે.",
               "source_question_paper_url":paper_url,"source_answer_key_url":key_url,
-              "source_page":page_no,"source_verified":False})
-            old.add(rid); loaded+=1
+              "source_verified":False}
+            if page_no is not None:
+                candidate["source_page"]=page_no
+            previous=existing_by_id.get(rid)
+            if previous is None:
+                existing.append(candidate)
+                existing_by_id[rid]=candidate
+                loaded+=1
+            elif previous.get("source_verified") is True:
+                # A verified record is immutable to this OCR importer.
+                continue
+            else:
+                # Refresh only when the newly extracted official-source candidate
+                # scores better. Otherwise enrich provenance without altering content.
+                if quality_score(candidate) > quality_score(previous):
+                    previous.update(candidate)
+                    updated+=1
+                else:
+                    previous.setdefault("source_question_paper_url",paper_url)
+                    previous.setdefault("source_answer_key_url",key_url)
+                    if page_no is not None:
+                        previous.setdefault("source_page",page_no)
+                    previous["review_flag"]=True
+                    previous["source_verified"]=False
+                    if not previous.get("review_note"):
+                        previous["review_note"]="Pending direct comparison with official question-paper page and final answer key."
         bymeta[pid]={"paper_id":pid,"exam":exam,"subject_code":"01","question_count":expected,
           "marks":MARKS_OVERRIDE.get(sess,200),"question_paper_url":f"{BASE}/papers/paperII/{archive_folder(sess)}/{stem}.pdf",
           "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
@@ -268,7 +315,7 @@ def main():
           "source":"GSET official uploaded question paper + final answer key",
           "source_verified":False,"question_source_verified":False,
           "status":"complete_pending_source_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
-        print(pid, "parsed",loaded,"new; total",bymeta[pid]["questions_loaded"],"/",expected)
+        print(pid, "parsed",loaded,"new,",updated,"unverified records improved; total",bymeta[pid]["questions_loaded"],"/",expected)
     meta["papers"]=[bymeta[f"{SUBJECT}_{s[0]}"] for s in SESSIONS if f"{SUBJECT}_{s[0]}" in bymeta]
     json.dump(existing,OUT.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
     json.dump(meta,META.open("w",encoding="utf-8"),ensure_ascii=False,indent=2)
