@@ -13,6 +13,21 @@ on:
         required: false
         default: 'physical_jan02'
         type: string
+      refresh_mathematical_archive:
+        description: 'Import one Mathematical Sciences paper from official GSET PDFs/final key'
+        required: false
+        default: false
+        type: boolean
+      mathematical_archive_paper:
+        description: 'One Mathematical Sciences paper ID (e.g. mathematical_sciences_nov25)'
+        required: false
+        default: 'mathematical_sciences_nov25'
+        type: string
+      require_complete_mathematical_archive_paper:
+        description: 'Fail the manual refresh unless all declared question numbers are present'
+        required: false
+        default: false
+        type: boolean
   push:
     branches:
       - main
@@ -246,6 +261,19 @@ jobs:
           print("Physical Sciences archive metadata is consistent")
           PY
 
+      - name: Generate official Mathematical Sciences archive bank
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_mathematical_archive == true }}
+        env:
+          MATHEMATICAL_ARCHIVE_PAPER: ${{ inputs.mathematical_archive_paper }}
+          REQUIRE_COMPLETE_MATHEMATICAL_ARCHIVE_PAPER: ${{ inputs.require_complete_mathematical_archive_paper }}
+        run: |
+          set -euo pipefail
+          python3 tool/import_mathematical_archive.py --paper "$MATHEMATICAL_ARCHIVE_PAPER"
+          python3 tool/audit_mathematical_archive.py --paper "$MATHEMATICAL_ARCHIVE_PAPER"
+          if [[ "$REQUIRE_COMPLETE_MATHEMATICAL_ARCHIVE_PAPER" == "true" ]]; then
+            python3 tool/audit_mathematical_archive.py --paper "$MATHEMATICAL_ARCHIVE_PAPER" --require-complete
+          fi
+
       - name: Validate question bank integrity
         run: python3 tool/validate_questions.py
 
@@ -312,6 +340,21 @@ jobs:
             exit 0
           fi
           git commit -m "[skip ci] Persist official Physical Sciences archive import"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Persist official Mathematical Sciences archive updates
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_mathematical_archive == true && success() }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "No Mathematical Sciences archive changes to persist."
+            exit 0
+          fi
+          git commit -m "[skip ci] Persist official Mathematical Sciences archive import"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Upload optimized release APKs
