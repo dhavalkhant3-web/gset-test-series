@@ -1,5 +1,6 @@
 name: Build Universal Debug APK (No Split)
 
+# Rebuild from the latest main branch whenever this workflow is updated.
 on:
   workflow_dispatch:
   push:
