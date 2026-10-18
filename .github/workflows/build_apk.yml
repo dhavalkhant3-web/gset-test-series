@@ -42,28 +42,9 @@ jobs:
       - name: Flutter version
         run: flutter --version
 
-      - name: Configure release signing
-        env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
-          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-          ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [[ -z "${ANDROID_KEYSTORE_BASE64}" || -z "${ANDROID_KEY_ALIAS}" || -z "${ANDROID_KEY_PASSWORD}" || -z "${ANDROID_STORE_PASSWORD}" ]]; then
-            echo "::error::Release signing secrets are missing. Add ANDROID_KEYSTORE_BASE64, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD, ANDROID_STORE_PASSWORD in GitHub repository Settings > Secrets and variables > Actions. Refusing to publish unsigned/invalid release APKs."
-            exit 1
-          fi
-          echo "${ANDROID_KEYSTORE_BASE64}" | base64 --decode > android/app/release-keystore.jks
-          cat > android/key.properties <<EOF
-          storePassword=${ANDROID_STORE_PASSWORD}
-          keyPassword=${ANDROID_KEY_PASSWORD}
-          keyAlias=${ANDROID_KEY_ALIAS}
-          storeFile=release-keystore.jks
-          EOF
-          test -s android/app/release-keystore.jks
-          echo "Release signing configuration prepared."
+      # This workflow intentionally builds a Debug APK during development.
+      # Release signing is deferred until the user is ready to configure the
+      # existing release keystore and GitHub Actions secrets.
 
       - name: Get dependencies
         run: flutter pub get
@@ -255,53 +236,8 @@ jobs:
       - name: Analyze project
         run: flutter analyze
 
-      - name: Build universal release APK (single APK for all supported ABIs)
-        run: flutter build apk --release
-
-      - name: Build optimized release APKs per ABI
-        run: flutter build apk --release --split-per-abi
-
-      - name: Build Android App Bundle for Play Store
-        run: flutter build appbundle --release
-
-      - name: Show release APK sizes and signing fingerprints
-        shell: bash
-        run: |
-          set -euo pipefail
-          shopt -s nullglob
-          APKS=(build/app/outputs/flutter-apk/*-release.apk)
-          if [ "${#APKS[@]}" -eq 0 ]; then
-            echo "::error::No release APKs were produced"
-            exit 1
-          fi
-
-          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-$HOME/Android/Sdk}}"
-          APKSIGNER=""
-          if [ -d "$SDK_ROOT/build-tools" ]; then
-            APKSIGNER=$(find "$SDK_ROOT/build-tools" -type f -name apksigner | sort -V | tail -n 1 || true)
-          fi
-
-          for APK in "${APKS[@]}"; do
-            echo "APK: $APK"
-            du -h "$APK"
-            if [ -z "$APKSIGNER" ]; then
-              echo "::error::Android apksigner tool not found; refusing to publish unverified APK."
-              exit 1
-            fi
-            "$APKSIGNER" verify --verbose --print-certs "$APK"
-            echo "APK signature verification passed."
-            if command -v aapt >/dev/null 2>&1; then
-              aapt dump badging "$APK" | grep -q "^package:"
-            fi
-          done
-
-          AAB="build/app/outputs/bundle/release/app-release.aab"
-          if [ ! -s "$AAB" ]; then
-            echo "::error::Release App Bundle is missing or empty"
-            exit 1
-          fi
-          echo "AAB size:"
-          du -h "$AAB"
+      - name: Build universal Debug APK
+        run: flutter build apk --debug
 
       - name: Persist official Physical Sciences archive updates
         if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && success() }}
@@ -317,26 +253,11 @@ jobs:
           git commit -m "[skip ci] Persist official Physical Sciences archive import"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
-      - name: Upload universal release APK
+      - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: gset-test-series-universal-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: gset-test-series-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
           if-no-files-found: error
 
-      - name: Upload optimized split release APKs
-        uses: actions/upload-artifact@v4
-        with:
-          name: gset-test-series-release-apks
-          path: build/app/outputs/flutter-apk/app-*-release.apk
-          if-no-files-found: error
-
-      - name: Upload Play Store App Bundle
-        uses: actions/upload-artifact@v4
-        with:
-          name: gset-test-series-release-aab
-          path: build/app/outputs/bundle/release/app-release.aab
-          if-no-files-found: error
-
-# Release builds are split per ABI to reduce the APK size users install.
-# The AAB is provided for Play Store delivery; debug builds are not distributed as release artifacts.
+# Release signing, split release APKs, and Play Store AAB are intentionally deferred.
