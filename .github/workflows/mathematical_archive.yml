@@ -90,10 +90,8 @@ jobs:
           papers={x.get("paper_id"):x for x in meta.get("papers",[]) if x.get("paper_id")}
           artifacts=Path("build/math-artifacts")
           for folder in sorted(artifacts.glob("math-session-*")):
-              # download-artifact preserves each artifact relative path tree.
-              # Files are nested under assets/subjects/mathematical_sciences/.
-              qp=folder/"assets"/"subjects"/"mathematical_sciences"/"questions.json"
-              mp=folder/"assets"/"subjects"/"mathematical_sciences"/"papers.json"
+              qp=folder/"questions.json"
+              mp=folder/"papers.json"
               if qp.exists():
                   for item in json.loads(qp.read_text(encoding="utf-8")):
                       if item.get("id"): byid[item["id"]]=item
