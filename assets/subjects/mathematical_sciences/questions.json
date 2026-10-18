@@ -17717,5 +17717,305 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q4",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "Let f(z) be the rational function shown in the official question paper and let C be |z| = 3. Then the contour integral ∮C f(z) dz = 0, because:",
+    "question_gu": "Let f(z) be the rational function shown in the official question paper and let C be |z| = 3. Then the contour integral ∮C f(z) dz = 0, because:",
+    "options_en": [
+      "The residue is 0 at its only pole within C.",
+      "The sum of the residues at its two poles within C is 0.",
+      "f(z) is analytic on and within C.",
+      "|f(z)| < M/|z|² for some constant M."
+    ],
+    "options_gu": [
+      "The residue is 0 at its only pole within C.",
+      "The sum of the residues at its two poles within C is 0.",
+      "f(z) is analytic on and within C.",
+      "|f(z)| < M/|z|² for some constant M."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Question's rational-function exponents are difficult to read in the scan; verify against original page 3 before clearing review flag.",
+    "source_verified": false,
+    "visual_only": true
+  },
+  {
+    "id": "mathematical_sciences_dec02_q9",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "The linear equations 2x + 3y + 4z = 0, 5x − y + 2z = 0, and 9x + 5y + kz = 0 have:",
+    "question_gu": "The linear equations 2x + 3y + 4z = 0, 5x − y + 2z = 0, and 9x + 5y + kz = 0 have:",
+    "options_en": [
+      "No solution for any value of k.",
+      "A unique solution for k = 10.",
+      "At least one solution for every value of k.",
+      "Infinitely many solutions if k ≠ 10."
+    ],
+    "options_gu": [
+      "No solution for any value of k.",
+      "A unique solution for k = 10.",
+      "At least one solution for every value of k.",
+      "Infinitely many solutions if k ≠ 10."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; notation review pending.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q12",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "A family has 4 children. Each child is a boy with probability 1/2, independently. Let α be the probability that no two consecutive children are of the same sex, and β the probability that the first 3 children are girls. Then:",
+    "question_gu": "A family has 4 children. Each child is a boy with probability 1/2, independently. Let α be the probability that no two consecutive children are of the same sex, and β the probability that the first 3 children are girls. Then:",
+    "options_en": [
+      "α > β",
+      "α < β",
+      "α = β",
+      "Nothing can be said about α and β."
+    ],
+    "options_gu": [
+      "α > β",
+      "α < β",
+      "α = β",
+      "Nothing can be said about α and β."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; notation review pending.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q28",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "If x + 1/x = 2 cos θ and x − 1/x = 2i sin θ, then xⁿ + 1/xⁿ is equal to:",
+    "question_gu": "If x + 1/x = 2 cos θ and x − 1/x = 2i sin θ, then xⁿ + 1/xⁿ is equal to:",
+    "options_en": [
+      "2ⁿ cos θ",
+      "2(cos θ)ⁿ",
+      "2 cos nθ",
+      "(2 cos θ)ⁿ"
+    ],
+    "options_gu": [
+      "2ⁿ cos θ",
+      "2(cos θ)ⁿ",
+      "2 cos nθ",
+      "(2 cos θ)ⁿ"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; mathematical notation review pending.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q31",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "Which of the following statements are correct? (1) Every ideal of the ring Z of all integers is principal. (2) Every principal ideal of Z is a prime ideal. (3) Every prime ideal of Z is a maximal ideal.",
+    "question_gu": "Which of the following statements are correct? (1) Every ideal of the ring Z of all integers is principal. (2) Every principal ideal of Z is a prime ideal. (3) Every prime ideal of Z is a maximal ideal.",
+    "options_en": [
+      "Only (1) and (2)",
+      "Only (2) and (3)",
+      "Only (3) and (1)",
+      "All of these."
+    ],
+    "options_gu": [
+      "Only (1) and (2)",
+      "Only (2) and (3)",
+      "Only (3) and (1)",
+      "All of these."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; option/key should be manually reviewed.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q33",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "G is a group and H₁ and H₂ are subgroups of orders 24 and 60. What is the maximum possible order of the subgroup H₁ ∩ H₂?",
+    "question_gu": "G is a group and H₁ and H₂ are subgroups of orders 24 and 60. What is the maximum possible order of the subgroup H₁ ∩ H₂?",
+    "options_en": [
+      "1",
+      "3",
+      "12",
+      "24"
+    ],
+    "options_gu": [
+      "1",
+      "3",
+      "12",
+      "24"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; notation review pending.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q37",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "The matrix associated with the linear transformation F: R² → R² given by F(x,y) = (4x + y, −x + 2y):",
+    "question_gu": "The matrix associated with the linear transformation F: R² → R² given by F(x,y) = (4x + y, −x + 2y):",
+    "options_en": [
+      "Is skew-symmetric.",
+      "Has an eigenvalue whose algebraic multiplicity equals its geometric multiplicity.",
+      "Has an eigenvalue whose algebraic multiplicity is not equal to its geometric multiplicity.",
+      "Is diagonalizable."
+    ],
+    "options_gu": [
+      "Is skew-symmetric.",
+      "Has an eigenvalue whose algebraic multiplicity equals its geometric multiplicity.",
+      "Has an eigenvalue whose algebraic multiplicity is not equal to its geometric multiplicity.",
+      "Is diagonalizable."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; mathematical notation review pending.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q43",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "The general solution of the differential equation is of the form F(u,v)=0, where u(x,y,z)=C₁ and v(x,y,z)=C₂ are given by:",
+    "question_gu": "The general solution of the differential equation is of the form F(u,v)=0, where u(x,y,z)=C₁ and v(x,y,z)=C₂ are given by:",
+    "options_en": [
+      "u = −x²/2 + 1/(2y²), v = x + 1/(2z²)",
+      "u = x² + 1/(2y²), v = x + 1/(2z²)",
+      "u = −x²/2 + 1/y², v = x − 1/(2z²)",
+      "u = x² − 1/(2y²), v = x − 1/(2z²)"
+    ],
+    "options_gu": [
+      "u = −x²/2 + 1/(2y²), v = x + 1/(2z²)",
+      "u = x² + 1/(2y²), v = x + 1/(2z²)",
+      "u = −x²/2 + 1/y², v = x − 1/(2z²)",
+      "u = x² − 1/(2y²), v = x − 1/(2z²)"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Differential equation and some formula terms are faint in the scan; verify the original page before clearing review flag.",
+    "source_verified": false,
+    "visual_only": true
+  },
+  {
+    "id": "mathematical_sciences_dec02_q44",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "The complete integral of the displayed first-order partial differential equation is given by:",
+    "question_gu": "The complete integral of the displayed first-order partial differential equation is given by:",
+    "options_en": [
+      "z²/(2(1+a)) = x + y/a + b",
+      "z²(1+a) = 2x + y/a + 2b",
+      "z²(1+a) = ax + 2y + 2b",
+      "z²/(1+a) = 2x + y/a + b"
+    ],
+    "options_gu": [
+      "z²/(2(1+a)) = x + y/a + b",
+      "z²(1+a) = 2x + y/a + 2b",
+      "z²(1+a) = ax + 2y + 2b",
+      "z²/(1+a) = 2x + y/a + b"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "The PDE at the start of the question is faint in the scan; verify against original page before clearing review flag.",
+    "source_verified": false,
+    "visual_only": true
+  },
+  {
+    "id": "mathematical_sciences_dec02_q47",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "Let P(E)=0.25 and P(F)=0.80. Which statements must be true? I: P(E ∩ F) ≤ 0.25; II: P(E ∩ F) ≥ 0.20; III: P(E ∩ F) ≥ 0.05.",
+    "question_gu": "Let P(E)=0.25 and P(F)=0.80. Which statements must be true? I: P(E ∩ F) ≤ 0.25; II: P(E ∩ F) ≥ 0.20; III: P(E ∩ F) ≥ 0.05.",
+    "options_en": [
+      "I only",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+    ],
+    "options_gu": [
+      "I only",
+      "I and II only",
+      "I and III only",
+      "II and III only"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; answer is taken from the supplied official key.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_dec02_q48",
+    "paper_id": "mathematical_sciences_dec02",
+    "exam": "December 2002",
+    "question_en": "X is a random variable with E(X)=3 and E(X²)=13. The lower bound for P(−2 < X < 8) using Chebyshev’s inequality is:",
+    "question_gu": "X is a random variable with E(X)=3 and E(X²)=13. The lower bound for P(−2 < X < 8) using Chebyshev’s inequality is:",
+    "options_en": [
+      "0.05",
+      "0.40",
+      "0.95",
+      "0.84"
+    ],
+    "options_gu": [
+      "0.05",
+      "0.40",
+      "0.95",
+      "0.84"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative; verify source transcription before use.",
+    "explanation_gu": "સત્તાવાર GSET અંતિમ જવાબ કી માન્ય છે; ઉપયોગ પહેલાં મૂળ પ્રશ્નપત્ર સાથે લખાણ ચકાસવું.",
+    "review_flag": true,
+    "review_note": "Transcribed from official scanned question paper; mathematical notation review pending.",
+    "source_verified": false
   }
 ]
