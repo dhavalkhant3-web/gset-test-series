@@ -61,11 +61,12 @@
       "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/jy04/jy0401.pdf",
       "questions_loaded": 10,
       "questions_count": 10,
-      "answer_key_verified": false,
-      "source": "GSET official uploaded question paper + final answer key",
+      "answer_key_verified": true,
+      "source": "User-uploaded official GSET question paper and final answer key",
       "source_verified": false,
       "question_source_verified": false,
-      "status": "partial_pending_source"
+      "status": "partial_pending_source",
+      "answer_key_source_verified": true
     },
     {
       "paper_id": "mathematical_sciences_jul06",
