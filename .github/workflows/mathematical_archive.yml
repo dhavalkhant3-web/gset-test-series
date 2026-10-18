@@ -89,16 +89,22 @@ jobs:
           meta=json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {"schema_version":1,"subject_id":"mathematical_sciences","subject_code":"01","papers":[]}
           papers={x.get("paper_id"):x for x in meta.get("papers",[]) if x.get("paper_id")}
           artifacts=Path("build/math-artifacts")
-          for folder in sorted(artifacts.glob("math-session-*")):
-              qp=folder/"questions.json"
-              mp=folder/"papers.json"
-              if qp.exists():
-                  for item in json.loads(qp.read_text(encoding="utf-8")):
-                      if item.get("id"): byid[item["id"]]=item
-              if mp.exists():
-                  data=json.loads(mp.read_text(encoding="utf-8"))
-                  for item in data.get("papers",[]):
-                      if item.get("paper_id"): papers[item["paper_id"]]=item
+          # upload-artifact may strip the common root (assets/subjects/mathematical_sciences)
+          # or retain part of it depending on the uploaded path set. Discover files recursively.
+          question_files=sorted(artifacts.rglob("questions.json"))
+          metadata_files=sorted(artifacts.rglob("papers.json"))
+          print(f"Downloaded artifact files: {len(question_files)} questions.json, {len(metadata_files)} papers.json")
+          for qp in question_files:
+              folder=qp.parent
+              data=json.loads(qp.read_text(encoding="utf-8"))
+              print(f"Reading {qp}: {len(data)} question records")
+              for item in data:
+                  if item.get("id"): byid[item["id"]]=item
+          for mp in metadata_files:
+              data=json.loads(mp.read_text(encoding="utf-8"))
+              print(f"Reading {mp}: {len(data.get('papers', []))} session metadata records")
+              for item in data.get("papers",[]):
+                  if item.get("paper_id"): papers[item["paper_id"]]=item
           qpath.write_text(json.dumps(list(byid.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           order=["jan02","dec02","dec03","jul04","jul06","dec08","oct10","oct11","sep13","oct14","sep16","aug17","sep18","dec19","dec21","nov22","nov23","dec24","nov25"]
           meta["papers"]=[papers[f"mathematical_sciences_{s}"] for s in order if f"mathematical_sciences_{s}" in papers]
