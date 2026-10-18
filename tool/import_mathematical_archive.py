@@ -8,7 +8,7 @@ import json,re,subprocess
 from pathlib import Path
 
 SUBJECT="mathematical_sciences"
-BASE="https://gujaratset.ac.in/assets"
+BASE="https://www.gujaratset.ac.in/assets"
 
 ARCHIVE_FOLDERS = {
     "jan02":"jan02","dec02":"dec02","dec03":"dec03","jul04":"jy04",
@@ -60,8 +60,16 @@ def download(url,p):
     # Official GSET archive has used both short and "sept" folder spellings
     # for September sessions. Try known official URL variants, never guessed content.
     candidates=[url]
+    # Official site links may redirect differently on www and bare domains.
+    # Try both hosts while keeping the exact official path/filename.
+    if "://www.gujaratset.ac.in/" in url:
+        candidates.append(url.replace("://www.gujaratset.ac.in/", "://gujaratset.ac.in/"))
+    elif "://gujaratset.ac.in/" in url:
+        candidates.append(url.replace("://gujaratset.ac.in/", "://www.gujaratset.ac.in/"))
     if "/sep16/" in url: candidates.append(url.replace("/sep16/","/sept16/"))
     if "/sept16/" in url: candidates.append(url.replace("/sept16/","/sep16/"))
+    if "/sep13/" in url: candidates.append(url.replace("/sep13/","/sept13/"))
+    if "/sept13/" in url: candidates.append(url.replace("/sept13/","/sep13/"))
     if "/sep18/" in url: candidates.append(url.replace("/sep18/","/sept18/"))
     if "/sept18/" in url: candidates.append(url.replace("/sept18/","/sep18/"))
     if "/sept18/sep1801.pdf" in url: candidates.append(url.replace("/sep1801.pdf","/sept1801.pdf"))
