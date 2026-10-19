@@ -107,7 +107,7 @@ def pages(pdf,stem,mode="layout",expected=None):
                            if len(options(block))==4)
         except NameError:
             native_mcq=0
-    if mode == "layout" and native_mcq < int((expected or 100)*0.75):
+    if mode == "layout" and native_mcq < int((expected or 100)*0.85):
         print(f"[OCR TRIGGER] {pdf.name}: numbered={native_count}, four_option_mcq={native_mcq}/{expected or 100}")
         prefix=stem.with_name(stem.name+"_ocrpage")
         run(["pdftoppm","-jpeg","-r","300","-jpegopt","quality=90",str(pdf),str(prefix)])
