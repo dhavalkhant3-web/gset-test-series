@@ -187,13 +187,33 @@ def parse_blocks(pg,expected):
             previous_score=(1 if len(options(previous))==4 else 0,len(previous))
             if len(block)>8 and (q not in d or score>previous_score): d[q]=block
     return d
-def keymap(pdf,stem,expected):
+def keymap(pdf,stem,expected,session=None):
+    # Prefer a manually transcribed official key when its provenance is explicitly
+    # recorded and verified. OCR remains the fallback for other official key PDFs.
+    key_dir=Path("assets/subjects/mathematical_sciences/answer_keys")
+    if session:
+        json_key=key_dir/f"{session}_paper2.json"
+        if json_key.exists():
+            try:
+                record=json.loads(json_key.read_text(encoding="utf-8"))
+                answers=record.get("answers",{})
+                valid=(record.get("source_verified") is True
+                       and len(answers)==expected
+                       and set(answers.keys())=={str(i) for i in range(1,expected+1)}
+                       and all(v in {"A","B","C","D","Z"} for v in answers.values()))
+                if valid:
+                    print(f"[OFFICIAL KEY JSON] {session}: {len(answers)}/{expected} answers from verified key transcription")
+                    return {int(q):a for q,a in answers.items()}
+                print(f"[KEY JSON REJECTED] {json_key}: incomplete or unverified; falling back to official PDF OCR")
+            except (OSError,ValueError,TypeError) as exc:
+                print(f"[KEY JSON ERROR] {json_key}: {exc}; falling back to official PDF OCR")
     pg=pages(pdf,stem); text="\n".join(x for _,x in pg).upper()
     d={}
-    for m in re.finditer(r"(?<!\d)(\d{1,3})\s*[\.)\-:]?\s*([ABCDZ])\b",text):
+    for m in re.finditer(r"(?<!\d)(\d{1,3})\s*[.)\-:]?\s*([ABCDZ])\b",text):
         q=int(m.group(1))
         if 1<=q<=expected:d.setdefault(q,m.group(2))
     return d
+
 def main():
     import argparse
     ap=argparse.ArgumentParser(); ap.add_argument("--paper"); args=ap.parse_args()
@@ -235,7 +255,7 @@ def main():
                 if q not in blocks or score(block)>score(blocks[q]):
                     blocks[q]=block
         print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
-        keys=keymap(key,w/"key",expected)
+        keys=keymap(key,w/"key",expected,session=sess)
         loaded=0
         for q in range(1,expected+1):
             b=blocks.get(q); opts=options(b or "")
