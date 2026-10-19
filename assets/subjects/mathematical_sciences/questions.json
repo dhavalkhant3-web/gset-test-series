@@ -31995,5 +31995,208 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_sep16_q1",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "Which of the following statements is false?",
+    "question_gu": "Which of the following statements is false?",
+    "options_en": [
+      "There are countably many pairwise disjoint countable subsets of ℝ",
+      "ℚ − {q ∈ ℚ | 0 < q < 1} is countable",
+      "The set of all sequences of zeros and ones is countable",
+      "There exist countably many pairwise disjoint uncountable subsets of ℝ"
+    ],
+    "options_gu": [
+      "There are countably many pairwise disjoint countable subsets of ℝ",
+      "ℚ − {q ∈ ℚ | 0 < q < 1} is countable",
+      "The set of all sequences of zeros and ones is countable",
+      "There exist countably many pairwise disjoint uncountable subsets of ℝ"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "The set of all infinite binary sequences is uncountable, by Cantor’s diagonal argument.",
+    "explanation_gu": "The set of all infinite binary sequences is uncountable, by Cantor’s diagonal argument.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q6",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "Which of the following is an eigen vector for the matrix [[1, 0, 1], [0, 2, 0], [0, 0, 3]]?",
+    "question_gu": "Which of the following is an eigen vector for the matrix [[1, 0, 1], [0, 2, 0], [0, 0, 3]]?",
+    "options_en": [
+      "[1, 1, 1]ᵀ",
+      "[1, 0, 0]ᵀ",
+      "[0, 0, 1]ᵀ",
+      "[0, 1, 1]ᵀ"
+    ],
+    "options_gu": [
+      "[1, 1, 1]ᵀ",
+      "[1, 0, 0]ᵀ",
+      "[0, 0, 1]ᵀ",
+      "[0, 1, 1]ᵀ"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Multiplying the matrix by [1, 0, 0]ᵀ gives [1, 0, 0]ᵀ, so it is an eigenvector with eigenvalue 1.",
+    "explanation_gu": "Multiplying the matrix by [1, 0, 0]ᵀ gives [1, 0, 0]ᵀ, so it is an eigenvector with eigenvalue 1.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q21",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "If f(z) = (2 − eᶻ − e⁻ᶻ)ᵏ / z⁷ has a simple pole at the origin, then the value of k is:",
+    "question_gu": "If f(z) = (2 − eᶻ − e⁻ᶻ)ᵏ / z⁷ has a simple pole at the origin, then the value of k is:",
+    "options_en": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "options_gu": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Near z = 0, 2 − eᶻ − e⁻ᶻ has a zero of order 2. Thus the numerator has a zero of order 2k, and the pole order is 7 − 2k. Setting 7 − 2k = 1 gives k = 3.",
+    "explanation_gu": "Near z = 0, 2 − eᶻ − e⁻ᶻ has a zero of order 2. Thus the numerator has a zero of order 2k, and the pole order is 7 − 2k. Setting 7 − 2k = 1 gives k = 3.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q22",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "If C[0, 1] is the space of all continuous functions with metric d(f, g) = supₓ∈[0,1] |f(x) − g(x)|, then d(x, x²) is equal to:",
+    "question_gu": "If C[0, 1] is the space of all continuous functions with metric d(f, g) = supₓ∈[0,1] |f(x) − g(x)|, then d(x, x²) is equal to:",
+    "options_en": [
+      "1/4",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "options_gu": [
+      "1/4",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "The distance is supₓ∈[0,1] |x − x²|. Its maximum is attained at x = 1/2 and equals 1/4.",
+    "explanation_gu": "The distance is supₓ∈[0,1] |x − x²|. Its maximum is attained at x = 1/2 and equals 1/4.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q31",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "Consider a random variable X with the probability distribution P(X = 1) = 1/8 = P(X = −1) and P(X = 0) = 3/8 = P(X = 2). What is the value of E[X/(X + 4)]?",
+    "question_gu": "Consider a random variable X with the probability distribution P(X = 1) = 1/8 = P(X = −1) and P(X = 0) = 3/8 = P(X = 2). What is the value of E[X/(X + 4)]?",
+    "options_en": [
+      "23/120",
+      "3/4",
+      "13/120",
+      "1/4"
+    ],
+    "options_gu": [
+      "23/120",
+      "3/4",
+      "13/120",
+      "1/4"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "E[X/(X + 4)] = (1/8)(1/5) + (1/8)(−1/3) + (3/8)(0) + (3/8)(2/6) = 13/120.",
+    "explanation_gu": "E[X/(X + 4)] = (1/8)(1/5) + (1/8)(−1/3) + (3/8)(0) + (3/8)(2/6) = 13/120.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q46",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "Let X₁, X₂, …, X₃₀ be a random sample of size n = 30 from N₅(μ, Σ). If B = [[1, 0, 1, 0, 1], [1, 0, 0, 1, 1]], then the distribution of BSB′, where S is the variance-covariance matrix of the sample observations, is:",
+    "question_gu": "Let X₁, X₂, …, X₃₀ be a random sample of size n = 30 from N₅(μ, Σ). If B = [[1, 0, 1, 0, 1], [1, 0, 0, 1, 1]], then the distribution of BSB′, where S is the variance-covariance matrix of the sample observations, is:",
+    "options_en": [
+      "W₂(BΣB′, 29)",
+      "W₅(BΣB′, 30)",
+      "W₃₀(BΣB′, 29)",
+      "W₃₀(BΣB′, 30)"
+    ],
+    "options_gu": [
+      "W₂(BΣB′, 29)",
+      "W₅(BΣB′, 30)",
+      "W₃₀(BΣB′, 29)",
+      "W₃₀(BΣB′, 30)"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "BSB′ is 2 × 2 and the sample covariance degrees of freedom are n − 1 = 29.",
+    "explanation_gu": "BSB′ is 2 × 2 and the sample covariance degrees of freedom are n − 1 = 29.",
+    "review_flag": true,
+    "review_note": "Original PDF uses Wishart notation with matrix-scale terms; verify exact notation/rendering before release.",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
+  },
+  {
+    "id": "mathematical_sciences_sep16_q48",
+    "paper_id": "mathematical_sciences_sep16",
+    "exam": "September 2016",
+    "question_en": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days and 800 days for companies A and B, respectively. What is the probability that the bulb from company B fails first?",
+    "question_gu": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days and 800 days for companies A and B, respectively. What is the probability that the bulb from company B fails first?",
+    "options_en": [
+      "4/9",
+      "5/9",
+      "25/81",
+      "25/41"
+    ],
+    "options_gu": [
+      "4/9",
+      "5/9",
+      "25/81",
+      "25/41"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "For independent exponential lifetimes, P(B fails first) = (1/800)/((1/1000)+(1/800)) = 5/9.",
+    "explanation_gu": "For independent exponential lifetimes, P(B fails first) = (1/800)/((1/1000)+(1/800)) = 5/9.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Refer to the original GSET question and official final answer key.",
+    "tip_gu": "Refer to the original GSET question and official final answer key.",
+    "source_verified": true
   }
 ]
