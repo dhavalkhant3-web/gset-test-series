@@ -28602,5 +28602,672 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q10",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "In the vector space C[0, 1] :",
+    "question_gu": "In the vector space C[0, 1] :",
+    "options_en": [
+      "(x3, sin x} is linearly independent but {x3, sin x, cos x} is linearly dependent",
+      "{x3, cosx} is linearly independent but {cos x, sinx} is not linearly independent |",
+      "{x3 sin x, cos x} is linearly independent but (x2, sin x, cos x} is linearly | dependent |",
+      "x, sin x} is linearly independent"
+    ],
+    "options_gu": [
+      "(x3, sin x} is linearly independent but {x3, sin x, cos x} is linearly dependent",
+      "{x3, cosx} is linearly independent but {cos x, sinx} is not linearly independent |",
+      "{x3 sin x, cos x} is linearly independent but (x2, sin x, cos x} is linearly | dependent |",
+      "x, sin x} is linearly independent"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q11",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The system of equations | x-3y+z=-1 2x+y-z=2 4x-5y+2z=0 has :",
+    "question_gu": "The system of equations | x-3y+z=-1 2x+y-z=2 4x-5y+2z=0 has :",
+    "options_en": [
+      "exactly one solution",
+      "at least 3 but a finite number of solutions",
+      "an infinite number of solutions",
+      "no solution Math. Sci-II 6"
+    ],
+    "options_gu": [
+      "exactly one solution",
+      "at least 3 but a finite number of solutions",
+      "an infinite number of solutions",
+      "no solution Math. Sci-II 6"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q14",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Let V be a finite dimensional vector space, and S be a subset of V that spans | V, L be a linearly independent subset of L. Then :",
+    "question_gu": "Let V be a finite dimensional vector space, and S be a subset of V that spans | V, L be a linearly independent subset of L. Then :",
+    "options_en": [
+      "|S| = dim V; |L| 2 dim V",
+      "|S| < dim V; |L| <dim V",
+      "|S| < dim V; |L| 2 dim V",
+      "|S| =dim V; |L| < dim V"
+    ],
+    "options_gu": [
+      "|S| = dim V; |L| 2 dim V",
+      "|S| < dim V; |L| <dim V",
+      "|S| < dim V; |L| 2 dim V",
+      "|S| =dim V; |L| < dim V"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q15",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The function log (cos mz) has :",
+    "question_gu": "The function log (cos mz) has :",
+    "options_en": [
+      "a simple pole at 5",
+      "a removable singularity at :",
+      "an essential singularity at ,",
+      "a branch point at : Math. Sci-II 7 [P.T.O.]"
+    ],
+    "options_gu": [
+      "a simple pole at 5",
+      "a removable singularity at :",
+      "an essential singularity at ,",
+      "a branch point at : Math. Sci-II 7 [P.T.O.]"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q16",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The function sinz maps :",
+    "question_gu": "The function sinz maps :",
+    "options_en": [
+      "horizontal lines other than x-axis to parabolas",
+      "horizontal lines other than x-axis to ellipses",
+      "vertical lines other than y-axis to ellipses",
+      "vertical lines other than y-axis to parabolas u. u"
+    ],
+    "options_gu": [
+      "horizontal lines other than x-axis to parabolas",
+      "horizontal lines other than x-axis to ellipses",
+      "vertical lines other than y-axis to ellipses",
+      "vertical lines other than y-axis to parabolas u. u"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q18",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "If the function f(z) = — has a simple pole at the origin, then the value of & is :",
+    "question_gu": "If the function f(z) = — has a simple pole at the origin, then the value of & is :",
+    "options_en": [
+      "1",
+      "2",
+      "3",
+      "4 sinz"
+    ],
+    "options_gu": [
+      "1",
+      "2",
+      "3",
+      "4 sinz"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q19",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The residue of Pa at z = i equals :",
+    "question_gu": "The residue of Pa at z = i equals :",
+    "options_en": [
+      "; cos 1",
+      "7 cosh1",
+      "nS sinhl",
+      "_i sinh1"
+    ],
+    "options_gu": [
+      "; cos 1",
+      "7 cosh1",
+      "nS sinhl",
+      "_i sinh1"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q20",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Which of the following natural numbers cannot be written as a sum of two squares ?",
+    "question_gu": "Which of the following natural numbers cannot be written as a sum of two squares ?",
+    "options_en": [
+      "101",
+      "141",
+      "265",
+      "113 Math. Sci-II 8"
+    ],
+    "options_gu": [
+      "101",
+      "141",
+      "265",
+      "113 Math. Sci-II 8"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q25",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The last two digits of 19? are :",
+    "question_gu": "The last two digits of 19? are :",
+    "options_en": [
+      "61",
+      "41",
+      "81",
+      "21 Math. Sci-II 9 [P.T.O.]"
+    ],
+    "options_gu": [
+      "61",
+      "41",
+      "81",
+      "21 Math. Sci-II 9 [P.T.O.]"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q27",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The characteristic curves in (x, t) plane for xu, +tu,=0 are :",
+    "question_gu": "The characteristic curves in (x, t) plane for xu, +tu,=0 are :",
+    "options_en": [
+      "rays starting from the origin",
+      "circles in the (x, t) plane with centre at the origin",
+      "family of lines parallel to x-axis",
+      "family of lines parallel to ¢t-axis"
+    ],
+    "options_gu": [
+      "rays starting from the origin",
+      "circles in the (x, t) plane with centre at the origin",
+      "family of lines parallel to x-axis",
+      "family of lines parallel to ¢t-axis"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q28",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Which of the following is true ?",
+    "question_gu": "Which of the following is true ?",
+    "options_en": [
+      "The wave equation and the Laplace’s equation are hyperbolic",
+      "The wave equation and the Laplace’s equation are elliptic",
+      "The Laplace’s equation is elliptic and the wave equation is hyperbolic",
+      "The Laplace’s equation is hyperbolic but the wave equation is elliptic"
+    ],
+    "options_gu": [
+      "The wave equation and the Laplace’s equation are hyperbolic",
+      "The wave equation and the Laplace’s equation are elliptic",
+      "The Laplace’s equation is elliptic and the wave equation is hyperbolic",
+      "The Laplace’s equation is hyperbolic but the wave equation is elliptic"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q29",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "For a forced harmonic oscillator x + w2x = F(t)» (o #0), with periodic forcing function F(t), it is known that all solutions are periodic with same period as F(t). Then which of the following is a possible candidate for F(t) ?",
+    "question_gu": "For a forced harmonic oscillator x + w2x = F(t)» (o #0), with periodic forcing function F(t), it is known that all solutions are periodic with same period as F(t). Then which of the following is a possible candidate for F(t) ?",
+    "options_en": [
+      "F(t) = cos wt",
+      "Ft) =1",
+      "F(t) = cos 2m",
+      "F(¢) = sin wt Math. Sci-IT 10"
+    ],
+    "options_gu": [
+      "F(t) = cos wt",
+      "Ft) =1",
+      "F(t) = cos 2m",
+      "F(¢) = sin wt Math. Sci-IT 10"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q30",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Given a (3 x 3) matrix A with real entries such that whenever u(x) is a harmonic function of (x,, %2, 3), the function v(x) = u(A x) is also harmonic. Then, A can be :",
+    "question_gu": "Given a (3 x 3) matrix A with real entries such that whenever u(x) is a harmonic function of (x,, %2, 3), the function v(x) = u(A x) is also harmonic. Then, A can be :",
+    "options_en": [
+      "Any (3x 3) non-singular matrix",
+      "Any (3 x 3) symmetric matrix",
+      "Any (3 x 3) orthogonal matrix",
+      "Any (33) matrix with determinant 1"
+    ],
+    "options_gu": [
+      "Any (3x 3) non-singular matrix",
+      "Any (3 x 3) symmetric matrix",
+      "Any (3 x 3) orthogonal matrix",
+      "Any (33) matrix with determinant 1"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q32",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Let * be a position vector of a point moving under the action of a force F. If F is parallel to the negative z-axis and L = un x rs then :",
+    "question_gu": "Let * be a position vector of a point moving under the action of a force F. If F is parallel to the negative z-axis and L = un x rs then :",
+    "options_en": [
+      "the z-component of L is constant",
+      "ILI is constant",
+      "all the components of L are constants",
+      "none of the components of L remain constant Math. Sci-IT 11 [P.T.O.] SS ST | | | es) ns"
+    ],
+    "options_gu": [
+      "the z-component of L is constant",
+      "ILI is constant",
+      "all the components of L are constants",
+      "none of the components of L remain constant Math. Sci-IT 11 [P.T.O.] SS ST | | | es) ns"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q35",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The integral of function Ax) = 2|x| + |x — 2| over the interval [-1, 1] is computed using trapezoidal rule with partion points of step size (0.2). The difference between the computed value and actual value is :",
+    "question_gu": "The integral of function Ax) = 2|x| + |x — 2| over the interval [-1, 1] is computed using trapezoidal rule with partion points of step size (0.2). The difference between the computed value and actual value is :",
+    "options_en": [
+      "0.2",
+      "-04",
+      "0O",
+      "-0.2 Math. Sci-II 12"
+    ],
+    "options_gu": [
+      "0.2",
+      "-04",
+      "0O",
+      "-0.2 Math. Sci-II 12"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q36",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "The ODE yy\" +y =x cos x is solved by the method of undetermined coefficients. The form of the particular integral is",
+    "question_gu": "The ODE yy\" +y =x cos x is solved by the method of undetermined coefficients. The form of the particular integral is",
+    "options_en": [
+      "A cos x + B sin x",
+      "Ax cos x + Bx sinx",
+      "A x2 cos x + Bx” sin x",
+      "A x* cos x + B x? sin x + C xcosx + D xsinx"
+    ],
+    "options_gu": [
+      "A cos x + B sin x",
+      "Ax cos x + Bx sinx",
+      "A x2 cos x + Bx” sin x",
+      "A x* cos x + B x? sin x + C xcosx + D xsinx"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q39",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "In single-facrtor AN OVA, MSTr is the mean square for treatments, and MSE is the mean square for error. Which of the following statements are not true ?",
+    "question_gu": "In single-facrtor AN OVA, MSTr is the mean square for treatments, and MSE is the mean square for error. Which of the following statements are not true ?",
+    "options_en": [
+      "MSE is a measure of between samples variation |",
+      "MSE is a measure of within samples variation",
+      "MSTr is a measure of between samples variation",
+      "The value of MSTr is affected by the status of (true or false)"
+    ],
+    "options_gu": [
+      "MSE is a measure of between samples variation |",
+      "MSE is a measure of within samples variation",
+      "MSTr is a measure of between samples variation",
+      "The value of MSTr is affected by the status of (true or false)"
+    ],
+    "answer": "A",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q42",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "A travel agent has a list of 400 regular customers. Of these, 80 have been to Delhi and 100 to Mumbai. There are 20 who have been to both Delhi and Mumbai, The probability that are person selected at random from the list has not been either to Delhi or to Mumbai is :",
+    "question_gu": "A travel agent has a list of 400 regular customers. Of these, 80 have been to Delhi and 100 to Mumbai. There are 20 who have been to both Delhi and Mumbai, The probability that are person selected at random from the list has not been either to Delhi or to Mumbai is :",
+    "options_en": [
+      "0.45",
+      "0.50",
+      "0.60",
+      "0.55 Math. Sci-II 14"
+    ],
+    "options_gu": [
+      "0.45",
+      "0.50",
+      "0.60",
+      "0.55 Math. Sci-II 14"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q43",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Let x and y be independent N (0, 1) random variables. What will be the eteeee (x+ yy” (x -y)? distribution of ?",
+    "question_gu": "Let x and y be independent N (0, 1) random variables. What will be the eteeee (x+ yy” (x -y)? distribution of ?",
+    "options_en": [
+      "Cauchy",
+      "t-distribution",
+      "F-distribution",
+      "Normal distribution m and the mean of"
+    ],
+    "options_gu": [
+      "Cauchy",
+      "t-distribution",
+      "F-distribution",
+      "Normal distribution m and the mean of"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q44",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "If X has discrete uniform distribution on 0, 1, 2, ....... m and the mean of the distribution is 10. Then the value of m is :",
+    "question_gu": "If X has discrete uniform distribution on 0, 1, 2, ....... m and the mean of the distribution is 10. Then the value of m is :",
+    "options_en": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "options_gu": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q46",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Let Y,, Yo, Y3 and Y4 be independent standard exponential variables. The Y, + Y3 distribution of ¥,+Yy is same as that of aX where :",
+    "question_gu": "Let Y,, Yo, Y3 and Y4 be independent standard exponential variables. The Y, + Y3 distribution of ¥,+Yy is same as that of aX where :",
+    "options_en": [
+      "a= 6 and X ~ Bz (2, 2)",
+      "a= 1 and X ~ Po (2, 2)",
+      "a= 6 and X ~ F (2, 2)",
+      "a =6 and X ~ F (4, 4) Math. Sci-II 15 [P.T.O.]"
+    ],
+    "options_gu": [
+      "a= 6 and X ~ Bz (2, 2)",
+      "a= 1 and X ~ Po (2, 2)",
+      "a= 6 and X ~ F (2, 2)",
+      "a =6 and X ~ F (4, 4) Math. Sci-II 15 [P.T.O.]"
+    ],
+    "answer": "B",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q48",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Let X and Y be two independent discrete random variables with E(X) = p and E(Y) = 4. Let the distribution of X given X + Y = 5 is binomial with parameters 5 and %. Then :",
+    "question_gu": "Let X and Y be two independent discrete random variables with E(X) = p and E(Y) = 4. Let the distribution of X given X + Y = 5 is binomial with parameters 5 and %. Then :",
+    "options_en": [
+      "Xand Y have binomial distribution with parameters (2, %) and (3, 4)",
+      "X has binomial distribution b (2, %) and Y has Poisson distribution with A = 3",
+      "X and Y have Poisson distribution with A = p",
+      "X and Y have Poisson distribution with A = 2p"
+    ],
+    "options_gu": [
+      "Xand Y have binomial distribution with parameters (2, %) and (3, 4)",
+      "X has binomial distribution b (2, %) and Y has Poisson distribution with A = 3",
+      "X and Y have Poisson distribution with A = p",
+      "X and Y have Poisson distribution with A = 2p"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_oct11_q49",
+    "paper_id": "mathematical_sciences_oct11",
+    "exam": "October 2011",
+    "question_en": "Consider the following statements in respect of the two types of errors (a, f) of a test procedure : (z) It is not possible to minimize a and B simultaneously, since one generally increase with the decrease of the other (i) In the classical tests, greater protection is given to o Which of the above statements is/are correct ?",
+    "question_gu": "Consider the following statements in respect of the two types of errors (a, f) of a test procedure : (z) It is not possible to minimize a and B simultaneously, since one generally increase with the decrease of the other (i) In the classical tests, greater protection is given to o Which of the above statements is/are correct ?",
+    "options_en": [
+      "(i) only",
+      "(it) only",
+      "Both (i) and (ii)",
+      "Neither (i) nor (ii) Math. Sci-II 16"
+    ],
+    "options_gu": [
+      "(i) only",
+      "(it) only",
+      "Both (i) and (ii)",
+      "Neither (i) nor (ii) Math. Sci-II 16"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
   }
 ]
