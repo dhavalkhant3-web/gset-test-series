@@ -148,6 +148,10 @@ jobs:
             echo "No Mathematical archive changes."
           else
             git commit -m "[skip ci] Persist official Mathematical Sciences archive"
+            # Another archive/key commit may land while the 19 sessions are importing.
+            # Rebase the generated bank on the newest main before pushing.
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
       - name: Upload combined Mathematical archive
