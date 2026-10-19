@@ -27444,6 +27444,35 @@
     "source_verified": false
   },
   {
+    "id": "mathematical_sciences_sep13_q24",
+    "paper_id": "mathematical_sciences_sep13",
+    "exam": "September 2013",
+    "question_en": "Which of the following curves is characteristic for the first order PDE y(∂u/∂x) − x(∂u/∂y) = 0?",
+    "question_gu": "Which of the following curves is characteristic for the first order PDE y(∂u/∂x) − x(∂u/∂y) = 0?",
+    "options_en": [
+      "x² − y² = 1",
+      "x² + y² = 1",
+      "y² = x²",
+      "xy = 1"
+    ],
+    "options_gu": [
+      "x² − y² = 1",
+      "x² + y² = 1",
+      "y² = x²",
+      "xy = 1"
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "The official corrected GSET Paper-II answer key marks option C; preserve the official key as authoritative.",
+    "explanation_gu": "GSETની સત્તાવાર સુધારેલી Paper-II answer keyમાં વિકલ્પ C છે; સત્તાવાર કી જ અધિકૃત ગણાય છે.",
+    "review_flag": true,
+    "review_note": "Question and options transcribed from uploaded official paper, printed page 13. Official key says C; verify the apparent mathematical/key inconsistency before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "સત્તાવાર અંતિમ answer key અધિકૃત છે.",
+    "source_verified": false
+  },
+  {
     "id": "mathematical_sciences_sep13_q25",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
