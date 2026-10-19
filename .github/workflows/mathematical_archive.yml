@@ -102,9 +102,15 @@ jobs:
                   if item.get("id"): byid[item["id"]]=item
           for mp in metadata_files:
               data=json.loads(mp.read_text(encoding="utf-8"))
-              print(f"Reading {mp}: {len(data.get('papers', []))} session metadata records")
-              for item in data.get("papers",[]):
-                  if item.get("paper_id"): papers[item["paper_id"]]=item
+              # Each session artifact contains a snapshot of all 19 metadata records.
+              # Only merge the session represented by this artifact; otherwise a later
+              # stale snapshot can overwrite the freshly imported session status.
+              session=mp.parent.name.removeprefix("math-session-")
+              expected_id=f"mathematical_sciences_{session}"
+              matched=[item for item in data.get("papers",[]) if item.get("paper_id")==expected_id]
+              print(f"Reading {mp}: session={session}, matching metadata={len(matched)}")
+              for item in matched:
+                  papers[item["paper_id"]]=item
           qpath.write_text(json.dumps(list(byid.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           order=["jan02","dec02","dec03","jul04","jul06","dec08","oct10","oct11","sep13","oct14","sep16","aug17","sep18","dec19","dec21","nov22","nov23","dec24","nov25"]
           meta["papers"]=[papers[f"mathematical_sciences_{s}"] for s in order if f"mathematical_sciences_{s}" in papers]
