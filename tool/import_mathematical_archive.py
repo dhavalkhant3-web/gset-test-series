@@ -146,6 +146,27 @@ def pages(pdf,stem,mode="layout",expected=None):
                     recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
                                   if len(options(block))==4)
                     print(f"[OCR 450 DPI RECOVERY] {pdf.name}: {len(images_hi)} pages x 5 modes; recoverable_mcq={recovered}/{expected or 100}")
+            # Final targeted recovery pass for the few remaining question blocks.
+            # 600 DPI is slower, so only run it when 450 DPI still cannot recover
+            # at least 90% of expected four-option MCQs. OCR remains unverified.
+            recovered_now=sum(1 for block in parse_blocks(ocr, expected or 100).values()
+                              if len(options(block))==4)
+            if recovered_now < int((expected or 100)*0.90):
+                prefix_600=stem.with_name(stem.name+"_ocr600page")
+                run(["pdftoppm","-jpeg","-r","600","-jpegopt","quality=97",str(pdf),str(prefix_600)])
+                images_600=sorted(prefix_600.parent.glob(prefix_600.name+"-*.jpg"))
+                extra_600=[]
+                for i,img in enumerate(images_600,1):
+                    for psm in ("3","6","11","12","13"):
+                        p=subprocess.run(["tesseract",str(img),"stdout","--psm",psm],
+                            text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                        if p.stdout.strip():
+                            extra_600.append((i,p.stdout))
+                if extra_600:
+                    ocr.extend(extra_600)
+                    recovered_600=sum(1 for block in parse_blocks(ocr, expected or 100).values()
+                                       if len(options(block))==4)
+                    print(f"[OCR 600 DPI TARGETED] {pdf.name}: {len(images_600)} pages x 5 modes; recoverable_mcq={recovered_600}/{expected or 100}")
             # Keep native extraction alongside OCR candidates; OCR should supplement,
             # not replace, selectable source text that may preserve symbols more accurately.
             return extracted + ocr
