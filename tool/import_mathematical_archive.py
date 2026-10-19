@@ -146,7 +146,9 @@ def pages(pdf,stem,mode="layout",expected=None):
                     recovered=sum(1 for block in parse_blocks(ocr, expected or 100).values()
                                   if len(options(block))==4)
                     print(f"[OCR 450 DPI RECOVERY] {pdf.name}: {len(images_hi)} pages x 5 modes; recoverable_mcq={recovered}/{expected or 100}")
-            return ocr
+            # Keep native extraction alongside OCR candidates; OCR should supplement,
+            # not replace, selectable source text that may preserve symbols more accurately.
+            return extracted + ocr
     return extracted
 def starts(t,expected):
     # Anchor question numbers to line starts to avoid matching years, values
