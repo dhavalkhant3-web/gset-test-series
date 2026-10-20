@@ -36,7 +36,7 @@ class MathAwareText extends StatelessWidget {
       final tex = (match.group(1) ?? match.group(2) ?? match.group(3) ?? '').trim();
       spans.add(WidgetSpan(
         alignment: PlaceholderAlignment.middle,
-        child: Math.tex(tex, textStyle: style, onErrorFallback: (err) => Text(tex, style: style)),
+        child: Math.tex(tex, mathStyle: match.group(2) != null ? MathStyle.display : MathStyle.text, textStyle: style, onErrorFallback: (err) => Text(tex, style: style)),
       ));
       cursor = match.end;
     }
