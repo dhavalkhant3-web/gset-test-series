@@ -18,32 +18,74 @@ Future<void> main() async {
   runApp(const GsetApp());
 }
 
-/// Renders TeX-delimited mathematics inline while leaving ordinary text unchanged.
-/// Supported delimiters: \( ... \), $...$, and \[ ... \].
+/// A literal segment or explicitly delimited TeX segment within mixed prose.
+class MathTextPart {
+  final String text;
+  final bool isMath;
+  final bool display;
+  const MathTextPart({required this.text, required this.isMath, this.display = false});
+}
+
+/// Renders explicitly TeX-delimited mathematics and preserves other text verbatim.
+///
+/// Delimiters are intentionally explicit: \\( ... \\), \\[ ... \\], and
+/// paired dollar signs. Raw OCR and unmarked text are never auto-converted.
 class MathAwareText extends StatelessWidget {
   final String text;
   final TextStyle? style;
   final TextAlign textAlign;
   const MathAwareText({super.key, required this.text, this.style, this.textAlign = TextAlign.start});
 
+  /// Tokenize into prose and explicit math segments, retaining all plain text.
+  /// This helper is public so delimiter behavior can be regression-tested.
+  static List<MathTextPart> tokenize(String source) {
+    final pattern = RegExp(r'\\\((.+?)\\\)|\\\[(.+?)\\\]|\$(.+?)\$', dotAll: true);
+    final parts = <MathTextPart>[];
+    var cursor = 0;
+    for (final match in pattern.allMatches(source)) {
+      if (match.start > cursor) {
+        parts.add(MathTextPart(
+          text: source.substring(cursor, match.start),
+          isMath: false,
+        ));
+      }
+      final display = match.group(2) != null;
+      final tex = (match.group(1) ?? match.group(2) ?? match.group(3) ?? '').trim();
+      parts.add(MathTextPart(text: tex, isMath: true, display: display));
+      cursor = match.end;
+    }
+    if (cursor < source.length) {
+      parts.add(MathTextPart(text: source.substring(cursor), isMath: false));
+    }
+    if (parts.isEmpty) {
+      parts.add(MathTextPart(text: source, isMath: false));
+    }
+    return parts;
+  }
+
   @override
   Widget build(BuildContext context) {
     final resolvedStyle = DefaultTextStyle.of(context).style.merge(style);
-    final pattern = RegExp(r'\\\((.+?)\\\)|\\\[(.+?)\\\]|\$(.+?)\$', dotAll: true);
     final spans = <InlineSpan>[];
-    var cursor = 0;
-    for (final match in pattern.allMatches(text)) {
-      if (match.start > cursor) spans.add(TextSpan(text: text.substring(cursor, match.start)));
-      final tex = (match.group(1) ?? match.group(2) ?? match.group(3) ?? '').trim();
+    for (final part in tokenize(text)) {
+      if (!part.isMath) {
+        spans.add(TextSpan(text: part.text));
+        continue;
+      }
       spans.add(WidgetSpan(
         alignment: PlaceholderAlignment.middle,
-        child: Math.tex(tex, mathStyle: match.group(2) != null ? MathStyle.display : MathStyle.text, textStyle: resolvedStyle, onErrorFallback: (err) => Text(tex, style: resolvedStyle)),
+        child: Math.tex(
+          part.text,
+          mathStyle: part.display ? MathStyle.display : MathStyle.text,
+          textStyle: resolvedStyle,
+          onErrorFallback: (err) => Text(part.text, style: resolvedStyle),
+        ),
       ));
-      cursor = match.end;
     }
-    if (cursor < text.length) spans.add(TextSpan(text: text.substring(cursor)));
-    if (spans.isEmpty) spans.add(TextSpan(text: text));
-    return RichText(textAlign: textAlign, text: TextSpan(style: resolvedStyle, children: spans));
+    return RichText(
+      textAlign: textAlign,
+      text: TextSpan(style: resolvedStyle, children: spans),
+    );
   }
 }
 
