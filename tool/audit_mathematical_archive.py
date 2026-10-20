@@ -98,7 +98,7 @@ def main():
             for item in questions:
                 if str(item.get("paper_id") or item.get("paperId") or "") != pid:
                     continue
-                match = re.search(r"_q(\\d+)$", str(item.get("id") or ""), re.I)
+                match = re.search(r"_q(\d+)$", str(item.get("id") or ""), re.I)
                 if not match:
                     continue
                 number = match.group(1)
