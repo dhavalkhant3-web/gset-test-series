@@ -72,11 +72,21 @@ def main():
     if bad_answers: errors.append(f"invalid answer labels: {len(bad_answers)}")
 
     papers_missing_metadata = []
-    incomplete, unverified_key, falsely_verified = [], [], []
+    incomplete, unverified_key, falsely_verified, missing_verified_keys = [], [], [], []
+    missing_question_numbers = {}
     for session, expected in EXPECTED.items():
         pid = "mathematical_sciences_" + session
         found = counts.get(pid, 0)
         if pid not in metadata: papers_missing_metadata.append(pid)
+        session_records = [q for q in questions if str(q.get("paper_id") or q.get("paperId") or "") == pid]
+        found_numbers = set()
+        for item in session_records:
+            question_match = re.search(r"_q(\d+)$", str(item.get("id") or ""), re.I)
+            if question_match:
+                found_numbers.add(int(question_match.group(1)))
+        absent_numbers = sorted(set(range(1, expected + 1)) - found_numbers)
+        if absent_numbers:
+            missing_question_numbers[session] = absent_numbers
         if found != expected: incomplete.append(f"{session}={found}/{expected}")
         p = metadata.get(pid, {})
         key_path = BASE / "answer_keys" / (session + "_paper2.json")
@@ -91,6 +101,8 @@ def main():
             and set(answers) == {str(n) for n in range(1, expected + 1)}
             and all(a in {"A", "B", "C", "D", "Z"} for a in answers.values())
         )
+        if not has_verified_key:
+            missing_verified_keys.append(session)
         if p.get("answer_key_verified") is True and not has_verified_key:
             unverified_key.append(session)
         if has_verified_key:
@@ -121,6 +133,7 @@ def main():
     if missing_key_provenance: errors.append("records matched to verified official keys but missing answer-key provenance: " + ", ".join(missing_key_provenance[:20]))
     warnings.append(f"session counts incomplete: {len(incomplete)}/19 ({'; '.join(incomplete)})")
     warnings.append(f"answer-key metadata unsupported by a complete verified key JSON: {len(unverified_key)} ({', '.join(unverified_key) or 'none'})")
+    warnings.append(f"sessions with no complete source-verified key JSON: {len(missing_verified_keys)} ({', '.join(missing_verified_keys) or 'none'})")
     warnings.append(f"generic/empty explanations: {len(generic)} question records")
     warnings.append(f"OCR/footer contamination patterns: {len(suspicious)} question records")
     warnings.append(f"review_flag true: {question_flags['review_flag_true']}/{len(questions)}")
@@ -132,6 +145,8 @@ def main():
     if bad_answers: print("ANSWER ERRORS (first 20): " + ", ".join(bad_answers[:20]))
     if suspicious: print("OCR SUSPECTS (first 20): " + ", ".join(suspicious[:20]))
     if generic: print("GENERIC EXPLANATIONS (first 20): " + ", ".join(generic[:20]))
+    for session, absent in missing_question_numbers.items():
+        print(f"MISSING QUESTION NUMBERS {session} ({len(absent)}): " + ", ".join(str(n) for n in absent))
     if errors:
         for error in errors: print("ERROR: " + error)
         return 1
