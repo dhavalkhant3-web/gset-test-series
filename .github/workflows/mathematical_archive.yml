@@ -138,6 +138,8 @@ jobs:
           for pid,n in expected.items(): print(f"{pid}: {counts.get(pid,0)}/{n}")
           print("Incomplete sessions remain pending official-source recovery; no questions or answers are fabricated.")
           PY
+      - name: Audit Mathematical Sciences archive and official answer-key alignment
+        run: python3 tool/audit_mathematical_archive.py
       - name: Persist Mathematical archive
         if: ${{ success() }}
         run: |
