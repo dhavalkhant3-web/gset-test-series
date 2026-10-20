@@ -3,7 +3,7 @@ name: Mathematical Sciences Archive
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, fix/math-audit-gates-and-renderer]
     paths:
       - '.github/workflows/mathematical_archive.yml'
       - 'tool/import_mathematical_archive.py'
