@@ -27406,16 +27406,16 @@
     "id": "mathematical_sciences_sep13_q22",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Let A be the set of all polynomials with rational numbers as coefficients and B be the set of all transcendental numbers. Then which of the following is true ?",
-    "question_gu": "Let A be the set of all polynomials with rational numbers as coefficients and B be the set of all transcendental numbers. Then which of the following is true ?",
+    "question_en": "Let \\(A\\) be the set of all polynomials with rational coefficients and \\(B\\) the set of all transcendental numbers. Which statement is true?",
+    "question_gu": "Let \\(A\\) be the set of all polynomials with rational coefficients and \\(B\\) the set of all transcendental numbers. Which statement is true?",
     "options_en": [
-      "<A is uncountable and B is countable",
+      "A is uncountable and B is countable",
       "A is countable and B is uncountable",
       "A is countable and B is countable",
       "A is uncountable and B is uncountable"
     ],
     "options_gu": [
-      "<A is uncountable and B is countable",
+      "A is uncountable and B is countable",
       "A is countable and B is uncountable",
       "A is countable and B is countable",
       "A is uncountable and B is uncountable"
@@ -27423,42 +27423,44 @@
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "Every polynomial has finite degree and finitely many rational coefficients. A countable union of countable sets is countable, so A is countable. The algebraic numbers are countable, while the real numbers are uncountable; therefore the transcendental numbers, the complement of the algebraic numbers in the reals, are uncountable. Option (B).",
+    "explanation_gu": "દરેક polynomialની degree finite છે અને તેમાં rational coefficientsની finite યાદી હોય છે. Countable many finite-degree polynomial setsનો union countable છે, તેથી A countable છે. Algebraic numbers countable છે, જ્યારે real numbers uncountable છે; તેથી transcendental numbers uncountable છે. વિકલ્પ (B).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "The set of polynomials over a countable field is countable; the set of real transcendental numbers is uncountable.",
+    "tip_gu": "Countable field પરના polynomialsનો સમૂહ countable છે; real transcendental numbersનો સમૂહ uncountable છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q23",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "An example of a kernel function K(x, t) which is symmetric and separable is",
-    "question_gu": "An example of a kernel function K(x, t) which is symmetric and separable is",
+    "question_en": "An example of a kernel function \\(K(x,t)\\) that is symmetric and separable is:",
+    "question_gu": "An example of a kernel function \\(K(x,t)\\) that is symmetric and separable is:",
     "options_en": [
-      "et",
-      "tan (x + #)",
-      "sin (x? + 27)",
-      "cos (xt) Which of the following curves is characteristic for the first order PDE du ou yo -x4=0 9 ax ay (A)} (B) x+y? =1 x? - y= 1 (C) yan? ‘(D) xy =1"
+      "\\(e^{xt}\\)",
+      "\\(\\tan(x+t)\\)",
+      "\\(\\sin(x^2+t^2)\\)",
+      "\\(\\cos(xt)\\)"
     ],
     "options_gu": [
-      "et",
-      "tan (x + #)",
-      "sin (x? + 27)",
-      "cos (xt) Which of the following curves is characteristic for the first order PDE du ou yo -x4=0 9 ax ay (A)} (B) x+y? =1 x? - y= 1 (C) yan? ‘(D) xy =1"
+      "\\(e^{xt}\\)",
+      "\\(\\tan(x+t)\\)",
+      "\\(\\sin(x^2+t^2)\\)",
+      "\\(\\cos(xt)\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "A symmetric kernel satisfies K(x,t)=K(t,x), and a separable kernel can be expressed as a finite sum of products of a function of x and a function of t. Using the identity \\(\\sin(x^2+t^2)=\\sin x^2\\cos t^2+\\cos x^2\\sin t^2\\), option (C) is symmetric and separable.",
+    "explanation_gu": "Symmetric kernel માટે (K(x,t)=K(t,x)) અને separable kernel માટે x અને tના functionsના finite productsનો sum લખી શકાય. Identity (\\sin(x^2+t^2)=\\sin x^2\\cos t^2+\\cos x^2\\sin t^2)થી વિકલ્પ (C) symmetric અને separable છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use angle-addition identities to test whether a two-variable kernel can be separated into a finite sum of products.",
+    "tip_gu": "Two-variable kernelને finite sum of productsમાં લખી શકાય છે કે નહીં તે માટે angle-addition identities વાપરો.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q24",
@@ -27493,204 +27495,211 @@
     "id": "mathematical_sciences_sep13_q25",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Let f(x)=x+ x? x >0. Then which of the following is true ?",
-    "question_gu": "Let f(x)=x+ x? x >0. Then which of the following is true ?",
+    "question_en": "Let \\(f(x)=x+\\frac1x\\), \\(x>0\\). Which of the following is true?",
+    "question_gu": "Let \\(f(x)=x+\\frac1x\\), \\(x>0\\). Which of the following is true?",
     "options_en": [
-      "f is an unbounded function; which is not continuous at some points",
-      "fis a bounded function and 0 < f(x) <2 for all x > 0",
-      "f is a bounded function and 2< f(x)<- for all x > 0",
-      "f is an unbounded function, which is continuous everywhere"
+      "f is unbounded and is not continuous at some points",
+      "f is bounded and \\(0\\le f(x)\\le2\\) for all x>0",
+      "f is bounded and \\(2\\le f(x)<\\infty\\) for all x>0",
+      "f is unbounded but continuous everywhere on its domain"
     ],
     "options_gu": [
-      "f is an unbounded function; which is not continuous at some points",
-      "fis a bounded function and 0 < f(x) <2 for all x > 0",
-      "f is a bounded function and 2< f(x)<- for all x > 0",
-      "f is an unbounded function, which is continuous everywhere"
+      "f is unbounded and is not continuous at some points",
+      "f is bounded and \\(0\\le f(x)\\le2\\) for all x>0",
+      "f is bounded and \\(2\\le f(x)<\\infty\\) for all x>0",
+      "f is unbounded but continuous everywhere on its domain"
     ],
     "answer": "D",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "The function is continuous for every x>0 because it is a sum of continuous functions on that domain. As x→∞, f(x)→∞; as x→0⁺, 1/x→∞. Thus f is unbounded but continuous everywhere on its domain, option (D).",
+    "explanation_gu": "(x>0) પર (x) અને (1/x) બંને continuous છે, તેથી તેમનો સરવાળો continuous છે. (x\\to\\infty) પર (f(x)\\to\\infty), અને (x\\to0^+) પર (1/x\\to\\infty). તેથી function unbounded છે પરંતુ domainમાં દરેક જગ્યાએ continuous છે; વિકલ્પ (D).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Check continuity on the domain separately from boundedness at the domain's ends.",
+    "tip_gu": "Domain પર continuity અને domainના છેડાઓ પાસે boundedness અલગથી તપાસો.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q26",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Let S = {(x,, x, x3) € R° xy 4 be - ae = 1} and A be a circle lying on S. Suppose A does not contain the point (0, 0, 1). Then what is the stereographic projection of A on the complex plane ?",
-    "question_gu": "Let S = {(x,, x, x3) € R° xy 4 be - ae = 1} and A be a circle lying on S. Suppose A does not contain the point (0, 0, 1). Then what is the stereographic projection of A on the complex plane ?",
+    "question_en": "Let \\(S=\\{(x_1,x_2,x_3)\\in\\mathbb R^3:x_1^2+x_2^2+x_3^2=1\\}\\) be the unit sphere and let A be a circle on S that does not contain \\((0,0,1)\\). What is the stereographic projection of A onto the complex plane?",
+    "question_gu": "Let \\(S=\\{(x_1,x_2,x_3)\\in\\mathbb R^3:x_1^2+x_2^2+x_3^2=1\\}\\) be the unit sphere and let A be a circle on S that does not contain \\((0,0,1)\\). What is the stereographic projection of A onto the complex plane?",
     "options_en": [
       "A straight line",
       "A circle",
       "An ellipse",
-      "A parabola # ai} mn:"
+      "A parabola"
     ],
     "options_gu": [
       "A straight line",
       "A circle",
       "An ellipse",
-      "A parabola # ai} mn:"
+      "A parabola"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "Stereographic projection maps a circle on the sphere that does not pass through the projection pole to a circle in the plane. A circle through the pole would project to a straight line; the stated circle avoids the pole, so its image is a circle, option (B).",
+    "explanation_gu": "Stereographic projectionમાં sphere પરનો એવો circle જે projection poleમાંથી પસાર થતો નથી, તે planeમાં circleમાં map થાય છે. Poleમાંથી પસાર થતો circle straight lineમાં map થાય; અહીં circle poleથી દૂર છે, તેથી જવાબ (B).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Under stereographic projection, circles not through the projection pole map to circles; those through the pole map to lines.",
+    "tip_gu": "Stereographic projectionમાં poleમાંથી ન પસાર થતો circle circleમાં અને poleમાંથી પસાર થતો circle lineમાં map થાય છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q27",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "The image of fc eC:|Imz|< 4 under the exponential map is :",
-    "question_gu": "The image of fc eC:|Imz|< 4 under the exponential map is :",
+    "question_en": "The image of \\(\\{z\\in\\mathbb C:|\\operatorname{Im}z|<\\pi/2\\}\\) under the exponential map \\(w=e^z\\) is:",
+    "question_gu": "The image of \\(\\{z\\in\\mathbb C:|\\operatorname{Im}z|<\\pi/2\\}\\) under the exponential map \\(w=e^z\\) is:",
     "options_en": [
-      "interior of upper half of the unit Giealt",
-      "right half plane |",
-      "exterior upper half of the unit circle",
-      "left half plane"
+      "Interior of the upper half of the unit circle",
+      "Right half-plane",
+      "Exterior of the upper half of the unit circle",
+      "Left half-plane"
     ],
     "options_gu": [
-      "interior of upper half of the unit Giealt",
-      "right half plane |",
-      "exterior upper half of the unit circle",
-      "left half plane"
+      "Interior of the upper half of the unit circle",
+      "Right half-plane",
+      "Exterior of the upper half of the unit circle",
+      "Left half-plane"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "Write z=x+iy with −π/2<y<π/2. Then w=eˣ(cos y+i sin y), so Re(w)=eˣ cos y>0 because cos y>0 on this interval. Every point in the right half-plane has an argument in this interval, so the image is the right half-plane.",
+    "explanation_gu": "(z=x+iy), જ્યાં (-\\pi/2<y<\\pi/2). ત્યારે (w=e^x(\\cos y+i\\sin y)), એટલે (Re(w)=e^x\\cos y>0), કારણ કે આ intervalમાં (cos y>0). Right half-planeના દરેક nonzero pointનો argument આ intervalમાં પસંદ કરી શકાય છે; તેથી image right half-plane છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For w=eᶻ, the real part of z controls the modulus and the imaginary part controls the argument.",
+    "tip_gu": "(w=e^z)માં zનો real part modulus અને imaginary part argument નક્કી કરે છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q28",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Which of the following methods gives the fastest approximation to the nth root (1 ¢N) of a given positive real number ?",
-    "question_gu": "Which of the following methods gives the fastest approximation to the nth root (1 ¢N) of a given positive real number ?",
+    "question_en": "Which method gives the fastest approximation to the \\(n\\)-th root (\\(n\\in\\mathbb N\\)) of a given positive real number?",
+    "question_gu": "Which method gives the fastest approximation to the \\(n\\)-th root (\\(n\\in\\mathbb N\\)) of a given positive real number?",
     "options_en": [
       "Bisection method",
-      "Newton-Raphson method",
+      "Newton–Raphson method",
       "Regula-Falsi method",
-      "Fixed point iteration method"
+      "Fixed-point iteration method"
     ],
     "options_gu": [
       "Bisection method",
-      "Newton-Raphson method",
+      "Newton–Raphson method",
       "Regula-Falsi method",
-      "Fixed point iteration method"
+      "Fixed-point iteration method"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "Newton–Raphson iteration for solving f(x)=xⁿ−a=0 is \\(x_{k+1}=x_k-\\frac{x_k^n-a}{n x_k^{n-1}}=\\frac1n((n-1)x_k+a/x_k^{n-1})\\). Near a simple root it has quadratic convergence, generally faster than the linear convergence of bisection and Regula-Falsi.",
+    "explanation_gu": "(n)મો root મેળવવા (f(x)=x^n-a=0) માટે Newton–Raphson iteration (x_{k+1}=x_k-\\frac{x_k^n-a}{n x_k^{n-1}}=\\frac1n((n-1)x_k+a/x_k^{n-1})) છે. Simple root પાસે તેની quadratic convergence હોય છે, જે સામાન્ય રીતે bisection અને Regula-Falsiની linear convergence કરતાં ઝડપી છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Newton–Raphson usually converges quadratically near a simple root when the starting value is suitable.",
+    "tip_gu": "યોગ્ય initial value હોય તો simple root પાસે Newton–Raphson સામાન્ય રીતે quadratic convergence આપે છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q29",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "If the Lagrangian of a dynamical system, using generalized coordinates «x, y is given by : L(x, y, x, ¥, = (i ~2Qxy + y\") + Say then one of the Lagrange’s equations is :",
-    "question_gu": "If the Lagrangian of a dynamical system, using generalized coordinates «x, y is given by : L(x, y, x, ¥, = (i ~2Qxy + y\") + Say then one of the Lagrange’s equations is :",
+    "question_en": "If the Lagrangian of a dynamical system with generalized coordinates x and y is \\(L(x,y,\\dot x,\\dot y,t)=\\frac12(\\dot x^2-2\\dot x\\dot y+\\dot y^2)+5xy\\), then one of Lagrange's equations is:",
+    "question_gu": "If the Lagrangian of a dynamical system with generalized coordinates x and y is \\(L(x,y,\\dot x,\\dot y,t)=\\frac12(\\dot x^2-2\\dot x\\dot y+\\dot y^2)+5xy\\), then one of Lagrange's equations is:",
     "options_en": [
-      "x4545y=0 (",
-      "x¥-5+5y=0 (",
-      "x¢-~$-5y=0",
-      "x+y-5y=0 Math. Sei-II | 14"
+      "\\(\\ddot x+\\ddot y+5y=0\\)",
+      "\\(\\ddot x-\\ddot y+5y=0\\)",
+      "\\(\\ddot x-\\ddot y-5y=0\\)",
+      "\\(\\ddot x+\\ddot y-5y=0\\)"
     ],
     "options_gu": [
-      "x4545y=0 (",
-      "x¥-5+5y=0 (",
-      "x¢-~$-5y=0",
-      "x+y-5y=0 Math. Sei-II | 14"
+      "\\(\\ddot x+\\ddot y+5y=0\\)",
+      "\\(\\ddot x-\\ddot y+5y=0\\)",
+      "\\(\\ddot x-\\ddot y-5y=0\\)",
+      "\\(\\ddot x+\\ddot y-5y=0\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "For coordinate x, Lagrange's equation is d/dt(∂L/∂ẋ)−∂L/∂x=0. Here ∂L/∂ẋ=ẋ−ẏ, so d/dt gives ẍ−ÿ; also ∂L/∂x=5y. Therefore ẍ−ÿ−5y=0, option (C).",
+    "explanation_gu": "Coordinate x માટે (\\frac{d}{dt}(\\frac{\\partial L}{\\partial\\dot x})-\\frac{\\partial L}{\\partial x}=0). અહીં (\\frac{\\partial L}{\\partial\\dot x}=\\dot x-\\dot y), તેથી time derivative (\\ddot x-\\ddot y); અને (\\frac{\\partial L}{\\partial x}=5y). એટલે (\\ddot x-\\ddot y-5y=0), વિકલ્પ (C).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Apply the Euler–Lagrange equation to one generalized coordinate at a time.",
+    "tip_gu": "Euler–Lagrange equation દરેક generalized coordinate માટે અલગથી લાગુ કરો.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q30",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Fora conservative dynamical system if the geometrical equations do not contain the time ¢ explicitly and L, T, V represent the Lagrangian, the kinetic energy and the potential energy respectively, then :",
-    "question_gu": "Fora conservative dynamical system if the geometrical equations do not contain the time ¢ explicitly and L, T, V represent the Lagrangian, the kinetic energy and the potential energy respectively, then :",
+    "question_en": "For a conservative dynamical system whose geometrical equations do not contain time explicitly, and where L, T and V denote the Lagrangian, kinetic energy and potential energy respectively, which quantity is constant?",
+    "question_gu": "For a conservative dynamical system whose geometrical equations do not contain time explicitly, and where L, T and V denote the Lagrangian, kinetic energy and potential energy respectively, which quantity is constant?",
     "options_en": [
-      "L-—T = const",
-      "T —- V = const",
-      "T+ V = const",
-      "L+ V = const"
+      "\\(L-T=\\text{constant}\\)",
+      "\\(T-V=\\text{constant}\\)",
+      "\\(T+V=\\text{constant}\\)",
+      "\\(L+V=\\text{constant}\\)"
     ],
     "options_gu": [
-      "L-—T = const",
-      "T —- V = const",
-      "T+ V = const",
-      "L+ V = const"
+      "\\(L-T=\\text{constant}\\)",
+      "\\(T-V=\\text{constant}\\)",
+      "\\(T+V=\\text{constant}\\)",
+      "\\(L+V=\\text{constant}\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "For a conservative system with no explicit time dependence, the conserved mechanical energy is E=T+V. Since L=T−V, the conserved quantity is T+V, option (C).",
+    "explanation_gu": "Explicit time dependence ન ધરાવતા conservative systemમાં conserved mechanical energy (E=T+V) છે. કારણ કે (L=T-V), conserved quantity (T+V) છે; વિકલ્પ (C).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For a time-independent conservative Lagrangian, the conserved energy is kinetic plus potential energy.",
+    "tip_gu": "Time-independent conservative Lagrangian માટે conserved energy kinetic energy અને potential energyનો સરવાળો છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q31",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Let G be a group of order 15 and H be a proper subgroup of G. Then which of the following is true ? |",
-    "question_gu": "Let G be a group of order 15 and H be a proper subgroup of G. Then which of the following is true ? |",
+    "question_en": "Let G be a group of order 15 and H a proper subgroup of G. Which statement is true?",
+    "question_gu": "Let G be a group of order 15 and H a proper subgroup of G. Which statement is true?",
     "options_en": [
       "H must be a cyclic group",
       "H must be abelian but need not be cyclic",
       "H may not be abelian but it must be cyclic",
-      "4H may be neither abelian nor cyclic"
+      "H may be neither abelian nor cyclic"
     ],
     "options_gu": [
       "H must be a cyclic group",
       "H must be abelian but need not be cyclic",
       "H may not be abelian but it must be cyclic",
-      "4H may be neither abelian nor cyclic"
+      "H may be neither abelian nor cyclic"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "By Lagrange's theorem, the order of H divides 15. Since H is a proper subgroup, |H| is 1, 3 or 5. Groups of prime order are cyclic, and the trivial group is also cyclic. Hence H must be cyclic, option (A).",
+    "explanation_gu": "Lagrange theorem પ્રમાણે (|H|), 15ને divide કરે છે. H proper હોવાથી (|H|=1,3) અથવા 5. Prime order ધરાવતા groups cyclic હોય છે અને trivial group પણ cyclic ગણાય છે. તેથી H cyclic હોવો જ જોઈએ; વિકલ્પ (A).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use Lagrange's theorem to list the possible subgroup orders, then classify groups of prime order.",
+    "tip_gu": "Lagrange theoremથી subgroupના શક્ય orders કાઢો, પછી prime order groups cyclic હોય છે તે વાપરો.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q32",
