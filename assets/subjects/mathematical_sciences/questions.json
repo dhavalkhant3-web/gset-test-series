@@ -32000,146 +32000,151 @@
     "id": "mathematical_sciences_sep16_q1",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "Which of the following statements is false?",
-    "question_gu": "Which of the following statements is false?",
+    "question_en": "Which of the following statements is false? (A) There are countably many pairwise disjoint countable subsets of \\(\\mathbb{R}\\). (B) \\(\\mathbb{Q}\\setminus\\{q\\in\\mathbb{Q}\\mid 0<q<1\\}\\) is countable. (C) The set of all sequences of zeros and ones is countable. (D) There exist countably many pairwise disjoint uncountable subsets of \\(\\mathbb{R}\\).",
+    "question_gu": "Which of the following statements is false? (A) There are countably many pairwise disjoint countable subsets of \\(\\mathbb{R}\\). (B) \\(\\mathbb{Q}\\setminus\\{q\\in\\mathbb{Q}\\mid 0<q<1\\}\\) is countable. (C) The set of all sequences of zeros and ones is countable. (D) There exist countably many pairwise disjoint uncountable subsets of \\(\\mathbb{R}\\).",
     "options_en": [
-      "There are countably many pairwise disjoint countable subsets of ℝ",
-      "ℚ − {q ∈ ℚ | 0 < q < 1} is countable",
+      "There are countably many pairwise disjoint countable subsets of \\(\\mathbb{R}\\)",
+      "\\(\\mathbb{Q}\\setminus\\{q\\in\\mathbb{Q}\\mid 0<q<1\\}\\) is countable",
       "The set of all sequences of zeros and ones is countable",
-      "There exist countably many pairwise disjoint uncountable subsets of ℝ"
+      "There exist countably many pairwise disjoint uncountable subsets of \\(\\mathbb{R}\\)"
     ],
     "options_gu": [
-      "There are countably many pairwise disjoint countable subsets of ℝ",
-      "ℚ − {q ∈ ℚ | 0 < q < 1} is countable",
+      "There are countably many pairwise disjoint countable subsets of \\(\\mathbb{R}\\)",
+      "\\(\\mathbb{Q}\\setminus\\{q\\in\\mathbb{Q}\\mid 0<q<1\\}\\) is countable",
       "The set of all sequences of zeros and ones is countable",
-      "There exist countably many pairwise disjoint uncountable subsets of ℝ"
+      "There exist countably many pairwise disjoint uncountable subsets of \\(\\mathbb{R}\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "The set of all infinite binary sequences is uncountable, by Cantor’s diagonal argument.",
-    "explanation_gu": "The set of all infinite binary sequences is uncountable, by Cantor’s diagonal argument.",
+    "explanation_en": "The set of all infinite binary sequences is uncountable. If the sequences were listed as s₁, s₂, …, construct a new sequence whose n-th digit differs from the n-th digit of sₙ. This diagonal sequence is missing from the list. Therefore statement (C) is false.",
+    "explanation_gu": "શૂન્ય અને એકથી બનેલી બધી અનંત sequencesનો સમૂહ uncountable છે. જો તેમને (s_1,s_2,ldots) તરીકે યાદીબદ્ધ કરીએ, તો નવી sequence એવી બનાવી શકાય કે તેની nમી digit, (s_n)ની nમી digitથી અલગ હોય. આ નવી sequence યાદીમાં નથી આવતી (Cantor diagonal argument). તેથી (C) ખોટું છે.",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "Remember: the set of finite binary strings is countable, but the set of all infinite binary sequences is uncountable.",
+    "tip_gu": "યાદ રાખો: finite binary stringsનો સમૂહ countable છે, પરંતુ તમામ infinite binary sequencesનો સમૂહ uncountable છે.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   },
   {
     "id": "mathematical_sciences_sep16_q6",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "Which of the following is an eigen vector for the matrix [[1, 0, 1], [0, 2, 0], [0, 0, 3]]?",
-    "question_gu": "Which of the following is an eigen vector for the matrix [[1, 0, 1], [0, 2, 0], [0, 0, 3]]?",
+    "question_en": "Which of the following is an eigenvector for the matrix \\(A=\\begin{bmatrix}1&0&1\\\\0&2&0\\\\0&0&3\\end{bmatrix}\\)?",
+    "question_gu": "Which of the following is an eigenvector for the matrix \\(A=\\begin{bmatrix}1&0&1\\\\0&2&0\\\\0&0&3\\end{bmatrix}\\)?",
     "options_en": [
-      "[1, 1, 1]ᵀ",
-      "[1, 0, 0]ᵀ",
-      "[0, 0, 1]ᵀ",
-      "[0, 1, 1]ᵀ"
+      "\\(\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}0\\\\0\\\\1\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}0\\\\1\\\\1\\end{bmatrix}\\)"
     ],
     "options_gu": [
-      "[1, 1, 1]ᵀ",
-      "[1, 0, 0]ᵀ",
-      "[0, 0, 1]ᵀ",
-      "[0, 1, 1]ᵀ"
+      "\\(\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}0\\\\0\\\\1\\end{bmatrix}\\)",
+      "\\(\\begin{bmatrix}0\\\\1\\\\1\\end{bmatrix}\\)"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Multiplying the matrix by [1, 0, 0]ᵀ gives [1, 0, 0]ᵀ, so it is an eigenvector with eigenvalue 1.",
-    "explanation_gu": "Multiplying the matrix by [1, 0, 0]ᵀ gives [1, 0, 0]ᵀ, so it is an eigenvector with eigenvalue 1.",
+    "explanation_en": "An eigenvector v must satisfy Av = λv for some scalar λ. For option (B), v = [1, 0, 0]ᵀ and Av = [1, 0, 0]ᵀ = 1v. Hence it is an eigenvector with eigenvalue λ = 1. The other listed vectors do not satisfy Av = λv for this matrix.",
+    "explanation_gu": "Eigenvector (v) માટે (Av=\\lambda v) હોવું જોઈએ. વિકલ્પ (B) માટે (v=(1,0,0)^T) છે અને (Av=(1,0,0)^T=1v). તેથી તે eigenvalue (lambda=1) માટે eigenvector છે.",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "Check a proposed eigenvector by multiplying the matrix by the vector and testing whether the result is a scalar multiple of the original vector.",
+    "tip_gu": "Eigenvector ચકાસવા matrixને vectorથી ગુણો; પરિણામ મૂળ vectorના scalar multiple સમાન હોવું જોઈએ.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   },
   {
     "id": "mathematical_sciences_sep16_q21",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "If f(z) = (2 − eᶻ − e⁻ᶻ)ᵏ / z⁷ has a simple pole at the origin, then the value of k is:",
-    "question_gu": "If f(z) = (2 − eᶻ − e⁻ᶻ)ᵏ / z⁷ has a simple pole at the origin, then the value of k is:",
+    "question_en": "If \\(f(z)=\\dfrac{(2-e^z-e^{-z})^k}{z^7}\\) has a simple pole at the origin, then the value of \\(k\\) is:",
+    "question_gu": "If \\(f(z)=\\dfrac{(2-e^z-e^{-z})^k}{z^7}\\) has a simple pole at the origin, then the value of \\(k\\) is:",
     "options_en": [
-      "3",
-      "1",
-      "2",
-      "4"
+      "\\(3\\)",
+      "\\(1\\)",
+      "\\(2\\)",
+      "\\(4\\)"
     ],
     "options_gu": [
-      "3",
-      "1",
-      "2",
-      "4"
+      "\\(3\\)",
+      "\\(1\\)",
+      "\\(2\\)",
+      "\\(4\\)"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Near z = 0, 2 − eᶻ − e⁻ᶻ has a zero of order 2. Thus the numerator has a zero of order 2k, and the pole order is 7 − 2k. Setting 7 − 2k = 1 gives k = 3.",
-    "explanation_gu": "Near z = 0, 2 − eᶻ − e⁻ᶻ has a zero of order 2. Thus the numerator has a zero of order 2k, and the pole order is 7 − 2k. Setting 7 − 2k = 1 gives k = 3.",
+    "explanation_en": "Using the expansions eᶻ = 1 + z + z²/2 + … and e⁻ᶻ = 1 − z + z²/2 + …, we get 2 − eᶻ − e⁻ᶻ = −z² + higher-order terms, so the numerator has a zero of order 2k. Dividing by z⁷ gives pole order 7 − 2k. A simple pole has order 1, so 7 − 2k = 1 and k = 3.",
+    "explanation_gu": "(e^z=1+z+\\frac{z^2}{2}+cdots) અને (e^{-z}=1-z+\\frac{z^2}{2}+cdots) વાપરીએ તો (2-e^z-e^{-z}=-z^2+cdots). એટલે numeratorમાં (2k) ક્રમનો zero છે. (z^7)થી ભાગતાં poleનો ક્રમ (7-2k) થાય છે. Simple pole માટે (7-2k=1), તેથી (k=3).",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "For a pole-order question, find the order of the zero in the numerator first, then subtract it from the denominator's zero order.",
+    "tip_gu": "Poleનો ક્રમ શોધવા પહેલાં numeratorમાં zeroનો ક્રમ શોધો અને denominatorના zeroના ક્રમમાંથી ઘટાડો.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   },
   {
     "id": "mathematical_sciences_sep16_q22",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "If C[0, 1] is the space of all continuous functions with metric d(f, g) = supₓ∈[0,1] |f(x) − g(x)|, then d(x, x²) is equal to:",
-    "question_gu": "If C[0, 1] is the space of all continuous functions with metric d(f, g) = supₓ∈[0,1] |f(x) − g(x)|, then d(x, x²) is equal to:",
+    "question_en": "If \\(C[0,1]\\) is the space of continuous functions with metric \\(d(f,g)=\\sup_{x\\in[0,1]}|f(x)-g(x)|\\), then \\(d(x,x^2)\\) is equal to:",
+    "question_gu": "If \\(C[0,1]\\) is the space of continuous functions with metric \\(d(f,g)=\\sup_{x\\in[0,1]}|f(x)-g(x)|\\), then \\(d(x,x^2)\\) is equal to:",
     "options_en": [
-      "1/4",
-      "1/2",
-      "1",
-      "2"
+      "\\(\\frac14\\)",
+      "\\(\\frac12\\)",
+      "\\(1\\)",
+      "\\(2\\)"
     ],
     "options_gu": [
-      "1/4",
-      "1/2",
-      "1",
-      "2"
+      "\\(\\frac14\\)",
+      "\\(\\frac12\\)",
+      "\\(1\\)",
+      "\\(2\\)"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "The distance is supₓ∈[0,1] |x − x²|. Its maximum is attained at x = 1/2 and equals 1/4.",
-    "explanation_gu": "The distance is supₓ∈[0,1] |x − x²|. Its maximum is attained at x = 1/2 and equals 1/4.",
+    "explanation_en": "By the given metric, d(x, x²) = sup₀≤x≤₁ |x − x²|. On [0, 1], x − x² = x(1 − x) ≥ 0. The quadratic reaches its maximum at x = 1/2 (or by differentiating, 1 − 2x = 0). The maximum is 1/2 − 1/4 = 1/4. Therefore option (A) is correct.",
+    "explanation_gu": "આ metric પ્રમાણે (d(x,x^2)=\\sup_{x\\in[0,1]}|x-x^2|). ([0,1]) પર (x-x^2=x(1-x)\\ge0). તેનું મહત્તમ (x=\\frac12) પર મળે છે, કારણ કે derivative (1-2x=0) થાય છે. તેથી મહત્તમ મૂલ્ય (\\frac12-\\frac14=\\frac14) છે. સાચો જવાબ (A).",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "For a supremum on a closed interval, inspect critical points and endpoints.",
+    "tip_gu": "Closed interval પર supremum શોધતી વખતે critical points અને endpoints બંને તપાસો.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   },
   {
     "id": "mathematical_sciences_sep16_q31",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "Consider a random variable X with the probability distribution P(X = 1) = 1/8 = P(X = −1) and P(X = 0) = 3/8 = P(X = 2). What is the value of E[X/(X + 4)]?",
-    "question_gu": "Consider a random variable X with the probability distribution P(X = 1) = 1/8 = P(X = −1) and P(X = 0) = 3/8 = P(X = 2). What is the value of E[X/(X + 4)]?",
+    "question_en": "Consider a random variable \\(X\\) with \\(P(X=1)=\\frac18=P(X=-1)\\) and \\(P(X=0)=\\frac38=P(X=2)\\). What is the value of \\(E\\!\\left[\\frac{X}{X+4}\\right]\\)?",
+    "question_gu": "Consider a random variable \\(X\\) with \\(P(X=1)=\\frac18=P(X=-1)\\) and \\(P(X=0)=\\frac38=P(X=2)\\). What is the value of \\(E\\!\\left[\\frac{X}{X+4}\\right]\\)?",
     "options_en": [
-      "23/120",
-      "3/4",
-      "13/120",
-      "1/4"
+      "\\(\\frac{23}{120}\\)",
+      "\\(\\frac34\\)",
+      "\\(\\frac{13}{120}\\)",
+      "\\(\\frac14\\)"
     ],
     "options_gu": [
-      "23/120",
-      "3/4",
-      "13/120",
-      "1/4"
+      "\\(\\frac{23}{120}\\)",
+      "\\(\\frac34\\)",
+      "\\(\\frac{13}{120}\\)",
+      "\\(\\frac14\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "E[X/(X + 4)] = (1/8)(1/5) + (1/8)(−1/3) + (3/8)(0) + (3/8)(2/6) = 13/120.",
-    "explanation_gu": "E[X/(X + 4)] = (1/8)(1/5) + (1/8)(−1/3) + (3/8)(0) + (3/8)(2/6) = 13/120.",
+    "explanation_en": "Use E[g(X)] = Σ g(x)P(X = x), with g(x) = x/(x + 4). Thus E[X/(X+4)] = (1/8)(1/5) + (1/8)(−1/3) + (3/8)(0) + (3/8)(1/3) = 1/40 − 1/24 + 1/8 = (3 − 5 + 15)/120 = 13/120. Option (C).",
+    "explanation_gu": "(E[g(X)]=\\sum g(x)P(X=x)) વાપરીએ, જ્યાં (g(x)=\\frac{x}{x+4}). તેથી (E[\\frac{X}{X+4}]=\\frac18\\frac15+\\frac18(-\\frac13)+\\frac38(0)+\\frac38(\\frac13)). એટલે (\\frac1{40}-\\frac1{24}+\\frac18=\\frac{3-5+15}{120}=\\frac{13}{120}). સાચો જવાબ (C).",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "For a discrete random variable, multiply each function value by its probability and add all terms.",
+    "tip_gu": "Discrete random variable માટે દરેક function valueને તેની probabilityથી ગુણો અને બધા termsનો સરવાળો કરો.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   },
   {
     "id": "mathematical_sciences_sep16_q46",
@@ -32162,41 +32167,42 @@
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "BSB′ is 2 × 2 and the sample covariance degrees of freedom are n − 1 = 29.",
-    "explanation_gu": "BSB′ is 2 × 2 and the sample covariance degrees of freedom are n − 1 = 29.",
+    "explanation_en": "The official final answer key gives option (A). The printed Wishart notation in the source scan is not yet transcribed with sufficient certainty for a reliable derivation, so this item remains flagged for manual notation review.",
+    "explanation_gu": "Official final answer key મુજબ જવાબ (A) છે. મૂળ scanમાં Wishart notation ચોક્કસ રીતે transcribe થયાનું હજી નિશ્ચિત નથી; તેથી વિશ્વસનીય derivation આપવા પહેલાં આ પ્રશ્નને manual review માટે રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Original PDF uses Wishart notation with matrix-scale terms; verify exact notation/rendering before release.",
+    "review_note": "Official key answer A; exact Wishart-distribution notation/options require manual confirmation against the original source.",
     "tip_en": "Refer to the original GSET question and official final answer key.",
     "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "source_verified": false
   },
   {
     "id": "mathematical_sciences_sep16_q48",
     "paper_id": "mathematical_sciences_sep16",
     "exam": "September 2016",
-    "question_en": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days and 800 days for companies A and B, respectively. What is the probability that the bulb from company B fails first?",
-    "question_gu": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days and 800 days for companies A and B, respectively. What is the probability that the bulb from company B fails first?",
+    "question_en": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days for company A and 800 days for company B. What is the probability that the bulb from company B fails first?",
+    "question_gu": "To compare the lifetimes of bulbs produced by two companies, A and B, one bulb of each company was selected at random and their lifetimes were observed. Assume that the bulbs have exponentially distributed lifetimes with mean 1000 days for company A and 800 days for company B. What is the probability that the bulb from company B fails first?",
     "options_en": [
-      "4/9",
-      "5/9",
-      "25/81",
-      "25/41"
+      "\\(\\frac49\\)",
+      "\\(\\frac59\\)",
+      "\\(\\frac{25}{81}\\)",
+      "\\(\\frac{25}{41}\\)"
     ],
     "options_gu": [
-      "4/9",
-      "5/9",
-      "25/81",
-      "25/41"
+      "\\(\\frac49\\)",
+      "\\(\\frac59\\)",
+      "\\(\\frac{25}{81}\\)",
+      "\\(\\frac{25}{41}\\)"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "For independent exponential lifetimes, P(B fails first) = (1/800)/((1/1000)+(1/800)) = 5/9.",
-    "explanation_gu": "For independent exponential lifetimes, P(B fails first) = (1/800)/((1/1000)+(1/800)) = 5/9.",
+    "explanation_en": "For an exponential lifetime, the failure rate is the reciprocal of the mean: λA = 1/1000 and λB = 1/800. For independent exponential lifetimes, P(B fails first) = λB/(λA + λB) = (1/800)/(1/1000 + 1/800) = 5/9. Option (B).",
+    "explanation_gu": "Exponential lifetime માટે failure rate meanનો reciprocal છે: (\\lambda_A=\\frac1{1000}), (\\lambda_B=\\frac1{800}). Independent exponential lifetimesમાં B પહેલાં fail થવાની probability (\\frac{\\lambda_B}{\\lambda_A+\\lambda_B}=\\frac{1/800}{1/1000+1/800}=\\frac59) થાય છે. સાચો જવાબ (B).",
     "review_flag": false,
     "review_note": "",
-    "tip_en": "Refer to the original GSET question and official final answer key.",
-    "tip_gu": "Refer to the original GSET question and official final answer key.",
-    "source_verified": true
+    "tip_en": "For independent exponential lifetimes, the probability that one fails first equals its rate divided by the sum of the rates.",
+    "tip_gu": "Independent exponential lifetimesમાં કોઈ એક પહેલાં fail થવાની probability તેની rateને બંને ratesના સરવાળાથી ભાગવાથી મળે છે.",
+    "source_verified": true,
+    "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key"
   }
 ]
