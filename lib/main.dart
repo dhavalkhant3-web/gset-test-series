@@ -1833,14 +1833,14 @@ class _TestPageState extends State<TestPage> {
               ),
             ),
           Wrap(spacing: 8, runSpacing: 6, children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
-          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: ()=>b)),
+          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString(), style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
           if (opts.isEmpty || opts.every((option) => option.trim().isEmpty)) Card(color: Theme.of(context).colorScheme.errorContainer, child: Padding(padding: const EdgeInsets.all(12), child: Text(gu ? 'આ પ્રશ્નના વિકલ્પોનો ડેટા ઉપલબ્ધ નથી. આ પ્રશ્ન રિવ્યૂ માટે રિપોર્ટ કરો.' : 'Options are missing in this question data. Please report this question for review.'))),
           ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (!widget.mock && submitted && right) fill = Colors.green.withValues(alpha: .15); if (!widget.mock && submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
             // Flutter 3.38 deprecates RadioListTile.groupValue/onChanged in favor of RadioGroup.
             // Keep the current behavior intact until the RadioGroup migration is made in a dedicated UI refactor.
             // ignore: deprecated_member_use
-            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), ()=>b)); }),
+            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: MathAwareText(text: '$letter. ${_displayOption(opts[j], j)}', style: Theme.of(context).textTheme.bodyLarge))); }),
           const SizedBox(height: 8),
           if (widget.mock)
             Row(children: [
@@ -1852,7 +1852,7 @@ class _TestPageState extends State<TestPage> {
             FilledButton.icon(onPressed: selected == null ? null : submit, icon: const Icon(Icons.check), label: Text(gu ? 'જવાબ Submit કરો' : 'Submit Answer')),
           if (submitted && !widget.mock) Card(child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(notEval ? (gu ? '⚠️ સત્તાવાર key મુજબ evaluationમાં ગણાતો નથી.' : '⚠️ Not evaluated according to the official key.') : (isCorrect ? (gu ? '✅ સાચો જવાબ' : '✅ Correct') : (gu ? '❌ ખોટો જવાબ' : '❌ Wrong')), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-            if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), ()=>b],
+            if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())],
             if (q['review_flag'] == true) ...[const SizedBox(height: 10), Container(width: double.infinity, padding: const EdgeInsets.all(10), decoration: BoxDecoration(color: Colors.amber.withValues(alpha: .16), borderRadius: BorderRadius.circular(8)), child: Text('⚠️ ${gu ? 'સમીક્ષા નોંધ / Review Note' : 'Review Note'}: ${q['review_note']}'))],
             const SizedBox(height: 10), Text(gu ? '💡 Exam Tip: ${q['tip_gu']}' : '💡 Exam Tip: ${q['tip_en']}'),
           ]))),
@@ -1893,10 +1893,10 @@ class MistakeBookPage extends StatelessWidget {
                 margin: const EdgeInsets.only(bottom: 8),
                 child: ExpansionTile(
                   leading: const CircleAvatar(child: Icon(Icons.error_outline_rounded)),
-                  ()=>b,
+                  title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()),
                   subtitle: Text((q['topic'] ?? (gu ? 'સામાન્ય' : 'General')).toString()),
                   childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  children: [                    ()=>b,
+                  children: [                    MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString(), style: const TextStyle(height: 1.35)),
                     const SizedBox(height: 8),
                     Text(gu ? '💡 ${q['tip_gu']}' : '💡 ${q['tip_en']}', style: const TextStyle(fontWeight: FontWeight.w700)),
                   ],
@@ -2165,6 +2165,6 @@ class ReviewPage extends StatelessWidget {
   const ReviewPage({super.key, required this.title, required this.questions, required this.answers, required this.gu});
   @override Widget build(BuildContext context) => Scaffold(appBar: AppBar(title: Text(gu ? 'જવાબોની સમીક્ષા' : 'Answer Review')), body: ListView.builder(padding: const EdgeInsets.all(14), itemCount: questions.length, itemBuilder: (_, i) {
     final q = questions[i]; final correct = q['answer'] as String; final selected = answers[i]; final notEval = {'Z', 'X'}.contains(correct); final ok = !notEval && selected == correct;
-    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), ()=>b ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) ()=>b]));
+    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()), subtitle: Text(selected == null ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())]));
   }));
 }
