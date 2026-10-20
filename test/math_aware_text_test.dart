@@ -32,7 +32,7 @@ void main() {
     });
 
     test('does not treat currency-like dollar with no closing delimiter as math', () {
-      final parts = MathAwareText.tokenize('Price is $5 and no closing marker');
+      final parts = MathAwareText.tokenize(r'Price is $5 and no closing marker');
       expect(parts.length, 1);
       expect(parts.single.isMath, isFalse);
     });
