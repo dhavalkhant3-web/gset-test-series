@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -15,6 +16,2155 @@ Future<void> main() async {
   await Firebase.initializeApp();
   await AppAnalytics.appOpened();
   runApp(const GsetApp());
+}
+
+/// Renders TeX-delimited mathematics inline while leaving ordinary text unchanged.
+/// Supported delimiters: \( ... \), $...$, and \[ ... \].
+class MathAwareText extends StatelessWidget {
+  final String text;
+  final TextStyle? style;
+  final TextAlign textAlign;
+  const MathAwareText({super.key, required this.text, this.style, this.textAlign = TextAlign.start});
+
+  @override
+  Widget build(BuildContext context) {
+    final pattern = RegExp(r'\\\((.+?)\\\)|\\\[(.+?)\\\]|\$(.+?)\
+  const GsetApp({super.key});
+  @override
+  Widget build(BuildContext context) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'GSET Paper-I Test Series',
+        theme: ThemeData(colorSchemeSeed: const Color(0xFF5B5FEF), useMaterial3: true, scaffoldBackgroundColor: const Color(0xFFF5F7FF), cardTheme: const CardThemeData(margin: EdgeInsets.zero, elevation: 2, clipBehavior: Clip.antiAlias), appBarTheme: const AppBarTheme(centerTitle: false, elevation: 0, backgroundColor: Color(0xFFF5F7FF)), inputDecorationTheme: const InputDecorationTheme(filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide.none), focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(16)), borderSide: BorderSide(color: Color(0xFF5B5FEF), width: 1.4)))),
+        navigatorObservers: [FirebaseAnalyticsObserver(analytics: FirebaseAnalytics.instance)],
+        home: const HomePage(),
+      );
+}
+
+class FirebaseSync {
+  static User? get user => FirebaseAuth.instance.currentUser;
+
+  static Future<void> pullAndMerge(SharedPreferences prefs) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      final ref = FirebaseFirestore.instance.collection('users').doc(u.uid).collection('app').doc('state');
+      final snap = await ref.get();
+      if (!snap.exists) {
+        await pushLocal(prefs);
+        return;
+      }
+      final cloud = snap.data() ?? {};
+      final bookmarks = {...(prefs.getStringList('bookmarks') ?? []), ..._strings(cloud['bookmarks'])};
+      final mistakes = {...(prefs.getStringList('mistakes') ?? []), ..._strings(cloud['mistakes'])};
+      await prefs.setStringList('bookmarks', bookmarks.toList());
+      await prefs.setStringList('mistakes', mistakes.toList());
+
+      for (final key in ['gset_today_done', 'gset_xp', 'gset_streak', 'gset_total_attempted', 'gset_total_correct']) {
+        final local = prefs.getInt(key) ?? 0;
+        final remote = (cloud[key] as num?)?.toInt() ?? 0;
+        await prefs.setInt(key, max(local, remote));
+      }
+
+      final localAttempts = _jsonMap(prefs.getString('gset_topic_attempts'));
+      final localCorrect = _jsonMap(prefs.getString('gset_topic_correct'));
+      final mergedAttempts = _mergeMax(localAttempts, _numMap(cloud['topicAttempts']));
+      final mergedCorrect = _mergeMax(localCorrect, _numMap(cloud['topicCorrect']));
+      await prefs.setString('gset_topic_attempts', jsonEncode(mergedAttempts));
+      await prefs.setString('gset_topic_correct', jsonEncode(mergedCorrect));
+      await pushLocal(prefs);
+    } catch (_) {}
+  }
+
+  static Future<void> pushLocal(SharedPreferences prefs) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      final ref = FirebaseFirestore.instance.collection('users').doc(u.uid).collection('app').doc('state');
+      await ref.set({
+        'bookmarks': prefs.getStringList('bookmarks') ?? <String>[],
+        'mistakes': prefs.getStringList('mistakes') ?? <String>[],
+        'gset_today_done': prefs.getInt('gset_today_done') ?? 0,
+        'gset_xp': prefs.getInt('gset_xp') ?? 0,
+        'gset_streak': prefs.getInt('gset_streak') ?? 0,
+        'gset_total_attempted': prefs.getInt('gset_total_attempted') ?? 0,
+        'gset_total_correct': prefs.getInt('gset_total_correct') ?? 0,
+        'topicAttempts': _jsonMap(prefs.getString('gset_topic_attempts')),
+        'topicCorrect': _jsonMap(prefs.getString('gset_topic_correct')),
+        'updatedAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    } catch (_) {}
+  }
+
+  static Future<void> addFeedback(Map<String, dynamic> item) async {
+    final u = user;
+    if (u == null) return;
+    try {
+      await FirebaseFirestore.instance.collection('users').doc(u.uid).collection('feedback').add({
+        ...item,
+        'createdAt': FieldValue.serverTimestamp(),
+      });
+    } catch (_) {}
+  }
+
+  static Set<String> _strings(dynamic value) =>
+      value is List ? value.map((e) => e.toString()).toSet() : <String>{};
+
+  static Map<String, dynamic> _jsonMap(String? raw) {
+    if (raw == null || raw.isEmpty) return {};
+    try {
+      final value = jsonDecode(raw);
+      return value is Map ? Map<String, dynamic>.from(value) : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  static Map<String, dynamic> _numMap(dynamic value) =>
+      value is Map ? Map<String, dynamic>.from(value) : {};
+
+  static Map<String, dynamic> _mergeMax(Map<String, dynamic> a, Map<String, dynamic> b) {
+    final result = <String, dynamic>{...a};
+    for (final entry in b.entries) {
+      final av = (result[entry.key] as num?)?.toInt() ?? 0;
+      final bv = (entry.value as num?)?.toInt() ?? 0;
+      result[entry.key] = max(av, bv);
+    }
+    return result;
+  }
+}
+
+class AppAnalytics {
+  static final FirebaseAnalytics instance = FirebaseAnalytics.instance;
+
+  static Future<void> appOpened() async {
+    try { await instance.logAppOpen(); } catch (_) {}
+  }
+
+  static Future<void> event(String name, {Map<String, Object>? parameters}) async {
+    try { await instance.logEvent(name: name, parameters: parameters); } catch (_) {}
+  }
+
+  static Future<void> login(String method) async {
+    try {
+      await instance.logLogin(loginMethod: method);
+      final uid = FirebaseAuth.instance.currentUser?.uid;
+      if (uid != null) await instance.setUserId(id: uid);
+    } catch (_) {}
+  }
+}
+
+class PaperInfo {
+  final String id, title, date;
+  final int questions;
+  const PaperInfo(this.id, this.title, this.date, this.questions);
+}
+
+const papers = <PaperInfo>[
+  PaperInfo('2002_jan', 'January 2002', '20 January 2002', 50),
+  PaperInfo('2002_dec', 'December 2002', '1 December 2002', 50),
+  PaperInfo('2003_dec', 'December 2003', '7 December 2003', 50),
+  PaperInfo('2004_jul', 'July 2004', '25 July 2004', 50),
+  PaperInfo('2006_jul', 'July 2006', '2 July 2006', 50),
+  PaperInfo('2008_dec', 'December 2008', '7 December 2008', 50),
+  PaperInfo('2010_oct', 'October 2010', '24 October 2010', 60),
+  PaperInfo('2011_oct', 'October 2011', 'October 2011', 60),
+  PaperInfo('2013_sep', 'September 2013', 'September 2013', 60),
+  PaperInfo('2013_dec', 'December 2013', 'December 2013', 60),
+  PaperInfo('2014_oct', 'October 2014', 'October 2014', 60),
+  PaperInfo('2016_sep', 'September 2016', '25 September 2016', 60),
+  PaperInfo('2017_aug', 'August 2017', '27 August 2017', 60),
+  PaperInfo('2018_sep', 'September 2018', '30 September 2018', 50),
+  PaperInfo('2019_dec', 'December 2019', '29 December 2019', 50),
+  PaperInfo('2021_dec', 'December 2021 (January 2022)', '23 January 2022', 50),
+  PaperInfo('2022_nov', 'November 2022', 'November 2022', 50),
+  PaperInfo('2023_nov', 'November 2023', 'November 2023', 50),
+  PaperInfo('2024_dec', 'December 2024', 'December 2024', 50),
+  PaperInfo('2025_nov', 'November 2025', '16 November 2025', 50),
+];
+
+
+class SubjectHubPage extends StatefulWidget {
+  final bool gu;
+  const SubjectHubPage({super.key, required this.gu});
+  @override State<SubjectHubPage> createState() => _SubjectHubPageState();
+}
+
+class _SubjectHubPageState extends State<SubjectHubPage> {
+  List<Map<String, dynamic>> subjects = [];
+  String query = '';
+  String category = 'All';
+
+  final Map<String, IconData> _categoryIcons = {
+    'Science': Icons.science_rounded, 'Languages & Literature': Icons.menu_book_rounded,
+    'Social Sciences': Icons.groups_rounded, 'Education & Psychology': Icons.school_rounded,
+    'Professional Studies': Icons.workspace_premium_rounded, 'Commerce & Management': Icons.business_center_rounded,
+    'Computer & Data': Icons.computer_rounded, 'Education & Sports': Icons.fitness_center_rounded,
+    'Humanities': Icons.auto_stories_rounded, 'Applied & Life Studies': Icons.home_work_rounded,
+    'Indian Knowledge & Culture': Icons.account_balance_rounded, 'Arts & Performing Arts': Icons.palette_rounded,
+    'Science & Data': Icons.query_stats_rounded,
+  };
+
+  @override void initState() { super.initState(); _loadSubjects(); }
+
+  Future<void> _loadSubjects() async {
+    try {
+      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/subjects.json')) as Map;
+      final list = (raw['subjects'] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      if (mounted) setState(() => subjects = list);
+    } catch (_) { if (mounted) setState(() => subjects = []); }
+  }
+
+  List<String> get categories {
+    final values = subjects.map((e) => e['category'].toString()).toSet().toList()..sort();
+    return ['All', ...values];
+  }
+
+  List<Map<String, dynamic>> get filtered {
+    final q = query.trim().toLowerCase();
+    return subjects.where((item) {
+      final matchCategory = category == 'All' || item['category'] == category;
+      final text = item['code'].toString() + ' ' + item['name_en'].toString() + ' ' + item['medium'].toString() + ' ' + item['category'].toString();
+      return matchCategory && (q.isEmpty || text.toLowerCase().contains(q));
+    }).toList();
+  }
+
+  IconData _iconFor(Map<String, dynamic> item) => _categoryIcons[item['category']] ?? Icons.school_rounded;
+  Color _accentFor(int index) {
+    const colors = [Color(0xFF4F46E5), Color(0xFF0891B2), Color(0xFF059669), Color(0xFF7C3AED), Color(0xFFEA580C), Color(0xFFDB2777)];
+    return colors[index % colors.length];
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final shown = filtered;
+    return Scaffold(
+      backgroundColor: const Color(0xFFF5F7FF),
+      appBar: AppBar(
+        title: const Text('GSET Paper-II', style: TextStyle(fontWeight: FontWeight.w900)),
+        actions: [Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
+          decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(20)),
+          child: const Text('36 Subjects', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: Color(0xFF5B21B6))),
+        )))],
+      ),
+      body: subjects.isEmpty ? const Center(child: CircularProgressIndicator()) : RefreshIndicator(
+        onRefresh: _loadSubjects,
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(14, 6, 14, 90),
+          children: [
+            Container(
+              padding: const EdgeInsets.fromLTRB(20, 20, 18, 20),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF111B55), Color(0xFF4F46E5), Color(0xFF0F9F86)]),
+                borderRadius: BorderRadius.circular(26),
+                boxShadow: [BoxShadow(color: const Color(0xFF4338CA).withValues(alpha: .22), blurRadius: 22, offset: const Offset(0, 9))],
+              ),
+              child: Row(children: [
+                Container(width: 58, height: 58, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), shape: BoxShape.circle), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
+                const SizedBox(width: 14),
+                Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(widget.gu ? 'તમારો Subject પસંદ કરો' : 'Choose Your Subject', style: const TextStyle(color: Colors.white, fontSize: 21, fontWeight: FontWeight.w900)),
+                  const SizedBox(height: 5),
+                  Text(widget.gu ? '36 વિષય • Previous Papers • Tests • Practice' : '36 Subjects • Previous Papers • Tests • Practice', style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600)),
+                ])),
+              ]),
+            ),
+            const SizedBox(height: 14),
+            TextField(onChanged: (v) => setState(() => query = v), decoration: InputDecoration(prefixIcon: const Icon(Icons.search_rounded), hintText: widget.gu ? 'Subject શોધો...' : 'Search subject...')),
+            const SizedBox(height: 10),
+            SizedBox(height: 42, child: ListView.separated(
+              scrollDirection: Axis.horizontal, itemCount: categories.length,
+              separatorBuilder: (_, __) => const SizedBox(width: 7),
+              itemBuilder: (_, i) {
+                final c = categories[i]; final selected = category == c;
+                return ChoiceChip(label: Text(c == 'All' ? (widget.gu ? 'બધા' : 'All') : c), selected: selected,
+                  onSelected: (_) => setState(() => category = c), selectedColor: const Color(0xFFE0E7FF),
+                  labelStyle: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: selected ? const Color(0xFF3730A3) : Colors.black87));
+              },
+            )),
+            const SizedBox(height: 13),
+            LayoutBuilder(builder: (_, constraints) {
+              final columns = constraints.maxWidth >= 900 ? 3 : (constraints.maxWidth >= 560 ? 2 : 1);
+              return GridView.builder(
+                shrinkWrap: true, physics: const NeverScrollableScrollPhysics(), itemCount: shown.length,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: columns, crossAxisSpacing: 10, mainAxisSpacing: 10, childAspectRatio: columns == 1 ? 3.0 : 1.75),
+                itemBuilder: (_, i) {
+                  final item = shown[i]; final accent = _accentFor(i);
+                  return Card(elevation: 1, child: InkWell(
+                    borderRadius: BorderRadius.circular(18),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => SubjectDetailPage(subject: item, gu: widget.gu))),
+                    child: Padding(padding: const EdgeInsets.all(12), child: Row(children: [
+                      Container(width: 54, height: 54, decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: [accent.withValues(alpha: .16), accent.withValues(alpha: .07)]), borderRadius: BorderRadius.circular(16)),
+                        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                          Icon(_iconFor(item), color: accent, size: 22),
+                          Text(item['code'].toString(), style: TextStyle(color: accent, fontSize: 9, fontWeight: FontWeight.w900)),
+                        ])),
+                      const SizedBox(width: 11),
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.center, children: [
+                        Text(item['name_en'].toString(), maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w900, height: 1.15)),
+                        const SizedBox(height: 5),
+                        Wrap(spacing: 5, runSpacing: 4, children: [_miniChip(item['medium'].toString(), accent), _miniChip('100 Q • 200 M', const Color(0xFF475569))]),
+                      ])),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.black38),
+                    ])),
+                  ));
+                },
+              );
+            }),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _miniChip(String text, Color color) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
+    decoration: BoxDecoration(color: color.withValues(alpha: .08), borderRadius: BorderRadius.circular(8)),
+    child: Text(text, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 8.5, fontWeight: FontWeight.w800, color: color)),
+  );
+}
+
+class PaperIIDataService {
+  static Future<List<Map<String, dynamic>>> loadQuestions(String subjectId) async {
+    final path = 'assets/subjects/' + subjectId + '/questions.json';
+    try {
+      final raw = await rootBundle.loadString(path);
+      final decoded = jsonDecode(raw);
+      final loaded = <Map<String, dynamic>>[];
+      if (decoded is List) {
+        loaded.addAll(decoded.map((e) => Map<String, dynamic>.from(e as Map)));
+      } else if (decoded is Map && decoded['questions'] is List) {
+        loaded.addAll((decoded['questions'] as List).map((e) => Map<String, dynamic>.from(e as Map)));
+      }
+      // Paper-specific verified archives can be stored separately so a large
+      // subject question bank does not need to be rewritten for every paper.
+      if (subjectId == 'physical_sciences') {
+        for (final archive in [
+          'assets/subjects/physical_sciences/questions_sep16_p2.json',
+          'assets/subjects/physical_sciences/questions_sep16_p3.json',
+        ]) {
+          try {
+            final extra = jsonDecode(await rootBundle.loadString(archive));
+            if (extra is List) {
+              loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+            }
+          } catch (_) {}
+        }
+        // Source-verified Dec 2024 additions are kept separately until
+        // the full paper audit is complete; this avoids risky edits to the
+        // large historical question bank.
+        try {
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_dec24_verified_additions.json',
+          ));
+          if (extra is List) {
+            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          }
+        } catch (_) {}
+        // Keep official-key corrections as a small overlay so the large
+        // historical question bank does not need a risky full-file rewrite.
+        try {
+          final corrections = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/dec24_answer_corrections.json',
+          ));
+          if (corrections is List) {
+            for (final correction in corrections) {
+              final c = Map<String, dynamic>.from(correction as Map);
+              final id = c['id'];
+              final index = loaded.indexWhere((q) => q['id'] == id);
+              if (index >= 0) {
+                loaded[index]['answer'] = c['answer'];
+                loaded[index]['explanation_en'] = c['explanation_en'];
+                loaded[index]['explanation_gu'] = c['explanation_gu'];
+              }
+            }
+          }
+        } catch (_) {}
+      }
+      // Chemical Sciences Paper-III is intentionally kept separate from
+      // the Paper-II question bank. It must not be appended here.
+      if (loaded.isNotEmpty) return loaded;
+    } catch (_) {}
+    return [];
+  }
+
+  static Future<List<Map<String, dynamic>>> loadPapers(String subjectId) async {
+    try {
+      final raw = await rootBundle.loadString('assets/subjects/' + subjectId + '/papers.json');
+      final decoded = jsonDecode(raw) as Map;
+      final list = decoded['papers'];
+      if (list is List) {
+        final papers = list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+        // The app is Paper-II focused. Keep Paper-III metadata in the
+        // archive, but exclude it from the Paper-II paper count/list.
+        if (subjectId == 'chemical_sciences') {
+          papers.removeWhere((paper) => paper['paper_id'] == 'chemical_sep16_p3');
+        }
+        if (subjectId == 'physical_sciences') {
+          papers.removeWhere((paper) => paper['paper_id'] == 'physical_sep16_p3');
+        }
+        return papers;
+      }
+    } catch (_) {}
+    return [];
+  }
+}
+
+class SubjectDetailPage extends StatefulWidget {
+  final Map<String, dynamic> subject;
+  final bool gu;
+  const SubjectDetailPage({super.key, required this.subject, required this.gu});
+  @override State<SubjectDetailPage> createState() => _SubjectDetailPageState();
+}
+
+class _SubjectDetailPageState extends State<SubjectDetailPage> {
+  List<Map<String, dynamic>> questions = [];
+  List<Map<String, dynamic>> papers = [];
+  Set<String> bookmarks = {};
+  Set<String> mistakes = {};
+  bool loading = true;
+
+  @override void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final prefs = await SharedPreferences.getInstance();
+    final subjectId = widget.subject['id'].toString();
+    final qs = await PaperIIDataService.loadQuestions(subjectId);
+    final ps = await PaperIIDataService.loadPapers(subjectId);
+    if (!mounted) return;
+    setState(() {
+      questions = qs; papers = ps;
+      bookmarks = (prefs.getStringList('bookmarks') ?? []).toSet();
+      mistakes = (prefs.getStringList('mistakes') ?? []).toSet();
+      loading = false;
+    });
+  }
+
+  Future<void> _saveState(Set<String> b, Set<String> m) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('bookmarks', b.toList());
+    await prefs.setStringList('mistakes', m.toList());
+    if (mounted) setState(() { bookmarks = b; mistakes = m; });
+    await FirebaseSync.pushLocal(prefs);
+  }
+
+  Future<void> _openTest({bool mock = false, bool practice = false}) async {
+    if (questions.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(
+        widget.gu ? 'આ subject માટે verified questions હજુ load થયા નથી.' : 'Verified questions are not loaded for this subject yet.'
+      )));
+      return;
+    }
+    final qs = [...questions];
+    if (practice) qs.shuffle(Random());
+    final selected = mock ? qs.take(min(100, qs.length)).toList() : qs;
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: selected,
+      gu: widget.gu,
+      title: widget.subject['name_en'].toString(),
+      practice: practice,
+      mock: mock,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: _saveState,
+    )));
+    await _load();
+  }
+
+  @override Widget build(BuildContext context) {
+    final name = widget.subject['name_en'].toString();
+    final code = widget.subject['code'].toString();
+    final medium = widget.subject['medium'].toString();
+    final verified = widget.subject['source_verified'] == true;
+    return Scaffold(
+      appBar: AppBar(title: Text(name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900))),
+      body: loading ? const Center(child: CircularProgressIndicator()) : ListView(
+        padding: const EdgeInsets.fromLTRB(14, 8, 14, 90),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFF111B55), Color(0xFF4F46E5)]), borderRadius: BorderRadius.circular(24)),
+            child: Row(children: [
+              Container(width: 62, height: 62, decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), borderRadius: BorderRadius.circular(18)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 31)),
+              const SizedBox(width: 14),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(code + ' • ' + name, style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 5),
+                Text(medium, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w700)),
+                const SizedBox(height: 3),
+                const Text('100 Questions • 200 Marks • 120 Minutes', style: TextStyle(color: Colors.white70, fontSize: 11)),
+              ])),
+            ]),
+          ),
+          const SizedBox(height: 12),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(children: [
+              Icon(verified ? Icons.verified_rounded : Icons.info_outline_rounded, color: verified ? const Color(0xFF059669) : const Color(0xFF64748B)),
+              const SizedBox(width: 9),
+              Expanded(child: Text(verified ? 'Official GSET source-based subject section' : 'Official source verification in progress', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800))),
+            ]),
+          )),
+          const SizedBox(height: 12),
+          Row(children: [
+            Expanded(child: _statusCard(Icons.description_rounded, papers.length.toString(), 'Official Papers')),
+            const SizedBox(width: 9),
+            Expanded(child: _statusCard(Icons.quiz_rounded, questions.length.toString(), 'Verified Questions')),
+          ]),
+          const SizedBox(height: 16),
+          const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+          const SizedBox(height: 9),
+          _action(Icons.description_rounded, 'Previous Year Papers', papers.isEmpty ? 'Archive pending' : papers.length.toString() + ' official papers mapped', () {
+            if (papers.isEmpty) {
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official paper archive હજુ load થયો નથી.' : 'Official paper archive is not loaded yet.')));
+              return;
+            }
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ChemicalPaperListPage(
+              papers: papers,
+              questions: questions,
+              gu: widget.gu,
+              bookmarks: bookmarks,
+              mistakes: mistakes,
+              onStateChanged: _saveState,
+            )));
+          }),
+          _action(Icons.view_module_rounded, 'Unit-wise Tests', 'Syllabus પ્રમાણે', () async {
+            await Navigator.push(context, MaterialPageRoute(builder: (_) => UnitWiseTestPage(
+              subject: widget.subject,
+              questions: questions,
+              gu: widget.gu,
+              bookmarks: bookmarks,
+              mistakes: mistakes,
+              onStateChanged: _saveState,
+            )));
+          }),
+          _action(Icons.shuffle_rounded, 'Practice Questions', questions.isEmpty ? 'Verified data pending' : questions.length.toString() + ' verified questions', () => _openTest(practice: true)),
+          _action(Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks', () => _openTest(mock: true)),
+          _action(Icons.bookmark_rounded, 'Bookmarks', bookmarks.length.toString() + ' saved', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(bookmarks.length.toString() + (widget.gu ? ' questions bookmarked.' : ' questions bookmarked.'))));
+          }),
+          _action(Icons.menu_book_rounded, 'Mistake Book', mistakes.length.toString() + ' saved', () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(mistakes.length.toString() + (widget.gu ? ' mistakes saved.' : ' mistakes saved.'))));
+          }),
+        ],
+      ),
+    );
+  }
+
+  Widget _action(IconData icon, String title, String subtitle, VoidCallback onTap) => Card(
+    margin: const EdgeInsets.only(bottom: 9),
+    child: ListTile(
+      leading: Container(width: 43, height: 43, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(13)), child: Icon(icon, color: const Color(0xFF6D28D9))),
+      title: Text(title, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
+      subtitle: Text(subtitle, style: const TextStyle(fontSize: 11)),
+      trailing: const Icon(Icons.chevron_right_rounded),
+      onTap: onTap,
+    ),
+  );
+
+  Widget _statusCard(IconData icon, String value, String label) => Card(
+    child: Padding(
+      padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 10),
+      child: Row(children: [
+        Icon(icon, size: 22, color: const Color(0xFF4F46E5)),
+        const SizedBox(width: 8),
+        Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Text(value, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+          Text(label, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w700, color: Colors.black54)),
+        ])),
+      ]),
+    ),
+  );
+}
+
+
+class UnitWiseTestPage extends StatefulWidget {
+  final Map<String, dynamic> subject;
+  final List<Map<String, dynamic>> questions;
+  final bool gu;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const UnitWiseTestPage({super.key, required this.subject, required this.questions, required this.gu, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  @override State<UnitWiseTestPage> createState() => _UnitWiseTestPageState();
+}
+
+class _UnitWiseTestPageState extends State<UnitWiseTestPage> {
+  List<Map<String, dynamic>> syllabusUnits = [];
+  bool loadingSyllabus = true;
+
+  @override void initState() { super.initState(); _loadSyllabus(); }
+
+  Future<void> _loadSyllabus() async {
+    try {
+      final raw = jsonDecode(await rootBundle.loadString('assets/subjects/syllabus_units.json')) as Map;
+      final subjects = Map<String, dynamic>.from(raw['subjects'] as Map);
+      final entry = subjects[widget.subject['id'].toString()];
+      final units = entry is Map ? entry['units'] : null;
+      if (mounted) setState(() {
+        syllabusUnits = units is List ? units.map((e) => Map<String, dynamic>.from(e as Map)).toList() : [];
+        loadingSyllabus = false;
+      });
+    } catch (_) { if (mounted) setState(() => loadingSyllabus = false); }
+  }
+
+  String _unitId(Map<String,dynamic> q) => (q['unit_id'] ?? q['unitId'] ?? '').toString().trim();
+  String _unitName(Map<String,dynamic> q) => (q['unit'] ?? q['unit_name'] ?? q['unitName'] ?? '').toString().trim();
+
+  // Use explicit unit metadata first, then the question's existing topic label.
+  // Generic archive labels (for example "Physical Sciences") are deliberately
+  // not guessed: those questions remain unassigned until reviewed.
+  int? _topicUnitNumber(Map<String,dynamic> q) {
+    final subjectId = widget.subject['id'].toString();
+    final topic = (q['topic'] ?? '').toString().toLowerCase().trim();
+    if (topic.isEmpty) return null;
+
+    if (subjectId == 'chemical_sciences') {
+      if (topic == 'inorganic chemistry' || topic.startsWith('inorganic chemistry -') ||
+          topic.contains('coordination chemistry') || topic.contains('organometallic') ||
+          topic.contains('bioinorganic') || topic.contains('chemical bonding') ||
+          topic.contains('atomic structure')) return 1;
+      if (topic == 'physical chemistry' || topic.startsWith('physical chemistry -') ||
+          topic.contains('quantum chemistry') || topic.contains('thermodynamics') ||
+          topic.contains('statistical mechanics') || topic.contains('chemical kinetics') ||
+          topic.contains('electrochemistry') || topic.contains('solid state chemistry') ||
+          topic.contains('polymer chemistry')) return 2;
+      if (topic == 'organic chemistry' || topic.startsWith('organic chemistry -') ||
+          topic.contains('stereochemistry') || topic.contains('medicinal chemistry') ||
+          topic.contains('supramolecular chemistry')) return 3;
+      if (topic.contains('analytical') || topic.contains('spectroscopy') ||
+          topic.contains('environmental') || topic.contains('biochemistry') ||
+          topic.contains('materials') || topic.contains('nanoscience') ||
+          topic.contains('nuclear chemistry') || topic.contains('interdisciplinary') ||
+          topic.contains('physical/environmental') || topic.contains('physical/polymer')) return 4;
+      return null;
+    }
+
+    if (subjectId == 'physical_sciences') {
+      if (topic.contains('mathematical physics') || topic.contains('mathematical methods')) return 1;
+      if (topic.contains('classical mechanics') || topic == 'relativity' ||
+          topic.contains('charged particle motion') || topic.contains('waves')) return 2;
+      if (topic.contains('electromagnet') || topic.contains('electrodynamics') ||
+          topic.contains('electrostatics') || topic.contains('magnetism') ||
+          topic.contains('plasma physics') || topic.contains('radiation')) return 3;
+      if (topic.contains('quantum mechanics') || topic.contains('quantum scattering')) return 4;
+      if (topic.contains('statistical physics') || topic.contains('statistical mechanics') ||
+          topic.contains('thermodynamics')) return 5;
+      if (topic.contains('electronics') || topic.contains('experimental physics') ||
+          topic.contains('detector') || topic.contains('detection')) return 6;
+      if (topic.contains('atomic physics') || topic.contains('molecular physics') ||
+          topic.contains('optics') || topic.contains('modern physics')) return 7;
+      if (topic.contains('solid state') || topic.contains('condensed matter') ||
+          topic.contains('x-ray physics') || topic.contains('diffraction')) return 8;
+      if (topic.contains('nuclear physics') || topic.contains('particle physics') ||
+          topic.contains('nuclear/particle')) return 9;
+    }
+    return null;
+  }
+
+  List<Map<String,dynamic>> _forUnit(Map<String,dynamic> unit) {
+    final id=unit['id'].toString(), number=unit['number'].toString(), name=unit['name'].toString().trim().toLowerCase();
+    final unitNumber = int.tryParse(number);
+    return widget.questions.where((q) {
+      final qid=_unitId(q);
+      final qname=_unitName(q).toLowerCase();
+      // Explicit unit metadata is authoritative. Never reassign a question
+      // through topic fallback when its explicit unit points elsewhere.
+      if (qid.isNotEmpty || qname.isNotEmpty) {
+        return qid==id || qid==number || (qname==name && qname.isNotEmpty);
+      }
+      return unitNumber != null && _topicUnitNumber(q) == unitNumber;
+    }).toList();
+  }
+
+  List<Map<String,dynamic>> get unassigned {
+    final assigned=<String>{};
+    for(final u in syllabusUnits) for(final q in _forUnit(u)) { final id=q['id']?.toString(); if(id!=null) assigned.add(id); }
+    return widget.questions.where((q)=>!assigned.contains(q['id']?.toString())).toList();
+  }
+
+  Future<void> _openUnit(BuildContext context,String title,List<Map<String,dynamic>> qs) async {
+    if(qs.isEmpty) return;
+    final selected=[...qs]..shuffle(Random());
+    await Navigator.push(context,MaterialPageRoute(builder:(_)=>TestPage(
+      data:selected.take(min(25,selected.length)).toList(), gu:widget.gu, title:title, practice:true,
+      bookmarks:widget.bookmarks, mistakes:widget.mistakes, onStateChanged:widget.onStateChanged)));
+  }
+
+  @override Widget build(BuildContext context) {
+    final name=widget.subject['name_en'].toString();
+    if(loadingSyllabus) return const Scaffold(body:Center(child:CircularProgressIndicator()));
+    return Scaffold(
+      backgroundColor:const Color(0xFFF5F7FF),
+      appBar:AppBar(title:Text(widget.gu?'Syllabus પ્રમાણે Unit Tests':'Syllabus-wise Unit Tests',style:const TextStyle(fontWeight:FontWeight.w900))),
+      body:syllabusUnits.isEmpty
+        ? Center(child:Padding(padding:const EdgeInsets.all(24),child:Text(
+            widget.gu?'$name માટે official syllabus units હજુ appમાં mapped નથી.':'Official syllabus units for $name are not mapped in the app yet.',
+            textAlign:TextAlign.center,style:const TextStyle(fontWeight:FontWeight.w700))))
+        : ListView.separated(
+          padding:const EdgeInsets.fromLTRB(14,12,14,90),
+          itemCount:syllabusUnits.length+(unassigned.isEmpty?0:1),
+          separatorBuilder:(_,__)=>const SizedBox(height:9),
+          itemBuilder:(_,index){
+            if(index==syllabusUnits.length) return Card(child:ListTile(
+              title:Text(widget.gu?'Unitમાં હજી mapped નથી':'Not yet mapped to a unit',style:const TextStyle(fontWeight:FontWeight.w900)),
+              subtitle:Text('${unassigned.length} questions • review/mapping pending'),
+              leading:const Icon(Icons.pending_actions_rounded)));
+            final u=syllabusUnits[index], qs=_forUnit(u);
+            final title=widget.gu?'Unit ${u['number']}: ${u['name_gu'] ?? u['name']}':'Unit ${u['number']}: ${u['name']}';
+            return Card(child:ListTile(
+              contentPadding:const EdgeInsets.symmetric(horizontal:16,vertical:8),
+              leading:Container(width:46,height:46,decoration:BoxDecoration(color:const Color(0xFFEDE9FE),borderRadius:BorderRadius.circular(14)),
+                child:Text('${u['number']}',textAlign:TextAlign.center,style:const TextStyle(fontWeight:FontWeight.w900,fontSize:18,color:Color(0xFF6D28D9)))),
+              title:Text(title,style:const TextStyle(fontWeight:FontWeight.w900)),
+              subtitle:Text(qs.isEmpty?(widget.gu?'Questions mapping pending':'Question mapping pending'):'${qs.length} questions • ${widget.gu?'ટેસ્ટ શરૂ કરો':'Start test'}'),
+              trailing:qs.isEmpty?const Icon(Icons.lock_outline_rounded):const Icon(Icons.chevron_right_rounded),
+              onTap:qs.isEmpty?null:()=>_openUnit(context,title,qs)));
+          }));
+  }
+}
+
+class ChemicalPaperListPage extends StatelessWidget {
+  final List<Map<String, dynamic>> papers;
+  final List<Map<String, dynamic>> questions;
+  final bool gu;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+
+  const ChemicalPaperListPage({
+    super.key,
+    required this.papers,
+    required this.questions,
+    required this.gu,
+    required this.bookmarks,
+    required this.mistakes,
+    required this.onStateChanged,
+  });
+
+  Future<void> _openPaper(BuildContext context, Map<String, dynamic> paper) async {
+    final id = paper['paper_id'].toString();
+    final qs = questions.where((q) => q['paper_id'].toString() == id).toList();
+    if (qs.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        content: Text(gu ? 'આ paperના verified questions ઉપલબ્ધ નથી.' : 'Verified questions for this paper are not available.'),
+      ));
+      return;
+    }
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: qs,
+      gu: gu,
+      title: paper['exam'].toString(),
+      practice: false,
+      mock: false,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: onStateChanged,
+    )));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF5F7FF),
+      appBar: AppBar(
+        title: Text('Previous Year Papers',
+          style: const TextStyle(fontWeight: FontWeight.w900)),
+      ),
+      body: ListView.separated(
+        padding: const EdgeInsets.fromLTRB(14, 10, 14, 90),
+        itemCount: papers.length,
+        separatorBuilder: (_, __) => const SizedBox(height: 8),
+        itemBuilder: (_, index) {
+          final p = papers[index];
+          final id = p['paper_id'].toString();
+          final count = questions.where((q) => q['paper_id'].toString() == id).length;
+          final verified = p['answer_key_verified'] == true;
+          return Card(
+            child: ListTile(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 7),
+              leading: Container(
+                width: 46, height: 46,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFEDE9FE),
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: const Icon(Icons.description_rounded, color: Color(0xFF6D28D9)),
+              ),
+              title: Text(p['exam'].toString(),
+                style: const TextStyle(fontWeight: FontWeight.w900)),
+              subtitle: Text(
+                '$count questions • ${verified ? 'Final key verified' : 'Review pending'}',
+                style: const TextStyle(fontSize: 11),
+              ),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () => _openPaper(context, p),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+  @override State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  bool gu = true;
+  List<Map<String, dynamic>> data = [];
+  Set<String> bookmarks = {};
+  Set<String> mistakes = {};
+  String search = '';
+  int todayDone = 0, xp = 0, streak = 0;
+  int totalAttempted = 0, totalCorrect = 0, selectedNav = 0;
+  final ScrollController _scroll = ScrollController();
+  final GlobalKey _papersKey = GlobalKey();
+
+  @override void initState() { super.initState(); _load(); }
+  @override void dispose() { _scroll.dispose(); super.dispose(); }
+
+  Future<void> _load() async {
+    final raw = jsonDecode(await rootBundle.loadString('assets/questions.json')) as List;
+    final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final stored = prefs.getString('gset_progress_day') ?? '';
+    if (stored != today) {
+      await prefs.setString('gset_progress_day', today);
+      await prefs.setInt('gset_today_done', 0);
+    }
+    if (!mounted) return;
+    setState(() {
+      data = raw.cast<Map<String, dynamic>>();
+      bookmarks = (prefs.getStringList('bookmarks') ?? []).toSet();
+      mistakes = (prefs.getStringList('mistakes') ?? []).toSet();
+      todayDone = prefs.getInt('gset_today_done') ?? 0;
+      xp = prefs.getInt('gset_xp') ?? 0;
+      streak = prefs.getInt('gset_streak') ?? 0;
+      totalAttempted = prefs.getInt('gset_total_attempted') ?? 0;
+      totalCorrect = prefs.getInt('gset_total_correct') ?? 0;
+    });
+    await FirebaseSync.pullAndMerge(prefs);
+    if (mounted) {
+      final refreshed = await SharedPreferences.getInstance();
+      setState(() {
+        bookmarks = (refreshed.getStringList('bookmarks') ?? []).toSet();
+        mistakes = (refreshed.getStringList('mistakes') ?? []).toSet();
+        todayDone = refreshed.getInt('gset_today_done') ?? 0;
+        xp = refreshed.getInt('gset_xp') ?? 0;
+        streak = refreshed.getInt('gset_streak') ?? 0;
+        totalAttempted = refreshed.getInt('gset_total_attempted') ?? 0;
+        totalCorrect = refreshed.getInt('gset_total_correct') ?? 0;
+      });
+    }
+  }
+
+  List<Map<String, dynamic>> forPaper(String id) => data.where((q) => q['paperId'] == id).toList();
+  List<PaperInfo> get filtered => papers.where((p) => p.title.toLowerCase().contains(search.toLowerCase())).toList();
+
+  Future<void> _openPractice() async {
+    if (data.isEmpty) return;
+    final qs = [...data]..shuffle(Random());
+    final selected = qs.take(min(10, qs.length)).toList();
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+      data: selected, gu: gu, title: 'Daily Practice', practice: true,
+      bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets,    )));
+    await _load();
+  }
+
+  Future<void> _saveSets(Set<String> b, Set<String> m) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('bookmarks', b.toList());
+    await prefs.setStringList('mistakes', m.toList());
+    if (mounted) setState(() { bookmarks = b; mistakes = m; });
+    await FirebaseSync.pushLocal(prefs);
+    await AppAnalytics.event('state_sync', parameters: {
+      'bookmark_count': b.length,
+      'mistake_count': m.length,
+    });
+  }
+
+  void _nav(int index) {
+    if (index == 0) { setState(() => selectedNav = 0); return; }
+    if (index == 1) {
+      setState(() => selectedNav = 1);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        final c = _papersKey.currentContext;
+        if (c != null) Scrollable.ensureVisible(c, duration: const Duration(milliseconds: 450), curve: Curves.easeOutCubic);
+      });
+    } else if (index == 2) {
+      _openPractice();
+      setState(() => selectedNav = 0);
+    } else {
+      Navigator.push(context, MaterialPageRoute(builder: (_) => AccountPage(gu: gu))).then((_) {
+        setState(() => selectedNav = 0);
+        _load();
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final ready = papers.where((p) => forPaper(p.id).isNotEmpty && forPaper(p.id).every((q) => q['source_verified'] == true)).length;
+    final done = min(10, todayDone);
+    final accuracy = totalAttempted == 0 ? 0 : (totalCorrect * 100 / totalAttempted).round();
+    final level = (xp ~/ 500) + 1;
+    final levelProgress = (xp % 500) / 500;
+
+    return Scaffold(
+      appBar: AppBar(
+        toolbarHeight: 76,
+        titleSpacing: 14,
+        title: Row(children: [
+          _logo(52),
+          const SizedBox(width: 10),
+          const Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text('GSET Paper-I', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+            Text('Learn • Practice • Succeed', style: TextStyle(fontSize: 11, color: Colors.black54)),
+          ])),
+        ]),
+        actions: [
+          IconButton(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AccountPage(gu: gu))), icon: const Icon(Icons.account_circle_outlined, size: 28)),
+          Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: SegmentedButton<bool>(
+              showSelectedIcon: false,
+              segments: const [ButtonSegment(value: true, label: Text('ગુજરાતી')), ButtonSegment(value: false, label: Text('English'))],
+              selected: {gu},
+              onSelectionChanged: (s) { setState(() => gu = s.first); AppAnalytics.event('language_change', parameters: {'language': s.first ? 'gujarati' : 'english'}); },
+            ),
+          ),
+        ],
+      ),
+      body: data.isEmpty ? const Center(child: CircularProgressIndicator()) : RefreshIndicator(
+        onRefresh: _load,
+        child: ListView(
+          controller: _scroll,
+          padding: const EdgeInsets.fromLTRB(14, 5, 14, 92),
+          children: [
+            _hero(),
+            const SizedBox(height: 12),
+            _paperIIEntry(),
+            const SizedBox(height: 12),
+            Card(child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 4),
+              child: Row(children: [
+                _metric(Icons.description_rounded, papers.length.toString(), gu ? 'પેપર' : 'Papers', const Color(0xFF2563EB)),
+                _metric(Icons.quiz_rounded, data.length.toString(), gu ? 'પ્રશ્નો' : 'Questions', const Color(0xFF7C3AED)),
+                _metric(Icons.verified_rounded, ready.toString() + '/' + papers.length.toString(), gu ? 'ચકાસાયેલ' : 'Verified', const Color(0xFF059669)),
+                _metric(Icons.track_changes_rounded, '100%', gu ? 'પરીક્ષા ફોકસ' : 'Exam Focus', const Color(0xFFF59E0B)),
+              ]),
+            )),
+            const SizedBox(height: 12),
+            LayoutBuilder(builder: (_, c) {
+              final target = _dashCard(const Color(0xFF0F9F86), const Color(0xFFE9FBF5), Icons.track_changes_rounded, gu ? 'આજનું Target 🎯' : "Today's Target 🎯", Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(done.toString() + (gu ? ' / 10 પ્રશ્નો' : ' / 10 Questions'), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 8),
+                Row(children: [
+                  Expanded(child: ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(value: done / 10, minHeight: 8, backgroundColor: const Color(0xFFBFEDE2), color: const Color(0xFF10B981)))),
+                  const SizedBox(width: 7),
+                  Text((done * 10).toString() + '%', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 11)),
+                ]),
+                const SizedBox(height: 6),
+                Text(done == 10 ? (gu ? '🎉 Target પૂર્ણ!' : '🎉 Target complete!') : (gu ? 'એક સમયે એક પ્રશ્ન! 💪' : 'One question at a time! 💪'), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
+              ]));
+              final fire = _dashCard(const Color(0xFFEA580C), const Color(0xFFFFF0E8), Icons.local_fire_department_rounded, streak.toString() + (gu ? ' દિવસની સ્ટ્રીક' : ' Day Streak'), Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(gu ? 'સતત ચાલુ રાખો!' : 'Don’t break it!', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800)),
+                const SizedBox(height: 8),
+                Row(children: List.generate(4, (i) => Padding(padding: const EdgeInsets.only(right: 4), child: Icon(Icons.local_fire_department_rounded, size: 19, color: i < min(streak, 4) ? const Color(0xFFF97316) : const Color(0xFFFBD0B7))))),
+              ]));
+              final stars = _dashCard(const Color(0xFF6D28D9), const Color(0xFFF1EAFE), Icons.star_rounded, xp.toString() + ' XP • ' + (gu ? 'લેવલ ' : 'Level ') + level.toString(), Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                ClipRRect(borderRadius: BorderRadius.circular(8), child: LinearProgressIndicator(value: levelProgress, minHeight: 8, backgroundColor: const Color(0xFFDCCAF9), color: const Color(0xFF7C3AED))),                const SizedBox(height: 6),
+                Text((xp % 500).toString() + ' / 500 XP • ' + (500 - (xp % 500)).toString() + (gu ? ' XP બાકી — લેવલ ' : ' XP to Level ') + (level + 1).toString(), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
+              ]));
+              if (c.maxWidth >= 600) return Row(children: [Expanded(child: target), const SizedBox(width: 9), Expanded(child: fire), const SizedBox(width: 9), Expanded(child: stars)]);
+              return Column(children: [Row(children: [Expanded(child: target), const SizedBox(width: 9), Expanded(child: fire)]), const SizedBox(height: 9), stars]);
+            }),
+            const SizedBox(height: 12),
+            LayoutBuilder(builder: (_, c) {
+              final actions = [
+                _action(Icons.shuffle_rounded, gu ? 'રેન્ડમ પ્રેક્ટિસ' : 'Random Practice', gu ? 'મિશ્ર પ્રશ્નો' : 'Mixed Questions', const Color(0xFF2563EB), _openPractice),
+                _action(Icons.timer_rounded, gu ? 'મોક ટેસ્ટ' : 'Mock Test', gu ? '50 પ્રશ્નો • 60 મિનિટ' : '50 Questions • 60 Minutes', const Color(0xFF7C3AED), () async {
+                  final qs = [...data]..shuffle(Random());
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs.take(min(50, qs.length)).toList(), gu: gu, title: gu ? 'GSET મોક ટેસ્ટ' : 'GSET Mock Test', mock: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                  await _load();
+                }),
+                _action(Icons.track_changes_rounded, gu ? 'દૈનિક ચેલેન્જ' : 'Daily Challenge', gu ? '10 પ્રશ્નો' : '10 Questions', const Color(0xFF059669), _openPractice),
+                _action(Icons.menu_book_rounded, gu ? 'ભૂલ બુક' : 'Mistake Book', mistakes.length.toString() + (gu ? ' સાચવેલી' : ' saved'), const Color(0xFFF97316), mistakes.isEmpty ? null : () async {
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => MistakeBookPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets)));
+                  await _load();
+                }),
+                _action(Icons.bookmark_rounded, gu ? 'બુકમાર્ક્સ' : 'Bookmarks', bookmarks.length.toString() + (gu ? ' સાચવેલા' : ' saved'), const Color(0xFF7C3AED), bookmarks.isEmpty ? null : () async {
+                  final qs = data.where((q) => bookmarks.contains(q['id'])).toList();
+                  await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: gu ? 'બુકમાર્ક્સ' : 'Bookmarks', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                  await _load();
+                }),
+              ];
+              if (c.maxWidth >= 650) return Row(children: [for (int i=0; i<actions.length; i++) ...[Expanded(child: actions[i]), if (i < actions.length - 1) const SizedBox(width: 8)]]);
+              return GridView.count(crossAxisCount: 2, shrinkWrap: true, physics: const NeverScrollableScrollPhysics(), mainAxisSpacing: 8, crossAxisSpacing: 8, childAspectRatio: 2.45, children: actions);
+            }),
+            const SizedBox(height: 14),
+            LayoutBuilder(builder: (_, c) {
+              final achievements = _section(gu ? 'તાજેતરની સિદ્ધિઓ 🏆' : 'Recent Achievements 🏆', Row(children: [
+                _badge(Icons.play_circle_fill_rounded, 'First\nPractice', done > 0),
+                _badge(Icons.check_circle_rounded, '10\nQuestions', done >= 10),
+                _badge(Icons.local_fire_department_rounded, '3-Day\nStreak', streak >= 3),
+                _badge(Icons.psychology_rounded, '100\nQuestions', totalAttempted >= 100),
+              ]), Text(gu ? 'ચાલુ રાખો →' : 'Keep going →', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)));
+              final progress = _section(gu ? 'તમારો Progress' : 'Your Progress', SizedBox(height: 112, child: Row(children: [
+                SizedBox(width: 92, height: 92, child: Stack(alignment: Alignment.center, children: [
+                  CircularProgressIndicator(value: accuracy / 100, strokeWidth: 9, backgroundColor: const Color(0xFFE5E7EB), color: const Color(0xFF10B981)),
+                  Text(accuracy.toString() + '%', style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+                ])),
+                const SizedBox(width: 10),
+                Expanded(child: Text(
+                  gu ? 'પ્રયાસ: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' ભૂલો સાચવેલી.\nપ્રેક્ટિસ ચાલુ રાખો! 🚀' : 'Attempted: ' + totalAttempted.toString() + ' / ' + data.length.toString() + '\n' + mistakes.length.toString() + ' mistakes saved.\nKeep practicing! 🚀',
+                  style: const TextStyle(fontSize: 12, height: 1.35, fontWeight: FontWeight.w700),
+                )),
+              ])));
+              if (c.maxWidth >= 620) return Row(crossAxisAlignment: CrossAxisAlignment.start, children: [Expanded(child: achievements), const SizedBox(width: 10), Expanded(child: progress)]);
+              return Column(children: [achievements, const SizedBox(height: 10), progress]);
+            }),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AnalyticsPage(gu: gu, data: data))),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(children: [
+                    Container(width: 46, height: 46, decoration: BoxDecoration(color: const Color(0xFFEDE9FE), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.analytics_rounded, color: Color(0xFF6D28D9))),
+                    const SizedBox(width: 12),
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text(gu ? 'Performance Analytics' : 'Performance Analytics', style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                      const SizedBox(height: 3),
+                      Text(gu ? 'તમારી accuracy અને topic-wise performance જુઓ' : 'View your accuracy and topic-wise performance', style: const TextStyle(fontSize: 12, height: 1.3)),
+                    ])),
+                    const Icon(Icons.chevron_right_rounded),
+                  ]),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => WeakAreasPage(gu: gu, data: data, mistakes: mistakes, bookmarks: bookmarks, onStateChanged: _saveSets))),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(children: [
+                    Container(width: 46, height: 46, decoration: BoxDecoration(color: const Color(0xFFFFF1E8), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.insights_rounded, color: Color(0xFFEA580C))),
+                    const SizedBox(width: 12),
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text(gu ? 'મારા નબળા વિષયો' : 'My Weak Areas', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900)),
+                      const SizedBox(height: 3),
+                      Text(gu ? 'તમારા વિષયવાર પરિણામ પરથી લક્ષિત પ્રેક્ટિસ કરો' : 'Find topics that need more practice and start targeted revision', style: const TextStyle(fontSize: 12, height: 1.3)),
+                    ])),
+                    const Icon(Icons.chevron_right_rounded),
+                  ]),
+                ),
+              ),
+            ),
+            const SizedBox(height: 18),
+            Container(key: _papersKey, child: Row(children: [
+              Container(width: 40, height: 40, decoration: BoxDecoration(color: const Color(0xFFE6EEFF), borderRadius: BorderRadius.circular(13)), child: const Icon(Icons.description_rounded, color: Color(0xFF2563EB))),
+              const SizedBox(width: 10),
+              Expanded(child: Text(gu ? 'અગાઉના વર્ષોના પેપર' : 'Previous Year Papers', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w900))),
+              IconButton(onPressed: () {}, icon: const Icon(Icons.tune_rounded)),
+            ])),
+            const SizedBox(height: 8),
+            TextField(
+              decoration: InputDecoration(prefixIcon: const Icon(Icons.search_rounded), hintText: gu ? 'પેપર શોધો...' : 'Search papers...'),
+              onChanged: (v) => setState(() => search = v),
+            ),
+            const SizedBox(height: 10),
+            ...filtered.map((p) {
+              final qs = forPaper(p.id);
+              final ok = qs.length == p.questions && qs.every((q) => q['source_verified'] == true);
+              final year = RegExp(r'\d{4}').firstMatch(p.title)?.group(0) ?? '';
+              return Card(
+                margin: const EdgeInsets.only(bottom: 8),
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(16),
+                  onTap: ok ? () async {
+                    await Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: p.title, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: _saveSets)));
+                    await _load();
+                  } : () => _showNote(p, qs.length),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 10),
+                    child: Row(children: [
+                      Container(
+                        width: 60,
+                        height: 54,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(colors: ok ? const [Color(0xFFE7EEFF), Color(0xFFDCE5FF)] : const [Color(0xFFF3F4F6), Color(0xFFE5E7EB)]),
+                          borderRadius: BorderRadius.circular(15),                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(ok ? Icons.description_rounded : Icons.hourglass_bottom_rounded, size: 24, color: ok ? const Color(0xFF4338CA) : Colors.grey[600]),
+                            const SizedBox(height: 2),
+                            Text(year, style: TextStyle(fontSize: 9, fontWeight: FontWeight.w900, color: ok ? const Color(0xFF4338CA) : Colors.grey[600])),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        Text(p.title + ' — Paper-I', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14)),
+                        const SizedBox(height: 3),
+                        Text(p.date + ' • ' + p.questions.toString() + (gu ? ' પ્રશ્નો' : ' Questions'), maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodySmall),
+                        const SizedBox(height: 4),
+                        Row(children: [
+                          Icon(ok ? Icons.verified_rounded : Icons.hourglass_bottom_rounded, size: 15, color: ok ? const Color(0xFF059669) : Colors.grey),
+                          const SizedBox(width: 4),
+                          Expanded(child: Text(ok ? (gu ? 'ચકાસાયેલ અને તૈયાર' : 'Verified & Ready') : qs.length.toString() + '/' + p.questions.toString() + ' loaded', maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: ok ? const Color(0xFF047857) : Colors.grey[700]))),
+                        ]),
+                      ])),
+                      const SizedBox(width: 6),
+                      Container(
+                        height: 40, padding: const EdgeInsets.symmetric(horizontal: 12),
+                        decoration: BoxDecoration(gradient: ok ? const LinearGradient(colors: [Color(0xFF2563EB), Color(0xFF4F46E5)]) : null, color: ok ? null : const Color(0xFFE5E7EB), borderRadius: BorderRadius.circular(14)),
+                        child: Row(children: [
+                          Icon(ok ? Icons.play_arrow_rounded : Icons.lock_outline_rounded, size: 19, color: ok ? Colors.white : Colors.grey[600]),
+                          if (ok) ...[const SizedBox(width: 3), Text(gu ? 'શરૂ કરો' : 'Start', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900))],
+                        ]),
+                      ),
+                    ]),
+                  ),
+                ),
+              );
+            }),
+          ],
+        ),
+      ),
+      bottomNavigationBar: NavigationBar(
+        height: 68,
+        selectedIndex: selectedNav,
+        onDestinationSelected: _nav,
+        destinations: [
+          NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: gu ? 'હોમ' : 'Home'),
+          NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description_rounded), label: gu ? 'પેપર' : 'Papers'),
+          NavigationDestination(icon: Icon(Icons.shuffle_rounded), selectedIcon: Icon(Icons.play_arrow_rounded), label: gu ? 'પ્રેક્ટિસ' : 'Practice'),
+          NavigationDestination(icon: Icon(Icons.person_outline_rounded), selectedIcon: Icon(Icons.person_rounded), label: gu ? 'પ્રોફાઇલ' : 'Profile'),
+        ],
+      ),
+    );
+  }
+
+  Widget _logo(double size) => Container(
+    width: size, height: size,
+    decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFF4338CA), Color(0xFF7C3AED)]), borderRadius: BorderRadius.circular(15), boxShadow: [BoxShadow(color: const Color(0xFF4338CA).withValues(alpha: .25), blurRadius: 12, offset: const Offset(0, 5))]),
+    child: Stack(alignment: Alignment.center, children: [
+      Icon(Icons.school_rounded, color: Colors.white, size: size * .62),
+      Positioned(bottom: 3, child: Container(padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1), decoration: BoxDecoration(color: const Color(0xFFFBBF24), borderRadius: BorderRadius.circular(5)), child: const Text('GSET', style: TextStyle(fontSize: 8, fontWeight: FontWeight.w900, color: Color(0xFF172554)))))
+    ]),
+  );
+
+  Widget _hero() => Container(
+    height: 205,
+    decoration: BoxDecoration(
+      gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF111B55), Color(0xFF4F46E5), Color(0xFF0F9F86)]),
+      borderRadius: BorderRadius.circular(26),
+      boxShadow: [BoxShadow(color: const Color(0xFF4338CA).withValues(alpha: .25), blurRadius: 24, offset: const Offset(0, 10))],
+    ),
+    child: Stack(children: [
+      Positioned(right: -35, top: -45, child: _circle(160, Colors.white.withValues(alpha: .08))),
+      Positioned(right: 65, bottom: -55, child: _circle(150, const Color(0xFF22D3EE).withValues(alpha: .12))),
+      Positioned(right: 16, top: 18, child: Icon(Icons.auto_graph_rounded, size: 120, color: Colors.white.withValues(alpha: .10))),
+      Positioned(right: 26, bottom: 23, child: Row(children: [
+        Icon(Icons.menu_book_rounded, size: 52, color: Colors.white.withValues(alpha: .25)),
+        const SizedBox(width: 5),
+        const Icon(Icons.emoji_events_rounded, size: 72, color: Color(0xFFFBBF24)),
+      ])),
+      Padding(
+        padding: const EdgeInsets.fromLTRB(20, 18, 18, 16),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Text(gu ? 'નાના પગલાં,' : 'Small Steps,', style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900, height: 1)),
+          Text(gu ? 'મોટી સફળતા! 🚀' : 'Big Success! 🚀', style: const TextStyle(color: Color(0xFFFFD34E), fontSize: 26, fontWeight: FontWeight.w900, height: 1)),
+          const SizedBox(height: 9),
+          Text(gu ? 'આજે માત્ર 10 પ્રશ્નો.\nGSET journey રોજ આગળ વધારો.' : 'Just 10 questions today.\nBuild your GSET journey one day at a time.', style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.35, fontWeight: FontWeight.w600)),
+          const Spacer(),
+          FilledButton.icon(
+            style: FilledButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6), foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12), shape: const StadiumBorder()),
+            onPressed: _openPractice,
+            icon: const Icon(Icons.play_arrow_rounded),
+            label: Text(gu ? 'હમણાં પ્રેક્ટિસ કરો' : 'Practice Now', style: TextStyle(fontWeight: FontWeight.w900)),
+          ),
+        ]),
+      ),
+    ]),
+  );
+
+
+  Widget _paperIIEntry() => Card(
+    elevation: 1,
+    child: InkWell(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => SubjectHubPage(gu: gu))),
+      child: Container(
+        padding: const EdgeInsets.all(15),
+        decoration: BoxDecoration(gradient: const LinearGradient(colors: [Color(0xFFEDE9FE), Color(0xFFE0F2FE)]), borderRadius: BorderRadius.circular(20)),
+        child: Row(children: [
+          Container(width: 52, height: 52, decoration: BoxDecoration(color: const Color(0xFF5B21B6), borderRadius: BorderRadius.circular(16)), child: const Icon(Icons.school_rounded, color: Colors.white, size: 28)),
+          const SizedBox(width: 12),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            const Text('🎯 GSET Paper-II — 36 Subjects', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w900, color: Color(0xFF312E81))),
+            const SizedBox(height: 3),
+            Text(gu ? 'Subject પસંદ કરો • PYQ • Unit Test • Mock Test' : 'Choose Subject • PYQ • Unit Test • Mock Test', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: Color(0xFF475569))),
+          ])),
+          const Icon(Icons.arrow_forward_ios_rounded, size: 17, color: Color(0xFF5B21B6)),
+        ]),
+      ),
+    ),
+  );
+
+  Widget _circle(double size, Color color) => Container(width: size, height: size, decoration: BoxDecoration(color: color, shape: BoxShape.circle));
+
+  Widget _metric(IconData icon, String value, String label, Color color) => Expanded(child: Column(children: [    Container(width: 34, height: 34, decoration: BoxDecoration(color: color.withValues(alpha: .12), shape: BoxShape.circle), child: Icon(icon, color: color, size: 19)),
+    const SizedBox(height: 5),
+    Text(value, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w900)),
+    Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 10, color: Colors.black54)),
+  ]));
+
+  Widget _dashCard(Color color, Color background, IconData icon, String title, Widget child) => Container(
+    padding: const EdgeInsets.all(13),
+    decoration: BoxDecoration(color: background, borderRadius: BorderRadius.circular(19), border: Border.all(color: color.withValues(alpha: .18))),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [Icon(icon, color: color, size: 21), const SizedBox(width: 6), Expanded(child: Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(color: color, fontWeight: FontWeight.w900, fontSize: 13)))]),
+      const SizedBox(height: 9),
+      child,
+    ]),
+  );
+
+  Widget _action(IconData icon, String title, String subtitle, Color color, VoidCallback? tap) {
+    final active = tap != null;
+    return Card(elevation: 1, child: InkWell(
+      onTap: tap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        padding: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          gradient: active ? LinearGradient(colors: [color, color.withValues(alpha: .78)]) : null,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Row(children: [
+          Container(width: 36, height: 36, decoration: BoxDecoration(color: Colors.white.withValues(alpha: active ? .18 : .45), shape: BoxShape.circle), child: Icon(icon, color: active ? Colors.white : Colors.grey, size: 20)),
+          const SizedBox(width: 7),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.center, children: [
+            Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontWeight: FontWeight.w900, color: active ? Colors.white : Colors.grey[700], fontSize: 12)),
+            Text(subtitle, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 9.5, color: active ? Colors.white70 : Colors.grey)),
+          ])),
+          if (active) const Icon(Icons.chevron_right_rounded, color: Colors.white70, size: 19),
+        ]),
+      ),
+    ));
+  }
+
+  Widget _section(String title, Widget child, [Widget? trailing]) => Card(
+    elevation: 1,
+    child: Padding(padding: const EdgeInsets.fromLTRB(12, 12, 12, 10), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [Expanded(child: Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900))), if (trailing != null) trailing]),
+      const SizedBox(height: 10),
+      child,
+    ])),
+  );
+
+  Widget _badge(IconData icon, String label, bool active) => Expanded(child: Column(children: [
+    Container(width: 46, height: 46, decoration: BoxDecoration(color: active ? const Color(0xFFE6F7F1) : const Color(0xFFF1F3F7), shape: BoxShape.circle), child: Icon(icon, color: active ? const Color(0xFF059669) : const Color(0xFFB8C0CC), size: 24)),
+    const SizedBox(height: 5),
+    Text(label, textAlign: TextAlign.center, style: TextStyle(fontSize: 9.5, height: 1.15, fontWeight: FontWeight.w700, color: active ? null : Colors.grey)),
+  ]));
+
+  void _showNote(PaperInfo p, int count) => showDialog(context: context, builder: (_) => AlertDialog(
+    title: Text(p.title),
+    content: Text('This paper currently has ' + count.toString() + '/' + p.questions.toString() + ' loaded questions.'),
+    actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))],
+  ));
+}
+
+class AccountPage extends StatefulWidget {
+  final bool gu;
+  const AccountPage({super.key, required this.gu});
+  @override State<AccountPage> createState() => _AccountPageState();
+}
+
+class _AccountPageState extends State<AccountPage> {
+  late bool gu;
+  bool phoneMode = false, obscure = true, busy = false;
+  final email = TextEditingController();
+  final phone = TextEditingController();
+  final password = TextEditingController();
+  final otp = TextEditingController();
+  String? verificationId;
+
+  @override
+  void initState() {
+    super.initState();
+    gu = widget.gu;
+  }
+
+  @override
+  void dispose() {
+    email.dispose();
+    phone.dispose();
+    password.dispose();
+    otp.dispose();
+    super.dispose();
+  }
+
+  String _error(Object e) {
+    if (e is FirebaseAuthException) {
+      switch (e.code) {
+        case 'invalid-email': return gu ? 'Email address ખોટું છે.' : 'Invalid email address.';
+        case 'user-not-found': return gu ? 'આ email માટે account મળ્યું નથી.' : 'No account found for this email.';
+        case 'wrong-password':
+        case 'invalid-credential': return gu ? 'Email અથવા password ખોટો છે.' : 'Incorrect email or password.';
+        case 'email-already-in-use': return gu ? 'આ email પહેલેથી registered છે. Login કરો.' : 'This email is already registered. Please login.';
+        case 'weak-password': return gu ? 'Password ઓછામાં ઓછો 6 characters રાખો.' : 'Password must be at least 6 characters.';
+        case 'too-many-requests': return gu ? 'ઘણા પ્રયાસ થયા. થોડા સમય પછી ફરી પ્રયાસ કરો.' : 'Too many attempts. Please try again later.';
+        case 'operation-not-allowed': return gu ? 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}' : 'Firebase Auth error: operation-not-allowed\\nCode: ${e.code}\\nMessage: ${e.message ?? '-'}';
+        case 'network-request-failed': return gu ? 'Internet connection તપાસો.' : 'Please check your internet connection.';
+        case 'configuration-not-found': return gu ? 'Firebase Phone Authentication configuration અધૂરી છે.' : 'Firebase Phone Authentication is not fully configured.';
+        case 'invalid-verification-code': return gu ? 'OTP ખોટો છે.' : 'Invalid OTP.';
+        case 'invalid-verification-id': return gu ? 'OTP session expire થઈ છે. ફરી OTP મોકલો.' : 'OTP session expired. Send a new OTP.';
+        case 'quota-exceeded': return gu ? 'OTP quota પૂર્ણ થઈ છે. પછીથી પ્રયાસ કરો.' : 'OTP quota exceeded. Try again later.';
+        default:
+          final message = e.message ?? '';
+          if (message.contains('FirebaseAuthHostApi.')) {
+            return gu
+                ? 'Firebase Auth connection error. નવી APK install કરીને ફરી પ્રયાસ કરો.'
+                : 'Firebase Auth connection error. Install the latest APK and try again.';
+          }
+          return message.isNotEmpty ? message : (gu ? 'Firebase error આવ્યો.' : 'A Firebase error occurred.');
+      }
+    }
+    return gu ? 'કંઈક error આવ્યું. ફરી પ્રયાસ કરો.' : 'Something went wrong. Please try again.';
+  }
+
+  Future<void> _run(Future<void> Function() action) async {
+    if (busy) return;
+    setState(() => busy = true);
+    try {
+      await action();
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'સફળતાપૂર્વક થયું ✅' : 'Done successfully ✅')));
+    } catch (e) {
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(_error(e))));
+    } finally {
+      if (mounted) setState(() => busy = false);
+    }
+  }
+
+  Future<void> _login() => _run(() async {
+    await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text.trim(), password: password.text);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pullAndMerge(prefs);
+    await AppAnalytics.login('email');
+  });
+
+  Future<void> _register() => _run(() async {
+    await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email.text.trim(), password: password.text);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pushLocal(prefs);
+    await AppAnalytics.login('email_signup');
+  });
+
+  Future<void> _resetPassword() => _run(() async {
+    await FirebaseAuth.instance.sendPasswordResetEmail(email: email.text.trim());
+  });
+
+  Future<void> _sendOtp() async {
+    final value = phone.text.trim();
+    if (value.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'Mobile number લખો.' : 'Enter mobile number.')));
+      return;
+    }
+    if (!value.startsWith('+') || value.length < 10) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? '+91 સાથે valid mobile number લખો.' : 'Enter a valid mobile number with country code, e.g. +91XXXXXXXXXX.')));
+      return;
+    }
+    await _run(() async {
+      // Development-only Firebase Phone Auth test mode. This is intentionally
+      // enabled only in debug builds so production keeps Play Integrity/reCAPTCHA.
+      if (kDebugMode) {
+        await FirebaseAuth.instance.setSettings(
+          appVerificationDisabledForTesting: true,
+        );
+      }
+      final completer = Completer<void>();
+      await FirebaseAuth.instance.verifyPhoneNumber(
+        phoneNumber: value,
+        verificationCompleted: (credential) async {
+          try {
+            await FirebaseAuth.instance.signInWithCredential(credential);
+            final prefs = await SharedPreferences.getInstance();
+            await FirebaseSync.pullAndMerge(prefs);
+            await AppAnalytics.login('phone');
+            if (!completer.isCompleted) completer.complete();
+            if (mounted) setState(() {});
+          } catch (e) {
+            if (!completer.isCompleted) completer.completeError(e);
+          }
+        },
+        verificationFailed: (e) {
+          if (!completer.isCompleted) completer.completeError(e);
+        },
+        codeSent: (id, _) {
+          verificationId = id;
+          if (mounted) {
+            setState(() {});
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'OTP મોકલાયો છે. 📲' : 'OTP sent. 📲')));
+          }
+          if (!completer.isCompleted) completer.complete();
+        },
+        codeAutoRetrievalTimeout: (id) => verificationId = id,
+      );
+      await completer.future;
+    });
+  }
+
+  Future<void> _verifyOtp() => _run(() async {
+    final id = verificationId;
+    if (id == null) throw FirebaseAuthException(code: 'invalid-verification-id');
+    final credential = PhoneAuthProvider.credential(verificationId: id, smsCode: otp.text.trim());
+    await FirebaseAuth.instance.signInWithCredential(credential);
+    final prefs = await SharedPreferences.getInstance();
+    await FirebaseSync.pullAndMerge(prefs);
+    if (mounted) setState(() => verificationId = null);
+  });
+
+  Future<void> _logout() async {
+    await FirebaseAuth.instance.signOut();
+    try { await FirebaseAnalytics.instance.setUserId(id: null); } catch (_) {}
+    if (mounted) setState(() {});
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    final user = FirebaseAuth.instance.currentUser;
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(gu ? 'મારું Account' : 'My Account'),
+        actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))],
+      ),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(22),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.primary, cs.primaryContainer]),
+              borderRadius: BorderRadius.circular(24),
+            ),
+            child: Row(children: [
+              CircleAvatar(radius: 30, backgroundColor: Colors.white, child: Icon(Icons.person_rounded, size: 34, color: cs.primary)),
+              const SizedBox(width: 16),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                const Text('GSET Student Account', style: TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 4),
+                Text(user == null
+                    ? (gu ? 'Login કરીને progress cloud માં સાચવો' : 'Login to save your progress to cloud')
+                    : (user.email ?? user.phoneNumber ?? 'Signed in'),
+                    style: const TextStyle(color: Colors.white70, height: 1.3)),
+              ])),
+            ]),
+          ),
+          const SizedBox(height: 18),
+          if (user != null)
+            Card(child: ListTile(
+              leading: const CircleAvatar(child: Icon(Icons.cloud_done_outlined)),
+              title: Text(gu ? 'Cloud Sync ચાલુ છે' : 'Cloud Sync is active'),
+              subtitle: Text(gu ? 'તમારી progress Firebase માં sync થાય છે.' : 'Your progress is synced with Firebase.'),
+              trailing: FilledButton(onPressed: busy ? null : _logout, child: Text(gu ? 'Logout' : 'Logout')),
+            ))
+          else ...[
+            SegmentedButton<bool>(
+              expandedInsets: EdgeInsets.zero,
+              segments: const [ButtonSegment(value: false, label: Text('Email')), ButtonSegment(value: true, label: Text('Phone OTP'))],
+              selected: {phoneMode},
+              onSelectionChanged: (s) => setState(() => phoneMode = s.first),
+            ),
+            const SizedBox(height: 16),
+            if (!phoneMode) ...[
+              TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: const InputDecoration(prefixIcon: Icon(Icons.email_outlined), labelText: 'Email')),
+              const SizedBox(height: 12),
+              TextField(controller: password, obscureText: obscure, decoration: InputDecoration(prefixIcon: const Icon(Icons.lock_outline), labelText: 'Password', suffixIcon: IconButton(onPressed: () => setState(() => obscure = !obscure), icon: Icon(obscure ? Icons.visibility_outlined : Icons.visibility_off_outlined)))),
+              Align(alignment: Alignment.centerRight, child: TextButton(onPressed: busy ? null : _resetPassword, child: Text(gu ? 'Password ભૂલી ગયા?' : 'Forgot password?'))),
+              FilledButton.icon(onPressed: busy ? null : _login, icon: const Icon(Icons.login_rounded), label: Text(gu ? 'Login કરો' : 'Login')),
+              const SizedBox(height: 8),
+              OutlinedButton.icon(onPressed: busy ? null : _register, icon: const Icon(Icons.person_add_alt_1), label: Text(gu ? 'નવું Account બનાવો' : 'Create new account')),
+            ] else ...[
+              TextField(controller: phone, keyboardType: TextInputType.phone, decoration: const InputDecoration(prefixIcon: Icon(Icons.phone_outlined), labelText: 'Mobile Number', hintText: '+91 XXXXX XXXXX')),
+              const SizedBox(height: 14),
+              if (verificationId == null)
+                FilledButton.icon(onPressed: busy ? null : _sendOtp, icon: const Icon(Icons.sms_outlined), label: Text(gu ? 'OTP મોકલો' : 'Send OTP'))
+              else ...[
+                TextField(controller: otp, keyboardType: TextInputType.number, decoration: const InputDecoration(prefixIcon: Icon(Icons.pin_outlined), labelText: 'OTP')),
+                const SizedBox(height: 12),
+                FilledButton.icon(onPressed: busy ? null : _verifyOtp, icon: const Icon(Icons.verified_outlined), label: Text(gu ? 'OTP Verify કરો' : 'Verify OTP')),
+              ],
+            ],
+          ],
+          const SizedBox(height: 22),
+          Card(child: Column(children: [
+            ListTile(leading: const CircleAvatar(child: Icon(Icons.forum_outlined)), title: Text(gu ? 'Feedback & Suggestion' : 'Feedback & Suggestion'), subtitle: Text(gu ? 'Feedback, suggestion અથવા question report કરો' : 'Send feedback, suggestions or report a question'), trailing: const Icon(Icons.chevron_right), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu)))),
+            const Divider(height: 1),
+            ListTile(leading: const CircleAvatar(child: Icon(Icons.shopping_bag_outlined)), title: Text(gu ? 'My Test Series' : 'My Test Series'), subtitle: Text(gu ? 'Purchased test series અહીં દેખાશે' : 'Purchased test series will appear here'), trailing: const Icon(Icons.chevron_right), onTap: () => showDialog(context: context, builder: (_) => AlertDialog(title: const Text('Coming Soon'), content: Text(gu ? 'Paid test-series unlock આગળના step માં connect કરીશું.' : 'Paid test-series unlock will be connected in the next step.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))]))),
+          ])),
+        ],
+      ),
+    );
+  }
+}
+
+class FeedbackPage extends StatefulWidget {
+  final bool gu;
+  final String? paper;
+  final String? questionId;
+  const FeedbackPage({super.key, required this.gu, this.paper, this.questionId});
+  @override State<FeedbackPage> createState() => _FeedbackPageState();
+}
+
+class _FeedbackPageState extends State<FeedbackPage> {
+  late bool gu;
+  String category = 'Suggestion';
+  final message = TextEditingController();
+  final email = TextEditingController();
+  final questionId = TextEditingController();
+  final paper = TextEditingController();
+
+  @override void initState() {
+    super.initState();
+    gu = widget.gu;
+    if (widget.paper != null) paper.text = widget.paper!;
+    if (widget.questionId != null) questionId.text = widget.questionId!;
+    if (widget.questionId != null) category = 'Report Question';
+  }
+  @override void dispose() { message.dispose(); email.dispose(); questionId.dispose(); paper.dispose(); super.dispose(); }
+
+  Future<void> submit() async {
+    if (message.text.trim().isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(gu ? 'કૃપા કરીને message લખો.' : 'Please enter your message.')));
+      return;
+    }
+    final prefs = await SharedPreferences.getInstance();
+    final item = jsonEncode({'category': category, 'message': message.text.trim(), 'email': email.text.trim(), 'paper': paper.text.trim(), 'questionId': questionId.text.trim(), 'time': DateTime.now().toIso8601String()});
+    final old = prefs.getStringList('feedback_items') ?? [];
+    old.add(item);
+    await prefs.setStringList('feedback_items', old);
+    await FirebaseSync.addFeedback(jsonDecode(item) as Map<String, dynamic>);
+    if (!mounted) return;
+    await showDialog(context: context, builder: (_) => AlertDialog(
+      icon: const Icon(Icons.check_circle_outline, size: 42),
+      title: Text(gu ? 'Feedback Saved' : 'Feedback Saved'),
+      content: Text(gu ? 'Feedback આ device પર સાચવાયો છે. Firebase connect થયા પછી cloud submission થશે.' : 'Feedback is saved on this device. Cloud submission will be enabled after Firebase is connected.'),
+      actions: [FilledButton(onPressed: () => Navigator.pop(context), child: const Text('OK'))],
+    ));
+    if (mounted) Navigator.pop(context);
+  }
+
+  @override Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    const categories = ['Suggestion', 'General Feedback', 'Report Question', 'Support'];
+    return Scaffold(
+      appBar: AppBar(title: Text(gu ? 'Feedback & Support' : 'Feedback & Support'), actions: [IconButton(onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate))]),
+      body: ListView(padding: const EdgeInsets.fromLTRB(16, 12, 16, 28), children: [
+        Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [cs.secondary, cs.secondaryContainer]), borderRadius: BorderRadius.circular(22)),
+          child: Row(children: [
+            const Icon(Icons.chat_bubble_outline_rounded, size: 40), const SizedBox(width: 14),            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(gu ? 'તમારો અવાજ મહત્વનો છે!' : 'Your voice matters!', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 4),
+              Text(gu ? 'Suggestion આપો અથવા પ્રશ્નમાં ભૂલ report કરો.' : 'Share a suggestion or report a question issue.', style: const TextStyle(height: 1.3)),
+            ])),
+          ]),
+        ),
+        const SizedBox(height: 18),
+        DropdownButtonFormField<String>(initialValue: category, decoration: const InputDecoration(labelText: 'Feedback Type', prefixIcon: Icon(Icons.category_outlined)), items: categories.map((x) => DropdownMenuItem(value: x, child: Text(x))).toList(), onChanged: (v) => setState(() => category = v!)),
+        const SizedBox(height: 12),
+        TextField(controller: email, keyboardType: TextInputType.emailAddress, decoration: InputDecoration(prefixIcon: const Icon(Icons.email_outlined), labelText: gu ? 'Email (Optional)' : 'Email (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: paper, decoration: InputDecoration(prefixIcon: const Icon(Icons.description_outlined), labelText: gu ? 'Paper (Optional)' : 'Paper (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: questionId, decoration: InputDecoration(prefixIcon: const Icon(Icons.tag_outlined), labelText: gu ? 'Question ID (Optional)' : 'Question ID (Optional)')),
+        const SizedBox(height: 12),
+        TextField(controller: message, maxLines: 6, decoration: InputDecoration(alignLabelWithHint: true, prefixIcon: const Padding(padding: EdgeInsets.only(bottom: 82), child: Icon(Icons.edit_note_outlined)), labelText: gu ? 'તમારો Message' : 'Your Message', hintText: gu ? 'તમારો feedback અહીં લખો...' : 'Write your feedback here...')),
+        const SizedBox(height: 16),
+        FilledButton.icon(onPressed: submit, icon: const Icon(Icons.send_rounded), label: Text(gu ? 'Feedback Submit કરો' : 'Submit Feedback')),
+        const SizedBox(height: 12),
+        Text(gu ? 'નોંધ: હાલ feedback local device પર સાચવાય છે; live cloud portal Firebase પછી ચાલુ થશે.' : 'Note: Feedback is currently saved locally; the live cloud portal will be enabled after Firebase setup.', textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodySmall),
+      ]),
+    );
+  }
+}
+
+class TestPage extends StatefulWidget {
+  final List<Map<String, dynamic>> data; final bool gu; final String title; final bool practice; final bool mock;
+  final Set<String> bookmarks, mistakes; final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const TestPage({super.key, required this.data, required this.gu, required this.title, this.practice = false, this.mock = false, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  @override State<TestPage> createState() => _TestPageState();
+}
+
+class _TestPageState extends State<TestPage> {
+  int i = 0, score = 0, answered = 0; String? selected; bool submitted = false; bool gu = false; late DateTime started; Timer? timer;
+  final Map<int, String> answers = {};
+  bool finishing = false;
+  late Set<String> b, m;
+  Map<String, dynamic> get q => widget.data[i];
+  int get maxSeconds => widget.mock ? 60 * 60 : (widget.practice ? 20 * 60 : widget.data.length * 72);
+
+  String? _visualAsset;
+  @override void initState() {
+    super.initState();
+    gu = widget.gu;
+    started = DateTime.now();
+    b = {...widget.bookmarks};
+    m = {...widget.mistakes};
+    _resolveVisualAsset();
+    timer = Timer.periodic(const Duration(seconds: 1), (_) {
+      if (mounted && DateTime.now().difference(started).inSeconds >= maxSeconds) {
+        _finish();
+      } else if (mounted) {
+        setState(() {});
+      }
+    });
+  }
+  @override void dispose() { timer?.cancel(); super.dispose(); }
+
+  Future<void> _resolveVisualAsset() async {
+    final explicit = (q['image_asset'] ?? '').toString().trim();
+    if (explicit.isNotEmpty) {
+      if (mounted) setState(() => _visualAsset = explicit);
+      return;
+    }
+    final id = (q['id'] ?? '').toString();
+    if (!RegExp(r'^chemical_[a-z0-9]+_q[0-9]+$').hasMatch(id)) return;
+    final candidate = 'assets/images/$id.png';
+    try {
+      await rootBundle.load(candidate);
+      if (mounted) setState(() => _visualAsset = candidate);
+    } catch (_) {
+      if (mounted) setState(() => _visualAsset = null);
+    }
+  }
+
+  String _displayOption(String option, int index) {
+    if (_visualAsset != null &&
+        RegExp(r'^(Official|Structure|Product structure|Adduct structure|Option [A-D])', caseSensitive: false).hasMatch(option.trim())) {
+      return String.fromCharCode(65 + index);
+    }
+    return option;
+  }
+
+  String get remaining { final left = max(0, maxSeconds - DateTime.now().difference(started).inSeconds); final mm = (left ~/ 60).toString().padLeft(2, '0'); final ss = (left % 60).toString().padLeft(2, '0'); return '$mm:$ss'; }
+
+  void _selectMockAnswer(String? value) {
+    if (value == null) return;
+    setState(() {
+      selected = value;
+      answers[i] = value;
+      answered = answers.length;
+    });
+  }
+
+  Future<void> submit() async {
+    if (selected == null || submitted) return;
+    answers[i] = selected!; answered = answers.length;
+    final correct = q['answer'] as String;
+    if (!{'Z', 'X'}.contains(correct)) {
+      final isRight = selected == correct;
+      if (isRight) {
+        score++;
+      } else {
+        m.add(q['id'].toString());
+      }
+      final topic = (q['topic'] ?? 'General').toString();
+      await _recordTopicStat(topic, isRight);
+    }
+    setState(() => submitted = true); widget.onStateChanged(b, m);
+  }
+
+  Future<void> _recordTopicStat(String topic, bool correct) async {
+    if (widget.mock) {
+      score = 0;
+      m = {...m};
+      for (var n = 0; n < widget.data.length; n++) {
+        final item = widget.data[n];
+        final correct = item['answer'] as String;
+        final selectedAnswer = answers[n];
+        if (!{'Z', 'X'}.contains(correct) && selectedAnswer != null) {
+          final isRight = selectedAnswer == correct;
+          if (isRight) score++; else m.add(item['id'].toString());
+          final topic = (item['topic'] ?? 'General').toString();
+          await _recordTopicStat(topic, isRight);
+        }
+      }
+      answered = answers.length;
+      await widget.onStateChanged(b, m);
+    }
+    await AppAnalytics.event('test_complete', parameters: {'mode': widget.mock ? 'mock' : (widget.practice ? 'practice' : 'paper'), 'question_count': widget.data.length, 'score': score, 'attempted': answered});
+    final prefs = await SharedPreferences.getInstance();
+    final attempts = Map<String, dynamic>.from(jsonDecode(prefs.getString('gset_topic_attempts') ?? '{}'));
+    final rights = Map<String, dynamic>.from(jsonDecode(prefs.getString('gset_topic_correct') ?? '{}'));
+    attempts[topic] = (attempts[topic] ?? 0) + 1;
+    rights[topic] = (rights[topic] ?? 0) + (correct ? 1 : 0);
+    await prefs.setString('gset_topic_attempts', jsonEncode(attempts));
+    await prefs.setString('gset_topic_correct', jsonEncode(rights));
+  }
+
+  void next() {
+    if (widget.mock) {
+      if (i < widget.data.length - 1) {
+        setState(() { i++; selected = answers[i]; submitted = false; _visualAsset = null; });
+        _resolveVisualAsset();
+      } else {
+        _finish();
+      }
+      return;
+    }
+    if (i < widget.data.length - 1) {
+      setState(() { i++; selected = null; submitted = false; _visualAsset = null; });
+      _resolveVisualAsset();
+    } else {
+      _finish();
+    }
+  }
+  Future<void> _finish() async {
+    if (finishing) return;
+    finishing = true;
+    timer?.cancel();
+    final evaluated = widget.data.where((e) => !{'Z', 'X'}.contains(e['answer'])).length;
+    final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final previousDay = prefs.getString('gset_progress_day') ?? '';
+    var done = prefs.getInt('gset_today_done') ?? 0;
+    var currentStreak = prefs.getInt('gset_streak') ?? 0;
+    if (previousDay != today) {
+      done = 0;
+      final previous = DateTime.tryParse(previousDay);
+      final nowDate = DateTime.parse(today);
+      if (previous != null && nowDate.difference(previous).inDays == 1) {
+        currentStreak += 1;
+      } else {
+        currentStreak = 1;
+      }
+      await prefs.setString('gset_progress_day', today);
+    }
+    done = min(10, done + widget.data.length);
+    final currentXp = (prefs.getInt('gset_xp') ?? 0) + (score * 10);
+    final totalAttempted = (prefs.getInt('gset_total_attempted') ?? 0) + answered;
+    final totalCorrect = (prefs.getInt('gset_total_correct') ?? 0) + score;
+    await prefs.setInt('gset_today_done', done);
+    await prefs.setInt('gset_streak', currentStreak);    await prefs.setInt('gset_xp', currentXp);
+    await prefs.setInt('gset_total_attempted', totalAttempted);
+    await prefs.setInt('gset_total_correct', totalCorrect);
+    await FirebaseSync.pushLocal(prefs);
+    if (!mounted) return;
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => ResultPage(title: widget.title, score: score, total: evaluated, attempted: answered, gu: gu, questions: widget.data, answers: answers, bookmarks: b, mistakes: m, onStateChanged: widget.onStateChanged, practice: widget.practice)));
+  }
+
+  Future<void> _confirmExit() async { final leave = await showDialog<bool>(context: context, builder: (_) => AlertDialog(title: Text(gu ? 'ટેસ્ટ છોડવી છે?' : 'Leave test?'), content: Text(gu ? 'હાલની ટેસ્ટની પ્રગતિ સાચવવામાં નહીં આવે. શું તમે બહાર નીકળવા માંગો છો?' : 'Current test progress will not be saved. Do you want to leave?'), actions: [TextButton(onPressed: () => Navigator.pop(context, false), child: Text(gu ? 'રહો' : 'Stay')), FilledButton(onPressed: () => Navigator.pop(context, true), child: Text(gu ? 'બહાર નીકળો' : 'Leave'))])); if (leave == true && mounted) Navigator.pop(context); }
+
+  @override Widget build(BuildContext context) {
+    final rawOptions = gu ? q['options_gu'] : q['options_en']; final opts = rawOptions is List ? rawOptions.map((e) => e?.toString() ?? '').toList() : <String>[]; final correct = (q['answer'] ?? 'Z').toString(); final notEval = {'Z', 'X'}.contains(correct); final isCorrect = !notEval && selected == correct; final passage = ((gu ? q['passage_gu'] : q['passage_en']) ?? '').toString();
+    return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id'].toString()) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'પ્રશ્ન Report કરો' : 'Report Question', onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu, paper: widget.title, questionId: q['id']?.toString()))), icon: const Icon(Icons.flag_outlined)),
+        IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
+      body: Column(children: [
+        LinearProgressIndicator(value: (i + 1) / widget.data.length),
+        Material(
+          color: Theme.of(context).colorScheme.surface,
+          child: SizedBox(
+            height: 54,
+            child: ListView.separated(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              scrollDirection: Axis.horizontal,
+              itemCount: widget.data.length,
+              separatorBuilder: (_, __) => const SizedBox(width: 6),
+              itemBuilder: (_, n) {
+                final attemptedHere = answers.containsKey(n);
+                return ChoiceChip(
+                  label: Text('${n + 1}'),
+                  selected: i == n,
+                  avatar: attemptedHere ? const Icon(Icons.check, size: 16) : null,
+                  onSelected: (_) => setState(() {
+                    i = n;
+                    selected = answers[n];
+                    submitted = !widget.mock && answers.containsKey(n);
+                  }),
+                );
+              },
+            ),
+          ),
+        ),
+        Expanded(child: ListView(padding: const EdgeInsets.all(16), children: [
+          if (passage.isNotEmpty) Card(child: Padding(padding: const EdgeInsets.all(12), child: Text(passage, style: const TextStyle(height: 1.35)))),
+          Builder(builder: (_) {
+            // The Paper-I visual extractor writes the exact source-preserving asset path
+            // into each question. Use that path directly; never infer or redraw a visual here.
+            final imageAsset = (q['image_asset'] ?? '').toString();
+            return imageAsset.isNotEmpty ? Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(imageAsset, fit: BoxFit.contain))) : const SizedBox.shrink();
+          }),
+          if (_visualAsset != null)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.asset(_visualAsset!, fit: BoxFit.contain),
+              ),
+            ),
+          Wrap(spacing: 8, runSpacing: 6, children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
+          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString(), style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
+          const SizedBox(height: 12),
+          if (opts.isEmpty || opts.every((option) => option.trim().isEmpty)) Card(color: Theme.of(context).colorScheme.errorContainer, child: Padding(padding: const EdgeInsets.all(12), child: Text(gu ? 'આ પ્રશ્નના વિકલ્પોનો ડેટા ઉપલબ્ધ નથી. આ પ્રશ્ન રિવ્યૂ માટે રિપોર્ટ કરો.' : 'Options are missing in this question data. Please report this question for review.'))),
+          ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (!widget.mock && submitted && right) fill = Colors.green.withValues(alpha: .15); if (!widget.mock && submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
+            // Flutter 3.38 deprecates RadioListTile.groupValue/onChanged in favor of RadioGroup.
+            // Keep the current behavior intact until the RadioGroup migration is made in a dedicated UI refactor.
+            // ignore: deprecated_member_use
+            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: MathAwareText(text: '$letter. ${_displayOption(opts[j], j)}', style: Theme.of(context).textTheme.bodyLarge))); }),
+          const SizedBox(height: 8),
+          if (widget.mock)
+            Row(children: [
+              if (i > 0) Expanded(child: OutlinedButton(onPressed: () => setState(() { i--; selected = answers[i]; }), child: Text(gu ? 'પાછળ' : 'Previous'))),
+              if (i > 0) const SizedBox(width: 8),
+              Expanded(child: FilledButton(onPressed: i < widget.data.length - 1 ? next : _finish, child: Text(i == widget.data.length - 1 ? (gu ? 'મોક ટેસ્ટ Submit કરો' : 'Submit Mock Test') : (gu ? 'આગળ' : 'Next')))),
+            ])
+          else if (!submitted)
+            FilledButton.icon(onPressed: selected == null ? null : submit, icon: const Icon(Icons.check), label: Text(gu ? 'જવાબ Submit કરો' : 'Submit Answer')),
+          if (submitted && !widget.mock) Card(child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(notEval ? (gu ? '⚠️ સત્તાવાર key મુજબ evaluationમાં ગણાતો નથી.' : '⚠️ Not evaluated according to the official key.') : (isCorrect ? (gu ? '✅ સાચો જવાબ' : '✅ Correct') : (gu ? '❌ ખોટો જવાબ' : '❌ Wrong')), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+            if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())],
+            if (q['review_flag'] == true) ...[const SizedBox(height: 10), Container(width: double.infinity, padding: const EdgeInsets.all(10), decoration: BoxDecoration(color: Colors.amber.withValues(alpha: .16), borderRadius: BorderRadius.circular(8)), child: Text('⚠️ ${gu ? 'સમીક્ષા નોંધ / Review Note' : 'Review Note'}: ${q['review_note']}'))],
+            const SizedBox(height: 10), Text(gu ? '💡 Exam Tip: ${q['tip_gu']}' : '💡 Exam Tip: ${q['tip_en']}'),
+          ]))),
+          if (submitted && !widget.mock) FilledButton(onPressed: next, child: Text(i == widget.data.length - 1 ? (gu ? 'પરિણામ જુઓ' : 'View Result') : (gu ? 'આગળ' : 'Next'))),
+        ])),
+      ])));
+  }
+}
+
+class MistakeBookPage extends StatelessWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final Set<String> mistakes, bookmarks;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const MistakeBookPage({super.key, required this.gu, required this.data, required this.mistakes, required this.bookmarks, required this.onStateChanged});
+
+  @override
+  Widget build(BuildContext context) {
+    final qs = data.where((q) => mistakes.contains(q['id'].toString())).toList();
+    return Scaffold(
+      appBar: AppBar(title: Text(gu ? 'ભૂલ બુક' : 'Mistake Book')),
+      body: qs.isEmpty
+          ? Center(child: Text(gu ? 'હાલ કોઈ mistake saved નથી.' : 'No mistakes saved yet.'))
+          : ListView(padding: const EdgeInsets.all(14), children: [
+              Card(child: Padding(padding: const EdgeInsets.all(18), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Row(children: [const Icon(Icons.menu_book_rounded, size: 28, color: Color(0xFFEA580C)), const SizedBox(width: 10), Expanded(child: Text(gu ? '${qs.length} પ્રશ્નો રિવિઝન માટે' : '${qs.length} questions to revise', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)))]),
+                const SizedBox(height: 8),
+                Text(gu ? 'ખોટા જવાબમાંથી શીખો: સમજણ વાંચો અને ફરી પ્રશ્ન ઉકેલો.' : 'Turn wrong answers into learning: read the explanation, then solve them again.', style: const TextStyle(height: 1.35)),
+                const SizedBox(height: 14),
+                FilledButton.icon(
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: qs, gu: gu, title: 'Mistake Revision', practice: true, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: onStateChanged))),
+                  icon: const Icon(Icons.replay_rounded),
+                  label: Text(gu ? 'ભૂલ રિવિઝન ટેસ્ટ' : 'Mistake Revision Test'),
+                ),
+              ]))),
+              const SizedBox(height: 10),
+              ...qs.map((q) => Card(
+                margin: const EdgeInsets.only(bottom: 8),
+                child: ExpansionTile(
+                  leading: const CircleAvatar(child: Icon(Icons.error_outline_rounded)),
+                  title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()),
+                  subtitle: Text((q['topic'] ?? (gu ? 'સામાન્ય' : 'General')).toString()),
+                  childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                  children: [                    MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString(), style: const TextStyle(height: 1.35)),
+                    const SizedBox(height: 8),
+                    Text(gu ? '💡 ${q['tip_gu']}' : '💡 ${q['tip_en']}', style: const TextStyle(fontWeight: FontWeight.w700)),
+                  ],
+                ),
+              )),
+            ]),
+    );
+  }
+}
+
+class AnalyticsPage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  const AnalyticsPage({super.key, required this.gu, required this.data});
+  @override State<AnalyticsPage> createState() => _AnalyticsPageState();
+}
+
+class _AnalyticsPageState extends State<AnalyticsPage> {
+  int attempted = 0, correct = 0;
+  Map<String, int> attempts = {}, rights = {};
+
+  @override
+  void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final p = await SharedPreferences.getInstance();
+    final a = p.getInt('gset_total_attempted') ?? 0;
+    final r = p.getInt('gset_total_correct') ?? 0;
+    final am = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_attempts') ?? '{}'));
+    final rr = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_correct') ?? '{}'));
+    if (!mounted) return;
+    setState(() {
+      attempted = a;
+      correct = r;
+      attempts = am.map((k, v) => MapEntry(k, (v as num).toInt()));
+      rights = rr.map((k, v) => MapEntry(k, (v as num).toInt()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final accuracy = attempted == 0 ? 0 : (correct * 100 / attempted).round();
+    final topics = {...attempts.keys, ...rights.keys}.toList();
+    topics.sort((a, b) {
+      final aa = attempts[a] ?? 0, ab = attempts[b] ?? 0;
+      final pa = aa == 0 ? 0 : ((rights[a] ?? 0) * 100 / aa).round();
+      final pb = ab == 0 ? 0 : ((rights[b] ?? 0) * 100 / ab).round();
+      return pa.compareTo(pb);
+    });
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'મારું Analytics' : 'My Analytics')),
+      body: ListView(
+        padding: const EdgeInsets.all(14),
+        children: [
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? 'તમારું Performance' : 'Your Performance', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 14),
+              Row(children: [
+                Expanded(child: _stat(Icons.quiz_rounded, attempted.toString(), widget.gu ? 'પ્રયાસ' : 'Attempted')),
+                Expanded(child: _stat(Icons.check_circle_rounded, correct.toString(), widget.gu ? 'સાચા' : 'Correct')),
+                Expanded(child: _stat(Icons.percent_rounded, '$accuracy%', widget.gu ? 'Accuracy' : 'Accuracy')),
+              ]),
+              const SizedBox(height: 16),
+              LinearProgressIndicator(value: accuracy / 100, minHeight: 9),
+              const SizedBox(height: 8),
+              Text(widget.gu ? 'Accuracy = સાચા જવાબ ÷ કુલ attempted' : 'Accuracy = correct answers ÷ total attempted', style: const TextStyle(fontSize: 11)),
+            ]),
+          )),
+          const SizedBox(height: 12),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? '📊 Topic-wise Performance' : '📊 Topic-wise Performance', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 12),
+              if (topics.isEmpty)
+                Text(widget.gu ? 'હજુ topic data નથી. પ્રશ્નો solve કરો.' : 'No topic data yet. Solve some questions first.')
+              else
+                ...topics.map((topic) {
+                  final a = attempts[topic] ?? 0;
+                  final r = rights[topic] ?? 0;
+                  final pct = a == 0 ? 0 : (r * 100 / a).round();
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 13),
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Row(children: [
+                        Expanded(child: Text(topic, style: const TextStyle(fontWeight: FontWeight.w800))),
+                        Text('$pct%  ($r/$a)', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)),
+                      ]),
+                      const SizedBox(height: 6),
+                      LinearProgressIndicator(value: pct / 100, minHeight: 7),
+                    ]),
+                  );
+                }),
+            ]),
+          )),
+          const SizedBox(height: 12),
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Text(
+              widget.gu
+                ? '💡 Tip: ઓછા accuracy વાળા topic પર Targeted Practice કરો.'
+                : '💡 Tip: Use Targeted Practice for topics with lower accuracy.',
+              style: const TextStyle(fontWeight: FontWeight.w700, height: 1.35),
+            ),
+          )),
+        ],
+      ),
+    );
+  }
+
+  Widget _stat(IconData icon, String value, String label) => Column(children: [
+    Icon(icon, size: 27),
+    const SizedBox(height: 5),
+    Text(value, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+    Text(label, style: const TextStyle(fontSize: 11)),
+  ]);
+}
+
+class TargetedPracticePage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final String topic;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const TargetedPracticePage({super.key, required this.gu, required this.data, required this.topic, required this.bookmarks, required this.mistakes, required this.onStateChanged});
+  @override State<TargetedPracticePage> createState() => _TargetedPracticePageState();
+}
+
+class _TargetedPracticePageState extends State<TargetedPracticePage> {
+  @override
+  Widget build(BuildContext context) {
+    final qs = widget.data.where((q) => (q['topic'] ?? 'General').toString() == widget.topic).toList()..shuffle(Random());
+    final selected = qs.take(min(20, qs.length)).toList();
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'Targeted Practice' : 'Targeted Practice')),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Card(child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(widget.gu ? '🎯 Weak Topic Practice' : '🎯 Weak Topic Practice', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+              const SizedBox(height: 8),
+              Text(widget.topic, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+              const SizedBox(height: 6),
+              Text(widget.gu ? '${selected.length} પ્રશ્નો • Focused revision' : '${selected.length} questions • Focused revision'),
+            ]),
+          )),
+          const Spacer(),
+          SizedBox(width: double.infinity, child: FilledButton.icon(
+            onPressed: selected.isEmpty ? null : () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(
+              data: selected, gu: widget.gu,
+              title: widget.gu ? 'Targeted: ${widget.topic}' : 'Targeted: ${widget.topic}',
+              practice: true,
+              bookmarks: widget.bookmarks, mistakes: widget.mistakes,
+              onStateChanged: widget.onStateChanged,
+            ))),
+            icon: const Icon(Icons.play_arrow_rounded),
+            label: Text(widget.gu ? 'Practice શરૂ કરો' : 'Start Practice'),
+          )),
+        ]),
+      ),
+    );
+  }
+}
+
+class WeakAreasPage extends StatefulWidget {
+  final bool gu;
+  final List<Map<String, dynamic>> data;
+  final Set<String> mistakes, bookmarks;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const WeakAreasPage({super.key, required this.gu, required this.data, required this.mistakes, required this.bookmarks, required this.onStateChanged});
+  @override State<WeakAreasPage> createState() => _WeakAreasPageState();
+}
+
+class _WeakAreasPageState extends State<WeakAreasPage> {
+  Map<String, int> attempts = {};
+  Map<String, int> correct = {};
+
+  @override
+  void initState() { super.initState(); _load(); }
+
+  Future<void> _load() async {
+    final p = await SharedPreferences.getInstance();
+    final a = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_attempts') ?? '{}'));
+    final r = Map<String, dynamic>.from(jsonDecode(p.getString('gset_topic_correct') ?? '{}'));
+    if (!mounted) return;
+    setState(() {
+      attempts = a.map((k, v) => MapEntry(k, (v as num).toInt()));
+      correct = r.map((k, v) => MapEntry(k, (v as num).toInt()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final topics = {...attempts.keys, ...correct.keys}.toList();
+    topics.sort((a, b) {
+      final aa = attempts[a] ?? 0, ab = attempts[b] ?? 0;
+      final pa = aa == 0 ? 0 : (correct[a] ?? 0) / aa;
+      final pb = ab == 0 ? 0 : (correct[b] ?? 0) / ab;
+      return pa.compareTo(pb);
+    });
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.gu ? 'મારા નબળા વિષયો' : 'My Weak Areas')),
+      body: topics.isEmpty
+          ? Center(child: Text(widget.gu ? 'થોડા પ્રશ્નો solve કરો; પછી topic analysis અહીં દેખાશે.' : 'Solve a few questions and your topic analysis will appear here.'))
+          : ListView(padding: const EdgeInsets.all(14), children: [
+              Card(child: Padding(padding: const EdgeInsets.all(18), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(widget.gu ? '🎯 લક્ષિત પ્રેક્ટિસ' : '🎯 Targeted Practice', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 6),
+                Text(widget.gu ? 'ઓછા accuracy વાળા topics પર focus કરો.' : 'Focus your revision on topics with lower accuracy.', style: const TextStyle(height: 1.35)),
+              ]))),
+              const SizedBox(height: 10),
+              ...topics.map((topic) {
+                final a = attempts[topic] ?? 0;
+                final r = correct[topic] ?? 0;
+                final pct = a == 0 ? 0 : (r * 100 / a).round();
+                final topicQs = widget.data.where((q) => (q['topic'] ?? 'General').toString() == topic).toList();
+                final revisionQs = topicQs.where((q) => widget.mistakes.contains(q['id'].toString())).toList();
+                final practiceQs = revisionQs.isNotEmpty ? revisionQs : topicQs;
+                return Card(
+                  margin: const EdgeInsets.only(bottom: 9),
+                  child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Row(children: [
+                      Expanded(child: Text(topic, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900))),
+                      Container(padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5), decoration: BoxDecoration(color: pct < 60 ? const Color(0xFFFFE8DD) : const Color(0xFFE7F8F1), borderRadius: BorderRadius.circular(10)), child: Text('$pct%', style: const TextStyle(fontWeight: FontWeight.w900))),
+                    ]),
+                    const SizedBox(height: 6),
+                    Text('$r / $a correct • Mistakes: ${revisionQs.length}', style: const TextStyle(fontSize: 12)),
+                    const SizedBox(height: 7),
+                    LinearProgressIndicator(value: pct / 100, minHeight: 7),
+                    const SizedBox(height: 10),
+                    Align(alignment: Alignment.centerRight, child: FilledButton.icon(
+                      onPressed: practiceQs.isEmpty ? null : () => Navigator.push(context, MaterialPageRoute(builder: (_) => TestPage(data: [...practiceQs]..shuffle(), gu: widget.gu, title: 'Targeted Practice • $topic', practice: true, bookmarks: widget.bookmarks, mistakes: widget.mistakes, onStateChanged: widget.onStateChanged))),
+                      icon: const Icon(Icons.bolt_rounded, size: 18),
+                      label: Text(widget.gu ? 'પ્રેક્ટિસ' : 'Practice'),
+                    )),
+                  ])),
+                );
+              }),
+            ]),
+    );
+  }
+}
+
+class ResultPage extends StatelessWidget {
+  final String title; final int score, total, attempted; final bool gu, practice, mock;
+  final List<Map<String, dynamic>> questions; final Map<int, String> answers;
+  final Set<String> bookmarks, mistakes;
+  final Future<void> Function(Set<String>, Set<String>) onStateChanged;
+  const ResultPage({super.key, required this.title, required this.score, required this.total, required this.attempted, required this.gu, required this.questions, required this.answers, required this.bookmarks, required this.mistakes, required this.onStateChanged, required this.practice, this.mock = false});
+  @override Widget build(BuildContext context) {
+    final pct = total == 0 ? 0.0 : score * 100.0 / total;
+    return Scaffold(appBar: AppBar(title: Text(gu ? 'પરિણામ' : 'Result')), body: ListView(padding: const EdgeInsets.all(20), children: [
+      Card(child: Padding(padding: const EdgeInsets.all(22), child: Column(children: [const Icon(Icons.emoji_events_outlined, size: 64), const SizedBox(height: 12), Text(title, style: Theme.of(context).textTheme.titleLarge, textAlign: TextAlign.center), const SizedBox(height: 10), Text('$score / $total', style: Theme.of(context).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.bold)), Text('${pct.toStringAsFixed(1)}%', style: Theme.of(context).textTheme.headlineSmall), const SizedBox(height: 8), Text(gu ? 'પ્રયાસ કરેલા પ્રશ્નો: $attempted / ${questions.length}' : 'Attempted: $attempted / ${questions.length}')]))),      const SizedBox(height: 14),
+      Row(children: [Expanded(child: FilledButton.icon(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ReviewPage(title: title, questions: questions, answers: answers, gu: gu))), icon: const Icon(Icons.fact_check_outlined), label: Text(gu ? 'Review' : 'Review'))), const SizedBox(width: 10), Expanded(child: OutlinedButton.icon(onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => TestPage(data: questions, gu: gu, title: title, practice: practice, mock: mock, bookmarks: bookmarks, mistakes: mistakes, onStateChanged: onStateChanged))), icon: const Icon(Icons.refresh), label: Text(gu ? 'ફરી ટેસ્ટ' : 'Retry')))]),
+      const SizedBox(height: 10), OutlinedButton.icon(onPressed: () => Navigator.pop(context), icon: const Icon(Icons.home_outlined), label: Text(gu ? 'હોમ' : 'Home')),
+    ]));
+  }
+}
+
+class ReviewPage extends StatelessWidget {
+  final String title; final List<Map<String, dynamic>> questions; final Map<int, String> answers; final bool gu;
+  const ReviewPage({super.key, required this.title, required this.questions, required this.answers, required this.gu});
+  @override Widget build(BuildContext context) => Scaffold(appBar: AppBar(title: Text(gu ? 'જવાબોની સમીક્ષા' : 'Answer Review')), body: ListView.builder(padding: const EdgeInsets.all(14), itemCount: questions.length, itemBuilder: (_, i) {
+    final q = questions[i]; final correct = q['answer'] as String; final selected = answers[i]; final notEval = {'Z', 'X'}.contains(correct); final ok = !notEval && selected == correct;
+    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()), subtitle: Text(selected == null ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())]));
+  }));
+}, dotAll: true);
+    final spans = <InlineSpan>[];
+    var cursor = 0;
+    for (final match in pattern.allMatches(text)) {
+      if (match.start > cursor) spans.add(TextSpan(text: text.substring(cursor, match.start)));
+      final tex = (match.group(1) ?? match.group(2) ?? match.group(3) ?? '').trim();
+      spans.add(WidgetSpan(
+        alignment: PlaceholderAlignment.middle,
+        child: Math.tex(tex, textStyle: style, onErrorFallback: (err) => Text(tex, style: style)),
+      ));
+      cursor = match.end;
+    }
+    if (cursor < text.length) spans.add(TextSpan(text: text.substring(cursor)));
+    if (spans.isEmpty) spans.add(TextSpan(text: text));
+    return RichText(textAlign: textAlign, text: TextSpan(style: style, children: spans));
+  }
 }
 
 class GsetApp extends StatelessWidget {
@@ -1804,14 +3954,14 @@ class _TestPageState extends State<TestPage> {
               ),
             ),
           Wrap(spacing: 8, runSpacing: 6, children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
-          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: Text(gu ? q['question_gu'] : q['question_en'], style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
+          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString(), style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
           if (opts.isEmpty || opts.every((option) => option.trim().isEmpty)) Card(color: Theme.of(context).colorScheme.errorContainer, child: Padding(padding: const EdgeInsets.all(12), child: Text(gu ? 'આ પ્રશ્નના વિકલ્પોનો ડેટા ઉપલબ્ધ નથી. આ પ્રશ્ન રિવ્યૂ માટે રિપોર્ટ કરો.' : 'Options are missing in this question data. Please report this question for review.'))),
           ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (!widget.mock && submitted && right) fill = Colors.green.withValues(alpha: .15); if (!widget.mock && submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
             // Flutter 3.38 deprecates RadioListTile.groupValue/onChanged in favor of RadioGroup.
             // Keep the current behavior intact until the RadioGroup migration is made in a dedicated UI refactor.
             // ignore: deprecated_member_use
-            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: Text('$letter. ${_displayOption(opts[j], j)}'))); }),
+            RadioListTile<String>(value: letter, groupValue: selected, onChanged: submitted && !widget.mock ? null : (v) => widget.mock ? _selectMockAnswer(v) : setState(() => selected = v), title: MathAwareText(text: '$letter. ${_displayOption(opts[j], j)}', style: Theme.of(context).textTheme.bodyLarge))); }),
           const SizedBox(height: 8),
           if (widget.mock)
             Row(children: [
@@ -1823,7 +3973,7 @@ class _TestPageState extends State<TestPage> {
             FilledButton.icon(onPressed: selected == null ? null : submit, icon: const Icon(Icons.check), label: Text(gu ? 'જવાબ Submit કરો' : 'Submit Answer')),
           if (submitted && !widget.mock) Card(child: Padding(padding: const EdgeInsets.all(14), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(notEval ? (gu ? '⚠️ સત્તાવાર key મુજબ evaluationમાં ગણાતો નથી.' : '⚠️ Not evaluated according to the official key.') : (isCorrect ? (gu ? '✅ સાચો જવાબ' : '✅ Correct') : (gu ? '❌ ખોટો જવાબ' : '❌ Wrong')), style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-            if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), Text(gu ? q['explanation_gu'] : q['explanation_en'])],
+            if (!notEval) ...[const SizedBox(height: 8), Text('${gu ? 'સાચો જવાબ' : 'Correct Answer'}: $correct'), const Divider(), MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())],
             if (q['review_flag'] == true) ...[const SizedBox(height: 10), Container(width: double.infinity, padding: const EdgeInsets.all(10), decoration: BoxDecoration(color: Colors.amber.withValues(alpha: .16), borderRadius: BorderRadius.circular(8)), child: Text('⚠️ ${gu ? 'સમીક્ષા નોંધ / Review Note' : 'Review Note'}: ${q['review_note']}'))],
             const SizedBox(height: 10), Text(gu ? '💡 Exam Tip: ${q['tip_gu']}' : '💡 Exam Tip: ${q['tip_en']}'),
           ]))),
@@ -1864,10 +4014,10 @@ class MistakeBookPage extends StatelessWidget {
                 margin: const EdgeInsets.only(bottom: 8),
                 child: ExpansionTile(
                   leading: const CircleAvatar(child: Icon(Icons.error_outline_rounded)),
-                  title: Text(gu ? q['question_gu'] : q['question_en'], maxLines: 2, overflow: TextOverflow.ellipsis),
+                  title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()),
                   subtitle: Text((q['topic'] ?? (gu ? 'સામાન્ય' : 'General')).toString()),
                   childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  children: [                    Text(gu ? q['explanation_gu'] : q['explanation_en'], style: const TextStyle(height: 1.35)),
+                  children: [                    MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString(), style: const TextStyle(height: 1.35)),
                     const SizedBox(height: 8),
                     Text(gu ? '💡 ${q['tip_gu']}' : '💡 ${q['tip_en']}', style: const TextStyle(fontWeight: FontWeight.w700)),
                   ],
@@ -2136,6 +4286,6 @@ class ReviewPage extends StatelessWidget {
   const ReviewPage({super.key, required this.title, required this.questions, required this.answers, required this.gu});
   @override Widget build(BuildContext context) => Scaffold(appBar: AppBar(title: Text(gu ? 'જવાબોની સમીક્ષા' : 'Answer Review')), body: ListView.builder(padding: const EdgeInsets.all(14), itemCount: questions.length, itemBuilder: (_, i) {
     final q = questions[i]; final correct = q['answer'] as String; final selected = answers[i]; final notEval = {'Z', 'X'}.contains(correct); final ok = !notEval && selected == correct;
-    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), title: Text(gu ? q['question_gu'] : q['question_en']), subtitle: Text(selected == null ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) Text(gu ? q['explanation_gu'] : q['explanation_en'])]));
+    return Card(margin: const EdgeInsets.only(bottom: 10), child: ExpansionTile(leading: CircleAvatar(child: Text('${i + 1}')), title: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString()), subtitle: Text(selected == null ? (gu ? 'અનઉત્તરિત' : 'Unanswered') : '${gu ? 'તમારો જવાબ' : 'Your answer'}: $selected • ${notEval ? 'Not evaluated' : (ok ? 'Correct' : 'Wrong')}'), childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16), children: [Text('Correct Answer: ${notEval ? '—' : correct}'), const SizedBox(height: 8), if (!notEval) MathAwareText(text: (gu ? q['explanation_gu'] : q['explanation_en']).toString())]));
   }));
 }
