@@ -48,6 +48,7 @@ def main():
     metadata = {p.get("paper_id"): p for p in meta["papers"]}
     question_flags = Counter()
     option_errors, bad_answers, generic, suspicious = [], [], [], []
+    key_mismatches, missing_key_provenance = [], []
     for q in questions:
         qid = str(q.get("id") or "<missing-id>")
         pid = str(q.get("paper_id") or q.get("paperId") or "")
@@ -92,6 +93,22 @@ def main():
         )
         if p.get("answer_key_verified") is True and not has_verified_key:
             unverified_key.append(session)
+        if has_verified_key:
+            expected_source = str(key_path.relative_to(BASE.parents[2]))
+            for item in questions:
+                if str(item.get("paper_id") or item.get("paperId") or "") != pid:
+                    continue
+                match = re.search(r"_q(\\d+)$", str(item.get("id") or ""), re.I)
+                if not match:
+                    continue
+                number = match.group(1)
+                official = answers.get(number)
+                if official is None:
+                    continue
+                if item.get("answer") != official:
+                    key_mismatches.append(f"{item.get('id')}: bank={item.get('answer')}, official={official}")
+                if item.get("answer_key_verified") is not True or item.get("answer_key_source") != expected_source:
+                    missing_key_provenance.append(str(item.get("id")))
         if p.get("source_verified") is True or p.get("question_source_verified") is True:
             # Metadata cannot self-certify. Question-level records need separate provenance.
             if found != expected or any(q.get("paper_id") == pid and q.get("source_verified") is not True
@@ -100,12 +117,15 @@ def main():
 
     if papers_missing_metadata: errors.append("missing paper metadata: " + ", ".join(papers_missing_metadata))
     if falsely_verified: errors.append("sessions claim source verification without complete verified records: " + ", ".join(falsely_verified))
+    if key_mismatches: errors.append("answer mismatches against verified official keys: " + "; ".join(key_mismatches[:20]))
+    if missing_key_provenance: errors.append("records matched to verified official keys but missing answer-key provenance: " + ", ".join(missing_key_provenance[:20]))
     warnings.append(f"session counts incomplete: {len(incomplete)}/19 ({'; '.join(incomplete)})")
     warnings.append(f"answer-key metadata unsupported by a complete verified key JSON: {len(unverified_key)} ({', '.join(unverified_key) or 'none'})")
     warnings.append(f"generic/empty explanations: {len(generic)} question records")
     warnings.append(f"OCR/footer contamination patterns: {len(suspicious)} question records")
     warnings.append(f"review_flag true: {question_flags['review_flag_true']}/{len(questions)}")
     warnings.append(f"source_verified true: {question_flags['source_verified_true']}/{len(questions)}")
+    warnings.append(f"question records cross-checked against official verified answer keys: {sum(1 for q in questions if q.get('answer_key_verified') is True)}/{len(questions)}")
     print(f"Mathematical Sciences Paper-II audit: {len(questions)} records, {len(EXPECTED)} sessions, expected total {sum(EXPECTED.values())}")
     for warning in warnings: print("WARNING: " + warning)
     if option_errors: print("OPTION ERRORS (first 20): " + ", ".join(option_errors[:20]))
