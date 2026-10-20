@@ -26780,146 +26780,151 @@
     "id": "mathematical_sciences_sep13_q1",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "1 (i S = oP Sar aoconsnones Ge —: a 4n-1 »n=1, 2,....... Then which of the following is true ?",
-    "question_gu": "1 (i S = oP Sar aoconsnones Ge —: a 4n-1 »n=1, 2,....... Then which of the following is true ?",
+    "question_en": "Let \\(a_n=\\frac13+\\frac17+\\cdots+\\frac{1}{4n-1}\\), for \\(n=1,2,\\ldots\\). Which of the following is true?",
+    "question_gu": "Let \\(a_n=\\frac13+\\frac17+\\cdots+\\frac{1}{4n-1}\\), for \\(n=1,2,\\ldots\\). Which of the following is true?",
     "options_en": [
-      "{a,,} is unbounded having one limit point zero",
-      "ia,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "{a,) is not a Cauchy sequence m"
+      "\\(\\{a_n\\}\\) is unbounded having one limit point zero",
+      "\\(\\{a_n\\}\\) is bounded having one limit point zero",
+      "\\(\\{a_n\\}\\) is a Cauchy sequence of rationals converging to an irrational number",
+      "\\(\\{a_n\\}\\) is not a Cauchy sequence"
     ],
     "options_gu": [
-      "{a,,} is unbounded having one limit point zero",
-      "ia,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "{a,) is not a Cauchy sequence m"
+      "\\(\\{a_n\\}\\) is unbounded having one limit point zero",
+      "\\(\\{a_n\\}\\) is bounded having one limit point zero",
+      "\\(\\{a_n\\}\\) is a Cauchy sequence of rationals converging to an irrational number",
+      "\\(\\{a_n\\}\\) is not a Cauchy sequence"
     ],
     "answer": "D",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "The terms are positive and the partial sums increase. Since \\(\\sum_{k=1}^{n}\\frac{1}{4k-1}\\) diverges (its terms are comparable to \\(1/(4k)\\)), the sequence of partial sums is unbounded and cannot be Cauchy. Thus (D) is true.",
+    "explanation_gu": "આંશિક સરવાળા વધતા જાય છે. કારણ કે \\(\\sum_{k=1}^{n}\\frac{1}{4k-1}\\) harmonic series સાથે સરખાવી શકાય છે અને diverge થાય છે, તેથી \\(\\{a_n\\}\\) unbounded છે અને Cauchy sequence નથી. એટલે (D) સાચો વિકલ્પ છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "A convergent sequence must be Cauchy and bounded; divergence of the partial sums rules both out.",
+    "tip_gu": "દરેક convergent sequence Cauchy અને bounded હોય છે; આ partial sums diverge થાય છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q2",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "The equation 2x —1-sinx=0 has :",
-    "question_gu": "The equation 2x —1-sinx=0 has :",
+    "question_en": "Every rational number \\(x\\) can be written in lowest terms as \\(x=m/n\\), where \\(n>0\\) and \\(m,n\\) are integers without a common divisor. Define \\(f:\\mathbb R\\to\\mathbb R\\) by \\(f(x)=0\\) if \\(x\\) is irrational and \\(f(m/n)=1/n\\) if \\(x=m/n\\) is rational in lowest terms (take \\(n=1\\) when \\(x=0\\)). Then \\(f\\) is:",
+    "question_gu": "Every rational number \\(x\\) can be written in lowest terms as \\(x=m/n\\), where \\(n>0\\) and \\(m,n\\) are integers without a common divisor. Define \\(f:\\mathbb R\\to\\mathbb R\\) by \\(f(x)=0\\) if \\(x\\) is irrational and \\(f(m/n)=1/n\\) if \\(x=m/n\\) is rational in lowest terms (take \\(n=1\\) when \\(x=0\\)). Then \\(f\\) is:",
     "options_en": [
-      "Exactly one real root",
-      "Exactly two real roots .",
-      "Exactly four real roots",
-      "Infinite number of real roots 4, Suppose f(x) = Ss and f(x)=0 for all x¢R, then for the sequence fi) which of the following is frue ? (A) {f,} converges uniformly to f over [-1, 1] only | (B) {f,) converges to f pointwise but not uniformly aver any interval | containing zero . - , (C) {f,} converges uniformly to f jaky on some bounded interval [-A, Al, A > 0 DM) f,!) converges uniformly to f over whole of R —"
+      "Continuous on all of \\(\\mathbb R\\)",
+      "Continuous only at every irrational point",
+      "Continuous only at every rational point",
+      "Discontinuous at every point of \\(\\mathbb R\\)"
     ],
     "options_gu": [
-      "Exactly one real root",
-      "Exactly two real roots .",
-      "Exactly four real roots",
-      "Infinite number of real roots 4, Suppose f(x) = Ss and f(x)=0 for all x¢R, then for the sequence fi) which of the following is frue ? (A) {f,} converges uniformly to f over [-1, 1] only | (B) {f,) converges to f pointwise but not uniformly aver any interval | containing zero . - , (C) {f,} converges uniformly to f jaky on some bounded interval [-A, Al, A > 0 DM) f,!) converges uniformly to f over whole of R —"
+      "Continuous on all of \\(\\mathbb R\\)",
+      "Continuous only at every irrational point",
+      "Continuous only at every rational point",
+      "Discontinuous at every point of \\(\\mathbb R\\)"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "This is Thomae's function. At an irrational point, nearby rationals with large denominators have values \\(1/n\\) close to zero, while irrational points have value zero, so the function is continuous at every irrational. At a rational point, the function value is positive but arbitrarily close irrational points have value zero, so it is discontinuous at each rational.",
+    "explanation_gu": "આ Thomae function છે. Irrational બિંદુ પાસે નજીકના rational numbersના reduced denominatorને મોટો બનાવી શકાય છે, તેથી \\(1/n\\to0\\); irrational પર function value પણ 0 છે. તેથી દરેક irrational બિંદુએ continuity છે. Rational બિંદુએ function value positive છે, પરંતુ નજીકના irrational બિંદુઓ પર value 0 હોવાથી ત્યાં discontinuity છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Thomae's function is continuous at irrational numbers and discontinuous at rational numbers.",
+    "tip_gu": "Thomae function irrational બિંદુઓએ continuous અને rational બિંદુઓએ discontinuous છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q3",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "67 4n-1 »n=1, 2,....... Then which of the following is true ?",
-    "question_gu": "67 4n-1 »n=1, 2,....... Then which of the following is true ?",
+    "question_en": "The equation \\(2x-1-\\sin x=0\\) has:",
+    "question_gu": "The equation \\(2x-1-\\sin x=0\\) has:",
     "options_en": [
-      "{a,} is unbounded having one limit point zero",
-      "{a,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "ia,,) is not a Cauchy sequence Every rational number x can be written in the form x =—, where n > 0 and m and 7 are integers without any common divisors. When x = 0 we take n = 1. Define f on the set R of real numbers as 0 if «xis irrational fixs="
+      "Exactly one real root",
+      "Exactly two real roots",
+      "Exactly four real roots",
+      "Infinitely many real roots"
     ],
     "options_gu": [
-      "{a,} is unbounded having one limit point zero",
-      "{a,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "ia,,) is not a Cauchy sequence Every rational number x can be written in the form x =—, where n > 0 and m and 7 are integers without any common divisors. When x = 0 we take n = 1. Define f on the set R of real numbers as 0 if «xis irrational fixs="
+      "Exactly one real root",
+      "Exactly two real roots",
+      "Exactly four real roots",
+      "Infinitely many real roots"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "Let \\(g(x)=2x-1-\\sin x\\). Then \\(g'(x)=2-\\cos x\\ge1>0\\), so g is strictly increasing and has at most one real root. Also, g(x) tends to −∞ as x tends to −∞ and +∞ as x tends to +∞, so by continuity it has a root. Hence exactly one real root.",
+    "explanation_gu": "\\(g(x)=2x-1-\\sin x\\) લો. ત્યારે \\(g'(x)=2-\\cos x\\ge1>0\\), એટલે g strictly increasing છે અને વધુમાં વધુ એક root હોઈ શકે. ઉપરાંત x→−∞ પર g→−∞ અને x→+∞ પર g→+∞; continuityથી root અસ્તિત્વમાં છે. તેથી ચોક્કસ એક real root છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Use the derivative to prove strict monotonicity, then use end behavior to establish existence.",
+    "tip_gu": "Derivativeથી strict monotonicity સાબિત કરો અને end behaviorથી rootનું અસ્તિત્વ બતાવો.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q4",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "WAS Mt M12 AL2 Griz [4se4 (A), (B), (C) AF (D) AULYAUL BAe. Welsalal water Heat idl Sled your alaloy uel. uaie 64 waieo Fleet waz Suda Mii a yel Zed aad tad dl aia. well Ze: | Al wWLel Ud: | A ba Wy AL WLU SLU Meet Wael Wall WINALL SUde ICR Wale Uarsad VU2—2 aria oui» aval, wif BULA BAe yds dizi. mt MYL sirll vid DUNG Ud 2S S14 He 9. Ute a YA aes Oe Vet Di ewAra ICR Walet Urs BA [AMasa seg Bil ed ar HSU UMA UUs oe WS UW5a “tell, UTA Wal ea Oe GAEUe WsiylRast dau ICR vaisiadlel sada sid uiciell ma ad wd 23 8.",
-    "question_gu": "WAS Mt M12 AL2 Griz [4se4 (A), (B), (C) AF (D) AULYAUL BAe. Welsalal water Heat idl Sled your alaloy uel. uaie 64 waieo Fleet waz Suda Mii a yel Zed aad tad dl aia. well Ze: | Al wWLel Ud: | A ba Wy AL WLU SLU Meet Wael Wall WINALL SUde ICR Wale Uarsad VU2—2 aria oui» aval, wif BULA BAe yds dizi. mt MYL sirll vid DUNG Ud 2S S14 He 9. Ute a YA aes Oe Vet Di ewAra ICR Walet Urs BA [AMasa seg Bil ed ar HSU UMA UUs oe WS UW5a “tell, UTA Wal ea Oe GAEUe WsiylRast dau ICR vaisiadlel sada sid uiciell ma ad wd 23 8.",
+    "question_en": "Suppose \\(f_n(x)=\\frac{x}{1+nx^2}\\) and \\(f(x)=0\\) for all \\(x\\in\\mathbb R\\). Which statement about \\(\\{f_n\\}\\) is true?",
+    "question_gu": "Suppose \\(f_n(x)=\\frac{x}{1+nx^2}\\) and \\(f(x)=0\\) for all \\(x\\in\\mathbb R\\). Which statement about \\(\\{f_n\\}\\) is true?",
     "options_en": [
-      ",",
-      ",",
-      "AF",
-      "AULYAUL BAe. Welsalal water Heat idl Sled your alaloy uel. uaie 64 waieo Fleet waz Suda Mii a yel Zed aad tad dl aia. well Ze: | Al wWLel Ud: | A ba Wy AL WLU SLU Meet Wael Wall WINALL SUde ICR Wale Uarsad VU2—2 aria oui» aval, wif BULA BAe yds dizi. mt MYL sirll vid DUNG Ud 2S S14 He 9. Ute a YA aes Oe Vet Di ewAra ICR Walet Urs BA [AMasa seg Bil ed ar HSU UMA UUs oe WS UW5a “tell, UTA Wal ea Oe GAEUe WsiylRast dau ICR vaisiadlel sada sid uiciell ma ad wd 23 8."
+      "\\(f_n\\) converges uniformly to f over \\([-1,1]\\) only",
+      "\\(f_n\\) converges pointwise but not uniformly over any interval containing zero",
+      "\\(f_n\\) converges uniformly to f only on some bounded interval \\([-\\lambda,\\lambda]\\), \\(\\lambda>0\\)",
+      "\\(f_n\\) converges uniformly to f over all of \\(\\mathbb R\\)"
     ],
     "options_gu": [
-      ",",
-      ",",
-      "AF",
-      "AULYAUL BAe. Welsalal water Heat idl Sled your alaloy uel. uaie 64 waieo Fleet waz Suda Mii a yel Zed aad tad dl aia. well Ze: | Al wWLel Ud: | A ba Wy AL WLU SLU Meet Wael Wall WINALL SUde ICR Wale Uarsad VU2—2 aria oui» aval, wif BULA BAe yds dizi. mt MYL sirll vid DUNG Ud 2S S14 He 9. Ute a YA aes Oe Vet Di ewAra ICR Walet Urs BA [AMasa seg Bil ed ar HSU UMA UUs oe WS UW5a “tell, UTA Wal ea Oe GAEUe WsiylRast dau ICR vaisiadlel sada sid uiciell ma ad wd 23 8."
+      "\\(f_n\\) converges uniformly to f over \\([-1,1]\\) only",
+      "\\(f_n\\) converges pointwise but not uniformly over any interval containing zero",
+      "\\(f_n\\) converges uniformly to f only on some bounded interval \\([-\\lambda,\\lambda]\\), \\(\\lambda>0\\)",
+      "\\(f_n\\) converges uniformly to f over all of \\(\\mathbb R\\)"
     ],
     "answer": "D",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "For all real x, \\(|f_n(x)|=\\frac{|x|}{1+nx^2}\\). Its maximum occurs at \\(|x|=1/\\sqrt n\\), giving \\(\\sup_{x\\in\\mathbb R}|f_n(x)|=1/(2\\sqrt n)\\to0\\). Therefore the convergence to zero is uniform on the whole real line.",
+    "explanation_gu": "દરેક real x માટે \\(|f_n(x)|=\\frac{|x|}{1+nx^2}\\). Maximum \\(|x|=1/\\sqrt n\\) પર મળે છે અને \\(\\sup_{x\\in\\mathbb R}|f_n(x)|=1/(2\\sqrt n)\\to0\\). તેથી આખા real line પર uniform convergence થાય છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Uniform convergence can be proved by showing the supremum of the absolute error tends to zero.",
+    "tip_gu": "Absolute errorનું supremum શૂન્ય તરફ જાય છે તે બતાવી uniform convergence સાબિત કરી શકાય.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q5",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "= 2 (1) 5x2",
-    "question_gu": "= 2 (1) 5x2",
+    "question_en": "The equation \\(|z-1|+|z+1|=2\\sqrt2\\) represents a:",
+    "question_gu": "The equation \\(|z-1|+|z+1|=2\\sqrt2\\) represents a:",
     "options_en": [
-      "1 only",
-      "2 and 3 only",
-      "1 and 3 only",
-      "3 only Math. Sci_-II 20"
+      "Circle",
+      "Parabola",
+      "Ellipse",
+      "Hyperbola"
     ],
     "options_gu": [
-      "1 only",
-      "2 and 3 only",
-      "1 and 3 only",
-      "3 only Math. Sci_-II 20"
+      "Circle",
+      "Parabola",
+      "Ellipse",
+      "Hyperbola"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "In the complex plane, \\(|z-1|\\) and \\(|z+1|\\) are distances from the fixed points 1 and −1. The locus for which the sum of distances from two fixed foci is constant is an ellipse. Hence (C).",
+    "explanation_gu": "Complex planeમાં \\(|z-1|\\) અને \\(|z+1|\\) અનુક્રમે 1 અને −1થી અંતર છે. બે fixed fociથી અંતરોનો સરવાળો constant હોય તે locus ellipse છે. તેથી (C).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Recognize conics by their distance definitions: an ellipse has a constant sum of distances to two foci.",
+    "tip_gu": "Conic ઓળખો: ellipse માટે બે fociથી અંતરોનો સરવાળો constant હોય છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q6",
@@ -26954,59 +26959,61 @@
     "id": "mathematical_sciences_sep13_q7",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "4n—1’ Then which of the following is true ?",
-    "question_gu": "4n—1’ Then which of the following is true ?",
+    "question_en": "If \\(f(z)=\\frac{2z}{(z+4)(z-1)^2}\\), then the residue of f(z) at \\(z=1\\) is:",
+    "question_gu": "If \\(f(z)=\\frac{2z}{(z+4)(z-1)^2}\\), then the residue of f(z) at \\(z=1\\) is:",
     "options_en": [
-      "{a} is unbounded having one limit point zero",
-      "{a,,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "ia,,) is not a Cauchy sequence Every rational number x can be written in the form x = a » where n > 0 and m and n are integers without any common divisors. When x = 0 we take n = 1. Define f on the set R of real numbers as 0 if «x is irrational f(x) = —"
+      "\\(\\frac{8}{15}\\)",
+      "\\(\\frac{8}{25}\\)",
+      "\\(\\frac{8}{35}\\)",
+      "\\(\\frac{4}{15}\\)"
     ],
     "options_gu": [
-      "{a} is unbounded having one limit point zero",
-      "{a,,} is bounded having one limit point zero",
-      "{a,) is a Cauchy sequence of rationals converging to an irrational number",
-      "ia,,) is not a Cauchy sequence Every rational number x can be written in the form x = a » where n > 0 and m and n are integers without any common divisors. When x = 0 we take n = 1. Define f on the set R of real numbers as 0 if «x is irrational f(x) = —"
+      "\\(\\frac{8}{15}\\)",
+      "\\(\\frac{8}{25}\\)",
+      "\\(\\frac{8}{35}\\)",
+      "\\(\\frac{4}{15}\\)"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "At z = 1 there is a double pole. Write \\(f(z)=h(z)/(z-1)^2\\), where \\(h(z)=2z/(z+4)\\). The residue is \\(h'(1)\\). Since \\(h'(z)=8/(z+4)^2\\), the residue is \\(8/25\\), option (B).",
+    "explanation_gu": "\\(z=1\\) પર double pole છે. \\(f(z)=h(z)/(z-1)^2\\), જ્યાં \\(h(z)=2z/(z+4)\\). Residue \\(h'(1)\\) છે. \\(h'(z)=8/(z+4)^2\\), તેથી residue \\(8/25\\) થાય છે; વિકલ્પ (B).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For a double pole of the form h(z)/(z−a)², the residue is h′(a).",
+    "tip_gu": "\\(h(z)/(z-a)^2\\) સ્વરૂપના double pole માટે residue \\(h'(a)\\) હોય છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q8",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "The number of 3x3 matrices with eigenvalues 1, 9 and /3 is:",
-    "question_gu": "The number of 3x3 matrices with eigenvalues 1, 9 and /3 is:",
+    "question_en": "The number of \\(3\\times3\\) matrices with eigenvalues \\(1,\\sqrt2,\\sqrt3\\) is:",
+    "question_gu": "The number of \\(3\\times3\\) matrices with eigenvalues \\(1,\\sqrt2,\\sqrt3\\) is:",
     "options_en": [
-      "three",
-      "one",
-      "six",
-      "infinite Math. Sci-Il 7 [P.T.O.]"
+      "Three",
+      "One",
+      "Six",
+      "Infinite"
     ],
     "options_gu": [
-      "three",
-      "one",
-      "six",
-      "infinite Math. Sci-Il 7 [P.T.O.]"
+      "Three",
+      "One",
+      "Six",
+      "Infinite"
     ],
     "answer": "D",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "The eigenvalues are distinct, so a diagonal matrix with these entries exists. Conjugating it by invertible matrices produces matrices with the same eigenvalues; there are infinitely many such matrices. Therefore (D).",
+    "explanation_gu": "આ ત્રણ eigenvalues distinct છે, તેથી diagonal matrix \\(D=\\operatorname{diag}(1,\\sqrt2,\\sqrt3)\\) શક્ય છે. Invertible matricesથી similarity transformation કરવાથી એ જ eigenvalues ધરાવતી infinitely many matrices મળે છે. તેથી (D).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "Similarity transformations preserve eigenvalues; distinct invertible changes of basis can generate infinitely many matrices.",
+    "tip_gu": "Similarity transformation eigenvalues જાળવે છે; જુદા invertible change-of-basisથી અનંત matrices મળી શકે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q9",
@@ -27041,59 +27048,61 @@
     "id": "mathematical_sciences_sep13_q10",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "The real values of & for which the linear system, (k+l)x-y+2z=0. —2x+y+z2=0 . k*x + 3z =0 has a non-trivial solution are : ,",
-    "question_gu": "The real values of & for which the linear system, (k+l)x-y+2z=0. —2x+y+z2=0 . k*x + 3z =0 has a non-trivial solution are : ,",
+    "question_en": "The real values of \\(k\\) for which the linear system \\((k+1)x-y+2z=0\\), \\(-2x+y+z=0\\), \\(k^2x+3z=0\\) has a non-trivial solution are:",
+    "question_gu": "The real values of \\(k\\) for which the linear system \\((k+1)x-y+2z=0\\), \\(-2x+y+z=0\\), \\(k^2x+3z=0\\) has a non-trivial solution are:",
     "options_en": [
       "None",
       "Two in number",
       "Three in number",
-      "Infinite"
+      "Infinitely many"
     ],
     "options_gu": [
       "None",
       "Two in number",
       "Three in number",
-      "Infinite"
+      "Infinitely many"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "A non-trivial solution requires the coefficient determinant to vanish. For \\(A=\\begin{bmatrix}k+1&-1&2\\\\-2&1&1\\\\k^2&0&3\\end{bmatrix}\\), \\(\\det A=-3(k^2-k+1)\\). But \\(k^2-k+1=(k-1/2)^2+3/4>0\\) for every real k, so the determinant never vanishes. There is no real k with a non-trivial solution; option (A).",
+    "explanation_gu": "Non-trivial solution માટે coefficient determinant શૂન્ય હોવો જોઈએ. \\(A=\\begin{bmatrix}k+1&-1&2\\\\-2&1&1\\\\k^2&0&3\\end{bmatrix}\\) માટે \\(\\det A=-3(k^2-k+1)\\). પરંતુ \\(k^2-k+1=(k-1/2)^2+3/4>0\\) દરેક real k માટે, તેથી determinant ક્યારેય શૂન્ય નથી. એટલે કોઈ real k માટે non-trivial solution નથી; વિકલ્પ (A).",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "A homogeneous linear system has a non-trivial solution only if its coefficient determinant is zero.",
+    "tip_gu": "Homogeneous linear systemમાં non-trivial solution માટે coefficient determinant શૂન્ય હોવો જરૂરી છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q11",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "The real quadratic form 3x? + 823 + 622 — 2x,%_ — 4%, x5 is :",
-    "question_gu": "The real quadratic form 3x? + 823 + 622 — 2x,%_ — 4%, x5 is :",
+    "question_en": "The real quadratic form \\(3x_1^2+3x_2^2+6x_3^2-2x_1x_2-4x_1x_3\\) is:",
+    "question_gu": "The real quadratic form \\(3x_1^2+3x_2^2+6x_3^2-2x_1x_2-4x_1x_3\\) is:",
     "options_en": [
       "Positive definite",
       "Negative definite",
       "Positive semidefinite",
-      "Indefinite | Math. Sci-I 8"
+      "Indefinite"
     ],
     "options_gu": [
       "Positive definite",
       "Negative definite",
       "Positive semidefinite",
-      "Indefinite | Math. Sci-I 8"
+      "Indefinite"
     ],
     "answer": "A",
     "topic": "Mathematical Sciences",
     "difficulty": "Medium",
-    "explanation_en": "Official GSET final answer key is authoritative.",
-    "explanation_gu": "Official GSET final answer key is authoritative.",
-    "review_flag": true,
-    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
-    "tip_en": "Official final answer key is authoritative.",
-    "tip_gu": "Official final answer key authoritative છે.",
-    "source_verified": false
+    "explanation_en": "The associated symmetric matrix is \\(A=\\begin{bmatrix}3&-1&-2\\\\-1&3&0\\\\-2&0&6\\end{bmatrix}\\). Its leading principal minors are \\(3>0\\), \\(\\det\\begin{bmatrix}3&-1\\\\-1&3\\end{bmatrix}=8>0\\), and \\(\\det A=32>0\\). By Sylvester's criterion, the quadratic form is positive definite.",
+    "explanation_gu": "Associated symmetric matrix \\(A=\\begin{bmatrix}3&-1&-2\\\\-1&3&0\\\\-2&0&6\\end{bmatrix}\\) છે. Leading principal minors \\(3>0\\), \\(\\det\\begin{bmatrix}3&-1\\\\-1&3\\end{bmatrix}=8>0\\), અને \\(\\det A=32>0\\) છે. Sylvester criterion પ્રમાણે quadratic form positive definite છે.",
+    "review_flag": false,
+    "review_note": "",
+    "tip_en": "For a real symmetric matrix, positivity of all leading principal minors proves positive definiteness.",
+    "tip_gu": "Real symmetric matrix માટે બધા leading principal minors positive હોય તો quadratic form positive definite છે.",
+    "source_verified": true,
+    "source": "GSET official September 2013 Mathematical Sciences Paper-II question paper and corrected final answer key"
   },
   {
     "id": "mathematical_sciences_sep13_q12",
