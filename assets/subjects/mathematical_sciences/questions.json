@@ -28336,13 +28336,13 @@
       "\\(|\\cos z|\\le 1\\) for all \\(z\\in\\mathbb C\\)",
       "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=0\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)",
       "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z^2}\\,dz=0\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)",
-      "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=2\\pi i\\), where \\(\\Gamma=\\{z:|z|=1\\}"
+      "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=2\\pi i\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)"
     ],
     "options_gu": [
       "\\(|\\cos z|\\le 1\\) for all \\(z\\in\\mathbb C\\)",
       "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=0\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)",
       "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z^2}\\,dz=0\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)",
-      "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=2\\pi i\\), where \\(\\Gamma=\\{z:|z|=1\\}"
+      "\\(\\displaystyle\\int_{\\Gamma}\\frac{\\sin z}{z}\\,dz=2\\pi i\\), where \\(\\Gamma=\\{z:|z|=1\\}\\)"
     ],
     "answer": "B",
     "topic": "Mathematical Sciences",
@@ -28912,19 +28912,19 @@
     "id": "mathematical_sciences_sep13_q24",
     "paper_id": "mathematical_sciences_sep13",
     "exam": "September 2013",
-    "question_en": "Which of the following curves is characteristic for the first order PDE y(∂u/∂x) − x(∂u/∂y) = 0?",
-    "question_gu": "Which of the following curves is characteristic for the first order PDE y(∂u/∂x) − x(∂u/∂y) = 0?",
+    "question_en": "Which of the following curves is characteristic for the first-order PDE \\(y\\frac{\\partial u}{\\partial x}-x\\frac{\\partial u}{\\partial y}=0\\)?",
+    "question_gu": "First-order PDE \\(y\\frac{\\partial u}{\\partial x}-x\\frac{\\partial u}{\\partial y}=0\\) માટે નીચેની કઈ curve characteristic છે?",
     "options_en": [
-      "x² − y² = 1",
-      "x² + y² = 1",
-      "y² = x²",
-      "xy = 1"
+      "\\(x^2-y^2=1\\)",
+      "\\(x^2+y^2=1\\)",
+      "\\(y^2=x^2\\)",
+      "\\(xy=1\\)"
     ],
     "options_gu": [
-      "x² − y² = 1",
-      "x² + y² = 1",
-      "y² = x²",
-      "xy = 1"
+      "\\(x^2-y^2=1\\)",
+      "\\(x^2+y^2=1\\)",
+      "\\(y^2=x^2\\)",
+      "\\(xy=1\\)"
     ],
     "answer": "C",
     "topic": "Mathematical Sciences",
