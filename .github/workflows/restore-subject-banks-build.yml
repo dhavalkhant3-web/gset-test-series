@@ -1,0 +1,117 @@
+name: Restore Subject Banks and Build Debug APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/restore-subject-banks-build.yml"
+      - "assets/subjects/mathematical_sciences/**"
+      - "assets/subjects/public_administration/**"
+      - "pubspec.yaml"
+      - "lib/main.dart"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: restore-subject-banks-debug-apk
+  cancel-in-progress: false
+
+jobs:
+  restore-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Restore recovered Mathematical Sciences archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/math-archive
+          gh run download 39456150487 --repo "${GITHUB_REPOSITORY}" --name mathematical-sciences-archive --dir /tmp/math-archive
+          test -s /tmp/math-archive/questions.json
+          test -s /tmp/math-archive/papers.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          q = json.loads(Path('/tmp/math-archive/questions.json').read_text(encoding='utf-8'))
+          p = json.loads(Path('/tmp/math-archive/papers.json').read_text(encoding='utf-8'))
+          assert isinstance(q, list) and len(q) == 1111, f'Expected 1111 recovered questions, got {len(q) if isinstance(q, list) else type(q)}'
+          assert isinstance(p, dict) and isinstance(p.get('papers'), list), 'Invalid recovered papers.json'
+          print(f'Recovered {len(q)} Mathematical Sciences questions and {len(p["papers"])} paper records.')
+          PY
+          cp /tmp/math-archive/questions.json assets/subjects/mathematical_sciences/questions.json
+          cp /tmp/math-archive/papers.json assets/subjects/mathematical_sciences/papers.json
+
+      - name: Validate subject banks and assets
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('assets/subjects')
+          checks = [
+              ('mathematical_sciences', '01', 1111, 19),
+              ('public_administration', '32', 300, 3),
+          ]
+          for sid, code, expected_questions, expected_papers in checks:
+              q = json.loads((root / sid / 'questions.json').read_text(encoding='utf-8'))
+              p = json.loads((root / sid / 'papers.json').read_text(encoding='utf-8'))
+              assert isinstance(q, list), f'{sid}: questions.json must be a list'
+              assert len(q) == expected_questions, f'{sid}: expected {expected_questions} questions, got {len(q)}'
+              assert str(p.get('subject_code')) == code, f'{sid}: wrong subject code'
+              assert len(p.get('papers', [])) == expected_papers, f'{sid}: expected {expected_papers} papers'
+              assert all(isinstance(item, dict) and item.get('id') for item in q), f'{sid}: malformed question record'
+              print(f'{sid} (Code {code}): {len(q)} questions, {len(p["papers"])} papers')
+          reg = json.loads((root / 'subjects.json').read_text(encoding='utf-8'))
+          for code in ('01', '32'):
+              item = next(s for s in reg['subjects'] if s['code'] == code)
+              assert item['id'] in ('mathematical_sciences', 'public_administration')
+          PY
+
+      - name: Persist recovered Mathematical Sciences archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          if git diff --cached --quiet; then
+            echo "Recovered archive already matches the repository."
+          else
+            git commit -m "Restore Mathematical Sciences questions into app assets"
+            git push origin HEAD:main
+          fi
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Build universal Debug APK
+        run: flutter build apk --debug
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: gset-test-series-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
