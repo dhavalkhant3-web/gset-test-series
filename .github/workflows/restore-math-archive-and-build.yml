@@ -58,7 +58,7 @@ jobs:
                   q['review_flag'] = True
                   q.setdefault('review_note', 'Recovered archive; verify wording, options, equations and official final answer key against the original GSET source before marking verified.')
           out = pathlib.Path('assets/subjects/mathematical_sciences/questions.json')
-          out.write_text(json.dumps(questions, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+          out.write_text(json.dumps(questions, ensure_ascii=False, indent=2), encoding='utf-8')
           # Restore the archive's paper metadata only if the checked-in file is missing/invalid.
           existing = pathlib.Path('assets/subjects/mathematical_sciences/papers.json')
           try:
@@ -66,7 +66,7 @@ jobs:
           except Exception:
               current = {}
           if not isinstance(current, dict) or len(current.get('papers', [])) != 19:
-              existing.write_text(json.dumps(papers, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+              existing.write_text(json.dumps(papers, ensure_ascii=False, indent=2), encoding='utf-8')
           print(f'Recovered {len(questions)} questions; {sum(q.get("review_flag") is True for q in questions)} flagged for review.')
           PY
 
