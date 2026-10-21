@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/restore-math-archive-and-build.yml"
+      - "android/settings.gradle"
   workflow_dispatch:
 
 permissions:
@@ -87,7 +88,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          git add -f assets/subjects/mathematical_sciences/questions.json assets/subjects/mathematical_sciences/papers.json
+          test "$(wc -c < assets/subjects/mathematical_sciences/questions.json)" -gt 1000000
           if ! git diff --cached --quiet; then
             git commit -m "Restore recovered Mathematical Sciences question bank"
             git push
