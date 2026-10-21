@@ -1,6 +1,11 @@
 name: Audit All Mathematical Sciences Papers Against Official GSET Sources
 
 on:
+  push:
+    branches: [audit/math-sciences-official-source-repair]
+    paths:
+      - ".github/workflows/audit-math-official-sources.yml"
+      - "tool/audit_math_archive.py"
   workflow_dispatch:
 
 permissions:
