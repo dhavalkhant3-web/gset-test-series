@@ -1,0 +1,26 @@
+name: Public Administration bank validation
+
+on:
+  push:
+    paths:
+      - "assets/subjects/public_administration/**"
+      - "assets/subjects/subjects.json"
+      - "tools/validate_public_administration.py"
+      - ".github/workflows/public-administration-validation.yml"
+  pull_request:
+    paths:
+      - "assets/subjects/public_administration/**"
+      - "assets/subjects/subjects.json"
+      - "tools/validate_public_administration.py"
+      - ".github/workflows/public-administration-validation.yml"
+
+jobs:
+  validate-bank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Public Administration question bank
+        run: python tools/validate_public_administration.py
