@@ -1,0 +1,54 @@
+name: Audit All Mathematical Sciences Papers Against Official GSET Sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  official-source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout audit branch
+        uses: actions/checkout@v4
+
+      - name: Install PDF and OCR tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-eng
+          python3 --version
+          pdftotext -v
+          tesseract --version
+
+      - name: Recover all 19 Mathematical Sciences papers from official GSET PDFs and keys
+        run: |
+          set -euo pipefail
+          python3 tool/import_mathematical_archive.py 2>&1 | tee build-math-import.log
+
+      - name: Run corruption and completeness triage
+        if: always()
+        run: |
+          set -euo pipefail
+          if [ -s assets/subjects/mathematical_sciences/questions.json ]; then
+            python3 tool/audit_math_archive.py 2>&1 | tee build-math-audit.log
+          else
+            echo "Official-source importer did not produce question JSON; see import log." | tee build-math-audit.log
+            exit 1
+          fi
+
+      - name: Upload source PDFs, extracted candidates, JSON and audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mathematical-sciences-official-source-audit
+          path: |
+            build/mathematical_archive/
+            build/math-source-audit/
+            assets/subjects/mathematical_sciences/questions.json
+            assets/subjects/mathematical_sciences/papers.json
+            build-math-import.log
+            build-math-audit.log
+          if-no-files-found: warn
+          retention-days: 14
