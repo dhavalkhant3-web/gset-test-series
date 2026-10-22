@@ -59,6 +59,28 @@ def main() -> int:
         if record.get("review_flag") is True:
             flagged.append(record.get("id", str(index)))
 
+        # A released/verified record must include the bilingual learning fields.
+        # Draft/unverified records may remain incomplete, but cannot pass release.
+        if record.get("source_verified") is True:
+            required_learning_fields = (
+                "question_gu", "options_gu", "explanation_en",
+                "explanation_gu", "tip_en", "tip_gu",
+            )
+            for field in required_learning_fields:
+                value = record.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(
+                        f"{record.get('id', index)}: verified record missing {field}"
+                    )
+            options_gu = record.get("options_gu")
+            if not isinstance(options_gu, list) or len(options_gu) != 4 or any(
+                not isinstance(option, str) or not option.strip()
+                for option in (options_gu or [])
+            ):
+                errors.append(
+                    f"{record.get('id', index)}: verified record expected four non-empty Gujarati options"
+                )
+
     print(f"Records: {len(records)}")
     print(f"Papers: {len(per_paper)}")
     print(f"Records not source-verified: {len(unverified)}")
