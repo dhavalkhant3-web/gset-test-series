@@ -62,6 +62,10 @@ def main() -> int:
         # A released/verified record must include the bilingual learning fields.
         # Draft/unverified records may remain incomplete, but cannot pass release.
         if record.get("source_verified") is True:
+            if record.get("review_flag") is not False:
+                errors.append(
+                    f"{record.get('id', index)}: source_verified record must have review_flag=false"
+                )
             required_learning_fields = (
                 "question_gu", "options_gu", "explanation_en",
                 "explanation_gu", "tip_en", "tip_gu",
