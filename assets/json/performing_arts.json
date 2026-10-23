@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 42,
+  "total_questions": 49,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -602,6 +602,125 @@
         "D": "Sanshaya Pratiti"
       },
       "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_028",
+      "exam_session": "November 2023",
+      "question_number": 28,
+      "question_text": "Which among the following forms of knowledge is considered by Plato as ideal and rational knowledge?",
+      "options": {
+        "A": "Comprehension of ideas",
+        "B": "Sense-perception",
+        "C": "Opinion",
+        "D": "Judgement"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_029",
+      "exam_session": "November 2023",
+      "question_number": 29,
+      "question_text": "Bunraku is a puppet theatre of",
+      "options": {
+        "A": "Korea",
+        "B": "Indonesia",
+        "C": "Japan",
+        "D": "China"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_030",
+      "exam_session": "November 2023",
+      "question_number": 30,
+      "question_text": "Ramayana puppet theatre is famous in",
+      "options": {
+        "A": "Korea",
+        "B": "Sri Lanka",
+        "C": "Australia",
+        "D": "Indonesia"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_031",
+      "exam_session": "November 2023",
+      "question_number": 31,
+      "question_text": "Kabuki Dance-Drama is a kind of theatre form.",
+      "options": {
+        "A": "Folk",
+        "B": "Classical",
+        "C": "Traditional",
+        "D": "Modern"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_032",
+      "exam_session": "November 2023",
+      "question_number": 32,
+      "question_text": "A traditional Japanese theatre consisting of a repertory of some 260 short plays, celebratory and usually comic, performed on a Noh stage, is called",
+      "options": {
+        "A": "Buto",
+        "B": "Kyogen",
+        "C": "Angura",
+        "D": "Shinpa"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_033",
+      "exam_session": "November 2023",
+      "question_number": 33,
+      "question_text": "There is an oblong bridge that connects the stage with the mirror room towards the upper right of the stage in Noh theatre of Japan. This bridge is called",
+      "options": {
+        "A": "Foot path",
+        "B": "Music path",
+        "C": "Hanamichi",
+        "D": "Hashigakari"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_034",
+      "exam_session": "November 2023",
+      "question_number": 34,
+      "question_text": "Noh Theatre of Japan is a",
+      "options": {
+        "A": "Folk Theatre",
+        "B": "Street Theatre",
+        "C": "Traditional Theatre",
+        "D": "Classical Theatre"
+      },
+      "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
