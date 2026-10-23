@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 55,
+  "total_questions": 58,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -833,6 +833,59 @@
       "source_verified": true,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_041",
+      "exam_session": "November 2023",
+      "question_number": 41,
+      "question_text": "Match List I with List II. List I: A. Vitarka; B. Vepathu; C. Daiviki; D. Tata. List II: (i) Siddhi; (ii) Vyabhichari Bhava; (iii) Atodya; (iv) Sattvika Bhava. Choose the correct answer.",
+      "options": {
+        "A": "A(iv), B(ii), C(i), D(iii)",
+        "B": "A(ii), B(iv), C(i), D(iii)",
+        "C": "A(ii), B(iv), C(iii), D(i)",
+        "D": "A(iv), B(iii), C(ii), D(i)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout needs final visual verification against scan."
+    },
+    {
+      "id": "GSET_31_NOV23_042",
+      "exam_session": "November 2023",
+      "question_number": 42,
+      "question_text": "Match List I with List II. List I: A. Dance drama of Bali; B. Traditional theatre forms that grew from puppet theatre in Java and Bali; C. The Balinese trance performance; D. Masked dances of Java and Bali. List II: (i) Topeng; (ii) Sanghyang; (iii) Wayang; (iv) Gambuh. Choose the correct answer.",
+      "options": {
+        "A": "A(iv), B(iii), C(ii), D(i)",
+        "B": "A(i), B(iii), C(ii), D(iv)",
+        "C": "A(ii), B(iv), C(ii), D(i)",
+        "D": "A(iv), B(ii), C(i), D(iii)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout needs final visual verification against scan."
+    },
+    {
+      "id": "GSET_31_NOV23_043",
+      "exam_session": "November 2023",
+      "question_number": 43,
+      "question_text": "Statement (A): ‘Karma Dance’ is performed by the Tribals of Madhya Pradesh, Chhattisgarh and Uttar Pradesh. Statement (B): The name of ‘Karma dance’ is derived from the tree named ‘KARMA’. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_NOV25_001",
