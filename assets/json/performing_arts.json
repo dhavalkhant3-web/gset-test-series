@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "subject_code": "31",
+  "subject_name": "Performing Arts",
+  "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
+  "total_questions": 3,
+  "expected_questions": 300,
+  "sessions_included": [
+    "November 2023",
+    "December 2024",
+    "November 2025"
+  ],
+  "status": "partial_import_review_required",
+  "questions": [
+    {
+      "id": "GSET_31_NOV23_001",
+      "exam_session": "November 2023",
+      "question_number": 1,
+      "question_text": "Which period is known as 'Golden period' with reference to the arts?",
+      "options": {
+        "A": "Shung period",
+        "B": "Gupt period",
+        "C": "Naag period",
+        "D": "Harshavardhan period"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_001",
+      "exam_session": "December 2024",
+      "question_number": 1,
+      "question_text": "Where is the mention of 'USHA SUKTA' found?",
+      "options": {
+        "A": "Meghadootam",
+        "B": "Vedas",
+        "C": "Vikramorvashiyam",
+        "D": "Bhagwat"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_001",
+      "exam_session": "November 2025",
+      "question_number": 1,
+      "question_text": "The NSD Repertory Company's play 'Vibhajan Ki Vibhishika' is based on which of the following literary work?",
+      "options": {
+        "A": "Kashinath Singh's 'Upsanhar'",
+        "B": "Khushwant Singh's 'A Train to Pakistan'",
+        "C": "Bhishm Sahani's 'Tamas'",
+        "D": "Kamleshwar's 'Smarak'"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    }
+  ]
+}
