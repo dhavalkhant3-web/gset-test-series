@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 288,
+  "total_questions": 299,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -589,6 +589,132 @@
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_035",
+      "exam_session": "December 2024",
+      "question_number": 35,
+      "question_text": "Match List I with List II: a. Upanaya; b. Kavya; c. Bhanaka; d. Bhrukamsa. List II: i. Vachika; ii. Nritya; iii. Drama; iv. Prose.",
+      "options": {
+        "A": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-iii, b-iv, c-i, d-ii",
+        "C": "a-i, b-iii, c-iv, d-ii",
+        "D": "a-iv, b-ii, c-i, d-iii"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_036",
+      "exam_session": "December 2024",
+      "question_number": 36,
+      "question_text": "Match List I with List II: a. Padartha; b. Vakyartha; c. Rasa; d. Bhava. List II: i. Word meaning; ii. Sentence meaning; iii. Aesthetic relish; iv. Emotional state.",
+      "options": {
+        "A": "a-i, b-ii, c-iii, d-iv",
+        "B": "a-ii, b-i, c-iv, d-iii",
+        "C": "a-iii, b-iv, c-i, d-ii",
+        "D": "a-iv, b-iii, c-ii, d-i"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_037",
+      "exam_session": "December 2024",
+      "question_number": 37,
+      "question_text": "Match List I with List II: a. Bharata; b. Bhasa; c. Kalidasa; d. Bhavabhuti. List II: i. Swapnavasavadatta; ii. Abhijnanashakuntalam; iii. Uttararamacharita; iv. Natyashastra.",
+      "options": {
+        "A": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-iv, b-i, c-ii, d-iii",
+        "C": "a-i, b-ii, c-iv, d-iii",
+        "D": "a-iii, b-iv, c-i, d-ii"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_038",
+      "exam_session": "December 2024",
+      "question_number": 38,
+      "question_text": "Match List I with List II: a. Rasa; b. Vritti; c. Pravritti; d. Abhinaya. List II: i. Regional style; ii. Dramatic representation; iii. Aesthetic experience; iv. Mode of expression.",
+      "options": {
+        "A": "a-iii, b-iv, c-i, d-ii",
+        "B": "a-ii, b-i, c-iv, d-iii",
+        "C": "a-i, b-iii, c-ii, d-iv",
+        "D": "a-iv, b-ii, c-iii, d-i"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_039",
+      "exam_session": "December 2024",
+      "question_number": 39,
+      "question_text": "Match List I with List II: a. Natya; b. Nritya; c. Nritta; d. Abhinaya. List II: i. Pure dance; ii. Expressive dance; iii. Drama; iv. Communication of meaning.",
+      "options": {
+        "A": "a-iii, b-ii, c-i, d-iv",
+        "B": "a-i, b-iii, c-ii, d-iv",
+        "C": "a-ii, b-i, c-iv, d-iii",
+        "D": "a-iv, b-ii, c-iii, d-i"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_040",
+      "exam_session": "December 2024",
+      "question_number": 40,
+      "question_text": "Match List I with List II: a. Rukmini Devi Arundale; b. Uday Shankar; c. Birju Maharaj; d. Kelucharan Mohapatra. List II: i. Kathak; ii. Bharatanatyam; iii. Odissi; iv. Modern Indian dance.",
+      "options": {
+        "A": "a-ii, b-iv, c-i, d-iii",
+        "B": "a-iv, b-iii, c-ii, d-i",
+        "C": "a-i, b-ii, c-iv, d-iii",
+        "D": "a-iii, b-i, c-ii, d-iv"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_041",
+      "exam_session": "December 2024",
+      "question_number": 41,
+      "question_text": "Match List I with List II: a. Rasa; b. Bhava; c. Sthayi; d. Sanchari. List II: i. Transitory emotion; ii. Dominant emotion; iii. Aesthetic relish; iv. Emotional determinant.",
+      "options": {
+        "A": "a-iii, b-iv, c-ii, d-i",
+        "B": "a-ii, b-iii, c-i, d-iv",
+        "C": "a-i, b-iv, c-iii, d-ii",
+        "D": "a-iv, b-i, c-ii, d-iii"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
     },
     {
       "id": "GSET_31_DEC24_042",
@@ -1358,6 +1484,78 @@
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_088",
+      "exam_session": "December 2024",
+      "question_number": 88,
+      "question_text": "Match List I with List II: a. Rasiklal Parikh; b. Rameshwar Prem; c. Mani Madhukar; d. Surendra Verma. List II: i. Charpai; ii. Mena; iii. Ras; iv. Quid-e-Hayat.",
+      "options": {
+        "A": "a-i, b-ii, c-iii, d-iv",
+        "B": "a-ii, b-iii, c-iv, d-i",
+        "C": "a-iv, b-ii, c-iii, d-i",
+        "D": "a-iii, b-i, c-ii, d-iv"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_089",
+      "exam_session": "December 2024",
+      "question_number": 89,
+      "question_text": "Match List I with List II: a. The Theatre and its Double; b. Indian Method in Acting; c. Towards a Poor Theatre; d. Theatres of Independence. List II: i. Jerzy Grotowski; ii. Antonin Artaud; iii. Aparna Dharwadker; iv. Prasanna.",
+      "options": {
+        "A": "a-ii, b-iv, c-iii, d-i",
+        "B": "a-iv, b-i, c-iii, d-ii",
+        "C": "a-i, b-iii, c-iv, d-ii",
+        "D": "a-ii, b-iii, c-i, d-iv"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_090",
+      "exam_session": "December 2024",
+      "question_number": 90,
+      "question_text": "Match List I with List II: a. Third Theatre; b. Indian Classical Theatre; c. Theatre music; d. Theatre of Roots. List II: i. K. N. Panikkar; ii. Badal Sircar; iii. Habib Tanvir; iv. B. V. Karanth.",
+      "options": {
+        "A": "a-iii, b-iv, c-i, d-ii",
+        "B": "a-iv, b-i, c-ii, d-iii",
+        "C": "a-ii, b-i, c-iv, d-iii",
+        "D": "a-iv, b-iii, c-i, d-ii"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+    },
+    {
+      "id": "GSET_31_DEC24_091",
+      "exam_session": "December 2024",
+      "question_number": 91,
+      "question_text": "Match List I with List II: a. Mahabharata; b. Alienation Effect; c. Invisible Theatre; d. Method Acting. List II: i. Bertolt Brecht; ii. Augusto Boal; iii. Stanislavsky; iv. Peter Brook.",
+      "options": {
+        "A": "a-iv, b-iii, c-ii, d-i",
+        "B": "a-iv, b-i, c-ii, d-iii",
+        "C": "a-ii, b-i, c-iv, d-iii",
+        "D": "a-iv, b-ii, c-i, d-iii"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
     },
     {
       "id": "GSET_31_DEC24_092",
