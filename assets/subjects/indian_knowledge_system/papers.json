@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "subject_id": "indian_knowledge_system",
+  "subject_code": "29",
+  "name_en": "Indian Knowledge System",
+  "medium": "English",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120
+  },
+  "papers": [
+    {
+      "paper_id": "indian_knowledge_system_nov23",
+      "exam": "November 2023",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "official_final_key_matched_visual_review_required",
+      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+    },
+    {
+      "paper_id": "indian_knowledge_system_dec24",
+      "exam": "December 2024",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "official_final_key_matched_visual_review_required",
+      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+    },
+    {
+      "paper_id": "indian_knowledge_system_nov25",
+      "exam": "November 2025",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "official_final_key_matched_visual_review_required",
+      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+    }
+  ]
+}
