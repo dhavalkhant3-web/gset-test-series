@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 3,
+  "total_questions": 15,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -58,6 +58,210 @@
         "D": "Kamleshwar's 'Smarak'"
       },
       "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_002",
+      "exam_session": "November 2023",
+      "question_number": 2,
+      "question_text": "Who is the author of ‘Cilappadikaram’ ?",
+      "options": {
+        "A": "Kumbhakarna",
+        "B": "Ilango Adigal",
+        "C": "Dhananjaya",
+        "D": "Kumarswami"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_003",
+      "exam_session": "November 2023",
+      "question_number": 3,
+      "question_text": "‘Natan Bheda’ is defined in ‘Abhinaya Darpan’ as follows:",
+      "options": {
+        "A": "Natya – Nritta – Nritya",
+        "B": "Natya and Nritta",
+        "C": "Nritta and Nritya",
+        "D": "Tandava – Lasya – Nritta"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_004",
+      "exam_session": "November 2023",
+      "question_number": 4,
+      "question_text": "Which text describes the term ‘Arangetral’ ?",
+      "options": {
+        "A": "Manimekalai",
+        "B": "Skandpuran",
+        "C": "Cilappadikaram",
+        "D": "Manu Smriti"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_005",
+      "exam_session": "November 2023",
+      "question_number": 5,
+      "question_text": "A prehistoric bronze sculpture of ‘Dancing girl’ was found in which place?",
+      "options": {
+        "A": "Mohenjo-Daro",
+        "B": "Takshshila",
+        "C": "Patan",
+        "D": "Modhera"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_002",
+      "exam_session": "December 2024",
+      "question_number": 2,
+      "question_text": "Who is the founder of ‘Gaudiya Sampradaya’ of Vaishnavism?",
+      "options": {
+        "A": "Ramanandacharya",
+        "B": "Ramanujacharya",
+        "C": "Chaitanya Mahaprabhu",
+        "D": "Madhavdev"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_003",
+      "exam_session": "December 2024",
+      "question_number": 3,
+      "question_text": "Neck, Elbow and Knees are known as",
+      "options": {
+        "A": "Ang",
+        "B": "Ardhanga",
+        "C": "Pratyanga",
+        "D": "Upanga"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_004",
+      "exam_session": "December 2024",
+      "question_number": 4,
+      "question_text": "Who among the following Mughal rulers patronised the classical dance Kathak?",
+      "options": {
+        "A": "Akbar",
+        "B": "Nawab Wajid Ali Shah",
+        "C": "Aurangzeb",
+        "D": "Humayun"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_005",
+      "exam_session": "December 2024",
+      "question_number": 5,
+      "question_text": "Who wrote ‘Geetavali’, ‘Kavitavali’, ‘Janki-Mangal’ and ‘Parvati-Mangal’?",
+      "options": {
+        "A": "Tulsidas",
+        "B": "Surdas",
+        "C": "Nabhadas",
+        "D": "Vitthal Nath"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_002",
+      "exam_session": "November 2025",
+      "question_number": 2,
+      "question_text": "Which one of the following is a puppet theatre form of Karnataka?",
+      "options": {
+        "A": "Sakhi Kundhainata",
+        "B": "Tolu Bommalata",
+        "C": "Gombeyatta",
+        "D": "Tholpava Koothu"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_003",
+      "exam_session": "November 2025",
+      "question_number": 3,
+      "question_text": "Who among the following is a well-known expert of theatre music?",
+      "options": {
+        "A": "Niranjan Goswami",
+        "B": "Anjana Puri",
+        "C": "Robin Das",
+        "D": "C. R. Jambe"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_004",
+      "exam_session": "November 2025",
+      "question_number": 4,
+      "question_text": "Which one of the following is wrongly matched?",
+      "options": {
+        "A": "Ajay Kumar — Theatre Music",
+        "B": "Satyabrata Raut — Scenography",
+        "C": "Surendra Verma — Playwriting",
+        "D": "Suresh Bharadwaj — Mime and Movement"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_005",
+      "exam_session": "November 2025",
+      "question_number": 5,
+      "question_text": "Who wrote the first original Bengali play?",
+      "options": {
+        "A": "Dinabandhu Mitra",
+        "B": "Ramanarayan Tarakaratna",
+        "C": "Upendranath Das",
+        "D": "Michael Madhusudan Dutt"
+      },
+      "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
