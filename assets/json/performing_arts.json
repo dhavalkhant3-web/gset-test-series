@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 111,
+  "total_questions": 117,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -604,6 +604,40 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_026",
+      "exam_session": "November 2023",
+      "question_number": 26,
+      "question_text": "Who among the following has authored the book ‘A Modern Book of Esthetics’?",
+      "options": {
+        "A": "Erin B. Mee",
+        "B": "A. C. Scott",
+        "C": "Melvin Rader",
+        "D": "Sushil Kumar Saxena"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_027",
+      "exam_session": "November 2023",
+      "question_number": 27,
+      "question_text": "Which one of the following is NOT a theory which was advanced from the point of view of the artist?",
+      "options": {
+        "A": "Imitation",
+        "B": "Illusion",
+        "C": "Idealised Reproduction",
+        "D": "Moralistic"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
@@ -1638,6 +1672,78 @@
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_088",
+      "exam_session": "November 2023",
+      "question_number": 88,
+      "question_text": "Match List I with List II. List I: A. Rasik Lal Parikh; B. Badal Sircar; C. Doodhnath Singh; D. Maya Rao. List II: (I) The Job; (II) Sharvilak; (III) Pagla Ghoda; (IV) Yamagatha. Choose the correct answer.",
+      "options": {
+        "A": "A(IV), B(I), C(II), D(III)",
+        "B": "A(I), B(III), C(II), D(IV)",
+        "C": "A(I), B(III), C(IV), D(II)",
+        "D": "A(II), B(IV), C(I), D(III)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
+    },
+    {
+      "id": "GSET_31_NOV23_089",
+      "exam_session": "November 2023",
+      "question_number": 89,
+      "question_text": "Match List I with List II. List I: A. Balwant Gargi; B. Som Benegal; C. Adya Rangacharya; D. Nemi Chandra Jain. List II: (I) Indian Theatre: Tradition, Continuity and Change; (II) The Indian Theatre; (III) A Panorama of Theatre in India; (IV) Theatre in India. Choose the correct answer.",
+      "options": {
+        "A": "A(IV), B(II), C(I), D(III)",
+        "B": "A(I), B(IV), C(II), D(III)",
+        "C": "A(II), B(I), C(IV), D(III)",
+        "D": "A(I), B(III), C(II), D(IV)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
+    },
+    {
+      "id": "GSET_31_NOV23_090",
+      "exam_session": "November 2023",
+      "question_number": 90,
+      "question_text": "Match List I with List II. List I: A. Mahesh Elkunchwar; B. Satish Alekar; C. Ratnakar Matkari; D. Jaywant Dalvi. List II: (I) Lok Katha; (II) Atma Katha; (III) Barrister; (IV) Mahanirvan. Choose the correct answer.",
+      "options": {
+        "A": "A(IV), B(III), C(I), D(II)",
+        "B": "A(II), B(IV), C(I), D(III)",
+        "C": "A(III), B(IV), C(II), D(I)",
+        "D": "A(IV), B(I), C(II), D(III)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
+    },
+    {
+      "id": "GSET_31_NOV23_091",
+      "exam_session": "November 2023",
+      "question_number": 91,
+      "question_text": "Match List I with List II. List I: A. ad lib.; B. Muff; C. Persona; D. Vice. List II: (I) To say a line wrong; (II) The character an actor assumes in a play; (III) Dialogue not found in the script; (IV) A stock character of wickedness in morality plays. Choose the correct answer.",
+      "options": {
+        "A": "A(III), B(I), C(II), D(IV)",
+        "B": "A(IV), B(I), C(II), D(III)",
+        "C": "A(II), B(IV), C(I), D(III)",
+        "D": "A(I), B(II), C(III), D(IV)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
     },
     {
       "id": "GSET_31_NOV23_092",
