@@ -147,18 +147,22 @@ def main() -> None:
             fail(f"Unexpected paper entry in papers.json: {p.get('exam')!r}")
         if p.get("questions_loaded") != 100 or p.get("questions_count") != 100:
             fail(f"Stale count in papers.json for {p.get('exam')}")
-        if p.get("source_verified") is not False:
-            fail(f"Paper-level source_verified must remain false until flagged items are visually checked: {p.get('exam')}")
-        if "review" not in str(p.get("status", "")).lower():
-            fail(f"Paper status must state review is required: {p.get('exam')}")
+        if p.get("source_verified") is not True or p.get("question_source_verified") is not True:
+            fail(f"Paper-level source verification is incomplete for {p.get('exam')}")
+        if "verified" not in str(p.get("status", "")).lower():
+            fail(f"Paper status must reflect completed source review: {p.get('exam')}")
+        if any(q.get("exam_session") == p.get("exam") and q.get("review_flag") for q in app):
+            fail(f"Unresolved review flags remain for {p.get('exam')}")
 
     subject = next((s for s in subjects_doc.get("subjects", []) if s.get("code") == "31"), None)
     if not subject:
         fail("Subject code 31 missing from subjects.json")
     if subject.get("id") != "performing_art_dance_drama_theatre" or subject.get("questions_loaded") != 300 or subject.get("papers_loaded") != 3:
         fail("Subject entry id/counts are inconsistent")
-    if subject.get("source_verified") is not False:
-        fail("Subject-level source_verified must remain false pending visual review")
+    if subject.get("source_verified") is not True:
+        fail("Subject-level source verification must be complete when no review flags remain")
+    if subject.get("data_status") != "official_archive_verified_300_questions":
+        fail("Subject-level data_status does not reflect the verified 300-question bank")
 
     total_flags = sum(flagged_by_session.values())
     print("PASS: Performing Arts subject 31")
