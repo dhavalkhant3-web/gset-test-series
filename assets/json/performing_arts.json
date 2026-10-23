@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 273,
+  "total_questions": 288,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1065,6 +1065,91 @@
         "D": "Both (1) and (2) are false"
       },
       "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_071",
+      "exam_session": "December 2024",
+      "question_number": 71,
+      "question_text": "Uday Shankar used to paint in his ballet ‘Buddha’",
+      "options": {
+        "A": "Trees",
+        "B": "Boxes",
+        "C": "Lights",
+        "D": "Mosquito-net"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_072",
+      "exam_session": "December 2024",
+      "question_number": 72,
+      "question_text": "Which film was produced and directed by Uday Shankar?",
+      "options": {
+        "A": "Anna Pavlova",
+        "B": "Buddha",
+        "C": "Leela",
+        "D": "Kalpana"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_073",
+      "exam_session": "December 2024",
+      "question_number": 73,
+      "question_text": "Who was the dance partner of Uday Shankar?",
+      "options": {
+        "A": "Madame Menaka",
+        "B": "Martha Graham",
+        "C": "Anna Pavlova",
+        "D": "Damayanti Joshi"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_074",
+      "exam_session": "December 2024",
+      "question_number": 74,
+      "question_text": "What was the name of the famous shadow ballet directed by Uday Shankar?",
+      "options": {
+        "A": "Ram Lila",
+        "B": "Buddha",
+        "C": "Rhythm of Life",
+        "D": "Labour and Machinery"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_075",
+      "exam_session": "December 2024",
+      "question_number": 75,
+      "question_text": "Uday Shankar has performed in which ballet?",
+      "options": {
+        "A": "The Christian Wedding",
+        "B": "The Muslim Wedding",
+        "C": "The Hindu Wedding",
+        "D": "The Shankar’s Wedding"
+      },
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
@@ -4512,6 +4597,186 @@
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_081",
+      "exam_session": "November 2025",
+      "question_number": 81,
+      "question_text": "Match the following Abhinaya with its appropriate term: a. Angika; b. Vachika; c. Aharya; d. Satvika. i. Ashru; ii. Padakkam; iii. Padam; iv. Alapadma.",
+      "options": {
+        "A": "a-ii, b-iv, c-iii, d-i",
+        "B": "a-i, b-iii, c-iv, d-ii",
+        "C": "a-iii, b-iv, c-i, d-ii",
+        "D": "a-iv, b-iii, c-i, d-ii"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_082",
+      "exam_session": "November 2025",
+      "question_number": 82,
+      "question_text": "Match the following places with their special feature: a. Chidambaram; b. Brihadishwara Temple; c. Ellora Cave; d. Adyar, Chennai. i. Tall Vimana; ii. Idol of Nataraja; iii. Kalakshetra Foundation; iv. Kailash Temple.",
+      "options": {
+        "A": "a-iv, b-iii, c-i, d-ii",
+        "B": "a-ii, b-i, c-iv, d-iii",
+        "C": "a-ii, b-i, c-iii, d-iv",
+        "D": "a-i, b-ii, c-iii, d-iv"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_083",
+      "exam_session": "November 2025",
+      "question_number": 83,
+      "question_text": "Match the following terms with their number: a. Vritti; b. Sthayi Bhavas; c. Vibhava; d. Karanas. i. 103; ii. 108; iii. 8; iv. 4.",
+      "options": {
+        "A": "a-iii, b-ii, c-i, d-iv",
+        "B": "a-iv, b-iii, c-i, d-ii",
+        "C": "a-i, b-ii, c-iii, d-iv",
+        "D": "a-ii, b-iii, c-i, d-iv"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_084",
+      "exam_session": "November 2025",
+      "question_number": 84,
+      "question_text": "Match the dance form with its characteristic/stance: a. Bharatanatyam; b. Kathak; c. Odissi; d. Kuchipudi. 1. Tribhanga; 2. Tarangam; 3. Araimandi; 4. Chakkar.",
+      "options": {
+        "A": "a-1, b-2, c-3, d-4",
+        "B": "a-2, b-1, c-4, d-3",
+        "C": "a-3, b-4, c-1, d-2",
+        "D": "a-4, b-3, c-2, d-1"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_085",
+      "exam_session": "November 2025",
+      "question_number": 85,
+      "question_text": "Match the festival with its State: a. Khajuraho Dance Festival; b. Konark Dance Festival; c. Modhera Dance Festival; d. Nishagandhi Dance Festival. 1. Odisha; 2. Kerala; 3. Madhya Pradesh; 4. Gujarat.",
+      "options": {
+        "A": "a-3, b-1, c-4, d-2",
+        "B": "a-1, b-2, c-3, d-4",
+        "C": "a-4, b-3, c-2, d-1",
+        "D": "a-2, b-4, c-1, d-3"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_086",
+      "exam_session": "November 2025",
+      "question_number": 86,
+      "question_text": "Match the modern pioneers with their contributions: a. Loie Fuller; b. Isadora Duncan; c. Ruth St. Denis; d. Ted Shawn. 1. Stage lighting and coloured gels; 2. Greek tunics and free movement; 3. Orientalist themes such as Radha; 4. Co-founder of Denishawn School.",
+      "options": {
+        "A": "a-1, b-2, c-3, d-4",
+        "B": "a-3, b-4, c-2, d-1",
+        "C": "a-2, b-1, c-4, d-3",
+        "D": "a-4, b-3, c-1, d-2"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_087",
+      "exam_session": "November 2025",
+      "question_number": 87,
+      "question_text": "Match the scholars with their works: a. Sunil Kothari; b. Devesh Soneji; c. Kapila Vatsyayan; d. Leela Venkataraman. i. Unfinished Gestures; ii. New Directions in Indian Dance; iii. Classical Dance literature and Arts; iv. Indian Classical Dance: Tradition in Transition.",
+      "options": {
+        "A": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-ii, b-iii, c-i, d-iv",
+        "C": "a-iv, b-iii, c-ii, d-i",
+        "D": "a-ii, b-iv, c-i, d-iii"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_088",
+      "exam_session": "November 2025",
+      "question_number": 88,
+      "question_text": "Match the repertoire with its dance form: a. Jatiswaram; b. Thumari; c. Tarangam; d. Ras Leela. i. Kathak; ii. Manipuri; iii. Bharatanatyam; iv. Kuchipudi.",
+      "options": {
+        "A": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-ii, b-iii, c-iv, d-i",
+        "C": "a-iv, b-i, c-iii, d-ii",
+        "D": "a-i, b-ii, c-iii, d-iv"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_089",
+      "exam_session": "November 2025",
+      "question_number": 89,
+      "question_text": "Match the folk dance with its region: a. Garba; b. Bihu; c. Velakali; d. Kachchhi Ghodi. i. Rajasthan; ii. Gujarat; iii. Assam; iv. Kerala.",
+      "options": {
+        "A": "a-ii, b-iii, c-iv, d-i",
+        "B": "a-ii, b-i, c-iv, d-iii",
+        "C": "a-i, b-ii, c-iii, d-iv",
+        "D": "a-iv, b-ii, c-iii, d-i"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
+    },
+    {
+      "id": "GSET_31_NOV25_090",
+      "exam_session": "November 2025",
+      "question_number": 90,
+      "question_text": "Match the state with its puppet form: a. West Bengal; b. Rajasthan; c. Maharashtra; d. Kerala. i. Kalasutri; ii. Tholpavakoothu; iii. Putul Nautch; iv. Kathputali.",
+      "options": {
+        "A": "a-ii, b-iv, c-i, d-ii",
+        "B": "a-ii, b-iv, c-iii, d-i",
+        "C": "a-i, b-iv, c-iii, d-ii",
+        "D": "a-iv, b-iii, c-i, d-ii"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
     {
       "id": "GSET_31_NOV25_091",
