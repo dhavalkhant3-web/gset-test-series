@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 49,
+  "total_questions": 55,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -725,6 +725,114 @@
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_035",
+      "exam_session": "November 2023",
+      "question_number": 35,
+      "question_text": "Match List I with List II. List I: A. Ramayan; B. Mahabharat; C. Bhagwat Puran; D. Rigveda. List II: (I) Kaikasi; (II) Shikhandi; (III) Surya; (IV) Mannsukha. Choose the correct answer.",
+      "options": {
+        "A": "A(III), B(IV), C(II), D(I)",
+        "B": "A(IV), B(III), C(I), D(II)",
+        "C": "A(I), B(II), C(IV), D(III)",
+        "D": "A(II), B(III), C(I), D(IV)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_036",
+      "exam_session": "November 2023",
+      "question_number": 36,
+      "question_text": "Match List I with List II. List I: A. Vidyadhar Gokhle; B. Kaka Saheb Khandilkar; C. Arun Sadhu; D. Anna Saheb Kirloskar. List II: (I) Sangeet Subhadra; (II) Padgham; (III) Suvarnalata; (IV) Manapman. Choose the correct answer.",
+      "options": {
+        "A": "A(I), B(II), C(III), D(IV)",
+        "B": "A(II), B(III), C(IV), D(I)",
+        "C": "A(IV), B(I), C(II), D(III)",
+        "D": "A(III), B(IV), C(II), D(I)"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_037",
+      "exam_session": "November 2023",
+      "question_number": 37,
+      "question_text": "Match List I with List II. List I: A. Vaktrapani; B. Sanghotana; C. Margasarita; D. Asarita. List II: (I) Testing by hand beat the different drums; (II) Deciding the rhythm; (III) Separately tuning the instruments; (IV) Singing with accompaniment for testing. Choose the correct answer.",
+      "options": {
+        "A": "A(II), B(IV), C(III), D(I)",
+        "B": "A(III), B(II), C(IV), D(I)",
+        "C": "A(IV), B(III), C(II), D(I)",
+        "D": "A(III), B(I), C(IV), D(II)"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_038",
+      "exam_session": "November 2023",
+      "question_number": 38,
+      "question_text": "Match List I with List II. List I: A. Vyayoga; B. Bhana; C. Prakarana; D. Vithi. List II: (I) It should relate to the love affair with a courtesan and incorporate the actions of traders, flirts and persons of an inferior nature; (II) Popular hero with an exalted genealogy, full of conflict and fighting; (III) A two-actor play with 13 limbs or parts; (IV) A single-character play in which the character narrates personal experience. Choose the correct answer.",
+      "options": {
+        "A": "A(II), B(III), C(IV), D(I)",
+        "B": "A(II), B(IV), C(I), D(III)",
+        "C": "A(IV), B(II), C(I), D(III)",
+        "D": "A(I), B(II), C(III), D(IV)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_039",
+      "exam_session": "November 2023",
+      "question_number": 39,
+      "question_text": "Match List I with List II. List I: A. Salabhanjika; B. Mattavarani; C. Kuhara; D. Rajju. List II: (I) A wooden railing; (II) A cavity, hole, opening; (III) A cord; (IV) A sculpture of a young girl under a tree in a happy mood. Choose the correct answer.",
+      "options": {
+        "A": "A(IV), B(II), C(I), D(III)",
+        "B": "A(IV), B(I), C(II), D(III)",
+        "C": "A(IV), B(III), C(I), D(II)",
+        "D": "A(I), B(II), C(III), D(IV)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
+    },
+    {
+      "id": "GSET_31_NOV23_040",
+      "exam_session": "November 2023",
+      "question_number": 40,
+      "question_text": "Match List I with List II. List I: A. Natya Rasa Bhojya Rasa; B. Tadrupa Anusandhana; C. Chitra-turaga Nyaya; D. Sadharanikarana. List II: (I) Bhatta Nayaka; (II) Bharata; (III) Bhatta Lollata; (IV) Sri Sankuka. Choose the correct answer.",
+      "options": {
+        "A": "A(III), B(IV), C(II), D(I)",
+        "B": "A(IV), B(I), C(III), D(II)",
+        "C": "A(II), B(III), C(IV), D(I)",
+        "D": "A(I), B(II), C(III), D(IV)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
     {
       "id": "GSET_31_NOV25_001",
