@@ -79,13 +79,18 @@ def main() -> None:
             fail(f"Missing question text on {q.get('id')}")
         options = q.get("options_en")
         if not isinstance(options, list) or len(options) != 4 or not all(isinstance(v, str) and v.strip() for v in options):
-            fail(f"Need exactly four non-empty options on {q.get('id')}")
+            fail(f"Need exactly four non-empty English options on {q.get('id')}")
+        options_gu = q.get("options_gu")
+        if not isinstance(options_gu, list) or len(options_gu) != 4 or not all(isinstance(v, str) and v.strip() for v in options_gu):
+            fail(f"Need exactly four non-empty Gujarati/display options on {q.get('id')}")
         official = EXPECTED_KEYS[session][number - 1]
         if q.get("answer") != official or q.get("official_answer") != official:
             fail(f"Official key mismatch on {q.get('id')}: expected {official}")
         for field in ("tip_en", "tip_gu"):
             if not isinstance(q.get(field), str) or not q[field].strip():
                 fail(f"Missing {field} on {q.get('id')}")
+            if len(q[field].strip()) < 80:
+                fail(f"Tip is too short to be useful ({field}) on {q.get('id')}")
 
         if q.get("review_flag") is True:
             flags[session] += 1
@@ -109,16 +114,21 @@ def main() -> None:
             fail(f"Audit review state mismatch for {q['id']}")
         if aq.get("tip_en") != q.get("tip_en") or aq.get("tip_gu") != q.get("tip_gu"):
             fail(f"Audit exam tip mismatch for {q['id']}")
+        if aq.get("review_note") != (q.get("review_note") or None):
+            fail(f"Audit review note mismatch for {q['id']}")
         counts[session] += 1
 
+    for session, key in EXPECTED_KEYS.items():
+        if len(key) != 100:
+            fail(f"Embedded official key string for {session} must contain exactly 100 answers")
     for session in SESSION_META:
         numbers = sorted(q["question_no"] for q in app if q.get("exam_session") == session)
         if counts[session] != 100 or numbers != list(range(1, 101)):
             fail(f"{session} must contain Q1-Q100 exactly once")
 
     papers = papers_doc.get("papers", [])
-    if len(papers) != 3:
-        fail("papers.json must contain exactly three sessions")
+    if len(papers) != 3 or {p.get("exam") for p in papers} != set(SESSION_META):
+        fail("papers.json must contain exactly one record for each of the three sessions")
     for p in papers:
         session = p.get("exam")
         if session not in SESSION_META or p.get("questions_loaded") != 100 or p.get("questions_count") != 100:
@@ -140,14 +150,21 @@ def main() -> None:
         fail("Subject with remaining review flags must remain unverified")
 
     remaining = audit_doc.get("review_flags_remaining")
-    if not isinstance(remaining, list) or len(remaining) != sum(flags.values()):
-        fail("Audit review_flags_remaining list is stale")
+    expected_remaining = [
+        {"id": q["id"], "review_note": q["review_note"]}
+        for q in app if q.get("review_flag") is True
+    ]
+    if not isinstance(remaining, list) or remaining != expected_remaining:
+        fail("Audit review_flags_remaining list is stale or differs from app review metadata")
 
     print("PASS: Indian Knowledge System subject 29 — 300 app/audit questions")
     print("PASS: every session has Q1-Q100 exactly once; no duplicate IDs")
     print("PASS: 300/300 answers match official Final Answer Keys")
     print("PASS: app/audit wording, options, answers, tips and review states match")
+    if len({q["tip_en"] for q in app}) < 250 or len({q["tip_gu"] for q in app}) < 250:
+        fail("Tip strings are too repetitive; add question-specific revision guidance")
     print("PASS: English and Gujarati exam tips exist on all 300 questions")
+    print(f"PASS: distinct tips — English {len({q['tip_en'] for q in app})}, Gujarati {len({q['tip_gu'] for q in app})}")
     print(f"Source review flags remaining: {sum(flags.values())}")
     for session in SESSION_META:
         print(f"  {session}: {counts[session]} questions; {counts[session] - flags[session]} visually verified; {flags[session]} flagged")
