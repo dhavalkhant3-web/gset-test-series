@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 96,
+  "total_questions": 101,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1532,6 +1532,91 @@
         "D": "Alfred Jarry"
       },
       "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_082",
+      "exam_session": "November 2023",
+      "question_number": 82,
+      "question_text": "Who is the present Director of National School of Drama?",
+      "options": {
+        "A": "Sanjay Upadhyaya",
+        "B": "Chittaranjan Tripathi",
+        "C": "Pankaj Tripathi",
+        "D": "Abhilash Pillai"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_083",
+      "exam_session": "November 2023",
+      "question_number": 83,
+      "question_text": "Blocking the actors on the stage is part of",
+      "options": {
+        "A": "Reading the Text",
+        "B": "Preparing the Characters",
+        "C": "Creating Stage Compositions",
+        "D": "Stage Conflict"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_084",
+      "exam_session": "November 2023",
+      "question_number": 84,
+      "question_text": "Identify the odd one in context of Greek Unities.",
+      "options": {
+        "A": "Unity of Time",
+        "B": "Unity of Plot",
+        "C": "Unity of Action",
+        "D": "Unity of Place"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_085",
+      "exam_session": "November 2023",
+      "question_number": 85,
+      "question_text": "Parikramana (encompassing the stage) in Indian theatre is a method developed to change",
+      "options": {
+        "A": "Characters",
+        "B": "Locale",
+        "C": "Masks",
+        "D": "Costumes"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_086",
+      "exam_session": "November 2023",
+      "question_number": 86,
+      "question_text": "In Globe Theatre, the musicians sit and play music on the",
+      "options": {
+        "A": "Front of the Stage",
+        "B": "Orchestra Pit",
+        "C": "Second Level Balcony",
+        "D": "Third Level Balcony"
+      },
+      "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
