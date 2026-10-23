@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 227,
+  "total_questions": 273,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1065,6 +1065,363 @@
         "D": "Both (1) and (2) are false"
       },
       "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_076",
+      "exam_session": "December 2024",
+      "question_number": 76,
+      "question_text": "What is the technique of an actor’s exercise for summoning up emotion by recalling a previous real-life event?",
+      "options": {
+        "A": "Select realism",
+        "B": "Sense memory",
+        "C": "Empathy",
+        "D": "Sympathy"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_077",
+      "exam_session": "December 2024",
+      "question_number": 77,
+      "question_text": "What is ‘ham acting’?",
+      "options": {
+        "A": "Rapid, witty exchange of dialogue",
+        "B": "An exaggerated and insecure performance",
+        "C": "An interpolation consisting of lines by an actor",
+        "D": "A composition of performers, types, motionless and speechless"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_078",
+      "exam_session": "December 2024",
+      "question_number": 78,
+      "question_text": "Who directed an adaptation of Ben Jonson’s Volpone as ‘Lomad Khan’ in Bhavai style?",
+      "options": {
+        "A": "Devendra Raj Ankur",
+        "B": "Bansi Kaul",
+        "C": "Bhanu Bharti",
+        "D": "B. V. Karanth"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_079",
+      "exam_session": "December 2024",
+      "question_number": 79,
+      "question_text": "What is ‘The Spectacle’ according to Antonin Artaud?",
+      "options": {
+        "A": "Double responsibility of spectacle and plot",
+        "B": "Physical and objective element perceptible to all",
+        "C": "A means of transcribing voices",
+        "D": "A second-hand psychological or moral function"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_080",
+      "exam_session": "December 2024",
+      "question_number": 80,
+      "question_text": "What is the genre of low comedy called in literature, music and plastic arts?",
+      "options": {
+        "A": "Dissonant",
+        "B": "Grotesque",
+        "C": "Apotheosis",
+        "D": "Dream play"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_081",
+      "exam_session": "December 2024",
+      "question_number": 81,
+      "question_text": "The annual dramatic performance in Egypt celebrating the ancient Egyptian god Osiris is known as",
+      "options": {
+        "A": "Academic Theatre",
+        "B": "Abydos Passion Play",
+        "C": "Abstract drama",
+        "D": "Abbey Theatre"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_082",
+      "exam_session": "December 2024",
+      "question_number": 82,
+      "question_text": "Pick the odd one out in the context of the role of a director.",
+      "options": {
+        "A": "Re-structuring the text",
+        "B": "Re-interpreting the play",
+        "C": "Casting the play",
+        "D": "Sitting in the box-office"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_083",
+      "exam_session": "December 2024",
+      "question_number": 83,
+      "question_text": "The playwright Menander belongs to",
+      "options": {
+        "A": "Byzantine theatre",
+        "B": "Roman theatre",
+        "C": "Restoration period",
+        "D": "Greek theatre"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_084",
+      "exam_session": "December 2024",
+      "question_number": 84,
+      "question_text": "In Greek theatre, the two entry passages on both sides of the stage are called",
+      "options": {
+        "A": "Proskenion",
+        "B": "Orchestra",
+        "C": "Parodos",
+        "D": "Ramp"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_085",
+      "exam_session": "December 2024",
+      "question_number": 85,
+      "question_text": "Pick the odd one out in the context of usage of Greek masks.",
+      "options": {
+        "A": "Interchanging of the characters",
+        "B": "Sound amplification using a megaphone attached to it",
+        "C": "To create a large effect",
+        "D": "To create realistic effect"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_086",
+      "exam_session": "December 2024",
+      "question_number": 86,
+      "question_text": "Globe Theatre is a type of ___ stage.",
+      "options": {
+        "A": "Square",
+        "B": "Rectangular",
+        "C": "Octagonal",
+        "D": "Round"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_087",
+      "exam_session": "December 2024",
+      "question_number": 87,
+      "question_text": "Commedia dell’arte, an Italian comedy, is known for using",
+      "options": {
+        "A": "Elaborate sets",
+        "B": "Spotlights",
+        "C": "Well-written story",
+        "D": "Stylised half masks"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_092",
+      "exam_session": "December 2024",
+      "question_number": 92,
+      "question_text": "Statement (1): Most theatre historians do not agree that contemporary Indian theatre originated in Bengal in the mid-nineteenth century. Statement (2): Other regional theatres followed Bengal’s practice, though they never developed with such vigour as Bengali theatre. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are false",
+        "B": "Both (1) and (2) are true",
+        "C": "(1) is true and (2) is false",
+        "D": "(1) is false and (2) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_093",
+      "exam_session": "December 2024",
+      "question_number": 93,
+      "question_text": "Statement (1): Melodrama is human but it is not mature. Statement (2): It is imaginative but it is not intelligent. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are false",
+        "B": "Both (1) and (2) are true",
+        "C": "(1) is false and (2) is true",
+        "D": "(1) is true and (2) is false"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_094",
+      "exam_session": "December 2024",
+      "question_number": 94,
+      "question_text": "Statement (1): According to some critics, Indian drama is so literary that it often appears unfit for the stage, yet it is actual theatre. Statement (2): Kalidasa and his successors wrote their plays to be staged, not merely read. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true and (2) is false",
+        "D": "(1) is false and (2) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_095",
+      "exam_session": "December 2024",
+      "question_number": 95,
+      "question_text": "Statement (1): Caspar Neher, the famous German scenographer, designed most of Bertolt Brecht’s plays. Statement (2): He also worked with other directors except Bertolt Brecht. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true and (2) is false",
+        "D": "(1) is false and (2) is true"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_096",
+      "exam_session": "December 2024",
+      "question_number": 96,
+      "question_text": "According to the passage, the Nautanki form deals with which themes?",
+      "options": {
+        "A": "Love, hatred",
+        "B": "Sacrifice, passion",
+        "C": "Love, sacrifice, bravery",
+        "D": "Affection, jealousy"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_097",
+      "exam_session": "December 2024",
+      "question_number": 97,
+      "question_text": "According to the passage, Lawani, Chaubola and Bahertabeel are main song forms of which operative form?",
+      "options": {
+        "A": "Maach",
+        "B": "Yakshagana",
+        "C": "Nautanki",
+        "D": "Khayal"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_098",
+      "exam_session": "December 2024",
+      "question_number": 98,
+      "question_text": "The battle of the Mahabharata epic is performed in an 18-day cycle in",
+      "options": {
+        "A": "Kathakali",
+        "B": "Yakshagana",
+        "C": "Terukuttu",
+        "D": "Swang"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_099",
+      "exam_session": "December 2024",
+      "question_number": 99,
+      "question_text": "Nautanki is also called",
+      "options": {
+        "A": "Sangeet",
+        "B": "Chaubola",
+        "C": "Naqqara",
+        "D": "Pandvani"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_100",
+      "exam_session": "December 2024",
+      "question_number": 100,
+      "question_text": "According to the passage, what are the highly developed forms of Kerala and Karnataka?",
+      "options": {
+        "A": "Lawani, Chaubola",
+        "B": "Kathakali, Yakshagana",
+        "C": "Swang, Khayal",
+        "D": "Khayal, Nautanki"
+      },
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
@@ -3894,6 +4251,431 @@
         "B": "Pt. Birju Maharaj",
         "C": "Chakradhar Sinh",
         "D": "Mansinh Tomar"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_066",
+      "exam_session": "November 2025",
+      "question_number": 66,
+      "question_text": "Which among the following folk dance dramas is now known as one of the Indian classical dances?",
+      "options": {
+        "A": "Tamasha",
+        "B": "Thaiyam",
+        "C": "Kuchipudi",
+        "D": "Yakshagana"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_067",
+      "exam_session": "November 2025",
+      "question_number": 67,
+      "question_text": "What is the name of the chapter dedicated to dance in the text Sangeet Ratnakar?",
+      "options": {
+        "A": "Nrutyadhyaya",
+        "B": "Nartanadhyaya",
+        "C": "Nrittaratnakar",
+        "D": "Nrittadhyaya"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_068",
+      "exam_session": "November 2025",
+      "question_number": 68,
+      "question_text": "Which period is known as the ‘Golden Era’ of Indian arts?",
+      "options": {
+        "A": "Shunga period",
+        "B": "Chola period",
+        "C": "Gupta period",
+        "D": "Pallava period"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_069",
+      "exam_session": "November 2025",
+      "question_number": 69,
+      "question_text": "Chalikya and Hallisaka are synonyms of which dance form?",
+      "options": {
+        "A": "Bhavai",
+        "B": "Kuravaikuttu",
+        "C": "Raas",
+        "D": "Yakshagana"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_070",
+      "exam_session": "November 2025",
+      "question_number": 70,
+      "question_text": "Which dance is performed by women only?",
+      "options": {
+        "A": "Bhangada",
+        "B": "Maniyaro Raas",
+        "C": "Gott",
+        "D": "Giddha"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_071",
+      "exam_session": "November 2025",
+      "question_number": 71,
+      "question_text": "How many Rasadrishtis are mentioned in Natyashastra?",
+      "options": {
+        "A": "Nine",
+        "B": "Seven",
+        "C": "Eight",
+        "D": "Six"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_072",
+      "exam_session": "November 2025",
+      "question_number": 72,
+      "question_text": "Which ruler patronised the classical dance Kathak?",
+      "options": {
+        "A": "Raja Chakradhar Sinh",
+        "B": "Raja Bhoj",
+        "C": "Raja Vikramaditya",
+        "D": "Raja Damaji Rao"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_073",
+      "exam_session": "November 2025",
+      "question_number": 73,
+      "question_text": "The sculptures of Karanas of Shiva with four hands are carved in which temple?",
+      "options": {
+        "A": "Chidambaram",
+        "B": "Mahabalipuram",
+        "C": "Brihadishwara",
+        "D": "Sarangapani"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_074",
+      "exam_session": "November 2025",
+      "question_number": 74,
+      "question_text": "The Kailash Temple is situated at which place?",
+      "options": {
+        "A": "Ellora",
+        "B": "Badrinath",
+        "C": "Ajanta",
+        "D": "Bhuvaneshwar"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_075",
+      "exam_session": "November 2025",
+      "question_number": 75,
+      "question_text": "Who is the author of Nrityadhyaya?",
+      "options": {
+        "A": "Sarangadev",
+        "B": "Ashokamalla",
+        "C": "Bharatmuni",
+        "D": "Vishwanath Kaviraj"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_076",
+      "exam_session": "November 2025",
+      "question_number": 76,
+      "question_text": "Which among these characters can be considered a Dhir Lalita Nayaka?",
+      "options": {
+        "A": "Shiva",
+        "B": "Sudama",
+        "C": "Krishna",
+        "D": "Ravana"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_077",
+      "exam_session": "November 2025",
+      "question_number": 77,
+      "question_text": "What is Atikranta?",
+      "options": {
+        "A": "Akash Chari",
+        "B": "Bhoomi Chari",
+        "C": "Mandal",
+        "D": "Karana"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_078",
+      "exam_session": "November 2025",
+      "question_number": 78,
+      "question_text": "Which is the sthayi bhava of Bibhatsa Rasa?",
+      "options": {
+        "A": "Rati",
+        "B": "Utsaha",
+        "C": "Adbhut",
+        "D": "Jugupsa"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_079",
+      "exam_session": "November 2025",
+      "question_number": 79,
+      "question_text": "Birju Maharaj is an exponent of which gharana?",
+      "options": {
+        "A": "Patiyala Gharana",
+        "B": "Lucknow Gharana",
+        "C": "Jaipur Gharana",
+        "D": "Banaras Gharana"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_080",
+      "exam_session": "November 2025",
+      "question_number": 80,
+      "question_text": "From which text do we get the first reference of ‘Arangetram’?",
+      "options": {
+        "A": "Sangeetasamayasar",
+        "B": "Silappadikaram",
+        "C": "Sangeetadamodar",
+        "D": "Natya Nirupan"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_091",
+      "exam_session": "November 2025",
+      "question_number": 91,
+      "question_text": "Statement (1): Sanskrit theatre used to entertain the audience from purvaranga (preliminaries) to bharatavakya (valedictory blessings). Statement (2): Songs remained an integral part of the Indian stage and have expressed and reconciled dramatic themes and grand conflicts. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is false, (2) is true",
+        "D": "(1) is true, (2) is false"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_092",
+      "exam_session": "November 2025",
+      "question_number": 92,
+      "question_text": "Statement (1): Bhavai is a folk theatre of Gujarat. Statement (2): Vidushak is an important character of it. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are false",
+        "B": "Both (1) and (2) are true",
+        "C": "(1) is true, (2) is false",
+        "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_093",
+      "exam_session": "November 2025",
+      "question_number": 93,
+      "question_text": "Statement (1): The Ramayana and Mahabharata are known as ‘History’. Statement (2): They are purely historical accounts without philosophical or ethical teachings. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "(1) is false, (2) is true",
+        "C": "(1) is true, (2) is false",
+        "D": "Both (1) and (2) are false"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_094",
+      "exam_session": "November 2025",
+      "question_number": 94,
+      "question_text": "Statement (1): Kathakali relies on naturalistic dialogue delivery. Statement (2): It is based on Rasa and codified gesture. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true, (2) is false",
+        "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_095",
+      "exam_session": "November 2025",
+      "question_number": 95,
+      "question_text": "Statement (1): In classical theatre and folk forms, the need to show physically the environment or background does not exist. Statement (2): Indian traditions were non-realistic in content and form. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true, (2) is false",
+        "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_096",
+      "exam_session": "November 2025",
+      "question_number": 96,
+      "question_text": "Which element indicates geographic location according to Bharata Muni?",
+      "options": {
+        "A": "Physical expression",
+        "B": "Way of speaking",
+        "C": "Body language",
+        "D": "Language"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_097",
+      "exam_session": "November 2025",
+      "question_number": 97,
+      "question_text": "Which two elements can create magical qualities in Natyaprayoga?",
+      "options": {
+        "A": "Attire and language",
+        "B": "Vritti and Pravritti",
+        "C": "Music and dance",
+        "D": "Inner consciousness and external expression"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_098",
+      "exam_session": "November 2025",
+      "question_number": 98,
+      "question_text": "According to Bharata, how should vocal music, musical instruments and dance be used?",
+      "options": {
+        "A": "As Rasawardhana",
+        "B": "As Sahadharmi",
+        "C": "As Natyadharmi",
+        "D": "As Alatchakra"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_099",
+      "exam_session": "November 2025",
+      "question_number": 99,
+      "question_text": "On which basis can Pravritti be divided?",
+      "options": {
+        "A": "Ornaments",
+        "B": "Natyadharmi",
+        "C": "Panchali",
+        "D": "Vritti"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_100",
+      "exam_session": "November 2025",
+      "question_number": 100,
+      "question_text": "External representation is known as what?",
+      "options": {
+        "A": "Pravritti",
+        "B": "Vritti",
+        "C": "Sahadharmi",
+        "D": "Lokdharmi"
       },
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
