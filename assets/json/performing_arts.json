@@ -596,9 +596,9 @@
       "question_number": 35,
       "question_text": "Match List I with List II: a. Ajanta caves; b. Ellora; c. Bhimbetka; d. Udaigiri and Khandagiri caves. List II: i. Rock-cut caves built in the 2nd century BC; ii. Buddhist rock-cut architecture; iii. Rock paintings, evidence of human civilization during 8000 BC; iv. Great Kailash, largest monolithic structure in the world.",
       "options": {
-        "A": "a-ii, b-i, c-iii, d-iv",
-        "B": "a-iv, b-ii, c-i, d-iii",
-        "C": "a-iii, b-iv, c-ii, d-i",
+        "A": "a-iii, b-ii, c-i, d-iv",
+        "B": "a-iv, b-i, c-ii, d-iii",
+        "C": "a-ii, b-iv, c-iii, d-i",
         "D": "a-i, b-iii, c-iv, d-ii"
       },
       "correct_answer": "C",
@@ -1598,7 +1598,7 @@
       "id": "GSET_31_DEC24_094",
       "exam_session": "December 2024",
       "question_number": 94,
-      "question_text": "Statement (1): According to Silvan Levi, the Indian drama is so literary that it often appears unfit for the stage, 'Yet it is actual theatre.' Statement (2): Kalidasa and his successors did not write for readers but for an audience; they meant their plays to be staged. Choose the correct answer.",
+      "question_text": "Statement (1): According to Silvain Levi, the Indian drama is so literary that it often appears unfit for the stage, 'Yet it is actual theatre.' Statement (2): Kalidasa and his successors did not write for readers but for an audience; they meant their plays to be staged. Choose the correct answer.",
       "options": {
         "A": "Both (1) and (2) are true",
         "B": "Both (1) and (2) are false",
@@ -1649,7 +1649,7 @@
       "id": "GSET_31_DEC24_097",
       "exam_session": "December 2024",
       "question_number": 97,
-      "question_text": "According to the passage, Lawani, Chaubola and Bahertabeel are the main song forms of which operative form?",
+      "question_text": "According to the passage Lawani, Chaubola and Bahertabeel are main song forms of the which operative form?",
       "options": {
         "A": "Maach",
         "B": "Yakshagana",
@@ -1666,7 +1666,7 @@
       "id": "GSET_31_DEC24_098",
       "exam_session": "December 2024",
       "question_number": 98,
-      "question_text": "The battle of the Mahabharata epic is performed in an 18-day cycle in",
+      "question_text": "The battle of Mahabharata epic is performed in a 18-day circle in",
       "options": {
         "A": "Kathakali",
         "B": "Yakshagana",
@@ -2365,8 +2365,8 @@
       "question_number": 39,
       "question_text": "Match List I with List II. List I: A. Salabhanjika; B. Mattavarani; C. Kuhara; D. Rajju. List II: (I) A wooden railing; (II) A cavity, hole, opening; (III) A cord; (IV) A sculpture of a young girl under a tree in a happy mood. Choose the correct answer.",
       "options": {
-        "A": "A(IV), B(II), C(I), D(III)",
-        "B": "A(IV), B(I), C(II), D(III)",
+        "A": "A(IV), B(I), C(II), D(III)",
+        "B": "A(IV), B(II), C(III), D(I)",
         "C": "A(IV), B(III), C(I), D(II)",
         "D": "A(I), B(II), C(III), D(IV)"
       },
@@ -2773,10 +2773,10 @@
       "question_number": 63,
       "question_text": "Match List I with List II. List I: A. Tanvi and Rupavati; B. Usha; C. Bhoomi Charis Lakshana; D. Sita. List II: (I) 16 (Sixteen); (II) Uttama; (III) Nartaki; (IV) Lasya. Choose the correct answer.",
       "options": {
-        "A": "A(IV), B(III), C(I), D(II)",
-        "B": "A(III), B(I), C(IV), D(II)",
+        "A": "A(IV), B(II), C(I), D(III)",
+        "B": "A(III), B(II), C(IV), D(I)",
         "C": "A(III), B(IV), C(I), D(II)",
-        "D": "A(III), B(II), C(IV), D(I)"
+        "D": "A(II), B(III), C(IV), D(I)"
       },
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
@@ -2790,10 +2790,10 @@
       "question_number": 64,
       "question_text": "Match List I with List II. List I: A. Srimanta Shankar Deva; B. Tulsidas; C. Jayadeva; D. Narayanteertha. List II: (I) Geet Govinda; (II) Pada; (III) Purush and Prakrati; (IV) Ramleela. Choose the correct answer.",
       "options": {
-        "A": "A(IV), B(II), C(I), D(III)",
-        "B": "A(III), B(II), C(I), D(IV)",
+        "A": "A(IV), B(III), C(II), D(I)",
+        "B": "A(II), B(I), C(III), D(IV)",
         "C": "A(III), B(IV), C(I), D(II)",
-        "D": "A(II), B(III), C(I), D(IV)"
+        "D": "A(III), B(I), C(II), D(IV)"
       },
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
@@ -4797,8 +4797,8 @@
       "question_text": "Match the following places with their special feature: a. Chidambaram; b. Brihadishwara Temple; c. Ellora Cave; d. Adyar, Chennai. i. Tall Vimana; ii. Idol of Nataraja; iii. Kalakshetra Foundation; iv. Kailash Temple.",
       "options": {
         "A": "a-iv, b-iii, c-ii, d-i",
-        "B": "a-ii, b-i, c-iv, d-iii",
-        "C": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-iii, b-ii, c-i, d-iv",
+        "C": "a-ii, b-i, c-iv, d-iii",
         "D": "a-i, b-ii, c-iii, d-iv"
       },
       "correct_answer": "C",
