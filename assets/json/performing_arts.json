@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 101,
+  "total_questions": 104,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1617,6 +1617,57 @@
         "D": "Third Level Balcony"
       },
       "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_087",
+      "exam_session": "November 2023",
+      "question_number": 87,
+      "question_text": "Commedia dell’arte usually was performed with the help of",
+      "options": {
+        "A": "Readymade text",
+        "B": "Improvised story",
+        "C": "Media projections",
+        "D": "Stylised makeup"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_092",
+      "exam_session": "November 2023",
+      "question_number": 92,
+      "question_text": "Statement (A): Pity represents the weaker side of melodrama, fear the stronger. Statement (B): The success of a melodramatist will always depend primarily upon his power to feel and project fear. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_093",
+      "exam_session": "November 2023",
+      "question_number": 93,
+      "question_text": "Statement (A): Gozzi maintained that there can be but thirty-six dramatic situations. Statement (B): Schiller took great pains to find more, but he was unable to find even so many as Gozzi. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
