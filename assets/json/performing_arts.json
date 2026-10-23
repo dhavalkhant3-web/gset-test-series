@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 33,
+  "total_questions": 42,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -447,6 +447,159 @@
         "B": "Tirdhanarayana Yogi",
         "C": "Sahaja or Saha Maharaj",
         "D": "E Koji"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_017",
+      "exam_session": "November 2023",
+      "question_number": 17,
+      "question_text": "According to Bharata’s Natyashastra, the ideal apportionment of stage space is known as",
+      "options": {
+        "A": "Parikramana",
+        "B": "Kakshyavibhaga",
+        "C": "Yavanika",
+        "D": "Mattavarani"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_018",
+      "exam_session": "November 2023",
+      "question_number": 18,
+      "question_text": "Who adopted the play Mrichhakatikam into Nautanki form?",
+      "options": {
+        "A": "B. V. Karanth",
+        "B": "Bansi Kaul",
+        "C": "Habib Tanveer",
+        "D": "Ram Gopal Bajaj"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_019",
+      "exam_session": "November 2023",
+      "question_number": 19,
+      "question_text": "Pick the odd one out in context of varieties of Kaishiki Vritti.",
+      "options": {
+        "A": "Narma",
+        "B": "Sanghataka",
+        "C": "Narma-Sphurja",
+        "D": "Narma-Sphota"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_020",
+      "exam_session": "November 2023",
+      "question_number": 20,
+      "question_text": "In Madhyam Vikrusth Rangmanch, a wooden partition wall separating the green room (Nepathyagraha) from the stage (Rangapitha) is called:",
+      "options": {
+        "A": "Suddhadarsatala",
+        "B": "Saddaruka",
+        "C": "Vedika",
+        "D": "Sailaguha"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_021",
+      "exam_session": "November 2023",
+      "question_number": 21,
+      "question_text": "Which of the following is not included in the 11 elements of Natya-Sangraha, according to Natyashastra?",
+      "options": {
+        "A": "Nayika Bhed",
+        "B": "Abhinaya",
+        "C": "Pravritti",
+        "D": "Siddhi"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_022",
+      "exam_session": "November 2023",
+      "question_number": 22,
+      "question_text": "From which basic or source Rasa is Bhayanaka Rasa derived?",
+      "options": {
+        "A": "Raudra",
+        "B": "Adbhuta",
+        "C": "Bibhatsa",
+        "D": "Karuna"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_023",
+      "exam_session": "November 2023",
+      "question_number": 23,
+      "question_text": "The physical changes and movements which communicate Sthayi Bhava aroused in a hero are known as his",
+      "options": {
+        "A": "Sanchari",
+        "B": "Anubhava",
+        "C": "Vibhava",
+        "D": "Natyabhava"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_024",
+      "exam_session": "November 2023",
+      "question_number": 24,
+      "question_text": "Who expressed his views on Bhavakatva and Bhogavada?",
+      "options": {
+        "A": "Bharata",
+        "B": "Abhinavagupta",
+        "C": "Sri Sankuka",
+        "D": "Bhatta Nayaka"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_025",
+      "exam_session": "November 2023",
+      "question_number": 25,
+      "question_text": "Which one of the following is NOT the concept of Sri Sankuka?",
+      "options": {
+        "A": "Samyak Pratiti",
+        "B": "Alaukika Pratiti",
+        "C": "Mithya Pratiti",
+        "D": "Sanshaya Pratiti"
       },
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
