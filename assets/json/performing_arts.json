@@ -10,7 +10,7 @@
     "December 2024",
     "November 2025"
   ],
-  "status": "official_key_reconciled_visual_review_required_for_remaining_flagged_questions",
+  "status": "official_key_reconciled_visual_reviewed_questions_cleared_from_review",
   "questions": [
     {
       "id": "GSET_31_DEC24_001",
@@ -611,19 +611,18 @@
       "id": "GSET_31_DEC24_036",
       "exam_session": "December 2024",
       "question_number": 36,
-      "question_text": "Match List I with List II: a. Pratyahara; b. Avatarana; c. (musical) orchestra; d. Parighattana. List II: i. Entry and seating of musicians; ii. Tuning of the musical orchestra; iii. (text unclear in scan); iv. Adjustments of strings.",
+      "question_text": "Match List I with List II: a. Pratyahara; b. Avatarana; c. Asravana; d. Parighattana. List II: i. Entry and seating of musicians; ii. The tuning of the musical instruments; iii. Placement of orchestra; iv. Adjustments of the strings of the instruments.",
       "options": {
         "A": "a-ii, b-iv, c-iii, d-i",
         "B": "a-iv, b-iii, c-i, d-ii",
-        "C": "a-ii, b-ii, c-iv, d-i",
-        "D": "a-ii, b-i, c-iii, d-iv"
+        "C": "a-iii, b-ii, c-iv, d-i",
+        "D": "a-iii, b-i, c-ii, d-iv"
       },
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_DEC24_037",
@@ -1501,15 +1500,14 @@
       "options": {
         "A": "a-i, b-ii, c-iii, d-iv",
         "B": "a-ii, b-iii, c-iv, d-i",
-        "C": "a-iv, b-ii, c-iii, d-i",
-        "D": "a-iii, b-i, c-ii, d-iv"
+        "C": "a-iv, b-iii, c-ii, d-i",
+        "D": "a-ii, b-i, c-iii, d-iv"
       },
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer C differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_DEC24_089",
@@ -1518,16 +1516,15 @@
       "question_text": "Match List I with List II: a. The Theatre and its Double; b. Indian Method in Acting; c. Towards a Poor Theatre; d. Theatres of Independence. List II: i. Jerzy Grotowski; ii. Antonin Artaud; iii. Aparna Dharwadker; iv. Prasanna.",
       "options": {
         "A": "a-ii, b-iv, c-iii, d-i",
-        "B": "a-iv, b-i, c-iii, d-ii",
+        "B": "a-ii, b-iv, c-i, d-iii",
         "C": "a-i, b-iii, c-iv, d-ii",
-        "D": "a-ii, b-iii, c-i, d-iv"
+        "D": "a-iv, b-ii, c-i, d-iii"
       },
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer A differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_DEC24_090",
@@ -1535,17 +1532,16 @@
       "question_number": 90,
       "question_text": "Match List I with List II: a. Third Theatre; b. Indian Classical Theatre; c. Theatre music; d. Theatre of Roots. List II: i. K. N. Panikkar; ii. Badal Sircar; iii. Habib Tanvir; iv. B. V. Karanth.",
       "options": {
-        "A": "a-iii, b-iv, c-i, d-ii",
-        "B": "a-iv, b-i, c-ii, d-iii",
+        "A": "a-iii, b-iv, c-ii, d-i",
+        "B": "a-ii, b-iv, c-i, d-iii",
         "C": "a-ii, b-i, c-iv, d-iii",
-        "D": "a-iv, b-iii, c-i, d-ii"
+        "D": "a-iv, b-ii, c-i, d-iii"
       },
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_DEC24_091",
@@ -1561,9 +1557,8 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer A differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_DEC24_092",
@@ -2812,17 +2807,16 @@
       "question_number": 65,
       "question_text": "Match List I with List II. List I: A. Nrithyodaya; B. Darpan; C. Kadamb; D. Mahagami. List II: (I) Parwati Dutta; (II) Dr. Padma Subrahmanyam; (III) Mrinalini Sarabhai; (IV) Kumudini Lakhia. Choose the correct answer.",
       "options": {
-        "A": "A(I), B(II), C(III), D(IV)",
-        "B": "A(II), B(IV), C(III), D(I)",
-        "C": "A(I), B(IV), C(II), D(III)",
-        "D": "A(IV), B(I), C(III), D(II)"
+        "A": "A(II), B(III), C(I), D(IV)",
+        "B": "A(II), B(III), C(IV), D(I)",
+        "C": "A(III), B(IV), C(II), D(I)",
+        "D": "A(IV), B(II), C(I), D(III)"
       },
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_NOV23_066",
@@ -2830,17 +2824,16 @@
       "question_number": 66,
       "question_text": "Match List I with List II. List I: A. Draupadi; B. Rhythm of Life; C. Prakriti; D. Yugal. List II: (I) Kumudini Lakhia; (II) Uday Shankar; (III) Sonal Mansingh; (IV) Chandralekha. Choose the correct answer.",
       "options": {
-        "A": "A(I), B(III), C(II), D(IV)",
-        "B": "A(IV), B(II), C(I), D(III)",
-        "C": "A(II), B(III), C(IV), D(I)",
-        "D": "A(I), B(II), C(III), D(IV)"
+        "A": "A(II), B(III), C(I), D(IV)",
+        "B": "A(IV), B(I), C(II), D(III)",
+        "C": "A(III), B(II), C(IV), D(I)",
+        "D": "A(III), B(II), C(I), D(IV)"
       },
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_NOV23_067",
@@ -3206,16 +3199,15 @@
       "question_text": "Match List I with List II. List I: A. Rasik Lal Parikh; B. Badal Sircar; C. Doodhnath Singh; D. Maya Rao. List II: (I) The Job; (II) Sharvilak; (III) Pagla Ghoda; (IV) Yamagatha. Choose the correct answer.",
       "options": {
         "A": "A(IV), B(I), C(II), D(III)",
-        "B": "A(I), B(III), C(II), D(IV)",
-        "C": "A(I), B(III), C(IV), D(II)",
-        "D": "A(II), B(IV), C(I), D(III)"
+        "B": "A(I), B(II), C(III), D(IV)",
+        "C": "A(II), B(III), C(IV), D(I)",
+        "D": "A(III), B(IV), C(I), D(II)"
       },
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_NOV23_089",
@@ -3223,17 +3215,16 @@
       "question_number": 89,
       "question_text": "Match List I with List II. List I: A. Balwant Gargi; B. Som Benegal; C. Adya Rangacharya; D. Nemi Chandra Jain. List II: (I) Indian Theatre: Tradition, Continuity and Change; (II) The Indian Theatre; (III) A Panorama of Theatre in India; (IV) Theatre in India. Choose the correct answer.",
       "options": {
-        "A": "A(IV), B(II), C(I), D(III)",
-        "B": "A(I), B(IV), C(II), D(III)",
-        "C": "A(II), B(I), C(IV), D(III)",
-        "D": "A(I), B(III), C(II), D(IV)"
+        "A": "A(IV), B(III), C(II), D(I)",
+        "B": "A(III), B(IV), C(I), D(II)",
+        "C": "A(II), B(III), C(IV), D(I)",
+        "D": "A(I), B(II), C(III), D(IV)"
       },
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
+      "source_verified": true,
+      "review_flag": false
     },
     {
       "id": "GSET_31_NOV23_090",
@@ -3260,8 +3251,8 @@
       "options": {
         "A": "A(III), B(I), C(II), D(IV)",
         "B": "A(IV), B(I), C(II), D(III)",
-        "C": "A(II), B(IV), C(I), D(III)",
-        "D": "A(I), B(II), C(III), D(IV)"
+        "C": "A(III), B(IV), C(I), D(II)",
+        "D": "A(II), B(III), C(IV), D(I)"
       },
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
