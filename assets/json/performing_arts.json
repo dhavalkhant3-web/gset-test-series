@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 194,
+  "total_questions": 227,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -840,6 +840,231 @@
         "D": "Nagarpal"
       },
       "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_058",
+      "exam_session": "December 2024",
+      "question_number": 58,
+      "question_text": "In 2009, who choreographed and performed his production ‘Breaking Boundaries’ with fourteen street children from the NGO Salaam Baalak Trust?",
+      "options": {
+        "A": "Tripura Sharma",
+        "B": "Shantibardhan",
+        "C": "Astaad Deboo",
+        "D": "Mrinalini Sarabhai"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_059",
+      "exam_session": "December 2024",
+      "question_number": 59,
+      "question_text": "‘Laban’ movement is based on the original work of",
+      "options": {
+        "A": "Doris Laban",
+        "B": "Ruth Laban",
+        "C": "Loie Laban",
+        "D": "Rudolf Laban"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_060",
+      "exam_session": "December 2024",
+      "question_number": 60,
+      "question_text": "‘Swan Lake’ and ‘The Sleeping Beauty’ are famous ballets of",
+      "options": {
+        "A": "Loie Fuller",
+        "B": "Rudolf Laban",
+        "C": "Marius Petipa",
+        "D": "Doris Humphrey"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_061",
+      "exam_session": "December 2024",
+      "question_number": 61,
+      "question_text": "Who among the following is associated with the ballet ‘La Sylphide’?",
+      "options": {
+        "A": "Marie Taglioni",
+        "B": "Isadora Duncan",
+        "C": "Henry VII",
+        "D": "Anna Pavlova"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_062",
+      "exam_session": "December 2024",
+      "question_number": 62,
+      "question_text": "Which system is known for analysing and recording human movement?",
+      "options": {
+        "A": "Staff notation",
+        "B": "Labanotation",
+        "C": "Movement mapping",
+        "D": "Angle mapping"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_063",
+      "exam_session": "December 2024",
+      "question_number": 63,
+      "question_text": "Match List I with List II: (a) Hasta Lakshan Deepika; (b) Srihastamuktavali; (c) Abhinaya Chandrika; (d) Abhinaya Darpana. List II: (i) Sattriya; (ii) Kathakali; (iii) Mohiniattam; (iv) Odissi.",
+      "options": {
+        "A": "a-ii, b-i, c-iii, d-iv",
+        "B": "a-iv, b-ii, c-iii, d-i",
+        "C": "a-ii, b-iii, c-iv, d-i",
+        "D": "a-iii, b-iv, c-ii, d-i"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
+    },
+    {
+      "id": "GSET_31_DEC24_064",
+      "exam_session": "December 2024",
+      "question_number": 64,
+      "question_text": "Match List I with List II: (a) Sattriya; (b) Kuchipudi; (c) Odissi; (d) Kathak. List II: (i) Sanjukta Panigrahi; (ii) Parmelu; (iii) Kuchelapuram; (iv) Madhavdev.",
+      "options": {
+        "A": "a-i, b-ii, c-iii, d-iv",
+        "B": "a-iv, b-iii, c-i, d-ii",
+        "C": "a-iii, b-iv, c-ii, d-i",
+        "D": "a-ii, b-i, c-iv, d-iii"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
+    },
+    {
+      "id": "GSET_31_DEC24_065",
+      "exam_session": "December 2024",
+      "question_number": 65,
+      "question_text": "Match List I with List II: (a) Raja-Rani Music Festival; (b) Uday Shankar Dance Festival; (c) Ellora-Ajanta Dance Festival; (d) Modhera Dance Festival. List II: (i) Kolkata; (ii) Mehsana; (iii) Bhubaneshwar; (iv) Aurangabad.",
+      "options": {
+        "A": "a-iii, b-i, c-iv, d-ii",
+        "B": "a-iii, b-i, c-ii, d-iv",
+        "C": "a-iv, b-ii, c-i, d-iii",
+        "D": "a-iv, b-ii, c-iii, d-i"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
+    },
+    {
+      "id": "GSET_31_DEC24_066",
+      "exam_session": "December 2024",
+      "question_number": 66,
+      "question_text": "Match List I with List II: (a) Anna Pavlova; (b) Ted Shawn; (c) Uday Shankar Dance Company; (d) Maya Rao. List II: (i) Radha Krishna; (ii) Natya Institute of Choreography; (iii) Denishawn; (iv) The Dying Swan.",
+      "options": {
+        "A": "a-iv, b-iii, c-ii, d-i",
+        "B": "a-ii, b-iv, c-iii, d-i",
+        "C": "a-iv, b-ii, c-iii, d-i",
+        "D": "a-iv, b-ii, c-i, d-iii"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
+    },
+    {
+      "id": "GSET_31_DEC24_067",
+      "exam_session": "December 2024",
+      "question_number": 67,
+      "question_text": "Statement (1): Lokadharmi and Natyadharmi are the two divisions of Rasa. Statement (2): Natyadharmi is a stylised mode of expression. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true and (2) is false",
+        "D": "(1) is false and (2) is true"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_068",
+      "exam_session": "December 2024",
+      "question_number": 68,
+      "question_text": "Statement (1): ‘Geet Govind’ was written by poet Jayadeva. Statement (2): ‘Sankirtanas’ are compiled in ‘Geet Govind’. Choose the correct answer.",
+      "options": {
+        "A": "(1) true, (2) false",
+        "B": "(1) false, (2) true",
+        "C": "Both (1) and (2) are true",
+        "D": "Both (1) and (2) are false"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_069",
+      "exam_session": "December 2024",
+      "question_number": 69,
+      "question_text": "Statement (1): The Gotipuas are known as ‘Akhadapilas’, meaning boys attached to Akhada. Statement (2): Initially Guru Kelucharan Mahapatra was a Gotipua dancer. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true and (2) is false",
+        "D": "(1) is false and (2) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_070",
+      "exam_session": "December 2024",
+      "question_number": 70,
+      "question_text": "Statement (1): Dance warm-ups are important for any dance form. Statement (2): Dance techniques of all dance forms are the same. Choose the correct answer.",
+      "options": {
+        "A": "(1) true, (2) false",
+        "B": "(1) false, (2) true",
+        "C": "Both (1) and (2) are true",
+        "D": "Both (1) and (2) are false"
+      },
+      "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
@@ -3329,6 +3554,346 @@
         "B": "Both (1) and (2) are false",
         "C": "(1) is true, (2) is false",
         "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_046",
+      "exam_session": "November 2025",
+      "question_number": 46,
+      "question_text": "According to the passage, why is the Indian Knowledge System considered ‘living’ rather than ‘fossilized’?",
+      "options": {
+        "A": "It is preserved through sacrifices only",
+        "B": "It evolves by engaging with other traditions, adapting commentary and staying embedded in practice",
+        "C": "It rejects foreign influences",
+        "D": "It is confined to the Vedic period alone"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_047",
+      "exam_session": "November 2025",
+      "question_number": 47,
+      "question_text": "According to the passage, the Natyashastra’s concept of Rasa exemplifies which IKS principle?",
+      "options": {
+        "A": "Isolating art from pedagogy",
+        "B": "Integrating psychology, aesthetics and moral education in a single theory",
+        "C": "Reducing theatre to entertainment",
+        "D": "Prioritizing ritual over audience experience"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_048",
+      "exam_session": "November 2025",
+      "question_number": 48,
+      "question_text": "According to the passage, the integration of ethics with epistemology in Indian Knowledge System (IKS) implies",
+      "options": {
+        "A": "Knowledge can be pursued independently of moral conduct",
+        "B": "The pursuit of knowledge (vidya) is aligned with Dharma and social responsibility",
+        "C": "Scientific inquiry must exclude spiritual values",
+        "D": "Dharma is unrelated to governance"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_049",
+      "exam_session": "November 2025",
+      "question_number": 49,
+      "question_text": "According to the passage, in IKS the holistic view of architecture (Vastu) is linked to",
+      "options": {
+        "A": "Mechanical construction of temples only",
+        "B": "Environmental sustainability and cosmic alignment in human habitats",
+        "C": "Exclusive adherence to Greek geometry",
+        "D": "Decoration without functional design"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_050",
+      "exam_session": "November 2025",
+      "question_number": 50,
+      "question_text": "According to the passage, the Arthashastra exemplifies which key trait of IKS?",
+      "options": {
+        "A": "Spiritual guidance with no practical relevance",
+        "B": "Integrating ethics with statecraft, economics and military science",
+        "C": "Exclusive focus on ritual purity of rulers",
+        "D": "Rejecting empirical governance in favor of metaphysics"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_051",
+      "exam_session": "November 2025",
+      "question_number": 51,
+      "question_text": "Which term is given for ‘Natyaprayoga’ by sage Bharata?",
+      "options": {
+        "A": "Vritti",
+        "B": "Dharmi",
+        "C": "Leela",
+        "D": "Lakshana"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_052",
+      "exam_session": "November 2025",
+      "question_number": 52,
+      "question_text": "Who is the author of the text ‘Bharatarnava’?",
+      "options": {
+        "A": "Sage Bharata",
+        "B": "Acharya Abhinava Gupta",
+        "C": "Acharya Nandikeshwara",
+        "D": "Acharya Sarangdeva"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_053",
+      "exam_session": "November 2025",
+      "question_number": 53,
+      "question_text": "Which text describes the characters Madri and Kannagi?",
+      "options": {
+        "A": "Mahabharat",
+        "B": "Silappadikaram",
+        "C": "Aadal Kalai",
+        "D": "Lakshana Grantha"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_054",
+      "exam_session": "November 2025",
+      "question_number": 54,
+      "question_text": "Which among the following dance forms is NOT from Andhra Pradesh?",
+      "options": {
+        "A": "Kuchipudi",
+        "B": "Vilasini Natyam",
+        "C": "Perini Dance",
+        "D": "Thaiyam"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_055",
+      "exam_session": "November 2025",
+      "question_number": 55,
+      "question_text": "Pick the odd one out.",
+      "options": {
+        "A": "C. V. Chandrashekhar",
+        "B": "Chitra Vishweshwaran",
+        "C": "Alarmel Valli",
+        "D": "Kanak Rele"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_056",
+      "exam_session": "November 2025",
+      "question_number": 56,
+      "question_text": "Which among the following is NOT a Bharatanatyam ornament?",
+      "options": {
+        "A": "Rakhudi",
+        "B": "Jhimaki",
+        "C": "Utiyanam",
+        "D": "Haansadi"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_057",
+      "exam_session": "November 2025",
+      "question_number": 57,
+      "question_text": "Which style of Bharatanatyam did C. V. Chandrashekhar practise?",
+      "options": {
+        "A": "Vazhuvoor style",
+        "B": "Kalakshetra style",
+        "C": "Tanjavur style",
+        "D": "Pandanallur style"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_058",
+      "exam_session": "November 2025",
+      "question_number": 58,
+      "question_text": "Which chapter of Natyashastra explains the Rasasutra?",
+      "options": {
+        "A": "4th",
+        "B": "12th",
+        "C": "6th",
+        "D": "16th"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_059",
+      "exam_session": "November 2025",
+      "question_number": 59,
+      "question_text": "Who among these is NOT a Kathak exponent?",
+      "options": {
+        "A": "Rajendra Gangani",
+        "B": "Deepak Maharaj",
+        "C": "Vaibhav Arekar",
+        "D": "Prerana Shrimali"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_060",
+      "exam_session": "November 2025",
+      "question_number": 60,
+      "question_text": "How many Hasta Karanas are described in Natyashastra?",
+      "options": {
+        "A": "108",
+        "B": "08",
+        "C": "04",
+        "D": "104"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_061",
+      "exam_session": "November 2025",
+      "question_number": 61,
+      "question_text": "Udha and Anudha are types of which Nayika?",
+      "options": {
+        "A": "Parakiya Nayika",
+        "B": "Swakiya Nayika",
+        "C": "Ganika Nayika",
+        "D": "Pragalbha Nayika"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_062",
+      "exam_session": "November 2025",
+      "question_number": 62,
+      "question_text": "Which tala is NOT among the sapta talas?",
+      "options": {
+        "A": "Mathya tala",
+        "B": "Rupaka tala",
+        "C": "Jhap tala",
+        "D": "Eka tala"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_063",
+      "exam_session": "November 2025",
+      "question_number": 63,
+      "question_text": "Which among these yatis is considered as Damaru Yati?",
+      "options": {
+        "A": "Srotavaha",
+        "B": "Gopuchcha",
+        "C": "Mridanga",
+        "D": "Pipilika"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_064",
+      "exam_session": "November 2025",
+      "question_number": 64,
+      "question_text": "Indra is known as the god of which Rasa?",
+      "options": {
+        "A": "Shringar",
+        "B": "Raudra",
+        "C": "Bibhatsa",
+        "D": "Veer"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_065",
+      "exam_session": "November 2025",
+      "question_number": 65,
+      "question_text": "The book named ‘Banni’ is written by whom?",
+      "options": {
+        "A": "Wajid Ali Shah",
+        "B": "Pt. Birju Maharaj",
+        "C": "Chakradhar Sinh",
+        "D": "Mansinh Tomar"
       },
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
