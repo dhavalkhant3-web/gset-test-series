@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 27,
+  "total_questions": 33,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -12,23 +12,6 @@
   ],
   "status": "partial_import_review_required",
   "questions": [
-    {
-      "id": "GSET_31_NOV23_001",
-      "exam_session": "November 2023",
-      "question_number": 1,
-      "question_text": "Which period is known as 'Golden period' with reference to the arts?",
-      "options": {
-        "A": "Shung period",
-        "B": "Gupt period",
-        "C": "Naag period",
-        "D": "Harshavardhan period"
-      },
-      "correct_answer": "B",
-      "source_paper": "nov2331.pdf",
-      "source_answer_key": "November 2023 Final Answer Key, Performing Arts",
-      "source_verified": true,
-      "review_flag": false
-    },
     {
       "id": "GSET_31_DEC24_001",
       "exam_session": "December 2024",
@@ -43,91 +26,6 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_NOV25_001",
-      "exam_session": "November 2025",
-      "question_number": 1,
-      "question_text": "The NSD Repertory Company's play 'Vibhajan Ki Vibhishika' is based on which of the following literary work?",
-      "options": {
-        "A": "Kashinath Singh's 'Upsanhar'",
-        "B": "Khushwant Singh's 'A Train to Pakistan'",
-        "C": "Bhishm Sahani's 'Tamas'",
-        "D": "Kamleshwar's 'Smarak'"
-      },
-      "correct_answer": "C",
-      "source_paper": "nov2531.pdf",
-      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_NOV23_002",
-      "exam_session": "November 2023",
-      "question_number": 2,
-      "question_text": "Who is the author of ‘Cilappadikaram’ ?",
-      "options": {
-        "A": "Kumbhakarna",
-        "B": "Ilango Adigal",
-        "C": "Dhananjaya",
-        "D": "Kumarswami"
-      },
-      "correct_answer": "B",
-      "source_paper": "nov2331.pdf",
-      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_NOV23_003",
-      "exam_session": "November 2023",
-      "question_number": 3,
-      "question_text": "‘Natan Bheda’ is defined in ‘Abhinaya Darpan’ as follows:",
-      "options": {
-        "A": "Natya – Nritta – Nritya",
-        "B": "Natya and Nritta",
-        "C": "Nritta and Nritya",
-        "D": "Tandava – Lasya – Nritta"
-      },
-      "correct_answer": "A",
-      "source_paper": "nov2331.pdf",
-      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_NOV23_004",
-      "exam_session": "November 2023",
-      "question_number": 4,
-      "question_text": "Which text describes the term ‘Arangetral’ ?",
-      "options": {
-        "A": "Manimekalai",
-        "B": "Skandpuran",
-        "C": "Cilappadikaram",
-        "D": "Manu Smriti"
-      },
-      "correct_answer": "C",
-      "source_paper": "nov2331.pdf",
-      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_NOV23_005",
-      "exam_session": "November 2023",
-      "question_number": 5,
-      "question_text": "A prehistoric bronze sculpture of ‘Dancing girl’ was found in which place?",
-      "options": {
-        "A": "Mohenjo-Daro",
-        "B": "Takshshila",
-        "C": "Patan",
-        "D": "Modhera"
-      },
-      "correct_answer": "A",
-      "source_paper": "nov2331.pdf",
-      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
@@ -200,70 +98,172 @@
       "review_flag": false
     },
     {
-      "id": "GSET_31_NOV25_002",
-      "exam_session": "November 2025",
-      "question_number": 2,
-      "question_text": "Which one of the following is a puppet theatre form of Karnataka?",
+      "id": "GSET_31_DEC24_006",
+      "exam_session": "December 2024",
+      "question_number": 6,
+      "question_text": "Which among the following is a name of ‘Raas’ mentioned in Mahabharata?",
       "options": {
-        "A": "Sakhi Kundhainata",
-        "B": "Tolu Bommalata",
-        "C": "Gombeyatta",
-        "D": "Tholpava Koothu"
+        "A": "Hallisaka",
+        "B": "Chhalikya",
+        "C": "Lasya",
+        "D": "Batu"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_007",
+      "exam_session": "December 2024",
+      "question_number": 7,
+      "question_text": "What was the name of Jatayu’s elder brother from the context of Ramayana?",
+      "options": {
+        "A": "Bali",
+        "B": "Sugreeva",
+        "C": "Sampati",
+        "D": "Jaambavant"
       },
       "correct_answer": "C",
-      "source_paper": "nov2531.pdf",
-      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
     {
-      "id": "GSET_31_NOV25_003",
-      "exam_session": "November 2025",
+      "id": "GSET_31_DEC24_008",
+      "exam_session": "December 2024",
+      "question_number": 8,
+      "question_text": "‘Chitrasutra’ is mentioned in which Purana?",
+      "options": {
+        "A": "Garuda Purana",
+        "B": "Harivamsha Purana",
+        "C": "Vishnudharmottar Purana",
+        "D": "Brahmavaivarta Purana"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_009",
+      "exam_session": "December 2024",
+      "question_number": 9,
+      "question_text": "Saint ‘Andal’ of Bhakti Movement belongs to which State of India?",
+      "options": {
+        "A": "Gujarat",
+        "B": "Tamil Nadu",
+        "C": "Telangana",
+        "D": "Odisha"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_010",
+      "exam_session": "December 2024",
+      "question_number": 10,
+      "question_text": "‘Mahagami Gurukul Center for Performing Arts’ is situated in which city?",
+      "options": {
+        "A": "Mumbai",
+        "B": "Wardha",
+        "C": "Aurangabad",
+        "D": "Patna"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_001",
+      "exam_session": "November 2023",
+      "question_number": 1,
+      "question_text": "Which period is known as 'Golden period' with reference to the arts?",
+      "options": {
+        "A": "Shung period",
+        "B": "Gupt period",
+        "C": "Naag period",
+        "D": "Harshavardhan period"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_002",
+      "exam_session": "November 2023",
+      "question_number": 2,
+      "question_text": "Who is the author of ‘Cilappadikaram’ ?",
+      "options": {
+        "A": "Kumbhakarna",
+        "B": "Ilango Adigal",
+        "C": "Dhananjaya",
+        "D": "Kumarswami"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_003",
+      "exam_session": "November 2023",
       "question_number": 3,
-      "question_text": "Who among the following is a well-known expert of theatre music?",
+      "question_text": "‘Natan Bheda’ is defined in ‘Abhinaya Darpan’ as follows:",
       "options": {
-        "A": "Niranjan Goswami",
-        "B": "Anjana Puri",
-        "C": "Robin Das",
-        "D": "C. R. Jambe"
+        "A": "Natya – Nritta – Nritya",
+        "B": "Natya and Nritta",
+        "C": "Nritta and Nritya",
+        "D": "Tandava – Lasya – Nritta"
       },
-      "correct_answer": "B",
-      "source_paper": "nov2531.pdf",
-      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
     {
-      "id": "GSET_31_NOV25_004",
-      "exam_session": "November 2025",
+      "id": "GSET_31_NOV23_004",
+      "exam_session": "November 2023",
       "question_number": 4,
-      "question_text": "Which one of the following is wrongly matched?",
+      "question_text": "Which text describes the term ‘Arangetral’ ?",
       "options": {
-        "A": "Ajay Kumar — Theatre Music",
-        "B": "Satyabrata Raut — Scenography",
-        "C": "Surendra Verma — Playwriting",
-        "D": "Suresh Bharadwaj — Mime and Movement"
+        "A": "Manimekalai",
+        "B": "Skandpuran",
+        "C": "Cilappadikaram",
+        "D": "Manu Smriti"
       },
-      "correct_answer": "D",
-      "source_paper": "nov2531.pdf",
-      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
     {
-      "id": "GSET_31_NOV25_005",
-      "exam_session": "November 2025",
+      "id": "GSET_31_NOV23_005",
+      "exam_session": "November 2023",
       "question_number": 5,
-      "question_text": "Who wrote the first original Bengali play?",
+      "question_text": "A prehistoric bronze sculpture of ‘Dancing girl’ was found in which place?",
       "options": {
-        "A": "Dinabandhu Mitra",
-        "B": "Ramanarayan Tarakaratna",
-        "C": "Upendranath Das",
-        "D": "Michael Madhusudan Dutt"
+        "A": "Mohenjo-Daro",
+        "B": "Takshshila",
+        "C": "Patan",
+        "D": "Modhera"
       },
-      "correct_answer": "B",
-      "source_paper": "nov2531.pdf",
-      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
@@ -353,87 +353,189 @@
       "review_flag": false
     },
     {
-      "id": "GSET_31_DEC24_006",
-      "exam_session": "December 2024",
-      "question_number": 6,
-      "question_text": "Which among the following is a name of ‘Raas’ mentioned in Mahabharata?",
+      "id": "GSET_31_NOV23_011",
+      "exam_session": "November 2023",
+      "question_number": 11,
+      "question_text": "Which is an exclusively women’s dance of Punjab?",
       "options": {
-        "A": "Hallisaka",
-        "B": "Chhalikya",
-        "C": "Lasya",
-        "D": "Batu"
-      },
-      "correct_answer": "A",
-      "source_paper": "dec2431.pdf",
-      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_DEC24_007",
-      "exam_session": "December 2024",
-      "question_number": 7,
-      "question_text": "What was the name of Jatayu’s elder brother from the context of Ramayana?",
-      "options": {
-        "A": "Bali",
-        "B": "Sugreeva",
-        "C": "Sampati",
-        "D": "Jaambavant"
+        "A": "Karthi",
+        "B": "Bhangra",
+        "C": "Giddha",
+        "D": "Phalgun Daph"
       },
       "correct_answer": "C",
-      "source_paper": "dec2431.pdf",
-      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
     {
-      "id": "GSET_31_DEC24_008",
-      "exam_session": "December 2024",
-      "question_number": 8,
-      "question_text": "‘Chitrasutra’ is mentioned in which Purana?",
+      "id": "GSET_31_NOV23_012",
+      "exam_session": "November 2023",
+      "question_number": 12,
+      "question_text": "Chenda and Maddalam are the accompanying instruments in which classical dance?",
       "options": {
-        "A": "Garuda Purana",
-        "B": "Harivamsha Purana",
-        "C": "Vishnudharmottar Purana",
-        "D": "Brahmavaivarta Purana"
-      },
-      "correct_answer": "C",
-      "source_paper": "dec2431.pdf",
-      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
-    },
-    {
-      "id": "GSET_31_DEC24_009",
-      "exam_session": "December 2024",
-      "question_number": 9,
-      "question_text": "Saint ‘Andal’ of Bhakti Movement belongs to which State of India?",
-      "options": {
-        "A": "Gujarat",
-        "B": "Tamil Nadu",
-        "C": "Telangana",
-        "D": "Odisha"
+        "A": "Bharatanatyam",
+        "B": "Kathakali",
+        "C": "Kuchipudi",
+        "D": "Sattriya"
       },
       "correct_answer": "B",
-      "source_paper": "dec2431.pdf",
-      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
     {
-      "id": "GSET_31_DEC24_010",
-      "exam_session": "December 2024",
-      "question_number": 10,
-      "question_text": "‘Mahagami Gurukul Center for Performing Arts’ is situated in which city?",
+      "id": "GSET_31_NOV23_013",
+      "exam_session": "November 2023",
+      "question_number": 13,
+      "question_text": "Identify the ritual dance drama from the options given below.",
       "options": {
-        "A": "Mumbai",
-        "B": "Wardha",
-        "C": "Aurangabad",
-        "D": "Patna"
+        "A": "Swang",
+        "B": "Ramlila",
+        "C": "Bhavai",
+        "D": "Bisu"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_014",
+      "exam_session": "November 2023",
+      "question_number": 14,
+      "question_text": "To whom is the authorship of the Kutiyattam play Ascharyacudamani attributed?",
+      "options": {
+        "A": "Kulashekhara",
+        "B": "Shaktibhadra",
+        "C": "Harsha",
+        "D": "Nilakantha"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_015",
+      "exam_session": "November 2023",
+      "question_number": 15,
+      "question_text": "The Kannada play Mitra-Vinda-Govinda is based on which of the following plays?",
+      "options": {
+        "A": "Ratnavali",
+        "B": "Naganandam",
+        "C": "Malavikagnimitram",
+        "D": "Urubhangam"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_016",
+      "exam_session": "November 2023",
+      "question_number": 16,
+      "question_text": "Who among the following is considered the father of the theatrical form of Bhagavata Mela?",
+      "options": {
+        "A": "Sidhendra Yogi",
+        "B": "Tirdhanarayana Yogi",
+        "C": "Sahaja or Saha Maharaj",
+        "D": "E Koji"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_001",
+      "exam_session": "November 2025",
+      "question_number": 1,
+      "question_text": "The NSD Repertory Company's play 'Vibhajan Ki Vibhishika' is based on which of the following literary work?",
+      "options": {
+        "A": "Kashinath Singh's 'Upsanhar'",
+        "B": "Khushwant Singh's 'A Train to Pakistan'",
+        "C": "Bhishm Sahani's 'Tamas'",
+        "D": "Kamleshwar's 'Smarak'"
       },
       "correct_answer": "C",
-      "source_paper": "dec2431.pdf",
-      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_002",
+      "exam_session": "November 2025",
+      "question_number": 2,
+      "question_text": "Which one of the following is a puppet theatre form of Karnataka?",
+      "options": {
+        "A": "Sakhi Kundhainata",
+        "B": "Tolu Bommalata",
+        "C": "Gombeyatta",
+        "D": "Tholpava Koothu"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_003",
+      "exam_session": "November 2025",
+      "question_number": 3,
+      "question_text": "Who among the following is a well-known expert of theatre music?",
+      "options": {
+        "A": "Niranjan Goswami",
+        "B": "Anjana Puri",
+        "C": "Robin Das",
+        "D": "C. R. Jambe"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_004",
+      "exam_session": "November 2025",
+      "question_number": 4,
+      "question_text": "Which one of the following is wrongly matched?",
+      "options": {
+        "A": "Ajay Kumar — Theatre Music",
+        "B": "Satyabrata Raut — Scenography",
+        "C": "Surendra Verma — Playwriting",
+        "D": "Suresh Bharadwaj — Mime and Movement"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_005",
+      "exam_session": "November 2025",
+      "question_number": 5,
+      "question_text": "Who wrote the first original Bengali play?",
+      "options": {
+        "A": "Dinabandhu Mitra",
+        "B": "Ramanarayan Tarakaratna",
+        "C": "Upendranath Das",
+        "D": "Michael Madhusudan Dutt"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
