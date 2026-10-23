@@ -10,7 +10,7 @@
     "December 2024",
     "November 2025"
   ],
-  "status": "partial_import_review_required",
+  "status": "official_key_reconciled_300_questions_visual_review_required",
   "questions": [
     {
       "id": "GSET_31_DEC24_001",
@@ -604,7 +604,7 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -622,7 +622,7 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -640,7 +640,7 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -658,7 +658,7 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -676,7 +676,7 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -694,7 +694,7 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -712,7 +712,7 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Transcribed from the actual scanned source page; option order needs visual verification against the official PDF."
     },
@@ -727,11 +727,12 @@
         "C": "(1) is true and (2) is False",
         "D": "(1) is false and (2) is True"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_043",
@@ -1087,7 +1088,7 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
     },
@@ -1105,7 +1106,7 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
     },
@@ -1123,7 +1124,7 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
     },
@@ -1141,7 +1142,7 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list options OCR-transcribed; visually verify list pairing and option order against the official scan before release."
     },
@@ -1241,11 +1242,12 @@
         "C": "Leela",
         "D": "Kalpana"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer A differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_073",
@@ -1258,11 +1260,12 @@
         "C": "Anna Pavlova",
         "D": "Damayanti Joshi"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_074",
@@ -1275,11 +1278,12 @@
         "C": "Rhythm of Life",
         "D": "Labour and Machinery"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (A); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_075",
@@ -1343,11 +1347,12 @@
         "C": "Bhanu Bharti",
         "D": "B. V. Karanth"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_079",
@@ -1360,11 +1365,12 @@
         "C": "A means of transcribing voices",
         "D": "A second-hand psychological or moral function"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_080",
@@ -1377,11 +1383,12 @@
         "C": "Apotheosis",
         "D": "Dream play"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_081",
@@ -1411,11 +1418,12 @@
         "C": "Casting the play",
         "D": "Sitting in the box-office"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_083",
@@ -1428,11 +1436,12 @@
         "C": "Restoration period",
         "D": "Greek theatre"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_084",
@@ -1445,11 +1454,12 @@
         "C": "Parodos",
         "D": "Ramp"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_085",
@@ -1462,11 +1472,12 @@
         "C": "To create a large effect",
         "D": "To create realistic effect"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_086",
@@ -1479,11 +1490,12 @@
         "C": "Octagonal",
         "D": "Round"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_087",
@@ -1496,11 +1508,12 @@
         "C": "Well-written story",
         "D": "Stylised half masks"
       },
-      "correct_answer": "B",
+      "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_088",
@@ -1513,12 +1526,12 @@
         "C": "a-iv, b-ii, c-iii, d-i",
         "D": "a-iii, b-i, c-ii, d-iv"
       },
-      "correct_answer": "C",
+      "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer C differed from the official Final Answer Key (D); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_089",
@@ -1531,12 +1544,12 @@
         "C": "a-i, b-iii, c-iv, d-ii",
         "D": "a-ii, b-iii, c-i, d-iv"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer A differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_090",
@@ -1549,12 +1562,12 @@
         "C": "a-ii, b-i, c-iv, d-iii",
         "D": "a-iv, b-iii, c-i, d-ii"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_091",
@@ -1567,12 +1580,12 @@
         "C": "a-ii, b-i, c-iv, d-iii",
         "D": "a-iv, b-ii, c-i, d-iii"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
-      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release."
+      "review_note": "Matching question transcription from OCR; original scan is low-clarity. Verify every pair and option order against official PDF before public release. Stored answer A differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_092",
@@ -1585,11 +1598,12 @@
         "C": "(1) is true and (2) is false",
         "D": "(1) is false and (2) is true"
       },
-      "correct_answer": "A",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer A differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_093",
@@ -1602,11 +1616,12 @@
         "C": "(1) is false and (2) is true",
         "D": "(1) is true and (2) is false"
       },
-      "correct_answer": "A",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer A differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_094",
@@ -1619,11 +1634,12 @@
         "C": "(1) is true and (2) is false",
         "D": "(1) is false and (2) is true"
       },
-      "correct_answer": "C",
+      "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (A); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_095",
@@ -1636,11 +1652,12 @@
         "C": "(1) is true and (2) is false",
         "D": "(1) is false and (2) is true"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_096",
@@ -1653,11 +1670,12 @@
         "C": "Love, sacrifice, bravery",
         "D": "Affection, jealousy"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_097",
@@ -1670,11 +1688,12 @@
         "C": "Nautanki",
         "D": "Khayal"
       },
-      "correct_answer": "D",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_098",
@@ -1687,11 +1706,12 @@
         "C": "Terukuttu",
         "D": "Swang"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_099",
@@ -1704,11 +1724,12 @@
         "C": "Naqqara",
         "D": "Pandvani"
       },
-      "correct_answer": "B",
+      "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (A); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_DEC24_100",
@@ -1721,11 +1742,12 @@
         "C": "Swang, Khayal",
         "D": "Khayal, Nautanki"
       },
-      "correct_answer": "C",
+      "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer C differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_NOV23_001",
@@ -2319,7 +2341,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2337,7 +2359,7 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2355,7 +2377,7 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2373,7 +2395,7 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2391,7 +2413,7 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2409,7 +2431,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list layout transcribed from scanned source; retain review flag for visual/layout verification."
     },
@@ -2427,7 +2449,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout needs final visual verification against scan."
     },
@@ -2445,7 +2467,7 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout needs final visual verification against scan."
     },
@@ -2803,7 +2825,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
     },
@@ -2821,7 +2843,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
     },
@@ -2839,7 +2861,7 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
     },
@@ -2857,7 +2879,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
     },
@@ -3232,7 +3254,7 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
     },
@@ -3250,7 +3272,7 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
     },
@@ -3268,7 +3290,7 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
     },
@@ -3286,7 +3308,7 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option layout transcribed from scanned page OCR; visually recheck option mapping before public release."
     },
@@ -3539,11 +3561,12 @@
         "C": "Caspar Neher",
         "D": "Eugène Scribe"
       },
-      "correct_answer": "B",
+      "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer B differed from the official Final Answer Key (C); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_NOV25_007",
@@ -3967,7 +3990,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -3985,7 +4008,7 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4003,7 +4026,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4021,7 +4044,7 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4039,7 +4062,7 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4057,7 +4080,7 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4075,7 +4098,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4093,7 +4116,7 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
     },
@@ -4111,7 +4134,7 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option order OCR-derived; verify against original scan before release."
     },
@@ -4129,7 +4152,7 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list option order OCR-derived; verify against original scan before release."
     },
@@ -4586,11 +4609,12 @@
         "C": "Nrittaratnakar",
         "D": "Nrittadhyaya"
       },
-      "correct_answer": "D",
+      "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Stored answer D differed from the official Final Answer Key (B); official key answer applied. Visually recheck the source question and options."
     },
     {
       "id": "GSET_31_NOV25_068",
@@ -4827,7 +4851,7 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4845,7 +4869,7 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4863,7 +4887,7 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4881,7 +4905,7 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4899,7 +4923,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4917,7 +4941,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4935,7 +4959,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4953,7 +4977,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4971,7 +4995,7 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
@@ -4989,7 +5013,7 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
+      "source_verified": false,
       "review_flag": true,
       "review_note": "Matching-list transcription from OCR; recheck option order and each pairing against the scanned official question page."
     },
