@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 117,
+  "total_questions": 160,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -179,6 +179,414 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_011",
+      "exam_session": "December 2024",
+      "question_number": 11,
+      "question_text": "Which folk theatre form belongs to Gujarat?",
+      "options": {
+        "A": "Ramlila",
+        "B": "Chhau",
+        "C": "Jatra",
+        "D": "Bhavai"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_012",
+      "exam_session": "December 2024",
+      "question_number": 12,
+      "question_text": "Harvest folk dance of Punjab is",
+      "options": {
+        "A": "Bihu",
+        "B": "Lezim",
+        "C": "Dandiya",
+        "D": "Bhangra"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_013",
+      "exam_session": "December 2024",
+      "question_number": 13,
+      "question_text": "Choose the tribal dance of the Kamar.",
+      "options": {
+        "A": "Jhumar",
+        "B": "Kalbelia",
+        "C": "Tera Tali",
+        "D": "Ghoomar"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_014",
+      "exam_session": "December 2024",
+      "question_number": 14,
+      "question_text": "The Oddolanga of Karnataka is",
+      "options": {
+        "A": "Kutiyattam",
+        "B": "Bhagavatamela",
+        "C": "Teyyam",
+        "D": "Yakshagana"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_015",
+      "exam_session": "December 2024",
+      "question_number": 15,
+      "question_text": "Who is the Vice-Chancellor of Kerala Kalamandalam?",
+      "options": {
+        "A": "Kalamandalam Venu",
+        "B": "Sonal Mansingh",
+        "C": "Mrinalini Sarabhai",
+        "D": "Prof. Ananta Krishnan"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_016",
+      "exam_session": "December 2024",
+      "question_number": 16,
+      "question_text": "In which century did the practice of Kathakali begin?",
+      "options": {
+        "A": "11th century",
+        "B": "12th century",
+        "C": "14th century",
+        "D": "16th century"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_017",
+      "exam_session": "December 2024",
+      "question_number": 17,
+      "question_text": "To whom is the authorship of the Kutiyattam plays ‘Subhadra Dhananjayam’ and ‘Taptisamvaranam’ attributed?",
+      "options": {
+        "A": "Kulasekhara",
+        "B": "Shaktibhadra",
+        "C": "Harsha",
+        "D": "Nilakantha"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_018",
+      "exam_session": "December 2024",
+      "question_number": 18,
+      "question_text": "What is the name of the first Yakshagana written in the 16th century?",
+      "options": {
+        "A": "Harivamsa Purana",
+        "B": "Ganga Gauri Vilasam",
+        "C": "Mitra-Vinda-Govinda",
+        "D": "Mallinatha Purana"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_019",
+      "exam_session": "December 2024",
+      "question_number": 19,
+      "question_text": "Who is attributed as the first writer of Tamasha?",
+      "options": {
+        "A": "Anant Phandi",
+        "B": "Ram Joshi",
+        "C": "Venkatesh Madgulkar",
+        "D": "P. L. Deshpande"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_020",
+      "exam_session": "December 2024",
+      "question_number": 20,
+      "question_text": "In the construction of the Sanskrit playhouse, the wood-work of a building like frames of windows, doors, columns etc. and carving decorative motifs is called",
+      "options": {
+        "A": "Avalita",
+        "B": "Darukarma",
+        "C": "Chitrajalagavaksa",
+        "D": "Akampa"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_021",
+      "exam_session": "December 2024",
+      "question_number": 21,
+      "question_text": "Prarochana, Amukha, Vithi and Prahasana are varieties of",
+      "options": {
+        "A": "Avanti Pravritti",
+        "B": "Bharati Vritti",
+        "C": "Sattvati Vritti",
+        "D": "Dakshinatya Pravritti"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_022",
+      "exam_session": "December 2024",
+      "question_number": 22,
+      "question_text": "Which of the following is NOT included in the shloka of Natya-Sangraha?",
+      "options": {
+        "A": "Purvaranga",
+        "B": "Rasa",
+        "C": "Bhava",
+        "D": "Vritti"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_023",
+      "exam_session": "December 2024",
+      "question_number": 23,
+      "question_text": "It stands for the emotive situation presented on stage which in actual life would be responsible for arousing the emotion shown by the hero.",
+      "options": {
+        "A": "Bhava",
+        "B": "Vibhava",
+        "C": "Anubhava",
+        "D": "Sanchari"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_024",
+      "exam_session": "December 2024",
+      "question_number": 24,
+      "question_text": "Which of the following is NOT a basic or source Rasa?",
+      "options": {
+        "A": "Shringar",
+        "B": "Vira",
+        "C": "Karuna",
+        "D": "Raudra"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_025",
+      "exam_session": "December 2024",
+      "question_number": 25,
+      "question_text": "Who explained the concept of Natyarasa on the analogy of Bhojya Rasa?",
+      "options": {
+        "A": "Bhatta Nayaka",
+        "B": "Sri Sankuka",
+        "C": "Bhatta Lollata",
+        "D": "Bharata"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_026",
+      "exam_session": "December 2024",
+      "question_number": 26,
+      "question_text": "Sri Sankuka adds a new mode of cognition which he calls",
+      "options": {
+        "A": "Tadarupanusandhana",
+        "B": "Chitra-turang nyaya",
+        "C": "Upchitivada",
+        "D": "Samvittivada"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_027",
+      "exam_session": "December 2024",
+      "question_number": 27,
+      "question_text": "Who authored the book ‘Comparative Aesthetics – Indian and Western Aesthetics’?",
+      "options": {
+        "A": "G. K. Bhat",
+        "B": "Kapila Vatsyayan",
+        "C": "Kanti Chandra Pandey",
+        "D": "M. L. Varadpande"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_028",
+      "exam_session": "December 2024",
+      "question_number": 28,
+      "question_text": "Which one of the following is NOT among the earliest known theories of aesthetics?",
+      "options": {
+        "A": "Imitative",
+        "B": "Idealised",
+        "C": "Pedagogic",
+        "D": "Mysticism"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_029",
+      "exam_session": "December 2024",
+      "question_number": 29,
+      "question_text": "Plato deals with the problem of aesthetics by attempting it from three angles of vision: aesthetical, ethical and",
+      "options": {
+        "A": "Metaphysical",
+        "B": "Metaphorical",
+        "C": "Bio-Physical",
+        "D": "Astro-Physical"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_030",
+      "exam_session": "December 2024",
+      "question_number": 30,
+      "question_text": "The actors in Beijing Opera, a Chinese dance-drama, use which in performance?",
+      "options": {
+        "A": "Wooden masks",
+        "B": "Leather masks",
+        "C": "Stylised makeup",
+        "D": "Simple makeup"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_031",
+      "exam_session": "December 2024",
+      "question_number": 31,
+      "question_text": "Noh Theatre masks are made of",
+      "options": {
+        "A": "Paper Mache",
+        "B": "Wood",
+        "C": "Leather",
+        "D": "Plaster of Paris"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_032",
+      "exam_session": "December 2024",
+      "question_number": 32,
+      "question_text": "Who originally established Noh theatre as a classical theatre form of Japan?",
+      "options": {
+        "A": "Yoshimitsu",
+        "B": "Kan’ami",
+        "C": "Zeami",
+        "D": "Akutagawa"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_033",
+      "exam_session": "December 2024",
+      "question_number": 33,
+      "question_text": "On the Kabuki stage, the long narrow path connecting the stage with the small room at the rear of the auditorium is called",
+      "options": {
+        "A": "Gangway",
+        "B": "Flower way",
+        "C": "Hashigakari",
+        "D": "Hanamichi"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_034",
+      "exam_session": "December 2024",
+      "question_number": 34,
+      "question_text": "Kabuki theatre performance is known for its",
+      "options": {
+        "A": "Poetic renderings of the story",
+        "B": "Modern lighting design",
+        "C": "Elaborate set design and stage gimmicks",
+        "D": "Ritualistic approach"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     },
@@ -2014,6 +2422,329 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_008",
+      "exam_session": "November 2025",
+      "question_number": 8,
+      "question_text": "Who used multimedia while staging Salman Rushdie’s ‘Midnight’s Children’?",
+      "options": {
+        "A": "Anamika Haksar",
+        "B": "Parvez Akhtar",
+        "C": "Amal Allana",
+        "D": "Abhilash Pillai"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_009",
+      "exam_session": "November 2025",
+      "question_number": 9,
+      "question_text": "In which Sanskrit play does the playwright refer to the fight with Greek invaders and the conflict between Vidarbha and Vidisha?",
+      "options": {
+        "A": "Dhurta Samagam",
+        "B": "Malavikagnimitram",
+        "C": "Ratnavali",
+        "D": "Naganandam"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_010",
+      "exam_session": "November 2025",
+      "question_number": 10,
+      "question_text": "In which dance-theatre tradition are characters broadly divided into five categories based on their mind’s qualitative attributes?",
+      "options": {
+        "A": "Yakshagana",
+        "B": "Theru Koothu",
+        "C": "Kathakali",
+        "D": "Kathak"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_011",
+      "exam_session": "November 2025",
+      "question_number": 11,
+      "question_text": "Who exposed the art of Krishnattam to the rest of India from Kerala after Independence?",
+      "options": {
+        "A": "G. N. Shankar Pillai",
+        "B": "Abhilash Pillai",
+        "C": "C. Shankaran Nair",
+        "D": "Kavalam Narayana Panicker"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_012",
+      "exam_session": "November 2025",
+      "question_number": 12,
+      "question_text": "Which one of the following is the first street play of IPTA?",
+      "options": {
+        "A": "Hallabol",
+        "B": "Aurat",
+        "C": "Shantidut Kamgar",
+        "D": "Machine"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_013",
+      "exam_session": "November 2025",
+      "question_number": 13,
+      "question_text": "While reviving legitimate drama at Princess’s Theatre, who brought horses on stage?",
+      "options": {
+        "A": "Charles Kean",
+        "B": "Bernard Shaw",
+        "C": "Maeterlinck",
+        "D": "Yury Annenkov"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_014",
+      "exam_session": "November 2025",
+      "question_number": 14,
+      "question_text": "In which acting method do performers demonstrate a character’s actions instead of identifying with their roles?",
+      "options": {
+        "A": "Method acting",
+        "B": "Meisner technique",
+        "C": "Alienation",
+        "D": "Chekhov technique (PG)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_015",
+      "exam_session": "November 2025",
+      "question_number": 15,
+      "question_text": "Which theatre uses a Joker as a key figure, improvises around social issues, and allows interactive and participatory methods?",
+      "options": {
+        "A": "Alternative theatre",
+        "B": "Root theatre movement",
+        "C": "Forum theatre",
+        "D": "Site-specific theatre"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_016",
+      "exam_session": "November 2025",
+      "question_number": 16,
+      "question_text": "An improvised masked comedy of traditional situations, social caricature and emblematic costume, with no basis in a written script, describes",
+      "options": {
+        "A": "Medieval theatre",
+        "B": "Commedia dell’arte",
+        "C": "Community theatre",
+        "D": "Avant-garde"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_017",
+      "exam_session": "November 2025",
+      "question_number": 17,
+      "question_text": "Whose career describes a trajectory from idealistic aestheticism through revolutionary idealism to prescriptive socialist realism?",
+      "options": {
+        "A": "Meyerhold",
+        "B": "Stanislavsky",
+        "C": "Peter Brook",
+        "D": "Otto Brahm"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_018",
+      "exam_session": "November 2025",
+      "question_number": 18,
+      "question_text": "What is an unexpected, surprising turn in a play that produces an amazing or sensational effect called?",
+      "options": {
+        "A": "Counter",
+        "B": "Counter plot",
+        "C": "Crash",
+        "D": "Coup de théâtre"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_019",
+      "exam_session": "November 2025",
+      "question_number": 19,
+      "question_text": "Which Abhinaya deals with conveying internal emotions and psychological states?",
+      "options": {
+        "A": "Angika",
+        "B": "Vachika",
+        "C": "Satvika",
+        "D": "Aharya"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_020",
+      "exam_session": "November 2025",
+      "question_number": 20,
+      "question_text": "Satvika Abhinaya deals with",
+      "options": {
+        "A": "External preparation",
+        "B": "Physical preparation",
+        "C": "Internal emotion",
+        "D": "Bodily gesture"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_021",
+      "exam_session": "November 2025",
+      "question_number": 21,
+      "question_text": "Which of the following is NOT typically part of Nepathya in Indian or Japanese traditional theatre?",
+      "options": {
+        "A": "Backstage scene changes",
+        "B": "Actor’s costume and makeup preparation",
+        "C": "Musical accompaniment coordination",
+        "D": "Audience seating arrangement"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_022",
+      "exam_session": "November 2025",
+      "question_number": 22,
+      "question_text": "Which of the following is true about stage entrances in Vikristha?",
+      "options": {
+        "A": "Single main door only",
+        "B": "Three doors for entrance, exit and symbolic purposes",
+        "C": "Hidden trapdoors were common",
+        "D": "No doors; audience entered from the sides"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_023",
+      "exam_session": "November 2025",
+      "question_number": 23,
+      "question_text": "What did Antonin Artaud’s Theatre of Cruelty aim to do?",
+      "options": {
+        "A": "Make the audience laugh at social absurdities",
+        "B": "Shock the senses and break through rational barriers",
+        "C": "Encourage naturalistic and everyday acting",
+        "D": "Eliminate the role of the actor in performance"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_024",
+      "exam_session": "November 2025",
+      "question_number": 24,
+      "question_text": "Which pairing is incorrect?",
+      "options": {
+        "A": "Naturalism — Emile Zola",
+        "B": "Expressionism — Eugene O’Neill",
+        "C": "Epic theatre — Bertolt Brecht",
+        "D": "Realism — Antonin Artaud"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_025",
+      "exam_session": "November 2025",
+      "question_number": 25,
+      "question_text": "Which one of the following is NOT one of the four kinds of playing areas (stage sizes) mentioned in Natyashastra?",
+      "options": {
+        "A": "Vikrsta (large)",
+        "B": "Chaturasra (square)",
+        "C": "Madhyam (medium)",
+        "D": "Jyestha (greatest)"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_026",
+      "exam_session": "November 2025",
+      "question_number": 26,
+      "question_text": "What is the primary function of scenic design in theatre?",
+      "options": {
+        "A": "To showcase the designer’s artistic skill",
+        "B": "To support the narrative and dramatic action",
+        "C": "To distract the audience from the actor",
+        "D": "To reduce production cost"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
     }
