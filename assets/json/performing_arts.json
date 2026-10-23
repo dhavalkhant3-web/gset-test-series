@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 58,
+  "total_questions": 71,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -882,6 +882,227 @@
         "D": "(A) is false and (B) is true"
       },
       "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_044",
+      "exam_session": "November 2023",
+      "question_number": 44,
+      "question_text": "Statement (A): The urban theatre of India only partially reflects the fundamental features of Indian culture. Statement (B): By and large, it remains imitative. It tries to ape the conventions of the western theatre. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are false",
+        "B": "Both (A) and (B) are true",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_045",
+      "exam_session": "November 2023",
+      "question_number": 45,
+      "question_text": "Statement (A): In the Desi type of art, its science is a conscious study. Statement (B): In the Marga type of art, science is a part of it and is not studied separately from art. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_046",
+      "exam_session": "November 2023",
+      "question_number": 46,
+      "question_text": "Statement (A): In natya, nritta is sometimes useful as a beautifying factor, termed as ‘Sobhahetutvena’. Statement (B): In natya, nritya is sometimes useful in expressing bhava introduced through the topic, termed as ‘Anukaratmakatva’. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_047",
+      "exam_session": "November 2023",
+      "question_number": 47,
+      "question_text": "Statement (A): In Natyashastra, the chapter Charividhana deals with the simultaneous movements of feet, thigh, sides, shank and hips. Statement (B): The chapter on Gatiprachara describes the aerial and earthly mandalas which are performed with the combination of charis. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_048",
+      "exam_session": "November 2023",
+      "question_number": 48,
+      "question_text": "Statement (A): According to Bhatta Lollata, primarily Rasa is in the impersonating actor and only secondarily in the original historical character who is represented on the stage. Statement (B): The actor identifies himself with the historical character and therefore is able to unify the elements of his experience. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_049",
+      "exam_session": "November 2023",
+      "question_number": 49,
+      "question_text": "Statement (A): Aristotle advocates that emotions as such are bad for mental equilibrium. Statement (B): Aristotle says that it is rather conducive to men’s mental or moral health to starve and stifle the emotions. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_050",
+      "exam_session": "November 2023",
+      "question_number": 50,
+      "question_text": "Statement (A): Masks are not used in Kabuki performances. Statement (B): Kabuki Theatre is known for mask-makeup. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_051",
+      "exam_session": "November 2023",
+      "question_number": 51,
+      "question_text": "Who is the author of ‘Bhavaprakasana’?",
+      "options": {
+        "A": "Bhanudatta",
+        "B": "Bharatmuni",
+        "C": "Nandikeshwar",
+        "D": "Saradatanaya"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_052",
+      "exam_session": "November 2023",
+      "question_number": 52,
+      "question_text": "Who is the author of ‘Nritta Ratnavali’?",
+      "options": {
+        "A": "Jaya Senapati",
+        "B": "Ashokmalla",
+        "C": "Sudhakalash",
+        "D": "Shrikanth"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_053",
+      "exam_session": "November 2023",
+      "question_number": 53,
+      "question_text": "What is Akshipta Rechit?",
+      "options": {
+        "A": "Mandala",
+        "B": "Sthanaka",
+        "C": "Chari",
+        "D": "Karana"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_054",
+      "exam_session": "November 2023",
+      "question_number": 54,
+      "question_text": "‘Tenchap’ Taal belongs to which dance?",
+      "options": {
+        "A": "Bharatanatyam",
+        "B": "Manipuri",
+        "C": "Sattriya",
+        "D": "Kathakali"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_055",
+      "exam_session": "November 2023",
+      "question_number": 55,
+      "question_text": "‘Shloka and Shareer’ is the famous production of which artiste?",
+      "options": {
+        "A": "Sachin Shanker",
+        "B": "Astad Deboo",
+        "C": "Manjusri Chaki Sarkar",
+        "D": "Chandralekha"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_056",
+      "exam_session": "November 2023",
+      "question_number": 56,
+      "question_text": "Who can be called the father of modern Indian ballet?",
+      "options": {
+        "A": "Rabindranath Tagore",
+        "B": "Astad Deboo",
+        "C": "Sachin Shankar",
+        "D": "Uday Shankar"
+      },
+      "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
