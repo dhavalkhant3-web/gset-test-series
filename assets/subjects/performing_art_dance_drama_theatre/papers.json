@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "subject_id": "performing_art_dance_drama_theatre",
+  "subject_code": "31",
+  "name_en": "Performing Art - Dance/Drama/Theatre",
+  "medium": "English",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120
+  },
+  "papers": [
+    {
+      "paper_id": "performing_arts_nov23",
+      "exam": "November 2023",
+      "subject_code": "31",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2331.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2331.pdf",
+      "questions_loaded": 94,
+      "answer_key_verified": true,
+      "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
+      "question_source_verified": true,
+      "questions_count": 94,
+      "source_verified": true,
+      "status": "partial_import_review_required"
+    },
+    {
+      "paper_id": "performing_arts_dec24",
+      "exam": "December 2024",
+      "subject_code": "31",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2431.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2431.pdf",
+      "questions_loaded": 10,
+      "answer_key_verified": true,
+      "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
+      "question_source_verified": true,
+      "questions_count": 10,
+      "source_verified": true,
+      "status": "partial_import_review_required"
+    },
+    {
+      "paper_id": "performing_arts_nov25",
+      "exam": "November 2025",
+      "subject_code": "31",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2531.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2531.pdf",
+      "questions_loaded": 7,
+      "answer_key_verified": true,
+      "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
+      "question_source_verified": true,
+      "questions_count": 7,
+      "source_verified": true,
+      "status": "partial_import_review_required"
+    }
+  ]
+}
