@@ -21,11 +21,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "visually_reviewed_with_specific_transcription_flags",
-      "review_note": "99 questions visually verified in the prior review; 1 low-resolution transcription item(s) remain flagged. All 100 stored answers match the official final key."
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -38,11 +38,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "visually_reviewed_with_specific_transcription_flags",
-      "review_note": "99 questions visually verified in the prior review; 1 low-resolution transcription item(s) remain flagged. All 100 stored answers match the official final key."
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -59,7 +59,7 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "visually_reviewed_with_specific_transcription_flags",
-      "review_note": "93 questions visually verified in the prior review; 7 low-resolution transcription item(s) remain flagged. All 100 stored answers match the official final key."
+      "review_note": "96 questions visually checked against the source scan; 4 low-resolution transcription item(s) remain flagged. All 100 stored answers match the official final key."
     }
   ]
 }
