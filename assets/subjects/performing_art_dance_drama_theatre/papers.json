@@ -21,11 +21,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "imported_review_flags_pending_manual_visual_verification",
-      "review_note": "All 100 numbered records are present and matched to the official Final Answer Key table. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
+      "source_verified": true,
+      "status": "verified_against_official_paper_and_final_key",
+      "review_note": "100/100 numbered questions are present. Every flagged source-page question was checked against the original official scanned paper and corrected where needed; all answers match the official Final Answer Key. No review flags remain in questions.json. Original question and answer-key PDFs remain the controlling sources."
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -38,11 +38,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "imported_review_flags_pending_manual_visual_verification",
-      "review_note": "Q57 is present exactly once and matches the provided transcription; official final key answer D. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
+      "source_verified": true,
+      "status": "verified_against_official_paper_and_final_key",
+      "review_note": "100/100 numbered questions are present. Every flagged source-page question was checked against the original official scanned paper and corrected where needed; all answers match the official Final Answer Key. No review flags remain in questions.json. Original question and answer-key PDFs remain the controlling sources."
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -55,11 +55,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "imported_review_flags_pending_manual_visual_verification",
-      "review_note": "All 100 numbered records are present and matched to the official Final Answer Key table. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
+      "source_verified": true,
+      "status": "verified_against_official_paper_and_final_key",
+      "review_note": "100/100 numbered questions are present. Every flagged source-page question was checked against the original official scanned paper and corrected where needed; all answers match the official Final Answer Key. No review flags remain in questions.json. Original question and answer-key PDFs remain the controlling sources."
     }
   ]
 }
