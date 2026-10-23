@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 77,
+  "total_questions": 84,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1205,6 +1205,129 @@
         "D": "Indira Gandhi National Centre for Arts"
       },
       "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_063",
+      "exam_session": "November 2023",
+      "question_number": 63,
+      "question_text": "Match List I with List II. List I: A. Tanvi and Rupavati; B. Usha; C. Bhoomi Charis Lakshana; D. Sita. List II: (I) 16 (Sixteen); (II) Uttama; (III) Nartaki; (IV) Lasya. Choose the correct answer.",
+      "options": {
+        "A": "A(II), B(IV), C(I), D(III)",
+        "B": "A(III), B(I), C(IV), D(II)",
+        "C": "A(I), B(IV), C(II), D(III)",
+        "D": "A(III), B(II), C(IV), D(I)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+    },
+    {
+      "id": "GSET_31_NOV23_064",
+      "exam_session": "November 2023",
+      "question_number": 64,
+      "question_text": "Match List I with List II. List I: A. Srimanta Shankar Deva; B. Tulsidas; C. Jayadeva; D. Narayanteertha. List II: (I) Geet Govinda; (II) Pada; (III) Purush and Prakrati; (IV) Ramleela. Choose the correct answer.",
+      "options": {
+        "A": "A(IV), B(II), C(I), D(III)",
+        "B": "A(III), B(II), C(I), D(IV)",
+        "C": "A(III), B(IV), C(I), D(II)",
+        "D": "A(II), B(III), C(I), D(IV)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+    },
+    {
+      "id": "GSET_31_NOV23_065",
+      "exam_session": "November 2023",
+      "question_number": 65,
+      "question_text": "Match List I with List II. List I: A. Nrithyodaya; B. Darpan; C. Kadamb; D. Mahagami. List II: (I) Parwati Dutta; (II) Dr. Padma Subrahmanyam; (III) Mrinalini Sarabhai; (IV) Kumudini Lakhia. Choose the correct answer.",
+      "options": {
+        "A": "A(I), B(II), C(III), D(IV)",
+        "B": "A(II), B(IV), C(III), D(I)",
+        "C": "A(I), B(IV), C(II), D(III)",
+        "D": "A(IV), B(I), C(III), D(II)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+    },
+    {
+      "id": "GSET_31_NOV23_066",
+      "exam_session": "November 2023",
+      "question_number": 66,
+      "question_text": "Match List I with List II. List I: A. Draupadi; B. Rhythm of Life; C. Prakriti; D. Yugal. List II: (I) Kumudini Lakhia; (II) Uday Shankar; (III) Sonal Mansingh; (IV) Chandralekha. Choose the correct answer.",
+      "options": {
+        "A": "A(I), B(III), C(II), D(IV)",
+        "B": "A(IV), B(II), C(I), D(III)",
+        "C": "A(II), B(III), C(IV), D(I)",
+        "D": "A(I), B(II), C(III), D(IV)"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option mapping transcribed from scanned layout; verify option arrangement against original PDF before release."
+    },
+    {
+      "id": "GSET_31_NOV23_067",
+      "exam_session": "November 2023",
+      "question_number": 67,
+      "question_text": "Statement (A): Nandikeshwar is an author of ‘Abhinayadarpanam’. Statement (B): ‘Bharatarnav’ is written by Nandikeshwara. Choose the correct answer.",
+      "options": {
+        "A": "(A) true, (B) false",
+        "B": "(A) false, (B) true",
+        "C": "Both (A) and (B) are false",
+        "D": "Both (A) and (B) are true"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_068",
+      "exam_session": "November 2023",
+      "question_number": 68,
+      "question_text": "Statement (A): During the Mughal period, ‘Salami’ and ‘Aamad’ were introduced in Kathak Dance. Statement (B): During the Mughal period, ‘Tillana’ and ‘Varnam’ were introduced in Bharatanatyam. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_069",
+      "exam_session": "November 2023",
+      "question_number": 69,
+      "question_text": "Statement (A): The full form of CCRT is Centre for Cultural Resources and Training. Statement (B): CCRT offers post-doctoral fellowship. Choose the correct answer.",
+      "options": {
+        "A": "(A) true, (B) false",
+        "B": "(A) false, (B) true",
+        "C": "Both (A) and (B) are true",
+        "D": "Both (A) and (B) are false"
+      },
+      "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
