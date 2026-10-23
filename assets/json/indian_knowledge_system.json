@@ -3,7 +3,7 @@
   "subject_code": "29",
   "subject_name": "Indian Knowledge System",
   "paper": "Paper-II",
-  "source_policy": "Official GSET papers and final answer keys are authoritative. Exact text was checked where legible; unclear low-resolution terms remain flagged, not guessed.",
+  "source_policy": "Official GSET question papers and final answer keys are authoritative. Text and options were visually checked against the scanned papers where legible; low-resolution symbols remain flagged.",
   "total_questions": 300,
   "expected_questions": 300,
   "sessions_included": [
@@ -39,10 +39,10 @@
       "question_number": 2,
       "question_text": "Which of the following Upanishads is associated with the Rg Veda ?",
       "options": {
-        "A": "Taittariya Upanisad",
-        "B": "ISavasya Upanisad",
-        "C": "Aitareya Upanisad",
-        "D": "Brhadaranyaka Upanisad"
+        "A": "Taittariya Upanishad",
+        "B": "Isavasya Upanishad",
+        "C": "Aitareya Upanishad",
+        "D": "Brhadaranyaka Upanishad"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -137,9 +137,9 @@
       "id": "GSET_29_NOV23_007",
       "exam_session": "November 2023",
       "question_number": 7,
-      "question_text": "Who among the following is not associated with Visistaadvaita ?",
+      "question_text": "Who among the following is NOT associated with Visistadvaita?",
       "options": {
-        "A": "Mahaparna",
+        "A": "Mahapurna",
         "B": "Yamunacharya",
         "C": "Nadamuni",
         "D": "Vallabhacharya"
@@ -197,11 +197,11 @@
       "id": "GSET_29_NOV23_010",
       "exam_session": "November 2023",
       "question_number": 10,
-      "question_text": "What is the name of the Naga wife of Arjuna in the Mahabharata ?",
+      "question_text": "What is the name of the Naga wife of Arjuna in the Mahabharata?",
       "options": {
         "A": "Citrangadha",
         "B": "Subhadra",
-        "C": "Ullapi",
+        "C": "Ulupi",
         "D": "Uttara"
       },
       "correct_answer": "C",
@@ -257,10 +257,10 @@
       "id": "GSET_29_NOV23_013",
       "exam_session": "November 2023",
       "question_number": 13,
-      "question_text": "Which of the following is a guna in Sankhya ?",
+      "question_text": "Which of the following is a guna in Sankhya?",
       "options": {
         "A": "Prthaktva",
-        "B": "Rapa",
+        "B": "Rupa",
         "C": "Gandha",
         "D": "Rajas"
       },
@@ -277,12 +277,12 @@
       "id": "GSET_29_NOV23_014",
       "exam_session": "November 2023",
       "question_number": 14,
-      "question_text": "The Candogya Upanisad is associated with which Veda ?",
+      "question_text": "The Chandogya Upanishad is associated with which Veda?",
       "options": {
-        "A": "Rg",
-        "B": "Krishna Yajur",
-        "C": "Atharvana",
-        "D": "Sama"
+        "A": "Rg Veda",
+        "B": "Krishna Yajur Veda",
+        "C": "Atharvana Veda",
+        "D": "Sama Veda"
       },
       "correct_answer": "D",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -357,7 +357,7 @@
       "id": "GSET_29_NOV23_018",
       "exam_session": "November 2023",
       "question_number": 18,
-      "question_text": "Who provoked Janamejaya to conduct the snake sacrifice in the Mahabharata ?",
+      "question_text": "Who provoked Janamejaya to conduct the snake sacrifice in the Mahabharata?",
       "options": {
         "A": "Uttanka",
         "B": "Astika",
@@ -437,12 +437,12 @@
       "id": "GSET_29_NOV23_022",
       "exam_session": "November 2023",
       "question_number": 22,
-      "question_text": "Who is the author of the text Siddhanta Siromani ?",
+      "question_text": "Who is the author of the text Siddhanta Siromani?",
       "options": {
         "A": "Bhaskara IV",
         "B": "Bhaskara III",
-        "C": "Bhaskara",
-        "D": "Bhaskara Il"
+        "C": "Bhaskara I",
+        "D": "Bhaskara II"
       },
       "correct_answer": "D",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -477,12 +477,12 @@
       "id": "GSET_29_NOV23_024",
       "exam_session": "November 2023",
       "question_number": 24,
-      "question_text": "What is the Naksatra corresponding to a day when the longitude of the Moon is 20 degrees ?",
+      "question_text": "What is the Naksatra corresponding to a day when the longitude of the Moon is 20 degrees?",
       "options": {
         "A": "Revati",
-        "B": "Kritika",
+        "B": "Krittika",
         "C": "Bharani",
-        "D": "Agvini"
+        "D": "Asvini"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -517,10 +517,10 @@
       "id": "GSET_29_NOV23_026",
       "exam_session": "November 2023",
       "question_number": 26,
-      "question_text": "What is the name of the Season Constituted by the months Nabhas and Nabhasya ?",
+      "question_text": "What is the name of the season constituted by the months Nabhas and Nabhasya?",
       "options": {
-        "A": "Varsa",
-        "B": "Grisma",
+        "A": "Varsha",
+        "B": "Grishma",
         "C": "Vasanta",
         "D": "Sarada"
       },
@@ -557,9 +557,9 @@
       "id": "GSET_29_NOV23_028",
       "exam_session": "November 2023",
       "question_number": 28,
-      "question_text": "Among the following vakyas, which are used to find the Longitude of the Sun ?",
+      "question_text": "Among the following Vakyas, which is used to find the longitude of the Sun?",
       "options": {
-        "A": "Lavanamnindyadi",
+        "A": "Lavanamandnyadi",
         "B": "Silamrajmadi",
         "C": "Yogyadi",
         "D": "Girnasreyadi"
@@ -577,7 +577,7 @@
       "id": "GSET_29_NOV23_029",
       "exam_session": "November 2023",
       "question_number": 29,
-      "question_text": "Among the following, which is not the five elements of Paficanga ?",
+      "question_text": "Among the following, which is NOT one of the five elements of Panchanga?",
       "options": {
         "A": "Yuga",
         "B": "Yoga",
@@ -597,7 +597,7 @@
       "id": "GSET_29_NOV23_030",
       "exam_session": "November 2023",
       "question_number": 30,
-      "question_text": "Which samskara is used to obtain true geocentric longitude of the Planet from the helio-centric one ?",
+      "question_text": "Which samskara is used to obtain the true geocentric longitude of a planet from the heliocentric one?",
       "options": {
         "A": "Sodhyasamskara",
         "B": "Antyasamskara",
@@ -737,12 +737,12 @@
       "id": "GSET_29_NOV23_037",
       "exam_session": "November 2023",
       "question_number": 37,
-      "question_text": "Lying face-down on the ground, having caught the toes of the feet with both the hands and carrying them towards the ears by stretching the back like an arch is a demonstration of which asana ?",
+      "question_text": "Lying face-down on the ground, grasping the toes of both feet and stretching the back like an arch toward the ears demonstrates which asana?",
       "options": {
-        "A": "paschimatanadsana",
-        "B": "dhanurasana",
-        "C": "mayutrasana",
-        "D": "sukhasana"
+        "A": "Paschimatanasana",
+        "B": "Dhanurasana",
+        "C": "Mayurasana",
+        "D": "Sukhasana"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -817,12 +817,12 @@
       "id": "GSET_29_NOV23_041",
       "exam_session": "November 2023",
       "question_number": 41,
-      "question_text": "Which of the following are not one among the measurement units used in Indian architecture or metrology ?",
+      "question_text": "Which of the following is NOT among the measurement units used in Indian architecture or metrology?",
       "options": {
-        "A": "dhanuh",
-        "B": "rajju",
-        "C": "hasta",
-        "D": "pratita"
+        "A": "Dhanuh",
+        "B": "Rajju",
+        "C": "Hasta",
+        "D": "Pratita"
       },
       "correct_answer": "D",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -837,12 +837,12 @@
       "id": "GSET_29_NOV23_042",
       "exam_session": "November 2023",
       "question_number": 42,
-      "question_text": "Which of the following is one of the foundational and classic texts of bharatiya architecture ?",
+      "question_text": "Which of the following is one of the foundational and classic texts of Bharatiya architecture?",
       "options": {
-        "A": "Vrddha-Garga-samhita",
+        "A": "Vrddha-Garga-Samhita",
         "B": "Manasara",
-        "C": "Vastu pGja paddhati",
-        "D": "Nilamata purana"
+        "C": "Vastu Puja Paddhati",
+        "D": "Nilamata Purana"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -959,10 +959,10 @@
       "question_number": 48,
       "question_text": "The iconographic form of Shiva that is half male and half female is",
       "options": {
-        "A": "ardha gaurigvara",
-        "B": "purusa-prakrti marti",
-        "C": "ardhendu marti",
-        "D": "ardha narigvara"
+        "A": "Ardha Gaurishvara",
+        "B": "Purusha-Prakriti Murti",
+        "C": "Ardhendu Murti",
+        "D": "Ardha Narishvara"
       },
       "correct_answer": "D",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1069,7 +1069,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The supplied scan's exponent/number notation for ‘Vrnda’ is too faint for exact option transcription. Do not infer it.",
+      "review_note": "The supplied scan's exponent/number notation for ‘Vrnda’ is too faint for exact option transcription; keep flagged rather than guessing.",
       "tip_en": "Tip: Identify the exact traditional number system or astronomical rule first; write the steps and check the units before choosing. Focus cue: “Vrnda”.",
       "tip_gu": "ટીપ: પહેલાં લાગુ પડતી પરંપરાગત સંખ્યા-પદ્ધતિ કે ખગોળીય નિયમ ઓળખો; ગણતરીના પગલાં અને એકમ ચકાસીને વિકલ્પ પસંદ કરો. ખાસ સંકેત: “Vrnda”."
     },
@@ -1157,12 +1157,12 @@
       "id": "GSET_29_NOV23_058",
       "exam_session": "November 2023",
       "question_number": 58,
-      "question_text": "Among the following, which mathematical quantity is represented by the term “Sara” ?",
+      "question_text": "Among the following, which mathematical quantity is represented by the term “Sara”?",
       "options": {
-        "A": "R sin 6—R cos 6",
-        "B": "R +Rsin6",
-        "C": "R-Roos 6",
-        "D": "R—Rsin@"
+        "A": "R sin θ − R cos θ",
+        "B": "R + R sin θ",
+        "C": "R − R cos θ",
+        "D": "R − R sin θ"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1217,11 +1217,11 @@
       "id": "GSET_29_NOV23_061",
       "exam_session": "November 2023",
       "question_number": 61,
-      "question_text": "The nityatvam (eternality) of time is explained by which of the following elements according to Vaisesika dargana ?",
+      "question_text": "The nityatvam (eternality) of time is explained by which of the following elements according to Vaisheshika Darshana?",
       "options": {
         "A": "Vayu",
         "B": "Prthvi",
-        "C": "Akaga",
+        "C": "Akasa",
         "D": "Jala"
       },
       "correct_answer": "A",
@@ -1237,11 +1237,11 @@
       "id": "GSET_29_NOV23_062",
       "exam_session": "November 2023",
       "question_number": 62,
-      "question_text": "According to Vaisesika darSana the fluidity of lead and tin in conjunction with fire constitutes their similarity to which one of the following ?",
+      "question_text": "According to Vaisheshika Darshana, the fluidity of lead and tin in conjunction with fire constitutes their similarity to which one of the following?",
       "options": {
         "A": "Vayu",
         "B": "Prthvi",
-        "C": "Akaga",
+        "C": "Akasa",
         "D": "Jala"
       },
       "correct_answer": "D",
@@ -1257,12 +1257,12 @@
       "id": "GSET_29_NOV23_063",
       "exam_session": "November 2023",
       "question_number": 63,
-      "question_text": "Iron is referred by which of the following term in the Krsna Yajur Veda ?",
+      "question_text": "Iron is referred to by which of the following terms in the Krishna Yajur Veda?",
       "options": {
         "A": "Syama",
-        "B": "aya",
-        "C": "trapu",
-        "D": "sisa"
+        "B": "Aya",
+        "C": "Trapu",
+        "D": "Sisa"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1277,12 +1277,12 @@
       "id": "GSET_29_NOV23_064",
       "exam_session": "November 2023",
       "question_number": 64,
-      "question_text": "Vajratala, referred to as adamantine glue in modern parlance, is described in which of the following texts ?",
+      "question_text": "Vajratala, referred to as adamantine glue in modern parlance, is described in which of the following texts?",
       "options": {
-        "A": "Taittariyasamhita",
-        "B": "Brhatsamhita",
-        "C": "Carakasamnita",
-        "D": "SuSrutasamhita"
+        "A": "Taittariya Samhita",
+        "B": "Brhat Samhita",
+        "C": "Charaka Samhita",
+        "D": "Sushruta Samhita"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1297,12 +1297,12 @@
       "id": "GSET_29_NOV23_065",
       "exam_session": "November 2023",
       "question_number": 65,
-      "question_text": "According to Maya, in the preparation of VajraSamghata which of the following is an ingredient ?",
+      "question_text": "According to Maya, which of the following is an ingredient in the preparation of Vajrasamghata?",
       "options": {
-        "A": "loha",
-        "B": "kamsya",
-        "C": "vajra",
-        "D": "guggulu"
+        "A": "Loha",
+        "B": "Kamsya",
+        "C": "Vajra",
+        "D": "Guggulu"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1337,11 +1337,11 @@
       "id": "GSET_29_NOV23_067",
       "exam_session": "November 2023",
       "question_number": 67,
-      "question_text": "Who is the author of the rasasastra text Rasaprakasasudhakara ?",
+      "question_text": "Who is the author of the Rasasastra text Rasaprakasa-Sudhakara?",
       "options": {
         "A": "Nagarjuna",
         "B": "Nityanatha",
-        "C": "YaSodhara",
+        "C": "Yasodhara",
         "D": "Vangasena"
       },
       "correct_answer": "C",
@@ -1357,7 +1357,7 @@
       "id": "GSET_29_NOV23_068",
       "exam_session": "November 2023",
       "question_number": 68,
-      "question_text": "Which of the following meta! was legally permitted in ArthaSastra for alloying with gold in order to make various standards of gold ?",
+      "question_text": "Which metal was legally permitted in the Arthasastra for alloying with gold to make various standards of gold?",
       "options": {
         "A": "Tin",
         "B": "Lead",
@@ -1377,12 +1377,12 @@
       "id": "GSET_29_NOV23_069",
       "exam_session": "November 2023",
       "question_number": 69,
-      "question_text": "In the flame colour test for metals described in Rasarnava which of the following metal-colour pair is correct ? 7",
+      "question_text": "In the flame-colour test for metals described in Rasarnava, which metal-colour pair is correct?",
       "options": {
-        "A": "silver-white",
-        "B": "copper-red",
-        "C": "lead-black",
-        "D": "iron-blue"
+        "A": "Silver—white",
+        "B": "Copper—red",
+        "C": "Lead—black",
+        "D": "Iron—blue"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1397,12 +1397,12 @@
       "id": "GSET_29_NOV23_070",
       "exam_session": "November 2023",
       "question_number": 70,
-      "question_text": "The distillation apparatus as described in Rasaratnasamuccaya, which is still in use, albeit in glass and not using mud, is referred in the text by which of the following term ?",
+      "question_text": "The distillation apparatus described in Rasaratnasamuccaya, still in use albeit in glass and not using mud, is referred to by which term?",
       "options": {
-        "A": "svedaniyantram",
-        "B": "tiryakpatanayantram",
-        "C": "valukayantram",
-        "D": "jaranayantram"
+        "A": "Svedaniyantra",
+        "B": "Tiryakpatanayantra",
+        "C": "Valukayantra",
+        "D": "Jaranayantra"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1497,10 +1497,10 @@
       "id": "GSET_29_NOV23_075",
       "exam_session": "November 2023",
       "question_number": 75,
-      "question_text": "Which of the following Ancient texts classifies creatures based on the number of senses ?",
+      "question_text": "Which ancient text classifies creatures based on the number of senses?",
       "options": {
-        "A": "Tattvarthadhigma-Sitra",
-        "B": "Upanisad",
+        "A": "Tattvarthadhigama-Sutra",
+        "B": "Upanishad",
         "C": "Arthasastra",
         "D": "Garuda Purana"
       },
@@ -1617,11 +1617,11 @@
       "id": "GSET_29_NOV23_081",
       "exam_session": "November 2023",
       "question_number": 81,
-      "question_text": "The musical text Caturdandiprakasika was written by which one of the following ?",
+      "question_text": "The musical text Caturdandiprakasika was written by which one of the following?",
       "options": {
         "A": "Bharata",
         "B": "Venkatamakhi",
-        "C": "SarAgadeva",
+        "C": "Sarngadeva",
         "D": "Abhinavagupta"
       },
       "correct_answer": "B",
@@ -1657,12 +1657,12 @@
       "id": "GSET_29_NOV23_083",
       "exam_session": "November 2023",
       "question_number": 83,
-      "question_text": "The Suddha dhaivata of Hindustani music system corresponds to which one of the following svara-s in the Kamatik music system ?",
+      "question_text": "The Suddha Dhaivata of the Hindustani music system corresponds to which svara in the Carnatic music system?",
       "options": {
-        "A": "Suddha dhaivata",
-        "B": "triSruti dhaivata",
-        "C": "catusruti dhaivata",
-        "D": "satsruti dhaivata"
+        "A": "Suddha Dhaivata",
+        "B": "Trisruti Dhaivata",
+        "C": "Catusruti Dhaivata",
+        "D": "Satsruti Dhaivata"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1797,12 +1797,12 @@
       "id": "GSET_29_NOV23_090",
       "exam_session": "November 2023",
       "question_number": 90,
-      "question_text": "SuSri Milena Salvini, an Italian-bom French exponent was awarded the Padma Shri for her yeomen service to which one of the following Indian art forms ?",
+      "question_text": "SuSri Milena Salvini, an Italian-born French exponent, was awarded the Padma Shri for her service to which Indian art form?",
       "options": {
         "A": "Sanskrit Literature",
         "B": "Dhrupad Singing",
-        "C": "Kathakali dance",
-        "D": "Stone Sculptury"
+        "C": "Kathakali Dance",
+        "D": "Stone Sculpture"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1961,7 +1961,7 @@
       "options": {
         "A": "Java",
         "B": "Sumatra",
-        "C": "Celebs",
+        "C": "Celebes",
         "D": "Bali"
       },
       "correct_answer": "D",
@@ -2137,11 +2137,11 @@
       "id": "GSET_29_DEC24_007",
       "exam_session": "December 2024",
       "question_number": 7,
-      "question_text": "Who among the following is NOT associated with ViSista@dvaita ?",
+      "question_text": "Who among the following is NOT associated with Visistadvaita?",
       "options": {
-        "A": "Yamunacarya",
-        "B": "VedantadeSika",
-        "C": ") Ramananddcarya",
+        "A": "Yamunacharya",
+        "B": "Vedantadesika",
+        "C": "Ramanandacharya",
         "D": "Nimbarka"
       },
       "correct_answer": "D",
@@ -2297,7 +2297,7 @@
       "id": "GSET_29_DEC24_015",
       "exam_session": "December 2024",
       "question_number": 15,
-      "question_text": "Rajlok is a unit associated with which of the following philosophical systems ? {",
+      "question_text": "Rajlok is a unit associated with which of the following philosophical systems?",
       "options": {
         "A": "Buddhism",
         "B": "Jainism",
@@ -2357,12 +2357,12 @@
       "id": "GSET_29_DEC24_018",
       "exam_session": "December 2024",
       "question_number": 18,
-      "question_text": "Who is instrumental in stopping the snake sacrifice in the Mahabharata ?",
+      "question_text": "Who is instrumental in stopping the snake sacrifice in the Mahabharata?",
       "options": {
         "A": "Uttanka",
         "B": "Astika",
-        "C": "VaiSampayana",
-        "D": "Ugrasgravas"
+        "C": "Vaisampayana",
+        "D": "Ugrasravas"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2397,7 +2397,7 @@
       "id": "GSET_29_DEC24_020",
       "exam_session": "December 2024",
       "question_number": 20,
-      "question_text": "The syllable ‘G’ is associated with which of the following ?",
+      "question_text": "The syllable ‘ga’ is associated with which of the following?",
       "options": {
         "A": "Sky",
         "B": "Water",
@@ -2440,9 +2440,9 @@
       "question_text": "Who is the author of the text Tantrasangraha ?",
       "options": {
         "A": "Madhava",
-        "B": "Sivadttta",
+        "B": "Sivadutta",
         "C": "Nilakantha",
-        "D": "Paramedvara"
+        "D": "Paramesvara"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2457,12 +2457,12 @@
       "id": "GSET_29_DEC24_023",
       "exam_session": "December 2024",
       "question_number": 23,
-      "question_text": "What is the Tithi when the longitudes of the Sun and the Moon are 128 and 180 degrees respectively ?",
+      "question_text": "What is the Tithi when the longitudes of the Sun and the Moon are 128 and 180 degrees respectively?",
       "options": {
-        "A": "Krsnapaksa Caturthi",
-        "B": "Suklapaksa Paficami",
-        "C": "Krsnapaksa Paficami",
-        "D": "Suklapaksa Caturthi"
+        "A": "Krishnapaksha Chaturthi",
+        "B": "Shuklapaksha Panchami",
+        "C": "Krishnapaksha Panchami",
+        "D": "Shuklapaksha Chaturthi"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2477,7 +2477,7 @@
       "id": "GSET_29_DEC24_024",
       "exam_session": "December 2024",
       "question_number": 24,
-      "question_text": "What is the Naksatra when the longitude of the Moon is 355 degrees and that of the Sun is 354 degrees ?",
+      "question_text": "What is the Naksatra when the longitude of the Moon is 355 degrees and that of the Sun is 354 degrees?",
       "options": {
         "A": "Uttara-Bhadrapada",
         "B": "Purva-Bhadrapada",
@@ -2577,7 +2577,7 @@
       "id": "GSET_29_DEC24_029",
       "exam_session": "December 2024",
       "question_number": 29,
-      "question_text": "Among the following, which one is the element of Paficdnga ?",
+      "question_text": "Among the following, which one is an element of Panchanga?",
       "options": {
         "A": "Yuga",
         "B": "Yoga",
@@ -2617,10 +2617,10 @@
       "id": "GSET_29_DEC24_031",
       "exam_session": "December 2024",
       "question_number": 31,
-      "question_text": "Who among the following is the author of Ayurveda’s famed text astanga hrdaya ?",
+      "question_text": "Who among the following is the author of Ayurveda’s famed text Ashtanga Hridaya?",
       "options": {
-        "A": "Caraka",
-        "B": "Susruta",
+        "A": "Charaka",
+        "B": "Sushruta",
         "C": "Vagbhata",
         "D": "Kapila"
       },
@@ -2737,11 +2737,11 @@
       "id": "GSET_29_DEC24_037",
       "exam_session": "December 2024",
       "question_number": 37,
-      "question_text": "Having stretched the feet on the ground, like a stick and having grasped the toes of both the feet with both the hands, when one sits with his forehead resting on the thighs/knees, it is a demonstration of which of the following dsanas ?",
+      "question_text": "Having stretched the feet on the ground like a stick, grasped the toes of both feet with both hands, and rested the forehead on the thighs/knees, which asana is demonstrated?",
       "options": {
-        "A": "PaSchimatanadsana",
+        "A": "Paschimatanasana",
         "B": "Dhanurasana",
-        "C": "Mayurdasana",
+        "C": "Mayurasana",
         "D": "Sukhasana"
       },
       "correct_answer": "A",
@@ -2757,12 +2757,12 @@
       "id": "GSET_29_DEC24_038",
       "exam_session": "December 2024",
       "question_number": 38,
-      "question_text": "Placing the right foot on the left thigh and the left foot on the right thigh, and grasping the toes with the hands crossed over the back, chin pressed against the chest and gaze on the tip of the nose one performs which 4sana ?",
+      "question_text": "Placing the right foot on the left thigh and the left foot on the right thigh, crossing the hands behind to grasp the toes, pressing the chin against the chest, and gazing at the tip of the nose describes which asana?",
       "options": {
-        "A": "Dhanuradsana",
-        "B": "Maylrdsana",
+        "A": "Dhanurasana",
+        "B": "Mayurasana",
         "C": "Padmasana",
-        "D": "Sukhdsana"
+        "D": "Sukhasana"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2817,12 +2817,12 @@
       "id": "GSET_29_DEC24_041",
       "exam_session": "December 2024",
       "question_number": 41,
-      "question_text": "Which of the following is NOT one of the measures used in Indian architectural systems ?",
+      "question_text": "Which of the following is NOT one of the measures used in Indian architectural systems?",
       "options": {
         "A": "Angula",
         "B": "Vitasti",
         "C": "Grasta",
-        "D": "Danda Reg RTS BT aT ceo ES"
+        "D": "Danda"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2837,12 +2837,12 @@
       "id": "GSET_29_DEC24_042",
       "exam_session": "December 2024",
       "question_number": 42,
-      "question_text": "Which one of the following is NOT one of the classic texts of bharatiya architecture ?",
+      "question_text": "Which one of the following is NOT one of the classic texts of Bharatiya architecture?",
       "options": {
         "A": "Mayamata",
-        "B": "Samarangana sUtradhara",
+        "B": "Samarangana Sutradhara",
         "C": "Manasara",
-        "D": "Vi$Svakarma sttra"
+        "D": "Visvakarma Sutra"
       },
       "correct_answer": "D",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -2977,11 +2977,11 @@
       "id": "GSET_29_DEC24_049",
       "exam_session": "December 2024",
       "question_number": 49,
-      "question_text": "The typical architectural plans used in Indic architecture divide the site into a mandala of 64 (8 x 8) or 81 (9 x 9) squares. The mandala of 64 squares is called as",
+      "question_text": "The mandala of 64 squares is called as",
       "options": {
         "A": "Caturasra",
         "B": "Sama",
-        "C": "Mandtika",
+        "C": "Manduka",
         "D": "Paramasayika"
       },
       "correct_answer": "C",
@@ -3097,9 +3097,9 @@
       "id": "GSET_29_DEC24_055",
       "exam_session": "December 2024",
       "question_number": 55,
-      "question_text": "Who is the author of the text Lilavati ?",
+      "question_text": "Who is the author of the text Lilavati?",
       "options": {
-        "A": "LiLavati",
+        "A": "Lilavati",
         "B": "Bhaskara I",
         "C": "Bhaskara II",
         "D": "Brahmagupta"
@@ -3117,7 +3117,7 @@
       "id": "GSET_29_DEC24_056",
       "exam_session": "December 2024",
       "question_number": 56,
-      "question_text": "As per Bhutasankhya system, what is the number encoded in the phrase “Sagara-netra-gagana-parvata” ?",
+      "question_text": "As per the Bhutasankhya system, what number is encoded in the phrase “Sagara-netra-gagana-parvata”?",
       "options": {
         "A": "4207",
         "B": "7024",
@@ -3137,7 +3137,7 @@
       "id": "GSET_29_DEC24_057",
       "exam_session": "December 2024",
       "question_number": 57,
-      "question_text": "As per Katapayadi system, what is the number encoded in the string Aryabhata ?",
+      "question_text": "As per the Katapayadi system, what number is encoded in the string “Aryabhata”?",
       "options": {
         "A": "4101",
         "B": "4110",
@@ -3197,12 +3197,12 @@
       "id": "GSET_29_DEC24_060",
       "exam_session": "December 2024",
       "question_number": 60,
-      "question_text": "Among the following Mathematicians who discovered the infinite series for Sme function ?",
+      "question_text": "Among the following mathematicians, who discovered the infinite series for the sine function?",
       "options": {
         "A": "Aryabhata",
-        "B": "Madhavacarya",
-        "C": "Vallabhacarya",
-        "D": "Ramanujacarya"
+        "B": "Madhavacharya",
+        "C": "Vallabhacharya",
+        "D": "Ramanujacharya"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3257,7 +3257,7 @@
       "id": "GSET_29_DEC24_063",
       "exam_session": "December 2024",
       "question_number": 63,
-      "question_text": "Tin is referred by which of the following term in the Krsnayajur Veda ?",
+      "question_text": "Tin is referred to by which of the following terms in the Krishna Yajur Veda?",
       "options": {
         "A": "Syama",
         "B": "Ranga",
@@ -3297,12 +3297,12 @@
       "id": "GSET_29_DEC24_065",
       "exam_session": "December 2024",
       "question_number": 65,
-      "question_text": "According to Maya, in the preparation of Vajrasamghata which of the following is NOT an ingredient ?",
+      "question_text": "According to Maya, which of the following is an ingredient in the preparation of Vajrasamghata?",
       "options": {
-        "A": "Sisaka",
+        "A": "Loha",
         "B": "Kamsya",
         "C": "Vajra",
-        "D": "Ritika"
+        "D": "Guggulu"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3317,7 +3317,7 @@
       "id": "GSET_29_DEC24_066",
       "exam_session": "December 2024",
       "question_number": 66,
-      "question_text": "In the context of chemistry, the term ‘sauvarcala’ refers to which of the following ?",
+      "question_text": "In the context of chemistry, the term ‘Romaka’ refers to which of the following?",
       "options": {
         "A": "Salt",
         "B": "Acid",
@@ -3337,7 +3337,7 @@
       "id": "GSET_29_DEC24_067",
       "exam_session": "December 2024",
       "question_number": 67,
-      "question_text": "Who is the author of the rasaSdstra text Rasajalanidhi ?",
+      "question_text": "Who is the author of the Rasasastra text Rasajalanidhi?",
       "options": {
         "A": "Nagarjuna",
         "B": "Nityanatha",
@@ -3399,10 +3399,10 @@
       "question_number": 70,
       "question_text": "In the downward distillation of zinc metal, as described in Rasaratnasamuccaya, which of the following mūṣā (crucible) is used?",
       "options": {
-        "A": "Gostanakaramtsa",
-        "B": "Vintakaramtisa",
+        "A": "Gostanakaramusa",
+        "B": "Vintakaramusa",
         "C": "Mallamusa",
-        "D": "Golamitsa"
+        "D": "Golamusa"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3477,12 +3477,12 @@
       "id": "GSET_29_DEC24_074",
       "exam_session": "December 2024",
       "question_number": 74,
-      "question_text": "The Charaka-Samhita classifies all animals into which of the following four main divisions ?",
+      "question_text": "The Charaka-Samhita classifies all animals into which of the following four main divisions?",
       "options": {
-        "A": "Jarayuja, Andaj, Svedaja, Udbhija",
+        "A": "Jarayuja, Andaja, Svedaja, Udbhija",
         "B": "Jarayuja, Svedaja, Udbhija, Patanga",
-        "C": "Andaj, Mrga, Rajimat, Svedaja",
-        "D": "Andaj, Mrga, Udhbija, Kilacara"
+        "C": "Andaja, Mrga, Rajimat, Svedaja",
+        "D": "Andaja, Mrga, Udbhija, Kilacara"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3517,7 +3517,7 @@
       "id": "GSET_29_DEC24_076",
       "exam_session": "December 2024",
       "question_number": 76,
-      "question_text": "Who wrote the treatise on treatment of horse, named, Sdlimotra ?",
+      "question_text": "Who wrote the treatise on treatment of horses named Salihotra?",
       "options": {
         "A": "Bhoja",
         "B": "Kautilya",
@@ -3557,7 +3557,7 @@
       "id": "GSET_29_DEC24_078",
       "exam_session": "December 2024",
       "question_number": 78,
-      "question_text": "How many grains are enumerated by the Brhadaranyaka Upanisad ?",
+      "question_text": "How many grains are enumerated by the Brihadaranyaka Upanishad?",
       "options": {
         "A": "Five",
         "B": "Seven",
@@ -3657,12 +3657,12 @@
       "id": "GSET_29_DEC24_083",
       "exam_session": "December 2024",
       "question_number": 83,
-      "question_text": "The Suddha rsabha of Hindustani music system corresponds to which one of the following svara-s in the Karnatik music system ?",
+      "question_text": "The Suddha Rsabha of the Hindustani music system corresponds to which svara in the Carnatic music system?",
       "options": {
-        "A": "Suddha rsabha",
-        "B": "trisruti rsabha",
-        "C": "catusruti rsabha",
-        "D": "satSruti rsabha"
+        "A": "Suddha Rsabha",
+        "B": "Trisruti Rsabha",
+        "C": "Catusruti Rsabha",
+        "D": "Satsruti Rsabha"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3757,12 +3757,12 @@
       "id": "GSET_29_DEC24_088",
       "exam_session": "December 2024",
       "question_number": 88,
-      "question_text": "Which one of the following is the correct combination of ‘Painting Style-Indian State’ P",
+      "question_text": "Which one of the following is the correct combination of ‘Painting Style—Indian State’?",
       "options": {
-        "A": "Madhubani — Bihar",
-        "B": "Kalamka@ri - Kerala",
-        "C": "Pattacitra - Uttar Pradesh",
-        "D": "Pichhvai — Chhattisgarh"
+        "A": "Madhubani—Bihar",
+        "B": "Kalamkari—Kerala",
+        "C": "Pattacitra—Uttar Pradesh",
+        "D": "Pichhvai—Chhattisgarh"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
@@ -3777,7 +3777,7 @@
       "id": "GSET_29_DEC24_089",
       "exam_session": "December 2024",
       "question_number": 89,
-      "question_text": "The Indian theatrical practice called Yaksagana belongs to which region of the country ?",
+      "question_text": "The Indian theatrical practice called Yakshagana belongs to which region of the country?",
       "options": {
         "A": "Telangana",
         "B": "Tamil Nadu",
@@ -4197,10 +4197,10 @@
       "id": "GSET_29_NOV25_010",
       "exam_session": "November 2025",
       "question_number": 10,
-      "question_text": "In the Yoga-Sitra framework, vikalpa is considered one of the five types of citta-vriti. What does vikalpa most accurately represent ?",
+      "question_text": "In the Yoga-Sutra framework, vikalpa is considered one of the five types of citta-vrtti. What does vikalpa most accurately represent?",
       "options": {
-        "A": "A state of imagination, doubt, alternative choice within the mind",
-        "B": "The calming of the mind through breath-control",
+        "A": "A state of imagination, doubt, or alternative choice within the mind",
+        "B": "The calming of the mind through breath control",
         "C": "The rhythmic fluctuation of thoughts in meditation",
         "D": "The correct perception of the world through cognitive processes"
       },
@@ -4417,12 +4417,12 @@
       "id": "GSET_29_NOV25_021",
       "exam_session": "November 2025",
       "question_number": 21,
-      "question_text": "Which of the following terms are synonyms of brass ? a. Hataka b. Vainava c. Riti d. Ritika e. Misrasulva",
+      "question_text": "Which of the following terms are synonyms of brass? a. Hataka; b. Vainava; c. Riti; d. Ritika; e. Misrasulva.",
       "options": {
-        "A": "aandb",
-        "B": "bandc",
-        "C": "candd",
-        "D": "dande"
+        "A": "a and b",
+        "B": "b and c",
+        "C": "c and d",
+        "D": "d and e"
       },
       "correct_answer": "C",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -4537,11 +4537,11 @@
       "id": "GSET_29_NOV25_027",
       "exam_session": "November 2025",
       "question_number": 27,
-      "question_text": "In which of the following options, tamra, tiksna, vanga and bhujanga is shown in the correct order of increasing reactivity, as described in Rasarnava ?",
+      "question_text": "In which option are tamra, tiksna, vanga and bhujanga shown in the correct order of increasing reactivity, as described in Rasarnava?",
       "options": {
-        "A": "tamra < vanga < tiksna < bhujahga",
+        "A": "tamra < vanga < tiksna < bhujanga",
         "B": "vanga < tamra < bhujanga < tiksna",
-        "C": "tiksna < tamra < bhujahga < vanga",
+        "C": "tiksna < tamra < bhujanga < vanga",
         "D": "tamra < tiksna < vanga < bhujanga"
       },
       "correct_answer": "D",
@@ -4557,12 +4557,12 @@
       "id": "GSET_29_NOV25_028",
       "exam_session": "November 2025",
       "question_number": 28,
-      "question_text": "Which of the following options arranges the putas in their increasing dimensions ?",
+      "question_text": "Which option arranges the putas in increasing dimensions?",
       "options": {
         "A": "bhadhara < kapota < varaha < kukkuta",
         "B": "kapota < varaha < kukkuta < bhadhara",
-        "C": "varaha < kukkuta < bhidhara < kapota",
-        "D": "kukkuta < bhidhara < kapota < varaha"
+        "C": "varaha < kukkuta < bhadhara < kapota",
+        "D": "kukkuta < bhadhara < kapota < varaha"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -4577,11 +4577,11 @@
       "id": "GSET_29_NOV25_029",
       "exam_session": "November 2025",
       "question_number": 29,
-      "question_text": "Consider the following two statements (S1 and S2) and choose the correct option that follows : $1: Metallurgists during Arthasastra period made alloys of copper and tin. S2 : Such alloy making was possible because they borrowed the knowledge of phase diagram from the Greeks.",
+      "question_text": "Consider the following statements (S1 and S2) and choose the correct option. S1: Metallurgists during the Arthasastra period made alloys of copper and tin. S2: Such alloy-making was possible because they borrowed the knowledge of phase diagrams from the Greeks.",
       "options": {
         "A": "S1 and S2 are true",
         "B": "S1 and S2 are false",
-        "C": "$1 is true and S2 is false",
+        "C": "S1 is true and S2 is false",
         "D": "S1 is false and S2 is true"
       },
       "correct_answer": "C",
@@ -4597,12 +4597,12 @@
       "id": "GSET_29_NOV25_030",
       "exam_session": "November 2025",
       "question_number": 30,
-      "question_text": "Consider the following two statements (S1 and S2) and choose the correct option that follows : $1 : Zinc extraction was discovered by Chinese which was sooner adapted by Indians. S2 : Zinc extraction was done using fractional distillation process.",
+      "question_text": "Consider the following statements (S1 and S2) and choose the correct option. S1: Zinc extraction was discovered by the Chinese and was soon adopted by Indians. S2: Zinc extraction was done using fractional distillation.",
       "options": {
         "A": "S1 and S2 are true",
         "B": "S1 and S2 are false",
         "C": "S1 is true and S2 is false",
-        "D": "$1 is false and S2 is true"
+        "D": "S1 is false and S2 is true"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -4617,7 +4617,7 @@
       "id": "GSET_29_NOV25_031",
       "exam_session": "November 2025",
       "question_number": 31,
-      "question_text": "What is the number associated with the phrase “Varidhi-sagara-deva-gaja- aditya” as per bhitasankhya system ?",
+      "question_text": "What number is associated with the phrase “Varidhi-sagara-deva-gaja-aditya” as per the Bhutasankhya system?",
       "options": {
         "A": "2183374",
         "B": "1283344",
@@ -4669,7 +4669,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The encoded phrase and one or more glyphs in this question are low-resolution. Preserve the source image; do not infer the phrase.",
+      "review_note": "The encoded phrase contains glyphs too low-resolution to transcribe confidently; do not infer or replace the source phrase.",
       "tip_en": "Tip: Identify the exact traditional number system or astronomical rule first; write the steps and check the units before choosing. Focus cue: “khyughr/qq”.",
       "tip_gu": "ટીપ: પહેલાં લાગુ પડતી પરંપરાગત સંખ્યા-પદ્ધતિ કે ખગોળીય નિયમ ઓળખો; ગણતરીના પગલાં અને એકમ ચકાસીને વિકલ્પ પસંદ કરો. ખાસ સંકેત: “khyughr/qq”."
     },
@@ -4689,7 +4689,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The Katapayadi phrase in this question is low-resolution and cannot be transcribed reliably from the supplied page.",
+      "review_note": "The Katapayadi phrase contains glyphs too low-resolution to transcribe confidently.",
       "tip_en": "Tip: Identify the exact traditional number system or astronomical rule first; write the steps and check the units before choosing. Focus cue: “Katapayadi”.",
       "tip_gu": "ટીપ: પહેલાં લાગુ પડતી પરંપરાગત સંખ્યા-પદ્ધતિ કે ખગોળીય નિયમ ઓળખો; ગણતરીના પગલાં અને એકમ ચકાસીને વિકલ્પ પસંદ કરો. ખાસ સંકેત: “Katapayadi”."
     },
@@ -4717,7 +4717,7 @@
       "id": "GSET_29_NOV25_036",
       "exam_session": "November 2025",
       "question_number": 36,
-      "question_text": "How many “truti-s” constitute One “lava” ?",
+      "question_text": "How many trutis constitute one lava?",
       "options": {
         "A": "10",
         "B": "5",
@@ -4769,7 +4769,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The four Sanskrit/transliterated Madhava-Candravakya options are too faint to transcribe confidently.",
+      "review_note": "The Sanskrit/transliterated Madhava-Candravakya options are too faint for exact transcription.",
       "tip_en": "Tip: Note whether the question refers to Hindustani or Carnatic music, then apply the matching tala, svara, raga, or composition convention.",
       "tip_gu": "ટીપ: પ્રશ્ન હિંદુસ્તાની કે કર્ણાટક સંગીતમાંથી કઈ પરંપરાનો છે તે ઓળખો, પછી તેની તાળ, સ્વર, રાગ અથવા રચનાની રીત લાગુ કરો."
     },
@@ -4837,10 +4837,10 @@
       "id": "GSET_29_NOV25_042",
       "exam_session": "November 2025",
       "question_number": 42,
-      "question_text": "Who is the author of the text “knandakhadyaka’” ?",
+      "question_text": "Who is the author of the text “Khandakhadyaka”?",
       "options": {
-        "A": "Bhaskara—!",
-        "B": "Bhaskara—Il",
+        "A": "Bhaskara I",
+        "B": "Bhaskara II",
         "C": "Brahmagupta",
         "D": "Aryabhata"
       },
@@ -4917,11 +4917,11 @@
       "id": "GSET_29_NOV25_046",
       "exam_session": "November 2025",
       "question_number": 46,
-      "question_text": "Which among the following is NOT the commentary of Katyayana-sulba-sitra ?",
+      "question_text": "Which among the following is NOT a commentary on the Katyayana Sulba Sutra?",
       "options": {
-        "A": "Sulbasatravrtti",
-        "B": "Sulbasitravivarana",
-        "C": "Sulbasitrabhasya",
+        "A": "Sulbasutravrtti",
+        "B": "Sulbasutravivarana",
+        "C": "Sulbasutrabhasya",
         "D": "Sulbabhasya"
       },
       "correct_answer": "D",
@@ -4969,7 +4969,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "Option A's phrase representing the Moon's revolutions is not fully legible in the scan; preserve the original page for final transcription.",
+      "review_note": "The Sanskrit phrase in option A is not fully legible at the supplied resolution.",
       "tip_en": "Tip: Identify the exact traditional number system or astronomical rule first; write the steps and check the units before choosing. Focus cue: “used to represent”.",
       "tip_gu": "ટીપ: પહેલાં લાગુ પડતી પરંપરાગત સંખ્યા-પદ્ધતિ કે ખગોળીય નિયમ ઓળખો; ગણતરીના પગલાં અને એકમ ચકાસીને વિકલ્પ પસંદ કરો. ખાસ સંકેત: “used to represent”."
     },
@@ -5097,7 +5097,7 @@
       "id": "GSET_29_NOV25_055",
       "exam_session": "November 2025",
       "question_number": 55,
-      "question_text": "Who among the following is the author of the Nyayasitrabhasyam ?",
+      "question_text": "Who among the following is the author of the Nyayasutrabhashyam?",
       "options": {
         "A": "Udayanacharya",
         "B": "Vatsyayana",
@@ -5157,9 +5157,9 @@
       "id": "GSET_29_NOV25_058",
       "exam_session": "November 2025",
       "question_number": 58,
-      "question_text": "In which of the following logical fallacies is the hetu NOT capable of existing in the paksa ?",
+      "question_text": "In which logical fallacy is the hetu NOT capable of existing in the paksa?",
       "options": {
-        "A": "Swardpasiddhi",
+        "A": "Svarupasiddhi",
         "B": "Satpratipaksa",
         "C": "Viruddha",
         "D": "Vyabhichara"
@@ -5177,11 +5177,11 @@
       "id": "GSET_29_NOV25_059",
       "exam_session": "November 2025",
       "question_number": 59,
-      "question_text": "In which of the following philosophies is the nature of atman considered to be ‘ksanika vijhyana’ ?",
+      "question_text": "In which philosophy is the nature of atman considered to be ‘ksanika vijnana’?",
       "options": {
         "A": "Nyaya",
         "B": "Samkhya",
-        "C": "Advaita ;",
+        "C": "Advaita",
         "D": "Yogacara Buddhism"
       },
       "correct_answer": "D",
@@ -5237,7 +5237,7 @@
       "id": "GSET_29_NOV25_062",
       "exam_session": "November 2025",
       "question_number": 62,
-      "question_text": "As per Visisthadvaita, how many categories can dravyas be classified into ?",
+      "question_text": "As per Visishtadvaita, into how many categories can dravyas be classified?",
       "options": {
         "A": "2",
         "B": "7",
@@ -5277,7 +5277,7 @@
       "id": "GSET_29_NOV25_064",
       "exam_session": "November 2025",
       "question_number": 64,
-      "question_text": "The Acararga Sitra is associated with which of the following philosophies ?",
+      "question_text": "The Acaranga Sutra is associated with which of the following philosophies?",
       "options": {
         "A": "Jainism",
         "B": "Buddhism",
@@ -5377,7 +5377,7 @@
       "id": "GSET_29_NOV25_069",
       "exam_session": "November 2025",
       "question_number": 69,
-      "question_text": "How many sections in the Kalpa-sitra of Apastamba divided into ?",
+      "question_text": "Into how many sections is the Kalpa Sutra of Apastamba divided?",
       "options": {
         "A": "10",
         "B": "12",
@@ -5437,9 +5437,9 @@
       "id": "GSET_29_NOV25_072",
       "exam_session": "November 2025",
       "question_number": 72,
-      "question_text": "In Mahabharata, who among the following is referred to as Vrkodara ?",
+      "question_text": "In the Mahabharata, who is referred to as Vrkodara?",
       "options": {
-        "A": "Bhisma",
+        "A": "Bhishma",
         "B": "Bhima",
         "C": "Arjuna",
         "D": "Duryodhana"
@@ -5489,7 +5489,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The pratyahara and Devanagari vowel choices are too small to identify safely at this resolution.",
+      "review_note": "The pratyahara and Devanagari vowel choices are too small to identify safely.",
       "tip_en": "Tip: Recall the accepted definition first. Eliminate every option that fits it, then choose the exception. Focus cue: “31%”.",
       "tip_gu": "ટીપ: પહેલાં સ્વીકારેલી વ્યાખ્યા યાદ કરો. તેમાં બંધબેસતા વિકલ્પો દૂર કરો; પછી અપવાદ પસંદ કરો. ખાસ સંકેત: “31%”."
     },
@@ -5509,7 +5509,7 @@
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "The Sanskrit phonetics term and Devanagari answer glyphs are not sufficiently legible to transcribe without guessing.",
+      "review_note": "The Sanskrit phonetics term and Devanagari answer glyphs are too small for a reliable exact transcription.",
       "tip_en": "Tip: Link the named term with its precise Vedic text, Vedanga, or grammatical function; similar titles are easy to confuse.",
       "tip_gu": "ટીપ: આપેલા શબ્દને ચોક્કસ વેદ, વેદાંગ અથવા વ્યાકરણના કાર્ય સાથે જોડો; મળતાં આવતાં નામો ગૂંચવશો નહીં."
     },
@@ -5517,12 +5517,12 @@
       "id": "GSET_29_NOV25_076",
       "exam_session": "November 2025",
       "question_number": 76,
-      "question_text": "What is the Asya associated with the Upadhmaniya ?",
+      "question_text": "What is the asya associated with the Upadhmaniya?",
       "options": {
-        "A": "osta",
-        "B": "danta",
-        "C": "talu",
-        "D": "kantha"
+        "A": "Ostha",
+        "B": "Danta",
+        "C": "Talu",
+        "D": "Kantha"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -5557,12 +5557,12 @@
       "id": "GSET_29_NOV25_078",
       "exam_session": "November 2025",
       "question_number": 78,
-      "question_text": "The Santimantra “pirnamada pirnamida...” is associated with the upanisads of which Veda ?",
+      "question_text": "The Santimantra “purnamada purnamidam...” is associated with the Upanishads of which Veda?",
       "options": {
-        "A": "Sukla yajur",
-        "B": "Krsna yajur",
-        "C": "tg",
-        "D": "sama"
+        "A": "Shukla Yajur Veda",
+        "B": "Krishna Yajur Veda",
+        "C": "Rg Veda",
+        "D": "Sama Veda"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -5637,11 +5637,11 @@
       "id": "GSET_29_NOV25_082",
       "exam_session": "November 2025",
       "question_number": 82,
-      "question_text": "When a dancer uses elaborate costume, jewellery and stage properties they are using which Abhinaya ?",
+      "question_text": "When a dancer uses elaborate costume, jewellery and stage properties, which Abhinaya is used?",
       "options": {
         "A": "Angika abhinaya",
         "B": "Aharya abhinaya",
-        "C": "Satvic abhinaya",
+        "C": "Satvika abhinaya",
         "D": "Vachika abhinaya"
       },
       "correct_answer": "B",
@@ -5777,7 +5777,7 @@
       "id": "GSET_29_NOV25_089",
       "exam_session": "November 2025",
       "question_number": 89,
-      "question_text": "Which of the following is the 51S Melakarta raga ?",
+      "question_text": "Which is the 51st Melakarta raga?",
       "options": {
         "A": "Kamavardhini",
         "B": "Sanmukhapriya",
@@ -5817,7 +5817,7 @@
       "id": "GSET_29_NOV25_091",
       "exam_session": "November 2025",
       "question_number": 91,
-      "question_text": "Xuanzang studied with which of the following Indian monks ?",
+      "question_text": "Xuanzang studied with which of the following Indian monks?",
       "options": {
         "A": "Nagarjuna",
         "B": "Silabhadra",
@@ -5837,7 +5837,7 @@
       "id": "GSET_29_NOV25_092",
       "exam_session": "November 2025",
       "question_number": 92,
-      "question_text": "Who is the author of the text Tahqigq ma li-I-Hind min maqilah fi al- ‘aql aw mardhilah ?",
+      "question_text": "Who is the author of the text “Tahqiq ma li-l-Hind min maqilah fi al-‘aql aw mardhilah”?",
       "options": {
         "A": "Al Beruni",
         "B": "Ibn Batuta",
@@ -5877,7 +5877,7 @@
       "id": "GSET_29_NOV25_094",
       "exam_session": "November 2025",
       "question_number": 94,
-      "question_text": "Megasthenes mentions about the arrival of which Greek God to India ?",
+      "question_text": "Megasthenes mentions the arrival of which Greek god to India?",
       "options": {
         "A": "Uranus",
         "B": "Apollo",
@@ -5897,11 +5897,11 @@
       "id": "GSET_29_NOV25_095",
       "exam_session": "November 2025",
       "question_number": 95,
-      "question_text": "A statue of which of the following Indian figures was found in the ruins of Pompei ?",
+      "question_text": "A statue of which Indian figure was found in the ruins of Pompeii?",
       "options": {
         "A": "Yakshii",
-        "B": "Visnu",
-        "C": "Siva",
+        "B": "Vishnu",
+        "C": "Shiva",
         "D": "Gandhara"
       },
       "correct_answer": "A",
@@ -5917,12 +5917,12 @@
       "id": "GSET_29_NOV25_096",
       "exam_session": "November 2025",
       "question_number": 96,
-      "question_text": "The Nagsh-e-Rustom inscriptions mentioning Indian territories is associated with which of the following emperors ?",
+      "question_text": "The Naqsh-e-Rustam inscriptions mentioning Indian territories are associated with which emperor?",
       "options": {
         "A": "Cyrus",
         "B": "Darius",
         "C": "Xerxes",
-        "D": "Darius Ill"
+        "D": "Darius III"
       },
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -5937,12 +5937,12 @@
       "id": "GSET_29_NOV25_097",
       "exam_session": "November 2025",
       "question_number": 97,
-      "question_text": "Who among the following was the last Kushanshah emperor ?",
+      "question_text": "Who was the last Kushanshah emperor?",
       "options": {
         "A": "Varahran",
-        "B": "Piroz Il",
+        "B": "Piroz II",
         "C": "Hormizd II",
-        "D": "Shapur Il"
+        "D": "Shapur II"
       },
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
@@ -5957,7 +5957,7 @@
       "id": "GSET_29_NOV25_098",
       "exam_session": "November 2025",
       "question_number": 98,
-      "question_text": "As per the Ramayana, who was dispatched to Java to search for Sita ?",
+      "question_text": "As per the Ramayana, who was dispatched to Java to search for Sita?",
       "options": {
         "A": "Angada",
         "B": "Sugriva",
@@ -5977,7 +5977,7 @@
       "id": "GSET_29_NOV25_099",
       "exam_session": "November 2025",
       "question_number": 99,
-      "question_text": "Sanlun is the Chinese name for which of the following schools of Buddhism ?",
+      "question_text": "Sanlun is the Chinese name for which school of Buddhism?",
       "options": {
         "A": "Yogacara",
         "B": "Madhyamika",
@@ -5997,7 +5997,7 @@
       "id": "GSET_29_NOV25_100",
       "exam_session": "November 2025",
       "question_number": 100,
-      "question_text": "Daoyu and Dazu Huike were disciples of which Buddhist master ?",
+      "question_text": "Daoyu and Dazu Huike were disciples of which Buddhist master?",
       "options": {
         "A": "Bodhidharma",
         "B": "Buddhabhadra",
@@ -6017,7 +6017,7 @@
   "review_flags_remaining": [
     {
       "id": "GSET_29_NOV23_053",
-      "review_note": "The supplied scan's exponent/number notation for ‘Vrnda’ is too faint for exact option transcription. Do not infer it."
+      "review_note": "The supplied scan's exponent/number notation for ‘Vrnda’ is too faint for exact option transcription; keep flagged rather than guessing."
     },
     {
       "id": "GSET_29_DEC24_053",
@@ -6025,19 +6025,19 @@
     },
     {
       "id": "GSET_29_NOV25_033",
-      "review_note": "The encoded phrase and one or more glyphs in this question are low-resolution. Preserve the source image; do not infer the phrase."
+      "review_note": "The encoded phrase contains glyphs too low-resolution to transcribe confidently; do not infer or replace the source phrase."
     },
     {
       "id": "GSET_29_NOV25_034",
-      "review_note": "The Katapayadi phrase in this question is low-resolution and cannot be transcribed reliably from the supplied page."
+      "review_note": "The Katapayadi phrase contains glyphs too low-resolution to transcribe confidently."
     },
     {
       "id": "GSET_29_NOV25_038",
-      "review_note": "The four Sanskrit/transliterated Madhava-Candravakya options are too faint to transcribe confidently."
+      "review_note": "The Sanskrit/transliterated Madhava-Candravakya options are too faint for exact transcription."
     },
     {
       "id": "GSET_29_NOV25_048",
-      "review_note": "Option A's phrase representing the Moon's revolutions is not fully legible in the scan; preserve the original page for final transcription."
+      "review_note": "The Sanskrit phrase in option A is not fully legible at the supplied resolution."
     },
     {
       "id": "GSET_29_NOV25_063",
@@ -6045,11 +6045,11 @@
     },
     {
       "id": "GSET_29_NOV25_074",
-      "review_note": "The pratyahara and Devanagari vowel choices are too small to identify safely at this resolution."
+      "review_note": "The pratyahara and Devanagari vowel choices are too small to identify safely."
     },
     {
       "id": "GSET_29_NOV25_075",
-      "review_note": "The Sanskrit phonetics term and Devanagari answer glyphs are not sufficiently legible to transcribe without guessing."
+      "review_note": "The Sanskrit phonetics term and Devanagari answer glyphs are too small for a reliable exact transcription."
     }
   ]
 }
