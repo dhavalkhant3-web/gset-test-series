@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 71,
+  "total_questions": 77,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1103,6 +1103,108 @@
         "D": "Uday Shankar"
       },
       "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_057",
+      "exam_session": "November 2023",
+      "question_number": 57,
+      "question_text": "‘Sangeet Natak Akademi’ was established in which year?",
+      "options": {
+        "A": "1954",
+        "B": "1963",
+        "C": "1953",
+        "D": "1964"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_058",
+      "exam_session": "November 2023",
+      "question_number": 58,
+      "question_text": "‘Traditions of Indian Folk Dance’, ‘Indian Classical Dance’ and ‘Dance in Indian Paintings’ are the books of which eminent scholar?",
+      "options": {
+        "A": "Bharat Sharma",
+        "B": "Kapila Vatsyayan",
+        "C": "Acharya Brahaspati",
+        "D": "Brajvallabh Mishra"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_059",
+      "exam_session": "November 2023",
+      "question_number": 59,
+      "question_text": "Martha Graham’s best known work is",
+      "options": {
+        "A": "Human and Machine",
+        "B": "Colours of Rainbow",
+        "C": "Appalachian Spring",
+        "D": "Swan Lake"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_060",
+      "exam_session": "November 2023",
+      "question_number": 60,
+      "question_text": "‘Bhamakalapam’ and ‘Gollakalapam’ are items of which dance style?",
+      "options": {
+        "A": "Kuchipudi",
+        "B": "Kathakali",
+        "C": "Sattriya",
+        "D": "Mohiniattam"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_061",
+      "exam_session": "November 2023",
+      "question_number": 61,
+      "question_text": "Who is known as the father of Russian ballet?",
+      "options": {
+        "A": "Serge Diaghilev",
+        "B": "Nijinsky",
+        "C": "Michel Fokine",
+        "D": "Ted Shawn"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_062",
+      "exam_session": "November 2023",
+      "question_number": 62,
+      "question_text": "Identify the digital library of research from the options given below.",
+      "options": {
+        "A": "Sangeet Natak Akademi",
+        "B": "Shodh Ganga",
+        "C": "Shodh Sanchayan",
+        "D": "Indira Gandhi National Centre for Arts"
+      },
+      "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
