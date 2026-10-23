@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 187,
+  "total_questions": 194,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -3214,6 +3214,127 @@
       "source_verified": true,
       "review_flag": true,
       "review_note": "Matching question and option order transcribed from scanned PDF OCR; manually verify all pairings and option order before release."
+    },
+    {
+      "id": "GSET_31_NOV25_039",
+      "exam_session": "November 2025",
+      "question_number": 39,
+      "question_text": "Match List I with List II: A. Theatricalism; B. Environmental Theatre; C. Bread and Puppet Theatre; D. Deadly Theatre. List II: (i) Richard Schechner; (ii) Peter Schumann; (iii) Peter Brook; (iv) Red Shirt.",
+      "options": {
+        "A": "A(iv), B(i), C(ii), D(iii)",
+        "B": "A(iii), B(iv), C(i), D(ii)",
+        "C": "A(ii), B(iii), C(iv), D(i)",
+        "D": "A(i), B(ii), C(iii), D(iv)"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option order OCR-derived; verify against original scan before release."
+    },
+    {
+      "id": "GSET_31_NOV25_040",
+      "exam_session": "November 2025",
+      "question_number": 40,
+      "question_text": "Match List I with List II: A. Tamasha; B. Kuravanji; C. Thaiyam; D. Prahlada Natakam. List II: (i) Kerala; (ii) Odisha; (iii) Maharashtra; (iv) Tamil Nadu.",
+      "options": {
+        "A": "A(ii), B(iii), C(iv), D(i)",
+        "B": "A(iii), B(iv), C(i), D(ii)",
+        "C": "A(iv), B(i), C(ii), D(iii)",
+        "D": "A(i), B(ii), C(iii), D(iv)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list option order OCR-derived; verify against original scan before release."
+    },
+    {
+      "id": "GSET_31_NOV25_041",
+      "exam_session": "November 2025",
+      "question_number": 41,
+      "question_text": "Statement (A): Stanislavsky later emphasized the ‘method of physical actions’, where action on stage leads to genuine emotion. Statement (B): This shift was because starting with emotions often produced artificial results. Choose the correct answer.",
+      "options": {
+        "A": "(A) is true, (B) is true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true, (B) is false",
+        "D": "(A) is false, (B) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_042",
+      "exam_session": "November 2025",
+      "question_number": 42,
+      "question_text": "Statement (A): Brecht believed that theatre should be a tool for social change. Statement (B): He encouraged the audience to lose themselves completely in catharsis and empathy. Choose the correct answer.",
+      "options": {
+        "A": "(A) is false, (B) is true",
+        "B": "Both (A) and (B) are true",
+        "C": "(A) is true, (B) is false",
+        "D": "Both (A) and (B) are false"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_043",
+      "exam_session": "November 2025",
+      "question_number": 43,
+      "question_text": "Statement (A): Vakhtangov abandoned Stanislavsky completely. Statement (B): Vakhtangov’s work was a continuation of Stanislavsky with added theatrical imagination. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true, (B) is false",
+        "D": "(A) is false, (B) is true"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_044",
+      "exam_session": "November 2025",
+      "question_number": 44,
+      "question_text": "Statement (1): An act is a major division in a play, often marked by dropping the curtain or putting off stage lighting. Statement (2): If the word is used as a verb, it means not to perform. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true, (2) is false",
+        "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_045",
+      "exam_session": "November 2025",
+      "question_number": 45,
+      "question_text": "Statement (1): Ancient and modern critics have contrasted tragedy with comedy and more recently with melodrama. Statement (2): Early critics—pre-eminently Aristotle—focused on tragic action, whereas recent critics dwell on tragic vision. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are true",
+        "B": "Both (1) and (2) are false",
+        "C": "(1) is true, (2) is false",
+        "D": "(1) is false, (2) is true"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
     }
   ]
 }
