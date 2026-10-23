@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 163,
+  "total_questions": 185,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -589,6 +589,279 @@
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_042",
+      "exam_session": "December 2024",
+      "question_number": 42,
+      "question_text": "Statement (1): Kovian, Kannagi and Madhavi are the main characters of ‘Cilappadikaram’. Statement (2): Brihannala, Ghatotkacha and Rammaiya are the sub-characters of ‘Cilappadikaram’. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is true and (2) is False",
+        "D": "(1) is false and (2) is True"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_043",
+      "exam_session": "December 2024",
+      "question_number": 43,
+      "question_text": "Statement (1): ‘Bhaktisutra’ is written by Sage Narada. Statement (2): ‘Navadhabhakti’ is mentioned in it (Bhaktisutra). Choose the correct answer.",
+      "options": {
+        "A": "(1) True — (2) False",
+        "B": "(1) False — (2) True",
+        "C": "Both (1) and (2) are True",
+        "D": "Both (1) and (2) are False"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_044",
+      "exam_session": "December 2024",
+      "question_number": 44,
+      "question_text": "Statement (1): Generally all medieval theorists designate Nritya and Nritta respectively as Marga and Desi. Statement (2): Medieval theorists are not ready to accept any kind of Nritta as Marga. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_045",
+      "exam_session": "December 2024",
+      "question_number": 45,
+      "question_text": "Statement (1): According to medieval concept, Vakyartha stands for Bhavas which are similar to the meaning of a sentence. Statement (2): In accordance with medieval concept, Padartha stands for Rasa which is similar to word meaning. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_046",
+      "exam_session": "December 2024",
+      "question_number": 46,
+      "question_text": "Statement (1): In Natyashastra the chapter Sharirabhinaya elaborates the movements and static positions of other limbs such as breast, sides, waist, belly, thigh, shank and feet. Statement (2): Sthanas (standing positions) and Nyayas (ways of using weapons) are also described in the chapter Sharirabhinaya. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_047",
+      "exam_session": "December 2024",
+      "question_number": 47,
+      "question_text": "Statement (1): Rasa has to be treated not only as a literary but also as an aesthetic concept or principle. Statement (2): Rasa theory solves the problems of the essence of all dramatic and literary art and its relish. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_048",
+      "exam_session": "December 2024",
+      "question_number": 48,
+      "question_text": "Statement (1): According to Aristotle, the hero of tragedy should be a well-known celebrity, happy and prosperous and of noble lineage. Statement (2): Even while the hero is good and noble, he should have some human weakness or ‘tragic flaw’. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_049",
+      "exam_session": "December 2024",
+      "question_number": 49,
+      "question_text": "Statement (1): Theatre made by women directors of the 1990s attempts to undo the sutures that might have been put in place to hold together the idea of a composite Indian identity. Statement (2): The figural paradox of the female impersonator stages questions of gender and identity; essence is undone through performance. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is False and (2) is True",
+        "D": "(1) is True and (2) is False"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_050",
+      "exam_session": "December 2024",
+      "question_number": 50,
+      "question_text": "Statement (1): Kimono is a traditional costume of Japan. Statement (2): Kimono is not used in Japanese Theatre. Choose the correct answer.",
+      "options": {
+        "A": "Both (1) and (2) are True",
+        "B": "Both (1) and (2) are False",
+        "C": "(1) is True and (2) is False",
+        "D": "(1) is False and (2) is True"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_051",
+      "exam_session": "December 2024",
+      "question_number": 51,
+      "question_text": "An integral element of the Karana and refers to the movement of the body below the waist (hip to feet) is",
+      "options": {
+        "A": "Greeva Bheda",
+        "B": "Standing posture",
+        "C": "Tribhang mudra",
+        "D": "Charis"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_052",
+      "exam_session": "December 2024",
+      "question_number": 52,
+      "question_text": "Sanskrit play ‘Mricchakatikam’ was written by",
+      "options": {
+        "A": "Kalidas",
+        "B": "Shudrak",
+        "C": "Bhas",
+        "D": "Bhartruhari"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_053",
+      "exam_session": "December 2024",
+      "question_number": 53,
+      "question_text": "Who is known as ‘Abhinaya Sarasa’?",
+      "options": {
+        "A": "Sitara Devi",
+        "B": "Darshana Zaveri",
+        "C": "Smt. Rukminidevi Arundel",
+        "D": "Smt. Kalanidhi Narayan"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_054",
+      "exam_session": "December 2024",
+      "question_number": 54,
+      "question_text": "In which city did ‘Madam Meneka’ participate in the Dance Olympiad from 1936 to 1938?",
+      "options": {
+        "A": "London",
+        "B": "Berlin",
+        "C": "Delhi",
+        "D": "Mumbai"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_055",
+      "exam_session": "December 2024",
+      "question_number": 55,
+      "question_text": "‘Dragon’ or ‘Lion’ dance is performed in which country belonging to South East Asian countries?",
+      "options": {
+        "A": "Japan",
+        "B": "Nepal",
+        "C": "Myanmar",
+        "D": "Vietnam"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_056",
+      "exam_session": "December 2024",
+      "question_number": 56,
+      "question_text": "Pick the odd one out in the context of Rabindranath Tagore.",
+      "options": {
+        "A": "Chitrangada",
+        "B": "Chandalika",
+        "C": "Shyama",
+        "D": "Nagarpal"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_057",
+      "exam_session": "December 2024",
+      "question_number": 57,
+      "question_text": "‘Sangeet Natak Akademi’ has organized which of the following?",
+      "options": {
+        "A": "A festival (OCR wording unclear)",
+        "B": "A lecture series (OCR wording unclear)",
+        "C": "A dance programme (OCR wording unclear)",
+        "D": "A music event (OCR wording unclear)"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
     },
     {
       "id": "GSET_31_NOV23_001",
@@ -2798,6 +3071,114 @@
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
       "source_verified": true,
       "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_030",
+      "exam_session": "November 2025",
+      "question_number": 30,
+      "question_text": "Match List I with List II. List I: A. Jerzy Grotowski; B. Eugene Ionesco; C. Peter Brook; D. Bertolt Brecht. List II: (i) Germany; (ii) United Kingdom; (iii) Poland; (iv) Italy. Choose the correct answer.",
+      "options": {
+        "A": "A(ii), B(i), C(iv), D(iii)",
+        "B": "A(ii), B(iv), C(iii), D(i)",
+        "C": "A(iv), B(ii), C(iii), D(i)",
+        "D": "A(i), B(ii), C(iii), D(iv)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
+    },
+    {
+      "id": "GSET_31_NOV25_031",
+      "exam_session": "November 2025",
+      "question_number": 31,
+      "question_text": "Match List I with List II. List I: A. Rangayana; B. Nandikar; C. Ninasam; D. Adishakti. List II: (i) Pondicherry; (ii) Heggodu; (iii) Kolkata; (iv) Mysore. Choose the correct answer.",
+      "options": {
+        "A": "A(iii), B(iv), C(i), D(ii)",
+        "B": "A(iv), B(ii), C(iii), D(i)",
+        "C": "A(i), B(ii), C(iii), D(iv)",
+        "D": "A(ii), B(iii), C(iv), D(i)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
+    },
+    {
+      "id": "GSET_31_NOV25_032",
+      "exam_session": "November 2025",
+      "question_number": 32,
+      "question_text": "Match List I with List II. List I: A. Suresh Bharadwaj; B. Suresh Shetty; C. Robin Dass; D. Hema Singh. List II: (i) Lighting; (ii) Movement; (iii) Design; (iv) Acting—Parsi theatre. Choose the correct answer.",
+      "options": {
+        "A": "A(iv), B(ii), C(iii), D(i)",
+        "B": "A(iv), B(iii), C(ii), D(i)",
+        "C": "A(ii), B(iv), C(i), D(iii)",
+        "D": "A(i), B(ii), C(iii), D(iv)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
+    },
+    {
+      "id": "GSET_31_NOV25_033",
+      "exam_session": "November 2025",
+      "question_number": 33,
+      "question_text": "Match List I with List II. List I: A. Nine; B. Teekam Joshi; C. Irshad Panjatan; D. C. Basavalingaiah. List II: (i) Actor; (ii) Director; (iii) Mime artist; (iv) Playwright. Choose the correct answer.",
+      "options": {
+        "A": "A(iv), B(i), C(ii), D(iii)",
+        "B": "A(ii), B(iv), C(i), D(iii)",
+        "C": "A(iii), B(ii), C(iv), D(i)",
+        "D": "A(i), B(ii), C(iii), D(iv)"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
+    },
+    {
+      "id": "GSET_31_NOV25_034",
+      "exam_session": "November 2025",
+      "question_number": 34,
+      "question_text": "Match List I with List II. List I: A. Ghasiram Kotwal; B. Uttarapriyadarsini; C. Charandas Chor; D. Andhayug. List II: (i) Jabbar Patel; (ii) Habib Tanvir; (iii) Ebrahim Alkazi; (iv) Ratan Thiyyam. Choose the correct answer.",
+      "options": {
+        "A": "A(iv), B(iii), C(ii), D(i)",
+        "B": "A(iii), B(iv), C(i), D(ii)",
+        "C": "A(i), B(iv), C(ii), D(iii)",
+        "D": "A(ii), B(iv), C(iii), D(i)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
+    },
+    {
+      "id": "GSET_31_NOV25_035",
+      "exam_session": "November 2025",
+      "question_number": 35,
+      "question_text": "Match List I with List II. List I: A. Rangayana; B. Nandikar; C. Ninasam; D. Adishakti. List II: (i) Pondicherry; (ii) Heggodu; (iii) Kolkata; (iv) Mysore. Choose the correct answer.",
+      "options": {
+        "A": "A(iii), B(iv), C(i), D(ii)",
+        "B": "A(iv), B(ii), C(iii), D(i)",
+        "C": "A(i), B(ii), C(iii), D(iv)",
+        "D": "A(ii), B(iii), C(iv), D(i)"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": true,
+      "review_note": "Matching-list text/options OCR read; confirm every pair and option order against original page before release."
     }
   ]
 }
