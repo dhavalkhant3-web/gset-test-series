@@ -1076,7 +1076,7 @@
         "A": "a-iii, b-ii, c-i, d-iv",
         "B": "a-iv, b-ii, c-iii, d-i",
         "C": "a-ii, b-iii, c-iv, d-i",
-        "D": "a-iii, b-ii, c-iv, d-i"
+        "D": "a-iii, b-iv, c-ii, d-i"
       },
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
@@ -1093,7 +1093,7 @@
         "A": "a-i, b-ii, c-iii, d-iv",
         "B": "a-iv, b-iii, c-i, d-ii",
         "C": "a-iii, b-iv, c-ii, d-i",
-        "D": "a-ii, b-i, c-iv, d-iii"
+        "D": "a-ii, b-iii, c-iv, d-i"
       },
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
@@ -1108,8 +1108,8 @@
       "question_text": "Match List I with List II: (a) Raja-Rani Music Festival; (b) Uday Shankar Dance Festival; (c) Ellora-Ajanta Dance Festival; (d) Modhera Dance Festival. List II: (i) Kolkata; (ii) Mehsana; (iii) Bhubaneshwar; (iv) Aurangabad.",
       "options": {
         "A": "a-iii, b-i, c-iv, d-ii",
-        "B": "a-iii, b-i, c-ii, d-iv",
-        "C": "a-iv, b-ii, c-i, d-iii",
+        "B": "a-ii, b-iii, c-i, d-iv",
+        "C": "a-iv, b-iii, c-i, d-ii",
         "D": "a-iv, b-ii, c-iii, d-i"
       },
       "correct_answer": "A",
@@ -1124,10 +1124,10 @@
       "question_number": 66,
       "question_text": "Match List I with List II: (a) Anna Pavlova; (b) Ted Shawn; (c) Uday Shankar Dance Company; (d) Maya Rao. List II: (i) Radha Krishna; (ii) Natya Institute of Choreography; (iii) Denishawn; (iv) The Dying Swan.",
       "options": {
-        "A": "a-i, b-iii, c-ii, d-iv",
-        "B": "a-ii, b-iv, c-iii, d-i",
-        "C": "a-iv, b-ii, c-iii, d-i",
-        "D": "a-iv, b-ii, c-i, d-iii"
+        "A": "a-ii, b-iv, c-iii, d-i",
+        "B": "a-i, b-ii, c-iii, d-iv",
+        "C": "a-iv, b-iii, c-ii, d-i",
+        "D": "a-iv, b-iii, c-i, d-ii"
       },
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
@@ -3232,9 +3232,9 @@
       "question_number": 90,
       "question_text": "Match List I with List II. List I: A. Mahesh Elkunchwar; B. Satish Alekar; C. Ratnakar Matkari; D. Jaywant Dalvi. List II: (I) Lok Katha; (II) Atma Katha; (III) Barrister; (IV) Mahanirvan. Choose the correct answer.",
       "options": {
-        "A": "A(IV), B(III), C(I), D(II)",
+        "A": "A(IV), B(II), C(III), D(I)",
         "B": "A(II), B(IV), C(I), D(III)",
-        "C": "A(III), B(IV), C(II), D(I)",
+        "C": "A(III), B(IV), C(I), D(II)",
         "D": "A(IV), B(I), C(II), D(III)"
       },
       "correct_answer": "B",
