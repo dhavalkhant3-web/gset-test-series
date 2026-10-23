@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 15,
+  "total_questions": 27,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -262,6 +262,210 @@
         "D": "Michael Madhusudan Dutt"
       },
       "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_006",
+      "exam_session": "November 2023",
+      "question_number": 6,
+      "question_text": "In which of the following works of Kalidas, he mentions females of Gujarat as ‘Lasyottama Gurjari’?",
+      "options": {
+        "A": "Kumarasambhava",
+        "B": "Meghaduta",
+        "C": "Ritusamhara",
+        "D": "Raghuvamsha"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_007",
+      "exam_session": "November 2023",
+      "question_number": 7,
+      "question_text": "Who took the form of ‘Brihannala’ in Mahabharat?",
+      "options": {
+        "A": "Bheem",
+        "B": "Arjun",
+        "C": "Nakul",
+        "D": "Sahdev"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_008",
+      "exam_session": "November 2023",
+      "question_number": 8,
+      "question_text": "Fugdi and Lamp dance belongs to which region of India?",
+      "options": {
+        "A": "Andaman and Nicobar Islands",
+        "B": "Goa",
+        "C": "Dadra and Nagar Haveli",
+        "D": "Puducherry"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_009",
+      "exam_session": "November 2023",
+      "question_number": 9,
+      "question_text": "‘Rouf’ is a folk dance of which region?",
+      "options": {
+        "A": "Uttar Pradesh",
+        "B": "Himachal Pradesh",
+        "C": "Uttarakhand",
+        "D": "Kashmir"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_010",
+      "exam_session": "November 2023",
+      "question_number": 10,
+      "question_text": "Which is the martial art form of Manipur among the following?",
+      "options": {
+        "A": "Chhau",
+        "B": "Thang Ta",
+        "C": "Pung Cholam",
+        "D": "Kalaripayattu"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_006",
+      "exam_session": "December 2024",
+      "question_number": 6,
+      "question_text": "Which among the following is a name of ‘Raas’ mentioned in Mahabharata?",
+      "options": {
+        "A": "Hallisaka",
+        "B": "Chhalikya",
+        "C": "Lasya",
+        "D": "Batu"
+      },
+      "correct_answer": "A",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_007",
+      "exam_session": "December 2024",
+      "question_number": 7,
+      "question_text": "What was the name of Jatayu’s elder brother from the context of Ramayana?",
+      "options": {
+        "A": "Bali",
+        "B": "Sugreeva",
+        "C": "Sampati",
+        "D": "Jaambavant"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_008",
+      "exam_session": "December 2024",
+      "question_number": 8,
+      "question_text": "‘Chitrasutra’ is mentioned in which Purana?",
+      "options": {
+        "A": "Garuda Purana",
+        "B": "Harivamsha Purana",
+        "C": "Vishnudharmottar Purana",
+        "D": "Brahmavaivarta Purana"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_009",
+      "exam_session": "December 2024",
+      "question_number": 9,
+      "question_text": "Saint ‘Andal’ of Bhakti Movement belongs to which State of India?",
+      "options": {
+        "A": "Gujarat",
+        "B": "Tamil Nadu",
+        "C": "Telangana",
+        "D": "Odisha"
+      },
+      "correct_answer": "B",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_010",
+      "exam_session": "December 2024",
+      "question_number": 10,
+      "question_text": "‘Mahagami Gurukul Center for Performing Arts’ is situated in which city?",
+      "options": {
+        "A": "Mumbai",
+        "B": "Wardha",
+        "C": "Aurangabad",
+        "D": "Patna"
+      },
+      "correct_answer": "C",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_006",
+      "exam_session": "November 2025",
+      "question_number": 6,
+      "question_text": "Who is associated with Brecht?",
+      "options": {
+        "A": "Rebecca Schneider",
+        "B": "Peter Brook",
+        "C": "Caspar Neher",
+        "D": "Eugène Scribe"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2531.pdf",
+      "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV25_007",
+      "exam_session": "November 2025",
+      "question_number": 7,
+      "question_text": "Who wrote the play ‘Kaal Kothri’?",
+      "options": {
+        "A": "Tripurari Sharma",
+        "B": "Bhishm Sahani",
+        "C": "Swadesh Deepak",
+        "D": "Rajiv Naik"
+      },
+      "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
