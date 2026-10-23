@@ -3,7 +3,7 @@
   "subject_id": "performing_art_dance_drama_theatre",
   "subject_code": "31",
   "name_en": "Performing Art - Dance/Drama/Theatre",
-  "medium": "English",
+  "medium": "English & Gujarati",
   "paper_pattern": {
     "questions": 100,
     "marks": 200,
@@ -18,13 +18,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2331.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2331.pdf",
-      "questions_loaded": 94,
+      "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": true,
-      "questions_count": 94,
-      "source_verified": true,
-      "status": "partial_import_review_required"
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "imported_review_flags_pending_manual_visual_verification",
+      "review_note": "All 100 numbered records are present and matched to the official Final Answer Key table. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -34,13 +35,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2431.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2431.pdf",
-      "questions_loaded": 10,
+      "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": true,
-      "questions_count": 10,
-      "source_verified": true,
-      "status": "partial_import_review_required"
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "imported_review_flags_pending_manual_visual_verification",
+      "review_note": "Q57 is present exactly once and matches the provided transcription; official final key answer D. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -50,13 +52,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2531.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2531.pdf",
-      "questions_loaded": 7,
+      "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Official GSET question paper and final answer key PDFs supplied for transcription",
-      "question_source_verified": true,
-      "questions_count": 7,
-      "source_verified": true,
-      "status": "partial_import_review_required"
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "imported_review_flags_pending_manual_visual_verification",
+      "review_note": "All 100 numbered records are present and matched to the official Final Answer Key table. OCR-transcribed question wording/options have not all been individually verified against original PDF page images; matching-list questions remain flagged in questions.json."
     }
   ]
 }
