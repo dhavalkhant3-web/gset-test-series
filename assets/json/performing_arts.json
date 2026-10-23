@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 84,
+  "total_questions": 96,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1328,6 +1328,210 @@
         "D": "Both (A) and (B) are false"
       },
       "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_070",
+      "exam_session": "November 2023",
+      "question_number": 70,
+      "question_text": "Statement (A): NEP 2020 has been a milestone in bridging the divide between curricular and co-curricular subjects, under which dance and other arts had been marginalised in the education system. Statement (B): NEP 2020 stands for New Education Policy 2020. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_071",
+      "exam_session": "November 2023",
+      "question_number": 71,
+      "question_text": "According to the passage, who wants to learn the art of dance?",
+      "options": {
+        "A": "Markandeya",
+        "B": "Rishi",
+        "C": "Vishnu",
+        "D": "Vajra"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_072",
+      "exam_session": "November 2023",
+      "question_number": 72,
+      "question_text": "Vishnudharmottara Purana mentions the theory of",
+      "options": {
+        "A": "Interrelationship of the arts",
+        "B": "Indian aesthetics",
+        "C": "Learning of dance",
+        "D": "Learning of tala"
+      },
+      "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_073",
+      "exam_session": "November 2023",
+      "question_number": 73,
+      "question_text": "Which concept is fundamental to all Indian arts?",
+      "options": {
+        "A": "Absurdity",
+        "B": "Dissociation",
+        "C": "Zen aesthetics",
+        "D": "Tala"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_074",
+      "exam_session": "November 2023",
+      "question_number": 74,
+      "question_text": "According to Markandeya, King Vajra should learn tala before learning",
+      "options": {
+        "A": "Dance",
+        "B": "Icon-making",
+        "C": "Music",
+        "D": "Painting"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_075",
+      "exam_session": "November 2023",
+      "question_number": 75,
+      "question_text": "What should be learnt before learning the art of icon-making?",
+      "options": {
+        "A": "Tala",
+        "B": "Music",
+        "C": "Dance",
+        "D": "Icon-making"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_076",
+      "exam_session": "November 2023",
+      "question_number": 76,
+      "question_text": "The improvised Greek folk theatre performance without masks is called",
+      "options": {
+        "A": "Muff",
+        "B": "Mimus",
+        "C": "Libretto",
+        "D": "Oleo"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_077",
+      "exam_session": "November 2023",
+      "question_number": 77,
+      "question_text": "Which organization was established by Jaswant Thakar and Dina Pathak in Gujarat?",
+      "options": {
+        "A": "Natmandap",
+        "B": "Natmandal",
+        "C": "Nartaki",
+        "D": "Nagina"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_078",
+      "exam_session": "November 2023",
+      "question_number": 78,
+      "question_text": "What is the technique in which the performer evokes a personal memory of an emotion similar to the emotion that a character feels?",
+      "options": {
+        "A": "Empathy",
+        "B": "Intellectual Memory",
+        "C": "Emphasis",
+        "D": "Emotional Memory"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_079",
+      "exam_session": "November 2023",
+      "question_number": 79,
+      "question_text": "What is the term used for a group in the audience who applaud to give the impression of great enthusiasm for the performance?",
+      "options": {
+        "A": "Cleat",
+        "B": "Click",
+        "C": "Claque",
+        "D": "Chorus"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_080",
+      "exam_session": "November 2023",
+      "question_number": 80,
+      "question_text": "What is mise-en-scène according to Antonin Artaud?",
+      "options": {
+        "A": "Magical beauty of costumes taken from certain ritual models",
+        "B": "Dazzling lighting effects",
+        "C": "Departure of all theatrical creation, that the ideal language of the theatre will evolve",
+        "D": "Rhythm of movements familiar to everyone"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_081",
+      "exam_session": "November 2023",
+      "question_number": 81,
+      "question_text": "Who said, “return to theatre to an idea of the physical understanding of images and the means of inducing traces, as in Chinese medicine”?",
+      "options": {
+        "A": "Jerzy Grotowski",
+        "B": "Antonin Artaud",
+        "C": "Yvan Goll",
+        "D": "Alfred Jarry"
+      },
+      "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
