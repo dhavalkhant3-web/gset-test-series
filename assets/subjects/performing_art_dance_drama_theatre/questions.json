@@ -2614,13 +2614,13 @@
       "a-iii, b-ii, c-i, d-iv",
       "a-iv, b-ii, c-iii, d-i",
       "a-ii, b-iii, c-iv, d-i",
-      "a-iii, b-ii, c-iv, d-i"
+      "a-iii, b-iv, c-ii, d-i"
     ],
     "options_gu": [
       "a-iii, b-ii, c-i, d-iv",
       "a-iv, b-ii, c-iii, d-i",
       "a-ii, b-iii, c-iv, d-i",
-      "a-iii, b-ii, c-iv, d-i"
+      "a-iii, b-iv, c-ii, d-i"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -2656,13 +2656,13 @@
       "a-i, b-ii, c-iii, d-iv",
       "a-iv, b-iii, c-i, d-ii",
       "a-iii, b-iv, c-ii, d-i",
-      "a-ii, b-i, c-iv, d-iii"
+      "a-ii, b-iii, c-iv, d-i"
     ],
     "options_gu": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iv, b-iii, c-i, d-ii",
       "a-iii, b-iv, c-ii, d-i",
-      "a-ii, b-i, c-iv, d-iii"
+      "a-ii, b-iii, c-iv, d-i"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -2696,14 +2696,14 @@
     "question_gu": "Match List I with List II: (a) Raja-Rani Music Festival; (b) Uday Shankar Dance Festival; (c) Ellora-Ajanta Dance Festival; (d) Modhera Dance Festival. List II: (i) Kolkata; (ii) Mehsana; (iii) Bhubaneshwar; (iv) Aurangabad.",
     "options_en": [
       "a-iii, b-i, c-iv, d-ii",
-      "a-iii, b-i, c-ii, d-iv",
-      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
       "a-iv, b-ii, c-iii, d-i"
     ],
     "options_gu": [
       "a-iii, b-i, c-iv, d-ii",
-      "a-iii, b-i, c-ii, d-iv",
-      "a-iv, b-ii, c-i, d-iii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-i, d-ii",
       "a-iv, b-ii, c-iii, d-i"
     ],
     "answer": "A",
@@ -2737,16 +2737,16 @@
     "question_en": "Match List I with List II: (a) Anna Pavlova; (b) Ted Shawn; (c) Uday Shankar Dance Company; (d) Maya Rao. List II: (i) Radha Krishna; (ii) Natya Institute of Choreography; (iii) Denishawn; (iv) The Dying Swan.",
     "question_gu": "Match List I with List II: (a) Anna Pavlova; (b) Ted Shawn; (c) Uday Shankar Dance Company; (d) Maya Rao. List II: (i) Radha Krishna; (ii) Natya Institute of Choreography; (iii) Denishawn; (iv) The Dying Swan.",
     "options_en": [
-      "a-i, b-iii, c-ii, d-iv",
       "a-ii, b-iv, c-iii, d-i",
-      "a-iv, b-ii, c-iii, d-i",
-      "a-iv, b-ii, c-i, d-iii"
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
     ],
     "options_gu": [
-      "a-i, b-iii, c-ii, d-iv",
       "a-ii, b-iv, c-iii, d-i",
-      "a-iv, b-ii, c-iii, d-i",
-      "a-iv, b-ii, c-i, d-iii"
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i",
+      "a-iv, b-iii, c-i, d-ii"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -7945,15 +7945,15 @@
     "question_en": "Match List I with List II. List I: A. Mahesh Elkunchwar; B. Satish Alekar; C. Ratnakar Matkari; D. Jaywant Dalvi. List II: (I) Lok Katha; (II) Atma Katha; (III) Barrister; (IV) Mahanirvan. Choose the correct answer.",
     "question_gu": "Match List I with List II. List I: A. Mahesh Elkunchwar; B. Satish Alekar; C. Ratnakar Matkari; D. Jaywant Dalvi. List II: (I) Lok Katha; (II) Atma Katha; (III) Barrister; (IV) Mahanirvan. Choose the correct answer.",
     "options_en": [
-      "A(IV), B(III), C(I), D(II)",
+      "A(IV), B(II), C(III), D(I)",
       "A(II), B(IV), C(I), D(III)",
-      "A(III), B(IV), C(II), D(I)",
+      "A(III), B(IV), C(I), D(II)",
       "A(IV), B(I), C(II), D(III)"
     ],
     "options_gu": [
-      "A(IV), B(III), C(I), D(II)",
+      "A(IV), B(II), C(III), D(I)",
       "A(II), B(IV), C(I), D(III)",
-      "A(III), B(IV), C(II), D(I)",
+      "A(III), B(IV), C(I), D(II)",
       "A(IV), B(I), C(II), D(III)"
     ],
     "answer": "B",
