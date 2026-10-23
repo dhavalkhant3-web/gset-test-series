@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 104,
+  "total_questions": 111,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -1668,6 +1668,125 @@
         "D": "(A) is false and (B) is true"
       },
       "correct_answer": "A",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_094",
+      "exam_session": "November 2023",
+      "question_number": 94,
+      "question_text": "Statement (A): Plausibility/logical approach is an objective of stage lighting followed by most lighting designers around the world. Statement (B): Without a plausible effect/logical approach, designing lighting on stage is not possible. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "C",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_095",
+      "exam_session": "November 2023",
+      "question_number": 95,
+      "question_text": "Statement (A): All the works of scenography across the world are non-representational. Statement (B): Indian scenography has always remained presentational. Choose the correct answer.",
+      "options": {
+        "A": "Both (A) and (B) are true",
+        "B": "Both (A) and (B) are false",
+        "C": "(A) is true and (B) is false",
+        "D": "(A) is false and (B) is true"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_096",
+      "exam_session": "November 2023",
+      "question_number": 96,
+      "question_text": "According to the passage, which ray of light makes an object visible to our eyes?",
+      "options": {
+        "A": "Incident ray",
+        "B": "Reflected ray",
+        "C": "Transmitted ray",
+        "D": "Perceiving ray"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_097",
+      "exam_session": "November 2023",
+      "question_number": 97,
+      "question_text": "When all colour hues are dissociated by the object except its original hue, we perceive the object in its real colour. This dissociation of colours is called",
+      "options": {
+        "A": "Additive Colour Scheme",
+        "B": "Narrative Colour Scheme",
+        "C": "Deductive Colour Scheme",
+        "D": "Subtractive Colour Scheme"
+      },
+      "correct_answer": "D",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_098",
+      "exam_session": "November 2023",
+      "question_number": 98,
+      "question_text": "In the subtractive colour scheme, black is created by",
+      "options": {
+        "A": "Mixing Red and Blue",
+        "B": "Mixing Red, Blue and Yellow",
+        "C": "Mixing Red, Blue and Green",
+        "D": "Black is a pure colour"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_099",
+      "exam_session": "November 2023",
+      "question_number": 99,
+      "question_text": "The colours used in day-to-day life in the form of dye, paint and natural pigments are the subtractions of which colour scheme?",
+      "options": {
+        "A": "RGB (Red, Green, Blue) Colour Scheme",
+        "B": "RYB (Red, Yellow, Blue) Colour Scheme",
+        "C": "OBV (Orange, Blue, Violet) Colour Scheme",
+        "D": "RYG (Red, Yellow, Green) Colour Scheme"
+      },
+      "correct_answer": "B",
+      "source_paper": "nov2331.pdf",
+      "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_NOV23_100",
+      "exam_session": "November 2023",
+      "question_number": 100,
+      "question_text": "Blue-Green colour is a",
+      "options": {
+        "A": "Primary colour",
+        "B": "Secondary colour",
+        "C": "Tertiary colour",
+        "D": "Additive colour"
+      },
+      "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": true,
