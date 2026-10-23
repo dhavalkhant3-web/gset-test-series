@@ -24,8 +24,8 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_matched_visual_review_required",
-      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+      "status": "visually_reviewed_with_specific_transcription_flags",
+      "review_note": "99 questions visually verified; 1 low-resolution item(s) remain flagged. All 100 stored answers match the official final key."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -41,8 +41,8 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_matched_visual_review_required",
-      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+      "status": "visually_reviewed_with_specific_transcription_flags",
+      "review_note": "99 questions visually verified; 1 low-resolution item(s) remain flagged. All 100 stored answers match the official final key."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -58,8 +58,8 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_matched_visual_review_required",
-      "review_note": "All 100 numbered questions were imported for this session, and all stored answers match the official final answer key. OCR-transcribed stems/options have not all been visually checked against original page images; per-question review_flag remains true until that review is done."
+      "status": "visually_reviewed_with_specific_transcription_flags",
+      "review_note": "93 questions visually verified; 7 low-resolution item(s) remain flagged. All 100 stored answers match the official final key."
     }
   ]
 }
