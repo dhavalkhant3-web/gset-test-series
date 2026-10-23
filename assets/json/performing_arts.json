@@ -3,7 +3,7 @@
   "subject_code": "31",
   "subject_name": "Performing Arts",
   "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
-  "total_questions": 299,
+  "total_questions": 300,
   "expected_questions": 300,
   "sessions_included": [
     "November 2023",
@@ -964,6 +964,23 @@
         "B": "Chandalika",
         "C": "Shyama",
         "D": "Nagarpal"
+      },
+      "correct_answer": "D",
+      "source_paper": "dec2431.pdf",
+      "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
+      "source_verified": true,
+      "review_flag": false
+    },
+    {
+      "id": "GSET_31_DEC24_057",
+      "exam_session": "December 2024",
+      "question_number": 57,
+      "question_text": "‘Sangeet Natak Akademi’ has organized which ‘music, dance and drama’ festivals for the young artists in ‘Amrit Kaal’ all over India?",
+      "options": {
+        "A": "Kala Utsav",
+        "B": "Kala Ghoda Utsav",
+        "C": "Kala Sadhana Utsava",
+        "D": "Kalotsava"
       },
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
