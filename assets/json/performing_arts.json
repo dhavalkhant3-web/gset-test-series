@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_code": "31",
   "subject_name": "Performing Arts",
-  "source_policy": "Only official GSET question papers and official final answer keys. This is a partial import; do not treat the subject as complete.",
+  "source_policy": "Only official GSET question papers and official final answer keys. Independent question-stem/options review is incomplete; every question remains review-flagged until checked against the original scan.",
   "total_questions": 300,
   "expected_questions": 300,
   "sessions_included": [
@@ -10,7 +10,7 @@
     "December 2024",
     "November 2025"
   ],
-  "status": "official_key_reconciled_visual_reviewed_questions_cleared_from_review",
+  "status": "official_key_reconciled_question_text_audit_pending",
   "questions": [
     {
       "id": "GSET_31_DEC24_001",
@@ -26,8 +26,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_002",
@@ -43,8 +44,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_003",
@@ -60,8 +62,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_004",
@@ -77,8 +80,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_005",
@@ -94,8 +98,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_006",
@@ -111,8 +116,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_007",
@@ -128,8 +134,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_008",
@@ -145,8 +152,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_009",
@@ -162,8 +170,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_010",
@@ -179,8 +188,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_011",
@@ -196,8 +206,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_012",
@@ -213,8 +224,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_013",
@@ -230,8 +242,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_014",
@@ -247,8 +260,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_015",
@@ -264,8 +278,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_016",
@@ -281,8 +296,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_017",
@@ -298,8 +314,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_018",
@@ -315,8 +332,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_019",
@@ -332,8 +350,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_020",
@@ -349,8 +368,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_021",
@@ -366,8 +386,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_022",
@@ -383,8 +404,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_023",
@@ -400,8 +422,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_024",
@@ -417,8 +440,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_025",
@@ -434,8 +458,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_026",
@@ -451,8 +476,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_027",
@@ -468,8 +494,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_028",
@@ -485,8 +512,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_029",
@@ -502,8 +530,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_030",
@@ -519,8 +548,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_031",
@@ -536,8 +566,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_032",
@@ -553,8 +584,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_033",
@@ -570,8 +602,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_034",
@@ -587,8 +620,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_035",
@@ -604,8 +638,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_036",
@@ -621,8 +656,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_037",
@@ -638,8 +674,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_038",
@@ -655,8 +692,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_039",
@@ -672,8 +710,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_040",
@@ -689,8 +728,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_041",
@@ -706,8 +746,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_042",
@@ -723,8 +764,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_043",
@@ -740,8 +782,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_044",
@@ -757,8 +800,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_045",
@@ -774,8 +818,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_046",
@@ -791,8 +836,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_047",
@@ -808,8 +854,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_048",
@@ -825,8 +872,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_049",
@@ -842,8 +890,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_050",
@@ -859,8 +908,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_051",
@@ -876,8 +926,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_052",
@@ -893,8 +944,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_053",
@@ -910,8 +962,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_054",
@@ -927,8 +980,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_055",
@@ -944,8 +998,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_056",
@@ -961,8 +1016,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_057",
@@ -978,9 +1034,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false,
-      "review_note": "Question and four options transcribed from the user-provided scan; answer matched to the official final answer key."
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_058",
@@ -996,8 +1052,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_059",
@@ -1013,8 +1070,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_060",
@@ -1030,8 +1088,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_061",
@@ -1047,8 +1106,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_062",
@@ -1064,8 +1124,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_063",
@@ -1081,8 +1142,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_064",
@@ -1098,8 +1160,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_065",
@@ -1115,8 +1178,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_066",
@@ -1132,8 +1196,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_067",
@@ -1149,8 +1214,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_068",
@@ -1166,8 +1232,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_069",
@@ -1183,8 +1250,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_070",
@@ -1200,8 +1268,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_071",
@@ -1217,8 +1286,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_072",
@@ -1234,8 +1304,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_073",
@@ -1251,8 +1322,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_074",
@@ -1268,8 +1340,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_075",
@@ -1285,8 +1358,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_076",
@@ -1302,8 +1376,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_077",
@@ -1319,8 +1394,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_078",
@@ -1336,8 +1412,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_079",
@@ -1353,8 +1430,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_080",
@@ -1370,8 +1448,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_081",
@@ -1387,8 +1466,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_082",
@@ -1404,8 +1484,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_083",
@@ -1421,8 +1502,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_084",
@@ -1438,8 +1520,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_085",
@@ -1455,8 +1538,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_086",
@@ -1472,8 +1556,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_087",
@@ -1489,8 +1574,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_088",
@@ -1506,8 +1592,9 @@
       "correct_answer": "D",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_089",
@@ -1523,8 +1610,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_090",
@@ -1540,8 +1628,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_091",
@@ -1557,8 +1646,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_092",
@@ -1574,8 +1664,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_093",
@@ -1591,8 +1682,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_094",
@@ -1608,8 +1700,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_095",
@@ -1625,8 +1718,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_096",
@@ -1642,8 +1736,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_097",
@@ -1659,8 +1754,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_098",
@@ -1676,8 +1772,9 @@
       "correct_answer": "C",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_099",
@@ -1693,8 +1790,9 @@
       "correct_answer": "A",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_DEC24_100",
@@ -1710,8 +1808,9 @@
       "correct_answer": "B",
       "source_paper": "dec2431.pdf",
       "source_answer_key": "December 2024 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_001",
@@ -1727,8 +1826,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_002",
@@ -1744,8 +1844,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_003",
@@ -1761,8 +1862,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_004",
@@ -1778,8 +1880,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_005",
@@ -1795,8 +1898,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_006",
@@ -1812,8 +1916,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_007",
@@ -1829,8 +1934,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_008",
@@ -1846,8 +1952,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_009",
@@ -1863,8 +1970,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_010",
@@ -1880,8 +1988,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_011",
@@ -1897,8 +2006,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_012",
@@ -1914,8 +2024,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_013",
@@ -1931,8 +2042,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_014",
@@ -1948,8 +2060,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_015",
@@ -1965,8 +2078,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_016",
@@ -1982,8 +2096,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_017",
@@ -1999,8 +2114,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_018",
@@ -2016,8 +2132,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_019",
@@ -2033,8 +2150,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_020",
@@ -2050,8 +2168,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_021",
@@ -2067,8 +2186,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_022",
@@ -2084,8 +2204,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_023",
@@ -2101,8 +2222,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_024",
@@ -2118,8 +2240,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_025",
@@ -2135,8 +2258,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_026",
@@ -2152,8 +2276,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_027",
@@ -2169,8 +2294,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_028",
@@ -2186,8 +2312,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_029",
@@ -2203,8 +2330,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_030",
@@ -2220,8 +2348,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_031",
@@ -2237,8 +2366,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_032",
@@ -2254,8 +2384,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_033",
@@ -2271,8 +2402,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_034",
@@ -2288,8 +2420,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_035",
@@ -2305,8 +2438,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_036",
@@ -2322,8 +2456,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_037",
@@ -2339,8 +2474,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_038",
@@ -2356,8 +2492,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_039",
@@ -2373,8 +2510,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_040",
@@ -2390,8 +2528,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_041",
@@ -2407,8 +2546,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_042",
@@ -2424,8 +2564,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_043",
@@ -2441,8 +2582,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_044",
@@ -2458,8 +2600,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_045",
@@ -2475,8 +2618,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_046",
@@ -2492,8 +2636,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_047",
@@ -2509,8 +2654,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_048",
@@ -2526,8 +2672,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_049",
@@ -2543,8 +2690,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_050",
@@ -2560,8 +2708,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_051",
@@ -2577,8 +2726,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_052",
@@ -2594,8 +2744,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_053",
@@ -2611,8 +2762,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_054",
@@ -2628,8 +2780,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_055",
@@ -2645,8 +2798,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_056",
@@ -2662,8 +2816,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_057",
@@ -2679,8 +2834,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_058",
@@ -2696,8 +2852,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_059",
@@ -2713,8 +2870,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_060",
@@ -2730,8 +2888,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_061",
@@ -2747,8 +2906,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_062",
@@ -2764,8 +2924,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_063",
@@ -2781,8 +2942,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_064",
@@ -2798,8 +2960,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_065",
@@ -2815,8 +2978,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_066",
@@ -2832,8 +2996,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_067",
@@ -2849,8 +3014,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_068",
@@ -2866,8 +3032,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_069",
@@ -2883,8 +3050,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_070",
@@ -2900,8 +3068,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_071",
@@ -2917,8 +3086,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_072",
@@ -2934,8 +3104,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_073",
@@ -2951,8 +3122,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_074",
@@ -2968,8 +3140,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_075",
@@ -2985,8 +3158,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_076",
@@ -3002,8 +3176,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_077",
@@ -3019,8 +3194,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_078",
@@ -3036,8 +3212,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_079",
@@ -3053,8 +3230,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_080",
@@ -3070,8 +3248,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_081",
@@ -3087,8 +3266,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_082",
@@ -3104,8 +3284,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_083",
@@ -3121,8 +3302,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_084",
@@ -3138,8 +3320,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_085",
@@ -3155,8 +3338,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_086",
@@ -3172,8 +3356,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_087",
@@ -3189,8 +3374,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_088",
@@ -3206,8 +3392,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_089",
@@ -3223,8 +3410,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_090",
@@ -3240,8 +3428,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_091",
@@ -3257,8 +3446,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_092",
@@ -3274,8 +3464,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_093",
@@ -3291,8 +3482,9 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_094",
@@ -3308,8 +3500,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_095",
@@ -3325,8 +3518,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_096",
@@ -3342,8 +3536,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_097",
@@ -3359,8 +3554,9 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_098",
@@ -3376,8 +3572,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_099",
@@ -3393,8 +3590,9 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV23_100",
@@ -3410,8 +3608,9 @@
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_001",
@@ -3427,8 +3626,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_002",
@@ -3444,8 +3644,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_003",
@@ -3461,8 +3662,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_004",
@@ -3478,8 +3680,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_005",
@@ -3495,8 +3698,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_006",
@@ -3512,8 +3716,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_007",
@@ -3529,8 +3734,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_008",
@@ -3546,8 +3752,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_009",
@@ -3563,8 +3770,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_010",
@@ -3580,8 +3788,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_011",
@@ -3597,8 +3806,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_012",
@@ -3614,8 +3824,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_013",
@@ -3631,8 +3842,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_014",
@@ -3648,8 +3860,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_015",
@@ -3665,8 +3878,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_016",
@@ -3682,8 +3896,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_017",
@@ -3699,8 +3914,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_018",
@@ -3716,8 +3932,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_019",
@@ -3733,8 +3950,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_020",
@@ -3750,8 +3968,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_021",
@@ -3767,8 +3986,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_022",
@@ -3784,8 +4004,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_023",
@@ -3801,8 +4022,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_024",
@@ -3818,8 +4040,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_025",
@@ -3835,8 +4058,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_026",
@@ -3852,8 +4076,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_027",
@@ -3869,8 +4094,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_028",
@@ -3886,8 +4112,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_029",
@@ -3903,8 +4130,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_030",
@@ -3920,8 +4148,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_031",
@@ -3937,8 +4166,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_032",
@@ -3954,8 +4184,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_033",
@@ -3971,8 +4202,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_034",
@@ -3988,8 +4220,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_035",
@@ -4005,8 +4238,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_036",
@@ -4022,8 +4256,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_037",
@@ -4039,8 +4274,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_038",
@@ -4056,8 +4292,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_039",
@@ -4073,8 +4310,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_040",
@@ -4090,8 +4328,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_041",
@@ -4107,8 +4346,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_042",
@@ -4124,8 +4364,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_043",
@@ -4141,8 +4382,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_044",
@@ -4158,8 +4400,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_045",
@@ -4175,8 +4418,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_046",
@@ -4192,8 +4436,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_047",
@@ -4209,8 +4454,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_048",
@@ -4226,8 +4472,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_049",
@@ -4243,8 +4490,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_050",
@@ -4260,8 +4508,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_051",
@@ -4277,8 +4526,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_052",
@@ -4294,8 +4544,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_053",
@@ -4311,8 +4562,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_054",
@@ -4328,8 +4580,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_055",
@@ -4345,8 +4598,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_056",
@@ -4362,8 +4616,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_057",
@@ -4379,8 +4634,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_058",
@@ -4396,8 +4652,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_059",
@@ -4413,8 +4670,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_060",
@@ -4430,8 +4688,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_061",
@@ -4447,8 +4706,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_062",
@@ -4464,8 +4724,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_063",
@@ -4481,8 +4742,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_064",
@@ -4498,8 +4760,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_065",
@@ -4515,8 +4778,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_066",
@@ -4532,8 +4796,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_067",
@@ -4549,8 +4814,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_068",
@@ -4566,8 +4832,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_069",
@@ -4583,8 +4850,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_070",
@@ -4600,8 +4868,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_071",
@@ -4617,8 +4886,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_072",
@@ -4634,8 +4904,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_073",
@@ -4651,8 +4922,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_074",
@@ -4668,8 +4940,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_075",
@@ -4685,8 +4958,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_076",
@@ -4702,8 +4976,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_077",
@@ -4719,8 +4994,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_078",
@@ -4736,8 +5012,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_079",
@@ -4753,8 +5030,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_080",
@@ -4770,8 +5048,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_081",
@@ -4787,8 +5066,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_082",
@@ -4804,8 +5084,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_083",
@@ -4821,8 +5102,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_084",
@@ -4838,8 +5120,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_085",
@@ -4855,8 +5138,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_086",
@@ -4872,8 +5156,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_087",
@@ -4889,8 +5174,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_088",
@@ -4906,8 +5192,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_089",
@@ -4923,8 +5210,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_090",
@@ -4940,8 +5228,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_091",
@@ -4957,8 +5246,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_092",
@@ -4974,8 +5264,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_093",
@@ -4991,8 +5282,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_094",
@@ -5008,8 +5300,9 @@
       "correct_answer": "B",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_095",
@@ -5025,8 +5318,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_096",
@@ -5042,8 +5336,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_097",
@@ -5059,8 +5354,9 @@
       "correct_answer": "C",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_098",
@@ -5076,8 +5372,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_099",
@@ -5093,8 +5390,9 @@
       "correct_answer": "D",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     },
     {
       "id": "GSET_31_NOV25_100",
@@ -5110,8 +5408,9 @@
       "correct_answer": "A",
       "source_paper": "nov2531.pdf",
       "source_answer_key": "November 2025 official Final Answer Key, Performing Arts (31)",
-      "source_verified": true,
-      "review_flag": false
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
     }
   ]
 }
