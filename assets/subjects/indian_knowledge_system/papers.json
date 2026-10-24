@@ -55,12 +55,12 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "source_review_pending_four_visual_items",
-      "review_note": "96/100 questions currently source-verified. Q33/Q34: official PDF text extraction prints “khyughr/श्रुयु”, differing from the previous bank transcription; the candidate text is updated but exact Devanagari glyphs need visual confirmation. Q48: vowel-length mark differs between PDF text extraction and stored option. Q75: PDF text extraction conflicts with stored Devanagari options. Keep all four flagged until rendered-page inspection. All 100 stored answers match the official final key.",
-      "review_count": 4
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the official GSET November 2025 question-paper scan; Q33/Q34 Devanagari phrase confirmed as ख्युयु, Q48 option A diacritic confirmed, and Q75 options confirmed as क / छ / स / य. All 100 stored answers match the official Final Answer Key.",
+      "review_count": 0
     }
   ]
 }
