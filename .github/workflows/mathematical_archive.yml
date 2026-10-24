@@ -3,7 +3,7 @@ name: Mathematical Sciences Archive
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, fix/math-audit-gates-and-renderer]
     paths:
       - '.github/workflows/mathematical_archive.yml'
       - 'tool/import_mathematical_archive.py'
@@ -138,6 +138,8 @@ jobs:
           for pid,n in expected.items(): print(f"{pid}: {counts.get(pid,0)}/{n}")
           print("Incomplete sessions remain pending official-source recovery; no questions or answers are fabricated.")
           PY
+      - name: Audit Mathematical Sciences archive and official answer-key alignment
+        run: python3 tool/audit_mathematical_archive.py
       - name: Persist Mathematical archive
         if: ${{ success() }}
         run: |

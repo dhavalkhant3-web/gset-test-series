@@ -279,6 +279,20 @@ def main():
                     blocks[q]=block
         print(pid, "extraction diagnostics:", {"layout_blocks":len(blocks_layout),"layout_mcq":sum(1 for b in blocks_layout.values() if len(options(b))==4),"raw_blocks":len(blocks_raw),"raw_mcq":sum(1 for b in blocks_raw.values() if len(options(b))==4),"merged_blocks":len(blocks),"merged_mcq":sum(1 for b in blocks.values() if len(options(b))==4)})
         keys=keymap(key,w/"key",expected,session=sess)
+        key_json_path=Path("assets/subjects/mathematical_sciences/answer_keys")/f"{sess}_paper2.json"
+        key_verified=False
+        try:
+            key_record=json.loads(key_json_path.read_text(encoding="utf-8"))
+            key_answers=key_record.get("answers",{})
+            key_verified=(
+                key_record.get("source_verified") is True
+                and len(key_answers)==expected
+                and set(key_answers)=={str(i) for i in range(1,expected+1)}
+                and all(value in {"A","B","C","D","Z"} for value in key_answers.values())
+                and keys=={int(number):value for number,value in key_answers.items()}
+            )
+        except (OSError,ValueError,TypeError):
+            key_verified=False
         loaded=0
         for q in range(1,expected+1):
             b=blocks.get(q); opts=options(b or "")
@@ -292,7 +306,9 @@ def main():
             if rid in old: continue
             existing.append({"id":rid,"paper_id":pid,"exam":exam,
               "question_en":first,"question_gu":first,"options_en":opts,"options_gu":opts,
-              "answer":keys[q],"topic":"Mathematical Sciences","difficulty":"Medium",
+              "answer":keys[q],"answer_key_verified":key_verified,
+              **({"answer_key_source":key_json_path.as_posix()} if key_verified else {}),
+              "topic":"Mathematical Sciences","difficulty":"Medium",
               "explanation_en":"Official GSET final answer key is authoritative.",
               "explanation_gu":"Official GSET final answer key is authoritative.",
               "review_flag":True,"review_note":"Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
@@ -304,7 +320,7 @@ def main():
           "answer_key_url":f"{BASE}/anskey/paperII/{archive_folder(sess)}/{stem}.pdf",
           "questions_loaded":sum(1 for x in existing if x.get("paper_id")==pid),
           "questions_count":sum(1 for x in existing if x.get("paper_id")==pid),
-          "answer_key_verified":len(keys)==expected,
+          "answer_key_verified":key_verified,
           "source":"GSET official uploaded question paper + final answer key",
           "source_verified":False,"question_source_verified":False,
           "status":"verified_complete_with_review" if sum(1 for x in existing if x.get("paper_id")==pid)==expected else "partial_pending_source"}
