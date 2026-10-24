@@ -98,10 +98,13 @@ def main():
             fail(str(qid) + ": paper ID mismatch")
         if not isinstance(q.get("question_en"), str) or not q["question_en"].strip():
             fail(str(qid) + ": missing English question text")
-        for field in ("options_en", "options_gu"):
-            options = q.get(field)
-            if not isinstance(options, list) or len(options) != 4 or any(not isinstance(v, str) or not v.strip() for v in options):
-                fail(str(qid) + ": " + field + " must contain four non-empty strings")
+        options_en = q.get("options_en")
+        if not isinstance(options_en, list) or len(options_en) != 4 or any(not isinstance(v, str) or not v.strip() for v in options_en):
+            fail(str(qid) + ": options_en must contain four non-empty strings")
+        options_gu = q.get("options_gu")
+        # Visual Art is an English-medium official paper: do not fabricate Gujarati translations.
+        if not isinstance(options_gu, list) or options_gu not in ([],) and (len(options_gu) != 4 or any(not isinstance(v, str) or not v.strip() for v in options_gu)):
+            fail(str(qid) + ": options_gu must be empty for English-only source or four non-empty source-transcribed strings")
         answer = q.get("official_answer", q.get("answer", ""))
         expected = EXPECTED_KEYS[session][number - 1]
         if answer != expected or q.get("answer") != expected:
