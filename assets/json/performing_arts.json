@@ -2876,16 +2876,25 @@
       "question_text": "Match List I with List II. List I: A. Vitarka; B. Vepathu; C. Daiviki; D. Tata. List II: (i) Siddhi; (ii) Vyabhichari Bhava; (iii) Atodya; (iv) Sattvika Bhava. Choose the correct answer.",
       "options": {
         "A": "A(iv), B(ii), C(i), D(iii)",
-        "B": "A(ii), B(iv), C(i), D(iii)",
-        "C": "A(ii), B(iv), C(iii), D(i)",
+        "B": "A(ii), B(iv), C(iii), D(i)",
+        "C": "A(ii), B(iv), C(i), D(iii)",
         "D": "A(iv), B(iii), C(ii), D(i)"
       },
       "correct_answer": "C",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "source_verified": true,
+      "review_flag": false,
+      "review_note": "",
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. વિતર્ક; B. વેપથુ; C. દૈવિકી; D. તત.\nસૂચિ – ૨: (i) સિદ્ધિ; (ii) વ્યાભિચારી ભાવ; (iii) આતોદ્ય; (iv) સાત્ત્વિક ભાવ.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [
+        "A(iv), B(ii), C(i), D(iii)",
+        "A(ii), B(iv), C(iii), D(i)",
+        "A(ii), B(iv), C(i), D(iii)",
+        "A(iv), B(iii), C(ii), D(i)"
+      ],
+      "source_page_number": 13,
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_042",
@@ -2901,9 +2910,18 @@
       "correct_answer": "A",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "source_verified": true,
+      "review_flag": false,
+      "review_note": "",
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. બાલીનું નૃત્ય નાટક; B. પરંપરાગત નાટ્ય સ્વરૂપો જે જાવા અને બાલીમાં પુતળી કલામાંથી ઉભર્યા હતા; C. બાલીના સમાધિષ્ઠ પ્રદર્શન; D. જાવા અને બાલીના મહોરા નૃત્ય.\nસૂચિ – ૨: (i) ટોપેંગ; (ii) સાંઘ્યાંગ; (iii) વયાંગ; (iv) ગમ્બુહ.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [
+        "A(iv), B(iii), C(ii), D(i)",
+        "A(i), B(iii), C(ii), D(iv)",
+        "A(ii), B(iv), C(iii), D(i)",
+        "A(iv), B(ii), C(i), D(iii)"
+      ],
+      "source_page_number": 13,
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_043",
