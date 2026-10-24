@@ -76,10 +76,13 @@ def main():
         for field in ("explanation_en", "explanation_gu", "tip_en", "tip_gu"):
             if not isinstance(q.get(field), str) or not q[field].strip():
                 fail(f"{qid}: missing bilingual explanation/tip field {field}")
-        for field in ("options_en", "options_gu"):
-            options = q.get(field)
-            if not isinstance(options, list) or len(options) != 4 or any(not isinstance(x, str) for x in options):
-                fail(f"{qid}: {field} must contain exactly four strings")
+        options_en = q.get("options_en")
+        if not isinstance(options_en, list) or len(options_en) != 4 or any(not isinstance(x, str) or not x.strip() for x in options_en):
+            fail(f"{qid}: options_en must contain exactly four non-empty strings")
+        options_gu = q.get("options_gu")
+        # Official subject medium is English; empty Gujarati options are correct and must not be auto-translated.
+        if not isinstance(options_gu, list) or (options_gu != [] and (len(options_gu) != 4 or any(not isinstance(x, str) or not x.strip() for x in options_gu))):
+            fail(f"{qid}: options_gu must be empty or four source-transcribed strings")
         answer = q.get("official_answer", q.get("answer", ""))
         if answer not in VALID_ANSWERS and not q.get("review_flag"):
             fail(f"{qid}: non-standard official answer must be review flagged")
