@@ -1013,7 +1013,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 25,
     "question_en": "Who explained the concept of Natyarasa on the analogy of Bhojya Rasa?",
-    "question_gu": "Who explained the concept of Natyarasa on the analogy of Bhojya Rasa?",
+    "question_gu": "ભોજ્ય રસના દૃષ્ટાંત દ્વારા નાટ્યરસની સંકલ્પના કોણે સમજાવી?",
     "options_en": [
       "Bhatta Nayaka",
       "Sri Sankuka",
@@ -1021,10 +1021,10 @@
       "Bharata"
     ],
     "options_gu": [
-      "Bhatta Nayaka",
-      "Sri Sankuka",
-      "Bhatta Lollata",
-      "Bharata"
+      "ભટ્ટ નાયક",
+      "શ્રી શંકુક",
+      "ભટ્ટ લોલ્લટ",
+      "ભરત"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1037,7 +1037,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1047,7 +1047,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_026",
@@ -1055,7 +1055,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 26,
     "question_en": "Sri Sankuka adds a new mode of cognition which he calls",
-    "question_gu": "Sri Sankuka adds a new mode of cognition which he calls",
+    "question_gu": "શ્રી શંકુકે જ્ઞાનની નવી પદ્ધતિ રજૂ કરી, જેને તેઓ શું કહે છે?",
     "options_en": [
       "Tadarupanusandhana",
       "Chitra-turang nyaya",
@@ -1063,10 +1063,10 @@
       "Samvittivada"
     ],
     "options_gu": [
-      "Tadarupanusandhana",
-      "Chitra-turang nyaya",
-      "Upchitivada",
-      "Samvittivada"
+      "તદરૂપાનુસંધાન",
+      "ચિત્ર-તુરંગ ન્યાય",
+      "ઉપચિતિવાદ",
+      "સંવિત્તિવાદ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1079,7 +1079,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1089,7 +1089,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_027",
@@ -1097,7 +1097,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 27,
     "question_en": "Who authored the book ‘Comparative Aesthetics – Indian and Western Aesthetics’?",
-    "question_gu": "Who authored the book ‘Comparative Aesthetics – Indian and Western Aesthetics’?",
+    "question_gu": "‘Comparative Aesthetics – Indian and Western Aesthetics’ પુસ્તકના લેખક કોણ છે?",
     "options_en": [
       "G. K. Bhat",
       "Kapila Vatsyayan",
@@ -1105,10 +1105,10 @@
       "M. L. Varadpande"
     ],
     "options_gu": [
-      "G. K. Bhat",
-      "Kapila Vatsyayan",
-      "Kanti Chandra Pandey",
-      "M. L. Varadpande"
+      "જી. કે. ભટ્ટ",
+      "કપિલા વાત્સ્યાયન",
+      "કાંતિચંદ્ર પાંડે",
+      "એમ. એલ. વરાડપાંડે"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1121,7 +1121,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1131,7 +1131,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_028",
@@ -1139,7 +1139,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 28,
     "question_en": "Which one of the following is NOT among the earliest known theories of Aesthetics?",
-    "question_gu": "Which one of the following is NOT among the earliest known theories of Aesthetics?",
+    "question_gu": "નીચેના પૈકી કયો સૌંદર્યશાસ્ત્રનો સૌથી પ્રાચીન જાણીતો સિદ્ધાંત નથી?",
     "options_en": [
       "Hedonistic",
       "Egoistic",
@@ -1147,10 +1147,10 @@
       "Mysticism"
     ],
     "options_gu": [
-      "Hedonistic",
-      "Egoistic",
-      "Pedagogic",
-      "Mysticism"
+      "સુખવાદી",
+      "અહંવાદી",
+      "શૈક્ષણિક",
+      "રહસ્યવાદ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1163,7 +1163,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Build a short chronology and compare the dates or periods in the options; avoid mixing the creator's period with the work's period.",
     "tip_gu": "પરીક્ષા ટીપ: ટૂંકી સમયરેખા બનાવો અને વિકલ્પોમાં આપેલી તારીખો અથવા સમયગાળાની સરખામણી કરો; સર્જકના સમયગાળાને કૃતિના સમયગાળા સાથે ગૂંચવશો નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1173,7 +1173,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_029",
@@ -1181,7 +1181,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 29,
     "question_en": "Plato deals with the problem of Aesthetics by attempting it from three angles of vision: Aesthetical, Ethical and",
-    "question_gu": "Plato deals with the problem of Aesthetics by attempting it from three angles of vision: Aesthetical, Ethical and",
+    "question_gu": "પ્લેટોએ સૌંદર્યશાસ્ત્રની સમસ્યાનો અભ્યાસ ત્રણ દૃષ્ટિકોણથી કર્યો: સૌંદર્યલક્ષી, નૈતિક અને…",
     "options_en": [
       "Metaphysical",
       "Metaphorical",
@@ -1189,10 +1189,10 @@
       "Astro-Physical"
     ],
     "options_gu": [
-      "Metaphysical",
-      "Metaphorical",
-      "Bio-Physical",
-      "Astro-Physical"
+      "તત્ત્વમીમાંસાત્મક",
+      "રૂપકાત્મક",
+      "જૈવ-ભૌતિક",
+      "ખગોળ-ભૌતિક"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1205,7 +1205,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1215,7 +1215,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_030",
@@ -1223,7 +1223,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 30,
     "question_en": "The actors in Beijing Opera, a Chinese dance-drama, use which in performance?",
-    "question_gu": "The actors in Beijing Opera, a Chinese dance-drama, use which in performance?",
+    "question_gu": "ચીનના નૃત્ય-નાટ્ય સ્વરૂપ બેઇજિંગ ઓપેરામાં કલાકારો પ્રદર્શન દરમિયાન શું વાપરે છે?",
     "options_en": [
       "Wooden masks",
       "Leather masks",
@@ -1231,10 +1231,10 @@
       "Simple makeup"
     ],
     "options_gu": [
-      "Wooden masks",
-      "Leather masks",
-      "Stylised makeup",
-      "Simple makeup"
+      "લાકડાના મુખવટા",
+      "ચામડાના મુખવટા",
+      "શૈલીબદ્ધ મેકઅપ",
+      "સાદો મેકઅપ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1247,7 +1247,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Build a short chronology and compare the dates or periods in the options; avoid mixing the creator's period with the work's period.",
     "tip_gu": "પરીક્ષા ટીપ: ટૂંકી સમયરેખા બનાવો અને વિકલ્પોમાં આપેલી તારીખો અથવા સમયગાળાની સરખામણી કરો; સર્જકના સમયગાળાને કૃતિના સમયગાળા સાથે ગૂંચવશો નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1257,7 +1257,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_031",
@@ -1265,7 +1265,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 31,
     "question_en": "Noh Theatre masks are made of",
-    "question_gu": "Noh Theatre masks are made of",
+    "question_gu": "નોહ રંગમંચના મુખવટા શામાંથી બનાવવામાં આવે છે?",
     "options_en": [
       "Paper Mache",
       "Wood",
@@ -1273,10 +1273,10 @@
       "Plaster of Paris"
     ],
     "options_gu": [
-      "Paper Mache",
-      "Wood",
-      "Leather",
-      "Plaster of Paris"
+      "કાગળના માવામાંથી",
+      "લાકડામાંથી",
+      "ચામડામાંથી",
+      "પ્લાસ્ટર ઑફ પેરિસમાંથી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1289,7 +1289,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1299,7 +1299,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_032",
@@ -1307,7 +1307,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 32,
     "question_en": "Who originally established Noh theatre as a classical theatre form of Japan?",
-    "question_gu": "Who originally established Noh theatre as a classical theatre form of Japan?",
+    "question_gu": "જાપાનના શાસ્ત્રીય રંગમંચ સ્વરૂપ તરીકે નોહ થિયેટરની સ્થાપના મૂળરૂપે કોણે કરી?",
     "options_en": [
       "Yoshimitsu",
       "Kan’ami",
@@ -1315,10 +1315,10 @@
       "Akutagawa"
     ],
     "options_gu": [
-      "Yoshimitsu",
-      "Kan’ami",
-      "Zeami",
-      "Akutagawa"
+      "યોશિમિત્સુ",
+      "કાનામી",
+      "ઝેઆમી",
+      "અકુતાગાવા"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1331,7 +1331,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1341,7 +1341,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_033",
@@ -1349,7 +1349,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 33,
     "question_en": "On the Kabuki stage, the long narrow path connecting the stage with the small room at the rear of the auditorium is called",
-    "question_gu": "On the Kabuki stage, the long narrow path connecting the stage with the small room at the rear of the auditorium is called",
+    "question_gu": "કાબુકી રંગમંચ પર મંચને પ્રેક્ષાગૃહના પાછળના નાના ઓરડા સાથે જોડતા લાંબા સાંકડા માર્ગને શું કહે છે?",
     "options_en": [
       "Gangway",
       "Flower way",
@@ -1357,10 +1357,10 @@
       "Hanamichi"
     ],
     "options_gu": [
-      "Gangway",
-      "Flower way",
-      "Hashigakari",
-      "Hanamichi"
+      "ગેંગવે",
+      "ફ્લાવર વે",
+      "હાશિગાકારી",
+      "હાનામિચી"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1373,7 +1373,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1383,7 +1383,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_034",
@@ -1391,7 +1391,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 34,
     "question_en": "Kabuki theatre performance is known for its",
-    "question_gu": "Kabuki theatre performance is known for its",
+    "question_gu": "કાબુકી રંગમંચનું પ્રદર્શન કઈ વિશેષતા માટે જાણીતું છે?",
     "options_en": [
       "Poetic renderings of the story",
       "Modern lighting design",
@@ -1399,10 +1399,10 @@
       "Ritualistic approach"
     ],
     "options_gu": [
-      "Poetic renderings of the story",
-      "Modern lighting design",
-      "Elaborate set design and stage gimmicks",
-      "Ritualistic approach"
+      "કથાની કાવ્યાત્મક રજૂઆત",
+      "આધુનિક પ્રકાશ વ્યવસ્થા",
+      "વિસ્તૃત મંચસજ્જા અને રંગમંચીય યુક્તિઓ",
+      "વિધિપ્રધાન અભિગમ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1415,7 +1415,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1425,7 +1425,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_035",
@@ -1433,7 +1433,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 35,
     "question_en": "Match List I with List II: a. Ajanta caves; b. Ellora; c. Bhimbetka; d. Udaigiri and Khandagiri caves. List II: i. Rock-cut caves built in the 2nd century BC; ii. Buddhist rock-cut architecture; iii. Rock paintings, evidence of human civilization during 8000 BC; iv. Great Kailash, largest monolithic structure in the world.",
-    "question_gu": "Match List I with List II: a. Ajanta caves; b. Ellora; c. Bhimbetka; d. Udaigiri and Khandagiri caves. List II: i. Rock-cut caves built in the 2nd century BC; ii. Buddhist rock-cut architecture; iii. Rock paintings, evidence of human civilization during 8000 BC; iv. Great Kailash, largest monolithic structure in the world.",
+    "question_gu": "યાદી-I ને યાદી-II સાથે જોડો: a. અજંતા ગુફાઓ; b. એલોરા; c. ભીમબેટકા; d. ઉદયગિરિ અને ખંડગિરિ ગુફાઓ. યાદી-II: i. ઈ.સ.પૂર્વે બીજી સદીમાં બનેલી શિલાકોતર ગુફાઓ; ii. બૌદ્ધ શિલાકોતર સ્થાપત્ય; iii. ઈ.સ.પૂર્વે 8000 દરમિયાનની માનવ સંસ્કૃતિના પુરાવા આપતાં શિલાચિત્રો; iv. વિશ્વની સૌથી મોટી એકશિલા રચના, મહાન કૈલાસ.",
     "options_en": [
       "a-iii, b-ii, c-i, d-iv",
       "a-iv, b-i, c-ii, d-iii",
@@ -1457,7 +1457,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Build a short chronology and compare the dates or periods in the options; avoid mixing the creator's period with the work's period.",
     "tip_gu": "પરીક્ષા ટીપ: ટૂંકી સમયરેખા બનાવો અને વિકલ્પોમાં આપેલી તારીખો અથવા સમયગાળાની સરખામણી કરો; સર્જકના સમયગાળાને કૃતિના સમયગાળા સાથે ગૂંચવશો નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1467,7 +1467,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_036",
@@ -1475,7 +1475,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 36,
     "question_en": "Match List I with List II: a. Pratyahara; b. Avatarana; c. Asravana; d. Parighattana. List II: i. Entry and seating of musicians; ii. The tuning of the musical instruments; iii. Placement of orchestra; iv. Adjustments of the strings of the instruments.",
-    "question_gu": "Match List I with List II: a. Pratyahara; b. Avatarana; c. Asravana; d. Parighattana. List II: i. Entry and seating of musicians; ii. The tuning of the musical instruments; iii. Placement of orchestra; iv. Adjustments of the strings of the instruments.",
+    "question_gu": "યાદી-I ને યાદી-II સાથે જોડો: a. પ્રત્યાહાર; b. અવતરણ; c. આશ્રવણ; d. પરિઘટ્ટના. યાદી-II: i. સંગીતકારોનું પ્રવેશવું અને બેસવું; ii. વાદ્યોને સૂરબદ્ધ કરવાં; iii. વાદ્યવૃંદની ગોઠવણી; iv. વાદ્યોના તારનું સમાયોજન.",
     "options_en": [
       "a-ii, b-iv, c-iii, d-i",
       "a-iv, b-iii, c-i, d-ii",
@@ -1499,7 +1499,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Separate the musical category from the instrument, performer, and style; match the option to the specific musical feature named in the question.",
     "tip_gu": "પરીક્ષા ટીપ: સંગીતની શ્રેણીને વાદ્ય, કલાકાર અને શૈલીથી અલગ કરો; પ્રશ્નમાં દર્શાવેલી ચોક્કસ સંગીતલક્ષી વિશેષતા સાથે વિકલ્પ મેળવો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1509,7 +1509,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_037",
