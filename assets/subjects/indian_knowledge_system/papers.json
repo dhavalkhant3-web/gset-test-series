@@ -55,11 +55,12 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": true,
+      "question_source_verified": false,
       "questions_count": 100,
-      "source_verified": true,
-      "status": "visually_verified",
-      "review_note": "All 100 questions are source-verified against the official question paper; all stored answers match the official Final Answer Key. Four previously flagged transliteration/Devanagari items (Q33, Q34, Q48, Q75) were confirmed or corrected from the original scan."
+      "source_verified": false,
+      "status": "source_verified_with_review_flags_pending_visual_confirmation",
+      "review_note": "98/100 questions currently source-verified. Q48 retains a pending vowel-length/diacritic visual check; Q75 retains a pending Devanagari-option visual check because PDF text extraction conflicts with the stored glyphs. Q33/Q34 were aligned to the exact official PDF transcription (“khyughr/श्रुयु”). All 100 stored answers match the official final key.",
+      "review_count": 2
     }
   ]
 }
