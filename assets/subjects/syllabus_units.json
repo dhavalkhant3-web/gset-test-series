@@ -7,15 +7,51 @@
       "name_en": "Physical Sciences",
       "official_pdf": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
       "units": [
-        {"id":"unit_1","number":1,"name":"Mathematical Methods of Physics"},
-        {"id":"unit_2","number":2,"name":"Classical Mechanics"},
-        {"id":"unit_3","number":3,"name":"Electromagnetic Theory"},
-        {"id":"unit_4","number":4,"name":"Quantum Mechanics"},
-        {"id":"unit_5","number":5,"name":"Thermodynamic and Statistical Physics"},
-        {"id":"unit_6","number":6,"name":"Electronics and Experimental Methods"},
-        {"id":"unit_7","number":7,"name":"Atomic and Molecular Physics"},
-        {"id":"unit_8","number":8,"name":"Condensed Matter Physics"},
-        {"id":"unit_9","number":9,"name":"Nuclear and Particle Physics"}
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Mathematical Methods of Physics"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Classical Mechanics"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Electromagnetic Theory"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Quantum Mechanics"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Thermodynamic and Statistical Physics"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Electronics and Experimental Methods"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Atomic and Molecular Physics"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Condensed Matter Physics"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Nuclear and Particle Physics"
+        }
       ]
     },
     "chemical_sciences": {
@@ -23,10 +59,26 @@
       "name_en": "Chemical Sciences",
       "official_pdf": "https://gujaratset.ac.in/assets/syllabus/03.pdf",
       "units": [
-        {"id":"unit_1","number":1,"name":"Inorganic Chemistry"},
-        {"id":"unit_2","number":2,"name":"Physical Chemistry"},
-        {"id":"unit_3","number":3,"name":"Organic Chemistry"},
-        {"id":"unit_4","number":4,"name":"Interdisciplinary Topics"}
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Inorganic Chemistry"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Physical Chemistry"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Organic Chemistry"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Interdisciplinary Topics"
+        }
       ]
     },
     "indian_knowledge_system": {
@@ -35,62 +87,215 @@
       "official_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
       "official_syllabus_code": "103",
       "units": [
-        {"id":"unit_1","number":1,"name":"Indian Philosophical Systems - part (a)"},
-        {"id":"unit_2","number":2,"name":"Indian Philosophical Systems - part (b)"},
-        {"id":"unit_3","number":3,"name":"Astronomy"},
-        {"id":"unit_4","number":4,"name":"Mathematics"},
-        {"id":"unit_5","number":5,"name":"Science and Technology"},
-        {"id":"unit_6","number":6,"name":"Health, Wellness and Yoga"}
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Indian Philosophical Systems - part (a)"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Indian Philosophical Systems - part (b)"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Astronomy"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Mathematics"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Science and Technology"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Health, Wellness and Yoga"
+        }
       ]
     },
     "performing_art_dance_drama_theatre": {
-      "code":"31",
-      "name_en":"Performing Art - Dance/Drama/Theatre",
-      "official_pdf":"https://gujaratset.ac.in/assets/syllabus/31.pdf",
-      "official_syllabus_code":"65",
-      "units":[
-        {"id":"unit_1","number":1,"name":"Cultural History of India"},
-        {"id":"unit_2","number":2,"name":"Folk and Traditional Theatre Forms of India"},
-        {"id":"unit_3","number":3,"name":"The Natyasastra"},
-        {"id":"unit_4","number":4,"name":"Art and Aesthetics"},
-        {"id":"unit_5","number":5,"name":"Dance and Theatre forms of East and South Asian Countries"},
-        {"id":"unit_6","number":6,"name":"Dance in Sanskrit Literature and Treatises"},
-        {"id":"unit_7","number":7,"name":"India Classical Dance"}
+      "code": "31",
+      "name_en": "Performing Art - Dance/Drama/Theatre",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/31.pdf",
+      "official_syllabus_code": "65",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Cultural History of India",
+          "notes": ""
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Folk and Traditional Theatre Forms of India",
+          "notes": ""
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "The Natyasastra",
+          "notes": ""
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Art and Aesthetics",
+          "notes": ""
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Dance and Theatre forms of East and South Asian Countries",
+          "notes": ""
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Dance in Sanskrit Literature and Treatises / Drama and its theories: Indian and Western",
+          "notes": "Unit 6 differs by stream: Dance=Dance in Sanskrit Literature and Treatises; Drama/Theatre=Drama and its theories: Indian and Western."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Indian Classical Dance",
+          "notes": ""
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Indian Classical Dance in Independent India",
+          "notes": ""
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Dance Education, Pedagogy and Research",
+          "notes": ""
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "International dance and interactions",
+          "notes": ""
+        }
       ]
     },
     "public_administration": {
-      "code":"32",
-      "name_en":"Public Administration",
-      "official_pdf":"https://gujaratset.ac.in/assets/syllabus/32.pdf",
-      "official_syllabus_code":"14",
-      "units":[
-        {"id":"unit_1","number":1,"name":"Introduction to Public Administration"},
-        {"id":"unit_2","number":2,"name":"Administrative Thought"},
-        {"id":"unit_3","number":3,"name":"Indian Administration"},
-        {"id":"unit_4","number":4,"name":"State and Local Administration"},
-        {"id":"unit_5","number":5,"name":"Comparative and Development Administration"},
-        {"id":"unit_6","number":6,"name":"Economic and Financial Administration"},
-        {"id":"unit_7","number":7,"name":"Social Welfare Administration"},
-        {"id":"unit_8","number":8,"name":"Public Policy"},
-        {"id":"unit_9","number":9,"name":"Research Methodology"}
+      "code": "32",
+      "name_en": "Public Administration",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+      "official_syllabus_code": "14",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Introduction to Public Administration"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Administrative Thought"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Indian Administration"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "State and Local Administration"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Comparative and Development Administration"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Economic and Financial Administration"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Social Welfare Administration"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Public Policy"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Research Methodology"
+        }
       ]
     },
     "visual_art": {
-      "code":"33",
-      "name_en":"Visual Art",
-      "official_pdf":"https://gujaratset.ac.in/assets/syllabus/33.pdf",
-      "official_syllabus_code":"79",
-      "units":[
-        {"id":"unit_1","number":1,"name":"Fundamentals of Visual Art"},
-        {"id":"unit_2","number":2,"name":"Forms of Visual Art and Inter-relationships"},
-        {"id":"unit_3","number":3,"name":"Traditional Media, Materials and Techniques"},
-        {"id":"unit_4","number":4,"name":"Modern Techniques and Contemporary Visual Practices"},
-        {"id":"unit_5","number":5,"name":"Indian and Western Aesthetics and Art Appreciation"},
-        {"id":"unit_6","number":6,"name":"Western Art History"},
-        {"id":"unit_7","number":7,"name":"Indian Art History to the 19th Century"},
-        {"id":"unit_8","number":8,"name":"Contemporary Indian Art and Visual Communication"},
-        {"id":"unit_9","number":9,"name":"Art of East, South-East and Central Asia and Ancient Near-East"},
-        {"id":"unit_10","number":10,"name":"Folk, Tribal and Craft Practices in India"}
+      "code": "33",
+      "name_en": "Visual Art",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/33.pdf",
+      "official_syllabus_code": "79",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Fundamentals of Visual Art"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Forms of Visual Art and Inter-relationships"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Traditional Media, Materials and Techniques"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Modern Techniques and Contemporary Visual Practices"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Indian and Western Aesthetics and Art Appreciation"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Western Art History"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Indian Art History to the 19th Century"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Contemporary Indian Art and Visual Communication"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Art of East, South-East and Central Asia and Ancient Near-East"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Folk, Tribal and Craft Practices in India"
+        }
       ]
     }
   }
