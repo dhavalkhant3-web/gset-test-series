@@ -24,10 +24,10 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_reconciled_source_audit_pending",
+      "status": "source_verified_subset_source_review_pending",
       "review_note": "The official source was visually checked for 94/100 questions. Six remain flagged: Q39 has an English/Gujarati matching-code discrepancy; Q96-Q100 have the full passage, stems and options transcribed from PDF pages 29-31, but inconsistent printed English/Gujarati colour terminology is unresolved. The remaining flagged records stay source-unverified. The source text for Q11 (page 4) and Q21 (page 6) was confirmed and all four Gujarati options were visible.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified.",
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 94,
       "review_flags_remaining_count": 6,
       "source_reviewed_question_ids": [
@@ -135,7 +135,11 @@
         "GSET_31_NOV23_098",
         "GSET_31_NOV23_099",
         "GSET_31_NOV23_100"
-      ]
+      ],
+      "review_count": 6,
+      "unit_mapping_provisional_count": 38,
+      "unit_mapping_pending_count": 62,
+      "unit_mapping_verified_count": 0
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -151,10 +155,10 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_reconciled_source_audit_pending",
+      "status": "source_verified_subset_source_review_pending",
       "review_note": "Official final-answer-key reconciliation is distinct from source-text verification. All 100 question stems and four options still require comparison against the original official paper, including Gujarati wherever printed. All 100 records remain flagged; paper-level source verification remains pending.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified.",
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "source_reviewed_question_ids": [],
@@ -259,7 +263,11 @@
         "GSET_31_DEC24_098",
         "GSET_31_DEC24_099",
         "GSET_31_DEC24_100"
-      ]
+      ],
+      "review_count": 100,
+      "unit_mapping_provisional_count": 55,
+      "unit_mapping_pending_count": 45,
+      "unit_mapping_verified_count": 0
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -275,10 +283,10 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "official_final_key_reconciled_source_audit_pending",
+      "status": "source_verified_subset_source_review_pending",
       "review_note": "Official final-answer-key reconciliation is distinct from source-text verification. All 100 question stems and four options still require comparison against the original official paper, including Gujarati wherever printed. All 100 records remain flagged; paper-level source verification remains pending.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified.",
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "source_reviewed_question_ids": [],
@@ -383,7 +391,11 @@
         "GSET_31_NOV25_098",
         "GSET_31_NOV25_099",
         "GSET_31_NOV25_100"
-      ]
+      ],
+      "review_count": 100,
+      "unit_mapping_provisional_count": 42,
+      "unit_mapping_pending_count": 58,
+      "unit_mapping_verified_count": 0
     }
   ],
   "source_verified": false,
