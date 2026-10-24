@@ -25,11 +25,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Original official question-paper pages 3-9 have been visually checked for Q1-Q10, Q12-Q20, Q22-Q27, Q28-Q32, and Q33-Q35. English stems/options match source and original Gujarati stems/options transcribed for these 33 items. Q11 and Q21 remain flagged because one Gujarati option was obscured at the scan/footer; remaining questions still require review. Paper-level source_verified stays false.",
+      "review_note": "Original official question-paper pages 3-10 have been visually checked for Q1-Q10, Q12-Q20, Q22-Q27, Q28-Q32 and Q33-Q37. English stems/options match the source and original Gujarati stems/options have been transcribed for these 35 items. Q11 and Q21 remain flagged because one Gujarati option was obscured at the scan/footer; remaining questions still require review. Paper-level source_verified stays false.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
       "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
-      "source_reviewed_question_count": 33,
-      "review_flags_remaining_count": 67,
+      "source_reviewed_question_count": 35,
+      "review_flags_remaining_count": 65,
       "source_reviewed_question_ids": [
         "GSET_31_NOV23_001",
         "GSET_31_NOV23_002",
@@ -63,7 +63,9 @@
         "GSET_31_NOV23_032",
         "GSET_31_NOV23_033",
         "GSET_31_NOV23_034",
-        "GSET_31_NOV23_035"
+        "GSET_31_NOV23_035",
+        "GSET_31_NOV23_036",
+        "GSET_31_NOV23_037"
       ]
     },
     {
