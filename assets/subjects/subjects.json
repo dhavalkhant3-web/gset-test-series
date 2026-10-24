@@ -341,8 +341,9 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "papers_loaded": 8,
+      "questions_loaded": 0,
+      "data_status": "paper_metadata_staged_question_source_audit_pending"
     },
     {
       "code": "25",
