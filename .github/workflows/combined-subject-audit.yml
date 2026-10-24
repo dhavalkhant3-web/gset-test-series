@@ -17,6 +17,9 @@ on:
     paths:
       - 'assets/subjects/**'
       - 'tool/audit_combined_subject_banks.py'
+      - 'tool/validate_syllabus_mapping.py'
+      - 'tools/validate_performing_arts.py'
+      - 'assets/json/performing_arts.json'
       - '.github/workflows/combined-subject-audit.yml'
   workflow_dispatch:
 
