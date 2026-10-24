@@ -2865,9 +2865,14 @@
       "review_flag": false,
       "review_note": "",
       "source_page_number": 12,
-      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. નાટ્યરસ – ભોજ્યરસ; B. તદ્રૂપ અનુસંધાન; C. ચિત્ર – તુરગ ન્યાય; D. સાધારણીકરણ.\nસૂચિ – ૨: (i) ભટ્ટ નાયક; (ii) ભરત; (iii) ભટ્ટ લોલ્લટ; (iv) શ્રી શંકુક.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
-      "options_gu": [],
-      "verification_status": "source_gujarati_option_set_incomplete_review_pending"
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. નાટ્યરસ – ભોજ્ય રસ; B. તદ્રૂપ અનુસંધાન; C. ચિત્ર – તુરગ ન્યાય; D. સાધારણીકરણ.\nસૂચિ – ૨: (i) ભટ્ટ નાયક; (ii) ભરત; (iii) ભટ્ટ લોલ્લટ; (iv) શ્રી શંકુક.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [
+        "A(iii), B(iv), C(ii), D(i)",
+        "A(iv), B(i), C(iii), D(ii)",
+        "A(ii), B(iii), C(iv), D(i)",
+        "A(i), B(ii), C(iii), D(iv)"
+      ],
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_041",
