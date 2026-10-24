@@ -41,8 +41,8 @@
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 94,
-      "pending_source_verification_count": 206,
+      "source_verified_count": 100,
+      "pending_source_verification_count": 200,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 165,
       "gujarati_medium_policy": "Where the official question paper includes Gujarati, transcribe exact Gujarati stem and all four options from the official PDF. Current blank Gujarati fields are not permission to translate; 206 records remain flagged for source review.",
@@ -1499,7 +1499,7 @@
       "unit_mapping_verified_count": 0,
       "unit_mapping_provisional_count": 135,
       "review_flags_remaining_count": 206,
-      "status_note": "Current question bank: 94/300 records have source_verified=true; 206 records retain review_flag=true. 135 have provisional keyword-based unit suggestions; 165 have no suggestion. No question-level unit mapping is marked officially verified."
+      "status_note": "November 2023: 100 questions have source transcription checked; 6 bilingual discrepancies remain flagged without normalizing either column. December 2024 and November 2025: 200 questions still need source-page transcription/verification. 135 provisional unit suggestions, 165 unmapped; none officially verified."
     },
     {
       "subject": "Indian Knowledge System",
