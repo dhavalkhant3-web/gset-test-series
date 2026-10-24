@@ -27,7 +27,7 @@
       "status": "visually_verified",
       "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Question bank now contains provisional content-based suggestions for some questions. Manually validate every unit assignment against the official syllabus before promoting to verified; unmapped questions remain pending."
+      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -46,7 +46,7 @@
       "status": "visually_verified",
       "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Question bank now contains provisional content-based suggestions for some questions. Manually validate every unit assignment against the official syllabus before promoting to verified; unmapped questions remain pending."
+      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -66,9 +66,9 @@
       "review_note": "All 100 questions visually checked against the official GSET November 2025 question-paper scan; Q33/Q34 Devanagari phrase confirmed as ख्युयु, Q48 option A diacritic confirmed, and Q75 options confirmed as क / छ / स / य. All 100 stored answers match the official Final Answer Key.",
       "review_count": 0,
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Question bank now contains provisional content-based suggestions for some questions. Manually validate every unit assignment against the official syllabus before promoting to verified; unmapped questions remain pending."
+      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
     }
   ],
   "unit_mapping_status": "provisional_content_based_pending_official_verification",
-  "unit_mapping_note": "Provisional mappings were added for 94 questions based on their stems. The other 206 remain pending. No question has been marked as having verified unit mapping; manually validate suggestions against the official syllabus."
+  "unit_mapping_note": "Provisional content-based unit suggestions exist for 162/300 questions. Remaining unmapped: 138. All suggestions require official syllabus review; no unit mapping is marked verified."
 }
