@@ -11,8 +11,8 @@
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 36,
-      "pending_source_verification_count": 264,
+      "source_verified_count": 43,
+      "pending_source_verification_count": 257,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 169,
       "gujarati_medium_policy": "Only transcribe Gujarati text from official Gujarati question-paper scan; currently left blank until source transcription is verified.",
@@ -37,63 +37,14 @@
             "question_no": 39,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
+            "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required."
           },
           {
             "id": "GSET_31_NOV23_040",
             "question_no": 40,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_041",
-            "question_no": 41,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_042",
-            "question_no": 42,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_043",
-            "question_no": 43,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_044",
-            "question_no": 44,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_045",
-            "question_no": 45,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_046",
-            "question_no": 46,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_047",
-            "question_no": 47,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
+            "review_note": "Gujarati stem and list labels/text were transcribed from the official PDF page 12, but the Gujarati D option is obscured by the page footer/scan crop. No missing option was reconstructed from English. Keep flagged pending a readable source copy."
           },
           {
             "id": "GSET_31_NOV23_048",
