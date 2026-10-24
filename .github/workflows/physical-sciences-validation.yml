@@ -1,0 +1,34 @@
+name: Physical Sciences September 2018 source audit
+
+on:
+  push:
+    branches:
+      - audit-physical-sciences-sep18
+    paths:
+      - 'assets/subjects/physical_sciences/**'
+      - 'assets/subjects/subjects.json'
+      - 'lib/main.dart'
+      - 'tools/validate_physical_sciences.py'
+      - '.github/workflows/physical-sciences-validation.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'assets/subjects/physical_sciences/**'
+      - 'assets/subjects/subjects.json'
+      - 'lib/main.dart'
+      - 'tools/validate_physical_sciences.py'
+      - '.github/workflows/physical-sciences-validation.yml'
+
+jobs:
+  validate-physical-sciences:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate September 2018 source records
+        run: python tools/validate_physical_sciences.py
