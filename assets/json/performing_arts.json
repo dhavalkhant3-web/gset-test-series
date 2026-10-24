@@ -2836,7 +2836,16 @@
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required.",
+      "source_page_number": 12,
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. સાલ ભંજિકા; B. મત્તવારણી; C. કુહર; D. રજ્જુ.\nસૂચિ – ૨: (i) લાકડાનો કઠેડો; (ii) પોલાણ, છિદ્ર, ઉદ્ઘાટન; (iii) દોરડું; (iv) એક નીચે એક વૃક્ષની નીચે ખુશ મિજાજ છોકરીનું શિલ્પ.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [
+        "A(iv), B(i), C(ii), D(iii)",
+        "A(iv), B(ii), C(iii), D(i)",
+        "A(iv), B(ii), C(i), D(iii)",
+        "A(iii), B(i), C(ii), D(iv)"
+      ],
+      "verification_status": "source_option_language_discrepancy_review_pending"
     },
     {
       "id": "GSET_31_NOV23_040",
@@ -2854,7 +2863,11 @@
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
       "source_verified": false,
       "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "review_note": "Gujarati stem and list labels/text were transcribed from the official PDF page 12, but the Gujarati D option is obscured by the page footer/scan crop. No missing option was reconstructed from English. Keep flagged pending a readable source copy.",
+      "source_page_number": 12,
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. નાટ્યરસ – ભોજ્યરસ; B. તદ્રૂપ અનુસંધાન; C. ચિત્ર – તુરગ ન્યાય; D. સાધારણીકરણ.\nસૂચિ – ૨: (i) ભટ્ટ નાયક; (ii) ભરત; (iii) ભટ્ટ લોલ્લટ; (iv) શ્રી શંકુક.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [],
+      "verification_status": "source_gujarati_option_set_incomplete_review_pending"
     },
     {
       "id": "GSET_31_NOV23_041",
