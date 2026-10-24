@@ -151,8 +151,9 @@ def main() -> None:
             fail(f"Paper-level source verification must remain pending for {p.get('exam')}")
         if "verified" not in str(p.get("status", "")).lower():
             fail(f"Paper status must reflect completed source review: {p.get('exam')}")
-        if any(q.get("exam_session") == p.get("exam") and q.get("review_flag") for q in app):
-            fail(f"Unresolved review flags remain for {p.get('exam')}")
+        session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
+        if len(session_records) != 100 or not all(q.get("review_flag") is True and q.get("source_verified") is False and q.get("review_note") for q in session_records):
+            fail(f"All records must remain explicitly flagged until source review is complete for {p.get('exam')}")
 
     subject = next((s for s in subjects_doc.get("subjects", []) if s.get("code") == "31"), None)
     if not subject:
