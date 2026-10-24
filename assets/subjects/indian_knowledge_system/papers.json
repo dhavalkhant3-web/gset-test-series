@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "subject_id": "indian_knowledge_system",
+  "subject_code": "29",
+  "name_en": "Indian Knowledge System",
+  "medium": "English",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120
+  },
+  "papers": [
+    {
+      "paper_id": "indian_knowledge_system_nov23",
+      "exam": "November 2023",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": true,
+      "questions_count": 100,
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key."
+    },
+    {
+      "paper_id": "indian_knowledge_system_dec24",
+      "exam": "December 2024",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": true,
+      "questions_count": 100,
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key."
+    },
+    {
+      "paper_id": "indian_knowledge_system_nov25",
+      "exam": "November 2025",
+      "subject_code": "29",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
+      "questions_loaded": 100,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and official final answer key PDFs",
+      "question_source_verified": true,
+      "questions_count": 100,
+      "source_verified": true,
+      "status": "visually_verified",
+      "review_note": "All 100 questions visually checked against the official GSET November 2025 question-paper scan; Q33/Q34 Devanagari phrase confirmed as ख्युयु, Q48 option A diacritic confirmed, and Q75 options confirmed as क / छ / स / य. All 100 stored answers match the official Final Answer Key.",
+      "review_count": 0
+    }
+  ]
+}
