@@ -27,7 +27,7 @@
       "status": "official_final_key_reconciled_question_text_audit_pending",
       "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
+      "unit_mapping_note": "Units 1–5 are common; Units 6 onwards are stream-specific (Dance vs Drama/Theatre) in the official syllabus. Do not assign a single stream-specific unit without checking the question context."
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -46,7 +46,7 @@
       "status": "official_final_key_reconciled_question_text_audit_pending",
       "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
+      "unit_mapping_note": "Units 1–5 are common; Units 6 onwards are stream-specific (Dance vs Drama/Theatre) in the official syllabus. Do not assign a single stream-specific unit without checking the question context."
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -65,7 +65,7 @@
       "status": "official_final_key_reconciled_question_text_audit_pending",
       "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
+      "unit_mapping_note": "Units 1–5 are common; Units 6 onwards are stream-specific (Dance vs Drama/Theatre) in the official syllabus. Do not assign a single stream-specific unit without checking the question context."
     }
   ],
   "source_verified": false,
@@ -73,5 +73,5 @@
   "status": "official_key_reconciled_question_text_audit_pending",
   "review_note": "All 300 stored answer letters are checked against the official final-key sequences. Full independent question text and option transcription audit remains pending. Do not treat the subject as fully source-verified.",
   "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-  "unit_mapping_note": "Unit-wise mapping for each question has not yet been verified against the official subject syllabus. Do not assign guessed units."
+  "unit_mapping_note": "Official syllabus has units 1–5 common and stream-specific unit structures after Unit 5. Question-level unit mapping requires content-based Dance vs Drama/Theatre distinction."
 }
