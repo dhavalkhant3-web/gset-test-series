@@ -25,11 +25,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Original official question-paper pages 3-19 visually checked for Q1-Q10, Q12-Q20, Q22-Q38, Q41-Q56 and Q57-Q64. 60 items have complete source-page verification and original Gujarati transcription. Q11/Q21 have a Gujarati option obscured by the scan/footer; Q39 has a Gujarati-vs-English matching-code discrepancy; Q40's Gujarati D option is obscured. Remaining 36 questions still require source review; paper-level source_verified stays false.",
+      "review_note": "Official source pages 3-21 visually checked for Q1-Q10, Q12-Q20, Q22-Q38, Q41-Q56, and Q57-Q69. 65 items have complete source-page verification and original Gujarati transcription. Q11/Q21 have a Gujarati option obscured by the scan/footer; Q39 has a Gujarati-vs-English matching-code discrepancy; Q40's Gujarati D option is obscured. The remaining 31 questions also require source review; paper-level source_verified stays false.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
       "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
-      "source_reviewed_question_count": 60,
-      "review_flags_remaining_count": 40,
+      "source_reviewed_question_count": 65,
+      "review_flags_remaining_count": 35,
       "source_reviewed_question_ids": [
         "GSET_31_NOV23_001",
         "GSET_31_NOV23_002",
@@ -90,7 +90,12 @@
         "GSET_31_NOV23_061",
         "GSET_31_NOV23_062",
         "GSET_31_NOV23_063",
-        "GSET_31_NOV23_064"
+        "GSET_31_NOV23_064",
+        "GSET_31_NOV23_065",
+        "GSET_31_NOV23_066",
+        "GSET_31_NOV23_067",
+        "GSET_31_NOV23_068",
+        "GSET_31_NOV23_069"
       ],
       "review_flags_remaining_ids": [
         "GSET_31_NOV23_011",
