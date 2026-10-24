@@ -413,8 +413,22 @@
       "source_verified": true,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "official_final_keys_match_300_source_verified_300_bilingual_exam_tips",
-      "status": "verified_against_official_papers_and_final_keys"
+      "data_status": "300 official-final-key matches; source-question review metadata retained; unit mappings remain provisional and unverified",
+      "status": "verified_against_official_papers_and_final_keys",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_counts": {
+        "provisional": 163,
+        "pending": 137,
+        "verified": 0,
+        "by_unit": {
+          "1": 72,
+          "2": 1,
+          "3": 22,
+          "4": 13,
+          "5": 23,
+          "6": 32
+        }
+      }
     },
     {
       "code": "30",
