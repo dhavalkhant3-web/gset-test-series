@@ -35,7 +35,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -75,7 +75,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -115,7 +115,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -269,7 +269,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -305,11 +305,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_009",
@@ -347,7 +349,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -387,7 +389,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -503,7 +505,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -543,7 +545,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -579,11 +581,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_016",
@@ -617,13 +621,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 1,
+    "syllabus_unit": 6,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 1,
-    "unit_id": "unit_1"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV23_017",
@@ -657,11 +661,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_018",
@@ -699,7 +705,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -735,11 +741,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_020",
@@ -777,7 +785,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -851,11 +859,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 4,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_29_NOV23_023",
@@ -893,7 +903,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 3,
     "unit_id": "unit_3"
   },
@@ -929,11 +939,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_025",
@@ -967,11 +979,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_026",
@@ -1005,11 +1019,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_027",
@@ -1043,11 +1059,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_028",
@@ -1081,11 +1099,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_029",
@@ -1123,7 +1143,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 3,
     "unit_id": "unit_3"
   },
@@ -1159,11 +1179,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_031",
@@ -1201,7 +1223,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -1275,11 +1297,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_034",
@@ -1355,7 +1379,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -1395,7 +1419,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -1431,11 +1455,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV23_038",
@@ -1469,11 +1495,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV23_039",
@@ -1511,7 +1539,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -1585,11 +1613,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_042",
@@ -1623,11 +1653,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_043",
@@ -1699,11 +1731,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_045",
@@ -1737,11 +1771,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_046",
@@ -1813,11 +1849,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV23_048",
@@ -1889,11 +1927,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_050",
@@ -1927,11 +1967,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_051",
@@ -2007,7 +2049,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -2119,11 +2161,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_056",
@@ -2161,7 +2205,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -2239,7 +2283,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -2279,7 +2323,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -2357,7 +2401,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -2397,7 +2441,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -2437,7 +2481,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 5,
     "unit_id": "unit_5"
   },
@@ -2473,11 +2517,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV23_065",
@@ -2553,7 +2599,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 5,
     "unit_id": "unit_5"
   },
@@ -2665,11 +2711,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_070",
@@ -2745,7 +2793,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -2857,13 +2905,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 1,
+    "syllabus_unit": 3,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 1,
-    "unit_id": "unit_1"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_075",
@@ -2897,11 +2945,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_076",
@@ -2935,11 +2985,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV23_077",
@@ -2977,7 +3029,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -3013,13 +3065,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 6,
+    "syllabus_unit": 5,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 6,
-    "unit_id": "unit_6"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_079",
@@ -3053,11 +3105,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV23_080",
@@ -3363,7 +3417,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -3475,11 +3529,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV23_091",
@@ -3745,7 +3801,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -3899,7 +3955,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -3935,11 +3991,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_003",
@@ -3977,7 +4035,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4131,7 +4189,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4167,11 +4225,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_009",
@@ -4209,7 +4269,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4249,7 +4309,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4365,7 +4425,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -4401,11 +4461,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_015",
@@ -4439,11 +4501,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_016",
@@ -4481,7 +4545,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4517,11 +4581,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_018",
@@ -4559,7 +4625,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4599,7 +4665,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -4711,11 +4777,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_023",
@@ -4753,7 +4821,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 3,
     "unit_id": "unit_3"
   },
@@ -4789,11 +4857,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_025",
@@ -4827,11 +4897,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_026",
@@ -4865,11 +4937,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_027",
@@ -4903,11 +4977,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_028",
@@ -4941,11 +5017,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_029",
@@ -4983,7 +5061,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 3,
     "unit_id": "unit_3"
   },
@@ -5061,7 +5139,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -5101,7 +5179,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -5137,11 +5215,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_034",
@@ -5213,11 +5293,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_036",
@@ -5255,7 +5337,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -5291,11 +5373,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_038",
@@ -5329,11 +5413,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_039",
@@ -5371,7 +5457,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -5483,11 +5569,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_043",
@@ -5559,11 +5647,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_045",
@@ -5787,11 +5877,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_051",
@@ -5825,11 +5917,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_DEC24_052",
@@ -5867,7 +5961,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -6021,7 +6115,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -6095,13 +6189,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 1,
+    "syllabus_unit": 4,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 1,
-    "unit_id": "unit_1"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_29_DEC24_059",
@@ -6139,7 +6233,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -6179,7 +6273,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -6291,11 +6385,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_DEC24_064",
@@ -6409,7 +6505,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 5,
     "unit_id": "unit_5"
   },
@@ -6521,11 +6617,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_070",
@@ -6559,11 +6657,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_071",
@@ -6597,13 +6697,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 6,
+    "syllabus_unit": 5,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 6,
-    "unit_id": "unit_6"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_072",
@@ -6637,13 +6737,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 6,
+    "syllabus_unit": 2,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 6,
-    "unit_id": "unit_6"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_29_DEC24_073",
@@ -6677,11 +6777,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_074",
@@ -6719,7 +6821,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -6755,11 +6857,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_076",
@@ -6793,11 +6897,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_DEC24_077",
@@ -6873,7 +6979,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -6909,13 +7015,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 6,
+    "syllabus_unit": 5,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 6,
-    "unit_id": "unit_6"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_080",
@@ -6949,11 +7055,13 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_DEC24_081",
@@ -6991,7 +7099,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7221,7 +7329,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7527,7 +7635,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7567,7 +7675,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7607,7 +7715,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7647,7 +7755,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7763,7 +7871,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -7803,7 +7911,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -7843,7 +7951,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -7883,7 +7991,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -7919,11 +8027,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV25_006",
@@ -7961,7 +8071,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -8001,7 +8111,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -8041,7 +8151,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -8081,7 +8191,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -8121,7 +8231,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 6,
     "unit_id": "unit_6"
   },
@@ -8347,11 +8457,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV25_017",
@@ -8385,11 +8497,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV25_018",
@@ -8423,11 +8537,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV25_019",
@@ -8879,11 +8995,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV25_031",
@@ -8921,7 +9039,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -9147,11 +9265,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV25_038",
@@ -9303,7 +9423,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -9381,7 +9501,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -9459,7 +9579,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -9499,7 +9619,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -9535,11 +9655,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_29_NOV25_048",
@@ -9653,7 +9775,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 4,
     "unit_id": "unit_4"
   },
@@ -9693,7 +9815,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -9767,11 +9889,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_054",
@@ -9805,11 +9929,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_055",
@@ -9847,7 +9973,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -9921,11 +10047,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_058",
@@ -9997,11 +10125,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV25_060",
@@ -10073,11 +10203,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_062",
@@ -10115,7 +10247,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10155,7 +10287,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10191,11 +10323,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_065",
@@ -10233,7 +10367,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10311,7 +10445,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10351,7 +10485,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10467,7 +10601,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10507,7 +10641,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10737,7 +10871,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10777,7 +10911,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -10817,7 +10951,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -11005,11 +11139,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_29_NOV25_086",
@@ -11423,11 +11559,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus."
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_29_NOV25_097",
@@ -11503,7 +11641,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   },
@@ -11539,13 +11677,13 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": 1,
+    "syllabus_unit": 6,
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
-    "unit_number": 1,
-    "unit_id": "unit_1"
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_29_NOV25_100",
@@ -11583,7 +11721,7 @@
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
     "language": "en",
     "verification_status": "visually_verified_english_source_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually confirm against the official syllabus and original question before marking verified.",
+    "syllabus_mapping_note": "Provisional content-based unit suggestion only. Manually check this question against the official GSET IKS syllabus before treating the unit mapping as verified.",
     "unit_number": 1,
     "unit_id": "unit_1"
   }
