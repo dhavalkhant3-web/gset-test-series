@@ -367,9 +367,16 @@
       "questions_loaded": true,
       "questions_loaded_count": 50,
       "answer_key_verified": true,
-      "status": "loaded_with_review_flags",
+      "status": "official_final_key_reconciled_source_text_transcribed_review_flag_retained",
       "visual_audit_manifest": "assets/sources/chemical_sep16_p2_visual_manifest.json",
-      "source": "Uploaded original official GSET Paper-II + uploaded final/corrected answer key; 50 questions loaded and official answer key applied; 10 visual questions audited; Q4 retained with review_flag due answer-key/source discrepancy"
+      "source": "Uploaded original official GSET Paper-II + uploaded final/corrected answer key; 50 questions loaded and official answer key applied; 10 visual questions audited; Q4 retained with review_flag due answer-key/source discrepancy",
+      "question_source_verified": false,
+      "source_verified": false,
+      "questions_count": 50,
+      "review_flags_remaining": [
+        "chemical_sep16_q4"
+      ],
+      "review_note": "Q1–Q50 question text/options are reconstructed from the official September 2016 Paper-II booklet, and all 50 answer letters match the official FINAL/CORRECTED key. Q4 remains review-flagged: source transcription is present, but the key's B answer is in tension with electron-pair counting. Keep B as official and retain the review flag."
     },
     {
       "paper_id": "chemical_sep16_p3",

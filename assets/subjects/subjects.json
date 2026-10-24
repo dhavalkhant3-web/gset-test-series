@@ -47,8 +47,8 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 19,
-      "questions_loaded": 20,
-      "data_status": "official_archive_mapped_partial_questions"
+      "questions_loaded": 1300,
+      "data_status": "1300 Paper-II question records available across 19 sessions, including the September 2016 Paper-II overlay; original-source review flags remain."
     },
     {
       "code": "04",
@@ -410,9 +410,11 @@
       "icon": "hub_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "source_verified": true,
+      "papers_loaded": 3,
+      "questions_loaded": 300,
+      "data_status": "official_final_keys_match_300_source_verified_300_bilingual_exam_tips",
+      "status": "verified_against_official_papers_and_final_keys"
     },
     {
       "code": "30",
@@ -439,8 +441,9 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "papers_loaded": 3,
+      "questions_loaded": 300,
+      "data_status": "official_keys_reconciled_source_review_pending"
     },
     {
       "code": "32",
@@ -454,7 +457,8 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 3,
-      "questions_loaded": 300
+      "questions_loaded": 300,
+      "data_status": "300_questions_loaded_300_final_key_matches_3_source_review_flags_pending"
     },
     {
       "code": "33",
@@ -469,7 +473,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300_questions_loaded_official_answer_keys_cross_checked_six_grouped_figure_crops_added_exact_figure_mapping_and_wording_review_pending"
+      "data_status": "300 official-final-key matches; 30 grouped-figure items visually checked, mapped to source crops, and verified; 14 content/answer concerns remain flagged; remaining question text/options are not yet fully source-verified."
     },
     {
       "code": "34",

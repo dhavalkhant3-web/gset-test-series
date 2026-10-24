@@ -19,12 +19,13 @@
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2332.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2332.pdf",
       "questions_loaded": 100,
-      "answer_key_verified": false,
-      "source": "Official GSET archive URLs listed; staged question bank requires source-by-source re-audit",
+      "answer_key_verified": true,
+      "source": "Official GSET Final Answer Key PDF, independently reconciled against the stored answer letters",
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "staged_needs_official_audit"
+      "status": "official_final_key_reconciled_question_text_option_audit_pending",
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
     },
     {
       "paper_id": "public_administration_dec24",
@@ -35,12 +36,13 @@
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2432.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
       "questions_loaded": 100,
-      "answer_key_verified": false,
-      "source": "Official GSET archive URLs listed; staged question bank requires source-by-source re-audit",
+      "answer_key_verified": true,
+      "source": "Official GSET Final Answer Key PDF, independently reconciled against the stored answer letters",
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "staged_needs_official_audit"
+      "status": "official_final_key_reconciled_question_text_option_audit_pending",
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
     },
     {
       "paper_id": "public_administration_nov25",
@@ -51,12 +53,13 @@
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2532.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf",
       "questions_loaded": 100,
-      "answer_key_verified": false,
-      "source": "Official GSET archive URLs listed; staged question bank requires source-by-source re-audit",
+      "answer_key_verified": true,
+      "source": "Official GSET Final Answer Key PDF, independently reconciled against the stored answer letters",
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "staged_needs_official_audit"
+      "status": "official_final_key_reconciled_question_text_option_audit_pending",
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
     }
   ]
 }

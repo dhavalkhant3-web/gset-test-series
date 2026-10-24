@@ -1,0 +1,32 @@
+name: Visual Art bank validation
+
+on:
+  push:
+    branches:
+      - complete-visual-arts-33
+    paths:
+      - 'assets/subjects/visual_art/**'
+      - 'assets/subjects/subjects.json'
+      - 'tools/validate_visual_art.py'
+      - '.github/workflows/visual-art-validation.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'assets/subjects/visual_art/**'
+      - 'assets/subjects/subjects.json'
+      - 'tools/validate_visual_art.py'
+      - '.github/workflows/visual-art-validation.yml'
+
+jobs:
+  validate-visual-art:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Visual Art bank and official final keys
+        run: python tools/validate_visual_art.py
