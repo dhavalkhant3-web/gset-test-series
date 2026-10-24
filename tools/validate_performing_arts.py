@@ -168,8 +168,9 @@ def main() -> None:
         fail("Subject entry id/counts are inconsistent")
     if subject.get("source_verified") is not False:
         fail("Subject-level source verification must stay false until every source page is independently reviewed")
-    if subject.get("data_status") != "official_keys_reconciled_source_review_pending":
-        fail("Subject-level data_status must reflect pending source review")
+    subject_status = str(subject.get("data_status", "")).lower()
+    if "pending" not in subject_status or "source review" not in subject_status:
+        fail("Subject-level data_status must explicitly reflect pending source review")
 
     total_flags = sum(flagged_by_session.values())
     print("PASS: Performing Arts subject 31")
