@@ -3,64 +3,48 @@
   "branch": "integration/combined-subject-banks",
   "principles": [
     "Question-level source verification is separate from answer-key verification.",
-    "Gujarati fields are only populated from the official Gujarati version of the question paper. No independently generated translations are substituted.",
-    "Unit-wise mapping remains pending until each question is matched to the official syllabus; do not guess unit numbers."
+    "Gujarati fields are populated only from original official Gujarati question-paper text, never machine-translated from English.",
+    "All provisional syllabus unit assignments remain unverified until individually checked against the official GSET syllabus."
   ],
   "subjects": [
+    {
+      "subject": "Chemical Sciences",
+      "subject_code": "03",
+      "total_questions": 1250,
+      "source_verified_count": 936,
+      "pending_source_verification_count": 314,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_pending_count": 1250,
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_provisional_count": 0,
+      "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; never insert English text as Gujarati.",
+      "pending_questions_by_paper": {},
+      "status_note": "Combined bank has 1,250 question records; separate archive/overlay assets require their own audit. 936 source_verified flags are present, but 314 records still require source review. Unit mapping has not started."
+    },
+    {
+      "subject": "Physical Sciences",
+      "subject_code": "02",
+      "total_questions": 1300,
+      "source_verified_count": 870,
+      "pending_source_verification_count": 430,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_pending_count": 1300,
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_provisional_count": 0,
+      "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; never insert English text as Gujarati.",
+      "pending_questions_by_paper": {},
+      "status_note": "Combined bank has 1,300 question records; separate archive/overlay assets require their own audit. 870 source_verified flags are present, but 430 records still require source review. Unit mapping has not started."
+    },
     {
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 94,
-      "pending_source_verification_count": 206,
+      "source_verified_count": 92,
+      "pending_source_verification_count": 208,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 169,
-      "gujarati_medium_policy": "Only transcribe Gujarati text from official Gujarati question-paper scan; currently left blank until source transcription is verified.",
+      "gujarati_medium_policy": "Transcribe Gujarati only from the official Gujarati paper. No independent translations; preserve unresolved English/Gujarati discrepancies.",
       "pending_questions_by_paper": {
-        "November 2023": [
-          {
-            "id": "GSET_31_NOV23_039",
-            "question_no": 39,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required."
-          },
-          {
-            "id": "GSET_31_NOV23_096",
-            "question_no": 96,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option A uses the printed wording “કુદરતી/ઘટનાકીય” for Incident Ray; this bilingual wording requires review. Official final-key answer B is retained."
-          },
-          {
-            "id": "GSET_31_NOV23_097",
-            "question_no": 97,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option labels B/C differ in meaning from the English terms Narrative/Deductive Colour Scheme; retain the exact printed Gujarati and keep flagged. Official final-key answer D is retained."
-          },
-          {
-            "id": "GSET_31_NOV23_098",
-            "question_no": 98,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati options print “ભૂરા” where the paired English options use “Blue”; retain official wording and keep flagged. Official final-key answer B is retained."
-          },
-          {
-            "id": "GSET_31_NOV23_099",
-            "question_no": 99,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option colour words differ from the corresponding English RGB/RYB/OBV schemes (including “ભૂરો” versus “Blue”); keep flagged pending language/printing review. Official final-key answer B is retained."
-          },
-          {
-            "id": "GSET_31_NOV23_100",
-            "question_no": 100,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. The Gujarati stem prints “ભૂરો-લીલો” while the English stem says “Blue-Green”; retain source wording and flag the unresolved bilingual discrepancy. Official final-key answer C is retained."
-          }
-        ],
         "December 2024": [
           {
             "id": "GSET_31_DEC24_001",
@@ -761,6 +745,50 @@
             "source_verified": false,
             "review_flag": true,
             "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
+          }
+        ],
+        "November 2023": [
+          {
+            "id": "GSET_31_NOV23_039",
+            "question_no": 39,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required."
+          },
+          {
+            "id": "GSET_31_NOV23_096",
+            "question_no": 96,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option A uses the printed wording “કુદરતી/ઘટનાકીય” for Incident Ray; this bilingual wording requires review. Official final-key answer B is retained."
+          },
+          {
+            "id": "GSET_31_NOV23_097",
+            "question_no": 97,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option labels B/C differ in meaning from the English terms Narrative/Deductive Colour Scheme; retain the exact printed Gujarati and keep flagged. Official final-key answer D is retained."
+          },
+          {
+            "id": "GSET_31_NOV23_098",
+            "question_no": 98,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati options print “ભૂરા” where the paired English options use “Blue”; retain official wording and keep flagged. Official final-key answer B is retained."
+          },
+          {
+            "id": "GSET_31_NOV23_099",
+            "question_no": 99,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option colour words differ from the corresponding English RGB/RYB/OBV schemes (including “ભૂરો” versus “Blue”); keep flagged pending language/printing review. Official final-key answer B is retained."
+          },
+          {
+            "id": "GSET_31_NOV23_100",
+            "question_no": 100,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. The Gujarati stem prints “ભૂરો-લીલો” while the English stem says “Blue-Green”; retain source wording and flag the unresolved bilingual discrepancy. Official final-key answer C is retained."
           }
         ],
         "November 2025": [
@@ -1473,12 +1501,2121 @@
       "subject": "Indian Knowledge System",
       "subject_code": "29",
       "total_questions": 300,
-      "source_verified_count": 300,
-      "pending_source_verification_count": 0,
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_pending_count": 300,
-      "gujarati_medium_policy": "English-only official medium; Gujarati fields intentionally blank.",
-      "pending_questions_by_paper": {}
+      "source_verified_count": 0,
+      "pending_source_verification_count": 300,
+      "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
+      "unit_mapping_pending_count": 137,
+      "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; all 300 question stems/options need independent visual verification.",
+      "pending_questions_by_paper": {
+        "November 2023": [
+          {
+            "id": "GSET_29_NOV23_001",
+            "question_no": 1,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_002",
+            "question_no": 2,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_003",
+            "question_no": 3,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_004",
+            "question_no": 4,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_005",
+            "question_no": 5,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_006",
+            "question_no": 6,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_007",
+            "question_no": 7,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_008",
+            "question_no": 8,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_009",
+            "question_no": 9,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_010",
+            "question_no": 10,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_011",
+            "question_no": 11,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_012",
+            "question_no": 12,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_013",
+            "question_no": 13,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_014",
+            "question_no": 14,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_015",
+            "question_no": 15,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_016",
+            "question_no": 16,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_017",
+            "question_no": 17,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_018",
+            "question_no": 18,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_019",
+            "question_no": 19,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_020",
+            "question_no": 20,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_021",
+            "question_no": 21,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_022",
+            "question_no": 22,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_023",
+            "question_no": 23,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_024",
+            "question_no": 24,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_025",
+            "question_no": 25,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_026",
+            "question_no": 26,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_027",
+            "question_no": 27,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_028",
+            "question_no": 28,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_029",
+            "question_no": 29,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_030",
+            "question_no": 30,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_031",
+            "question_no": 31,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_032",
+            "question_no": 32,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_033",
+            "question_no": 33,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_034",
+            "question_no": 34,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_035",
+            "question_no": 35,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_036",
+            "question_no": 36,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_037",
+            "question_no": 37,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_038",
+            "question_no": 38,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_039",
+            "question_no": 39,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_040",
+            "question_no": 40,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_041",
+            "question_no": 41,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_042",
+            "question_no": 42,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_043",
+            "question_no": 43,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_044",
+            "question_no": 44,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_045",
+            "question_no": 45,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_046",
+            "question_no": 46,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_047",
+            "question_no": 47,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_048",
+            "question_no": 48,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_049",
+            "question_no": 49,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_050",
+            "question_no": 50,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_051",
+            "question_no": 51,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_052",
+            "question_no": 52,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_053",
+            "question_no": 53,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_054",
+            "question_no": 54,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_055",
+            "question_no": 55,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_056",
+            "question_no": 56,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_057",
+            "question_no": 57,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_058",
+            "question_no": 58,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_059",
+            "question_no": 59,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_060",
+            "question_no": 60,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_061",
+            "question_no": 61,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_062",
+            "question_no": 62,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_063",
+            "question_no": 63,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_064",
+            "question_no": 64,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_065",
+            "question_no": 65,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_066",
+            "question_no": 66,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_067",
+            "question_no": 67,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_068",
+            "question_no": 68,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_069",
+            "question_no": 69,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_070",
+            "question_no": 70,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_071",
+            "question_no": 71,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_072",
+            "question_no": 72,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_073",
+            "question_no": 73,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_074",
+            "question_no": 74,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_075",
+            "question_no": 75,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_076",
+            "question_no": 76,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_077",
+            "question_no": 77,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_078",
+            "question_no": 78,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_079",
+            "question_no": 79,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_080",
+            "question_no": 80,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_081",
+            "question_no": 81,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_082",
+            "question_no": 82,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_083",
+            "question_no": 83,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_084",
+            "question_no": 84,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_085",
+            "question_no": 85,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_086",
+            "question_no": 86,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_087",
+            "question_no": 87,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_088",
+            "question_no": 88,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_089",
+            "question_no": 89,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_090",
+            "question_no": 90,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_091",
+            "question_no": 91,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_092",
+            "question_no": 92,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_093",
+            "question_no": 93,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_094",
+            "question_no": 94,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_095",
+            "question_no": 95,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_096",
+            "question_no": 96,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_097",
+            "question_no": 97,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_098",
+            "question_no": 98,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_099",
+            "question_no": 99,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV23_100",
+            "question_no": 100,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          }
+        ],
+        "December 2024": [
+          {
+            "id": "GSET_29_DEC24_001",
+            "question_no": 1,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_002",
+            "question_no": 2,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_003",
+            "question_no": 3,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_004",
+            "question_no": 4,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_005",
+            "question_no": 5,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_006",
+            "question_no": 6,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_007",
+            "question_no": 7,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_008",
+            "question_no": 8,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_009",
+            "question_no": 9,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_010",
+            "question_no": 10,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_011",
+            "question_no": 11,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_012",
+            "question_no": 12,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_013",
+            "question_no": 13,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_014",
+            "question_no": 14,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_015",
+            "question_no": 15,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_016",
+            "question_no": 16,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_017",
+            "question_no": 17,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_018",
+            "question_no": 18,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_019",
+            "question_no": 19,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_020",
+            "question_no": 20,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_021",
+            "question_no": 21,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_022",
+            "question_no": 22,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_023",
+            "question_no": 23,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_024",
+            "question_no": 24,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_025",
+            "question_no": 25,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_026",
+            "question_no": 26,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_027",
+            "question_no": 27,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_028",
+            "question_no": 28,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_029",
+            "question_no": 29,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_030",
+            "question_no": 30,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_031",
+            "question_no": 31,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_032",
+            "question_no": 32,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_033",
+            "question_no": 33,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_034",
+            "question_no": 34,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_035",
+            "question_no": 35,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_036",
+            "question_no": 36,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_037",
+            "question_no": 37,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_038",
+            "question_no": 38,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_039",
+            "question_no": 39,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_040",
+            "question_no": 40,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_041",
+            "question_no": 41,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_042",
+            "question_no": 42,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_043",
+            "question_no": 43,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_044",
+            "question_no": 44,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_045",
+            "question_no": 45,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_046",
+            "question_no": 46,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_047",
+            "question_no": 47,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_048",
+            "question_no": 48,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_049",
+            "question_no": 49,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_050",
+            "question_no": 50,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_051",
+            "question_no": 51,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_052",
+            "question_no": 52,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_053",
+            "question_no": 53,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_054",
+            "question_no": 54,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_055",
+            "question_no": 55,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_056",
+            "question_no": 56,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_057",
+            "question_no": 57,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_058",
+            "question_no": 58,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_059",
+            "question_no": 59,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_060",
+            "question_no": 60,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_061",
+            "question_no": 61,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_062",
+            "question_no": 62,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_063",
+            "question_no": 63,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_064",
+            "question_no": 64,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_065",
+            "question_no": 65,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_066",
+            "question_no": 66,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_067",
+            "question_no": 67,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_068",
+            "question_no": 68,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_069",
+            "question_no": 69,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_070",
+            "question_no": 70,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_071",
+            "question_no": 71,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_072",
+            "question_no": 72,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_073",
+            "question_no": 73,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_074",
+            "question_no": 74,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_075",
+            "question_no": 75,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_076",
+            "question_no": 76,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_077",
+            "question_no": 77,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_078",
+            "question_no": 78,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_079",
+            "question_no": 79,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_080",
+            "question_no": 80,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_081",
+            "question_no": 81,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_082",
+            "question_no": 82,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_083",
+            "question_no": 83,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_084",
+            "question_no": 84,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_085",
+            "question_no": 85,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_086",
+            "question_no": 86,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_087",
+            "question_no": 87,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_088",
+            "question_no": 88,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_089",
+            "question_no": 89,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_090",
+            "question_no": 90,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_091",
+            "question_no": 91,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_092",
+            "question_no": 92,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_093",
+            "question_no": 93,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_094",
+            "question_no": 94,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_095",
+            "question_no": 95,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_096",
+            "question_no": 96,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_097",
+            "question_no": 97,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_098",
+            "question_no": 98,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_099",
+            "question_no": 99,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_DEC24_100",
+            "question_no": 100,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          }
+        ],
+        "November 2025": [
+          {
+            "id": "GSET_29_NOV25_001",
+            "question_no": 1,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_002",
+            "question_no": 2,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_003",
+            "question_no": 3,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_004",
+            "question_no": 4,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_005",
+            "question_no": 5,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_006",
+            "question_no": 6,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_007",
+            "question_no": 7,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_008",
+            "question_no": 8,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_009",
+            "question_no": 9,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_010",
+            "question_no": 10,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_011",
+            "question_no": 11,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_012",
+            "question_no": 12,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_013",
+            "question_no": 13,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_014",
+            "question_no": 14,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_015",
+            "question_no": 15,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_016",
+            "question_no": 16,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_017",
+            "question_no": 17,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_018",
+            "question_no": 18,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_019",
+            "question_no": 19,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_020",
+            "question_no": 20,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_021",
+            "question_no": 21,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_022",
+            "question_no": 22,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_023",
+            "question_no": 23,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_024",
+            "question_no": 24,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_025",
+            "question_no": 25,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_026",
+            "question_no": 26,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_027",
+            "question_no": 27,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_028",
+            "question_no": 28,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_029",
+            "question_no": 29,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_030",
+            "question_no": 30,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_031",
+            "question_no": 31,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_032",
+            "question_no": 32,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_033",
+            "question_no": 33,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_034",
+            "question_no": 34,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_035",
+            "question_no": 35,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_036",
+            "question_no": 36,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_037",
+            "question_no": 37,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_038",
+            "question_no": 38,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_039",
+            "question_no": 39,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_040",
+            "question_no": 40,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_041",
+            "question_no": 41,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_042",
+            "question_no": 42,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_043",
+            "question_no": 43,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_044",
+            "question_no": 44,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_045",
+            "question_no": 45,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_046",
+            "question_no": 46,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_047",
+            "question_no": 47,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_048",
+            "question_no": 48,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_049",
+            "question_no": 49,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_050",
+            "question_no": 50,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_051",
+            "question_no": 51,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_052",
+            "question_no": 52,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_053",
+            "question_no": 53,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_054",
+            "question_no": 54,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_055",
+            "question_no": 55,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_056",
+            "question_no": 56,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_057",
+            "question_no": 57,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_058",
+            "question_no": 58,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_059",
+            "question_no": 59,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_060",
+            "question_no": 60,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_061",
+            "question_no": 61,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_062",
+            "question_no": 62,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_063",
+            "question_no": 63,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_064",
+            "question_no": 64,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_065",
+            "question_no": 65,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_066",
+            "question_no": 66,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_067",
+            "question_no": 67,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_068",
+            "question_no": 68,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_069",
+            "question_no": 69,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_070",
+            "question_no": 70,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_071",
+            "question_no": 71,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_072",
+            "question_no": 72,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_073",
+            "question_no": 73,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_074",
+            "question_no": 74,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_075",
+            "question_no": 75,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_076",
+            "question_no": 76,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_077",
+            "question_no": 77,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_078",
+            "question_no": 78,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_079",
+            "question_no": 79,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_080",
+            "question_no": 80,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_081",
+            "question_no": 81,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_082",
+            "question_no": 82,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_083",
+            "question_no": 83,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_084",
+            "question_no": 84,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_085",
+            "question_no": 85,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_086",
+            "question_no": 86,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_087",
+            "question_no": 87,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_088",
+            "question_no": 88,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_089",
+            "question_no": 89,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_090",
+            "question_no": 90,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_091",
+            "question_no": 91,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_092",
+            "question_no": 92,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_093",
+            "question_no": 93,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_094",
+            "question_no": 94,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_095",
+            "question_no": 95,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_096",
+            "question_no": 96,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_097",
+            "question_no": 97,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_098",
+            "question_no": 98,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_099",
+            "question_no": 99,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          },
+          {
+            "id": "GSET_29_NOV25_100",
+            "question_no": 100,
+            "source_verified": false,
+            "review_flag": true,
+            "review_note": "Official Final Answer Key answer has been reconciled, but the stem and all four options have not yet been independently visually verified against the original official question-paper page in this audit. Keep source verification pending; English-medium paper, so Gujarati fields remain blank. Provisional syllabus unit mapping also remains unverified."
+          }
+        ]
+      },
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_provisional_count": 163
     },
     {
       "subject": "Public Administration",
@@ -1486,9 +3623,9 @@
       "total_questions": 300,
       "source_verified_count": 0,
       "pending_source_verification_count": 300,
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_pending_count": 300,
-      "gujarati_medium_policy": "English-only official medium; Gujarati fields intentionally blank.",
+      "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
+      "unit_mapping_pending_count": 166,
+      "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; all 300 stems/options need source verification.",
       "pending_questions_by_paper": {
         "November 2023": [
           {
@@ -3596,7 +5733,9 @@
             "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official medium is English; Gujarati fields intentionally blank. Exact question wording/options source review and unit-wise mapping remain pending."
           }
         ]
-      }
+      },
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_provisional_count": 134
     },
     {
       "subject": "Visual Art",
@@ -3604,9 +5743,9 @@
       "total_questions": 300,
       "source_verified_count": 30,
       "pending_source_verification_count": 270,
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_pending_count": 300,
-      "gujarati_medium_policy": "Only use Gujarati if it is actually present in the official paper; fields left blank where no official Gujarati text is transcribed.",
+      "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
+      "unit_mapping_pending_count": 287,
+      "gujarati_medium_policy": "30 records are marked source-verified; 14 content/answer concerns and 30 figure-based items remain under review; do not mark the subject complete.",
       "pending_questions_by_paper": {
         "November 2023": [
           {
@@ -3726,7 +5865,7 @@
             "question_no": 17,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Official key is C (Lee Bontecou). David Smith (option B) is usually credited as the first American welded-metal sculptor. Official key retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 5: wording and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. Content/answer concern remains because the keyed attribution is disputed in the record; preserve the official C and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q18",
@@ -4041,14 +6180,14 @@
             "question_no": 62,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Pairings in keyed option C (e.g. Mesh-Litho) look inconsistent with usual terminology (mesh = silk screen); no option is clearly correct. Official key retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, all codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The terminology-to-tool pairings remain questionable; preserve the source wording and official key, and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q63",
             "question_no": 63,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Keyed option C pairs Chisel with Lithograph and Grinder with Sculpture; pairings look ambiguous. Official key retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The keyed pairings appear questionable; no option has been reconstructed or changed. Retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q64",
@@ -4083,7 +6222,7 @@
             "question_no": 68,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Printed 'Platanus' looks like a typo (possibly Plotinus or Plato); keyed option D pairs it with Aristotle. Wording preserved; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: the source literally prints 'Platanus'; all four response options match the stored text. Official Final Answer Key gives D, matching the stored answer. Do not silently correct the printed term; its intended reference and key remain unresolved, so retain the review flag."
           },
           {
             "id": "visual_art_nov23_q69",
@@ -4097,21 +6236,21 @@
             "question_no": 70,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Keyed option A includes 'Classicism', which contradicts Romanticism; option D (a, b, e) fits the listed points. Official key retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: statement wording and all four options match the printed source. Official Final Answer Key gives A, matching the stored answer. The keyed set includes 'Classicism', which conflicts with the usual description of Romanticism; preserve the official key and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q71",
             "question_no": 71,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Depends on whether Kiran Nadar is counted as critic/curator (she is a collector/museum founder); Mrinalini Mukherjee is a sculptor. Official key D retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: stem, names and all four options match the printed source. Official Final Answer Key gives D, matching the stored answer. The classification of the listed people as art critics/curators remains ambiguous; preserve the key and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q72",
             "question_no": 72,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Keyed option D (b and d) includes statement d (marble only, early centuries of Christian Era), which looks incorrect. Official key retained; confirm."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 17: all four statements and options match the printed source. Official Final Answer Key gives D, matching the stored answer. Statement (d)'s period/material claim appears inconsistent with the stated Renaissance context; preserve the official key and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov23_q73",
@@ -4449,7 +6588,7 @@
             "question_no": 30,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Official key is D (Grand Rapids). Diego Rivera's best-known surviving US mural (Detroit Industry Murals) is in Detroit (option B). Official key retained; confirm."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 6: stem and all four city options match the printed source. Official Final Answer Key gives D, matching the stored answer. The stored note records a possible conflict between the key and the best-known Rivera mural location; preserve the official D and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_dec24_q31",
@@ -4463,7 +6602,7 @@
             "question_no": 32,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Printed option C reads 'Thomas Mart Breton' (probably Thomas Hart Benton). Wording preserved as printed; official key C retained; confirm."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: the source literally prints option C as 'Thomas Mart Breton'; all four options match the stored text. Official Final Answer Key gives C, matching the stored answer. Do not silently correct the printed name to another artist; retain review flag pending confirmation of the source typo/attribution."
           },
           {
             "id": "visual_art_dec24_q33",
@@ -4491,7 +6630,7 @@
             "question_no": 36,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Official key is C (Counter). The definition given (part of a lower case letter below the x-height) corresponds to a descender (option A). Official key retained; confirm."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: stem and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The supplied definition appears to describe a descender, while the keyed answer is Counter; preserve the official key and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_dec24_q37",
@@ -4561,7 +6700,7 @@
             "question_no": 46,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Historical order is Art Nouveau, Dada, Bauhaus, Conceptual Art (c, d, b, a), which is not among the options; keyed option B (d, b, c, a) places Art Nouveau after Bauhaus. Official key retained; confirm."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 9: stem, movement list and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The usual historical sequence does not appear among the printed options; preserve the official key and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_dec24_q47",
@@ -4687,7 +6826,7 @@
             "question_no": 64,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Pairings a-iv, b-iii, c-ii, d-i correspond to option D; official key is B. Official key retained; confirm."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 13: stem, designer/product lists and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The designer-product pairing noted in the review appears to correspond to option D instead; retain official B and review flag for key/content concern."
           },
           {
             "id": "visual_art_dec24_q65",
@@ -4927,7 +7066,7 @@
             "question_no": 8,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Official key is B. In the keyed option B (a-iii, b-i, c-iv, d-ii) the pairings for 'Primary colours' (iv: Red, orange, yellow) and 'Warm colours' (ii: Cannot be mixed) look swapped relative to standard definitions; no printed option gives c-ii, d-iv. Official key retained; confirm against the official source."
+            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 4: colour-theory terms, descriptions and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The warm-colour/primary-colour pairings appear inconsistent with the descriptions; preserve official B and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov25_q9",
@@ -5130,7 +7269,7 @@
             "question_no": 37,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Official key is B (Rajasekhara). Bhamaha (option C) is the commonly cited originator of Alankara theory. Official key retained; confirm against the official source."
+            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 11: stem and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The attribution to Rajasekhara remains questionable against the commonly cited association with Bhamaha; preserve official B and retain review flag pending subject-expert resolution."
           },
           {
             "id": "visual_art_nov25_q38",
@@ -5504,7 +7643,9 @@
             "review_note": "Official answer-key letter matched in audit; exact wording/options still pending visual proofread against source question paper."
           }
         ]
-      }
+      },
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_provisional_count": 13
     }
   ],
   "other_subjects_mapping_status": [
