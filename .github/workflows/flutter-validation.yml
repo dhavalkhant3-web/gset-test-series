@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - integrate/public-administration-subject
+      - add-performing-arts-31
   pull_request:
     branches:
       - main
@@ -15,6 +16,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Performing Arts official question bank
+        run: |
+          if [ -f assets/subjects/performing_art_dance_drama_theatre/questions.json ] && [ -f tools/validate_performing_arts.py ]; then
+            python tools/validate_performing_arts.py
+          else
+            echo "Performing Arts validator skipped because the subject bank is not present in this ref."
+          fi
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
