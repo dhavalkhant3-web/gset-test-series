@@ -11,27 +11,13 @@
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 92,
-      "pending_source_verification_count": 208,
+      "source_verified_count": 94,
+      "pending_source_verification_count": 206,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 169,
       "gujarati_medium_policy": "Only transcribe Gujarati text from official Gujarati question-paper scan; currently left blank until source transcription is verified.",
       "pending_questions_by_paper": {
         "November 2023": [
-          {
-            "id": "GSET_31_NOV23_011",
-            "question_no": 11,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
-          {
-            "id": "GSET_31_NOV23_021",
-            "question_no": 21,
-            "source_verified": false,
-            "review_flag": true,
-            "review_note": "Gujarati question wording and options must be copied only from the official GSET paper where a Gujarati version is printed. No separately generated translation has been inserted. English source fields are retained; Gujarati source transcription remains pending. Official source question/option transcription remains pending. This paper has Gujarati medium; Gujarati fields must be transcribed from the official Gujarati version, not separately translated. Unit-wise mapping also pending official syllabus comparison."
-          },
           {
             "id": "GSET_31_NOV23_039",
             "question_no": 39,
