@@ -1,0 +1,84 @@
+{
+  "subject_code": "24",
+  "subject_name": "Geography",
+  "branch": "integrate-geography-24",
+  "data_status": "official_source_audit_pending",
+  "source_policy": "Do not mark questions source_verified until each question stem and all options have been compared with the official question-paper scan and its answer reconciled against the official final/corrected answer key. Preserve diagrams, tables, bilingual text, and any non-evaluated answer choices.",
+  "integration_status": "not_loaded_into_app",
+  "question_count_loaded": 0,
+  "sessions": [
+    {
+      "session": "SEP-2016",
+      "question_paper_file": "sept1624.pdf",
+      "final_answer_key_file": "sept1624 (1).pdf",
+      "expected_questions": 50,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    },
+    {
+      "session": "SEP-2018",
+      "question_paper_file": "sept1824.pdf",
+      "final_answer_key_file": "sept1824 (1).pdf",
+      "expected_questions": 100,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    },
+    {
+      "session": "NOV-2022",
+      "question_paper_file": "nov2224.pdf",
+      "final_answer_key_file": "nov2224 (1).pdf",
+      "expected_questions": 100,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    },
+    {
+      "session": "NOV-2023",
+      "question_paper_file": "nov2324.pdf",
+      "final_answer_key_file": "nov2324 (1).pdf",
+      "expected_questions": 100,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    },
+    {
+      "session": "DEC-2024",
+      "question_paper_file": "dec2424.pdf",
+      "final_answer_key_file": "dec2424 (1).pdf",
+      "expected_questions": 100,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    },
+    {
+      "session": "NOV-2025",
+      "question_paper_file": "nov2524.pdf",
+      "final_answer_key_file": "nov2524 (1).pdf",
+      "expected_questions": 100,
+      "source_available_in_chat": true,
+      "question_audit": "pending",
+      "answer_key_audit": "pending",
+      "review_flag_required": true
+    }
+  ],
+  "known_gaps": [
+    "The earlier master bundle's claim of 400 verified questions is not accepted without independent source comparison.",
+    "A September 2017 paper/key was not located among the currently available files.",
+    "A December 2021 paper/key was not located among the currently available files; do not infer that it is present.",
+    "Uploaded filenames should be confirmed against each PDF's printed examination date before importing."
+  ],
+  "next_steps": [
+    "Confirm the printed session/date on each question paper and answer key.",
+    "Transcribe question text and all options exactly from source scans; retain figure/image references.",
+    "Compare every answer with the official final/corrected key and flag discrepancies.",
+    "Add validated JSON files and integrate the subject loader/registry only after source review.",
+    "Run subject validator and GitHub Actions Debug APK build; do not merge without explicit authorization."
+  ]
+}
