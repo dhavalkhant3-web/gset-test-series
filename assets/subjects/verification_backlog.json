@@ -3630,7 +3630,7 @@
       "source_verified_count": 0,
       "pending_source_verification_count": 300,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
-      "unit_mapping_pending_count": 0,
+      "unit_mapping_pending_count": 136,
       "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; all 300 stems/options need source verification.",
       "pending_questions_by_paper": {
         "November 2023": [
@@ -5741,9 +5741,9 @@
         ]
       },
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 300,
+      "unit_mapping_provisional_count": 164,
       "review_flags_remaining_count": 300,
-      "status_note": "Current question bank: 0/300 records have source_verified=true; 300 records retain review_flag=true. 300 have provisional keyword-based unit suggestions; 0 have no suggestion. No question-level unit mapping is marked officially verified."
+      "status_note": "300 source-verification records remain pending. 164 question-level keyword suggestions are provisional based on stems/options; 136 questions remain unmapped. None is officially verified."
     },
     {
       "subject": "Visual Art",
