@@ -509,7 +509,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 13,
     "question_en": "Choose the tribal dance of the Kamar.",
-    "question_gu": "Choose the tribal dance of the Kamar.",
+    "question_gu": "કમાર જનજાતિનું નૃત્ય કયું છે?",
     "options_en": [
       "Jhumar",
       "Kalbelia",
@@ -517,10 +517,10 @@
       "Ghoomar"
     ],
     "options_gu": [
-      "Jhumar",
-      "Kalbelia",
-      "Tera Tali",
-      "Ghoomar"
+      "ઝૂમર",
+      "કાલબેલિયા",
+      "તેરા તાળી",
+      "ઘૂમર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -533,7 +533,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Identify the classical or folk form and recall its defining movement vocabulary, rhythm, expressive elements, and regional association.",
     "tip_gu": "પરીક્ષા ટીપ: શાસ્ત્રીય અથવા લોકનૃત્ય સ્વરૂપ ઓળખો અને તેની વિશિષ્ટ ગતિ, તાલ, અભિવ્યક્તિ તથા પ્રાદેશિક સંબંધ યાદ કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -543,7 +543,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_014",
@@ -551,7 +551,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 14,
     "question_en": "The Oddolanga of Karnataka is",
-    "question_gu": "The Oddolanga of Karnataka is",
+    "question_gu": "કર્ણાટકનું ‘ઓડ્ડોલંગા’ શું છે?",
     "options_en": [
       "Kutiyattam",
       "Bhagavatamela",
@@ -559,10 +559,10 @@
       "Yakshagana"
     ],
     "options_gu": [
-      "Kutiyattam",
-      "Bhagavatamela",
-      "Teyyam",
-      "Yakshagana"
+      "કુટિયાટ્ટમ",
+      "ભાગવતમેલા",
+      "તેય્યમ",
+      "યક્ષગાન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -575,7 +575,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -585,7 +585,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_015",
@@ -593,7 +593,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 15,
     "question_en": "Who is the Vice-Chancellor of Kerala Kalamandalam?",
-    "question_gu": "Who is the Vice-Chancellor of Kerala Kalamandalam?",
+    "question_gu": "કેરળ કલામંડલમના કુલપતિ કોણ છે?",
     "options_en": [
       "Kalamandalam Venu",
       "Sonal Mansingh",
@@ -601,10 +601,10 @@
       "Prof. Ananta Krishnan"
     ],
     "options_gu": [
-      "Kalamandalam Venu",
-      "Sonal Mansingh",
-      "Mrinalini Sarabhai",
-      "Prof. Ananta Krishnan"
+      "કલામંડલમ વેણુ",
+      "સોનલ માનસિંહ",
+      "મૃણાલિની સારાભાઈ",
+      "પ્રો. અનંત કૃષ્ણન"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -617,7 +617,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -627,7 +627,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_016",
@@ -635,7 +635,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 16,
     "question_en": "In which century did the practice of Kutiyattam lead to the writing of manuals and texts and practices of performance?",
-    "question_gu": "In which century did the practice of Kutiyattam lead to the writing of manuals and texts and practices of performance?",
+    "question_gu": "કુટિયાટ્ટમની પરંપરામાં પ્રદર્શન માટે માર્ગદર્શિકાઓ, ગ્રંથો અને પદ્ધતિઓ લખવાની શરૂઆત કઈ સદીમાં થઈ?",
     "options_en": [
       "11th century",
       "12th century",
@@ -643,10 +643,10 @@
       "16th century"
     ],
     "options_gu": [
-      "11th century",
-      "12th century",
-      "14th century",
-      "16th century"
+      "11મી સદી",
+      "12મી સદી",
+      "14મી સદી",
+      "16મી સદી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -659,7 +659,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Build a short chronology and compare the dates or periods in the options; avoid mixing the creator's period with the work's period.",
     "tip_gu": "પરીક્ષા ટીપ: ટૂંકી સમયરેખા બનાવો અને વિકલ્પોમાં આપેલી તારીખો અથવા સમયગાળાની સરખામણી કરો; સર્જકના સમયગાળાને કૃતિના સમયગાળા સાથે ગૂંચવશો નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -669,7 +669,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_017",
@@ -677,7 +677,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 17,
     "question_en": "To whom is the authorship of the Kutiyattam plays ‘Subhadra Dhananjayam’ and ‘Taptisamvaranam’ attributed?",
-    "question_gu": "To whom is the authorship of the Kutiyattam plays ‘Subhadra Dhananjayam’ and ‘Taptisamvaranam’ attributed?",
+    "question_gu": "‘સુભદ્રા ધનંજયમ્’ અને ‘તપ્તીસંવરણમ્’ કુટિયાટ્ટમ નાટકોના લેખક તરીકે કોને માનવામાં આવે છે?",
     "options_en": [
       "Kulasekhara",
       "Shaktibhadra",
@@ -685,10 +685,10 @@
       "Nilakantha"
     ],
     "options_gu": [
-      "Kulasekhara",
-      "Shaktibhadra",
-      "Harsha",
-      "Nilakantha"
+      "કુલશેખર",
+      "શક્તિભદ્ર",
+      "હર્ષ",
+      "નીલકંઠ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -701,7 +701,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -711,7 +711,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_018",
@@ -719,7 +719,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 18,
     "question_en": "What is the name of the first Yakshagana written in the 16th century?",
-    "question_gu": "What is the name of the first Yakshagana written in the 16th century?",
+    "question_gu": "16મી સદીમાં લખાયેલા પ્રથમ યક્ષગાનનું નામ શું છે?",
     "options_en": [
       "Harivamsa Purana",
       "Ganga Gauri Vilasam",
@@ -727,10 +727,10 @@
       "Mallinatha Purana"
     ],
     "options_gu": [
-      "Harivamsa Purana",
-      "Ganga Gauri Vilasam",
-      "Mitra-Vinda-Govinda",
-      "Mallinatha Purana"
+      "હરિવંશ પુરાણ",
+      "ગંગા ગૌરી વિલાસમ્",
+      "મિત્ર-વિંદા-ગોવિંદ",
+      "મલ્લિનાથ પુરાણ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -743,7 +743,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Build a short chronology and compare the dates or periods in the options; avoid mixing the creator's period with the work's period.",
     "tip_gu": "પરીક્ષા ટીપ: ટૂંકી સમયરેખા બનાવો અને વિકલ્પોમાં આપેલી તારીખો અથવા સમયગાળાની સરખામણી કરો; સર્જકના સમયગાળાને કૃતિના સમયગાળા સાથે ગૂંચવશો નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -753,7 +753,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_019",
@@ -761,7 +761,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 19,
     "question_en": "Who is attributed as the first writer of Tamasha?",
-    "question_gu": "Who is attributed as the first writer of Tamasha?",
+    "question_gu": "તમાશાના પ્રથમ લેખક તરીકે કોને માનવામાં આવે છે?",
     "options_en": [
       "Anant Phandi",
       "Ram Joshi",
@@ -769,10 +769,10 @@
       "P. L. Deshpande"
     ],
     "options_gu": [
-      "Anant Phandi",
-      "Ram Joshi",
-      "Venkatesh Madgulkar",
-      "P. L. Deshpande"
+      "અનંત ફાંદી",
+      "રામ જોશી",
+      "વેંકટેશ મડગુલકર",
+      "પી. એલ. દેશપાંડે"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -785,7 +785,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -795,7 +795,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_020",
@@ -803,7 +803,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 20,
     "question_en": "In the construction of the Sanskrit playhouse, the wood-work of a building like frames of windows, doors, columns etc. and carving decorative motifs is called",
-    "question_gu": "In the construction of the Sanskrit playhouse, the wood-work of a building like frames of windows, doors, columns etc. and carving decorative motifs is called",
+    "question_gu": "સંસ્કૃત નાટ્યગૃહના બાંધકામમાં બારીઓ, દરવાજા અને સ્તંભોની ચોકઠાં જેવી લાકડાની રચના તથા સુશોભનાત્મક આકૃતિઓ કોતરવાની કળાને શું કહે છે?",
     "options_en": [
       "Avalita",
       "Darukarma",
@@ -811,10 +811,10 @@
       "Akampa"
     ],
     "options_gu": [
-      "Avalita",
-      "Darukarma",
-      "Chitrajalagavaksa",
-      "Akampa"
+      "અવલિત",
+      "દારુકર્મ",
+      "ચિત્રજાલગવાક્ષ",
+      "અકંપ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -827,7 +827,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -837,7 +837,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_021",
@@ -845,7 +845,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 21,
     "question_en": "Prarochana, Amukha, Vithi and Prahasana are varieties of",
-    "question_gu": "Prarochana, Amukha, Vithi and Prahasana are varieties of",
+    "question_gu": "પ્રરોચના, આમુખ, વીથિ અને પ્રહસન કઈ બાબતના પ્રકારો છે?",
     "options_en": [
       "Avanti Pravritti",
       "Bharati Vritti",
@@ -853,10 +853,10 @@
       "Dakshinatya Pravritti"
     ],
     "options_gu": [
-      "Avanti Pravritti",
-      "Bharati Vritti",
-      "Sattvati Vritti",
-      "Dakshinatya Pravritti"
+      "અવંતી પ્રવૃત્તિ",
+      "ભારતી વૃત્તિ",
+      "સાત્ત્વતી વૃત્તિ",
+      "દાક્ષિણાત્ય પ્રવૃત્તિ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -869,7 +869,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -879,7 +879,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_022",
@@ -887,7 +887,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 22,
     "question_en": "Which of the following is NOT included in the shloka of Natya-Sangraha?",
-    "question_gu": "Which of the following is NOT included in the shloka of Natya-Sangraha?",
+    "question_gu": "નીચેના પૈકી કયો નાટ્યસંગ્રહના શ્લોકમાં સમાવાયેલો નથી?",
     "options_en": [
       "Purvaranga",
       "Rasa",
@@ -895,10 +895,10 @@
       "Vritti"
     ],
     "options_gu": [
-      "Purvaranga",
-      "Rasa",
-      "Bhava",
-      "Vritti"
+      "પૂર્વરંગ",
+      "રસ",
+      "ભાવ",
+      "વૃત્તિ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -911,7 +911,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Identify the classical or folk form and recall its defining movement vocabulary, rhythm, expressive elements, and regional association.",
     "tip_gu": "પરીક્ષા ટીપ: શાસ્ત્રીય અથવા લોકનૃત્ય સ્વરૂપ ઓળખો અને તેની વિશિષ્ટ ગતિ, તાલ, અભિવ્યક્તિ તથા પ્રાદેશિક સંબંધ યાદ કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -921,7 +921,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_023",
@@ -929,7 +929,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 23,
     "question_en": "It stands for the emotive situation presented on stage which in actual life would be responsible for arousing the emotion shown by the hero.",
-    "question_gu": "It stands for the emotive situation presented on stage which in actual life would be responsible for arousing the emotion shown by the hero.",
+    "question_gu": "મંચ પર દર્શાવવામાં આવતી એવી ભાવનાત્મક પરિસ્થિતિ, જે વાસ્તવિક જીવનમાં નાયકમાં દર્શાવાતો ભાવ જગાડે, તેને શું કહે છે?",
     "options_en": [
       "Bhava",
       "Vibhava",
@@ -937,10 +937,10 @@
       "Sanchari"
     ],
     "options_gu": [
-      "Bhava",
-      "Vibhava",
-      "Anubhava",
-      "Sanchari"
+      "ભાવ",
+      "વિભાવ",
+      "અનુભાવ",
+      "સંચારી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -953,7 +953,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -963,7 +963,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_024",
@@ -971,7 +971,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 24,
     "question_en": "Which of the following is NOT a basic or source Rasa?",
-    "question_gu": "Which of the following is NOT a basic or source Rasa?",
+    "question_gu": "નીચેના પૈકી કયો મૂળભૂત અથવા મુખ્ય રસ નથી?",
     "options_en": [
       "Shringar",
       "Vira",
@@ -979,10 +979,10 @@
       "Raudra"
     ],
     "options_gu": [
-      "Shringar",
-      "Vira",
-      "Karuna",
-      "Raudra"
+      "શૃંગાર",
+      "વીર",
+      "કરુણ",
+      "રૌદ્ર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -995,7 +995,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Identify the classical or folk form and recall its defining movement vocabulary, rhythm, expressive elements, and regional association.",
     "tip_gu": "પરીક્ષા ટીપ: શાસ્ત્રીય અથવા લોકનૃત્ય સ્વરૂપ ઓળખો અને તેની વિશિષ્ટ ગતિ, તાલ, અભિવ્યક્તિ તથા પ્રાદેશિક સંબંધ યાદ કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -1005,7 +1005,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_025",
