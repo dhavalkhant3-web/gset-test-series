@@ -73,6 +73,9 @@ def main():
         seen_questions.add(key)
         if not isinstance(q.get("question_en"), str) or not q["question_en"].strip():
             fail(f"{qid}: missing question text")
+        for field in ("explanation_en", "explanation_gu", "tip_en", "tip_gu"):
+            if not isinstance(q.get(field), str) or not q[field].strip():
+                fail(f"{qid}: missing bilingual explanation/tip field {field}")
         for field in ("options_en", "options_gu"):
             options = q.get(field)
             if not isinstance(options, list) or len(options) != 4 or any(not isinstance(x, str) for x in options):
