@@ -55,11 +55,11 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "visually_reviewed_with_specific_transcription_flags",
-      "review_note": "96 questions visually checked against the source scan; 4 low-resolution transcription item(s) remain flagged. All 100 stored answers match the official final key."
+      "source_verified": true,
+      "status": "official_pdf_text_extraction_checked",
+      "review_note": "All 100 stored answers match the official final key. The four previously flagged items were rechecked against text extracted from the official November 2025 question-paper PDF; exact extracted Sanskrit/Devanagari wording and mnemonic transcription are now stored. This status records PDF text-extraction verification, not a claim of pixel-level visual verification."
     }
   ]
 }
