@@ -4667,12 +4667,12 @@
       "correct_answer": "B",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
-      "source_verified": true,
-      "review_flag": false,
-      "review_note": null,
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer B is preserved.",
       "tip_en": "Exam tip: Aryabhata’s numeral system encodes numbers through syllables; read the printed syllable sequence carefully before mapping it to a value. Focus: “What is the number encoded in the phrase “khyughr/श्रुयु” as per Aryabhatan system of numeration ?”",
       "tip_gu": "પરીક્ષા ટીપ: આર્યભટની સંખ્યાપદ્ધતિમાં અક્ષર-સમૂહ દ્વારા સંખ્યા દર્શાવવામાં આવે છે; મૂલ્ય નક્કી કરતાં પહેલાં છપાયેલ અક્ષરક્રમ ધ્યાનથી વાંચો. ધ્યાન: “What is the number encoded in the phrase “khyughr/श्रुयु” as per Aryabhatan system of numeration ?”",
-      "verification_status": "visually_checked_against_official_scan"
+      "verification_status": "review_required_visual_source_confirmation"
     },
     {
       "id": "GSET_29_NOV25_034",
@@ -4688,12 +4688,12 @@
       "correct_answer": "A",
       "source_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
       "source_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf",
-      "source_verified": true,
-      "review_flag": false,
-      "review_note": null,
+      "source_verified": false,
+      "review_flag": true,
+      "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer A is preserved.",
       "tip_en": "Exam tip: In the Katapayadi system, map each syllable using the system’s consonant–digit rules, then check the reading order before selecting the number. Focus: “As per “Katapayadi” system of numeration, what is the number represented by the phrase “khyughr/श्रुयु”?”",
       "tip_gu": "પરીક્ષા ટીપ: કટપયાદિ પદ્ધતિમાં દરેક અક્ષરને તેના વ્યંજન-અંકના નિયમ પ્રમાણે મેળવો અને સંખ્યા પસંદ કરતાં પહેલાં વાંચનક્રમ ચકાસો. ધ્યાન: “As per “Katapayadi” system of numeration, what is the number represented by the phrase “khyughr/श्रुयु”?”",
-      "verification_status": "visually_checked_against_official_scan"
+      "verification_status": "review_required_visual_source_confirmation"
     },
     {
       "id": "GSET_29_NOV25_035",
@@ -6019,6 +6019,14 @@
     }
   ],
   "review_flags_remaining": [
+    {
+      "id": "GSET_29_NOV25_033",
+      "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer B is preserved."
+    },
+    {
+      "id": "GSET_29_NOV25_034",
+      "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer A is preserved."
+    },
     {
       "id": "GSET_29_NOV25_048",
       "review_note": "Official PDF text extraction (page 7) reads option A as “cayagiyiñuśuch!” while the current bank has “cayagiyiñūśuch!”. The vowel-length diacritic must be confirmed from the rendered official page before clearing this flag. Official final-key answer A is preserved."
