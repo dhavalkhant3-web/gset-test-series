@@ -2807,9 +2807,18 @@
       "correct_answer": "B",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "source_verified": true,
+      "review_flag": false,
+      "review_note": "",
+      "source_page_number": 11,
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. વ્યાયોગ; B. ભાણ; C. પ્રકરણ; D. વીથિ.\nસૂચિ – ૨: (i) જેમાં કોઈ ગણિકા સાથે પ્રેમ સંબંધ હોવો જોઈએ તથા કોઈ વેપારી, કામ લોલુપ અને નિમ્ન પ્રકૃતિના વ્યક્તિના કાર્યોનો સમાવેશ હોય; (ii) જે સંઘર્ષ અને લડાઈથી ભરેલું હોય છે તથા જેનો નાયક વિસ્તૃત વંશાવળી વાળો હોય; (iii) જે ૧૩ અંગોમાં વિભાજિત છે તથા જેમાં બે નાટ્ય રજૂ થાય છે; (iv) એક પાત્રિય નાટક જેમાં પાત્ર પોતાના વ્યક્તિગત અનુભવોનું વર્ણન કરે છે.\nનીચેનાં પૈકી સાચો જવાબ પસંદ કરો:",
+      "options_gu": [
+        "A(iii), B(ii), C(iv), D(i)",
+        "A(ii), B(iv), C(i), D(iii)",
+        "A(iv), B(iii), C(ii), D(i)",
+        "A(ii), B(i), C(iii), D(iv)"
+      ],
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_039",
