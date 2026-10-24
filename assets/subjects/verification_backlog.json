@@ -45,7 +45,7 @@
       "pending_source_verification_count": 206,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 165,
-      "gujarati_medium_policy": "Transcribe Gujarati only from the official Gujarati paper. No independent translations; preserve unresolved English/Gujarati discrepancies.",
+      "gujarati_medium_policy": "Where the official question paper includes Gujarati, transcribe exact Gujarati stem and all four options from the official PDF. Current blank Gujarati fields are not permission to translate; 206 records remain flagged for source review.",
       "pending_questions_by_paper": {
         "December 2024": [
           {
@@ -7654,8 +7654,26 @@
       },
       "unit_mapping_verified_count": 0,
       "unit_mapping_provisional_count": 138,
-      "status_note": "Current question bank: 44/300 records have source_verified=true; 14 records retain review_flag=true. 138 have provisional keyword-based unit suggestions; 162 have no suggestion. No question-level unit mapping is marked officially verified.",
-      "review_flags_remaining_count": 14
+      "status_note": "Current question bank: 44/300 records have source_verified=true; 14 records retain review_flag=true. 138 have provisional keyword-based unit suggestions; 162 have no suggestion. No question-level unit mapping is marked officially verified. Figure asset paths for Q91-Q100 exist across all three sessions; image content equivalence remains pending visual comparison. 14 content/key concerns remain flagged despite source wording and official answer-key letters being checked.",
+      "review_flags_remaining_count": 14,
+      "figure_asset_audit": {
+        "status": "asset_files_exist",
+        "question_range": "Q91-Q100",
+        "sessions": [
+          "November 2023",
+          "December 2024",
+          "November 2025"
+        ],
+        "files": [
+          "assets/subjects/visual_art/figures/visual_art_nov23_q91_95.jpg",
+          "assets/subjects/visual_art/figures/visual_art_nov23_q96_100.jpg",
+          "assets/subjects/visual_art/figures/visual_art_dec24_q91_95.jpg",
+          "assets/subjects/visual_art/figures/visual_art_dec24_q96_100.jpg",
+          "assets/subjects/visual_art/figures/visual_art_nov25_q91_95.jpg",
+          "assets/subjects/visual_art/figures/visual_art_nov25_q96_100.jpg"
+        ],
+        "note": "All six expected JPEG assets are present in the repository tree and referenced by the question bank. Visual content equivalence to the official paper still requires image-by-image review."
+      }
     }
   ],
   "other_subjects_mapping_status": [
