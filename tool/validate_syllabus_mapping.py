@@ -1,90 +1,106 @@
+#!/usr/bin/env python3
+"""Validate unit mapping only when explicit and syllabus-backed."""
+from __future__ import annotations
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-cfg = json.loads((ROOT / "assets/subjects/syllabus_units.json").read_text(encoding="utf-8"))
-BANKS = {
-    "mathematical_sciences": "assets/subjects/mathematical_sciences/questions.json",
-    "physical_sciences": "assets/subjects/physical_sciences/questions.json",
-    "chemical_sciences": "assets/subjects/chemical_sciences/questions.json",
+CONFIG = ROOT / "assets/subjects/syllabus_units.json"
+SUBJECTS_ROOT = ROOT / "assets/subjects"
+QUESTION_FILES = {
+    "02": "physical_sciences/questions.json",
+    "03": "chemical_sciences/questions.json",
+    "29": "indian_knowledge_system/questions.json",
+    "31": "performing_art_dance_drama_theatre/questions.json",
+    "32": "public_administration/questions.json",
+    "33": "visual_art/questions.json",
 }
+UNIT_FIELDS = ("syllabus_unit", "unit_number", "unit")
+UNIT_ID_FIELDS = ("unit_id", "unitId")
+PENDING_VALUES = {"", "pending", "pending_official_syllabus_unit_mapping", "unmapped"}
 
-def topic_unit(sid, q):
-    t = str(q.get("topic") or "").lower().strip()
-    if not t: return None
-    if sid == "chemical_sciences":
-        rules = [
-          (1, ("coordination chemistry","organometallic","bioinorganic","chemical bonding","atomic structure"), ("inorganic chemistry",)),
-          (2, ("quantum chemistry","thermodynamics","statistical mechanics","chemical kinetics","electrochemistry","solid state chemistry","polymer chemistry"), ("physical chemistry",)),
-          (3, ("stereochemistry","medicinal chemistry","supramolecular chemistry"), ("organic chemistry",)),
-          (4, ("analytical","spectroscopy","environmental","biochemistry","materials","nanoscience","nuclear chemistry","interdisciplinary","physical/environmental","physical/polymer"), ()),
-        ]
-        for n, contains, prefixes in rules:
-            if any(x in t for x in contains) or any(t == x or t.startswith(x+" -") for x in prefixes): return n
-    if sid == "physical_sciences":
-        rules = [
-          (1, ("mathematical physics","mathematical methods"), ()),
-          (2, ("classical mechanics","charged particle motion","waves"), ("relativity",)),
-          (3, ("electromagnet","electrodynamics","electrostatics","magnetism","plasma physics","radiation"), ()),
-          (4, ("quantum mechanics","quantum scattering"), ()),
-          (5, ("statistical physics","statistical mechanics","thermodynamics"), ()),
-          (6, ("electronics","experimental physics","detector","detection"), ()),
-          (7, ("atomic physics","molecular physics","optics","modern physics"), ()),
-          (8, ("solid state","condensed matter","x-ray physics","diffraction"), ()),
-          (9, ("nuclear physics","particle physics","nuclear/particle"), ()),
-        ]
-        for n, contains, equals in rules:
-            if any(x in t for x in contains) or t in equals: return n
-    return None
+def fail(message: str) -> None:
+    print("FAIL: " + message, file=sys.stderr)
+    raise SystemExit(1)
+
+def load(path: Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        fail(f"cannot parse {path.relative_to(ROOT)}: {exc}")
+
+def resolve_unit(q, units):
+    values = []
+    for field in UNIT_FIELDS + UNIT_ID_FIELDS:
+        value = q.get(field)
+        if value is not None and str(value).strip():
+            values.append((field, str(value).strip()))
+    if not values:
+        return None, None
+    number_matches = []
+    for field, value in values:
+        match = next((u for u in units if value in {
+            str(u.get("number", "")), str(u.get("id", ""))
+        }), None)
+        if match is None:
+            return None, f"{field}={value!r} does not reference a configured unit"
+        number_matches.append(str(match.get("number")))
+    if len(set(number_matches)) > 1:
+        return None, "conflicting unit fields"
+    return next(u for u in units if str(u.get("number")) == number_matches[0]), None
 
 def main():
-    errors=[]
-    for sid, rel in BANKS.items():
-        subject=cfg.get("subjects",{}).get(sid)
+    cfg = load(CONFIG)
+    subject_cfg = cfg.get("subjects", {})
+    errors = []
+    for code, rel in QUESTION_FILES.items():
+        sid = Path(rel).parts[0]
+        subject = subject_cfg.get(sid)
         if not subject:
-            errors.append(f"{sid}: missing syllabus configuration")
+            errors.append(f"{sid}: missing official syllabus configuration")
             continue
-        units=subject.get("units",[])
-        ids=[str(u.get("id","")) for u in units]
-        nums=[str(u.get("number","")) for u in units]
-        if len(ids)!=len(set(ids)) or len(nums)!=len(set(nums)):
-            errors.append(f"{sid}: duplicate syllabus unit IDs/numbers")
+        units = subject.get("units", [])
+        numbers = [str(u.get("number")) for u in units]
+        ids = [str(u.get("id")) for u in units]
+        if not units or len(numbers) != len(set(numbers)) or len(ids) != len(set(ids)):
+            errors.append(f"{sid}: missing or duplicate configured unit numbers/IDs")
             continue
-        path=ROOT/rel
-        if not path.exists():
-            print(f"{sid}: question bank absent; skipped")
+        if not str(subject.get("official_pdf", "")).startswith("https://www.gujaratset.ac.in/assets/syllabus/"):
+            errors.append(f"{sid}: official syllabus URL missing or non-GSET")
             continue
-        qs=json.loads(path.read_text(encoding="utf-8"))
-        if not isinstance(qs,list):
-            errors.append(f"{sid}: question bank root is not a list")
+        bank_path = SUBJECTS_ROOT / rel
+        if not bank_path.exists():
+            print(f"{sid}: bank absent; skipped")
             continue
-        bynum={str(u.get("number")):u for u in units}
-        counts=Counter(); seen=set(); dup=[]; unassigned=0; invalid=[]; review=0
-        for q in qs:
-            qid=str(q.get("id") or "(missing-id)")
-            if qid in seen: dup.append(qid)
+        bank = load(bank_path)
+        if not isinstance(bank, list):
+            errors.append(f"{sid}: question bank root must be a list")
+            continue
+        seen, mapped, pending = set(), Counter(), 0
+        for q in bank:
+            qid = str(q.get("id") or "(missing-id)")
+            if qid in seen:
+                errors.append(f"{sid}: duplicate question ID {qid}")
             seen.add(qid)
-            uid=str(q.get("unit_id") or q.get("unitId") or "").strip()
-            uname=str(q.get("unit") or q.get("unit_name") or q.get("unitName") or "").strip().lower()
-            target=None
-            if uid or uname:
-                for u in units:
-                    if uid in (str(u.get("id","")),str(u.get("number",""))) or (uname and uname==str(u.get("name","")).strip().lower()):
-                        target=str(u.get("number")); break
-                if target is None: invalid.append(qid)
-            else:
-                n=topic_unit(sid,q)
-                if n is not None and str(n) in bynum: target=str(n)
-            if target is None: unassigned+=1
-            else: counts[target]+=1
-            if q.get("review_flag") is True or q.get("source_verified") is False: review+=1
-        if dup: errors.append(f"{sid}: duplicate question IDs: {', '.join(dup[:10])}")
-        print(f"\n{sid}: total={len(qs)} mapped={sum(counts.values())} unassigned={unassigned} review_required={review}")
-        for u in units: print(f"  Unit {u.get('number')} — {u.get('name')}: {counts[str(u.get('number'))]}")
-        print(f"  unrecognized_explicit_unit_metadata={len(invalid)}")
-        if invalid: print("  Explicit unit metadata left unassigned: "+", ".join(invalid[:25]))
-        if unassigned: print("  Unassigned questions are intentionally excluded from unit tests; review/mapping pending.")
-    if errors: raise SystemExit("Syllabus mapping audit failed:\n- "+"\n- ".join(errors))
-    print("\nSyllabus mapping audit completed.")
-if __name__=="__main__": main()
+            unit, problem = resolve_unit(q, units)
+            if problem:
+                errors.append(f"{sid}/{qid}: invalid mapping: {problem}")
+                continue
+            if unit is None:
+                pending += 1
+                continue
+            mapped[str(unit.get("number"))] += 1
+            status = str(q.get("syllabus_mapping_status", "")).strip().lower()
+            if status in PENDING_VALUES or not status:
+                pending += 1
+        print(f"{sid} (code {code}): total={len(bank)}, explicitly_mapped={sum(mapped.values())}, pending_or_unverified={pending}")
+        for unit in units:
+            print(f"  Unit {unit.get('number')}: {mapped[str(unit.get('number'))]}")
+    if errors:
+        fail("unit-mapping validation errors:\n- " + "\n- ".join(errors))
+    print("PASS: configured syllabus references and explicit unit references are structurally valid.")
+    print("NOTE: this validator does not infer mappings; unassigned questions remain pending.")
+if __name__ == "__main__":
+    main()

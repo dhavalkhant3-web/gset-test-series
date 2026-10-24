@@ -19,6 +19,11 @@ EXPECTED_SESSIONS = {
     "November 2025": ("public_administration_nov25", 100),
 }
 VALID_ANSWERS = {"A", "B", "C", "D"}
+EXPECTED_OFFICIAL_KEYS = {
+    "November 2023": "BCDACADDACBCCBDCACDBCDADAACDADABDABCAADBDDCBCDDCDBBCCADCDBCCBCBCDBAADBACDBCDCCAABDCDABBCCBCCDBDCADBA",
+    "December 2024": "CDCBCCDBADCDBAAACBDBBDBDAADCACDAABCCCACDBACCBAACCDDBDBADBDCADBBCDAABCBCDBCCACABABAACBCABBACBDABAABAD",
+    "November 2025": "DDBDABCCAADCAABBDAACCABDCBADBBBDCDACBDDAACBBCBCCBDCDCBACCBDACAAAAABADCDDBADAACAABACDDDBACCDCADCCDBDA"
+}
 
 def fail(message):
     print(f"FAIL: {message}", file=sys.stderr)
@@ -68,13 +73,23 @@ def main():
         seen_questions.add(key)
         if not isinstance(q.get("question_en"), str) or not q["question_en"].strip():
             fail(f"{qid}: missing question text")
-        for field in ("options_en", "options_gu"):
-            options = q.get(field)
-            if not isinstance(options, list) or len(options) != 4 or any(not isinstance(x, str) for x in options):
-                fail(f"{qid}: {field} must contain exactly four strings")
+        for field in ("explanation_en", "explanation_gu", "tip_en", "tip_gu"):
+            if not isinstance(q.get(field), str) or not q[field].strip():
+                fail(f"{qid}: missing bilingual explanation/tip field {field}")
+        options_en = q.get("options_en")
+        if not isinstance(options_en, list) or len(options_en) != 4 or any(not isinstance(x, str) or not x.strip() for x in options_en):
+            fail(f"{qid}: options_en must contain exactly four non-empty strings")
+        options_gu = q.get("options_gu")
+        # Official subject medium is English; empty Gujarati options are correct and must not be auto-translated.
+        if not isinstance(options_gu, list) or (options_gu != [] and (len(options_gu) != 4 or any(not isinstance(x, str) or not x.strip() for x in options_gu))):
+            fail(f"{qid}: options_gu must be empty or four source-transcribed strings")
         answer = q.get("official_answer", q.get("answer", ""))
         if answer not in VALID_ANSWERS and not q.get("review_flag"):
             fail(f"{qid}: non-standard official answer must be review flagged")
+        expected_key = EXPECTED_OFFICIAL_KEYS[session]
+        expected_answer = expected_key[number - 1]
+        if answer != expected_answer:
+            fail(f"{qid}: stored official answer {answer!r} differs from official final key {expected_answer!r}")
         if q.get("answer") != answer and answer in VALID_ANSWERS:
             fail(f"{qid}: app answer differs from official_answer field")
         if q.get("review_flag"):
@@ -91,14 +106,16 @@ def main():
     if subject.get("source_verified") is not False:
         fail("source_verified must remain false until official source audit is complete")
     for p in papers["papers"]:
-        if p.get("source_verified") is not False or p.get("answer_key_verified") is not False:
-            fail(f"{p.get('paper_id')}: source/key verification must remain false until audit")
+        if p.get("answer_key_verified") is not True:
+            fail(f"{p.get('paper_id')}: official final answer key comparison must be recorded as verified")
+        if p.get("source_verified") is not False or p.get("question_source_verified") is not False:
+            fail(f"{p.get('paper_id')}: question wording/options must remain unverified until source audit is complete")
         if not str(p.get("question_paper_url", "")).startswith("https://www.gujaratset.ac.in/"):
             fail(f"{p.get('paper_id')}: question paper URL is not official GSET domain")
         if not str(p.get("answer_key_url", "")).startswith("https://www.gujaratset.ac.in/"):
             fail(f"{p.get('paper_id')}: answer key URL is not official GSET domain")
-    print(f"PASS: {len(bank)} questions; {len(papers['papers'])} sessions; {flags} review-flagged records.")
-    print("NOTE: structural validation only; official question and answer content audit remains separate.")
+    print(f"PASS: {len(bank)} questions; {len(papers['papers'])} sessions; {flags} review-flagged records; 300 official final-key comparisons.")
+    print("NOTE: official answer keys reconciled. Question wording/options verification remains separate; unresolved records stay flagged.")
 
 if __name__ == "__main__":
     main()

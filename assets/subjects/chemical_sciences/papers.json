@@ -26,7 +26,9 @@
       "source": "Uploaded official GSET January 2002 Chemical Sciences Paper-II + uploaded official final answer key; 50 questions present; official key matched 50/50. 10 structure/formula/source-visual questions retain review_flag and official source-page references.",
       "question_source_verified": true,
       "source_verified": false,
-      "review_count": 10
+      "review_count": 10,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec02",
@@ -97,7 +99,9 @@
         "48": "B",
         "49": "C",
         "50": "D"
-      }
+      },
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec03",
@@ -116,7 +120,9 @@
       "answer_key_extracted_count": 50,
       "review_count": 10,
       "question_source_verified": true,
-      "source_verified": false
+      "source_verified": false,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_jul04",
@@ -135,7 +141,9 @@
       "answer_key_extracted_count": 50,
       "review_count": 11,
       "question_source_verified": true,
-      "source_verified": false
+      "source_verified": false,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_jul06",
@@ -154,7 +162,9 @@
       "answer_key_extracted_count": 50,
       "review_count": 13,
       "question_source_verified": true,
-      "source_verified": false
+      "source_verified": false,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec08",
@@ -173,7 +183,9 @@
       "answer_key_extracted_count": 50,
       "review_count": 10,
       "question_source_verified": true,
-      "source_verified": false
+      "source_verified": false,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_oct10",
@@ -192,7 +204,9 @@
       "answer_key_extracted_count": 50,
       "review_count": 9,
       "question_source_verified": true,
-      "source_verified": false
+      "source_verified": false,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_oct11",
@@ -263,7 +277,9 @@
         "48": "B",
         "49": "B",
         "50": "D"
-      }
+      },
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_sep13",
@@ -334,7 +350,9 @@
         "48": "A",
         "49": "C",
         "50": "B"
-      }
+      },
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_oct14",
@@ -353,7 +371,9 @@
       "question_source_verified": true,
       "source_verified": false,
       "answer_key_extracted_count": 50,
-      "review_count": 10
+      "review_count": 10,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_sep16",
@@ -367,9 +387,18 @@
       "questions_loaded": true,
       "questions_loaded_count": 50,
       "answer_key_verified": true,
-      "status": "loaded_with_review_flags",
+      "status": "official_final_key_reconciled_source_text_transcribed_review_flag_retained",
       "visual_audit_manifest": "assets/sources/chemical_sep16_p2_visual_manifest.json",
-      "source": "Uploaded original official GSET Paper-II + uploaded final/corrected answer key; 50 questions loaded and official answer key applied; 10 visual questions audited; Q4 retained with review_flag due answer-key/source discrepancy"
+      "source": "Uploaded original official GSET Paper-II + uploaded final/corrected answer key; 50 questions loaded and official answer key applied; 10 visual questions audited; Q4 retained with review_flag due answer-key/source discrepancy",
+      "question_source_verified": false,
+      "source_verified": false,
+      "questions_count": 50,
+      "review_flags_remaining": [
+        "chemical_sep16_q4"
+      ],
+      "review_note": "Q1–Q50 question text/options are reconstructed from the official September 2016 Paper-II booklet, and all 50 answer letters match the official FINAL/CORRECTED key. Q4 remains review-flagged: source transcription is present, but the key's B answer is in tension with electron-pair counting. Keep B as official and retain the review flag.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_sep16_p3",
@@ -385,7 +414,9 @@
       "answer_key_verified": true,
       "status": "verified_complete",
       "visual_audit_manifest": "assets/sources/chemical_sep16_p3_visual_manifest.json",
-      "source": "Uploaded original official GSET Paper-III + uploaded final/corrected answer key; 75 questions loaded and official answer key applied; visual assets verified in source workflow"
+      "source": "Uploaded original official GSET Paper-III + uploaded final/corrected answer key; 75 questions loaded and official answer key applied; visual assets verified in source workflow",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_aug17",
@@ -400,7 +431,9 @@
       "questions_loaded_count": 50,
       "answer_key_verified": true,
       "status": "loaded_with_review_flags",
-      "source": "Uploaded official GSET August 2017 Chemical Sciences Paper-II + uploaded official final answer key; 50 questions present. Figure-based questions retain official-source figure references."
+      "source": "Uploaded official GSET August 2017 Chemical Sciences Paper-II + uploaded official final answer key; 50 questions present. Figure-based questions retain official-source figure references.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_sep18",
@@ -415,7 +448,9 @@
       "questions_loaded_count": 100,
       "answer_key_verified": true,
       "status": "loaded_with_review_flags",
-      "source": "Uploaded official GSET September 2018 Chemical Sciences Paper-II question paper + official final answer key"
+      "source": "Uploaded official GSET September 2018 Chemical Sciences Paper-II question paper + official final answer key",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec19",
@@ -433,7 +468,9 @@
       "source": "Uploaded GSET December 2019 Chemical Sciences Paper-II and official final answer key; 100 questions present, 70 source-verified, 30 visual/source items remain under review.",
       "question_source_verified": true,
       "source_verified": false,
-      "review_count": 30
+      "review_count": 30,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec21",
@@ -451,7 +488,9 @@
       "source": "Official GSET December 2021 (January 2022) Chemical Sciences Paper-II + official final answer key; 100 questions are present in questions.json. 67 are source-verified and 33 remain under visual/source review; original visual fidelity must be preserved from the official PDF.",
       "question_source_verified": false,
       "source_verified": false,
-      "review_count": 33
+      "review_count": 33,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_nov22",
@@ -469,7 +508,9 @@
       "source": "Uploaded official GSET November 2022 Chemical Sciences Paper-II + official final answer key; 100 questions present; visual/source fidelity requires source-page rendering.",
       "question_source_verified": true,
       "source_verified": false,
-      "review_count": 22
+      "review_count": 22,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_nov23",
@@ -484,7 +525,9 @@
       "questions_loaded_count": 100,
       "answer_key_verified": true,
       "status": "loaded_with_review_flags",
-      "source": "Uploaded official GSET November 2023 Chemical Sciences Paper-II question paper + official final answer key"
+      "source": "Uploaded official GSET November 2023 Chemical Sciences Paper-II question paper + official final answer key",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_dec24",
@@ -502,7 +545,9 @@
       "source": "Official GSET December 2024 Chemical Sciences Paper-II + official final answer key; answer key cross-checked 100/100. Question/visual source audit remains incomplete because the original question-paper PDF/crops are not present in the current repository source set.",
       "question_source_verified": false,
       "source_verified": false,
-      "review_count": 25
+      "review_count": 25,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "chemical_nov25",
@@ -520,7 +565,11 @@
       "source": "Uploaded official GSET question paper + uploaded official final answer key; 100 questions present. 19 structure/reaction/diagram questions are source-page linked for visual fidelity.",
       "question_source_verified": true,
       "source_verified": false,
-      "review_count": 19
+      "review_count": 19,
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     }
-  ]
+  ],
+  "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+  "unit_mapping_note": "Unit-wise mapping for each question has not yet been verified against the official subject syllabus. Do not assign guessed units."
 }
