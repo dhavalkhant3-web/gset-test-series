@@ -5637,7 +5637,7 @@
     "paperId": "performing_arts_nov23",
     "question_no": 39,
     "question_en": "Match List I with List II. List I: A. Salabhanjika; B. Mattavarani; C. Kuhara; D. Rajju. List II: (I) A wooden railing; (II) A cavity, hole, opening; (III) A cord; (IV) A sculpture of a young girl under a tree in a happy mood. Choose the correct answer.",
-    "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. સાલ ભંજિકા; B. મત્તવારણી; C. કુહર; D. રજ્જુ.\nસૂચિ – ૨: (i) લાકડાનો કઠેડો; (ii) પોલાણ, છિદ્ર, ઉદ્ઘાટન; (iii) દોરડું; (iv) એક નીચે એક વૃક્ષની નીચે ખુશ મિજાજ છોકરીનું શિલ્પ.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+    "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. સાલ ભંજિકા; B. મત્તવારણી; C. કુહર; D. રજ્જુ.\nસૂચિ – ૨: (i) લાકડાનો કઠેડો; (ii) પોલાણ, છિદ્ર, ઉદ્ઘાટન; (iii) દોરડું; (iv) ઝાડ નીચે એક ખુશ મિજાજ છોકરીનું શિલ્પ.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
     "options_en": [
       "A(IV), B(I), C(II), D(III)",
       "A(IV), B(II), C(III), D(I)",
@@ -5676,34 +5676,39 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "source_page_number": 12,
-    "source_review_note": "Gujarati option codes on the scanned original differ from English options; exact source text preserved and review flag retained."
+    "source_review_note": "Gujarati content checked against the original official GSET question paper, PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes; keep review_flag true and retain the official final-key answer A without normalizing the printed discrepancy."
   },
   {
     "id": "GSET_31_NOV23_040",
     "paper_id": "performing_arts_nov23",
     "paperId": "performing_arts_nov23",
     "question_no": 40,
-    "question_en": "Match List I with List II. List I: A. Natya Rasa Bhojya Rasa; B. Tadrupa Anusandhana; C. Chitra-turaga Nyaya; D. Sadharanikarana. List II: (I) Bhatta Nayaka; (II) Bharata; (III) Bhatta Lollata; (IV) Sri Sankuka. Choose the correct answer.",
-    "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. નાટ્યરસ – ભોજ્યરસ; B. તદ્રૂપ અનુસંધાન; C. ચિત્ર – તુરગ ન્યાય; D. સાધારણીકરણ.\nસૂચિ – ૨: (i) ભટ્ટ નાયક; (ii) ભરત; (iii) ભટ્ટ લોલ્લટ; (iv) શ્રી શંકુક.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
+    "question_en": "Match List I with List II. List I: A. Natya Rasa – Bhojya Rasa; B. Tadrupa Anusandhana; C. Chitra-turaga nyaya; D. Sadharanikarana. List II: (i) Bhatta Nayaka; (ii) Bharata; (iii) Bhatta Lollata; (iv) Sri Sankuka. Choose the correct answer.",
+    "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળવો.\nસૂચિ – ૧: A. નાટ્યરસ – ભોજ્ય રસ; B. તદ્રૂપ અનુસંધાન; C. ચિત્ર – તુરગ ન્યાય; D. સાધારણીકરણ.\nસૂચિ – ૨: (i) ભટ્ટ નાયક; (ii) ભરત; (iii) ભટ્ટ લોલ્લટ; (iv) શ્રી શંકુક.\nનીચેના પૈકી સાચો જવાબ પસંદ કરો:",
     "options_en": [
       "A(III), B(IV), C(II), D(I)",
       "A(IV), B(I), C(III), D(II)",
       "A(II), B(III), C(IV), D(I)",
       "A(I), B(II), C(III), D(IV)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "A(iii), B(iv), C(ii), D(i)",
+      "A(iv), B(i), C(iii), D(ii)",
+      "A(ii), B(iii), C(iv), D(i)",
+      "A(i), B(ii), C(iii), D(iv)"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Performing Arts",
     "difficulty": "medium",
-    "source_verified": false,
+    "source_verified": true,
     "image_asset": "",
     "passage_en": "",
     "passage_gu": "",
     "explanation_en": "",
     "explanation_gu": "",
-    "review_flag": true,
-    "review_note": "Gujarati stem and list labels/text were transcribed from the official PDF page 12, but the Gujarati D option is obscured by the page footer/scan crop. No missing option was reconstructed from English. Keep flagged pending a readable source copy.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Exam tip: Identify the classical or folk form and recall its defining movement vocabulary, rhythm, expressive elements, and regional association.",
     "tip_gu": "પરીક્ષા ટીપ: શાસ્ત્રીય અથવા લોકનૃત્ય સ્વરૂપ ઓળખો અને તેની વિશિષ્ટ ગતિ, તાલ, અભિવ્યક્તિ તથા પ્રાદેશિક સંબંધ યાદ કરો.",
     "answer_source": "November 2023 Final Answer Key, Performing Arts (31)",
@@ -5713,10 +5718,10 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
     "language": "en",
-    "verification_status": "source_gujarati_option_set_incomplete_review_pending",
+    "verification_status": "source_page_visually_verified",
     "syllabus_mapping_note": "Unit-wise mapping is not yet verified against the official subject syllabus. Do not assign a unit until the question is matched to the official syllabus.",
     "source_page_number": 12,
-    "source_review_note": "Gujarati D option is obscured in the official PDF scan; full source options not confirmed."
+    "source_review_note": "Original official GSET question paper, PDF page 12: English and Gujarati stems/lists and all four printed options visually checked. November 2023 official final answer key, page 1, gives C. Syllabus-unit mapping remains provisional and separate."
   },
   {
     "id": "GSET_31_NOV23_041",
