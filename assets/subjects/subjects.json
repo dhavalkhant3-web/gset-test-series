@@ -410,10 +410,11 @@
       "icon": "hub_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
+      "source_verified": true,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "official_final_keys_match_296_source_verified_4_transcription_flags_300_bilingual_exam_tips"
+      "data_status": "official_final_keys_match_296_source_verified_4_transcription_flags_300_bilingual_exam_tips",
+      "status": "official_source_text_extraction_checked"
     },
     {
       "code": "30",
