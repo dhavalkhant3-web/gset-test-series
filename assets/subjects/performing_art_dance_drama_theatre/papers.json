@@ -25,11 +25,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Original official question-paper pages 3-13 visually checked for Q1-Q10, Q12-Q20, Q22-Q27, Q28-Q38 and Q41-Q42. 38 items have complete source-page verification. Q41's stored English B/C option sequence was corrected to the official paper; final-key answer C retained. Q11/Q21 remain flagged because one Gujarati option is obscured; Q39 has cross-language option-code discrepancy; Q40's Gujarati D option is obscured. Remaining questions still need review; paper-level source_verified remains false.",
+      "review_note": "Original official question-paper pages 3-14 visually checked for Q1-Q10, Q12-Q20, Q22-Q27, Q28-Q38, Q41-Q45. 41 items have complete source-page verification. Q11/Q21 remain flagged because one Gujarati option is obscured; Q39 has cross-language option-code discrepancy; Q40's Gujarati D option is obscured. Remaining questions still need review; paper-level source_verified remains false.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
       "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
-      "source_reviewed_question_count": 38,
-      "review_flags_remaining_count": 62,
+      "source_reviewed_question_count": 41,
+      "review_flags_remaining_count": 59,
       "source_reviewed_question_ids": [
         "GSET_31_NOV23_001",
         "GSET_31_NOV23_002",
@@ -68,7 +68,10 @@
         "GSET_31_NOV23_037",
         "GSET_31_NOV23_038",
         "GSET_31_NOV23_041",
-        "GSET_31_NOV23_042"
+        "GSET_31_NOV23_042",
+        "GSET_31_NOV23_043",
+        "GSET_31_NOV23_044",
+        "GSET_31_NOV23_045"
       ],
       "review_flags_remaining_ids": [
         "GSET_31_NOV23_011",
