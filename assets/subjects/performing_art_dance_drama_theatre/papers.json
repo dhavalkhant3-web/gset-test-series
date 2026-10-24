@@ -25,7 +25,9 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending."
+      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -42,7 +44,9 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending."
+      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -59,11 +63,15 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending."
+      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     }
   ],
   "source_verified": false,
   "question_source_verified": false,
   "status": "official_key_reconciled_question_text_audit_pending",
-  "review_note": "All 300 stored answer letters are checked against the official final-key sequences. Full independent question text and option transcription audit remains pending. Do not treat the subject as fully source-verified."
+  "review_note": "All 300 stored answer letters are checked against the official final-key sequences. Full independent question text and option transcription audit remains pending. Do not treat the subject as fully source-verified.",
+  "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+  "unit_mapping_note": "Unit-wise mapping for each question has not yet been verified against the official subject syllabus. Do not assign guessed units."
 }
