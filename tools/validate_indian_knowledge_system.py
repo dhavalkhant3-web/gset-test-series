@@ -99,7 +99,7 @@ def main() -> None:
             if not isinstance(q.get("review_note"), str) or not q["review_note"].strip():
                 fail(f"Flagged item has no review note: {q.get('id')}")
         elif q.get("source_verified") is not True:
-            fail(f"Unflagged item must be visually verified: {q.get('id')}")
+            fail(f"Unflagged item must be source verified: {q.get('id')}")
 
         aq = audit_by_id[q["id"]]
         if aq.get("exam_session") != session or aq.get("question_number") != number:
@@ -167,7 +167,7 @@ def main() -> None:
     print(f"PASS: distinct tips — English {len({q['tip_en'] for q in app})}, Gujarati {len({q['tip_gu'] for q in app})}")
     print(f"Source review flags remaining: {sum(flags.values())}")
     for session in SESSION_META:
-        print(f"  {session}: {counts[session]} questions; {counts[session] - flags[session]} visually verified; {flags[session]} flagged")
+        print(f"  {session}: {counts[session]} questions; {counts[session] - flags[session]} source verified; {flags[session]} flagged")
 
 if __name__ == "__main__":
     main()
