@@ -5741,10 +5741,10 @@
       "subject": "Visual Art",
       "subject_code": "33",
       "total_questions": 300,
-      "source_verified_count": 30,
-      "pending_source_verification_count": 270,
+      "source_verified_count": 44,
+      "pending_source_verification_count": 256,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
-      "unit_mapping_pending_count": 287,
+      "unit_mapping_pending_count": 162,
       "gujarati_medium_policy": "30 records are marked source-verified; 14 content/answer concerns and 30 figure-based items remain under review; do not mark the subject complete.",
       "pending_questions_by_paper": {
         "November 2023": [
@@ -7645,7 +7645,8 @@
         ]
       },
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 13
+      "unit_mapping_provisional_count": 138,
+      "status_note": "14 content/answer concerns remain flagged although question text/options and official final-key letters are source-checked. Figure assets for Q91-100 exist for all three sessions. Provisional keyword mapping only; official syllabus confirmation pending."
     }
   ],
   "other_subjects_mapping_status": [
