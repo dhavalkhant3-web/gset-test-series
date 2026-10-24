@@ -26,8 +26,8 @@
       "source_verified": true,
       "status": "visually_verified",
       "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_note": "Provisional topic-based unit suggestions exist for 163/300 questions; 137 remain unmapped. No mappings are officially verified; retained suggestions require manual confirmation against the official GSET IKS syllabus and source question."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -45,8 +45,8 @@
       "source_verified": true,
       "status": "visually_verified",
       "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_note": "Provisional topic-based unit suggestions exist for 163/300 questions; 137 remain unmapped. No mappings are officially verified; retained suggestions require manual confirmation against the official GSET IKS syllabus and source question."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -65,10 +65,10 @@
       "status": "visually_verified",
       "review_note": "All 100 questions visually checked against the official GSET November 2025 question-paper scan; Q33/Q34 Devanagari phrase confirmed as ख्युयु, Q48 option A diacritic confirmed, and Q75 options confirmed as क / छ / स / य. All 100 stored answers match the official Final Answer Key.",
       "review_count": 0,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional content-based mapping suggestions have been added to 162 of 300 questions (not verified). The remaining 138 questions stay unmapped. Manually validate all suggestions against the official syllabus before marking mappings verified."
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_note": "Provisional topic-based unit suggestions exist for 163/300 questions; 137 remain unmapped. No mappings are officially verified; retained suggestions require manual confirmation against the official GSET IKS syllabus and source question."
     }
   ],
-  "unit_mapping_status": "provisional_content_based_pending_official_verification",
-  "unit_mapping_note": "Provisional content-based unit suggestions exist for 162/300 questions. Remaining unmapped: 138. All suggestions require official syllabus review; no unit mapping is marked verified."
+  "unit_mapping_status": "partial_provisional_mapping_review_pending",
+  "unit_mapping_note": "163/300 questions have provisional content-based unit suggestions; 137 are unmapped. No mapping is officially verified. Manual syllabus review remains pending."
 }
