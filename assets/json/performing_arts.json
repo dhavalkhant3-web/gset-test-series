@@ -2753,9 +2753,18 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "source_verified": true,
+      "review_flag": false,
+      "review_note": "",
+      "source_page_number": 10,
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળ કરો:\nસૂચિ – ૧: A. વિદ્યાધર ગોખલે; B. કાકા સાહેબ ખાંડિલકર; C. અરુણ સાધુ; D. અન્નાસાહેબ કિર્લોસ્કર.\nસૂચિ – ૨: (I) સંગીત સુભદ્રા; (II) પડઘમ; (III) સુવર્ણલતા; (IV) માનાપમાન.\nનીચેનાં વિકલ્પોમાંથી સાચો જવાબ શોધો.",
+      "options_gu": [
+        "A(I), B(II), C(III), D(IV)",
+        "A(II), B(III), C(IV), D(I)",
+        "A(IV), B(I), C(II), D(III)",
+        "A(III), B(IV), C(II), D(I)"
+      ],
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_037",
@@ -2771,9 +2780,18 @@
       "correct_answer": "D",
       "source_paper": "nov2331.pdf",
       "source_answer_key": "November 2023 Final Answer Key, Performing Arts (31)",
-      "source_verified": false,
-      "review_flag": true,
-      "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed."
+      "source_verified": true,
+      "review_flag": false,
+      "review_note": "",
+      "source_page_number": 10,
+      "question_gu": "સૂચિ-૧ ને સૂચિ-૨ સાથે મેળ કરો:\nસૂચિ – ૧: A. વક્રપાણી; B. સંઘોટન; C. માર્ગસારિત; D. અસારિત.\nસૂચિ – ૨: (i) હાથથી થાપ આપી ચર્મવાદ્યોને તપાસવા / પરીક્ષણ; (ii) તાલનો નિર્ણય અથવા નક્કી કરવો; (iii) વાદ્ય યંત્રોના અલગથી સ્વર મેળવવા; (iv) ગાયન નું વાદ્યયંત્રો સાથે ધ્વનિ પરીક્ષણ.\nનીચેનાં વિકલ્પોમાંથી સાચો જવાબ શોધો.",
+      "options_gu": [
+        "A(ii), B(iv), C(iii), D(i)",
+        "A(iii), B(ii), C(iv), D(i)",
+        "A(iv), B(iii), C(ii), D(i)",
+        "A(iii), B(i), C(iv), D(ii)"
+      ],
+      "verification_status": "source_page_visually_verified"
     },
     {
       "id": "GSET_31_NOV23_038",
