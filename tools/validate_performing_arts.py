@@ -149,8 +149,8 @@ def main() -> None:
             fail(f"Stale count in papers.json for {p.get('exam')}")
         if p.get("source_verified") is not False or p.get("question_source_verified") is not False:
             fail(f"Paper-level source verification must remain pending for {p.get('exam')}")
-        if "verified" not in str(p.get("status", "")).lower():
-            fail(f"Paper status must reflect completed source review: {p.get('exam')}")
+        if "pending" not in str(p.get("status", "")).lower() or "audit" not in str(p.get("status", "")).lower():
+            fail(f"Paper status must explicitly reflect pending source audit: {p.get('exam')}")
         session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
         if len(session_records) != 100 or not all(q.get("review_flag") is True and q.get("source_verified") is False and q.get("review_note") for q in session_records):
             fail(f"All records must remain explicitly flagged until source review is complete for {p.get('exam')}")
