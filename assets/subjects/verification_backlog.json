@@ -11,38 +11,40 @@
       "subject": "Chemical Sciences",
       "subject_code": "03",
       "total_questions": 1250,
-      "source_verified_count": 936,
-      "pending_source_verification_count": 314,
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_pending_count": 1250,
+      "source_verified_count": 1004,
+      "pending_source_verification_count": 246,
+      "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
+      "unit_mapping_pending_count": 540,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 0,
+      "unit_mapping_provisional_count": 710,
       "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; never insert English text as Gujarati.",
       "pending_questions_by_paper": {},
-      "status_note": "Combined bank has 1,250 question records; separate archive/overlay assets require their own audit. 936 source_verified flags are present, but 314 records still require source review. Unit mapping has not started."
+      "status_note": "Current question bank: 1004/1250 records have source_verified=true; 314 records retain review_flag=true. 710 have provisional keyword-based unit suggestions; 540 have no suggestion. No question-level unit mapping is marked officially verified.",
+      "review_flags_remaining_count": 314
     },
     {
       "subject": "Physical Sciences",
       "subject_code": "02",
       "total_questions": 1300,
-      "source_verified_count": 870,
-      "pending_source_verification_count": 430,
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_pending_count": 1300,
+      "source_verified_count": 892,
+      "pending_source_verification_count": 408,
+      "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
+      "unit_mapping_pending_count": 581,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 0,
+      "unit_mapping_provisional_count": 719,
       "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; never insert English text as Gujarati.",
       "pending_questions_by_paper": {},
-      "status_note": "Combined bank has 1,300 question records; separate archive/overlay assets require their own audit. 870 source_verified flags are present, but 430 records still require source review. Unit mapping has not started."
+      "status_note": "Current question bank: 892/1300 records have source_verified=true; 374 records retain review_flag=true. 719 have provisional keyword-based unit suggestions; 581 have no suggestion. No question-level unit mapping is marked officially verified.",
+      "review_flags_remaining_count": 374
     },
     {
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 92,
-      "pending_source_verification_count": 208,
+      "source_verified_count": 94,
+      "pending_source_verification_count": 206,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
-      "unit_mapping_pending_count": 169,
+      "unit_mapping_pending_count": 165,
       "gujarati_medium_policy": "Transcribe Gujarati only from the official Gujarati paper. No independent translations; preserve unresolved English/Gujarati discrepancies.",
       "pending_questions_by_paper": {
         "December 2024": [
@@ -1495,7 +1497,9 @@
         ]
       },
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 131
+      "unit_mapping_provisional_count": 135,
+      "review_flags_remaining_count": 206,
+      "status_note": "Current question bank: 94/300 records have source_verified=true; 206 records retain review_flag=true. 135 have provisional keyword-based unit suggestions; 165 have no suggestion. No question-level unit mapping is marked officially verified."
     },
     {
       "subject": "Indian Knowledge System",
@@ -1504,7 +1508,7 @@
       "source_verified_count": 0,
       "pending_source_verification_count": 300,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
-      "unit_mapping_pending_count": 137,
+      "unit_mapping_pending_count": 191,
       "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; all 300 question stems/options need independent visual verification.",
       "pending_questions_by_paper": {
         "November 2023": [
@@ -3615,7 +3619,9 @@
         ]
       },
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 163
+      "unit_mapping_provisional_count": 109,
+      "review_flags_remaining_count": 300,
+      "status_note": "Current question bank: 0/300 records have source_verified=true; 300 records retain review_flag=true. 109 have provisional keyword-based unit suggestions; 191 have no suggestion. No question-level unit mapping is marked officially verified."
     },
     {
       "subject": "Public Administration",
@@ -3624,7 +3630,7 @@
       "source_verified_count": 0,
       "pending_source_verification_count": 300,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
-      "unit_mapping_pending_count": 166,
+      "unit_mapping_pending_count": 0,
       "gujarati_medium_policy": "Official medium is English. Gujarati fields must remain blank; all 300 stems/options need source verification.",
       "pending_questions_by_paper": {
         "November 2023": [
@@ -5735,7 +5741,9 @@
         ]
       },
       "unit_mapping_verified_count": 0,
-      "unit_mapping_provisional_count": 134
+      "unit_mapping_provisional_count": 300,
+      "review_flags_remaining_count": 300,
+      "status_note": "Current question bank: 0/300 records have source_verified=true; 300 records retain review_flag=true. 300 have provisional keyword-based unit suggestions; 0 have no suggestion. No question-level unit mapping is marked officially verified."
     },
     {
       "subject": "Visual Art",
@@ -7646,7 +7654,8 @@
       },
       "unit_mapping_verified_count": 0,
       "unit_mapping_provisional_count": 138,
-      "status_note": "14 content/answer concerns remain flagged although question text/options and official final-key letters are source-checked. Figure assets for Q91-100 exist for all three sessions. Provisional keyword mapping only; official syllabus confirmation pending."
+      "status_note": "Current question bank: 44/300 records have source_verified=true; 14 records retain review_flag=true. 138 have provisional keyword-based unit suggestions; 162 have no suggestion. No question-level unit mapping is marked officially verified.",
+      "review_flags_remaining_count": 14
     }
   ],
   "other_subjects_mapping_status": [
