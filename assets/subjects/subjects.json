@@ -504,7 +504,25 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 official-final-key matches; 30 grouped-figure items visually checked, mapped to source crops, and verified; 14 content/answer concerns remain flagged; remaining question text/options are not yet fully source-verified."
+      "data_status": "300 final-key matches recorded; 30 grouped-figure items visually checked; 14 content/answer concerns remain flagged; unit mapping partially provisional; full question text/options source audit pending.",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_counts": {
+        "provisional": 13,
+        "pending": 287,
+        "verified": 0,
+        "by_unit": {
+          "1": 2,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 2,
+          "6": 5,
+          "7": 0,
+          "8": 2,
+          "9": 0,
+          "10": 0
+        }
+      }
     },
     {
       "code": "34",
