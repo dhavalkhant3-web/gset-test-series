@@ -1,0 +1,27 @@
+name: Visual Art Paper-II validation
+on:
+  pull_request:
+    paths:
+      - "assets/subjects/visual_art/**"
+      - "assets/subjects/subjects.json"
+      - "tools/validate_visual_art.py"
+      - ".github/workflows/visual-art-validation.yml"
+  push:
+    branches: ["audit-visual-art-paper2-33"]
+    paths:
+      - "assets/subjects/visual_art/**"
+      - "assets/subjects/subjects.json"
+      - "tools/validate_visual_art.py"
+      - ".github/workflows/visual-art-validation.yml"
+permissions:
+  contents: read
+jobs:
+  validate-visual-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Visual Art official question bank and final keys
+        run: python tools/validate_visual_art.py
