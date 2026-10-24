@@ -25,9 +25,23 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_audit_pending",
-      "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
+      "review_note": "Original official question-paper pages 3-4 were visually checked for November 2023 Q1-Q10. All ten English stems/options match the paper, and the original Gujarati stems/four options have been transcribed. The remaining 90 questions still require source-page review; paper-level source_verified stays false.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified."
+      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
+      "source_reviewed_question_count": 10,
+      "review_flags_remaining_count": 90,
+      "source_reviewed_question_ids": [
+        "GSET_31_NOV23_001",
+        "GSET_31_NOV23_002",
+        "GSET_31_NOV23_003",
+        "GSET_31_NOV23_004",
+        "GSET_31_NOV23_005",
+        "GSET_31_NOV23_006",
+        "GSET_31_NOV23_007",
+        "GSET_31_NOV23_008",
+        "GSET_31_NOV23_009",
+        "GSET_31_NOV23_010"
+      ]
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -46,7 +60,10 @@
       "status": "official_final_key_reconciled_question_text_audit_pending",
       "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified."
+      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
+      "source_reviewed_question_count": 0,
+      "review_flags_remaining_count": 100,
+      "source_reviewed_question_ids": []
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -65,7 +82,10 @@
       "status": "official_final_key_reconciled_question_text_audit_pending",
       "review_note": "Official final answer key reconciliation is separate from stem/options verification. The complete question-paper scan audit remains pending.",
       "unit_mapping_status": "provisional_content_based_pending_official_verification",
-      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified."
+      "unit_mapping_note": "Provisional topic-based suggestions added to 131/300 questions. The remaining 169 questions stay unmapped. All suggestions require official syllabus and Dance vs Drama/Theatre stream validation; no mappings are marked verified.",
+      "source_reviewed_question_count": 0,
+      "review_flags_remaining_count": 100,
+      "source_reviewed_question_ids": []
     }
   ],
   "source_verified": false,
