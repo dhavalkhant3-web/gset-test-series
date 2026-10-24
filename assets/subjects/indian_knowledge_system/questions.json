@@ -9766,14 +9766,14 @@
     "official_answer": "B",
     "topic": "Indian Knowledge System",
     "difficulty": "medium",
-    "source_verified": true,
+    "source_verified": false,
     "image_asset": "",
     "passage_en": "",
     "passage_gu": "",
     "explanation_en": "",
     "explanation_gu": "",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer B is preserved.",
     "tip_en": "Exam tip: Aryabhata’s numeral system encodes numbers through syllables; read the printed syllable sequence carefully before mapping it to a value. Focus: “What is the number encoded in the phrase “khyughr/श्रुयु” as per Aryabhatan system of numeration ?”",
     "tip_gu": "પરીક્ષા ટીપ: આર્યભટની સંખ્યાપદ્ધતિમાં અક્ષર-સમૂહ દ્વારા સંખ્યા દર્શાવવામાં આવે છે; મૂલ્ય નક્કી કરતાં પહેલાં છપાયેલ અક્ષરક્રમ ધ્યાનથી વાંચો. ધ્યાન: “What is the number encoded in the phrase “khyughr/श्रुयु” as per Aryabhatan system of numeration ?”",
     "answer_source": "GSET November 2025 official Final Answer Key, Paper-II Subject Code 29",
@@ -9783,7 +9783,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "visually_checked_against_official_scan"
+    "verification_status": "review_required_visual_source_confirmation"
   },
   {
     "id": "GSET_29_NOV25_034",
@@ -9808,14 +9808,14 @@
     "official_answer": "A",
     "topic": "Indian Knowledge System",
     "difficulty": "medium",
-    "source_verified": true,
+    "source_verified": false,
     "image_asset": "",
     "passage_en": "",
     "passage_gu": "",
     "explanation_en": "",
     "explanation_gu": "",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Official PDF text extraction (page 4) reads “khyughr/श्रुयु”, while the previous bank had “khyughr/ख्युयु”. The stem and tips now follow the extracted text, but exact Devanagari glyphs must be visually confirmed on the rendered page before clearing this flag. Official final-key answer A is preserved.",
     "tip_en": "Exam tip: In the Katapayadi system, map each syllable using the system’s consonant–digit rules, then check the reading order before selecting the number. Focus: “As per “Katapayadi” system of numeration, what is the number represented by the phrase “khyughr/श्रुयु”?”",
     "tip_gu": "પરીક્ષા ટીપ: કટપયાદિ પદ્ધતિમાં દરેક અક્ષરને તેના વ્યંજન-અંકના નિયમ પ્રમાણે મેળવો અને સંખ્યા પસંદ કરતાં પહેલાં વાંચનક્રમ ચકાસો. ધ્યાન: “As per “Katapayadi” system of numeration, what is the number represented by the phrase “khyughr/श्रुयु”?”",
     "answer_source": "GSET November 2025 official Final Answer Key, Paper-II Subject Code 29",
@@ -9825,7 +9825,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "visually_checked_against_official_scan"
+    "verification_status": "review_required_visual_source_confirmation"
   },
   {
     "id": "GSET_29_NOV25_035",
