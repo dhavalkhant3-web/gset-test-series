@@ -67,7 +67,7 @@ def main():
         if not units or len(numbers) != len(set(numbers)) or len(ids) != len(set(ids)):
             errors.append(f"{sid}: missing or duplicate configured unit numbers/IDs")
             continue
-        if not str(subject.get("official_pdf", "")).startswith("https://www.gujaratset.ac.in/assets/syllabus/"):
+        if not str(subject.get("official_pdf", "")).startswith(("https://www.gujaratset.ac.in/assets/syllabus/", "https://gujaratset.ac.in/assets/syllabus/")):
             errors.append(f"{sid}: official syllabus URL missing or non-GSET")
             continue
         bank_path = SUBJECTS_ROOT / rel
