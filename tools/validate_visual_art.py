@@ -86,6 +86,17 @@ def main() -> None:
             fail(f"{qid}: paper_id mismatch")
         if not isinstance(q.get("question_en"), str) or not q["question_en"].strip():
             fail(f"{qid}: missing English question stem")
+        for field in ("explanation_en", "explanation_gu", "tip_en", "tip_gu"):
+            if not isinstance(q.get(field), str) or not q[field].strip():
+                fail(f"{qid}: missing bilingual explanation/exam-tip field {field}")
+        if q.get("source_verified") is True:
+            if not (q.get("has_figure") and 91 <= number <= 100 and q.get("verification_status") == "visually_checked_against_official_scan"):
+                fail(f"{qid}: source_verified=true is reserved for the visually checked figure block in this partial audit")
+        if q.get("has_figure") and 91 <= number <= 100:
+            if q.get("source_verified") is not True or q.get("review_flag") is True:
+                fail(f"{qid}: figure question must retain its visual source verification status")
+            if not q.get("source_page"):
+                fail(f"{qid}: visually checked figure question is missing its printed source page")
         for field in ("options_en", "options_gu"):
             options = q.get(field)
             if not isinstance(options, list) or len(options) != 4 or any(not isinstance(v, str) for v in options):
@@ -120,6 +131,17 @@ def main() -> None:
                 fail(f"{qid}: figure question has no image_asset")
             if not (ROOT / asset).is_file():
                 fail(f"{qid}: missing referenced figure asset {asset}")
+
+    expected_review_counts = {"November 2023": 7, "December 2024": 5, "November 2025": 2}
+    observed_review_counts = {
+        session: sum(1 for q in bank if q.get("exam_session") == session and q.get("review_flag"))
+        for session in EXPECTED_SESSIONS
+    }
+    if observed_review_counts != expected_review_counts:
+        fail(f"review-flag counts do not match the recorded source audit: {observed_review_counts}")
+    for paper in papers_doc["papers"]:
+        if paper.get("review_count") != expected_review_counts.get(paper.get("exam")):
+            fail(f"{paper.get('paper_id')}: review_count does not match question-level flags")
 
     if mismatches:
         fail("official final-key mismatches: " + "; ".join(mismatches[:20]))
