@@ -106,7 +106,9 @@ def main() -> None:
                 fail(f"Review-flagged question has no review_note: {q.get('id')}")
         else:
             if q.get("source_verified") is not True:
-                fail(f"Unflagged question must remain source_verified=true or receive review_flag: {q.get('id')}")
+                fail(f"Unflagged question must be source verified or receive review_flag: {q.get('id')}")
+            if q.get("verification_status") != "source_page_visually_verified" or not isinstance(q.get("source_page_number"), int) or q.get("source_page_number") < 1:
+                fail(f"Unflagged question lacks source-page verification evidence: {q.get('id')}")
             verified_by_session[session] += 1
         app_by_session[session] += 1
 
@@ -152,8 +154,12 @@ def main() -> None:
         if "pending" not in str(p.get("status", "")).lower() or "audit" not in str(p.get("status", "")).lower():
             fail(f"Paper status must explicitly reflect pending source audit: {p.get('exam')}")
         session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
-        if len(session_records) != 100 or not all(q.get("review_flag") is True and q.get("source_verified") is False and q.get("review_note") for q in session_records):
-            fail(f"All records must remain explicitly flagged until source review is complete for {p.get('exam')}")
+        if len(session_records) != 100:
+            fail(f"Each session must contain 100 records while paper-level source review remains pending for {p.get('exam')}")
+        if p.get("source_reviewed_question_count", 0) != sum(1 for q in session_records if q.get("source_verified") is True):
+            fail(f"Paper-level reviewed-question count differs from verified records for {p.get('exam')}")
+        if p.get("review_flags_remaining_count", 100) != sum(1 for q in session_records if q.get("review_flag") is True):
+            fail(f"Paper-level remaining flag count differs from question records for {p.get('exam')}")
 
     subject = next((s for s in subjects_doc.get("subjects", []) if s.get("code") == "31"), None)
     if not subject:
