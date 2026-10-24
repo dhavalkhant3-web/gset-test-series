@@ -58,9 +58,9 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "source_verified_with_review_flags_pending_visual_confirmation",
-      "review_note": "98/100 questions currently source-verified. Q48 retains a pending vowel-length/diacritic visual check; Q75 retains a pending Devanagari-option visual check because PDF text extraction conflicts with the stored glyphs. Q33/Q34 were aligned to the exact official PDF transcription (“khyughr/श्रुयु”). All 100 stored answers match the official final key.",
-      "review_count": 2
+      "status": "source_review_pending_four_visual_items",
+      "review_note": "96/100 questions currently source-verified. Q33/Q34: official PDF text extraction prints “khyughr/श्रुयु”, differing from the previous bank transcription; the candidate text is updated but exact Devanagari glyphs need visual confirmation. Q48: vowel-length mark differs between PDF text extraction and stored option. Q75: PDF text extraction conflicts with stored Devanagari options. Keep all four flagged until rendered-page inspection. All 100 stored answers match the official final key.",
+      "review_count": 4
     }
   ]
 }
