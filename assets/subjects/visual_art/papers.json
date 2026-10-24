@@ -25,7 +25,7 @@
       "answer_key_verified": true,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "official_final_key_reconciled_question_source_review_in_progress",
+      "status": "source_verified_subset_content_review_flags_open_mapping_provisional",
       "review_flags_remaining": [
         "visual_art_nov23_q17",
         "visual_art_nov23_q62",
@@ -37,8 +37,11 @@
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Official final-key answers remain reconciled. The November 2023 flagged question(s) have been visually compared with their cited original source pages; each still has an unresolved content/answer concern and remains review-flagged. This does not certify the other questions in the session; full-paper stem/options audit and unit mapping remain incomplete.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based provisional unit suggestions exist for some questions; none is officially verified. Confirm each against the full official syllabus.",
+      "source_reviewed_question_count": 17,
+      "review_flags_remaining_count": 7,
+      "review_count": 7
     },
     {
       "paper_id": "visual_art_dec24",
@@ -55,7 +58,7 @@
       "answer_key_verified": true,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "official_final_key_reconciled_question_source_review_in_progress",
+      "status": "source_verified_subset_content_review_flags_open_mapping_provisional",
       "review_flags_remaining": [
         "visual_art_dec24_q30",
         "visual_art_dec24_q32",
@@ -65,8 +68,11 @@
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Official final-key answers remain reconciled. The December 2024 flagged question(s) have been visually compared with their cited original source pages; each still has an unresolved content/answer concern and remains review-flagged. This does not certify the other questions in the session; full-paper stem/options audit and unit mapping remain incomplete.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based provisional unit suggestions exist for some questions; none is officially verified. Confirm each against the full official syllabus.",
+      "source_reviewed_question_count": 15,
+      "review_flags_remaining_count": 5,
+      "review_count": 5
     },
     {
       "paper_id": "visual_art_nov25",
@@ -83,15 +89,18 @@
       "answer_key_verified": true,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "official_final_key_reconciled_question_source_review_in_progress",
+      "status": "source_verified_subset_content_review_flags_open_mapping_provisional",
       "review_flags_remaining": [
         "visual_art_nov25_q8",
         "visual_art_nov25_q37"
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Official final-key answers remain reconciled. The November 2025 flagged question(s) have been visually compared with their cited original source pages; each still has an unresolved content/answer concern and remains review-flagged. This does not certify the other questions in the session; full-paper stem/options audit and unit mapping remain incomplete.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_note": "Keyword-based provisional unit suggestions exist for some questions; none is officially verified. Confirm each against the full official syllabus.",
+      "source_reviewed_question_count": 12,
+      "review_flags_remaining_count": 2,
+      "review_count": 2
     }
   ],
   "unit_mapping_status": "partial_provisional_mapping_review_pending",
