@@ -5,7 +5,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 1,
     "question_en": "Where is the mention of 'USHA SUKTA' found?",
-    "question_gu": "Where is the mention of 'USHA SUKTA' found?",
+    "question_gu": "‘ઉષા સૂક્ત’નો ઉલ્લેખ ક્યાં મળે છે?",
     "options_en": [
       "Meghadootam",
       "Vedas",
@@ -13,10 +13,10 @@
       "Bhagwat"
     ],
     "options_gu": [
-      "Meghadootam",
-      "Vedas",
-      "Vikramorvashiyam",
-      "Bhagwat"
+      "મેઘદૂતમ્",
+      "વેદો",
+      "વિક્રમોર્વશીયમ્",
+      "ભાગવત"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -29,7 +29,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a place or origin question, distinguish the place of origin from places where the art later developed or became popular.",
     "tip_gu": "પરીક્ષા ટીપ: સ્થળ અથવા ઉદ્ભવના પ્રશ્નમાં કળાના મૂળ સ્થળને પછીના વિકાસ કે લોકપ્રિયતા ધરાવતા સ્થળથી અલગ ઓળખો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts",
@@ -39,7 +39,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_002",
@@ -47,7 +47,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 2,
     "question_en": "Who is the founder of ‘Gaudiya Sampradaya’ of Vaishnavism?",
-    "question_gu": "Who is the founder of ‘Gaudiya Sampradaya’ of Vaishnavism?",
+    "question_gu": "વૈષ્ણવ ધર્મની ‘ગૌડિય સંપ્રદાય’ના સ્થાપક કોણ છે?",
     "options_en": [
       "Ramanandacharya",
       "Ramanujacharya",
@@ -55,10 +55,10 @@
       "Madhavdev"
     ],
     "options_gu": [
-      "Ramanandacharya",
-      "Ramanujacharya",
-      "Chaitanya Mahaprabhu",
-      "Madhavdev"
+      "રામાનંદાચાર્ય",
+      "રામાનુજાચાર્ય",
+      "ચૈતન્ય મહાપ્રભુ",
+      "માધવદેવ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -71,7 +71,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -81,7 +81,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_003",
@@ -89,7 +89,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 3,
     "question_en": "Neck, Elbow and Knees are known as",
-    "question_gu": "Neck, Elbow and Knees are known as",
+    "question_gu": "ગરદન, કોણી અને ઘૂંટણને શું કહેવામાં આવે છે?",
     "options_en": [
       "Ang",
       "Ardhanga",
@@ -97,10 +97,10 @@
       "Upanga"
     ],
     "options_gu": [
-      "Ang",
-      "Ardhanga",
-      "Pratyanga",
-      "Upanga"
+      "અંગ",
+      "અર્ધાંગ",
+      "પ્રત્યંગ",
+      "ઉપાંગ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -113,7 +113,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -123,7 +123,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_004",
@@ -131,7 +131,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 4,
     "question_en": "Who among the following Mughal rulers patronised the classical dance Kathak?",
-    "question_gu": "Who among the following Mughal rulers patronised the classical dance Kathak?",
+    "question_gu": "નીચેના મુઘલ શાસકોમાંથી કયા શાસકે શાસ્ત્રીય નૃત્ય કથકને આશ્રય આપ્યો હતો?",
     "options_en": [
       "Akbar",
       "Nawab Wajid Ali Shah",
@@ -139,10 +139,10 @@
       "Humayun"
     ],
     "options_gu": [
-      "Akbar",
-      "Nawab Wajid Ali Shah",
-      "Aurangzeb",
-      "Humayun"
+      "અકબર",
+      "નવાબ વાજિદ અલી શાહ",
+      "ઔરંગઝેબ",
+      "હુમાયૂં"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -155,7 +155,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -165,7 +165,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_005",
@@ -173,7 +173,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 5,
     "question_en": "Who wrote ‘Geetavali’, ‘Kavitavali’, ‘Janki-Mangal’ and ‘Parvati-Mangal’?",
-    "question_gu": "Who wrote ‘Geetavali’, ‘Kavitavali’, ‘Janki-Mangal’ and ‘Parvati-Mangal’?",
+    "question_gu": "‘ગીતાવલી’, ‘કવિતાવલી’, ‘જાનકી-મંગલ’ અને ‘પાર્વતી-મંગલ’ના રચયિતા કોણ છે?",
     "options_en": [
       "Tulsidas",
       "Surdas",
@@ -181,10 +181,10 @@
       "Vitthal Nath"
     ],
     "options_gu": [
-      "Tulsidas",
-      "Surdas",
-      "Nabhadas",
-      "Vitthal Nath"
+      "તુલસીદાસ",
+      "સૂરદાસ",
+      "નાભાદાસ",
+      "વિટ્ઠલનાથ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -197,7 +197,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a person-based question, connect each candidate with their best-known work, role, period, and tradition; verify the relationship asked rather than choosing a familiar name.",
     "tip_gu": "પરીક્ષા ટીપ: વ્યક્તિ આધારિત પ્રશ્નમાં દરેક ઉમેદવારની જાણીતી કૃતિ, ભૂમિકા, સમયગાળો અને પરંપરા યાદ કરો; માત્ર ઓળખીતું નામ પસંદ કરવાને બદલે પૂછાયેલ સંબંધ તપાસો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -207,7 +207,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_006",
@@ -215,7 +215,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 6,
     "question_en": "Which among the following is a name of ‘Raas’ mentioned in Mahabharata?",
-    "question_gu": "Which among the following is a name of ‘Raas’ mentioned in Mahabharata?",
+    "question_gu": "મહાભારતમાં ઉલ્લેખિત ‘રાસ’ના નામોમાંથી કયું નામ છે?",
     "options_en": [
       "Hallisaka",
       "Chhalikya",
@@ -223,10 +223,10 @@
       "Batu"
     ],
     "options_gu": [
-      "Hallisaka",
-      "Chhalikya",
-      "Lasya",
-      "Batu"
+      "હલ્લીસક",
+      "છલિક્ય",
+      "લાસ્ય",
+      "બટુ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -239,7 +239,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -249,7 +249,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_007",
@@ -257,7 +257,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 7,
     "question_en": "What was the name of Jatayu’s elder brother from the context of Ramayana?",
-    "question_gu": "What was the name of Jatayu’s elder brother from the context of Ramayana?",
+    "question_gu": "રામાયણના સંદર્ભમાં જટાયુના મોટા ભાઈનું નામ શું હતું?",
     "options_en": [
       "Bali",
       "Sugreeva",
@@ -265,10 +265,10 @@
       "Jaambavant"
     ],
     "options_gu": [
-      "Bali",
-      "Sugreeva",
-      "Sampati",
-      "Jaambavant"
+      "વાલી",
+      "સુગ્રીવ",
+      "સંપાતિ",
+      "જામ્બવાન"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -281,7 +281,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -291,7 +291,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_008",
@@ -299,7 +299,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 8,
     "question_en": "‘Chitrasutra’ is mentioned in which Purana?",
-    "question_gu": "‘Chitrasutra’ is mentioned in which Purana?",
+    "question_gu": "‘ચિત્રસૂત્ર’નો ઉલ્લેખ કયા પુરાણમાં મળે છે?",
     "options_en": [
       "Garuda Purana",
       "Harivamsha Purana",
@@ -307,10 +307,10 @@
       "Brahmavaivarta Purana"
     ],
     "options_gu": [
-      "Garuda Purana",
-      "Harivamsha Purana",
-      "Vishnudharmottar Purana",
-      "Brahmavaivarta Purana"
+      "ગરુડ પુરાણ",
+      "હરિવંશ પુરાણ",
+      "વિષ્ણુધર્મોત્તર પુરાણ",
+      "બ્રહ્મવૈવર્ત પુરાણ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -323,7 +323,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a text-based question, identify the source text and its genre first, then distinguish it from similarly named works or traditions.",
     "tip_gu": "પરીક્ષા ટીપ: ગ્રંથ આધારિત પ્રશ્નમાં પહેલાં મૂળ ગ્રંથ અને તેની શ્રેણી ઓળખો, પછી સમાન નામ ધરાવતી કૃતિઓ અથવા પરંપરાઓથી ભેદ કરો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -333,7 +333,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_009",
@@ -341,7 +341,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 9,
     "question_en": "Saint ‘Andal’ of Bhakti Movement belongs to which State of India?",
-    "question_gu": "Saint ‘Andal’ of Bhakti Movement belongs to which State of India?",
+    "question_gu": "ભક્તિ આંદોલનના સંત ‘આંડાળ’ ભારતના કયા રાજ્યનાં હતાં?",
     "options_en": [
       "Gujarat",
       "Tamil Nadu",
@@ -349,10 +349,10 @@
       "Odisha"
     ],
     "options_gu": [
-      "Gujarat",
-      "Tamil Nadu",
-      "Telangana",
-      "Odisha"
+      "ગુજરાત",
+      "તમિલનાડુ",
+      "તેલંગાણા",
+      "ઓડિશા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -365,7 +365,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: For a place or origin question, distinguish the place of origin from places where the art later developed or became popular.",
     "tip_gu": "પરીક્ષા ટીપ: સ્થળ અથવા ઉદ્ભવના પ્રશ્નમાં કળાના મૂળ સ્થળને પછીના વિકાસ કે લોકપ્રિયતા ધરાવતા સ્થળથી અલગ ઓળખો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -375,7 +375,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_010",
@@ -383,7 +383,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 10,
     "question_en": "‘Mahagami Gurukul Center for Performing Arts’ is situated in which city?",
-    "question_gu": "‘Mahagami Gurukul Center for Performing Arts’ is situated in which city?",
+    "question_gu": "‘મહાગામી ગુરુકુલ સેન્ટર ફોર પરફોર્મિંગ આર્ટ્સ’ કયા શહેરમાં આવેલું છે?",
     "options_en": [
       "Mumbai",
       "Wardha",
@@ -391,10 +391,10 @@
       "Patna"
     ],
     "options_gu": [
-      "Mumbai",
-      "Wardha",
-      "Aurangabad",
-      "Patna"
+      "મુંબઈ",
+      "વર્ધા",
+      "ઔરંગાબાદ",
+      "પટણા"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -407,7 +407,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Read the stem carefully, identify the exact person, work, term, tradition, or concept being asked about, and eliminate options that do not match the stated context.",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્ન ધ્યાનથી વાંચો અને પૂછાયેલ વ્યક્તિ, કૃતિ, પરિભાષા, પરંપરા અથવા ખ્યાલ ચોક્કસ ઓળખો. પ્રશ્નના સંદર્ભ સાથે ન બંધબેસતા વિકલ્પો દૂર કરો.",
     "answer_source": "December 2024 Final Answer Key, Performing Arts (31)",
@@ -417,7 +417,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_011",
@@ -425,7 +425,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 11,
     "question_en": "Which folk theatre form belongs to Gujarat?",
-    "question_gu": "Which folk theatre form belongs to Gujarat?",
+    "question_gu": "ગુજરાતનું લોકનાટ્ય સ્વરૂપ કયું છે?",
     "options_en": [
       "Ramlila",
       "Chhau",
@@ -433,10 +433,10 @@
       "Bhavai"
     ],
     "options_gu": [
-      "Ramlila",
-      "Chhau",
-      "Jatra",
-      "Bhavai"
+      "રામલીલા",
+      "છાઉ",
+      "જાત્રા",
+      "ભવાઈ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -449,7 +449,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Distinguish the dramatic text, playwright, performance tradition, and stage role; these are related but not interchangeable.",
     "tip_gu": "પરીક્ષા ટીપ: નાટ્યકૃતિ, નાટ્યકાર, પ્રદર્શન પરંપરા અને રંગમંચની ભૂમિકાને અલગ ઓળખો; આ પરસ્પર સંબંધિત છે, પરંતુ એકબીજાના સ્થાને વાપરી શકાય નહીં.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -459,7 +459,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_012",
@@ -467,7 +467,7 @@
     "paperId": "performing_arts_dec24",
     "question_no": 12,
     "question_en": "Harvest folk dance of Punjab is",
-    "question_gu": "Harvest folk dance of Punjab is",
+    "question_gu": "પંજાબનું લણણી સાથે સંકળાયેલું લોકનૃત્ય કયું છે?",
     "options_en": [
       "Bihu",
       "Lezim",
@@ -475,10 +475,10 @@
       "Bhangra"
     ],
     "options_gu": [
-      "Bihu",
-      "Lezim",
-      "Dandiya",
-      "Bhangra"
+      "બિહુ",
+      "લેઝીમ",
+      "ડાંડિયા",
+      "ભાંગડા"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -491,7 +491,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed.",
+    "review_note": "Official final answer letter is retained and checked by the key validator. The full stem and all four options have not been independently verified against the original official GSET question-paper scan in this audit pass. Keep flagged until the exact source page is reviewed. Gujarati wording/options translated in this pass; official-paper visual comparison still pending.",
     "tip_en": "Exam tip: Identify the classical or folk form and recall its defining movement vocabulary, rhythm, expressive elements, and regional association.",
     "tip_gu": "પરીક્ષા ટીપ: શાસ્ત્રીય અથવા લોકનૃત્ય સ્વરૂપ ઓળખો અને તેની વિશિષ્ટ ગતિ, તાલ, અભિવ્યક્તિ તથા પ્રાદેશિક સંબંધ યાદ કરો.",
     "answer_source": "December 2024 official Final Answer Key, Performing Arts (31)",
@@ -501,7 +501,7 @@
     "syllabus_unit": null,
     "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
     "language": "en",
-    "verification_status": "pending_independent_question_text_options_source_audit"
+    "verification_status": "gujarati_translation_added_official_scan_review_pending"
   },
   {
     "id": "GSET_31_DEC24_013",
