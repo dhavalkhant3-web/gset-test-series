@@ -21,13 +21,16 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": true,
+      "question_source_verified": false,
       "questions_count": 100,
-      "source_verified": true,
-      "status": "visually_verified",
-      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
+      "source_verified": false,
+      "status": "official_final_key_reconciled_source_visual_audit_pending",
+      "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_note": "Provisional question-level unit references remain unverified; official syllabus comparison is pending.",
+      "review_count": 100,
+      "source_reviewed_question_count": 0,
+      "review_flags_remaining_count": 100
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -40,13 +43,16 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": true,
+      "question_source_verified": false,
       "questions_count": 100,
-      "source_verified": true,
-      "status": "visually_verified",
-      "review_note": "All 100 questions visually checked against the source scan; all 100 stored answers match the official final key.",
+      "source_verified": false,
+      "status": "official_final_key_reconciled_source_visual_audit_pending",
+      "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_note": "Provisional question-level unit references remain unverified; official syllabus comparison is pending.",
+      "review_count": 100,
+      "source_reviewed_question_count": 0,
+      "review_flags_remaining_count": 100
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -59,16 +65,22 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and official final answer key PDFs",
-      "question_source_verified": true,
+      "question_source_verified": false,
       "questions_count": 100,
-      "source_verified": true,
-      "status": "visually_verified",
-      "review_note": "All 100 questions visually checked against the official GSET November 2025 question-paper scan; Q33/Q34 Devanagari phrase confirmed as ख्युयु, Q48 option A diacritic confirmed, and Q75 options confirmed as क / छ / स / य. All 100 stored answers match the official Final Answer Key.",
-      "review_count": 0,
+      "source_verified": false,
+      "status": "official_final_key_reconciled_source_visual_audit_pending",
+      "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
+      "review_count": 100,
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
-      "unit_mapping_note": "Question-level unit references are provisional and remain unverified. Keep mapping pending until each question is checked against the official GSET syllabus; do not treat provisional unit references as verified."
+      "unit_mapping_note": "Provisional question-level unit references remain unverified; official syllabus comparison is pending.",
+      "source_reviewed_question_count": 0,
+      "review_flags_remaining_count": 100
     }
   ],
-  "unit_mapping_status": "partial_provisional_mapping_review_pending",
-  "unit_mapping_note": "163/300 questions have provisional content-based unit suggestions; 137 are unmapped. No mapping is officially verified. Manual syllabus review remains pending."
+  "unit_mapping_status": "provisional_content_based_pending_official_verification",
+  "unit_mapping_note": "163/300 provisional unit references; 137 unmapped. None is officially verified.",
+  "source_verified": false,
+  "question_source_verified": false,
+  "status": "official_final_key_reconciled_source_visual_audit_pending",
+  "review_note": "All 300 answer letters match the official final keys; full question-text/option visual verification remains pending. Do not mark the subject source-verified."
 }
