@@ -25,7 +25,9 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_option_audit_pending",
-      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "public_administration_dec24",
@@ -42,7 +44,9 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_option_audit_pending",
-      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     },
     {
       "paper_id": "public_administration_nov25",
@@ -59,7 +63,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "official_final_key_reconciled_question_text_option_audit_pending",
-      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed."
+      "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_note": "Question-level unit mapping remains pending official syllabus comparison."
     }
-  ]
+  ],
+  "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+  "unit_mapping_note": "Unit-wise mapping for each question has not yet been verified against the official subject syllabus. Do not assign guessed units."
 }
