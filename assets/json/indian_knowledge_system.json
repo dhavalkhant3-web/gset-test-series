@@ -6014,5 +6014,22 @@
       "tip_gu": "પરીક્ષા ટીપ: પ્રશ્નને ચોક્કસ સંબંધ તરીકે ઓળખો (વ્યક્તિ–ગ્રંથ, શાસક–સમય, ગુરુ–શિષ્ય અથવા સ્થળ–વસ્તુ); માત્ર મળતા શબ્દને બદલે સંબંધથી વિકલ્પો ચકાસો. ધ્યાન: “Daoyu and Dazu Huike were disciples of which Buddhist master?”"
     }
   ],
-  "review_flags_remaining": []
+  "review_flags_remaining": [
+    {
+      "id": "GSET_29_NOV25_033",
+      "review_note": "Official PDF text extraction does not establish the exact Devanagari glyph sequence in the encoded Aryabhata phrase. Keep the source transcription flagged until visually confirmed against the official scan."
+    },
+    {
+      "id": "GSET_29_NOV25_034",
+      "review_note": "Official PDF text extraction does not establish the exact Devanagari glyph sequence in the encoded Katapayadi phrase. Keep the source transcription flagged until visually confirmed against the official scan."
+    },
+    {
+      "id": "GSET_29_NOV25_048",
+      "review_note": "The final transliteration marks in the astronomical mnemonic are uncertain from extracted text. Keep the source transcription flagged until visually confirmed against the official scan."
+    },
+    {
+      "id": "GSET_29_NOV25_075",
+      "review_note": "The options are transcribed as क, छ, स, य, but the exact diacritic in the technical phonetics term still needs visual confirmation against the official scan."
+    }
+  ]
 }
