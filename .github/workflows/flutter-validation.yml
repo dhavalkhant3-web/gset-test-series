@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - integrate/public-administration-subject
+      - add-performing-arts-31
   pull_request:
     branches:
       - main
