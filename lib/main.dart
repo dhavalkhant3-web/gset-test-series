@@ -359,10 +359,11 @@ class PaperIIDataService {
       // Paper-specific verified archives can be stored separately so a large
       // subject question bank does not need to be rewritten for every paper.
       if (subjectId == 'physical_sciences') {
-        for (final archive in [
-          'assets/subjects/physical_sciences/questions_sep16_p2.json',
-          'assets/subjects/physical_sciences/questions_sep16_p3.json',
-        ]) {
+        // September 2016 Paper-II is already present in the base archive.
+        // Keep the supplemental file available for source review, but do not append
+        // it as another 50 questions. Paper-III is a separate exam and is not loaded
+        // into this Paper-II bank.
+        for (final archive in <String>[]) {
           try {
             final extra = jsonDecode(await rootBundle.loadString(archive));
             if (extra is List) {
