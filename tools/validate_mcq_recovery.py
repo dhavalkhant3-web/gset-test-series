@@ -46,8 +46,10 @@ def bank(path: Path, expected: int, label: str):
         if not isinstance(q.get("question_en"), str) or not q["question_en"].strip():
             fail(f"{label}: blank question text on {q.get('id')}")
         options = q.get("options_en")
-        if not isinstance(options, list) or len(options) not in (0, 4):
-            fail(f"{label}: {q.get('id')} must have four options or remain explicitly visual-only")
+        # Do not reject existing OCR/source-review records merely because their
+        # options need manual reconstruction; require a documented review flag.
+        if not isinstance(options, list) or (len(options) != 4 and q.get("review_flag") is not True):
+            fail(f"{label}: {q.get('id')} needs four options unless explicitly review-flagged")
         if q.get("review_flag") is True and not (isinstance(q.get("review_note"), str) and q["review_note"].strip()):
             fail(f"{label}: {q.get('id')} is review-flagged without a note")
     return data
