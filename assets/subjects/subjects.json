@@ -32,8 +32,8 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 19,
-      "questions_loaded": 225,
-      "data_status": "1300 Paper-II archive records in the repository; 870 records are marked source-verified and 430 remain flagged for source review. Full-bank source review and syllabus unit mapping are incomplete."
+      "questions_loaded": 1300,
+      "data_status": "1300 unique Paper-II archive records are present in assets. The app loader combines the base archive with separate overlays; September 2016 Q1-Q50 duplicate IDs are excluded from the final subject bank. 892 records have source_verified=true and 374 records retain review_flag=true; visual/source audit and official syllabus unit mapping remain incomplete."
     },
     {
       "code": "03",
@@ -48,7 +48,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "1300 Paper-II question records available across 19 sessions, including the September 2016 Paper-II overlay; original-source review flags remain."
+      "data_status": "1300 unique Paper-II questions are expected from 1,250 main-bank records plus 50 unique September 2016 Paper-II records. Official final-key reconciliation is recorded for the supplement; original-source review flags and syllabus mapping remain."
     },
     {
       "code": "04",
