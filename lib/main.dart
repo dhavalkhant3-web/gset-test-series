@@ -401,6 +401,20 @@ class PaperIIDataService {
           }
         } catch (_) {}
       }
+      // Chemical Sciences Paper-II archive: September 2016 is stored as a separate
+      // source-preserving overlay because the main historical JSON predates this session.
+      // Do not append questions_sep16_p3.json here; it belongs to Paper-III.
+      if (subjectId == 'chemical_sciences') {
+        try {
+          final extra = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/chemical_sciences/questions_sep16_p2.json',
+          ));
+          if (extra is List) {
+            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          }
+        } catch (_) {}
+      }
+
       // Chemical Sciences Paper-III is intentionally kept separate from
       // the Paper-II question bank. It must not be appended here.
       if (loaded.isNotEmpty) return loaded;

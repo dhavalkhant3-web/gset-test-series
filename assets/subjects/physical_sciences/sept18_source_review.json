@@ -1,0 +1,28 @@
+[
+  {
+    "id": "physical_sep18_q32",
+    "answer": "C",
+    "explanation_en": "The official final key selects C (II and IV). With magnetic monopoles, Gauss's law for magnetism (IV) must include magnetic charge, and Faraday's law (II) must include the magnetic-current contribution. The printed equations and all four options were visually checked against the original September 2018 booklet.",
+    "explanation_gu": "સત્તાવાર અંતિમ કી C (II અને IV) પસંદ કરે છે. Magnetic monopoles હોય તો Gauss's law for magnetism (IV)માં magnetic charge અને Faraday's law (II)માં magnetic-current term ઉમેરવો પડે. છપાયેલા સમીકરણો અને ચારેય વિકલ્પો September 2018ના મૂળ પ્રશ્નપત્ર સાથે દૃષ્ટિથી ચકાસ્યા છે.",
+    "tip_en": "Remember: magnetic charge changes the divergence equation for B; magnetic current changes Faraday's law. Official answer: C.",
+    "tip_gu": "યાદ રાખો: magnetic charge, B માટેની divergence equation બદલે છે; magnetic current, Faraday's law બદલે છે. સત્તાવાર જવાબ: C.",
+    "source_verified": true,
+    "review_flag": false,
+    "review_note": "",
+    "verification_status": "visually_checked_against_official_question_paper_and_final_key"
+  },
+  {
+    "id": "physical_sep18_q86",
+    "answer": "Z",
+    "explanation_en": "The printed conditions a ≠ b ≠ c and α ≠ β ≠ γ ≠ 90° describe a triclinic crystal system, which is not among the listed options. The official FINAL answer key marks Z and states that Z questions are not considered for evaluation. Preserve Z and do not score this item.",
+    "explanation_gu": "છપાયેલી શરતો a ≠ b ≠ c અને α ≠ β ≠ γ ≠ 90° triclinic crystal system દર્શાવે છે, જે આપેલા વિકલ્પોમાં નથી. સત્તાવાર FINAL answer keyમાં Z છે અને તેની નોંધ મુજબ Z ધરાવતો પ્રશ્ન મૂલ્યાંકનમાં ગણાતો નથી. Z જાળવો અને આ પ્રશ્નનું સ્કોરિંગ ન કરો.",
+    "tip_en": "This question is officially not evaluated. In crystal systems, triclinic has unequal a, b, c and three non-right interfacial angles. Keep the official key as Z.",
+    "tip_gu": "આ પ્રશ્નનું સત્તાવાર મૂલ્યાંકન થતું નથી. Crystal systemsમાં triclinic માટે a, b, c અસમાન અને ત્રણેય interfacial angles 90°થી જુદા હોય છે. સત્તાવાર કી મુજબ Z જાળવો.",
+    "source_verified": true,
+    "review_flag": false,
+    "review_note": "",
+    "verification_status": "visually_checked_against_official_question_paper_and_final_key",
+    "evaluation_status": "not_evaluated_official_final_key",
+    "not_evaluated": true
+  }
+]
