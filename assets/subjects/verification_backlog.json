@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "branch": "integration/combined-subject-banks",
   "principles": [
     "Question-level source verification is separate from answer-key verification.",
@@ -41,11 +41,11 @@
       "subject": "Performing Arts",
       "subject_code": "31",
       "total_questions": 300,
-      "source_verified_count": 100,
-      "pending_source_verification_count": 200,
+      "source_verified_count": 94,
+      "pending_source_verification_count": 206,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 165,
-      "gujarati_medium_policy": "Where the official question paper includes Gujarati, transcribe exact Gujarati stem and all four options from the official PDF. Current blank Gujarati fields are not permission to translate; 206 records remain flagged for source review.",
+      "gujarati_medium_policy": "Preserve original Gujarati wording only where printed in official GSET source. November 2023 has 94 records marked source-verified; six bilingual discrepancies remain flagged and unverified. December 2024 and November 2025 source checks remain pending.",
       "pending_questions_by_paper": {
         "December 2024": [
           {
@@ -755,42 +755,42 @@
             "question_no": 39,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required."
+            "review_note": "Original Gujarati content transcribed from official PDF page 12. The Gujarati codes in options C and D differ from the corresponding English-column codes in the same paper; do not normalize or infer which column contains a printing error. Stored official final-key answer A retained; manual source discrepancy review required. Source Gujarati transcription is complete and source-verified; review flag remains for the printed English/Gujarati option-code discrepancy. Preserve both versions verbatim."
           },
           {
             "id": "GSET_31_NOV23_096",
             "question_no": 96,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option A uses the printed wording “કુદરતી/ઘટનાકીય” for Incident Ray; this bilingual wording requires review. Official final-key answer B is retained."
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option A uses the printed wording “કુદરતી/ઘટનાકીય” for Incident Ray; this bilingual wording requires review. Official final-key answer B is retained. Source transcription is complete but remains review-flagged and is not marked source-verified; the review flag remains only for the printed bilingual discrepancy. Preserve both language columns verbatim and do not normalize them."
           },
           {
             "id": "GSET_31_NOV23_097",
             "question_no": 97,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option labels B/C differ in meaning from the English terms Narrative/Deductive Colour Scheme; retain the exact printed Gujarati and keep flagged. Official final-key answer D is retained."
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option labels B/C differ in meaning from the English terms Narrative/Deductive Colour Scheme; retain the exact printed Gujarati and keep flagged. Official final-key answer D is retained. Source transcription is complete but remains review-flagged and is not marked source-verified; the review flag remains only for the printed bilingual discrepancy. Preserve both language columns verbatim and do not normalize them."
           },
           {
             "id": "GSET_31_NOV23_098",
             "question_no": 98,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati options print “ભૂરા” where the paired English options use “Blue”; retain official wording and keep flagged. Official final-key answer B is retained."
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati options print “ભૂરા” where the paired English options use “Blue”; retain official wording and keep flagged. Official final-key answer B is retained. Source transcription is complete but remains review-flagged and is not marked source-verified; the review flag remains only for the printed bilingual discrepancy. Preserve both language columns verbatim and do not normalize them."
           },
           {
             "id": "GSET_31_NOV23_099",
             "question_no": 99,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option colour words differ from the corresponding English RGB/RYB/OBV schemes (including “ભૂરો” versus “Blue”); keep flagged pending language/printing review. Official final-key answer B is retained."
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. Gujarati option colour words differ from the corresponding English RGB/RYB/OBV schemes (including “ભૂરો” versus “Blue”); keep flagged pending language/printing review. Official final-key answer B is retained. Source transcription is complete but remains review-flagged and is not marked source-verified; the review flag remains only for the printed bilingual discrepancy. Preserve both language columns verbatim and do not normalize them."
           },
           {
             "id": "GSET_31_NOV23_100",
             "question_no": 100,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. The Gujarati stem prints “ભૂરો-લીલો” while the English stem says “Blue-Green”; retain source wording and flag the unresolved bilingual discrepancy. Official final-key answer C is retained."
+            "review_note": "Original English and Gujarati passages/stems/options were transcribed from official GSET November 2023 PDF pages 29-31. The Gujarati stem prints “ભૂરો-લીલો” while the English stem says “Blue-Green”; retain source wording and flag the unresolved bilingual discrepancy. Official final-key answer C is retained. Source transcription is complete but remains review-flagged and is not marked source-verified; the review flag remains only for the printed bilingual discrepancy. Preserve both language columns verbatim and do not normalize them."
           }
         ],
         "November 2025": [
@@ -5749,11 +5749,11 @@
       "subject": "Visual Art",
       "subject_code": "33",
       "total_questions": 300,
-      "source_verified_count": 44,
-      "pending_source_verification_count": 256,
+      "source_verified_count": 30,
+      "pending_source_verification_count": 270,
       "unit_mapping_status": "provisional_and_pending_official_syllabus_review",
       "unit_mapping_pending_count": 162,
-      "gujarati_medium_policy": "30 records are marked source-verified; 14 content/answer concerns and 30 figure-based items remain under review; do not mark the subject complete.",
+      "gujarati_medium_policy": "Visual Art is an English-medium source. Thirty figure-based records are source-verified; unresolved content concerns remain unverified and flagged. Remaining question text/options and syllabus mappings require official-source review.",
       "pending_questions_by_paper": {
         "November 2023": [
           {
@@ -5873,7 +5873,7 @@
             "question_no": 17,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 5: wording and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. Content/answer concern remains because the keyed attribution is disputed in the record; preserve the official C and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 5: wording and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. Content/answer concern remains because the keyed attribution is disputed in the record; preserve the official C and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q18",
@@ -6188,14 +6188,14 @@
             "question_no": 62,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, all codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The terminology-to-tool pairings remain questionable; preserve the source wording and official key, and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, all codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The terminology-to-tool pairings remain questionable; preserve the source wording and official key, and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q63",
             "question_no": 63,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The keyed pairings appear questionable; no option has been reconstructed or changed. Retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 14: stem, both lists, codes and four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The keyed pairings appear questionable; no option has been reconstructed or changed. Retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q64",
@@ -6230,7 +6230,7 @@
             "question_no": 68,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: the source literally prints 'Platanus'; all four response options match the stored text. Official Final Answer Key gives D, matching the stored answer. Do not silently correct the printed term; its intended reference and key remain unresolved, so retain the review flag."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: the source literally prints 'Platanus'; all four response options match the stored text. Official Final Answer Key gives D, matching the stored answer. Do not silently correct the printed term; its intended reference and key remain unresolved, so retain the review flag. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q69",
@@ -6244,21 +6244,21 @@
             "question_no": 70,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: statement wording and all four options match the printed source. Official Final Answer Key gives A, matching the stored answer. The keyed set includes 'Classicism', which conflicts with the usual description of Romanticism; preserve the official key and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: statement wording and all four options match the printed source. Official Final Answer Key gives A, matching the stored answer. The keyed set includes 'Classicism', which conflicts with the usual description of Romanticism; preserve the official key and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q71",
             "question_no": 71,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: stem, names and all four options match the printed source. Official Final Answer Key gives D, matching the stored answer. The classification of the listed people as art critics/curators remains ambiguous; preserve the key and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 16: stem, names and all four options match the printed source. Official Final Answer Key gives D, matching the stored answer. The classification of the listed people as art critics/curators remains ambiguous; preserve the key and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q72",
             "question_no": 72,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 17: all four statements and options match the printed source. Official Final Answer Key gives D, matching the stored answer. Statement (d)'s period/material claim appears inconsistent with the stated Renaissance context; preserve the official key and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2023 question paper, PDF p. 17: all four statements and options match the printed source. Official Final Answer Key gives D, matching the stored answer. Statement (d)'s period/material claim appears inconsistent with the stated Renaissance context; preserve the official key and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov23_q73",
@@ -6596,7 +6596,7 @@
             "question_no": 30,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 6: stem and all four city options match the printed source. Official Final Answer Key gives D, matching the stored answer. The stored note records a possible conflict between the key and the best-known Rivera mural location; preserve the official D and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 6: stem and all four city options match the printed source. Official Final Answer Key gives D, matching the stored answer. The stored note records a possible conflict between the key and the best-known Rivera mural location; preserve the official D and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_dec24_q31",
@@ -6610,7 +6610,7 @@
             "question_no": 32,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: the source literally prints option C as 'Thomas Mart Breton'; all four options match the stored text. Official Final Answer Key gives C, matching the stored answer. Do not silently correct the printed name to another artist; retain review flag pending confirmation of the source typo/attribution."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: the source literally prints option C as 'Thomas Mart Breton'; all four options match the stored text. Official Final Answer Key gives C, matching the stored answer. Do not silently correct the printed name to another artist; retain review flag pending confirmation of the source typo/attribution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_dec24_q33",
@@ -6638,7 +6638,7 @@
             "question_no": 36,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: stem and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The supplied definition appears to describe a descender, while the keyed answer is Counter; preserve the official key and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 7: stem and all four options match the printed source. Official Final Answer Key gives C, matching the stored answer. The supplied definition appears to describe a descender, while the keyed answer is Counter; preserve the official key and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_dec24_q37",
@@ -6708,7 +6708,7 @@
             "question_no": 46,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 9: stem, movement list and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The usual historical sequence does not appear among the printed options; preserve the official key and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 9: stem, movement list and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The usual historical sequence does not appear among the printed options; preserve the official key and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_dec24_q47",
@@ -6834,7 +6834,7 @@
             "question_no": 64,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 13: stem, designer/product lists and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The designer-product pairing noted in the review appears to correspond to option D instead; retain official B and review flag for key/content concern."
+            "review_note": "Visually compared with the official December 2024 question paper, PDF p. 13: stem, designer/product lists and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The designer-product pairing noted in the review appears to correspond to option D instead; retain official B and review flag for key/content concern. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_dec24_q65",
@@ -7074,7 +7074,7 @@
             "question_no": 8,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 4: colour-theory terms, descriptions and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The warm-colour/primary-colour pairings appear inconsistent with the descriptions; preserve official B and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 4: colour-theory terms, descriptions and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The warm-colour/primary-colour pairings appear inconsistent with the descriptions; preserve official B and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov25_q9",
@@ -7277,7 +7277,7 @@
             "question_no": 37,
             "source_verified": false,
             "review_flag": true,
-            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 11: stem and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The attribution to Rajasekhara remains questionable against the commonly cited association with Bhamaha; preserve official B and retain review flag pending subject-expert resolution."
+            "review_note": "Visually compared with the official November 2025 question paper, PDF p. 11: stem and all four options match the printed source. Official Final Answer Key gives B, matching the stored answer. The attribution to Rajasekhara remains questionable against the commonly cited association with Bhamaha; preserve official B and retain review flag pending subject-expert resolution. Source transcription and official final-key letter are verified; content/subject-expert concern remains flagged and the official key is preserved. Source verification remains pending while this unresolved content/key concern is flagged; official final-key answer is preserved."
           },
           {
             "id": "visual_art_nov25_q38",
