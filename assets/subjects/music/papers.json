@@ -18,14 +18,14 @@
       "marks": 200,
       "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2330.pdf",
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2330.pdf",
-      "questions_loaded": 5,
+      "questions_loaded": 9,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and final answer key PDF",
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "partial_import_pending_full_transcription",
-      "review_note": "5 of 100 questions imported from the supplied paper; remaining 95 not yet transcribed. Gujarati transcription and official syllabus mapping pending.",
+      "status": "partial_import_pending_visual_proofread_and_full_transcription",
+      "review_note": "9 of 100 questions imported so far. Remaining question transcription, source review, Gujarati text/options, and official syllabus mapping are pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping"
     },
     {
@@ -43,7 +43,7 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "partial_import_answer_key_missing",
-      "review_note": "5 of 100 questions imported from the supplied paper. Final answer key must be retrieved and checked; remaining 95 questions, Gujarati transcription, and syllabus mapping pending.",
+      "review_note": "5 of 100 questions imported so far. Remaining question transcription, source review, Gujarati text/options, and official syllabus mapping are pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping"
     },
     {
@@ -61,7 +61,7 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "partial_import_pending_full_transcription",
-      "review_note": "5 of 100 questions imported from the supplied paper; remaining 95 not yet transcribed. Gujarati transcription and official syllabus mapping pending.",
+      "review_note": "5 of 100 questions imported so far. Remaining question transcription, source review, Gujarati text/options, and official syllabus mapping are pending.",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping"
     }
   ]
