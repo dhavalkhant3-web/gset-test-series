@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "subject_id": "music",
+  "subject_code": "30",
+  "name_en": "Music",
+  "medium": "English & Gujarati",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120
+  },
+  "papers": [
+    {
+      "paper_id": "music_nov23",
+      "exam": "November 2023",
+      "subject_code": "30",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2330.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2330.pdf",
+      "questions_loaded": 5,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and final answer key PDF",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "partial_import_pending_full_transcription",
+      "review_note": "5 of 100 questions imported from the supplied paper; remaining 95 not yet transcribed. Gujarati transcription and official syllabus mapping pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping"
+    },
+    {
+      "paper_id": "music_dec24",
+      "exam": "December 2024",
+      "subject_code": "30",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2430.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2430.pdf",
+      "questions_loaded": 5,
+      "answer_key_verified": false,
+      "source": "Supplied official GSET question paper; final answer key not supplied in this upload batch",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "partial_import_answer_key_missing",
+      "review_note": "5 of 100 questions imported from the supplied paper. Final answer key must be retrieved and checked; remaining 95 questions, Gujarati transcription, and syllabus mapping pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping"
+    },
+    {
+      "paper_id": "music_nov25",
+      "exam": "November 2025",
+      "subject_code": "30",
+      "question_count": 100,
+      "marks": 200,
+      "question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2530.pdf",
+      "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2530.pdf",
+      "questions_loaded": 5,
+      "answer_key_verified": true,
+      "source": "Supplied official GSET question paper and final answer key PDF",
+      "question_source_verified": false,
+      "questions_count": 100,
+      "source_verified": false,
+      "status": "partial_import_pending_full_transcription",
+      "review_note": "5 of 100 questions imported from the supplied paper; remaining 95 not yet transcribed. Gujarati transcription and official syllabus mapping pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping"
+    }
+  ]
+}
