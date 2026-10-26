@@ -297,6 +297,14 @@
           "name": "Folk, Tribal and Craft Practices in India"
         }
       ]
+    },
+    "music": {
+      "code": "30",
+      "name_en": "Music",
+      "official_pdf": null,
+      "units": [],
+      "mapping_status": "pending_official_syllabus_review",
+      "notes": "Do not infer unit mapping until the official GSET Music syllabus is checked."
     }
   }
 }
