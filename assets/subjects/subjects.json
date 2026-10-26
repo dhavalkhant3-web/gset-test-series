@@ -565,6 +565,22 @@
       "source_verified": false,
       "papers_loaded": 0,
       "questions_loaded": 0
+    },
+    {
+      "code": "30",
+      "id": "music",
+      "name_en": "Music",
+      "medium": "English & Gujarati",
+      "eligibility": "As specified by GSET for Subject Code 30",
+      "category": "Arts & Performing Arts",
+      "icon": "music_note_rounded",
+      "paper_ii_questions": 100,
+      "paper_ii_marks": 200,
+      "source_verified": false,
+      "papers_loaded": 3,
+      "questions_loaded": 15,
+      "data_status": "Initial import only: 15 of 300 expected questions transcribed from the supplied official papers and matched to available official final answer keys. Full transcription, Dec 2024 final-key verification, complete source audit, and syllabus mapping remain pending.",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping"
     }
   ]
 }
