@@ -851,14 +851,19 @@
     "paperId": "music_nov23",
     "question_no": 9,
     "question_en": "What is the meaning of ‘Tenak’ in ‘Prabandh’?",
-    "question_gu": "",
+    "question_gu": ". “પ્રબંધ' માં ઉલ્લેખિત “તેનક' શું છે?",
     "options_en": [
       "Anahat Naad",
       "Mangal Dhwani",
       "Aahat Naad",
       "Shruti"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અનાહત નાદ",
+      "મંગલ ધ્વનિ",
+      "આહત નાદ",
+      "શ્રુતિ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Indian Musicology & Prabandh",
@@ -870,7 +875,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -884,7 +889,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_006",
@@ -1799,14 +1806,19 @@
     "paperId": "music_dec24",
     "question_no": 27,
     "question_en": "Name of a Shadava raga.",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત માં ક્યો ષાડવ રાગ છે 2",
     "options_en": [
       "Mohana kalyani",
       "Hamsa nandi",
       "Sri raga",
       "Hamsananda"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "મોહનકલ્યાણી",
+      "હંસાનંદી",
+      "શ્રીરાગ",
+      "હંસાનંદા"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Raga Classification",
@@ -1818,7 +1830,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -1832,7 +1844,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_028",
@@ -1840,14 +1854,19 @@
     "paperId": "music_dec24",
     "question_no": 28,
     "question_en": "Which is more efficient in Data Collection?",
-    "question_gu": "",
+    "question_gu": "* સામગ્રી સંગ્રહ નું સહુથી પ્રભાવી માધ્યમ કયું ?",
     "options_en": [
       "Recording in devices",
       "Notes writing",
       "Listening",
       "None of the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઉપકરણો માં ધ્વનિમુદ્રણ (રેકોડિંગ)",
+      "નોંધ નું લખાણ",
+      "સાંભળવું",
+      "ઉપરોક્ત કોઈ પણ નહીં"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Music Research",
@@ -1859,7 +1878,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -1873,7 +1892,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 4,
     "unit_id": "unit_4",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_029",
@@ -1881,14 +1902,19 @@
     "paperId": "music_dec24",
     "question_no": 29,
     "question_en": "The equivalent raga for Bhupali in Karnataka music is",
-    "question_gu": "",
+    "question_gu": "* રાગ ભૂપાલી ને કર્ણાટકી સંગીત પદ્ધતિ માં શું કહે છે 2",
     "options_en": [
       "Bauli",
       "Mohanam",
       "Maya Malavagaula",
       "Bhupalam"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બાઉલી",
+      "મોહનમ",
+      "માયામળવગૌડ",
+      "ભૂપાલમ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Raga Classification",
@@ -1900,7 +1926,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -1914,7 +1940,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_030",
@@ -1922,14 +1950,19 @@
     "paperId": "music_dec24",
     "question_no": 30,
     "question_en": "Chenda, Parai, Murasu denote",
-    "question_gu": "",
+    "question_gu": "* ચેંડા , પરાઈ, મુરાસુ, એ શું છે?",
     "options_en": [
       "Percussion instruments",
       "Folk instruments",
       "Instruments used in temple rituals",
       "All the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તાલ વાધ્ય",
+      "લોક વાધ્ય",
+      "મંદિરોમાં ધાર્મિક વિધિઓ દરમિયાન વગાડાતાં વાધ્ય",
+      "ઉપરોક્ત બધાજ વિકલ્પ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Musical Instruments & Folk Music",
@@ -1941,7 +1974,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -1955,7 +1988,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_031",
@@ -2947,14 +2982,19 @@
     "paperId": "music_dec24",
     "question_no": 55,
     "question_en": "The Laykari in playing kahrwa taal in jhaptal from sam to sam is",
-    "question_gu": "",
+    "question_gu": "ડ. 59. ઝપતાલમાં કહારવાં તાલ વગાડવાથી લયકારી થાય છે.",
     "options_en": [
       "Ulti of sawagun",
       "Paavgun",
       "Dedhgun",
       "Paungun"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઉલટી સવાગુન",
+      "પાવગુન",
+      "દેઢગુન",
+      "પૌનગુન"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -2966,7 +3006,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -2980,7 +3020,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_056",
@@ -2988,14 +3030,19 @@
     "paperId": "music_dec24",
     "question_no": 56,
     "question_en": "Who was the mentor (Guru) of Pt. Sakharam Mridangacharya?",
-    "question_gu": "",
+    "question_gu": "* પંડિત સખારામ મૃદુંગાચાર્ય નાં ગુરુ નું નામ શું છે?",
     "options_en": [
       "Pt. Sakharampant Agle",
       "Pt. Shankar Rao Bapushinde",
       "Pt. Shankar Bhaiya Panse",
       "Pt. Nana Saheb Panse"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પં. સખારામ પંત આગલે",
+      "પં. શંકરરાવ બાપુશિંદે",
+      "પં. શંકરભૈયા પાનસે",
+      "પં. નાનસાહેબ પાનસે"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicians & Gurus",
@@ -3007,7 +3054,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3021,7 +3068,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_057",
@@ -3029,14 +3078,19 @@
     "paperId": "music_dec24",
     "question_no": 57,
     "question_en": "In Kathak dance the composition comprised of bols of Pakhawaj are called as",
-    "question_gu": "",
+    "question_gu": "* કત્થક નૃત્યમાં પખાવજનાં બોલ સમુહને શું કહેવામાં આવે છે ?",
     "options_en": [
       "Aamad",
       "Tatkar",
       "Parmelu",
       "Paran"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "આમદ",
+      "તતકાર",
+      "પરમેલું",
+      "પરણ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Kathak Dance",
@@ -3048,7 +3102,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3062,7 +3116,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_058",
@@ -3070,14 +3126,19 @@
     "paperId": "music_dec24",
     "question_no": 58,
     "question_en": "What was the real name of Acchan Maharaj?",
-    "question_gu": "",
+    "question_gu": "* અચ્છુન મહારાજનું ખરુ નામ શું છે 2",
     "options_en": [
       "Hari Prasad",
       "Jagannath Prasad",
       "Hanuman Prasad",
       "Baijnath Prasad"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "હરિપ્રસાદ",
+      "જગન્નાથ પ્રસાદ",
+      "હનુમાન પ્રસાદ",
+      "બૈજુનાથ પ્રસાદ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Kathak Dance & Artists",
@@ -3089,7 +3150,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3103,7 +3164,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_059",
@@ -3111,14 +3174,19 @@
     "paperId": "music_dec24",
     "question_no": 59,
     "question_en": "Who is the author of the book ‘Sangeet me Tihaiyan’?",
-    "question_gu": "",
+    "question_gu": "“સંગીત મે તિહાઈઆ” નાં લેખકનું નામ શું છે?",
     "options_en": [
       "Girish Chandra Shrivastav",
       "Laxmi Narayan Garg",
       "Bhagwat Sharan Sharma",
       "Ram Shankar Pagaldas"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ગિરીશચંદ્ર શ્રીવાસ્તવ",
+      "લક્ષ્મી નારાયણ ગર્ગ",
+      "ભગવત શરણ શર્મા",
+      "રામશંકર પાગલ દાસ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Books",
@@ -3130,7 +3198,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3144,7 +3212,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_060",
@@ -3193,14 +3263,19 @@
     "paperId": "music_dec24",
     "question_no": 76,
     "question_en": "State true or false: Statement 1: Pt. Siyaram Tiwari was a Dhrupad exponent of Dagar Parampara. Statement 2: He sang folk songs for films in Gujarat.",
-    "question_gu": "",
+    "question_gu": ". સાચું અને ખોટું વિધાન શોધો. વિધાન 1: પંડિત સિયારામ તિવારી ડાગર પરંપરા ના ધ્રુપદ ગાયક હતાં. વિધાન 2:તેઓએ ગુજરાતી ફિલ્મો માં લોક ગીતો ગાયા",
     "options_en": [
       "Statement 1 is true and statement 2 is false",
       "Statements 1 and 2 are both true",
       "Statements 1 and 2 are both false",
       "Statement 1 is false and statement 2 is true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ક્રમાંક 1 સાચું અને વિધાન ક્રમાંક 2 ખોટું છે",
+      "વિધાન ક્રમાંક 1 અને 2 સાચાં છે",
+      "વિધાન ક્રમાંક 1 અને 2 ખોટા છે",
+      "વિધાન ક્રમાંક 1 ખોટું અને વિધાન ક્રમાંક 2 સાચું છે"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Hindustani Vocal Music",
@@ -3212,7 +3287,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3226,7 +3301,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_077",
@@ -3234,14 +3311,19 @@
     "paperId": "music_dec24",
     "question_no": 77,
     "question_en": "State true or false: Statement 1: Pt. Sukhdev Maharaj was a famous Kathak dancer. Statement 2: His Garba presentation is memorable.",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત ક્યું વિધાન સાચું છે 2 વિધાન 1:પંડિત સુખદેવ મહારાજ વિખ્યાત કથક નર્તક હતા. વિધાન 2:તેઓનું ગરબા નૃત્ય અવિસ્મરણીય હતું.",
     "options_en": [
       "Statement 1 is false and statement 2 is true",
       "Statements 1 and 2 are both false",
       "Statements 1 and 2 are both true",
       "Statement 1 is true and statement 2 is false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ક્રમાંક 1 ખોટું અને વિધાન ક્રમાંક 2 સાચું છે",
+      "વિધાન ક્રમાંક 1 અને વિધાન ક્રમાંક 2 ખોટા છે",
+      "વિધાન ક્રમાંક 1 અને 2 સાચાં છે",
+      "વિધાન ક્રમાંક 1 સાયું અને વિધાન ક્રમાંક 2 ખોટું છે"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Dance & Artists",
@@ -3253,7 +3335,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3267,7 +3349,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_078",
@@ -3357,14 +3441,19 @@
     "paperId": "music_dec24",
     "question_no": 80,
     "question_en": "Statement 1: Pt. Lal Mani Mishra was the author of ‘Bhartiya Sangeet Vadya’ and a famous Veena player. Statement 2: Pt. Gopal Shankar Mishra, son of Pt. Lal Mani Mishra, was also a famous sitar and Veena player.",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત ક્યું વિધાન સાચું છે 2 વિધાન 1:પંડિત લાલમણિ મિશ્રા “ભારતીય સંગીત વિધ્યા' ગ્રંથ ના લેખક હતા અને વિખ્યાત વીણા વાદક હતા. વિધાન 2:પંડિત લાલમણિ મિશ્રા ના પુત્ર પંડિત ગોપાલ શંકર મિશ્રા પણ એક પ્રસિદ્ધ સિતાર અને વીણા વાદક હતાં. () વિધાન ક્રમાંક 1 અને 2 સાચા છે",
     "options_en": [
       "Statements 1 and 2 are both true",
       "Statements 1 and 2 are both false",
       "Statement 1 is true and statement 2 is false",
       "Statement 2 is true and statement 1 is false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ક્રમાંક 1 અને",
+      "ખોટાં છે",
+      "વિધાન ક્રમાંક 1 સાચું અને વિધાન ક્રમાંક 2 ખોટું છે",
+      "વિધાન ક્રમાંક2 સાચુ અને વિધાન કમાંક 1 ખોટું છે"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Instruments",
@@ -3376,7 +3465,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3390,7 +3479,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_081",
@@ -3398,14 +3489,19 @@
     "paperId": "music_dec24",
     "question_no": 81,
     "question_en": "In the following, state which is true: i. Mandolin is a western instrument. ii. Mandolin is to be played with a bow. iii. U. Srinivas was a noted player of Mandolin.",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત ક્યું વિધાન સાચું છે 2 1. મેંડોલીન એ પશ્ચિમી વાધ્ય છે. 4. મેંડોલીન ગજ થી વગાડવામાં આવે છે. પ. યુ. શ્રીનિવાસ એક વિખ્યાત મેંડોલીન વાદક હતા.",
     "options_en": [
       "i and ii are true; iii is false",
       "i and iii are true; ii is false",
       "All three statements are true",
       "All three statements are false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અને ॥ સાચાં છે. 1 ખોટું છે",
+      "અને પૉ સાચાં છે. ॥ ખોટું છે",
+      "ઉપરોક્ત ત્રણેય વિધાન સાચાં છે",
+      "ઉપરોક્ત ત્રણેય વિધાન ખોટાં છે"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musical Instruments",
@@ -3417,7 +3513,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3431,7 +3527,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_082",
@@ -3439,14 +3537,19 @@
     "paperId": "music_dec24",
     "question_no": 82,
     "question_en": "Which of the following is NOT true?",
-    "question_gu": "",
+    "question_gu": "ઢિ. નિમ્નલિખિત ક્યું વિધાન ખોટું છે ૨",
     "options_en": [
       "Veena is made up of seven strings",
       "Violin is played with a bow",
       "Ghatam is played with hands",
       "Flute consists of 22 holes"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વીણા વાધ્ય માં સાત તાર હોય છે",
+      "વાયોલિન ગજ થી વગાડવામાં આવે છે",
+      "ઘટમ હાથ થી વગાડવામાં આવે છે",
+      "વાંસળી માં 22 છિદ્રો હોય છે"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Musical Instruments",
@@ -3458,7 +3561,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3472,7 +3575,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_083",
@@ -3726,14 +3831,19 @@
     "paperId": "music_dec24",
     "question_no": 89,
     "question_en": "1. Ustad Habibuddin Khan was a renowned artist of Ajarada Gharana. 2. He was disciple of Ustad Niyazu Khan Saheb.",
-    "question_gu": "",
+    "question_gu": ". 1. ઉસ્તાદ હબીબુદ્દીન ખાં અજરાડા બરાનાનાં ઉચ્ચ કલાકાર હતા. 2. એ ઉસ્તાદ નિયાઝુ ખાં સાહેબ નાં પ શિષ્ય હતા.",
     "options_en": [
       "1 is true, 2 is false",
       "1 is true, 2 is true",
       "1 is false, 2 is false",
       "1 is false, 2 is true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સત્ય છે 2 અસત્ય છે",
+      "સત્ય છે 2 સત્ય છે (૦ 1 અસત્ય છે 2 અસત્ય છે",
+      "અસત્ય છે 2 સત્ય છે 1 | 90. (&) : પરણ એ જયપુર બરાણા ની રચના હોય છે-",
+      ": લમછડ પરણ નો વિસ્તાર પરણ માંથી"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tabla & Gharanas",
@@ -3745,7 +3855,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3759,7 +3869,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_090",
@@ -3767,14 +3879,19 @@
     "paperId": "music_dec24",
     "question_no": 90,
     "question_en": "Assertion (A): Paran is the technical aspect mainly performed in Jaipur Gharana. Reason (R): Lamchad Paran is the elaborated form of paran that continues for many avartan.",
-    "question_gu": "",
+    "question_gu": "અનેક આવર્તન સુધી કરવામાં આવે છે.",
     "options_en": [
       "A is true, R is true",
       "A is true, R is false",
       "A is false, R is false",
       "A is false, R is true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "(પ) સત્ય છે (૨) સત્ય છે",
+      "() સત્ય છે (૨) અસત્ય છે",
+      ") અસત્ય છે ₹૨ અસત્ય છે",
+      "(6) અસત્ય છે (9) સત્ય છે ંદ્ | 91-95 :ગુજરાત એ પશ્ચિમ ભારત નો સહુથી લાંબો ૦| 1500 કિમી દરિયાકિનારો ધરાવતું રાજ્ય છે. રત | ઊ્રારત અને વિદેશ માંથી અનેક જાતિઓ ના પડ | ગુજરાત માં આગમન થવાને કારણે ગુજરાત પર્વ! રઞજ્ય કળા અને સંસ્કૃતિ માં ઘણું સમૃદ્ધ છે. 45, | લાકડાની મૂર્તિઓના પૂજક ગ્રીક સૂર્ય ના પૂજક ઝ1| સી્‌થીયન, બલૂચિસ્તાન ના બાલોચ, 195 | આફ્રિકા ના સિદ્ધીઓ અને આરબ જેવી વિદેશી થં જૂતિઓ ગુજરાત માં સ્થાયી થઈ. તેમના"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Kathak & Gharanas",
@@ -3786,7 +3903,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3800,7 +3917,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 10,
     "unit_id": "unit_10",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_091",
@@ -3808,14 +3927,19 @@
     "paperId": "music_dec24",
     "question_no": 91,
     "question_en": "What is the name of the state in Western India?",
-    "question_gu": "",
+    "question_gu": "નંગીત નો ગુજરાત ના લોક સંગીત પર ઘણો ડ્રભાવ છે. સૌરાષ્ટ્ર ના લોક સંગીત પર મરેબિક સંગીત ધૂનોનો ઘણો પ્રભાવ મળે છે. પ્રભાતિયા' નો પરિચય નરસિંહ મેહતા એ કરાવ્યો. “'ભવાઈ' એક લોક નાટય, જેને ઊધવાનું શ્રેય અસાઈત ઠાકર ને જાય છે. તાનભટ્ટ એક કથાકથન નો પ્રકાર મહાકવિ ડ્રેમાનંદ એ શોધ્યો હતો. 'ગરબા', દાંડિયા”, “રાસ*, “ટિપ્પણી”, “હુડો', વિગેરે તોક નૃત્ય ના પ્રસિદ્ધ પ્રકારો છે. 'ચારણ' એ વાહિત્ય અને સંગીત માટે પ્રસિદ્ધ એવી ગુજરાત વી જાતિ છે. 1. પશ્ચિમ ભારત ના રાજ્ય નું નામ શુ છે?",
     "options_en": [
       "Bihar",
       "Punjab",
       "Haryana",
       "Gujarat"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બિહાર",
+      "પંજાબ",
+      "હરિયાણા",
+      "ગુજરાત"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Gujarati Folk Music & Culture",
@@ -3827,7 +3951,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3841,7 +3965,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_092",
@@ -3849,14 +3975,19 @@
     "paperId": "music_dec24",
     "question_no": 92,
     "question_en": "Folk drama of Gujarat is",
-    "question_gu": "",
+    "question_gu": ". ગુજરાત ના લોક નાટ્ય નું નામ શું છે2",
     "options_en": [
       "Bhangada",
       "Lavani",
       "Bhavai",
       "Jhoomar"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ભાંગડા",
+      "લાવણી",
+      "ભવાઈ",
+      "ઝૂમર"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Gujarati Folk Music & Culture",
@@ -3868,7 +3999,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3882,7 +4013,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_093",
@@ -4054,14 +4187,19 @@
     "paperId": "music_dec24",
     "question_no": 97,
     "question_en": "Kritis are NOT found in medium tempo.",
-    "question_gu": "",
+    "question_gu": ". મધ્યલય માં ક્રતિ ની રચના નથી હોતી.",
     "options_en": [
       "The statement is true",
       "The statement is not true",
       "The statement is vague",
       "None of the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "આ વિધાન સાચું છે",
+      "આ વિધાન ખોટું છે",
+      "આ વિધાન અસ્પષ્ટ છે",
+      "ઉપરોક્ત એક પણ નહીં"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Carnatic Music Forms",
@@ -4073,7 +4211,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4087,7 +4225,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_098",
@@ -4095,14 +4235,19 @@
     "paperId": "music_dec24",
     "question_no": 98,
     "question_en": "The themes of the Kritis are predominantly",
-    "question_gu": "",
+    "question_gu": ". કૃતિ માં મુખ્યત્વે ક્યો વિષય હોય છે?",
     "options_en": [
       "Dramatic",
       "Devotional",
       "On nature",
       "All the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નાટ્યાત્મક",
+      "ભક્તિમય",
+      "પ્રકૃતિ આધારિત",
+      "ઉપરોક્ત બધા"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Carnatic Music Forms",
@@ -4114,7 +4259,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4128,7 +4273,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_099",
@@ -4136,14 +4283,19 @@
     "paperId": "music_dec24",
     "question_no": 99,
     "question_en": "‘Kritis are set to different ragas’ — here, Raga refers to",
-    "question_gu": "",
+    "question_gu": ". “કૃતિ વિભિન્ન રાગ આધારિત હોય છે.” અહી રાગ નો સંબંધ શેની સાથે છે 2",
     "options_en": [
       "Meaning of song",
       "Length of song",
       "Composer of song",
       "Melodic structure of song"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ગીત કે રચના નો અર્થ",
+      "ગીત કે રચના ની લંબાઈ",
+      "ગીત કે રચના નો રચનાકાર",
+      "ગીત કે રચના ની ધૂન"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Carnatic Music Forms",
@@ -4155,7 +4307,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4169,7 +4321,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_100",
@@ -4177,14 +4331,19 @@
     "paperId": "music_dec24",
     "question_no": 100,
     "question_en": "Which of the following is NOT a decorative anga of a Kriti?",
-    "question_gu": "",
+    "question_gu": ")0. નિમ્નલિખિત માં ક્યું કૃતિ નું સૌંદર્યાત્મક અંગ નથી 2",
     "options_en": [
       "Anupallavi",
       "Solkattu svara",
       "Cittasvara",
       "Svara Sahitya"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અનુપલ્લવી",
+      "સોલકટ્ટુ સ્વર",
+      "ચિત્તસ્વર",
+      "સાહિત્ય"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Carnatic Music Forms",
@@ -4196,7 +4355,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4210,7 +4369,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_061",
@@ -4587,14 +4748,19 @@
     "paperId": "music_dec24",
     "question_no": 70,
     "question_en": "Match the classical dances to their respective regions: a. Kathak; b. Kuchipudi; c. Mohiniattam; d. Bharatanatyam. i. Kerala; ii. Tamil Nadu; iii. Uttar Pradesh; iv. Andhra Pradesh.",
-    "question_gu": "",
+    "question_gu": ". 70. નિમ્નલિખિત શાસ્ત્રીય નૃત્ય પ્રકારોની તેમના ક્ષેત્ર સાથે જોડણી કરો. નૃત્ય ક્ષેત્ર . કથક 1. કેરળ ૪. કૂચીપૂડી ઊં. તામિલનાડુ €- મોહીનીઅટ્ટમ પં. ઉત્તર પ્રદેશ ત. ભરતનાટ્યમ 19. આંધ્ર પ્રદેશ",
     "options_en": [
       "a(ii), b(iv), c(ii), d(iii)",
       "a(ii), b(iii), c(i), d(iv)",
       "a(iii), b(iv), c(i), d(ii)",
       "a(i), b(iv), c(ii), d(iii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "&(), 9 (1), ૦ (1), ત (ઊ)",
+      "(1), છે (1), ૦ (), વ (0)",
+      "દ (ઊં), 9 (છ, ૦(), ત) (ઝિ (10), 9 (7, ૦ (1), વ (ણ) 71. યોગ્ય જોડી બનાવો. (પિતા અને પુત્ર) લિસ્ટ-1 લિસ્ટ-2",
+      "પં. નયન ઘોષ ઈ શ્રી અનુવ્રત"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Classical Dance",
@@ -4606,7 +4772,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4620,7 +4786,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 1,
     "unit_id": "unit_1",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_071",
@@ -4628,14 +4796,19 @@
     "paperId": "music_dec24",
     "question_no": 71,
     "question_en": "Match the following father-son pairs: a. Pt. Nayan Ghosh; b. Pt. Kiran Deshpande; c. Pt. Shankar Ghosh; d. Pt. Anindo Chatterjee. i. Shri Anurav Chatterjee; ii. Shri Ishan; iii. Shri Vikram Ghosh; iv. Shri Supreme Chatterji.",
-    "question_gu": "",
+    "question_gu": "૪. પં. કિરણ દેશપાંડે 11. શ્રી ઈશાન €. પં.શંકર ઘોષ વૉ. શ્રી વિક્રમ તં. પં. અનિંદો 10. શ્રી સુપ્રીત ચટરજી",
     "options_en": [
       "a(ii), b(iv), c(iii), d(i)",
       "a(i), b(iii), c(iv), d(ii)",
       "a(iii), b(iv), c(ii), d(i)",
       "a(ii), b(i), c(iv), d(iii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "(1), છ (9, ૦ (10, વ (0)",
+      "(0, 9 (10, ૦ (10, ત (1)",
+      "૧ (8), 9 (૪), ૦ (8), ત (0)",
+      "દ (1), છ (), ૬ (1૫), વ (1)"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Lineages",
@@ -4647,7 +4820,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4661,7 +4834,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_DEC24_072",
@@ -4833,14 +5008,19 @@
     "paperId": "music_nov23",
     "question_no": 10,
     "question_en": "What is the structure of ‘Major Scale’?",
-    "question_gu": "",
+    "question_gu": ", મેજર સ્કેલ માં નિમ્નલિખિત ક્યા ક્રમ થી સ્વરો લેવાય છે ?",
     "options_en": [
       "Semi Tone, Semi Tone, Tone, Tone, Tone, Semi Tone, Tone",
       "Sa, Re, Ga, Ma, Pa, Dha, Ni",
       "Tone, Tone, Semi Tone, Tone, Tone, Tone, Semi Tone",
       "Tone, Semi Tone, Semi Tone, Tone, Tone, Tone, Semi Tone"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સેમી ટોન, સેમી ટોન, ટોન, ટોન, ટોન, સેમી ટોન, ટોન",
+      "સા,રે,ગ,મ,પ,ધ, નિ",
+      "ટોન, ટોન, સેમી ટોન, ટોન, ટોન, ટોન, સેમી ટોન,",
+      "ટોન, સેમી ટોન, સેમી ટોન, ટોન, ટોન,"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Western Music Theory",
@@ -4852,7 +5032,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4866,7 +5046,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_011",
@@ -4874,14 +5056,19 @@
     "paperId": "music_nov23",
     "question_no": 11,
     "question_en": "Who has said ‘Kutap’ for ‘Orchestra’ first in his Granth?",
-    "question_gu": "",
+    "question_gu": "ટોન, સેમી ટોન 1. ઓરકેસ્ટ્રા ને “ૂતપ સંજ્ઞા થી સર્વ પ્રથમ ક્યા ગ્રંથકારે ઉલ્લેખ કર્યો છે ?",
     "options_en": [
       "Narad",
       "Matang",
       "Bharat",
       "Sharangdeva"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નારદ",
+      "મતંગ",
+      "ભરત",
+      "શારંગદેવ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
@@ -4893,7 +5080,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4907,7 +5094,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 6,
     "unit_id": "unit_6",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_012",
@@ -4915,14 +5104,19 @@
     "paperId": "music_nov23",
     "question_no": 12,
     "question_en": "Who is the first ‘Bharat Ratna’ in the field of Music?",
-    "question_gu": "",
+    "question_gu": ", સંગીત ક્ષેત્રે સર્વપ્રથમ વાર 'ભારત રત્ન' સમ્માન કોને આપવામાં આવ્યો હતો ?",
     "options_en": [
       "Pt. Ravishankar",
       "Lata Mangeshkar",
       "M. S. Subbulakshmi",
       "Ustad Bismillah Khan"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પંડિત રવિશંકર",
+      "લતા મંગેશકર",
+      "એમ. એસ. સુબ્બુલક્ષ્મી",
+      "ઉસ્તાદ બિસ્મિલ્લાહખાન"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicians & Awards",
@@ -4934,7 +5128,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4948,7 +5142,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 10,
     "unit_id": "unit_10",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_013",
@@ -4956,14 +5152,19 @@
     "paperId": "music_nov23",
     "question_no": 13,
     "question_en": "Which one granth has twenty sub-sections in each of five main chapters?",
-    "question_gu": "",
+    "question_gu": "ઝં | 13. કયા ગ્રંથ ના પ્રત્યેક મુખ્ય પાંચ અધ્યાય માં વીસ ઉપ અધ્યાય છે ?",
     "options_en": [
       "Sangeetopanishat Saroddhi",
       "Manasollasa",
       "Sangeet Sudha",
       "Sangeet Chintamani"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સંગીતોપનીશત્સારોદ્ધાર",
+      "માનસોલ્લાસ",
+      "સંગીત સુધા",
+      "સંગીત ચિંતામણી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Treatises",
@@ -4975,7 +5176,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -4989,7 +5190,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 6,
     "unit_id": "unit_6",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_014",
@@ -4997,14 +5200,19 @@
     "paperId": "music_nov23",
     "question_no": 14,
     "question_en": "Which one is the folk form of Punjab?",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત કયું લોક સંગીત પ્રકાર પંજાબ થી સંબંધિત છે ?",
     "options_en": [
       "Sama Chakewa",
       "Giddha",
       "Baul",
       "Garba"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સમચકેવા",
+      "ગીદ્ધા",
+      "બાઉલ",
+      "ગરબા"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Folk Music",
@@ -5016,7 +5224,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5030,7 +5238,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 2,
     "unit_id": "unit_2",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_015",
@@ -5038,14 +5248,19 @@
     "paperId": "music_nov23",
     "question_no": 15,
     "question_en": "In which composition, there are four musical elements?",
-    "question_gu": "",
+    "question_gu": "ગપ | 15. ક્યા ગીત પ્રકાર માં ચાર ગાયકીઓ નો સમાવેશ હોય છે ?",
     "options_en": [
       "Chaturang",
       "Tarana",
       "Tappa",
       "Dhamar"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ચતુરંગ",
+      "તરાના",
+      "ટપ્પા",
+      "ધમાર"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Vocal Music Forms",
@@ -5057,7 +5272,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5071,7 +5286,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_016",
@@ -5079,14 +5296,19 @@
     "paperId": "music_nov23",
     "question_no": 16,
     "question_en": "How many rasas are there according to Bharat?",
-    "question_gu": "",
+    "question_gu": "| 16. “ભરત મુનિ* એ કેટલા રસ નો ઉલ્લેખ કર્યો છે ?",
     "options_en": [
       "Five",
       "Nine",
       "Seven",
       "Eight"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પાંચ",
+      "નવ",
+      "સાત",
+      "આઠ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Rasa Theory",
@@ -5098,7 +5320,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5112,7 +5334,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 3,
     "unit_id": "unit_3",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_017",
@@ -5120,14 +5344,19 @@
     "paperId": "music_nov23",
     "question_no": 17,
     "question_en": "Which one set is different?",
-    "question_gu": "",
+    "question_gu": ". વિષમ જોડી કઈ છે ?",
     "options_en": [
       "Kafi – Bageshri",
       "Bhairav – Ramkali",
       "Marwa – Puriya",
       "Puri – Todi"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કાફી - બાગેશ્રી",
+      "ભૈરવ - રામકલી",
+      "મારવા- પુરીયા",
+      "પૂર્વી - તોડી સિદ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Raga Classification",
@@ -5139,7 +5368,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5153,7 +5382,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_018",
@@ -5161,14 +5392,19 @@
     "paperId": "music_nov23",
     "question_no": 18,
     "question_en": "How many minimum notes are required in one Raga?",
-    "question_gu": "",
+    "question_gu": ", એક રાગ માં ન્યુનતમ કેટલા સ્વરો હોવા આવશ્યક છે ?",
     "options_en": [
       "Two",
       "Three",
       "Four",
       "Five"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બે",
+      "ત્રણ",
+      "ચાર",
+      "પાંચ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Raga Theory",
@@ -5180,7 +5416,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5194,7 +5430,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_019",
@@ -5202,14 +5440,19 @@
     "paperId": "music_nov23",
     "question_no": 19,
     "question_en": "‘Kharharpriya’ is the Karnatak name of which Hindustani Raga?",
-    "question_gu": "",
+    "question_gu": ", કર્નાટક સંગીત નો રાગ 'ખરહરપ્રિયા” હિન્દુસ્તાની સંગીત ના ક્યા રાગ ની સાથે મેળ ખાય છે ?",
     "options_en": [
       "Khamaj",
       "Kafi",
       "Bilawal",
       "Asawari"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ખમાજ",
+      "કાફી",
+      "બિલાવલ",
+      "આસાવરી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Raga Classification",
@@ -5221,7 +5464,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5235,7 +5478,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_020",
@@ -5243,14 +5488,19 @@
     "paperId": "music_nov23",
     "question_no": 20,
     "question_en": "How many classifications of Ragas are explained in ‘Sangeet Makrand’?",
-    "question_gu": "",
+    "question_gu": ". “સંગીત મકરંદ' ગ્રંથ અનુસાર રાગ વર્ગીકરણ ના કેટલા પ્રકાર છે ?",
     "options_en": [
       "One",
       "Two",
       "Three",
       "Four"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "એક",
+      "બે",
+      "ત્રણ",
+      "ચાર"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Raga Classification & Treatises",
@@ -5262,7 +5512,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5276,7 +5526,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV25_006",
@@ -5425,7 +5677,7 @@
     "paperId": "music_nov25",
     "question_no": 9,
     "question_en": "Tappa is originated from",
-    "question_gu": "ટપ્પા નો ઉદ્ભવ ક્યાંથી થયો ?",
+    "question_gu": ". ટપ્પા નો ઉદ્ભવ ક્યાંથી થયો ?",
     "options_en": [
       "Rajasthan",
       "Punjab",
@@ -5449,7 +5701,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5464,7 +5716,7 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5473,7 +5725,7 @@
     "paperId": "music_nov25",
     "question_no": 10,
     "question_en": "Sanskar Geet ‘Sohar’ is sung in",
-    "question_gu": "સંસ્કાર ગીત 'સોહર' ક્યારે ગવાય છે ?",
+    "question_gu": ". સંસ્કાર ગીત 'સોહર' ક્યારે ગવાય છે ?",
     "options_en": [
       "Marriage ceremony",
       "Birth celebration",
@@ -5497,7 +5749,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5512,7 +5764,7 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5521,7 +5773,7 @@
     "paperId": "music_nov25",
     "question_no": 11,
     "question_en": "Mysore Chowdaiah was a",
-    "question_gu": "મૈસૂર ચૌદઈયા હતાં.",
+    "question_gu": ". મૈસૂર ચૌદઈયા હતાં.",
     "options_en": [
       "Mridangist",
       "Violinist",
@@ -5545,7 +5797,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5560,7 +5812,7 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5569,7 +5821,7 @@
     "paperId": "music_nov25",
     "question_no": 12,
     "question_en": "Siddheswari Devi is famous for",
-    "question_gu": "સિધ્ધેશ્વરી દેવી શેના માટે વિખ્યાત છે ?",
+    "question_gu": ". સિધ્ધેશ્વરી દેવી શેના માટે વિખ્યાત છે ?",
     "options_en": [
       "Kathak dance",
       "Thumri singing",
@@ -5593,7 +5845,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5608,7 +5860,7 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5617,7 +5869,7 @@
     "paperId": "music_nov25",
     "question_no": 13,
     "question_en": "Which one of the following is NOT a Sandhiprakash raga?",
-    "question_gu": "નિમ્નલિખિત કયો રાગ સંધિપ્રકાશ રાગ નથી ?",
+    "question_gu": ". નિમ્નલિખિત કયો રાગ સંધિપ્રકાશ રાગ નથી ?",
     "options_en": [
       "Purvi",
       "Bhairav",
@@ -5641,7 +5893,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5656,7 +5908,7 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5829,7 +6081,7 @@
     "paperId": "music_nov25",
     "question_no": 18,
     "question_en": "Which of the following Ragas do NOT belong to Khamaj Thata?",
-    "question_gu": "નિમ્નલિખિત કયો રાગ ખમાજ ઠાઠ નો નથી ?",
+    "question_gu": ". નિમ્નલિખિત કયો રાગ ખમાજ ઠાઠ નો નથી ?",
     "options_en": [
       "Jhinjhoti",
       "Rageshri",
@@ -5853,7 +6105,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5868,7 +6120,7 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5877,7 +6129,7 @@
     "paperId": "music_nov25",
     "question_no": 19,
     "question_en": "Arrange the following options in correct sequence with increasing order of Vikrit Swara: a. Des; b. Jounpuri; c. Todi; d. Bhairav.",
-    "question_gu": "નીચેના વિકલ્પોને વિકૃત સ્વરોની સંખ્યા ના ચઢતા ક્રમમાં ગોઠવો . થ. દેસ છ. જૌનપુરી ૦. તોડી 4. ભૈરવ",
+    "question_gu": ". નીચેના વિકલ્પોને વિકૃત સ્વરોની સંખ્યા ના ચઢતા ક્રમમાં ગોઠવો . થ. દેસ છ. જૌનપુરી ૦. તોડી 4. ભૈરવ",
     "options_en": [
       "a, c, d, b",
       "a, d, b, c",
@@ -5885,9 +6137,9 @@
       "d, a, b, c"
     ],
     "options_gu": [
-      "8, ૦, લં, 9",
+      ", ૦, લં, 9",
       "દ, ઉં, 9, €",
-      "9,,૦, વ",
+      ",,૦, વ",
       "ઉ, હ, 9, ૦"
     ],
     "answer": "B",
@@ -5901,7 +6153,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5916,7 +6168,7 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5925,7 +6177,7 @@
     "paperId": "music_nov25",
     "question_no": 20,
     "question_en": "Who was the guru of Tansen?",
-    "question_gu": "તાનસેન નાં ગુરૂ કોણ હતાં ?",
+    "question_gu": ". તાનસેન નાં ગુરૂ કોણ હતાં ?",
     "options_en": [
       "Tulsidas",
       "Haridas",
@@ -5949,7 +6201,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -5964,7 +6216,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -5973,14 +6225,19 @@
     "paperId": "music_nov23",
     "question_no": 21,
     "question_en": "Find the odd one out of the following.",
-    "question_gu": "",
+    "question_gu": ". વિષમ વિકલ્પ ચૂંટો",
     "options_en": [
       "Natya Sastra of Bharata",
       "Abhinava Bharati of Abhinavagupta",
       "Kalanidhi of Katlinatha Abhinava",
       "Sangita Sudhakara of Simhabhupala"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ભરત નું નાટ્યશાસ્ત્ર",
+      "અભિનવગુપ્ત નું અભિનવ ભારતી",
+      "કલ્લીનાથનું કલાનિધિ",
+      "સિંહભૂપાલ નું સંગીત સુધાકર"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Treatises",
@@ -5992,7 +6249,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -6006,7 +6263,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 6,
     "unit_id": "unit_6",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_022",
@@ -7757,14 +8016,19 @@
     "paperId": "music_nov25",
     "question_no": 28,
     "question_en": "Which of these Rabindra Sangeet compositions is based on Gourmalhar raga?",
-    "question_gu": "",
+    "question_gu": ". રવીન્દ્ર સંગીત ની કઈ રચના રાગ “ગૌડ મલ્હાર' ઉપર આધારિત છે ?",
     "options_en": [
       "Jodi Tor Daak Sune",
       "Mor Bhabanare Ki Haway",
       "Tumi Rabe Nirabe",
       "Tomar Aamaro Ei Milanero"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "જોડી તોર ડાક શુને",
+      "મોર ભાબોનારે કી હવાય",
+      "તુમી રાબે નિરોબે",
+      "તોમાર અમારો એઈ મિલોનેરો"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Rabindra Sangeet",
@@ -7776,7 +8040,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7790,7 +8054,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV25_029",
@@ -7798,14 +8064,19 @@
     "paperId": "music_nov25",
     "question_no": 29,
     "question_en": "Which two of the following ragas belong to two thaats? a. Bairagi; b. Narayani; c. Gowri; d. Bibhas.",
-    "question_gu": "",
+    "question_gu": ". નિમ્નલિખિત ક્યા બે રાગો નો સંબંધ બે ઠાઠ સાથે છે ? &. બૈરાગી 8. નારાયણી ૦. ગૌરી વ. બિભાસ",
     "options_en": [
       "a, d",
       "b, c",
       "a, b",
       "c, d"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "હ,",
+      ",૦",
+      "દ, 9",
+      "૦,વ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Raga Classification",
@@ -7817,7 +8088,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7831,7 +8102,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV25_030",
@@ -7839,14 +8112,19 @@
     "paperId": "music_nov25",
     "question_no": 30,
     "question_en": "The only tala among sapta tala-s which includes the anga ‘Anudrutam’ is",
-    "question_gu": "",
+    "question_gu": "(રી 30. સપ્ત તાલ માંથી ફક્ત ક્યા તાલ માં “અનુદ્રુત' અંગ નો સમાવેશ થાય છે ?",
     "options_en": [
       "Triputa",
       "Jhampa",
       "Dhruva",
       "Rupaka"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ત્રિપુટ",
+      "ઝંપા",
+      "ધ્રુવા",
+      "રૂપક"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Carnatic Tala",
@@ -7858,7 +8136,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7872,7 +8150,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV25_031",
@@ -8879,7 +9159,7 @@
     "paperId": "music_nov25",
     "question_no": 54,
     "question_en": "Statement 1: Raga Anand Bhairav was invented by Pt. Lalmani Mishra. Statement 2: Pt. Lalmani Mishra was a sitar player.",
-    "question_gu": "સત્ય અને અસત્ય કથન ઓળખો. કથન ૧: રાગ આનંદ ભૈરવી ની રચના પં. લાલમણિ મિશ્રા એ કરી હતી. કથન ૨: પં. લાલમણિ મિશ્રા સિતાર વાદક હતાં.",
+    "question_gu": ". સત્ય અને અસત્ય કથન ઓળખો. કથન ૧: રાગ આનંદ ભૈરવી ની રચના પં. લાલમણિ મિશ્રા એ કરી હતી. કથન ૨: પં. લાલમણિ મિશ્રા સિતાર વાદક હતાં.",
     "options_en": [
       "Statement 1 is true and statement 2 is false",
       "Both statements are true",
@@ -8903,7 +9183,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -8918,7 +9198,7 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -8927,7 +9207,7 @@
     "paperId": "music_nov25",
     "question_no": 55,
     "question_en": "How can the objectivity of research be enhanced?",
-    "question_gu": "સંશોધન નું ઉદ્દેશ્ય કેવી રીતે સાર્થકતાથી વધારી શકાય ?",
+    "question_gu": ". સંશોધન નું ઉદ્દેશ્ય કેવી રીતે સાર્થકતાથી વધારી શકાય ?",
     "options_en": [
       "Through its validity",
       "Through its reliability",
@@ -8951,7 +9231,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -8966,7 +9246,7 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -8975,7 +9255,7 @@
     "paperId": "music_nov25",
     "question_no": 56,
     "question_en": "Which of the following is a primary data collecting method used in qualitative research?",
-    "question_gu": "ગુણાત્મક સંશોધન માં ઉપયોગ માં લેવાતી પ્રાથમિક માહિતી એકત્રિત કરવાની પધ્ધતિ નીચેનામાંથી કઈ છે ?",
+    "question_gu": ". ગુણાત્મક સંશોધન માં ઉપયોગ માં લેવાતી પ્રાથમિક માહિતી એકત્રિત કરવાની પધ્ધતિ નીચેનામાંથી કઈ છે ?",
     "options_en": [
       "Surveys",
       "Experiments",
@@ -8999,7 +9279,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -9014,7 +9294,7 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10158,7 +10438,7 @@
     "paperId": "music_nov25",
     "question_no": 84,
     "question_en": "The Firoz Khani Gat was originally developed by Firoz Khan for which instrument?",
-    "question_gu": "ફિરોઝખાન દ્વારા વિકસિત ફિરોઝખાની ગત મૂળ ક્યા વાદ્ય માટે વિકસાવી ?",
+    "question_gu": ". ફિરોઝખાન દ્વારા વિકસિત ફિરોઝખાની ગત મૂળ ક્યા વાદ્ય માટે વિકસાવી ?",
     "options_en": [
       "Sitar",
       "Sarod",
@@ -10182,7 +10462,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10197,7 +10477,7 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10206,7 +10486,7 @@
     "paperId": "music_nov25",
     "question_no": 85,
     "question_en": "Meera and Surdas are famous for which style?",
-    "question_gu": "મીરાં અને સૂરદાસ કઈ શૈલી માટે પ્રસિદ્ધ છે ?",
+    "question_gu": ". મીરાં અને સૂરદાસ કઈ શૈલી માટે પ્રસિદ્ધ છે ?",
     "options_en": [
       "Ghazal",
       "Geet",
@@ -10230,7 +10510,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10245,7 +10525,7 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10254,7 +10534,7 @@
     "paperId": "music_nov25",
     "question_no": 86,
     "question_en": "Assertion (A): Pandit Ramashray Jha is regarded as a Vaggeyakara. Reason (R): He composed poetic texts of numerous bandishes and set them to appropriate musical forms.",
-    "question_gu": "નીચે આપેલા નિવેદન(&) અને કારણ (1ર) વાંચો અને તમારો જવાબ નીચે આપેલા વિકલ્પમાંથી પસંદ કરો. નિવેદન (1) : પંડિત રામાશ્રય ઝા ને વાગ્ગેયકાર માનવામાં આવે છે. કારણ (3): કારણ કે તેમણે અનેક બંદીશોનું કાવ્યરચન કર્યું હતું અને તેને યોગ્ય સંગીતરૂપ પણ આપ્યું હતું.",
+    "question_gu": ". નીચે આપેલા નિવેદન(&) અને કારણ (1ર) વાંચો અને તમારો જવાબ નીચે આપેલા વિકલ્પમાંથી પસંદ કરો. નિવેદન (1) : પંડિત રામાશ્રય ઝા ને વાગ્ગેયકાર માનવામાં આવે છે. કારણ (3): કારણ કે તેમણે અનેક બંદીશોનું કાવ્યરચન કર્યું હતું અને તેને યોગ્ય સંગીતરૂપ પણ આપ્યું હતું.",
     "options_en": [
       "A true, R false",
       "A false, R true",
@@ -10278,7 +10558,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10293,7 +10573,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10302,7 +10582,7 @@
     "paperId": "music_nov25",
     "question_no": 87,
     "question_en": "The first Indian talkie film that included songs was",
-    "question_gu": "ગીતો ધરાવતી પ્રથમ ભારતીય ટોકી ફિલ્મ કઈ હતી ?",
+    "question_gu": "નિમ્નલિખિત ફકરો વાંચો અને પ્રશ્ન ક્રમાંક 87 થી 90 ના જવાબ આપો. ભારતમાં ફિલ્મ સંગીત દેશની સાંસ્કૃતિક અને સંગીત પરંપરામાં અત્યંત મહત્વનું સ્થાન ધરાવે છે. ભારતીય ફિલ્મો, ખાસ કરીને હિન્દી સિનેમા, ગીતો વિના અધૂરી ગણાય છે. 1931માં આવેલી આલમ આરા નામની ટોકી ફિલ્મથી જ ફિલ્મોમાં સંગીત એક અગત્યનો ભાગ બની ગયો. ફિલ્મ ગીતો સામાન્ય રીતે શાસ્ત્રીય રાગ, લોકસંગીતની ધૂન અથવા હળવા સંગીત શૈલીઓ પર આધારિત હોય છે. નૌશાદ, એસ.ડી. બર્મન, મદન મોહન અને પછી આર.ડી. બર્મન, એ.આર. રહમાન જેવા ઘણા પ્રખ્યાત સંગીતકારોએ પોતાની સર્જનાત્મક રચનાઓથી ભારતીય સિનેમાને સમૃદ્ધ બનાવ્યું. પ્લેબેક ગાયન એક લોકપ્રિય વ્યવસાય બની ગયો અને લતા મંગેશકર, કિશોર કુમાર, મુકેશ, મોહમ્મદ રફી અને આશા ભોસલે જેવા ગાયકોના અવાજથી કરોડો લોકોના હૃદય જીતાયા. આજકાલ ભારતીય ફિલ્મ સંગીત શાસ્ત્રીય, લોકસંગીત, પશ્ચિમ પ્રભાવ અને આધુનિક ડિજિટલ ધ્વનિનું સંમિશ્રણ બની ગયું છે, જેના કારણે તે માત્ર ભારતમાં જ નહીં પરંતુ સમગ્ર વિશ્વમાં લોકપ્રિય બન્યું છે. 87. ગીતો ધરાવતી પ્રથમ ભારતીય ટોકી ફિલ્મ કઈ હતી ?",
     "options_en": [
       "Sholay",
       "Alam Ara",
@@ -10326,7 +10606,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10341,7 +10621,7 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10350,7 +10630,7 @@
     "paperId": "music_nov25",
     "question_no": 88,
     "question_en": "Which music director is famous for classical-based film songs?",
-    "question_gu": "નીચેનાપૈકી ક્યા સંગીતકાર શાસ્ત્રીય આધારિત ફિલ્મ ગીતો માટે પ્રખ્યાત છે ?",
+    "question_gu": ". નીચેનાપૈકી ક્યા સંગીતકાર શાસ્ત્રીય આધારિત ફિલ્મ ગીતો માટે પ્રખ્યાત છે ?",
     "options_en": [
       "Naushad",
       "A. R. Rahman",
@@ -10374,7 +10654,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10389,7 +10669,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10398,7 +10678,7 @@
     "paperId": "music_nov25",
     "question_no": 89,
     "question_en": "Who among the following is NOT a playback singer?",
-    "question_gu": "નીચેપૈકી કોણ પાર્શ્વગાયક નથી?",
+    "question_gu": ". નીચેપૈકી કોણ પાર્શ્વગાયક નથી?",
     "options_en": [
       "Lata Mangeshkar",
       "Mohammed Rafi",
@@ -10422,7 +10702,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10437,7 +10717,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10446,7 +10726,7 @@
     "paperId": "music_nov25",
     "question_no": 90,
     "question_en": "Film music in India is generally a mixture of",
-    "question_gu": "ભારતમાં ફિલ્મ સંગીત સામાન્ય રીતે શેનું સંમિશ્રણનું હોય છે ?",
+    "question_gu": ". ભારતમાં ફિલ્મ સંગીત સામાન્ય રીતે શેનું સંમિશ્રણનું હોય છે ?",
     "options_en": [
       "Classical and folk",
       "Western influences",
@@ -10470,7 +10750,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10485,7 +10765,7 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10658,7 +10938,7 @@
     "paperId": "music_nov25",
     "question_no": 95,
     "question_en": "Which part is NOT used in Dhrupad?",
-    "question_gu": "કયો પ્રકાર ધ્રુપદમાં ગવાતો નથી?",
+    "question_gu": ". કયો પ્રકાર ધ્રુપદમાં ગવાતો નથી?",
     "options_en": [
       "Aalap",
       "Meend",
@@ -10682,7 +10962,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10697,7 +10977,7 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10706,7 +10986,7 @@
     "paperId": "music_nov25",
     "question_no": 96,
     "question_en": "Who is NOT a musicologist?",
-    "question_gu": "કોણ સંગીતશાસ્ત્રી નથી ?",
+    "question_gu": ". કોણ સંગીતશાસ્ત્રી નથી ?",
     "options_en": [
       "Premlata Sharma",
       "Thakur Jaidev Singh",
@@ -10730,7 +11010,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10745,7 +11025,7 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10754,7 +11034,7 @@
     "paperId": "music_nov25",
     "question_no": 97,
     "question_en": "Katapayadi Sankhya is used in",
-    "question_gu": "કટપયાદિ સંખ્યાનો ઉપયોગ શામાં થાય છે ?",
+    "question_gu": ". કટપયાદિ સંખ્યાનો ઉપયોગ શામાં થાય છે ?",
     "options_en": [
       "Grama Murchhana Jati System",
       "Thaata Nomenclature",
@@ -10778,7 +11058,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10793,7 +11073,7 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10802,7 +11082,7 @@
     "paperId": "music_nov25",
     "question_no": 98,
     "question_en": "Bimalakanta Roy Chowdhuri is the author of",
-    "question_gu": "બેમલકાંત રૉય ચૌધ્રરી ના ગ્રંથનું નામ શું?",
+    "question_gu": ". બેમલકાંત રૉય ચૌધ્રરી ના ગ્રંથનું નામ શું?",
     "options_en": [
       "Pranav Bharati",
       "Kali Nidhi",
@@ -10826,7 +11106,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2025 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -10841,7 +11121,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2025 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -10973,14 +11253,19 @@
     "paperId": "music_nov23",
     "question_no": 58,
     "question_en": "Ladi is a part of",
-    "question_gu": "",
+    "question_gu": ". લડી એ નિચે આપેલ શબ્દોમાંથી કોણો ભાગ છે",
     "options_en": [
       "Peshkar",
       "Kaida",
       "Laggi",
       "Gat"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પેશકાર",
+      "કાયદા",
+      "લગ્ગી",
+      "») ગત"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tabla & Rhythm",
@@ -10992,7 +11277,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11006,7 +11291,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_059",
@@ -11014,14 +11301,19 @@
     "paperId": "music_nov23",
     "question_no": 59,
     "question_en": "In ancient time, desi taal were played with which category of instruments?",
-    "question_gu": "",
+    "question_gu": "| 59. પ્રાચીન સમયમાં દેશો તાલ ક્યા વાદ્ય પર વગાડવામાં આવતા હતા ?",
     "options_en": [
       "Tat vadya",
       "Avanaddha vadya",
       "Ghana vadya",
       "Sushir vadya"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તતૂ વાદ્ય",
+      "અવનધ્ધ વાદ્ય",
+      "ઘન વાદ્ય",
+      "સુષીર વાદ્ય"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Ancient Music & Instruments",
@@ -11033,7 +11325,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11047,7 +11339,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_060",
@@ -11055,14 +11349,19 @@
     "paperId": "music_nov23",
     "question_no": 60,
     "question_en": "Number of beats in one chakra of a panch-chakradhar composition in Shikhar taal are",
-    "question_gu": "",
+    "question_gu": "60. શિખર તાલમાં યક્ધાર માં પહેલું આવર્તન રાં કઈ માત્રાપર પૂરૂ થાય છે ?",
     "options_en": [
       "23 matras",
       "24 matras",
       "22 matras",
       "25 matras"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "માત્રા",
+      "માત્રા",
+      "માત્રા",
+      "માત્રા"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -11074,7 +11373,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11088,7 +11387,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_061",
@@ -11096,14 +11397,19 @@
     "paperId": "music_nov23",
     "question_no": 61,
     "question_en": "Match the following: a. Vyabhichari; b. Bharat Bhashyam; c. Adbhut; d. Sharan Rani. i. Sarod; ii. Rasa; iii. Nanyad; iv. Bhav.",
-    "question_gu": "",
+    "question_gu": "પ૪ | 61. યોગ્ય જોડી બનાવી સાચો જવાબ આપો : &. વ્યભિચારી |. સરોદ 9. ભરત ભાષ્યમ ઊ. રસ ૦€- અદભૂત ||. નાન્યદેવ ત. શરણ રાની [૪/. ભાવ",
     "options_en": [
       "a-iv, b-iii, c-ii, d-i",
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iv, c-i, d-iii",
       "a-iii, b-iv, c-ii, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "-1/, 9-1, ૦-1, ત-|",
+      "૧-1, 9-1, ૦-1, ત-[૫",
+      "૧-1, ૪-1૫, ૦-1, ત-॥|",
+      "-॥, 0-1૫, ૦-1, ત-|"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Musicians",
@@ -11115,7 +11421,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11129,7 +11435,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 3,
     "unit_id": "unit_3",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_062",
@@ -11383,14 +11691,19 @@
     "paperId": "music_nov23",
     "question_no": 68,
     "question_en": "Match the compositions with musical forms: a. Dheemtanana; b. Raghunayaka; c. Varavina; d. Nityakalyani. i. Gita; ii. Thillana; iii. Kriti; iv. Ragam.",
-    "question_gu": "",
+    "question_gu": "[1 | 68. યોગ્ય જોડી બનાવી સાચો જવાબ આપો : રચના ગીત પ્રકાર ળી &. દીમ તનના |. ગીતા 9. રઘુનાયકા |. તિલ્લાના ૦. વરવીણા ઊ|. કૃતિ ત. નિત્યકલ્યાણી 1. રાગમાલિકા",
     "options_en": [
       "a-ii, b-iii, c-i, d-iv",
       "a-i, b-iv, c-iii, d-ii",
       "a-iii, b-i, c-ii, d-iv",
       "a-iv, b-iii, c-ii, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "-1, 9-1, ૦-1, ત-1/",
+      "-1, 9-1૫, ૦-1, ત-1|",
+      "૧-1, 9-1, ૦-1, ત-1[૫",
+      "૧-1૪, 9-1, ૦-1, ત-|"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Carnatic Music Forms",
@@ -11402,7 +11715,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11416,7 +11729,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_069",
@@ -11424,14 +11739,19 @@
     "paperId": "music_nov23",
     "question_no": 69,
     "question_en": "Match the musicians with their specialized instruments: a. M. S. Gopalakrishnan; b. T. R. Mahalingam; c. Namagiri Pettai Krishnan; d. Vikku Vinayakram. i. Nagaswaram; ii. Violin; iii. Flute; iv. Ghatam.",
-    "question_gu": "",
+    "question_gu": "| 69. યોગ્ય જોડી બનાવી સાચો જવાબ આપો : સંગીતકાર વાદ્ય થ- એમ. એમ. ગોપાલકૃષ્ણન 1- નાગસ્વરમ ળિિ 9. ટી. આર. મહાલિંગમ |. વાયોલિન ૦€- નામગીરી ઊ|. બાંસુરી પેટાઇ કુષ્ણન વં. વિકુ વિનાયકરામ [૪. ઘટમ",
     "options_en": [
       "a-ii, b-iii, c-i, d-iv",
       "a-iv, b-i, c-ii, d-iii",
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iv, c-i, d-iii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "લ-1, 9-1, ૦-1, ત-10",
+      "-1૪, 9-1, ૦-1, ત-||",
+      "-1, ૪-1, ૦-॥, ત-1૫",
+      "દ-॥, 9-1, ૦-1, ત-|૫"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Instruments",
@@ -11443,7 +11763,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11457,7 +11777,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 8,
     "unit_id": "unit_8",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_070",
@@ -11834,14 +12156,19 @@
     "paperId": "music_nov23",
     "question_no": 79,
     "question_en": "Statement 1: ‘Abhinav Geetanjali’ is written by Pt. Ratanjankar. Statement 2: ‘Abhinav Geet Manjari’ is written by Pt. Ramashraya Jha ‘Ramrang’.",
-    "question_gu": "",
+    "question_gu": ", નીચેનું વિધાન સાચું કે ખોટું છે તે જણાવો. વિધાન ક્રમાંક ૧. “અભિનવ ગીતાંજલિ' ના લેખક પંડિત રાતંજનકર છે. વિધાન ક્રમાંક ર. “અભિનવ ગીતમંજરી' ના લેખક પંડિત રામાશ્રય ઝા છે.",
     "options_en": [
       "Both statements false",
       "Both statements true",
       "Statement 1 true, statement 2 false",
       "Statement 1 false, statement 2 true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ક્રમાંક ૧ અને ર ખોટા છે",
+      "વિધાન ક્રમાંક ૧ અને ર સાચા છે",
+      "વિધાન ક્રમાંક ૧ સાચું છે પરંતુ વિધાન ક્રમાંક ૨ ખોટું છે.",
+      "વિધાન ક્રમાંક ૧ ખોટું છે પરંતુ વિધાન ક્રમાંક ર સાચું છે."
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Books",
@@ -11853,7 +12180,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11867,7 +12194,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 7,
     "unit_id": "unit_7",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_080",
@@ -11875,14 +12204,19 @@
     "paperId": "music_nov23",
     "question_no": 80,
     "question_en": "Statement 1: Pt. Birju Maharaj was a Kathak dancer of international repute. Statement 2: He trained actress Ms. Madhuri Dixit.",
-    "question_gu": "",
+    "question_gu": ". નીચેનું વિધાન સાચું કે ખોટું છે તે જણાવો. વિધાન ક્રમાંક ૧. પંડિત બિરજુ મહારાજ વિશ્વવિખ્યાત કથક નર્તક હતાં વિધાન ક્રમાંક ર. પંડિત બિરજુ મહારાજ દ્વારા અભિનેત્રી માધુરી દીક્ષિત ને તાલીમ આપી હતી.",
     "options_en": [
       "Both statements true",
       "Statement 1 true, statement 2 false",
       "Both statements false",
       "Statement 1 false, statement 2 true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ક્રમાંક ૧ અને ર સાચા છે",
+      "વિધાન ક્રમાંક ૧ સાચું છે પરંતુ વિધાન ક્રમાંક ૨ ખોટું છે.",
+      "વિધાન ક્રમાંક ૧ અને ર ખોટા છે.",
+      "વિધાન ક્રમાંક ૧ ખોટું છે પરંતુ વિધાન ક્રમાંક ર સાચું છે."
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Classical Dance",
@@ -11894,7 +12228,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11908,7 +12242,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_081",
@@ -11916,14 +12252,19 @@
     "paperId": "music_nov23",
     "question_no": 81,
     "question_en": "In Gurukula Sampradaya, Sishyas underwent training. Which is true?",
-    "question_gu": "",
+    "question_gu": ". ગુરુકુળ સંપ્રદાય માં શિષ્યો ને ક્યા પ્રકાર ની તાલીમ લેવી પડે છે?",
     "options_en": [
       "Rigorous, non-stop training",
       "All-round music training and performance with Guru",
       "Only listening, no teaching or learning",
       "All above are false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સખત અને અવિરત તાલીમ",
+      "બહુમુખી તાલીમ અને ગુરુ સાથે પ્રસ્તુતિઓ",
+      "ફક્ત શ્રાવ્ય પરંતુ શિક્ષણ પ્રશિક્ષણ નહીં",
+      "ઉપરોક્ત બધાજ વિકલ્પ અયોગ્ય"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Education",
@@ -11935,7 +12276,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11949,7 +12290,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 10,
     "unit_id": "unit_10",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_082",
@@ -11957,7 +12300,7 @@
     "paperId": "music_nov23",
     "question_no": 82,
     "question_en": "Prasar Bharati award grades in different levels. Which is true?",
-    "question_gu": "પ્રસાર ભારતી નિમ્નલિખિત કઈ ગ્રેડ આપે છે ? કયો વિકલ્પ સાચો છે ?",
+    "question_gu": "ટે 10 દુ) 1 82. પ્રસાર ભારતી નિમ્નલિખિત કઈ ગ્રેડ આપે છે ? કયો વિકલ્પ સાચો છે ?",
     "options_en": [
       "B, B high, C, C high",
       "A+, B+, C+",
@@ -11981,7 +12324,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -11996,7 +12339,7 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12005,7 +12348,7 @@
     "paperId": "music_nov23",
     "question_no": 83,
     "question_en": "The four strings of tambura are pa–sa–sa–Sa, by default.",
-    "question_gu": "તાનપુરા માં ચાર તાર પ-સા-સા-સા માં મેળવવા માં આવે છે.",
+    "question_gu": ". તાનપુરા માં ચાર તાર પ-સા-સા-સા માં મેળવવા માં આવે છે.",
     "options_en": [
       "It is true",
       "It is false",
@@ -12029,7 +12372,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12044,7 +12387,7 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12053,7 +12396,7 @@
     "paperId": "music_nov23",
     "question_no": 84,
     "question_en": "Tevaram hymns are in praise of Lord Shiva.",
-    "question_gu": "તેવરમ હિમ ભગવાન શિવ ની સ્તુતિ છે.",
+    "question_gu": ". તેવરમ હિમ ભગવાન શિવ ની સ્તુતિ છે.",
     "options_en": [
       "Always true",
       "Always false",
@@ -12077,7 +12420,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12092,7 +12435,7 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12101,7 +12444,7 @@
     "paperId": "music_nov23",
     "question_no": 85,
     "question_en": "Read the statements: 1. Murcchanas have 7 Svaras. 2. Each grama has 7 Murcchanas. 3. Murcchanas are set to Talas.",
-    "question_gu": "નિમ્નલિખિત વિધાન વાંચી તે સાચા કે ખોટા છે તે જણાવો. 1. મૂર્છના માં ૭ સ્વર હોય છે 2. પ્રત્યેક ગ્રામ માં ૭ મૂર્છના હોય છે. 3. મૂર્ઈનાઓ તાલબદ્ધ હોય છે.",
+    "question_gu": ". નિમ્નલિખિત વિધાન વાંચી તે સાચા કે ખોટા છે તે જણાવો. 1. મૂર્છના માં ૭ સ્વર હોય છે 2. પ્રત્યેક ગ્રામ માં ૭ મૂર્છના હોય છે. 3. મૂર્ઈનાઓ તાલબદ્ધ હોય છે.",
     "options_en": [
       "Statements 1, 2 and 3 are true",
       "Statements 1 and 2 are true; statement 3 is false",
@@ -12125,7 +12468,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12140,7 +12483,7 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12313,7 +12656,7 @@
     "paperId": "music_nov23",
     "question_no": 90,
     "question_en": "Assertion: Pt. Krishnarao Shankar Pandit was a vocalist. Reason: He used to sing Carnatic vocal.",
-    "question_gu": "વિધાન વાંચો અને જવાબ આપો. ડુ સત્ય અને , અસત્ય વિધાન 4. પં. કૃષ્ણરાવ શંકર પંડીત એ પોતે એક ગાયક કલાકાર છે. પિ. એ પોતે દક્ષીણ હિન્દુસ્તાની સંગીતના ગાયક હતા.",
+    "question_gu": ". વિધાન વાંચો અને જવાબ આપો. ડુ સત્ય અને , અસત્ય વિધાન 4. પં. કૃષ્ણરાવ શંકર પંડીત એ પોતે એક ગાયક કલાકાર છે. પિ. એ પોતે દક્ષીણ હિન્દુસ્તાની સંગીતના ગાયક હતા.",
     "options_en": [
       "Assertion false, reason false",
       "Assertion true, reason false",
@@ -12322,9 +12665,9 @@
     ],
     "options_gu": [
       "/ખોટુ છે, 3 ખોટું છે",
-      "4સાચું છે, 3 ખોટું છે",
+      "સાચું છે, 3 ખોટું છે",
       "&સાચું છે, 3 સાયુ છે",
-      "ખોટું છે, 3 સાચું છે 9 91-95 નિમ્નલિખિત ફકરો કાળજીપૂર્વક વાંચીને કેન | પ્રશ્નોના જવાબ આપો : રંગમંચ કલાઓ માં સહુથી લોકપ્રિય એવી સંગીત 1 | એક દિવ્ય કળા છે. ભારતીય સંકલ્પના પ્રમાણે ગ્તૃ| ગાયન-વાદન-નૃત્ય નો સમાવેશ સંગીત તરીકે ઓળખાય છે. પરંતુ પાશ્ચયાત વિચાર પ્રમાણે ગાયન - વાદન એ સંગીત છે અને નૃત્ય એ અલગ કળા છે. ગાયન, વાદન અને નૃત્ય ના અનેક ભારતીય કલાકારો આંતરરાષ્ટીય ક્ષેત્રે ખ્યાતિપ્રાપ્ત છે. પંડિત એમ. એસ.ગોપાલક્રિશ્નન એ ઉત્તર અને દક્ષિણ ભારતીય સંગીત ના કલાકાર છે. વિદુષી ગિરિજાદેવી એ શાસ્ત્રીય તથા ઉપશાસ્ત્રીય બંને પ્રકાર ની ગાયકી ના કલાકાર છે. તેઓ બનારસ ધરાના ના કલાકાર છે. ઉસ્તાદ અબ્દુલ કરીમ ખાન ના પુત્રી શ્રીમતી હિરા બાઈ બરોડેકર એ લાલ કિલ્લા પર થી “વંદે માતરમ' નું ગાયન કર્યું તથા પંડિત ઓમકારનાથ ઠાકુરએ ૧૫મી ઓગસ્ટ૧૯૪૭ ની સંધ્યાએ ઓલ ઇન્ડિયા રેડિયો પર ગાયન કર્યું હતું."
+      "ખોટું છે, 3 સાચું છે"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -12337,7 +12680,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12352,7 +12695,7 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12361,7 +12704,7 @@
     "paperId": "music_nov23",
     "question_no": 91,
     "question_en": "In Western concept, Dance is",
-    "question_gu": "પશ્ચિમી સંકલ્પના પ્રમાણે નૃત્ય એ :",
+    "question_gu": "91-95 નિમ્નલિખિત ફકરો કાળજીપૂર્વક વાંચીને કેન | પ્રશ્નોના જવાબ આપો : રંગમંચ કલાઓ માં સહુથી લોકપ્રિય એવી સંગીત 1 | એક દિવ્ય કળા છે. ભારતીય સંકલ્પના પ્રમાણે ગ્તૃ| ગાયન-વાદન-નૃત્ય નો સમાવેશ સંગીત તરીકે ઓળખાય છે. પરંતુ પાશ્ચયાત વિચાર પ્રમાણે ગાયન - વાદન એ સંગીત છે અને નૃત્ય એ અલગ કળા છે. ગાયન, વાદન અને નૃત્ય ના અનેક ભારતીય કલાકારો આંતરરાષ્ટીય ક્ષેત્રે ખ્યાતિપ્રાપ્ત છે. પંડિત એમ. એસ.ગોપાલક્રિશ્નન એ ઉત્તર અને દક્ષિણ ભારતીય સંગીત ના કલાકાર છે. વિદુષી ગિરિજાદેવી એ શાસ્ત્રીય તથા ઉપશાસ્ત્રીય બંને પ્રકાર ની ગાયકી ના કલાકાર છે. તેઓ બનારસ ધરાના ના કલાકાર છે. ઉસ્તાદ અબ્દુલ કરીમ ખાન ના પુત્રી શ્રીમતી હિરા બાઈ બરોડેકર એ લાલ કિલ્લા પર થી “વંદે માતરમ' નું ગાયન કર્યું તથા પંડિત ઓમકારનાથ ઠાકુરએ ૧૫મી ઓગસ્ટ૧૯૪૭ ની સંધ્યાએ ઓલ ઇન્ડિયા રેડિયો પર ગાયન કર્યું હતું. 91. પશ્ચિમી સંકલ્પના પ્રમાણે નૃત્ય એ :",
     "options_en": [
       "Included in music",
       "Not included in music",
@@ -12385,7 +12728,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options transcribed from the original bilingual scan using column OCR. Exact wording, figures, option labels/order, and spelling still require visual proofreading against the original scan.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12400,7 +12743,7 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "answer_key_verified": true,
-    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR",
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
     "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
@@ -12409,14 +12752,19 @@
     "paperId": "music_nov23",
     "question_no": 92,
     "question_en": "Music is a practised form of",
-    "question_gu": "",
+    "question_gu": ". સંગીત એ નિમ્નલિખિત કળા છે.",
     "options_en": [
       "Modern Art",
       "Visual Art",
       "Performing Art",
       "Linguistic Art"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "આધુનિક કળા (મોડર્ન આર્ટ) છે",
+      "દ્રશ્ય કળા (વિજ્યુઅલ આર્ટ) છે",
+      "રંગમંચીય કળા છે",
+      "સાહિત્યિક કળા છે"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Music & Performing Arts",
@@ -12428,7 +12776,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12442,7 +12790,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 1,
     "unit_id": "unit_1",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_093",
@@ -12450,14 +12800,19 @@
     "paperId": "music_nov23",
     "question_no": 93,
     "question_en": "The female vocalist of Banaras Gharana is",
-    "question_gu": "",
+    "question_gu": ". બનારસ ધરાણા ના મહિલા કલાકાર નું નામ શું છે ?",
     "options_en": [
       "Vidushi Heera Bai Barodekar",
       "Vidushi Girija Devi",
       "Vidushi Gangubai Hangal",
       "Vidushi Kishori Amonkar"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિદુષી હિરાબાઈ બરોડેકર",
+      "વિદુષી ગિરિજાબાઈ",
+      "વિદુષી ગંગુબાઈ હંગલ",
+      "વિદુષી કિશોરી આમોણકર"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Hindustani Vocal Music",
@@ -12469,7 +12824,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12483,7 +12838,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 10,
     "unit_id": "unit_10",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_094",
@@ -12491,14 +12848,19 @@
     "paperId": "music_nov23",
     "question_no": 94,
     "question_en": "Pt. Omkar Nath Thakur performed ‘Vande Mataram’ on the eve of 15 August 1947 from",
-    "question_gu": "",
+    "question_gu": "ર્વ. પંડિત ઓમકારનાથ ઠાકુર એ “વંદે માતરમ ન ગાયન ૧૫ મી ઓગસ્ટ ૧૯૪૭ ની સંધ્યાએ ક્યા માધ્યમ થી કર્યું હતું ?",
     "options_en": [
       "AIR",
       "Red Fort",
       "Stage",
       "Royal Palace"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "એ આઈ આર",
+      "લાલ કિલ્લા",
+      "રંગમંચ",
+      "રાજ મહેલ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Music History",
@@ -12510,7 +12872,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12524,7 +12886,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 6,
     "unit_id": "unit_6",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_095",
@@ -12532,14 +12896,19 @@
     "paperId": "music_nov23",
     "question_no": 95,
     "question_en": "Who is the artist of both North and South Indian forms of music?",
-    "question_gu": "",
+    "question_gu": ". ઉત્તર અને દક્ષિણ ભારતીય બંને પ્રકાર ના સંગીત માંપ્રવીણ એવા કલાકાર નુંનામ શું ?",
     "options_en": [
       "Pt. Bhimsen Joshi",
       "Sharangdeva",
       "Pt. M. S. Gopalakrishnan",
       "Matang"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પંડિત ભીમસેન જોશી",
+      "શારંગદેવ",
+      "પંડિત એમ. એસ. ગોપાલક્રિશ્નન",
+      "મતંગ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicians & Musicology",
@@ -12551,7 +12920,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12565,7 +12934,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_096",
@@ -12573,14 +12944,19 @@
     "paperId": "music_nov23",
     "question_no": 96,
     "question_en": "Which Madhyama does the 27th mela contain?",
-    "question_gu": "",
+    "question_gu": "| 96-100 નીચેનો ફકરો ધ્યાનપૂર્વક વાંચીને પૂછાયેલા 15 | પ્રશ્નોના યોગ્ય જવાબ આપશો. ૭૨ મેલકર્તા રાગ વર્ગીકરણ પદ્ધતિ વેંકટમખિ એ | નિર્માણ કરી. જેમાં ૭ર મેલ માંથી પ્રથમ ૩૬ મેલ ઉદ | ગુદ્ધ માધ્યમ થી છે અને ૩૭ થી ૭ર ક્રમાંક ના મેલ પ્રતિ માધ્યમ થી નિર્માણ થયા છે. ૭૨ મેલ ને રિષભ તત | તથા ગાંધાર નાં પ્રકારોના આધારે ૧૨ ચક્રો માં 5, | વિભાજિત કરવામાં આવ્યા છે. પ્રત્યેક ચક્ર માં ૬ મેલ છે. જેઓ ધૈવત અને નિષાદ ના પ્રકારો માં અલગ ૦ | પડે છે. મેલ નો સંબંધ કટપયાદી સંખ્યા સાથે હોય 91 | છે. આમ સ્વરોના પ્રકારો ની સંખ્યા ને આધારે મેલ ઓળખી શકાય છે. એજ રીતે સિરિયલ નંબર ને આધારે મેલ નું નામ પણ જાણી શકાય છે. દ્ર | 96. ૨૭ માં મેલ માં કયો મધ્યમ હોય છે ?",
     "options_en": [
       "Shuddha Madhyama",
       "Chatushruti Madhyama",
       "Antara Madhyama",
       "Prati Madhyama"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "શુદ્ધ મધ્યમ",
+      "ચતુશ્રતિ મધ્યમ",
+      "અંતર મધ્યમ",
+      "પ્રતિ મધ્યમ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Carnatic Music Theory",
@@ -12592,7 +12968,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12606,7 +12982,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_097",
@@ -12614,14 +12992,19 @@
     "paperId": "music_nov23",
     "question_no": 97,
     "question_en": "The combination ‘sa-ra-ga-ma’ will be found in which chakra?",
-    "question_gu": "",
+    "question_gu": "- “સા-રે-ગ-મ' નું સંયોજન ક્યા ચક્ર માં મળશે?",
     "options_en": [
       "3rd and 5th chakras",
       "2nd and 7th chakras",
       "1st and 2nd chakras",
       "1st and 7th chakras"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૩ જા અને પ માં ચક્ર માં",
+      "ર૨ જા અને ૭ માં ચક્ર માં",
+      "૧ લા અને ર માં ચક્ર માં",
+      "૧ લા અને ૭ માં ચક્ર માં"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Carnatic Music Theory",
@@ -12633,7 +13016,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12647,7 +13030,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_098",
@@ -12655,14 +13040,19 @@
     "paperId": "music_nov23",
     "question_no": 98,
     "question_en": "Who formulated the 72 mela scheme?",
-    "question_gu": "",
+    "question_gu": ". ૭૨ મેલ વર્ગીકરણ કોણે શોધ્યું ?",
     "options_en": [
       "Bhatkhande",
       "Ahobal",
       "Matang",
       "Venkatamakhi"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ભાતખંડે",
+      "અહોબલ",
+      "મતંગ",
+      "વેંકટમખી"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Carnatic Music Theory",
@@ -12674,7 +13064,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12688,7 +13078,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 6,
     "unit_id": "unit_6",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_099",
@@ -12696,14 +13088,19 @@
     "paperId": "music_nov23",
     "question_no": 99,
     "question_en": "How many melas are there in each chakra?",
-    "question_gu": "",
+    "question_gu": ". પ્રત્યેક ચક્ર માં કેટલા મેલ હોય છે ?",
     "options_en": [
       "12",
       "6",
       "36",
       "72"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧૨",
+      "૬",
+      "૩૬",
+      "૭૨"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Carnatic Music Theory",
@@ -12715,7 +13112,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12729,7 +13126,9 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_100",
@@ -12737,14 +13136,19 @@
     "paperId": "music_nov23",
     "question_no": 100,
     "question_en": "Which Madhyama does the 48th mela contain?",
-    "question_gu": "",
+    "question_gu": ". ૪૮ માં મેલ માં કયો મધ્યમ આવે છે ?",
     "options_en": [
       "Chatushruti Madhyama",
       "Shuddha Madhyama",
       "Prati Madhyama",
       "Antara Madhyama"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ચતુશ્રુતિ મધ્યમ",
+      "શુદ્ધ મધ્યમ",
+      "પ્રતિ મધ્યમ",
+      "અંતર મધ્યમ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Music Theory",
@@ -12756,7 +13160,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -12770,6 +13174,8 @@
     "syllabus_mapping_note": "Provisionally mapped by question topic to the official UGC-NET Music syllabus used by GSET. Unit V–X are stream-specific; manual source and stream review remains pending.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   }
 ]
