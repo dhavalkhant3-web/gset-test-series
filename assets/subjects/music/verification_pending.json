@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Current question bank after Gujarati transcription of all previously incomplete stems/options; all records remain unverified pending visual proofread and subject-matter review.",
+  "generated_from": "Current question bank; field completeness and answer-letter comparison are recorded separately from source-level visual verification.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -16,11 +16,11 @@
   "source_verified_field_count": 0,
   "review_flags": 300,
   "remaining_gates": [
-    "Transcribe missing Gujarati stems/options from the original Gujarati column, not by translating English.",
-    "Visually proofread all 300 English and Gujarati stems/options against the scanned question papers.",
-    "Review diagrams, notation, symbols, and tables against source-page images.",
-    "Manually validate unit mapping for Hindustani, Carnatic, percussion, and Rabindra Sangeet stream-specific content.",
-    "Run Music-specific validation and full app build/CI before merging."
+    "Visually proofread all 300 English and Gujarati stems/options and option order against the original official question-paper PDFs.",
+    "Inspect diagrams, musical notation, symbols, and tables against the original source-page images.",
+    "Manually validate all 300 syllabus-unit mappings against the official syllabus, including stream-specific Hindustani, Karnataka/Carnatic, percussion, and Rabindra Sangeet content.",
+    "Reconcile stored answer letters directly against official final answer-key PDF pages and record any discrepancies.",
+    "Run Music-specific validation and full app build/CI on the current PR head before merge."
   ],
   "papers": [
     {
@@ -56,5 +56,15 @@
       "gujarati_visual_proofread": false,
       "syllabus_mapping_status": "topic_reviewed_provisional_stream_review_pending"
     }
-  ]
+  ],
+  "visual_audit_progress": {
+    "total_questions": 300,
+    "visually_proofread_questions": 0,
+    "remaining_questions": 300,
+    "english_stem_and_options_checked": 0,
+    "gujarati_stem_and_options_checked": 0,
+    "figures_symbols_tables_checked": 0,
+    "unit_mapping_manual_reviewed": 0,
+    "note": "No question is counted as visually proofread unless its English/Gujarati stem, all four options and order, and any figures/notation have been compared with the original official paper page. Existing OCR and field-completeness counts are not visual proof."
+  }
 }
