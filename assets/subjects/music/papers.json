@@ -25,10 +25,10 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "answer_key_verified_gujarati_ocr_partial_visual_proofreading_pending",
-      "review_note": "Official final answer-key audit remains recorded as complete for this 100-question paper. Gujarati stem and four-option transcription is populated for 87/100 records; 13/100 records remain incomplete. Transcribed Gujarati text remains pending visual proofreading against the original scan. English stems/options, diagrams, symbols, and stream-specific syllabus mappings are not fully source-verified.",
+      "review_note": "Gujarati stem and four options populated in 100/100 records. OCR/source-assisted transcription has been entered, but all Gujarati text/options still require visual proofreading against the original scan. English/Gujarati wording, figures, symbols, official final key, and semantic syllabus-unit mapping are not fully source-verified.",
       "unit_mapping_status": "topic_reviewed_provisional_stream_review_pending",
-      "gujarati_transcribed_count": 87,
-      "gujarati_transcription_pending_count": 13
+      "gujarati_transcribed_count": 100,
+      "gujarati_transcription_pending_count": 0
     },
     {
       "paper_id": "music_dec24",
@@ -45,10 +45,10 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "answer_key_verified_gujarati_ocr_partial_visual_proofreading_pending",
-      "review_note": "Official final answer-key audit remains recorded as complete for this 100-question paper. Gujarati stem and four-option transcription is populated for 48/100 records; 52/100 records remain incomplete. Transcribed Gujarati text remains pending visual proofreading against the original scan. English stems/options, diagrams, symbols, and stream-specific syllabus mappings are not fully source-verified.",
+      "review_note": "Gujarati stem and four options populated in 100/100 records. OCR/source-assisted transcription has been entered, but all Gujarati text/options still require visual proofreading against the original scan. English/Gujarati wording, figures, symbols, official final key, and semantic syllabus-unit mapping are not fully source-verified.",
       "unit_mapping_status": "topic_reviewed_provisional_stream_review_pending",
-      "gujarati_transcribed_count": 48,
-      "gujarati_transcription_pending_count": 52
+      "gujarati_transcribed_count": 100,
+      "gujarati_transcription_pending_count": 0
     },
     {
       "paper_id": "music_nov25",
@@ -65,10 +65,10 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "answer_key_verified_gujarati_ocr_partial_visual_proofreading_pending",
-      "review_note": "Official final answer-key audit remains recorded as complete for this 100-question paper. Gujarati stem and four-option transcription is populated for 58/100 records; 42/100 records remain incomplete. Transcribed Gujarati text remains pending visual proofreading against the original scan. English stems/options, diagrams, symbols, and stream-specific syllabus mappings are not fully source-verified.",
+      "review_note": "Gujarati stem and four options populated in 100/100 records. OCR/source-assisted transcription has been entered, but all Gujarati text/options still require visual proofreading against the original scan. English/Gujarati wording, figures, symbols, official final key, and semantic syllabus-unit mapping are not fully source-verified.",
       "unit_mapping_status": "topic_reviewed_provisional_stream_review_pending",
-      "gujarati_transcribed_count": 58,
-      "gujarati_transcription_pending_count": 42
+      "gujarati_transcribed_count": 100,
+      "gujarati_transcription_pending_count": 0
     }
   ]
 }
