@@ -12265,14 +12265,19 @@
     "paperId": "music_nov23",
     "question_no": 66,
     "question_en": "Match the following: a. Dheera Shankarabharana; b. Jhompata; c. Abheri; d. Hasya. i. Tala; ii. Raga; iii. Rasa; iv. Mela.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. ધીર શંકરાભરણ; બ. ઝોમ્પટ; ક. આભેરી; ડ. હાસ્ય. ૧. તાલ; ૨. રાગ; ૩. રસ; ૪. મેલ.",
     "options_en": [
       "a-iii, b-iv, c-ii, d-i",
       "a-iv, b-iii, c-i, d-ii",
       "a-ii, b-iii, c-iv, d-i",
       "a-iv, b-i, c-ii, d-iii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૪, ક-૨, ડ-૧",
+      "અ-૪, બ-૩, ક-૧, ડ-૨",
+      "અ-૨, બ-૩, ક-૪, ડ-૧",
+      "અ-૪, બ-૧, ક-૨, ડ-૩"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Raga, Tala & Rasa",
@@ -12306,14 +12311,19 @@
     "paperId": "music_nov23",
     "question_no": 67,
     "question_en": "Match the books with their authors: a. Music of the Madhwa Monks; b. Tanjore as Seat of Music; c. South Indian Music; d. Kramik Pustak Malika.",
-    "question_gu": "",
+    "question_gu": "પુસ્તકોને તેમના લેખકો સાથે જોડો: અ. મ્યુઝિક ઓફ ધ મધ્વા મોન્ક્સ; બ. તાંજોર એઝ અ સીટ ઓફ મ્યુઝિક; ક. સાઉથ ઇન્ડિયન મ્યુઝિક; ડ. ક્રમિક પુસ્તક માલિકા.",
     "options_en": [
       "a-iv, b-ii, c-i, d-iii",
       "a-iii, b-iv, c-i, d-ii",
       "a-ii, b-i, c-iv, d-iii",
       "a-iv, b-i, c-iii, d-ii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૨, ક-૧, ડ-૩",
+      "અ-૩, બ-૪, ક-૧, ડ-૨",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૪, બ-૧, ક-૩, ડ-૨"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Books",
@@ -12443,14 +12453,19 @@
     "paperId": "music_nov23",
     "question_no": 70,
     "question_en": "Match the Geya Natakas with their composers: a. Nandanar Charitram; b. Prahlada Bhakti Vijayam; c. Rama Natakam. i. Arunachala Kavi; ii. Gopala Krishna Bharati; iii. Thyagaraja.",
-    "question_gu": "",
+    "question_gu": "ગેય નાટકોને તેમના રચયિતાઓ સાથે જોડો: અ. નંદનાર ચરિતમ; બ. પ્રહલાદ ભક્તિ વિજયમ; ક. રામ નાટકમ. ૧. અરુણાચલ કવિ; ૨. ગોપાલકૃષ્ણ ભારતી; ૩. ત્યાગરાજ.",
     "options_en": [
       "a-i, b-ii, c-iii",
       "a-iii, b-i, c-ii",
       "a-ii, b-iii, c-i",
       "None of the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૧, બ-૨, ક-૩",
+      "અ-૩, બ-૧, ક-૨",
+      "અ-૨, બ-૩, ક-૧",
+      "ઉપરોક્તમાંથી કોઈ નહીં"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Music & Composers",
@@ -12484,14 +12499,19 @@
     "paperId": "music_nov23",
     "question_no": 71,
     "question_en": "Match the following Guru–Shishya pairs: a. Ut. Amir Hussain Khan; b. Pt. Kishan Maharaj; c. Pt. Chatrapati Singh; d. Ut. Niyazu Khan.",
-    "question_gu": "",
+    "question_gu": "ગુરુ-શિષ્યની યોગ્ય જોડીઓ બનાવો: અ. ઉસ્તાદ અમીર હુસેનખાં; બ. પંડિત કિશન મહારાજ; ક. પંડિત છત્રપતિસિંહ; ડ. ઉસ્તાદ નિયાઝુખાં.",
     "options_en": [
       "a-ii, b-i, c-iv, d-iii",
       "a-i, b-iii, c-iv, d-ii",
       "a-ii, b-iv, c-iii, d-i",
       "a-iv, b-iii, c-ii, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૩, ક-૪, ડ-૨",
+      "અ-૨, બ-૪, ક-૩, ડ-૧",
+      "અ-૪, બ-૩, ક-૨, ડ-૧"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Lineages",
@@ -12525,14 +12545,19 @@
     "paperId": "music_nov23",
     "question_no": 72,
     "question_en": "Match the bols with instruments: a. Dha kit Dhooma kita; b. Dha Tin Na; c. Dhi kda Dhin na; d. Taka Dimi. Instruments include Nakkara, Tabla, Pakhawaj, Mridangam.",
-    "question_gu": "",
+    "question_gu": "બોલને વાદ્યો સાથે જોડો: અ. ધા કિટ ધૂમ કિટ; બ. ધા તિન ના; ક. ધિ કડાધિં ના; ડ. તક દિમી. વાદ્યો: નક્કારા, તબલા, પખાવજ, મૃદંગમ.",
     "options_en": [
       "a-ii, b-i, c-iv, d-iii",
       "a-ii, b-i, c-iii, d-iv",
       "a-iii, b-ii, c-iv, d-i",
       "a-iv, b-iii, c-ii, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૨, બ-૧, ક-૩, ડ-૪",
+      "અ-૩, બ-૨, ક-૪, ડ-૧",
+      "અ-૪, બ-૩, ક-૨, ડ-૧"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Tala & Instruments",
@@ -12566,14 +12591,19 @@
     "paperId": "music_nov23",
     "question_no": 73,
     "question_en": "Match the vocal forms with their associated tala/style: a. Dhrupad; b. Khyal; c. Thumari; d. Tappa.",
-    "question_gu": "",
+    "question_gu": "ગાયનપ્રકારોને સંબંધિત તાલ સાથે જોડો: અ. ધ્રુપદ; બ. ખયાલ; ક. ઠુમરી; ડ. ટપ્પા.",
     "options_en": [
       "a-iv, b-iii, c-ii, d-i",
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-i, c-iv, d-iii",
       "a-iii, b-iv, c-i, d-ii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૩, ક-૨, ડ-૧",
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૩, બ-૪, ક-૧, ડ-૨"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Hindustani Vocal Music",
@@ -12607,14 +12637,19 @@
     "paperId": "music_nov23",
     "question_no": 74,
     "question_en": "Select the correct matches: a. Tappa; b. Thumari; c. Sadara; d. Quawwali. Associated talas: Deepchandi, Zaptal, Pashto, Keharwa.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. ટપ્પા; બ. ઠુમરી; ક. સદ્રા; ડ. કવ્વાલી. તાલ: દીપચંદી, ઝપતાલ, પશ્તો, કહેરવા.",
     "options_en": [
       "a-iv, b-i, c-ii, d-iii",
       "a-ii, b-i, c-iii, d-iv",
       "a-ii, b-iii, c-i, d-iv",
       "a-iii, b-ii, c-i, d-iv"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૧, ક-૨, ડ-૩",
+      "અ-૨, બ-૧, ક-૩, ડ-૪",
+      "અ-૨, બ-૩, ક-૧, ડ-૪",
+      "અ-૩, બ-૨, ક-૧, ડ-૪"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Vocal Forms & Tala",
@@ -12648,14 +12683,19 @@
     "paperId": "music_nov23",
     "question_no": 75,
     "question_en": "Match the talas with matras: a. Ada Chautal; b. Savari; c. Zaptal; d. Pashto.",
-    "question_gu": "",
+    "question_gu": "તાલને તેમની માત્રા સાથે જોડો: અ. આડા ચૌતાલ; બ. સવારી; ક. ઝપતાલ; ડ. પશ્તો.",
     "options_en": [
       "a-ii, b-iv, c-i, d-iii",
       "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-ii, c-i, d-iv",
       "a-iv, b-i, c-iii, d-ii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૪, ક-૧, ડ-૩",
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૩, બ-૨, ક-૧, ડ-૪",
+      "અ-૪, બ-૧, ક-૩, ડ-૨"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -12689,14 +12729,19 @@
     "paperId": "music_nov23",
     "question_no": 76,
     "question_en": "Statement 1: Ustad Haleem Zafar Khan was a famous sitar player. Statement 2: He played sitar in many films.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: ઉસ્તાદ હલીમ જાફરખાં પ્રસિદ્ધ સિતારવાદક હતા. વિધાન ૨: તેમણે ઘણી ફિલ્મોમાં સિતાર વગાડ્યું હતું. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Statement 1 true, statement 2 false",
       "Statement 1 false, statement 2 true",
       "Both statements true",
       "Both statements false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ૧ સાચું, વિધાન ૨ ખોટું",
+      "વિધાન ૧ ખોટું, વિધાન ૨ સાચું",
+      "બંને વિધાન સાચાં",
+      "બંને વિધાન ખોટાં"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicians & Instruments",
@@ -13162,14 +13207,19 @@
     "paperId": "music_nov23",
     "question_no": 86,
     "question_en": "Statement 1: Yamini Krishnamurthy is an exponent of Bharatanatyam. Statement 2: She has been honoured by only the Padmashri award.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: યામિની કૃષ્ણમૂર્તિ ભરતનાટ્યમનાં જાણીતા કલાકાર છે. વિધાન ૨: તેમને માત્ર પદ્મશ્રી પુરસ્કારથી સન્માનિત કરવામાં આવ્યાં હતાં. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Both true",
       "Both false",
       "Statement 1 true, statement 2 false",
       "Statement 1 false, statement 2 true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બંને સાચાં",
+      "બંને ખોટાં",
+      "વિધાન ૧ સાચું, વિધાન ૨ ખોટું",
+      "વિધાન ૧ ખોટું, વિધાન ૨ સાચું"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Classical Dance & Awards",
@@ -13203,14 +13253,19 @@
     "paperId": "music_nov23",
     "question_no": 87,
     "question_en": "Statement 1: ‘Peshkar–Kaida’ is played only in Asarada Gharana. Statement 2: Other gharanas do not have ‘Peshkar–Kaida’.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: પેશકાર-કાયદા ફક્ત અજરાડા ઘરાણામાં જ વગાડવામાં આવે છે. વિધાન ૨: બીજા ઘરાણામાં પેશકાર-કાયદા વગાડવામાં આવતા નથી. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Statement 1 wrong, statement 2 true",
       "Statement 1 true, statement 2 wrong",
       "Both statements wrong",
       "Both statements true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ૧ ખોટું, વિધાન ૨ સાચું",
+      "વિધાન ૧ સાચું, વિધાન ૨ ખોટું",
+      "બંને વિધાન ખોટાં",
+      "બંને વિધાન સાચાં"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Tabla & Gharanas",
@@ -13244,14 +13299,19 @@
     "paperId": "music_nov23",
     "question_no": 88,
     "question_en": "Statement 1: Abdul Haleem Zafar Khan was a sitar player. Statement 2: He never played other instruments.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: અબ્દુલ હલીમ જાફરખાં સિતારવાદક હતા. વિધાન ૨: તેઓએ ક્યારેય બીજું વાદ્ય વગાડ્યું નહોતું. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Both statements false",
       "Both statements true",
       "Statement 1 true, statement 2 false",
       "Statement 1 false, statement 2 true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બંને વિધાન ખોટાં",
+      "બંને વિધાન સાચાં",
+      "વિધાન ૧ સાચું, વિધાન ૨ ખોટું",
+      "વિધાન ૧ ખોટું, વિધાન ૨ સાચું"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicians & Instruments",
@@ -13285,14 +13345,19 @@
     "paperId": "music_nov23",
     "question_no": 89,
     "question_en": "Assertion: Naal is a percussion instrument. Reason: Strings are not used with it.",
-    "question_gu": "",
+    "question_gu": "દાવો: નાલ એક તાલવાદ્ય છે. કારણ: તેમાં તારનો ઉપયોગ થતો નથી. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Assertion and reason true",
       "Assertion and reason false",
       "Assertion false, reason true",
       "Assertion true, reason false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "દાવો અને કારણ બંને સાચાં",
+      "દાવો અને કારણ બંને ખોટાં",
+      "દાવો ખોટો, કારણ સાચું",
+      "દાવો સાચો, કારણ ખોટું"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musical Instruments",
