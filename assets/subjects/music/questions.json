@@ -8959,14 +8959,19 @@
     "paperId": "music_nov25",
     "question_no": 35,
     "question_en": "Match the following according to swar-chhand: a. Shadja; b. Gandhar; c. Pancham; d. Nishad. i. Anushtubh; ii. Trishtup; iii. Pankti; iv. Jagti.",
-    "question_gu": "",
+    "question_gu": "સ્વર-છંદ પ્રમાણે યોગ્ય જોડીઓ બનાવો: અ. ષડ્જ; બ. ગાંધાર; ક. પંચમ; ડ. નિષાદ. ૧. અનુષ્ટુપ; ૨. ત્રિષ્ટુપ; ૩. પંક્તિ; ૪. જગતી.",
     "options_en": [
       "a-iv, b-iii, c-ii, d-i",
       "a-iii, b-ii, c-iv, d-i",
       "a-ii, b-i, c-iv, d-iii",
       "a-i, b-ii, c-iii, d-iv"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૩, ક-૨, ડ-૧",
+      "અ-૩, બ-૨, ક-૪, ડ-૧",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૨, ક-૩, ડ-૪"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Music Theory",
@@ -9000,14 +9005,19 @@
     "paperId": "music_nov25",
     "question_no": 36,
     "question_en": "Statement 1: Powada is a type of folk music of West Bengal. Statement 2: Sohar is a type of music of Rajasthan.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: પોવાડા પશ્ચિમ બંગાળનું લોકસંગીત છે. વિધાન ૨: સોહર રાજસ્થાનનું સંગીત છે. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Both statements are true",
       "Both statements are false",
       "Statement 1 is true and statement 2 is false",
       "Statement 2 is true and statement 1 is false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "બંને વિધાન સાચાં",
+      "બંને વિધાન ખોટાં",
+      "વિધાન ૧ સાચું અને વિધાન ૨ ખોટું",
+      "વિધાન ૨ સાચું અને વિધાન ૧ ખોટું"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Folk Music",
@@ -9041,14 +9051,19 @@
     "paperId": "music_nov25",
     "question_no": 37,
     "question_en": "How many Shuddha Jatis are there in Shadja Gram?",
-    "question_gu": "",
+    "question_gu": "ષડ્જ ગ્રામમાં શુદ્ધ જાતિઓ કેટલી છે?",
     "options_en": [
       "3",
       "4",
       "5",
       "7"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૩",
+      "૪",
+      "૫",
+      "૭"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Ancient Music Theory",
@@ -9274,14 +9289,19 @@
     "paperId": "music_nov25",
     "question_no": 42,
     "question_en": "Which swara is situated in Daya shruti in modern time?",
-    "question_gu": "",
+    "question_gu": "આધુનિક સમયમાં કયો સ્વર દયા શ્રુતિ પર સ્થિત છે?",
     "options_en": [
       "Gandhar",
       "Madhyam",
       "Dhaivat",
       "Rishabh"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ગાંધાર",
+      "મધ્યમ",
+      "ધૈવત",
+      "ઋષભ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Music Theory",
@@ -9315,14 +9335,19 @@
     "paperId": "music_nov25",
     "question_no": 43,
     "question_en": "Arrange the following talas according to matras in increasing order: a. Jhumra; b. Tilwara; c. Pancham Sawari; d. Ektal.",
-    "question_gu": "",
+    "question_gu": "તાલોને માત્રાની વધતી સંખ્યાના ક્રમમાં ગોઠવો: અ. ઝૂમરા; બ. તિલવાડા; ક. પંચમ સવારી; ડ. એકતાલ.",
     "options_en": [
       "a, b, c, d",
       "d, a, c, b",
       "d, c, b, a",
       "a, c, d, b"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ, બ, ક, ડ",
+      "ડ, અ, ક, બ",
+      "ડ, ક, બ, અ",
+      "અ, ક, ડ, બ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -9356,14 +9381,19 @@
     "paperId": "music_nov25",
     "question_no": 44,
     "question_en": "‘Jhula’ song is usually sung in the",
-    "question_gu": "",
+    "question_gu": "‘ઝૂલા’ ગીત કઈ ઋતુમાં ગવાય છે?",
     "options_en": [
       "Summer season",
       "Rainy season",
       "Winter season",
       "Spring season"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ગ્રીષ્મ ઋતુ",
+      "વર્ષા ઋતુ",
+      "શિયાળાની ઋતુ",
+      "વસંત ઋતુ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Folk Music",
@@ -9397,14 +9427,19 @@
     "paperId": "music_nov25",
     "question_no": 45,
     "question_en": "Who is the founder of ‘Indian Musicological Society’?",
-    "question_gu": "",
+    "question_gu": "‘ઇન્ડિયન મ્યુઝિકોલોજિકલ સોસાયટી’ની સ્થાપના કોણે કરી હતી?",
     "options_en": [
       "Prof. B. C. Deva",
       "Prof. R. C. Mehta",
       "Prof. D. T. Joshi",
       "Prof. M. R. Gautam"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પ્રો. બી. સી. દેવા",
+      "પ્રો. આર. સી. મહેતા",
+      "પ્રો. ડી. ટી. જોશી",
+      "પ્રો. એમ. આર. ગૌતમ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Research",
@@ -9438,14 +9473,19 @@
     "paperId": "music_nov25",
     "question_no": 46,
     "question_en": "How many Gamakas are mentioned in the Manasollasa grantha?",
-    "question_gu": "",
+    "question_gu": "માનસોલ્લાસ ગ્રંથમાં કેટલા પ્રકારના ગમકનો ઉલ્લેખ છે?",
     "options_en": [
       "5",
       "7",
       "12",
       "15"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૫",
+      "૭",
+      "૧૨",
+      "૧૫"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Treatises",
@@ -9479,14 +9519,19 @@
     "paperId": "music_nov25",
     "question_no": 47,
     "question_en": "According to Bharat, how many Dhruvas originate from different chhandas?",
-    "question_gu": "",
+    "question_gu": "ભરત અનુસાર વિવિધ છંદોમાંથી કેટલા ધ્રુવાનો ઉદ્ભવ થાય છે?",
     "options_en": [
       "5",
       "7",
       "12",
       "22"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૫",
+      "૭",
+      "૧૨",
+      "૨૨"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Ancient Music Theory",
@@ -9520,14 +9565,19 @@
     "paperId": "music_nov25",
     "question_no": 48,
     "question_en": "Who was the founder of Dagur Bani?",
-    "question_gu": "",
+    "question_gu": "ડાગુર બાનીના સંસ્થાપક કોણ હતા?",
     "options_en": [
       "Raja Samokhan",
       "Shri Chandra",
       "Miyan Tansen",
       "Braj Chandra"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "રાજા સમોખન",
+      "શ્રીચંદ્ર",
+      "મિયાં તાનસેન",
+      "બ્રજચંદ્ર"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Dhrupad & Gharanas",
@@ -9561,14 +9611,19 @@
     "paperId": "music_nov25",
     "question_no": 49,
     "question_en": "Match the following: a. Kudau Singh; b. Appa Jalgaonkar; c. Sharan Rani; d. Vijay Raghav Rao. i. Flute; ii. Pakhawaj; iii. Harmonium; iv. Sarod.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. કુદઉ સિંહ; બ. આપ્પા જળગાંવકર; ક. શરણ રાની; ડ. વિજય રાઘવ રાવ. ૧. વાંસળી; ૨. પખાવજ; ૩. હાર્મોનિયમ; ૪. સરોદ.",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iii, c-iv, d-i",
       "a-iv, b-iii, c-i, d-ii",
       "a-iii, b-ii, c-iv, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૨, બ-૩, ક-૪, ડ-૧",
+      "અ-૪, બ-૩, ક-૧, ડ-૨",
+      "અ-૩, બ-૨, ક-૪, ડ-૧"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicians & Instruments",
@@ -9602,14 +9657,19 @@
     "paperId": "music_nov25",
     "question_no": 50,
     "question_en": "According to Bharat-Natyashastra, match the swara pairs with rasas.",
-    "question_gu": "",
+    "question_gu": "ભરતના નાટ્યશાસ્ત્રના સંદર્ભમાં સ્વરજોડીઓને રસ સાથે જોડો.",
     "options_en": [
       "a-ii, b-i, c-iv, d-iii",
       "a-i, b-ii, c-iii, d-iv",
       "a-iv, b-iii, c-ii, d-i",
       "a-iii, b-iv, c-i, d-ii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૪, બ-૩, ક-૨, ડ-૧",
+      "અ-૩, બ-૪, ક-૧, ડ-૨"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Rasa Theory",
@@ -9643,14 +9703,19 @@
     "paperId": "music_nov25",
     "question_no": 51,
     "question_en": "Match the musicians with their gharanas: a. Mogubai Kurdikar; b. Gangubai Hangal; c. Pandit Krishna Rao Shankar; d. Ustad Nisar Hussain Khan.",
-    "question_gu": "",
+    "question_gu": "સંગીતકારોને તેમના ઘરાણા સાથે જોડો: અ. મોગુબાઈ કુર્ડીકર; બ. ગંગુબાઈ હંગલ; ક. પંડિત કૃષ્ણરાવ શંકર; ડ. ઉસ્તાદ નિસાર હુસૈનખાં.",
     "options_en": [
       "a-iv, b-iii, c-ii, d-i",
       "a-iii, b-ii, c-i, d-iv",
       "a-i, b-iii, c-ii, d-iv",
       "a-iv, b-ii, c-i, d-iii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૩, ક-૨, ડ-૧",
+      "અ-૩, બ-૨, ક-૧, ડ-૪",
+      "અ-૧, બ-૩, ક-૨, ડ-૪",
+      "અ-૪, બ-૨, ક-૧, ડ-૩"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Gharanas",
@@ -9924,14 +9989,19 @@
     "paperId": "music_nov25",
     "question_no": 57,
     "question_en": "According to Natyashastra, which Rasa represents Pancham note?",
-    "question_gu": "",
+    "question_gu": "નાટ્યશાસ્ત્ર અનુસાર પંચમ સ્વરનો રસ કયો છે?",
     "options_en": [
       "Hasya",
       "Karun",
       "Veer",
       "Raudra"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "હાસ્ય",
+      "કરુણ",
+      "વીર",
+      "રૌદ્ર"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Rasa Theory",
@@ -9965,14 +10035,19 @@
     "paperId": "music_nov25",
     "question_no": 58,
     "question_en": "Which dance form is a blend of Bharatanatyam and Kathak?",
-    "question_gu": "",
+    "question_gu": "ભરતનાટ્યમ અને કથકનું મિશ્રણ કયો નૃત્યપ્રકાર છે?",
     "options_en": [
       "Sattariya",
       "Odissi",
       "Manipuri",
       "Kathakali"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સત્રિયા",
+      "ઓડિસી",
+      "મણિપુરી",
+      "કથકલી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Classical Dance",
@@ -10006,14 +10081,19 @@
     "paperId": "music_nov25",
     "question_no": 59,
     "question_en": "What is the other title of ‘Vyabhichar Bhav’?",
-    "question_gu": "",
+    "question_gu": "‘વ્યભિચારી ભાવ’નું બીજું નામ શું છે?",
     "options_en": [
       "Sthayi",
       "Vibhav",
       "Sanchari",
       "Anubhav"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સ્થાયી",
+      "વિભાવ",
+      "સંચારી",
+      "અનુભાવ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Rasa Theory",
@@ -10047,14 +10127,19 @@
     "paperId": "music_nov25",
     "question_no": 60,
     "question_en": "Which of the following is a blowing instrument?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયું ફૂંક વાદ્ય છે?",
     "options_en": [
       "Algoza",
       "Chang",
       "Mukhchang",
       "Kamaicha"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અલગોઝા",
+      "ચંગ",
+      "મુખચંગ",
+      "કામાઈચા"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musical Instruments",
@@ -10088,14 +10173,19 @@
     "paperId": "music_nov25",
     "question_no": 61,
     "question_en": "Who is the pioneering Acharya of ‘Rasa Siddhant’?",
-    "question_gu": "",
+    "question_gu": "‘રસસિદ્ધાંત’ના આદિ આચાર્ય કોણ છે?",
     "options_en": [
       "Abhinavgupta",
       "Sharangdeva",
       "Jagadekamalla",
       "Bharat"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અભિનવગુપ્ત",
+      "શારંગદેવ",
+      "જગદેકમલ્લ",
+      "ભરત"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Rasa Theory",
@@ -10129,14 +10219,19 @@
     "paperId": "music_nov25",
     "question_no": 62,
     "question_en": "What is the main purpose of qualitative research?",
-    "question_gu": "",
+    "question_gu": "ગુણાત્મક સંશોધનનો મુખ્ય હેતુ શું છે?",
     "options_en": [
       "To test hypothesis and establish causality",
       "To qualify data and draw statistical conclusions",
       "To understand and explore phenomena in depth",
       "To predict future outcomes based on past"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પૂર્વધારણાનું પરીક્ષણ અને કાર્યકારણ સ્થાપિત કરવું",
+      "માહિતીને આંકડાકીય તારણોમાં રૂપાંતરિત કરવી",
+      "ઘટનાને ઊંડાણપૂર્વક સમજવી અને તેનું અન્વેષણ કરવું",
+      "ભૂતકાળના આધારે ભવિષ્યની આગાહી કરવી"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Music Research",
@@ -10170,14 +10265,19 @@
     "paperId": "music_nov25",
     "question_no": 63,
     "question_en": "Bibliography given in a research report",
-    "question_gu": "",
+    "question_gu": "સંશોધન અહેવાલમાં આપેલી ગ્રંથસૂચિ શું દર્શાવે છે?",
     "options_en": [
       "Shows vast knowledge of the researcher",
       "Helps those interested in further research",
       "Has no relevance to research",
       "None of the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સંશોધકનું વિશાળ જ્ઞાન",
+      "વધુ સંશોધનમાં રસ ધરાવતા લોકોને મદદ કરે છે",
+      "સંશોધન સાથે કોઈ સંબંધ નથી",
+      "ઉપરોક્તમાંથી કોઈ નહીં"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Research",
@@ -10211,14 +10311,19 @@
     "paperId": "music_nov25",
     "question_no": 64,
     "question_en": "Traditionally, how many principal Ragas are depicted in Ragamala paintings?",
-    "question_gu": "",
+    "question_gu": "પરંપરાગત રીતે રાગમાલા ચિત્રોમાં કેટલા મુખ્ય રાગો દર્શાવવામાં આવ્યા છે?",
     "options_en": [
       "6",
       "7",
       "8",
       "10"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૬",
+      "૭",
+      "૮",
+      "૧૦"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Raga History",
@@ -10252,14 +10357,19 @@
     "paperId": "music_nov25",
     "question_no": 65,
     "question_en": "Which Rasa is associated with love and beauty?",
-    "question_gu": "",
+    "question_gu": "પ્રેમ અને સૌંદર્ય સાથે કયો રસ જોડાયેલો છે?",
     "options_en": [
       "Karuna",
       "Shringara",
       "Hasya",
       "Veera"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કરુણ",
+      "શૃંગાર",
+      "હાસ્ય",
+      "વીર"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Rasa Theory",
@@ -10293,14 +10403,19 @@
     "paperId": "music_nov25",
     "question_no": 66,
     "question_en": "How many variants of Dhaivata exist in the 12 swarasthana system?",
-    "question_gu": "",
+    "question_gu": "૧૨ સ્વરસ્થાન પદ્ધતિમાં ધૈવતનાં કેટલાં રૂપ જોવા મળે છે?",
     "options_en": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧",
+      "૨",
+      "૩",
+      "૪"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Theory",
@@ -10334,14 +10449,19 @@
     "paperId": "music_nov25",
     "question_no": 67,
     "question_en": "In the Indian Tala system, a Chakradar is",
-    "question_gu": "",
+    "question_gu": "ભારતીય તાલ પદ્ધતિમાં ચક્રદાર શું છે?",
     "options_en": [
       "A type of Alap in raga",
       "A Tihai repeated three times",
       "A tala with 12 beats",
       "A form of laya bheda"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "રાગના આલાપનો પ્રકાર",
+      "તિહાઈને ત્રણ વાર પુનરાવર્તિત કરેલું",
+      "૧૨ માત્રાવાળો તાલ",
+      "લયભેદનો એક પ્રકાર"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Tala & Rhythm",
@@ -10375,14 +10495,19 @@
     "paperId": "music_nov25",
     "question_no": 68,
     "question_en": "Which of the following represents the Vibhag of a Taal?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયો વિકલ્પ તાલના વિભાગને દર્શાવે છે?",
     "options_en": [
       "Division of beats into sections",
       "Starting point of the Taal",
       "The sound of the Tabla",
       "The tempo of the Taal"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "માત્રાઓને ખંડોમાં વહેંચવી",
+      "તાલનો પ્રારંભબિંદુ",
+      "તબલાનો અવાજ",
+      "તાલની લય"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -10416,14 +10541,19 @@
     "paperId": "music_nov25",
     "question_no": 69,
     "question_en": "The treble clef is used to notate",
-    "question_gu": "",
+    "question_gu": "ટ્રેબલ ક્લેફનો ઉપયોગ કયા પ્રકારના સ્વરો માટે થાય છે?",
     "options_en": [
       "Low-pitched notes",
       "Medium-pitched notes",
       "High-pitched notes",
       "Rhythmic patterns only"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નીચા પિચવાળા સ્વરો",
+      "મધ્યમ પિચવાળા સ્વરો",
+      "ઊંચા પિચવાળા સ્વરો",
+      "માત્ર લયના પ્રકારો"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Western Music Theory",
@@ -10457,14 +10587,19 @@
     "paperId": "music_nov25",
     "question_no": 70,
     "question_en": "What is the primary purpose of a notation system in Indian music?",
-    "question_gu": "",
+    "question_gu": "ભારતીય સંગીતમાં સ્વરલિપિ પદ્ધતિનો મુખ્ય હેતુ શું છે?",
     "options_en": [
       "To learn dance movements",
       "To write and preserve music compositions",
       "To create new instruments",
       "To perform astrology calculations"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નૃત્યની ચાલ શીખવી",
+      "સંગીત રચનાઓ લખવી અને જાળવવી",
+      "નવા વાદ્યો બનાવવા",
+      "જ્યોતિષીય ગણતરીઓ કરવી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Notation",
@@ -10498,14 +10633,19 @@
     "paperId": "music_nov25",
     "question_no": 71,
     "question_en": "Music therapy is primarily used for",
-    "question_gu": "",
+    "question_gu": "મ્યુઝિક થેરાપીનો મુખ્ય ઉપયોગ શામાં થાય છે?",
     "options_en": [
       "Entertainment",
       "Physical and emotional healing",
       "Learning new instruments",
       "Composing new ragas"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "મનોરંજન",
+      "શારીરિક અને ભાવનાત્મક સારવાર",
+      "નવા વાદ્યો શીખવા",
+      "નવા રાગો રચવા"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Therapy",
@@ -10539,14 +10679,19 @@
     "paperId": "music_nov25",
     "question_no": 72,
     "question_en": "Yehudi Menuhin is well known for his collaboration with which Indian musician?",
-    "question_gu": "",
+    "question_gu": "યહૂદી મેનુહિનએ કયા ભારતીય સંગીતકાર સાથે સહયોગ કર્યો હતો?",
     "options_en": [
       "Zakir Hussain",
       "Pandit Ravi Shankar",
       "Lata Mangeshkar",
       "Alla Rakha"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઝાકિર હુસેન",
+      "પંડિત રવિશંકર",
+      "લતા મંગેશકર",
+      "અલ્લા રખા"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicians & History",
@@ -10772,14 +10917,19 @@
     "paperId": "music_nov25",
     "question_no": 77,
     "question_en": "Along with Hridaya Kautuk, Pandit Hriday Narayan also wrote another famous granth",
-    "question_gu": "",
+    "question_gu": "પંડિત હૃદયનારાયણે ‘હૃદય કૌતુક’ ઉપરાંત બીજો કયો પ્રસિદ્ધ ગ્રંથ લખ્યો હતો?",
     "options_en": [
       "Hridaya Prakash",
       "Sangeet Ratnakar",
       "Raga Tatva Vibodh",
       "Sangeet Sudha"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "હૃદય પ્રકાશ",
+      "સંગીત રત્નાકર",
+      "રાગ તત્ત્વ વિબોધ",
+      "સંગીત સુધા"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Treatises",
@@ -10813,14 +10963,19 @@
     "paperId": "music_nov25",
     "question_no": 78,
     "question_en": "Raga Tatva Vibodh is an important treatise written by",
-    "question_gu": "",
+    "question_gu": "‘રાગ તત્ત્વ વિબોધ’ કયા વિદ્વાન દ્વારા લખાયેલો મહત્વપૂર્ણ ગ્રંથ છે?",
     "options_en": [
       "Pt. V. N. Bhatkhande",
       "Pt. Sharangdeva",
       "Pt. Srinivas",
       "Matang"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પંડિત વી. એન. ભાતખંડે",
+      "પંડિત શારંગદેવ",
+      "પંડિત શ્રીનિવાસ",
+      "મતંગ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
@@ -10854,14 +11009,19 @@
     "paperId": "music_nov25",
     "question_no": 79,
     "question_en": "How many desi talas are mentioned by Sharangdeva in Sangeet Ratnakar?",
-    "question_gu": "",
+    "question_gu": "શારંગદેવે ‘સંગીત રત્નાકર’માં કેટલા દેશી તાલોનું વર્ણન કર્યું છે?",
     "options_en": [
       "21",
       "12",
       "120",
       "63"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૨૧",
+      "૧૨",
+      "૧૨૦",
+      "૬૩"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -10895,14 +11055,19 @@
     "paperId": "music_nov25",
     "question_no": 80,
     "question_en": "The minor scale of Western music is similar to which Indian music scale?",
-    "question_gu": "",
+    "question_gu": "પશ્ચિમી સંગીતનો માઇનર સ્કેલ કયા ભારતીય સ્કેલને સમાન છે?",
     "options_en": [
       "Kafi",
       "Asavari",
       "Bhairav",
       "Bhairavi"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કાફી",
+      "આસાવરી",
+      "ભૈરવ",
+      "ભૈરવી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Theory",
@@ -10936,14 +11101,19 @@
     "paperId": "music_nov25",
     "question_no": 81,
     "question_en": "How many Vikrit swaras are there in one octave of Indian classical music?",
-    "question_gu": "",
+    "question_gu": "ભારતીય શાસ્ત્રીય સંગીતના એક સપ્તકમાં કેટલા વિકૃત સ્વરો હોય છે?",
     "options_en": [
       "12",
       "4",
       "1",
       "5"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧૨",
+      "૪",
+      "૧",
+      "૫"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Music Theory",
@@ -10977,14 +11147,19 @@
     "paperId": "music_nov25",
     "question_no": 82,
     "question_en": "What is the difference between Masit Khani Gat and Razakhani Gat?",
-    "question_gu": "",
+    "question_gu": "મસીતખાની ગત અને રઝાખાની ગત વચ્ચે શું ફરક છે?",
     "options_en": [
       "Masit Khani is vilambit, Razakhani is drut",
       "Masit Khani is for sarod, Razakhani is for sitar",
       "Masit Khani uses Rupak, Razakhani uses Teental",
       "Masit Khani has no alap, Razakhani has alap"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "મસીતખાની વિલંબિત અને રઝાખાની દ્રુત છે",
+      "મસીતખાની સરોદ માટે અને રઝાખાની સિતાર માટે છે",
+      "મસીતખાની રૂપકમાં અને રઝાખાની તીનતાલમાં છે",
+      "મસીતખાનીમાં આલાપ નથી, રઝાખાનીમાં છે"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Instrumental Music",
@@ -11018,14 +11193,19 @@
     "paperId": "music_nov25",
     "question_no": 83,
     "question_en": "Why did the Zafar Khani Gat largely fall out of use?",
-    "question_gu": "",
+    "question_gu": "ઝાફરખાની ગત પ્રચલિત થવામાં પાછળ કેમ પડી?",
     "options_en": [
       "Because its compositions were too brief",
       "Due to excessive complexity",
       "It was banned by musical guilds",
       "It relied on vocal support"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તેની રચનાઓ ખૂબ ટૂંકી હતી",
+      "અતિશય જટિલતાને કારણે",
+      "સંગીતકાર સંઘ દ્વારા પ્રતિબંધિત હોવાથી",
+      "તે ફક્ત ગાયન પર આધારિત હોવાથી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Instrumental Music",
@@ -11395,14 +11575,19 @@
     "paperId": "music_nov25",
     "question_no": 91,
     "question_en": "Field work based research is classified as",
-    "question_gu": "",
+    "question_gu": "ક્ષેત્રકાર્ય આધારિત સંશોધનને શેમાં વર્ગીકૃત કરી શકાય?",
     "options_en": [
       "Historical",
       "Empirical",
       "Biographical",
       "Experimental"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઐતિહાસિક",
+      "અનુભવમૂલક",
+      "જીવનચરિત્રાત્મક",
+      "પ્રયોગાત્મક"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Research",
@@ -11436,14 +11621,19 @@
     "paperId": "music_nov25",
     "question_no": 92,
     "question_en": "In Natyashastra, all the musical instruments are called",
-    "question_gu": "",
+    "question_gu": "નાટ્યશાસ્ત્રમાં બધાં સંગીતવાદ્યોને શું કહેવામાં આવે છે?",
     "options_en": [
       "Dottak",
       "Aatodya",
       "Toorya",
       "Panchagik"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "દોત્તક",
+      "આતોદ્ય",
+      "તૂર્ય",
+      "પંચાંગિક"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Treatises",
@@ -11477,14 +11667,19 @@
     "paperId": "music_nov25",
     "question_no": 93,
     "question_en": "A sitar player who also played Sur-Bahar",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયા સિતારવાદક સૂરબહાર પણ વગાડતા હતા?",
     "options_en": [
       "Pt. Ravi Shankar",
       "Abdul Halim Jafar Khan",
       "Nikhil Banerjee",
       "Imrat Khan"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પંડિત રવિશંકર",
+      "અબ્દુલ હલીમ જાફરખાં",
+      "નિખિલ બેનરજી",
+      "ઇમરતખાં"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Musicians & Instruments",
@@ -11518,14 +11713,19 @@
     "paperId": "music_nov25",
     "question_no": 94,
     "question_en": "‘Santoor’ belongs to",
-    "question_gu": "",
+    "question_gu": "સંતૂર કયા પ્રદેશનું વાદ્ય છે?",
     "options_en": [
       "Kashmir",
       "Punjab",
       "Rajasthan",
       "Haryana"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કાશ્મીર",
+      "પંજાબ",
+      "રાજસ્થાન",
+      "હરિયાણા"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musical Instruments",
@@ -11751,14 +11951,19 @@
     "paperId": "music_nov25",
     "question_no": 99,
     "question_en": "Match the following Tala Aksharaka: a. Chatusra Mathya; b. Khanda Triputa; c. Sankirna Jnampa; d. Misra Atha. i. 12; ii. 18; iii. 9; iv. 10.",
-    "question_gu": "",
+    "question_gu": "તાલ અને અક્ષરકાલની જોડીઓ બનાવો: અ. ચતુસ્ર મઠ્ય; બ. ખંડ ત્રિપુટ; ક. સંકીર્ણ ઝંપા; ડ. મિશ્ર અટ. ૧. ૧૨; ૨. ૧૮; ૩. ૯; ૪. ૧૦.",
     "options_en": [
       "a-iii, b-ii, c-iv, d-i",
       "a-i, b-iii, c-iv, d-ii",
       "a-ii, b-iv, c-iii, d-i",
       "a-iv, b-iii, c-i, d-ii"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૨, ક-૪, ડ-૧",
+      "અ-૧, બ-૩, ક-૪, ડ-૨",
+      "અ-૨, બ-૪, ક-૩, ડ-૧",
+      "અ-૪, બ-૩, ક-૧, ડ-૨"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tala & Rhythm",
@@ -11792,14 +11997,19 @@
     "paperId": "music_nov25",
     "question_no": 100,
     "question_en": "Match the following: a. Sharangdeva; b. Lochan; c. Somnath; d. Ahobala. i. Ragavibodh; ii. Sangeet Paarijat; iii. Sangeet Ratnakar; iv. Ragatarangini.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. શારંગદેવ; બ. લોચન; ક. સોમનાથ; ડ. અહોબલ. ૧. રાગવિબોધ; ૨. સંગીત પારિજાત; ૩. સંગીત રત્નાકર; ૪. રાગતરંગિણી.",
     "options_en": [
       "a-ii, b-i, c-iii, d-iv",
       "a-iv, b-ii, c-i, d-iii",
       "a-iii, b-iv, c-i, d-ii",
       "a-iii, b-iv, c-ii, d-i"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૩, ડ-૪",
+      "અ-૪, બ-૨, ક-૧, ડ-૩",
+      "અ-૩, બ-૪, ક-૧, ડ-૨",
+      "અ-૩, બ-૪, ક-૨, ડ-૧"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
