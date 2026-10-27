@@ -61,3 +61,8 @@ Do not merge or call this archive fully source-verified until the remaining 126 
 - Progress metadata and the verification-pending report were recalculated directly from the current bank.
 - Important: many transcriptions were entered with OCR assistance and are **not yet visually proofread character-by-character** against the scanned bilingual originals. This does not satisfy the full source-verification requirement. All 300 remain `review_flag=true`, and `source_verified=true` remains 0.
 - Official answer-key PDFs have not yet been fully reconciled independently against each question in this turn; do not infer that key review is complete from stored field agreement. The 300 syllabus-unit assignments still need manual topic-level and stream-specific review.
+
+### Official final answer-key comparison — 27 October 2026
+- Compared the stored `answer` and `official_answer` letters for all 300 records against the extracted official GSET final answer-key PDFs (100 questions per session).
+- Result: 300/300 stored answer letters match; 0 mismatches found.
+- This is a letter-level reconciliation against extracted key text. It does not prove the question text/options are visually faithful, nor that OCR of every key character is infallible. The original PDF page-level visual check is still required before declaring complete source verification.
