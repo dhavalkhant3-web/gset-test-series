@@ -6385,14 +6385,19 @@
     "paperId": "music_nov23",
     "question_no": 22,
     "question_en": "Sangitaratnakara of Sarangadeva consists of chapters.",
-    "question_gu": "",
+    "question_gu": "શારંગદેવના ‘સંગીત રત્નાકર’માં કેટલા અધ્યાય છે?",
     "options_en": [
       "3",
       "5",
       "7",
       "12"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૩",
+      "૫",
+      "૭",
+      "૧૨"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
@@ -6426,14 +6431,19 @@
     "paperId": "music_nov23",
     "question_no": 23,
     "question_en": "Identify the composer of Navavarana Kritis.",
-    "question_gu": "",
+    "question_gu": "નવાવરણ કૃતિના રચનાકાર કોણ હતા?",
     "options_en": [
       "Annamacharya",
       "Purandaradasa",
       "Muttuswami Dikshitar",
       "Thyagaraja"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અન્નમાચાર્ય",
+      "પુરંદરદાસ",
+      "મુથુસ્વામી દીક્ષિતર",
+      "ત્યાગરાજ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Music & Composers",
@@ -6467,14 +6477,19 @@
     "paperId": "music_nov23",
     "question_no": 24,
     "question_en": "Which chapter of Natya Sastra deals with Rasa?",
-    "question_gu": "",
+    "question_gu": "નાટ્યશાસ્ત્રના કયા અધ્યાયમાં ‘રસ’ની ચર્ચા છે?",
     "options_en": [
       "First chapter",
       "Fourth chapter",
       "Sixth chapter",
       "Tenth chapter"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પ્રથમ અધ્યાય",
+      "ચોથો અધ્યાય",
+      "છઠ્ઠો અધ્યાય",
+      "દસમો અધ્યાય"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
@@ -6508,14 +6523,19 @@
     "paperId": "music_nov23",
     "question_no": 25,
     "question_en": "Which of the following tala has 11 matras?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયા તાલમાં ૧૧ માત્રાઓ છે?",
     "options_en": [
       "Tisra jati Jnampa tala",
       "Khanda jati Triputa tala",
       "Khanda jati Matya tala",
       "Tisra jati Dhruva tala"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તિસ્ર જાતિ ઝંપા તાલ",
+      "ખંડ જાતિ ત્રિપુટ તાલ",
+      "ખંડ જાતિ મટ્ય તાલ",
+      "તિસ્ર જાતિ ધ્રુવ તાલ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tala & Rhythm",
@@ -6549,14 +6569,19 @@
     "paperId": "music_nov23",
     "question_no": 26,
     "question_en": "Number of aksaras reckoned in the [OCR title unclear] jati ata tala.",
-    "question_gu": "",
+    "question_gu": "મિશ્ર જાતિ અટ તાલમાં કેટલા અક્ષરોનો સમાવેશ થાય છે?",
     "options_en": [
       "14",
       "18",
       "20",
       "22"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧૪",
+      "૧૮",
+      "૨૦",
+      "૨૨"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Tala & Rhythm",
