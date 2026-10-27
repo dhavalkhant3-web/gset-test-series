@@ -3430,14 +3430,19 @@
     "paperId": "music_dec24",
     "question_no": 60,
     "question_en": "In which year was Ut. Natthu Khan born?",
-    "question_gu": "",
+    "question_gu": "ઉસ્તાદ નત્થુખાં સાહેબનો જન્મ કયા વર્ષમાં થયો હતો?",
     "options_en": [
       "1892",
       "1870",
       "1875",
       "1865"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧૮૯૨",
+      "૧૮૭૦",
+      "૧૮૭૫",
+      "૧૮૬૫"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicians & History",
@@ -3567,14 +3572,19 @@
     "paperId": "music_dec24",
     "question_no": 78,
     "question_en": "State true or false: Statement 1: Pt. Rajan Mishra and Pt. Sajan Mishra sang in the film ‘Sur Sangam’. Statement 2: Pt. Rajan-Sajan Mishra belong to Banaras Gharana.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: પંડિત રાજન મિશ્ર અને પંડિત સજન મિશ્રએ ‘સૂર સંગમ’ ફિલ્મમાં ગાયું હતું. વિધાન ૨: પંડિત રાજન-સજન મિશ્ર બનારસ ઘરાણાના છે. સાચો વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Statement 1 is true and 2 is false",
       "Statements 1 and 2 are both true",
       "Statement 1 is false and 2 is true",
       "Statements 1 and 2 are both false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ૧ સાચું અને ૨ ખોટું",
+      "વિધાન ૧ અને ૨ બંને સાચાં",
+      "વિધાન ૧ ખોટું અને ૨ સાચું",
+      "વિધાન ૧ અને ૨ બંને ખોટાં"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Hindustani Vocal Music",
@@ -3608,14 +3618,19 @@
     "paperId": "music_dec24",
     "question_no": 79,
     "question_en": "Statement 1: The main qualities of Agra Gharana are Layakari, Tihai and use of playful words. Statement 2: Pt. Birju Maharaj was the famous Kathak dancer of Agra Gharana.",
-    "question_gu": "",
+    "question_gu": "વિધાન ૧: આગ્રા ઘરાણાની મુખ્ય વિશેષતાઓમાં લયકારી, તિહાઈ અને ચંચળ શબ્દોનો ઉપયોગ છે. વિધાન ૨: પંડિત બિરજુ મહારાજ આગ્રા ઘરાણાના પ્રસિદ્ધ કથક નર્તક હતા. સાચો વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Statement 1 is true and statement 2 is false",
       "Statement 1 is false and statement 2 is true",
       "Statements 1 and 2 are both false",
       "Statements 1 and 2 are both true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વિધાન ૧ સાચું અને ૨ ખોટું",
+      "વિધાન ૧ ખોટું અને ૨ સાચું",
+      "વિધાન ૧ અને ૨ બંને ખોટાં",
+      "વિધાન ૧ અને ૨ બંને સાચાં"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Gharanas & Dance",
@@ -3937,14 +3952,19 @@
     "paperId": "music_dec24",
     "question_no": 86,
     "question_en": "Assertion (A): More elaborations are possible of Qaida between Qaida Rela. Reason (R): Because Qaida is composed with plenty of syllables.",
-    "question_gu": "",
+    "question_gu": "વિધાન (A): કાયદા-રેલા કરતાં કાયદામાં વધુ વિસ્તરણ શક્ય છે. કારણ (R): કાયદા ઘણી બોલ-અક્ષરો સાથે રચાય છે. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "A is true, R is false",
       "A is false, R is true",
       "A is true, R is true",
       "A is false, R is false"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "A સાચું, R ખોટું",
+      "A ખોટું, R સાચું",
+      "A અને R બંને સાચાં",
+      "A અને R બંને ખોટાં"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tabla & Composition",
@@ -3978,14 +3998,19 @@
     "paperId": "music_dec24",
     "question_no": 87,
     "question_en": "1. Usually Vilambit Ektal is used in the Gayaki (singing) of Kirana Gharana. 2. Because they do not have Bandish in other talas.",
-    "question_gu": "",
+    "question_gu": "૧. કિરાણા ઘરાણાની ગાયકીમાં સામાન્ય રીતે વિલંબિત એકતાલ વપરાય છે. ૨. કારણ કે અન્ય તાલોમાં તેમની બંદિશો હોતી નથી. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "1 is false but 2 is true",
       "1 and 2 are both false",
       "1 is true but 2 is false",
       "1 and 2 are both true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૧ ખોટું, ૨ સાચું",
+      "૧ અને ૨ બંને ખોટાં",
+      "૧ સાચું, ૨ ખોટું",
+      "૧ અને ૨ બંને સાચાં"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Hindustani Vocal Music",
@@ -4019,14 +4044,19 @@
     "paperId": "music_dec24",
     "question_no": 88,
     "question_en": "Assertion (A): Pt. Durgalal was the disciple of Pandit Sundarlalji. Reason (R): He was honoured with Sangeet Natak award in the year 1990.",
-    "question_gu": "",
+    "question_gu": "વિધાન (A): પંડિત દુર્ગાલાલ પંડિત સુંદરલાલજીના શિષ્ય હતા. કારણ (R): તેમને ૧૯૯૦માં સંગીત નાટક અકાદમી પુરસ્કાર મળ્યો હતો. યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "A is true, R is true",
       "A is false, R is false",
       "A is true, R is false",
       "A is false, R is true"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "A સાચું, R સાચું",
+      "A ખોટું, R ખોટું",
+      "A સાચું, R ખોટું",
+      "A ખોટું, R સાચું"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Dance & Artists",
@@ -4252,14 +4282,19 @@
     "paperId": "music_dec24",
     "question_no": 93,
     "question_en": "Folk music of Saurashtra has influence of which musical tones?",
-    "question_gu": "",
+    "question_gu": "સૌરાષ્ટ્રના લોકસંગીત પર કયા સંગીતના સ્વરોનો પ્રભાવ છે?",
     "options_en": [
       "English",
       "Marathi",
       "Bangla",
       "Arabic"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અંગ્રેજી",
+      "મરાઠી",
+      "બંગાળી",
+      "અરબી"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Gujarati Folk Music & Culture",
@@ -4293,14 +4328,19 @@
     "paperId": "music_dec24",
     "question_no": 94,
     "question_en": "Manbhatt was introduced by whom?",
-    "question_gu": "",
+    "question_gu": "માણભટ્ટની પરંપરા કોના દ્વારા શરૂ કરવામાં આવી હતી?",
     "options_en": [
       "Narsinh Mehta",
       "Mahakavi Premanand",
       "Akho",
       "Kavi Narmad"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નરસિંહ મહેતા",
+      "મહાકવિ પ્રેમાનંદ",
+      "અખો",
+      "કવિ નર્મદ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Gujarati Folk Music & Culture",
@@ -4334,14 +4374,19 @@
     "paperId": "music_dec24",
     "question_no": 95,
     "question_en": "‘Tippani’ is a form of",
-    "question_gu": "",
+    "question_gu": "‘ટિપ્પણી’ કયા પ્રકારનું સ્વરૂપ છે?",
     "options_en": [
       "Folk Dance",
       "Folk Tale",
       "Folk Drama",
       "Folk Song"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "લોકનૃત્ય",
+      "લોકકથા",
+      "લોકનાટ્ય",
+      "લોકગીત"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Gujarati Folk Music & Culture",
@@ -4375,14 +4420,19 @@
     "paperId": "music_dec24",
     "question_no": 96,
     "question_en": "Name the opening section of a Kriti.",
-    "question_gu": "",
+    "question_gu": "કૃતિનો પ્રારંભિક વિભાગ કયો છે?",
     "options_en": [
       "Pallavi",
       "Sangati",
       "Carana",
       "Cittasvara"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પલ્લવી",
+      "સંગતિ",
+      "ચરણ",
+      "ચિત્તસ્વર"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Carnatic Music Forms",
@@ -4608,14 +4658,19 @@
     "paperId": "music_dec24",
     "question_no": 61,
     "question_en": "Match the following and choose the correct answer: a. Allarakha; b. Pt. Ravi Shankar; c. Dr. Premlata Sharma; d. Music Director. i. Lala Asar Sattar; ii. Musicologist; iii. Meera; iv. A. R. Quraishi.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવી સાચો જવાબ આપો: અ. અલ્લારખાં; બ. પંડિત રવિશંકર; ક. ડૉ. પ્રેમલતા શર્મા; ડ. સંગીત નિર્દેશક. ૧. લાલા અસર સત્તાર; ૨. સંગીતશાસ્ત્રી; ૩. મીરા; ૪. એ. આર. કુરેશી.",
     "options_en": [
       "a(ii), b(i), c(iii), d(iv)",
       "a(iv), b(iii), c(ii), d(i)",
       "a(iii), b(iv), c(i), d(ii)",
       "a(iv), b(ii), c(i), d(iii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૩, ડ-૪",
+      "અ-૪, બ-૩, ક-૨, ડ-૧",
+      "અ-૩, બ-૪, ક-૧, ડ-૨",
+      "અ-૪, બ-૨, ક-૧, ડ-૩"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Musicians & Musicology",
@@ -4649,14 +4704,19 @@
     "paperId": "music_dec24",
     "question_no": 62,
     "question_en": "Match the following and choose the correct answer: a. Journal; b. Sangeetopnishatsaroddhar; c. Tirip; d. Pranav Bharati. i. Pt. Omkar Nath Thakur; ii. Gamak; iii. Someshwar; iv. Sangeet Natak.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવી સાચો જવાબ આપો: અ. શોધપત્રિકા; બ. સંગીતોપનિષત્સારોદ્ધાર; ક. ત્રિપ; ડ. પ્રણવ ભારતી. ૧. પંડિત ઓમકારનાથ ઠાકુર; ૨. ગમક; ૩. સોમેશ્વર; ૪. સંગીત નાટક.",
     "options_en": [
       "a(iv), b(iii), c(i), d(ii)",
       "a(ii), b(iii), c(iv), d(i)",
       "a(i), b(iii), c(iv), d(ii)",
       "a(iv), b(ii), c(iii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૩, ક-૧, ડ-૨",
+      "અ-૨, બ-૩, ક-૪, ડ-૧",
+      "અ-૧, બ-૩, ક-૪, ડ-૨",
+      "અ-૪, બ-૨, ક-૩, ડ-૧"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Treatises",
@@ -4690,14 +4750,19 @@
     "paperId": "music_dec24",
     "question_no": 63,
     "question_en": "Match the following: a. Yaman; b. Dhamar; c. Tappa; d. Bhindi Bazar. i. 14 Beats; ii. Tivra Madhyam; iii. Gharana; iv. Vidushi Girija Devi.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. યમન; બ. ધમાર; ક. ટપ્પા; ડ. ભીંડી બજાર. ૧. ૧૪ માત્રા; ૨. તીવ્ર મધ્યમ; ૩. ઘરાણું; ૪. વિદુષી ગિરિજાદેવી.",
     "options_en": [
       "a(iv), b(ii), c(i), d(iii)",
       "a(iii), b(i), c(iv), d(ii)",
       "a(ii), b(i), c(iv), d(iii)",
       "a(i), b(iii), c(iv), d(ii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૨, ક-૧, ડ-૩",
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૩, ક-૪, ડ-૨"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Ragas, Talas & Gharanas",
@@ -4731,14 +4796,19 @@
     "paperId": "music_dec24",
     "question_no": 64,
     "question_en": "Match the following: a. Vasant Mukhari; b. Jhoomar; c. Kumudwati; d. Raga Tarangini. i. Shruti Name; ii. Raga; iii. Folk; iv. Granth.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. વસંત મુખારી; બ. ઝૂમર; ક. કુમુદવતી; ડ. રાગ તરંગિણી. ૧. શ્રુતિનું નામ; ૨. રાગ; ૩. લોકગીત; ૪. ગ્રંથ.",
     "options_en": [
       "a(i), b(ii), c(iii), d(iv)",
       "a(ii), b(iii), c(i), d(iv)",
       "a(iv), b(ii), c(i), d(iii)",
       "a(iii), b(ii), c(iv), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૨, બ-૩, ક-૧, ડ-૪",
+      "અ-૪, બ-૨, ક-૧, ડ-૩",
+      "અ-૩, બ-૨, ક-૪, ડ-૧"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Raga Classification & Treatises",
@@ -4772,14 +4842,19 @@
     "paperId": "music_dec24",
     "question_no": 65,
     "question_en": "Match the following: a. Jhaptaal; b. Kafi; c. Hori; d. Dhrupad. i. Bageshree; ii. Sooltaal; iii. Dhamar; iv. Kajri.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. ઝપતાલ; બ. કાફી; ક. હોરી; ડ. ધ્રુપદ. ૧. બાગેશ્રી; ૨. સૂલતાલ; ૩. ધમાર; ૪. કજરી.",
     "options_en": [
       "a(ii), b(i), c(iv), d(iii)",
       "a(i), b(ii), c(iv), d(iii)",
       "a(iii), b(i), c(iv), d(ii)",
       "a(iv), b(iii), c(ii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૨, ક-૪, ડ-૩",
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૪, બ-૩, ક-૨, ડ-૧"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Ragas, Talas & Vocal Forms",
@@ -4813,14 +4888,19 @@
     "paperId": "music_dec24",
     "question_no": 66,
     "question_en": "Identify the scholars with their areas of study: a. B. C. Deva; b. V. Raghavan; c. Alain Danielou; d. Premlata Sharma. i. Later Sangita Literature; ii. Gitalankara; iii. Music Instruments; iv. Sangita Raj.",
-    "question_gu": "",
+    "question_gu": "વિદ્વાનોને તેમના અભ્યાસક્ષેત્ર સાથે જોડો: અ. બી. સી. દેવા; બ. વી. રાઘવન; ક. એલેન ડેનિયેલુ; ડ. પ્રેમલતા શર્મા. ૧. ઉત્તરકાલીન સંગીત સાહિત્ય; ૨. ગીતાલંકાર; ૩. સંગીતનાં વાદ્યો; ૪. સંગીત રાજ.",
     "options_en": [
       "a(iii), b(ii), c(i), d(iv)",
       "a(iv), b(ii), c(iii), d(i)",
       "a(iii), b(i), c(iv), d(ii)",
       "a(iii), b(iv), c(ii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૨, ક-૧, ડ-૪",
+      "અ-૪, બ-૨, ક-૩, ડ-૧",
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૩, બ-૪, ક-૨, ડ-૧"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Musicology & Scholars",
@@ -4854,14 +4934,19 @@
     "paperId": "music_dec24",
     "question_no": 67,
     "question_en": "Match the composers with their mudras: a. Syama Sastri; b. Thyagaraja; c. Swati Tirunal; d. Purandara Dasa. i. Thyagaraja; ii. Purandara Vitthala; iii. Syama Krishna; iv. Sarasijanabha.",
-    "question_gu": "",
+    "question_gu": "રચનાકારોને તેમની મુદ્રા સાથે જોડો: અ. શ્યામા શાસ્ત્રી; બ. ત્યાગરાજ; ક. સ્વાતિ તિરુનાળ; ડ. પુરંદરદાસ. ૧. ત્યાગરાજ; ૨. પુરંદર વિઠ્ઠલ; ૩. શ્યામકૃષ્ણ; ૪. સરસિજાનાભ.",
     "options_en": [
       "a(iv), b(ii), c(i), d(iii)",
       "a(iii), b(ii), c(i), d(iv)",
       "a(iii), b(i), c(iv), d(ii)",
       "a(iv), b(i), c(iii), d(ii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૪, બ-૨, ક-૧, ડ-૩",
+      "અ-૩, બ-૨, ક-૧, ડ-૪",
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૪, બ-૧, ક-૩, ડ-૨"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Composers",
@@ -4895,14 +4980,19 @@
     "paperId": "music_dec24",
     "question_no": 68,
     "question_en": "Match the lakshana granthas with their authors: a. Sangita Parijata; b. Sangraha Chudamani; c. Sangita Ratnakara; d. Raga Tarangini. i. Govindacharya; ii. Rana Kumbha; iii. Locana Kavi; iv. Ahobala.",
-    "question_gu": "",
+    "question_gu": "લક્ષણગ્રંથોને તેમના લેખકો સાથે જોડો: અ. સંગીત પારિજાત; બ. સંગ્રહ ચૂડામણિ; ક. સંગીત રત્નાકર; ડ. રાગ તરંગિણી. ૧. ગોવિંદાચાર્ય; ૨. રાણા કુંભા; ૩. લોચન કવિ; ૪. અહોબલ.",
     "options_en": [
       "a(i), b(ii), c(iv), d(iii)",
       "a(iv), b(i), c(ii), d(iii)",
       "a(i), b(iii), c(iv), d(ii)",
       "a(iv), b(ii), c(iii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૧, બ-૨, ક-૪, ડ-૩",
+      "અ-૪, બ-૧, ક-૨, ડ-૩",
+      "અ-૧, બ-૩, ક-૪, ડ-૨",
+      "અ-૪, બ-૨, ક-૩, ડ-૧"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Musicology & Treatises",
@@ -4936,14 +5026,19 @@
     "paperId": "music_dec24",
     "question_no": 69,
     "question_en": "Find the dates of the works and match: a. Natya Sastra; b. Brihaddeshi; c. Sangita Sudha; d. Sangita Ratnakar. i. 7th Century; ii. 13th Century; iii. 2nd Century; iv. 16th Century.",
-    "question_gu": "",
+    "question_gu": "ગ્રંથોને તેમના સમય સાથે જોડો: અ. નાટ્યશાસ્ત્ર; બ. બૃહદ્દેશી; ક. સંગીત સુધા; ડ. સંગીત રત્નાકર. ૧. સાતમી સદી; ૨. તેરમી સદી; ૩. બીજી સદી; ૪. સોળમી સદી.",
     "options_en": [
       "a(iii), b(i), c(iv), d(ii)",
       "a(ii), b(iii), c(i), d(iv)",
       "a(i), b(ii), c(iii), d(iv)",
       "a(iv), b(i), c(ii), d(iii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૨, બ-૩, ક-૧, ડ-૪",
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૪, બ-૧, ક-૨, ડ-૩"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & History",
@@ -5073,14 +5168,19 @@
     "paperId": "music_dec24",
     "question_no": 72,
     "question_en": "Match the following: a. Khyal; b. Thumari; c. Tappa; d. Lavani. i. Deepchandi; ii. Zoomara; iii. Keharwa; iv. Pashto.",
-    "question_gu": "",
+    "question_gu": "ગાયકી અને તાલની યોગ્ય જોડીઓ બનાવો: અ. ખયાલ; બ. ઠુમરી; ક. ટપ્પા; ડ. લાવણી. ૧. દીપચંદી; ૨. ઝૂમરા; ૩. કહેરવા; ૪. પશ્તો.",
     "options_en": [
       "a(iii), b(ii), c(iii), d(iv)",
       "a(ii), b(i), c(iv), d(iii)",
       "a(i), b(ii), c(iii), d(iv)",
       "a(iv), b(iii), c(ii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૨, ક-૩, ડ-૪",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૧, બ-૨, ક-૩, ડ-૪",
+      "અ-૪, બ-૩, ક-૨, ડ-૧"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Vocal Music & Talas",
@@ -5114,14 +5214,19 @@
     "paperId": "music_dec24",
     "question_no": 73,
     "question_en": "Match the following: a. Matta Taal; b. Shikhar Taal; c. Firdost Taal; d. Pashto Taal. i. 5 Vibhag; ii. 7 Vibhag; iii. 9 Vibhag; iv. 3 Vibhag.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. મત્ત તાલ; બ. શિખર તાલ; ક. ફિરદોસ્ત તાલ; ડ. પશ્તો તાલ. ૧. પાંચ વિભાગ; ૨. સાત વિભાગ; ૩. નવ વિભાગ; ૪. ત્રણ વિભાગ.",
     "options_en": [
       "a(iii), b(ii), c(i), d(iv)",
       "a(ii), b(i), c(iv), d(iii)",
       "a(iii), b(ii), c(iv), d(i)",
       "a(i), b(iii), c(iv), d(ii)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૨, ક-૧, ડ-૪",
+      "અ-૨, બ-૧, ક-૪, ડ-૩",
+      "અ-૩, બ-૨, ક-૪, ડ-૧",
+      "અ-૧, બ-૩, ક-૪, ડ-૨"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -5155,14 +5260,19 @@
     "paperId": "music_dec24",
     "question_no": 74,
     "question_en": "Match the following: a. Acchan Maharaj; b. Sitara Devi; c. Sanyukta Panigrahi; d. Durgalal. i. Odissi; ii. Jaipur Gharana; iii. Lucknow Gharana; iv. Banaras Gharana.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડીઓ બનાવો: અ. અચ્છન મહારાજ; બ. સિતારા દેવી; ક. સંયુક્તા પાણીગ્રહી; ડ. દુર્ગાલાલ. ૧. ઓડિસી; ૨. જયપુર ઘરાણું; ૩. લખનૌ ઘરાણું; ૪. બનારસ ઘરાણું.",
     "options_en": [
       "a(iii), b(iv), c(i), d(ii)",
       "a(iv), b(iii), c(i), d(ii)",
       "a(i), b(iv), c(iii), d(ii)",
       "a(ii), b(iii), c(iv), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૩, બ-૪, ક-૧, ડ-૨",
+      "અ-૪, બ-૩, ક-૧, ડ-૨",
+      "અ-૧, બ-૪, ક-૩, ડ-૨",
+      "અ-૨, બ-૩, ક-૪, ડ-૧"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Classical Dance & Gharanas",
@@ -5196,14 +5306,19 @@
     "paperId": "music_dec24",
     "question_no": 75,
     "question_en": "Match the books with their authors: a. Pt. Vijay Shankar Mishra; b. Pt. Arvind Mulgaonkar; c. Pt. Sudhir Mainkar; d. Prof. Sudhir Kumar Sinha. i. Tabla Puran; ii. Tabla Vadan Kala Shastra; iii. Rajat; iv. Tabla ki Kala.",
-    "question_gu": "",
+    "question_gu": "પુસ્તકોને તેમના લેખકો સાથે જોડો: અ. પંડિત વિજય શંકર મિશ્ર; બ. પંડિત અરવિંદ મુળગાવકર; ક. પંડિત સુધિર મૈનકર; ડ. પ્રો. સુધિરકુમાર સિંહા. ૧. તબલા પુરમ; ૨. તબલા વાદન કલાશાસ્ત્ર; ૩. રજત; ૪. તબલે કી કલા.",
     "options_en": [
       "a(i), b(iii), c(iv), d(ii)",
       "a(ii), b(iii), c(i), d(iv)",
       "a(iii), b(i), c(iv), d(ii)",
       "a(iv), b(iii), c(ii), d(i)"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અ-૧, બ-૩, ક-૪, ડ-૨",
+      "અ-૨, બ-૩, ક-૧, ડ-૪",
+      "અ-૩, બ-૧, ક-૪, ડ-૨",
+      "અ-૪, બ-૩, ક-૨, ડ-૧"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tabla & Music Literature",
