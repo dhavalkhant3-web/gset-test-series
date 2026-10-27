@@ -7134,14 +7134,19 @@
     "paperId": "music_nov23",
     "question_no": 44,
     "question_en": "Pandit Birju Maharaj has been honoured by which prestigious award?",
-    "question_gu": "",
+    "question_gu": "4. પંડીત બીરજુ મહારાજજીને ક્યા એવોર્ડ થી સન્માનીત કરવામાં આવેલ હતા.",
     "options_en": [
       "Padmashri",
       "Padmabhushan",
       "Padma Vibhushan",
       "Bharat Ratna"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પદ્મશ્રી",
+      "પદમભુષણ",
+      "પદમવિભુષણ",
+      "ભારતરત્ન"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Dance & Awards",
@@ -7153,7 +7158,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options recovered from original bilingual scan using OCR and question-order alignment. Exact wording, figures, option labels/order and spelling must be visually proofread before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7167,7 +7172,9 @@
     "syllabus_mapping_note": "Mapped by reviewing question topic and wording against the registered GSET/UGC-NET Music unit descriptions; initial classification: composers/performers/scholars. Manual stream-specific review remains required for borderline questions.",
     "unit_number": 9,
     "unit_id": "unit_9",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column-psm4)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_045",
@@ -7175,14 +7182,19 @@
     "paperId": "music_nov23",
     "question_no": 45,
     "question_en": "Who among the following is the son of Ustad Haji Vilayat Ali Khan?",
-    "question_gu": "",
+    "question_gu": "5. નિચે આપેલ કલાકારોમાંથી ઉસ્તાદ હાજી વિલાયત અલી ખાન ના પુત્ર કોણ છે ?",
     "options_en": [
       "Ustad Hussain Ali Khan",
       "Ustad Nasir Ali Khan",
       "Ustad Rajab Ali Khan",
       "Ustad Aman Ali Khan"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઉસ્તાદ હુસેન અલી ખૉં સાહેબ",
+      "ઉસ્તાદ નાસીર અલી ખોૉં સાહેબ",
+      "ઉસ્તાદ રજબ અલી ખૉં સાહેબ",
+      "ઉસ્તાદ અમાન અલી ખૉં સાહેબ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicians & Lineages",
@@ -7194,7 +7206,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options recovered from original bilingual scan using OCR and question-order alignment. Exact wording, figures, option labels/order and spelling must be visually proofread before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7208,7 +7220,9 @@
     "syllabus_mapping_note": "Mapped by reviewing question topic and wording against the registered GSET/UGC-NET Music unit descriptions; initial classification: gharana/institution/training. Manual stream-specific review remains required for borderline questions.",
     "unit_number": 10,
     "unit_id": "unit_10",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column-psm4)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_046",
@@ -7216,14 +7230,19 @@
     "paperId": "music_nov23",
     "question_no": 46,
     "question_en": "Total beats of Sankirna Jati Roopak taal are",
-    "question_gu": "",
+    "question_gu": "6. સંકીર્ણ જાતી રૂપક તાલની માત્રા કેટલી હોય છે.",
     "options_en": [
       "7",
       "9",
       "11",
       "13"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -7235,7 +7254,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options recovered from original bilingual scan using OCR and question-order alignment. Exact wording, figures, option labels/order and spelling must be visually proofread before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7249,7 +7268,9 @@
     "syllabus_mapping_note": "Mapped by reviewing question topic and wording against the registered GSET/UGC-NET Music unit descriptions; initial classification: applied theory/default. Manual stream-specific review remains required for borderline questions.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column-psm4)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_047",
@@ -7257,14 +7278,19 @@
     "paperId": "music_nov23",
     "question_no": 47,
     "question_en": "On which beat of Rudra taal will the first palla with ‘Dha’ of a ‘Bedam’ tihai finish?",
-    "question_gu": "",
+    "question_gu": "7. રૂદ્ર તાલમાં બેદમ તિહાઈનો “ધા” સાથેનો પહેલો પલ્લો કઈ માત્રાપર પૂરો થાય છે ?",
     "options_en": [
       "3.75",
       "3.50",
       "3.25",
       "3"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "3.75",
+      "3.50",
+      "3.25",
+      "3"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -7276,7 +7302,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Answer matched to the supplied official final answer-key PDF. Visual proofreading of question stems/options and Gujarati text against the original paper remains pending.",
+    "review_note": "Gujarati stem and four options recovered from original bilingual scan using OCR and question-order alignment. Exact wording, figures, option labels/order and spelling must be visually proofread before source verification.",
     "tip_en": "",
     "tip_gu": "",
     "answer_source": "Official GSET November 2023 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -7290,7 +7316,9 @@
     "syllabus_mapping_note": "Mapped by reviewing question topic and wording against the registered GSET/UGC-NET Music unit descriptions; initial classification: applied theory/default. Manual stream-specific review remains required for borderline questions.",
     "unit_number": 5,
     "unit_id": "unit_5",
-    "answer_key_verified": true
+    "answer_key_verified": true,
+    "gujarati_source": "Original GSET November 2023 Paper-II scan; Gujarati-column OCR (column-psm4)",
+    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending"
   },
   {
     "id": "GSET_30_NOV23_048",
