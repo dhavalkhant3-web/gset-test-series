@@ -441,9 +441,9 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 19,
-      "data_status": "19 question records imported so far across three supplied sessions; 281 remain. Full source transcription, visual audit, Gujarati source transcription, official final-answer-key audit, and official syllabus mapping remain incomplete."
+      "papers_loaded": 3,
+      "questions_loaded": 300,
+      "data_status": "300 question records across three official Music Paper-II sessions (100 each). Gujarati stem and all four options are populated in 174/300 records; 126 remain incomplete. Answer fields were reconciled against official final-key data with 0 recorded structural mismatches, but all 300 records remain review-flagged and source_verified=false. Full visual source proofreading, remaining Gujarati transcription, manual stream-specific syllabus review, and Music-specific validation/build CI remain pending."
     },
     {
       "code": "31",
