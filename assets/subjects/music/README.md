@@ -10,7 +10,7 @@ Existing branch: `add-music-subject-30`; PR #18 targets `integration/combined-su
 - All 300 answer choices are reconciled against the supplied official final answer-key PDFs; structural comparison currently reports 0 mismatches.
 
 ## Gujarati transcription status
-- November 2023: 87/100 complete Gujarati stems + four options; 13 incomplete.
+- November 2023: 100/100 Gujarati stems + four options populated; visual proofreading pending.
 - December 2024: 48/100 complete Gujarati stems + four options; 52 incomplete.
 - November 2025: 58/100 complete Gujarati stems + four options; 42 incomplete.
 - Total: 193/300 records have a Gujarati stem and four populated options; 107/300 still have at least one missing Gujarati field.
@@ -35,7 +35,7 @@ Do not merge or call this archive fully source-verified until the remaining 126 
 
 ## Latest checkpoint — 27 October 2026
 - Current bank: 300 records, 100 per session; 300 unique IDs.
-- Gujarati stem plus four nonblank Gujarati options: 193/300; pending: 107 (Nov 2023: 13, Dec 2024: 52, Nov 2025: 42).
+- Gujarati stem plus four nonblank Gujarati options: 300/300 populated; 0 incomplete fields. This is transcription completeness, not source verification.
 - All 300 records have four nonblank English options. Stored `answer` and `official_answer` fields currently agree in all 300 records; this structural comparison does not replace a fresh page-by-page comparison with the official final-key PDFs.
 - All 300 still have `review_flag=true` and `source_verified=false`; fully source-verified count remains zero.
 - Corrected the Music subject registry to report 3 papers and 300 question records, matching the existing bank. No question records or IDs were rewritten.
@@ -55,3 +55,9 @@ Do not merge or call this archive fully source-verified until the remaining 126 
 ### Work completed in this continuation
 - Added Gujarati transcription for November 2023 questions 22–26 and 40–43, 48–57 from the Gujarati columns of the original bilingual PDF. These 19 records are populated, but remain review-flagged and require visual proofreading for exact character/option fidelity.
 - Recalculated and synchronized per-paper Gujarati completion counts and exact missing question lists from the current question bank; prior progress metadata was stale for November 2023.
+
+### Latest transcription pass — 27 October 2026
+- Filled all previously blank Gujarati stem/options fields across November 2023 (13 records), December 2024 (52 records), and November 2025 (42 records), bringing the field-completeness count to 300/300.
+- Progress metadata and the verification-pending report were recalculated directly from the current bank.
+- Important: many transcriptions were entered with OCR assistance and are **not yet visually proofread character-by-character** against the scanned bilingual originals. This does not satisfy the full source-verification requirement. All 300 remain `review_flag=true`, and `source_verified=true` remains 0.
+- Official answer-key PDFs have not yet been fully reconciled independently against each question in this turn; do not infer that key review is complete from stored field agreement. The 300 syllabus-unit assignments still need manual topic-level and stream-specific review.
