@@ -1,68 +1,34 @@
 # GSET Music — Subject Code 30
 
-Existing branch: `add-music-subject-30`; PR #18 targets `integration/combined-subject-banks`. Existing subject banks were preserved.
+Branch: `add-music-subject-30`  
+Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18) → `integration/combined-subject-banks`
 
-## Question bank and answer key
-- November 2023 Paper-II: 100 question records
-- December 2024 Paper-II: 100 question records
-- November 2025 Paper-II: 100 question records
-- Total: 300 unique question records.
-- All 300 answer choices are reconciled against the supplied official final answer-key PDFs; structural comparison currently reports 0 mismatches.
+## Current verified inventory (27 October 2026)
 
-## Gujarati transcription status
-- November 2023: 100/100 Gujarati stems + four options populated; visual proofreading pending.
-- December 2024: 48/100 complete Gujarati stems + four options; 52 incomplete.
-- November 2025: 58/100 complete Gujarati stems + four options; 42 incomplete.
-- Total: 193/300 records have a Gujarati stem and four populated options; 107/300 still have at least one missing Gujarati field.
-- Missing question ranges are recorded in `assets/subjects/music/verification_pending.json`.
-- Multiple Gujarati-column OCR passes (layout modes 4, 6 and 11) were run against the original bilingual scans. OCR is not proof of exact transcription: all OCR-filled records remain review-flagged until visually checked against the original scan.
-- Remaining records must be transcribed from the Gujarati column, not guessed or translated from English.
+- 300 question records total: 100 each for November 2023, December 2024, and November 2025.
+- Gujarati stems and all four Gujarati options are populated in 300/300 records. This confirms field completeness only; it does **not** certify exact transcription.
+- Four English options are populated in 300/300 records.
+- Stored answer letters were compared with extracted official final-key text: 300 matches, 0 reported mismatches. A fresh visual check against the original answer-key PDFs remains a separate verification gate.
+- All 300 records remain `review_flag=true` and `source_verified=false`. Fully source-verified count: **0/300**.
+- No end-to-end visual proofreading of all bilingual question text, option order, diagrams, notation, symbols, or tables is claimed complete.
+- Unit mappings are provisional topic-based classifications. Manual semantic and stream-specific review remains incomplete.
 
-## English text, figures, and unit mapping
-- English stems/options have not been visually proofread end-to-end against all 300 source questions.
-- Figure/notation/diagram-bearing questions still need page-by-page review; no visual-content audit is claimed complete.
-- All 300 records have a topic/wording-based first-pass mapping to the registered 10 Music units. Manual stream-specific review remains pending for borderline questions, especially Hindustani, Carnatic, percussion, and Rabindra Sangeet content.
-- All 300 records remain review-flagged and `source_verified=false`.
+## Official source PDFs
 
-## Merge gate
-Do not merge or call this archive fully source-verified until the remaining 126 Gujarati transcriptions are completed, all 300 bilingual stems/options and visual content are proofread against the original scans, unit assignments are manually validated against the official stream syllabus, and Music-specific validation plus app build/CI pass.
+| Session | Question paper | Final answer key |
+|---|---|---|
+| November 2023 | [Paper-II PDF](https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2330.pdf) | [Final key PDF](https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2330.pdf) |
+| December 2024 | [Paper-II PDF](https://www.gujaratset.ac.in/assets/papers/paperII/dec24/dec2430.pdf) | [Final key PDF](https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2430.pdf) |
+| November 2025 | [Paper-II PDF](https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2530.pdf) | [Final key PDF](https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2530.pdf) |
 
-## Official source locations
-- GSET question-paper archive: https://www.gujaratset.ac.in/oldpap
-- GSET final answer keys: https://www.gujaratset.ac.in/anskey
-- GSET Music syllabus: https://gujaratset.ac.in/assets/syllabus/30.pdf
-- UGC-NET Music syllabus code 16: https://ugcnetonline.in/syllabus-new.php
+Official syllabus: [GSET Music syllabus, Code 30](https://gujaratset.ac.in/assets/syllabus/30.pdf). Units I–IV are common; Units V–X are stream-specific.
 
-## Latest checkpoint — 27 October 2026
-- Current bank: 300 records, 100 per session; 300 unique IDs.
-- Gujarati stem plus four nonblank Gujarati options: 300/300 populated; 0 incomplete fields. This is transcription completeness, not source verification.
-- All 300 records have four nonblank English options. Stored `answer` and `official_answer` fields currently agree in all 300 records; this structural comparison does not replace a fresh page-by-page comparison with the official final-key PDFs.
-- All 300 still have `review_flag=true` and `source_verified=false`; fully source-verified count remains zero.
-- Corrected the Music subject registry to report 3 papers and 300 question records, matching the existing bank. No question records or IDs were rewritten.
-- Added `tools/validate_music_subject.py` to check IDs, record/session counts, English options, answer-field consistency, Gujarati completion counts, pending-number report synchronization, structural unit references, registry counts, and conservative review flags.
-- Added `.github/workflows/music-subject-validation.yml` to run those checks and a Flutter debug APK build on subject-branch pushes / relevant PR changes. **Do not infer a passing CI result until GitHub Actions reports success on the current head.**
-- These automated checks cannot visually verify scanned text, diagrams, notation, the official answer-key PDF itself, or the semantic correctness of unit assignments.
+## Remaining merge gates
 
-## Still required before merge
-1. Complete the 126 missing Gujarati stems/options directly from the Gujarati columns of the original bilingual PDFs.
-2. Visually proofread every English/Gujarati stem and all options/order against all three original PDFs; inspect diagrams, notation, symbols, and page layout where present.
-3. Reconcile all answers directly against the official final answer-key PDFs; retain official answers if they differ from independent calculations.
-4. Manually review all 300 unit assignments against the official Music syllabus, including Hindustani, Carnatic, percussion, and Rabindra Sangeet-specific content.
-5. Obtain successful Music validator and Flutter build/CI checks. Do not set any source-verification flags or merge until the source-based gates are actually complete.
+1. Visually compare every English and Gujarati stem and all four options/order against each original paper PDF.
+2. Inspect all figures, tables, notation, musical symbols, and page-specific content.
+3. Compare answer letters directly with the official final-key PDFs and record any source discrepancies.
+4. Manually validate all 300 unit assignments against the official syllabus, paying particular attention to Hindustani, Karnataka/Carnatic, percussion, and Rabindra Sangeet stream-specific topics.
+5. Run the Music validator and Flutter build/CI on the current PR head; only then consider merging.
 
-
-
-### Work completed in this continuation
-- Added Gujarati transcription for November 2023 questions 22–26 and 40–43, 48–57 from the Gujarati columns of the original bilingual PDF. These 19 records are populated, but remain review-flagged and require visual proofreading for exact character/option fidelity.
-- Recalculated and synchronized per-paper Gujarati completion counts and exact missing question lists from the current question bank; prior progress metadata was stale for November 2023.
-
-### Latest transcription pass — 27 October 2026
-- Filled all previously blank Gujarati stem/options fields across November 2023 (13 records), December 2024 (52 records), and November 2025 (42 records), bringing the field-completeness count to 300/300.
-- Progress metadata and the verification-pending report were recalculated directly from the current bank.
-- Important: many transcriptions were entered with OCR assistance and are **not yet visually proofread character-by-character** against the scanned bilingual originals. This does not satisfy the full source-verification requirement. All 300 remain `review_flag=true`, and `source_verified=true` remains 0.
-- Official answer-key PDFs have not yet been fully reconciled independently against each question in this turn; do not infer that key review is complete from stored field agreement. The 300 syllabus-unit assignments still need manual topic-level and stream-specific review.
-
-### Official final answer-key comparison — 27 October 2026
-- Compared the stored `answer` and `official_answer` letters for all 300 records against the extracted official GSET final answer-key PDFs (100 questions per session).
-- Result: 300/300 stored answer letters match; 0 mismatches found.
-- This is a letter-level reconciliation against extracted key text. It does not prove the question text/options are visually faithful, nor that OCR of every key character is infallible. The original PDF page-level visual check is still required before declaring complete source verification.
+**Important:** OCR and populated fields are not proof of source fidelity. Do not set `source_verified=true`, remove review flags, or merge until the source-based checks above are actually complete.
