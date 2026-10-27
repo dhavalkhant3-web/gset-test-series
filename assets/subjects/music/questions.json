@@ -1280,14 +1280,19 @@
     "paperId": "music_dec24",
     "question_no": 14,
     "question_en": "How many Alankaras are described in ‘Sangeet Makrand’ by Narad?",
-    "question_gu": "",
+    "question_gu": "‘સંગીત મકરંદ’ ગ્રંથમાં કેટલા અલંકારનો ઉલ્લેખ મળે છે?",
     "options_en": [
       "Fourteen",
       "Thirteen",
       "Twelve",
       "Eleven"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ચૌદ",
+      "તેર",
+      "બાર",
+      "અગિયાર"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musicology & Treatises",
@@ -1321,14 +1326,19 @@
     "paperId": "music_dec24",
     "question_no": 15,
     "question_en": "Who is the author of ‘Panchamsaar Samhita’?",
-    "question_gu": "",
+    "question_gu": "‘પંચમસાર સંહિતા’ના લેખકનું નામ શું છે?",
     "options_en": [
       "Bharat",
       "Matang",
       "Narad",
       "Sharangdeva"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ભરત",
+      "મતંગ",
+      "નારદ",
+      "શારંગદેવ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musicology & Treatises",
@@ -1362,14 +1372,19 @@
     "paperId": "music_dec24",
     "question_no": 16,
     "question_en": "What is the name of ‘Thaat’ according to ‘Hridaya Narayana’?",
-    "question_gu": "",
+    "question_gu": "હૃદય નારાયણના મતાનુસાર ‘થાટ’ કોને કહેવાય?",
     "options_en": [
       "Thaat",
       "Sansthan",
       "Mela",
       "Raag"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "થાટ",
+      "સંસ્થાન",
+      "મેલ",
+      "રાગ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Raga Classification",
@@ -1403,14 +1418,19 @@
     "paperId": "music_dec24",
     "question_no": 17,
     "question_en": "Which one Raga’s Thaat is Bhairavi and Ang is Todi?",
-    "question_gu": "",
+    "question_gu": "કયા રાગનો થાટ ભૈરવી છે, પરંતુ અંગ તોડી છે?",
     "options_en": [
       "Todi",
       "Gurjari Todi",
       "Bilaskhani Todi",
       "Bhopal Todi"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તોડી",
+      "ગુર્જરી તોડી",
+      "બિલાસખાની તોડી",
+      "ભોપાલ તોડી"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Raga Classification",
@@ -1444,14 +1464,19 @@
     "paperId": "music_dec24",
     "question_no": 18,
     "question_en": "What is the Ang of Tilak Kamod?",
-    "question_gu": "",
+    "question_gu": "રાગ તિલકકામોદનું અંગ શું છે?",
     "options_en": [
       "Kanada",
       "Todi",
       "Khamaj",
       "Nat"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કાનડા",
+      "તોડી",
+      "ખમાજ",
+      "નટ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Raga Classification",
@@ -1485,14 +1510,19 @@
     "paperId": "music_dec24",
     "question_no": 19,
     "question_en": "Which one is folk instrument?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયું એક લોકવાદ્ય છે?",
     "options_en": [
       "Harmonium",
       "Pakhawaj",
       "Dholak",
       "Ghatam"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "હાર્મોનિયમ",
+      "પખાવજ",
+      "ઢોલક",
+      "ઘટમ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musical Instruments",
@@ -1526,14 +1556,19 @@
     "paperId": "music_dec24",
     "question_no": 20,
     "question_en": "‘Bhatiyali’ is the folk form of",
-    "question_gu": "",
+    "question_gu": "‘ભટિયાલી’નો સંબંધ કયા રાજ્ય સાથે છે?",
     "options_en": [
       "Gujarat",
       "Maharashtra",
       "Bengal",
       "Jharkhand"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ગુજરાત",
+      "મહારાષ્ટ્ર",
+      "બંગાળ",
+      "ઝારખંડ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Folk Music",
@@ -1567,14 +1602,19 @@
     "paperId": "music_dec24",
     "question_no": 21,
     "question_en": "The Svarasthana ‘Catusruti Rishabha’ is lower than",
-    "question_gu": "",
+    "question_gu": "સ્વરસ્થાન ‘ચતુઃશ્રુતિ ઋષભ’ શેનાથી નીચું છે?",
     "options_en": [
       "Suddha Rishabha",
       "Suddha Gandhara",
       "Shatsruti Rishabha",
       "All the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "શુદ્ધ ઋષભ",
+      "શુદ્ધ ગાંધાર",
+      "ષટ્શ્રુતિ ઋષભ",
+      "ઉપરોક્ત બધાં"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Music Theory",
@@ -1608,14 +1648,19 @@
     "paperId": "music_dec24",
     "question_no": 22,
     "question_en": "Which of the following is NOT a Marga tala?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયો માર્ગી તાલ નથી?",
     "options_en": [
       "Sampakveshtaka",
       "Satpitaputraka",
       "Simhavikridita",
       "Cacaputa"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સંપકવેષ્ટક",
+      "સતપિતાપુત્રક",
+      "સિંહવિક્રીડિત",
+      "ચાચપુટ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -2033,14 +2078,19 @@
     "paperId": "music_dec24",
     "question_no": 31,
     "question_en": "Information obtained from the research articles in journals correspond to",
-    "question_gu": "",
+    "question_gu": "રિસર્ચ જર્નલના શોધપત્રો દ્વારા મેળવેલી માહિતી શું કહેવાય?",
     "options_en": [
       "Primary source",
       "Secondary source",
       "Online source",
       "None of the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પ્રાથમિક સ્રોત",
+      "દ્વિતીયક સ્રોત",
+      "ઓનલાઇન સ્રોત",
+      "ઉપરોક્ત કોઈ પણ નહીં"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Research",
@@ -2074,14 +2124,19 @@
     "paperId": "music_dec24",
     "question_no": 32,
     "question_en": "Which is not considered as a rasa?",
-    "question_gu": "",
+    "question_gu": "નીચેનામાંથી કયો ‘રસ’ નથી?",
     "options_en": [
       "Vatsalya",
       "Krodha",
       "Sringara",
       "Bibhatsa"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વાત્સલ્ય",
+      "ક્રોધ",
+      "શૃંગાર",
+      "બીભત્સ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Rasa Theory",
@@ -2115,14 +2170,19 @@
     "paperId": "music_dec24",
     "question_no": 33,
     "question_en": "The rasa evoked through the raga Yadukula Kambhoji is",
-    "question_gu": "",
+    "question_gu": "યદુકુલકાંબોજી રાગમાંથી ઉત્પન્ન રસને શું કહેવાય?",
     "options_en": [
       "Vira",
       "Hasya",
       "Karuna",
       "Raudra"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વીર",
+      "હાસ્ય",
+      "કરુણ",
+      "રૌદ્ર"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Raga & Rasa",
@@ -2156,14 +2216,19 @@
     "paperId": "music_dec24",
     "question_no": 34,
     "question_en": "What is true about folk music and dance?",
-    "question_gu": "",
+    "question_gu": "લોકસંગીત અને નૃત્ય વિશે કયું વિધાન સત્ય છે?",
     "options_en": [
       "They do not have specific grammar",
       "They are created by people of each region",
       "Occupational songs also form folk genre",
       "All the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તેમનું કોઈ વિશિષ્ટ વ્યાકરણ હોતું નથી",
+      "તેનું નિર્માણ જે તે ક્ષેત્રના લોકો દ્વારા થાય છે",
+      "વ્યાવસાયિક ગીત પણ લોકપ્રકાર હોય છે",
+      "ઉપરોક્ત બધાં"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Folk Music & Dance",
@@ -2197,14 +2262,19 @@
     "paperId": "music_dec24",
     "question_no": 35,
     "question_en": "Sound engineering involves study of",
-    "question_gu": "",
+    "question_gu": "સાઉન્ડ એન્જિનિયરિંગમાં શેનો અભ્યાસ થાય છે?",
     "options_en": [
       "Computer graphics",
       "Data science",
       "Acoustics and sound recording techniques",
       "Voice culture"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કમ્પ્યુટર ગ્રાફિક્સ",
+      "ડેટા સાયન્સ",
+      "ધ્વનિશાસ્ત્ર અને સાઉન્ડ એન્જિનિયરિંગની ટેક્નિક",
+      "વોઇસ કલ્ચર"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Sound Engineering",
@@ -2238,14 +2308,19 @@
     "paperId": "music_dec24",
     "question_no": 36,
     "question_en": "Chembai music festival is conducted in",
-    "question_gu": "",
+    "question_gu": "ચેંબઈ સંગીત સમારોહનું આયોજન ક્યાં થાય છે?",
     "options_en": [
       "Karnataka",
       "Kerala",
       "Telangana",
       "All over India"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કર્ણાટક",
+      "કેરળ",
+      "તેલંગાણા",
+      "ભારતભરમાં બધે"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music Festivals",
@@ -2279,14 +2354,19 @@
     "paperId": "music_dec24",
     "question_no": 37,
     "question_en": "What is considered important in music teaching in institutions?",
-    "question_gu": "",
+    "question_gu": "શિક્ષણ સંસ્થાઓના સંગીત શિક્ષણમાં શેનું મહત્વ હોય છે?",
     "options_en": [
       "Completing syllabus",
       "Individual attention",
       "Strong foundation on basics",
       "All the above"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "અભ્યાસક્રમ પૂરો કરવો",
+      "વ્યક્તિગત ધ્યાન",
+      "મૂળભૂત બાબતોનો મજબૂત પાયો",
+      "ઉપરોક્ત બધાં"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Music Education",
@@ -2320,14 +2400,19 @@
     "paperId": "music_dec24",
     "question_no": 38,
     "question_en": "The equivalent term for Raga in ancient Tamil music is",
-    "question_gu": "",
+    "question_gu": "પ્રાચીન તમિળ સંગીતમાં ‘રાગ’ને શું કહેતા હતા?",
     "options_en": [
       "Pann",
       "Kovai",
       "Kural",
       "Mandilam"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પન્ન",
+      "કોવઈ",
+      "કુરલ",
+      "મંડિલમ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Ancient Tamil Music",
@@ -2361,14 +2446,19 @@
     "paperId": "music_dec24",
     "question_no": 39,
     "question_en": "Anuloma is associated with the singing of",
-    "question_gu": "",
+    "question_gu": "અનુલોમનો સંબંધ કયા ગાયન સાથે છે?",
     "options_en": [
       "Kirtana",
       "RTP (Ragam-Tanam-Pallavi)",
       "Gita",
       "Varna"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કીર્તન",
+      "આર.ટી.પી. (રાગમ-તાનમ-પલ્લવી)",
+      "ગીત",
+      "વર્ણ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Carnatic Music Forms",
@@ -2402,14 +2492,19 @@
     "paperId": "music_dec24",
     "question_no": 40,
     "question_en": "Interviewing a person and collecting data becomes",
-    "question_gu": "",
+    "question_gu": "વ્યક્તિની મુલાકાત લઈને સામગ્રી એકત્રિત કરવી તેને શું કહેવાય?",
     "options_en": [
       "Primary data",
       "Secondary data",
       "Hypothesis",
       "Summary"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "પ્રાથમિક માહિતી",
+      "દ્વિતીયક માહિતી",
+      "પૂર્વધારણા",
+      "સારાંશ"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Music Research",
@@ -2443,14 +2538,19 @@
     "paperId": "music_dec24",
     "question_no": 41,
     "question_en": "Laggi is used with the singers of which of the following genre?",
-    "question_gu": "",
+    "question_gu": "લગ્ગીનો ઉપયોગ કઈ ગાયકીના ગાયકો સાથે થાય છે?",
     "options_en": [
       "Khyal",
       "Dhrupad",
       "Tappa",
       "Thumari"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ખયાલ",
+      "ધ્રુપદ",
+      "ટપ્પા",
+      "ઠુમરી"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Hindustani Vocal Music",
@@ -2484,14 +2584,19 @@
     "paperId": "music_dec24",
     "question_no": 42,
     "question_en": "What place does ‘Laya’ occupy in the ten pranas of taal?",
-    "question_gu": "",
+    "question_gu": "તાલના દશપ્રાણમાં ‘લય’નું સ્થાન કયા ક્રમે આવે છે?",
     "options_en": [
       "6",
       "4",
       "8",
       "9"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૬",
+      "૪",
+      "૮",
+      "૯"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -2525,14 +2630,19 @@
     "paperId": "music_dec24",
     "question_no": 43,
     "question_en": "In which composition does the tihai of tihai end up on Sam?",
-    "question_gu": "",
+    "question_gu": "કઈ રચનાની તિહાઈની તિહાઈ ત્રણ વાર વગાડીને સમ પર આવે છે?",
     "options_en": [
       "Tihai",
       "Mukhda",
       "Chakradar",
       "Peshkar"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તિહાઈ",
+      "મુખડા",
+      "ચક્રદાર",
+      "પેશકાર"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -2566,14 +2676,19 @@
     "paperId": "music_dec24",
     "question_no": 44,
     "question_en": "Triput taal of Tishra jati resembles which taal of Hindustani music?",
-    "question_gu": "",
+    "question_gu": "ત્રિપુટ તાલ ત્રિસ્ર જાતિ ઉત્તર હિંદુસ્તાની સંગીતના કયા તાલ સાથે મળે છે?",
     "options_en": [
       "Sooltal",
       "Adachautal",
       "Teentaal",
       "Tevra"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "સૂલતાલ",
+      "આડા ચૌતાલ",
+      "તીનતાલ",
+      "તેવરા"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -2607,14 +2722,19 @@
     "paperId": "music_dec24",
     "question_no": 45,
     "question_en": "On which beat of teental does one cycle of Aadi laya finish?",
-    "question_gu": "",
+    "question_gu": "તીનતાલમાં આડી લયનું એક આવર્તન કઈ માત્રા પર પૂરું થાય છે?",
     "options_en": [
       "5⅓",
       "5¼",
       "5½",
       "5⅕"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૫⅓",
+      "૫¼",
+      "૫½",
+      "૫⅕"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tala & Rhythm",
@@ -2840,14 +2960,19 @@
     "paperId": "music_dec24",
     "question_no": 50,
     "question_en": "What is the sign of khali in Karnatak music?",
-    "question_gu": "",
+    "question_gu": "કર્ણાટક સંગીતમાં ખાલીનું ચિહ્ન શું છે?",
     "options_en": [
       "0",
       "1",
       "+",
       "None of these"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૦",
+      "૧",
+      "+",
+      "એકપણ નહીં"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Carnatic Tala",
@@ -2881,14 +3006,19 @@
     "paperId": "music_dec24",
     "question_no": 51,
     "question_en": "How many matras are there in Triput Taal Khand Jati?",
-    "question_gu": "",
+    "question_gu": "ત્રિપુટ તાલ ખંડ જાતિની કુલ માત્રા કેટલી હોય છે?",
     "options_en": [
       "7",
       "8",
       "9",
       "10"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૭",
+      "૮",
+      "૯",
+      "૧૦"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Carnatic Tala",
@@ -2922,14 +3052,19 @@
     "paperId": "music_dec24",
     "question_no": 52,
     "question_en": "In Western music, Indian Dhol or instruments like Dholak are called",
-    "question_gu": "",
+    "question_gu": "ભારતીય ઢોલ અથવા ઢોલક પશ્ચિમી સંગીતમાં કયા પ્રકારનાં વાદ્ય તરીકે ઓળખાય છે?",
     "options_en": [
       "Waltzed Drums",
       "Goblet Drums",
       "Barrel Drums",
       "Footed Drums"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વોલ્ટ્ઝ્ડ ડ્રમ",
+      "ગોબ્લેટ ડ્રમ",
+      "બેરલ ડ્રમ",
+      "ફૂટેડ ડ્રમ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Musical Instruments",
@@ -2963,14 +3098,19 @@
     "paperId": "music_dec24",
     "question_no": 53,
     "question_en": "Gat is a Bandish of which instruments?",
-    "question_gu": "",
+    "question_gu": "નીચે આપેલાં વાદ્યોમાંથી કયા વાદ્ય પર ‘ગત’ રચના વગાડવામાં આવે છે?",
     "options_en": [
       "Naal",
       "Sambal",
       "Tabla",
       "Dholak"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "નાલ",
+      "સંબલ",
+      "તબલા",
+      "ઢોલક"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Instrumental Music",
@@ -3004,14 +3144,19 @@
     "paperId": "music_dec24",
     "question_no": 54,
     "question_en": "What is a taal called in Western Music?",
-    "question_gu": "",
+    "question_gu": "પશ્ચિમી સંગીતમાં તાલને શું કહેવામાં આવે છે?",
     "options_en": [
       "Middle signature",
       "Time signature",
       "Beat signature",
       "Rhythm signature"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "મિડલ સિગ્નેચર",
+      "ટાઇમ સિગ્નેચર",
+      "બીટ સિગ્નેચર",
+      "રિધમ સિગ્નેચર"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Western Music Theory",
