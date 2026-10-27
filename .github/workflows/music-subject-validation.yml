@@ -1,0 +1,56 @@
+name: Music subject validation and app build
+
+on:
+  push:
+    branches:
+      - add-music-subject-30
+    paths:
+      - 'assets/subjects/music/**'
+      - 'assets/subjects/subjects.json'
+      - 'assets/subjects/syllabus_units.json'
+      - 'tools/validate_music_subject.py'
+      - 'pubspec.yaml'
+      - 'lib/**'
+      - '.github/workflows/music-subject-validation.yml'
+  pull_request:
+    branches:
+      - integration/combined-subject-banks
+    paths:
+      - 'assets/subjects/music/**'
+      - 'assets/subjects/subjects.json'
+      - 'assets/subjects/syllabus_units.json'
+      - 'tools/validate_music_subject.py'
+      - 'pubspec.yaml'
+      - 'lib/**'
+      - '.github/workflows/music-subject-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Music bank and progress metadata
+        run: python tools/validate_music_subject.py
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Resolve Flutter dependencies
+        run: flutter pub get
+
+      - name: Build debug APK
+        run: flutter build apk --debug
