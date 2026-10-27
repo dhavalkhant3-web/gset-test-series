@@ -10,10 +10,10 @@ Existing branch: `add-music-subject-30`; PR #18 targets `integration/combined-su
 - All 300 answer choices are reconciled against the supplied official final answer-key PDFs; structural comparison currently reports 0 mismatches.
 
 ## Gujarati transcription status
-- November 2023: 68/100 complete Gujarati stems + four options; 32 incomplete.
+- November 2023: 87/100 complete Gujarati stems + four options; 13 incomplete.
 - December 2024: 48/100 complete Gujarati stems + four options; 52 incomplete.
 - November 2025: 58/100 complete Gujarati stems + four options; 42 incomplete.
-- Total: 174/300 records have a Gujarati stem and four populated options; 126/300 still have at least one missing Gujarati field.
+- Total: 193/300 records have a Gujarati stem and four populated options; 107/300 still have at least one missing Gujarati field.
 - Missing question ranges are recorded in `assets/subjects/music/verification_pending.json`.
 - Multiple Gujarati-column OCR passes (layout modes 4, 6 and 11) were run against the original bilingual scans. OCR is not proof of exact transcription: all OCR-filled records remain review-flagged until visually checked against the original scan.
 - Remaining records must be transcribed from the Gujarati column, not guessed or translated from English.
@@ -35,7 +35,7 @@ Do not merge or call this archive fully source-verified until the remaining 126 
 
 ## Latest checkpoint — 27 October 2026
 - Current bank: 300 records, 100 per session; 300 unique IDs.
-- Gujarati stem plus four nonblank Gujarati options: 174/300; pending: 126 (Nov 2023: 32, Dec 2024: 52, Nov 2025: 42).
+- Gujarati stem plus four nonblank Gujarati options: 193/300; pending: 107 (Nov 2023: 13, Dec 2024: 52, Nov 2025: 42).
 - All 300 records have four nonblank English options. Stored `answer` and `official_answer` fields currently agree in all 300 records; this structural comparison does not replace a fresh page-by-page comparison with the official final-key PDFs.
 - All 300 still have `review_flag=true` and `source_verified=false`; fully source-verified count remains zero.
 - Corrected the Music subject registry to report 3 papers and 300 question records, matching the existing bank. No question records or IDs were rewritten.
@@ -50,3 +50,8 @@ Do not merge or call this archive fully source-verified until the remaining 126 
 4. Manually review all 300 unit assignments against the official Music syllabus, including Hindustani, Carnatic, percussion, and Rabindra Sangeet-specific content.
 5. Obtain successful Music validator and Flutter build/CI checks. Do not set any source-verification flags or merge until the source-based gates are actually complete.
 
+
+
+### Work completed in this continuation
+- Added Gujarati transcription for November 2023 questions 22–26 and 40–43, 48–57 from the Gujarati columns of the original bilingual PDF. These 19 records are populated, but remain review-flagged and require visual proofreading for exact character/option fidelity.
+- Recalculated and synchronized per-paper Gujarati completion counts and exact missing question lists from the current question bank; prior progress metadata was stale for November 2023.
