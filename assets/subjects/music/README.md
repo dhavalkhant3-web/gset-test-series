@@ -1,13 +1,18 @@
 # GSET Music — Subject Code 30
 
-This archive is a partial import from official GSET Paper-II question papers and final answer keys.
+This is an in-progress archive on branch `add-music-subject-30`, intended for PR #18 into `integration/combined-subject-banks`.
 
+## Progress
 - Expected papers: 3 (November 2023, December 2024, November 2025)
 - Expected questions: 300 (100 per paper)
-- Currently imported: 114 questions (9 Nov 2023, 100 Dec 2024, 5 Nov 2025)
-- December 2024 official final answer key has been supplied and applied to imported December 2024 question records.
-- Full transcription of all 300 questions, visual proofreading, Gujarati source text/options, and official syllabus-unit mapping remain incomplete.
-- Do not label this archive complete or fully source-verified until all 300 questions are transcribed and audited against official papers and final answer keys.
+- Imported records: 218/300
+- November 2023: 56/100
+- December 2024: 100/100
+- November 2025: 62/100
+- Official final answer keys are applied to the imported records. Imported answers are checked against the supplied final-key PDFs.
+- Question text/options still require visual proofreading against the paper scans; Gujarati text/options and official syllabus-unit mapping remain incomplete.
+- Review flags are intentionally retained. Do not label this archive complete or fully source-verified until every question is transcribed and audited.
 
-Official archive: https://www.gujaratset.ac.in/oldpap
-Official answer keys: https://www.gujaratset.ac.in/anskey
+## Official sources
+- Question papers: https://www.gujaratset.ac.in/oldpap
+- Final answer keys: https://www.gujaratset.ac.in/anskey
