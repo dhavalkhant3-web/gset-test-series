@@ -6,7 +6,11 @@
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
-    "source": "Supplied official GSET final answer-key PDFs"
+    "source": "Official GSET final answer-key PDFs for November 2023, December 2024, and November 2025, Music Paper-II",
+    "reconciliation_status": "compared",
+    "official_key_matches": 300,
+    "mismatches": 0,
+    "note": "Stored answer and official_answer fields were compared question-by-question against the parsed official final-key PDF text for all 100 questions in each of the three papers. This only verifies answer-letter agreement with the key; it does not verify question wording, option order, or whether the key transcription itself was OCR-perfect."
   },
   "fully_verified_questions": 0,
   "source_verified_field_count": 0,
