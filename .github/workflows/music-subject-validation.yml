@@ -43,6 +43,12 @@ jobs:
       - name: Validate Music bank and progress metadata
         run: python tools/validate_music_subject.py
 
+      - name: Set up Java 21 (compatible with current Gradle wrapper)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
