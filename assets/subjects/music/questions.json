@@ -7191,14 +7191,19 @@
     "paperId": "music_nov23",
     "question_no": 40,
     "question_en": "Identify the right pair.",
-    "question_gu": "",
+    "question_gu": "યોગ્ય જોડી શોધો.",
     "options_en": [
       "Veena, Sitar = Stringed instruments",
       "Guitar, Saxophone = Wind instruments",
       "Tabla, Piano = Percussion instruments",
       "Clarinet, Pakhawaj = Western instruments"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "વીણા, સિતાર = તંતુ વાદ્યો",
+      "ગીટાર, સેક્સોફોન = સુષિર વાદ્યો",
+      "તબલા, પિયાનો = તાલ વાદ્યો",
+      "ક્લેરિનેટ, પખાવજ = પશ્ચિમી વાદ્યો"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musical Instruments",
@@ -7232,14 +7237,19 @@
     "paperId": "music_nov23",
     "question_no": 41,
     "question_en": "In which year did the first music conference take place in Baroda city?",
-    "question_gu": "",
+    "question_gu": "કયા વર્ષે વડોદરામાં પહેલો મ્યુઝિક કોન્ફરન્સ યોજવામાં આવેલ હતો?",
     "options_en": [
       "1919",
       "1916",
       "1920",
       "1914"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "1919",
+      "1916",
+      "1920",
+      "1914"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Music History",
@@ -7273,14 +7283,19 @@
     "paperId": "music_nov23",
     "question_no": 42,
     "question_en": "Which laykari would be obtained if Pancham Sawari taal is played from sam to sam?",
-    "question_gu": "",
+    "question_gu": "ઝપતાલમાં સવારી વગાડવામાં આવે તો કઈ લયકારી થશે?",
     "options_en": [
       "Adi laya",
       "Kuad laya",
       "Biyad laya",
       "Maha kuad laya"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "આડી લય",
+      "કુઆડ લય",
+      "બિઆડ લય",
+      "મહાકુઆડ લય"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -7314,14 +7329,19 @@
     "paperId": "music_nov23",
     "question_no": 43,
     "question_en": "Kalyani Kutti Amma is an exponent of which dance form?",
-    "question_gu": "",
+    "question_gu": "કલ્યાણી કુટી અમ્મા કયા પ્રકારના નૃત્યના કલાકાર છે?",
     "options_en": [
       "Odissi",
       "Mohiniattam",
       "Kuchipudi",
       "Kathakali"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "ઓડિસી",
+      "મોહિનીઅટ્ટમ",
+      "કુચીપુડી",
+      "કથકલી"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Classical Dance",
@@ -7547,14 +7567,19 @@
     "paperId": "music_nov23",
     "question_no": 48,
     "question_en": "Ektara is a [instrument] of",
-    "question_gu": "",
+    "question_gu": "એકતારા કયા વાદ્યના પ્રકારનો ભાગ છે?",
     "options_en": [
       "Tat vadya",
       "Sushir vadya",
       "Avanaddha vadya",
       "Ghana vadya"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "તતવાદ્ય",
+      "સુષિર વાદ્ય",
+      "અવનદ્ધ વાદ્ય",
+      "ઘન વાદ્ય"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Musical Instruments",
@@ -7588,14 +7613,19 @@
     "paperId": "music_nov23",
     "question_no": 49,
     "question_en": "Adilaya peshkar kaida is famous for which Gharana?",
-    "question_gu": "",
+    "question_gu": "આડી લયમાં પેશકાર કાયદા બંદિશ કયા ઘરાનાની છે?",
     "options_en": [
       "Lucknow",
       "Farukhabad",
       "Ajrada",
       "Punjab"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "લખનૌ",
+      "ફરૂખાબાદ",
+      "અજરાડા",
+      "પંજાબ"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tabla & Gharanas",
@@ -7629,14 +7659,19 @@
     "paperId": "music_nov23",
     "question_no": 50,
     "question_en": "From the following artists, who belongs to Banaras Gharana?",
-    "question_gu": "",
+    "question_gu": "નીચે આપેલામાંથી કયો કલાકાર બનારસ ઘરાનાના છે?",
     "options_en": [
       "Lacchu Maharaj",
       "Sitara Devi",
       "Acchan Maharaj",
       "Pt. Birju Maharaj"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "લચ્છુ મહારાજ",
+      "સિતારા દેવી",
+      "અચ્છન મહારાજ",
+      "પં. બિરજુ મહારાજ"
+    ],
     "answer": "B",
     "official_answer": "B",
     "topic": "Dance & Gharanas",
@@ -7670,14 +7705,19 @@
     "paperId": "music_nov23",
     "question_no": 51,
     "question_en": "Total beats of Chatusra Jati Dhruva tala are",
-    "question_gu": "",
+    "question_gu": "ચતુસ્ર જાતિના ધ્રુવતાલની માત્રાઓ કેટલી હોય છે?",
     "options_en": [
       "14",
       "12",
       "16",
       "10"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "14",
+      "12",
+      "16",
+      "10"
+    ],
     "answer": "C",
     "official_answer": "C",
     "topic": "Tala & Rhythm",
@@ -7711,14 +7751,19 @@
     "paperId": "music_nov23",
     "question_no": 52,
     "question_en": "Which place does ‘Jati’ occupy in the pranas of taal?",
-    "question_gu": "",
+    "question_gu": "તાલનાં દશપ્રાણમાં જાતિ કયા ક્રમે આવે છે?",
     "options_en": [
       "2",
       "4",
       "5",
       "6"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tala & Rhythm",
@@ -7752,14 +7797,19 @@
     "paperId": "music_nov23",
     "question_no": 53,
     "question_en": "Which taal is used in folk music?",
-    "question_gu": "",
+    "question_gu": "ફોક મ્યુઝિકમાં કયો તાલ વગાડવામાં આવે છે?",
     "options_en": [
       "Deepchandi",
       "Vilambit ektal",
       "Pancham savari",
       "Pashto"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "દીપચંદી",
+      "વિલંબિત એકતાલ",
+      "પંચમ સવારી",
+      "પશ્તો"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Folk Music & Tala",
@@ -7793,14 +7843,19 @@
     "paperId": "music_nov23",
     "question_no": 54,
     "question_en": "Which among the following is the symbol for Guru?",
-    "question_gu": "",
+    "question_gu": "નીચે આપેલાં ચિહ્નોમાંથી કયું ચિહ્ન ગુરુનું છે?",
     "options_en": [
       "0",
       "+",
       "x",
       "s"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "૦",
+      "+",
+      "x",
+      "s"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Notation",
@@ -7834,14 +7889,19 @@
     "paperId": "music_nov23",
     "question_no": 55,
     "question_en": "Peshkar is similar to which of the following parts of classical vocal music?",
-    "question_gu": "",
+    "question_gu": "શાસ્ત્રીય સંગીત ગાયનમાં તબલાના પેશકારનું સ્થાન ગાયનના કયા અંગના બરાબર ગણવામાં આવે છે?",
     "options_en": [
       "Jod",
       "Jala",
       "Bol-taan",
       "Aalap"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "જોડ",
+      "ઝાલા",
+      "બોલ-તાન",
+      "આલાપ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tabla & Music Forms",
@@ -7875,14 +7935,19 @@
     "paperId": "music_nov23",
     "question_no": 56,
     "question_en": "How many Margi Talas are there in the Margi Tala System?",
-    "question_gu": "",
+    "question_gu": "માર્ગી તાલ પદ્ધતિમાં માર્ગી તાલની સંખ્યા કેટલી હોય છે?",
     "options_en": [
       "107",
       "111",
       "120",
       "97"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "107",
+      "111",
+      "120",
+      "97"
+    ],
     "answer": "A",
     "official_answer": "A",
     "topic": "Tala & Rhythm",
@@ -7916,14 +7981,19 @@
     "paperId": "music_nov23",
     "question_no": 57,
     "question_en": "Pipilika is a part of",
-    "question_gu": "",
+    "question_gu": "પિપિલિકા નીચેનામાંથી કયા ભાગનો શબ્દ છે?",
     "options_en": [
       "Kal",
       "Kriya",
       "Laya",
       "Yati"
     ],
-    "options_gu": [],
+    "options_gu": [
+      "કાલ",
+      "ક્રિયા",
+      "લય",
+      "યતિ"
+    ],
     "answer": "D",
     "official_answer": "D",
     "topic": "Tala & Rhythm",
