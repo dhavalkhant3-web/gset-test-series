@@ -8,10 +8,13 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 100,
+    "question_text_visual_proofread": 200,
     "gujarati_transcribed": 100,
-    "syllabus_mapping_verified": 68,
-    "review_flags_remaining": 232
+    "syllabus_mapping_verified": 156,
+    "review_flags_remaining": 145,
+    "gujarati_source_not_present_in_official_2023_2024_sources": 200,
+    "syllabus_mapping_provisional": 31,
+    "syllabus_mapping_pending": 113
   },
   "answer_key_audit": {
     "source": "User-supplied official final answer key PDFs",
@@ -19,7 +22,15 @@
     "matches": 300,
     "mismatches": 0,
     "status": "parsed_and_reconciled_all_300",
-    "note": "All 300 stored answer letters match the supplied official final answer keys. Question-text/Gujarati visual review is tracked separately by session."
+    "note": "All 300 stored answer letters match the supplied official final answer keys. Question-text/Gujarati visual review is tracked separately by session.",
+    "content_discrepancy_flags": [
+      {
+        "paper_id": "hindu_studies_dec24",
+        "question_no": 49,
+        "stored_official_answer": "A",
+        "issue": "The stored answer matches the supplied official final answer key (A), but the question asks who wrote Paumacariya and reputable scholarly sources identify Vimalasūri (option B). Keep official answer A per project rule, retain review_flag=true, and request expert review. External context: https://rindas.ryukoku.ac.jp/wp/wp-content/uploads/2022/04/wp_37.pdf"
+      }
+    ]
   },
   "papers": [
     {
@@ -31,18 +42,20 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 0,
       "review_flags_remaining": 100,
-      "status": "answer_key_reconciled_source_visual_review_gujarati_transcription_and_syllabus_mapping_pending"
+      "status": "source_visual_review_pending"
     },
     {
       "paper_id": "hindu_studies_dec24",
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 0,
+      "question_text_visual_proofread": 100,
       "gujarati_transcribed": 0,
-      "syllabus_mapping_verified": 0,
-      "review_flags_remaining": 100,
-      "status": "answer_key_reconciled_source_visual_review_gujarati_transcription_and_syllabus_mapping_pending"
+      "syllabus_mapping_verified": 88,
+      "review_flags_remaining": 13,
+      "status": "All 100 English stems/options visually proofread; GSET 2024 official bulletin specifies English medium; Gujarati not invented; 88 mappings verified, 12 provisional, one answer-key/content discrepancy flag",
+      "gujarati_source_not_present_in_official_source": 100,
+      "source_medium": "English"
     },
     {
       "paper_id": "hindu_studies_nov25",
@@ -57,10 +70,11 @@
     }
   ],
   "remaining_gates": [
-    "Visually compare all 100 English stems/options and transcribe/verify Gujarati stems and all four options for November 2023 and December 2024.",
-    "Complete official syllabus mapping: 68/300 verified; 19 provisional; 213 pending. Keep provisional/ambiguous cases flagged until source-supported mapping is established.",
-    "Review flagged source detail on Nov 2025 Q62 (the English source option appears printed as “Bhāhmaṇa”/“Bhahmana”) and Q91 (compound printed as “गोसुखम्”).",
-    "Run a real Android Debug APK build for the updated branch. The connected GitHub tools do not provide workflow_dispatch, and Flutter CLI is not installed locally; do not merge or push to main just to trigger it."
+    "Visually compare every English stem/options against the original nov2328.pdf for November 2023 (100 questions remain).",
+    "Do not fabricate Gujarati for November 2023 or December 2024 if the supplied official papers are English-medium; confirm the 2023 medium from the official bulletin and locate an official Gujarati paper only if GSET actually issued one.",
+    "Complete official syllabus mapping: 156/300 verified, 31 provisional, 113 pending. Keep ambiguous/provisional cases flagged.",
+    "Resolve expert review on December 2024 Q49 answer-key/content discrepancy without changing the official answer unless the user explicitly authorizes an override; the current stored answer A matches the official final key.",
+    "Run repository validators and a real Android Debug APK build. The current connected GitHub tools do not expose workflow_dispatch and local Flutter CLI is unavailable; do not merge PR or push to main to trigger a build."
   ],
   "last_updated": "2026-10-29",
   "official_syllabus_source": {
@@ -71,5 +85,10 @@
     "units_recorded": 10,
     "status": "official_gset_source_registered",
     "note": "The official GSET Code 28 URL returned the Hindu Studies syllabus PDF whose title page prints UGC-NET code 102; the repository records it as GSET Code 28 and separately notes the printed UGC code."
+  },
+  "source_language_notes": {
+    "november_2025": "Original nov2528.pdf is bilingual English/Gujarati; all 100 Gujarati stems/options were transcribed from the Gujarati side.",
+    "december_2024": "Original dec2428.pdf provided here contains English stems and Devanagari/Sanskrit text/options, not Gujarati stems/options. The official 2024 GSET information bulletin lists Hindu Studies Code 28 medium as English. No Gujarati was invented.",
+    "november_2023": "Provided nov2328.pdf appears to contain English stems with Devanagari/Sanskrit content rather than a Gujarati column; exact subject medium should be confirmed from the 2023 official bulletin. Do not invent Gujarati."
   }
 }
