@@ -1,5 +1,7 @@
 # GSET Music — Subject Code 30
 
+Last reviewed: 29 October 2026
+
 Branch: `add-music-subject-30`  
 Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18) → `integration/combined-subject-banks`
 
@@ -10,8 +12,9 @@ Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18
 - Four English options are populated in 300/300 records.
 - Stored answer letters were compared with extracted official final-key text: 300 matches, 0 reported mismatches. A fresh visual check against the original answer-key PDFs remains a separate verification gate.
 - All 300 records remain `review_flag=true` and `source_verified=false`. Fully source-verified count: **0/300**.
-- No end-to-end visual proofreading of all bilingual question text, option order, diagrams, notation, symbols, or tables is claimed complete.
-- Unit mappings are provisional topic-based classifications. Manual semantic and stream-specific review remains incomplete.
+- Visual review checkpoint: November 2023 Questions 1–8 were compared against printed pages 3–4. Two transcription corrections were made: Q4 Gujarati stem restored the source word “નિમ્નલિખિત”; Q8 Gujarati option D corrected to “ઈક્વલી ટેમ્પર્ડ સ્કેલ”. Remaining 292 questions have not been visually proofread in this batch. Direct visual checking of official answer-key PDF pages is still pending for all 300.
+- The 8 question records checked have `source_verified=true` but retain `review_flag=true` until direct answer-key visual confirmation and the full merge gates are finished.
+- Syllabus mapping checkpoint: 8/300 questions in November 2023 were manually mapped against the GSET-hosted Music syllabus; 292 remain. The hosted PDF identifies UGC-NET Music Code 16; GSET's information bulletin lists Music as GSET subject code 30. Units I–IV are common, and V–X are stream-specific. Stream selection remains important for final mapping.
 
 ## Official source PDFs
 
@@ -22,6 +25,14 @@ Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18
 | November 2025 | [Paper-II PDF](https://www.gujaratset.ac.in/assets/papers/paperII/nov25/nov2530.pdf) | [Final key PDF](https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2530.pdf) |
 
 Official syllabus: [GSET Music syllabus, Code 30](https://gujaratset.ac.in/assets/syllabus/30.pdf). Units I–IV are common; Units V–X are stream-specific.
+
+## Current audit progress (29 October 2026)
+
+- Visually proofread: 8/300.
+- English/Gujarati stems and four options/order checked: 8/300.
+- Syllabus mappings manually reviewed: 8/300.
+- Corrections made: 2 (Nov 2023 Q4 Gujarati stem; Q8 Gujarati option D spelling).
+- Official answer key: prior OCR/text audit reported 300/300 answer-letter matches; direct visual comparison against all three final answer-key PDFs remains pending.
 
 ## Remaining merge gates
 
