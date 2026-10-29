@@ -1807,15 +1807,40 @@ class _TestPageState extends State<TestPage> {
 
   Future<void> _confirmExit() async { final leave = await showDialog<bool>(context: context, builder: (_) => AlertDialog(title: Text(gu ? 'ટેસ્ટ છોડવી છે?' : 'Leave test?'), content: Text(gu ? 'હાલની ટેસ્ટની પ્રગતિ સાચવવામાં નહીં આવે. શું તમે બહાર નીકળવા માંગો છો?' : 'Current test progress will not be saved. Do you want to leave?'), actions: [TextButton(onPressed: () => Navigator.pop(context, false), child: Text(gu ? 'રહો' : 'Stay')), FilledButton(onPressed: () => Navigator.pop(context, true), child: Text(gu ? 'બહાર નીકળો' : 'Leave'))])); if (leave == true && mounted) Navigator.pop(context); }
 
+  String _firstNonEmpty(Iterable<dynamic> values) {
+    for (final value in values) {
+      if (value == null) continue;
+      if (value is String && value.trim().isNotEmpty) return value.trim();
+      if (value is num || value is bool) return value.toString();
+    }
+    return '';
+  }
+
+  List<String> _readOptions(dynamic value) {
+    if (value is List) {
+      return value.map((e) => e?.toString() ?? '').toList();
+    }
+    if (value is Map) {
+      const keys = ['A', 'B', 'C', 'D', 'a', 'b', 'c', 'd', '1', '2', '3', '4'];
+      final result = <String>[];
+      for (final key in keys) {
+        if (value.containsKey(key)) result.add(value[key]?.toString() ?? '');
+      }
+      if (result.isNotEmpty) return result.take(4).toList();
+      return value.values.take(4).map((e) => e?.toString() ?? '').toList();
+    }
+    return [];
+  }
+
   @override Widget build(BuildContext context) {
-    final guQuestion = (q['question_gu'] ?? '').toString().trim();
-    final enQuestion = (q['question_en'] ?? '').toString().trim();
-    final guOptionsRaw = q['options_gu'];
-    final enOptionsRaw = q['options_en'];
-    final guOptionsAvailable = guOptionsRaw is List &&
-        guOptionsRaw.any((e) => (e?.toString() ?? '').trim().isNotEmpty);
-    final rawOptions = gu && guOptionsAvailable ? guOptionsRaw : enOptionsRaw;
-    final opts = rawOptions is List ? rawOptions.map((e) => e?.toString() ?? '').toList() : <String>[];
+    // Normalize known legacy schemas at render time. Do not discard records:
+    // some archived banks use "question"/"options" instead of *_en fields.
+    final guQuestion = _firstNonEmpty([q['question_gu'], q['questionGujarati'], q['question_gj']]);
+    final enQuestion = _firstNonEmpty([q['question_en'], q['question'], q['question_text'], q['questionText'], q['stem'], q['text']]);
+    final guOptions = _readOptions(q['options_gu'] ?? q['optionsGujarati'] ?? q['options_gj']);
+    final enOptions = _readOptions(q['options_en'] ?? q['options'] ?? q['choices'] ?? q['answer_options']);
+    final guOptionsAvailable = guOptions.any((e) => e.trim().isNotEmpty);
+    final opts = gu && guOptionsAvailable ? guOptions : enOptions;
     final questionText = gu && guQuestion.isNotEmpty ? guQuestion : enQuestion;
     final needsGujaratiFallback = gu && (guQuestion.isEmpty || !guOptionsAvailable);
     final correct = (q['answer'] ?? 'Z').toString();
