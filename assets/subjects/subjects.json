@@ -396,10 +396,10 @@
       "icon": "temple_hindu_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
+      "source_verified": true,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II records; official final answer keys reconciled 300/300 with 0 mismatches; English stems/options visually proofread against source PDFs 300/300; Gujarati original transcription 100/300 (only Nov 2025 supplied scan is bilingual); official syllabus mappings 253 verified, 34 provisional, 13 pending; 49 review flags retained; Android Debug APK build pending."
+      "data_status": "300 Paper-II records across November 2023, December 2024 and November 2025 (100 each); official final answer keys reconciled 300/300 with 0 mismatches; English stems/options visually proofread against source PDFs 300/300; Gujarati source transcription 100/300 (only supplied November 2025 scan is bilingual); official syllabus mappings 262 verified, 38 provisional, 0 pending; 40 review flags retained; latest Hindu Studies validation and Android Debug APK CI passed on commit 080d23612e0ea70218f80026dc82f74de70112e9. Review flags remain; this staging bank still requires expert/content review before integration."
     },
     {
       "code": "29",
