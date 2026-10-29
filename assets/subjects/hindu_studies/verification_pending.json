@@ -8,13 +8,13 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 200,
+    "question_text_visual_proofread": 300,
     "gujarati_transcribed": 100,
-    "syllabus_mapping_verified": 156,
-    "review_flags_remaining": 145,
+    "syllabus_mapping_verified": 253,
+    "review_flags_remaining": 49,
     "gujarati_source_not_present_in_official_2023_2024_sources": 200,
-    "syllabus_mapping_provisional": 31,
-    "syllabus_mapping_pending": 113
+    "syllabus_mapping_provisional": 34,
+    "syllabus_mapping_pending": 13
   },
   "answer_key_audit": {
     "source": "User-supplied official final answer key PDFs",
@@ -38,11 +38,15 @@
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 0,
+      "question_text_visual_proofread": 100,
       "gujarati_transcribed": 0,
-      "syllabus_mapping_verified": 0,
-      "review_flags_remaining": 100,
-      "status": "source_visual_review_pending"
+      "syllabus_mapping_verified": 97,
+      "review_flags_remaining": 4,
+      "status": "All 100 English stems/options visually proofread; no Gujarati column in supplied scan; 97 mappings verified, 3 provisional, one Sanskrit grammar item flagged",
+      "syllabus_mapping_provisional": 3,
+      "syllabus_mapping_pending": 0,
+      "gujarati_source_not_present_in_official_source": 100,
+      "source_medium": "Supplied scan is English with Sanskrit/Devanagari text; 2023 official medium bulletin not yet confirmed"
     },
     {
       "paper_id": "hindu_studies_dec24",
@@ -53,9 +57,11 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 88,
       "review_flags_remaining": 13,
-      "status": "All 100 English stems/options visually proofread; GSET 2024 official bulletin specifies English medium; Gujarati not invented; 88 mappings verified, 12 provisional, one answer-key/content discrepancy flag",
+      "status": "All 100 English stems/options visually proofread; official bulletin lists Code 28 English-medium; 88 mappings verified, 12 provisional; one separate answer-key/content discrepancy flag",
       "gujarati_source_not_present_in_official_source": 100,
-      "source_medium": "English"
+      "source_medium": "English",
+      "syllabus_mapping_provisional": 12,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "hindu_studies_nov25",
@@ -66,15 +72,18 @@
       "gujarati_transcribed": 100,
       "syllabus_mapping_verified": 68,
       "review_flags_remaining": 32,
-      "status": "All 100 questions visually proofread and Gujarati-transcribed from original bilingual scan; 68 mappings verified, 19 provisional, 13 pending"
+      "status": "All 100 English stems/options visually proofread and Gujarati stems/options transcribed from original bilingual scan; 68 mappings verified, 19 provisional, 13 pending",
+      "syllabus_mapping_provisional": 19,
+      "syllabus_mapping_pending": 13,
+      "source_medium": "English & Gujarati",
+      "gujarati_source_not_present_in_official_source": 0
     }
   ],
   "remaining_gates": [
-    "Visually compare every English stem/options against the original nov2328.pdf for November 2023 (100 questions remain).",
-    "Do not fabricate Gujarati for November 2023 or December 2024 if the supplied official papers are English-medium; confirm the 2023 medium from the official bulletin and locate an official Gujarati paper only if GSET actually issued one.",
-    "Complete official syllabus mapping: 156/300 verified, 31 provisional, 113 pending. Keep ambiguous/provisional cases flagged.",
-    "Resolve expert review on December 2024 Q49 answer-key/content discrepancy without changing the official answer unless the user explicitly authorizes an override; the current stored answer A matches the official final key.",
-    "Run repository validators and a real Android Debug APK build. The current connected GitHub tools do not expose workflow_dispatch and local Flutter CLI is unavailable; do not merge PR or push to main to trigger a build."
+    "Confirm from the official November 2023 GSET information bulletin whether Hindu Studies (Code 28) was English-only that year, and locate an official Gujarati paper only if GSET issued one. Do not auto-translate and claim it is an original Gujarati version.",
+    "Review the two flagged source/key issues: Dec 2024 Q49 official final key gives A although scholarly literature identifies Vimalasūri (option B) as author of Paumacariya; keep official answer A pending expert review. Nov 2023 Q88's feminine ablative singular options appear grammatically questionable/unclear in the scan; preserve official key and request expert review.",
+    "Review 34 provisional syllabus mappings before changing them to verified; 13 question mappings remain pending. Current question-level mapping counts: 253 verified, 34 provisional, 13 pending.",
+    "Run the repository's full validator/test suite and Android Debug APK build. Connected GitHub actions do not expose workflow_dispatch and local Flutter CLI is not installed; do not merge PR or push to main merely to trigger a build."
   ],
   "last_updated": "2026-10-29",
   "official_syllabus_source": {
@@ -87,8 +96,8 @@
     "note": "The official GSET Code 28 URL returned the Hindu Studies syllabus PDF whose title page prints UGC-NET code 102; the repository records it as GSET Code 28 and separately notes the printed UGC code."
   },
   "source_language_notes": {
-    "november_2025": "Original nov2528.pdf is bilingual English/Gujarati; all 100 Gujarati stems/options were transcribed from the Gujarati side.",
-    "december_2024": "Original dec2428.pdf provided here contains English stems and Devanagari/Sanskrit text/options, not Gujarati stems/options. The official 2024 GSET information bulletin lists Hindu Studies Code 28 medium as English. No Gujarati was invented.",
-    "november_2023": "Provided nov2328.pdf appears to contain English stems with Devanagari/Sanskrit content rather than a Gujarati column; exact subject medium should be confirmed from the 2023 official bulletin. Do not invent Gujarati."
+    "november_2025": "Original nov2528.pdf is bilingual English/Gujarati; all 100 Gujarati stems/options were transcribed directly from the Gujarati side.",
+    "december_2024": "Provided dec2428.pdf contains English stems and Sanskrit/Devanagari content but no Gujarati stem/options column. The official 2024 GSET information bulletin lists Hindu Studies Code 28 as English medium. Gujarati fields were not invented.",
+    "november_2023": "All English stems/options were visually reviewed from nov2328.pdf, which shows English text and Sanskrit/Devanagari content, not a Gujarati stem/options column. The 2023 official bulletin's medium has not yet been independently confirmed; Gujarati fields were not invented."
   }
 }
