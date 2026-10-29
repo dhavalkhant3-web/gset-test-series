@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "subject_id": "hindu_studies",
+  "subject_code": "28",
+  "generated_from": "User-supplied staging JSON and official GSET question paper/final answer key PDFs, checked 2026-10-29",
+  "counts": {
+    "total_questions": 300,
+    "questions_per_session": 100,
+    "official_answer_key_matches": 300,
+    "answer_key_mismatches": 0,
+    "question_text_visual_proofread": 300,
+    "gujarati_transcribed": 100,
+    "syllabus_mapping_verified": 262,
+    "review_flags_remaining": 40,
+    "gujarati_source_not_present_in_official_2023_2024_sources": 200,
+    "syllabus_mapping_provisional": 38,
+    "syllabus_mapping_pending": 0
+  },
+  "answer_key_audit": {
+    "source": "User-supplied official final answer key PDFs",
+    "questions": 300,
+    "matches": 300,
+    "mismatches": 0,
+    "status": "parsed_and_reconciled_all_300",
+    "note": "All 300 stored answer letters match the supplied official final answer keys. Content-review flags are tracked separately; two source/key issues remain flagged for expert review.",
+    "content_discrepancy_flags": [
+      {
+        "paper_id": "hindu_studies_dec24",
+        "question_no": 49,
+        "stored_official_answer": "A",
+        "issue": "The stored answer matches the supplied official final answer key (A), but the question asks who wrote Paumacariya and reputable scholarly sources identify Vimalasūri (option B). Keep official answer A per project rule, retain review_flag=true, and request expert review. External context: https://rindas.ryukoku.ac.jp/wp/wp-content/uploads/2022/04/wp_37.pdf"
+      }
+    ]
+  },
+  "papers": [
+    {
+      "paper_id": "hindu_studies_nov23",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 100,
+      "gujarati_transcribed": 0,
+      "syllabus_mapping_verified": 97,
+      "review_flags_remaining": 4,
+      "status": "All 100 English stems/options visually proofread; 97 mappings verified and 3 provisional; 4 review flags retained",
+      "syllabus_mapping_provisional": 3,
+      "syllabus_mapping_pending": 0,
+      "gujarati_source_not_present_in_official_source": 100,
+      "source_medium": "English; the GSET 2023 Information Bulletin lists Hindu Studies (Code 28) with English as the question-paper medium. The supplied paper has no Gujarati stem/options column."
+    },
+    {
+      "paper_id": "hindu_studies_dec24",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 100,
+      "gujarati_transcribed": 0,
+      "syllabus_mapping_verified": 88,
+      "review_flags_remaining": 13,
+      "status": "All 100 English stems/options visually proofread; 88 mappings verified and 12 provisional; Q49 remains flagged for answer-key/content expert review",
+      "gujarati_source_not_present_in_official_source": 100,
+      "source_medium": "English",
+      "syllabus_mapping_provisional": 12,
+      "syllabus_mapping_pending": 0
+    },
+    {
+      "paper_id": "hindu_studies_nov25",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 100,
+      "gujarati_transcribed": 100,
+      "syllabus_mapping_verified": 77,
+      "review_flags_remaining": 23,
+      "status": "All 100 English stems/options visually proofread and Gujarati stems/options transcribed from bilingual source; 77 mappings verified and 23 provisional",
+      "syllabus_mapping_provisional": 23,
+      "syllabus_mapping_pending": 0,
+      "source_medium": "English & Gujarati",
+      "gujarati_source_not_present_in_official_source": 0
+    }
+  ],
+  "remaining_gates": [
+    "Review provisional syllabus mappings: 262/300 verified, 38 provisional, 0 pending. Keep provisional cases flagged until each unit assignment has sufficient source-based support.",
+    "Review two source/key concerns: Dec 2024 Q49's official answer-key A conflicts with commonly cited author Vimalasūri (option B) of Paumacariya; keep official key A until expert review. Nov 2023 Q88's feminine ablative singular item/options appear questionable/unclear; keep official key and review flag."
+  ],
+  "last_updated": "2026-10-29",
+  "official_syllabus_source": {
+    "official_gset_pdf": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+    "related_ugc_syllabus": "https://www.ugcnetonline.in/showPdf.php?p1=NTA_All_R_Syllabus/102/Hindu%20Studies_Engish.pdf",
+    "gset_subject_code": "28",
+    "syllabus_code_printed_in_pdf": "102",
+    "units_recorded": 10,
+    "status": "official_gset_source_registered",
+    "note": "The official GSET Code 28 URL returned the Hindu Studies syllabus PDF whose title page prints UGC-NET code 102; the repository records it as GSET Code 28 and separately notes the printed UGC code."
+  },
+  "source_language_notes": {
+    "november_2025": "All 100 English stems/options and all 100 Gujarati stems/four options were visually reviewed/transcribed from nov2528.pdf.",
+    "december_2024": "All English stems/options were visually reviewed from dec2428.pdf; the official 2024 GSET bulletin lists Hindu Studies Code 28 as English medium. Gujarati was not invented.",
+    "november_2023": "All 100 English stems/options were visually reviewed against nov2328.pdf, which shows English text and Sanskrit/Devanagari content, not a Gujarati stem/options column. The GSET 2023 Information Bulletin table lists Hindu Studies (Code 28) with English as the question-paper medium. Do not invent Gujarati translations."
+  }
+}
