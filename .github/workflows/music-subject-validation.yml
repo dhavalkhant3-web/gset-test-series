@@ -40,6 +40,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Test Music review-gate logic
+        run: python -m unittest tools/test_validate_music_subject.py
+
       - name: Validate Music bank and progress metadata
         run: python tools/validate_music_subject.py
 
