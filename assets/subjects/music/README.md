@@ -5,7 +5,26 @@ Last reviewed: 29 October 2026
 Branch: `add-music-subject-30`  
 Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18) → `integration/combined-subject-banks`
 
-## Current verified inventory (27 October 2026)
+## Current verified inventory (29 October 2026)
+
+- 300 question records retained: 100 each for November 2023, December 2024, and November 2025.
+- Gujarati stems and all four Gujarati options are populated in 300/300 records. Field completeness is not proof of transcription accuracy.
+- Stored answer letters were parsed-compared with extracted official final-key text: 300 matches and 0 reported mismatches. Direct visual checking of the official answer key covers 100/300 questions (November 2023); 200 direct visual checks remain.
+- Explicit question-text/options visual-proofreading evidence: 154/300 (November 2023: 100; December 2024: 54; November 2025: 0). Remaining: 146 (December 2024: 46; November 2025: 100).
+- Manually reviewed syllabus mappings: 140/300 (November 2023: 88; December 2024: 52; November 2025: 0). Fourteen mappings are explicitly ambiguous (12 November 2023; 2 December 2024); 146 mappings remain provisional/pending.
+- 212/300 questions remain review-flagged. The 88 currently unflagged records have source-proofreading evidence, a direct visual answer-key check, and a manually reviewed syllabus mapping.
+- Music subject registry remains `source_verified: false` until every required record gate is complete.
+
+## What remains before merge
+
+1. Visually proofread 46 December 2024 questions and all 100 November 2025 questions against the original official question-paper PDFs.
+2. Adjudicate 12 ambiguous November 2023 mappings; finish the remaining 48 December 2024 mappings and all 100 November 2025 mappings against the appropriate stream-specific official syllabus.
+3. Directly compare all 100 December 2024 and 100 November 2025 stored answers against the official final answer-key PDFs. Parsed text agreement alone is not direct visual verification.
+4. Run the evidence-sensitive Music validator, its unit tests, and the Android debug APK build. Inspect the final PR diff before considering merge.
+
+Official question papers and final keys are linked per paper in `papers.json`. Official Music syllabus: https://gujaratset.ac.in/assets/syllabus/30.pdf. GSET subject code is 30; the linked syllabus document identifies UGC-NET Music code 16 and notes that Units V–X are stream-specific, so do not guess mappings for a stream-specific topic.
+
+
 
 - 300 question records total: 100 each for November 2023, December 2024, and November 2025.
 - Gujarati stems and all four Gujarati options are populated in 300/300 records. This confirms field completeness only; it does **not** certify exact transcription.
