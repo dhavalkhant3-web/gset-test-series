@@ -297,6 +297,75 @@
           "name": "Folk, Tribal and Craft Practices in India"
         }
       ]
+    },
+    "music": {
+      "code": "30",
+      "name_en": "Music",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+      "official_syllabus_code": "16",
+      "syllabus_basis": "GSET bulletin states non-science subject syllabi follow UGC-NET; official UGC-NET Music syllabus code 16.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Technical Terms",
+          "notes": "Common unit across Music streams."
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Folk Music",
+          "notes": "Common unit across Music streams."
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Rasa and Aesthetics",
+          "notes": "Common unit across Music streams."
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Research Methodology and Modern Technology",
+          "notes": "Common unit; includes research methodology, pedagogy, interdisciplinary aspects and modern technology."
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Applied Theory",
+          "notes": "Subject-specific content differs across Hindustani, Karnataka, Percussion and Rabindra Sangeet."
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "History of Indian Music / Historical Perspective",
+          "notes": "Subject-specific content differs by Music stream; includes historical treatises and musicologists."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Compositional Forms and Their Evolution",
+          "notes": "Subject-specific content differs by Music stream."
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Musical Instruments and Their Classification",
+          "notes": "Subject-specific content differs by Music stream."
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Contribution of Composers, Performers and Scholars",
+          "notes": "Subject-specific content differs by Music stream."
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Gharanas, Institutional System, Training and Propagation",
+          "notes": "Subject-specific content differs by Music stream; includes gharanas, pedagogy, institutions and propagation."
+        }
+      ]
     }
   }
 }
