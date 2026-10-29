@@ -8,8 +8,8 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 0,
-    "gujarati_transcribed": 0,
+    "question_text_visual_proofread": 4,
+    "gujarati_transcribed": 4,
     "syllabus_mapping_verified": 0,
     "review_flags_remaining": 300
   },
@@ -49,17 +49,18 @@
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 0,
-      "gujarati_transcribed": 0,
+      "question_text_visual_proofread": 4,
+      "gujarati_transcribed": 4,
       "syllabus_mapping_verified": 0,
       "review_flags_remaining": 100,
-      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+      "status": "Q1-Q4 visually proofread and Gujarati transcribed; remaining question review and syllabus mapping pending"
     }
   ],
   "remaining_gates": [
-    "Visually proofread every English question stem, all four options, option order, Sanskrit diacritics, passages and figures against the matching official question-paper scan.",
-    "Transcribe Gujarati question stems and all four options only from the official bilingual scans; do not auto-translate.",
+    "Visually proofread every remaining English question stem, all four options, option order, Sanskrit diacritics, passages and figures against the matching official question-paper scan.",
+    "Transcribe remaining Gujarati question stems and all four options only from the official bilingual scans; do not auto-translate.",
     "Obtain and register the official GSET Hindu Studies syllabus; then manually map all 300 questions and retain ambiguous cases as pending.",
-    "Run schema validator and Android build/CI after app integration. Do not merge until user authorizes."
-  ]
+    "Run CI and build/verify the Android Debug APK on the updated branch."
+  ],
+  "last_updated": "2026-10-29"
 }
