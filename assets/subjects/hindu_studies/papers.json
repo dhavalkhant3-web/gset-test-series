@@ -27,13 +27,14 @@
       "status": "answer_key_reconciled_question_text_and_gujarati_review_pending",
       "review_note": "All 100 stored answer letters match the supplied official final answer key. Question text/options visual proofreading and Gujarati transcription are pending; do not mark source verified.",
       "unit_mapping_status": "pending_official_syllabus_mapping",
-      "unit_mapping_note": "No unit assignments are marked verified until the official Hindu Studies syllabus is consulted.",
+      "unit_mapping_note": "Official GSET Code 28 syllabus source is registered, but question-level mappings have not been reviewed for this session.",
       "review_count": 100,
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 100,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "gujarati_transcribed_question_count": 0
     },
     {
       "paper_id": "hindu_studies_dec24",
@@ -52,13 +53,14 @@
       "status": "answer_key_reconciled_question_text_and_gujarati_review_pending",
       "review_note": "All 100 stored answer letters match the supplied official final answer key. Question text/options visual proofreading and Gujarati transcription are pending; do not mark source verified.",
       "unit_mapping_status": "pending_official_syllabus_mapping",
-      "unit_mapping_note": "No unit assignments are marked verified until the official Hindu Studies syllabus is consulted.",
+      "unit_mapping_note": "Official GSET Code 28 syllabus source is registered, but question-level mappings have not been reviewed for this session.",
       "review_count": 100,
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 100,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "gujarati_transcribed_question_count": 0
     },
     {
       "paper_id": "hindu_studies_nov25",
@@ -74,16 +76,17 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "answer_key_reconciled_question_text_and_gujarati_review_pending",
-      "review_note": "All 100 stored answer letters match the supplied official final answer key. Question text/options visual proofreading and Gujarati transcription are pending; do not mark source verified.",
-      "unit_mapping_status": "pending_official_syllabus_mapping",
-      "unit_mapping_note": "No unit assignments are marked verified until the official Hindu Studies syllabus is consulted.",
-      "review_count": 100,
-      "source_reviewed_question_count": 0,
-      "review_flags_remaining_count": 100,
-      "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 100,
-      "unit_mapping_verified_count": 0
+      "status": "partial_source_review_saved",
+      "review_note": "Q1-Q13 English stems/options and Gujarati stems/options were visually checked against nov2528.pdf. Official answer-key matches remain 100/100 for the session. Whole-paper source_verified remains false because Q14-Q100 still need visual review and Gujarati transcription. Q1-Q3/Q13 mapping is pending; Q11 mapping is provisional.",
+      "unit_mapping_status": "partially_verified_pending_manual_review",
+      "unit_mapping_note": "The official GSET Code 28 syllabus PDF (https://gujaratset.ac.in/assets/syllabus/28.pdf) was registered with 10 units. Q4-Q10 (excluding Q11) and Q12 have 8 verified question-level mappings; Q11 is provisional; Q1-Q3 and Q13 remain pending.",
+      "review_count": 92,
+      "source_reviewed_question_count": 13,
+      "review_flags_remaining_count": 92,
+      "unit_mapping_provisional_count": 1,
+      "unit_mapping_pending_count": 91,
+      "unit_mapping_verified_count": 8,
+      "gujarati_transcribed_question_count": 13
     }
   ]
 }
