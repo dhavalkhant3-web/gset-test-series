@@ -77,16 +77,16 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "partial_source_review_saved",
-      "review_note": "Q1-Q35 English stems/options and Gujarati stems/options were visually checked against nov2528.pdf. Official answer-key matches remain 100/100 for this session. Q36-Q100 still require source visual review and Gujarati transcription. Whole-paper source_verified remains false because the session is incomplete.",
+      "review_note": "Q1-Q59 English stems/options and Gujarati stems/options were visually checked against nov2528.pdf. Official answer-key matches remain 100/100 for this session. Q60-Q100 still require source visual review and Gujarati transcription. Whole-paper source_verified remains false because the session is incomplete.",
       "unit_mapping_status": "partially_verified_pending_manual_review",
-      "unit_mapping_note": "Official GSET Code 28 syllabus has 10 units. Mapped question IDs in this session: Q4-Q10, Q12, Q14, Q20, Q25-Q26, Q28-Q35. Provisional: Q11, Q19, Q21, Q23, Q27. Other questions remain pending.",
-      "review_count": 80,
-      "source_reviewed_question_count": 35,
-      "review_flags_remaining_count": 80,
-      "unit_mapping_provisional_count": 5,
-      "unit_mapping_pending_count": 75,
-      "unit_mapping_verified_count": 20,
-      "gujarati_transcribed_question_count": 35
+      "unit_mapping_note": "Official GSET Code 28 syllabus has 10 units. Q1-Q59 source reviewed and Gujarati-transcribed. 41 mappings verified; 8 are provisional (Q11, Q19, Q21, Q23, Q27, Q37, Q57, Q59); Q60-Q100 are still pending.",
+      "review_count": 59,
+      "source_reviewed_question_count": 59,
+      "review_flags_remaining_count": 59,
+      "unit_mapping_provisional_count": 8,
+      "unit_mapping_pending_count": 51,
+      "unit_mapping_verified_count": 41,
+      "gujarati_transcribed_question_count": 59
     }
   ]
 }
