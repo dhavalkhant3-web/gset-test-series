@@ -396,9 +396,10 @@
       "icon": "temple_hindu_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "source_verified": true,
+      "papers_loaded": 3,
+      "questions_loaded": 300,
+      "data_status": "300 Paper-II records across November 2023, December 2024 and November 2025 (100 each); official final answer keys reconciled 300/300 with 0 mismatches; English stems/options visually proofread against source PDFs 300/300; Gujarati source transcription 100/300 (only supplied November 2025 scan is bilingual); official syllabus mappings 262 verified, 38 provisional, 0 pending; 40 review flags retained. The 2023 GSET information bulletin lists Code 28 Hindu Studies medium as English. This bank remains staged for expert/content review before integration."
     },
     {
       "code": "29",

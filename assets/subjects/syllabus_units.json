@@ -297,6 +297,133 @@
           "name": "Folk, Tribal and Craft Practices in India"
         }
       ]
+    },
+    "hindu_studies": {
+      "code": "28",
+      "name_en": "Hindu Studies",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+      "official_syllabus_code": "102",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Official GSET Code 28 syllabus PDF registered. The PDF title identifies Hindu Studies as UGC-NET syllabus code 102. Ten units were recorded from the official syllabus; the source is not treated as a GSET-specific syllabus code 102.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Tattva Vimarsā",
+          "key_topics": [
+            "Understanding the term Hindu",
+            "Aṣṭādaśa vidyās and Upāṅgas",
+            "Padārtha/tattva/ātmā across traditions",
+            "Śakti and Prakṛti principles",
+            "Varṇa, jāti and caste; ṛṣis and saints"
+          ]
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Dharma, and Karma Vimarsā",
+          "key_topics": [
+            "Dharma definitions and meanings including Mahābhārata, Manusmṛti, Vaiśeṣika Sūtra and Bhagavadgītā",
+            "Dharma and religion; types of dharma",
+            "Varṇāśrama dharma; Rāja-dharma, Āpaddharma, Samāja-dharma and Svadharma",
+            "Karma, vikarma, akarma; six karmas including upāsanā",
+            "Karma-phala, prārabdha and saṃskāra"
+          ]
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Punarjanma-Bandhan-Mokṣa Vimarsā",
+          "key_topics": [
+            "Jīva",
+            "Definitions and causes/process of bandhana",
+            "Punarjanma",
+            "Mokṣa and nirvāṇa",
+            "Pathways to mokṣa: abhyāsa, karma, bhakti and jñāna"
+          ]
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Pramāṇa Siddhānta",
+          "key_topics": [
+            "Definition of pramāṇa",
+            "Pramātā, pramāṇa, prameya and pramā",
+            "Types of pramāṇas: pratyakṣa, anumāna, upamāna, śabda, anupalabdhi and arthāpatti",
+            "Śabda-śakti and svataḥ/parataḥ-prāmāṇya"
+          ]
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Vāda-Paramparā",
+          "key_topics": [
+            "Śāstrārtha and adhikāra",
+            "Saṃśaya to nirṇaya",
+            "Vāda, jalpa and vitaṇḍā",
+            "Anubandha-catuṣṭaya",
+            "Śāstra, bhāṣya, vārttika, vṛtti, ṭīkā and ṭippaṇī",
+            "Tantrayukti"
+          ]
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Applicability of Western Methods for Understanding Indian Texts",
+          "key_topics": [
+            "Western restrictions on free inquiry",
+            "Marxist perspective and Critical Theory",
+            "Hegemony, structuralism and Orientalism",
+            "Psycho-analytical approaches",
+            "Post-modernism, deconstruction and New Historicism"
+          ]
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Rāmāyaṇa",
+          "key_topics": [
+            "Types and traditions of Rāmāyaṇa",
+            "Relevance and literary/arts influence",
+            "Maryādā Puruṣottama Rāma",
+            "Human/social and human/nature relationships",
+            "Strī-vimarśa; Rāma-rājya; ṛṣi and geography"
+          ]
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Mahābhārata",
+          "key_topics": [
+            "Period, sources and core story",
+            "Dharma and saṃskāra stories",
+            "Mahābhārata as a source-book for literature and arts",
+            "Viduranīti and Bhagavadgītā",
+            "Rāja-dharma and rāja-nīti; geography; strī-vimarśa"
+          ]
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Sanskrit Parichaya",
+          "key_topics": [
+            "The Sanskrit-language introduction section of the official syllabus; consult the source PDF for its detailed grammar and language subtopics"
+          ]
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Other Allied Topics",
+          "key_topics": [
+            "Translation challenges and distinctions between original and translation",
+            "Important mandirs, śaktipīṭhas, maṭhas, jyotirliṅgas and dhāmas",
+            "Sant-paramparā",
+            "Nāṭya: types, tattvas, rasa, abhinaya, kathāvastu and pātra",
+            "Kāvya and chandas including Anuṣṭup, Upajāti, Vasantatilakā and Mandākrāntā",
+            "Selected kings and dynasties; concepts of Īśvara among tribes of Northeast India"
+          ]
+        }
+      ]
     }
   }
 }
