@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Current question bank; field completeness and answer-letter comparison are recorded separately from source-level visual verification.",
+  "generated_from": "Updated from original official November 2023 Music Paper-II PDF images and the existing question bank; progress counts reflect only the manually reviewed batch.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -13,14 +13,14 @@
     "note": "Stored answer and official_answer fields were compared question-by-question against the parsed official final-key PDF text for all 100 questions in each of the three papers. This only verifies answer-letter agreement with the key; it does not verify question wording, option order, or whether the key transcription itself was OCR-perfect."
   },
   "fully_verified_questions": 0,
-  "source_verified_field_count": 0,
+  "source_verified_field_count": 8,
   "review_flags": 300,
   "remaining_gates": [
-    "Visually proofread all 300 English and Gujarati stems/options and option order against the original official question-paper PDFs.",
-    "Inspect diagrams, musical notation, symbols, and tables against the original source-page images.",
-    "Manually validate all 300 syllabus-unit mappings against the official syllabus, including stream-specific Hindustani, Karnataka/Carnatic, percussion, and Rabindra Sangeet content.",
-    "Reconcile stored answer letters directly against official final answer-key PDF pages and record any discrepancies.",
-    "Run Music-specific validation and full app build/CI on the current PR head before merge."
+    "Visually proofread the remaining 292 English and Gujarati stems/options and option order against the original official question-paper PDFs; 8 questions from November 2023 were checked in the current batch.",
+    "Inspect figures, musical notation, symbols and tables for the remaining questions; the first checked batch contains no figures/tables/notation artwork in the corresponding question records.",
+    "Visually compare all 300 stored answer letters against the original official final answer-key PDF pages; the earlier parsed-text comparison reports 300 matches, 0 letter mismatches, but direct visual verification remains separate.",
+    "Manually validate the remaining 292 syllabus-unit mappings against the official syllabus, including the correct stream-specific Units V–X and Hindustani, Karnataka/Carnatic, percussion and Rabindra Sangeet content.",
+    "Run Music-specific validation and full app build/CI on the latest PR head before considering merge."
   ],
   "papers": [
     {
@@ -32,7 +32,10 @@
       "missing_ranges": [],
       "english_visual_proofread": false,
       "gujarati_visual_proofread": false,
-      "syllabus_mapping_status": "topic_reviewed_provisional_stream_review_pending"
+      "syllabus_mapping_status": "8/100 manually reviewed; 92 remaining",
+      "visual_questions_checked_count": 8,
+      "syllabus_mapping_manual_reviewed_count": 8,
+      "visual_proofreading_status": "8/100 checked; 92 remaining"
     },
     {
       "paper_id": "music_dec24",
@@ -59,12 +62,47 @@
   ],
   "visual_audit_progress": {
     "total_questions": 300,
-    "visually_proofread_questions": 0,
-    "remaining_questions": 300,
-    "english_stem_and_options_checked": 0,
-    "gujarati_stem_and_options_checked": 0,
-    "figures_symbols_tables_checked": 0,
-    "unit_mapping_manual_reviewed": 0,
-    "note": "No question is counted as visually proofread unless its English/Gujarati stem, all four options and order, and any figures/notation have been compared with the original official paper page. Existing OCR and field-completeness counts are not visual proof."
-  }
+    "visually_proofread_questions": 8,
+    "remaining_questions": 292,
+    "english_stem_and_options_checked": 8,
+    "gujarati_stem_and_options_checked": 8,
+    "figures_symbols_tables_checked": 8,
+    "unit_mapping_manual_reviewed": 8,
+    "note": "November 2023 questions 1-8 were compared visually with printed pages 3-4 of the original scan on 2026-10-29. Q4 Gujarati stem was corrected to include “નિમ્નલિખિત”; Q8 Gujarati option D spelling was corrected to “ઈક્વલી ટેમ્પર્ડ સ્કેલ”. These 8 have source_verified=true, but review_flag remains true because direct visual confirmation against the final answer-key pages is not yet recorded. Other 292 remain unverified."
+  },
+  "official_syllabus_source": {
+    "url": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+    "source_note": "GSET-hosted Music syllabus PDF; document identifies UGC-NET Music Code 16 and states Units I–IV are common to all Music streams and Units V–X are stream-specific. GSET 2025 information bulletin lists Music as GSET subject code 30. Stream-specific mapping must account for this distinction.",
+    "last_checked": "2026-10-29"
+  },
+  "batch_log": [
+    {
+      "date": "2026-10-29",
+      "paper_id": "music_nov23",
+      "question_numbers": "1-8",
+      "source_pages": [
+        3,
+        4
+      ],
+      "english_visual_checked": 8,
+      "gujarati_visual_checked": 8,
+      "options_and_order_checked": 8,
+      "figures_symbols_tables_checked": 8,
+      "syllabus_mapping_manual_reviewed": 8,
+      "corrections": [
+        {
+          "question_no": 4,
+          "field": "question_gu",
+          "note": "Added source-missing word “નિમ્નલિખિત” to match printed Gujarati stem."
+        },
+        {
+          "question_no": 8,
+          "field": "options_gu[3]",
+          "note": "Corrected spelling to source form “ઈક્વલી ટેમ્પર્ડ સ્કેલ”."
+        }
+      ],
+      "answer_key_direct_visual_check": "pending",
+      "batch_status": "partial_source_verification_complete;full_review_flag_retained"
+    }
+  ]
 }
