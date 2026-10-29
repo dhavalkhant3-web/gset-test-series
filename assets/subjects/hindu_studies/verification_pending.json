@@ -8,10 +8,10 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 13,
-    "gujarati_transcribed": 13,
-    "syllabus_mapping_verified": 8,
-    "review_flags_remaining": 292
+    "question_text_visual_proofread": 35,
+    "gujarati_transcribed": 35,
+    "syllabus_mapping_verified": 20,
+    "review_flags_remaining": 280
   },
   "answer_key_audit": {
     "source": "User-supplied official final answer key PDFs",
@@ -49,18 +49,18 @@
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 13,
-      "gujarati_transcribed": 13,
-      "syllabus_mapping_verified": 8,
-      "review_flags_remaining": 92,
-      "status": "Q1-Q13 source visual review and Gujarati transcription completed; 8 syllabus mappings verified, Q11 provisional and Q1-Q3/Q13 mapping pending"
+      "question_text_visual_proofread": 35,
+      "gujarati_transcribed": 35,
+      "syllabus_mapping_verified": 20,
+      "review_flags_remaining": 80,
+      "status": "Q1-Q35 source visual review and Gujarati transcription completed; 20 syllabus mappings verified and 5 provisional; 65 more questions require source review"
     }
   ],
   "remaining_gates": [
-    "Visually compare all remaining English stems, four options, order, Sanskrit diacritics, passages and figures against the official question scans (287 questions remain).",
-    "Transcribe and visually verify Gujarati stems and all four Gujarati options directly from the bilingual scans for all remaining questions (287 remain).",
-    "Complete official-syllabus mapping for the remaining 292 questions; review the one provisional mapping for Nov 2025 Q11 and the pending mappings for Nov 2025 Q1-Q3 and Q13.",
-    "Run repository validators/tests and a real Android Debug APK build for the updated branch; no APK build has yet been confirmed."
+    "Visually compare all remaining English stems/options and related source details against the official scans: 265 questions remain (Nov 2023: 100, Dec 2024: 100, Nov 2025: Q36-Q100).",
+    "Transcribe and visually verify Gujarati stems and all four Gujarati options from the original bilingual source for the same 265 questions.",
+    "Complete official syllabus mapping: 20/300 verified so far, 5 provisional and 75 pending. Review the provisional cases before clearing their review flags.",
+    "Run the Android Debug APK workflow/build on the updated branch; existing available GitHub Actions runs are not Android Debug APK builds, and local Flutter CLI is not installed in this environment."
   ],
   "last_updated": "2026-10-29",
   "official_syllabus_source": {
