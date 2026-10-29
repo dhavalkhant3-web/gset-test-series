@@ -8,10 +8,10 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 4,
-    "gujarati_transcribed": 4,
-    "syllabus_mapping_verified": 0,
-    "review_flags_remaining": 300
+    "question_text_visual_proofread": 13,
+    "gujarati_transcribed": 13,
+    "syllabus_mapping_verified": 8,
+    "review_flags_remaining": 292
   },
   "answer_key_audit": {
     "source": "User-supplied official final answer key PDFs",
@@ -19,7 +19,7 @@
     "matches": 300,
     "mismatches": 0,
     "status": "parsed_and_reconciled_all_300",
-    "note": "The supplied official key PDFs were parsed and each staged official_answer compared by session and question number; all 300 matched. This does not mean the question stems/options have been visually proofread."
+    "note": "All 300 stored answer letters match the supplied official final answer keys. Question-text/Gujarati visual review is tracked separately by session."
   },
   "papers": [
     {
@@ -31,7 +31,7 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 0,
       "review_flags_remaining": 100,
-      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+      "status": "answer_key_reconciled_source_visual_review_gujarati_transcription_and_syllabus_mapping_pending"
     },
     {
       "paper_id": "hindu_studies_dec24",
@@ -42,25 +42,34 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 0,
       "review_flags_remaining": 100,
-      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+      "status": "answer_key_reconciled_source_visual_review_gujarati_transcription_and_syllabus_mapping_pending"
     },
     {
       "paper_id": "hindu_studies_nov25",
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 4,
-      "gujarati_transcribed": 4,
-      "syllabus_mapping_verified": 0,
-      "review_flags_remaining": 100,
-      "status": "Q1-Q4 visually proofread and Gujarati transcribed; remaining question review and syllabus mapping pending"
+      "question_text_visual_proofread": 13,
+      "gujarati_transcribed": 13,
+      "syllabus_mapping_verified": 8,
+      "review_flags_remaining": 92,
+      "status": "Q1-Q13 source visual review and Gujarati transcription completed; 8 syllabus mappings verified, Q11 provisional and Q1-Q3/Q13 mapping pending"
     }
   ],
   "remaining_gates": [
-    "Visually proofread every remaining English question stem, all four options, option order, Sanskrit diacritics, passages and figures against the matching official question-paper scan.",
-    "Transcribe remaining Gujarati question stems and all four options only from the official bilingual scans; do not auto-translate.",
-    "Obtain and register the official GSET Hindu Studies syllabus; then manually map all 300 questions and retain ambiguous cases as pending.",
-    "Run CI and build/verify the Android Debug APK on the updated branch."
+    "Visually compare all remaining English stems, four options, order, Sanskrit diacritics, passages and figures against the official question scans (287 questions remain).",
+    "Transcribe and visually verify Gujarati stems and all four Gujarati options directly from the bilingual scans for all remaining questions (287 remain).",
+    "Complete official-syllabus mapping for the remaining 292 questions; review the one provisional mapping for Nov 2025 Q11 and the pending mappings for Nov 2025 Q1-Q3 and Q13.",
+    "Run repository validators/tests and a real Android Debug APK build for the updated branch; no APK build has yet been confirmed."
   ],
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-10-29",
+  "official_syllabus_source": {
+    "official_gset_pdf": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+    "related_ugc_syllabus": "https://www.ugcnetonline.in/showPdf.php?p1=NTA_All_R_Syllabus/102/Hindu%20Studies_Engish.pdf",
+    "gset_subject_code": "28",
+    "syllabus_code_printed_in_pdf": "102",
+    "units_recorded": 10,
+    "status": "official_gset_source_registered",
+    "note": "The official GSET Code 28 URL returned the Hindu Studies syllabus PDF whose title page prints UGC-NET code 102; the repository records it as GSET Code 28 and separately notes the printed UGC code."
+  }
 }
