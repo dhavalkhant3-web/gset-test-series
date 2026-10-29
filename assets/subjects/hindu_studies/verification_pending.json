@@ -80,7 +80,6 @@
     }
   ],
   "remaining_gates": [
-    "Confirm from the official November 2023 GSET information bulletin whether Hindu Studies (Code 28) was English-only that year, and locate an official Gujarati paper only if GSET issued one. Do not machine-translate and label it as original Gujarati.",
     "Review provisional syllabus mappings: 262/300 verified, 38 provisional, 0 pending. Keep provisional cases flagged until each unit assignment has sufficient source-based support.",
     "Review two source/key concerns: Dec 2024 Q49's official answer-key A conflicts with commonly cited author Vimalasūri (option B) of Paumacariya; keep official key A until expert review. Nov 2023 Q88's feminine ablative singular item/options appear questionable/unclear; keep official key and review flag.",
     "Android Debug APK CI: the previous scoped workflow run passed on its triggering commit; the workflow is configured to rerun automatically after this metadata update. Confirm its new run and artifact before calling the latest commit build-verified."
@@ -98,6 +97,6 @@
   "source_language_notes": {
     "november_2025": "All 100 English stems/options and all 100 Gujarati stems/four options were visually reviewed/transcribed from nov2528.pdf.",
     "december_2024": "All English stems/options were visually reviewed from dec2428.pdf; the official 2024 GSET bulletin lists Hindu Studies Code 28 as English medium. Gujarati was not invented.",
-    "november_2023": "All English stems/options were visually reviewed from nov2328.pdf, which shows English text and Sanskrit/Devanagari content, not a Gujarati stem/options column. Gujarati was not invented. Confirm the 2023 official medium from the year's bulletin if needed."
+    "november_2023": "All 100 English stems/options were visually reviewed against nov2328.pdf, which shows English text and Sanskrit/Devanagari content, not a Gujarati stem/options column. The GSET 2023 Information Bulletin table lists Hindu Studies (Code 28) with English as the question-paper medium. Do not invent Gujarati translations."
   }
 }
