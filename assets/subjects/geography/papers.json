@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "subject_id": "geography",
+  "subject_code": "24",
+  "name_en": "Geography",
+  "medium": "English & Gujarati",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120,
+    "pattern_status": "confirm_against_each_session_source"
+  },
+  "papers": [
+    {
+      "paper_id": "geography_sep16",
+      "exam": "September 2016",
+      "subject_code": "24",
+      "question_count": 50,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "sept1624.pdf",
+        "official_final_answer_key": "sept1624 (2).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_aug17",
+      "exam": "August 2017",
+      "subject_code": "24",
+      "question_count": 50,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "aug1724.pdf",
+        "official_final_answer_key": "aug1724 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_sep18",
+      "exam": "September 2018",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "sept1824.pdf",
+        "official_final_answer_key": "sept1824 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_dec21",
+      "exam": "December 2021",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "dec2124.pdf",
+        "official_final_answer_key": "dec2124 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_nov22",
+      "exam": "November 2022",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "nov2224.pdf",
+        "official_final_answer_key": "nov2224 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_nov23",
+      "exam": "November 2023",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "nov2324.pdf",
+        "official_final_answer_key": "nov2324 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_dec24",
+      "exam": "December 2024",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "dec2424.pdf",
+        "official_final_answer_key": "dec2424 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    },
+    {
+      "paper_id": "geography_nov25",
+      "exam": "November 2025",
+      "subject_code": "24",
+      "question_count": 100,
+      "marks": 200,
+      "source_files": {
+        "question_paper": "nov2524.pdf",
+        "official_final_answer_key": "nov2524 (1).pdf"
+      },
+      "questions_loaded": 0,
+      "answer_key_verified": false,
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "staged_needs_official_audit",
+      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+    }
+  ],
+  "data_status": "source_review_pending",
+  "note": "Eight official-source session manifests staged; no questions imported. Verify each PDF and final/corrected key before transcription."
+}
