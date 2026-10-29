@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "subject_id": "hindu_studies",
+  "subject_code": "28",
+  "generated_from": "User-supplied staging JSON and official GSET question paper/final answer key PDFs, checked 2026-10-29",
+  "counts": {
+    "total_questions": 300,
+    "questions_per_session": 100,
+    "official_answer_key_matches": 300,
+    "answer_key_mismatches": 0,
+    "question_text_visual_proofread": 0,
+    "gujarati_transcribed": 0,
+    "syllabus_mapping_verified": 0,
+    "review_flags_remaining": 300
+  },
+  "answer_key_audit": {
+    "source": "User-supplied official final answer key PDFs",
+    "questions": 300,
+    "matches": 300,
+    "mismatches": 0,
+    "status": "parsed_and_reconciled_all_300",
+    "note": "The supplied official key PDFs were parsed and each staged official_answer compared by session and question number; all 300 matched. This does not mean the question stems/options have been visually proofread."
+  },
+  "papers": [
+    {
+      "paper_id": "hindu_studies_nov23",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 0,
+      "gujarati_transcribed": 0,
+      "syllabus_mapping_verified": 0,
+      "review_flags_remaining": 100,
+      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+    },
+    {
+      "paper_id": "hindu_studies_dec24",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 0,
+      "gujarati_transcribed": 0,
+      "syllabus_mapping_verified": 0,
+      "review_flags_remaining": 100,
+      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+    },
+    {
+      "paper_id": "hindu_studies_nov25",
+      "total": 100,
+      "answer_key_matches": 100,
+      "answer_key_mismatches": 0,
+      "question_text_visual_proofread": 0,
+      "gujarati_transcribed": 0,
+      "syllabus_mapping_verified": 0,
+      "review_flags_remaining": 100,
+      "status": "answer_key_reconciled_source_and_mapping_review_pending"
+    }
+  ],
+  "remaining_gates": [
+    "Visually proofread every English question stem, all four options, option order, Sanskrit diacritics, passages and figures against the matching official question-paper scan.",
+    "Transcribe Gujarati question stems and all four options only from the official bilingual scans; do not auto-translate.",
+    "Obtain and register the official GSET Hindu Studies syllabus; then manually map all 300 questions and retain ambiguous cases as pending.",
+    "Run schema validator and Android build/CI after app integration. Do not merge until user authorizes."
+  ]
+}
