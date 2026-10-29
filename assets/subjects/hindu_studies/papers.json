@@ -76,17 +76,17 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "partial_source_review_saved",
-      "review_note": "Q1-Q83 English stems/options and Gujarati stems/options were visually checked against nov2528.pdf. Official answer-key matches remain 100/100 for this session. Q84-Q100 still require source visual review and Gujarati transcription. Whole-paper source_verified remains false because the session is incomplete.",
+      "status": "source_visual_review_gujarati_complete_syllabus_mapping_partially_verified",
+      "review_note": "Source text/Gujarati review is complete for this session, but the whole paper is not fully verified because 19 unit assignments are provisional and 13 are pending. The two source spelling uncertainties on Q62 and Q91 are separately noted in question review notes.",
       "unit_mapping_status": "partially_verified_pending_manual_review",
-      "unit_mapping_note": "Official GSET Code 28 syllabus has 10 units. Q1-Q83 source reviewed and Gujarati-transcribed. 57 mappings verified; 14 provisional; 29 pending (includes Q84-Q100, which have not yet been source-reviewed/mapped).",
-      "review_count": 43,
-      "source_reviewed_question_count": 83,
-      "review_flags_remaining_count": 43,
-      "unit_mapping_provisional_count": 14,
-      "unit_mapping_pending_count": 29,
-      "unit_mapping_verified_count": 57,
-      "gujarati_transcribed_question_count": 83
+      "unit_mapping_note": "All 100 questions have English stem/options visual review and Gujarati stem/options transcription checked against nov2528.pdf. Question-level syllabus mappings: 68 verified, 19 provisional, 13 pending. Provisional and pending questions retain review flags.",
+      "review_count": 32,
+      "source_reviewed_question_count": 100,
+      "review_flags_remaining_count": 32,
+      "unit_mapping_provisional_count": 19,
+      "unit_mapping_pending_count": 13,
+      "unit_mapping_verified_count": 68,
+      "gujarati_transcribed_question_count": 100
     }
   ]
 }
