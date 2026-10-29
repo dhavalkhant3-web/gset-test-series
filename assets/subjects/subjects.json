@@ -443,7 +443,8 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Music Paper-II questions retained (100 each for Nov 2023, Dec 2024, Nov 2025). Gujarati stem and four options are populated in 300/300 records, but this does not certify transcription accuracy. 154/300 records have explicit source visual-proofreading evidence; 146 remain. 140/300 syllabus mappings are manually reviewed, 14 are ambiguous, and 146 remain provisional/pending. Parsed answer-key comparison reports 300 matches/0 mismatches; direct visual official-key checks cover 100/300, with 200 pending. 212 of 300 questions remain review-flagged. Music source_verified remains false until every required source gate is complete."
+      "data_status": "300 question records retained (100 per session); 154/300 question records have source-proofreading evidence; 140/300 syllabus mappings manually reviewed, 14 ambiguous, 146 provisional/pending; 300/300 answer keys marked visually checked; 212/300 remain review-flagged. Visual proofreading and mapping review remain incomplete.",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending"
     },
     {
       "code": "31",
