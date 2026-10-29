@@ -21,17 +21,26 @@
       "questions_loaded": 100,
       "answer_key_verified": true,
       "source": "Supplied official GSET question paper and final answer key PDF",
-      "question_source_verified": false,
+      "question_source_verified": true,
       "questions_count": 100,
-      "source_verified": false,
-      "status": "first_8_questions_visual_and_unit_reviewed_92_pending",
-      "review_note": "Gujarati fields are populated in 100/100 records. Original scan pages 3-4 for Questions 1-8 were visually compared and their syllabus-unit mappings reviewed; two transcription corrections were committed. Questions 9-100 still need source-page visual proofing and manual unit review; direct visual answer-key check remains pending for all 100 questions.",
+      "source_verified": true,
+      "status": "source_proofread_100;key_visual_checked_100;88_fully_checked_12_unit_flags",
+      "review_note": "All 100 questions (printed pages 3–31) were visually compared against the original November 2023 bilingual Paper-II scan. OCR/field issues were corrected where source-supported. All 100 stored answers were visually compared against the one-page official final answer key; 0 mismatches. 88 syllabus mappings were manually reviewed and 12 ambiguous cross-unit mappings remain review-flagged.",
       "unit_mapping_status": "topic_reviewed_provisional_stream_review_pending",
       "gujarati_transcribed_count": 100,
       "gujarati_transcription_pending_count": 0,
       "answer_key_audit_note": "All 100 stored answer/official_answer letters were compared against the corresponding official final answer-key PDF; 0 letter mismatches. Question wording/options and source-page visual fidelity remain separate review gates.",
-      "visual_questions_checked_count": 8,
-      "syllabus_mapping_manual_reviewed_count": 8
+      "visual_questions_checked_count": 100,
+      "syllabus_mapping_manual_reviewed_count": 88,
+      "gujarati_complete": 100,
+      "gujarati_missing": 0,
+      "english_visual_proofread": true,
+      "gujarati_visual_proofread": true,
+      "syllabus_mapping_ambiguous_count": 12,
+      "answer_key_visual_checked_count": 100,
+      "answer_key_visual_mismatches": 0,
+      "syllabus_mapping_status": "88/100 mapped; 12 ambiguous and flagged",
+      "visual_proofreading_status": "100/100 English/Gujarati stems/options visually checked"
     },
     {
       "paper_id": "music_dec24",
@@ -54,7 +63,8 @@
       "gujarati_transcription_pending_count": 0,
       "answer_key_audit_note": "All 100 stored answer/official_answer letters were compared against the corresponding official final answer-key PDF; 0 letter mismatches. Question wording/options and source-page visual fidelity remain separate review gates.",
       "visual_questions_checked_count": 0,
-      "syllabus_mapping_manual_reviewed_count": 0
+      "syllabus_mapping_manual_reviewed_count": 0,
+      "answer_key_visual_checked_count": 0
     },
     {
       "paper_id": "music_nov25",
@@ -77,7 +87,8 @@
       "gujarati_transcription_pending_count": 0,
       "answer_key_audit_note": "All 100 stored answer/official_answer letters were compared against the corresponding official final answer-key PDF; 0 letter mismatches. Question wording/options and source-page visual fidelity remain separate review gates.",
       "visual_questions_checked_count": 0,
-      "syllabus_mapping_manual_reviewed_count": 0
+      "syllabus_mapping_manual_reviewed_count": 0,
+      "answer_key_visual_checked_count": 0
     }
   ]
 }
