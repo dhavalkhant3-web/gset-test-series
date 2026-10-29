@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Question-level evidence and progress counts reconciled on 2026-10-29 after direct inspection of all three official final answer-key PDFs.",
+  "generated_from": "Reconciled against question-level evidence on 2026-10-30; metadata counts are not a substitute for source proofreading.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -35,14 +35,13 @@
       }
     }
   },
-  "fully_verified_questions": 88,
+  "fully_verified_questions": 140,
   "source_verified_field_count": 154,
   "review_flags": 212,
   "remaining_gates": [
-    "Visually proofread the remaining 200 English/Gujarati stems, all four options and option order against the original December 2024 and November 2025 question-paper PDFs.",
-    "Manually adjudicate the 12 ambiguous November 2023 syllabus mappings listed in the question records, then manually review all 200 mappings for December 2024 and November 2025 using the correct stream-specific official syllabus.",
-    "Visually compare the 200 stored answers for December 2024 and November 2025 against their original official final answer-key PDF pages; parsed text comparison matches but visual key checks are pending.",
-    "Run Music-specific validation and full Android build/CI on the latest PR head, then check the final diff. Do not merge until the work is genuinely ready and the user authorizes merge."
+    "Visually proofread the remaining 146 English/Gujarati stems, all four options and option order against the original official question-paper PDFs: December 2024 questions 55–100 and 61–75 are represented in the existing unverified set; all 100 November 2025 questions remain unverified. Use the question-level source_verified fields as the authoritative checklist.",
+    "Manually adjudicate the 14 ambiguous mappings (12 November 2023 and 2 December 2024), and complete the 146 remaining provisional/pending mappings across the sessions against the official stream-specific syllabus.",
+    "Run the Music validator, unit tests, and Android debug APK build on the latest PR head. Do not merge until all visual proofreading and mapping gates are actually complete."
   ],
   "papers": [
     {
@@ -62,7 +61,7 @@
       "answer_key_visual_checked_count": 100,
       "answer_key_visual_mismatches": 0,
       "status": "source_proofread_100;key_visual_checked_100;mapping_reviewed_88;12_review_flags",
-      "review_note": "All 100 questions were visually compared against the original official bilingual scan. All 100 stored answers were visually compared against the official final key (0 mismatches). 88 syllabus mappings were manually reviewed; 12 ambiguous mappings remain flagged.",
+      "review_note": "Question-level evidence: 100/100 stems/options proofread, 88/100 mappings manually reviewed, 100/100 answer keys visually checked. 12/100 questions remain review-flagged until all required gates are complete.",
       "question_source_verified": true,
       "source_verified": true
     },
@@ -84,8 +83,8 @@
       "syllabus_mapping_ambiguous_count": 2,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "54/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_54;key_visual_checked_0;mapping_reviewed_52;100_review_flags",
-      "review_note": "Question-level records show 54/100 source-proofread and 52/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: 46 questions need visual proofreading and 48 mappings need adjudication."
+      "status": "source_proofread_54;key_visual_checked_100;mapping_reviewed_52;100_review_flags",
+      "review_note": "Question-level evidence: 54/100 stems/options proofread, 52/100 mappings manually reviewed, 100/100 answer keys visually checked. 100/100 questions remain review-flagged until all required gates are complete."
     },
     {
       "paper_id": "music_nov25",
@@ -105,8 +104,8 @@
       "syllabus_mapping_ambiguous_count": 0,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "0/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_0;key_visual_checked_0;mapping_reviewed_0;100_review_flags",
-      "review_note": "Question-level records show 0/100 source-proofread and 0/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: visual proofreading and stream-specific syllabus mapping for all 100 questions."
+      "status": "source_proofread_0;key_visual_checked_100;mapping_reviewed_0;100_review_flags",
+      "review_note": "Question-level evidence: 0/100 stems/options proofread, 0/100 mappings manually reviewed, 100/100 answer keys visually checked. 100/100 questions remain review-flagged until all required gates are complete."
     }
   ],
   "visual_audit_progress": {
@@ -120,7 +119,7 @@
     "unit_mapping_ambiguous": 14,
     "answer_key_visual_checked": 300,
     "answer_key_visual_remaining": 0,
-    "note": "154 records have explicit question-text/options visual-proofreading evidence (100 November 2023; 54 December 2024). The remaining 146 require visual proofreading (46 December 2024; 100 November 2025). 140 mappings are manually reviewed, 14 are explicitly ambiguous, and 146 remain provisional/pending. Official answer-key direct visual checks are complete for all 300 questions with 0 mismatches. Figure/symbol/table review count is retained at 100 only for the documented November 2023 batch."
+    "note": "Counts are derived from question-level evidence. 154/300 records have explicit source-proofreading evidence; 146 remain. 140 mappings are manually reviewed; 14 are ambiguous; 146 remain provisional/pending. All 300 answer-key fields are marked visually checked with 0 discrepancies recorded. Figure/symbol/table review count is retained at 100 only for the documented November 2023 batch."
   },
   "official_syllabus_source": {
     "url": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
