@@ -1,0 +1,52 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "scope": "Paper-II; November 2023, December 2024, November 2025",
+  "source_question_records_received": 300,
+  "records_by_session": {
+    "November 2023": 100,
+    "December 2024": 100,
+    "November 2025": 100
+  },
+  "official_syllabus": {
+    "status": "located",
+    "url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "syllabus_identity": "GSET/UGC-NET Forensic Science syllabus (UGC subject code 82; GSET subject code 27)"
+  },
+  "answer_key": {
+    "automated_text_comparison": "passed",
+    "staged_answers_matching_official_final_key": 300,
+    "manual_visual_key_review": "pending"
+  },
+  "question_visual_proofreading": {
+    "status": "not_complete",
+    "manually_verified": 0,
+    "pending": 300,
+    "note": "Scanned PDFs have been OCR-processed to support review, but OCR is not human visual proofreading. Do not mark source_verified until each stem and all options have been visually checked."
+  },
+  "syllabus_mapping": {
+    "status": "provisional_only",
+    "provisional_keyword_suggestions": 210,
+    "pending_mapping": 90,
+    "verified_mappings": 0,
+    "note": "Keyword-based unit suggestions are not verified. Manually confirm each question against its full context and official syllabus before promoting mapping status."
+  },
+  "integrity": {
+    "source_verified_true_count": 0,
+    "review_flag_true_count": 300,
+    "existing_bank_overwritten": false,
+    "app_integration_complete": false
+  },
+  "official_syllabus_unit_topics": {
+    "1": "Forensic science foundations, physical evidence, crime scene, investigation, courts, criminal profiling and quality control",
+    "2": "Microscopy, spectrophotometry, instrumental analysis, chromatography, electrophoresis and immunoassays",
+    "3": "Blood and body fluids, blood groups, DNA profiling, paternity and wildlife forensics",
+    "4": "Alcohol, drugs, poisons, pesticides, toxicology and chemical examination",
+    "5": "Firearms, ammunition, gunshot residue, ballistics and tool marks",
+    "6": "Fire, arson, explosives, bombs and forensic photography",
+    "7": "Hair, fibres, pollen, diatoms, soil, paint, glass, cement and digital/computer/mobile forensics",
+    "8": "Fingerprints, track marks and questioned documents",
+    "9": "Forensic medicine, forensic anthropology and identification",
+    "10": "Other forensic/legal/criminology areas requiring exact topic-level confirmation"
+  }
+}
