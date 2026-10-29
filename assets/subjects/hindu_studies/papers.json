@@ -25,9 +25,9 @@
       "questions_count": 100,
       "source_verified": true,
       "status": "english_source_visual_review_complete_syllabus_mapping_partially_verified",
-      "review_note": "All 100 English stems/options visually reviewed against nov2328.pdf. Gujarati source column not present in supplied scan; do not invent a translation. Q88 remains flagged for expert review because the feminine ablative singular options appear questionable/unclear. Three syllabus mappings remain provisional.",
+      "review_note": "All 100 English stems/options visually reviewed against nov2328.pdf. The GSET 2023 Information Bulletin table lists Hindu Studies (Code 28) with English as the question-paper medium; the supplied paper has no Gujarati stem/options column, so no Gujarati translation has been invented. Q88 remains flagged for expert review because its feminine ablative singular options appear questionable/unclear. Three syllabus mappings remain provisional.",
       "unit_mapping_status": "partially_verified_pending_manual_review",
-      "unit_mapping_note": "All 100 English stems/options were visually checked against nov2328.pdf. Syllabus mappings: 97 verified, 3 provisional, 0 pending. The supplied scan shows no Gujarati stem/options column; the 2023 official medium bulletin still needs confirmation.",
+      "unit_mapping_note": "All 100 English question stems/options have been visually checked against nov2328.pdf. Syllabus mappings: 97 verified, 3 provisional, 0 pending; Q78-Q100 were included in the completed visual-review batch. The GSET 2023 Information Bulletin lists Code 28 Hindu Studies medium as English. The supplied source has no Gujarati stem/options column, so Gujarati translations have not been presented as source text.",
       "review_count": 4,
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 4,
@@ -36,7 +36,7 @@
       "unit_mapping_verified_count": 97,
       "gujarati_transcribed_question_count": 0,
       "gujarati_source_not_present_in_official_source_question_count": 100,
-      "medium": "Provided scan appears English-medium; confirm 2023 bulletin"
+      "medium": "English"
     },
     {
       "paper_id": "hindu_studies_dec24",
