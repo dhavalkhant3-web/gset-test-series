@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-25",
+  "current_main": "6bbf0d6aca621edef849ded92fe8109b4c6f88da",
+  "integration_branch": "fd272394dbbd24b506f1de023872ed24f0035ec4",
+  "integration_status": "behind_main_by_4_commits",
+  "physical_sciences": {
+    "expected_from_user": 1446,
+    "recovered_historical_valid_json_count": 1300,
+    "recovered_historical_unique_ids": 1300,
+    "commit": "b851dfe4378b97948293cbfefd01835e7d5f6a55",
+    "blob_sha": "8acf3d4e6fe6a46f94892fff4b6bf26659f5c622",
+    "residual_gap_vs_user_baseline": 146,
+    "whole_bank_restore_safe": false,
+    "reason": "historical source is valid JSON but below expected count; current main content endpoint returned empty and must be inspected through Git data"
+  },
+  "chemical_sciences": {
+    "historical_valid_count": 1250,
+    "historical_unique_ids": 1250,
+    "commit": "891ec10eeb8f12d555e4f792d2243d8b665886ac",
+    "blob_sha": "83e31bb2a936ef2cb02c1f4cc1d16b07c1afd9f0",
+    "supplement_count": 50,
+    "supplement_path": "assets/subjects/chemical_sciences/questions_sep16_p2.json",
+    "whole_bank_restore_safe": false,
+    "reason": "must compare record IDs, session scope and loader to prevent duplicated supplement"
+  }
+}
