@@ -11,10 +11,10 @@ Pull request: [#18](https://github.com/dhavalkhant3-web/gset-test-series/pull/18
 - Gujarati stems and all four Gujarati options are populated in 300/300 records. This confirms field completeness only; it does **not** certify exact transcription.
 - Four English options are populated in 300/300 records.
 - Stored answer letters were compared with extracted official final-key text: 300 matches, 0 reported mismatches. A fresh visual check against the original answer-key PDFs remains a separate verification gate.
-- All 300 records remain `review_flag=true` and `source_verified=false`. Fully source-verified count: **0/300**.
-- Visual review checkpoint: November 2023 Questions 1–8 were compared against printed pages 3–4. Two transcription corrections were made: Q4 Gujarati stem restored the source word “નિમ્નલિખિત”; Q8 Gujarati option D corrected to “ઈક્વલી ટેમ્પર્ડ સ્કેલ”. Remaining 292 questions have not been visually proofread in this batch. Direct visual checking of official answer-key PDF pages is still pending for all 300.
-- The 8 question records checked have `source_verified=true` but retain `review_flag=true` until direct answer-key visual confirmation and the full merge gates are finished.
-- Syllabus mapping checkpoint: 8/300 questions in November 2023 were manually mapped against the GSET-hosted Music syllabus; 292 remain. The hosted PDF identifies UGC-NET Music Code 16; GSET's information bulletin lists Music as GSET subject code 30. Units I–IV are common, and V–X are stream-specific. Stream selection remains important for final mapping.
+- Current record-level state: 100/300 question records have been visually proofread against the original source papers (`source_verified=true`). Within November 2023, 88/100 records have source text/options, direct answer-key visual verification, and a manually reviewed syllabus mapping completed; 12 cross-unit/ambiguous mappings remain flagged. The other 200 questions are not yet visually proofread.
+- The official November 2023 final answer-key page was visually inspected for all 100 questions: 100/100 match, 0 mismatches. The December 2024 and November 2025 keys still need direct visual checks; their parsed-text audit previously reported 200/200 matches.
+- Current total: `fully_verified_questions=88`; `review_flag=true` on 212 records (12 ambiguous Nov 2023 items + 200 unreviewed Dec 2024/Nov 2025 items). Do not merge yet.
+- Syllabus mapping checkpoint: 88/100 Nov 2023 questions manually mapped; 12 ambiguous mappings retained in review. The official GSET-hosted Music syllabus is used with Units I–IV common and Units V–X stream-specific; verify stream applicability before final mapping.
 
 ## Official source PDFs
 
@@ -28,18 +28,17 @@ Official syllabus: [GSET Music syllabus, Code 30](https://gujaratset.ac.in/asset
 
 ## Current audit progress (29 October 2026)
 
-- Visually proofread: 8/300.
-- English/Gujarati stems and four options/order checked: 8/300.
-- Syllabus mappings manually reviewed: 8/300.
-- Corrections made: 2 (Nov 2023 Q4 Gujarati stem; Q8 Gujarati option D spelling).
-- Official answer key: prior OCR/text audit reported 300/300 answer-letter matches; direct visual comparison against all three final answer-key PDFs remains pending.
+- Visually proofread: 100/300 (all November 2023 questions, printed pages 3–31).
+- English/Gujarati stems, four options/order, and applicable symbols checked: 100/300.
+- Syllabus mappings manually reviewed: 88/300; 12 Nov 2023 cross-unit cases remain flagged, and the other 200 await manual review.
+- Official final answer key directly visually checked: 100/300 for November 2023; 0 mismatches. The other 200 still await visual key comparison (prior parsed key text had 0 mismatches).
+- Source corrections included OCR contamination, missing words, truncated options, incorrect matching-code options, one notation symbol, and passage restoration. Details are recorded in each question's `review_note`.
 
 ## Remaining merge gates
 
-1. Visually compare every English and Gujarati stem and all four options/order against each original paper PDF.
-2. Inspect all figures, tables, notation, musical symbols, and page-specific content.
-3. Compare answer letters directly with the official final-key PDFs and record any source discrepancies.
-4. Manually validate all 300 unit assignments against the official syllabus, paying particular attention to Hindustani, Karnataka/Carnatic, percussion, and Rabindra Sangeet stream-specific topics.
-5. Run the Music validator and Flutter build/CI on the current PR head; only then consider merging.
+1. Finish visual proofreading of the December 2024 and November 2025 papers (200 questions) and inspect their applicable figures/notation.
+2. Visually compare stored answer letters for December 2024 and November 2025 (200 questions) with their final-key PDFs.
+3. Resolve the 12 flagged November 2023 syllabus assignments and manually review the remaining 200 unit mappings against the correct stream-specific syllabus.
+4. Run Music validation and full Android build/CI on the latest PR head; inspect final diff. Do not merge without explicit user authorization.
 
 **Important:** OCR and populated fields are not proof of source fidelity. Do not set `source_verified=true`, remove review flags, or merge until the source-based checks above are actually complete.
