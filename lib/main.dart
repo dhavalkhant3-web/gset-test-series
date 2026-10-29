@@ -361,7 +361,6 @@ class PaperIIDataService {
       if (subjectId == 'physical_sciences') {
         for (final archive in [
           'assets/subjects/physical_sciences/questions_sep16_p2.json',
-          'assets/subjects/physical_sciences/questions_sep16_p3.json',
         ]) {
           try {
             final extra = jsonDecode(await rootBundle.loadString(archive));
@@ -417,6 +416,14 @@ class PaperIIDataService {
 
       // Chemical Sciences Paper-III is intentionally kept separate from
       // the Paper-II question bank. It must not be appended here.
+      // Overlay files may repeat IDs already present in the base bank. Keep the
+      // first/base-bank record and never expose duplicate MCQs to the learner.
+      final seenIds = <String>{};
+      loaded.removeWhere((question) {
+        final id = (question['id'] ?? '').toString().trim();
+        if (id.isEmpty) return false;
+        return !seenIds.add(id);
+      });
       if (loaded.isNotEmpty) return loaded;
     } catch (_) {}
     return [];
@@ -1801,7 +1808,22 @@ class _TestPageState extends State<TestPage> {
   Future<void> _confirmExit() async { final leave = await showDialog<bool>(context: context, builder: (_) => AlertDialog(title: Text(gu ? 'ટેસ્ટ છોડવી છે?' : 'Leave test?'), content: Text(gu ? 'હાલની ટેસ્ટની પ્રગતિ સાચવવામાં નહીં આવે. શું તમે બહાર નીકળવા માંગો છો?' : 'Current test progress will not be saved. Do you want to leave?'), actions: [TextButton(onPressed: () => Navigator.pop(context, false), child: Text(gu ? 'રહો' : 'Stay')), FilledButton(onPressed: () => Navigator.pop(context, true), child: Text(gu ? 'બહાર નીકળો' : 'Leave'))])); if (leave == true && mounted) Navigator.pop(context); }
 
   @override Widget build(BuildContext context) {
-    final rawOptions = gu ? q['options_gu'] : q['options_en']; final opts = rawOptions is List ? rawOptions.map((e) => e?.toString() ?? '').toList() : <String>[]; final correct = (q['answer'] ?? 'Z').toString(); final notEval = {'Z', 'X'}.contains(correct); final isCorrect = !notEval && selected == correct; final passage = ((gu ? q['passage_gu'] : q['passage_en']) ?? '').toString();
+    final guQuestion = (q['question_gu'] ?? '').toString().trim();
+    final enQuestion = (q['question_en'] ?? '').toString().trim();
+    final guOptionsRaw = q['options_gu'];
+    final enOptionsRaw = q['options_en'];
+    final guOptionsAvailable = guOptionsRaw is List &&
+        guOptionsRaw.any((e) => (e?.toString() ?? '').trim().isNotEmpty);
+    final rawOptions = gu && guOptionsAvailable ? guOptionsRaw : enOptionsRaw;
+    final opts = rawOptions is List ? rawOptions.map((e) => e?.toString() ?? '').toList() : <String>[];
+    final questionText = gu && guQuestion.isNotEmpty ? guQuestion : enQuestion;
+    final needsGujaratiFallback = gu && (guQuestion.isEmpty || !guOptionsAvailable);
+    final correct = (q['answer'] ?? 'Z').toString();
+    final notEval = {'Z', 'X'}.contains(correct);
+    final isCorrect = !notEval && selected == correct;
+    final guPassage = (q['passage_gu'] ?? '').toString().trim();
+    final enPassage = (q['passage_en'] ?? '').toString();
+    final passage = gu && guPassage.isNotEmpty ? guPassage : enPassage;
     return PopScope(canPop: false, onPopInvokedWithResult: (didPop, result) { if (!didPop) _confirmExit(); }, child: Scaffold(appBar: AppBar(title: Text('${widget.title} • ${i + 1}/${widget.data.length}'), actions: [IconButton(onPressed: () { setState(() { b.contains(q['id'].toString()) ? b.remove(q['id'].toString()) : b.add(q['id'].toString()); }); widget.onStateChanged(b, m); }, icon: Icon(b.contains(q['id'].toString()) ? Icons.bookmark : Icons.bookmark_border)), IconButton(tooltip: gu ? 'પ્રશ્ન Report કરો' : 'Report Question', onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => FeedbackPage(gu: gu, paper: widget.title, questionId: q['id']?.toString()))), icon: const Icon(Icons.flag_outlined)),
         IconButton(tooltip: gu ? 'English' : 'ગુજરાતી', onPressed: () => setState(() => gu = !gu), icon: const Icon(Icons.translate)), Padding(padding: const EdgeInsets.only(right: 12), child: Center(child: Text(remaining, style: const TextStyle(fontWeight: FontWeight.bold))))]),
       body: Column(children: [
@@ -1848,7 +1870,8 @@ class _TestPageState extends State<TestPage> {
               ),
             ),
           Wrap(spacing: 8, runSpacing: 6, children: [Chip(label: Text(q['topic']?.toString() ?? 'General')), Chip(label: Text(q['difficulty']?.toString() ?? ''))]),
-          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: MathAwareText(text: (gu ? q['question_gu'] : q['question_en']).toString(), style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
+          if (needsGujaratiFallback) Card(color: Theme.of(context).colorScheme.surfaceContainerHighest, child: Padding(padding: const EdgeInsets.all(10), child: Text('આ પ્રશ્નનું ગુજરાતી લખાણ ઉપલબ્ધ નથી; મૂળ અંગ્રેજી લખાણ બતાવ્યું છે.', style: Theme.of(context).textTheme.bodySmall))),
+          const SizedBox(height: 10), Card(child: Padding(padding: const EdgeInsets.all(16), child: MathAwareText(text: questionText, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600, height: 1.35)))),
           const SizedBox(height: 12),
           if (opts.isEmpty || opts.every((option) => option.trim().isEmpty)) Card(color: Theme.of(context).colorScheme.errorContainer, child: Padding(padding: const EdgeInsets.all(12), child: Text(gu ? 'આ પ્રશ્નના વિકલ્પોનો ડેટા ઉપલબ્ધ નથી. આ પ્રશ્ન રિવ્યૂ માટે રિપોર્ટ કરો.' : 'Options are missing in this question data. Please report this question for review.'))),
           ...List.generate(opts.length, (j) { final letter = String.fromCharCode(65 + j); final right = letter == correct; final chosen = selected == letter; Color? fill; if (!widget.mock && submitted && right) fill = Colors.green.withValues(alpha: .15); if (!widget.mock && submitted && chosen && !right) fill = Colors.red.withValues(alpha: .15); return Card(color: fill, child: 
