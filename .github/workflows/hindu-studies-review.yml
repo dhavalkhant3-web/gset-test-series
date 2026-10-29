@@ -97,6 +97,53 @@ jobs:
           ]:
               if counts.get(key) != actual:
                   errors.append(f"verification_pending {key}={counts.get(key)} does not match actual {actual}")
+          # Keep per-paper summaries synchronized with the authoritative question records.
+          paper_metadata = {p.get("paper_id"): p for p in papers}
+          if set(paper_metadata) != expected_papers:
+              errors.append(f"papers.json IDs do not match question bank: {sorted(paper_metadata)}")
+          for paper_id in sorted(expected_papers):
+              qs = by_paper.get(paper_id, [])
+              meta = paper_metadata.get(paper_id, {})
+              v = sum(q.get("syllabus_mapping_status") == "verified_official_syllabus_mapping" for q in qs)
+              p = sum(q.get("syllabus_mapping_status") == "provisional_official_syllabus_mapping" for q in qs)
+              pend_count = sum(q.get("syllabus_mapping_status") not in {"verified_official_syllabus_mapping", "provisional_official_syllabus_mapping"} for q in qs)
+              flags_for_paper = sum(q.get("review_flag") is True for q in qs)
+              gu_for_paper = sum(bool(q.get("question_gu", "").strip()) for q in qs)
+              paper_checks = {
+                  "question_count": len(qs),
+                  "questions_loaded": len(qs),
+                  "questions_count": len(qs),
+                  "source_reviewed_question_count": sum(q.get("source_verified") is True for q in qs),
+                  "review_count": flags_for_paper,
+                  "review_flags_remaining_count": flags_for_paper,
+                  "unit_mapping_verified_count": v,
+                  "unit_mapping_provisional_count": p,
+                  "unit_mapping_pending_count": pend_count,
+                  "gujarati_transcribed_question_count": gu_for_paper,
+                  "gujarati_source_not_present_in_official_source_question_count": len(qs) - gu_for_paper,
+              }
+              for key, actual in paper_checks.items():
+                  if meta.get(key) != actual:
+                      errors.append(f"papers.json {paper_id} {key}={meta.get(key)} does not match actual {actual}")
+              for key in ("answer_key_verified", "question_source_verified", "source_verified"):
+                  if meta.get(key) is not True:
+                      errors.append(f"papers.json {paper_id} {key} must be true")
+
+          # Keep the app's subject registry synchronized too.
+          subject_matches = [s for s in registry if s.get("id") == "hindu_studies" or str(s.get("code")) == "28"]
+          if len(subject_matches) != 1:
+              errors.append(f"Expected exactly one Hindu Studies Code 28 registry entry; found {len(subject_matches)}")
+          else:
+              subject = subject_matches[0]
+              if subject.get("papers_loaded") != len(expected_papers):
+                  errors.append(f"subjects.json papers_loaded={subject.get('papers_loaded')}; expected {len(expected_papers)}")
+              if subject.get("questions_loaded") != len(questions):
+                  errors.append(f"subjects.json questions_loaded={subject.get('questions_loaded')}; expected {len(questions)}")
+              if subject.get("source_verified") is not True:
+                  errors.append("subjects.json Hindu Studies source_verified must be true")
+              required_summary = f"syllabus mappings {verified} verified, {provisional} provisional, {mapping_pending} pending; {flags} review flags retained"
+              if required_summary not in subject.get("data_status", ""):
+                  errors.append(f"subjects.json data_status is stale; expected phrase: {required_summary}")
           if errors:
               print("\n".join("ERROR: " + e for e in errors))
               raise SystemExit(1)
