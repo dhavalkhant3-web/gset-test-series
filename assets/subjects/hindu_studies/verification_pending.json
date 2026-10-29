@@ -8,10 +8,10 @@
     "questions_per_session": 100,
     "official_answer_key_matches": 300,
     "answer_key_mismatches": 0,
-    "question_text_visual_proofread": 83,
-    "gujarati_transcribed": 83,
-    "syllabus_mapping_verified": 57,
-    "review_flags_remaining": 243
+    "question_text_visual_proofread": 100,
+    "gujarati_transcribed": 100,
+    "syllabus_mapping_verified": 68,
+    "review_flags_remaining": 232
   },
   "answer_key_audit": {
     "source": "User-supplied official final answer key PDFs",
@@ -49,18 +49,18 @@
       "total": 100,
       "answer_key_matches": 100,
       "answer_key_mismatches": 0,
-      "question_text_visual_proofread": 83,
-      "gujarati_transcribed": 83,
-      "syllabus_mapping_verified": 57,
-      "review_flags_remaining": 43,
-      "status": "Q1-Q83 source visual review and Gujarati transcription completed; 57 mappings verified, 14 provisional; Q84-Q100 remain"
+      "question_text_visual_proofread": 100,
+      "gujarati_transcribed": 100,
+      "syllabus_mapping_verified": 68,
+      "review_flags_remaining": 32,
+      "status": "All 100 questions visually proofread and Gujarati-transcribed from original bilingual scan; 68 mappings verified, 19 provisional, 13 pending"
     }
   ],
   "remaining_gates": [
-    "Visually compare all remaining English stems/options and related source details against official scans: 217 questions remain (Nov 2023: 100, Dec 2024: 100, Nov 2025: Q84-Q100).",
-    "Transcribe and visually verify Gujarati stems and all four options from original bilingual scans for these same 217 questions.",
-    "Complete official syllabus mapping: 57/300 verified; 14 provisional; 229 pending. Keep provisional/ambiguous cases flagged.",
-    "Run a real Android Debug APK build for the updated branch. The connected GitHub tools do not provide workflow_dispatch, and Flutter CLI is not installed locally; do not merge or push to main to trigger it."
+    "Visually compare all 100 English stems/options and transcribe/verify Gujarati stems and all four options for November 2023 and December 2024.",
+    "Complete official syllabus mapping: 68/300 verified; 19 provisional; 213 pending. Keep provisional/ambiguous cases flagged until source-supported mapping is established.",
+    "Review flagged source detail on Nov 2025 Q62 (the English source option appears printed as “Bhāhmaṇa”/“Bhahmana”) and Q91 (compound printed as “गोसुखम्”).",
+    "Run a real Android Debug APK build for the updated branch. The connected GitHub tools do not provide workflow_dispatch, and Flutter CLI is not installed locally; do not merge or push to main just to trigger it."
   ],
   "last_updated": "2026-10-29",
   "official_syllabus_source": {
