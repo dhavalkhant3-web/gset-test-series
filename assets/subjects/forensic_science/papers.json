@@ -22,10 +22,10 @@
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov23/nov2327.pdf",
       "questions_loaded": 100,
       "questions_count": 100,
-      "answer_key_verified": true,
+      "answer_key_verified": false,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "ocr_assisted_transcription_pending_manual_visual_proofread",
+      "status": "staged_answer_key_text_matched_visual_proofread_and_syllabus_mapping_pending",
       "review_flags_remaining": [
         "forensic_science_nov23_q1",
         "forensic_science_nov23_q2",
@@ -129,7 +129,7 @@
         "forensic_science_nov23_q100"
       ],
       "source": "Supplied official GSET question-paper scan and official final answer key",
-      "review_note": "100 records present. Automated text-key comparison passed; manual visual proofread of stems/options and key remains pending.",
+      "review_note": "All 100 answer letters matched the supplied official final answer key by text-level comparison. This is not visual answer-key proofreading. Question stems/options require visual review; unit mappings remain provisional/pending. Keep every question review-flagged until manual review is complete.",
       "unit_mapping_status": "provisional_keyword_suggestions_pending_manual_confirmation",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
@@ -142,7 +142,10 @@
       "gujarati_visual_proofread": false,
       "gujarati_transcribed_count": 0,
       "gujarati_transcription_pending_count": 100,
-      "visual_proofreading_status": "manual visual proofread pending for all 100 questions"
+      "visual_proofreading_status": "manual visual proofread pending for all 100 questions",
+      "answer_key_text_verified": true,
+      "answer_key_visual_verified": false,
+      "answer_key_audit_note": "100/100 answer letters text-level matched; visual key review pending."
     },
     {
       "paper_id": "forensic_science_dec24",
@@ -156,10 +159,10 @@
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
       "questions_loaded": 100,
       "questions_count": 100,
-      "answer_key_verified": true,
+      "answer_key_verified": false,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "ocr_assisted_transcription_pending_manual_visual_proofread",
+      "status": "staged_answer_key_text_matched_visual_proofread_and_syllabus_mapping_pending",
       "review_flags_remaining": [
         "forensic_science_dec24_q1",
         "forensic_science_dec24_q2",
@@ -263,7 +266,7 @@
         "forensic_science_dec24_q100"
       ],
       "source": "Supplied official GSET question-paper scan and official final answer key",
-      "review_note": "100 records present. Automated text-key comparison passed; manual visual proofread of stems/options and key remains pending.",
+      "review_note": "All 100 answer letters matched the supplied official final answer key by text-level comparison. This is not visual answer-key proofreading. Question stems/options require visual review; unit mappings remain provisional/pending. Keep every question review-flagged until manual review is complete.",
       "unit_mapping_status": "provisional_keyword_suggestions_pending_manual_confirmation",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
@@ -276,7 +279,10 @@
       "gujarati_visual_proofread": false,
       "gujarati_transcribed_count": 0,
       "gujarati_transcription_pending_count": 100,
-      "visual_proofreading_status": "manual visual proofread pending for all 100 questions"
+      "visual_proofreading_status": "manual visual proofread pending for all 100 questions",
+      "answer_key_text_verified": true,
+      "answer_key_visual_verified": false,
+      "answer_key_audit_note": "100/100 answer letters text-level matched; visual key review pending."
     },
     {
       "paper_id": "forensic_science_nov25",
@@ -290,10 +296,10 @@
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/nov25/nov2527.pdf",
       "questions_loaded": 100,
       "questions_count": 100,
-      "answer_key_verified": true,
+      "answer_key_verified": false,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "ocr_assisted_transcription_pending_manual_visual_proofread",
+      "status": "staged_answer_key_text_matched_visual_proofread_and_syllabus_mapping_pending",
       "review_flags_remaining": [
         "forensic_science_nov25_q1",
         "forensic_science_nov25_q2",
@@ -397,7 +403,7 @@
         "forensic_science_nov25_q100"
       ],
       "source": "Supplied official GSET question-paper scan and official final answer key",
-      "review_note": "100 records present. Automated text-key comparison passed; manual visual proofread of stems/options and key remains pending.",
+      "review_note": "All 100 answer letters matched the supplied official final answer key by text-level comparison. This is not visual answer-key proofreading. Question stems/options require visual review; unit mappings remain provisional/pending. Keep every question review-flagged until manual review is complete.",
       "unit_mapping_status": "provisional_keyword_suggestions_pending_manual_confirmation",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
@@ -410,9 +416,13 @@
       "gujarati_visual_proofread": false,
       "gujarati_transcribed_count": 0,
       "gujarati_transcription_pending_count": 100,
-      "visual_proofreading_status": "manual visual proofread pending for all 100 questions"
+      "visual_proofreading_status": "manual visual proofread pending for all 100 questions",
+      "answer_key_text_verified": true,
+      "answer_key_visual_verified": false,
+      "answer_key_audit_note": "100/100 answer letters text-level matched; visual key review pending."
     }
   ],
-  "unit_mapping_status": "provisional_keyword_suggestions_pending_manual_confirmation",
-  "unit_mapping_note": "Official syllabus: https://gujaratset.ac.in/assets/syllabus/27.pdf. Keyword suggestions are not verified; all question records remain review-flagged."
+  "unit_mapping_status": "provisional_keyword_suggestions_pending_manual_official_syllabus_review",
+  "unit_mapping_note": "Official GSET-hosted Forensic Science syllabus located. Existing question-level unit suggestions are provisional only; no question has a verified unit mapping yet.",
+  "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf"
 }
