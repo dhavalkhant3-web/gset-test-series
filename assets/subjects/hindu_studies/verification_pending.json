@@ -42,7 +42,7 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 97,
       "review_flags_remaining": 4,
-      "status": "100 English stems/options source-reviewed; supplied scan has no Gujarati question column; 97 syllabus mappings verified, 3 provisional; Q88 retained for content review",
+      "status": "All 100 English stems/options visually proofread; 97 mappings verified and 3 provisional; 4 review flags retained",
       "syllabus_mapping_provisional": 3,
       "syllabus_mapping_pending": 0,
       "gujarati_source_not_present_in_official_source": 100,
@@ -57,7 +57,7 @@
       "gujarati_transcribed": 0,
       "syllabus_mapping_verified": 88,
       "review_flags_remaining": 13,
-      "status": "100 English stems/options source-reviewed; official 2024 bulletin specifies English medium; 88 syllabus mappings verified, 12 provisional; Q49 retained for answer-key/content review",
+      "status": "All 100 English stems/options visually proofread; 88 mappings verified and 12 provisional; Q49 remains flagged for answer-key/content expert review",
       "gujarati_source_not_present_in_official_source": 100,
       "source_medium": "English",
       "syllabus_mapping_provisional": 12,
@@ -72,7 +72,7 @@
       "gujarati_transcribed": 100,
       "syllabus_mapping_verified": 77,
       "review_flags_remaining": 23,
-      "status": "100 English stems/options source-reviewed and Gujarati stems/options transcribed from bilingual source; 77 syllabus mappings verified, 23 provisional",
+      "status": "All 100 English stems/options visually proofread and Gujarati stems/options transcribed from bilingual source; 77 mappings verified and 23 provisional",
       "syllabus_mapping_provisional": 23,
       "syllabus_mapping_pending": 0,
       "source_medium": "English & Gujarati",
@@ -80,11 +80,10 @@
     }
   ],
   "remaining_gates": [
-    "Review 38 provisional question-level syllabus mappings; the other 262 are mapped to one of the 10 registered units. Provisional questions remain flagged rather than being falsely marked verified.",
-    "Expert review of Dec 2024 Q49: the stored answer A matches the official final answer key, but an apparent source/content discrepancy remains. Keep the official key authoritative unless an explicit correction is approved.",
-    "Expert review of Nov 2023 Q88: the Sanskrit grammar question/options are difficult to reconcile with the requested feminine ablative singular form; retain official answer key and review flag.",
-    "Review Nov 2025 Q62 and Q91 Sanskrit/source spellings if a clearer scan becomes available.",
-    "Latest Android Debug APK build and scoped data validation have succeeded on the PR workflow; rerun after any further data changes."
+    "Confirm from the official November 2023 GSET information bulletin whether Hindu Studies (Code 28) was English-only that year, and locate an official Gujarati paper only if GSET issued one. Do not machine-translate and label it as original Gujarati.",
+    "Review provisional syllabus mappings: 262/300 verified, 38 provisional, 0 pending. Keep provisional cases flagged until each unit assignment has sufficient source-based support.",
+    "Review two source/key concerns: Dec 2024 Q49's official answer-key A conflicts with commonly cited author Vimalasūri (option B) of Paumacariya; keep official key A until expert review. Nov 2023 Q88's feminine ablative singular item/options appear questionable/unclear; keep official key and review flag.",
+    "Android Debug APK CI: the previous scoped workflow run passed on its triggering commit; the workflow is configured to rerun automatically after this metadata update. Confirm its new run and artifact before calling the latest commit build-verified."
   ],
   "last_updated": "2026-10-29",
   "official_syllabus_source": {
