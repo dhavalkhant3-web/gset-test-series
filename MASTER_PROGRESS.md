@@ -12,7 +12,7 @@ Updated: 2026-10-30
 
 ## Current branch checkpoint
 - `main`: `2108d34bd6fce149d02d0d5054946dd42dffc79e`
-- `integration/combined-subject-banks` parent before this register refresh: `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`
+- `integration/combined-subject-banks` current head: `b4efb8930e6f4cb980de8b56c14e026674c948ee` (parent: `6534a6a682ceefe58034cc81a4d78d1653f53d5e`)
 - PR #16 merge commit: `bedd33e6536e4eb35823049d62e1889c3f75e7a7`
 
 ## Integrated question-bank checkpoint
@@ -114,3 +114,13 @@ Automated parsed-content checks were run against the current integration questio
 - APK artifact ID `12959312490`, size 113,037,216 bytes, SHA-256 `366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18`.
 - Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` adds only syllabus metadata. GitHub commit status endpoint did not yet return status entries; new run results are therefore unverified at this checkpoint.
 - Flutter test suite remains unavailable: repository has no `test/` directory and the integration build workflow does not run `flutter test`.
+
+
+## Latest repository recheck — 2026-10-30 12:00 IST
+- Verified live integration branch head: `b4efb8930e6f4cb980de8b56c14e026674c948ee` (`docs: record final syllabus and combined build checkpoint`). This is a documentation-only child of `6534a6a682ceefe58034cc81a4d78d1653f53d5e`; no question-bank content changed in this head commit.
+- Latest exact-head combined Android Debug APK run **41015488212**: SUCCESS on `b4efb8930e6f4cb980de8b56c14e026674c948ee`. Artifact `gset-test-series-integration-debug-apk`, ID `12959751782`, size 113,037,631 bytes (not expired at check time). [Build run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41015488212).
+- Latest combined subject-bank audit run **41015356504**: SUCCESS on parent `6534a6a682ceefe58034cc81a4d78d1653f53d5e`; all three audit steps succeeded. The current head is documentation-only after that audited commit, so no subject data or validator code changed between the audit and current head. [Audit run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41015356504).
+- The current combined APK workflow runs `flutter analyze` and `flutter build apk --debug`; it does not run `flutter test`. The repository still has no `test/` directory, so automated Flutter unit tests remain unavailable.
+- Open PRs were rechecked. PR #17 still targets Mathematical Sciences Code 01 and remains on HOLD; PRs #18 (Music), #19 (Hindu Studies), #20 (Forensic Science) and the other subject PRs remain unmerged. No PR was merged or copied into the integration bank in this recheck.
+- Music Code 30: the repository backlog still records 146 question records requiring original-paper visual proofreading (46 Dec 2024, 100 Nov 2025), 14 ambiguous mappings and 146 provisional stream-specific mappings. A Library search found the official final answer-key PDFs and a conversation-export PDF, but did not surface the three original question-paper PDFs as accessible files. Official GSET question-paper PDF URLs for Dec 2024 and Nov 2025 open as PDFs, but page screenshot retrieval timed out in this pass; therefore no new source-verification claim or question edit was made.
+- Next safe execution order remains: (1) obtain/inspect original official question-paper PDFs for the flagged records; (2) complete subject-wise visual proofreading without promoting OCR-only records; (3) finish mappings against the corrected official syllabi, including Music stream evidence; (4) rerun combined audit/build; (5) request explicit approval before any PR merge.
