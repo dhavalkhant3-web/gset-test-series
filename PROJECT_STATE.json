@@ -15,7 +15,8 @@
   "branch_snapshot": {
     "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
     "integration_parent_before_register_refresh": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
-    "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7"
+    "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
+    "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -274,12 +275,25 @@
         "commit": "4235ac24301e8be12053a011405a7a9863e0994f"
       },
       {
-        "run_id": 41013333491,
-        "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f"
+        "run_id": 41013629626,
+        "commit": "4cef120441bdb8be9a525edea933b6a4d6926132"
       }
     ],
     "flutter_test": "not run in the integration workflow",
-    "subject_validator_status": "Historical PR-commit validators passed for Physical, Chemical, Hindu, IKS and Visual Art; Performing Arts and Music current integration validators not proven on the current head."
+    "subject_validator_status": "Historical PR-commit validators passed for Physical, Chemical, Hindu, IKS and Visual Art; Performing Arts and Music current integration validators not proven on the current head.",
+    "latest_successful_metadata_build": {
+      "run_id": 41013333491,
+      "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+      "conclusion": "success",
+      "flutter_analyze": "success; No issues found",
+      "combined_debug_apk": "success",
+      "artifact_id": 12958701650,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_size_bytes": 113036152,
+      "artifact_zip_sha256": "939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41013333491"
+    },
+    "current_head_build_status": "Run #22 on current head 4cef120 is in progress; commit contains master-register documentation only. Run #21 already validated the current app code and metadata."
   },
   "official_syllabus_sources": {
     "gset_bulletin": "https://gujaratset.ac.in/assets/download/info-bulletin-gset-2025-1.4.pdf",
@@ -296,5 +310,30 @@
     "Visual Art: proofread 256 records, resolve 14 content concerns, finish 138 provisional/162 pending mappings.",
     "Hindu Studies: resolve 40 review flags and 38 provisional mappings.",
     "Run flutter test and all subject-specific validators against current integration; check final integration build runs #19–#21 and the follow-up register build."
-  ]
+  ],
+  "data_integrity_check": {
+    "date": "2026-10-30",
+    "scope": "Integrated Paper-II question banks for Codes 28,29,30,31,32,33",
+    "result": "passed",
+    "per_subject": {
+      "28": 300,
+      "29": 300,
+      "30": 300,
+      "31": 300,
+      "32": 300,
+      "33": 300
+    },
+    "checks_passed": [
+      "300 records per subject",
+      "300 unique question IDs per subject; no duplicate IDs",
+      "three official session groups per subject, exactly 100 records each",
+      "question numbers 1-100 per session with no duplicate or out-of-range numbers",
+      "no missing English question stems",
+      "exactly four non-empty English options per record",
+      "answer values within supported A/B/C/D/Z/X set",
+      "stored answer and official_answer fields match for all records where official_answer exists",
+      "papers.json contains three corresponding paper manifests"
+    ],
+    "limitation": "This is a structural and internal-field consistency check, not a fresh comparison against original paper images or official final answer key pages. Physical/Chemical large files were not included in this six-bank parser pass."
+  }
 }

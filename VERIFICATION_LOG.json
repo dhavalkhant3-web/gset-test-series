@@ -130,5 +130,55 @@
     "artifact_name": "gset-test-series-integration-debug-apk",
     "artifact_zip_sha256": "8cc0e47c8b31a0db91c4788c3c750ed62080dc9241ff0ceafeee08ee632811ed",
     "note": "Run #18 is prior to the metadata-only updates; follow-up runs #19–#21 were in progress at last check."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Six-bank structural integrity validation",
+    "scope": [
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "result": "PASS",
+    "counts": {
+      "questions_per_subject": 300,
+      "sessions_per_subject": 3,
+      "questions_per_session": 100,
+      "unique_ids_per_subject": 300,
+      "duplicate_ids": 0,
+      "missing_english_stems": 0,
+      "invalid_english_option_sets": 0,
+      "invalid_answer_tokens": 0,
+      "answer_vs_official_answer_mismatches": 0,
+      "duplicate_or_out_of_range_question_numbers": 0,
+      "papers_manifest_count_per_subject": 3
+    },
+    "limitations": [
+      "Internal record validation only; not a substitute for visual comparison with original GSET question-paper scans or independent final-key page review",
+      "Physical/Chemical large JSON files were not included in this parser pass"
+    ],
+    "bank_blobs": {
+      "28": "202bf3b726170a7742ec6376da19c2a3898aa447",
+      "29": "bd750bc8398fb7b65a1642e36edd417163c0fece",
+      "30": "223f7f7ff0a655b0467bee1c93670c188a52d65c",
+      "31": "fa5708aa755cbec353830bafb9400afd70510d71",
+      "32": "f1e8d6119fd0146d7594b20a5cfcc38ce4f8261a",
+      "33": "da39d7775ca1bde3d477463e8a23cd00376241f6"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Combined metadata build verified",
+    "run_id": 41013333491,
+    "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+    "result": "PASS",
+    "flutter_analyze": "PASS — No issues found",
+    "debug_apk": "PASS",
+    "artifact_id": 12958701650,
+    "artifact_sha256": "939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8",
+    "note": "The current integration head 4cef120 contains documentation/register changes only after this successful build. Its docs-only workflow run #22 was in progress at last check."
   }
 ]

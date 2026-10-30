@@ -76,3 +76,12 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 2. Run `flutter test` and all available subject validators on the current integration head.
 3. Continue original PDF visual review and unit mappings using the subject-specific backlog above.
 4. Reconcile any PR changes file-by-file and only after source verification; never merge without explicit approval.
+
+
+## Data-integrity check — 2026-10-30
+Automated parsed-content checks were run against the current integration question JSON and papers.json for Codes 28–33. All six banks passed: 300 records each; 300 unique IDs each; three paper IDs with 100 records each; question numbers 1–100 without duplicate/out-of-range values; no empty English stem; four non-empty English options; valid answer token; no stored answer/official_answer mismatch; three matching paper manifests. This does not prove source transcription or official-key correctness. Physical/Chemical source JSON files were not part of this parsed-content pass.
+
+## Latest combined build
+- Run #21, commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`: SUCCESS; Flutter analyze and combined Debug APK build passed.
+- Artifact ID `12958701650`, size 113,036,152 bytes; ZIP SHA-256 `939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8`.
+- Run #22 for current docs-only commit `4cef120441bdb8be9a525edea933b6a4d6926132` was in progress at last check.
