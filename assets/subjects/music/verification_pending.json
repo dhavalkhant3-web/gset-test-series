@@ -39,10 +39,9 @@
   "source_verified_field_count": 154,
   "review_flags": 212,
   "remaining_gates": [
-    "Visually proofread the remaining 200 English/Gujarati stems, all four options and option order against the original December 2024 and November 2025 question-paper PDFs.",
-    "Manually adjudicate the 12 ambiguous November 2023 syllabus mappings listed in the question records, then manually review all 200 mappings for December 2024 and November 2025 using the correct stream-specific official syllabus.",
-    "Visually compare the 200 stored answers for December 2024 and November 2025 against their original official final answer-key PDF pages; parsed text comparison matches but visual key checks are pending.",
-    "Run Music-specific validation and full Android build/CI on the latest PR head, then check the final diff. Do not merge until the work is genuinely ready and the user authorizes merge."
+    "Visually proofread the remaining 146 English/Gujarati stems, all four options, option order and any figures/tables against the original official December 2024 (46 questions) and November 2025 (100 questions) question-paper PDFs.",
+    "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 146 provisional stream-specific mappings (December 2024: 46; November 2025: 100) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
+    "Run Music-specific validation and a full Android build/CI on the latest PR and integration heads, inspect the resulting artifacts and diff. Do not merge without explicit user authorization."
   ],
   "papers": [
     {
@@ -84,7 +83,7 @@
       "syllabus_mapping_ambiguous_count": 2,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "54/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_54;key_visual_checked_0;mapping_reviewed_52;100_review_flags",
+      "status": "source_proofread_54;key_visual_checked_100;mapping_reviewed_52;100_review_flags",
       "review_note": "Question-level records show 54/100 source-proofread and 52/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: 46 questions need visual proofreading and 48 mappings need adjudication."
     },
     {
@@ -105,7 +104,7 @@
       "syllabus_mapping_ambiguous_count": 0,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "0/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_0;key_visual_checked_0;mapping_reviewed_0;100_review_flags",
+      "status": "source_proofread_0;key_visual_checked_100;mapping_reviewed_0;100_review_flags",
       "review_note": "Question-level records show 0/100 source-proofread and 0/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: visual proofreading and stream-specific syllabus mapping for all 100 questions."
     }
   ],
