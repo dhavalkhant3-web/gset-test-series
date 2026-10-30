@@ -30,3 +30,9 @@
 - Physical Sciences now has 213 genuinely incomplete option records; every one was already source_unverified and review_flagged. No question record was modified for Code 02.
 - Chemical Sciences base has one malformed record: July 2006 Q42 has `options_en` as a single string. Added `review_flag=true` and a source-review note only; retained the original text and answer C. Official PDF source URL: `https://gujaratset.ac.in/assets/papers/paperII/jy06/jy0603.pdf`.
 - Verified the Sep 2016 Paper-II overlay has 50 unique IDs, no overlap with the 1,250 base IDs, and all 50 carry source_verified=true; Q4 remains flagged with official key B. The 75 Paper-III questions remain in a separate file.
+
+## 2026-10-30 — IKS/Public Administration syllabus repair and latest build checkpoint
+- Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e`: fixed IKS Code 29 to the official ten units and Public Administration Code 32 to the correct ten-unit order, without changing question records or mapping statuses.
+- Code 33's ten-unit catalogue remained unchanged. Code 31's UGC-NET Code65 syllabus PDF could not be retrieved fully; its unit list remains pending independent validation.
+- Audit #279 and Debug APK #27 succeeded on commit `57198996bb867ade25684aee2a70a4f1c311118e`; artifact ID `12959312490`.
+- CI status for the following syllabus-only commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` was not available from the status endpoint at the time of this checkpoint.

@@ -100,3 +100,17 @@ Automated parsed-content checks were run against the current integration questio
 - Physical Sciences current base bank: 1,300 unique records; 892 source_verified, 374 review_flagged, and union of source review-required = 430. Syllabus assignments: 719 declared but provisional/unverified, 581 with no unit.
 - Chemical Sciences: 1,250 unique base records plus 50 unique September 2016 Paper-II overlay records; no duplicate IDs between base and overlay. The separate Paper-III 75-record bank remains separate. Base has 1,004 source_verified and now 315 review flags; Sep16 Paper-II overlay has 50 source_verified and one flag (Q4; official key B retained). A single base record, July 2006 Q42, has `options_en` stored as a string; its text and answer C were retained and a review flag/note added. The original official-paper link is `https://gujaratset.ac.in/assets/papers/paperII/jy06/jy0603.pdf`; PDF fetch was unavailable in this pass, so manual transcription remains pending.
 - Chemical mapping: 540 base records without a declared unit; 710 declared assignments remain provisional/unverified.
+
+## Official syllabus catalogue corrections — latest commit
+- Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` corrected Code 29 IKS from a six-unit, incorrectly sequenced entry to the official ten-unit sequence: Indian Philosophical Systems I(a), I(b), Astronomy, Health and Well-being, Architecture, Mathematics, Chemistry and Metallurgy, Life Sciences/Agriculture/Ecology, Kala, Ancient India and World.
+- The same commit corrected Code 32 Public Administration to the official ten-unit sequence. Unit IX is Governance and Good Governance; Unit X is Research Methodology.
+- Code 33 Visual Art already has the ten official unit headings; retained unchanged.
+- Code 31 is mapped to UGC-NET subject code 65. The official UGC portal lists Performing Arts – Dance/Drama/Theatre, but the linked PDF could not be retrieved in this audit; its existing ten-unit entry was left unchanged pending complete source validation.
+- No question-level unit assignment was edited; future mapping review must be against the now-corrected official catalogue.
+
+## Latest completed CI / APK checkpoint
+- Combined bank audit #279 on commit `57198996bb867ade25684aee2a70a4f1c311118e`: PASS; all steps succeeded and errors array empty.
+- Integration Debug APK #27 on the same commit: PASS. Flutter analyze, Debug APK build and artifact upload all succeeded.
+- APK artifact ID `12959312490`, size 113,037,216 bytes, SHA-256 `366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18`.
+- Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` adds only syllabus metadata. GitHub commit status endpoint did not yet return status entries; new run results are therefore unverified at this checkpoint.
+- Flutter test suite remains unavailable: repository has no `test/` directory and the integration build workflow does not run `flutter test`.

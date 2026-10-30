@@ -18,7 +18,8 @@
     "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
     "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132",
     "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
-    "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948"
+    "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948",
+    "latest_integration_head_before_syllabus_checkpoint": "6534a6a682ceefe58034cc81a4d78d1653f53d5e"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -177,7 +178,14 @@
         "missing": 581,
         "provisional_or_unverified_declared": 719
       },
-      "schema_note": "85 records use valid options.A-D dictionaries; the validator previously misclassified them because it checked options_en only. Schema-aware count is 213 unresolved options, not 298."
+      "schema_note": "85 records use valid options.A-D dictionaries; the validator previously misclassified them because it checked options_en only. Schema-aware count is 213 unresolved options, not 298.",
+      "invalid_option_records": {
+        "valid_after_schema_normalization": 1087,
+        "unresolved": 213,
+        "all_unresolved_already_review_flagged": true,
+        "invalid_after_schema_normalization": 213,
+        "valid_A_D_object_records": 85
+      }
     },
     "03": {
       "name": "Chemical Sciences",
@@ -210,6 +218,17 @@
       "unit_mapping": {
         "missing": 540,
         "provisional_or_unverified_declared": 710
+      },
+      "paper_ii_combined": {
+        "base_records": 1250,
+        "sep16_paper_ii_overlay": 50,
+        "total_unique": 1300,
+        "base_source_verified": 1004,
+        "overlay_source_verified": 50,
+        "base_review_flags": 315,
+        "overlay_review_flags": 1,
+        "malformed_q42_flagged": true,
+        "q42_answer_retained": "C"
       }
     }
   },
@@ -285,6 +304,11 @@
     {
       "path": "tool/audit_combined_subject_banks.py",
       "action": "support both options_en list and options A-D object when validating English options"
+    },
+    {
+      "path": "assets/subjects/syllabus_units.json",
+      "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+      "action": "corrected official ten-unit catalogue entries for IKS Code29 and Public Administration Code32; no question-level mappings changed"
     }
   ],
   "no_changes_made": [
@@ -337,22 +361,36 @@
     },
     "current_head_build_status": "Run #22 on current head 4cef120 is in progress; commit contains master-register documentation only. Run #21 already validated the current app code and metadata.",
     "latest_combined_audit": {
-      "run_id": 41014223484,
-      "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
-      "status": "success",
-      "steps": [
-        "validate_performing_arts",
-        "validate_syllabus_mapping",
-        "audit_combined_subject_banks"
-      ],
+      "run_id": 41014771828,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "conclusion": "success",
       "errors": [],
-      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014223484"
+      "all_steps_success": true,
+      "note": "Combined audit for Codes 02,03,28,29,30,31,32,33. Code 01 explicitly excluded."
     },
     "latest_integration_debug_build": {
       "run_id": 41014223501,
       "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
       "status": "in_progress_at_last_check",
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014223501"
+    },
+    "latest_successful_debug_apk": {
+      "run_id": 41014771759,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "conclusion": "success",
+      "flutter_analyze": "success",
+      "combined_debug_apk": "success",
+      "artifact_id": 12959312490,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_size_bytes": 113037216,
+      "artifact_digest": "sha256:366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014771759"
+    },
+    "latest_syllabus_commit_check": {
+      "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+      "combined_status": "no status entries returned at time of final snapshot",
+      "status": "not_yet_verified",
+      "note": "Firecrawl actions pages were unavailable because connected account credits were exhausted; no unsupported success claim is recorded."
     }
   },
   "official_syllabus_sources": {
@@ -514,5 +552,51 @@
       "malformed_question_id": "chemical_jul06_q42",
       "malformed_flag_added": true
     }
+  },
+  "syllabus_catalog_updates": {
+    "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "file": "assets/subjects/syllabus_units.json",
+    "blob_sha": "af0724f93a3d9524d6906c8458a090e0050e7c66",
+    "updated_subjects": {
+      "29": {
+        "units": 10,
+        "source": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
+        "title_order": [
+          "Indian Philosophical Systems – Part (a)",
+          "Indian Philosophical Systems – Part (b)",
+          "Astronomy",
+          "Health and Well-being",
+          "Architecture",
+          "Mathematics",
+          "Chemistry and Metallurgy",
+          "Life Sciences, Agriculture and Ecology",
+          "Kala",
+          "Ancient India and World"
+        ]
+      },
+      "32": {
+        "units": 10,
+        "source": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+        "title_order": [
+          "Introduction to Public Administration and Principles of Organization; Personnel Administration",
+          "Administrative Thought",
+          "Indian Administration",
+          "State and Local Administration",
+          "Development Administration",
+          "Economic and Financial Administration",
+          "Social Welfare Administration",
+          "Public Policy",
+          "Governance and Good Governance",
+          "Research Methodology"
+        ]
+      }
+    },
+    "unchanged": {
+      "28": "Existing ten-unit catalogue retained.",
+      "30": "Existing ten-unit catalogue retained; Units V-X stream-specific.",
+      "31": "UGC-NET code 65 portal confirms subject identity but PDF retrieval failed; existing unit catalogue left unchanged pending full text verification.",
+      "33": "Existing ten-unit Visual Art catalogue was already aligned with official PDF; no update."
+    },
+    "question_level_unit_assignments_changed": false
   }
 }

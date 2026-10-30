@@ -293,5 +293,55 @@
       }
     },
     "note": "No question stem, option or answer text edited. The only question-record change was adding a review_flag and explanatory review_note to malformed Chemical Q42."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Official IKS and Public Administration syllabus catalogue correction",
+    "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "file": "assets/subjects/syllabus_units.json",
+    "blob_sha": "af0724f93a3d9524d6906c8458a090e0050e7c66",
+    "changes": {
+      "29": "Corrected to official 10-unit order from GSET Code 29 PDF; prior six-unit order was wrong/incomplete",
+      "32": "Corrected to official 10 units; Governance and Good Governance is Unit IX, Research Methodology is Unit X"
+    },
+    "not_changed": [
+      "Question-level mappings",
+      "Code31 unit list (full UGC Code65 PDF not retrieved)",
+      "Code33 (already aligned)",
+      "Code01 (HOLD)"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Combined eight-subject audit and APK build",
+    "audit": {
+      "run_id": 41014771828,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "result": "success",
+      "errors": [],
+      "steps": [
+        "Performing Arts official key/app audit",
+        "Explicit syllabus mapping validator",
+        "Eight-subject bank audit"
+      ]
+    },
+    "apk": {
+      "run_id": 41014771759,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "result": "success",
+      "flutter_analyze": "success",
+      "debug_apk": "success",
+      "artifact_id": 12959312490,
+      "artifact_size_bytes": 113037216,
+      "sha256": "366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18"
+    },
+    "note": "These runs validate the commit before the subsequent Code29/32 syllabus catalogue-only update."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Latest syllabus-only commit CI checkpoint",
+    "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "result": "not verified",
+    "note": "GitHub commit status endpoint returned no check entries at snapshot time; Firecrawl Actions-page verification unavailable due account credits. No pass/fail inferred."
   }
 ]
