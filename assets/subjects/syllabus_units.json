@@ -297,6 +297,136 @@
           "name": "Folk, Tribal and Craft Practices in India"
         }
       ]
+    },
+    "hindu_studies": {
+      "code": "28",
+      "name_en": "Hindu Studies",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+      "official_syllabus_code": "102",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Official GSET Code 28 syllabus PDF identifies Hindu Studies; the PDF title prints UGC-NET syllabus code 102. Ten units are transcribed from the GSET-hosted PDF. The unit mapping basis is the official GSET Code 28 syllabus.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Tattva Vimarsā"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Dharma, and Karma Vimarsā"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Punarjanma-Bandhan-Mokṣa Vimarsā"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Pramāṇa Siddhānta"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Vāda-Paramparā"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Applicability of Western Methods for Understanding Indian Texts"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Rāmāyaṇa"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Mahābhārata"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Sanskrit Parichaya"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Other Allied Topics"
+        }
+      ]
+    },
+    "music": {
+      "code": "30",
+      "name_en": "Music",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+      "official_syllabus_code": "30",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Official GSET Code 30 Music syllabus PDF. Units I–IV are common to all Music streams; Units V–X are stream-specific. The stream must be identified before assigning a question to Units V–X.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Technical Terms",
+          "notes": "Common to Hindustani (Vocal, Instrumental & Musicology), Karnataka, Percussion and Rabindra Sangeet."
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Folk Music",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Rasa and Aesthetics",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Research Methodology and Pedagogy, Avenues, Interdisciplinary Aspects and Modern Technology",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Applied Theory",
+          "notes": "Stream-specific. Hindustani: Applied Theory; Karnataka: Applied Theory; Percussion: Applied Theory – Taal & Avanaddhavadya; Rabindra Sangeet: Applied Theory."
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "History / Historical Perspective of Music",
+          "notes": "Stream-specific. Titles and emphasis differ across Hindustani, Karnataka, Percussion and Rabindra Sangeet."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Compositional Forms and Their Evolution",
+          "notes": "Stream-specific; includes different forms by tradition and performance practice."
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Musical Instruments and Their Classification",
+          "notes": "Stream-specific instrument lists and techniques."
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Contribution of Composers, Performers, Scholars and Their Textual Traditions",
+          "notes": "Stream-specific lists and traditions."
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Gharana / Institutional System / Training / Propagation",
+          "notes": "Stream-specific. Titles include Hindustani Gharana and Institutional System; Karnataka Banis, Training, Education and Propagation; Percussion Gharanas and Institutional System; Rabindra Sangeet Gharana and Institutionalised System."
+        }
+      ]
     }
   }
 }
