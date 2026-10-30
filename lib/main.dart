@@ -400,6 +400,21 @@ class PaperIIDataService {
             }
           }
         } catch (_) {}
+        // Source-reviewed corrections for September 2018 Physical Sciences Paper-II.
+        // These updates preserve official answer-key letters and the non-evaluated Z item.
+        try {
+          final sourceReview = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/sept18_source_review.json',
+          ));
+          if (sourceReview is List) {
+            for (final correction in sourceReview) {
+              final c = Map<String, dynamic>.from(correction as Map);
+              final id = c['id'];
+              final index = loaded.indexWhere((q) => q['id'] == id);
+              if (index >= 0) loaded[index].addAll(c);
+            }
+          }
+        } catch (_) {}
       }
       // Chemical Sciences Paper-II archive: September 2016 is stored as a separate
       // source-preserving overlay because the main historical JSON predates this session.
