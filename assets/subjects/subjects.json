@@ -400,7 +400,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 official-final-key reconciled Paper-II questions across 3 sessions; Gujarati text is source-derived only where bilingual source exists; 40 question review flags remain in current integrated bank."
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 300/300 marked source_verified at question level; official final-key reconciliation 300/300 is recorded; Gujarati source text/options are populated for the 100-question November 2025 bilingual paper only. Mapping: 262 verified, 38 provisional, 0 pending. 40 review flags remain, including Nov 2023 Q88 and Dec 2024 Q49 expert-review concerns. Subject-level source_verified remains false while these review flags remain."
     },
     {
       "code": "29",
@@ -415,7 +415,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. Official final-key reconciliation is recorded; all 300 remain flagged pending original-page source review. Unit mapping is provisional/pending.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded in the current bank. Current question-level state: 0 source_verified, 300 review-flagged pending original-page visual review. Syllabus mapping: 0 verified, 109 provisional, 191 pending. Gujarati source transcription is not populated in the current integrated bank. Do not copy the divergent PR branch without field-by-field source reconciliation.",
       "status": "verified_against_official_papers_and_final_keys",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
@@ -445,7 +445,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; 174 Gujarati transcriptions present, 126 pending; 212 question review flags remain. Source verification and syllabus review incomplete."
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank has Gujarati fields populated for 300, but only 154 stems/options have explicit visual-proofreading evidence; 146 still require original-PDF proofreading (Dec 2024: 46; Nov 2025: 100). Official final answer keys visually checked 300/300 with 0 mismatches. Syllabus mapping: 140 manually reviewed, 14 ambiguous, 146 provisional pending stream-specific review. 212 question review flags remain; source_verified is true on 154 records only. Units I–IV are common; Units V–X require stream identification."
     },
     {
       "code": "31",
@@ -460,7 +460,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "Source review pending: 300 Paper-II questions across November 2023, December 2024, and November 2025; 94 question records are marked source_verified=true and 206 remain review-flagged. Unit mappings provisional/pending; December 2024 and November 2025 question-text audits remain pending; November 2023 Q11, Q21, Q39 and Q96-Q100 retain unresolved source concerns."
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options are populated for 100 records. Syllabus mapping: 0 verified, 135 provisional, 165 pending. November 2023 Q11, Q21, Q39 and Q96–Q100 retain source concerns; Dec 2024 and Nov 2025 source review remains incomplete."
     },
     {
       "code": "32",
@@ -475,7 +475,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; all 300 remain review-flagged pending question-text/options verification; unit mapping provisional/pending.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 records source_verified, all 300 review-flagged pending original stem/options audit. Syllabus mapping: 0 verified, 164 provisional, 136 pending. Disputed items retained for review: Dec 2024 Q24, Dec 2024 Q35, Nov 2025 Q17. Do not treat answer-key reconciliation or bilingual helper fields as source proof of question text.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "provisional": 134,
@@ -507,7 +507,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; 30 records marked source_verified=true and 14 known content/answer concerns remain flagged. Full text/options audit and syllabus mapping incomplete.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 30 records source_verified (figure/passage source review); 256 remain in key-applied/pending-proofread state; 14 content/answer concerns remain flagged. Syllabus mapping: 0 verified, 138 provisional, 162 pending. Question text/options and the 14 concerns still require source review; the current English-medium bank does not contain Gujarati question text.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "provisional": 13,
