@@ -12,7 +12,9 @@ REGISTRY_PATH = SUBJECT_ROOT / "subjects.json"
 IN_SCOPE = {
     "02": ("physical_sciences", "questions.json"),
     "03": ("chemical_sciences", "questions.json"),
+    "28": ("hindu_studies", "questions.json"),
     "29": ("indian_knowledge_system", "questions.json"),
+    "30": ("music", "questions.json"),
     "31": ("performing_art_dance_drama_theatre", "questions.json"),
     "32": ("public_administration", "questions.json"),
     "33": ("visual_art", "questions.json"),
@@ -83,6 +85,41 @@ def main():
                     counters["unexpected_gu_question"] += 1
                 if ogu not in ([], None):
                     counters["unexpected_gu_options"] += 1
+            elif code == "28":
+                # Official Hindu Studies source is English-only in Nov 2023 and Dec 2024;
+                # the Nov 2025 paper is bilingual. Never fabricate Gujarati for prior sessions.
+                gujarati_expected = "nov25" in session.lower()
+                gujarati_present = (
+                    isinstance(qgu, str) and bool(qgu.strip()) and
+                    isinstance(ogu, list) and len(ogu) == 4 and
+                    all(isinstance(x, str) and x.strip() for x in ogu)
+                )
+                if gujarati_expected and not gujarati_present:
+                    counters["gujarati_source_transcription_missing"] += 1
+                elif not gujarati_expected and gujarati_present:
+                    counters["unexpected_gujarati_for_english_source"] += 1
+                if gujarati_present:
+                    if not GUJARATI_SCRIPT.search(qgu) or not all(GUJARATI_SCRIPT.search(x) for x in ogu):
+                        counters["question_or_option_gu_has_no_gujarati_script"] += 1
+                    else:
+                        counters["gujarati_source_fields_populated"] += 1
+            elif code == "30":
+                gujarati_present = (
+                    isinstance(qgu, str) and bool(qgu.strip()) and
+                    isinstance(ogu, list) and len(ogu) == 4 and
+                    all(isinstance(x, str) and x.strip() for x in ogu)
+                )
+                if not gujarati_present:
+                    counters["gujarati_source_transcription_missing"] += 1
+                elif not GUJARATI_SCRIPT.search(qgu) or not all(GUJARATI_SCRIPT.search(x) for x in ogu):
+                    counters["question_or_option_gu_has_no_gujarati_script"] += 1
+                else:
+                    counters["gujarati_source_fields_populated"] += 1
+                provenance = str(q.get("gujarati_source") or "").lower()
+                if gujarati_present and "visually checked" in provenance:
+                    counters["gujarati_source_visual_proofread"] += 1
+                elif gujarati_present:
+                    counters["gujarati_source_visual_review_pending"] += 1
             elif code == "31":
                 gu_present = bool(isinstance(qgu, str) and qgu.strip()) or bool(isinstance(ogu, list) and any(isinstance(x, str) and x.strip() for x in ogu))
                 if gu_present:
@@ -105,10 +142,14 @@ def main():
             unit_id_values = [q.get(k) for k in ("unit_id", "unitId") if q.get(k) not in (None, "")]
             declared = []
             for value in unit_values:
-                try:
-                    declared.append(str(int(value)))
-                except (ValueError, TypeError):
-                    invalid_mappings.append((qid, f"invalid unit number {value!r}"))
+                match = next((u for u in units if str(u.get("number")) == str(value) or str(u.get("id")) == str(value)), None)
+                if match:
+                    declared.append(str(match.get("number")))
+                else:
+                    try:
+                        declared.append(str(int(value)))
+                    except (ValueError, TypeError):
+                        invalid_mappings.append((qid, f"invalid unit number/ID {value!r}"))
             for value in unit_id_values:
                 match = next((u for u in units if str(u.get("id")) == str(value) or str(u.get("number")) == str(value)), None)
                 if not match:
@@ -120,8 +161,13 @@ def main():
                     invalid_mappings.append((qid, f"conflicting/invalid unit fields {declared}"))
                 else:
                     counters["declared_unit_reference"] += 1
-                    status = str(q.get("syllabus_mapping_status") or "").lower()
-                    if "pending" in status or not status:
+                    status = str(q.get("syllabus_mapping_status") or "").strip().lower()
+                    unverified_status = (
+                        not status or any(term in status for term in (
+                            "pending", "provisional", "ambiguous", "manual_review_required", "review_required"
+                        ))
+                    )
+                    if unverified_status:
                         counters["declared_but_unverified_unit"] += 1
                     else:
                         counters["explicitly_mapped_status"] += 1

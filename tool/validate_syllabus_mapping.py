@@ -12,14 +12,16 @@ SUBJECTS_ROOT = ROOT / "assets/subjects"
 QUESTION_FILES = {
     "02": "physical_sciences/questions.json",
     "03": "chemical_sciences/questions.json",
+    "28": "hindu_studies/questions.json",
     "29": "indian_knowledge_system/questions.json",
+    "30": "music/questions.json",
     "31": "performing_art_dance_drama_theatre/questions.json",
     "32": "public_administration/questions.json",
     "33": "visual_art/questions.json",
 }
 UNIT_FIELDS = ("syllabus_unit", "unit_number", "unit")
 UNIT_ID_FIELDS = ("unit_id", "unitId")
-PENDING_VALUES = {"", "pending", "pending_official_syllabus_unit_mapping", "unmapped"}
+UNVERIFIED_STATUS_TERMS = ("pending", "provisional", "ambiguous", "manual_review_required", "review_required")
 
 def fail(message: str) -> None:
     print("FAIL: " + message, file=sys.stderr)
@@ -93,7 +95,7 @@ def main():
                 continue
             mapped[str(unit.get("number"))] += 1
             status = str(q.get("syllabus_mapping_status", "")).strip().lower()
-            if status in PENDING_VALUES or not status:
+            if not status or any(term in status for term in UNVERIFIED_STATUS_TERMS):
                 pending += 1
         print(f"{sid} (code {code}): total={len(bank)}, explicitly_mapped={sum(mapped.values())}, pending_or_unverified={pending}")
         for unit in units:
