@@ -18,3 +18,9 @@
 - Commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f` passed Integration Debug APK workflow run #21; Flutter analyze reported no issues and the combined Debug APK artifact was uploaded as ID `12958701650`.
 - Current integration head before this register refresh: `4cef120441bdb8be9a525edea933b6a4d6926132`; run #22 is a docs-only push and was in progress at the last check.
 - These structural checks do not replace original-paper visual proofreading or independent final-answer-key checking.
+
+## 2026-10-30 — Combined validator scope and metric corrections
+- Commit `4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f`: expanded `tool/audit_combined_subject_banks.py` to include Codes 28 and 30, fixed bilingual session detection and Gujarati option checks, and counted `source_verified` independently from review flags.
+- Adjusted `tool/validate_syllabus_mapping.py` to keep provisional/ambiguous/manual-review statuses unverified.
+- Combined bank audit run #278 succeeded with zero errors. The integration Debug APK run #25 for the same commit was still in progress at the last check.
+- No question-bank records, answer keys, Paper-I files or Code 01 files changed.

@@ -16,7 +16,8 @@
     "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
     "integration_parent_before_register_refresh": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
     "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
-    "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132"
+    "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132",
+    "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -293,7 +294,25 @@
       "artifact_zip_sha256": "939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8",
       "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41013333491"
     },
-    "current_head_build_status": "Run #22 on current head 4cef120 is in progress; commit contains master-register documentation only. Run #21 already validated the current app code and metadata."
+    "current_head_build_status": "Run #22 on current head 4cef120 is in progress; commit contains master-register documentation only. Run #21 already validated the current app code and metadata.",
+    "latest_combined_audit": {
+      "run_id": 41014223484,
+      "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+      "status": "success",
+      "steps": [
+        "validate_performing_arts",
+        "validate_syllabus_mapping",
+        "audit_combined_subject_banks"
+      ],
+      "errors": [],
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014223484"
+    },
+    "latest_integration_debug_build": {
+      "run_id": 41014223501,
+      "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+      "status": "in_progress_at_last_check",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014223501"
+    }
   },
   "official_syllabus_sources": {
     "gset_bulletin": "https://gujaratset.ac.in/assets/download/info-bulletin-gset-2025-1.4.pdf",
@@ -335,5 +354,107 @@
       "papers.json contains three corresponding paper manifests"
     ],
     "limitation": "This is a structural and internal-field consistency check, not a fresh comparison against original paper images or official final answer key pages. Physical/Chemical large files were not included in this six-bank parser pass."
+  },
+  "validator_changes": {
+    "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+    "changed_files": [
+      "tool/audit_combined_subject_banks.py",
+      "tool/validate_syllabus_mapping.py"
+    ],
+    "workflow_run": {
+      "id": 41014223484,
+      "workflow": "Combined subject bank audit",
+      "conclusion": "success",
+      "job_id": 123926769406,
+      "steps": {
+        "performing_arts_official_keys_and_app_audit": "success",
+        "explicit_syllabus_unit_mapping_validation": "success",
+        "combined_bank_integrity_and_language_audit": "success"
+      },
+      "errors": [],
+      "excluded_code_01": "not read or changed"
+    },
+    "fixes": [
+      "Added Hindu Studies Code 28 and Music Code 30 to the combined bank audit scope",
+      "Corrected Code 28 Nov 2025 bilingual-session detection",
+      "Treated numeric/symbol-only Gujarati answer options as valid rather than as missing Gujarati text",
+      "Separated source_verified record counts from independent review_flag counts",
+      "Counted provisional, ambiguous and manual_review_required mappings as not verified"
+    ],
+    "metric_results": {
+      "28": {
+        "total": 300,
+        "source_verified": 300,
+        "review_required": 40,
+        "mapping": {
+          "verified": 262,
+          "provisional": 38,
+          "pending": 0
+        },
+        "gujarati_source_fields_populated": 100,
+        "missing_tip_en": 300,
+        "missing_tip_gu": 300
+      },
+      "29": {
+        "total": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 109,
+          "pending": 191
+        }
+      },
+      "30": {
+        "total": 300,
+        "source_verified": 154,
+        "review_required": 212,
+        "mapping": {
+          "verified": 140,
+          "ambiguous": 14,
+          "provisional": 146,
+          "pending": 0
+        },
+        "gujarati_source_fields_populated": 300,
+        "gujarati_visually_proofread": 154,
+        "gujarati_visual_review_pending": 146,
+        "missing_tip_en": 300,
+        "missing_tip_gu": 300,
+        "latin_text_in_gujarati_options": 11
+      },
+      "31": {
+        "total": 300,
+        "source_verified": 94,
+        "review_required": 206,
+        "mapping": {
+          "verified": 0,
+          "provisional": 135,
+          "pending": 165
+        },
+        "missing_gujarati_source_transcription": 200,
+        "latin_text_in_gujarati_options": 16
+      },
+      "32": {
+        "total": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 164,
+          "pending": 136
+        }
+      },
+      "33": {
+        "total": 300,
+        "source_verified": 30,
+        "review_required": 270,
+        "mapping": {
+          "verified": 0,
+          "provisional": 138,
+          "pending": 162
+        }
+      }
+    },
+    "note": "The audit reports source_verified independently of review_flag; flagged content/mapping questions remain open even when their original source page was visually verified. Missing tip counters on Codes 28/30 are structural fields reported empty by the audit and need product-owner decision before adding explanations."
   }
 }

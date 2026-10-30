@@ -85,3 +85,12 @@ Automated parsed-content checks were run against the current integration questio
 - Run #21, commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`: SUCCESS; Flutter analyze and combined Debug APK build passed.
 - Artifact ID `12958701650`, size 113,036,152 bytes; ZIP SHA-256 `939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8`.
 - Run #22 for current docs-only commit `4cef120441bdb8be9a525edea933b6a4d6926132` was in progress at last check.
+
+## Validator correction and current eight-subject audit — 2026-10-30
+- Commit `4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f` expanded the combined bank audit to Codes 28 Hindu Studies and 30 Music, corrected the Nov 2025 bilingual session detection, allowed numeric/symbol-only Gujarati options, separated `source_verified` from `review_flag`, and kept provisional/ambiguous/manual-review mappings unverified.
+- Combined audit run **#278**: PASS. Performing Arts official-key/app-audit validator, explicit syllabus mapping validator and combined bank audit all succeeded; `errors=[]`; Code 01 was not read or changed.
+- Current audit counts (300 each): Code28 source_verified 300, review_required40; Code29 0/300 source_verified, 300 review_required; Code30 154 source_verified, 212 review_required, Gujarati fields300 but visual proofreading154, pending146; Code31 94 source_verified, 206 review_required; Code32 0 source_verified, 300 review_required; Code33 30 source_verified, 270 review_required.
+- Code28 mappings: 262 verified / 38 provisional. Code29: 0 /109 /191 (verified/provisional/pending). Code30: 140 manually verified /14 ambiguous /146 provisional. Code31: 0 /135 /165. Code32: 0 /164 /136. Code33: 0 /138 /162.
+- Audit reported `tip_en` and `tip_gu` empty for all 300 Code28 and Code30 records. Do not fabricate tips; confirm whether this field is mandatory before adding generated text.
+- Gujarati option arrays may contain numerals/symbols; the checker no longer treats them as incomplete translations. The current report notes Latin text in some option arrays for Music (11) and Performing Arts (16), requiring targeted review only if those are true non-Gujarati words rather than valid names/notation.
+- Integration Debug APK run #25 on commit `4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f` was still running at last check. The last fully verified combined APK remains run #21, commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`, artifact ID `12958701650`.
