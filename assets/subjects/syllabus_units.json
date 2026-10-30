@@ -90,12 +90,12 @@
         {
           "id": "unit_1",
           "number": 1,
-          "name": "Indian Philosophical Systems - part (a)"
+          "name": "Indian Philosophical Systems – Part (a)"
         },
         {
           "id": "unit_2",
           "number": 2,
-          "name": "Indian Philosophical Systems - part (b)"
+          "name": "Indian Philosophical Systems – Part (b)"
         },
         {
           "id": "unit_3",
@@ -105,19 +105,41 @@
         {
           "id": "unit_4",
           "number": 4,
-          "name": "Mathematics"
+          "name": "Health and Well-being"
         },
         {
           "id": "unit_5",
           "number": 5,
-          "name": "Science and Technology"
+          "name": "Architecture"
         },
         {
           "id": "unit_6",
           "number": 6,
-          "name": "Health, Wellness and Yoga"
+          "name": "Mathematics"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Chemistry and Metallurgy"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Life Sciences, Agriculture and Ecology"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Kala"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Ancient India and World"
         }
-      ]
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings/order transcribed from the official GSET Code 29 syllabus PDF. Units 1–10 include Indian Philosophical Systems (a/b), Astronomy, Health and Well-being, Architecture, Mathematics, Chemistry and Metallurgy, Life Sciences/Agriculture/Ecology, Kala, and Ancient India and World."
     },
     "performing_art_dance_drama_theatre": {
       "code": "31",
@@ -196,7 +218,7 @@
         {
           "id": "unit_1",
           "number": 1,
-          "name": "Introduction to Public Administration"
+          "name": "Introduction to Public Administration and Principles of Organization; Personnel Administration"
         },
         {
           "id": "unit_2",
@@ -216,7 +238,7 @@
         {
           "id": "unit_5",
           "number": 5,
-          "name": "Comparative and Development Administration"
+          "name": "Development Administration"
         },
         {
           "id": "unit_6",
@@ -236,9 +258,16 @@
         {
           "id": "unit_9",
           "number": 9,
+          "name": "Governance and Good Governance"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
           "name": "Research Methodology"
         }
-      ]
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings/order corrected against the official GSET Code 32 syllabus PDF (UGC-NET subject code 14). The official sequence has Unit IX Governance and Good Governance, and Unit X Research Methodology."
     },
     "visual_art": {
       "code": "33",
