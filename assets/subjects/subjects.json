@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "1300 Paper-II question records are present across 19 sessions (including the September 2016 Paper-II overlay). 892 records have source_verified=true; 374 review flags remain and 86 records need core-field audit. Full-bank source review and syllabus mapping remain incomplete."
+      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. The September 2016 Q1-Q50 legacy overlay duplicates records already present in the base bank and is excluded by the loader. The separate 75-question September 2016 Paper-III archive is excluded from Paper-II. Current audit metadata: 892 records marked source_verified=true; 374 retain review_flag=true; 86 core-field checks remain outstanding. These indicators overlap and do not certify full question-by-question visual verification. Official syllabus unit mapping remains pending; subject-level source_verified remains false."
     },
     {
       "code": "03",
