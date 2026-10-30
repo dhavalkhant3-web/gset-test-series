@@ -2,20 +2,7 @@
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
   "updated_at": "2026-10-30",
-  "branch_snapshot": {
-    "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
-    "integration": "8f626ab969c8c25022df95057c3cb0e9a93d53dd",
-    "integration_pr_16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7"
-  },
-  "rules": {
-    "single_existing_android_app": true,
-    "paper_i_unchanged": true,
-    "mathematical_sciences_code_01": "HOLD_DO_NOT_MODIFY",
-    "no_pr_merge_without_explicit_authorization": true,
-    "no_bulk_question_bank_overwrite": true,
-    "official_gset_papers_and_final_keys_authoritative": true
-  },
-  "scope": [
+  "audit_scope": [
     "02",
     "03",
     "28",
@@ -25,94 +12,180 @@
     "32",
     "33"
   ],
+  "branch_snapshot": {
+    "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
+    "integration_parent_before_register_refresh": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+    "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7"
+  },
+  "rules": {
+    "single_existing_android_app": true,
+    "paper_i_ui_and_functionality_untouched_in_this_execution": true,
+    "mathematical_sciences_code_01": "HOLD_DO_NOT_MODIFY",
+    "no_pr_merge_without_explicit_authorization": true,
+    "no_force_push": true,
+    "no_bulk_question_bank_overwrite": true,
+    "official_gset_question_papers_and_final_keys_authoritative": true,
+    "paper_ii_and_paper_iii_separate": true,
+    "OCR_or_AI_text_not_verified_without_source_review": true
+  },
+  "scope_totals": {
+    "subjects": 8,
+    "paper_ii_records_expected_or_registered": 4400,
+    "note": "Aggregate of registry/checkpoint counts: Physical 1,300; Chemical 1,300; and 300 each for Codes 28–33. This is not a fresh exhaustive count of every underlying 02/03 source file."
+  },
   "subject_checkpoints": {
     "28": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
-      "visual_question_review_pr_claim": 300,
+      "name": "Hindu Studies",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 300,
+      "source_visual_proofread": 300,
+      "official_answer_key_matches_recorded": 300,
+      "gujarati_source_transcribed": 100,
       "mapping": {
-        "verified": 253,
-        "provisional": 34,
-        "pending": 13
+        "verified": 262,
+        "provisional": 38,
+        "pending": 0
       },
-      "review_flags_pr_claim": 49,
-      "status": "PR #19 open/unmerged; values are PR description claims, reconcile against latest current data"
+      "review_flags": 40,
+      "flagged_concerns": [
+        "November 2023 Q88",
+        "December 2024 Q49"
+      ],
+      "question_bank_sha": "202bf3b726170a7742ec6376da19c2a3898aa447",
+      "verification_file_sha": "94d44e5343abbcd8a5e78434563ff8dcff6b1945",
+      "status": "source visual review recorded complete; mapping and expert flags remain"
     },
     "29": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
+      "name": "Indian Knowledge System",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 0,
+      "review_flags": 300,
+      "official_answer_key_status": "Question records identify official-answer-key reconciliation; independent 300-key recomputation was not performed in this pass",
+      "gujarati_source_transcribed": 0,
       "mapping": {
-        "provisional": 163,
-        "pending": 137,
-        "verified": 0
+        "verified": 0,
+        "provisional": 109,
+        "pending": 191
       },
-      "status": "PR #11 open/unmerged; current integration status says all 300 still flagged pending original-page source review"
+      "question_bank_sha": "bd750bc8398fb7b65a1642e36edd417163c0fece",
+      "status": "all source pages still require human visual review"
     },
     "30": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
-      "english_gujarati_visual_proofread_pr_claim": 300,
-      "gujarati_fields_pr_claim": 300,
+      "name": "Music",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 154,
+      "english_gujarati_stem_option_visual_proofread": 154,
+      "remaining_question_text_visual_proofread": 146,
+      "gujarati_fields_populated": 300,
+      "answer_keys_visually_checked": 300,
+      "answer_key_mismatches": 0,
       "mapping": {
         "manually_reviewed": 140,
         "ambiguous": 14,
-        "provisional_or_stream_review_pending": 146
+        "provisional": 146,
+        "pending": 0
       },
-      "review_flags_pr_claim": 160,
-      "status": "PR #18 open/unmerged; syllabus mapping and stream assignment incomplete"
+      "review_flags": 212,
+      "question_bank_sha": "223f7f7ff0a655b0467bee1c93670c188a52d65c",
+      "verification_file_sha": "d669a3cb5aa021d8e6accb511d1d007e1fbd35b5",
+      "source_review_split": {
+        "nov23_visual_proofread": 100,
+        "dec24_visual_proofread": 54,
+        "dec24_pending": 46,
+        "nov25_pending": 100
+      },
+      "note": "Gujarati text/options fields are populated on all 300, but only 154 records have explicit visual proofreading evidence; the remaining OCR transcription stays unverified. Units I–IV are common; V–X require stream identification."
     },
     "31": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
-      "visual_review_claim": "300/300 in PR description; prior integration metadata is stale/contradictory",
-      "status": "PR #10 open/unmerged; inspect latest subject PR and integration base before using data"
+      "name": "Performing Arts",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 94,
+      "source_page_visually_verified": 94,
+      "bilingual_discrepancies_flagged": 6,
+      "question_text_and_gujarati_source_review_pending": 200,
+      "gujarati_fields_populated": 100,
+      "review_flags": 206,
+      "mapping": {
+        "verified": 0,
+        "provisional": 135,
+        "pending": 165
+      },
+      "question_bank_sha": "fa5708aa755cbec353830bafb9400afd70510d71",
+      "status": "partial; PR #10 description is not representative of current integrated bank"
     },
     "32": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
-      "disputed_items": [
-        "Dec 2024 Q24",
-        "Dec 2024 Q35",
-        "Nov 2025 Q17"
-      ],
-      "question_source_review": "pending",
+      "name": "Public Administration",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 0,
+      "review_flags": 300,
+      "question_text_and_options_audit_pending": 300,
       "mapping": {
-        "provisional": 134,
-        "pending": 166,
-        "verified": 0
+        "verified": 0,
+        "provisional": 164,
+        "pending": 136
       },
-      "status": "PR #4 open draft/unmerged"
+      "disputed_items": [
+        "December 2024 Q24",
+        "December 2024 Q35",
+        "November 2025 Q17"
+      ],
+      "question_bank_sha": "f1e8d6119fd0146d7594b20a5cfcc38ce4f8261a",
+      "status": "official key reconciliation is separate from full question-text audit"
     },
     "33": {
-      "questions_reported": 300,
-      "answer_key_matches_pr_claim": 300,
-      "figure_source_reviewed": 30,
+      "name": "Visual Art",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 30,
+      "key_applied_pending_proofread": 256,
+      "content_concerns_flagged": 14,
       "review_flags": 14,
+      "gujarati_question_text_populated": 0,
       "mapping": {
-        "provisional": 13,
-        "pending": 287,
-        "verified": 0
+        "verified": 0,
+        "provisional": 138,
+        "pending": 162
       },
-      "status": "PR #12 open/unmerged"
+      "question_bank_sha": "da39d7775ca1bde3d477463e8a23cd00376241f6",
+      "status": "partial; source text/options and 14 concerns need review"
     },
     "02": {
-      "paper_ii_questions_reported": 1300,
-      "sessions_reported": 19,
-      "source_verified_reported": 901,
-      "review_flagged_reported": 364,
-      "core_field_checks_pending_reported": 86,
-      "mapping": "pending",
-      "status": "partial; subject-level source_verified false",
-      "source": "integration/combined-subject-banks assets/subjects/subjects.json"
+      "name": "Physical Sciences",
+      "records": 1300,
+      "sessions": 19,
+      "source_verified_marked": 901,
+      "review_flagged": 364,
+      "core_field_checks_pending": 86,
+      "syllabus_mapping": "pending",
+      "provenance": "Integration subjects.json metadata; counts may overlap and do not prove full visual proofreading",
+      "question_bank_sha": "91cfdf3b2c0367e79c8a8386b702f7f622cfc26c",
+      "status": "partial"
     },
     "03": {
-      "paper_ii_questions_reported": 1300,
-      "base_records_reported": 1250,
-      "sep16_overlay_reported": 50,
-      "source_verified_base_reported": 1004,
-      "review_flags_reported": 314,
-      "status": "partial; broader source review and mapping pending"
+      "name": "Chemical Sciences",
+      "records_expected": 1300,
+      "base_records": 1250,
+      "sep16_paper_ii_overlay": 50,
+      "base_source_verified_marked": 1004,
+      "review_flagged": 314,
+      "syllabus_mapping": "pending",
+      "provenance": "Integration subjects.json metadata; loader is expected to append the 50-question Paper-II overlay and deduplicate by ID",
+      "base_question_bank_sha": "6a91730fe4534c11fc4e421d550796cc5799f25d",
+      "status": "partial"
     }
+  },
+  "mapping_rollup_for_codes_28_to_33": {
+    "verified": 262,
+    "manually_reviewed_not_counted_as_verified": 140,
+    "provisional": 730,
+    "ambiguous": 14,
+    "pending": 654,
+    "note": "Music's 140 manually reviewed units remain in their own category; ambiguous Music mappings are not counted as verified."
   },
   "pr_status": {
     "4": "open_draft_unmerged",
@@ -120,11 +193,108 @@
     "11": "open_unmerged",
     "12": "open_unmerged",
     "14": "open_unmerged",
-    "15": "open_unmerged",
+    "15": "open_draft_unmerged",
     "16": "merged",
-    "17": "open_draft_unmerged",
-    "18": "open_unmerged",
-    "19": "open_unmerged"
+    "17": "open_draft_unmerged_blocked_from_integration_because_it_modifies_Code_01",
+    "18": "open_unmerged_diverged",
+    "19": "open_draft_unmerged_diverged",
+    "20": "open_draft_outside_current_scope_Code_27"
   },
-  "tooling_note": "GitHub connector returned zero-byte/empty content for large Physical and Chemical question JSON files; no writes to question banks were attempted. Exact current CI runs were found on subject PR commits, not the current integration head."
+  "branch_integration_findings": [
+    "All examined subject PR branches have diverged from the current integration branch; they are not safe fast-forward integrations.",
+    "PR #19 Hindu Studies question bank file is byte-identical to the integrated bank; its mapping and audit status must be read from current integration files, not the PR description.",
+    "PR #18 Music bank has the same 300 IDs as integration but differs on 45 Gujarati stems, 31 Gujarati option arrays, 183 provenance values, 146 source_verified values, 52 review flags, 38 unit assignments and all 300 verification/review notes; do not copy wholesale.",
+    "PR #10 Performing Arts, #11 IKS, #4 Public Administration and #12 Visual Art each have large field-level differences from current integration banks. Preserve current data and resolve only with source evidence.",
+    "PR #17 changes Mathematical Sciences Code 01 question and paper files; never integrate it under the current HOLD rule."
+  ],
+  "changes_made_in_this_execution": [
+    {
+      "path": "PROJECT_STATE.json",
+      "commit": "cc687abc1ccc7c8a8142960219bdeca31c214311",
+      "action": "created"
+    },
+    {
+      "path": "MASTER_PROGRESS.md",
+      "commit": "255cd5e46c01d45fb9a7a74b4df08ff780ca78f4",
+      "action": "created"
+    },
+    {
+      "path": "VERIFICATION_LOG.json",
+      "commit": "377f3d6772c2edf06978caca50f628000c353420",
+      "action": "created"
+    },
+    {
+      "path": "CHANGE_HISTORY.md",
+      "commit": "025dcce8a90ecfff3dd0ee14a256e8eca7b82131",
+      "action": "created"
+    },
+    {
+      "path": "assets/subjects/syllabus_units.json",
+      "commit": "b76df8c65e191b558ed82841f098626a23194c3e",
+      "action": "added official Hindu Studies and Music unit records"
+    },
+    {
+      "path": "assets/subjects/music/verification_pending.json",
+      "commit": "4235ac24301e8be12053a011405a7a9863e0994f",
+      "action": "corrected stale answer-key visual-check status and remaining question/mapping gates"
+    },
+    {
+      "path": "assets/subjects/subjects.json",
+      "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+      "action": "synchronized six subject progress descriptions with current integrated records"
+    }
+  ],
+  "no_changes_made": [
+    "No question stems/options/answers or question IDs edited",
+    "No Paper-I UI or feature files edited",
+    "No Code 01 files edited",
+    "No PR merged and no branch force-pushed"
+  ],
+  "ci": {
+    "integration_workflow": "Integration Debug APK",
+    "successful_run": {
+      "run_id": 41012595587,
+      "commit": "025dcce8a90ecfff3dd0ee14a256e8eca7b82131",
+      "conclusion": "success",
+      "flutter_analyze": "success; log says No issues found",
+      "debug_apk_build": "success",
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_id": 12957748495,
+      "artifact_size_bytes": 113034941,
+      "artifact_zip_sha256": "8cc0e47c8b31a0db91c4788c3c750ed62080dc9241ff0ceafeee08ee632811ed",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41012595587"
+    },
+    "metadata_commit_runs_in_progress_at_last_check": [
+      {
+        "run_id": 41013260988,
+        "commit": "b76df8c65e191b558ed82841f098626a23194c3e"
+      },
+      {
+        "run_id": 41013293269,
+        "commit": "4235ac24301e8be12053a011405a7a9863e0994f"
+      },
+      {
+        "run_id": 41013333491,
+        "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f"
+      }
+    ],
+    "flutter_test": "not run in the integration workflow",
+    "subject_validator_status": "Historical PR-commit validators passed for Physical, Chemical, Hindu, IKS and Visual Art; Performing Arts and Music current integration validators not proven on the current head."
+  },
+  "official_syllabus_sources": {
+    "gset_bulletin": "https://gujaratset.ac.in/assets/download/info-bulletin-gset-2025-1.4.pdf",
+    "hindu_studies": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+    "music": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+    "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
+  },
+  "next_tasks": [
+    "Complete source-page visual audit for Physical/Chemical records still flagged or with incomplete core fields, and finish official unit mapping.",
+    "Review the 300 IKS original source pages; preserve all 300 review flags until each is visually verified; continue 109 provisional/191 pending mappings.",
+    "Music: visually proofread 146 remaining stems/options and resolve 14 ambiguous plus 146 provisional stream-specific mappings.",
+    "Performing Arts: resolve six bilingual discrepancies and visually review 200 pending source-text/transcription records; finish 135 provisional/165 pending mappings.",
+    "Public Administration: visually audit 300 stems/options and adjudicate three disputed questions; finish 164 provisional/136 pending mappings.",
+    "Visual Art: proofread 256 records, resolve 14 content concerns, finish 138 provisional/162 pending mappings.",
+    "Hindu Studies: resolve 40 review flags and 38 provisional mappings.",
+    "Run flutter test and all subject-specific validators against current integration; check final integration build runs #19–#21 and the follow-up register build."
+  ]
 }

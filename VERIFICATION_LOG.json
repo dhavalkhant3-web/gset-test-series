@@ -1,31 +1,134 @@
 [
   {
     "date": "2026-10-30",
-    "event": "Repository audit",
-    "facts": {
-      "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
-      "integration": "8f626ab969c8c25022df95057c3cb0e9a93d53dd",
-      "PR16_merge": "bedd33e6536e4eb35823049d62e1889c3f75e7a7"
-    },
+    "event": "Repository branch and PR audit",
+    "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
+    "integration_parent": "8f626ab969c8c25022df95057c3cb0e9a93d53dd",
+    "pr16_merge": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
+    "findings": [
+      "Current integration has 21 commits after PR #16 merge-base, including Hindu Studies and Music assets, generic Paper-II loader, duplicate-ID protection and integration Debug APK workflow",
+      "Examined PR branches diverge and contain materially changed records; no blind PR integration is safe",
+      "PR #17 modifies Code 01 files and is blocked by user HOLD"
+    ],
     "actions": [
-      "Fetched latest branch heads and subject PR metadata",
-      "Confirmed subject PRs remain open/unmerged",
-      "Fetched integration subject registry and syllabus units blob SHAs",
-      "Located historical CI runs and APK artifacts for subject PR commits"
+      "Created four durable master register files",
+      "Added official GSET Code 28 and Code 30 syllabus-unit catalogue entries",
+      "Corrected Music verification_pending stale answer-key visual audit labels and remaining counts",
+      "Synchronized six subject registry data_status summaries with actual current integrated records"
     ],
     "non_actions": [
-      "No question-bank content changed",
       "No PR merged",
-      "No Code 01 files edited"
-    ],
-    "limitations": [
-      "Large question JSON files were not readable through connector content response; no content inference/write attempted",
-      "No current integration-branch combined APK result verified"
+      "No question stems/options/answers edited",
+      "No Paper-I or Code 01 files modified",
+      "No force-push"
     ]
   },
   {
     "date": "2026-10-30",
-    "event": "Master register established",
-    "status": "snapshot of reported/PR-documented checkpoints; not independent source re-verification"
+    "event": "Integrated subject-bank record audit",
+    "subjects": {
+      "28": {
+        "total": 300,
+        "source_verified": 300,
+        "source_visual_proofread": 300,
+        "key_matches_recorded": 300,
+        "mapping": {
+          "verified": 262,
+          "provisional": 38,
+          "pending": 0
+        },
+        "flags": 40
+      },
+      "29": {
+        "total": 300,
+        "source_verified": 0,
+        "flags": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 109,
+          "pending": 191
+        },
+        "key_reconciliation_recorded": true
+      },
+      "30": {
+        "total": 300,
+        "visual_text_proofread": 154,
+        "visual_text_pending": 146,
+        "gujarati_fields": 300,
+        "key_visual_checked": 300,
+        "key_mismatches": 0,
+        "mapping": {
+          "manual_reviewed": 140,
+          "ambiguous": 14,
+          "provisional": 146
+        },
+        "flags": 212
+      },
+      "31": {
+        "total": 300,
+        "source_verified": 94,
+        "source_review_flags": 206,
+        "pending_text_review": 200,
+        "bilingual_discrepancies": 6,
+        "mapping": {
+          "verified": 0,
+          "provisional": 135,
+          "pending": 165
+        }
+      },
+      "32": {
+        "total": 300,
+        "source_verified": 0,
+        "flags": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 164,
+          "pending": 136
+        }
+      },
+      "33": {
+        "total": 300,
+        "source_verified": 30,
+        "pending_proofread": 256,
+        "content_flags": 14,
+        "mapping": {
+          "verified": 0,
+          "provisional": 138,
+          "pending": 162
+        }
+      }
+    },
+    "notes": [
+      "Physical/Chemical large source banks were not fully reparsed; use integration subjects.json counts and preserve uncertainty",
+      "All six parsed subject banks had 300 unique question IDs and expected 100-per-session distributions at the integration snapshot; no question JSON was edited"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Official syllabus catalogue update",
+    "sources": [
+      "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+      "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+      "https://gujaratset.ac.in/assets/download/info-bulletin-gset-2025-1.4.pdf"
+    ],
+    "result": "Added 10 official unit entries each for Hindu Studies Code 28 and Music Code 30. Music units I–IV common; V–X are stream-specific. No question-level mappings changed."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Music pending-audit reconciliation",
+    "result": "Changed Music pending gates from 200 to 146 question text reviews; 14 ambiguous + 146 provisional stream-specific mappings; corrected Dec 2024 and Nov 2025 paper statuses to key_visual_checked_100 based on recorded 100/100 visual checks each."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Integration workflow run #18",
+    "commit": "025dcce8a90ecfff3dd0ee14a256e8eca7b82131",
+    "run_id": 41012595587,
+    "conclusion": "success",
+    "flutter_analyze": "success; No issues found",
+    "debug_apk": "success",
+    "artifact_id": 12957748495,
+    "artifact_name": "gset-test-series-integration-debug-apk",
+    "artifact_zip_sha256": "8cc0e47c8b31a0db91c4788c3c750ed62080dc9241ff0ceafeee08ee632811ed",
+    "note": "Run #18 is prior to the metadata-only updates; follow-up runs #19–#21 were in progress at last check."
   }
 ]
