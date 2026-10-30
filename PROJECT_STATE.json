@@ -1,0 +1,130 @@
+{
+  "project": "GSET Test Series",
+  "repository": "dhavalkhant3-web/gset-test-series",
+  "updated_at": "2026-10-30",
+  "branch_snapshot": {
+    "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
+    "integration": "8f626ab969c8c25022df95057c3cb0e9a93d53dd",
+    "integration_pr_16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7"
+  },
+  "rules": {
+    "single_existing_android_app": true,
+    "paper_i_unchanged": true,
+    "mathematical_sciences_code_01": "HOLD_DO_NOT_MODIFY",
+    "no_pr_merge_without_explicit_authorization": true,
+    "no_bulk_question_bank_overwrite": true,
+    "official_gset_papers_and_final_keys_authoritative": true
+  },
+  "scope": [
+    "02",
+    "03",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33"
+  ],
+  "subject_checkpoints": {
+    "28": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "visual_question_review_pr_claim": 300,
+      "mapping": {
+        "verified": 253,
+        "provisional": 34,
+        "pending": 13
+      },
+      "review_flags_pr_claim": 49,
+      "status": "PR #19 open/unmerged; values are PR description claims, reconcile against latest current data"
+    },
+    "29": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "mapping": {
+        "provisional": 163,
+        "pending": 137,
+        "verified": 0
+      },
+      "status": "PR #11 open/unmerged; current integration status says all 300 still flagged pending original-page source review"
+    },
+    "30": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "english_gujarati_visual_proofread_pr_claim": 300,
+      "gujarati_fields_pr_claim": 300,
+      "mapping": {
+        "manually_reviewed": 140,
+        "ambiguous": 14,
+        "provisional_or_stream_review_pending": 146
+      },
+      "review_flags_pr_claim": 160,
+      "status": "PR #18 open/unmerged; syllabus mapping and stream assignment incomplete"
+    },
+    "31": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "visual_review_claim": "300/300 in PR description; prior integration metadata is stale/contradictory",
+      "status": "PR #10 open/unmerged; inspect latest subject PR and integration base before using data"
+    },
+    "32": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "disputed_items": [
+        "Dec 2024 Q24",
+        "Dec 2024 Q35",
+        "Nov 2025 Q17"
+      ],
+      "question_source_review": "pending",
+      "mapping": {
+        "provisional": 134,
+        "pending": 166,
+        "verified": 0
+      },
+      "status": "PR #4 open draft/unmerged"
+    },
+    "33": {
+      "questions_reported": 300,
+      "answer_key_matches_pr_claim": 300,
+      "figure_source_reviewed": 30,
+      "review_flags": 14,
+      "mapping": {
+        "provisional": 13,
+        "pending": 287,
+        "verified": 0
+      },
+      "status": "PR #12 open/unmerged"
+    },
+    "02": {
+      "paper_ii_questions_reported": 1300,
+      "sessions_reported": 19,
+      "source_verified_reported": 901,
+      "review_flagged_reported": 364,
+      "core_field_checks_pending_reported": 86,
+      "mapping": "pending",
+      "status": "partial; subject-level source_verified false",
+      "source": "integration/combined-subject-banks assets/subjects/subjects.json"
+    },
+    "03": {
+      "paper_ii_questions_reported": 1300,
+      "base_records_reported": 1250,
+      "sep16_overlay_reported": 50,
+      "source_verified_base_reported": 1004,
+      "review_flags_reported": 314,
+      "status": "partial; broader source review and mapping pending"
+    }
+  },
+  "pr_status": {
+    "4": "open_draft_unmerged",
+    "10": "open_unmerged",
+    "11": "open_unmerged",
+    "12": "open_unmerged",
+    "14": "open_unmerged",
+    "15": "open_unmerged",
+    "16": "merged",
+    "17": "open_draft_unmerged",
+    "18": "open_unmerged",
+    "19": "open_unmerged"
+  },
+  "tooling_note": "GitHub connector returned zero-byte/empty content for large Physical and Chemical question JSON files; no writes to question banks were attempted. Exact current CI runs were found on subject PR commits, not the current integration head."
+}
