@@ -356,25 +356,84 @@ class PaperIIDataService {
       } else if (decoded is Map && decoded['questions'] is List) {
         loaded.addAll((decoded['questions'] as List).map((e) => Map<String, dynamic>.from(e as Map)));
       }
-      // Paper-specific verified archives can be stored separately so a large
-      // subject question bank does not need to be rewritten for every paper.
+      // Paper-specific source-preserving archives are merged by question ID.
+      // Never append duplicate MCQs and then discard the verified overlay: that
+      // would silently keep stale OCR text/options/answers from the base record.
       if (subjectId == 'physical_sciences') {
-        // September 2016 Paper-II Q1-Q50 are already included in the
-        // 1,300-record base archive. Do not append the legacy overlay again.
-        // The separate Paper-III archive is never loaded into Paper-II.
-        // Source-verified Dec 2024 additions are kept separately until
-        // the full paper audit is complete; this avoids risky edits to the
-        // large historical question bank.
+        void mergePhysicalOverlay(List<dynamic> items, Set<String> fields) {
+          for (final item in items) {
+            if (item is! Map) continue;
+            final overlay = Map<String, dynamic>.from(item);
+            final id = (overlay['id'] ?? '').toString().trim();
+            if (id.isEmpty) continue;
+            final index = loaded.indexWhere(
+              (question) => (question['id'] ?? '').toString() == id,
+            );
+            if (index < 0) {
+              loaded.add(overlay);
+              continue;
+            }
+            for (final field in fields) {
+              if (!overlay.containsKey(field)) continue;
+              final value = overlay[field];
+              // Empty overlay explanations are placeholders, not instructions
+              // to erase an existing explanation in the base question bank.
+              if ((field == 'explanation_en' || field == 'explanation_gu') &&
+                  value is String && value.trim().isEmpty) {
+                continue;
+              }
+              loaded[index][field] = value;
+            }
+          }
+        }
+
+        // September 2016 Paper-II Q1-Q50 already exist in the base archive.
+        // Merge the source-preserving records so corrected stems/options,
+        // official answers and review flags replace stale OCR fields by ID.
         try {
-          final extra = jsonDecode(await rootBundle.loadString(
-            'assets/subjects/physical_sciences/questions_dec24_verified_additions.json',
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_sep16_p2.json',
           ));
-          if (extra is List) {
-            loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {
+              'question_no', 'question_en', 'options_en', 'answer', 'topic',
+              'difficulty', 'review_flag', 'review_note', 'source_verified',
+              'source', 'tip_en', 'tip_gu',
+            });
           }
         } catch (_) {}
-        // Keep official-key corrections as a small overlay so the large
-        // historical question bank does not need a risky full-file rewrite.
+
+        // December 2024 verified additions repair OCR-damaged stems/options
+        // in existing records; merge them instead of losing them to deduplication.
+        try {
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_dec24_verified_additions.json',
+          ));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {
+              'question_no', 'question_en', 'options_en', 'answer', 'topic',
+              'difficulty', 'image_asset', 'review_flag', 'review_note',
+              'source_verified', 'source',
+            });
+          }
+        } catch (_) {}
+
+        // Reconcile the September 2018 records against the official final key.
+        // OCR-damaged stems remain flagged even when their official answer is known.
+        try {
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/sept18_source_review.json',
+          ));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {
+              'answer', 'explanation_en', 'explanation_gu', 'tip_en', 'tip_gu',
+              'source_verified', 'review_flag', 'review_note',
+              'verification_status', 'evaluation_status', 'not_evaluated',
+            });
+          }
+        } catch (_) {}
+
+        // Keep official December 2024 final-key corrections authoritative.
         try {
           final corrections = jsonDecode(await rootBundle.loadString(
             'assets/subjects/physical_sciences/dec24_answer_corrections.json',
