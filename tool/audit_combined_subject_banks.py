@@ -24,6 +24,7 @@ EXCLUDED_CODE = "01"
 ANSWERS = {"A", "B", "C", "D", "X", "Z"}
 SOURCE_FLAG_TERMS = re.compile(r"pending|review|not verified|not yet|unclear|unresolved|incomplete|not transcribed|needs|remain|audit", re.I)
 GUJARATI_SCRIPT = re.compile(r"[\u0A80-\u0AFF]")
+LATIN_SCRIPT = re.compile(r"[A-Za-z]")
 
 def load(path):
     try:
@@ -88,33 +89,41 @@ def main():
             elif code == "28":
                 # Official Hindu Studies source is English-only in Nov 2023 and Dec 2024;
                 # the Nov 2025 paper is bilingual. Never fabricate Gujarati for prior sessions.
-                gujarati_expected = "nov25" in session.lower()
-                gujarati_present = (
-                    isinstance(qgu, str) and bool(qgu.strip()) and
+                session_l = session.lower()
+                gujarati_expected = (
+                    "nov25" in session_l or
+                    "november 2025" in session_l or
+                    ("hindu_studies" in session_l and "2025" in session_l)
+                )
+                valid_options_gu = (
                     isinstance(ogu, list) and len(ogu) == 4 and
                     all(isinstance(x, str) and x.strip() for x in ogu)
                 )
+                gujarati_stem_present = isinstance(qgu, str) and bool(GUJARATI_SCRIPT.search(qgu))
+                gujarati_present = gujarati_stem_present and valid_options_gu
                 if gujarati_expected and not gujarati_present:
                     counters["gujarati_source_transcription_missing"] += 1
-                elif not gujarati_expected and gujarati_present:
+                elif not gujarati_expected and gujarati_stem_present:
                     counters["unexpected_gujarati_for_english_source"] += 1
                 if gujarati_present:
-                    if not GUJARATI_SCRIPT.search(qgu) or not all(GUJARATI_SCRIPT.search(x) for x in ogu):
-                        counters["question_or_option_gu_has_no_gujarati_script"] += 1
-                    else:
-                        counters["gujarati_source_fields_populated"] += 1
+                    counters["gujarati_source_fields_populated"] += 1
+                elif gujarati_expected and qgu and not gujarati_stem_present:
+                    counters["gujarati_stem_missing_script"] += 1
+                if gujarati_present and any(LATIN_SCRIPT.search(x) for x in ogu):
+                    counters["gujarati_options_contain_latin_text"] += 1
             elif code == "30":
-                gujarati_present = (
-                    isinstance(qgu, str) and bool(qgu.strip()) and
+                valid_options_gu = (
                     isinstance(ogu, list) and len(ogu) == 4 and
                     all(isinstance(x, str) and x.strip() for x in ogu)
                 )
+                gujarati_stem_present = isinstance(qgu, str) and bool(GUJARATI_SCRIPT.search(qgu))
+                gujarati_present = gujarati_stem_present and valid_options_gu
                 if not gujarati_present:
                     counters["gujarati_source_transcription_missing"] += 1
-                elif not GUJARATI_SCRIPT.search(qgu) or not all(GUJARATI_SCRIPT.search(x) for x in ogu):
-                    counters["question_or_option_gu_has_no_gujarati_script"] += 1
                 else:
                     counters["gujarati_source_fields_populated"] += 1
+                if gujarati_stem_present and valid_options_gu and any(LATIN_SCRIPT.search(x) for x in ogu):
+                    counters["gujarati_options_contain_latin_text"] += 1
                 provenance = str(q.get("gujarati_source") or "").lower()
                 if gujarati_present and "visually checked" in provenance:
                     counters["gujarati_source_visual_proofread"] += 1
@@ -128,15 +137,17 @@ def main():
                     counters["gujarati_source_transcription_missing"] += 1
                 if isinstance(qgu, str) and qgu.strip() and not GUJARATI_SCRIPT.search(qgu):
                     counters["question_gu_has_no_gujarati_script"] += 1
-                if isinstance(ogu, list) and any(str(x).strip() for x in ogu) and not all(not str(x).strip() or GUJARATI_SCRIPT.search(str(x)) for x in ogu):
-                    counters["option_gu_has_non_gujarati_entries"] += 1
+                if isinstance(ogu, list) and any(str(x).strip() for x in ogu) and any(LATIN_SCRIPT.search(str(x)) for x in ogu):
+                    counters["option_gu_has_latin_text"] += 1
             # Record unresolved source state, never upgrading any flag.
+            # Keep source verification and review flags as independent dimensions.
+            # A verified source page can still carry a separate content/mapping concern.
+            if q.get("source_verified") is True:
+                counters["source_verified_records"] += 1
             if q.get("review_flag") is True or q.get("source_verified") is False:
                 counters["source_review_required"] += 1
                 if len(unresolved_examples) < 20:
                     unresolved_examples.append(qid)
-            elif q.get("source_verified") is True:
-                counters["source_verified_records"] += 1
             # Verify every declared unit number actually exists; keep pending if not explicitly mapped.
             unit_values = [q.get(k) for k in ("syllabus_unit", "unit_number") if q.get(k) not in (None, "")]
             unit_id_values = [q.get(k) for k in ("unit_id", "unitId") if q.get(k) not in (None, "")]
