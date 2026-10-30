@@ -17,7 +17,8 @@
     "integration_parent_before_register_refresh": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
     "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
     "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132",
-    "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f"
+    "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+    "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -160,13 +161,23 @@
       "name": "Physical Sciences",
       "records": 1300,
       "sessions": 19,
-      "source_verified_marked": 901,
+      "source_verified_marked": 892,
       "review_flagged": 364,
       "core_field_checks_pending": 86,
       "syllabus_mapping": "pending",
       "provenance": "Integration subjects.json metadata; counts may overlap and do not prove full visual proofreading",
       "question_bank_sha": "91cfdf3b2c0367e79c8a8386b702f7f622cfc26c",
-      "status": "partial"
+      "status": "partial",
+      "source_unverified": 408,
+      "review_flags": 374,
+      "source_review_required_union": 430,
+      "malformed_option_records": 213,
+      "malformed_option_records_already_review_flagged": 213,
+      "unit_mapping": {
+        "missing": 581,
+        "provisional_or_unverified_declared": 719
+      },
+      "schema_note": "85 records use valid options.A-D dictionaries; the validator previously misclassified them because it checked options_en only. Schema-aware count is 213 unresolved options, not 298."
     },
     "03": {
       "name": "Chemical Sciences",
@@ -178,7 +189,28 @@
       "syllabus_mapping": "pending",
       "provenance": "Integration subjects.json metadata; loader is expected to append the 50-question Paper-II overlay and deduplicate by ID",
       "base_question_bank_sha": "6a91730fe4534c11fc4e421d550796cc5799f25d",
-      "status": "partial"
+      "status": "partial",
+      "base_review_flags": 315,
+      "september_2016_paper_ii_overlay": {
+        "records": 50,
+        "unique_ids": 50,
+        "source_verified": 50,
+        "review_flags": 1,
+        "overlap_with_base_ids": 0
+      },
+      "paper_ii_total": 1300,
+      "paper_iii_records": 75,
+      "malformed_option_record": {
+        "id": "chemical_jul06_q42",
+        "answer": "C",
+        "source_verified": true,
+        "review_flag": true,
+        "issue": "options_en is a single string rather than an A-D option array; question/answer retained"
+      },
+      "unit_mapping": {
+        "missing": 540,
+        "provisional_or_unverified_declared": 710
+      }
     }
   },
   "mapping_rollup_for_codes_28_to_33": {
@@ -244,13 +276,22 @@
       "path": "assets/subjects/subjects.json",
       "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
       "action": "synchronized six subject progress descriptions with current integrated records"
+    },
+    {
+      "path": "assets/subjects/chemical_sciences/questions.json",
+      "action": "added review_flag and review_note to chemical_jul06_q42 only; did not change question, options or answer",
+      "parent_blob_sha": "6a91730fe4534c11fc4e421d550796cc5799f25d"
+    },
+    {
+      "path": "tool/audit_combined_subject_banks.py",
+      "action": "support both options_en list and options A-D object when validating English options"
     }
   ],
   "no_changes_made": [
-    "No question stems/options/answers or question IDs edited",
     "No Paper-I UI or feature files edited",
     "No Code 01 files edited",
-    "No PR merged and no branch force-pushed"
+    "No PR merged and no branch force-pushed",
+    "No question stem, options or answer text edited; one existing Chemical Sciences record received a review flag/note for a malformed options field."
   ],
   "ci": {
     "integration_workflow": "Integration Debug APK",
@@ -456,5 +497,22 @@
       }
     },
     "note": "The audit reports source_verified independently of review_flag; flagged content/mapping questions remain open even when their original source page was visually verified. Missing tip counters on Codes 28/30 are structural fields reported empty by the audit and need product-owner decision before adding explanations."
+  },
+  "option_schema_reconciliation": {
+    "physical_schema_counts": {
+      "total": 1300,
+      "options_en_array": 1215,
+      "options_object_A_to_D": 85,
+      "valid_after_normalization": 1087,
+      "invalid_after_normalization": 213,
+      "all_213_invalid_already_flagged": true
+    },
+    "chemical_schema_counts": {
+      "base_total": 1250,
+      "valid_after_normalization": 1249,
+      "invalid_after_normalization": 1,
+      "malformed_question_id": "chemical_jul06_q42",
+      "malformed_flag_added": true
+    }
   }
 }

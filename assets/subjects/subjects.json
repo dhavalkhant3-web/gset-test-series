@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. The September 2016 Q1-Q50 legacy overlay duplicates records already present in the base bank and is excluded by the loader. The separate 75-question September 2016 Paper-III archive is excluded from Paper-II. Current audit metadata: 901 records marked source_verified=true; 364 retain review_flag=true; 86 core-field checks remain outstanding. These indicators overlap and do not certify full question-by-question visual verification. Official syllabus unit mapping remains pending; subject-level source_verified remains false."
+      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. Schema-aware audit: 892 records have source_verified=true; 374 retain review_flag=true (these dimensions overlap). 213 records have incomplete/blank option data after both supported option schemas are normalized; all 213 are already source_verified=false and review_flag=true. The earlier 298 invalid-option count was a false positive because 85 records store valid A-D options in an `options` object rather than `options_en`. 581 mappings have no declared unit; 719 declared assignments remain provisional/unverified. The separate 75-question September 2016 Paper-III archive remains excluded from Paper-II. Subject-level source_verified remains false."
     },
     {
       "code": "03",
@@ -48,7 +48,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "1300 Paper-II records expected after combining 1250 base-bank records with 50 September 2016 Paper-II overlay questions. The combined app loader adds the overlay and deduplicates IDs. 1004 base records are marked source_verified=true; 314 review flags remain. Full source review and syllabus mapping remain incomplete."
+      "data_status": "Paper-II archive: 1,250 base-bank records plus the 50-question September 2016 Paper-II overlay = 1,300 unique Paper-II records; the overlay has no IDs duplicated against the base bank. Base: 1,004 source_verified=true, 315 review_flag=true after flagging the malformed July 2006 Q42 options field. September 2016 Paper-II overlay: 50 source_verified=true, one flagged question (Q4; retain official key B). Base has 540 missing syllabus unit assignments and 710 provisional/unverified declared assignments. One base record, July 2006 Q42, stores options_en as a single string rather than a four-option array; source and answer text are retained, and a review flag now requests exact transcription from the official page. The separate 75-question September 2016 Paper-III bank remains separate from Paper-II. Subject-level source_verified remains false."
     },
     {
       "code": "04",

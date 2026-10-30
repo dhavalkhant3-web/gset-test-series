@@ -251,5 +251,47 @@
       }
     },
     "note": "source_verified and review_flag are independent dimensions; do not collapse counts."
+  },
+  {
+    "date": "2026-10-30",
+    "event": "Physical/Chemical option-schema reconciliation",
+    "parent_commit": "bd87675a38e77ebf7c9a06478b2ef77af3217948",
+    "actions": [
+      "Validator now normalizes both options_en arrays and options A-D dictionaries",
+      "Identified 85 valid Physical Sciences question records previously misclassified due schema variation",
+      "Added a review flag and note to Chemical Sciences July 2006 Q42 because its options_en field is a single string, retaining the question, option string, answer C and source_verified=true"
+    ],
+    "metrics": {
+      "02": {
+        "total": 1300,
+        "unique_ids": 1300,
+        "source_verified": 892,
+        "review_flagged": 374,
+        "source_review_required_union": 430,
+        "valid_options_after_schema_normalization": 1087,
+        "invalid_option_records": 213,
+        "invalid_option_records_already_flagged": 213,
+        "unit_pending": 581,
+        "unit_provisional": 719
+      },
+      "03": {
+        "base_total": 1250,
+        "base_unique_ids": 1250,
+        "base_source_verified": 1004,
+        "base_review_flags_after_q42": 315,
+        "sep16_paper_ii_overlay": 50,
+        "overlay_source_verified": 50,
+        "overlay_review_flags": 1,
+        "base_overlay_id_overlap": 0,
+        "paper_ii_combined_total": 1300,
+        "paper_iii_separate_total": 75,
+        "malformed_option_record": "chemical_jul06_q42",
+        "answer": "C",
+        "review_flag": true,
+        "unit_pending": 540,
+        "unit_provisional": 710
+      }
+    },
+    "note": "No question stem, option or answer text edited. The only question-record change was adding a review_flag and explanatory review_note to malformed Chemical Q42."
   }
 ]

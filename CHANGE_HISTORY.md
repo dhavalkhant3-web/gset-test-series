@@ -24,3 +24,9 @@
 - Adjusted `tool/validate_syllabus_mapping.py` to keep provisional/ambiguous/manual-review statuses unverified.
 - Combined bank audit run #278 succeeded with zero errors. The integration Debug APK run #25 for the same commit was still in progress at the last check.
 - No question-bank records, answer keys, Paper-I files or Code 01 files changed.
+
+## 2026-10-30 — Physical/Chemical source-option audit
+- Updated the combined validator to accept both `options_en` arrays and valid `options: {A,B,C,D}` dictionaries. Physical Sciences had 85 valid dictionary-format records that were previously false-positive invalids.
+- Physical Sciences now has 213 genuinely incomplete option records; every one was already source_unverified and review_flagged. No question record was modified for Code 02.
+- Chemical Sciences base has one malformed record: July 2006 Q42 has `options_en` as a single string. Added `review_flag=true` and a source-review note only; retained the original text and answer C. Official PDF source URL: `https://gujaratset.ac.in/assets/papers/paperII/jy06/jy0603.pdf`.
+- Verified the Sep 2016 Paper-II overlay has 50 unique IDs, no overlap with the 1,250 base IDs, and all 50 carry source_verified=true; Q4 remains flagged with official key B. The 75 Paper-III questions remain in a separate file.

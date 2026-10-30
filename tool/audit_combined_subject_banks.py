@@ -70,7 +70,12 @@ def main():
             en = q.get("question_en", "")
             if not isinstance(en, str) or not en.strip():
                 counters["missing_question"] += 1
-            if not meaningful_string_list(q.get("options_en")) or len(q.get("options_en", [])) != 4 or any(not str(x).strip() for x in q.get("options_en", [])):
+            option_values = q.get("options_en")
+            if not isinstance(option_values, list):
+                option_map = q.get("options")
+                if isinstance(option_map, dict):
+                    option_values = [option_map.get(letter) for letter in ("A", "B", "C", "D")]
+            if not meaningful_string_list(option_values) or len(option_values) != 4 or any(not str(x).strip() for x in option_values):
                 counters["invalid_english_options"] += 1
             ans = str(q.get("answer") or "")
             if ans not in ANSWERS:
