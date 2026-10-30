@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Reconciled against question-level evidence on 2026-10-30 after visual comparison with the supplied original official GSET question-paper PDFs.",
+  "generated_from": "Reconciled against question-level evidence on 2026-10-30 after high-resolution visual comparison with the supplied original official GSET bilingual question-paper PDFs.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -36,12 +36,12 @@
     }
   },
   "fully_verified_questions": 140,
-  "source_verified_field_count": 298,
+  "source_verified_field_count": 300,
   "review_flags": 160,
   "remaining_gates": [
-    "Visually proofread November 2025 Music questions Q52–Q53 against the original official bilingual paper; their Gujarati matching-list notation remains pending. Do not mark them source-verified until all stems, list entries and option sequences are confirmed.",
-    "Manually adjudicate 14 ambiguous syllabus mappings (November 2023: Q61–66, Q71–74, Q91–92; December 2024: Q26 and Q36) and complete 146 provisional mappings (December 2024: Q55–Q100; November 2025: Q1–Q100) against the official Music syllabus code 16 and the correct stream-specific content. Do not infer Units V–X without confirming the relevant Music stream.",
-    "Run the Music validator, unit tests, and Android debug APK build on the latest PR head. Do not merge until all checks pass and user explicitly authorizes merging."
+    "Manually adjudicate 14 ambiguous syllabus mappings (November 2023: Q61–66, Q71–74, Q91–92; December 2024: Q26 and Q36).",
+    "Complete 146 provisional mappings (December 2024: Q55–Q100; November 2025: Q1–Q100) against the official Music syllabus code 16. Confirm the relevant Music stream before finalizing stream-specific Units V–X; do not guess.",
+    "Run/verify the latest Music validator, unit tests and Android debug APK build. Do not merge without explicit user authorization."
   ],
   "papers": [
     {
@@ -93,33 +93,33 @@
       "gujarati_missing": 0,
       "missing_question_numbers": [],
       "missing_ranges": [],
-      "english_visual_proofread": false,
-      "gujarati_visual_proofread": false,
+      "english_visual_proofread": true,
+      "gujarati_visual_proofread": true,
       "syllabus_mapping_status": "0/100 mappings manually reviewed; 0 ambiguous; 100 provisional/pending",
-      "visual_questions_checked_count": 98,
+      "visual_questions_checked_count": 100,
       "syllabus_mapping_manual_reviewed_count": 0,
       "answer_key_visual_checked_count": 100,
-      "source_verified": false,
-      "question_source_verified": false,
+      "source_verified": true,
+      "question_source_verified": true,
       "syllabus_mapping_ambiguous_count": 0,
       "answer_key_visual_mismatches": 0,
-      "visual_proofreading_status": "98/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_98;key_visual_checked_100;mapping_reviewed_0;100_review_flags",
-      "review_note": "98/100 source visual checks, 0/100 manually reviewed mappings, 0 ambiguous mappings, 100 provisional/pending mappings, and 100/100 visually checked answer keys. 100 records remain flagged."
+      "visual_proofreading_status": "100/100 English/Gujarati stems/options visually checked",
+      "status": "source_proofread_100;key_visual_checked_100;mapping_reviewed_0;100_review_flags",
+      "review_note": "100/100 source visual checks, 0/100 manually reviewed mappings, 0 ambiguous mappings, 100 provisional/pending mappings, and 100/100 visually checked answer keys. 100 records remain flagged."
     }
   ],
   "visual_audit_progress": {
     "total_questions": 300,
-    "visually_proofread_questions": 298,
-    "remaining_questions": 2,
-    "english_stem_and_options_checked": 298,
-    "gujarati_stem_and_options_checked": 298,
+    "visually_proofread_questions": 300,
+    "remaining_questions": 0,
+    "english_stem_and_options_checked": 300,
+    "gujarati_stem_and_options_checked": 300,
     "figures_symbols_tables_checked": 100,
     "unit_mapping_manual_reviewed": 140,
     "unit_mapping_ambiguous": 14,
     "answer_key_visual_checked": 300,
     "answer_key_visual_remaining": 0,
-    "note": "Counts are derived from question-level evidence. Only source_verified=true records were counted as visually proofread. Mapping counts and answer-key checks are separate gates."
+    "note": "All 300 question stems, Gujarati transcriptions, four options and option order have been visually checked against the original official bilingual question-paper PDFs. Figures/symbols review count 100 is retained only for the documented November 2023 audit batch. Syllabus mappings remain a separate incomplete gate."
   },
   "official_syllabus_source": {
     "url": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
@@ -248,10 +248,7 @@
       ]
     },
     "music_nov25": {
-      "source_proofreading_pending_question_numbers": [
-        52,
-        53
-      ],
+      "source_proofreading_pending_question_numbers": [],
       "ambiguous_mapping_question_numbers": [],
       "provisional_mapping_question_numbers": [
         1,
