@@ -7055,7 +7055,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 51,
     "question_en": "Choose the correct chronological sequence of sculptors based on their age.",
-    "question_gu": "Choose the correct chronological sequence of sculptors based on their age.",
+    "question_gu": "ઉંમરના આધારે શિલ્પકારોનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Shilpa Gupta, Subodh Gupta, Bharti Kher, Anish Kapoor",
       "Anish Kapoor, Subodh Gupta, Bharti Kher, Shilpa Gupta",
@@ -7063,10 +7063,10 @@
       "Bharti Kher, Anish Kapoor, Subodh Gupta, Shilpa Gupta"
     ],
     "options_gu": [
-      "Shilpa Gupta, Subodh Gupta, Bharti Kher, Anish Kapoor",
-      "Anish Kapoor, Subodh Gupta, Bharti Kher, Shilpa Gupta",
-      "Subodh Gupta, Anish Kapoor, Bharti Kher, Shilpa Gupta",
-      "Bharti Kher, Anish Kapoor, Subodh Gupta, Shilpa Gupta"
+      "શિલ્પા ગુપ્તા, સુબોધ ગુપ્તા, ભારતી ખેર, અનિશ કપૂર",
+      "અનિશ કપૂર, સુબોધ ગુપ્તા, ભારતી ખેર, શિલ્પા ગુપ્તા",
+      "સુબોધ ગુપ્તા, અનિશ કપૂર, ભારતી ખેર, શિલ્પા ગુપ્તા",
+      "ભારતી ખેર, અનિશ કપૂર, સુબોધ ગુપ્તા, શિલ્પા ગુપ્તા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -7086,13 +7086,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q051",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "વીસમી/એકવીસમી સદીના ભારતીય સમકાલીન શિલ્પકારો."
   },
   {
     "id": "visual_art_dec24_q52",
@@ -7100,7 +7102,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 52,
     "question_en": "Choose the correct chronological sequence of Western Sculptures.",
-    "question_gu": "Choose the correct chronological sequence of Western Sculptures.",
+    "question_gu": "પશ્ચિમી શિલ્પોનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Marcel Duchamp’s Fountain, Man Ray’s Cadeau, Constatin Brancusi’s Sleeping Muse, Alexander Calder’ four white discs red rubber",
       "Alexander Calder’ four white discs red rubber, Constatin Brancusi’s Sleeping Muse, Man Ray’s Cadeau, Marcel Duchamp’s Fountain",
@@ -7108,10 +7110,10 @@
       "Man Ray’s Cadeau, Marcel Duchamp’s Fountain, Constatin Brancusi’s Sleeping Muse, Alexander Calder’ four white discs red rubber"
     ],
     "options_gu": [
-      "Marcel Duchamp’s Fountain, Man Ray’s Cadeau, Constatin Brancusi’s Sleeping Muse, Alexander Calder’ four white discs red rubber",
-      "Alexander Calder’ four white discs red rubber, Constatin Brancusi’s Sleeping Muse, Man Ray’s Cadeau, Marcel Duchamp’s Fountain",
-      "Constatin Brancusi’s Sleeping Muse, Marcel Duchamp’s Fountain, Man Ray’s Cadeau, Alexander Calder’ four white discs red rubber",
-      "Man Ray’s Cadeau, Marcel Duchamp’s Fountain, Constatin Brancusi’s Sleeping Muse, Alexander Calder’ four white discs red rubber"
+      "માર્સેલ ડુશાંનું ફાઉન્ટન, મેન રેનું કાદો, કોન્સ્ટાન્ટિન બ્રાન્કુસીનું સ્લીપિંગ મ્યુઝ, એલેક્ઝાન્ડર કાલ્ડરના ફોર વ્હાઇટ ડિસ્ક્સ રેડ રબર",
+      "એલેક્ઝાન્ડર કાલ્ડરના ફોર વ્હાઇટ ડિસ્ક્સ રેડ રબર, કોન્સ્ટાન્ટિન બ્રાન્કુસીનું સ્લીપિંગ મ્યુઝ, મેન રેનું કાદો, માર્સેલ ડુશાંનું ફાઉન્ટન",
+      "કોન્સ્ટાન્ટિન બ્રાન્કુસીનું સ્લીપિંગ મ્યુઝ, માર્સેલ ડુશાંનું ફાઉન્ટન, મેન રેનું કાદો, એલેક્ઝાન્ડર કાલ્ડરના ફોર વ્હાઇટ ડિસ્ક્સ રેડ રબર",
+      "મેન રેનું કાદો, માર્સેલ ડુશાંનું ફાઉન્ટન, કોન્સ્ટાન્ટિન બ્રાન્કુસીનું સ્લીપિંગ મ્યુઝ, એલેક્ઝાન્ડર કાલ્ડરના ફોર વ્હાઇટ ડિસ્ક્સ રેડ રબર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -7131,13 +7133,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q052",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક પશ્ચિમી શિલ્પકૃતિઓ અને કલાકારો; Sculpture electiveનો વિશિષ્ટ વિષય."
   },
   {
     "id": "visual_art_dec24_q53",
@@ -7145,7 +7149,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 53,
     "question_en": "Arrange the leading brand across India in terms of weekly advertisement insertions.\na. Dettol antiseptic liquid\nb. Surf excel easy wash\nc. Colgate dental cream\nd. Kia Sonet\nChoose the correct answer from the options given below :",
-    "question_gu": "Arrange the leading brand across India in terms of weekly advertisement insertions.\na. Dettol antiseptic liquid\nb. Surf excel easy wash\nc. Colgate dental cream\nd. Kia Sonet\nChoose the correct answer from the options given below :",
+    "question_gu": "સાપ્તાહિક જાહેરાત ઇન્સર્શન્સના આધારે ભારતમાં અગ્રણી બ્રાન્ડ્સને ક્રમમાં ગોઠવો.\na. ડેટોલ એન્ટિસેપ્ટિક પ્રવાહી\nb. સર્ફ એક્સેલ ઇઝી વૉશ\nc. કોલગેટ ડેન્ટલ ક્રીમ\nd. કિયા સોનેટ\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "c, d, b, a",
       "d, b, c, a",
@@ -7176,13 +7180,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q053",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "જાહેરાત અને બ્રાન્ડ સંચાર; applied/visual communication સંદર્ભ."
   },
   {
     "id": "visual_art_dec24_q54",
@@ -7190,7 +7196,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 54,
     "question_en": "Arrange the correct sequence of Marketing.\na. Domestic\nb. Global\nc. International\nd. Multinational\nChoose the correct answer from the following :",
-    "question_gu": "Arrange the correct sequence of Marketing.\na. Domestic\nb. Global\nc. International\nd. Multinational\nChoose the correct answer from the following :",
+    "question_gu": "માર્કેટિંગનો યોગ્ય ક્રમ ગોઠવો.\na. સ્થાનિક\nb. વૈશ્વિક\nc. આંતરરાષ્ટ્રીય\nd. બહુરાષ્ટ્રીય\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a, b, c, d",
       "b, c, d, a",
@@ -7221,13 +7227,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q054",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "માર્કેટિંગ અને દૃશ્ય સંચારનો સંબંધ; સિલેબસ સાથેનો સીધો મેળ મર્યાદિત."
   },
   {
     "id": "visual_art_dec24_q55",
@@ -7235,7 +7243,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 55,
     "question_en": "Arrange chronologically the most successful animated film ever made.",
-    "question_gu": "Arrange chronologically the most successful animated film ever made.",
+    "question_gu": "સૌથી સફળ એનિમેટેડ ફિલ્મોને કાલક્રમમાં ગોઠવો.",
     "options_en": [
       "Finding Nemo, The Lion King, Mulan, Frozen",
       "The Lion King, Mulan, Finding Nemo, Frozen",
@@ -7243,10 +7251,10 @@
       "Frozen, Finding Nemo, The Lion King, Mulan"
     ],
     "options_gu": [
-      "Finding Nemo, The Lion King, Mulan, Frozen",
-      "The Lion King, Mulan, Finding Nemo, Frozen",
-      "Mulan, Frozen, Finding Nemo, The Lion King",
-      "Frozen, Finding Nemo, The Lion King, Mulan"
+      "ફાઇન્ડિંગ નીમો, ધ લાયન કિંગ, મુલાન, ફ્રોઝન",
+      "ધ લાયન કિંગ, મુલાન, ફાઇન્ડિંગ નીમો, ફ્રોઝન",
+      "મુલાન, ફ્રોઝન, ફાઇન્ડિંગ નીમો, ધ લાયન કિંગ",
+      "ફ્રોઝન, ફાઇન્ડિંગ નીમો, ધ લાયન કિંગ, મુલાન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -7266,13 +7274,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_2",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q055",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એનિમેશન ફિલ્મો અને સિનેમા."
   },
   {
     "id": "visual_art_dec24_q56",
@@ -7280,7 +7290,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 56,
     "question_en": "Match the List – I with List – II.\nList – I: a. Durga Temple, Aihole; b. Dasavatar Temple; c. Kandariya Mahadeva; d. Vaital Deul\nList – II: i. Saptaratha; ii. Apsidal plan; iii. Barrel vault roof; iv. Panchayatan",
-    "question_gu": "Match the List – I with List – II.\nList – I: a. Durga Temple, Aihole; b. Dasavatar Temple; c. Kandariya Mahadeva; d. Vaital Deul\nList – II: i. Saptaratha; ii. Apsidal plan; iii. Barrel vault roof; iv. Panchayatan",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. એક્સપ્લોરિંગ ઇન્ડિયાઝ સેક્રેડ આર્ટ; b. મૂવિંગ ફોકસ; c. વ્હેન વોઝ મોડર્નિઝમ; d. ઇન્ડિયન કન્ટેમ્પરરી પેઇન્ટિંગ\nયાદી–II: i. કે. જી. સુબ્રમણ્યન; ii. નવિલે તુલી; iii. સ્ટેલા ક્રામ્રિશ; iv. ગીતા કપૂર",
     "options_en": [
       "a-iv, b-ii, c-iii, d-i",
       "a-iii, b-iv, c-i, d-ii",
@@ -7288,10 +7298,10 @@
       "a-ii, b-iv, c-i, d-iii"
     ],
     "options_gu": [
-      "a-iv, b-ii, c-iii, d-i",
-      "a-iii, b-iv, c-i, d-ii",
-      "a-iii, b-i, c-ii, d-iv",
-      "a-ii, b-iv, c-i, d-iii"
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-ii, c-i, d-iv"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -7311,13 +7321,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q056",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સમકાલીન કલા અને કલા-લેખન/સમીક્ષા."
   },
   {
     "id": "visual_art_dec24_q57",
@@ -7325,7 +7337,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 57,
     "question_en": "Match the List – I with List – II.\nList – I: a. Exploring India’s Sacred Art; b. Moving Focus; c. When was Modernism; d. Indian Contemporary Painting\nList – II: i. K. G. Subramanyan; ii. Naville Tuli; iii. Stella Kramrisch; iv. Geeta Kapoor",
-    "question_gu": "Match the List – I with List – II.\nList – I: a. Exploring India’s Sacred Art; b. Moving Focus; c. When was Modernism; d. Indian Contemporary Painting\nList – II: i. K. G. Subramanyan; ii. Naville Tuli; iii. Stella Kramrisch; iv. Geeta Kapoor",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. સ્પ્રિંગ ટાઇમ; b. એનન્સિએશન; c. ટ્રિબ્યુટ મની; d. લેમેન્ટેશન\nયાદી–II: i. માસાચ્યો; ii. બોત્તીચેલી; iii. ફ્રા એન્જેલિકો; iv. જિઓટ્ટો",
     "options_en": [
       "a-ii, b-i, c-iv, d-iii",
       "a-iii, b-i, c-iv, d-ii",
@@ -7333,10 +7345,10 @@
       "a-iii, b-ii, c-i, d-iv"
     ],
     "options_gu": [
-      "a-ii, b-i, c-iv, d-iii",
-      "a-iii, b-i, c-iv, d-ii",
-      "a-i, b-ii, c-iv, d-iii",
-      "a-iii, b-ii, c-i, d-iv"
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-iv, b-iii, c-i, d-ii",
+      "a-iii, b-i, c-iv, d-ii"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -7356,13 +7368,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q057",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી પુનર્જાગરણકાળની ચિત્રકલા."
   },
   {
     "id": "visual_art_dec24_q58",
@@ -7370,7 +7384,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 58,
     "question_en": "Match the List – I with List – II.\nList – I: a. Spring Time; b. Annunciation; c. Tribute Money; d. Lamentation\nList – II: i. Masaccio; ii. Botticelli; iii. Fra Angelico; iv. Giotto",
-    "question_gu": "Match the List – I with List – II.\nList – I: a. Spring Time; b. Annunciation; c. Tribute Money; d. Lamentation\nList – II: i. Masaccio; ii. Botticelli; iii. Fra Angelico; iv. Giotto",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. મિરર; b. ફ્રાઉ રાધિકા; c. ઓરેન્જ ન્યૂડ; d. મેન વન\nયાદી–II: i. અકબર પદમસી; ii. રમેશ્વર બ્રુટા; iii. લક્ષ્મણ પાઈ; iv. અંજોલી ઇલા મેનન",
     "options_en": [
       "a-ii, b-iii, c-i, d-iv",
       "a-i, b-iv, c-ii, d-iii",
@@ -7378,10 +7392,10 @@
       "a-iii, b-i, c-iv, d-ii"
     ],
     "options_gu": [
-      "a-ii, b-iii, c-i, d-iv",
-      "a-i, b-iv, c-ii, d-iii",
-      "a-iv, b-iii, c-i, d-ii",
-      "a-iii, b-i, c-iv, d-ii"
+      "a-ii, b-i, c-iii, d-iv",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-i, d-ii",
+      "a-iv, b-ii, c-iii, d-i"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -7401,13 +7415,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q058",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય કલાકારો અને તેમની કૃતિઓ."
   },
   {
     "id": "visual_art_dec24_q59",
@@ -7415,7 +7431,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 59,
     "question_en": "Match the List – I with List – II.\nList – I: a. Mirror; b. Frau Radika; c. Orange Nude; d. Man One\nList – II: i. Akbar Padamsi; ii. Rameshwar Bruta; iii. Laxman Pai; iv. Anjoli Ela Menon",
-    "question_gu": "Match the List – I with List – II.\nList – I: a. Mirror; b. Frau Radika; c. Orange Nude; d. Man One\nList – II: i. Akbar Padamsi; ii. Rameshwar Bruta; iii. Laxman Pai; iv. Anjoli Ela Menon",
+    "question_gu": "નીચેના પ્રખ્યાત શિલ્પો માટે વપરાયેલી યોગ્ય સામગ્રીનો મેળ બેસાડો.\nયાદી–I: a. ધનરાજ ભગતનું મોનાર્ક; b. લિડિયા મહેતાનું ડાન્સર; c. શંખો ચૌધરીની ફિગર; d. સતીશ ગુજરાલનો હોર્સ\nયાદી–II: i. લાકડું; ii. કાળો ગ્રેનાઇટ; iii. લાકડું અને વેલ્ડ કરેલી ધાતુ; iv. પોર્સેલિન",
     "options_en": [
       "a-ii, b-i, c-iii, d-iv",
       "a-i, b-ii, c-iv, d-iii",
@@ -7423,10 +7439,10 @@
       "a-iv, b-ii, c-iii, d-i"
     ],
     "options_gu": [
-      "a-ii, b-i, c-iii, d-iv",
-      "a-i, b-ii, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-iv, c-i, d-ii",
-      "a-iv, b-ii, c-iii, d-i"
+      "a-iv, b-iii, c-ii, d-i",
+      "a-ii, b-iii, c-iv, d-i"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -7446,13 +7462,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q059",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પમાં સામગ્રી અને માધ્યમો; Sculpture elective scope."
   },
   {
     "id": "visual_art_dec24_q60",
@@ -7460,7 +7478,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 60,
     "question_en": "Match the correct material of following famous sculpture.\nList – I: a. Monarch by Dhanraj Bhagat; b. Dancer by Lydia Mehta; c. Figure by Sankho Chaudhuri; d. Horse by Satish Gujral\nList – II: i. Wood; ii. Black Granite; iii. Wood and Welded Metal; iv. Porcelain",
-    "question_gu": "Match the correct material of following famous sculpture.\nList – I: a. Monarch by Dhanraj Bhagat; b. Dancer by Lydia Mehta; c. Figure by Sankho Chaudhuri; d. Horse by Satish Gujral\nList – II: i. Wood; ii. Black Granite; iii. Wood and Welded Metal; iv. Porcelain",
+    "question_gu": "નીચે આપેલાં પ્રખ્યાત શિલ્પોની યોગ્ય સામગ્રીનો મેળ બેસાડો.\nયાદી–I: a. ધનરાજ ભગતનું મોનાર્ક; b. લિડિયા મહેતાનું ડાન્સર; c. શંખો ચૌધરીની ફિગર; d. સતીશ ગુજરાલનો હોર્સ\nયાદી–II: i. લાકડું; ii. કાળો ગ્રેનાઇટ; iii. લાકડું અને વેલ્ડ કરેલી ધાતુ; iv. પોર્સેલિન",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-iv, c-i, d-ii",
@@ -7491,13 +7509,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q060",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પમાં સામગ્રી અને માધ્યમો; Sculpture elective scope."
   },
   {
     "id": "visual_art_dec24_q61",
