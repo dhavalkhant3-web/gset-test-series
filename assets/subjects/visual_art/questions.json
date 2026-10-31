@@ -1885,7 +1885,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 41,
     "question_en": "Select correct option of the sequence of the structural elements Buddhist stupa from top to bottom.",
-    "question_gu": "Select correct option of the sequence of the structural elements Buddhist stupa from top to bottom.",
+    "question_gu": "બૌદ્ધ સ્તૂપના રચનાત્મક ભાગોને ઉપરથી નીચેના ક્રમમાં ગોઠવતો યોગ્ય વિકલ્પ પસંદ કરો.",
     "options_en": [
       "Medhi, Chhatrawali, Anda, Harmika",
       "Anda, Harmika, Chhatrawali, Medhi",
@@ -1893,10 +1893,10 @@
       "Harmika, Medhi, Anda, Chhatrawali"
     ],
     "options_gu": [
-      "Medhi, Chhatrawali, Anda, Harmika",
-      "Anda, Harmika, Chhatrawali, Medhi",
-      "Chhatrawali, Harmika, Anda, Medhi",
-      "Harmika, Medhi, Anda, Chhatrawali"
+      "મેધી, છત્રાવલી, અંડ, હર્મિકા",
+      "અંડ, હર્મિકા, છત્રાવલી, મેધી",
+      "છત્રાવલી, હર્મિકા, અંડ, મેધી",
+      "હર્મિકા, મેધી, અંડ, છત્રાવલી"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1916,13 +1916,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q041",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ સ્થાપત્ય અને સ્તૂપની રચના."
   },
   {
     "id": "visual_art_nov23_q42",
@@ -1930,7 +1932,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 42,
     "question_en": "Select correct chronological order of the Islamic monuments.",
-    "question_gu": "Select correct chronological order of the Islamic monuments.",
+    "question_gu": "ઇસ્લામિક સ્મારકોનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Dakhil Darwaja, Teen Darwaja, Alai Darwaja, Buland Darwaja",
       "Alai Darwaja, Dakhil Darwaja, Buland Darwaja, Teen Darwaja",
@@ -1938,10 +1940,10 @@
       "Alai Darwaja, Teen Darwaja, Dakhil Darwaja, Buland Darwaja"
     ],
     "options_gu": [
-      "Dakhil Darwaja, Teen Darwaja, Alai Darwaja, Buland Darwaja",
-      "Alai Darwaja, Dakhil Darwaja, Buland Darwaja, Teen Darwaja",
-      "Teen Darwaja, Alai Darwaja, Dakhil Darwaja, Buland Darwaja",
-      "Alai Darwaja, Teen Darwaja, Dakhil Darwaja, Buland Darwaja"
+      "દાખિલ દરવાજા, ત્રણ દરવાજા, અલાઈ દરવાજા, બુલંદ દરવાજા",
+      "અલાઈ દરવાજા, દાખિલ દરવાજા, બુલંદ દરવાજા, ત્રણ દરવાજા",
+      "ત્રણ દરવાજા, અલાઈ દરવાજા, દાખિલ દરવાજા, બુલંદ દરવાજા",
+      "અલાઈ દરવાજા, ત્રણ દરવાજા, દાખિલ દરવાજા, બુલંદ દરવાજા"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1961,13 +1963,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q042",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય ઇસ્લામિક સ્થાપત્ય અને સ્મારકોનો ઐતિહાસિક વિકાસ."
   },
   {
     "id": "visual_art_nov23_q43",
@@ -1975,7 +1979,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 43,
     "question_en": "Choose the correct chronology of the sculptures created by Michelangelo from the list given below :\na. David\nb. Madonna della Pieta\nc. Rondanini Pieta\nd. Dying Slave\nCodes :",
-    "question_gu": "Choose the correct chronology of the sculptures created by Michelangelo from the list given below :\na. David\nb. Madonna della Pieta\nc. Rondanini Pieta\nd. Dying Slave\nCodes :",
+    "question_gu": "નીચે આપેલી યાદીમાંથી માઇકલએન્જેલોએ બનાવેલા શિલ્પોનો યોગ્ય કાલક્રમ પસંદ કરો:\na. ડેવિડ\nb. મદોના ડેલા પિયેટા\nc. રોન્ડાનિની પિયેટા\nd. ડાઇંગ સ્લેવ\nસંકેત:",
     "options_en": [
       "d, c, b, a",
       "b, a, d, c",
@@ -2006,13 +2010,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q043",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલાના પુનર્જાગરણકાળના શિલ્પકાર માઇકલએન્જેલોની કૃતિઓ."
   },
   {
     "id": "visual_art_nov23_q44",
@@ -2020,7 +2026,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 44,
     "question_en": "Select the correct chronological sequence of paintings given below :\na. Harmony in Red\nb. The Persistence of Memory\nc. Guernica\nd. Autumn Rhythm\nCodes :",
-    "question_gu": "Select the correct chronological sequence of paintings given below :\na. Harmony in Red\nb. The Persistence of Memory\nc. Guernica\nd. Autumn Rhythm\nCodes :",
+    "question_gu": "નીચે આપેલાં ચિત્રોનો યોગ્ય કાલક્રમ પસંદ કરો:\na. હાર્મની ઇન રેડ\nb. ધ પર્સિસ્ટન્સ ઑફ મેમરી\nc. ગ્વેર્નિકા\nd. ઑટમ રિધમ\nસંકેત:",
     "options_en": [
       "a, b, c, d",
       "d, b, c, a",
@@ -2051,13 +2057,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q044",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક પશ્ચિમી ચિત્રકલા અને કલા આંદોલનોનો કાલક્રમ."
   },
   {
     "id": "visual_art_nov23_q45",
@@ -2065,7 +2073,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 45,
     "question_en": "Select the correct chronological order of the artists given below :\na. John Constable\nb. Peter Paul Rubens\nc. Johannes Vermeer\nd. Joan Miro\nCodes :",
-    "question_gu": "Select the correct chronological order of the artists given below :\na. John Constable\nb. Peter Paul Rubens\nc. Johannes Vermeer\nd. Joan Miro\nCodes :",
+    "question_gu": "નીચે આપેલા કલાકારોનો યોગ્ય કાલક્રમ પસંદ કરો:\na. જૉન કૉન્સ્ટેબલ\nb. પીટર પૉલ રૂબેન્સ\nc. યોહાનેસ વર્મીર\nd. જોઆન મિરો",
     "options_en": [
       "a, c, b, d",
       "b, a, c, d",
@@ -2096,13 +2104,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q045",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલાના વિવિધ ઐતિહાસિક સમયગાળાના કલાકારો."
   },
   {
     "id": "visual_art_nov23_q46",
@@ -2110,7 +2120,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 46,
     "question_en": "Select the correct sequence of the frescoes of Sistine Chapel listed below :\na. Creation of Eve\nb. Sacrifice of Noah\nc. Creation of Adam\nd. Expulsion from Paradise\nCodes :",
-    "question_gu": "Select the correct sequence of the frescoes of Sistine Chapel listed below :\na. Creation of Eve\nb. Sacrifice of Noah\nc. Creation of Adam\nd. Expulsion from Paradise\nCodes :",
+    "question_gu": "નીચે આપેલ સિસ્ટિન ચેપલનાં ફ્રેસ્કોનું યોગ્ય ક્રમ પસંદ કરો:\na. ક્રિએશન ઑફ ઈવ\nb. સેક્રિફાઇસ ઑફ નોહ\nc. ક્રિએશન ઑફ એડમ\nd. એક્સપલ્શન ફ્રોમ પેરેડાઇઝ",
     "options_en": [
       "a, b, c, d",
       "d, c, b, a",
@@ -2141,13 +2151,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q046",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પુનર્જાગરણકાળની પશ્ચિમી ચિત્રકલા અને ફ્રેસ્કો."
   },
   {
     "id": "visual_art_nov23_q47",
@@ -2155,7 +2167,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 47,
     "question_en": "Choose the chronological sequence of Popular Public Sculptures.",
-    "question_gu": "Choose the chronological sequence of Popular Public Sculptures.",
+    "question_gu": "લોકપ્રિય જાહેર શિલ્પોનો કાલક્રમ પસંદ કરો.",
     "options_en": [
       "First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Les Voyageurs in France, Singing Ringing Tree in United Kingdom",
       "First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Singing Ringing Tree in United Kingdom, Les Voyageurs in France",
@@ -2163,10 +2175,10 @@
       "Les Voyageurs in France, First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Singing Ringing Tree in United Kingdom"
     ],
     "options_gu": [
-      "First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Les Voyageurs in France, Singing Ringing Tree in United Kingdom",
-      "First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Singing Ringing Tree in United Kingdom, Les Voyageurs in France",
-      "The Shoes on the Danube Bank in Hungary, First Generation in Singapore, Les Voyageurs in France, Singing Ringing Tree in United Kingdom",
-      "Les Voyageurs in France, First Generation in Singapore, The Shoes on the Danube Bank in Hungary, Singing Ringing Tree in United Kingdom"
+      "સિંગાપોરમાં ફર્સ્ટ જનરેશન, હંગેરીમાં ધ શૂઝ ઑન ધ ડેન્યુબ બેંક, ફ્રાન્સમાં લેસ વોયેજર્સ, યુનાઇટેડ કિંગડમમાં સિંગિંગ રિંગિંગ ટ્રી",
+      "સિંગાપોરમાં ફર્સ્ટ જનરેશન, હંગેરીમાં ધ શૂઝ ઑન ધ ડેન્યુબ બેંક, યુનાઇટેડ કિંગડમમાં સિંગિંગ રિંગિંગ ટ્રી, ફ્રાન્સમાં લેસ વોયેજર્સ",
+      "હંગેરીમાં ધ શૂઝ ઑન ધ ડેન્યુબ બેંક, સિંગાપોરમાં ફર્સ્ટ જનરેશન, ફ્રાન્સમાં લેસ વોયેજર્સ, યુનાઇટેડ કિંગડમમાં સિંગિંગ રિંગિંગ ટ્રી",
+      "ફ્રાન્સમાં લેસ વોયેજર્સ, સિંગાપોરમાં ફર્સ્ટ જનરેશન, હંગેરીમાં ધ શૂઝ ઑન ધ ડેન્યુબ બેંક, યુનાઇટેડ કિંગડમમાં સિંગિંગ રિંગિંગ ટ્રી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -2186,13 +2198,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q047",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "સમકાલીન જાહેર શિલ્પ; ચોક્કસ કૃતિક્રમને સ્રોત સામે ચકાસવો."
   },
   {
     "id": "visual_art_nov23_q48",
@@ -2200,7 +2214,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 48,
     "question_en": "Choose the display dates of the following sculptures/installations in chronological order.",
-    "question_gu": "Choose the display dates of the following sculptures/installations in chronological order.",
+    "question_gu": "નીચે આપેલાં શિલ્પો/ઇન્સ્ટોલેશનના પ્રદર્શનની તારીખોનો કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Sprouts, Mudra, DaDa, Baby’s Head",
       "Sprouts, DaDa, Baby’s Head, Mudra",
@@ -2208,10 +2222,10 @@
       "Baby’s Head, DaDa, Mudra, Sprouts"
     ],
     "options_gu": [
-      "Sprouts, Mudra, DaDa, Baby’s Head",
-      "Sprouts, DaDa, Baby’s Head, Mudra",
-      "DaDa, Mudra, Sprouts, Baby’s Head",
-      "Baby’s Head, DaDa, Mudra, Sprouts"
+      "સ્પ્રાઉટ્સ, મુદ્રા, દાદા, બેબીઝ હેડ",
+      "સ્પ્રાઉટ્સ, દાદા, બેબીઝ હેડ, મુદ્રા",
+      "દાદા, મુદ્રા, સ્પ્રાઉટ્સ, બેબીઝ હેડ",
+      "બેબીઝ હેડ, દાદા, મુદ્રા, સ્પ્રાઉટ્સ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -2232,12 +2246,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_source_and_scope_review",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q048",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કૃતિઓના શીર્ષકો અને પ્રદર્શન તારીખો માટે મૂળ પેપર/સંદર્ભની પુષ્ટિ જરૂરી."
   },
   {
     "id": "visual_art_nov23_q49",
@@ -2245,7 +2261,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 49,
     "question_en": "Choose the correct process in sequence.",
-    "question_gu": "Choose the correct process in sequence.",
+    "question_gu": "પ્રક્રિયાનો યોગ્ય ક્રમ પસંદ કરો.",
     "options_en": [
       "Pattern, Spruing, Investing, Burnout, Casting",
       "Spruing, Investing, Burnout, Pattern, Casting",
@@ -2253,10 +2269,10 @@
       "Pattern, Investing, Spruing, Burnout, Casting"
     ],
     "options_gu": [
-      "Pattern, Spruing, Investing, Burnout, Casting",
-      "Spruing, Investing, Burnout, Pattern, Casting",
-      "Investing, Burnout, Pattern, Spruing, Casting",
-      "Pattern, Investing, Spruing, Burnout, Casting"
+      "પેટર્ન, સ્પ્રુઇંગ, ઇન્વેસ્ટિંગ, બર્નઆઉટ, કાસ્ટિંગ",
+      "સ્પ્રુઇંગ, ઇન્વેસ્ટિંગ, બર્નઆઉટ, પેટર્ન, કાસ્ટિંગ",
+      "ઇન્વેસ્ટિંગ, બર્નઆઉટ, પેટર્ન, સ્પ્રુઇંગ, કાસ્ટિંગ",
+      "પેટર્ન, ઇન્વેસ્ટિંગ, સ્પ્રુઇંગ, બર્નઆઉટ, કાસ્ટિંગ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -2276,13 +2292,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q049",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કાસ્ટિંગની પરંપરાગત તકનીક; ચોક્કસ પ્રક્રિયા શિલ્પના elective સાથે પણ સંબંધિત હોઈ શકે છે."
   },
   {
     "id": "visual_art_nov23_q50",
@@ -2290,7 +2308,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 50,
     "question_en": "Choose the correct chronological sequence.",
-    "question_gu": "Choose the correct chronological sequence.",
+    "question_gu": "યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "K.G. Subramanyan, Jogen Chowdhary, Sakti Burman, Anupam Sud",
       "K.G. Subramanyan, Sakti Burman, Jogen Chowdhary, Anupam Sud",
@@ -2298,10 +2316,10 @@
       "Jogen Chowdhary, K.G. Subramanyan, Sakti Burman, Anupam Sud"
     ],
     "options_gu": [
-      "K.G. Subramanyan, Jogen Chowdhary, Sakti Burman, Anupam Sud",
-      "K.G. Subramanyan, Sakti Burman, Jogen Chowdhary, Anupam Sud",
-      "Anupam Sud, Sakti Burman, Jogen Chowdhary, K.G. Subramanyan",
-      "Jogen Chowdhary, K.G. Subramanyan, Sakti Burman, Anupam Sud"
+      "કે. જી. સુબ્રમણ્યન, જોગેન ચૌધરી, શક્તિ બર્મન, અનુપમ સૂદ",
+      "કે. જી. સુબ્રમણ્યન, શક્તિ બર્મન, જોગેન ચૌધરી, અનુપમ સૂદ",
+      "અનુપમ સૂદ, શક્તિ બર્મન, જોગેન ચૌધરી, કે. જી. સુબ્રમણ્યન",
+      "જોગેન ચૌધરી, કે. જી. સુબ્રમણ્યન, શક્તિ બર્મન, અનુપમ સૂદ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -2321,13 +2339,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q050",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "વીસમી સદીના ભારતીય સમકાલીન કલાકારો."
   },
   {
     "id": "visual_art_nov23_q51",
