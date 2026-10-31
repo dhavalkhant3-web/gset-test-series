@@ -30,3 +30,21 @@ jobs:
           python-version: '3.12'
       - name: Validate Visual Art bank and official final keys
         run: python tools/validate_visual_art.py
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter version
+        run: flutter --version
+      - name: Resolve Flutter dependencies
+        run: flutter pub get
+      - name: Build combined Android Debug APK
+        run: flutter build apk --debug
+      - name: Upload combined Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: gset-test-series-visual-art-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
