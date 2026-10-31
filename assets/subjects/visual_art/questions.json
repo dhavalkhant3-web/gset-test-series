@@ -9875,7 +9875,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 11,
     "question_en": "The term “Chiaroscuro” relates to",
-    "question_gu": "The term “Chiaroscuro” relates to",
+    "question_gu": "‘કિઆરોસ્ક્યુરો’ શબ્દ શેના સાથે સંબંધિત છે?",
     "options_en": [
       "Composition of colours",
       "Use of light and shadow",
@@ -9883,10 +9883,10 @@
       "Textural detail"
     ],
     "options_gu": [
-      "Composition of colours",
-      "Use of light and shadow",
-      "Perspective construction",
-      "Textural detail"
+      "રંગોની રચના",
+      "પ્રકાશ અને છાયાનો ઉપયોગ",
+      "પરિપ્રેક્ષ્યની રચના",
+      "સપાટીની રચનાત્મક વિગતો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9906,13 +9906,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q011",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રકાશ-છાયાનો ઉપયોગ અને દૃશ્યકલાના મૂળભૂત તત્ત્વો."
   },
   {
     "id": "visual_art_nov25_q12",
@@ -9920,7 +9922,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 12,
     "question_en": "The aesthetic concept of Dhvani was developed by",
-    "question_gu": "The aesthetic concept of Dhvani was developed by",
+    "question_gu": "ધ્વનિનો સૌંદર્યશાસ્ત્રીય સિદ્ધાંત કોણે વિકસાવ્યો હતો?",
     "options_en": [
       "Bharata",
       "Abhinavagupta",
@@ -9928,10 +9930,10 @@
       "Panini"
     ],
     "options_gu": [
-      "Bharata",
-      "Abhinavagupta",
-      "Anandavardhana",
-      "Panini"
+      "ભરત",
+      "અભિનવગુપ્ત",
+      "આનંદવર્ધન",
+      "પાણિની"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -9951,13 +9953,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q012",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સૌંદર્યશાસ્ત્ર અને ધ્વનિ સિદ્ધાંત."
   },
   {
     "id": "visual_art_nov25_q13",
@@ -9965,7 +9969,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 13,
     "question_en": "Match the philosopher with their contribution.\nList – I: a. Kant; b. Hegel; c. Abhinavagupta; d. Bharatmuni\nList – II: i. Natya Shastra; ii. Concept of Sahrdaya; iii. Art as manifestation of spirit; iv. Idea of “disinterested beauty”",
-    "question_gu": "Match the philosopher with their contribution.\nList – I: a. Kant; b. Hegel; c. Abhinavagupta; d. Bharatmuni\nList – II: i. Natya Shastra; ii. Concept of Sahrdaya; iii. Art as manifestation of spirit; iv. Idea of “disinterested beauty”",
+    "question_gu": "તત્ત્વચિંતકનો તેમના યોગદાન સાથે મેળ બેસાડો.\nયાદી–I: a. કાન્ટ; b. હેગલ; c. અભિનવગુપ્ત; d. ભરતમુનિ\nયાદી–II: i. નાટ્યશાસ્ત્ર; ii. સહૃદયની સંકલ્પના; iii. આત્મા/ચેતનાના પ્રગટીકરણ તરીકે કલા; iv. ‘નિઃસ્વાર્થ સૌંદર્ય’નો વિચાર",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iii, c-iv, d-i",
@@ -9996,13 +10000,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q013",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય અને પશ્ચિમી સૌંદર્યશાસ્ત્રના મુખ્ય તત્ત્વચિંતકો."
   },
   {
     "id": "visual_art_nov25_q14",
@@ -10010,7 +10016,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 14,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : The Bengal School of Art rejected academic realism.\nReason (R) : It aimed to revive Indian spiritual and cultural traditions.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : The Bengal School of Art rejected academic realism.\nReason (R) : It aimed to revive Indian spiritual and cultural traditions.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): બંગાળ કલા-શાળાએ શૈક્ષણિક વાસ્તવવાદનો અસ્વીકાર કર્યો હતો.\nકારણ (R): તેનો હેતુ ભારતીય આધ્યાત્મિક અને સાંસ્કૃતિક પરંપરાઓનું પુનરુત્થાન કરવાનો હતો.",
     "options_en": [
       "Both (A) and (R) true, (R) explains (A)",
       "Both (A) and (R) true, (R) doesn't explain (A)",
@@ -10018,10 +10024,10 @@
       "Both false"
     ],
     "options_gu": [
-      "Both (A) and (R) true, (R) explains (A)",
-      "Both (A) and (R) true, (R) doesn't explain (A)",
-      "(A) true, (R) false",
-      "Both false"
+      "(A) અને (R) બંને સાચાં છે અને (R), (A)નું સમજૂતીકારણ છે",
+      "(A) અને (R) બંને સાચાં છે, પરંતુ (R), (A)નું સમજૂતીકારણ નથી",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "બંને ખોટાં છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -10041,13 +10047,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q014",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "બંગાળ કલા-શાળા અને આધુનિક ભારતીય કલા."
   },
   {
     "id": "visual_art_nov25_q15",
@@ -10055,7 +10063,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 15,
     "question_en": "The Fresco secco technique differs from buon fresco because it is painted on",
-    "question_gu": "The Fresco secco technique differs from buon fresco because it is painted on",
+    "question_gu": "ફ્રેસ્કો સેકો પદ્ધતિ બ્યુઓન ફ્રેસ્કોથી અલગ છે, કારણ કે તેમાં ચિત્રકામ કઈ સપાટી પર કરવામાં આવે છે?",
     "options_en": [
       "Wet plaster",
       "Dry plaster",
@@ -10063,10 +10071,10 @@
       "Wood"
     ],
     "options_gu": [
-      "Wet plaster",
-      "Dry plaster",
-      "Canvas",
-      "Wood"
+      "ભીના પ્લાસ્ટર પર",
+      "સૂકા પ્લાસ્ટર પર",
+      "કૅનવાસ પર",
+      "લાકડાં પર"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10086,13 +10094,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q015",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ફ્રેસ્કો ભીંતચિત્રની તકનીક."
   },
   {
     "id": "visual_art_nov25_q16",
@@ -10100,7 +10110,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 16,
     "question_en": "Match the tradition with region.\nList – I: a. Madhubani; b. Pattachitra; c. Warli; d. Gond\nList – II: i. Maharashtra; ii. Odisha; iii. Bihar; iv. Madhya Pradesh",
-    "question_gu": "Match the tradition with region.\nList – I: a. Madhubani; b. Pattachitra; c. Warli; d. Gond\nList – II: i. Maharashtra; ii. Odisha; iii. Bihar; iv. Madhya Pradesh",
+    "question_gu": "પરંપરાનો પ્રદેશ સાથે મેળ બેસાડો.\nયાદી–I: a. મધુબની; b. પટ્ટચિત્ર; c. વારલી; d. ગોંડ\nયાદી–II: i. મહારાષ્ટ્ર; ii. ઓડિશા; iii. બિહાર; iv. મધ્ય પ્રદેશ",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iii, c-iv, d-i",
@@ -10131,13 +10141,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_10",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q016",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય લોક અને આદિવાસી કલા પરંપરાઓ અને પ્રાદેશિક સંદર્ભ."
   },
   {
     "id": "visual_art_nov25_q17",
@@ -10145,7 +10157,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 17,
     "question_en": "Which artist is NOT associated with the Calcutta Group ?",
-    "question_gu": "Which artist is NOT associated with the Calcutta Group ?",
+    "question_gu": "નીચેના કલાકારોમાંથી કોણ કલકત્તા જૂથ સાથે સંકળાયેલા નહોતા?",
     "options_en": [
       "Paritosh Sen",
       "Gobardhan Ash",
@@ -10153,10 +10165,10 @@
       "Nirode Mazumdar"
     ],
     "options_gu": [
-      "Paritosh Sen",
-      "Gobardhan Ash",
-      "Ramkinkar Baij",
-      "Nirode Mazumdar"
+      "પરિતોષ સેન",
+      "ગોબર્ધન આશ",
+      "રામકિંકર બૈજ",
+      "નીરોદ મજુમદાર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -10176,13 +10188,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q017",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય કલા-જૂથો અને કલાકારો."
   },
   {
     "id": "visual_art_nov25_q18",
@@ -10190,7 +10204,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 18,
     "question_en": "The Byzantine art style is distinguished by",
-    "question_gu": "The Byzantine art style is distinguished by",
+    "question_gu": "બાયઝેન્ટાઇન કલા-શૈલીની વિશિષ્ટ ઓળખ શું છે?",
     "options_en": [
       "Perspective",
       "Icon paintings and mosaics",
@@ -10198,10 +10212,10 @@
       "Fresco only"
     ],
     "options_gu": [
-      "Perspective",
-      "Icon paintings and mosaics",
-      "Naturalism",
-      "Fresco only"
+      "પરિપ્રેક્ષ્ય",
+      "આઇકન ચિત્રો અને મોઝેઇક",
+      "કુદરતી વાસ્તવિકતા",
+      "માત્ર ફ્રેસ્કો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10221,13 +10235,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q018",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "બાયઝેન્ટાઇન કલા અને પશ્ચિમી કલા-ઇતિહાસ."
   },
   {
     "id": "visual_art_nov25_q19",
@@ -10235,7 +10251,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 19,
     "question_en": "Match concept with originator.\nList – I: a. Linear Perspective; b. Oil Painting; c. Humanism; d. Chiaroscuro\nList – II: i. Filippo Brunelleschi; ii. Renaissance scholars; iii. Leonardo da Vinci; iv. Jan Van Eyck",
-    "question_gu": "Match concept with originator.\nList – I: a. Linear Perspective; b. Oil Painting; c. Humanism; d. Chiaroscuro\nList – II: i. Filippo Brunelleschi; ii. Renaissance scholars; iii. Leonardo da Vinci; iv. Jan Van Eyck",
+    "question_gu": "સંકલ્પનાનો તેના પ્રણેતા સાથે મેળ બેસાડો.\nયાદી–I: a. રેખીય પરિપ્રેક્ષ્ય; b. તેલચિત્રકલા; c. માનવતાવાદ; d. કિઆરોસ્ક્યુરો\nયાદી–II: i. ફિલિપ્પો બ્રુનેલેસ્કી; ii. પુનર્જાગરણના વિદ્વાનો; iii. લિયોનાર્ડો દા વિન્ચી; iv. યાન વાન આઇક",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-i, b-iv, c-ii, d-iii",
@@ -10266,13 +10282,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q019",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી પુનર્જાગરણકાળની કલા-તકનીકો અને વિચાર."
   },
   {
     "id": "visual_art_nov25_q20",
@@ -10280,7 +10298,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 20,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Impressionists used quick brushstrokes and outdoor light.\nReason (R) : Their goal was to capture photographic realism.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Impressionists used quick brushstrokes and outdoor light.\nReason (R) : Their goal was to capture photographic realism.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): ઇમ્પ્રેશનિસ્ટ કલાકારોએ ઝડપી બ્રશસ્ટ્રોક્સ અને બહારના કુદરતી પ્રકાશનો ઉપયોગ કર્યો.\nકારણ (R): તેમનો હેતુ ફોટોગ્રાફ જેવી વાસ્તવિકતા પકડવાનો હતો.",
     "options_en": [
       "Both true",
       "(A) true, (R) false",
@@ -10288,10 +10306,10 @@
       "Both false"
     ],
     "options_gu": [
-      "Both true",
-      "(A) true, (R) false",
-      "(A) false, (R) true",
-      "Both false"
+      "બંને સાચાં છે",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "(A) ખોટું છે, (R) સાચું છે",
+      "બંને ખોટાં છે"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10311,13 +10329,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q020",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ઇમ્પ્રેશનિઝમ અને પશ્ચિમી કલા-આંદોલનો."
   },
   {
     "id": "visual_art_nov25_q21",
