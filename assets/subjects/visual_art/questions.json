@@ -9405,7 +9405,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 1,
     "question_en": "Scumbling refers to",
-    "question_gu": "Scumbling refers to",
+    "question_gu": "સ્કમ્બલિંગનો અર્થ શું થાય છે?",
     "options_en": [
       "Mixing pigments",
       "A dry brush technique over dried layers",
@@ -9413,10 +9413,10 @@
       "Thick application of paint"
     ],
     "options_gu": [
-      "Mixing pigments",
-      "A dry brush technique over dried layers",
-      "Priming the canvas",
-      "Thick application of paint"
+      "રંગદ્રવ્યોનું મિશ્રણ કરવું",
+      "સૂકાઈ ગયેલા સ્તર પર સૂકા બ્રશથી રંગ લગાવવાની પદ્ધતિ",
+      "કૅનવાસને પ્રાઇમ કરવું",
+      "રંગનો જાડો થર લગાવવો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9436,13 +9436,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q001",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ચિત્રકામની તકનીક અને રંગ લગાવવાની પ્રક્રિયા; Drawing/Painting elective સાથે સંબંધિત."
   },
   {
     "id": "visual_art_nov25_q2",
@@ -9450,7 +9452,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 2,
     "question_en": "Glazing in oil painting requires",
-    "question_gu": "Glazing in oil painting requires",
+    "question_gu": "તેલરંગ ચિત્રમાં ગ્લેઝિંગ માટે શું જરૂરી છે?",
     "options_en": [
       "Transparent pigments applied in layers",
       "Dry brushing over thick paint",
@@ -9458,10 +9460,10 @@
       "Mixing acrylic with oil"
     ],
     "options_gu": [
-      "Transparent pigments applied in layers",
-      "Dry brushing over thick paint",
-      "Use of only earth colours",
-      "Mixing acrylic with oil"
+      "પારદર્શક રંગદ્રવ્યોને સ્તરવાર લગાવવાં",
+      "જાડા રંગ પર સૂકા બ્રશથી રંગ લગાવવો",
+      "માત્ર પૃથ્વીજન્ય રંગોનો ઉપયોગ કરવો",
+      "એક્રેલિકને તેલરંગ સાથે મિશ્રિત કરવું"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9481,13 +9483,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q002",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "તેલરંગ ચિત્રકામની પરંપરાગત તકનીક."
   },
   {
     "id": "visual_art_nov25_q3",
@@ -9495,7 +9499,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 3,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Buon fresco is durable.\nReason (R) : Colours penetrate into wet plaster.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Buon fresco is durable.\nReason (R) : Colours penetrate into wet plaster.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): બ્યુઓન ફ્રેસ્કો ટકાઉ હોય છે.\nકારણ (R): રંગો ભીના પ્લાસ્ટરમાં પ્રવેશી જાય છે.",
     "options_en": [
       "Both true, (R) explains (A)",
       "Both true, (R) does not explain (A)",
@@ -9503,10 +9507,10 @@
       "Both false"
     ],
     "options_gu": [
-      "Both true, (R) explains (A)",
-      "Both true, (R) does not explain (A)",
-      "(A) true, (R) false",
-      "Both false"
+      "બંને સાચાં છે અને (R), (A)નું સમજૂતીકારણ છે",
+      "બંને સાચાં છે, પરંતુ (R), (A)નું સમજૂતીકારણ નથી",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "બંને ખોટાં છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9526,13 +9530,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q003",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ફ્રેસ્કો અને ભીંતચિત્રની પરંપરાગત તકનીક."
   },
   {
     "id": "visual_art_nov25_q4",
@@ -9540,7 +9546,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 4,
     "question_en": "In painting, “conceptual reality” refers to",
-    "question_gu": "In painting, “conceptual reality” refers to",
+    "question_gu": "ચિત્રકલામાં ‘વૈચારિક વાસ્તવિકતા’નો અર્થ શું થાય છે?",
     "options_en": [
       "Representation of photographic likeness",
       "Abstract or symbolic representation",
@@ -9548,10 +9554,10 @@
       "Exact perspective construction"
     ],
     "options_gu": [
-      "Representation of photographic likeness",
-      "Abstract or symbolic representation",
-      "Scientific diagram",
-      "Exact perspective construction"
+      "ફોટોગ્રાફ જેવી સમાનતાનું નિરૂપણ",
+      "અમૂર્ત અથવા પ્રતીકાત્મક નિરૂપણ",
+      "વૈજ્ઞાનિક આલેખ",
+      "ચોક્કસ પરિપ્રેક્ષ્ય રચના"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9571,13 +9577,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q004",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ચિત્રકલામાં વૈચારિક/પ્રતીકાત્મક રજૂઆત અને સૌંદર્યવિચાર."
   },
   {
     "id": "visual_art_nov25_q5",
@@ -9585,7 +9593,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 5,
     "question_en": "Which support was introduced in Renaissance Europe and replaced wood panels ?",
-    "question_gu": "Which support was introduced in Renaissance Europe and replaced wood panels ?",
+    "question_gu": "પુનર્જાગરણકાળના યુરોપમાં કયો આધાર (સપોર્ટ) રજૂ થયો અને લાકડાના પેનલનું સ્થાન લીધું?",
     "options_en": [
       "Canvas",
       "Silk",
@@ -9593,10 +9601,10 @@
       "Marble"
     ],
     "options_gu": [
-      "Canvas",
-      "Silk",
-      "Paper",
-      "Marble"
+      "કૅનવાસ",
+      "રેશમ",
+      "કાગળ",
+      "આરસપહાણ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9616,13 +9624,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q005",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ચિત્રકામના આધાર અને પરંપરાગત માધ્યમો."
   },
   {
     "id": "visual_art_nov25_q6",
@@ -9630,7 +9640,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 6,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Perspective values improved during Renaissance.\nReason (R) : Artists discovered scientific methods of representing space.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Perspective values improved during Renaissance.\nReason (R) : Artists discovered scientific methods of representing space.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): પુનર્જાગરણ દરમિયાન પરિપ્રેક્ષ્યની સમજ અને તેનો ઉપયોગ સુધર્યો.\nકારણ (R): કલાકારોએ અવકાશ દર્શાવવાની વૈજ્ઞાનિક પદ્ધતિઓ શોધી કાઢી.",
     "options_en": [
       "(A) true, (R) true, (R) explains (A)",
       "(A) true, (R) false",
@@ -9638,10 +9648,10 @@
       "Both false"
     ],
     "options_gu": [
-      "(A) true, (R) true, (R) explains (A)",
-      "(A) true, (R) false",
-      "(A) false, (R) true",
-      "Both false"
+      "(A) સાચું છે, (R) સાચું છે અને (R), (A)નું સમજૂતીકારણ છે",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "(A) ખોટું છે, (R) સાચું છે",
+      "બંને ખોટાં છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9661,13 +9671,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q006",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પરિપ્રેક્ષ્ય અને ત્રિપરિમાણીયતા દૃશ્યકલાના મૂળભૂત તત્ત્વો."
   },
   {
     "id": "visual_art_nov25_q7",
@@ -9675,7 +9687,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 7,
     "question_en": "Collage as an art form was popularized during",
-    "question_gu": "Collage as an art form was popularized during",
+    "question_gu": "કોલાજને કલા-સ્વરૂપ તરીકે કયા સમયગાળામાં લોકપ્રિયતા મળી?",
     "options_en": [
       "Renaissance",
       "Cubism",
@@ -9683,10 +9695,10 @@
       "Byzantine"
     ],
     "options_gu": [
-      "Renaissance",
-      "Cubism",
-      "Baroque",
-      "Byzantine"
+      "પુનર્જાગરણ",
+      "ક્યુબિઝમ",
+      "બારોક",
+      "બાયઝેન્ટાઇન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9706,13 +9718,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q007",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ક્યુબિઝમ અને આધુનિક પશ્ચિમી કલા-આંદોલનો."
   },
   {
     "id": "visual_art_nov25_q8",
@@ -9720,7 +9734,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 8,
     "question_en": "Match the colour theory term with description.\nList – I: a. Complementary colours; b. Analogous colours; c. Primary colours; d. Warm colours\nList – II: i. Neighbouring hues; ii. Cannot be mixed; iii. Opposite on colour wheel; iv. Red, orange, yellow",
-    "question_gu": "Match the colour theory term with description.\nList – I: a. Complementary colours; b. Analogous colours; c. Primary colours; d. Warm colours\nList – II: i. Neighbouring hues; ii. Cannot be mixed; iii. Opposite on colour wheel; iv. Red, orange, yellow",
+    "question_gu": "રંગસિદ્ધાંતના શબ્દોનો તેમના વર્ણન સાથે મેળ બેસાડો.\nયાદી–I: a. પૂરક રંગો; b. સમાનવર્તી રંગો; c. પ્રાથમિક રંગો; d. ઉષ્મ રંગો\nયાદી–II: i. પડોશી રંગછટાઓ; ii. મિશ્રિત કરી ન શકાય તેવા; iii. રંગચક્રમાં એકબીજાની સામે આવેલા; iv. લાલ, નારંગી, પીળો",
     "options_en": [
       "a-i, b-ii, c-iv, d-iii",
       "a-iii, b-i, c-iv, d-ii",
@@ -9751,13 +9765,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q008",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રંગસિદ્ધાંત અને દૃશ્યકલાના મૂળભૂત તત્ત્વો; review_flag યથાવત."
   },
   {
     "id": "visual_art_nov25_q9",
@@ -9765,7 +9781,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 9,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Colour harmony enhances the aesthetic appeal of painting\nReason (R) : Harmony creates balance among different hues.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Colour harmony enhances the aesthetic appeal of painting\nReason (R) : Harmony creates balance among different hues.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): રંગોની સુમેળતા ચિત્રની સૌંદર્યલક્ષી આકર્ષકતા વધારે છે.\nકારણ (R): રંગસુમેળ વિવિધ રંગછટાઓ વચ્ચે સંતુલન સર્જે છે.",
     "options_en": [
       "Both (A) and (R) true, (R) explains (A)",
       "Both true, (R) doesn't explain (A)",
@@ -9773,10 +9789,10 @@
       "Both false"
     ],
     "options_gu": [
-      "Both (A) and (R) true, (R) explains (A)",
-      "Both true, (R) doesn't explain (A)",
-      "(A) true, (R) false",
-      "Both false"
+      "(A) અને (R) બંને સાચાં છે અને (R), (A)નું સમજૂતીકારણ છે",
+      "બંને સાચાં છે, પરંતુ (R), (A)નું સમજૂતીકારણ નથી",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "બંને ખોટાં છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9796,13 +9812,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q009",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રંગસુમેળ અને રચનાના મૂળભૂત સિદ્ધાંતો."
   },
   {
     "id": "visual_art_nov25_q10",
@@ -9810,7 +9828,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 10,
     "question_en": "Which movement emphasized plein-air (open-air) painting ?",
-    "question_gu": "Which movement emphasized plein-air (open-air) painting ?",
+    "question_gu": "કયા કલા-આંદોલનમાં ખુલ્લી હવામાં (પ્લેન-એર) ચિત્રકામ પર ભાર મૂકવામાં આવ્યો હતો?",
     "options_en": [
       "Impressionism",
       "Baroque",
@@ -9818,10 +9836,10 @@
       "Byzantine"
     ],
     "options_gu": [
-      "Impressionism",
-      "Baroque",
-      "Gothic",
-      "Byzantine"
+      "ઇમ્પ્રેશનિઝમ",
+      "બારોક",
+      "ગોથિક",
+      "બાયઝેન્ટાઇન"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9841,13 +9859,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q010",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ઇમ્પ્રેશનિઝમ અને પશ્ચિમી આધુનિક કલા-ઇતિહાસ."
   },
   {
     "id": "visual_art_nov25_q11",
