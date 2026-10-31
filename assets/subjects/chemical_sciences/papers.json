@@ -27,13 +27,14 @@
       "question_source_verified": true,
       "source_verified": false,
       "review_count": 10,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 40,
       "review_flags_remaining_count": 10,
       "unit_mapping_provisional_count": 35,
       "unit_mapping_pending_count": 15,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec02",
@@ -105,13 +106,14 @@
         "49": "C",
         "50": "D"
       },
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 41,
       "review_flags_remaining_count": 9,
       "unit_mapping_provisional_count": 40,
       "unit_mapping_pending_count": 10,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec03",
@@ -131,13 +133,14 @@
       "review_count": 10,
       "question_source_verified": true,
       "source_verified": false,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 42,
       "review_flags_remaining_count": 10,
       "unit_mapping_provisional_count": 30,
       "unit_mapping_pending_count": 20,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_jul04",
@@ -157,13 +160,14 @@
       "review_count": 11,
       "question_source_verified": true,
       "source_verified": false,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 39,
       "review_flags_remaining_count": 11,
       "unit_mapping_provisional_count": 6,
       "unit_mapping_pending_count": 44,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_jul06",
@@ -183,13 +187,14 @@
       "review_count": 13,
       "question_source_verified": true,
       "source_verified": false,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 37,
       "review_flags_remaining_count": 13,
       "unit_mapping_provisional_count": 7,
       "unit_mapping_pending_count": 43,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec08",
@@ -209,13 +214,14 @@
       "review_count": 10,
       "question_source_verified": true,
       "source_verified": false,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 40,
       "review_flags_remaining_count": 10,
       "unit_mapping_provisional_count": 9,
       "unit_mapping_pending_count": 41,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_oct10",
@@ -235,13 +241,14 @@
       "review_count": 9,
       "question_source_verified": true,
       "source_verified": false,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 41,
       "review_flags_remaining_count": 9,
       "unit_mapping_provisional_count": 6,
       "unit_mapping_pending_count": 44,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_oct11",
@@ -313,13 +320,14 @@
         "49": "B",
         "50": "D"
       },
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 42,
       "review_flags_remaining_count": 8,
       "unit_mapping_provisional_count": 9,
       "unit_mapping_pending_count": 41,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_sep13",
@@ -391,13 +399,14 @@
         "49": "C",
         "50": "B"
       },
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 36,
       "review_flags_remaining_count": 14,
       "unit_mapping_provisional_count": 6,
       "unit_mapping_pending_count": 44,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_oct14",
@@ -417,13 +426,14 @@
       "source_verified": false,
       "answer_key_extracted_count": 50,
       "review_count": 10,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 41,
       "review_flags_remaining_count": 10,
       "unit_mapping_provisional_count": 8,
       "unit_mapping_pending_count": 42,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_sep16",
@@ -482,14 +492,15 @@
       "answer_key_verified": true,
       "status": "source_verified_subset_source_review_pending",
       "source": "Uploaded official GSET August 2017 Chemical Sciences Paper-II + uploaded official final answer key; 50 questions present. Figure-based questions retain official-source figure references.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 50,
       "review_flags_remaining_count": 1,
       "review_count": 1,
       "unit_mapping_provisional_count": 45,
       "unit_mapping_pending_count": 5,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_sep18",
@@ -505,14 +516,15 @@
       "answer_key_verified": true,
       "status": "source_verified_subset_source_review_pending",
       "source": "Uploaded official GSET September 2018 Chemical Sciences Paper-II question paper + official final answer key",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 28,
       "review_count": 28,
       "unit_mapping_provisional_count": 67,
       "unit_mapping_pending_count": 33,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec19",
@@ -531,13 +543,14 @@
       "question_source_verified": true,
       "source_verified": false,
       "review_count": 30,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 70,
       "review_flags_remaining_count": 30,
       "unit_mapping_provisional_count": 85,
       "unit_mapping_pending_count": 15,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec21",
@@ -556,13 +569,14 @@
       "question_source_verified": false,
       "source_verified": false,
       "review_count": 33,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 33,
       "unit_mapping_provisional_count": 80,
       "unit_mapping_pending_count": 20,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_nov22",
@@ -581,13 +595,14 @@
       "question_source_verified": true,
       "source_verified": false,
       "review_count": 22,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 78,
       "review_flags_remaining_count": 22,
       "unit_mapping_provisional_count": 81,
       "unit_mapping_pending_count": 19,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_nov23",
@@ -603,14 +618,15 @@
       "answer_key_verified": true,
       "status": "source_verified_subset_source_review_pending",
       "source": "Uploaded official GSET November 2023 Chemical Sciences Paper-II question paper + official final answer key",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 51,
       "review_flags_remaining_count": 49,
       "review_count": 49,
       "unit_mapping_provisional_count": 76,
       "unit_mapping_pending_count": 24,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_dec24",
@@ -629,13 +645,14 @@
       "question_source_verified": false,
       "source_verified": false,
       "review_count": 25,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 75,
       "review_flags_remaining_count": 25,
       "unit_mapping_provisional_count": 33,
       "unit_mapping_pending_count": 67,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "chemical_nov25",
@@ -654,13 +671,14 @@
       "question_source_verified": true,
       "source_verified": false,
       "review_count": 22,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 81,
       "review_flags_remaining_count": 22,
       "unit_mapping_provisional_count": 87,
       "unit_mapping_pending_count": 13,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     }
   ],
   "unit_mapping_status": "pending_official_syllabus_unit_mapping",

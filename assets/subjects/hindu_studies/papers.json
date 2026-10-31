@@ -26,7 +26,7 @@
       "source_verified": true,
       "status": "english_source_visual_review_complete_syllabus_mapping_partially_verified",
       "review_note": "All 100 English stems/options visually reviewed against nov2328.pdf. The GSET 2023 Information Bulletin table lists Hindu Studies (Code 28) with English as the question-paper medium; the supplied paper has no Gujarati stem/options column, so no Gujarati translation has been invented. Q88 remains flagged for expert review because its feminine ablative singular options appear questionable/unclear. Three syllabus mappings remain provisional.",
-      "unit_mapping_status": "partially_verified_pending_manual_review",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "All 100 question texts remain source-visual-reviewed. After checking question-level topics against the complete official GSET Code 28 syllabus PDF, 98 mappings are verified and 2 remain provisional; 0 pending. Review flags remain unchanged for separate content/source issues.",
       "review_count": 4,
       "source_reviewed_question_count": 100,
@@ -36,7 +36,8 @@
       "unit_mapping_verified_count": 98,
       "gujarati_transcribed_question_count": 0,
       "gujarati_source_not_present_in_official_source_question_count": 100,
-      "medium": "English"
+      "medium": "English",
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "hindu_studies_dec24",
@@ -54,7 +55,7 @@
       "source_verified": true,
       "status": "english_source_visual_review_complete_syllabus_mapping_partially_verified",
       "review_note": "Question-text visual review complete for all 100 English stems/options. Gujarati fields remain empty because the provided original is English-medium; do not machine-translate. Q49 stays flagged: stored answer A matches official final key, but scholarly literature identifies Vimalasūri (option B) as author of Paumacariya. Keep official key A pending expert review.",
-      "unit_mapping_status": "partially_verified_pending_manual_review",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "All 100 question texts remain source-visual-reviewed. After checking question-level topics against the complete official GSET Code 28 syllabus PDF, 92 mappings are verified and 8 remain provisional; 0 pending. Review flags remain unchanged for separate content/source issues.",
       "review_count": 13,
       "source_reviewed_question_count": 100,
@@ -64,7 +65,8 @@
       "unit_mapping_verified_count": 92,
       "gujarati_transcribed_question_count": 0,
       "gujarati_source_not_present_in_official_source_question_count": 100,
-      "medium": "English"
+      "medium": "English",
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "hindu_studies_nov25",
@@ -82,7 +84,7 @@
       "source_verified": true,
       "status": "source_visual_review_gujarati_complete_syllabus_mapping_partially_verified",
       "review_note": "All 100 English stems/options and Gujarati stems/options were visually checked against nov2528.pdf. Official answer-key matches remain 100/100. Q62 and Q91 spelling concerns remain in their question records.",
-      "unit_mapping_status": "partially_verified_pending_manual_review",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "All 100 question texts remain source-visual-reviewed. After checking question-level topics against the complete official GSET Code 28 syllabus PDF, 86 mappings are verified and 14 remain provisional; 0 pending. Review flags remain unchanged for separate content/source issues.",
       "review_count": 23,
       "source_reviewed_question_count": 100,
@@ -92,7 +94,8 @@
       "unit_mapping_verified_count": 86,
       "gujarati_transcribed_question_count": 100,
       "gujarati_source_not_present_in_official_source_question_count": 0,
-      "medium": "English & Gujarati"
+      "medium": "English & Gujarati",
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     }
   ]
 }

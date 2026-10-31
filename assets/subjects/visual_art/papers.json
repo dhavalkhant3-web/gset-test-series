@@ -37,14 +37,15 @@
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Current question-level source_verified=true count is 10/100. 7 unresolved content concerns remain flagged. All other stems/options still require official source visual proofread; subject-level source verification remains pending.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 10,
       "review_flags_remaining_count": 7,
       "review_count": 7,
       "unit_mapping_provisional_count": 38,
       "unit_mapping_pending_count": 62,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "visual_art_dec24",
@@ -71,14 +72,15 @@
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Current question-level source_verified=true count is 10/100. 5 unresolved content concerns remain flagged. All other stems/options still require official source visual proofread; subject-level source verification remains pending.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 10,
       "review_flags_remaining_count": 5,
       "review_count": 5,
       "unit_mapping_provisional_count": 38,
       "unit_mapping_pending_count": 62,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "visual_art_nov25",
@@ -102,14 +104,15 @@
       ],
       "source": "Official GSET question-paper PDF and official FINAL answer-key PDF",
       "review_note": "Current question-level source_verified=true count is 10/100. 2 unresolved content concerns remain flagged. All other stems/options still require official source visual proofread; subject-level source verification remains pending.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 10,
       "review_flags_remaining_count": 2,
       "review_count": 2,
       "unit_mapping_provisional_count": 62,
       "unit_mapping_pending_count": 38,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     }
   ],
   "unit_mapping_status": "partial_provisional_mapping_review_pending",

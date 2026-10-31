@@ -26,14 +26,15 @@
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "review_count": 100,
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 43,
       "unit_mapping_pending_count": 57,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -51,14 +52,15 @@
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "review_count": 100,
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 36,
       "unit_mapping_pending_count": 64,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -77,13 +79,14 @@
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
       "review_count": 100,
-      "unit_mapping_status": "provisional_content_based_pending_official_verification",
+      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 30,
       "unit_mapping_pending_count": 70,
-      "unit_mapping_verified_count": 0
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
     }
   ],
   "unit_mapping_status": "provisional_content_based_pending_official_verification",
