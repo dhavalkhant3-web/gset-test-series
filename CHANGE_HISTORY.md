@@ -36,3 +36,11 @@
 - Code 33's ten-unit catalogue remained unchanged. Code 31's UGC-NET Code65 syllabus PDF could not be retrieved fully; its unit list remains pending independent validation.
 - Audit #279 and Debug APK #27 succeeded on commit `57198996bb867ade25684aee2a70a4f1c311118e`; artifact ID `12959312490`.
 - CI status for the following syllabus-only commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` was not available from the status endpoint at the time of this checkpoint.
+
+
+## 2026-10-31 — Exact-head audit/build recheck and register synchronization
+- Rechecked the live integration head `62490790e5ef39a395f0034d4b351a673d52a9ab` and its parent `69ef1d3d7c0bbff250b42f902bde24d5ba594360`.
+- Exact-head Combined subject bank audit run `41088721295`: PASS with `errors=[]`; paper-manifest mapping-status warnings remain for Codes 28–33 and are explicitly retained as unresolved.
+- Exact-head Integration Debug APK run `41088721107`: PASS; Flutter analyze and Debug APK build passed. Artifact ID `12992539292`; SHA-256 `57e92302134618394a57415b77429c4844c00d31c5925374697f7f49a773ab1e`.
+- Refreshed `MASTER_PROGRESS.md`, `PROJECT_STATE.json`, and `VERIFICATION_LOG.json` from the exact-head audit and workflow logs.
+- No question-bank records, answer text, options, translations, source references, Paper-I code, or Code 01 files changed. No PR was merged. Flutter tests were not run because the current integration workflow has no `flutter test` step.
