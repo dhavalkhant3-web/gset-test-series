@@ -6585,7 +6585,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 41,
     "question_en": "Select the correct chronology of the tombs of following Sultanates.",
-    "question_gu": "Select the correct chronology of the tombs of following Sultanates.",
+    "question_gu": "નીચેના સુલતાનતકાળના મકબરાઓનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Sher Shah Sur, Ghiasuddin Tughlaq, Iltutmish, Mahmud Shah Begada",
       "Iltutmish, Ghiasuddin Tughlaq, Mahmud Shah Begada, Sher Shah Sur",
@@ -6593,10 +6593,10 @@
       "Mahmud Shah Begada, Sher Shah Sur, Ghiasuddin Tughlaq, Iltutmish"
     ],
     "options_gu": [
-      "Sher Shah Sur, Ghiasuddin Tughlaq, Iltutmish, Mahmud Shah Begada",
-      "Iltutmish, Ghiasuddin Tughlaq, Mahmud Shah Begada, Sher Shah Sur",
-      "Ghiasuddin Tughlaq, Sher Shah Sur, Iltutmish, Mahmud Shah Begada",
-      "Mahmud Shah Begada, Sher Shah Sur, Ghiasuddin Tughlaq, Iltutmish"
+      "શેરશાહ સૂરી, ગિયાસુદ્દીન તુઘલક, ઇલ્તુત્મિશ, મહમૂદશાહ બેગડા",
+      "ઇલ્તુત્મિશ, ગિયાસુદ્દીન તુઘલક, મહમૂદશાહ બેગડા, શેરશાહ સૂરી",
+      "ગિયાસુદ્દીન તુઘલક, શેરશાહ સૂરી, ઇલ્તુત્મિશ, મહમૂદશાહ બેગડા",
+      "મહમૂદશાહ બેગડા, શેરશાહ સૂરી, ગિયાસુદ્દીન તુઘલક, ઇલ્તુત્મિશ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6616,13 +6616,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q041",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય મધ્યકાલીન ઇન્ડો-ઇસ્લામિક સ્થાપત્ય અને મકબરાઓ."
   },
   {
     "id": "visual_art_dec24_q42",
@@ -6630,7 +6632,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 42,
     "question_en": "Select correct chronology of the Western Aestheticians.",
-    "question_gu": "Select correct chronology of the Western Aestheticians.",
+    "question_gu": "પશ્ચિમી સૌંદર્યશાસ્ત્રીઓનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Baumgarten, Tolstoy, Croce, Heidegger",
       "Baumgarten, Heidegger, Croce, Tolstoy",
@@ -6638,10 +6640,10 @@
       "Tolstoy, Baumgarten, Croce, Heidegger"
     ],
     "options_gu": [
-      "Baumgarten, Tolstoy, Croce, Heidegger",
-      "Baumgarten, Heidegger, Croce, Tolstoy",
-      "Baumgarten, Croce, Heidegger, Tolstoy",
-      "Tolstoy, Baumgarten, Croce, Heidegger"
+      "બાઉમગાર્ટન, ટૉલ્સ્ટોય, ક્રોચે, હાઇડેગર",
+      "બાઉમગાર્ટન, હાઇડેગર, ક્રોચે, ટૉલ્સ્ટોય",
+      "બાઉમગાર્ટન, ક્રોચે, હાઇડેગર, ટૉલ્સ્ટોય",
+      "ટૉલ્સ્ટોય, બાઉમગાર્ટન, ક્રોચે, હાઇડેગર"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -6661,13 +6663,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q042",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી સૌંદર્યશાસ્ત્રીઓ અને કલા-વિચારનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q43",
@@ -6675,7 +6679,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 43,
     "question_en": "Select the correct chronology of the Kalinga style of temples tracing the evolution of Nagar type temple.\na. Sun Temple of Konark\nb. Parasurameshwar Temple\nc. Lingaraj Temple\nd. Mukteshvar Temple",
-    "question_gu": "Select the correct chronology of the Kalinga style of temples tracing the evolution of Nagar type temple.\na. Sun Temple of Konark\nb. Parasurameshwar Temple\nc. Lingaraj Temple\nd. Mukteshvar Temple",
+    "question_gu": "નાગર પ્રકારનાં મંદિરોના વિકાસને દર્શાવતી કલિંગ શૈલીનાં મંદિરોનો યોગ્ય કાલક્રમ પસંદ કરો.\na. કોણાર્કનું સૂર્યમંદિર\nb. પરશુરામેશ્વર મંદિર\nc. લિંગરાજ મંદિર\nd. મુક્તેશ્વર મંદિર",
     "options_en": [
       "b, d, c, a",
       "a, d, c, b",
@@ -6706,13 +6710,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q043",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય મંદિર સ્થાપત્યની કલિંગ શૈલી."
   },
   {
     "id": "visual_art_dec24_q44",
@@ -6720,7 +6726,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 44,
     "question_en": "Select the correct chronological order of the artists given below.\na. Gustav Courbet\nb. Jackson Pollock\nc. Theodore Gericault\nd. Rene Magritte",
-    "question_gu": "Select the correct chronological order of the artists given below.\na. Gustav Courbet\nb. Jackson Pollock\nc. Theodore Gericault\nd. Rene Magritte",
+    "question_gu": "નીચે આપેલા કલાકારોનો યોગ્ય કાલક્રમ પસંદ કરો.\na. ગુસ્તાવ કૂર્બે\nb. જૅક્સન પૉલોક\nc. થિયોડોર જૅરિકૉ\nd. રેને મેગ્રિટ",
     "options_en": [
       "c, a, d, b",
       "b, a, c, d",
@@ -6751,13 +6757,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q044",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી આધુનિક કલા-ઇતિહાસ અને કલાકારો."
   },
   {
     "id": "visual_art_dec24_q45",
@@ -6765,7 +6773,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 45,
     "question_en": "Select the correct sequence according to Sanskrit sutra of six limbs of Indian art.\na. Bhava\nb. Praman\nc. Lavanya Yojana\nd. Rupa Bheda",
-    "question_gu": "Select the correct sequence according to Sanskrit sutra of six limbs of Indian art.\na. Bhava\nb. Praman\nc. Lavanya Yojana\nd. Rupa Bheda",
+    "question_gu": "ભારતીય કલાનાં છ અંગો (ષડંગ)ના સંસ્કૃત સૂત્ર પ્રમાણે યોગ્ય ક્રમ પસંદ કરો.\na. ભાવ\nb. પ્રમાણ\nc. લાવણ્ય યોજના\nd. રૂપભેદ",
     "options_en": [
       "d, a, c, b",
       "b, d, a, c",
@@ -6796,13 +6804,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q045",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સૌંદર્યશાસ્ત્ર અને ચિત્રકલાના ષડંગ સિદ્ધાંત."
   },
   {
     "id": "visual_art_dec24_q46",
@@ -6810,7 +6820,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 46,
     "question_en": "Select the correct chronological sequence of western art movement.\na. Conceptual Art\nb. Bauhaus\nc. Art Nouveau\nd. Dada",
-    "question_gu": "Select the correct chronological sequence of western art movement.\na. Conceptual Art\nb. Bauhaus\nc. Art Nouveau\nd. Dada",
+    "question_gu": "પશ્ચિમી કલા-આંદોલનોનો યોગ્ય કાલક્રમ પસંદ કરો.\na. કન્સેપ્ચ્યુઅલ આર્ટ\nb. બાઉહાઉસ\nc. આર્ટ નુવો\nd. દાદાવાદ",
     "options_en": [
       "d, a, c, b",
       "d, b, c, a",
@@ -6841,13 +6851,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q046",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-આંદોલનોનો કાલક્રમ; review_flag યથાવત."
   },
   {
     "id": "visual_art_dec24_q47",
@@ -6855,7 +6867,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 47,
     "question_en": "Choose the correct chronological sequence.",
-    "question_gu": "Choose the correct chronological sequence.",
+    "question_gu": "યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "K. G. Subramanyan, Jogen Chowdhary, Sakti Burman, Anupam Sud",
       "K. G. Subramanyan, Sakti Burman, Jogen Chowdhary, Anupam Sud",
@@ -6863,10 +6875,10 @@
       "Jogen Chowdhary, K. G. Subramanyan, Sakti Burman, Anupam Sud"
     ],
     "options_gu": [
-      "K. G. Subramanyan, Jogen Chowdhary, Sakti Burman, Anupam Sud",
-      "K. G. Subramanyan, Sakti Burman, Jogen Chowdhary, Anupam Sud",
-      "Anupam Sud, Sakti Burman, Jogen Chowdhary, K. G. Subramanyan",
-      "Jogen Chowdhary, K. G. Subramanyan, Sakti Burman, Anupam Sud"
+      "કે. જી. સુબ્રમણ્યન, જોગેન ચૌધરી, શક્તિ બર્મન, અનુપમ સૂદ",
+      "કે. જી. સુબ્રમણ્યન, શક્તિ બર્મન, જોગેન ચૌધરી, અનુપમ સૂદ",
+      "અનુપમ સૂદ, શક્તિ બર્મન, જોગેન ચૌધરી, કે. જી. સુબ્રમણ્યન",
+      "જોગેન ચૌધરી, કે. જી. સુબ્રમણ્યન, શક્તિ બર્મન, અનુપમ સૂદ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6886,13 +6898,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q047",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "વીસમી સદીના ભારતીય સમકાલીન કલાકારો."
   },
   {
     "id": "visual_art_dec24_q48",
@@ -6900,7 +6914,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 48,
     "question_en": "Select the correct chronological sequence for the following printmakers.",
-    "question_gu": "Select the correct chronological sequence for the following printmakers.",
+    "question_gu": "નીચેના પ્રિન્ટમેકર્સનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "Palaniappan, Y. K. Shukla, Anant Nikam, Laxma Goud",
       "Y. K. Shukla, Laxma Goud, Palaniappan, Anant Nikam",
@@ -6908,10 +6922,10 @@
       "Palaniappan, Laxma Goud, Anant Nikam, Y. K. Shukla"
     ],
     "options_gu": [
-      "Palaniappan, Y. K. Shukla, Anant Nikam, Laxma Goud",
-      "Y. K. Shukla, Laxma Goud, Palaniappan, Anant Nikam",
-      "Laxma Goud, Anant Nikam, Y. K. Shukla, Palaniappan",
-      "Palaniappan, Laxma Goud, Anant Nikam, Y. K. Shukla"
+      "પલાનીયપ્પન, વાય. કે. શુક્લા, અનંત નિકમ, લક્ષ્મા ગૌડ",
+      "વાય. કે. શુક્લા, લક્ષ્મા ગૌડ, પલાનીયપ્પન, અનંત નિકમ",
+      "લક્ષ્મા ગૌડ, અનંત નિકમ, વાય. કે. શુક્લા, પલાનીયપ્પન",
+      "પલાનીયપ્પન, લક્ષ્મા ગૌડ, અનંત નિકમ, વાય. કે. શુક્લા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6931,13 +6945,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q048",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય પ્રિન્ટમેકર્સ; Printmaking electiveનો વિશિષ્ટ વિષય."
   },
   {
     "id": "visual_art_dec24_q49",
@@ -6945,7 +6961,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 49,
     "question_en": "Select the correct sequence in printmaking procedure.",
-    "question_gu": "Select the correct sequence in printmaking procedure.",
+    "question_gu": "પ્રિન્ટમેકિંગની પ્રક્રિયાનો યોગ્ય ક્રમ પસંદ કરો.",
     "options_en": [
       "nitric acid, acid proof ground, resin dust, printing",
       "nitric acid, resin dust, printing, acid proof ground",
@@ -6953,10 +6969,10 @@
       "resin dust, printing, nitric acid, acid proof ground"
     ],
     "options_gu": [
-      "nitric acid, acid proof ground, resin dust, printing",
-      "nitric acid, resin dust, printing, acid proof ground",
-      "resin dust, acid proof ground, nitric acid, printing",
-      "resin dust, printing, nitric acid, acid proof ground"
+      "નાઇટ્રિક એસિડ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ, રેઝિન પાઉડર, પ્રિન્ટિંગ",
+      "નાઇટ્રિક એસિડ, રેઝિન પાઉડર, પ્રિન્ટિંગ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ",
+      "રેઝિન પાઉડર, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ, નાઇટ્રિક એસિડ, પ્રિન્ટિંગ",
+      "રેઝિન પાઉડર, પ્રિન્ટિંગ, નાઇટ્રિક એસિડ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6976,13 +6992,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q049",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એચિંગ/પ્રિન્ટમેકિંગ પ્રક્રિયા."
   },
   {
     "id": "visual_art_dec24_q50",
@@ -6990,7 +7008,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 50,
     "question_en": "If you were making a clay sculpture, what would be the correct order of operations ?\ni. Molding the clay\nii. Creating an armature\niii. Using a kiln",
-    "question_gu": "If you were making a clay sculpture, what would be the correct order of operations ?\ni. Molding the clay\nii. Creating an armature\niii. Using a kiln",
+    "question_gu": "જો તમે માટીનું શિલ્પ બનાવતા હો, તો ક્રિયાઓનો યોગ્ય ક્રમ કયો હશે?\ni. માટીને આકાર આપવો (મોલ્ડિંગ)\nii. આંતરિક આધાર-માળખું (આર્મેચર) બનાવવું\niii. ભઠ્ઠી (કિલ્ન)નો ઉપયોગ કરવો",
     "options_en": [
       "ii, i, iii",
       "iii, i, ii",
@@ -7021,13 +7039,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q050",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "માટીના શિલ્પની રચનાત્મક પ્રક્રિયા; Sculpture elective સાથે સંબંધિત."
   },
   {
     "id": "visual_art_dec24_q51",
