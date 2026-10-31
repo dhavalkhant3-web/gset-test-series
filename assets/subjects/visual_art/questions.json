@@ -272,14 +272,16 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q006",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "The official Art History elective explicitly covers Buddhist iconography and Kubera/Jambhala-related iconography; no common core unit is a precise match. Keep unmapped until elective scope is confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Buddhist iconography; Kubera/Jambhala and Buddhist deities. The Art History elective explicitly includes Buddhist iconography and Kubera. Jambhala is named in the question; this is a direct specialist-elective match. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Buddhist iconography; Kubera/Jambhala and Buddhist deities"
   },
   {
     "id": "visual_art_nov23_q7",
@@ -977,14 +979,16 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q021",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "The stem concerns reinforced-concrete construction technology. The Art History elective includes Indian architecture and colonial/modern architecture, but this exact construction-engineering detail is not explicit; keep unmapped pending scope confirmation. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Indian Architecture — Colonial & Modern architecture. The Art History elective explicitly includes colonial and modern architecture. Reinforced-concrete technology is a building-material/structural detail within this architectural topic. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Indian Architecture — Colonial & Modern architecture"
   },
   {
     "id": "visual_art_nov23_q22",
@@ -1118,14 +1122,16 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_scope_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q024",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "Mayan Chacmool sculpture is not explicitly named in the ten core units or listed Visual Arts electives; do not force a unit. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Western and Oriental sculpture; modern sculptors. The question tests influence between named modern sculptors and sculpture forms; the Sculpture elective explicitly covers Western sculptors including Henry Moore, Barbara Hepworth, Constantin Brancusi and Louise Bourgeois. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Western and Oriental sculpture; modern sculptors"
   },
   {
     "id": "visual_art_nov23_q25",
@@ -2387,14 +2393,16 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q051",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "The question tests the historical sequence of printmakers, explicitly within the Printmaking elective; candidate elective is not recorded. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Development of Printmaking in India; Indian printmakers. The question asks the chronological sequence of Indian printmakers explicitly listed in the Printmaking elective. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Printmaking (Graphic Art)",
+    "syllabus_elective_topic": "Development of Printmaking in India; Indian printmakers"
   },
   {
     "id": "visual_art_nov23_q52",
@@ -2814,15 +2822,17 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "source_visual_check_passed",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q060",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "The question tests sculpture materials and processes; these are explicitly detailed in the Sculpture elective. Candidate elective is not recorded. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "source_verification_note": "Original November 2023 question-paper PDF, PDF page 13: question stem and all four options visually compared and match the stored English transcription."
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Sculptural media, methods and techniques. Carving, modelling, casting and assemblage with stone, clay, brass and scrap metal are explicitly within sculpture media and processes. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "source_verification_note": "Original November 2023 question-paper PDF, PDF page 13: question stem and all four options visually compared and match the stored English transcription.",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Sculptural media, methods and techniques"
   },
   {
     "id": "visual_art_nov23_q61",
@@ -2957,14 +2967,16 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q063",
     "source_question_paper": "nov2333.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "The matching list mixes printmaking tools, sculpture tools and vector graphics; no single core unit is a precise fit. Retain unmapped until elective scope is confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Tools, media and techniques across studio disciplines. The matching question deliberately spans sculpture, printmaking, lithography and computer graphics; it is an interdisciplinary studio-tools question covered across the named electives. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Sculpture + Printmaking (Graphic Art)",
+    "syllabus_elective_topic": "Tools, media and techniques across studio disciplines"
   },
   {
     "id": "visual_art_nov23_q64",
@@ -5685,14 +5697,16 @@
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q021",
     "source_question_paper": "dec2433.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "syllabus_mapping_note": "Busts are a sculptural form; the official Sculpture elective covers forms and classification of sculpture. Candidate elective is not recorded. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Elements, classification and forms of sculpture. Bust is a sculptural form; the Sculpture elective explicitly covers classification and sculptural form. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Elements, classification and forms of sculpture"
   },
   {
     "id": "visual_art_dec24_q22",
@@ -11200,14 +11214,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q038",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Wölfflin's formal analysis and methodological pairs are explicitly within the Art History elective's methodology section; no common core unit directly specifies art-historical methodology. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Principles of Art Historical methodology — Formalism. Wölfflin's linear/painterly pairs and formal analysis are explicitly within the Art History elective's methodology. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Principles of Art Historical methodology — Formalism"
   },
   {
     "id": "visual_art_nov25_q39",
@@ -11389,14 +11405,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q042",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The official Art History elective explicitly lists Saptamatrikas, river goddesses, Jain Tirthankaras and Yaksha/Yakshi iconography; keep elective-specific rather than assigning a core unit. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Indian Iconography — Saptamatrikas and Kartikeya. Both Saptamatrikas and Kartikeya are explicitly named in the Art History elective's Indian iconography section. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Indian Iconography — Saptamatrikas and Kartikeya"
   },
   {
     "id": "visual_art_nov25_q43",
@@ -11436,14 +11454,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q043",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The official Art History elective explicitly lists Saptamatrikas, river goddesses, Jain Tirthankaras and Yaksha/Yakshi iconography; keep elective-specific rather than assigning a core unit. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Indian Iconography — river goddesses Ganga and Yamuna. River goddess Ganga is explicitly named in the Art History elective. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Indian Iconography — river goddesses Ganga and Yamuna"
   },
   {
     "id": "visual_art_nov25_q44",
@@ -11483,15 +11503,17 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "source_visual_check_passed",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q044",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The official Art History elective explicitly lists Saptamatrikas, river goddesses, Jain Tirthankaras and Yaksha/Yakshi iconography; keep elective-specific rather than assigning a core unit. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Jain iconography — Tirthankaras. Rishabhanatha, Neminatha, Mahavira and Parshvanatha are explicitly named in the Art History elective's Jain iconography section. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "source_verification_note": "Original November 2025 question-paper PDF, PDF page 12: question stem and all four options visually compared and match the stored English transcription."
+    "source_verification_note": "Original November 2025 question-paper PDF, PDF page 12: question stem and all four options visually compared and match the stored English transcription.",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Jain iconography — Tirthankaras"
   },
   {
     "id": "visual_art_nov25_q45",
@@ -11531,15 +11553,17 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "source_visual_check_passed",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q045",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Panofsky, Wölfflin, Arnheim and Greenberg are art-history/criticism theorists; the official Art History elective explicitly covers methodology and criticism. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Methodology, formalism, iconology and art criticism. Theorists and critical approaches are explicitly within the Art History elective's methodology and critical-analysis topics. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
     "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
-    "source_verification_note": "Original November 2025 question-paper PDF, PDF page 12: question stem and all four options visually compared and match the stored English transcription."
+    "source_verification_note": "Original November 2025 question-paper PDF, PDF page 12: question stem and all four options visually compared and match the stored English transcription.",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Methodology, formalism, iconology and art criticism"
   },
   {
     "id": "visual_art_nov25_q46",
@@ -12239,14 +12263,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q060",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The official Art History elective explicitly lists Saptamatrikas, river goddesses, Jain Tirthankaras and Yaksha/Yakshi iconography; keep elective-specific rather than assigning a core unit. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Indian Sculpture — early Indian sculpture and Yakshi iconography. Yakshi imagery and early Indian sculpture are within the Art History elective's Indian iconography and sculpture sections. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History",
+    "syllabus_elective_topic": "Indian Sculpture — early Indian sculpture and Yakshi iconography"
   },
   {
     "id": "visual_art_nov25_q61",
@@ -12427,14 +12453,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q064",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The sequence concerns the historical development of printmaking in India, explicitly detailed in the Printmaking elective; retain elective-specific mapping. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Development of Printmaking in India. Colonial popular printmaking, establishment of presses, Santiniketan and post-independence print trends are explicitly detailed in the Printmaking elective. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Printmaking (Graphic Art)",
+    "syllabus_elective_topic": "Development of Printmaking in India"
   },
   {
     "id": "visual_art_nov25_q65",
@@ -12615,14 +12643,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q068",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The questions concern monumental sculpture, stone preservation and the social function of sculpture, all explicitly covered in the Sculpture elective. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Monumental sculpture — scope, problems and limitations. The elective explicitly includes monumental sculpture's scope, problems and limitations. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Monumental sculpture — scope, problems and limitations"
   },
   {
     "id": "visual_art_nov25_q69",
@@ -12804,14 +12834,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q072",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The questions concern monumental sculpture, stone preservation and the social function of sculpture, all explicitly covered in the Sculpture elective. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Stone — preservation against weathering. The Sculpture elective explicitly covers treatment and preservation of stone against weathering. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Stone — preservation against weathering"
   },
   {
     "id": "visual_art_nov25_q73",
@@ -13654,14 +13686,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q090",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "The questions concern monumental sculpture, stone preservation and the social function of sculpture, all explicitly covered in the Sculpture elective. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Aesthetics; role and function of sculpture in society. The Sculpture elective explicitly covers the role and function of sculpture in society. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Aesthetics; role and function of sculpture in society"
   },
   {
     "id": "visual_art_nov25_q91",
@@ -13701,14 +13735,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q091",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Western sculpture; Ghiberti and sculptural works. Figure-based artwork identification concerns a sculpture and its sculptor; Ghiberti is within Western sculpture history. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Western sculpture; Ghiberti and sculptural works"
   },
   {
     "id": "visual_art_nov25_q92",
@@ -13748,14 +13784,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q092",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Western sculpture and sculptors. The figure-based question asks for the sculptor of the pictured work. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Western sculpture and sculptors"
   },
   {
     "id": "visual_art_nov25_q93",
@@ -13795,14 +13833,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q093",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Western sculpture — artwork provenance and location. The figure-based question asks the present location of a sculpture; this is an artwork-history/provenance fact. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Western sculpture — artwork provenance and location"
   },
   {
     "id": "visual_art_nov25_q94",
@@ -13842,14 +13882,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q094",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Sculptural materials and media. The figure-based question asks the material/medium of a sculpture. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Sculptural materials and media"
   },
   {
     "id": "visual_art_nov25_q95",
@@ -13889,14 +13931,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q095",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Sculptural concept and interpretation. The figure-based question asks the concept behind a sculpture. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Sculpture",
+    "syllabus_elective_topic": "Sculptural concept and interpretation"
   },
   {
     "id": "visual_art_nov25_q96",
@@ -13936,14 +13980,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q096",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Indian painting — Mughal miniature painting. The figure-based painting is an art-historical identification item; the Mughal miniature painting tradition is explicitly covered in both electives. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History + Drawing and Painting",
+    "syllabus_elective_topic": "Indian painting — Mughal miniature painting"
   },
   {
     "id": "visual_art_nov25_q97",
@@ -13983,14 +14029,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q097",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Mughal miniature painters and artists. The figure-based question asks the painter of a Mughal painting. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History + Drawing and Painting",
+    "syllabus_elective_topic": "Mughal miniature painters and artists"
   },
   {
     "id": "visual_art_nov25_q98",
@@ -14030,14 +14078,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q098",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Mughal miniature painting from Akbar to Shah Jahan. The figure-based question asks the ruler's period for a Mughal painting. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History + Drawing and Painting",
+    "syllabus_elective_topic": "Mughal miniature painting from Akbar to Shah Jahan"
   },
   {
     "id": "visual_art_nov25_q99",
@@ -14077,14 +14127,16 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q099",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Mughal painting — stylistic characteristics and naturalism. The figure-based question tests style and visual characteristics of a Mughal painting. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History + Drawing and Painting",
+    "syllabus_elective_topic": "Mughal painting — stylistic characteristics and naturalism"
   },
   {
     "id": "visual_art_nov25_q100",
@@ -14124,13 +14176,15 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_elective_confirmation",
+    "syllabus_mapping_status": "verified_elective_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q100",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
-    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
+    "syllabus_mapping_note": "Official UGC-NET Visual Arts Code 79 / GSET Subject 33 elective match: Mughal painting — collection and provenance. The figure-based question asks the current collection/city of a painting. Source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_elective": "Art History + Drawing and Painting",
+    "syllabus_elective_topic": "Mughal painting — collection and provenance"
   }
 ]
