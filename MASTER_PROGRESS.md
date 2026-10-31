@@ -144,3 +144,12 @@ Automated parsed-content checks were run against the current integration questio
 - Code 27 Forensic Science PR #20 remains draft/open and unmerged; 300 staged records are not source-verified, Q9 Nov 2023 and Q13 Dec 2024 require manual visual review, and mappings remain provisional/pending.
 - No question-bank records were source-proofread in this checkpoint. No PR was merged. Code 01 and Paper-I remain untouched.
 - Next execution: retrieve original official question-paper PDFs, inspect source pages and correct only proven discrepancies; resolve paper-metadata warnings separately from question-level mapping assignments; add meaningful Flutter tests only when the app's existing testable contracts are identified; rerun audit/build after any data or code changes.
+
+
+## Paper-manifest status repair — 2026-10-31
+- Commit `99545b7f7923ad56afd752ed22961390823ffa8d` updates the paper-level `unit_mapping_status` in all eight in-scope `papers.json` manifests (Codes 02, 03, 28, 29, 30, 31, 32, 33): 55 paper entries total.
+- Standardized the paper-level status to `pending_official_syllabus_unit_mapping` and added a note explaining that at least one question-level mapping remains provisional, ambiguous, or unmapped.
+- Preserved every question-level unit value, per-question mapping status, source-review count, review flag, question text, answer, option, and source reference. No question JSON was edited.
+- Exact-commit Combined subject bank audit run **41163322599**: SUCCESS; `errors=[]`; all eight `paper_metadata_flags` arrays are now empty.
+- Exact-commit Public Administration validation run **41163322559**: SUCCESS.
+- Exact-commit APK run **41163322554**: Flutter analyze completed successfully; Debug APK build was still running at register update time. Record its final result/artifact when complete.

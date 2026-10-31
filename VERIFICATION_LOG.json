@@ -453,5 +453,59 @@
       "Question-level verification counts and review-required union are independent metrics; do not infer one from the other.",
       "No question bank was edited in this checkpoint."
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "event": "Paper-manifest mapping status synchronization",
+    "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "parent_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "changed_files": [
+      "assets/subjects/physical_sciences/papers.json",
+      "assets/subjects/chemical_sciences/papers.json",
+      "assets/subjects/hindu_studies/papers.json",
+      "assets/subjects/indian_knowledge_system/papers.json",
+      "assets/subjects/music/papers.json",
+      "assets/subjects/performing_art_dance_drama_theatre/papers.json",
+      "assets/subjects/public_administration/papers.json",
+      "assets/subjects/visual_art/papers.json"
+    ],
+    "paper_entries_updated": 55,
+    "changed_subject_codes": [
+      "02",
+      "03",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "change_scope": "Only paper-level unit_mapping_status and explanatory unit_mapping_status_note fields; no question-level data or mappings changed.",
+    "validators": {
+      "combined_audit": {
+        "run_id": 41163322599,
+        "result": "PASS",
+        "errors": [],
+        "paper_metadata_flags_remaining": 0
+      },
+      "public_administration": {
+        "run_id": 41163322559,
+        "result": "PASS"
+      }
+    },
+    "apk": {
+      "run_id": 41163322554,
+      "status": "in progress at register synchronization",
+      "flutter_analyze": "PASS",
+      "debug_apk": "pending"
+    },
+    "safety": {
+      "question_banks_changed": false,
+      "question_level_unit_assignments_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "All eight paper_metadata_flags arrays are empty after canonical pending-status synchronization. This repairs metadata consistency only; it does not verify any pending syllabus assignment."
   }
 ]

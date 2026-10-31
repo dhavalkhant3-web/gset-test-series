@@ -21,7 +21,9 @@
     "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948",
     "latest_integration_head_before_syllabus_checkpoint": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
     "latest_live_head_before_register_refresh": "62490790e5ef39a395f0034d4b351a673d52a9ab",
-    "master_progress_refresh_commit": "d3fd8b593bef201ec6d39a5100d931c4cf8594fe"
+    "master_progress_refresh_commit": "d3fd8b593bef201ec6d39a5100d931c4cf8594fe",
+    "latest_live_head_before_manifest_repair": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -402,8 +404,8 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
+    "Finish the current-head Debug APK run 41163322554 and record artifact; do not infer success until completed.",
     "Retrieve and visually compare official source pages for the flagged question records; no OCR-only promotion.",
-    "Resolve current paper-manifest mapping-status warnings for Codes 28-33 by matching metadata to per-question mapping states; do not change unit assignments without evidence.",
     "Physical Sciences: inspect 210 invalid option structures and flagged records; verify Q1/Q42-Q44 numbering against official PDFs; mapping pending.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
     "Resolve Hindu Studies 40 content flags and 24 provisional mappings.",
@@ -610,22 +612,20 @@
     "date": "2026-10-31",
     "exact_audited_head": "62490790e5ef39a395f0034d4b351a673d52a9ab",
     "latest_audit": {
-      "run_id": 41088721295,
+      "run_id": 41163322599,
+      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
       "conclusion": "success",
       "errors": [],
-      "paper_metadata_warnings": true
+      "paper_metadata_flags_remaining": 0
     },
     "latest_debug_build": {
-      "run_id": 41088721107,
-      "conclusion": "success",
+      "run_id": 41163322554,
+      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+      "status": "in_progress_at_register_sync",
       "flutter_analyze": "success",
-      "debug_apk": "success",
-      "artifact_id": 12992539292,
-      "artifact_size_bytes": 113066571,
-      "artifact_zip_sha256": "57e92302134618394a57415b77429c4844c00d31c5925374697f7f49a773ab1e",
-      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41088721107"
+      "debug_apk": "pending"
     },
-    "flutter_test": "not run; integration workflow has no flutter test step",
+    "flutter_test": "not run; no flutter test step in current integration workflow",
     "new_question_visual_proofreads": 0,
     "pr_merges": 0,
     "code_01_changed": false,
@@ -707,6 +707,31 @@
       "Combined audit errors array empty, but paper_metadata_flags remain for Codes 28-33; do not treat warnings as clean metadata pass.",
       "Code 03 audit block covers 1,250 base records; 50-question Sep 2016 Paper-II overlay is separately registered and not included in that block.",
       "No original question-paper visual review was completed in this checkpoint."
-    ]
+    ],
+    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "manifest_repair": {
+      "subjects": [
+        "02",
+        "03",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "paper_entries_updated": 55,
+      "question_level_fields_changed": 0,
+      "unit_assignments_changed": 0
+    },
+    "public_administration_validator": {
+      "run_id": 41163322559,
+      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+      "conclusion": "success"
+    },
+    "no_question_source_proofreading_in_batch": true,
+    "no_pr_merge": true,
+    "code_01_untouched": true,
+    "paper_i_untouched": true
   }
 }
