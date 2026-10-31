@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. Schema-aware audit: 892 records have source_verified=true; 374 retain review_flag=true (these dimensions overlap). 213 records have incomplete/blank option data after both supported option schemas are normalized; all 213 are already source_verified=false and review_flag=true. The earlier 298 invalid-option count was a false positive because 85 records store valid A-D options in an `options` object rather than `options_en`. 581 mappings have no declared unit; 719 declared assignments remain provisional/unverified. The separate 75-question September 2016 Paper-III archive remains excluded from Paper-II. Subject-level source_verified remains false."
+      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. Latest exact-head schema-aware audit: 895 records have source_verified=true; 427 records are in the source-review-required union (review flags and unresolved option/source issues may overlap). 210 records have incomplete/blank option data after both supported option schemas are normalized; these are retained for source review. 581 mappings have no declared unit; 719 declared assignments remain provisional/unverified. The separate 75-question September 2016 Paper-III archive remains excluded from Paper-II. Subject-level source_verified remains false."
     },
     {
       "code": "03",
