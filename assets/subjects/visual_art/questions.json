@@ -2825,7 +2825,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 61,
     "question_en": "Match the following.\nList – 1: a. Amarnath Sehgal; b. Somnath Hore; c. Meera Mukherjee; d. P.V. Janakiram\nList – 2: i. Ganesha; ii. Woman; iii. Anguished Cries; iv. Wayside Station\nCodes :",
-    "question_gu": "Match the following.\nList – 1: a. Amarnath Sehgal; b. Somnath Hore; c. Meera Mukherjee; d. P.V. Janakiram\nList – 2: i. Ganesha; ii. Woman; iii. Anguished Cries; iv. Wayside Station\nCodes :",
+    "question_gu": "નીચેનો મેળ બેસાડો.\nયાદી–1: a. અમરનાથ સહગલ; b. સોમનાથ હોરે; c. મીરા મુખર્જી; d. પી. વી. જાનકીરામ\nયાદી–2: i. ગણેશ; ii. સ્ત્રી; iii. વ્યથાભર્યા ચિત્કાર; iv. વેઝસાઇડ સ્ટેશન\nસંકેતો:",
     "options_en": [
       "a-iii, b-ii, c-iv, d-i",
       "a-i, b-ii, c-iii, d-iv",
@@ -2856,13 +2856,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q061",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય શિલ્પકારો અને તેમની કૃતિઓ; કલા-ઇતિહાસના સંદર્ભમાં."
   },
   {
     "id": "visual_art_nov23_q62",
@@ -2870,7 +2872,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 62,
     "question_en": "Match the following.\nList – 1: a. Mesh; b. Platen; c. Roulette; d. Brayer\nList – 2: i. Machine; ii. Printmaking; iii. Litho; iv. Silk Screen\nCodes :",
-    "question_gu": "Match the following.\nList – 1: a. Mesh; b. Platen; c. Roulette; d. Brayer\nList – 2: i. Machine; ii. Printmaking; iii. Litho; iv. Silk Screen\nCodes :",
+    "question_gu": "નીચેનો મેળ બેસાડો.\nયાદી–1: a. મેશ; b. પ્લેટન; c. રૂલેટ; d. બ્રેયર\nયાદી–2: i. મશીન; ii. પ્રિન્ટમેકિંગ; iii. લિથો; iv. સિલ્ક સ્ક્રીન\nસંકેતો:",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iv, b-iii, c-ii, d-i",
@@ -2901,13 +2903,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q062",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રિન્ટમેકિંગના સાધનો અને પદ્ધતિઓ; શબ્દાવલી/મેળ અંગે review_flag યથાવત."
   },
   {
     "id": "visual_art_nov23_q63",
@@ -2915,7 +2919,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 63,
     "question_en": "Match the following.\nList – 1: a. Rocker; b. Chisel; c. Grinder; d. Vector\nList – 2: i. Printmaking; ii. Computer Graphics; iii. Lithograph; iv. Sculpture\nCodes :",
-    "question_gu": "Match the following.\nList – 1: a. Rocker; b. Chisel; c. Grinder; d. Vector\nList – 2: i. Printmaking; ii. Computer Graphics; iii. Lithograph; iv. Sculpture\nCodes :",
+    "question_gu": "નીચેનો મેળ બેસાડો.\nયાદી–1: a. રોકર; b. છીણી; c. ગ્રાઇન્ડર; d. વેક્ટર\nયાદી–2: i. પ્રિન્ટમેકિંગ; ii. કમ્પ્યુટર ગ્રાફિક્સ; iii. લિથોગ્રાફ; iv. શિલ્પકલા\nસંકેતો:",
     "options_en": [
       "a-iv, b-ii, c-i, d-iii",
       "a-iv, b-iii, c-ii, d-i",
@@ -2947,12 +2951,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_source_and_scope_review",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q063",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "સાધનો/પ્રક્રિયાઓના મેળમાં અસ્પષ્ટતા; review_flag યથાવત રાખ્યો."
   },
   {
     "id": "visual_art_nov23_q64",
@@ -2960,7 +2966,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 64,
     "question_en": "Match the characters in List – I with the computer animated films in List – II.\nList – I: a. Forky and Woody; b. Nick Wilde and Judy Hopps; c. Mufasa and Zazu; d. Bob Parr and Helen Parr\nList – II: i. Toy Story 4; ii. Zootopia; iii. The Lion King (2019); iv. The Incredibles\nCodes :",
-    "question_gu": "Match the characters in List – I with the computer animated films in List – II.\nList – I: a. Forky and Woody; b. Nick Wilde and Judy Hopps; c. Mufasa and Zazu; d. Bob Parr and Helen Parr\nList – II: i. Toy Story 4; ii. Zootopia; iii. The Lion King (2019); iv. The Incredibles\nCodes :",
+    "question_gu": "યાદી–Iનાં પાત્રોનો યાદી–IIની કમ્પ્યુટર-એનિમેટેડ ફિલ્મો સાથે મેળ બેસાડો.\nયાદી–I: a. ફોર્કી અને વુડી; b. નિક વાઇલ્ડ અને જુડી હોપ્સ; c. મુફાસા અને ઝાઝુ; d. બોબ પાર અને હેલન પાર\nયાદી–II: i. ટોય સ્ટોરી 4; ii. ઝૂટોપિયા; iii. ધ લાયન કિંગ (2019); iv. ધ ઇનક્રેડિબલ્સ\nસંકેતો:",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-i, c-ii, d-iv",
@@ -2991,13 +2997,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_2",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q064",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એનિમેશન ફિલ્મો અને સિનેમાના પાત્રો."
   },
   {
     "id": "visual_art_nov23_q65",
@@ -3005,7 +3013,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 65,
     "question_en": "Match the designers with the iconic brand logos.\nList – I: a. Frank Mason Robinson; b. Henri Kay Henrion; c. Paula Scher; d. Sagi Haviv\nList – II: i. Library of Congress; ii. KLM airlines; iii. Discovery+; iv. Coca-Cola\nCodes :",
-    "question_gu": "Match the designers with the iconic brand logos.\nList – I: a. Frank Mason Robinson; b. Henri Kay Henrion; c. Paula Scher; d. Sagi Haviv\nList – II: i. Library of Congress; ii. KLM airlines; iii. Discovery+; iv. Coca-Cola\nCodes :",
+    "question_gu": "ડિઝાઇનર્સનો તેમના પ્રખ્યાત બ્રાન્ડ લોગો સાથે મેળ બેસાડો.\nયાદી–I: a. ફ્રેન્ક મેસન રોબિન્સન; b. હેનરી કે. હેનરિયન; c. પૌલા શેર; d. સાગી હાવીવ\nયાદી–II: i. લાઇબ્રેરી ઑફ કૉંગ્રેસ; ii. KLM એરલાઇન્સ; iii. ડિસ્કવરી+; iv. કોકા-કોલા\nસંકેતો:",
     "options_en": [
       "a-iv, b-ii, c-i, d-iii",
       "a-i, b-ii, c-iii, d-iv",
@@ -3036,13 +3044,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q065",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "બ્રાન્ડ લોગો, ગ્રાફિક ડિઝાઇન અને દૃશ્ય સંચાર."
   },
   {
     "id": "visual_art_nov23_q66",
@@ -3050,7 +3060,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 66,
     "question_en": "Choose from the following Mughal painters who were active during the Humayun’s and Akbar’s period as well.\na. Mir Sayyad Ali\nb. Abdul Samad Khan\nc. Ustad Mansur\nd. Basawan\nChoose the correct answer from the options given below :",
-    "question_gu": "Choose from the following Mughal painters who were active during the Humayun’s and Akbar’s period as well.\na. Mir Sayyad Ali\nb. Abdul Samad Khan\nc. Ustad Mansur\nd. Basawan\nChoose the correct answer from the options given below :",
+    "question_gu": "નીચેના મુઘલ ચિત્રકારોમાંથી હૂમાયુન અને અકબરના સમયગાળામાં પણ સક્રિય રહેલા ચિત્રકારો પસંદ કરો.\na. મીર સૈયદ અલી\nb. અબ્દુસ સમદ ખાન\nc. ઉસ્તાદ મન્સૂર\nd. બસાવન\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a and b only",
       "a, b and d only",
@@ -3058,10 +3068,10 @@
       "c and d only"
     ],
     "options_gu": [
-      "a and b only",
-      "a, b and d only",
-      "b, c and d only",
-      "c and d only"
+      "માત્ર a અને b",
+      "માત્ર a, b અને d",
+      "માત્ર b, c અને d",
+      "માત્ર c અને d"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -3081,13 +3091,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q066",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "મુઘલ લઘુચિત્ર પરંપરા અને ભારતીય કલા-ઇતિહાસ."
   },
   {
     "id": "visual_art_nov23_q67",
@@ -3095,7 +3107,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 67,
     "question_en": "Below is a list of famous European sculptures.\na. Gate of Paradise\nb. Gate of Hell\nc. The Kiss\nd. Thinker\nSelect the correct answer for sculptures created by Rodin :",
-    "question_gu": "Below is a list of famous European sculptures.\na. Gate of Paradise\nb. Gate of Hell\nc. The Kiss\nd. Thinker\nSelect the correct answer for sculptures created by Rodin :",
+    "question_gu": "નીચે યુરોપનાં પ્રખ્યાત શિલ્પોની યાદી છે.\na. ગેટ ઑફ પેરેડાઇઝ\nb. ગેટ ઑફ હેલ\nc. ધ કિસ\nd. થિંકર\nરોદાં દ્વારા બનાવાયેલાં શિલ્પો માટે યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a and c only",
       "a and d only",
@@ -3103,10 +3115,10 @@
       "b, c and d only"
     ],
     "options_gu": [
-      "a and c only",
-      "a and d only",
-      "a and b only",
-      "b, c and d only"
+      "માત્ર a અને c",
+      "માત્ર a અને d",
+      "માત્ર a અને b",
+      "માત્ર b, c અને d"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3126,13 +3138,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q067",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક યુરોપિયન શિલ્પ અને પશ્ચિમી કલા-ઇતિહાસ."
   },
   {
     "id": "visual_art_nov23_q68",
@@ -3140,7 +3154,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 68,
     "question_en": "Who were the Philosophers having contradictory view on art as imitation ?\na. Platanus\nb. Plato\nc. Socrates\nd. Aristotle\nCodes :",
-    "question_gu": "Who were the Philosophers having contradictory view on art as imitation ?\na. Platanus\nb. Plato\nc. Socrates\nd. Aristotle\nCodes :",
+    "question_gu": "કલાને અનુકરણ તરીકે જોવાના વિરોધાભાસી મત ધરાવતા તત્ત્વચિંતકો કોણ હતા?\na. પ્લેટાનસ\nb. પ્લેટો\nc. સોક્રેટીસ\nd. એરિસ્ટોટલ\nસંકેતો:",
     "options_en": [
       "a and b only",
       "a and c only",
@@ -3148,10 +3162,10 @@
       "a and d only"
     ],
     "options_gu": [
-      "a and b only",
-      "a and c only",
-      "b and d only",
-      "a and d only"
+      "માત્ર a અને b",
+      "માત્ર a અને c",
+      "માત્ર b અને d",
+      "માત્ર a અને d"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3171,13 +3185,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q068",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કલા-અનુકરણ અંગે પશ્ચિમી સૌંદર્યશાસ્ત્ર; ‘Platanus’ લખાણની ભૂલ માટે review_flag યથાવત."
   },
   {
     "id": "visual_art_nov23_q69",
@@ -3185,7 +3201,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 69,
     "question_en": "Choose the salient features of the medieval manuscript painting Kalpasutra from given below.\na. Farther eye\nb. Angular and crispy lines\nc. Chiaroscuro\nd. Transparencies of colours\ne. Pointed nose",
-    "question_gu": "Choose the salient features of the medieval manuscript painting Kalpasutra from given below.\na. Farther eye\nb. Angular and crispy lines\nc. Chiaroscuro\nd. Transparencies of colours\ne. Pointed nose",
+    "question_gu": "મધ્યકાલીન હસ્તપ્રત-ચિત્રકલા ‘કલ્પસૂત્ર’નાં મુખ્ય લક્ષણો નીચેમાંથી પસંદ કરો.\na. દૂરનો દેખાતો આંખનો આકાર\nb. કોણીય અને તીક્ષ્ણ રેખાઓ\nc. કિઆરોસ્ક્યુરો (પ્રકાશ-છાયાની પદ્ધતિ)\nd. રંગોની પારદર્શિતા\ne. અણીદાર નાક",
     "options_en": [
       "a, b, e",
       "a, b, c",
@@ -3216,13 +3232,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q069",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય મધ્યકાલીન હસ્તપ્રત-ચિત્રકલા અને કલ્પસૂત્ર."
   },
   {
     "id": "visual_art_nov23_q70",
@@ -3230,7 +3248,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 70,
     "question_en": "Romanticism was focused on the following points.\na. Individual freedom\nb. Love for nature\nc. Classicism\nd. Morality\ne. Imagination superior to reason\nChoose the correct set of answer from the following :",
-    "question_gu": "Romanticism was focused on the following points.\na. Individual freedom\nb. Love for nature\nc. Classicism\nd. Morality\ne. Imagination superior to reason\nChoose the correct set of answer from the following :",
+    "question_gu": "રોમેન્ટિસિઝમમાં નીચેના કયા મુદ્દાઓ પર ભાર મૂકવામાં આવ્યો હતો?\na. વ્યક્તિગત સ્વતંત્રતા\nb. પ્રકૃતિ પ્રત્યે પ્રેમ\nc. ક્લાસિસિઝમ\nd. નૈતિકતા\ne. કલ્પનાશક્તિ તર્ક કરતાં શ્રેષ્ઠ છે\nનીચેમાંથી યોગ્ય જવાબસમૂહ પસંદ કરો:",
     "options_en": [
       "a, b and c only",
       "b, c and d only",
@@ -3238,10 +3256,10 @@
       "a, b and e only"
     ],
     "options_gu": [
-      "a, b and c only",
-      "b, c and d only",
-      "c, d and e only",
-      "a, b and e only"
+      "માત્ર a, b અને c",
+      "માત્ર b, c અને d",
+      "માત્ર c, d અને e",
+      "માત્ર a, b અને e"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -3261,13 +3279,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q070",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-આંદોલન રોમેન્ટિસિઝમ; નિવેદનો/official key અંગે review_flag યથાવત."
   },
   {
     "id": "visual_art_nov23_q71",
