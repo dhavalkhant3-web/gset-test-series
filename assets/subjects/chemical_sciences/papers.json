@@ -194,7 +194,15 @@
       "unit_mapping_provisional_count": 7,
       "unit_mapping_pending_count": 43,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged.",
+      "question_review_notes": [
+        {
+          "question_id": "chemical_jul06_q42",
+          "issue": "options_en is stored as a single string instead of a four-option array",
+          "action_required": "Visually transcribe the four options from the official July 2006 Paper-II PDF before changing the question record",
+          "preservation": "Keep the existing question stem, official answer, and source references unchanged; retain review_flag=true and source_verified=false until page-level verification"
+        }
+      ]
     },
     {
       "paper_id": "chemical_dec08",
