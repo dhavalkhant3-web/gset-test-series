@@ -111,13 +111,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Unit VI: Economic and Financial Administration. Article 280 establishes the Finance Commission; the syllabus explicitly lists Finance Commission under Fiscal Federalism and Union-State Financial Relations. Source-paper proofreading remains separate.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "public_administration_nov23_q4",
@@ -151,13 +151,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": 2,
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional suggestion based only on the question stem/options and the official syllabus unit names. Verify the full question against the official syllabus before treating as confirmed.",
-    "unit_number": 2,
-    "unit_id": "unit_2"
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Unit III: Indian Administration, which explicitly covers evolution during the British period. The Indian Councils Act, 1909 (Morley-Minto reforms) belongs to that historical-administrative evolution. Source-paper proofreading remains separate.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "public_administration_nov23_q5",
