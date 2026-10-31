@@ -343,5 +343,115 @@
     "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
     "result": "not verified",
     "note": "GitHub commit status endpoint returned no check entries at snapshot time; Firecrawl Actions-page verification unavailable due account credits. No pass/fail inferred."
+  },
+  {
+    "date": "2026-10-31",
+    "event": "Exact-head repository recheck, audit and APK verification",
+    "audited_commit": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "parent_commit": "69ef1d3d7c0bbff250b42f902bde24d5ba594360",
+    "audit": {
+      "run_id": 41088721295,
+      "result": "PASS",
+      "errors": [],
+      "note": "All audit workflow steps completed. Paper metadata warnings remain for all three manifests in Codes 28-33: mapping-status metadata differs from question-level pending state. These warnings are not ignored or counted as resolved."
+    },
+    "apk": {
+      "run_id": 41088721107,
+      "result": "PASS",
+      "flutter_analyze": "PASS",
+      "debug_apk": "PASS",
+      "artifact_id": 12992539292,
+      "size_bytes": 113066571,
+      "zip_sha256": "57e92302134618394a57415b77429c4844c00d31c5925374697f7f49a773ab1e",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41088721107"
+    },
+    "metrics": {
+      "28": {
+        "records": 300,
+        "source_verified": 300,
+        "review_required": 40,
+        "verified_mapping": 276,
+        "provisional_mapping": 24
+      },
+      "29": {
+        "records": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "provisional_mapping": 109,
+        "pending_mapping": 191
+      },
+      "30": {
+        "records": 300,
+        "source_verified": 154,
+        "review_required": 212,
+        "visual_proofread": 154,
+        "visual_pending": 146,
+        "answer_key_visual_checked": 300,
+        "answer_key_mismatches": 0,
+        "mapping_reviewed": 140,
+        "mapping_ambiguous": 14,
+        "mapping_provisional": 146
+      },
+      "31": {
+        "records": 300,
+        "source_verified": 94,
+        "review_required": 206,
+        "source_text_pending": 200,
+        "bilingual_discrepancies": 6,
+        "provisional_mapping": 135,
+        "pending_mapping": 165
+      },
+      "32": {
+        "records": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "provisional_mapping": 164,
+        "pending_mapping": 136
+      },
+      "33": {
+        "records": 300,
+        "source_verified": 30,
+        "review_required": 270,
+        "proofreading_pending": 256,
+        "content_flags": 14,
+        "provisional_mapping": 138,
+        "pending_mapping": 162
+      },
+      "02": {
+        "records": 1300,
+        "unique_ids": 1300,
+        "source_verified": 895,
+        "source_review_required_union": 427,
+        "invalid_english_options": 210,
+        "unit_pending": 581,
+        "declared_unverified": 719
+      },
+      "03": {
+        "base_records": 1250,
+        "unique_ids": 1250,
+        "source_verified": 1004,
+        "source_review_required": 315,
+        "invalid_english_options": 1,
+        "unit_pending": 540,
+        "declared_unverified": 710,
+        "overlay_paper_ii_records": 50,
+        "registered_paper_ii_total": 1300
+      }
+    },
+    "checks_not_run": {
+      "flutter_test": "not run; no flutter test step in current integration workflow",
+      "new_question_visual_proofreading": 0
+    },
+    "safety": {
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "question_bank_records_changed": false
+    },
+    "notes": [
+      "Code 03 base-bank audit covers 1,250 records; 50 Sep 2016 Paper-II overlay records are separately registered in the 1,300 Paper-II total and were not included in the Code 03 audit block.",
+      "Question-level verification counts and review-required union are independent metrics; do not infer one from the other.",
+      "No question bank was edited in this checkpoint."
+    ]
   }
 ]
