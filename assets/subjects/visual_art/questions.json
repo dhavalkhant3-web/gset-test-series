@@ -8935,7 +8935,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 91,
     "question_en": "What is the title of this picture given above ?",
-    "question_gu": "What is the title of this picture given above ?",
+    "question_gu": "ઉપર આપેલા ચિત્રનું શીર્ષક શું છે?",
     "options_en": [
       "Centre of Universe",
       "Spiral Jetty",
@@ -8943,10 +8943,10 @@
       "Sand and Water"
     ],
     "options_gu": [
-      "Centre of Universe",
-      "Spiral Jetty",
-      "A road to Nowhere",
-      "Sand and Water"
+      "સેન્ટર ઑફ યુનિવર્સ",
+      "સ્પાયરલ જેટી",
+      "અ રોડ ટુ નોઅવેર",
+      "સૅન્ડ એન્ડ વૉટર"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -8966,13 +8966,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q091",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રોબર્ટ સ્મિથસનનું લેન્ડ આર્ટ/સમકાલીન ઇન્સ્ટોલેશન; કૃતિ અને ફોટો-સંદર્ભ મૂળ પેપર સામે ચકાસવો."
   },
   {
     "id": "visual_art_dec24_q92",
@@ -8980,7 +8982,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 92,
     "question_en": "Identify the artist.",
-    "question_gu": "Identify the artist.",
+    "question_gu": "કલાકારને ઓળખો.",
     "options_en": [
       "Robert Smithson",
       "Peter Anton",
@@ -8988,10 +8990,10 @@
       "Leo Smith"
     ],
     "options_gu": [
-      "Robert Smithson",
-      "Peter Anton",
-      "Satoru Abe",
-      "Leo Smith"
+      "રોબર્ટ સ્મિથસન",
+      "પીટર એન્ટોન",
+      "સાતોરુ આબે",
+      "લિયો સ્મિથ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9011,13 +9013,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q092",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રોબર્ટ સ્મિથસનનું લેન્ડ આર્ટ/સમકાલીન ઇન્સ્ટોલેશન; કૃતિ અને ફોટો-સંદર્ભ મૂળ પેપર સામે ચકાસવો."
   },
   {
     "id": "visual_art_dec24_q93",
@@ -9025,7 +9029,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 93,
     "question_en": "Where is it located ?",
-    "question_gu": "Where is it located ?",
+    "question_gu": "આ કૃતિ ક્યાં આવેલી છે?",
     "options_en": [
       "Utah",
       "Idaho",
@@ -9033,10 +9037,10 @@
       "Texas"
     ],
     "options_gu": [
-      "Utah",
-      "Idaho",
-      "Ohio",
-      "Texas"
+      "યુટાહ",
+      "આઇડાહો",
+      "ઓહાયો",
+      "ટેક્સાસ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -9056,13 +9060,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q093",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રોબર્ટ સ્મિથસનનું લેન્ડ આર્ટ/સમકાલીન ઇન્સ્ટોલેશન; કૃતિ અને ફોટો-સંદર્ભ મૂળ પેપર સામે ચકાસવો."
   },
   {
     "id": "visual_art_dec24_q94",
@@ -9070,7 +9076,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 94,
     "question_en": "What art-movement it relates to ?",
-    "question_gu": "What art-movement it relates to ?",
+    "question_gu": "આ કૃતિ કયા કલા-આંદોલન સાથે સંબંધિત છે?",
     "options_en": [
       "Abstract Expression",
       "Land Art",
@@ -9078,10 +9084,10 @@
       "Futuristic"
     ],
     "options_gu": [
-      "Abstract Expression",
-      "Land Art",
-      "Kinetic Art",
-      "Futuristic"
+      "અમૂર્ત અભિવ્યંજનાવાદ",
+      "લેન્ડ આર્ટ",
+      "કાઇનેટિક આર્ટ",
+      "ભવિષ્યવાદ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9101,13 +9107,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q094",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રોબર્ટ સ્મિથસનનું લેન્ડ આર્ટ/સમકાલીન ઇન્સ્ટોલેશન; કૃતિ અને ફોટો-સંદર્ભ મૂળ પેપર સામે ચકાસવો."
   },
   {
     "id": "visual_art_dec24_q95",
@@ -9115,7 +9123,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 95,
     "question_en": "How many Days it took to create this ?",
-    "question_gu": "How many Days it took to create this ?",
+    "question_gu": "આ કૃતિ તૈયાર કરવામાં કેટલા દિવસ લાગ્યા હતા?",
     "options_en": [
       "15 Days",
       "30 Days",
@@ -9123,10 +9131,10 @@
       "60 Days"
     ],
     "options_gu": [
-      "15 Days",
-      "30 Days",
-      "6 Days",
-      "60 Days"
+      "15 દિવસ",
+      "30 દિવસ",
+      "6 દિવસ",
+      "60 દિવસ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -9146,13 +9154,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q095",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રોબર્ટ સ્મિથસનનું લેન્ડ આર્ટ/સમકાલીન ઇન્સ્ટોલેશન; કૃતિ અને ફોટો-સંદર્ભ મૂળ પેપર સામે ચકાસવો."
   },
   {
     "id": "visual_art_dec24_q96",
@@ -9160,7 +9170,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 96,
     "question_en": "What is the title of this painting ?",
-    "question_gu": "What is the title of this painting ?",
+    "question_gu": "આ ચિત્રનું શીર્ષક શું છે?",
     "options_en": [
       "The Duke and Dutchess of Urbino",
       "Bonfire of the Vanities",
@@ -9168,10 +9178,10 @@
       "Portrait of Giovanni Arnolfini and his Wife"
     ],
     "options_gu": [
-      "The Duke and Dutchess of Urbino",
-      "Bonfire of the Vanities",
-      "New Bride",
-      "Portrait of Giovanni Arnolfini and his Wife"
+      "ધ ડ્યુક એન્ડ ડચેસ ઑફ અર્બિનો",
+      "બોનફાયર ઑફ ધ વેનિટીઝ",
+      "ન્યૂ બ્રાઇડ",
+      "પોર્ટ્રેટ ઑફ જિઓવાની આર્નોલ્ફિની એન્ડ હિઝ વાઇફ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -9191,13 +9201,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q096",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન પુનર્જાગરણકાળની ચિત્રકલા અને કલા-ઇતિહાસ; મૂળ ચિત્ર સંદર્ભ જાળવવો."
   },
   {
     "id": "visual_art_dec24_q97",
@@ -9205,7 +9217,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 97,
     "question_en": "Who is the artist of this painting ?",
-    "question_gu": "Who is the artist of this painting ?",
+    "question_gu": "આ ચિત્રના કલાકાર કોણ છે?",
     "options_en": [
       "Hans Holbien",
       "Fra Bartolomeo",
@@ -9213,10 +9225,10 @@
       "Andrea Mantegna"
     ],
     "options_gu": [
-      "Hans Holbien",
-      "Fra Bartolomeo",
-      "Jan Van Eyck",
-      "Andrea Mantegna"
+      "હાન્સ હોલબાઇન",
+      "ફ્રા બાર્ટોલોમિયો",
+      "યાન વાન આઇક",
+      "આન્દ્રે માન્તેન્યા"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -9236,13 +9248,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q097",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન પુનર્જાગરણકાળની ચિત્રકલા અને કલા-ઇતિહાસ; મૂળ ચિત્ર સંદર્ભ જાળવવો."
   },
   {
     "id": "visual_art_dec24_q98",
@@ -9250,7 +9264,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 98,
     "question_en": "How many living beings are visible in this painting ?",
-    "question_gu": "How many living beings are visible in this painting ?",
+    "question_gu": "આ ચિત્રમાં કેટલાં જીવંત પ્રાણીઓ/વ્યક્તિઓ દેખાય છે?",
     "options_en": [
       "2",
       "3",
@@ -9281,13 +9295,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q098",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન પુનર્જાગરણકાળની ચિત્રકલા અને કલા-ઇતિહાસ; મૂળ ચિત્ર સંદર્ભ જાળવવો."
   },
   {
     "id": "visual_art_dec24_q99",
@@ -9295,7 +9311,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 99,
     "question_en": "What art Phase does this painting belongs to ?",
-    "question_gu": "What art Phase does this painting belongs to ?",
+    "question_gu": "આ ચિત્ર કયા કલા-તબક્કાનું છે?",
     "options_en": [
       "Italian Renaissance",
       "Baroque",
@@ -9303,10 +9319,10 @@
       "Northern Renaissance"
     ],
     "options_gu": [
-      "Italian Renaissance",
-      "Baroque",
-      "Rococo",
-      "Northern Renaissance"
+      "ઇટાલિયન પુનર્જાગરણ",
+      "બારોક",
+      "રોકોકો",
+      "ઉત્તરીય પુનર્જાગરણ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -9326,13 +9342,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q099",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન પુનર્જાગરણકાળની ચિત્રકલા અને કલા-ઇતિહાસ; મૂળ ચિત્ર સંદર્ભ જાળવવો."
   },
   {
     "id": "visual_art_dec24_q100",
@@ -9340,7 +9358,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 100,
     "question_en": "What is the theme of this painting ?",
-    "question_gu": "What is the theme of this painting ?",
+    "question_gu": "આ ચિત્રનો વિષય શું છે?",
     "options_en": [
       "Portrait Study",
       "Humanism",
@@ -9348,10 +9366,10 @@
       "Anamorphisms"
     ],
     "options_gu": [
-      "Portrait Study",
-      "Humanism",
-      "Allegory",
-      "Anamorphisms"
+      "પોર્ટ્રેટ અભ્યાસ",
+      "માનવતાવાદ",
+      "રૂપકાત્મક રજૂઆત",
+      "એનામોર્ફિઝમ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -9371,13 +9389,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-DEC2024-Q100",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન પુનર્જાગરણકાળની ચિત્રકલા અને કલા-ઇતિહાસ; મૂળ ચિત્ર સંદર્ભ જાળવવો."
   },
   {
     "id": "visual_art_nov25_q1",
