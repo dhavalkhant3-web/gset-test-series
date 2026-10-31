@@ -1415,7 +1415,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 31,
     "question_en": "Which chemical is used for Glass Etching ?",
-    "question_gu": "Which chemical is used for Glass Etching ?",
+    "question_gu": "કાચ પર એચિંગ (કોતરણી) કરવા માટે કયા રસાયણનો ઉપયોગ થાય છે?",
     "options_en": [
       "Hydrochloric Acid",
       "Hydrofluoric Acid",
@@ -1423,10 +1423,10 @@
       "Aqua Regia"
     ],
     "options_gu": [
-      "Hydrochloric Acid",
-      "Hydrofluoric Acid",
-      "Nitric Acid",
-      "Aqua Regia"
+      "હાઇડ્રોક્લોરિક એસિડ",
+      "હાઇડ્રોફ્લોરિક એસિડ",
+      "નાઇટ્રિક એસિડ",
+      "એક્વા રેજિયા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1447,12 +1447,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_confirmation",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q031",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કાચ પર એચિંગની તકનીક; પ્રિન્ટમેકિંગના વિશિષ્ટ અભ્યાસ સાથે સંબંધિત હોઈ શકે છે."
   },
   {
     "id": "visual_art_nov23_q32",
@@ -1460,7 +1462,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 32,
     "question_en": "The main ingredient of FRP/Polymer is",
-    "question_gu": "The main ingredient of FRP/Polymer is",
+    "question_gu": "FRP/પોલિમરનું મુખ્ય ઘટક કયું છે?",
     "options_en": [
       "Latex",
       "Shellac",
@@ -1468,10 +1470,10 @@
       "Gelatine"
     ],
     "options_gu": [
-      "Latex",
-      "Shellac",
-      "Epoxy",
-      "Gelatine"
+      "લેટેક્સ",
+      "શેલેક",
+      "ઇપોક્સી",
+      "જિલેટિન"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1491,13 +1493,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q032",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "FRP/પોલિમર જેવી સામગ્રી અને માધ્યમ; ચોક્કસ સંદર્ભ માટે elective scope ચકાસવો."
   },
   {
     "id": "visual_art_nov23_q33",
@@ -1505,7 +1509,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 33,
     "question_en": "Which is the most successful animated film ever made ?",
-    "question_gu": "Which is the most successful animated film ever made ?",
+    "question_gu": "અત્યાર સુધી બનેલી સૌથી સફળ એનિમેટેડ ફિલ્મ કઈ છે?",
     "options_en": [
       "Frozen",
       "The Lion King",
@@ -1513,10 +1517,10 @@
       "Zootopia"
     ],
     "options_gu": [
-      "Frozen",
-      "The Lion King",
-      "Minions",
-      "Zootopia"
+      "ફ્રોઝન",
+      "ધ લાયન કિંગ",
+      "મિનિયન્સ",
+      "ઝૂટોપિયા"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1536,13 +1540,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_2",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q033",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એનિમેશન અને સિનેમા દૃશ્યકલાના અન્ય સ્વરૂપો સાથેના આંતરસંબંધમાં આવે છે."
   },
   {
     "id": "visual_art_nov23_q34",
@@ -1550,7 +1556,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 34,
     "question_en": "Which sans-serif fonts out of options below is best for viewing on computer screens ?",
-    "question_gu": "Which sans-serif fonts out of options below is best for viewing on computer screens ?",
+    "question_gu": "નીચેના વિકલ્પોમાંથી કમ્પ્યુટર સ્ક્રીન પર વાંચવા માટે કયો સેન્સ-સેરિફ ફોન્ટ સૌથી યોગ્ય છે?",
     "options_en": [
       "Calibri",
       "Tahoma",
@@ -1558,10 +1564,10 @@
       "Century Gothic"
     ],
     "options_gu": [
-      "Calibri",
-      "Tahoma",
-      "Arial",
-      "Century Gothic"
+      "કેલિબ્રી",
+      "ટાહોમા",
+      "એરિયલ",
+      "સેન્ચ્યુરી ગોથિક"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1581,13 +1587,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q034",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ડિજિટલ ડિઝાઇન અને દૃશ્ય સંચારમાં સ્ક્રીન-આધારિત ટાઇપોગ્રાફી."
   },
   {
     "id": "visual_art_nov23_q35",
@@ -1595,7 +1603,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 35,
     "question_en": "Which serif fonts is best when viewed on paper ?",
-    "question_gu": "Which serif fonts is best when viewed on paper ?",
+    "question_gu": "કાગળ પર વાંચતી વખતે કયો સેરિફ ફોન્ટ સૌથી યોગ્ય ગણાય છે?",
     "options_en": [
       "Times New Roman",
       "Goudy",
@@ -1603,10 +1611,10 @@
       "Garamond"
     ],
     "options_gu": [
-      "Times New Roman",
-      "Goudy",
-      "Blackletter",
-      "Garamond"
+      "ટાઇમ્સ ન્યૂ રોમન",
+      "ગૌડી",
+      "બ્લેકલેટર",
+      "ગારામોન્ડ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1626,13 +1634,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q035",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રિન્ટ અને દૃશ્ય સંચારમાં ટાઇપોગ્રાફી."
   },
   {
     "id": "visual_art_nov23_q36",
@@ -1640,7 +1650,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 36,
     "question_en": "Which of the following are Secondary Colours ?",
-    "question_gu": "Which of the following are Secondary Colours ?",
+    "question_gu": "નીચેનામાંથી કયા દ્વિતીયક રંગો છે?",
     "options_en": [
       "Red, Green and Blue",
       "Cyan, Magenta and Yellow",
@@ -1648,10 +1658,10 @@
       "Yellow, Red and Blue"
     ],
     "options_gu": [
-      "Red, Green and Blue",
-      "Cyan, Magenta and Yellow",
-      "Orange, Green and Purple",
-      "Yellow, Red and Blue"
+      "લાલ, લીલો અને વાદળી",
+      "સાયન, મેજેન્ટા અને પીળો",
+      "નારંગી, લીલો અને જાંબલી",
+      "પીળો, લાલ અને વાદળી"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1671,13 +1681,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q036",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "દૃશ્યકલાના મૂળભૂત તત્ત્વો અને રંગવિચાર."
   },
   {
     "id": "visual_art_nov23_q37",
@@ -1685,7 +1697,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 37,
     "question_en": "Which of the following are Tertiary Colours ?",
-    "question_gu": "Which of the following are Tertiary Colours ?",
+    "question_gu": "નીચેનામાંથી કયા તૃતીયક રંગો છે?",
     "options_en": [
       "Orange Red, Yellow Orange and Blue Purple",
       "Cyan, Magenta and Yellow",
@@ -1693,10 +1705,10 @@
       "Yellow, Red and Blue"
     ],
     "options_gu": [
-      "Orange Red, Yellow Orange and Blue Purple",
-      "Cyan, Magenta and Yellow",
-      "Orange, Green and Purple",
-      "Yellow, Red and Blue"
+      "લાલ-નારંગી, પીળો-નારંગી અને વાદળી-જાંબલી",
+      "સાયન, મેજેન્ટા અને પીળો",
+      "નારંગી, લીલો અને જાંબલી",
+      "પીળો, લાલ અને વાદળી"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1716,13 +1728,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q037",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "દૃશ્યકલાના મૂળભૂત તત્ત્વો અને રંગવિચાર."
   },
   {
     "id": "visual_art_nov23_q38",
@@ -1730,7 +1744,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 38,
     "question_en": "How do I make CMYK white ?",
-    "question_gu": "How do I make CMYK white ?",
+    "question_gu": "CMYK પદ્ધતિમાં સફેદ રંગ કેવી રીતે બનાવવામાં આવે છે?",
     "options_en": [
       "White is C-0 M-0 Y-0 K-0",
       "White is C-96 M-72 Y-48 K-0",
@@ -1738,10 +1752,10 @@
       "White is C-96 M-96 Y-96 K-96"
     ],
     "options_gu": [
-      "White is C-0 M-0 Y-0 K-0",
-      "White is C-96 M-72 Y-48 K-0",
-      "White is C-72 M-96 Y-20 K-0",
-      "White is C-96 M-96 Y-96 K-96"
+      "સફેદ રંગ માટે C-0, M-0, Y-0, K-0",
+      "સફેદ રંગ માટે C-96, M-72, Y-48, K-0",
+      "સફેદ રંગ માટે C-72, M-96, Y-20, K-0",
+      "સફેદ રંગ માટે C-96, M-96, Y-96, K-96"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1761,13 +1775,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q038",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "CMYK રંગપ્રણાલી અને પ્રિન્ટ/ડિજિટલ દૃશ્ય સંચાર."
   },
   {
     "id": "visual_art_nov23_q39",
@@ -1775,7 +1791,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 39,
     "question_en": "How many colours can CMYK produce ?",
-    "question_gu": "How many colours can CMYK produce ?",
+    "question_gu": "CMYK પદ્ધતિ કેટલા રંગો ઉત્પન્ન કરી શકે છે?",
     "options_en": [
       "4 different colours",
       "96 different colours",
@@ -1783,10 +1799,10 @@
       "16,000 different colours"
     ],
     "options_gu": [
-      "4 different colours",
-      "96 different colours",
-      "1600 different colours",
-      "16,000 different colours"
+      "4 અલગ-અલગ રંગો",
+      "96 અલગ-અલગ રંગો",
+      "1600 અલગ-અલગ રંગો",
+      "16,000 અલગ-અલગ રંગો"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1806,13 +1822,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q039",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "CMYK રંગપ્રજનન અને applied/visual communication સંદર્ભ."
   },
   {
     "id": "visual_art_nov23_q40",
@@ -1820,7 +1838,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 40,
     "question_en": "Which system facilitates the production of camera ready artwork by mixing text with other visual materials.",
-    "question_gu": "Which system facilitates the production of camera ready artwork by mixing text with other visual materials.",
+    "question_gu": "લખાણને અન્ય દૃશ્ય સામગ્રી સાથે મિશ્રિત કરીને કેમેરા-રેડી આર્ટવર્ક તૈયાર કરવામાં કઈ પ્રણાલી મદદરૂપ થાય છે?",
     "options_en": [
       "DTP",
       "Braille",
@@ -1829,9 +1847,9 @@
     ],
     "options_gu": [
       "DTP",
-      "Braille",
-      "Software",
-      "Numerical notation system"
+      "બ્રેઇલ",
+      "સોફ્ટવેર",
+      "સંખ્યાત્મક સંકેત પ્રણાલી"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1851,13 +1869,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q040",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "DTP, ગ્રાફિક ડિઝાઇન અને દૃશ્ય સંચાર."
   },
   {
     "id": "visual_art_nov23_q41",
