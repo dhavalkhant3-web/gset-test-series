@@ -273,59 +273,71 @@
       "code": "33",
       "name_en": "Visual Art",
       "official_pdf": "https://gujaratset.ac.in/assets/syllabus/33.pdf",
-      "official_syllabus_code": "79",
+      "syllabus_subject_code": "79",
+      "syllabus_source_note": "Official GSET syllabus PDF links to the UGC-NET Visual Arts syllabus (Code 79). Core Paper-II syllabus contains Units I–X. Elective-specific content must not be assigned without evidence of the applicable elective.",
       "units": [
         {
           "id": "unit_1",
           "number": 1,
-          "name": "Fundamentals of Visual Art"
+          "name": "Fundamentals of Visual Art and Principles of Composition",
+          "name_gu": "દૃશ્યકળાનાં મૂળભૂત તત્ત્વો અને રચનાનાં સિદ્ધાંતો"
         },
         {
           "id": "unit_2",
           "number": 2,
-          "name": "Forms of Visual Art and Inter-relationships"
+          "name": "Forms of Visual Arts and Their Inter-relationship with Other Creative Expressions",
+          "name_gu": "દૃશ્યકળાનાં સ્વરૂપો અને અન્ય સર્જનાત્મક અભિવ્યક્તિઓ સાથેનો આંતરસંબંધ"
         },
         {
           "id": "unit_3",
           "number": 3,
-          "name": "Traditional Media, Materials and Techniques"
+          "name": "Traditional Media, Materials and Techniques",
+          "name_gu": "પરંપરાગત માધ્યમો, સામગ્રી અને તકનીકો"
         },
         {
           "id": "unit_4",
           "number": 4,
-          "name": "Modern Techniques and Contemporary Visual Practices"
+          "name": "Modern Techniques, Processes and Contemporary Visual Practices",
+          "name_gu": "આધુનિક તકનીકો, પ્રક્રિયાઓ અને સમકાલીન દૃશ્યકળા પ્રયોગો"
         },
         {
           "id": "unit_5",
           "number": 5,
-          "name": "Indian and Western Aesthetics and Art Appreciation"
+          "name": "Indian and Western Aesthetics and Art Appreciation",
+          "name_gu": "ભારતીય અને પશ્ચિમી સૌંદર્યશાસ્ત્ર તથા કલાસ્વાદ"
         },
         {
           "id": "unit_6",
           "number": 6,
-          "name": "Western Art History"
+          "name": "Western Art: Prehistory to Post-modern Art and Movements",
+          "name_gu": "પશ્ચિમી કલા: પ્રાગૈતિહાસિક સમયથી ઉત્તર-આધુનિક કલા અને ચળવળો"
         },
         {
           "id": "unit_7",
           "number": 7,
-          "name": "Indian Art History to the 19th Century"
+          "name": "Indian Art: Prehistory to the 19th Century",
+          "name_gu": "ભારતીય કલા: પ્રાગૈતિહાસિક સમયથી 19મી સદી સુધી"
         },
         {
           "id": "unit_8",
           "number": 8,
-          "name": "Contemporary Indian Art and Visual Communication"
+          "name": "Contemporary Indian Art, Design, Visual Communication and Art Education",
+          "name_gu": "સમકાલીન ભારતીય કલા, ડિઝાઇન, દૃશ્ય સંચાર અને કલા શિક્ષણ"
         },
         {
           "id": "unit_9",
           "number": 9,
-          "name": "Art of East, South-East and Central Asia and Ancient Near-East"
+          "name": "Art of the Far East, South-East Asia, Central Asia and Ancient Near-East",
+          "name_gu": "દૂર પૂર્વ, દક્ષિણ-પૂર્વ એશિયા, મધ્ય એશિયા અને પ્રાચીન નજીકના પૂર્વની કલા"
         },
         {
           "id": "unit_10",
           "number": 10,
-          "name": "Folk, Tribal and Craft Practices in India"
+          "name": "Traditional, Folk, Tribal and Craft Practices in India",
+          "name_gu": "ભારતમાં પરંપરાગત, લોક, આદિવાસી અને હસ્તકલા પરંપરાઓ"
         }
-      ]
+      ],
+      "mapping_policy": "Assign a core unit only when the question's tested concept clearly matches the official unit description. If the question depends on an elective (Art History, Drawing and Painting, Applied Art, Printmaking, Sculpture), keep mapping provisional until the applicable elective is established. Do not guess."
     },
     "hindu_studies": {
       "code": "28",
