@@ -475,7 +475,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 11,
     "question_en": "A computer added remarkable exhibition entitled ‘State of Art’ was organised at National gallery of Modern Art, New Delhi in 1993. Name the artist who was not in the group.",
-    "question_gu": "A computer added remarkable exhibition entitled ‘State of Art’ was organised at National gallery of Modern Art, New Delhi in 1993. Name the artist who was not in the group.",
+    "question_gu": "1993માં નવી દિલ્હીની નેશનલ ગેલેરી ઑફ મોડર્ન આર્ટમાં યોજાયેલા ‘State of Art’ નામના કમ્પ્યુટર-સહાયિત વિશેષ પ્રદર્શનમાં નીચેના પૈકી કયા કલાકાર જૂથમાં સામેલ નહોતા?",
     "options_en": [
       "M. F. Hussain",
       "S. H. Raza",
@@ -483,10 +483,10 @@
       "Manjeet Bawa"
     ],
     "options_gu": [
-      "M. F. Hussain",
-      "S. H. Raza",
-      "Arpana Caur",
-      "Manjeet Bawa"
+      "એમ. એફ. હુસૈન",
+      "એસ. એચ. રઝા",
+      "અર્પણા કૌર",
+      "મનજીત બાવા"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -506,13 +506,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q011",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "The question concerns a contemporary Indian art exhibition and artists, covered by Unit VIII."
   },
   {
     "id": "visual_art_nov23_q12",
@@ -520,7 +522,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 12,
     "question_en": "Who said the two pillars upon which a theory of criticism must rest are an account of value and an account of communication ?",
-    "question_gu": "Who said the two pillars upon which a theory of criticism must rest are an account of value and an account of communication ?",
+    "question_gu": "ટીકાસિદ્ધાંતના બે આધારસ્તંભ મૂલ્યનું વિવરણ અને સંચારનું વિવરણ હોવા જોઈએ—આવું કોણે કહ્યું હતું?",
     "options_en": [
       "I. A. Richards",
       "Roger Fry",
@@ -528,10 +530,10 @@
       "George Santayana"
     ],
     "options_gu": [
-      "I. A. Richards",
-      "Roger Fry",
-      "Clive Bell",
-      "George Santayana"
+      "આઈ. એ. રિચર્ડ્સ",
+      "રોજર ફ્રાય",
+      "ક્લાઇવ બેલ",
+      "જ્યોર્જ સેન્ટાયાના"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -551,13 +553,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q012",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "The question concerns theory of criticism and aesthetics, covered by Unit V."
   },
   {
     "id": "visual_art_nov23_q13",
@@ -565,7 +569,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 13,
     "question_en": "Name the artist from following who discovered the power of expression in extreme distortion in modern art after seeing El Greco’s works.",
-    "question_gu": "Name the artist from following who discovered the power of expression in extreme distortion in modern art after seeing El Greco’s works.",
+    "question_gu": "એલ ગ્રીકોની કૃતિઓ જોયા પછી આધુનિક કલામાં અતિશય વિકૃતિ દ્વારા અભિવ્યક્તિની શક્તિ શોધનાર કલાકાર કોણ હતો?",
     "options_en": [
       "Vincent van Gogh",
       "Henri Matisse",
@@ -573,10 +577,10 @@
       "Picasso"
     ],
     "options_gu": [
-      "Vincent van Gogh",
-      "Henri Matisse",
-      "Paul Cezanne",
-      "Picasso"
+      "વિન્સેન્ટ વાન ગૉઘ",
+      "હેનરી માતિસ",
+      "પૉલ સેઝાન",
+      "પિકાસો"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -596,13 +600,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q013",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "El Greco and modern Western art development fit the Western-art chronology in Unit VI."
   },
   {
     "id": "visual_art_nov23_q14",
@@ -610,7 +616,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 14,
     "question_en": "Which artist famously said “Learn the rules like a pro, so you can break them like an artist.”",
-    "question_gu": "Which artist famously said “Learn the rules like a pro, so you can break them like an artist.”",
+    "question_gu": "“નિયમો નિષ્ણાતની જેમ શીખો, જેથી કલાકારની જેમ તેમને તોડી શકો” એવું પ્રખ્યાત વાક્ય કયા કલાકારે કહ્યું હતું?",
     "options_en": [
       "Braque",
       "Picasso",
@@ -618,10 +624,10 @@
       "Matisse"
     ],
     "options_gu": [
-      "Braque",
-      "Picasso",
-      "Salvador Dali",
-      "Matisse"
+      "બ્રાક",
+      "પિકાસો",
+      "સાલ્વાડોર દાલી",
+      "માતિસ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -641,13 +647,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q014",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Picasso is a major Western modern artist within Unit VI's chronology and movements."
   },
   {
     "id": "visual_art_nov23_q15",
@@ -655,7 +663,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 15,
     "question_en": "BRAHMA, a futuristic art studio established at",
-    "question_gu": "BRAHMA, a futuristic art studio established at",
+    "question_gu": "ભવિષ્યલક્ષી કલા સ્ટુડિયો ‘BRAHMA’ની સ્થાપના ક્યાં કરવામાં આવી હતી?",
     "options_en": [
       "Vadodara",
       "Mumbai",
@@ -663,10 +671,10 @@
       "New Delhi"
     ],
     "options_gu": [
-      "Vadodara",
-      "Mumbai",
-      "Ahmedabad",
-      "New Delhi"
+      "વડોદરા",
+      "મુંબઈ",
+      "અમદાવાદ",
+      "નવી દિલ્હી"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -686,13 +694,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q015",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "A contemporary Indian art studio may fit Unit VIII; confirm the studio's exact context."
   },
   {
     "id": "visual_art_nov23_q16",
@@ -700,7 +710,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 16,
     "question_en": "Who wrote the manifesto of “Der Blau Reiter” ?",
-    "question_gu": "Who wrote the manifesto of “Der Blau Reiter” ?",
+    "question_gu": "‘Der Blaue Reiter’નું ઘોષણાપત્ર કોણે લખ્યું હતું?",
     "options_en": [
       "Pevsner and Tatlin",
       "Kandinsky and Franz Mark",
@@ -708,10 +718,10 @@
       "Paul Klee and August Macke"
     ],
     "options_gu": [
-      "Pevsner and Tatlin",
-      "Kandinsky and Franz Mark",
-      "Edvard Munch and Paul Klee",
-      "Paul Klee and August Macke"
+      "પેવ્સનર અને તાત્લિન",
+      "કાન્ડિન્સ્કી અને ફ્રાન્ઝ માર્ક",
+      "એડવર્ડ મુંક અને પૉલ ક્લી",
+      "પૉલ ક્લી અને ઑગસ્ટ મેકે"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -731,13 +741,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q016",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Der Blaue Reiter is a Western modern-art movement covered by Unit VI."
   },
   {
     "id": "visual_art_nov23_q17",
@@ -745,7 +757,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 17,
     "question_en": "Who was the first American artist to make welded metal sculpture ?",
-    "question_gu": "Who was the first American artist to make welded metal sculpture ?",
+    "question_gu": "વેલ્ડિંગ કરેલી ધાતુનાં શિલ્પો બનાવનાર પ્રથમ અમેરિકન કલાકાર કોણ હતો?",
     "options_en": [
       "Joseph Cornell",
       "David Smith",
@@ -753,10 +765,10 @@
       "Charles Sheeler"
     ],
     "options_gu": [
-      "Joseph Cornell",
-      "David Smith",
-      "Lee Bontecou",
-      "Charles Sheeler"
+      "જોસેફ કોર્નેલ",
+      "ડેવિડ સ્મિથ",
+      "લી બોન્ટેકૂ",
+      "ચાર્લ્સ શીલર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -776,13 +788,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q017",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Modern American sculpture history fits the Western chronology; specialist sculptural practice is elective-dependent."
   },
   {
     "id": "visual_art_nov23_q18",
@@ -790,7 +804,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 18,
     "question_en": "What material was used to build the Statue of Liberty, New York ?",
-    "question_gu": "What material was used to build the Statue of Liberty, New York ?",
+    "question_gu": "ન્યૂયોર્કની સ્ટેચ્યૂ ઑફ લિબર્ટી બનાવવા માટે કઈ સામગ્રીનો ઉપયોગ થયો હતો?",
     "options_en": [
       "Copper",
       "Marble",
@@ -798,10 +812,10 @@
       "Limestone"
     ],
     "options_gu": [
-      "Copper",
-      "Marble",
-      "Gold",
-      "Limestone"
+      "તાંબું",
+      "આરસપહાણ",
+      "સોનું",
+      "ચૂનાનો પથ્થર"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -821,13 +835,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q018",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "The Statue of Liberty is a Western historical sculpture and fits Unit VI's chronology."
   },
   {
     "id": "visual_art_nov23_q19",
@@ -835,7 +851,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 19,
     "question_en": "What pioneer of modern abstract sculpture is best known for his ovoid heads and birds in flight ?",
-    "question_gu": "What pioneer of modern abstract sculpture is best known for his ovoid heads and birds in flight ?",
+    "question_gu": "અંડાકાર માથાં અને ઉડતાં પક્ષીઓનાં શિલ્પો માટે જાણીતા આધુનિક અમૂર્ત શિલ્પકલાના અગ્રદૂત કોણ હતા?",
     "options_en": [
       "Jean Arp",
       "Jean Dubuffet",
@@ -843,10 +859,10 @@
       "Henry Moore"
     ],
     "options_gu": [
-      "Jean Arp",
-      "Jean Dubuffet",
-      "Constantin Brancusi",
-      "Henry Moore"
+      "જાં આર્પ",
+      "જાં ડૂબુફે",
+      "કોન્સ્ટાન્ટિન બ્રાન્કુસી",
+      "હેનરી મૂર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -866,13 +882,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q019",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "The artist's place in Western modern art fits Unit VI; specialist sculpture content may require the Sculpture elective."
   },
   {
     "id": "visual_art_nov23_q20",
@@ -880,7 +898,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 20,
     "question_en": "For what is English sculptor Henry Moore well known ?",
-    "question_gu": "For what is English sculptor Henry Moore well known ?",
+    "question_gu": "અંગ્રેજ શિલ્પકાર હેનરી મૂર શેના માટે જાણીતા છે?",
     "options_en": [
       "Expressionist painting",
       "Bronze and stone sculptures",
@@ -888,10 +906,10 @@
       "Lithography"
     ],
     "options_gu": [
-      "Expressionist painting",
-      "Bronze and stone sculptures",
-      "Tensile structures",
-      "Lithography"
+      "અભિવ્યંજનાવાદી ચિત્રકામ",
+      "કાંસ્ય અને પથ્થરનાં શિલ્પો",
+      "તાણ-આધારિત રચનાઓ",
+      "લિથોગ્રાફી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -911,13 +929,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q020",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Henry Moore is part of Western modern art history; detailed sculptural practice may require the Sculpture elective."
   },
   {
     "id": "visual_art_nov23_q21",
