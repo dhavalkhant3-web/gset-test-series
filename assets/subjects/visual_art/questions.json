@@ -6115,7 +6115,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 31,
     "question_en": "What does Orant Figures signify ?",
-    "question_gu": "What does Orant Figures signify ?",
+    "question_gu": "ઓરન્ટ આકૃતિઓ શું સૂચવે છે?",
     "options_en": [
       "Assist the Good Shephard",
       "Pray for the Souls of Dead",
@@ -6123,10 +6123,10 @@
       "Hailing the Emperor"
     ],
     "options_gu": [
-      "Assist the Good Shephard",
-      "Pray for the Souls of Dead",
-      "Characters of Old Testaments",
-      "Hailing the Emperor"
+      "સારા ઘેટાંપાળકને સહાય કરવી",
+      "મૃત આત્માઓ માટે પ્રાર્થના કરવી",
+      "જૂના કરારનાં પાત્રો",
+      "સમ્રાટનું અભિવાદન કરવું"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6146,13 +6146,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q031",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રારંભિક ખ્રિસ્તી કલા અને આઇકોનોગ્રાફી; પશ્ચિમી કલા-ઇતિહાસનો વિષય."
   },
   {
     "id": "visual_art_dec24_q32",
@@ -6160,7 +6162,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 32,
     "question_en": "Who is the American artist of Lithograph Print ‘Prodigal Son’ ?",
-    "question_gu": "Who is the American artist of Lithograph Print ‘Prodigal Son’ ?",
+    "question_gu": "‘પ્રોડિગલ સન’ લિથોગ્રાફિક પ્રિન્ટના અમેરિકન કલાકાર કોણ છે?",
     "options_en": [
       "Cima Katz",
       "Adolf Gottlieb",
@@ -6168,10 +6170,10 @@
       "Audrey Flack"
     ],
     "options_gu": [
-      "Cima Katz",
-      "Adolf Gottlieb",
-      "Thomas Mart Breton",
-      "Audrey Flack"
+      "સીમા કાત્ઝ",
+      "એડોલ્ફ ગોટ્લિબ",
+      "થોમસ માર્ટ બ્રેટન",
+      "ઑડ્રી ફ્લેક"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6191,13 +6193,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q032",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "લિથોગ્રાફિક પ્રિન્ટમેકિંગ; કલાકારના નામમાં શંકા હોવાથી review_flag યથાવત."
   },
   {
     "id": "visual_art_dec24_q33",
@@ -6205,7 +6209,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 33,
     "question_en": "Which famous movement emerged with collage and photomontage as favoured techniques ?",
-    "question_gu": "Which famous movement emerged with collage and photomontage as favoured techniques ?",
+    "question_gu": "કોલાજ અને ફોટોમોન્ટાજને પસંદગીની તકનીકો તરીકે અપનાવતું કયું પ્રખ્યાત આંદોલન ઊભું થયું?",
     "options_en": [
       "Dada",
       "Surrealism",
@@ -6213,10 +6217,10 @@
       "De Stijl"
     ],
     "options_gu": [
-      "Dada",
-      "Surrealism",
-      "Psychedelia",
-      "De Stijl"
+      "દાદાવાદ",
+      "અતિવાસ્તવવાદ",
+      "સાયકડેલિયા",
+      "ડી સ્ટાઇલ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -6236,13 +6240,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q033",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "દાદાવાદ અને આધુનિક પશ્ચિમી કલા-આંદોલનો."
   },
   {
     "id": "visual_art_dec24_q34",
@@ -6250,7 +6256,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 34,
     "question_en": "Which of the following is a drawing programme ?",
-    "question_gu": "Which of the following is a drawing programme ?",
+    "question_gu": "નીચેનામાંથી કયો ડ્રોઇંગ પ્રોગ્રામ છે?",
     "options_en": [
       "Adobe Photoshop",
       "Macromedia Flash",
@@ -6258,10 +6264,10 @@
       "Adobe Streamline"
     ],
     "options_gu": [
-      "Adobe Photoshop",
-      "Macromedia Flash",
-      "Adobe Illustrator",
-      "Adobe Streamline"
+      "એડોબ ફોટોશોપ",
+      "મેક્રોમીડિયા ફ્લેશ",
+      "એડોબ ઇલસ્ટ્રેટર",
+      "એડોબ સ્ટ્રીમલાઇન"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6281,13 +6287,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q034",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ડિજિટલ ડ્રોઇંગ સાધનો અને દૃશ્ય સંચાર."
   },
   {
     "id": "visual_art_dec24_q35",
@@ -6295,7 +6303,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 35,
     "question_en": "Who said, “New Kind of Printing Calls for New Design” ?",
-    "question_gu": "Who said, “New Kind of Printing Calls for New Design” ?",
+    "question_gu": "“નવી પ્રકારની છાપકામ પદ્ધતિ નવી ડિઝાઇનની માંગ કરે છે” એવું કોણે કહ્યું હતું?",
     "options_en": [
       "Jan Lenica",
       "Walter Gropius",
@@ -6303,10 +6311,10 @@
       "William Addison Dwiggins"
     ],
     "options_gu": [
-      "Jan Lenica",
-      "Walter Gropius",
-      "William Morris",
-      "William Addison Dwiggins"
+      "યાન લેનીકા",
+      "વાલ્ટર ગ્રોપિયસ",
+      "વિલિયમ મોરિસ",
+      "વિલિયમ એડિસન ડ્વિગિન્સ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -6326,13 +6334,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q035",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રિન્ટિંગ અને ડિઝાઇનનો સંબંધ; ગ્રાફિક ડિઝાઇનનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q36",
@@ -6340,7 +6350,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 36,
     "question_en": "The part of a lower case letter that appears below the x-height",
-    "question_gu": "The part of a lower case letter that appears below the x-height",
+    "question_gu": "લોઅરકેસ અક્ષરનો કયો ભાગ x-heightની નીચે દેખાય છે?",
     "options_en": [
       "Descender",
       "Nested Style",
@@ -6348,10 +6358,10 @@
       "Drop Caps"
     ],
     "options_gu": [
-      "Descender",
-      "Nested Style",
-      "Counter",
-      "Drop Caps"
+      "ડિસેન્ડર",
+      "નેસ્ટેડ સ્ટાઇલ",
+      "કાઉન્ટર",
+      "ડ્રોપ કેપ્સ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6371,13 +6381,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q036",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ટાઇપોગ્રાફી અને અક્ષરરચનાના ભાગો."
   },
   {
     "id": "visual_art_dec24_q37",
@@ -6385,7 +6397,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 37,
     "question_en": "Who designed the lithographic poster for ‘Moulin Rouge’ ?",
-    "question_gu": "Who designed the lithographic poster for ‘Moulin Rouge’ ?",
+    "question_gu": "‘મુલાં રૂઝ’ માટેનું લિથોગ્રાફિક પોસ્ટર કોણે ડિઝાઇન કર્યું હતું?",
     "options_en": [
       "Jules Cheret",
       "Jan Lenica",
@@ -6393,10 +6405,10 @@
       "Alois Senefelder"
     ],
     "options_gu": [
-      "Jules Cheret",
-      "Jan Lenica",
-      "Henri de Toulouse Lautrec",
-      "Alois Senefelder"
+      "જ્યુલ્સ શેરે",
+      "યાન લેનીકા",
+      "હેન્રી દ તુલૂઝ-લોત્રેક",
+      "અલોઇસ સેનફેલ્ડર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6416,13 +6428,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q037",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "લિથોગ્રાફિક પોસ્ટર અને આધુનિક ગ્રાફિક ડિઝાઇન."
   },
   {
     "id": "visual_art_dec24_q38",
@@ -6430,7 +6444,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 38,
     "question_en": "First full fledged all photographic news magazine in United States was",
-    "question_gu": "First full fledged all photographic news magazine in United States was",
+    "question_gu": "યુનાઇટેડ સ્ટેટ્સનું પ્રથમ સંપૂર્ણ રીતે ફોટોગ્રાફ આધારિત સમાચાર સામયિક કયું હતું?",
     "options_en": [
       "Harper’s Bazar",
       "Shutterburg",
@@ -6438,10 +6452,10 @@
       "Fortune"
     ],
     "options_gu": [
-      "Harper’s Bazar",
-      "Shutterburg",
-      "Life",
-      "Fortune"
+      "હાર્પર્સ બજાર",
+      "શટરબર્ગ",
+      "લાઇફ",
+      "ફૉર્ચ્યુન"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6461,13 +6475,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q038",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ફોટોજર્નાલિઝમ અને દૃશ્ય સંચાર માધ્યમો."
   },
   {
     "id": "visual_art_dec24_q39",
@@ -6475,7 +6491,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 39,
     "question_en": "‘Italic Characters’ with extravagant Calligraphic flourishes are known as",
-    "question_gu": "‘Italic Characters’ with extravagant Calligraphic flourishes are known as",
+    "question_gu": "ભવ્ય સુલેખનાત્મક વળાંકો ધરાવતા ‘ઇટાલિક અક્ષરો’ને શું કહેવામાં આવે છે?",
     "options_en": [
       "Rockwell Character",
       "Swash Character",
@@ -6483,10 +6499,10 @@
       "Asymmetric Character"
     ],
     "options_gu": [
-      "Rockwell Character",
-      "Swash Character",
-      "Logotype",
-      "Asymmetric Character"
+      "રોકવેલ અક્ષરો",
+      "સ્વોશ અક્ષરો",
+      "લોગોટાઇપ",
+      "અસમમિત અક્ષરો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6506,13 +6522,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q039",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ટાઇપોગ્રાફી અને સુલેખનાત્મક અક્ષરશૈલીઓ."
   },
   {
     "id": "visual_art_dec24_q40",
@@ -6520,7 +6538,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 40,
     "question_en": "The first ever written advertisement was found in",
-    "question_gu": "The first ever written advertisement was found in",
+    "question_gu": "લખિત સ્વરૂપની સૌપ્રથમ જાહેરાત ક્યાં મળી આવી હતી?",
     "options_en": [
       "Ruins of Pompeii, Italy",
       "Ruins of Thebes in Egypt",
@@ -6528,10 +6546,10 @@
       "Ruins of Mohenjo-Daro"
     ],
     "options_gu": [
-      "Ruins of Pompeii, Italy",
-      "Ruins of Thebes in Egypt",
-      "Ruins of Persepolis",
-      "Ruins of Mohenjo-Daro"
+      "પોમ્પેઈ, ઇટાલીના અવશેષોમાં",
+      "ઇજિપ્તના થીબ્સના અવશેષોમાં",
+      "પર્સેપોલિસના અવશેષોમાં",
+      "મોહેંજો-દડોના અવશેષોમાં"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -6551,13 +6569,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q040",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "જાહેરાત અને દૃશ્ય સંચારનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q41",
