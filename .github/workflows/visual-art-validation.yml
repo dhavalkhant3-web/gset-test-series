@@ -35,6 +35,11 @@ jobs:
         with:
           channel: stable
           cache: true
+      - name: Set up Java 21 for Gradle compatibility
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
       - name: Flutter version
         run: flutter --version
       - name: Resolve Flutter dependencies
