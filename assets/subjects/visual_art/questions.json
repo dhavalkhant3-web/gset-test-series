@@ -2355,7 +2355,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 51,
     "question_en": "Select the correct chronological sequence for the following printmakers.",
-    "question_gu": "Select the correct chronological sequence for the following printmakers.",
+    "question_gu": "નીચેના પ્રિન્ટમેકર્સનો યોગ્ય કાલક્રમ પસંદ કરો.",
     "options_en": [
       "R.M. Palaniappan, Y.K. Shukla, Anant Nikam, Laxma Goud",
       "Y.K. Shukla, Laxma Goud, R.M. Palaniappan, Anant Nikam",
@@ -2363,10 +2363,10 @@
       "R.M. Palaniappan, Laxma Goud, Anant Nikam, Y.K. Shukla"
     ],
     "options_gu": [
-      "R.M. Palaniappan, Y.K. Shukla, Anant Nikam, Laxma Goud",
-      "Y.K. Shukla, Laxma Goud, R.M. Palaniappan, Anant Nikam",
-      "Laxma Goud, Anant Nikam, Y.K. Shukla, R.M. Palaniappan",
-      "R.M. Palaniappan, Laxma Goud, Anant Nikam, Y.K. Shukla"
+      "આર. એમ. પલાનીયપ્પન, વાય. કે. શુક્લા, અનંત નિકમ, લક્ષ્મા ગૌડ",
+      "વાય. કે. શુક્લા, લક્ષ્મા ગૌડ, આર. એમ. પલાનીયપ્પન, અનંત નિકમ",
+      "લક્ષ્મા ગૌડ, અનંત નિકમ, વાય. કે. શુક્લા, આર. એમ. પલાનીયપ્પન",
+      "આર. એમ. પલાનીયપ્પન, લક્ષ્મા ગૌડ, અનંત નિકમ, વાય. કે. શુક્લા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -2387,12 +2387,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_confirmation",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q051",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રિન્ટમેકર્સનો ઇતિહાસ; પ્રિન્ટમેકિંગ વિશેષ અભ્યાસની પુષ્ટિ જરૂરી."
   },
   {
     "id": "visual_art_nov23_q52",
@@ -2400,7 +2402,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 52,
     "question_en": "Select the correct sequence in printmaking procedure.",
-    "question_gu": "Select the correct sequence in printmaking procedure.",
+    "question_gu": "પ્રિન્ટમેકિંગની પ્રક્રિયાનો યોગ્ય ક્રમ પસંદ કરો.",
     "options_en": [
       "nitric acid, acid proof ground, resin dust, printing",
       "nitric acid, resin dust, printing, acid proof ground",
@@ -2408,10 +2410,10 @@
       "resin dust, printing, nitric acid, acid proof ground"
     ],
     "options_gu": [
-      "nitric acid, acid proof ground, resin dust, printing",
-      "nitric acid, resin dust, printing, acid proof ground",
-      "resin dust, acid proof ground, nitric acid, printing",
-      "resin dust, printing, nitric acid, acid proof ground"
+      "નાઇટ્રિક એસિડ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ, રેઝિન પાઉડર, પ્રિન્ટિંગ",
+      "નાઇટ્રિક એસિડ, રેઝિન પાઉડર, પ્રિન્ટિંગ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ",
+      "રેઝિન પાઉડર, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ, નાઇટ્રિક એસિડ, પ્રિન્ટિંગ",
+      "રેઝિન પાઉડર, પ્રિન્ટિંગ, નાઇટ્રિક એસિડ, એસિડ-પ્રતિરોધક ગ્રાઉન્ડ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -2431,13 +2433,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q052",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એચિંગ/પ્રિન્ટમેકિંગની પરંપરાગત પ્રક્રિયા; વિશિષ્ટ Printmaking elective સાથે જોડાય છે."
   },
   {
     "id": "visual_art_nov23_q53",
@@ -2445,7 +2449,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 53,
     "question_en": "Arrange chronologically the most successful animated film ever made in terms of their success rate.\na. Zootopia\nb. Incredibles II\nc. Minions\nd. Frozen II\nChoose the correct answer from the options given below :",
-    "question_gu": "Arrange chronologically the most successful animated film ever made in terms of their success rate.\na. Zootopia\nb. Incredibles II\nc. Minions\nd. Frozen II\nChoose the correct answer from the options given below :",
+    "question_gu": "સફળતાના દરના આધારે સૌથી સફળ એનિમેટેડ ફિલ્મોને કાલક્રમમાં ગોઠવો.\na. ઝૂટોપિયા\nb. ઇનક્રેડિબલ્સ II\nc. મિનિયન્સ\nd. ફ્રોઝન II\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a, b, c, d",
       "c, d, b, a",
@@ -2476,13 +2480,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_2",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q053",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એનિમેશન અને સિનેમા જેવા દૃશ્ય-પ્રદર્શન સ્વરૂપોનો સંબંધ."
   },
   {
     "id": "visual_art_nov23_q54",
@@ -2490,7 +2496,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 54,
     "question_en": "Arrange chronologically the Post-World War II and Mid-Century Modernism posters.\na. Der Film\nb. Bianca ... abends und morgens\nc. Fly TWA (Constellation)\nd. General Dynamics – Exploring the Universe\nChoose the correct answer from the options given below :",
-    "question_gu": "Arrange chronologically the Post-World War II and Mid-Century Modernism posters.\na. Der Film\nb. Bianca ... abends und morgens\nc. Fly TWA (Constellation)\nd. General Dynamics – Exploring the Universe\nChoose the correct answer from the options given below :",
+    "question_gu": "બીજા વિશ્વયુદ્ધ પછીના અને મધ્ય-શતાબ્દીના આધુનિકતાવાદી પોસ્ટરોને કાલક્રમમાં ગોઠવો.\na. ડેર ફિલ્મ\nb. બિયાન્કા ... આબેન્સ ઉન્ડ મોર્ગન્સ\nc. ફ્લાય TWA (કોન્સ્ટેલેશન)\nd. જનરલ ડાયનેમિક્સ – એક્સપ્લોરિંગ ધ યુનિવર્સ\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a, b, c, d",
       "c, d, b, a",
@@ -2521,13 +2527,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q054",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પોસ્ટર ડિઝાઇન અને દૃશ્ય સંચારનો આધુનિક/સમકાલીન ઉપયોગ."
   },
   {
     "id": "visual_art_nov23_q55",
@@ -2535,7 +2543,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 55,
     "question_en": "Arrange chronologically the animation movies based on the release.\na. Toy Story 4\nb. Inside Out\nc. Despicable Me 3\nd. Finding Nemo\nChoose the correct answer from the options given below :",
-    "question_gu": "Arrange chronologically the animation movies based on the release.\na. Toy Story 4\nb. Inside Out\nc. Despicable Me 3\nd. Finding Nemo\nChoose the correct answer from the options given below :",
+    "question_gu": "રિલીઝ તારીખના આધારે એનિમેશન ફિલ્મોને કાલક્રમમાં ગોઠવો.\na. ટોય સ્ટોરી 4\nb. ઇનસાઇડ આઉટ\nc. ડેસ્પિકેબલ મી 3\nd. ફાઇન્ડિંગ નીમો\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a, b, c, d",
       "c, d, b, a",
@@ -2566,13 +2574,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_2",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q055",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એનિમેશન ફિલ્મો અને સિનેમા."
   },
   {
     "id": "visual_art_nov23_q56",
@@ -2580,7 +2590,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 56,
     "question_en": "Match List – I with List – II.\nList – I: a. Aesthetica; b. Principles of Art; c. Feeling and Form; d. Meaning in Visual Art\nList – II: i. R.G. Collingwood; ii. Susanne Langer; iii. Baumgarten; iv. Panofsky\nCodes :",
-    "question_gu": "Match List – I with List – II.\nList – I: a. Aesthetica; b. Principles of Art; c. Feeling and Form; d. Meaning in Visual Art\nList – II: i. R.G. Collingwood; ii. Susanne Langer; iii. Baumgarten; iv. Panofsky\nCodes :",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. એસ્થેટિકા; b. પ્રિન્સિપલ્સ ઑફ આર્ટ; c. ફીલિંગ એન્ડ ફોર્મ; d. મીનિંગ ઇન વિઝ્યુઅલ આર્ટ\nયાદી–II: i. આર. જી. કોલિંગવુડ; ii. સુઝાન લેંગર; iii. બાઉમગાર્ટન; iv. પાનોફ્સ્કી\nસંકેતો:",
     "options_en": [
       "a-iii, b-i, c-ii, d-iv",
       "a-i, b-ii, c-iii, d-iv",
@@ -2611,13 +2621,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q056",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી સૌંદર્યશાસ્ત્ર અને કલા-સમીક્ષાના સિદ્ધાંતો."
   },
   {
     "id": "visual_art_nov23_q57",
@@ -2625,7 +2637,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 57,
     "question_en": "Match List – I with List – II.\nList – I: a. Brihat Samhita; b. Chaurapanchasika; c. Geet Govinda; d. Padmavat\nList – II: i. Jaideva; ii. Bilhana; iii. Jayasi; iv. Varahamihira\nCodes :",
-    "question_gu": "Match List – I with List – II.\nList – I: a. Brihat Samhita; b. Chaurapanchasika; c. Geet Govinda; d. Padmavat\nList – II: i. Jaideva; ii. Bilhana; iii. Jayasi; iv. Varahamihira\nCodes :",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. બૃહત્સંહિતા; b. ચૌરપંચાશિકા; c. ગીતગોવિંદ; d. પદ્માવત\nયાદી–II: i. જયદેવ; ii. બિલ્હણ; iii. જાયસી; iv. વરાહમિહિર\nસંકેતો:",
     "options_en": [
       "a-iii, b-i, c-ii, d-iv",
       "a-iv, b-ii, c-i, d-iii",
@@ -2656,13 +2668,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q057",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સાહિત્યિક ગ્રંથો અને ભારતીય કલા-ઇતિહાસનો સંબંધ."
   },
   {
     "id": "visual_art_nov23_q58",
@@ -2670,7 +2684,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 58,
     "question_en": "Match List – I with List – II.\nList – I: a. Vivan Sundaram; b. Biman B. Das; c. Tyeb Mehta; d. Anupam Sud\nList – II: i. Printmaking; ii. Painting; iii. Installation; iv. Sculpture\nCodes :",
-    "question_gu": "Match List – I with List – II.\nList – I: a. Vivan Sundaram; b. Biman B. Das; c. Tyeb Mehta; d. Anupam Sud\nList – II: i. Printmaking; ii. Painting; iii. Installation; iv. Sculpture\nCodes :",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. વિવાન સુંદરમ; b. બિમન બી. દાસ; c. ત્યેબ મહેતા; d. અનુપમ સૂદ\nયાદી–II: i. પ્રિન્ટમેકિંગ; ii. ચિત્રકલા; iii. ઇન્સ્ટોલેશન; iv. શિલ્પકલા\nસંકેતો:",
     "options_en": [
       "a-iv, b-iii, c-i, d-ii",
       "a-iii, b-iv, c-ii, d-i",
@@ -2701,13 +2715,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q058",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "વીસમી/એકવીસમી સદીના ભારતીય સમકાલીન કલાકારો અને માધ્યમો."
   },
   {
     "id": "visual_art_nov23_q59",
@@ -2715,7 +2731,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 59,
     "question_en": "Match List – I with List – II.\nList – I: a. Holi Trinity; b. The Flight into Egypt; c. La Primavera; d. Madona of the Meadow\nList – II: i. Giotto; ii. Giovanni Belini; iii. Masaccio; iv. Sandro Botticelli\nCodes :",
-    "question_gu": "Match List – I with List – II.\nList – I: a. Holi Trinity; b. The Flight into Egypt; c. La Primavera; d. Madona of the Meadow\nList – II: i. Giotto; ii. Giovanni Belini; iii. Masaccio; iv. Sandro Botticelli\nCodes :",
+    "question_gu": "યાદી–I અને યાદી–IIનો મેળ બેસાડો.\nયાદી–I: a. હોલી ટ્રિનિટી; b. ધ ફ્લાઇટ ઇન્ટુ ઇજિપ્ટ; c. લા પ્રિમાવેરા; d. મેડોના ઑફ ધ મીડો\nયાદી–II: i. જિઓટ્ટો; ii. જિઓવાની બેલિની; iii. માસાચ્યો; iv. સાંદ્રો બોત્તીચેલી\nસંકેતો:",
     "options_en": [
       "a-i, b-iv, c-iii, d-ii",
       "a-ii, b-iii, c-iv, d-i",
@@ -2746,13 +2762,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q059",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસ અને પુનર્જાગરણકાળની કૃતિઓ."
   },
   {
     "id": "visual_art_nov23_q60",
@@ -2760,7 +2778,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 60,
     "question_en": "Match the material with sculpture mediums.\nList – 1: a. Carving; b. Modelling; c. Casting; d. Assemblage\nList – 2: i. Clay; ii. Brass; iii. Scrap metal; iv. Stone\nCodes :",
-    "question_gu": "Match the material with sculpture mediums.\nList – 1: a. Carving; b. Modelling; c. Casting; d. Assemblage\nList – 2: i. Clay; ii. Brass; iii. Scrap metal; iv. Stone\nCodes :",
+    "question_gu": "શિલ્પ બનાવવાની પદ્ધતિઓ સાથે સામગ્રીનો મેળ બેસાડો.\nયાદી–1: a. કોતરકામ; b. મોડેલિંગ; c. કાસ્ટિંગ; d. એસેમ્બ્લેજ\nયાદી–2: i. માટી; ii. પિત્તળ; iii. ભંગાર ધાતુ; iv. પથ્થર\nસંકેતો:",
     "options_en": [
       "a-iv, b-ii, c-iii, d-i",
       "a-ii, b-i, c-iii, d-iv",
@@ -2792,12 +2810,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_confirmation",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q060",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પકલા માટેની સામગ્રી અને પ્રક્રિયાઓ; Sculpture elective scopeની પુષ્ટિ જરૂરી."
   },
   {
     "id": "visual_art_nov23_q61",
