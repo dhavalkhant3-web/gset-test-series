@@ -191,13 +191,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 3,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Indian Administration, Unit III: Judiciary and Judicial Review. The stem explicitly asks about judicial review, which is named in the official syllabus under Judiciary. Source-paper proofreading remains a separate review.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "public_administration_nov23_q6",
@@ -231,13 +231,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 4,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), State and Local Administration, Unit IV: Local Governance. Article 243B concerns the constitution of Panchayats, directly matching the syllabus coverage of Panchayati Raj and local governance. Source-paper proofreading remains a separate review.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "public_administration_nov23_q7",
@@ -272,10 +272,10 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
     "syllabus_unit": 2,
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional suggestion based only on the question stem/options and the official syllabus unit names. Verify the full question against the official syllabus before treating as confirmed.",
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Administrative Thought, Unit II: Motivation. Abraham Maslow is explicitly listed in the official syllabus under Motivation; the question asks for the author of Motivation and Personality. Source-paper proofreading remains a separate review.",
     "unit_number": 2,
     "unit_id": "unit_2"
   },
@@ -311,13 +311,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 6,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Economic and Financial Administration, Unit VI: Economic Policies and Government in Business/Public Enterprises. The question concerns bank nationalization as an economic-policy and public-sector banking issue. Source-paper proofreading remains a separate review.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "public_administration_nov23_q9",
@@ -351,13 +351,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 7,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Social Welfare Administration, Unit VII: Policies and Programmes for welfare. The National Social Assistance Programme is a social-welfare programme and matches this unit. Source-paper proofreading remains a separate review.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "public_administration_nov23_q10",
@@ -391,13 +391,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 5,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Development Administration, Unit V: Development Administration and rural development. The question concerns the institutional agency implementing PMGSY, a rural development programme. Source-paper proofreading remains a separate review.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "public_administration_nov23_q11",
@@ -431,13 +431,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 9,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "No sufficiently specific keyword match; official question-level mapping remains pending.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Governance and Good Governance, Unit IX: Right to Information and citizen governance. Freedom of Information legislation directly relates to the syllabus coverage of RTI and transparency. Source-paper proofreading remains a separate review.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "public_administration_nov23_q12",
@@ -471,13 +471,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": 1,
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
+    "syllabus_unit": 2,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional suggestion based only on the question stem/options and the official syllabus unit names. Verify the full question against the official syllabus before treating as confirmed.",
-    "unit_number": 1,
-    "unit_id": "unit_1"
+    "syllabus_mapping_note": "Manually mapped against the official GSET Public Administration syllabus (Code 32), Administrative Thought, Unit II: Administrative Thought. Postmodernism is explicitly listed among the approaches/perspectives in this unit; the negative-form stem still tests that syllabus concept. Source-paper proofreading remains a separate review.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "public_administration_nov23_q13",
