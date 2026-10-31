@@ -34,6 +34,9 @@ jobs:
       - name: Analyze Flutter app
         run: flutter analyze
 
+      - name: Run Flutter widget tests
+        run: flutter test
+
       - name: Build combined Debug APK
         run: flutter build apk --debug
 
