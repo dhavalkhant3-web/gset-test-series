@@ -4705,7 +4705,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 1,
     "question_en": "Name the first Rock-cut Cave which has Chaitya Arched Facade, Aisle and Apsidal Plan.",
-    "question_gu": "Name the first Rock-cut Cave which has Chaitya Arched Facade, Aisle and Apsidal Plan.",
+    "question_gu": "ચૈત્ય કમાનવાળો અગ્રભાગ, બાજુનો માર્ગ (આઇલ) અને અર્ધવર્તુળાકાર ગર્ભયોજના ધરાવતી પ્રથમ શિલાકોતરિત ગુફાનું નામ આપો.",
     "options_en": [
       "Lomas Rishi Cave",
       "Bhaja Caves",
@@ -4713,10 +4713,10 @@
       "Bedsa Caves"
     ],
     "options_gu": [
-      "Lomas Rishi Cave",
-      "Bhaja Caves",
-      "Ajanta Cave no-5",
-      "Bedsa Caves"
+      "લોમસ ઋષિ ગુફા",
+      "ભાજા ગુફાઓ",
+      "અજંતા ગુફા નં. 5",
+      "બેડસા ગુફાઓ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4736,13 +4736,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q001",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q2",
@@ -4750,7 +4752,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 2,
     "question_en": "The Monumental Gupta Sculpture representing Goverdhan-Dhari is housed in which museum ?",
-    "question_gu": "The Monumental Gupta Sculpture representing Goverdhan-Dhari is housed in which museum ?",
+    "question_gu": "ગોવર્ધનધારીનું પ્રતિનિધિત્વ કરતું વિશાળ ગુપ્તકાલીન શિલ્પ કયા સંગ્રહાલયમાં રાખવામાં આવ્યું છે?",
     "options_en": [
       "Bharat Kala Bhawan, BHU",
       "Bharat Bhawan, Bhopal",
@@ -4758,10 +4760,10 @@
       "Archaeological Museum, Mathura"
     ],
     "options_gu": [
-      "Bharat Kala Bhawan, BHU",
-      "Bharat Bhawan, Bhopal",
-      "National Museum, New Delhi",
-      "Archaeological Museum, Mathura"
+      "ભારત કલા ભવન, B.H.U.",
+      "ભારત ભવન, ભોપાલ",
+      "રાષ્ટ્રીય સંગ્રહાલય, નવી દિલ્હી",
+      "પુરાતત્ત્વ સંગ્રહાલય, મથુરા"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -4781,13 +4783,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q002",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q3",
@@ -4795,7 +4799,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 3,
     "question_en": "Name the archaeologist who brought the fragments of Wall-paintings from Buddhist Site of Miran, Central-Asia in India.",
-    "question_gu": "Name the archaeologist who brought the fragments of Wall-paintings from Buddhist Site of Miran, Central-Asia in India.",
+    "question_gu": "મધ્ય એશિયાના મીરાન બૌદ્ધ સ્થળેથી ભીંતચિત્રોના ટુકડાઓ ભારતમાં લાવનાર પુરાતત્ત્વવિદનું નામ આપો.",
     "options_en": [
       "Alexander Cunnimgham",
       "Sir John Marshall",
@@ -4803,10 +4807,10 @@
       "Jean Hackin"
     ],
     "options_gu": [
-      "Alexander Cunnimgham",
-      "Sir John Marshall",
-      "Sir Aurel Stein",
-      "Jean Hackin"
+      "એલેક્ઝાન્ડર કનિંગહામ",
+      "સર જ્હોન માર્શલ",
+      "સર ઓરેલ સ્ટાઇન",
+      "જીન હેકિન"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -4826,13 +4830,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q003",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q4",
@@ -4840,7 +4846,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 4,
     "question_en": "Name the Indo-Islamic tomb which stands in Pentagonal Fortress.",
-    "question_gu": "Name the Indo-Islamic tomb which stands in Pentagonal Fortress.",
+    "question_gu": "પંચકોણીય કિલ્લામાં આવેલ ઇન્ડો-ઇસ્લામિક મકબરાનું નામ આપો.",
     "options_en": [
       "Tomb of Iltutmish",
       "Tomb of Gyasuddin Tuglakh",
@@ -4848,10 +4854,10 @@
       "Tomb of Ferozshah Tughlakh"
     ],
     "options_gu": [
-      "Tomb of Iltutmish",
-      "Tomb of Gyasuddin Tuglakh",
-      "Tomb of Shershah Suri",
-      "Tomb of Ferozshah Tughlakh"
+      "ઇલ્તુત્મિશનો મકબરો",
+      "ગિયાસુદ્દીન તુઘલકનો મકબરો",
+      "શેરશાહ સૂરીનો મકબરો",
+      "ફિરોઝશાહ તુઘલકનો મકબરો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4871,13 +4877,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q004",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q5",
@@ -4885,7 +4893,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 5,
     "question_en": "In Indian iconography, Chakrapurush and Gadadevi are depicted as attending divinities of",
-    "question_gu": "In Indian iconography, Chakrapurush and Gadadevi are depicted as attending divinities of",
+    "question_gu": "ભારતીય પ્રતિમાશાસ્ત્રમાં ચક્રપુરુષ અને ગદાદેવી કયા દેવતાના પરિચારક દેવતાઓ તરીકે દર્શાવવામાં આવે છે?",
     "options_en": [
       "Surya",
       "Vishnu",
@@ -4893,10 +4901,10 @@
       "None of the above"
     ],
     "options_gu": [
-      "Surya",
-      "Vishnu",
-      "Vairochana",
-      "None of the above"
+      "સૂર્ય",
+      "વિષ્ણુ",
+      "વૈરોચન",
+      "ઉપરોક્તમાંથી કોઈ નહીં"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4916,13 +4924,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q005",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q6",
@@ -4930,7 +4940,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 6,
     "question_en": "Under whose reign, Anwar-e-Suhaili was illustrated ?",
-    "question_gu": "Under whose reign, Anwar-e-Suhaili was illustrated ?",
+    "question_gu": "અન્વાર-એ-સુહૈલીનું ચિત્રણ કોના શાસનકાળમાં કરવામાં આવ્યું હતું?",
     "options_en": [
       "Akbar",
       "Shahjahan",
@@ -4938,10 +4948,10 @@
       "Humayun"
     ],
     "options_gu": [
-      "Akbar",
-      "Shahjahan",
-      "Jahangir",
-      "Humayun"
+      "અકબર",
+      "શાહજહાં",
+      "જહાંગીર",
+      "હુમાયૂં"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -4961,13 +4971,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q006",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સ્થાપત્ય, શિલ્પ, પ્રતિમાશાસ્ત્ર અથવા લઘુચિત્ર પરંપરાનો ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q7",
@@ -4975,7 +4987,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 7,
     "question_en": "Which is the Modern Design movement, that was ceased by Hitlor’s Nationalist Government in early 1930’s ?",
-    "question_gu": "Which is the Modern Design movement, that was ceased by Hitlor’s Nationalist Government in early 1930’s ?",
+    "question_gu": "1930ના દાયકાની શરૂઆતમાં હિટલરની રાષ્ટ્રવાદી સરકારે જે આધુનિક ડિઝાઇન આંદોલન બંધ કરાવ્યું હતું તે કયું હતું?",
     "options_en": [
       "Bauhaus",
       "Dadaism",
@@ -4983,10 +4995,10 @@
       "None of the above"
     ],
     "options_gu": [
-      "Bauhaus",
-      "Dadaism",
-      "German Expressionism",
-      "None of the above"
+      "બાઉહાઉસ",
+      "દાદાવાદ",
+      "જર્મન અભિવ્યંજનાવાદ",
+      "ઉપરોક્તમાંથી કોઈ નહીં"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -5006,13 +5018,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q007",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસ, પુનર્જાગરણ અથવા આધુનિક કલા-ડિઝાઇન આંદોલનો."
   },
   {
     "id": "visual_art_dec24_q8",
@@ -5020,7 +5034,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 8,
     "question_en": "The doors of Florence Baptistry were designed by",
-    "question_gu": "The doors of Florence Baptistry were designed by",
+    "question_gu": "ફ્લોરેન્સ બૅપ્ટિસ્ટરીનાં દરવાજાની ડિઝાઇન કોણે બનાવી હતી?",
     "options_en": [
       "Michael Angelo",
       "Donatello",
@@ -5028,10 +5042,10 @@
       "Brunelleschi"
     ],
     "options_gu": [
-      "Michael Angelo",
-      "Donatello",
-      "Lorenzo Ghiberti",
-      "Brunelleschi"
+      "માઇકલએન્જેલો",
+      "ડોનાટેલો",
+      "લોરેન્ઝો ઘિબર્ટી",
+      "બ્રુનેલેસ્કી"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -5051,13 +5065,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q008",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસ, પુનર્જાગરણ અથવા આધુનિક કલા-ડિઝાઇન આંદોલનો."
   },
   {
     "id": "visual_art_dec24_q9",
@@ -5065,7 +5081,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 9,
     "question_en": "Who is the painter to introduce landscape in the painting as backdrop during the Renaissance ?",
-    "question_gu": "Who is the painter to introduce landscape in the painting as backdrop during the Renaissance ?",
+    "question_gu": "પુનર્જાગરણકાળમાં ચિત્રની પૃષ્ઠભૂમિ તરીકે લેન્ડસ્કેપ રજૂ કરનાર ચિત્રકાર કોણ હતા?",
     "options_en": [
       "Masaccio",
       "Giotto",
@@ -5073,10 +5089,10 @@
       "Fra Angelico"
     ],
     "options_gu": [
-      "Masaccio",
-      "Giotto",
-      "Cimabue",
-      "Fra Angelico"
+      "માસાચ્યો",
+      "જિઓટ્ટો",
+      "ચિમાબુએ",
+      "ફ્રા એન્જેલિકો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -5096,13 +5112,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q009",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસ, પુનર્જાગરણ અથવા આધુનિક કલા-ડિઝાઇન આંદોલનો."
   },
   {
     "id": "visual_art_dec24_q10",
@@ -5110,7 +5128,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 10,
     "question_en": "Who is called the father of English water colour ?",
-    "question_gu": "Who is called the father of English water colour ?",
+    "question_gu": "અંગ્રેજી વોટરકલરનો પિતા કોને કહેવામાં આવે છે?",
     "options_en": [
       "Paul Sandby",
       "John Constable",
@@ -5118,10 +5136,10 @@
       "Jan Van Eyck"
     ],
     "options_gu": [
-      "Paul Sandby",
-      "John Constable",
-      "William Blake",
-      "Jan Van Eyck"
+      "પૉલ સેન્ડબી",
+      "જૉન કૉન્સ્ટેબલ",
+      "વિલિયમ બ્લેક",
+      "યાન વાન આઇક"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -5141,13 +5159,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q010",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસ, પુનર્જાગરણ અથવા આધુનિક કલા-ડિઝાઇન આંદોલનો."
   },
   {
     "id": "visual_art_dec24_q11",
