@@ -32,10 +32,10 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
     "syllabus_unit": 2,
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional suggestion based only on the question stem/options and the official syllabus unit names. Verify the full question against the official syllabus before treating as confirmed.",
+    "syllabus_mapping_note": "Manually checked against the official GSET Public Administration syllabus (Code 32), Unit II: Administrative Thought. The question identifies the editors of Papers on the Science of Administration, a foundational text in the administrative thought literature. Mapping is based on the question's specific subject and the official unit heading; source-paper proofreading remains a separate review.",
     "unit_number": 2,
     "unit_id": "unit_2"
   },
@@ -71,13 +71,13 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "320035",
-    "syllabus_unit": 2,
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
+    "syllabus_unit": 1,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "official_question_text_option_audit_and_unit_mapping_pending",
-    "syllabus_mapping_note": "Provisional suggestion based only on the question stem/options and the official syllabus unit names. Verify the full question against the official syllabus before treating as confirmed.",
-    "unit_number": 2,
-    "unit_id": "unit_2"
+    "syllabus_mapping_note": "Manually checked against the official GSET Public Administration syllabus (Code 32), Unit I: Introduction to Public Administration and Principles of Organization; Personnel Administration. The question directly tests Fayol's principles of administration, so Unit I is the specific syllabus match rather than Unit II. Source-paper proofreading remains a separate review.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "public_administration_nov23_q3",
