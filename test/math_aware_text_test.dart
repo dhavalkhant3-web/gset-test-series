@@ -28,7 +28,8 @@ void main() {
       expect(find.byType(RichText), findsOneWidget);
       final richText = tester.widget<RichText>(find.byType(RichText));
       expect(richText.text.toPlainText(), contains('Energy is '));
-      expect(richText.text.children!.any((span) => span is WidgetSpan), isTrue);
+      final rootSpan = richText.text as TextSpan;
+      expect(rootSpan.children!.any((span) => span is WidgetSpan), isTrue);
     });
   });
 }
