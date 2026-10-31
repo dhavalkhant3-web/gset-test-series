@@ -4235,7 +4235,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 91,
     "question_en": "What is the name of deity shown in the photograph ?",
-    "question_gu": "What is the name of deity shown in the photograph ?",
+    "question_gu": "ફોટોગ્રાફમાં દર્શાવેલા દેવતાનું નામ શું છે?",
     "options_en": [
       "Shakya Muni Gautam Buddha",
       "Bodhisattva Maitreya",
@@ -4243,10 +4243,10 @@
       "Brahma"
     ],
     "options_gu": [
-      "Shakya Muni Gautam Buddha",
-      "Bodhisattva Maitreya",
-      "Bodhisattva Avalokiteshvara",
-      "Brahma"
+      "શાક્યમુનિ ગૌતમ બુદ્ધ",
+      "બોધિસત્ત્વ મૈત્રેય",
+      "બોધિસત્ત્વ અવલોકિતેશ્વર",
+      "બ્રહ્મા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4266,13 +4266,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q091",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ કલા અને ગાંધાર શિલ્પ પરંપરા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q92",
@@ -4280,7 +4282,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 92,
     "question_en": "Where was it found ?",
-    "question_gu": "Where was it found ?",
+    "question_gu": "આ શિલ્પ ક્યાંથી મળી આવ્યું હતું?",
     "options_en": [
       "Taxila, Gandhar (Pakistan)",
       "Patna, Bihar",
@@ -4288,10 +4290,10 @@
       "Ahichhattra, Uttar Pradesh"
     ],
     "options_gu": [
-      "Taxila, Gandhar (Pakistan)",
-      "Patna, Bihar",
-      "Amaravati, Maharashtra",
-      "Ahichhattra, Uttar Pradesh"
+      "તક્ષશિલા, ગાંધાર (પાકિસ્તાન)",
+      "પટણા, બિહાર",
+      "અમરાવતી, મહારાષ્ટ્ર",
+      "અહિચ્છત્ર, ઉત્તર પ્રદેશ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -4311,13 +4313,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q092",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ કલા અને ગાંધાર શિલ્પ પરંપરા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q93",
@@ -4325,7 +4329,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 93,
     "question_en": "To which style does it belong ?",
-    "question_gu": "To which style does it belong ?",
+    "question_gu": "તે કઈ શૈલીનું છે?",
     "options_en": [
       "Mauryan",
       "Gandhara under Kushana",
@@ -4333,10 +4337,10 @@
       "Mathura under Kushana"
     ],
     "options_gu": [
-      "Mauryan",
-      "Gandhara under Kushana",
-      "Gupta",
-      "Mathura under Kushana"
+      "મૌર્ય",
+      "કુષાણકાળીન ગાંધાર",
+      "ગુપ્ત",
+      "કુષાણકાળીન મથુરા"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -4356,13 +4360,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q093",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ કલા અને ગાંધાર શિલ્પ પરંપરા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q94",
@@ -4370,7 +4376,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 94,
     "question_en": "Which type of stone is used for this sculpture ?",
-    "question_gu": "Which type of stone is used for this sculpture ?",
+    "question_gu": "આ શિલ્પ બનાવવા માટે કયા પ્રકારના પથ્થરનો ઉપયોગ થયો છે?",
     "options_en": [
       "Granite",
       "Red sandstone",
@@ -4378,10 +4384,10 @@
       "Stucco"
     ],
     "options_gu": [
-      "Granite",
-      "Red sandstone",
-      "Limestone",
-      "Stucco"
+      "ગ્રેનાઇટ",
+      "લાલ રેતીનો પથ્થર",
+      "ચૂનાનો પથ્થર",
+      "સ્ટક્કો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4401,13 +4407,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q094",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ કલા અને ગાંધાર શિલ્પ પરંપરા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q95",
@@ -4415,7 +4423,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 95,
     "question_en": "He is associated to which time ?",
-    "question_gu": "He is associated to which time ?",
+    "question_gu": "તેઓ કયા સમય સાથે સંકળાયેલા છે?",
     "options_en": [
       "Past",
       "Present",
@@ -4423,10 +4431,10 @@
       "None"
     ],
     "options_gu": [
-      "Past",
-      "Present",
-      "Future",
-      "None"
+      "ભૂતકાળ",
+      "વર્તમાન",
+      "ભવિષ્ય",
+      "કોઈ નહીં"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -4446,13 +4454,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q095",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય બૌદ્ધ કલા અને ગાંધાર શિલ્પ પરંપરા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q96",
@@ -4460,7 +4470,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 96,
     "question_en": "What is the title of the painting shown in the photograph ?",
-    "question_gu": "What is the title of the painting shown in the photograph ?",
+    "question_gu": "ફોટોગ્રાફમાં દર્શાવેલા ચિત્રનું શીર્ષક શું છે?",
     "options_en": [
       "Cry",
       "Guernica",
@@ -4468,10 +4478,10 @@
       "Absurdity"
     ],
     "options_gu": [
-      "Cry",
-      "Guernica",
-      "Nightmare",
-      "Absurdity"
+      "ક્રાય",
+      "ગ્વેર્નિકા",
+      "નાઇટમેર",
+      "એબ્સર્ડિટી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4491,13 +4501,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q096",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પાબ્લો પિકાસો અને આધુનિક પશ્ચિમી ચિત્રકલા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q97",
@@ -4505,7 +4517,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 97,
     "question_en": "What is the theme ?",
-    "question_gu": "What is the theme ?",
+    "question_gu": "આ ચિત્રનો વિષય શું છે?",
     "options_en": [
       "World War",
       "Spanish Civil War",
@@ -4513,10 +4525,10 @@
       "5th of May"
     ],
     "options_gu": [
-      "World War",
-      "Spanish Civil War",
-      "Earthquake",
-      "5th of May"
+      "વિશ્વયુદ્ધ",
+      "સ્પેનિશ ગૃહયુદ્ધ",
+      "ભૂકંપ",
+      "5મી મે"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4536,13 +4548,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q097",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પાબ્લો પિકાસો અને આધુનિક પશ્ચિમી ચિત્રકલા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q98",
@@ -4550,7 +4564,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 98,
     "question_en": "What is the expression of painting ?",
-    "question_gu": "What is the expression of painting ?",
+    "question_gu": "આ ચિત્રની અભિવ્યક્તિ કેવી છે?",
     "options_en": [
       "Melancholic",
       "Agonistic",
@@ -4558,10 +4572,10 @@
       "None of the above"
     ],
     "options_gu": [
-      "Melancholic",
-      "Agonistic",
-      "Aggressive",
-      "None of the above"
+      "ઉદાસીન",
+      "વેદનાભરી/આક્રંદમય",
+      "આક્રમક",
+      "ઉપરોક્તમાંથી એકપણ નહીં"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4581,13 +4595,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q098",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પાબ્લો પિકાસો અને આધુનિક પશ્ચિમી ચિત્રકલા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q99",
@@ -4595,7 +4611,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 99,
     "question_en": "Which year it was created ?",
-    "question_gu": "Which year it was created ?",
+    "question_gu": "આ કૃતિ કયા વર્ષે બનાવવામાં આવી હતી?",
     "options_en": [
       "1905",
       "1914",
@@ -4626,13 +4642,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q099",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પાબ્લો પિકાસો અને આધુનિક પશ્ચિમી ચિત્રકલા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_nov23_q100",
@@ -4640,7 +4658,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 100,
     "question_en": "Where is this artwork displayed ?",
-    "question_gu": "Where is this artwork displayed ?",
+    "question_gu": "આ કલाकૃતિ ક્યાં પ્રદર્શિત છે?",
     "options_en": [
       "Louvre, Paris",
       "Museo Reina Sofia, Madrid",
@@ -4648,10 +4666,10 @@
       "State Museum, Berlin"
     ],
     "options_gu": [
-      "Louvre, Paris",
-      "Museo Reina Sofia, Madrid",
-      "Modern Art Gallery, London",
-      "State Museum, Berlin"
+      "લૂવ્ર, પેરિસ",
+      "મ્યુઝિયો રેઇના સોફિયા, મેડ્રિડ",
+      "મોડર્ન આર્ટ ગેલેરી, લંડન",
+      "સ્ટેટ મ્યુઝિયમ, બર્લિન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -4671,13 +4689,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "visually_verified_against_official_scan_and_final_key",
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2023-Q100",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પાબ્લો પિકાસો અને આધુનિક પશ્ચિમી ચિત્રકલા; પ્રશ્નની આકૃતિ/સંદર્ભ યથાવત રાખવો."
   },
   {
     "id": "visual_art_dec24_q1",
