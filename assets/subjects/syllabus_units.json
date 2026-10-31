@@ -130,70 +130,70 @@
       "name_en": "Visual Art",
       "official_pdf": "https://gujaratset.ac.in/assets/syllabus/33.pdf",
       "syllabus_subject_code": "79",
-      "syllabus_source_note": "The official GSET syllabus PDF links to the UGC-NET Visual Arts syllabus (Code 79). Core Paper-II syllabus contains Units I–X; elective-specific content is retained in the source PDF and must not be assigned without evidence of the candidate's applicable elective.",
+      "syllabus_source_note": "Official GSET PDF points to UGC-NET Visual Arts Code 79. Core Units I–X below are transcribed from the official PDF. Separate electives (Art History, Drawing and Painting, Applied Art, Printmaking, Sculpture) are not collapsed into core units.",
       "units": [
         {
           "id": "unit_1",
           "number": 1,
-          "name": "Fundamentals of Visual Art and Principles of Composition",
-          "name_gu": "દૃશ્યકળાનાં મૂળભૂત તત્ત્વો અને રચનાનાં સિદ્ધાંતો"
+          "name": "Fundamentals of visual art: line, shape, form, space, colour, texture, tonal values, perspective, design; composition; 2D/3D representation; environmental, conceptual and perceptual aspects",
+          "name_gu": "દૃશ્યકળાનાં મૂળતત્ત્વો: રેખા, આકાર, સ્વરૂપ, અવકાશ, રંગ, સપાટી, ટોનલ મૂલ્યો, પરિપ્રેક્ષ્ય અને ડિઝાઇન; રચનાનાં સિદ્ધાંતો; દ્વિ-પરિમાણીય અને ત્રિ-પરિમાણીય અભિવ્યક્તિ; પર્યાવરણીય, વૈચારિક અને અનુભૂતિમૂલક પાસાં"
         },
         {
           "id": "unit_2",
           "number": 2,
-          "name": "Forms of Visual Arts and Their Inter-relationship with Other Creative Expressions",
-          "name_gu": "દૃશ્યકળાનાં સ્વરૂપો અને અન્ય સર્જનાત્મક અભિવ્યક્તિઓ સાથેનો આંતરસંબંધ"
+          "name": "Forms of visual arts and their inter-relationship with performing art, cinema, literature and other creative expression",
+          "name_gu": "દૃશ્યકળાનાં વિવિધ સ્વરૂપો અને પ્રદર્શનકલા, સિનેમા, સાહિત્ય તથા અન્ય સર્જનાત્મક અભિવ્યક્તિઓ સાથેનો આંતરસંબંધ"
         },
         {
           "id": "unit_3",
           "number": 3,
-          "name": "Traditional Media, Materials and Techniques",
-          "name_gu": "પરંપરાગત માધ્યમો, સામગ્રી અને તકનીકો"
+          "name": "Traditional media, materials and techniques: carving, casting, pigments, printmaking, fresco, murals and miniature preparation",
+          "name_gu": "પરંપરાગત માધ્યમો, સામગ્રી અને તકનીકો: કોતરકામ, ઢાળકામ, રંગદ્રવ્યો, પ્રિન્ટમેકિંગ, ફ્રેસ્કો, ભીંતચિત્રો અને લઘુચિત્રોની તૈયારી"
         },
         {
           "id": "unit_4",
           "number": 4,
-          "name": "Modern Techniques, Processes and Contemporary Visual Practices",
-          "name_gu": "આધુનિક તકનીકો, પ્રક્રિયાઓ અને સમકાલીન દૃશ્યકળા પ્રયોગો"
+          "name": "Modern techniques and processes in contemporary visual practice: installation, multicolour print, computer-aided design, multimedia and digital technologies, trompe-l’oeil and hyperrealism",
+          "name_gu": "સમકાલીન દૃશ્યકળામાં આધુનિક તકનીકો અને પ્રક્રિયાઓ: ઇન્સ્ટોલેશન, બહુ-રંગી પ્રિન્ટ, કમ્પ્યુટર-સહાયિત ડિઝાઇન, મલ્ટીમિડિયા અને ડિજિટલ તકનીકો, ટ્રોમ્પ-લોઇલ અને અતિ-વાસ્તવવાદ"
         },
         {
           "id": "unit_5",
           "number": 5,
-          "name": "Indian and Western Aesthetics and Art Appreciation",
+          "name": "Indian and Western aesthetics and art appreciation",
           "name_gu": "ભારતીય અને પશ્ચિમી સૌંદર્યશાસ્ત્ર તથા કલાસ્વાદ"
         },
         {
           "id": "unit_6",
           "number": 6,
-          "name": "Western Art: Prehistory to Post-modern Art and Movements",
-          "name_gu": "પશ્ચિમી કલા: પ્રાગૈતિહાસિક સમયથી ઉત્તર-આધુનિક કલા અને ચળવળો"
+          "name": "Western art chronology from prehistory to post-modernism and major movements",
+          "name_gu": "પ્રાગૈતિહાસિક કાળથી ઉત્તર-આધુનિક કલા સુધીનો પશ્ચિમી કલાનો સમયક્રમ અને મુખ્ય કલાચળવળો"
         },
         {
           "id": "unit_7",
           "number": 7,
-          "name": "Indian Art: Prehistory to the 19th Century",
-          "name_gu": "ભારતીય કલા: પ્રાગૈતિહાસિક સમયથી 19મી સદી સુધી"
+          "name": "Indian art chronology and developments from prehistory to the 19th century",
+          "name_gu": "પ્રાગૈતિહાસિક કાળથી 19મી સદી સુધીની ભારતીય કલાનો સમયક્રમ અને વિકાસ"
         },
         {
           "id": "unit_8",
           "number": 8,
-          "name": "Contemporary Indian Art, Design, Visual Communication and Art Education",
-          "name_gu": "સમકાલીન ભારતીય કલા, ડિઝાઇન, દૃશ્ય સંચાર અને કલા શિક્ષણ"
+          "name": "20th–21st century Indian contemporary art, movements and exponents; advertising, design, visual communication, experimental expression and art education",
+          "name_gu": "20મી અને 21મી સદીની ભારતીય સમકાલીન કલા, ચળવળો અને અગ્રણી કલાકારો; જાહેરાત, ડિઝાઇન, દૃશ્ય સંચાર, પ્રયોગાત્મક અભિવ્યક્તિ અને કલા શિક્ષણ"
         },
         {
           "id": "unit_9",
           "number": 9,
-          "name": "Art of the Far East, South-East Asia, Central Asia and Ancient Near-East",
+          "name": "Art of the Far East, South-East Asia, Central Asia and the ancient Near East",
           "name_gu": "દૂર પૂર્વ, દક્ષિણ-પૂર્વ એશિયા, મધ્ય એશિયા અને પ્રાચીન નજીકના પૂર્વની કલા"
         },
         {
           "id": "unit_10",
           "number": 10,
-          "name": "Traditional, Folk, Tribal and Craft Practices in India",
-          "name_gu": "ભારતમાં પરંપરાગત, લોક, આદિવાસી અને હસ્તકલા પરંપરાઓ"
+          "name": "Traditional community visual practices and contemporary transformations: folk, tribal and craft practices in India",
+          "name_gu": "પરંપરાગત સમુદાયોની દૃશ્યકળા અને તેના સમકાલીન પરિવર્તનો: ભારતમાં લોકકલા, આદિવાસી કલા અને હસ્તકલા"
         }
       ],
-      "mapping_policy": "Assign a core unit only when the question's tested concept clearly matches the official unit description. If the question depends on an elective (Art History, Drawing and Painting, Applied Art, Printmaking, Sculpture), keep mapping provisional until the applicable elective is established. Do not guess."
+      "mapping_policy": "Map a question to a core unit only when its actual tested content clearly fits the official unit text. If it belongs to a specialist elective or cannot be resolved, leave it unmapped/provisional pending confirmation of the candidate's elective."
     }
   }
 }
