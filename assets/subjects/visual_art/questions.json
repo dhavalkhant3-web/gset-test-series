@@ -3295,7 +3295,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 71,
     "question_en": "Identify the names of women art critics and curators from the following.\na. Mrinalini Mukherjee\nb. Gayatri Sinha\nc. Naina Dalal\nd. Kiran Nadar",
-    "question_gu": "Identify the names of women art critics and curators from the following.\na. Mrinalini Mukherjee\nb. Gayatri Sinha\nc. Naina Dalal\nd. Kiran Nadar",
+    "question_gu": "નીચે આપેલાં નામોમાંથી મહિલા કલા-સમીક્ષકો અને ક્યુરેટર્સનાં નામ ઓળખો.\na. મૃણાલિની મુખર્જી\nb. ગાયત્રી સિન્હા\nc. નૈના દલાલ\nd. કિરણ નાડર",
     "options_en": [
       "a and b only",
       "b and c only",
@@ -3303,10 +3303,10 @@
       "c and d only"
     ],
     "options_gu": [
-      "a and b only",
-      "b and c only",
-      "b and d only",
-      "c and d only"
+      "માત્ર a અને b",
+      "માત્ર b અને c",
+      "માત્ર b અને d",
+      "માત્ર c અને d"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3326,13 +3326,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q071",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય કલા-જગતની મહિલા કલા-સમીક્ષકો/ક્યુરેટર્સ; કલાકાર અને ક્યુરેટર વચ્ચેનો ભેદ તપાસવા review_flag યથાવત."
   },
   {
     "id": "visual_art_nov23_q72",
@@ -3340,7 +3342,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 72,
     "question_en": "Which one of the following statements is correct ?\na. During the Early Renaissance Period, Jesus images are largely carved as Pantocrater.\nb. During the Early Renaissance, David was a popular subject.\nc. The sculptures of the Early Renaissance were influenced by Byzantine, but not focus on Humanism.\nd. Sculptures of the Early Renaissance, which flourished in the early centuries of the Christian Era, were made of Marble only.",
-    "question_gu": "Which one of the following statements is correct ?\na. During the Early Renaissance Period, Jesus images are largely carved as Pantocrater.\nb. During the Early Renaissance, David was a popular subject.\nc. The sculptures of the Early Renaissance were influenced by Byzantine, but not focus on Humanism.\nd. Sculptures of the Early Renaissance, which flourished in the early centuries of the Christian Era, were made of Marble only.",
+    "question_gu": "નીચેનામાંથી કયું નિવેદન સાચું છે?\na. પ્રારંભિક પુનર્જાગરણકાળ દરમિયાન ઈસુની પ્રતિમાઓ મોટાભાગે પેન્ટોક્રેટર સ્વરૂપે કોતરવામાં આવતી હતી.\nb. પ્રારંભિક પુનર્જાગરણકાળમાં ડેવિડ લોકપ્રિય વિષય હતો.\nc. પ્રારંભિક પુનર્જાગરણનાં શિલ્પો બાયઝેન્ટાઇન પ્રભાવિત હતાં, પરંતુ માનવતાવાદ પર ભાર મૂકતા નહોતાં.\nd. પ્રારંભિક પુનર્જાગરણનાં શિલ્પો, જે ખ્રિસ્તી યુગની શરૂઆતની સદીઓમાં વિકસ્યાં, માત્ર આરસપહાણમાંથી બનાવવામાં આવતાં હતાં.",
     "options_en": [
       "a and b only",
       "b and c only",
@@ -3348,10 +3350,10 @@
       "b and d only"
     ],
     "options_gu": [
-      "a and b only",
-      "b and c only",
-      "c and d only",
-      "b and d only"
+      "માત્ર a અને b",
+      "માત્ર b અને c",
+      "માત્ર c અને d",
+      "માત્ર b અને d"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3371,13 +3373,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q072",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રારંભિક પુનર્જાગરણ અને પશ્ચિમી શિલ્પ-ઇતિહાસ; તથ્ય/official key અંગે review_flag યથાવત."
   },
   {
     "id": "visual_art_nov23_q73",
@@ -3385,7 +3389,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 73,
     "question_en": "Choose the correct group of sculpture method :\na. Relief\nb. Construction\nc. Subtraction\nd. Substitution",
-    "question_gu": "Choose the correct group of sculpture method :\na. Relief\nb. Construction\nc. Subtraction\nd. Substitution",
+    "question_gu": "શિલ્પ બનાવવાની પદ્ધતિઓનો યોગ્ય સમૂહ પસંદ કરો:\na. રિલીફ\nb. કન્સ્ટ્રક્શન\nc. સબ્ટ્રેક્શન\nd. સબ્સ્ટિટ્યુશન",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -3416,13 +3420,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q073",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પ રચનાની પદ્ધતિઓ; Sculpture elective સાથે પણ સંબંધિત."
   },
   {
     "id": "visual_art_nov23_q74",
@@ -3430,7 +3436,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 74,
     "question_en": "Identify the artist who were associated with the group ‘Shilpi Chakra’.\na. B.C. Sanyal\nb. Mohan Samanta\nc. Kanwal Krishna\nd. K.S. Kulkarni\nCodes :",
-    "question_gu": "Identify the artist who were associated with the group ‘Shilpi Chakra’.\na. B.C. Sanyal\nb. Mohan Samanta\nc. Kanwal Krishna\nd. K.S. Kulkarni\nCodes :",
+    "question_gu": "‘શિલ્પી ચક્ર’ જૂથ સાથે સંકળાયેલા કલાકારો ઓળખો.\na. બી. સી. સાન્યાલ\nb. મોહન સામંત\nc. કંવલ કૃષ્ણ\nd. કે. એસ. કુલકર્ણી\nસંકેતો:",
     "options_en": [
       "a, c and d",
       "b, c and d",
@@ -3438,10 +3444,10 @@
       "all of them"
     ],
     "options_gu": [
-      "a, c and d",
-      "b, c and d",
-      "a, b and c",
-      "all of them"
+      "a, c અને d",
+      "b, c અને d",
+      "a, b અને c",
+      "આ બધા"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -3461,13 +3467,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q074",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય કલા-આંદોલનો અને કલાકાર જૂથો."
   },
   {
     "id": "visual_art_nov23_q75",
@@ -3475,7 +3483,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 75,
     "question_en": "Select the correct group of printmaking :\na. Etching\nb. Monoprint\nc. Mezzotint\nd. Dry point",
-    "question_gu": "Select the correct group of printmaking :\na. Etching\nb. Monoprint\nc. Mezzotint\nd. Dry point",
+    "question_gu": "પ્રિન્ટમેકિંગનો યોગ્ય સમૂહ પસંદ કરો:\na. એચિંગ\nb. મોનોપ્રિન્ટ\nc. મેઝોટિન્ટ\nd. ડ્રાયપોઇન્ટ",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -3506,13 +3514,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q075",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પ્રિન્ટમેકિંગની પદ્ધતિઓ; Printmaking elective સાથે સંબંધિત."
   },
   {
     "id": "visual_art_nov23_q76",
@@ -3520,7 +3530,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 76,
     "question_en": "Select the correct group of printmaker to their printing technique :\na. M.C. Esher\nb. Pablo Picasso\nc. Chuck Close\nd. Toulouse Lautrec",
-    "question_gu": "Select the correct group of printmaker to their printing technique :\na. M.C. Esher\nb. Pablo Picasso\nc. Chuck Close\nd. Toulouse Lautrec",
+    "question_gu": "પ્રિન્ટમેકર્સ અને તેમની પ્રિન્ટિંગ તકનીકોનો યોગ્ય સમૂહ પસંદ કરો:\na. એમ. સી. એશર\nb. પાબ્લો પિકાસો\nc. ચક ક્લોઝ\nd. તુલૂઝ-લોત્રેક",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -3551,13 +3561,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q076",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આંતરરાષ્ટ્રીય પ્રિન્ટમેકર્સ અને પ્રિન્ટિંગ તકનીકો."
   },
   {
     "id": "visual_art_nov23_q77",
@@ -3565,7 +3577,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 77,
     "question_en": "Select the correct group of Printmaker.\na. K.G. Subramanyan\nb. Laxma Goud\nc. Sakti Burman\nd. Anupam Sud",
-    "question_gu": "Select the correct group of Printmaker.\na. K.G. Subramanyan\nb. Laxma Goud\nc. Sakti Burman\nd. Anupam Sud",
+    "question_gu": "પ્રિન્ટમેકર્સનો યોગ્ય સમૂહ પસંદ કરો:\na. કે. જી. સુબ્રમણ્યન\nb. લક્ષ્મા ગૌડ\nc. શક્તિ બર્મન\nd. અનુપમ સૂદ",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -3596,13 +3608,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q077",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય આધુનિક પ્રિન્ટમેકર્સ; વિશિષ્ટ Printmaking scope ચકાસવો."
   },
   {
     "id": "visual_art_nov23_q78",
@@ -3610,7 +3624,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 78,
     "question_en": "Which of the following explains the relationship and order between the different elements of a sculpture ?",
-    "question_gu": "Which of the following explains the relationship and order between the different elements of a sculpture ?",
+    "question_gu": "શિલ્પના વિવિધ તત્ત્વો વચ્ચેના સંબંધ અને તેમના ક્રમને નીચેનામાંથી કયો સિદ્ધાંત સમજાવે છે?",
     "options_en": [
       "Rhythm and Repetition",
       "Continuity",
@@ -3618,10 +3632,10 @@
       "Balance"
     ],
     "options_gu": [
-      "Rhythm and Repetition",
-      "Continuity",
-      "Emphasis",
-      "Balance"
+      "લય અને પુનરાવર્તન",
+      "સાતત્ય",
+      "ભાર/પ્રાધાન્ય",
+      "સંતુલન"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3641,13 +3655,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q078",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "દૃશ્યકલાના મૂળભૂત તત્ત્વો અને રચનાના સિદ્ધાંતો."
   },
   {
     "id": "visual_art_nov23_q79",
@@ -3655,7 +3671,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 79,
     "question_en": "How is traditional Japanese woodcut printing executed ?",
-    "question_gu": "How is traditional Japanese woodcut printing executed ?",
+    "question_gu": "પરંપરાગત જાપાની વુડકટ પ્રિન્ટિંગ કેવી રીતે કરવામાં આવે છે?",
     "options_en": [
       "Using photographic equipment",
       "By hand",
@@ -3663,10 +3679,10 @@
       "By hand-press machine"
     ],
     "options_gu": [
-      "Using photographic equipment",
-      "By hand",
-      "Through computer",
-      "By hand-press machine"
+      "ફોટોગ્રાફિક સાધનોનો ઉપયોગ કરીને",
+      "હાથથી",
+      "કમ્પ્યુટર દ્વારા",
+      "હાથથી ચલાવાતા પ્રેસ મશીન દ્વારા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -3686,13 +3702,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q079",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પરંપરાગત જાપાની વુડકટ સહિત પ્રિન્ટમેકિંગની પરંપરાગત તકનીકો."
   },
   {
     "id": "visual_art_nov23_q80",
@@ -3700,7 +3718,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 80,
     "question_en": "Conte is used in",
-    "question_gu": "Conte is used in",
+    "question_gu": "કોન્ટેનો ઉપયોગ શેમાં થાય છે?",
     "options_en": [
       "Painting",
       "Lithography",
@@ -3708,10 +3726,10 @@
       "Sculpture"
     ],
     "options_gu": [
-      "Painting",
-      "Lithography",
-      "Screen printing",
-      "Sculpture"
+      "ચિત્રકલા",
+      "લિથોગ્રાફી",
+      "સ્ક્રીન પ્રિન્ટિંગ",
+      "શિલ્પકલા"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -3731,13 +3749,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q080",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કોન્ટે એક કલા-માધ્યમ તરીકે; Drawing and Painting elective scopeની પુષ્ટિ જરૂરી."
   },
   {
     "id": "visual_art_nov23_q81",
