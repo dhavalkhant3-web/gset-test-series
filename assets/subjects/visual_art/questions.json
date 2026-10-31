@@ -10345,7 +10345,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 21,
     "question_en": "Which artist pioneered Cubism with Picasso ?",
-    "question_gu": "Which artist pioneered Cubism with Picasso ?",
+    "question_gu": "પિકાસો સાથે ક્યુબિઝમના પ્રણેતા કલાકાર કોણ હતા?",
     "options_en": [
       "Kandinsky",
       "Braque",
@@ -10353,10 +10353,10 @@
       "Matisse"
     ],
     "options_gu": [
-      "Kandinsky",
-      "Braque",
-      "Duchamp",
-      "Matisse"
+      "કાન્ડિન્સ્કી",
+      "બ્રાક",
+      "ડુશાં",
+      "માતીસ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10376,13 +10376,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q021",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ક્યુબિઝમ અને આધુનિક પશ્ચિમી કલા-આંદોલનો."
   },
   {
     "id": "visual_art_nov25_q22",
@@ -10390,7 +10392,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 22,
     "question_en": "“Campbell’s Soup Cans” is a famous artwork by",
-    "question_gu": "“Campbell’s Soup Cans” is a famous artwork by",
+    "question_gu": "‘કૅમ્પબેલ્સ સૂપ કેન્સ’ પ્રખ્યાત કલाकૃતિ કોની છે?",
     "options_en": [
       "Lichtenstein",
       "Warhol",
@@ -10398,10 +10400,10 @@
       "Rauschenberg"
     ],
     "options_gu": [
-      "Lichtenstein",
-      "Warhol",
-      "Johns",
-      "Rauschenberg"
+      "લિખ્ટેન્સ્ટાઇન",
+      "વૉરહોલ",
+      "જૉન્સ",
+      "રૉશેનબર્ગ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10421,13 +10423,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q022",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "એન્ડી વૉરહોલ અને પૉપ આર્ટ."
   },
   {
     "id": "visual_art_nov25_q23",
@@ -10435,7 +10439,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 23,
     "question_en": "Match movement with key characteristic.\nList – I: a. Impressionism; b. Cubism; c. Surrealism; d. Pop Art\nList – II: i. Mass culture; ii. Dream imagery; iii. Light and colour; iv. Geometric fragmentation",
-    "question_gu": "Match movement with key characteristic.\nList – I: a. Impressionism; b. Cubism; c. Surrealism; d. Pop Art\nList – II: i. Mass culture; ii. Dream imagery; iii. Light and colour; iv. Geometric fragmentation",
+    "question_gu": "કલા-આંદોલનનો તેના મુખ્ય લક્ષણ સાથે મેળ બેસાડો.\nયાદી–I: a. ઇમ્પ્રેશનિઝમ; b. ક્યુબિઝમ; c. અતિવાસ્તવવાદ; d. પૉપ આર્ટ\nયાદી–II: i. લોકસંસ્કૃતિ; ii. સ્વપ્ન-છબીઓ; iii. પ્રકાશ અને રંગ; iv. ભૌમિતિક વિખંડન",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iii, c-iv, d-i",
@@ -10466,13 +10470,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q023",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક પશ્ચિમી કલા-આંદોલનો અને તેમની લાક્ષણિકતાઓ."
   },
   {
     "id": "visual_art_nov25_q24",
@@ -10480,7 +10486,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 24,
     "question_en": "Which philosopher is closely linked with postmodern theory in art ?",
-    "question_gu": "Which philosopher is closely linked with postmodern theory in art ?",
+    "question_gu": "કલા-વિષયક ઉત્તરઆધુનિક સિદ્ધાંત સાથે કયા તત્ત્વચિંતકનો નજીકનો સંબંધ છે?",
     "options_en": [
       "Kant",
       "Derrida",
@@ -10488,10 +10494,10 @@
       "Plato"
     ],
     "options_gu": [
-      "Kant",
-      "Derrida",
-      "Hegel",
-      "Plato"
+      "કાન્ટ",
+      "ડેરિદા",
+      "હેગલ",
+      "પ્લેટો"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10511,13 +10517,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q024",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ઉત્તરઆધુનિક કલા-સિદ્ધાંત અને સૌંદર્યશાસ્ત્ર."
   },
   {
     "id": "visual_art_nov25_q25",
@@ -10525,7 +10533,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 25,
     "question_en": "Jeff Koons’ balloon dog sculptures are examples of",
-    "question_gu": "Jeff Koons’ balloon dog sculptures are examples of",
+    "question_gu": "જેફ કુન્સનાં બલૂન ડૉગ શિલ્પો કયું ઉદાહરણ છે?",
     "options_en": [
       "Minimalism",
       "Pop Kitsch",
@@ -10533,10 +10541,10 @@
       "Conceptualism"
     ],
     "options_gu": [
-      "Minimalism",
-      "Pop Kitsch",
-      "Abstract Expressionism",
-      "Conceptualism"
+      "મિનિમલિઝમ",
+      "પૉપ કિટ્શ",
+      "અમૂર્ત અભિવ્યંજનાવાદ",
+      "કન્સેપ્ચ્યુઅલિઝમ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -10556,13 +10564,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q025",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "જેફ કુન્સ અને સમકાલીન શિલ્પ/પૉપ સંસ્કૃતિ."
   },
   {
     "id": "visual_art_nov25_q26",
@@ -10570,7 +10580,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 26,
     "question_en": "Match sculpture schools with their characteristics.\nList – I: a. Mathura School; b. Gandhara School; c. Gupta Sculpture; d. Chola Sculpture\nList – II: i. Greco – Roman influence; ii. Red sandstone, indigenous style; iii. Bronze Lost Wax; iv. Graceful, spiritual expressions",
-    "question_gu": "Match sculpture schools with their characteristics.\nList – I: a. Mathura School; b. Gandhara School; c. Gupta Sculpture; d. Chola Sculpture\nList – II: i. Greco – Roman influence; ii. Red sandstone, indigenous style; iii. Bronze Lost Wax; iv. Graceful, spiritual expressions",
+    "question_gu": "શિલ્પશાળાનો તેના લક્ષણ સાથે મેળ બેસાડો.\nયાદી–I: a. મથુરા શાળા; b. ગાંધાર શાળા; c. ગુપ્ત શિલ્પકલા; d. ચોલ શિલ્પકલા\nયાદી–II: i. ગ્રીક-રોમન પ્રભાવ; ii. લાલ રેતીનો પથ્થર, સ્વદેશી શૈલી; iii. કાંસ્ય લોસ્ટ-વેક્સ પદ્ધતિ; iv. સુઘડ અને આધ્યાત્મિક અભિવ્યક્તિઓ",
     "options_en": [
       "a-ii, b-i, c-iv, d-iii",
       "a-i, b-ii, c-iii, d-iv",
@@ -10601,13 +10611,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q026",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય શિલ્પ પરંપરાઓ: મથુરા, ગાંધાર, ગુપ્ત અને ચોલ."
   },
   {
     "id": "visual_art_nov25_q27",
@@ -10615,7 +10627,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 27,
     "question_en": "Which temple is famous for its “Airavatesvara” shrine and exquisite Chola architecture ?",
-    "question_gu": "Which temple is famous for its “Airavatesvara” shrine and exquisite Chola architecture ?",
+    "question_gu": "‘ઐરાવતેશ્વર’ મંદિર અને ઉત્કૃષ્ટ ચોલ સ્થાપત્ય માટે કયું મંદિર પ્રસિદ્ધ છે?",
     "options_en": [
       "Brihadeeswara Temple",
       "Gangaikonda Cholapuram",
@@ -10623,10 +10635,10 @@
       "Mahabalipuram"
     ],
     "options_gu": [
-      "Brihadeeswara Temple",
-      "Gangaikonda Cholapuram",
-      "Darasuram",
-      "Mahabalipuram"
+      "બૃહદીશ્વર મંદિર",
+      "ગંગૈકોંડ ચોળપુરમ",
+      "દારાસુરમ",
+      "મહાબલીપુરમ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -10646,13 +10658,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q027",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "દક્ષિણ ભારતીય ચોલ મંદિર સ્થાપત્ય."
   },
   {
     "id": "visual_art_nov25_q28",
@@ -10660,7 +10674,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 28,
     "question_en": "Match the schools with their centers.\nList – I: a. Bundi; b. Kangra; c. Mughal; d. Deccani\nList – II: i. Himachal Pradesh; ii. Delhi/Agra; iii. Bijapur; iv. Rajasthan",
-    "question_gu": "Match the schools with their centers.\nList – I: a. Bundi; b. Kangra; c. Mughal; d. Deccani\nList – II: i. Himachal Pradesh; ii. Delhi/Agra; iii. Bijapur; iv. Rajasthan",
+    "question_gu": "ચિત્રશૈલીનો તેના કેન્દ્ર સાથે મેળ બેસાડો.\nયાદી–I: a. બુંદી; b. કાંગરા; c. મુઘલ; d. દખ્ખણી\nયાદી–II: i. હિમાચલ પ્રદેશ; ii. દિલ્હી/આગ્રા; iii. બીજાપુર; iv. રાજસ્થાન",
     "options_en": [
       "a-iv, b-i, c-ii, d-iii",
       "a-i, b-ii, c-iii, d-iv",
@@ -10691,13 +10705,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q028",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય લઘુચિત્ર પરંપરાઓ અને પ્રાદેશિક શૈલીઓ."
   },
   {
     "id": "visual_art_nov25_q29",
@@ -10705,7 +10721,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 29,
     "question_en": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Vishnu is often depicted with four arms holding Shankha, Chakra, Gada and Padma.\nReason (R) : These symbols represent prosperity, cosmic order, power and dharma.",
-    "question_gu": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A) : Vishnu is often depicted with four arms holding Shankha, Chakra, Gada and Padma.\nReason (R) : These symbols represent prosperity, cosmic order, power and dharma.",
+    "question_gu": "નીચે બે નિવેદનો આપેલાં છે; એક અભિકથન (A) અને બીજું કારણ (R) છે.\nઅભિકથન (A): વિષ્ણુને ઘણી વાર શંખ, ચક્ર, ગદા અને પદ્મ ધારણ કરતા ચાર હાથવાળા સ્વરૂપે દર્શાવવામાં આવે છે.\nકારણ (R): આ પ્રતીકો સમૃદ્ધિ, બ્રહ્માંડીય વ્યવસ્થા, શક્તિ અને ધર્મનું પ્રતિનિધિત્વ કરે છે.",
     "options_en": [
       "(A) true, (R) true, (R) explains (A)",
       "(A) true, (R) true, (R) does not explain (A)",
@@ -10713,10 +10729,10 @@
       "(A) false, (R) true"
     ],
     "options_gu": [
-      "(A) true, (R) true, (R) explains (A)",
-      "(A) true, (R) true, (R) does not explain (A)",
-      "(A) true, (R) false",
-      "(A) false, (R) true"
+      "(A) સાચું છે, (R) સાચું છે અને (R), (A)નું સમજૂતીકારણ છે",
+      "(A) સાચું છે, (R) સાચું છે, પરંતુ (R), (A)નું સમજૂતીકારણ નથી",
+      "(A) સાચું છે, (R) ખોટું છે",
+      "(A) ખોટું છે, (R) સાચું છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -10736,13 +10752,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q029",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય પ્રતિમાશાસ્ત્ર અને વિષ્ણુનું સ્વરૂપ."
   },
   {
     "id": "visual_art_nov25_q30",
@@ -10750,7 +10768,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 30,
     "question_en": "Match the Aestheticians with their concepts.\nList – I: a. Bhatta Nayaka; b. Vamana; c. Kuntaka; d. Mammata\nList – II: i. Riti; ii. Auchitya; iii. Sadharanikarna; iv. Vakrokti",
-    "question_gu": "Match the Aestheticians with their concepts.\nList – I: a. Bhatta Nayaka; b. Vamana; c. Kuntaka; d. Mammata\nList – II: i. Riti; ii. Auchitya; iii. Sadharanikarna; iv. Vakrokti",
+    "question_gu": "સૌંદર્યશાસ્ત્રીઓનો તેમની સંકલ્પનાઓ સાથે મેળ બેસાડો.\nયાદી–I: a. ભટ્ટ નાયક; b. વામન; c. કુંતક; d. મમ્મટ\nયાદી–II: i. રીતી; ii. ઔચિત્ય; iii. સાધારણીકરણ; iv. વક્રોક્તિ",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-i, c-iv, d-ii",
@@ -10781,13 +10799,15 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "330013",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2025-Q030",
-    "source_question_paper": "nov2533.pdf"
+    "source_question_paper": "nov2533.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય સૌંદર્યશાસ્ત્ર અને સંસ્કૃત કાવ્યશાસ્ત્ર."
   },
   {
     "id": "visual_art_nov25_q31",
