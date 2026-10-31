@@ -7525,7 +7525,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 61,
     "question_en": "Match the following tools with their medium.\nList – I: a. Toothed Hammer; b. Rifflers; c. Forceps; d. Showel\nList – II: i. Sand; ii. Marble; iii. Wood; iv. Bronze",
-    "question_gu": "Match the following tools with their medium.\nList – I: a. Toothed Hammer; b. Rifflers; c. Forceps; d. Showel\nList – II: i. Sand; ii. Marble; iii. Wood; iv. Bronze",
+    "question_gu": "નીચે આપેલાં સાધનોનો તેમના માધ્યમ સાથે મેળ બેસાડો.\nયાદી–I: a. દાંતાવાળી હથોડી; b. રિફલર્સ; c. ફોર્સેપ્સ; d. પાવડો\nયાદી–II: i. રેતી; ii. આરસપહાણ; iii. લાકડું; iv. કાંસું",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-iii, b-ii, c-iv, d-i",
@@ -7556,13 +7556,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q061",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પકામનાં સાધનો અને માધ્યમો; Sculpture elective સાથે સંબંધિત."
   },
   {
     "id": "visual_art_dec24_q62",
@@ -7570,7 +7572,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 62,
     "question_en": "Match the material with sculpture mediums.\nList – I: a. Carving; b. Modelling; c. Casting; d. Assemblage\nList – II: i. Clay; ii. Bronze; iii. Scrap metal; iv. Stone",
-    "question_gu": "Match the material with sculpture mediums.\nList – I: a. Carving; b. Modelling; c. Casting; d. Assemblage\nList – II: i. Clay; ii. Bronze; iii. Scrap metal; iv. Stone",
+    "question_gu": "સામગ્રીનો શિલ્પ બનાવવાની પદ્ધતિઓ સાથે મેળ બેસાડો.\nયાદી–I: a. કોતરકામ; b. મોડેલિંગ; c. કાસ્ટિંગ; d. એસેમ્બ્લેજ\nયાદી–II: i. માટી; ii. કાંસું; iii. ભંગાર ધાતુ; iv. પથ્થર",
     "options_en": [
       "a-iv, b-ii, c-iii, d-i",
       "a-ii, b-i, c-iii, d-iv",
@@ -7601,13 +7603,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q062",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કોતરકામ, મોડેલિંગ, કાસ્ટિંગ અને એસેમ્બ્લેજ જેવી શિલ્પ પદ્ધતિઓ."
   },
   {
     "id": "visual_art_dec24_q63",
@@ -7615,7 +7619,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 63,
     "question_en": "Match the following.\nList – I: a. Beginning of Sound; b. Whirlpool; c. Transient; d. The Lone Traveller\nList – II: i. Kavita Nayar; ii. Pran Nath Mago; iii. P. T. Reddy; iv. Krishna Reddy",
-    "question_gu": "Match the following.\nList – I: a. Beginning of Sound; b. Whirlpool; c. Transient; d. The Lone Traveller\nList – II: i. Kavita Nayar; ii. Pran Nath Mago; iii. P. T. Reddy; iv. Krishna Reddy",
+    "question_gu": "નીચેનો મેળ બેસાડો.\nયાદી–I: a. બિગિનિંગ ઑફ સાઉન્ડ; b. વ્હર્લપૂલ; c. ટ્રાન્ઝિયન્ટ; d. ધ લોન ટ્રાવેલર\nયાદી–II: i. કવિતા નાયર; ii. પ્રાણનાથ માગો; iii. પી. ટી. રેડ્ડી; iv. કૃષ્ણ રેડ્ડી",
     "options_en": [
       "a-ii, b-iv, c-iii, d-i",
       "a-i, b-ii, c-iii, d-iv",
@@ -7646,13 +7650,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q063",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય કલાકારો અને તેમની કૃતિઓ; નામ/કૃતિના મેળની પુષ્ટિ કરવી."
   },
   {
     "id": "visual_art_dec24_q64",
@@ -7660,7 +7666,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 64,
     "question_en": "Match the brands/products with their designers.\nList – I: a. Milton Glaser; b. Richard Avedon; c. Kharkevich; d. Paul Rand\nList – II: i. IBM (Rebus - 1st Printing) Logo; ii. History will not forget the Vostok Program!; iii. John Lennon Poster; iv. Dylan Poster",
-    "question_gu": "Match the brands/products with their designers.\nList – I: a. Milton Glaser; b. Richard Avedon; c. Kharkevich; d. Paul Rand\nList – II: i. IBM (Rebus - 1st Printing) Logo; ii. History will not forget the Vostok Program!; iii. John Lennon Poster; iv. Dylan Poster",
+    "question_gu": "બ્રાન્ડ/ઉત્પાદનોનો તેમના ડિઝાઇનર્સ સાથે મેળ બેસાડો.\nયાદી–I: a. મિલ્ટન ગ્લેઝર; b. રિચર્ડ એવેડોન; c. ખાર્કેવિચ; d. પૉલ રૅન્ડ\nયાદી–II: i. IBM (રીબસ – પ્રથમ પ્રિન્ટિંગ) લોગો; ii. હિસ્ટરી વિલ નૉટ ફર્ગેટ ધ વોસ્ટોક પ્રોગ્રામ!; iii. જૉન લેનન પોસ્ટર; iv. ડિલન પોસ્ટર",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-i, c-iv, d-iii",
@@ -7691,13 +7697,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q064",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ગ્રાફિક ડિઝાઇન અને પોસ્ટર/લોગો; review_flag યથાવત."
   },
   {
     "id": "visual_art_dec24_q65",
@@ -7705,7 +7713,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 65,
     "question_en": "Match the brand/products with their brand ambassadors in India.\nList – I: a. Dollar Club Vests; b. Eye Bank Association; c. Boost Drink; d. TVS Motors\nList – II: i. Aishwarya Rai Bachchan; ii. Akshay Kumar; iii. M. S. Dhoni; iv. Harmanpreet Kaur",
-    "question_gu": "Match the brand/products with their brand ambassadors in India.\nList – I: a. Dollar Club Vests; b. Eye Bank Association; c. Boost Drink; d. TVS Motors\nList – II: i. Aishwarya Rai Bachchan; ii. Akshay Kumar; iii. M. S. Dhoni; iv. Harmanpreet Kaur",
+    "question_gu": "ભારતમાં બ્રાન્ડ/ઉત્પાદનોનો તેમના બ્રાન્ડ એમ્બેસેડર સાથે મેળ બેસાડો.\nયાદી–I: a. ડૉલર ક્લબ વેસ્ટ્સ; b. આઇ બેંક એસોસિએશન; c. બૂસ્ટ પીણું; d. TVS મોટર્સ\nયાદી–II: i. ઐશ્વર્યા રાય બચ્ચન; ii. અક્ષય કુમાર; iii. એમ. એસ. ધોની; iv. હરમનપ્રીત કૌર",
     "options_en": [
       "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-i, c-iv, d-iii",
@@ -7736,13 +7744,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q065",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "બ્રાન્ડિંગ અને જાહેરાત આધારિત દૃશ્ય સંચાર."
   },
   {
     "id": "visual_art_dec24_q66",
@@ -7750,7 +7760,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 66,
     "question_en": "From the following list choose the monuments having double dome.\na. Tomb of Sikandar Lodi\nb. Gol Gumbaz\nc. Humayun’s Tomb\nd. Taj Mahal\nChoose the correct answer from the options given below :",
-    "question_gu": "From the following list choose the monuments having double dome.\na. Tomb of Sikandar Lodi\nb. Gol Gumbaz\nc. Humayun’s Tomb\nd. Taj Mahal\nChoose the correct answer from the options given below :",
+    "question_gu": "નીચેની યાદીમાંથી દ્વિગુંબજ ધરાવતા સ્મારકો પસંદ કરો.\na. સિકંદર લોદીનો મકબરો\nb. ગોલ ગુંબજ\nc. હુમાયુનો મકબરો\nd. તાજમહેલ\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a and b only",
       "a, c and d only",
@@ -7758,10 +7768,10 @@
       "b, c and d only"
     ],
     "options_gu": [
-      "a and b only",
-      "a, c and d only",
-      "c and d only",
-      "b, c and d only"
+      "માત્ર a અને b",
+      "માત્ર a, c અને d",
+      "માત્ર c અને d",
+      "માત્ર b, c અને d"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -7781,13 +7791,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q066",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય ઇન્ડો-ઇસ્લામિક સ્થાપત્ય અને મકબરાઓ."
   },
   {
     "id": "visual_art_dec24_q67",
@@ -7795,7 +7807,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 67,
     "question_en": "From the following, who were painter and printmaker as well ?\na. Albrecht Durer\nb. Francisco de Goya\nc. Peter Paul Rubens\nd. Edvard Munch\nSelect the correct answer from the options given below :",
-    "question_gu": "From the following, who were painter and printmaker as well ?\na. Albrecht Durer\nb. Francisco de Goya\nc. Peter Paul Rubens\nd. Edvard Munch\nSelect the correct answer from the options given below :",
+    "question_gu": "નીચે આપેલાં નામોમાંથી ચિત્રકાર અને પ્રિન્ટમેકર બંને રહેલા કલાકારો પસંદ કરો.\na. આલ્બ્રેખ્ટ ડ્યુરર\nb. ફ્રાન્સિસ્કો દ ગોયા\nc. પીટર પૉલ રૂબેન્સ\nd. એડવર્ડ મુંક\nનીચેના વિકલ્પોમાંથી યોગ્ય જવાબ પસંદ કરો:",
     "options_en": [
       "a, b and c only",
       "b, c and d only",
@@ -7803,10 +7815,10 @@
       "a and d only"
     ],
     "options_gu": [
-      "a, b and c only",
-      "b, c and d only",
-      "a, b and d only",
-      "a and d only"
+      "માત્ર a, b અને c",
+      "માત્ર b, c અને d",
+      "માત્ર a, b અને d",
+      "માત્ર a અને d"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -7826,13 +7838,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q067",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "પશ્ચિમી કલા-ઇતિહાસના કલાકારો અને પ્રિન્ટમેકિંગ."
   },
   {
     "id": "visual_art_dec24_q68",
@@ -7840,7 +7854,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 68,
     "question_en": "From the given below list choose the temples belonging to Nagar style of Indian temple architecture.\na. Vishnu Temple of Bhitar Gaon\nb. Kandariya Mahadev\nc. Teli ka Mandir\nd. Jagannath Temple Puri\ne. Vaital Deul",
-    "question_gu": "From the given below list choose the temples belonging to Nagar style of Indian temple architecture.\na. Vishnu Temple of Bhitar Gaon\nb. Kandariya Mahadev\nc. Teli ka Mandir\nd. Jagannath Temple Puri\ne. Vaital Deul",
+    "question_gu": "નીચેની યાદીમાંથી ભારતીય મંદિર સ્થાપત્યની નાગર શૈલીનાં મંદિરો પસંદ કરો.\na. ભીતરગાંવનું વિષ્ણુ મંદિર\nb. કંદારિયા મહાદેવ\nc. તેલી કા મંદિર\nd. જગન્નાથ મંદિર, પુરી\ne. વૈતાલ દેઉળ",
     "options_en": [
       "c, d, e",
       "a, b, c",
@@ -7871,13 +7885,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_7",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q068",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ભારતીય મંદિર સ્થાપત્યની નાગર શૈલી."
   },
   {
     "id": "visual_art_dec24_q69",
@@ -7885,7 +7901,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 69,
     "question_en": "Select the correct group.\na. D. P. Roy Choudhury\nb. Ramkinkar Baij\nc. Pradosh Dasgupta\nd. Sankho Chaudhuri",
-    "question_gu": "Select the correct group.\na. D. P. Roy Choudhury\nb. Ramkinkar Baij\nc. Pradosh Dasgupta\nd. Sankho Chaudhuri",
+    "question_gu": "યોગ્ય સમૂહ પસંદ કરો.\na. ડી. પી. રોય ચૌધરી\nb. રામકિંકર બૈજ\nc. પ્રદોષ દાસગુપ્તા\nd. શંખો ચૌધરી",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -7916,13 +7932,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q069",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક ભારતીય શિલ્પકારો અને સમકાલીન કલા."
   },
   {
     "id": "visual_art_dec24_q70",
@@ -7930,7 +7948,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 70,
     "question_en": "Select the correct group.\na. Umberto Boccioni\nb. Vladimir Tatlin\nc. Naum Gabo\nd. Jean Arp",
-    "question_gu": "Select the correct group.\na. Umberto Boccioni\nb. Vladimir Tatlin\nc. Naum Gabo\nd. Jean Arp",
+    "question_gu": "યોગ્ય સમૂહ પસંદ કરો.\na. ઉમ્બર્ટો બોચોની\nb. વ્લાદિમીર તાત્લિન\nc. નાઉમ ગાબો\nd. જાં આરપ",
     "options_en": [
       "a, b, c",
       "b, c, d",
@@ -7961,13 +7979,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q070",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "આધુનિક પશ્ચિમી કલા-આંદોલનો અને કલાકારો."
   },
   {
     "id": "visual_art_dec24_q71",
