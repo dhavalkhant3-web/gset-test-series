@@ -419,17 +419,9 @@
       "status": "verified_against_official_papers_and_final_keys",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "provisional": 163,
-        "pending": 137,
-        "verified": 0,
-        "by_unit": {
-          "1": 72,
-          "2": 1,
-          "3": 22,
-          "4": 13,
-          "5": 23,
-          "6": 32
-        }
+        "provisional": 109,
+        "pending": 191,
+        "verified": 0
       }
     },
     {
@@ -478,20 +470,9 @@
       "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 records source_verified, all 300 review-flagged pending original stem/options audit. Syllabus mapping: 0 verified, 164 provisional, 136 pending. Disputed items retained for review: Dec 2024 Q24, Dec 2024 Q35, Nov 2025 Q17. Do not treat answer-key reconciliation or bilingual helper fields as source proof of question text.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "provisional": 134,
-        "pending": 166,
-        "verified": 0,
-        "by_unit": {
-          "1": 30,
-          "2": 22,
-          "3": 20,
-          "4": 6,
-          "5": 3,
-          "6": 6,
-          "7": 13,
-          "8": 18,
-          "9": 16
-        }
+        "provisional": 152,
+        "pending": 126,
+        "verified": 22
       }
     },
     {
@@ -510,21 +491,9 @@
       "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 30 records source_verified (figure/passage source review); 256 remain in key-applied/pending-proofread state; 14 content/answer concerns remain flagged. Syllabus mapping: 0 verified, 138 provisional, 162 pending. Question text/options and the 14 concerns still require source review; the current English-medium bank does not contain Gujarati question text.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "provisional": 13,
-        "pending": 287,
-        "verified": 0,
-        "by_unit": {
-          "1": 2,
-          "2": 0,
-          "3": 2,
-          "4": 0,
-          "5": 2,
-          "6": 5,
-          "7": 0,
-          "8": 2,
-          "9": 0,
-          "10": 0
-        }
+        "provisional": 131,
+        "pending": 147,
+        "verified": 22
       }
     },
     {
