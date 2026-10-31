@@ -5645,7 +5645,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 21,
     "question_en": "Which of the following is a true statement about busts ?",
-    "question_gu": "Which of the following is a true statement about busts ?",
+    "question_gu": "બસ્ટ (અર્ધપ્રતિમા) વિશે નીચેનામાંથી કયું નિવેદન સાચું છે?",
     "options_en": [
       "They cannot be made out of clay",
       "They only depict famous people",
@@ -5653,10 +5653,10 @@
       "They never include legs"
     ],
     "options_gu": [
-      "They cannot be made out of clay",
-      "They only depict famous people",
-      "They are the most common form of sculpture",
-      "They never include legs"
+      "તે માટીમાંથી બનાવી શકાતી નથી",
+      "તેમાં માત્ર પ્રખ્યાત વ્યક્તિઓનું જ ચિત્રણ થાય છે",
+      "તે શિલ્પનું સૌથી સામાન્ય સ્વરૂપ છે",
+      "તેમાં ક્યારેય પગનો સમાવેશ થતો નથી"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -5677,12 +5677,14 @@
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_confirmation",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q021",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "બસ્ટ શિલ્પનો પ્રકાર છે; Sculpture elective scopeની પુષ્ટિ જરૂરી."
   },
   {
     "id": "visual_art_dec24_q22",
@@ -5690,7 +5692,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 22,
     "question_en": "A pointed tool, used for making small holes",
-    "question_gu": "A pointed tool, used for making small holes",
+    "question_gu": "નાનાં છિદ્રો બનાવવા માટે વપરાતું અણીદાર સાધન કયું છે?",
     "options_en": [
       "Awl",
       "Wrench",
@@ -5698,10 +5700,10 @@
       "Hammer"
     ],
     "options_gu": [
-      "Awl",
-      "Wrench",
-      "Chisel",
-      "Hammer"
+      "ઑલ",
+      "રૅન્ચ",
+      "છીણી",
+      "હથોડી"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -5721,13 +5723,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q022",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "શિલ્પ/કોતરકામમાં વપરાતાં સાધનો."
   },
   {
     "id": "visual_art_dec24_q23",
@@ -5735,7 +5739,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 23,
     "question_en": "What benefit does the statue “Zeus of Artemision” illustrate for the lost-wax technique ?",
-    "question_gu": "What benefit does the statue “Zeus of Artemision” illustrate for the lost-wax technique ?",
+    "question_gu": "‘ઝ્યુસ ઑફ આર્ટેમિશન’ પ્રતિમા લોસ્ટ-વેક્સ પદ્ધતિનો કયો લાભ દર્શાવે છે?",
     "options_en": [
       "The bronze produces a natural-looking skin color",
       "This hollow sculpture is strong but light, allowing for more realistic poses",
@@ -5743,10 +5747,10 @@
       "It is very easy to work with and is not very time consuming"
     ],
     "options_gu": [
-      "The bronze produces a natural-looking skin color",
-      "This hollow sculpture is strong but light, allowing for more realistic poses",
-      "The statue is composed of many smaller pieces soldered together",
-      "It is very easy to work with and is not very time consuming"
+      "કાંસું ત્વચાનો કુદરતી દેખાતો રંગ આપે છે",
+      "આ પોલી શિલ્પ મજબૂત હોવા છતાં હલકું છે, તેથી વધુ વાસ્તવિક મુદ્રાઓ શક્ય બને છે",
+      "આ પ્રતિમા સોલ્ડર કરીને જોડેલા અનેક નાના ભાગોથી બનેલી છે",
+      "તેની સાથે કામ કરવું ખૂબ સરળ છે અને વધુ સમય લાગતો નથી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -5766,13 +5770,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q023",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "લોસ્ટ-વેક્સ કાસ્ટિંગ અને કાંસ્ય શિલ્પ."
   },
   {
     "id": "visual_art_dec24_q24",
@@ -5780,7 +5786,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 24,
     "question_en": "Which art phase started representing sculptures in comfortable, smiling, or other natural poses ?",
-    "question_gu": "Which art phase started representing sculptures in comfortable, smiling, or other natural poses ?",
+    "question_gu": "કયા કલા-તબક્કામાં શિલ્પોને આરામદાયક, હસતી અથવા અન્ય કુદરતી મુદ્રાઓમાં દર્શાવવાનું શરૂ થયું?",
     "options_en": [
       "Byzantine Art",
       "Romanesque Art",
@@ -5788,10 +5794,10 @@
       "Renaissance"
     ],
     "options_gu": [
-      "Byzantine Art",
-      "Romanesque Art",
-      "Gothic Art",
-      "Renaissance"
+      "બાયઝેન્ટાઇન કલા",
+      "રોમાનેસ્ક કલા",
+      "ગોથિક કલા",
+      "પુનર્જાગરણ"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -5811,13 +5817,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q024",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "યુરોપિયન કલા-ઇતિહાસમાં પુનર્જાગરણ અને શિલ્પની શૈલી."
   },
   {
     "id": "visual_art_dec24_q25",
@@ -5825,7 +5833,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 25,
     "question_en": "Wooden movable type for printing were first time invented in",
-    "question_gu": "Wooden movable type for printing were first time invented in",
+    "question_gu": "છાપકામ માટેના લાકડાના ખસેડી શકાય એવા અક્ષરોની પ્રથમ શોધ ક્યાં થઈ હતી?",
     "options_en": [
       "Egypt",
       "China",
@@ -5833,10 +5841,10 @@
       "England"
     ],
     "options_gu": [
-      "Egypt",
-      "China",
-      "Germany",
-      "England"
+      "ઇજિપ્ત",
+      "ચીન",
+      "જર્મની",
+      "ઇંગ્લેન્ડ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -5856,13 +5864,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q025",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "છાપકામની પરંપરાગત તકનીક અને ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q26",
@@ -5870,7 +5880,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 26,
     "question_en": "The first Oleography Printing Machine was established at",
-    "question_gu": "The first Oleography Printing Machine was established at",
+    "question_gu": "પ્રથમ ઓલિયોગ્રાફી પ્રિન્ટિંગ મશીન ક્યાં સ્થાપવામાં આવ્યું હતું?",
     "options_en": [
       "Vadodara",
       "Kolkata",
@@ -5878,10 +5888,10 @@
       "Travancore"
     ],
     "options_gu": [
-      "Vadodara",
-      "Kolkata",
-      "Mumbai",
-      "Travancore"
+      "વડોદરા",
+      "કોલકાતા",
+      "મુંબઈ",
+      "ત્રાવણકોર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -5901,13 +5911,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q026",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ઓલિયોગ્રાફી અને પ્રિન્ટિંગ ટેકનોલોજી; ભારતીય પ્રિન્ટ ઇતિહાસ."
   },
   {
     "id": "visual_art_dec24_q27",
@@ -5915,7 +5927,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 27,
     "question_en": "Wilhelm Worringer is the author of",
-    "question_gu": "Wilhelm Worringer is the author of",
+    "question_gu": "વિલ્હેલ્મ વોરિંગર કયા ગ્રંથના લેખક છે?",
     "options_en": [
       "Abstraction and Empathy",
       "The Principles of Art History",
@@ -5923,10 +5935,10 @@
       "Der Blaue Reiter"
     ],
     "options_gu": [
-      "Abstraction and Empathy",
-      "The Principles of Art History",
-      "Die Brücke",
-      "Der Blaue Reiter"
+      "એબ્સ્ટ્રેક્શન એન્ડ એમ્પથી",
+      "ધ પ્રિન્સિપલ્સ ઑફ આર્ટ હિસ્ટરી",
+      "ડી બ્રુકે",
+      "ડેર બ્લાઉ રાઇટર"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -5946,13 +5958,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_5",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q027",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કલા-ઇતિહાસ અને કલા-સિદ્ધાંત અંગેનું આધુનિક લેખન."
   },
   {
     "id": "visual_art_dec24_q28",
@@ -5960,7 +5974,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 28,
     "question_en": "Which is NOT true of Kollwitz ?",
-    "question_gu": "Which is NOT true of Kollwitz ?",
+    "question_gu": "કોલવિટ્ઝ વિશે નીચેનામાંથી કયું સાચું નથી?",
     "options_en": [
       "She came from a financially comfortable family",
       "She thought of herself as an Expressionist",
@@ -5968,10 +5982,10 @@
       "She sympathized with German peasants"
     ],
     "options_gu": [
-      "She came from a financially comfortable family",
-      "She thought of herself as an Expressionist",
-      "She depicted the problems of the working classes",
-      "She sympathized with German peasants"
+      "તેઓ આર્થિક રીતે સુખાકારી ધરાવતા પરિવારમાંથી આવતાં હતાં",
+      "તેઓ પોતાને અભિવ્યંજનાવાદી માનતાં હતાં",
+      "તેમણે શ્રમિક વર્ગની સમસ્યાઓ દર્શાવી હતી",
+      "તેઓ જર્મન ખેડૂતો પ્રત્યે સહાનુભૂતિ ધરાવતાં હતાં"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -5991,13 +6005,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q028",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "કેથે કોલવિટ્ઝ અને આધુનિક યુરોપિયન અભિવ્યંજનાવાદ."
   },
   {
     "id": "visual_art_dec24_q29",
@@ -6005,7 +6021,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 29,
     "question_en": "Who developed the currently popular Color Chords ?",
-    "question_gu": "Who developed the currently popular Color Chords ?",
+    "question_gu": "હાલમાં લોકપ્રિય કલર કોર્ડ્સનો વિકાસ કોણે કર્યો હતો?",
     "options_en": [
       "Sir Isaac Newton",
       "Johann Wolfgang Goethe",
@@ -6013,10 +6029,10 @@
       "None of these"
     ],
     "options_gu": [
-      "Sir Isaac Newton",
-      "Johann Wolfgang Goethe",
-      "Johannes Itten",
-      "None of these"
+      "સર આઇઝેક ન્યૂટન",
+      "યોહાન વોલ્ફગાંગ ગોથે",
+      "યોહાનેસ ઇટન",
+      "આમાંથી કોઈ નહીં"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -6036,13 +6052,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_1",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q029",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "રંગસિદ્ધાંત અને દૃશ્યકલાના મૂળભૂત તત્ત્વો."
   },
   {
     "id": "visual_art_dec24_q30",
@@ -6050,7 +6068,7 @@
     "paperId": "visual_art_dec24",
     "question_no": 30,
     "question_en": "Diego Rivera’s best surviving mural in the United States is in which Michigan city ?",
-    "question_gu": "Diego Rivera’s best surviving mural in the United States is in which Michigan city ?",
+    "question_gu": "અમેરિકામાં ડિએગો રિવેરાનું સૌથી સારી રીતે સચવાયેલું ભીંતચિત્ર મિશિગનના કયા શહેરમાં આવેલું છે?",
     "options_en": [
       "Kalamazoo",
       "Detroit",
@@ -6058,10 +6076,10 @@
       "Grand Rapids"
     ],
     "options_gu": [
-      "Kalamazoo",
-      "Detroit",
-      "Flint",
-      "Grand Rapids"
+      "કલામાઝૂ",
+      "ડેટ્રોઇટ",
+      "ફ્લિન્ટ",
+      "ગ્રાન્ડ રેપિડ્સ"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -6081,13 +6099,15 @@
     "exam_session": "December 2024",
     "exam_date": "2024-12-01",
     "source_booklet_sl_no": "330019",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_8",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "official_key_retained_content_review_pending",
     "has_figure": false,
     "source_question_id": "GSET-VA33-DEC2024-Q030",
-    "source_question_paper": "dec2433.pdf"
+    "source_question_paper": "dec2433.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "ડિએગો રિવેરા અને જાહેર ભીંતચિત્રો; review_flag યથાવત રાખ્યો."
   },
   {
     "id": "visual_art_dec24_q31",
