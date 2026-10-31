@@ -1,7 +1,7 @@
 {
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "audit_scope": [
     "02",
     "03",
@@ -19,7 +19,9 @@
     "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132",
     "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
     "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948",
-    "latest_integration_head_before_syllabus_checkpoint": "6534a6a682ceefe58034cc81a4d78d1653f53d5e"
+    "latest_integration_head_before_syllabus_checkpoint": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "latest_live_head_before_register_refresh": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "master_progress_refresh_commit": "d3fd8b593bef201ec6d39a5100d931c4cf8594fe"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -400,14 +402,19 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "Complete source-page visual audit for Physical/Chemical records still flagged or with incomplete core fields, and finish official unit mapping.",
-    "Review the 300 IKS original source pages; preserve all 300 review flags until each is visually verified; continue 109 provisional/191 pending mappings.",
-    "Music: visually proofread 146 remaining stems/options and resolve 14 ambiguous plus 146 provisional stream-specific mappings.",
-    "Performing Arts: resolve six bilingual discrepancies and visually review 200 pending source-text/transcription records; finish 135 provisional/165 pending mappings.",
-    "Public Administration: visually audit 300 stems/options and adjudicate three disputed questions; finish 164 provisional/136 pending mappings.",
-    "Visual Art: proofread 256 records, resolve 14 content concerns, finish 138 provisional/162 pending mappings.",
-    "Hindu Studies: resolve 40 review flags and 38 provisional mappings.",
-    "Run flutter test and all subject-specific validators against current integration; check final integration build runs #19–#21 and the follow-up register build."
+    "Retrieve and visually compare official source pages for the flagged question records; no OCR-only promotion.",
+    "Resolve current paper-manifest mapping-status warnings for Codes 28-33 by matching metadata to per-question mapping states; do not change unit assignments without evidence.",
+    "Physical Sciences: inspect 210 invalid option structures and flagged records; verify Q1/Q42-Q44 numbering against official PDFs; mapping pending.",
+    "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
+    "Resolve Hindu Studies 40 content flags and 24 provisional mappings.",
+    "Visually review IKS 300 questions; resolve 109 provisional and 191 pending mappings.",
+    "Music: visually proofread 146 questions; resolve 14 ambiguous and 146 stream-specific provisional mappings.",
+    "Performing Arts: review 200 source/text records and six bilingual discrepancies; resolve 135 provisional and 165 pending mappings.",
+    "Public Administration: visually review 300 stems/options and Q24/Q35/Q17; resolve 164 provisional and 136 pending mappings.",
+    "Visual Art: proofread 256 records, resolve 14 concerns, and review 138 provisional + 162 pending mappings.",
+    "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission.",
+    "Run flutter test only after adding/locating meaningful test files; current workflow does not run it.",
+    "Re-run exact-head combined audit, Flutter analyze, and combined Debug APK after subsequent changes."
   ],
   "data_integrity_check": {
     "date": "2026-10-30",
@@ -598,5 +605,108 @@
       "33": "Existing ten-unit Visual Art catalogue was already aligned with official PDF; no update."
     },
     "question_level_unit_assignments_changed": false
+  },
+  "latest_recheck": {
+    "date": "2026-10-31",
+    "exact_audited_head": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "latest_audit": {
+      "run_id": 41088721295,
+      "conclusion": "success",
+      "errors": [],
+      "paper_metadata_warnings": true
+    },
+    "latest_debug_build": {
+      "run_id": 41088721107,
+      "conclusion": "success",
+      "flutter_analyze": "success",
+      "debug_apk": "success",
+      "artifact_id": 12992539292,
+      "artifact_size_bytes": 113066571,
+      "artifact_zip_sha256": "57e92302134618394a57415b77429c4844c00d31c5925374697f7f49a773ab1e",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41088721107"
+    },
+    "flutter_test": "not run; integration workflow has no flutter test step",
+    "new_question_visual_proofreads": 0,
+    "pr_merges": 0,
+    "code_01_changed": false,
+    "paper_i_changed": false,
+    "audit_metrics": {
+      "28": {
+        "records": 300,
+        "source_verified": 300,
+        "review_required": 40,
+        "mapping_verified": 276,
+        "mapping_provisional": 24
+      },
+      "29": {
+        "records": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping_provisional": 109,
+        "mapping_pending": 191
+      },
+      "30": {
+        "records": 300,
+        "source_verified": 154,
+        "review_required": 212,
+        "visual_proofread": 154,
+        "visual_pending": 146,
+        "key_visual_checked": 300,
+        "key_mismatches": 0,
+        "mapping_reviewed": 140,
+        "mapping_ambiguous": 14,
+        "mapping_provisional": 146
+      },
+      "31": {
+        "records": 300,
+        "source_verified": 94,
+        "review_required": 206,
+        "source_text_pending": 200,
+        "bilingual_discrepancies": 6,
+        "mapping_provisional": 135,
+        "mapping_pending": 165
+      },
+      "32": {
+        "records": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping_provisional": 164,
+        "mapping_pending": 136
+      },
+      "33": {
+        "records": 300,
+        "source_verified": 30,
+        "review_required": 270,
+        "proofreading_pending": 256,
+        "content_flags": 14,
+        "mapping_provisional": 138,
+        "mapping_pending": 162
+      },
+      "02": {
+        "records": 1300,
+        "unique_ids": 1300,
+        "source_verified": 895,
+        "source_review_required_union": 427,
+        "invalid_english_options": 210,
+        "unit_pending": 581,
+        "unit_declared_unverified": 719
+      },
+      "03": {
+        "base_records": 1250,
+        "unique_ids": 1250,
+        "source_verified": 1004,
+        "source_review_required": 315,
+        "invalid_english_options": 1,
+        "unit_pending": 540,
+        "unit_declared_unverified": 710,
+        "sep16_paper_ii_overlay_records": 50,
+        "registered_paper_ii_total": 1300
+      }
+    },
+    "notes": [
+      "Combined audit errors array empty, but paper_metadata_flags remain for Codes 28-33; do not treat warnings as clean metadata pass.",
+      "Code 03 audit block covers 1,250 base records; 50-question Sep 2016 Paper-II overlay is separately registered and not included in that block.",
+      "No original question-paper visual review was completed in this checkpoint."
+    ]
   }
 }
