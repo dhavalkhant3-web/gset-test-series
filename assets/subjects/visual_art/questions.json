@@ -945,7 +945,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 21,
     "question_en": "When it comes to architecture, what is the main benefit of adopting reinforced concrete over stone and steel ?",
-    "question_gu": "When it comes to architecture, what is the main benefit of adopting reinforced concrete over stone and steel ?",
+    "question_gu": "સ્થાપત્યમાં પથ્થર અને સ્ટીલની સરખામણીએ પ્રબલિત કોંક્રિટ (Reinforced Concrete) અપનાવવાનો મુખ્ય લાભ કયો છે?",
     "options_en": [
       "add decorative elements and aesthetic value to a structure to which it is applied",
       "be designed to allow more openings than stone or steel can allow",
@@ -953,10 +953,10 @@
       "span greater distances and support greater weight than stone or steel can"
     ],
     "options_gu": [
-      "add decorative elements and aesthetic value to a structure to which it is applied",
-      "be designed to allow more openings than stone or steel can allow",
-      "be formed into arches, domes and buttresses",
-      "span greater distances and support greater weight than stone or steel can"
+      "તેના ઉપયોગથી રચનામાં શણગારના તત્ત્વો અને સૌંદર્યમૂલ્ય ઉમેરાય છે",
+      "પથ્થર અથવા સ્ટીલ કરતાં વધુ ખુલ્લી જગ્યાઓ ધરાવતી રચના બનાવી શકાય છે",
+      "તેમાંથી કમાનો, ગુંબજો અને ટેકણો બનાવી શકાય છે",
+      "પથ્થર અથવા સ્ટીલ કરતાં વધુ અંતર સુધી ફેલાવટ કરી વધુ વજનને આધાર આપી શકાય છે"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -977,12 +977,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_or_scope_review",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q021",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "The question is architectural construction technology; this is not explicit in the core-unit wording. Do not force a core-unit mapping."
   },
   {
     "id": "visual_art_nov23_q22",
@@ -990,7 +992,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 22,
     "question_en": "Modern and contemporary multimedia, installation and visual artists frequently create works that demand or invite viewers to actively participate—; their feedback even has the power to influence the piece itself. Which of the following sums up this evolution in contemporary art the most ?",
-    "question_gu": "Modern and contemporary multimedia, installation and visual artists frequently create works that demand or invite viewers to actively participate—; their feedback even has the power to influence the piece itself. Which of the following sums up this evolution in contemporary art the most ?",
+    "question_gu": "સમકાલીન મલ્ટીમિડિયા, ઇન્સ્ટોલેશન અને દૃશ્યકળાના કલાકારો ઘણીવાર એવી કૃતિઓ બનાવે છે જેમાં દર્શકો સક્રિય રીતે ભાગ લે છે અથવા તેમને ભાગ લેવા આમંત્રિત કરવામાં આવે છે; દર્શકોનો પ્રતિસાદ કૃતિને પણ પ્રભાવિત કરી શકે છે. સમકાલીન કલામાં આ પરિવર્તનને નીચેના પૈકી કયું નિવેદન સૌથી યોગ્ય રીતે વ્યક્ત કરે છે?",
     "options_en": [
       "Fewer and fewer artists consider their role to be to broaden an audience’s outlook or understanding",
       "Viewers are increasingly being recognized as highly educated critics rather than mere observers",
@@ -998,10 +1000,10 @@
       "More and more members of the viewing public consider themselves to be artists"
     ],
     "options_gu": [
-      "Fewer and fewer artists consider their role to be to broaden an audience’s outlook or understanding",
-      "Viewers are increasingly being recognized as highly educated critics rather than mere observers",
-      "The relationship between artist and audience is changing since new roles and media are being explored",
-      "More and more members of the viewing public consider themselves to be artists"
+      "ઓછા ને ઓછા કલાકારો માને છે કે તેમની ભૂમિકા દર્શકોની દૃષ્ટિ અથવા સમજ વિસ્તૃત કરવાની છે",
+      "દર્શકોને માત્ર નિરીક્ષક નહીં, પરંતુ અત્યંત શિક્ષિત વિવેચક તરીકે વધુને વધુ માન્યતા મળે છે",
+      "નવી ભૂમિકાઓ અને માધ્યમોની શોધને કારણે કલાકાર અને દર્શક વચ્ચેનો સંબંધ બદલાઈ રહ્યો છે",
+      "વધુ ને વધુ દર્શકો પોતાને કલાકાર માને છે"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1021,13 +1023,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_4",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q022",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Contemporary multimedia and installation with audience interaction fits Unit IV's contemporary visual practices."
   },
   {
     "id": "visual_art_nov23_q23",
@@ -1035,7 +1039,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 23,
     "question_en": "Which of the following Reason best describes why early 20th century Modernist painters were influenced by Sub-Saharan sculptures ?",
-    "question_gu": "Which of the following Reason best describes why early 20th century Modernist painters were influenced by Sub-Saharan sculptures ?",
+    "question_gu": "વીસમી સદીના પ્રારંભના આધુનિકતાવાદી ચિત્રકારો ઉપ-સહારા આફ્રિકાનાં શિલ્પોથી પ્રભાવિત થયા હતા તેનું શ્રેષ્ઠ કારણ કયું છે?",
     "options_en": [
       "sophisticated use of form",
       "spiritual meaning and function",
@@ -1043,10 +1047,10 @@
       "reflection of social hierarchy"
     ],
     "options_gu": [
-      "sophisticated use of form",
-      "spiritual meaning and function",
-      "wide variety of materials used",
-      "reflection of social hierarchy"
+      "સ્વરૂપનો સુઘડ અને પ્રભાવશાળી ઉપયોગ",
+      "આધ્યાત્મિક અર્થ અને કાર્ય",
+      "વપરાયેલી સામગ્રીની વિશાળ વિવિધતા",
+      "સામાજિક પદાનુક્રમનું પ્રતિબિંબ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1066,13 +1070,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_6",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q023",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Modernist Western artists are in Unit VI; the Sub-Saharan source tradition is not expressly named in the core unit."
   },
   {
     "id": "visual_art_nov23_q24",
@@ -1080,7 +1086,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 24,
     "question_en": "The famous Sculptor Mayan Chacmool sculptures is heavily influenced by which of the following twentieth-century sculptors ?",
-    "question_gu": "The famous Sculptor Mayan Chacmool sculptures is heavily influenced by which of the following twentieth-century sculptors ?",
+    "question_gu": "મય સંસ્કૃતિનાં પ્રસિદ્ધ ‘ચાકમૂલ’ શિલ્પો પર વીસમી સદીના નીચેના પૈકી કયા શિલ્પકારનો ભારે પ્રભાવ હતો?",
     "options_en": [
       "Louise Bourgeois",
       "Henry Moore",
@@ -1088,10 +1094,10 @@
       "Constantin Brancusi"
     ],
     "options_gu": [
-      "Louise Bourgeois",
-      "Henry Moore",
-      "Barbara Hepworth",
-      "Constantin Brancusi"
+      "લુઇઝ બૂર્જવા",
+      "હેનરી મૂર",
+      "બાર્બરા હેપવર્થ",
+      "કોન્સ્ટાન્ટિન બ્રાન્કુસી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1112,12 +1118,14 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_mapping_status": "pending_elective_confirmation",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q024",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Mayan sculpture and specialist sculpture history are not explicitly represented in the ten core-unit descriptions; verify elective scope."
   },
   {
     "id": "visual_art_nov23_q25",
@@ -1125,7 +1133,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 25,
     "question_en": "The credit of inventing Printing Process goes to which country ?",
-    "question_gu": "The credit of inventing Printing Process goes to which country ?",
+    "question_gu": "મુદ્રણ પ્રક્રિયાની શોધનો શ્રેય કયા દેશને જાય છે?",
     "options_en": [
       "Japan",
       "Germany",
@@ -1133,10 +1141,10 @@
       "India"
     ],
     "options_gu": [
-      "Japan",
-      "Germany",
-      "China",
-      "India"
+      "જાપાન",
+      "જર્મની",
+      "ચીન",
+      "ભારત"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -1156,13 +1164,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q025",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Printing-process history belongs to printmaking materials and techniques; verify against the relevant elective."
   },
   {
     "id": "visual_art_nov23_q26",
@@ -1170,7 +1180,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 26,
     "question_en": "Who has popularised Colour Viscosity Printing from the following ?",
-    "question_gu": "Who has popularised Colour Viscosity Printing from the following ?",
+    "question_gu": "નીચેના પૈકી કોણે રંગ-સ્નિગ્ધતા મુદ્રણ (Colour Viscosity Printing)ને લોકપ્રિય બનાવ્યું?",
     "options_en": [
       "Carol Summers",
       "Stanley Hayter",
@@ -1178,10 +1188,10 @@
       "Paul Lingran"
     ],
     "options_gu": [
-      "Carol Summers",
-      "Stanley Hayter",
-      "William Blake",
-      "Paul Lingran"
+      "કેરોલ સમર્સ",
+      "સ્ટેનલી હેટર",
+      "વિલિયમ બ્લેક",
+      "પૉલ લિંગ્રન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1201,13 +1211,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q026",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Colour viscosity printing is a printmaking process; verify against the Printmaking elective."
   },
   {
     "id": "visual_art_nov23_q27",
@@ -1215,7 +1227,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 27,
     "question_en": "What kind of image is reproduced in Offset Printing ?",
-    "question_gu": "What kind of image is reproduced in Offset Printing ?",
+    "question_gu": "ઑફસેટ મુદ્રણમાં કેવા પ્રકારની છબીનું પુનઃમુદ્રણ થાય છે?",
     "options_en": [
       "Reverse",
       "The same",
@@ -1223,10 +1235,10 @@
       "Half-tone"
     ],
     "options_gu": [
-      "Reverse",
-      "The same",
-      "Reduced",
-      "Half-tone"
+      "ઊંધી",
+      "એ જ દિશાની",
+      "ઘટાડેલી",
+      "હાફટોન"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1246,13 +1258,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_4",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q027",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Offset printing is a modern print process; Unit IV includes modern techniques and multicolour print."
   },
   {
     "id": "visual_art_nov23_q28",
@@ -1260,7 +1274,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 28,
     "question_en": "What type of binder is used for watercolors and/or pastels ?",
-    "question_gu": "What type of binder is used for watercolors and/or pastels ?",
+    "question_gu": "વૉટરકલર અને/અથવા પેસ્ટલ માટે કયા પ્રકારનું બાઇન્ડર વપરાય છે?",
     "options_en": [
       "linseed oil",
       "egg yolk",
@@ -1268,10 +1282,10 @@
       "gum Arabic"
     ],
     "options_gu": [
-      "linseed oil",
-      "egg yolk",
-      "wax",
-      "gum Arabic"
+      "અળસીનું તેલ",
+      "ઇંડાની જરદી",
+      "મીણ",
+      "ગમ અરેબિક"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -1291,13 +1305,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "verified_core_unit_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q028",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Watercolour/pastel binders are traditional media/material knowledge covered by Unit III."
   },
   {
     "id": "visual_art_nov23_q29",
@@ -1305,7 +1321,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 29,
     "question_en": "Collage Plate printing process was introduced in India by",
-    "question_gu": "Collage Plate printing process was introduced in India by",
+    "question_gu": "ભારતમાં કોલાજ પ્લેટ મુદ્રણ પ્રક્રિયાનો પ્રારંભ કોણે કર્યો હતો?",
     "options_en": [
       "Kanwal Krishna",
       "Chitta Prasad",
@@ -1313,10 +1329,10 @@
       "Krishna Reddy"
     ],
     "options_gu": [
-      "Kanwal Krishna",
-      "Chitta Prasad",
-      "Jagmohan Chopra",
-      "Krishna Reddy"
+      "કંવલ કૃષ્ણ",
+      "ચિત્તપ્રસાદ",
+      "જગમોહન ચોપરા",
+      "કૃષ્ણ રેડ્ડી"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -1336,13 +1352,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q029",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Collage-plate printing is a printmaking process; verify against the Printmaking elective."
   },
   {
     "id": "visual_art_nov23_q30",
@@ -1350,7 +1368,7 @@
     "paperId": "visual_art_nov23",
     "question_no": 30,
     "question_en": "Most appropriate stone for lithography is found at",
-    "question_gu": "Most appropriate stone for lithography is found at",
+    "question_gu": "લિથોગ્રાફી માટે સૌથી યોગ્ય પથ્થર ક્યાં મળે છે?",
     "options_en": [
       "Cesque Quarry, Italy",
       "Quarry of Baveria",
@@ -1358,10 +1376,10 @@
       "Quarry of Zurich"
     ],
     "options_gu": [
-      "Cesque Quarry, Italy",
-      "Quarry of Baveria",
-      "Quarry of Heidelberg",
-      "Quarry of Zurich"
+      "ઇટાલીનું સેસ્ક્યુ ખાણ",
+      "બાવેરિયાનું ખાણ",
+      "હાઇડેલબર્ગનું ખાણ",
+      "ઝ્યુરિખનું ખાણ"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -1381,13 +1399,15 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "330033",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "unmapped_official_syllabus_not_provided",
+    "syllabus_unit": "unit_3",
+    "syllabus_mapping_status": "provisional_core_topic_match",
     "language": "en",
     "verification_status": "key_applied_pending_proofread",
     "has_figure": false,
     "source_question_id": "GSET-VA33-NOV2023-Q030",
-    "source_question_paper": "nov2333.pdf"
+    "source_question_paper": "nov2333.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review",
+    "syllabus_mapping_note": "Lithographic stone/material is printmaking material knowledge; verify against the Printmaking elective."
   },
   {
     "id": "visual_art_nov23_q31",
