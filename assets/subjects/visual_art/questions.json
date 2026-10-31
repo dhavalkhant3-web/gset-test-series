@@ -13635,7 +13635,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 91,
     "question_en": "What is the name of this Sculpture ?",
-    "question_gu": "What is the name of this Sculpture ?",
+    "question_gu": "આ શિલ્પનું નામ શું છે?",
     "options_en": [
       "Gates of Paradise",
       "Gates of Hell",
@@ -13643,10 +13643,10 @@
       "Monument of Lost Souls"
     ],
     "options_gu": [
-      "Gates of Paradise",
-      "Gates of Hell",
-      "The Bronze Inferno",
-      "Monument of Lost Souls"
+      "સ્વર્ગના દ્વાર (Gates of Paradise)",
+      "નરકના દ્વાર (Gates of Hell)",
+      "કાંસ્યનું નરક",
+      "ખોવાયેલા આત્માઓનું સ્મારક"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -13673,7 +13673,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q091",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q92",
@@ -13681,7 +13682,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 92,
     "question_en": "Who is the sculptor ?",
-    "question_gu": "Who is the sculptor ?",
+    "question_gu": "શિલ્પકાર કોણ છે?",
     "options_en": [
       "Bernini",
       "Rodin",
@@ -13689,10 +13690,10 @@
       "Ghiberti"
     ],
     "options_gu": [
-      "Bernini",
-      "Rodin",
-      "Michaelangelo",
-      "Ghiberti"
+      "બર્નિની",
+      "રોદાં",
+      "માઇકલએન્જેલો",
+      "ઘિબેર્તી"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -13719,7 +13720,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q092",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q93",
@@ -13727,7 +13729,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 93,
     "question_en": "Where is it placed currently ?",
-    "question_gu": "Where is it placed currently ?",
+    "question_gu": "હાલમાં આ શિલ્પ ક્યાં આવેલું છે?",
     "options_en": [
       "Paris",
       "Venice",
@@ -13735,10 +13737,10 @@
       "Naples"
     ],
     "options_gu": [
-      "Paris",
-      "Venice",
-      "Vatican City",
-      "Naples"
+      "પેરિસ",
+      "વેનિસ",
+      "વેટિકન સિટી",
+      "નેપલ્સ"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -13765,7 +13767,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q093",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q94",
@@ -13773,7 +13776,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 94,
     "question_en": "What is the medium of this sculpture ?",
-    "question_gu": "What is the medium of this sculpture ?",
+    "question_gu": "આ શિલ્પ કયા માધ્યમ/સામગ્રીમાં બનાવવામાં આવ્યું છે?",
     "options_en": [
       "Bronze",
       "Marble",
@@ -13781,10 +13784,10 @@
       "POP"
     ],
     "options_gu": [
-      "Bronze",
-      "Marble",
-      "Graphite",
-      "POP"
+      "કાંસું",
+      "આરસપહાણ",
+      "ગ્રેફાઇટ",
+      "પ્લાસ્ટર ઑફ પેરિસ (POP)"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -13811,7 +13814,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q094",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q95",
@@ -13819,7 +13823,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 95,
     "question_en": "What is the idea behind this sculpture ?",
-    "question_gu": "What is the idea behind this sculpture ?",
+    "question_gu": "આ શિલ્પ પાછળનો મુખ્ય વિચાર કયો છે?",
     "options_en": [
       "‘Sufferings of Hell’",
       "‘Pleasure of Paradise’",
@@ -13827,10 +13831,10 @@
       "Doorway for Soul"
     ],
     "options_gu": [
-      "‘Sufferings of Hell’",
-      "‘Pleasure of Paradise’",
-      "‘Divine Comedy’",
-      "Doorway for Soul"
+      "‘નરકની યાતનાઓ’",
+      "‘સ્વર્ગનો આનંદ’",
+      "‘ડિવાઇન કોમેડી’",
+      "આત્મા માટેનો પ્રવેશદ્વાર"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -13857,7 +13861,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q095",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based sculpture questions require identifying the artwork from the linked source image; the Sculpture elective is relevant, but candidate elective and exact artwork are not encoded here. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q96",
@@ -13865,7 +13870,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 96,
     "question_en": "What is the name of this Painting ?",
-    "question_gu": "What is the name of this Painting ?",
+    "question_gu": "આ ચિત્રનું નામ શું છે?",
     "options_en": [
       "Beauty of Chennar",
       "Hunting Scene",
@@ -13873,10 +13878,10 @@
       "Tutinama"
     ],
     "options_gu": [
-      "Beauty of Chennar",
-      "Hunting Scene",
-      "Squirrels on a Chennar tree",
-      "Tutinama"
+      "ચિનારનું સૌંદર્ય",
+      "શિકારનું દૃશ્ય",
+      "ચિનારના વૃક્ષ પર ખિસકોલીઓ",
+      "તુતીનામા"
     ],
     "answer": "C",
     "official_answer": "C",
@@ -13903,7 +13908,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q096",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q97",
@@ -13911,7 +13917,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 97,
     "question_en": "Who is the painter ?",
-    "question_gu": "Who is the painter ?",
+    "question_gu": "ચિત્રકાર કોણ છે?",
     "options_en": [
       "Abu’l-Hasan",
       "Manohar",
@@ -13919,10 +13925,10 @@
       "Ustad Mansur"
     ],
     "options_gu": [
-      "Abu’l-Hasan",
-      "Manohar",
-      "Bishan Das",
-      "Ustad Mansur"
+      "અબુલ હસન",
+      "મનોહર",
+      "બિશન દાસ",
+      "ઉસ્તાદ મન્સૂર"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -13949,7 +13955,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q097",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q98",
@@ -13957,7 +13964,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 98,
     "question_en": "Under which Ruler, it was painted ?",
-    "question_gu": "Under which Ruler, it was painted ?",
+    "question_gu": "આ ચિત્ર કયા શાસકના શાસનકાળમાં દોરવામાં આવ્યું હતું?",
     "options_en": [
       "Jehangir",
       "Akbar",
@@ -13965,10 +13972,10 @@
       "Shah Jahan"
     ],
     "options_gu": [
-      "Jehangir",
-      "Akbar",
-      "Maharaja Sansar Chand",
-      "Shah Jahan"
+      "જહાંગીર",
+      "અકબર",
+      "મહારાજા સંસાર ચંદ",
+      "શાહજહાં"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -13995,7 +14002,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q098",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q99",
@@ -14003,7 +14011,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 99,
     "question_en": "Stylistically, the painting exemplifies",
-    "question_gu": "Stylistically, the painting exemplifies",
+    "question_gu": "શૈલીની દૃષ્ટિએ આ ચિત્ર કઈ વિશેષતા દર્શાવે છે?",
     "options_en": [
       "Abstract symbolic representation of animals",
       "Scientific naturalism and close observation combined with decorative aesthetics.",
@@ -14011,10 +14019,10 @@
       "European-style chiaroscuro with oil pigments."
     ],
     "options_gu": [
-      "Abstract symbolic representation of animals",
-      "Scientific naturalism and close observation combined with decorative aesthetics.",
-      "Pure Persian stylistics without Indian influence",
-      "European-style chiaroscuro with oil pigments."
+      "પ્રાણીઓનું અમૂર્ત પ્રતીકાત્મક નિરૂપણ",
+      "વૈજ્ઞાનિક કુદરતી વાસ્તવિકતા અને સૂક્ષ્મ અવલોકન સાથે શોભાત્મક સૌંદર્યશાસ્ત્રનું સંયોજન",
+      "ભારતીય પ્રભાવ વિના સંપૂર્ણ પર્શિયન શૈલી",
+      "તેલરંગો દ્વારા યુરોપીય શૈલીનું પ્રકાશ-છાયા નિરૂપણ (Chiaroscuro)"
     ],
     "answer": "B",
     "official_answer": "B",
@@ -14041,7 +14049,8 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q099",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   },
   {
     "id": "visual_art_nov25_q100",
@@ -14049,7 +14058,7 @@
     "paperId": "visual_art_nov25",
     "question_no": 100,
     "question_en": "Which city this painting is housed at ?",
-    "question_gu": "Which city this painting is housed at ?",
+    "question_gu": "આ ચિત્ર કયા શહેરમાં સંગ્રહિત છે?",
     "options_en": [
       "London",
       "Hyderabad",
@@ -14057,10 +14066,10 @@
       "Jaipur"
     ],
     "options_gu": [
-      "London",
-      "Hyderabad",
-      "Delhi",
-      "Jaipur"
+      "લંડન",
+      "હૈદરાબાદ",
+      "દિલ્હી",
+      "જયપુર"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -14087,6 +14096,7 @@
     "has_figure": true,
     "source_question_id": "GSET-VA33-NOV2025-Q100",
     "source_question_paper": "nov2533.pdf",
-    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf"
+    "syllabus_mapping_note": "Figure-based painting questions require identifying the artwork from the linked source image; retain elective-specific mapping until image and candidate elective are confirmed. Official source: https://gujaratset.ac.in/assets/syllabus/33.pdf",
+    "gujarati_translation_status": "assistant_translated_from_english_pending_human_review"
   }
 ]
