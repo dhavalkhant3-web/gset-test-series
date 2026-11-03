@@ -1,7 +1,7 @@
 {
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-03",
   "audit_scope": [
     "02",
     "03",
@@ -28,7 +28,8 @@
     "latest_live_head_before_visual_art_mapping_batch": "ccbced0ee7638a4da165bf88b04a9e6b4ff0c408",
     "latest_live_head_before_performing_arts_mapping_batch": "ba09764d1a2abc8980a811223e589920dd00defb",
     "latest_live_head_before_visual_art_mapping_batch_2": "aa84ef60bb8ed8b0bbf414dd1dd41c51ece9455d",
-    "latest_live_head_before_visual_art_mapping_batch_3": "249923f5d4ff3bd7325548ef7adc1509ba6834b8"
+    "latest_live_head_before_visual_art_mapping_batch_3": "249923f5d4ff3bd7325548ef7adc1509ba6834b8",
+    "latest_integration_head_after_unit_field_sync": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -614,129 +615,80 @@
     "question_level_unit_assignments_changed": false
   },
   "latest_recheck": {
-    "date": "2026-10-31",
-    "exact_audited_head": "62490790e5ef39a395f0034d4b351a673d52a9ab",
-    "latest_audit": {
-      "run_id": 41163322599,
-      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "date": "2026-11-03",
+    "exact_audited_question_data_commit": "3830783effb66cf62379be43f6119d7d62f1d0c1",
+    "latest_documentation_head": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+    "combined_subject_bank_audit": {
+      "run_id": 41594284815,
       "conclusion": "success",
-      "errors": [],
-      "paper_metadata_flags_remaining": 0
-    },
-    "latest_debug_build": {
-      "run_id": 41163322554,
-      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
-      "status": "in_progress_at_register_sync",
-      "flutter_analyze": "success",
-      "debug_apk": "pending"
-    },
-    "flutter_test": "not run; no flutter test step in current integration workflow",
-    "new_question_visual_proofreads": 0,
-    "pr_merges": 0,
-    "code_01_changed": false,
-    "paper_i_changed": false,
-    "audit_metrics": {
-      "28": {
-        "records": 300,
-        "source_verified": 300,
-        "review_required": 40,
-        "mapping_verified": 276,
-        "mapping_provisional": 24
-      },
-      "29": {
-        "records": 300,
-        "source_verified": 0,
-        "review_required": 300,
-        "mapping_provisional": 109,
-        "mapping_pending": 191
-      },
-      "30": {
-        "records": 300,
-        "source_verified": 154,
-        "review_required": 212,
-        "visual_proofread": 154,
-        "visual_pending": 146,
-        "key_visual_checked": 300,
-        "key_mismatches": 0,
-        "mapping_reviewed": 140,
-        "mapping_ambiguous": 14,
-        "mapping_provisional": 146
-      },
-      "31": {
-        "records": 300,
-        "source_verified": 94,
-        "review_required": 206,
-        "source_text_pending": 200,
-        "bilingual_discrepancies": 6,
-        "mapping_provisional": 135,
-        "mapping_pending": 165
-      },
-      "32": {
-        "records": 300,
-        "source_verified": 0,
-        "review_required": 300,
-        "mapping_provisional": 164,
-        "mapping_pending": 136
-      },
-      "33": {
-        "records": 300,
-        "source_verified": 30,
-        "review_required": 270,
-        "proofreading_pending": 256,
-        "content_flags": 14,
-        "mapping_provisional": 138,
-        "mapping_pending": 162
-      },
-      "02": {
-        "records": 1300,
-        "unique_ids": 1300,
-        "source_verified": 895,
-        "source_review_required_union": 427,
-        "invalid_english_options": 210,
-        "unit_pending": 581,
-        "unit_declared_unverified": 719
-      },
-      "03": {
-        "base_records": 1250,
-        "unique_ids": 1250,
-        "source_verified": 1004,
-        "source_review_required": 315,
-        "invalid_english_options": 1,
-        "unit_pending": 540,
-        "unit_declared_unverified": 710,
-        "sep16_paper_ii_overlay_records": 50,
-        "registered_paper_ii_total": 1300
-      }
-    },
-    "notes": [
-      "Combined audit errors array empty, but paper_metadata_flags remain for Codes 28-33; do not treat warnings as clean metadata pass.",
-      "Code 03 audit block covers 1,250 base records; 50-question Sep 2016 Paper-II overlay is separately registered and not included in that block.",
-      "No original question-paper visual review was completed in this checkpoint."
-    ],
-    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
-    "manifest_repair": {
-      "subjects": [
-        "02",
-        "03",
-        "28",
-        "29",
-        "30",
-        "31",
-        "32",
-        "33"
-      ],
-      "paper_entries_updated": 55,
-      "question_level_fields_changed": 0,
-      "unit_assignments_changed": 0
+      "errors": []
     },
     "public_administration_validator": {
-      "run_id": 41163322559,
-      "commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+      "run_id": 41594284715,
       "conclusion": "success"
     },
-    "no_question_source_proofreading_in_batch": true,
-    "no_pr_merge": true,
-    "code_01_untouched": true,
-    "paper_i_untouched": true
+    "debug_apk": {
+      "run_id": 41594322933,
+      "commit": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+      "conclusion": "success",
+      "flutter_analyze": "success",
+      "flutter_widget_tests": "success",
+      "debug_apk_build": "success",
+      "artifact_upload": "success",
+      "artifact_id": 13211129479,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_sha256": "1b8d45cead329d03a6c7d1a07110ef83ba7a69922d1f2b3659d7cac7fd07f124"
+    },
+    "unit_field_sync": {
+      "code28": {
+        "assigned": 300,
+        "null": 0,
+        "source": "existing syllabus_unit label",
+        "mapping_labels_preserved": "276 verified, 24 provisional"
+      },
+      "code29": {
+        "assigned": 298,
+        "null": 2,
+        "pending_ids": [
+          "GSET_29_DEC24_020",
+          "GSET_29_NOV25_015"
+        ],
+        "mapping_status": "298 provisional, 2 pending"
+      },
+      "code32": {
+        "assigned": 300,
+        "null": 0,
+        "previously_null_filled": 98,
+        "mapping_labels_preserved": "22 manually reviewed, 278 provisional"
+      },
+      "code33": {
+        "assigned": 300,
+        "null": 0,
+        "previously_null_filled": 147,
+        "mapping_labels_preserved": "22 manually reviewed, 278 provisional"
+      },
+      "code31": {
+        "assigned": 156,
+        "null": 144,
+        "source_review_pending": 200,
+        "bilingual_discrepancies": 6
+      },
+      "code30": {
+        "assigned": 300,
+        "null": 0,
+        "visual_proofread": 154,
+        "visual_pending": 146,
+        "ambiguous_mappings": 14
+      }
+    },
+    "source_visual_proofreads_in_this_batch": 0,
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "notes": [
+      "Structured unit fields in Codes 28, 29, 32 and 33 were synchronized from pre-existing syllabus labels; this is not source proofread or new expert mapping verification.",
+      "Code 29 Q20 and Q15 remain pending because the topic-to-unit fit was not reliably established from question text.",
+      "No question stems, options, answers, translations or review flags were altered in this synchronization batch."
+    ]
   }
 }
