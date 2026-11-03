@@ -653,5 +653,66 @@
       "pr_merged": false
     },
     "note": "Music syllabus mapping counts were synchronized in verification_pending.json and subjects.json. Stream-specific Units V-X remain provisional pending evidence identifying the applicable stream."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Visual Art provisional syllabus mapping batch",
+    "commit": "3c8bfdf55206545a7675fb73109905e07aabc797",
+    "parent_commit": "3c8bfdf55206545a7675fb73109905e07aabc797",
+    "changed_files": [
+      "assets/subjects/visual_art/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "PROJECT_STATE.json",
+      "CHANGE_HISTORY.md"
+    ],
+    "mapping_review": {
+      "subject_code": "33",
+      "records_updated": 34,
+      "mapping_counts": {
+        "manually_reviewed": 22,
+        "provisional": 165,
+        "pending": 113
+      },
+      "review_flags_and_source_review": {
+        "question_text_source_verified": 30,
+        "proofreading_pending": 256,
+        "content_concerns_flagged": 14
+      },
+      "note": "34 unit assignments were added as provisional content-based suggestions; no source verification was claimed and original text/options proofreading counts were not changed."
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41584155940,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "9590778364d0d6fcf081e2cbbf0f094f87a09002"
+      },
+      "visual_art_validation": {
+        "run_id": 41584155887,
+        "status": "queued_at_last_check"
+      },
+      "debug_apk": {
+        "run_id": 41584155869,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_analyze": "PASS",
+          "flutter_widget_tests": "in_progress",
+          "combined_debug_apk": "pending",
+          "artifact_upload": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "gujarati_transcription_changed": false,
+      "source_references_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Mapping assignments are provisional; no flags were cleared and no source-page visual proofreading was performed."
   }
 ]
