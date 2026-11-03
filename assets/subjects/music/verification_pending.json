@@ -36,10 +36,10 @@
     }
   },
   "fully_verified_questions": 88,
-  "source_verified_field_count": 260,
+  "source_verified_field_count": 265,
   "review_flags": 212,
   "remaining_gates": [
-    "Visually proofread the remaining 40 December 2024 questions (Q61–Q100): English/Gujarati stems, all four options, option order and figures/tables against the original official Paper-II question paper PDF. Q91–92 and Q96–100 Gujarati stems were text-layer cleaned on 2026-11-03, but remain flagged pending visual inspection.",
+    "Visually proofread the remaining 35 December 2024 questions (Q61–Q90 and Q96–Q100): English/Gujarati stems, four options, option order and figures/tables against official PDF. Q91–Q95 inspected on official PDF page 29 on 2026-11-03 and marked source_verified; review flags stay for separate gates.",
     "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 124 remaining provisional stream-specific mappings (December 2024: 41; November 2025: 83) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
     "Run Music-specific validation and a full Android build/CI on the latest PR and integration heads, inspect the resulting artifacts and diff. Do not merge without explicit user authorization."
   ],
@@ -226,6 +226,23 @@
       "answer_key_direct_visual_check": "not rerun; previously recorded 100/100 direct visual matches",
       "corrections_summary": "Used official GSET-hosted December 2024 Music Paper-II PDF text extraction to clean corrupted Gujarati question stems Q91, Q92, Q96, Q97, Q98, Q99 and Q100 in questions.json. Original English stems and option arrays were cross-read against extracted official PDF text. This is text-layer/source extraction review, not direct visual image proof; no review flags removed.",
       "batch_status": "7 Gujarati stems cleaned against official PDF text extraction; remaining full visual proofread backlog is 40 questions (Q61–Q100)."
+    },
+    {
+      "date": "2026-11-03",
+      "paper_id": "music_dec24",
+      "question_numbers": "91-95",
+      "source_pages": [
+        29
+      ],
+      "english_visual_checked": 5,
+      "gujarati_visual_checked": 5,
+      "options_and_order_checked": 5,
+      "figures_symbols_tables_checked": 5,
+      "syllabus_mapping_manual_reviewed": 0,
+      "syllabus_mapping_ambiguous": 0,
+      "answer_key_direct_visual_check": "official key previously visually checked; answers D,C,D,B,A matched for Q91-95",
+      "corrections_summary": "Visually inspected official GSET Music Dec 2024 PDF page 29 (source page numbering). Checked bilingual stems and all four options/order for Q91-Q95. Gujarati text matched scan; no text edits in this batch. source_verified set true; review flags retained due independent mapping/content gate.",
+      "batch_status": "5 questions visually source-checked; remaining Dec 2024 source visual checks 35 (Q61-Q90 and Q96-Q100)."
     }
   ],
   "source_page_batch_20261103": {
