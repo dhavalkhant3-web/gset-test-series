@@ -1191,5 +1191,37 @@
     "code01_changed": false,
     "paper_i_changed": false,
     "note": "Full source-page visual proofread completed for the entire Nov 2025 paper. Review flags remain active because syllabus mapping and independent content review are separate."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Active backlog register refreshed to prevent repeated Music Nov 2025 checks",
+    "music": {
+      "visual_proofread": 254,
+      "total": 300,
+      "pending": 46,
+      "pending_session": "Dec 2024 only",
+      "nov25_complete": 100,
+      "mapping_manual_reviewed": 162,
+      "ambiguous": 14,
+      "provisional": 124,
+      "answer_keys_checked": 300,
+      "review_flags_active": 212
+    },
+    "remaining_by_subject": {
+      "28": "24 provisional mappings; 40 review flags",
+      "29": "300 visual checks; 298 provisional mappings",
+      "31": "200 source reviews; 6 bilingual discrepancies; mappings review",
+      "32": "300 source checks; 278 provisional mappings",
+      "33": "256 proofreading checks; 14 content concerns; 278 provisional mappings",
+      "02": "86 core-field checks; 374 review flags; syllabus mapping",
+      "03": "315 base + 1 overlay review flags; Q42 format source check; syllabus mapping"
+    },
+    "do_not_repeat": [
+      "Music Nov 2025 Q1-Q100 visual source-page proofreading"
+    ],
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "note": "This is current register and supersedes stale Music visual pending count 146. Music remaining visual proofread work is only 46 Dec 2024 questions."
   }
 ]
