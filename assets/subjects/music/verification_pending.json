@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Question-level evidence and progress counts reconciled on 2026-10-29 after direct inspection of all three official final answer-key PDFs.",
+  "generated_from": "Question-level evidence and progress counts reconciled on 2026-11-03 after direct inspection of official final answer keys and a new official PDF text-extraction correction batch.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -36,10 +36,10 @@
     }
   },
   "fully_verified_questions": 88,
-  "source_verified_field_count": 254,
+  "source_verified_field_count": 260,
   "review_flags": 212,
   "remaining_gates": [
-    "Visually proofread the remaining 46 English/Gujarati stems, all four options, option order and figures/tables against the original official December 2024 Paper-II question paper PDF.",
+    "Visually proofread the remaining 40 December 2024 questions (Q61–Q100): English/Gujarati stems, all four options, option order and figures/tables against the original official Paper-II question paper PDF. Q91–92 and Q96–100 Gujarati stems were text-layer cleaned on 2026-11-03, but remain flagged pending visual inspection.",
     "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 124 remaining provisional stream-specific mappings (December 2024: 41; November 2025: 83) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
     "Run Music-specific validation and a full Android build/CI on the latest PR and integration heads, inspect the resulting artifacts and diff. Do not merge without explicit user authorization."
   ],
@@ -211,6 +211,21 @@
       "answer_key_direct_visual_check": "not rerun; previously verified 100/100",
       "corrections_summary": "Visually source-proofread questions 55-60 against original bilingual scan. Corrected Gujarati stems for Q55, Q56, Q57, Q58, Q59; Q60 no correction. Kept review flags because mapping/content gate remains.",
       "batch_status": "6 questions source-proofread; 40 Dec 2024 questions remain."
+    },
+    {
+      "date": "2026-11-03",
+      "paper_id": "music_dec24",
+      "question_numbers": "91-92, 96-100",
+      "source_pages": [],
+      "english_visual_checked": 0,
+      "gujarati_visual_checked": 0,
+      "options_and_order_checked": 0,
+      "figures_symbols_tables_checked": 0,
+      "syllabus_mapping_manual_reviewed": 0,
+      "syllabus_mapping_ambiguous": 0,
+      "answer_key_direct_visual_check": "not rerun; previously recorded 100/100 direct visual matches",
+      "corrections_summary": "Used official GSET-hosted December 2024 Music Paper-II PDF text extraction to clean corrupted Gujarati question stems Q91, Q92, Q96, Q97, Q98, Q99 and Q100 in questions.json. Original English stems and option arrays were cross-read against extracted official PDF text. This is text-layer/source extraction review, not direct visual image proof; no review flags removed.",
+      "batch_status": "7 Gujarati stems cleaned against official PDF text extraction; remaining full visual proofread backlog is 40 questions (Q61–Q100)."
     }
   ],
   "source_page_batch_20261103": {
