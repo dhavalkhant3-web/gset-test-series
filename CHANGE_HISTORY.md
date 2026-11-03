@@ -92,3 +92,11 @@
 - Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
 - Combined audit run `41584513117` and Public Administration validation run `41584513079` passed on manifest commit `270994d07386a694fce97efd8bb86dc546573dfd`. Debug APK run `41584513093` remained in progress at last check.
 - No question text/options/answers/source references changed; no flags cleared; no PR merged.
+
+
+## 2026-11-03 — Visual Art remaining mapping fields
+- Assigned provisional syllabus units to the remaining 30 Code 33 Visual Art records (including figure-based sculpture/painting questions and broad sculpture-function items), bringing the bank to 22 manually reviewed, 278 provisional, and 0 unmapped/pending assignments.
+- Figure-dependent mappings were inferred only from the visible question wording/options and linked figure asset metadata; the actual image bytes were not inspected. All 30 remain provisional, and no source text/option proofread status or review flag was changed. The 256 source proofreading checks and 14 content concerns remain open.
+- Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
+- Combined bank audit run `41584664171` and Public Administration validation `41584664295` passed on subject-manifest commit `580dc4c703e1fbae1618aa9cbf67b5f20ab90fe5`. Debug APK run `41584664153` remained in progress at last check.
+- No question text/options/answers/source refs changed; no PR merged.
