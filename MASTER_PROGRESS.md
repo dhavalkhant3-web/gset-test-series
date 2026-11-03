@@ -240,3 +240,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 ## 2026-11-03 — Music Dec 2024 OCR transcription repair batch (Q76, Q77, Q80)
 - Commit `21c3f7ff8f726e291c92b75ef1532ab323d86b03`: normalized Gujarati OCR punctuation/spacing for Q76, repaired Q77 OCR typo and stem structure, and reconstructed incomplete Gujarati option text for Q80 from the paired English option structure.
 - These are **OCR cleanup/reconstruction only**, not source-page visual proof. `source_verified` remains false and `review_flag` remains true for all three records; answer-key values remain C, D, A respectively and match the final key. The visual-proofread total is unchanged at 254/300; 46 Dec 2024 questions remain pending visual comparison. Do not count this batch as source-verified or visually completed.
+
+
+## 2026-11-03 — Music Dec 2024 Q81–Q85 final-answer-key reconciliation
+- Compared stored `answer` fields for Music December 2024 Q81–Q85 against the published final answer key: Q81 B, Q82 D, Q83 A, Q84 A, Q85 A. All five match (5/5; no mismatch).
+- This is an answer-key reconciliation only. Original-paper bilingual stem/option visual proofreading was not performed in this batch because the question-paper PDF page retrieval was unavailable. `source_verified` remains false and `review_flag` remains true for Q81–Q85; no question data or answers were edited and the visual-proofread count does not increase.
+- Next distinct work: source-page visual proofreading of Q81–Q85 when original-paper pages can be accessed. Answer-key source: GSET December 2024 Music final key as published with the Paper-II page.
