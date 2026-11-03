@@ -76,3 +76,11 @@
 - Mapping counts from the integrated bank now: 22 manually reviewed, 165 provisional, 113 pending. Original question visual-proofreading count and 14 content concerns are unchanged; provisional assignments are not source-verified.
 - Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json` to synchronize counts. Combined bank audit run `41584155940` passed on metadata commit `9590778364d0d6fcf081e2cbbf0f094f87a09002`; Debug APK run `41584155869` was in progress and Visual Art validation `41584155887` was queued at last check.
 - No question text, options, answer, Gujarati translation, source references, Paper-I or Code 01 files changed; no PR merged.
+
+
+## 2026-11-03 — Performing Arts provisional mapping batch
+- Added 36 provisional syllabus-unit assignments to Code 31 Performing Arts December 2024 questions using the registered ten-unit syllabus catalog and question topics (Indian cultural history, folk/traditional forms, Natyashastra, aesthetics, international dance, pedagogy and drama/theatre theory). Stream-specific Unit 6 assignments remain provisional where stream identification is not established.
+- Current mapping counts: 0 verified, 171 provisional, 129 pending. Source-review progress remains unchanged: 94 source pages visually verified, 200 text/transcription checks pending, 6 bilingual discrepancies flagged and 206 review flags retained.
+- Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
+- Combined subject bank audit run `41584320487` and Public Administration validator run `41584320497` passed on metadata commit `b255ff5d0669cdd3a7191315a6b03b507f2a4a44`. Debug APK run `41584320491` was in progress (Flutter analyze step running) at last check.
+- No question stems, options, answers, Gujarati transcription, source references, Paper-I or Code 01 files changed; no PR merged.
