@@ -235,3 +235,8 @@ This current actionable register supersedes stale historical Music visual-proofr
 | 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
 
 Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all Dec 2024); mappings 162 manually reviewed, 14 ambiguous, 124 provisional; official answer keys 300/300 checked; 212 review flags remain active until mapping/content reconciliation. Source-check completion commit: `be99ee33416ca6f105a80e1fae4fb4a044170286`. No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-03 — Music Dec 2024 OCR transcription repair batch (Q76, Q77, Q80)
+- Commit `21c3f7ff8f726e291c92b75ef1532ab323d86b03`: normalized Gujarati OCR punctuation/spacing for Q76, repaired Q77 OCR typo and stem structure, and reconstructed incomplete Gujarati option text for Q80 from the paired English option structure.
+- These are **OCR cleanup/reconstruction only**, not source-page visual proof. `source_verified` remains false and `review_flag` remains true for all three records; answer-key values remain C, D, A respectively and match the final key. The visual-proofread total is unchanged at 254/300; 46 Dec 2024 questions remain pending visual comparison. Do not count this batch as source-verified or visually completed.
