@@ -459,7 +459,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options populated for 100 records. Field-level syllabus assignment: 0 verified, 156 provisional unit numbers assigned, 144 records still have unit_number=null. Mapping status labels show 183 provisional and 117 pending; 27 records labeled provisional still have null unit fields. Newly filled 21 fields are provisional, stream-specific unit scope and source checks remain open.",
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription checks pending source review. Gujarati source text/options populated for 100 records. Field-level syllabus assignment: 0 verified, 156 provisional unit numbers assigned, 144 records still have unit_number=null. Mapping status labels show 183 provisional and 117 pending; 27 records labeled provisional still have null unit fields. Newly filled 21 fields are provisional, stream-specific unit scope and source checks remain open.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "verified": 0,
