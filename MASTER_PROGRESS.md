@@ -169,3 +169,8 @@ Automated parsed-content checks were run against the current integration questio
 - Public Administration exact-head validator and combined subject-bank audit passed on commit `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`. The combined Debug APK workflow `41590949177` was still building at the time of checkpoint; Flutter Analyze and widget tests were already successful. Confirm final workflow state/artifact before reporting.
 - Mapping commits: `e68195d5991cf9273111c99c8912f59ddd85a2f3`, `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`, `005e79ee91d9d059c890433340e860c0da9354ec`. Change-history log commit: `b976e1c5ac55896400e041dcdcc1834a29186738`.
 - Remaining: source page reviews and original PDF transcription, pending units for both banks, and work on Physical Sciences, Chemical Sciences, Hindu Studies, IKS, Music, Visual Art. Code 01/Paper-I unchanged; no PR merged.
+
+
+## 2026-11-03 — Mapping registry count reconciliation
+- Registry now distinguishes question-level mapping status labels from populated `unit_number` fields for Codes 31 and 32. Public Administration: 22 manually reviewed + 180 provisional unit fields filled; 98 unit fields null. Performing Arts: 156 provisional unit fields filled; 144 unit fields null. Performing Arts null-field/status discrepancy: 27 null unit fields are labeled provisional and 117 are labeled pending; do not confuse the status label with an assigned unit value.
+- Subject manifest commit `9c425a8c85783c92faf83a15e40e23375a0918c5`; progress-log update commit follows. CI for the subsequent register/manifest commits should be checked at the latest branch HEAD.
