@@ -108,3 +108,8 @@
 - Commits: Public Administration mapping batch `e68195d5991cf9273111c99c8912f59ddd85a2f3`; Panchayati Raj mapping refinement `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`; Performing Arts mapping batch `005e79ee91d9d059c890433340e860c0da9354ec`.
 - Exact-head combined subject bank audit on `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`: PASS. Public Administration bank validator on the same commit: PASS. Debug APK run `41590949177` had Flutter analyze and widget tests PASS; APK build was still running at this note.
 - No PR merged; Code 01 and Paper-I untouched. No source text, options, answers, translations or verification flags were changed.
+
+
+## 2026-11-03 — Mapping field-count synchronization
+- Updated `assets/subjects/subjects.json` Code 31 and Code 32 data_status to distinguish filled `unit_number` fields from mapping status labels. Public Administration: 22 manually reviewed + 180 provisional unit values assigned; 98 unit fields null. Performing Arts: 156 provisional unit values assigned; 144 unit fields null (27 null fields still carry provisional status labels, 117 carry pending labels). Source flags are unchanged.
+- Manifest commit: `9c425a8c85783c92faf83a15e40e23375a0918c5`. No question records or verification fields changed in this manifest update.
