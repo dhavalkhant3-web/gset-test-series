@@ -52,3 +52,12 @@
 - No question-level mapping, question text, options, answers, Gujarati transcription, source URL, Paper-I code or Code 01 file was changed.
 - Combined audit run #41163322599 passed with zero errors and all eight paper-metadata warning arrays empty. Public Administration validator #41163322559 passed.
 - APK build #41163322554: Flutter analyze passed; Debug APK build was still in progress at this register update.
+
+
+## 2026-11-03 — Public Administration and IKS mapping execution
+- Public Administration Code 32: added provisional unit mappings to 128 records across the November 2023, December 2024 and November 2025 Paper-II banks. Current mapping status: 22 manually reviewed, 278 provisional, 0 pending. Source stem/options proofreading remains unverified for all 300; review flags were retained.
+- IKS Code 29: added provisional unit mappings to 189 records across all three sessions. Current mapping status: 0 manually verified, 298 provisional, 2 pending (Dec 2024 Q20 and Nov 2025 Q15). All source-review flags remain active.
+- Updated `assets/subjects/subjects.json`, Public Administration `papers.json`, and `MASTER_PROGRESS.md` to reflect current mapping counts.
+- Relevant question-bank commits: PA `f39b9889e3f044348c31d74c869000d8bbd5fa4c`, `8af91e8653d9a076749016da154cc68d445401a4`, `e0246e4dfa0bbf59c496972503a94a126ad0e82b`, `a89475cbd6049b26b82316aee65716fa1d2ac953`; IKS `1f1e6d60517c22f60f8d11742dae579d4c158953`, `3e69faba612ff65ff7bab197e644c0a21af04a62`, `3afafdae07d97a5763a488dbfd0b73e76a042c53`, `cfb21c35849e1c670f445dcd0a0c89ec435a6eca`.
+- Combined bank audit run `41583643015` passed on exact bank commit `7df69a43b64739b615caea1e7838bee259144085`; Public Administration validator `41583643030` was queued and Debug APK run `41583643012` remained in progress at the last check.
+- No question stems, answer letters, options, Gujarati text, source references, Paper-I UI or Code 01 records changed; no PR was merged.
