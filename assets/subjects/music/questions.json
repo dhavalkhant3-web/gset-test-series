@@ -3728,7 +3728,7 @@
     "paperId": "music_dec24",
     "question_no": 76,
     "question_en": "State true or false: Statement 1: Pt. Siyaram Tiwari was a Dhrupad exponent of Dagar Parampara. Statement 2: He sang folk songs for films in Gujarat.",
-    "question_gu": ". સાચું અને ખોટું વિધાન શોધો. વિધાન 1: પંડિત સિયારામ તિવારી ડાગર પરંપરા ના ધ્રુપદ ગાયક હતાં. વિધાન 2:તેઓએ ગુજરાતી ફિલ્મો માં લોક ગીતો ગાયા",
+    "question_gu": "સાચું અને ખોટું વિધાન શોધો. વિધાન 1: પંડિત સિયારામ તિવારી ડાગર પરંપરાના ધ્રુપદ ગાયક હતા. વિધાન 2: તેમણે ગુજરાતી ફિલ્મોમાં લોકગીતો ગાયા.",
     "options_en": [
       "Statement 1 is true and statement 2 is false",
       "Statements 1 and 2 are both true",
@@ -3752,7 +3752,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification. Official December 2024 Final Answer Key PDF was directly inspected on 2026-10-29; stored answer matches the official key. Question-paper wording/options visual proofreading and syllabus mapping are separate review gates and remain flagged until completed.",
+    "review_note": "Gujarati OCR cleanup: removed leading stray punctuation and normalized spacing/grammar from the extracted record. This is not a visual comparison to the original page; source_verified remains false and review_flag remains true. Official final answer key checked: C.",
     "tip_en": "Revise the form's defining features, period and associated composers or performers; compare it with related vocal traditions.",
     "tip_gu": "આ ગાયનશૈલીનાં મુખ્ય લક્ષણો, સમયગાળો અને સંબંધિત સંગીતકારો અથવા કલાકારો યાદ કરો; સંબંધિત ગાયનપરંપરાઓ સાથે સરખાવો.",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3768,7 +3768,7 @@
     "unit_id": "unit_2",
     "answer_key_verified": true,
     "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
-    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending",
+    "gujarati_transcription_status": "ocr_cleanup_applied_visual_proofreading_pending",
     "answer_key_visual_verified": true,
     "answer_key_visual_source": "User-provided official GSET December 2024 Final Answer Key PDF (dec2430 (1)(2).pdf)",
     "answer_key_visual_source_page": 1
@@ -3779,7 +3779,7 @@
     "paperId": "music_dec24",
     "question_no": 77,
     "question_en": "State true or false: Statement 1: Pt. Sukhdev Maharaj was a famous Kathak dancer. Statement 2: His Garba presentation is memorable.",
-    "question_gu": ". નિમ્નલિખિત ક્યું વિધાન સાચું છે 2 વિધાન 1:પંડિત સુખદેવ મહારાજ વિખ્યાત કથક નર્તક હતા. વિધાન 2:તેઓનું ગરબા નૃત્ય અવિસ્મરણીય હતું.",
+    "question_gu": "નીચેનામાંથી કયું વિધાન સાચું છે? વિધાન 1: પંડિત સુખદેવ મહારાજ વિખ્યાત કથક નર્તક હતા. વિધાન 2: તેમનું ગરબા નૃત્ય અવિસ્મરણીય હતું.",
     "options_en": [
       "Statement 1 is false and statement 2 is true",
       "Statements 1 and 2 are both false",
@@ -3790,7 +3790,7 @@
       "વિધાન ક્રમાંક 1 ખોટું અને વિધાન ક્રમાંક 2 સાચું છે",
       "વિધાન ક્રમાંક 1 અને વિધાન ક્રમાંક 2 ખોટા છે",
       "વિધાન ક્રમાંક 1 અને 2 સાચાં છે",
-      "વિધાન ક્રમાંક 1 સાયું અને વિધાન ક્રમાંક 2 ખોટું છે"
+      "વિધાન ક્રમાંક 1 સાચું અને વિધાન ક્રમાંક 2 ખોટું છે"
     ],
     "answer": "D",
     "official_answer": "D",
@@ -3803,7 +3803,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification. Official December 2024 Final Answer Key PDF was directly inspected on 2026-10-29; stored answer matches the official key. Question-paper wording/options visual proofreading and syllabus mapping are separate review gates and remain flagged until completed.",
+    "review_note": "Gujarati OCR cleanup: normalized the stem and corrected OCR typo “સાયું” to “સાચું” using the paired English option wording. Not visually verified against the original paper; source_verified remains false and review_flag remains true. Official final answer key checked: D.",
     "tip_en": "Associate each performer with the relevant dance form, gharana, period and contribution; distinguish a teacher lineage from a regional style.",
     "tip_gu": "દરેક કલાકારને સંબંધિત નૃત્યપ્રકાર, ઘરાણા, સમયગાળો અને યોગદાન સાથે જોડો; ગુરુપરંપરા અને પ્રાદેશિક શૈલી વચ્ચે ભેદ કરો.",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3819,7 +3819,7 @@
     "unit_id": "unit_9",
     "answer_key_verified": true,
     "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
-    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending",
+    "gujarati_transcription_status": "ocr_cleanup_applied_visual_proofreading_pending",
     "answer_key_visual_verified": true,
     "answer_key_visual_source": "User-provided official GSET December 2024 Final Answer Key PDF (dec2430 (1)(2).pdf)",
     "answer_key_visual_source_page": 1
@@ -3928,7 +3928,7 @@
     "paperId": "music_dec24",
     "question_no": 80,
     "question_en": "Statement 1: Pt. Lal Mani Mishra was the author of ‘Bhartiya Sangeet Vadya’ and a famous Veena player. Statement 2: Pt. Gopal Shankar Mishra, son of Pt. Lal Mani Mishra, was also a famous sitar and Veena player.",
-    "question_gu": ". નિમ્નલિખિત ક્યું વિધાન સાચું છે 2 વિધાન 1:પંડિત લાલમણિ મિશ્રા “ભારતીય સંગીત વિધ્યા' ગ્રંથ ના લેખક હતા અને વિખ્યાત વીણા વાદક હતા. વિધાન 2:પંડિત લાલમણિ મિશ્રા ના પુત્ર પંડિત ગોપાલ શંકર મિશ્રા પણ એક પ્રસિદ્ધ સિતાર અને વીણા વાદક હતાં. () વિધાન ક્રમાંક 1 અને 2 સાચા છે",
+    "question_gu": "નીચેનામાંથી કયું વિધાન સાચું છે? વિધાન 1: પંડિત લાલમણિ મિશ્રા “ભારતીય સંગીત વાદ્ય” ગ્રંથના લેખક હતા અને વિખ્યાત વીણાવાદક હતા. વિધાન 2: પંડિત લાલમણિ મિશ્રાના પુત્ર પંડિત ગોપાલ શંકર મિશ્રા પણ પ્રસિદ્ધ સિતાર અને વીણાવાદક હતા.",
     "options_en": [
       "Statements 1 and 2 are both true",
       "Statements 1 and 2 are both false",
@@ -3936,10 +3936,10 @@
       "Statement 2 is true and statement 1 is false"
     ],
     "options_gu": [
-      "વિધાન ક્રમાંક 1 અને",
-      "ખોટાં છે",
+      "વિધાન ક્રમાંક 1 અને 2 સાચાં છે",
+      "વિધાન ક્રમાંક 1 અને 2 ખોટાં છે",
       "વિધાન ક્રમાંક 1 સાચું અને વિધાન ક્રમાંક 2 ખોટું છે",
-      "વિધાન ક્રમાંક2 સાચુ અને વિધાન કમાંક 1 ખોટું છે"
+      "વિધાન ક્રમાંક 2 સાચું અને વિધાન ક્રમાંક 1 ખોટું છે"
     ],
     "answer": "A",
     "official_answer": "A",
@@ -3952,7 +3952,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Gujarati stem and four options extracted from the original bilingual paper scan by OCR and layout recovery. Visual proofreading of exact wording, symbols, option labels/order, and spelling remains mandatory before source verification. Official December 2024 Final Answer Key PDF was directly inspected on 2026-10-29; stored answer matches the official key. Question-paper wording/options visual proofreading and syllabus mapping are separate review gates and remain flagged until completed.",
+    "review_note": "Gujarati OCR/layout reconstruction: repaired incomplete option text and normalized stem wording against the English question/options, without original-page visual proof. The book title translation “ભારતીય સંગીત વાદ્ય” is provisional. source_verified remains false and review_flag remains true. Official final answer key checked: A.",
     "tip_en": "Start from the physical or notation principle named in the stem; check how sound is produced or how the symbol changes pitch, duration or timbre.",
     "tip_gu": "પ્રશ્નમાં દર્શાવેલા ભૌતિક અથવા સ્વરલિપિના સિદ્ધાંતથી શરૂઆત કરો; ધ્વનિ કેવી રીતે બને છે અથવા સંકેત સ્વર, અવધિ કે નાદગુણમાં શું ફેરફાર કરે છે તે તપાસો.",
     "answer_source": "Official GSET December 2024 Final Answer Key, Paper-II, Music (Subject Code 30)",
@@ -3968,7 +3968,7 @@
     "unit_id": "unit_8",
     "answer_key_verified": true,
     "gujarati_source": "Original GSET December 2024 Paper-II scan; Gujarati-column OCR (column, layout recovery)",
-    "gujarati_transcription_status": "ocr_transcribed_visual_proofreading_pending",
+    "gujarati_transcription_status": "ocr_layout_reconstruction_applied_visual_proofreading_pending",
     "answer_key_visual_verified": true,
     "answer_key_visual_source": "User-provided official GSET December 2024 Final Answer Key PDF (dec2430 (1)(2).pdf)",
     "answer_key_visual_source_page": 1
