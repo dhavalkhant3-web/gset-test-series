@@ -100,3 +100,11 @@
 - Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
 - Combined bank audit run `41584664171` and Public Administration validation `41584664295` passed on subject-manifest commit `580dc4c703e1fbae1618aa9cbf67b5f20ab90fe5`. Debug APK run `41584664153` remained in progress at last check.
 - No question text/options/answers/source refs changed; no PR merged.
+
+
+## 2026-11-03 — Continued provisional syllabus field completion
+- Public Administration Code 32: filled 28 previously null question-level unit fields using narrowly targeted explicit topic phrases matched against the registered official syllabus. Distribution: Unit I=7, Unit III=11, Unit V=1, Unit VIII=7, Unit X=2. Corrected Nov 2025 Q39 (73rd Constitutional Amendment/Panchayati Raj) to provisional Unit IV after inspecting the matched item. All mappings remain provisional; review flags, stems, options, answers, Gujarati fields and sources unchanged.
+- Performing Arts Code 31: filled 21 previously null question-level unit fields using explicit subject terms. Distribution: Unit I=6, Unit II=5, Unit III=3, Unit VI=6, Unit VIII=1. Stream-specific unit scope and visual/source checks remain pending; all mappings provisional and flags retained.
+- Commits: Public Administration mapping batch `e68195d5991cf9273111c99c8912f59ddd85a2f3`; Panchayati Raj mapping refinement `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`; Performing Arts mapping batch `005e79ee91d9d059c890433340e860c0da9354ec`.
+- Exact-head combined subject bank audit on `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`: PASS. Public Administration bank validator on the same commit: PASS. Debug APK run `41590949177` had Flutter analyze and widget tests PASS; APK build was still running at this note.
+- No PR merged; Code 01 and Paper-I untouched. No source text, options, answers, translations or verification flags were changed.
