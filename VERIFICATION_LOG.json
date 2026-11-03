@@ -839,5 +839,67 @@
       "pr_merged": false
     },
     "note": "Visual Art unit assignments remain provisional; image-dependent questions that need the original artwork and 30 unresolved unit mappings are retained pending."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Visual Art final provisional mapping assignments",
+    "commit": "ae75d5df923d79670399e361631933d2d73815f4",
+    "parent_commit": "ae75d5df923d79670399e361631933d2d73815f4",
+    "changed_files": [
+      "assets/subjects/visual_art/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "PROJECT_STATE.json",
+      "CHANGE_HISTORY.md"
+    ],
+    "mapping_review": {
+      "subject_code": "33",
+      "records_updated": 30,
+      "cumulative_mapping_counts": {
+        "manually_reviewed": 22,
+        "provisional": 278,
+        "pending": 0
+      },
+      "source_review_state": {
+        "source_verified": 30,
+        "proofreading_pending": 256,
+        "content_concerns": 14
+      },
+      "note": "Image-dependent question mapping suggestions were assigned provisionally based on stem/options context and associated image-asset references. Source image bytes were not visually inspected; all such mappings remain provisional."
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41584664171,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "580dc4c703e1fbae1618aa9cbf67b5f20ab90fe5"
+      },
+      "public_administration": {
+        "run_id": 41584664295,
+        "result": "PASS"
+      },
+      "debug_apk": {
+        "run_id": 41584664153,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_analyze": "in_progress",
+          "flutter_widget_tests": "pending",
+          "combined_debug_apk": "pending",
+          "artifact_upload": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "source_references_changed": false,
+      "review_flags_cleared": false,
+      "source_visual_proofread_count_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Visual Art has no remaining unmapped unit values, but 278 of 300 assignments remain provisional; image-based and source-proofreading gates are still open."
   }
 ]
