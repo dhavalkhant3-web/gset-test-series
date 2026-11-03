@@ -501,12 +501,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 30 records source_verified (figure/passage source review); 256 remain in key-applied/pending-proofread state; 14 content/answer concerns remain flagged. Syllabus mapping: 22 manually reviewed, 165 provisional content-based mappings, 113 pending. Question text/options and the 14 concerns still require source review; the current English-medium bank does not contain Gujarati question text.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 30 records source_verified (figure/passage source review); 256 remain in key-applied/pending-proofread state; 14 content/answer concerns remain flagged. Syllabus mapping: 22 manually reviewed, 248 provisional content-based mappings, 30 pending. Question text/options and the 14 concerns still require source review; the current English-medium bank does not contain Gujarati question text.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "verified": 22,
-        "provisional": 165,
-        "pending": 113
+        "provisional": 248,
+        "pending": 30
       }
     },
     {
