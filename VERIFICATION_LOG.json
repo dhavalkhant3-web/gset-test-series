@@ -901,5 +901,84 @@
       "pr_merged": false
     },
     "note": "Visual Art has no remaining unmapped unit values, but 278 of 300 assignments remain provisional; image-based and source-proofreading gates are still open."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Structured unit field synchronization and exact-head Debug APK completion",
+    "commit": "35f2d9ccfadb21e7cbeb1e2a02caecceaf703eb1",
+    "parent_commit": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+    "changed_files": [
+      "assets/subjects/public_administration/questions.json",
+      "assets/subjects/visual_art/questions.json",
+      "assets/subjects/indian_knowledge_system/questions.json",
+      "assets/subjects/hindu_studies/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "CHANGE_HISTORY.md",
+      "PROJECT_STATE.json"
+    ],
+    "unit_field_sync": {
+      "code28": {
+        "assigned": 300,
+        "null": 0,
+        "source": "existing syllabus_unit labels; preserve 276 verified +24 provisional mapping labels"
+      },
+      "code29": {
+        "assigned": 298,
+        "null": 2,
+        "pending": [
+          "GSET_29_DEC24_020",
+          "GSET_29_NOV25_015"
+        ],
+        "labels": "298 provisional"
+      },
+      "code32": {
+        "assigned": 300,
+        "null": 0,
+        "filled_from_existing_provisional_syllabus_unit": 98,
+        "mapping_labels": "22 manually reviewed,278 provisional"
+      },
+      "code33": {
+        "assigned": 300,
+        "null": 0,
+        "filled_from_existing_provisional_syllabus_unit": 147,
+        "mapping_labels": "22 manually reviewed,278 provisional"
+      }
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41594284815,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "3830783effb66cf62379be43f6119d7d62f1d0c1"
+      },
+      "public_administration": {
+        "run_id": 41594284715,
+        "result": "PASS"
+      },
+      "debug_apk": {
+        "run_id": 41594322933,
+        "validated_documentation_head": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+        "result": "PASS",
+        "flutter_analyze": "PASS",
+        "flutter_widget_tests": "PASS",
+        "debug_apk": "PASS",
+        "artifact_upload": "PASS",
+        "artifact_id": 13211129479,
+        "artifact_digest": "sha256:1b8d45cead329d03a6c7d1a07110ef83ba7a69922d1f2b3659d7cac7fd07f124"
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "translations_changed": false,
+      "review_flags_cleared": false,
+      "source_visual_proofread_count_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Unit values are field synchronization from existing provisional labels, not source proofing or mapping status promotions. Original PDF visual proofreads completed in this batch: 0."
   }
 ]
