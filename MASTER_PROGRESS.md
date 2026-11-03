@@ -183,3 +183,10 @@ Automated parsed-content checks were run against the current integration questio
 - Code 28 Hindu Studies: populated 300 structured unit_number/unit_id fields from the existing `syllabus_unit` labels. Existing 276 verified + 24 provisional mapping labels and 40 review flags were preserved.
 - Commits: PA `5c70c23f90b441c370878d572ca8800bd7321a47`; Visual Art `4a6ec7deef5d630197a6c5403ceb0f58f7e193ab`; IKS `63472b71a6e28028104a781a7ac43286f05df8e8`; Hindu Studies `3091e2f9fd60bf97cc44f6708a3032eb7df2e0be`; subject manifest reconciliation `3830783effb66cf62379be43f6119d7d62f1d0c1`.
 - These are field synchronizations of already-present syllabus labels, not newly source-verified mapping decisions. No question stems, options, answer keys, translations, review flags, Paper-I or Code 01 changed. No PR merged.
+
+
+## 2026-11-03 — Verification register refresh
+- Combined subject bank audit run `41594284815` PASS on data commit `3830783effb66cf62379be43f6119d7d62f1d0c1`; Public Administration validator run `41594284715` PASS on the same data commit.
+- Debug APK workflow run `41594322933` PASS on documentation head `a1595221d04bc8776ceea4bb9f0b3db14b6bbb58`: Flutter Analyze, Widget Tests, combined Debug APK build, and artifact upload all passed. Artifact ID `13211129479`, SHA-256 `1b8d45cead329d03a6c7d1a07110ef83ba7a69922d1f2b3659d7cac7fd07f124`.
+- Refreshed `PROJECT_STATE.json` and `VERIFICATION_LOG.json` to record exact run IDs, data head, field-sync counts, and safety conditions. Commits: project state `35f2d9ccfadb21e7cbeb1e2a02caecceaf703eb1`; verification log `768f0347cacabf973a6fa5a66b370ec169b3fa9c`.
+- Original-PDF source proofreading completed during this batch: 0. All field synchronizations remain provisional as applicable; no question content/answers/translations or flags promoted; no PR merged; Code 01/Paper-I untouched.
