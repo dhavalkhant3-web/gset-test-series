@@ -585,5 +585,73 @@
       "pr_merged": false
     },
     "note": "Syllabus unit fields and mapping notes/statuses were changed only for content-based provisional assignments. No official source verification is claimed."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Music common-unit syllabus mapping review",
+    "commit": "f55e0e9cf2385b012ca3de19a3e3d0136827c6d5",
+    "parent_commit": "f55e0e9cf2385b012ca3de19a3e3d0136827c6d5",
+    "changed_files": [
+      "assets/subjects/music/questions.json",
+      "assets/subjects/music/verification_pending.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "PROJECT_STATE.json",
+      "CHANGE_HISTORY.md"
+    ],
+    "mapping_review": {
+      "subject_code": "30",
+      "records_updated": 22,
+      "common_units_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mapping_counts": {
+        "manually_reviewed": 162,
+        "ambiguous": 14,
+        "provisional": 124,
+        "pending": 0
+      },
+      "source_visual_proofread_count_unchanged": 154,
+      "source_visual_proofread_pending": 146,
+      "review_flags_retained_on_updated_records": true,
+      "note": "The 22 mapping reviews used the official common-unit titles and question topics. They do not constitute original question-paper visual proofreading or answer-key rechecking."
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41583928078,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "e5ea449816b980d685038d933f5fa9ece5a29bfe"
+      },
+      "public_administration": {
+        "run_id": 41583928058,
+        "result": "PASS"
+      },
+      "debug_apk": {
+        "run_id": 41583928048,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_analyze": "PASS",
+          "flutter_widget_tests": "PASS",
+          "combined_debug_apk": "in_progress",
+          "artifact_upload": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "gujarati_transcription_changed": false,
+      "source_references_changed": false,
+      "source_visual_proofread_count_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Music syllabus mapping counts were synchronized in verification_pending.json and subjects.json. Stream-specific Units V-X remain provisional pending evidence identifying the applicable stream."
   }
 ]
