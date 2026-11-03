@@ -507,5 +507,83 @@
       "pr_merged": false
     },
     "note": "All eight paper_metadata_flags arrays are empty after canonical pending-status synchronization. This repairs metadata consistency only; it does not verify any pending syllabus assignment."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Public Administration and IKS provisional mapping execution",
+    "commit": "6c52a95a0568123321110ea9e1fd08fc2b0e6a98",
+    "parent_commit": "7df69a43b64739b615caea1e7838bee259144085",
+    "changed_files": [
+      "assets/subjects/public_administration/questions.json",
+      "assets/subjects/public_administration/papers.json",
+      "assets/subjects/indian_knowledge_system/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "CHANGE_HISTORY.md"
+    ],
+    "question_level_mapping_updates": {
+      "29": {
+        "records_updated": 189,
+        "mapping_counts": {
+          "manually_verified": 0,
+          "provisional": 298,
+          "pending": 2
+        },
+        "remaining_pending": [
+          "GSET_29_DEC24_020",
+          "GSET_29_NOV25_015"
+        ],
+        "source_text_verification": {
+          "source_verified": 0,
+          "review_flags_retained": 300
+        },
+        "note": "All 300 original-page visual checks remain pending; provisional mappings are not promoted to verified."
+      },
+      "32": {
+        "records_updated": 128,
+        "mapping_counts": {
+          "manually_reviewed": 22,
+          "provisional": 278,
+          "pending": 0
+        },
+        "source_text_verification": {
+          "source_verified": 0,
+          "review_flags_retained": 300
+        },
+        "note": "All 300 question text/options audits remain pending; provisional mappings are not promoted to verified."
+      }
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41583643015,
+        "result": "PASS",
+        "errors": [],
+        "validated_bank_commit": "7df69a43b64739b615caea1e7838bee259144085"
+      },
+      "public_administration": {
+        "run_id": 41583643030,
+        "status": "queued_at_last_check"
+      },
+      "debug_apk": {
+        "run_id": 41583643012,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_analyze": "in_progress",
+          "flutter_widget_tests": "pending",
+          "combined_debug_apk": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "gujarati_transcription_changed": false,
+      "source_references_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Syllabus unit fields and mapping notes/statuses were changed only for content-based provisional assignments. No official source verification is claimed."
   }
 ]
