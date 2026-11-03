@@ -25,7 +25,8 @@
     "latest_live_head_before_manifest_repair": "62490790e5ef39a395f0034d4b351a673d52a9ab",
     "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
     "latest_live_head_before_mapping_progress_sync": "5c6fe3523f865d3831cf03ef1f38437c486715c8",
-    "latest_live_head_before_visual_art_mapping_batch": "ccbced0ee7638a4da165bf88b04a9e6b4ff0c408"
+    "latest_live_head_before_visual_art_mapping_batch": "ccbced0ee7638a4da165bf88b04a9e6b4ff0c408",
+    "latest_live_head_before_performing_arts_mapping_batch": "ba09764d1a2abc8980a811223e589920dd00defb"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -122,11 +123,11 @@
       "review_flags": 206,
       "mapping": {
         "verified": 0,
-        "provisional": 135,
-        "pending": 165
+        "provisional": 171,
+        "pending": 129
       },
-      "question_bank_sha": "fa5708aa755cbec353830bafb9400afd70510d71",
-      "status": "partial; PR #10 description is not representative of current integrated bank"
+      "question_bank_sha": "a33dda2e7b200ef13afff5aa76ab2e06069ac811",
+      "status": "36 provisional mappings added; 171 provisional and 129 pending; 200 source text/Gujarati review records and 6 bilingual discrepancies remain"
     },
     "32": {
       "name": "Public Administration",
@@ -243,9 +244,9 @@
   "mapping_rollup_for_codes_28_to_33": {
     "verified": 262,
     "manually_reviewed_not_counted_as_verified": 206,
-    "provisional": 1038,
+    "provisional": 1074,
     "ambiguous": 14,
-    "pending": 280,
+    "pending": 244,
     "note": "Rollup counts 1,800 Paper-II question records across Codes 28–33. Manual review counts are mapping reviews only and do not imply source text verification; provisional mapping values are not verified."
   },
   "pr_status": {
@@ -414,7 +415,7 @@
     "Resolve Hindu Studies 40 content flags and 38 provisional mappings.",
     "IKS: visually review all 300 original pages; 298 provisional mapping suggestions remain unverified and 2 unit assignments are pending.",
     "Music: visually proofread 146 remaining questions; resolve 14 ambiguous and 124 stream-specific provisional mappings; common Units I-IV mapping review is 162/300.",
-    "Performing Arts: review 200 source/text records and six bilingual discrepancies; resolve 135 provisional and 165 pending mappings.",
+    "Performing Arts: review 200 source/text records and six bilingual discrepancies; mapping progress now 171 provisional and 129 pending.",
     "Public Administration: visually review all 300 stems/options and resolve disputed Dec24 Q24/Q35 and Nov25 Q17; mappings now 22 manually reviewed and 278 provisional.",
     "Visual Art: proofread 256 records, resolve 14 concerns; mapping progress now 22 manually reviewed, 165 provisional and 113 pending.",
     "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission.",
