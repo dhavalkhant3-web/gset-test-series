@@ -43,7 +43,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q001",
-    "syllabus_mapping_note": "Sankalpa is a ritual intention associated with pūjā; Unit 2 covers Hindu Dharma/Karma and related practices, but the syllabus does not explicitly name this ritual term, so provisional."
+    "syllabus_mapping_note": "Sankalpa is a ritual intention associated with pūjā; Unit 2 covers Hindu Dharma/Karma and related practices, but the syllabus does not explicitly name this ritual term, so provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_002",
@@ -89,7 +91,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q002",
-    "syllabus_mapping_note": "Hora is a timekeeping/astrology-related term; Unit 10 contains allied topics, but the official syllabus listing does not directly name this item, so provisional."
+    "syllabus_mapping_note": "Hora is a timekeeping/astrology-related term; Unit 10 contains allied topics, but the official syllabus listing does not directly name this item, so provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_003",
@@ -135,7 +139,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q003",
-    "syllabus_mapping_note": "Official Unit 1 explicitly addresses the definition and historical meaning of the term Hindu; the Arya question is a closely related terminology/history item."
+    "syllabus_mapping_note": "Official Unit 1 explicitly addresses the definition and historical meaning of the term Hindu; the Arya question is a closely related terminology/history item. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_004",
@@ -181,7 +187,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q004",
-    "syllabus_mapping_note": "Official syllabus Unit 2 explicitly includes saṃskāra."
+    "syllabus_mapping_note": "Official syllabus Unit 2 explicitly includes saṃskāra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_005",
@@ -227,7 +235,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q005",
-    "syllabus_mapping_note": "Question concerns Sāṃkhya tattvas/indriyas; official Unit 1 covers tattva across traditions."
+    "syllabus_mapping_note": "Question concerns Sāṃkhya tattvas/indriyas; official Unit 1 covers tattva across traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_006",
@@ -273,7 +283,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q006",
-    "syllabus_mapping_note": "Official Unit 4 is Pramāṇa Siddhānta and explicitly covers pramāṇas."
+    "syllabus_mapping_note": "Official Unit 4 is Pramāṇa Siddhānta and explicitly covers pramāṇas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2025_007",
@@ -319,7 +331,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q007",
-    "syllabus_mapping_note": "Pariṇāmavāda is a darśana/tattva question; official Unit 1 covers tattva across traditions."
+    "syllabus_mapping_note": "Pariṇāmavāda is a darśana/tattva question; official Unit 1 covers tattva across traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_008",
@@ -365,7 +379,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q008",
-    "syllabus_mapping_note": "Official Unit 1 item 5 explicitly names Śakti and Prakṛti principles."
+    "syllabus_mapping_note": "Official Unit 1 item 5 explicitly names Śakti and Prakṛti principles. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_009",
@@ -411,7 +427,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q009",
-    "syllabus_mapping_note": "Official Unit 2 item 1 covers dharma definitions and explicitly lists Vaiśeṣika Sūtra."
+    "syllabus_mapping_note": "Official Unit 2 item 1 covers dharma definitions and explicitly lists Vaiśeṣika Sūtra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_010",
@@ -457,7 +475,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q010",
-    "syllabus_mapping_note": "Mahat is a Sāṃkhya tattva; official Unit 1 covers tattva across traditions."
+    "syllabus_mapping_note": "Mahat is a Sāṃkhya tattva; official Unit 1 covers tattva across traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_011",
@@ -503,7 +523,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q011",
-    "syllabus_mapping_note": "Sāṃkhya lineage is related to Hindu darśana, but the syllabus does not explicitly name Kapila's first disciple; unit_1 is provisional and needs review."
+    "syllabus_mapping_note": "Sāṃkhya lineage is related to Hindu darśana, but the syllabus does not explicitly name Kapila's first disciple; unit_1 is provisional and needs review. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_012",
@@ -549,7 +571,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q012",
-    "syllabus_mapping_note": "Official Unit 10 item 5 lists Kāvya/chandas and names Vasantatilakā and Mandākrāntā."
+    "syllabus_mapping_note": "Official Unit 10 item 5 lists Kāvya/chandas and names Vasantatilakā and Mandākrāntā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_013",
@@ -595,7 +619,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q013",
-    "syllabus_mapping_note": "Question asks who Jaimini was, specifically identifying a Mīmāṃsā darśana figure; official Unit 1 covers Indian philosophical traditions/darśanas."
+    "syllabus_mapping_note": "Question asks who Jaimini was, specifically identifying a Mīmāṃsā darśana figure; official Unit 1 covers Indian philosophical traditions/darśanas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_014",
@@ -641,7 +667,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q014",
-    "syllabus_mapping_note": "Official Unit 1 uses Upaniṣadic passages and Hindu textual traditions; this question identifies a quotation's Upaniṣad."
+    "syllabus_mapping_note": "Official Unit 1 uses Upaniṣadic passages and Hindu textual traditions; this question identifies a quotation's Upaniṣad. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_015",
@@ -687,7 +715,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q015",
-    "syllabus_mapping_note": "Question concerns Śākhas of the Sāmaveda, a Vedic textual tradition; official Unit 1 includes Aṣṭādaśa-vidyā and Upāṅgas."
+    "syllabus_mapping_note": "Question concerns Śākhas of the Sāmaveda, a Vedic textual tradition; official Unit 1 includes Aṣṭādaśa-vidyā and Upāṅgas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_016",
@@ -733,7 +763,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q016",
-    "syllabus_mapping_note": "Question concerns Kāṇḍas of Atharvaveda, a Vedic textual tradition; official Unit 1 covers Vedic vidyās/Upāṅgas."
+    "syllabus_mapping_note": "Question concerns Kāṇḍas of Atharvaveda, a Vedic textual tradition; official Unit 1 covers Vedic vidyās/Upāṅgas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_017",
@@ -779,7 +811,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q017",
-    "syllabus_mapping_note": "Question concerns Taittirīya Saṃhitā and its commentary, a Vedic textual tradition."
+    "syllabus_mapping_note": "Question concerns Taittirīya Saṃhitā and its commentary, a Vedic textual tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_018",
@@ -825,7 +859,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q018",
-    "syllabus_mapping_note": "Question identifies the four parts of Āgama; no specific Āgama subtopic is explicitly named in the official Unit 10 list, so this allied-topic mapping remains provisional."
+    "syllabus_mapping_note": "Question identifies the four parts of Āgama; no specific Āgama subtopic is explicitly named in the official Unit 10 list, so this allied-topic mapping remains provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_019",
@@ -871,7 +907,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q019",
-    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and traditional literary theories; this question asks about A. B. Keith's contribution to Vedic literature."
+    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and traditional literary theories; this question asks about A. B. Keith's contribution to Vedic literature. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_020",
@@ -917,7 +955,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q020",
-    "syllabus_mapping_note": "Official Unit 3 covers the concept of jīva and punarjanma/bandhana."
+    "syllabus_mapping_note": "Official Unit 3 covers the concept of jīva and punarjanma/bandhana. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2025_021",
@@ -963,7 +1003,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q021",
-    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and traditional literary theories; this question asks about Dr. R. V. Roth's contribution to Vedic literature."
+    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and traditional literary theories; this question asks about Dr. R. V. Roth's contribution to Vedic literature. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_022",
@@ -1009,7 +1051,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q022",
-    "syllabus_mapping_note": "Question directly concerns a river reference in the Ṛgveda, a Vedic textual/historical topic."
+    "syllabus_mapping_note": "Question directly concerns a river reference in the Ṛgveda, a Vedic textual/historical topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_023",
@@ -1055,7 +1099,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q023",
-    "syllabus_mapping_note": "Unit 6, item 7 explicitly includes the use of psycho-analytical approaches in the Bharatiya context; the question is about Sigmund Freud."
+    "syllabus_mapping_note": "Unit 6, item 7 explicitly includes the use of psycho-analytical approaches in the Bharatiya context; the question is about Sigmund Freud. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_024",
@@ -1101,7 +1147,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q024",
-    "syllabus_mapping_note": "Question asks which Veda a Brāhmaṇa text belongs to; this is directly a Vedic textual tradition."
+    "syllabus_mapping_note": "Question asks which Veda a Brāhmaṇa text belongs to; this is directly a Vedic textual tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_025",
@@ -1147,7 +1195,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q025",
-    "syllabus_mapping_note": "Official Unit 6 explicitly includes use of psycho-analytical approaches in the Bharatiya context."
+    "syllabus_mapping_note": "Official Unit 6 explicitly includes use of psycho-analytical approaches in the Bharatiya context. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_026",
@@ -1193,7 +1243,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q026",
-    "syllabus_mapping_note": "Official Unit 5 explicitly covers the nature/types of debate including vāda, jalpa and vitaṇḍā."
+    "syllabus_mapping_note": "Official Unit 5 explicitly covers the nature/types of debate including vāda, jalpa and vitaṇḍā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_027",
@@ -1239,7 +1291,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q027",
-    "syllabus_mapping_note": "Unit 6 explicitly includes Critical Theory and its history/purpose; the question concerns the Young Hegelian group."
+    "syllabus_mapping_note": "Unit 6 explicitly includes Critical Theory and its history/purpose; the question concerns the Young Hegelian group. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_028",
@@ -1285,7 +1339,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q028",
-    "syllabus_mapping_note": "Question asks for a Sanskrit Vyākaraṇa text; mapped to Sanskrit Parichaya (Unit 9)."
+    "syllabus_mapping_note": "Question asks for a Sanskrit Vyākaraṇa text; mapped to Sanskrit Parichaya (Unit 9). Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_029",
@@ -1331,7 +1387,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q029",
-    "syllabus_mapping_note": "Official Unit 1 includes ṛṣis and saints; this question asks about the role attributed to a ṛṣi."
+    "syllabus_mapping_note": "Official Unit 1 includes ṛṣis and saints; this question asks about the role attributed to a ṛṣi. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_030",
@@ -1377,7 +1435,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q030",
-    "syllabus_mapping_note": "Question refers to Hanumāna and the Ṛkṣabila cave episode in the Rāmāyaṇa."
+    "syllabus_mapping_note": "Question refers to Hanumāna and the Ṛkṣabila cave episode in the Rāmāyaṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2025_031",
@@ -1423,7 +1483,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q031",
-    "syllabus_mapping_note": "Official Unit 8 covers the Mahābhārata and its textual/traditional sources."
+    "syllabus_mapping_note": "Official Unit 8 covers the Mahābhārata and its textual/traditional sources. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_032",
@@ -1469,7 +1531,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q032",
-    "syllabus_mapping_note": "Official Unit 3 includes multiple pathways for mokṣa (yoga), including abhyāsa."
+    "syllabus_mapping_note": "Official Unit 3 includes multiple pathways for mokṣa (yoga), including abhyāsa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2025_033",
@@ -1515,7 +1579,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q033",
-    "syllabus_mapping_note": "Official Unit 10 item 5 includes Kāvya and chandas/metres."
+    "syllabus_mapping_note": "Official Unit 10 item 5 includes Kāvya and chandas/metres. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_034",
@@ -1561,7 +1627,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q034",
-    "syllabus_mapping_note": "Jyotiṣa is a Vedāṅga/Upāṅga; official Unit 1 explicitly covers enumeration of vidyās and Upāṅgas."
+    "syllabus_mapping_note": "Jyotiṣa is a Vedāṅga/Upāṅga; official Unit 1 explicitly covers enumeration of vidyās and Upāṅgas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_035",
@@ -1607,7 +1675,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q035",
-    "syllabus_mapping_note": "Official Unit 4 directly covers pramāṇas."
+    "syllabus_mapping_note": "Official Unit 4 directly covers pramāṇas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2025_036",
@@ -1653,7 +1723,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q036",
-    "syllabus_mapping_note": "Official Unit 5 explicitly lists sūtra, bhāṣya, vārttika and vṛtti in the organization of knowledge."
+    "syllabus_mapping_note": "Official Unit 5 explicitly lists sūtra, bhāṣya, vārttika and vṛtti in the organization of knowledge. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_037",
@@ -1699,7 +1771,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q037",
-    "syllabus_mapping_note": "Unit 2 covers Dharma and Karma Vimarsa and explicitly references Manusmriti among the sources for Dharma; this question concerns Smriti texts."
+    "syllabus_mapping_note": "Unit 2 covers Dharma and Karma Vimarsa and explicitly references Manusmriti among the sources for Dharma; this question concerns Smriti texts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_038",
@@ -1745,7 +1819,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q038",
-    "syllabus_mapping_note": "Official Unit 10 explicitly lists rasa within Nāṭya topics."
+    "syllabus_mapping_note": "Official Unit 10 explicitly lists rasa within Nāṭya topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_039",
@@ -1791,7 +1867,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q039",
-    "syllabus_mapping_note": "The question directly concerns the tradition of vāda."
+    "syllabus_mapping_note": "The question directly concerns the tradition of vāda. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_040",
@@ -1837,7 +1915,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q040",
-    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and a list of Sanskrit poets, including Aśvaghoṣa."
+    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and a list of Sanskrit poets, including Aśvaghoṣa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_041",
@@ -1883,7 +1963,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q041",
-    "syllabus_mapping_note": "The question asks about case government with a Sanskrit prefix."
+    "syllabus_mapping_note": "The question asks about case government with a Sanskrit prefix. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_042",
@@ -1929,7 +2011,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q042",
-    "syllabus_mapping_note": "The question asks for a Mahākāvya title; official Unit 10 includes Kāvya and named works/authors."
+    "syllabus_mapping_note": "The question asks for a Mahākāvya title; official Unit 10 includes Kāvya and named works/authors. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_043",
@@ -1975,7 +2059,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q043",
-    "syllabus_mapping_note": "The question directly tests Sanskrit grammatical case usage."
+    "syllabus_mapping_note": "The question directly tests Sanskrit grammatical case usage. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_044",
@@ -2021,7 +2107,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q044",
-    "syllabus_mapping_note": "Official Unit 2 explicitly lists prāyaścitta among the six karmas."
+    "syllabus_mapping_note": "Official Unit 2 explicitly lists prāyaścitta among the six karmas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_045",
@@ -2067,7 +2155,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q045",
-    "syllabus_mapping_note": "The question concerns a commentary on a Sanskrit Kāvya."
+    "syllabus_mapping_note": "The question concerns a commentary on a Sanskrit Kāvya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_046",
@@ -2113,7 +2203,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q046",
-    "syllabus_mapping_note": "Official Unit 2 explicitly covers karma, vikarma and akarma in Bhagavadgītā."
+    "syllabus_mapping_note": "Official Unit 2 explicitly covers karma, vikarma and akarma in Bhagavadgītā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_047",
@@ -2159,7 +2251,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q047",
-    "syllabus_mapping_note": "Official Unit 10 explicitly covers Nāṭya and its elements; the question evaluates a drama."
+    "syllabus_mapping_note": "Official Unit 10 explicitly covers Nāṭya and its elements; the question evaluates a drama. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_048",
@@ -2205,7 +2299,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q048",
-    "syllabus_mapping_note": "The question directly tests Sanskrit verb morphology."
+    "syllabus_mapping_note": "The question directly tests Sanskrit verb morphology. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_049",
@@ -2251,7 +2347,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q049",
-    "syllabus_mapping_note": "Official Unit 10 covers Kāvya and selected Sanskrit poetic works/authors."
+    "syllabus_mapping_note": "Official Unit 10 covers Kāvya and selected Sanskrit poetic works/authors. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_050",
@@ -2297,7 +2395,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q050",
-    "syllabus_mapping_note": "The question concerns Guha and Rāma during the Rāmāyaṇa exile episode."
+    "syllabus_mapping_note": "The question concerns Guha and Rāma during the Rāmāyaṇa exile episode. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2025_051",
@@ -2343,7 +2443,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q051",
-    "syllabus_mapping_note": "Official Unit 10 includes Nāṭya; the question asks about the number of acts in a Sanskrit drama."
+    "syllabus_mapping_note": "Official Unit 10 includes Nāṭya; the question asks about the number of acts in a Sanskrit drama. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_052",
@@ -2389,7 +2491,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q052",
-    "syllabus_mapping_note": "The question directly tests Sanskrit sandhi."
+    "syllabus_mapping_note": "The question directly tests Sanskrit sandhi. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_053",
@@ -2435,7 +2539,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q053",
-    "syllabus_mapping_note": "The question concerns Bṛhatkathā as a Sanskrit literary work."
+    "syllabus_mapping_note": "The question concerns Bṛhatkathā as a Sanskrit literary work. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_054",
@@ -2481,7 +2587,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q054",
-    "syllabus_mapping_note": "The question directly tests Sanskrit compound classification."
+    "syllabus_mapping_note": "The question directly tests Sanskrit compound classification. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_055",
@@ -2527,7 +2635,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q055",
-    "syllabus_mapping_note": "Official Unit 1 explicitly lists distinctions between varṇa, jāti and caste, with Bhagavadgītā references."
+    "syllabus_mapping_note": "Official Unit 1 explicitly lists distinctions between varṇa, jāti and caste, with Bhagavadgītā references. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_056",
@@ -2573,7 +2683,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q056",
-    "syllabus_mapping_note": "Official Unit 4 explicitly names pramātā in the Indian model of textual analysis."
+    "syllabus_mapping_note": "Official Unit 4 explicitly names pramātā in the Indian model of textual analysis. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2025_057",
@@ -2619,7 +2731,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q057",
-    "syllabus_mapping_note": "Brahmavihāra is a Buddhist concept; official Unit 1 includes Bauddha-darśana traditions, but the exact sequence is not listed; provisional."
+    "syllabus_mapping_note": "Brahmavihāra is a Buddhist concept; official Unit 1 includes Bauddha-darśana traditions, but the exact sequence is not listed; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_058",
@@ -2665,7 +2779,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q058",
-    "syllabus_mapping_note": "Official Unit 10 covers allied topics including mandirs, śaktipīṭhas, maṭhas, jyotirliṅgas and dhāmas; the question concerns Agama requirements for pilgrimage."
+    "syllabus_mapping_note": "Official Unit 10 covers allied topics including mandirs, śaktipīṭhas, maṭhas, jyotirliṅgas and dhāmas; the question concerns Agama requirements for pilgrimage. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_059",
@@ -2711,7 +2827,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q059",
-    "syllabus_mapping_note": "Tripiṭakas are Buddhist religious texts; official Unit 1 includes Bauddha-darśana traditions, but the text collection is not explicitly listed; provisional."
+    "syllabus_mapping_note": "Tripiṭakas are Buddhist religious texts; official Unit 1 includes Bauddha-darśana traditions, but the text collection is not explicitly listed; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_060",
@@ -2757,7 +2875,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q060",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes important mandirs."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes important mandirs. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_061",
@@ -2803,7 +2923,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q061",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya types and elements."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya types and elements. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_062",
@@ -2849,7 +2971,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q062",
-    "syllabus_mapping_note": "Bodhisattva/Buddhaputra concept is associated with Buddhist traditions; Unit 1 includes Buddhist darśana traditions, but this exact term is not explicitly named."
+    "syllabus_mapping_note": "Bodhisattva/Buddhaputra concept is associated with Buddhist traditions; Unit 1 includes Buddhist darśana traditions, but this exact term is not explicitly named. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_063",
@@ -2895,7 +3019,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q063",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya/rūpaka and rasa."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya/rūpaka and rasa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_064",
@@ -2941,7 +3067,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q064",
-    "syllabus_mapping_note": "Official Unit 6 explicitly covers Western approaches, structuralism and related intellectual methods."
+    "syllabus_mapping_note": "Official Unit 6 explicitly covers Western approaches, structuralism and related intellectual methods. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2025_065",
@@ -2987,7 +3115,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q065",
-    "syllabus_mapping_note": "The question compares dharma traditions through the karma doctrine, a direct Unit 2 topic."
+    "syllabus_mapping_note": "The question compares dharma traditions through the karma doctrine, a direct Unit 2 topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_066",
@@ -3033,7 +3163,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q066",
-    "syllabus_mapping_note": "Official Unit 1 covers the aṣṭādaśa vidyās and Upāṅgas, including Vedāṅga traditions such as Nirukta/Śikṣā."
+    "syllabus_mapping_note": "Official Unit 1 covers the aṣṭādaśa vidyās and Upāṅgas, including Vedāṅga traditions such as Nirukta/Śikṣā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_067",
@@ -3079,7 +3211,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q067",
-    "syllabus_mapping_note": "Bodhicaryāvatāra is a Buddhist text; Unit 1 includes Buddhist darśana traditions, but this specific text is not listed."
+    "syllabus_mapping_note": "Bodhicaryāvatāra is a Buddhist text; Unit 1 includes Buddhist darśana traditions, but this specific text is not listed. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_068",
@@ -3125,7 +3259,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q068",
-    "syllabus_mapping_note": "Official Unit 5 directly covers Vāda-paramparā, including vāda, jalpa and vitaṇḍā."
+    "syllabus_mapping_note": "Official Unit 5 directly covers Vāda-paramparā, including vāda, jalpa and vitaṇḍā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_069",
@@ -3171,7 +3307,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q069",
-    "syllabus_mapping_note": "Question directly concerns the goal of the vāda process."
+    "syllabus_mapping_note": "Question directly concerns the goal of the vāda process. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_070",
@@ -3217,7 +3355,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q070",
-    "syllabus_mapping_note": "Official Unit 1 includes Upaniṣadic texts and textual traditions."
+    "syllabus_mapping_note": "Official Unit 1 includes Upaniṣadic texts and textual traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_071",
@@ -3263,7 +3403,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q071",
-    "syllabus_mapping_note": "Abhidhā/Lakṣaṇā/Tātparya/Vyañjanā and the meaning of vṛtti concern verbal meaning/śabda-śakti, within the official Pramāṇa Siddhānta topics."
+    "syllabus_mapping_note": "Abhidhā/Lakṣaṇā/Tātparya/Vyañjanā and the meaning of vṛtti concern verbal meaning/śabda-śakti, within the official Pramāṇa Siddhānta topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2025_072",
@@ -3309,7 +3451,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q072",
-    "syllabus_mapping_note": "Unit 10, item 1 explicitly covers challenges in translation and distinctions between original texts and translations; this question asks about a translation of Meghaduta."
+    "syllabus_mapping_note": "Unit 10, item 1 explicitly covers challenges in translation and distinctions between original texts and translations; this question asks about a translation of Meghaduta. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_073",
@@ -3355,7 +3499,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q073",
-    "syllabus_mapping_note": "Laṅkāvatārasūtra is a Buddhist text; Unit 1 includes Buddhist darśana traditions, but this text is not explicitly listed."
+    "syllabus_mapping_note": "Laṅkāvatārasūtra is a Buddhist text; Unit 1 includes Buddhist darśana traditions, but this text is not explicitly listed. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_074",
@@ -3401,7 +3547,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q074",
-    "syllabus_mapping_note": "Question explicitly asks about Vāda-paramparā and critique; Unit 5 covers debate and critical traditions."
+    "syllabus_mapping_note": "Question explicitly asks about Vāda-paramparā and critique; Unit 5 covers debate and critical traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2025_075",
@@ -3447,7 +3595,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q075",
-    "syllabus_mapping_note": "Question concerns a Rāmāyaṇa episode involving Rāma and Sugrīva."
+    "syllabus_mapping_note": "Question concerns a Rāmāyaṇa episode involving Rāma and Sugrīva. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2025_076",
@@ -3493,7 +3643,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q076",
-    "syllabus_mapping_note": "Question concerns Rāma's family in the Rāmāyaṇa tradition."
+    "syllabus_mapping_note": "Question concerns Rāma's family in the Rāmāyaṇa tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2025_077",
@@ -3539,7 +3691,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q077",
-    "syllabus_mapping_note": "The question concerns Buddhist councils; Unit 1 includes Buddhist traditions, but councils are not explicitly named."
+    "syllabus_mapping_note": "The question concerns Buddhist councils; Unit 1 includes Buddhist traditions, but councils are not explicitly named. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_078",
@@ -3585,7 +3739,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q078",
-    "syllabus_mapping_note": "Official Unit 10 explicitly lists important mandirs."
+    "syllabus_mapping_note": "Official Unit 10 explicitly lists important mandirs. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_079",
@@ -3631,7 +3787,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q079",
-    "syllabus_mapping_note": "Question asks about Purāṇic titles; Other Allied Topics is the closest listed unit, but this exact list is not named, so provisional."
+    "syllabus_mapping_note": "Question asks about Purāṇic titles; Other Allied Topics is the closest listed unit, but this exact list is not named, so provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_080",
@@ -3677,7 +3835,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q080",
-    "syllabus_mapping_note": "Official Unit 2 explicitly covers Varṇāśrama dharma and āśrama obligations."
+    "syllabus_mapping_note": "Official Unit 2 explicitly covers Varṇāśrama dharma and āśrama obligations. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_081",
@@ -3723,7 +3883,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q081",
-    "syllabus_mapping_note": "Viśuddhimagga is a Buddhist text; Unit 1 includes Buddhist traditions, but this specific work is not listed."
+    "syllabus_mapping_note": "Viśuddhimagga is a Buddhist text; Unit 1 includes Buddhist traditions, but this specific work is not listed. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_082",
@@ -3769,7 +3931,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q082",
-    "syllabus_mapping_note": "Question concerns Karṇa and the Mahābhārata."
+    "syllabus_mapping_note": "Question concerns Karṇa and the Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_083",
@@ -3815,7 +3979,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q083",
-    "syllabus_mapping_note": "Akṣauhiṇī is a Mahābhārata army/war formation term; Unit 8 covers Mahābhārata narratives and related topics."
+    "syllabus_mapping_note": "Akṣauhiṇī is a Mahābhārata army/war formation term; Unit 8 covers Mahābhārata narratives and related topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_084",
@@ -3861,7 +4027,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q084",
-    "syllabus_mapping_note": "Question directly concerns the Lakṣāgṛha episode in the Mahābhārata."
+    "syllabus_mapping_note": "Question directly concerns the Lakṣāgṛha episode in the Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_085",
@@ -3907,7 +4075,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q085",
-    "syllabus_mapping_note": "The verse is from Bhagavadgītā; official Unit 2 includes Dharma/Karma topics and Bhagavadgītā teachings."
+    "syllabus_mapping_note": "The verse is from Bhagavadgītā; official Unit 2 includes Dharma/Karma topics and Bhagavadgītā teachings. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2025_086",
@@ -3953,7 +4123,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q086",
-    "syllabus_mapping_note": "Question concerns Subhadrā, a Mahābhārata figure."
+    "syllabus_mapping_note": "Question concerns Subhadrā, a Mahābhārata figure. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_087",
@@ -3999,7 +4171,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q087",
-    "syllabus_mapping_note": "Question refers to Viśvāmitra imparting Bāla and Atibāla to Rāma in the Rāmāyaṇa tradition."
+    "syllabus_mapping_note": "Question refers to Viśvāmitra imparting Bāla and Atibāla to Rāma in the Rāmāyaṇa tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2025_088",
@@ -4045,7 +4219,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q088",
-    "syllabus_mapping_note": "Question concerns Ambā/Shikhaṇḍī in the Mahābhārata."
+    "syllabus_mapping_note": "Question concerns Ambā/Shikhaṇḍī in the Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2025_089",
@@ -4091,7 +4267,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q089",
-    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and selected Sanskrit literary works."
+    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and selected Sanskrit literary works. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_090",
@@ -4137,7 +4315,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q090",
-    "syllabus_mapping_note": "This is a Purāṇic episode, but the official Unit 10 subtopics do not explicitly name this episode; provisional."
+    "syllabus_mapping_note": "This is a Purāṇic episode, but the official Unit 10 subtopics do not explicitly name this episode; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_091",
@@ -4183,7 +4363,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q091",
-    "syllabus_mapping_note": "The question directly tests Sanskrit samāsa/compound classification."
+    "syllabus_mapping_note": "The question directly tests Sanskrit samāsa/compound classification. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2025_092",
@@ -4229,7 +4411,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q092",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Sant-paramparā."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Sant-paramparā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_093",
@@ -4275,7 +4459,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q093",
-    "syllabus_mapping_note": "Unit 10, item 3 explicitly lists Jhulelal in the Sant-parampara; this question directly concerns Saint Jhulelal."
+    "syllabus_mapping_note": "Unit 10, item 3 explicitly lists Jhulelal in the Sant-parampara; this question directly concerns Saint Jhulelal. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_094",
@@ -4321,7 +4507,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q094",
-    "syllabus_mapping_note": "Official Unit 10 includes allied Sanskrit texts and selected kings/dynasties; Samarāṅgaṇa Sūtradhāra is the text named in the question."
+    "syllabus_mapping_note": "Official Unit 10 includes allied Sanskrit texts and selected kings/dynasties; Samarāṅgaṇa Sūtradhāra is the text named in the question. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_095",
@@ -4367,7 +4555,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q095",
-    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and Sanskrit/Indic literary traditions."
+    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and Sanskrit/Indic literary traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_096",
@@ -4413,7 +4603,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q096",
-    "syllabus_mapping_note": "Ratnatraya concerns Jain philosophical tradition; Unit 1 covers tattva across traditions, but this exact Jain triad is not explicitly named."
+    "syllabus_mapping_note": "Ratnatraya concerns Jain philosophical tradition; Unit 1 covers tattva across traditions, but this exact Jain triad is not explicitly named. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_097",
@@ -4459,7 +4651,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q097",
-    "syllabus_mapping_note": "Unit 1 explicitly includes Sri Guru Granth Sahibji among the traditions/textual contexts; the quoted line is from that scripture."
+    "syllabus_mapping_note": "Unit 1 explicitly includes Sri Guru Granth Sahibji among the traditions/textual contexts; the quoted line is from that scripture. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2025_098",
@@ -4505,7 +4699,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q098",
-    "syllabus_mapping_note": "Official Unit 10 includes concepts of Īśvara among tribes of Northeast India; Jaintia is a Northeast Indian tribal context."
+    "syllabus_mapping_note": "Official Unit 10 includes concepts of Īśvara among tribes of Northeast India; Jaintia is a Northeast Indian tribal context. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_099",
@@ -4551,7 +4747,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q099",
-    "syllabus_mapping_note": "Official Unit 10 explicitly lists important mandirs/temples."
+    "syllabus_mapping_note": "Official Unit 10 explicitly lists important mandirs/temples. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2025_100",
@@ -4597,7 +4795,9 @@
     "source_pdf": "nov2528.pdf",
     "answer_key_pdf": "nov2528 (1).pdf",
     "staging_id": "GSET-HS-202511-Q100",
-    "syllabus_mapping_note": "Unit 10, item 3 explicitly lists Thiruvalluvur in the Sant-parampara; the question concerns the Tirukkural attributed to Thiruvalluvar."
+    "syllabus_mapping_note": "Unit 10, item 3 explicitly lists Thiruvalluvur in the Sant-parampara; the question concerns the Tirukkural attributed to Thiruvalluvar. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_001",
@@ -4638,7 +4838,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q001",
-    "syllabus_mapping_note": "Question directly asks for a definition of Dharma from Mahābhārata; official Unit 2 covers definitions/meanings of Dharma."
+    "syllabus_mapping_note": "Question directly asks for a definition of Dharma from Mahābhārata; official Unit 2 covers definitions/meanings of Dharma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_002",
@@ -4679,7 +4881,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q002",
-    "syllabus_mapping_note": "Official Unit 2 explicitly covers Dharma and religion; the question asks about belief in God as a requirement in those contexts."
+    "syllabus_mapping_note": "Official Unit 2 explicitly covers Dharma and religion; the question asks about belief in God as a requirement in those contexts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_003",
@@ -4720,7 +4924,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q003",
-    "syllabus_mapping_note": "Question directly concerns the nature of Dharma and renunciation."
+    "syllabus_mapping_note": "Question directly concerns the nature of Dharma and renunciation. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_004",
@@ -4761,7 +4967,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q004",
-    "syllabus_mapping_note": "Question directly concerns the Vedic concept from which Dharma is derived."
+    "syllabus_mapping_note": "Question directly concerns the Vedic concept from which Dharma is derived. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_005",
@@ -4802,7 +5010,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q005",
-    "syllabus_mapping_note": "The question is about Varṇa in Manusmṛti; official Unit 2 includes Varṇāśrama Dharma and related duty."
+    "syllabus_mapping_note": "The question is about Varṇa in Manusmṛti; official Unit 2 includes Varṇāśrama Dharma and related duty. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_006",
@@ -4843,7 +5053,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q006",
-    "syllabus_mapping_note": "Question asks about a king's duty according to Kauṭilya; official Unit 2 explicitly covers Rāja-dharma."
+    "syllabus_mapping_note": "Question asks about a king's duty according to Kauṭilya; official Unit 2 explicitly covers Rāja-dharma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_007",
@@ -4884,7 +5096,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q007",
-    "syllabus_mapping_note": "Question directly tests Māheśvara sūtra and Sanskrit grammar."
+    "syllabus_mapping_note": "Question directly tests Māheśvara sūtra and Sanskrit grammar. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_008",
@@ -4925,7 +5139,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q008",
-    "syllabus_mapping_note": "Question tests Sanskrit place of articulation."
+    "syllabus_mapping_note": "Question tests Sanskrit place of articulation. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_009",
@@ -4966,7 +5182,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q009",
-    "syllabus_mapping_note": "Question tests Sanskrit nominal inflection/case form."
+    "syllabus_mapping_note": "Question tests Sanskrit nominal inflection/case form. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_010",
@@ -5007,7 +5225,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q010",
-    "syllabus_mapping_note": "Question tests Sanskrit case form and inflection."
+    "syllabus_mapping_note": "Question tests Sanskrit case form and inflection. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_011",
@@ -5048,7 +5268,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q011",
-    "syllabus_mapping_note": "Question tests Sanskrit verb morphology and lakāra."
+    "syllabus_mapping_note": "Question tests Sanskrit verb morphology and lakāra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_012",
@@ -5089,7 +5311,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q012",
-    "syllabus_mapping_note": "Question directly tests Sanskrit yaṇ-sandhi."
+    "syllabus_mapping_note": "Question directly tests Sanskrit yaṇ-sandhi. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_013",
@@ -5130,7 +5354,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q013",
-    "syllabus_mapping_note": "Question directly tests Sanskrit bahuvrīhi-samāsa."
+    "syllabus_mapping_note": "Question directly tests Sanskrit bahuvrīhi-samāsa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_014",
@@ -5171,7 +5397,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q014",
-    "syllabus_mapping_note": "Question tests Sanskrit case usage with vinā."
+    "syllabus_mapping_note": "Question tests Sanskrit case usage with vinā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_015",
@@ -5212,7 +5440,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q015",
-    "syllabus_mapping_note": "Question directly tests Sanskrit kāraka."
+    "syllabus_mapping_note": "Question directly tests Sanskrit kāraka. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_016",
@@ -5253,7 +5483,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q016",
-    "syllabus_mapping_note": "Question directly tests Sanskrit vācya."
+    "syllabus_mapping_note": "Question directly tests Sanskrit vācya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_017",
@@ -5294,7 +5526,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q017",
-    "syllabus_mapping_note": "Question directly tests Sanskrit strī-pratyaya."
+    "syllabus_mapping_note": "Question directly tests Sanskrit strī-pratyaya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_018",
@@ -5335,7 +5569,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q018",
-    "syllabus_mapping_note": "Question directly tests the Sanskrit indeclinable category (avyaya)."
+    "syllabus_mapping_note": "Question directly tests the Sanskrit indeclinable category (avyaya). Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_019",
@@ -5376,7 +5612,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q019",
-    "syllabus_mapping_note": "Question is about the critical textual edition of the Rāmāyaṇa."
+    "syllabus_mapping_note": "Question is about the critical textual edition of the Rāmāyaṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_DECEMBER2024_020",
@@ -5417,7 +5655,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q020",
-    "syllabus_mapping_note": "Question directly contrasts the term tattva with padārtha while describing reality."
+    "syllabus_mapping_note": "Question directly contrasts the term tattva with padārtha while describing reality. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_021",
@@ -5458,7 +5698,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q021",
-    "syllabus_mapping_note": "Question asks about the grammatical function of Ātman in Vedic usage."
+    "syllabus_mapping_note": "Question asks about the grammatical function of Ātman in Vedic usage. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_DECEMBER2024_022",
@@ -5499,7 +5741,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q022",
-    "syllabus_mapping_note": "Question directly concerns discussion of Ātmā."
+    "syllabus_mapping_note": "Question directly concerns discussion of Ātmā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_023",
@@ -5540,7 +5784,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q023",
-    "syllabus_mapping_note": "Question directly concerns karma arising from actions of body, speech and mind."
+    "syllabus_mapping_note": "Question directly concerns karma arising from actions of body, speech and mind. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_DECEMBER2024_024",
@@ -5581,7 +5827,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q024",
-    "syllabus_mapping_note": "Question concerns Vaiśeṣika padārthas and their attributes across philosophical systems."
+    "syllabus_mapping_note": "Question concerns Vaiśeṣika padārthas and their attributes across philosophical systems. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_025",
@@ -5622,7 +5870,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q025",
-    "syllabus_mapping_note": "Question compares tattva and padārtha across Jain and Vaiśeṣika traditions."
+    "syllabus_mapping_note": "Question compares tattva and padārtha across Jain and Vaiśeṣika traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_026",
@@ -5663,7 +5913,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q026",
-    "syllabus_mapping_note": "Question asks about the Naiyāyika enumeration of padārthas."
+    "syllabus_mapping_note": "Question asks about the Naiyāyika enumeration of padārthas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_027",
@@ -5704,7 +5956,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q027",
-    "syllabus_mapping_note": "Question compares darśana traditions on the limits of language and reality."
+    "syllabus_mapping_note": "Question compares darśana traditions on the limits of language and reality. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_028",
@@ -5745,7 +5999,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q028",
-    "syllabus_mapping_note": "Unit 1 explicitly covers the position of the feminine in Bharata and related traditions; the question concerns the supremacy of female power in the context of Caṇḍī-stuti."
+    "syllabus_mapping_note": "Unit 1 explicitly covers the position of the feminine in Bharata and related traditions; the question concerns the supremacy of female power in the context of Caṇḍī-stuti. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_029",
@@ -5786,7 +6042,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q029",
-    "syllabus_mapping_note": "Unit 10, item 5 explicitly lists Gāthā among the forms of Kāvya; the question asks what is found in a Prakrit Gāthā."
+    "syllabus_mapping_note": "Unit 10, item 5 explicitly lists Gāthā among the forms of Kāvya; the question asks what is found in a Prakrit Gāthā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_030",
@@ -5827,7 +6085,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q030",
-    "syllabus_mapping_note": "Buddhist Abhidhamma Pitaka belongs to Buddhist tradition; Unit 1 includes traditions across darśanas, but the canon is not explicitly named; provisional."
+    "syllabus_mapping_note": "Buddhist Abhidhamma Pitaka belongs to Buddhist tradition; Unit 1 includes traditions across darśanas, but the canon is not explicitly named; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_031",
@@ -5868,7 +6128,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q031",
-    "syllabus_mapping_note": "Question concerns Jainism and its anuvrata tradition."
+    "syllabus_mapping_note": "Question concerns Jainism and its anuvrata tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_032",
@@ -5909,7 +6171,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q032",
-    "syllabus_mapping_note": "Question asks which epic is called Śata-sāhasrī saṃhitā; this is a Mahābhārata topic."
+    "syllabus_mapping_note": "Question asks which epic is called Śata-sāhasrī saṃhitā; this is a Mahābhārata topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_DECEMBER2024_033",
@@ -5950,7 +6214,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q033",
-    "syllabus_mapping_note": "Question directly refers to an episode from Strī-parva of Mahābhārata."
+    "syllabus_mapping_note": "Question directly refers to an episode from Strī-parva of Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_DECEMBER2024_034",
@@ -5991,7 +6257,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q034",
-    "syllabus_mapping_note": "Question directly refers to a Mahābhārata episode and dharma-lakṣaṇas."
+    "syllabus_mapping_note": "Question directly refers to a Mahābhārata episode and dharma-lakṣaṇas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_DECEMBER2024_035",
@@ -6032,7 +6300,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q035",
-    "syllabus_mapping_note": "Question directly concerns the Sundara Kāṇḍa of Rāmāyaṇa."
+    "syllabus_mapping_note": "Question directly concerns the Sundara Kāṇḍa of Rāmāyaṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_DECEMBER2024_036",
@@ -6073,7 +6343,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q036",
-    "syllabus_mapping_note": "Official Unit 5 explicitly covers textual forms including bhāṣya and their interpretive role."
+    "syllabus_mapping_note": "Official Unit 5 explicitly covers textual forms including bhāṣya and their interpretive role. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_037",
@@ -6114,7 +6386,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q037",
-    "syllabus_mapping_note": "Official Unit 5 explicitly covers vāda-paramparā and textual forms such as vārttika."
+    "syllabus_mapping_note": "Official Unit 5 explicitly covers vāda-paramparā and textual forms such as vārttika. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_038",
@@ -6155,7 +6429,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q038",
-    "syllabus_mapping_note": "Official Unit 5 explicitly covers organization of knowledge and sūtra texts."
+    "syllabus_mapping_note": "Official Unit 5 explicitly covers organization of knowledge and sūtra texts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_039",
@@ -6196,7 +6472,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q039",
-    "syllabus_mapping_note": "Official Unit 5 explicitly includes Tantrayukti and structured discourse traditions."
+    "syllabus_mapping_note": "Official Unit 5 explicitly includes Tantrayukti and structured discourse traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_040",
@@ -6237,7 +6515,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q040",
-    "syllabus_mapping_note": "Question directly tests a Kautilya tantra-yukti, within the official Vāda-paramparā/textual methods unit."
+    "syllabus_mapping_note": "Question directly tests a Kautilya tantra-yukti, within the official Vāda-paramparā/textual methods unit. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_041",
@@ -6278,7 +6558,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q041",
-    "syllabus_mapping_note": "Question concerns the Taittirīya Upaniṣad and Śikṣā/Vedāṅga tradition."
+    "syllabus_mapping_note": "Question concerns the Taittirīya Upaniṣad and Śikṣā/Vedāṅga tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_042",
@@ -6319,7 +6601,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q042",
-    "syllabus_mapping_note": "Question directly concerns an Upaniṣadic account and the status of men and women in Vedic tradition."
+    "syllabus_mapping_note": "Question directly concerns an Upaniṣadic account and the status of men and women in Vedic tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_043",
@@ -6360,7 +6644,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q043",
-    "syllabus_mapping_note": "Question directly refers to Bṛhadāraṇyaka Upaniṣad."
+    "syllabus_mapping_note": "Question directly refers to Bṛhadāraṇyaka Upaniṣad. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_044",
@@ -6401,7 +6687,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q044",
-    "syllabus_mapping_note": "Question concerns Brahmavādinī ṛṣikās and a classical Vedic textual source."
+    "syllabus_mapping_note": "Question concerns Brahmavādinī ṛṣikās and a classical Vedic textual source. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_045",
@@ -6442,7 +6730,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q045",
-    "syllabus_mapping_note": "Question concerns a Jain religious role/tradition."
+    "syllabus_mapping_note": "Question concerns a Jain religious role/tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_046",
@@ -6483,7 +6773,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q046",
-    "syllabus_mapping_note": "Jātaka is a Buddhist textual tradition; Unit 1 encompasses traditions across darśanas, but this story is not listed explicitly."
+    "syllabus_mapping_note": "Jātaka is a Buddhist textual tradition; Unit 1 encompasses traditions across darśanas, but this story is not listed explicitly. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_047",
@@ -6524,7 +6816,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q047",
-    "syllabus_mapping_note": "Tārā worship in Buddhist tantra is a Buddhist religious tradition; this specific practice is not listed in the official units."
+    "syllabus_mapping_note": "Tārā worship in Buddhist tantra is a Buddhist religious tradition; this specific practice is not listed in the official units. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_048",
@@ -6565,7 +6859,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q048",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Sant-paramparā; the question attributes a statement to Guru Nānak."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Sant-paramparā; the question attributes a statement to Guru Nānak. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_049",
@@ -6606,7 +6902,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q049",
-    "syllabus_mapping_note": "Question concerns a Jain recasting of the Rāma legend; Unit 7 covers Rāmāyaṇa traditions, though this particular Jain text is not listed."
+    "syllabus_mapping_note": "Question concerns a Jain recasting of the Rāma legend; Unit 7 covers Rāmāyaṇa traditions, though this particular Jain text is not listed. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_DECEMBER2024_050",
@@ -6647,7 +6945,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q050",
-    "syllabus_mapping_note": "Question directly asks about Kathā and philosophical discussion involving debate."
+    "syllabus_mapping_note": "Question directly asks about Kathā and philosophical discussion involving debate. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_051",
@@ -6688,7 +6988,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q051",
-    "syllabus_mapping_note": "Question directly covers Vāda, Jalpa and Vitaṇḍā as discussion forms."
+    "syllabus_mapping_note": "Question directly covers Vāda, Jalpa and Vitaṇḍā as discussion forms. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_052",
@@ -6729,7 +7031,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q052",
-    "syllabus_mapping_note": "Question concerns the practice of structured discourse between teacher and student."
+    "syllabus_mapping_note": "Question concerns the practice of structured discourse between teacher and student. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_053",
@@ -6770,7 +7074,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q053",
-    "syllabus_mapping_note": "Question directly concerns Vitaṇḍā, a form of debate named in Unit 5."
+    "syllabus_mapping_note": "Question directly concerns Vitaṇḍā, a form of debate named in Unit 5. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_054",
@@ -6811,7 +7117,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q054",
-    "syllabus_mapping_note": "Question directly concerns a historical śāstrārtha/debate event."
+    "syllabus_mapping_note": "Question directly concerns a historical śāstrārtha/debate event. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_DECEMBER2024_055",
@@ -6852,7 +7160,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q055",
-    "syllabus_mapping_note": "Question directly asks for the meaning of Mokṣa."
+    "syllabus_mapping_note": "Question directly asks for the meaning of Mokṣa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_DECEMBER2024_056",
@@ -6893,7 +7203,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q056",
-    "syllabus_mapping_note": "Anāthapiṇḍika and the garden are part of Buddhist tradition, but this location is not named explicitly in the syllabus."
+    "syllabus_mapping_note": "Anāthapiṇḍika and the garden are part of Buddhist tradition, but this location is not named explicitly in the syllabus. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_057",
@@ -6934,7 +7246,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q057",
-    "syllabus_mapping_note": "Question concerns rebirth/return in the Bhagavadgītā; Unit 3 covers Punarjanma."
+    "syllabus_mapping_note": "Question concerns rebirth/return in the Bhagavadgītā; Unit 3 covers Punarjanma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_DECEMBER2024_058",
@@ -6975,7 +7289,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q058",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Kāvya and chandas/metres."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Kāvya and chandas/metres. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_059",
@@ -7016,7 +7332,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q059",
-    "syllabus_mapping_note": "Question concerns a Sanskrit drama and its benedictory stanza; Unit 10 includes Nāṭya and Kāvya."
+    "syllabus_mapping_note": "Question concerns a Sanskrit drama and its benedictory stanza; Unit 10 includes Nāṭya and Kāvya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_060",
@@ -7057,7 +7375,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q060",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya and its related texts/commentaries."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes Nāṭya and its related texts/commentaries. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_061",
@@ -7098,7 +7418,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q061",
-    "syllabus_mapping_note": "Question directly tests a Sanskrit metre; Unit 10 includes chandas."
+    "syllabus_mapping_note": "Question directly tests a Sanskrit metre; Unit 10 includes chandas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_062",
@@ -7139,7 +7461,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q062",
-    "syllabus_mapping_note": "Question directly tests Sanskrit metres and pāda syllable counts; Unit 10 includes chandas."
+    "syllabus_mapping_note": "Question directly tests Sanskrit metres and pāda syllable counts; Unit 10 includes chandas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_063",
@@ -7180,7 +7504,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q063",
-    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and Western approaches to Indian knowledge; the question concerns the roots of the European knowledge tradition."
+    "syllabus_mapping_note": "Unit 6 explicitly covers Western descriptions of Bharat and Western approaches to Indian knowledge; the question concerns the roots of the European knowledge tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_DECEMBER2024_064",
@@ -7221,7 +7547,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q064",
-    "syllabus_mapping_note": "Question directly concerns Bhāvas in Nāṭyaśāstra; Unit 10 covers Nāṭya and its elements."
+    "syllabus_mapping_note": "Question directly concerns Bhāvas in Nāṭyaśāstra; Unit 10 covers Nāṭya and its elements. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_065",
@@ -7262,7 +7590,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q065",
-    "syllabus_mapping_note": "Question directly concerns Sthāyī Bhāvas in Nāṭyaśāstra."
+    "syllabus_mapping_note": "Question directly concerns Sthāyī Bhāvas in Nāṭyaśāstra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_066",
@@ -7303,7 +7633,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q066",
-    "syllabus_mapping_note": "Question concerns a Buddhist council; Unit 1 covers philosophical traditions but does not explicitly list councils."
+    "syllabus_mapping_note": "Question concerns a Buddhist council; Unit 1 covers philosophical traditions but does not explicitly list councils. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_067",
@@ -7344,7 +7676,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q067",
-    "syllabus_mapping_note": "Question directly asks about the cause of Bandhana in a Sāṅkhyakārikā quotation; Unit 3 covers bandhana and its causes."
+    "syllabus_mapping_note": "Question directly asks about the cause of Bandhana in a Sāṅkhyakārikā quotation; Unit 3 covers bandhana and its causes. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_DECEMBER2024_068",
@@ -7385,7 +7719,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q068",
-    "syllabus_mapping_note": "Question compares Buddhist philosophy to other darśanas on Veda authority."
+    "syllabus_mapping_note": "Question compares Buddhist philosophy to other darśanas on Veda authority. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_069",
@@ -7426,7 +7762,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q069",
-    "syllabus_mapping_note": "Brahmavihāras are Buddhist philosophical concepts; the exact fourfold set is not explicitly named."
+    "syllabus_mapping_note": "Brahmavihāras are Buddhist philosophical concepts; the exact fourfold set is not explicitly named. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_070",
@@ -7467,7 +7805,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q070",
-    "syllabus_mapping_note": "Unit 3, item 3 explicitly names Pratītya-samutpāda-siddhānta; the question directly asks about that theory."
+    "syllabus_mapping_note": "Unit 3, item 3 explicitly names Pratītya-samutpāda-siddhānta; the question directly asks about that theory. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_DECEMBER2024_071",
@@ -7508,7 +7848,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q071",
-    "syllabus_mapping_note": "Question directly concerns śabda pramāṇa, a core official Unit 4 topic."
+    "syllabus_mapping_note": "Question directly concerns śabda pramāṇa, a core official Unit 4 topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_DECEMBER2024_072",
@@ -7549,7 +7891,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q072",
-    "syllabus_mapping_note": "Question compares Buddhist and Sāṅkhya philosophical views of suffering."
+    "syllabus_mapping_note": "Question compares Buddhist and Sāṅkhya philosophical views of suffering. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_073",
@@ -7590,7 +7934,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q073",
-    "syllabus_mapping_note": "Dhammapada is a Buddhist text; the syllabus does not explicitly name its literary form."
+    "syllabus_mapping_note": "Dhammapada is a Buddhist text; the syllabus does not explicitly name its literary form. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_074",
@@ -7631,7 +7977,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q074",
-    "syllabus_mapping_note": "Question asks which darśana is associated with Tattvopaplavasiṃha, a philosophical-text tradition."
+    "syllabus_mapping_note": "Question asks which darśana is associated with Tattvopaplavasiṃha, a philosophical-text tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_075",
@@ -7672,7 +8020,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q075",
-    "syllabus_mapping_note": "Question directly concerns a Vālmīki Rāmāyaṇa episode involving Vālī and Dundubhi."
+    "syllabus_mapping_note": "Question directly concerns a Vālmīki Rāmāyaṇa episode involving Vālī and Dundubhi. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_DECEMBER2024_076",
@@ -7713,7 +8063,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q076",
-    "syllabus_mapping_note": "Vaṃśa literature is associated with Buddhist traditions, but the syllabus does not name this particular literary category; provisional."
+    "syllabus_mapping_note": "Vaṃśa literature is associated with Buddhist traditions, but the syllabus does not name this particular literary category; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_077",
@@ -7754,7 +8106,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q077",
-    "syllabus_mapping_note": "Question asks about the Buddhist Three Jewels and the Buddhist tradition."
+    "syllabus_mapping_note": "Question asks about the Buddhist Three Jewels and the Buddhist tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_078",
@@ -7795,7 +8149,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q078",
-    "syllabus_mapping_note": "Question tests interpretation of direct meaning (śabda/tātparya), which is within official Unit 4's pramāṇa and verbal-meaning topics."
+    "syllabus_mapping_note": "Question tests interpretation of direct meaning (śabda/tātparya), which is within official Unit 4's pramāṇa and verbal-meaning topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_DECEMBER2024_079",
@@ -7836,7 +8192,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q079",
-    "syllabus_mapping_note": "Question compares philosophical schools on death and liberation; it concerns Cārvāka darśana."
+    "syllabus_mapping_note": "Question compares philosophical schools on death and liberation; it concerns Cārvāka darśana. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_080",
@@ -7877,7 +8235,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q080",
-    "syllabus_mapping_note": "Question tests how sentence meaning is derived through contextual indication (liṅga), part of interpretive/pramāṇa topics."
+    "syllabus_mapping_note": "Question tests how sentence meaning is derived through contextual indication (liṅga), part of interpretive/pramāṇa topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_DECEMBER2024_081",
@@ -7918,7 +8278,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q081",
-    "syllabus_mapping_note": "Official Unit 10 includes translation challenges and distinctions in rendering Indian concepts; the question asks how to explain Sanskrit terms in English."
+    "syllabus_mapping_note": "Official Unit 10 includes translation challenges and distinctions in rendering Indian concepts; the question asks how to explain Sanskrit terms in English. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_082",
@@ -7959,7 +8321,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q082",
-    "syllabus_mapping_note": "Question compares Vedānta schools of philosophy."
+    "syllabus_mapping_note": "Question compares Vedānta schools of philosophy. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_083",
@@ -8000,7 +8364,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q083",
-    "syllabus_mapping_note": "Question concerns a Dvaita Vedānta lineage and teacher-disciple tradition."
+    "syllabus_mapping_note": "Question concerns a Dvaita Vedānta lineage and teacher-disciple tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_084",
@@ -8041,7 +8407,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q084",
-    "syllabus_mapping_note": "Question concerns Pūrṇaprajña/Madhvācārya and a Vedānta tradition."
+    "syllabus_mapping_note": "Question concerns Pūrṇaprajña/Madhvācārya and a Vedānta tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_085",
@@ -8082,7 +8450,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q085",
-    "syllabus_mapping_note": "Question asks the author of a Vaiṣṇava Vedānta philosophical text."
+    "syllabus_mapping_note": "Question asks the author of a Vaiṣṇava Vedānta philosophical text. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_086",
@@ -8123,7 +8493,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q086",
-    "syllabus_mapping_note": "Question concerns Māyāvādakhaṇḍanam and the Vedānta schools."
+    "syllabus_mapping_note": "Question concerns Māyāvādakhaṇḍanam and the Vedānta schools. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_087",
@@ -8164,7 +8536,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q087",
-    "syllabus_mapping_note": "Question concerns Abhinavagupta and Kashmir Śaiva/Vedānta commentary traditions."
+    "syllabus_mapping_note": "Question concerns Abhinavagupta and Kashmir Śaiva/Vedānta commentary traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_088",
@@ -8205,7 +8579,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q088",
-    "syllabus_mapping_note": "Question directly concerns Kashmir Śaiva philosophical texts."
+    "syllabus_mapping_note": "Question directly concerns Kashmir Śaiva philosophical texts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_DECEMBER2024_089",
@@ -8246,7 +8622,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q089",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and Kāvya/literary traditions."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and Kāvya/literary traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_090",
@@ -8287,7 +8665,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q090",
-    "syllabus_mapping_note": "Question concerns Sanskrit drama and its transmission/translation; official Unit 10 includes Nāṭya and translation/allied literary topics."
+    "syllabus_mapping_note": "Question concerns Sanskrit drama and its transmission/translation; official Unit 10 includes Nāṭya and translation/allied literary topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_091",
@@ -8328,7 +8708,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q091",
-    "syllabus_mapping_note": "Question directly concerns a Sanskrit Kāvya about the life of Buddha's half-brother."
+    "syllabus_mapping_note": "Question directly concerns a Sanskrit Kāvya about the life of Buddha's half-brother. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_092",
@@ -8369,7 +8751,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q092",
-    "syllabus_mapping_note": "Question asks about a poetic work depicting a king; official Unit 10 includes Kāvya and selected kings/dynasties."
+    "syllabus_mapping_note": "Question asks about a poetic work depicting a king; official Unit 10 includes Kāvya and selected kings/dynasties. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_093",
@@ -8410,7 +8794,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q093",
-    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and Sanskrit literary traditions, including major poets."
+    "syllabus_mapping_note": "Official Unit 10 includes Kāvya and Sanskrit literary traditions, including major poets. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_094",
@@ -8451,7 +8837,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q094",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical traditions."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_095",
@@ -8492,7 +8880,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q095",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes important mandirs/temples."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes important mandirs/temples. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_096",
@@ -8533,7 +8923,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q096",
-    "syllabus_mapping_note": "Question directly concerns a Cambodian Rāmāyaṇa tradition."
+    "syllabus_mapping_note": "Question directly concerns a Cambodian Rāmāyaṇa tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_DECEMBER2024_097",
@@ -8574,7 +8966,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q097",
-    "syllabus_mapping_note": "Official Unit 10 explicitly includes important temples."
+    "syllabus_mapping_note": "Official Unit 10 explicitly includes important temples. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_098",
@@ -8615,7 +9009,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q098",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied history."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied history. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_099",
@@ -8656,7 +9052,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q099",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied history."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied history. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_DECEMBER2024_100",
@@ -8697,7 +9095,9 @@
     "source_pdf": "dec2428.pdf",
     "answer_key_pdf": "dec2428 (1).pdf",
     "staging_id": "GSET-HS-202412-Q100",
-    "syllabus_mapping_note": "Official Unit 10 includes selected dynasties/allied historical topics."
+    "syllabus_mapping_note": "Official Unit 10 includes selected dynasties/allied historical topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_001",
@@ -8738,7 +9138,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q001",
-    "syllabus_mapping_note": "Question directly tests the Sanskrit phonetic/grammatical classification of anusvāra."
+    "syllabus_mapping_note": "Question directly tests the Sanskrit phonetic/grammatical classification of anusvāra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_002",
@@ -8779,7 +9181,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q002",
-    "syllabus_mapping_note": "Question directly tests Sanskrit nominal gender, case and number forms."
+    "syllabus_mapping_note": "Question directly tests Sanskrit nominal gender, case and number forms. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_003",
@@ -8820,7 +9224,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q003",
-    "syllabus_mapping_note": "Official Unit 1 explicitly covers the meaning/definition of the term Hindu."
+    "syllabus_mapping_note": "Official Unit 1 explicitly covers the meaning/definition of the term Hindu. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_004",
@@ -8861,7 +9267,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q004",
-    "syllabus_mapping_note": "Official Unit 1 explicitly lists Aṣṭādaśa-vidyā and Upāṅgas."
+    "syllabus_mapping_note": "Official Unit 1 explicitly lists Aṣṭādaśa-vidyā and Upāṅgas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_005",
@@ -8902,7 +9310,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q005",
-    "syllabus_mapping_note": "Question concerns the Śatapatha Brāhmaṇa and Vedic textual traditions."
+    "syllabus_mapping_note": "Question concerns the Śatapatha Brāhmaṇa and Vedic textual traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_006",
@@ -8943,7 +9353,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q006",
-    "syllabus_mapping_note": "Question concerns dravya in Dvaita Vedānta."
+    "syllabus_mapping_note": "Question concerns dravya in Dvaita Vedānta. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_007",
@@ -8984,7 +9396,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q007",
-    "syllabus_mapping_note": "Question concerns Prakṛti and the cause of creation, a direct Unit 1 tattva/Prakṛti topic."
+    "syllabus_mapping_note": "Question concerns Prakṛti and the cause of creation, a direct Unit 1 tattva/Prakṛti topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_008",
@@ -9025,7 +9439,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q008",
-    "syllabus_mapping_note": "Question compares Ācāryas and their views of Jagat/reality."
+    "syllabus_mapping_note": "Question compares Ācāryas and their views of Jagat/reality. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_009",
@@ -9066,7 +9482,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q009",
-    "syllabus_mapping_note": "Question compares philosophical schools on Jīva and Jaḍa."
+    "syllabus_mapping_note": "Question compares philosophical schools on Jīva and Jaḍa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_010",
@@ -9107,7 +9525,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q010",
-    "syllabus_mapping_note": "Unit 1, item 6 explicitly includes Bauddha-darśana and the position of the feminine in Buddhist traditions; the question concerns the Buddhist goddess Tārā."
+    "syllabus_mapping_note": "Unit 1, item 6 explicitly includes Bauddha-darśana and the position of the feminine in Buddhist traditions; the question concerns the Buddhist goddess Tārā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_011",
@@ -9148,7 +9568,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q011",
-    "syllabus_mapping_note": "Question compares philosophical traditions and the Māyāvāda doctrine."
+    "syllabus_mapping_note": "Question compares philosophical traditions and the Māyāvāda doctrine. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_012",
@@ -9189,7 +9611,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q012",
-    "syllabus_mapping_note": "The passage describes a Buddhist sage/renunciant, but the specific source and exact syllabus subtopic need independent confirmation; provisional."
+    "syllabus_mapping_note": "The passage describes a Buddhist sage/renunciant, but the specific source and exact syllabus subtopic need independent confirmation; provisional. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_013",
@@ -9230,7 +9654,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q013",
-    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Varṇa; Unit 1 includes varṇa/jāti/caste distinctions."
+    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Varṇa; Unit 1 includes varṇa/jāti/caste distinctions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_014",
@@ -9271,7 +9697,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q014",
-    "syllabus_mapping_note": "Question directly concerns a Vāk-sūkta in the Ṛgveda."
+    "syllabus_mapping_note": "Question directly concerns a Vāk-sūkta in the Ṛgveda. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_015",
@@ -9312,7 +9740,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q015",
-    "syllabus_mapping_note": "Question directly refers to Mahābhārata and Viṣṇu's avatāras."
+    "syllabus_mapping_note": "Question directly refers to Mahābhārata and Viṣṇu's avatāras. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_016",
@@ -9353,7 +9783,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q016",
-    "syllabus_mapping_note": "Official Unit 2 includes Dharma definitions and specifically names Vaiśeṣika Sūtra."
+    "syllabus_mapping_note": "Official Unit 2 includes Dharma definitions and specifically names Vaiśeṣika Sūtra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_017",
@@ -9394,7 +9826,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q017",
-    "syllabus_mapping_note": "Question directly asks the meaning of svadharma in the Bhagavadgītā verse."
+    "syllabus_mapping_note": "Question directly asks the meaning of svadharma in the Bhagavadgītā verse. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_018",
@@ -9435,7 +9869,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q018",
-    "syllabus_mapping_note": "Question asks for a source of the Mahājanapada tradition among Indian texts."
+    "syllabus_mapping_note": "Question asks for a source of the Mahājanapada tradition among Indian texts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_019",
@@ -9476,7 +9912,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q019",
-    "syllabus_mapping_note": "Question concerns the limbs of Rājya/statecraft, fitting the official Rāja-dharma topic."
+    "syllabus_mapping_note": "Question concerns the limbs of Rājya/statecraft, fitting the official Rāja-dharma topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_020",
@@ -9517,7 +9955,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q020",
-    "syllabus_mapping_note": "Question concerns Buddhist philosophical categories of dharma and momentariness."
+    "syllabus_mapping_note": "Question concerns Buddhist philosophical categories of dharma and momentariness. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_021",
@@ -9558,7 +9998,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q021",
-    "syllabus_mapping_note": "Question compares Buddhist philosophical schools and categories of dharma."
+    "syllabus_mapping_note": "Question compares Buddhist philosophical schools and categories of dharma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_022",
@@ -9599,7 +10041,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q022",
-    "syllabus_mapping_note": "Question directly concerns the categories of karma in Hindu Dharma."
+    "syllabus_mapping_note": "Question directly concerns the categories of karma in Hindu Dharma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_023",
@@ -9640,7 +10084,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q023",
-    "syllabus_mapping_note": "Question directly concerns the Buddhist five Skandhas."
+    "syllabus_mapping_note": "Question directly concerns the Buddhist five Skandhas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_024",
@@ -9681,7 +10127,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q024",
-    "syllabus_mapping_note": "Question concerns the Jain concept of Jīva."
+    "syllabus_mapping_note": "Question concerns the Jain concept of Jīva. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_025",
@@ -9722,7 +10170,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q025",
-    "syllabus_mapping_note": "Question compares philosophical views of Jīva."
+    "syllabus_mapping_note": "Question compares philosophical views of Jīva. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_026",
@@ -9763,7 +10213,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q026",
-    "syllabus_mapping_note": "Question directly concerns Dvaita Vedānta's classification of beings."
+    "syllabus_mapping_note": "Question directly concerns Dvaita Vedānta's classification of beings. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_027",
@@ -9804,7 +10256,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q027",
-    "syllabus_mapping_note": "Question identifies a source text for a verse about Jīva."
+    "syllabus_mapping_note": "Question identifies a source text for a verse about Jīva. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_028",
@@ -9845,7 +10299,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q028",
-    "syllabus_mapping_note": "Question concerns Rājoguṇa and Kāma in the Bhagavadgītā, fitting the official Prakṛti/tattva topics."
+    "syllabus_mapping_note": "Question concerns Rājoguṇa and Kāma in the Bhagavadgītā, fitting the official Prakṛti/tattva topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_029",
@@ -9886,7 +10342,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q029",
-    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Kāma and Jñāna."
+    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Kāma and Jñāna. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_030",
@@ -9927,7 +10385,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q030",
-    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Kāma, mind, intellect and senses."
+    "syllabus_mapping_note": "Question concerns the Bhagavadgītā's account of Kāma, mind, intellect and senses. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_031",
@@ -9968,7 +10428,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q031",
-    "syllabus_mapping_note": "Question directly concerns the cause and process of Bandhana."
+    "syllabus_mapping_note": "Question directly concerns the cause and process of Bandhana. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_032",
@@ -10009,7 +10471,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q032",
-    "syllabus_mapping_note": "Pratītya-samutpāda and its nidānas relate directly to causes/processes of bondage and rebirth."
+    "syllabus_mapping_note": "Pratītya-samutpāda and its nidānas relate directly to causes/processes of bondage and rebirth. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_033",
@@ -10050,7 +10514,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q033",
-    "syllabus_mapping_note": "Question concerns dependent origination and the causal sequence leading to rebirth."
+    "syllabus_mapping_note": "Question concerns dependent origination and the causal sequence leading to rebirth. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_034",
@@ -10091,7 +10557,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q034",
-    "syllabus_mapping_note": "Question directly asks the cause of suffering in Pratītya-samutpāda."
+    "syllabus_mapping_note": "Question directly asks the cause of suffering in Pratītya-samutpāda. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_035",
@@ -10132,7 +10600,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q035",
-    "syllabus_mapping_note": "Pretyabhāva means rebirth, an explicit Unit 3 topic."
+    "syllabus_mapping_note": "Pretyabhāva means rebirth, an explicit Unit 3 topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_036",
@@ -10173,7 +10643,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q036",
-    "syllabus_mapping_note": "Tripuṇḍra is a Hindu ritual mark, but it is not explicitly named in the official unit topics; provisional allied-topic mapping."
+    "syllabus_mapping_note": "Tripuṇḍra is a Hindu ritual mark, but it is not explicitly named in the official unit topics; provisional allied-topic mapping. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_037",
@@ -10214,7 +10686,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q037",
-    "syllabus_mapping_note": "Question concerns the Prasthānatrayī, a core Vedānta textual tradition."
+    "syllabus_mapping_note": "Question concerns the Prasthānatrayī, a core Vedānta textual tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_038",
@@ -10255,7 +10729,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q038",
-    "syllabus_mapping_note": "Question directly concerns apavarga/liberation in the Nyāyasūtra; Unit 3 covers mokṣa/liberation."
+    "syllabus_mapping_note": "Question directly concerns apavarga/liberation in the Nyāyasūtra; Unit 3 covers mokṣa/liberation. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_039",
@@ -10296,7 +10772,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q039",
-    "syllabus_mapping_note": "Question compares philosophical schools on rebirth."
+    "syllabus_mapping_note": "Question compares philosophical schools on rebirth. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_040",
@@ -10337,7 +10815,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q040",
-    "syllabus_mapping_note": "Question concerns nirvāṇa as liberation; Unit 3 explicitly covers mokṣa/nirvāṇa."
+    "syllabus_mapping_note": "Question concerns nirvāṇa as liberation; Unit 3 explicitly covers mokṣa/nirvāṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_041",
@@ -10378,7 +10858,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q041",
-    "syllabus_mapping_note": "Question compares philosophical accounts of liberation and cessation of suffering."
+    "syllabus_mapping_note": "Question compares philosophical accounts of liberation and cessation of suffering. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_042",
@@ -10419,7 +10901,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q042",
-    "syllabus_mapping_note": "Official Unit 5 explicitly lists Anubandha-catuṣṭaya."
+    "syllabus_mapping_note": "Official Unit 5 explicitly lists Anubandha-catuṣṭaya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2023_043",
@@ -10460,7 +10944,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q043",
-    "syllabus_mapping_note": "Question asks for the definition of pramāṇa."
+    "syllabus_mapping_note": "Question asks for the definition of pramāṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_044",
@@ -10501,7 +10987,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q044",
-    "syllabus_mapping_note": "Question concerns Prakṛti as the dancer metaphor in Sāṅkhyakārikā."
+    "syllabus_mapping_note": "Question concerns Prakṛti as the dancer metaphor in Sāṅkhyakārikā. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_045",
@@ -10542,7 +11030,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q045",
-    "syllabus_mapping_note": "Question concerns the number of tattvas in Sāṅkhya Darśana."
+    "syllabus_mapping_note": "Question concerns the number of tattvas in Sāṅkhya Darśana. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_046",
@@ -10583,7 +11073,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q046",
-    "syllabus_mapping_note": "Question asks about siddhānta/structured śāstrārtha terminology."
+    "syllabus_mapping_note": "Question asks about siddhānta/structured śāstrārtha terminology. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2023_047",
@@ -10624,7 +11116,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q047",
-    "syllabus_mapping_note": "Question is the classical example of arthāpatti, a pramāṇa topic."
+    "syllabus_mapping_note": "Question is the classical example of arthāpatti, a pramāṇa topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_048",
@@ -10665,7 +11159,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q048",
-    "syllabus_mapping_note": "Official Unit 2 explicitly includes prāyaścitta among karmas."
+    "syllabus_mapping_note": "Official Unit 2 explicitly includes prāyaścitta among karmas. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_049",
@@ -10706,7 +11202,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q049",
-    "syllabus_mapping_note": "Question directly concerns the definition of vāda in the debate tradition."
+    "syllabus_mapping_note": "Question directly concerns the definition of vāda in the debate tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2023_050",
@@ -10747,7 +11245,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q050",
-    "syllabus_mapping_note": "Question directly concerns types of kathā, including jalpa, vitaṇḍā and vāda."
+    "syllabus_mapping_note": "Question directly concerns types of kathā, including jalpa, vitaṇḍā and vāda. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2023_051",
@@ -10788,7 +11288,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q051",
-    "syllabus_mapping_note": "Question concerns the conditions/relations involved in perception of absence."
+    "syllabus_mapping_note": "Question concerns the conditions/relations involved in perception of absence. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_052",
@@ -10829,7 +11331,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q052",
-    "syllabus_mapping_note": "Jaya is an early title/name associated with the Mahābhārata."
+    "syllabus_mapping_note": "Jaya is an early title/name associated with the Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_053",
@@ -10870,7 +11374,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q053",
-    "syllabus_mapping_note": "Question compares texts based on Mahābhārata."
+    "syllabus_mapping_note": "Question compares texts based on Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_054",
@@ -10911,7 +11417,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q054",
-    "syllabus_mapping_note": "Question compares texts based on the Rāmāyaṇa tradition."
+    "syllabus_mapping_note": "Question compares texts based on the Rāmāyaṇa tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2023_055",
@@ -10952,7 +11460,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q055",
-    "syllabus_mapping_note": "Question concerns Harivaṃśa and its relation to Mahābhārata."
+    "syllabus_mapping_note": "Question concerns Harivaṃśa and its relation to Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_056",
@@ -10993,7 +11503,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q056",
-    "syllabus_mapping_note": "Question directly concerns svalakṣaṇa/sāmānya-lakṣaṇa and prameya/epistemology."
+    "syllabus_mapping_note": "Question directly concerns svalakṣaṇa/sāmānya-lakṣaṇa and prameya/epistemology. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_057",
@@ -11034,7 +11546,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q057",
-    "syllabus_mapping_note": "Question tests the meaning of vākyārtha-jñāna as verbal cognition."
+    "syllabus_mapping_note": "Question tests the meaning of vākyārtha-jñāna as verbal cognition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_058",
@@ -11075,7 +11589,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q058",
-    "syllabus_mapping_note": "Question concerns sense-object contact in perception."
+    "syllabus_mapping_note": "Question concerns sense-object contact in perception. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_059",
@@ -11116,7 +11632,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q059",
-    "syllabus_mapping_note": "Question concerns Lakṣaṇā and semantic relation/śabda-śakti."
+    "syllabus_mapping_note": "Question concerns Lakṣaṇā and semantic relation/śabda-śakti. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_060",
@@ -11157,7 +11675,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q060",
-    "syllabus_mapping_note": "Question compares philosophical schools on Satkāryavāda."
+    "syllabus_mapping_note": "Question compares philosophical schools on Satkāryavāda. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_061",
@@ -11198,7 +11718,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q061",
-    "syllabus_mapping_note": "Question asks about a quality of the mahābhūtas, within tattva/Prakṛti topics."
+    "syllabus_mapping_note": "Question asks about a quality of the mahābhūtas, within tattva/Prakṛti topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_062",
@@ -11239,7 +11761,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q062",
-    "syllabus_mapping_note": "Question asks for the definition of anupalabdhi, a pramāṇa topic."
+    "syllabus_mapping_note": "Question asks for the definition of anupalabdhi, a pramāṇa topic. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_063",
@@ -11280,7 +11804,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q063",
-    "syllabus_mapping_note": "Question directly concerns Edward Said's Orientalism and Western interpretive approaches."
+    "syllabus_mapping_note": "Question directly concerns Edward Said's Orientalism and Western interpretive approaches. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2023_064",
@@ -11321,7 +11847,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q064",
-    "syllabus_mapping_note": "Question directly concerns categorizing arthāpatti as a form of valid knowledge."
+    "syllabus_mapping_note": "Question directly concerns categorizing arthāpatti as a form of valid knowledge. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_065",
@@ -11362,7 +11890,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q065",
-    "syllabus_mapping_note": "Question directly concerns categorizing anupalabdhi as a form of valid knowledge."
+    "syllabus_mapping_note": "Question directly concerns categorizing anupalabdhi as a form of valid knowledge. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_066",
@@ -11403,7 +11933,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q066",
-    "syllabus_mapping_note": "Question asks which tradition accepts sambhava as a pramāṇa."
+    "syllabus_mapping_note": "Question asks which tradition accepts sambhava as a pramāṇa. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_067",
@@ -11444,7 +11976,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q067",
-    "syllabus_mapping_note": "Question defines vyāpti, an inferential/pramāṇa relation."
+    "syllabus_mapping_note": "Question defines vyāpti, an inferential/pramāṇa relation. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_068",
@@ -11485,7 +12019,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q068",
-    "syllabus_mapping_note": "Question tests the Sanskrit grammatical pratyāhāra al."
+    "syllabus_mapping_note": "Question tests the Sanskrit grammatical pratyāhāra al. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_069",
@@ -11526,7 +12062,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q069",
-    "syllabus_mapping_note": "Question tests Sanskrit upapada and case-ending rules."
+    "syllabus_mapping_note": "Question tests Sanskrit upapada and case-ending rules. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_070",
@@ -11567,7 +12105,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q070",
-    "syllabus_mapping_note": "Question tests the category of a Sanskrit indeclinable (avyaya)."
+    "syllabus_mapping_note": "Question tests the category of a Sanskrit indeclinable (avyaya). Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_071",
@@ -11608,7 +12148,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q071",
-    "syllabus_mapping_note": "Question asks to identify a Sanskrit kāraka in a sentence."
+    "syllabus_mapping_note": "Question asks to identify a Sanskrit kāraka in a sentence. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_072",
@@ -11649,7 +12191,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q072",
-    "syllabus_mapping_note": "Question asks to identify kāraka/vācya roles in a Sanskrit sentence."
+    "syllabus_mapping_note": "Question asks to identify kāraka/vācya roles in a Sanskrit sentence. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_073",
@@ -11690,7 +12234,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q073",
-    "syllabus_mapping_note": "Question tests correct Sanskrit numeral form/case for 'four' sons."
+    "syllabus_mapping_note": "Question tests correct Sanskrit numeral form/case for 'four' sons. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_074",
@@ -11731,7 +12277,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q074",
-    "syllabus_mapping_note": "Question concerns the literary text Budhabhūṣaṇa and historical/dynastic tradition."
+    "syllabus_mapping_note": "Question concerns the literary text Budhabhūṣaṇa and historical/dynastic tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_075",
@@ -11772,7 +12320,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q075",
-    "syllabus_mapping_note": "The quoted definition directly describes Vārtika, listed in Unit 5's textual-organization topics."
+    "syllabus_mapping_note": "The quoted definition directly describes Vārtika, listed in Unit 5's textual-organization topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "GSET_28_NOVEMBER2023_076",
@@ -11813,7 +12363,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q076",
-    "syllabus_mapping_note": "Question concerns husband-wife relations among Mahābhārata figures."
+    "syllabus_mapping_note": "Question concerns husband-wife relations among Mahābhārata figures. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_077",
@@ -11854,7 +12406,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q077",
-    "syllabus_mapping_note": "Official Unit 10 includes Sant-paramparā and Kāvya/literary traditions."
+    "syllabus_mapping_note": "Official Unit 10 includes Sant-paramparā and Kāvya/literary traditions. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_078",
@@ -11895,7 +12449,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q078",
-    "syllabus_mapping_note": "Question directly tests Sanskrit samāsa/compound classification."
+    "syllabus_mapping_note": "Question directly tests Sanskrit samāsa/compound classification. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_079",
@@ -11936,7 +12492,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q079",
-    "syllabus_mapping_note": "Question directly tests Sanskrit sandhi."
+    "syllabus_mapping_note": "Question directly tests Sanskrit sandhi. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_080",
@@ -11977,7 +12535,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q080",
-    "syllabus_mapping_note": "Question directly tests Sanskrit suffix/pratyaya."
+    "syllabus_mapping_note": "Question directly tests Sanskrit suffix/pratyaya. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_081",
@@ -12018,7 +12578,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q081",
-    "syllabus_mapping_note": "Official Unit 6 explicitly includes psycho-analytical approaches; the question concerns Freud's psychosexual-development theory."
+    "syllabus_mapping_note": "Official Unit 6 explicitly includes psycho-analytical approaches; the question concerns Freud's psychosexual-development theory. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2023_082",
@@ -12059,7 +12621,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q082",
-    "syllabus_mapping_note": "Question concerns Ferdinand de Saussure and structuralism, a Unit 6 Western intellectual approach."
+    "syllabus_mapping_note": "Question concerns Ferdinand de Saussure and structuralism, a Unit 6 Western intellectual approach. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 6,
+    "unit_id": "unit_6"
   },
   {
     "id": "GSET_28_NOVEMBER2023_083",
@@ -12100,7 +12664,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q083",
-    "syllabus_mapping_note": "Question concerns parataḥ-prāmāṇya, within pramāṇa theory."
+    "syllabus_mapping_note": "Question concerns parataḥ-prāmāṇya, within pramāṇa theory. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_084",
@@ -12141,7 +12707,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q084",
-    "syllabus_mapping_note": "Question is about the Bhagavadgītā and Rājavidyā; official Unit 2 includes Bhagavadgītā/Dharma teachings."
+    "syllabus_mapping_note": "Question is about the Bhagavadgītā and Rājavidyā; official Unit 2 includes Bhagavadgītā/Dharma teachings. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_085",
@@ -12182,7 +12750,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q085",
-    "syllabus_mapping_note": "The verse is from Bhagavadgītā, explicitly included in the Dharma/Karma unit."
+    "syllabus_mapping_note": "The verse is from Bhagavadgītā, explicitly included in the Dharma/Karma unit. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_086",
@@ -12223,7 +12793,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q086",
-    "syllabus_mapping_note": "Question directly concerns apavarga/liberation in the Nyāyasūtra."
+    "syllabus_mapping_note": "Question directly concerns apavarga/liberation in the Nyāyasūtra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_087",
@@ -12264,7 +12836,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q087",
-    "syllabus_mapping_note": "Question directly compares pravṛttimūlaka and nivṛttimūlaka dharma."
+    "syllabus_mapping_note": "Question directly compares pravṛttimūlaka and nivṛttimūlaka dharma. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 2,
+    "unit_id": "unit_2"
   },
   {
     "id": "GSET_28_NOVEMBER2023_088",
@@ -12305,7 +12879,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q088",
-    "syllabus_mapping_note": "Question directly tests Sanskrit feminine ablative singular morphology."
+    "syllabus_mapping_note": "Question directly tests Sanskrit feminine ablative singular morphology. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_089",
@@ -12346,7 +12922,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q089",
-    "syllabus_mapping_note": "Question directly tests Sanskrit verb morphology and lakāra."
+    "syllabus_mapping_note": "Question directly tests Sanskrit verb morphology and lakāra. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "GSET_28_NOVEMBER2023_090",
@@ -12387,7 +12965,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q090",
-    "syllabus_mapping_note": "Question concerns the critical edition of Mahābhārata."
+    "syllabus_mapping_note": "Question concerns the critical edition of Mahābhārata. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "GSET_28_NOVEMBER2023_091",
@@ -12428,7 +13008,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q091",
-    "syllabus_mapping_note": "Question directly concerns vyañjaka śabda and verbal meaning/śabda-śakti."
+    "syllabus_mapping_note": "Question directly concerns vyañjaka śabda and verbal meaning/śabda-śakti. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   },
   {
     "id": "GSET_28_NOVEMBER2023_092",
@@ -12469,7 +13051,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q092",
-    "syllabus_mapping_note": "Question concerns cessation of suffering/liberation in Buddhist philosophy."
+    "syllabus_mapping_note": "Question concerns cessation of suffering/liberation in Buddhist philosophy. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "GSET_28_NOVEMBER2023_093",
@@ -12510,7 +13094,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q093",
-    "syllabus_mapping_note": "Official Unit 10 explicitly covers translation challenges and the translation of Indian concepts."
+    "syllabus_mapping_note": "Official Unit 10 explicitly covers translation challenges and the translation of Indian concepts. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_094",
@@ -12551,7 +13137,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q094",
-    "syllabus_mapping_note": "Question compares philosophical schools on the relationship between God and creation."
+    "syllabus_mapping_note": "Question compares philosophical schools on the relationship between God and creation. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_095",
@@ -12592,7 +13180,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q095",
-    "syllabus_mapping_note": "Question concerns an authoritative philosophical commentary/text associated with Vedānta."
+    "syllabus_mapping_note": "Question concerns an authoritative philosophical commentary/text associated with Vedānta. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_096",
@@ -12633,7 +13223,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q096",
-    "syllabus_mapping_note": "Question concerns a Kashmir Śaiva philosophical/devotional text."
+    "syllabus_mapping_note": "Question concerns a Kashmir Śaiva philosophical/devotional text. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 1,
+    "unit_id": "unit_1"
   },
   {
     "id": "GSET_28_NOVEMBER2023_097",
@@ -12674,7 +13266,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q097",
-    "syllabus_mapping_note": "Question concerns the Cambodian Rāmāyaṇa tradition."
+    "syllabus_mapping_note": "Question concerns the Cambodian Rāmāyaṇa tradition. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 7,
+    "unit_id": "unit_7"
   },
   {
     "id": "GSET_28_NOVEMBER2023_098",
@@ -12715,7 +13309,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q098",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical topics."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_099",
@@ -12756,7 +13352,9 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q099",
-    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical topics."
+    "syllabus_mapping_note": "Official Unit 10 includes selected kings/dynasties and allied historical topics. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 10,
+    "unit_id": "unit_10"
   },
   {
     "id": "GSET_28_NOVEMBER2023_100",
@@ -12797,6 +13395,8 @@
     "source_pdf": "nov2328.pdf",
     "answer_key_pdf": "nov2328 (1).pdf",
     "staging_id": "GSET-HS-202311-Q100",
-    "syllabus_mapping_note": "Question concerns śabda-vyāpāra and relation to purpose/meaning."
+    "syllabus_mapping_note": "Question concerns śabda-vyāpāra and relation to purpose/meaning. Structured unit_number/unit_id fields populated from existing syllabus_unit label; existing mapping status and review flags preserved.",
+    "unit_number": 4,
+    "unit_id": "unit_4"
   }
 ]
