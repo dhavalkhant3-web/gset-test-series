@@ -113,3 +113,12 @@
 ## 2026-11-03 — Mapping field-count synchronization
 - Updated `assets/subjects/subjects.json` Code 31 and Code 32 data_status to distinguish filled `unit_number` fields from mapping status labels. Public Administration: 22 manually reviewed + 180 provisional unit values assigned; 98 unit fields null. Performing Arts: 156 provisional unit values assigned; 144 unit fields null (27 null fields still carry provisional status labels, 117 carry pending labels). Source flags are unchanged.
 - Manifest commit: `9c425a8c85783c92faf83a15e40e23375a0918c5`. No question records or verification fields changed in this manifest update.
+
+
+## 2026-11-03 — Structured syllabus unit field synchronization
+- Public Administration Code 32: 98 null `unit_number`/`unit_id` fields filled from existing provisional `syllabus_unit` numeric values. Commit `5c70c23f90b441c370878d572ca8800bd7321a47`.
+- Visual Art Code 33: 147 null unit fields filled from existing provisional `syllabus_unit` numeric values. Commit `4a6ec7deef5d630197a6c5403ceb0f58f7e193ab`.
+- IKS Code 29: 189 null unit fields filled from existing provisional `syllabus_unit` numeric values; two pending values left null. Commit `63472b71a6e28028104a781a7ac43286f05df8e8`.
+- Hindu Studies Code 28: all 300 structured `unit_number`/`unit_id` fields populated from existing `syllabus_unit` labels; status labels and review flags retained. Commit `3091e2f9fd60bf97cc44f6708a3032eb7df2e0be`.
+- Subject registry reconciled in commit `3830783effb66cf62379be43f6119d7d62f1d0c1`; master progress entry appended in `35f92c5b245423fd809c6142447207dc7c20fd6d`.
+- Changes synchronize already-present mapping labels only. They do not constitute source-PDF verification or mapping-status promotion.
