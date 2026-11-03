@@ -437,7 +437,14 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. Current bank has Gujarati fields populated for 300, but only 154 stems/options have explicit visual-proofreading evidence; 146 still require original-PDF proofreading (Dec 2024: 46; Nov 2025: 100). Official final answer keys visually checked 300/300 with 0 mismatches. Syllabus mapping: 140 manually reviewed, 14 ambiguous, 146 provisional pending stream-specific review. 212 question review flags remain; source_verified is true on 154 records only. Units I–IV are common; Units V–X require stream identification."
+      "data_status": "300 Paper-II questions across 3 sessions. Gujarati fields are populated for 300, but only 154 stems/options have explicit visual-proofreading evidence; 146 still require original-PDF proofreading (Dec 2024: 46; Nov 2025: 100). Official final answer keys visually checked 300/300 with 0 mismatches. Syllabus mapping: 162 manually reviewed (88 Nov 2023, 57 Dec 2024, 17 Nov 2025), 14 ambiguous, 124 provisional stream-specific (41 Dec 2024, 83 Nov 2025). Units I-IV are common; Units V-X require stream identification. Mapping-only review does not clear source-text review flags.",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_counts": {
+        "manually_reviewed": 162,
+        "ambiguous": 14,
+        "provisional": 124,
+        "pending": 0
+      }
     },
     {
       "code": "31",
