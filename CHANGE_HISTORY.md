@@ -84,3 +84,11 @@
 - Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
 - Combined subject bank audit run `41584320487` and Public Administration validator run `41584320497` passed on metadata commit `b255ff5d0669cdd3a7191315a6b03b507f2a4a44`. Debug APK run `41584320491` was in progress (Flutter analyze step running) at last check.
 - No question stems, options, answers, Gujarati transcription, source references, Paper-I or Code 01 files changed; no PR merged.
+
+
+## 2026-11-03 — Visual Art mapping batch 2
+- Added 83 provisional syllabus-unit assignments to Visual Art Code 33 records across December 2024 and November 2025 (Indian/Western art history, traditional media/printmaking, design/typography, East Asian art and digital photography/visual technology). All unit assignments remain provisional; source review and 14 content concerns are unchanged.
+- Visual Art mapping counts now total 22 manually reviewed, 248 provisional, 30 pending. Across today's two Visual Art batches, 117 provisional assignments were added; source proofreading remains 256 pending.
+- Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json`.
+- Combined audit run `41584513117` and Public Administration validation run `41584513079` passed on manifest commit `270994d07386a694fce97efd8bb86dc546573dfd`. Debug APK run `41584513093` remained in progress at last check.
+- No question text/options/answers/source references changed; no flags cleared; no PR merged.
