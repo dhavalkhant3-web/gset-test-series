@@ -802,5 +802,30 @@
       "commit": "be99ee33416ca6f105a80e1fae4fb4a044170286",
       "note": "All November 2025 Music Paper-II questions 1-100 visually compared with the original bilingual official scan; all source-text fields verified. Review flags retained for mapping/content review."
     }
+  },
+  "active_non_duplication_register": {
+    "refreshed": "2026-11-03",
+    "music": {
+      "visual_proofread": 254,
+      "visual_proofread_pending": 46,
+      "pending_session": "December 2024 only",
+      "november_2025_complete": 100,
+      "ambiguous_mappings": 14,
+      "provisional_mappings": 124,
+      "manual_reviewed_mappings": 162,
+      "answer_keys_visual_checked": "300/300",
+      "review_flags_active": 212,
+      "do_not_repeat": "November 2025 Music Q1-Q100 source-page visual proofreading; completed."
+    },
+    "other_subjects": {
+      "28": "24 provisional mappings; 40 review flags",
+      "29": "300 visual checks; 298 provisional mappings",
+      "31": "200 source reviews; 6 bilingual discrepancies; mappings review",
+      "32": "300 source checks; 278 provisional mappings",
+      "33": "256 proofreading checks; 14 content concerns; 278 provisional mappings",
+      "02": "86 core-field checks; 374 review flags; syllabus mapping",
+      "03": "315 base + 1 overlay review flags; Q42 format source check; syllabus mapping"
+    },
+    "note": "Supersedes old Music pending-visual count 146; Music remaining visual checks apply only to Dec 2024. No PR merged; Code 01/Paper-I untouched."
   }
 }
