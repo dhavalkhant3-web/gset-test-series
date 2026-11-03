@@ -174,3 +174,12 @@ Automated parsed-content checks were run against the current integration questio
 ## 2026-11-03 — Mapping registry count reconciliation
 - Registry now distinguishes question-level mapping status labels from populated `unit_number` fields for Codes 31 and 32. Public Administration: 22 manually reviewed + 180 provisional unit fields filled; 98 unit fields null. Performing Arts: 156 provisional unit fields filled; 144 unit fields null. Performing Arts null-field/status discrepancy: 27 null unit fields are labeled provisional and 117 are labeled pending; do not confuse the status label with an assigned unit value.
 - Subject manifest commit `9c425a8c85783c92faf83a15e40e23375a0918c5`; progress-log update commit follows. CI for the subsequent register/manifest commits should be checked at the latest branch HEAD.
+
+
+## 2026-11-03 — Unit-field completion batch (provisional sync)
+- Code 32 Public Administration: filled 98 previously-null `unit_number`/`unit_id` fields by synchronizing the pre-existing provisional `syllabus_unit` numeric values. All 300 records now have a unit field; 22 manually reviewed and 278 provisional mapping labels retained. Source-text review flags unchanged.
+- Code 33 Visual Art: filled 147 previously-null unit fields by synchronizing existing provisional `syllabus_unit` values. All 300 records now have unit_number; mapping labels remain 22 manually reviewed + 278 provisional. Original image-dependent mapping/text review remains open.
+- Code 29 IKS: filled 189 previously-null unit fields from existing provisional `syllabus_unit`; 298 provisional fields assigned, 2 remain null (Dec 2024 Q20 and Nov 2025 Q15). All source-page visual checks/review flags remain pending.
+- Code 28 Hindu Studies: populated 300 structured unit_number/unit_id fields from the existing `syllabus_unit` labels. Existing 276 verified + 24 provisional mapping labels and 40 review flags were preserved.
+- Commits: PA `5c70c23f90b441c370878d572ca8800bd7321a47`; Visual Art `4a6ec7deef5d630197a6c5403ceb0f58f7e193ab`; IKS `63472b71a6e28028104a781a7ac43286f05df8e8`; Hindu Studies `3091e2f9fd60bf97cc44f6708a3032eb7df2e0be`; subject manifest reconciliation `3830783effb66cf62379be43f6119d7d62f1d0c1`.
+- These are field synchronizations of already-present syllabus labels, not newly source-verified mapping decisions. No question stems, options, answer keys, translations, review flags, Paper-I or Code 01 changed. No PR merged.
