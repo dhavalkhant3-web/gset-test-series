@@ -218,3 +218,20 @@ Use this as the current actionable backlog. Historical mentions of larger counts
 | 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
 
 Music checkpoint: 254/300 English/Gujarati stem+option visual proofreads; 46 remain, exclusively Dec 2024. 162 mappings manually reviewed, 14 ambiguous, 124 provisional. Keep all 212 review flags active until independent mapping/content reconciliation. 300/300 official final answer keys visually checked. Latest source-paper commit `be99ee33416ca6f105a80e1fae4fb4a044170286` records the completed Nov 2025 session. No PR merge; Code 01/Paper-I untouched.
+
+
+## ACTIVE NON-DUPLICATION REGISTER — 2026-11-03
+This current actionable register supersedes stale historical Music visual-proofread counts. Do not repeat November 2025 Music source-page checks: Q1–Q100 are complete.
+
+| Code | Subject | Remaining work |
+|---|---|---|
+| 02 | Physical Sciences | 86 core-field checks; 374 review flags; syllabus mapping |
+| 03 | Chemical Sciences | 315 base + 1 overlay review flags; Q42 option-format source check; syllabus mapping |
+| 28 | Hindu Studies | 24 provisional mappings; 40 review flags |
+| 29 | Indian Knowledge System | 300 original-PDF visual checks; 298 provisional mappings (2 unit assignments pending) |
+| 30 | Music | 46 visual checks (December 2024 only); 14 ambiguous mappings; 124 provisional stream-specific mappings. Nov 2025 Q1–Q100 source-page proofread complete. |
+| 31 | Performing Arts | 200 source reviews; 6 bilingual discrepancies; mapping review |
+| 32 | Public Administration | 300 source checks; 278 provisional mappings |
+| 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
+
+Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all Dec 2024); mappings 162 manually reviewed, 14 ambiguous, 124 provisional; official answer keys 300/300 checked; 212 review flags remain active until mapping/content reconciliation. Source-check completion commit: `be99ee33416ca6f105a80e1fae4fb4a044170286`. No PR merged; Code 01 and Paper-I untouched.
