@@ -40,7 +40,7 @@
   "review_flags": 212,
   "remaining_gates": [
     "Visually proofread the remaining 146 English/Gujarati stems, all four options, option order and any figures/tables against the original official December 2024 (46 questions) and November 2025 (100 questions) question-paper PDFs.",
-    "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 146 provisional stream-specific mappings (December 2024: 46; November 2025: 100) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
+    "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 124 remaining provisional stream-specific mappings (December 2024: 41; November 2025: 83) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
     "Run Music-specific validation and a full Android build/CI on the latest PR and integration heads, inspect the resulting artifacts and diff. Do not merge without explicit user authorization."
   ],
   "papers": [
@@ -63,7 +63,8 @@
       "status": "source_proofread_100;key_visual_checked_100;mapping_reviewed_88;12_review_flags",
       "review_note": "All 100 questions were visually compared against the original official bilingual scan. All 100 stored answers were visually compared against the official final key (0 mismatches). 88 syllabus mappings were manually reviewed; 12 ambiguous mappings remain flagged.",
       "question_source_verified": true,
-      "source_verified": true
+      "source_verified": true,
+      "syllabus_mapping_provisional_count": 0
     },
     {
       "paper_id": "music_dec24",
@@ -74,17 +75,18 @@
       "missing_ranges": [],
       "english_visual_proofread": false,
       "gujarati_visual_proofread": false,
-      "syllabus_mapping_status": "52/100 mappings manually reviewed; 2 ambiguous; 46 provisional/pending",
+      "syllabus_mapping_status": "57/100 mappings manually reviewed; 2 ambiguous; 41 provisional/pending",
       "visual_questions_checked_count": 54,
-      "syllabus_mapping_manual_reviewed_count": 52,
+      "syllabus_mapping_manual_reviewed_count": 57,
       "answer_key_visual_checked_count": 100,
       "source_verified": false,
       "question_source_verified": false,
       "syllabus_mapping_ambiguous_count": 2,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "54/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_54;key_visual_checked_100;mapping_reviewed_52;100_review_flags",
-      "review_note": "Question-level records show 54/100 source-proofread and 52/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: 46 questions need visual proofreading and 48 mappings need adjudication."
+      "status": "source_proofread_54;key_visual_checked_100;mapping_reviewed_57;100_review_flags",
+      "review_note": "Question-level records show 54/100 source-proofread and 57/100 syllabus mappings manually reviewed. Five additional mappings were reviewed against the official syllabus Units I-IV (common across Music streams); original question-paper visual proofreading remains pending for 46 questions. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: 46 source visual checks, 2 ambiguous mappings and 41 provisional stream-specific mappings.",
+      "syllabus_mapping_provisional_count": 41
     },
     {
       "paper_id": "music_nov25",
@@ -95,17 +97,18 @@
       "missing_ranges": [],
       "english_visual_proofread": false,
       "gujarati_visual_proofread": false,
-      "syllabus_mapping_status": "0/100 mappings manually reviewed; 0 ambiguous; 100 provisional/pending",
+      "syllabus_mapping_status": "17/100 mappings manually reviewed; 0 ambiguous; 83 provisional/pending",
       "visual_questions_checked_count": 0,
-      "syllabus_mapping_manual_reviewed_count": 0,
+      "syllabus_mapping_manual_reviewed_count": 17,
       "answer_key_visual_checked_count": 100,
       "source_verified": false,
       "question_source_verified": false,
       "syllabus_mapping_ambiguous_count": 0,
       "answer_key_visual_mismatches": 0,
       "visual_proofreading_status": "0/100 English/Gujarati stems/options visually checked",
-      "status": "source_proofread_0;key_visual_checked_100;mapping_reviewed_0;100_review_flags",
-      "review_note": "Question-level records show 0/100 source-proofread and 0/100 syllabus mappings manually reviewed. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: visual proofreading and stream-specific syllabus mapping for all 100 questions."
+      "status": "source_proofread_0;key_visual_checked_100;mapping_reviewed_17;100_review_flags",
+      "review_note": "Question-level records show 0/100 source-proofread. Seventeen mappings were manually reviewed against the official common Units I-IV; the remaining 83 mapped topics are provisional because Units V-X require stream evidence. Direct visual final-key checking is complete for all 100 questions (0 mismatches). Remaining: original-paper visual proofreading for all 100 questions and stream-specific mapping review.",
+      "syllabus_mapping_provisional_count": 83
     }
   ],
   "visual_audit_progress": {
@@ -115,11 +118,12 @@
     "english_stem_and_options_checked": 154,
     "gujarati_stem_and_options_checked": 154,
     "figures_symbols_tables_checked": 100,
-    "unit_mapping_manual_reviewed": 140,
+    "unit_mapping_manual_reviewed": 162,
     "unit_mapping_ambiguous": 14,
     "answer_key_visual_checked": 300,
     "answer_key_visual_remaining": 0,
-    "note": "154 records have explicit question-text/options visual-proofreading evidence (100 November 2023; 54 December 2024). The remaining 146 require visual proofreading (46 December 2024; 100 November 2025). 140 mappings are manually reviewed, 14 are explicitly ambiguous, and 146 remain provisional/pending. Official answer-key direct visual checks are complete for all 300 questions with 0 mismatches. Figure/symbol/table review count is retained at 100 only for the documented November 2023 batch."
+    "note": "154 records have explicit question-text/options visual-proofreading evidence (100 November 2023; 54 December 2024). The remaining 146 require visual proofreading (46 December 2024; 100 November 2025). 162 mappings are manually reviewed (88 November 2023; 57 December 2024; 17 November 2025), 14 are explicitly ambiguous, and 124 remain provisional/stream-specific (41 December 2024; 83 November 2025). Official answer-key direct visual checks are complete for all 300 questions with 0 mismatches. Figure/symbol/table review count is retained at 100 only for the documented November 2023 batch. The 22 mapping-only reviews in common Units I-IV do not mark source text/options as visually proofread.",
+    "unit_mapping_provisional": 124
   },
   "official_syllabus_source": {
     "url": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
@@ -171,6 +175,24 @@
       "answer_key_direct_visual_check": "completed for all 100 questions against official one-page final key; 0 mismatches",
       "corrections_summary": "Restored OCR-corrupted/truncated stems and matching options, fixed Q4/Q8/Q10/Q13/Q17/Q22/Q26/Q31/Q32/Q54/Q72/Q74/Q75/Q77/Q78/Q90/Q91-Q100 and related records; exact corrections are documented in each question's review_note.",
       "batch_status": "100 source-question records checked; 88 fully verified for current gates, 12 syllabus mapping issues remain flagged"
+    },
+    {
+      "date": "2026-11-03",
+      "paper_ids": [
+        "music_dec24",
+        "music_nov25"
+      ],
+      "question_numbers": "Music Dec 2024 selected common-unit questions; Music Nov 2025 selected common-unit questions",
+      "source_pages": [],
+      "english_visual_checked": 0,
+      "gujarati_visual_checked": 0,
+      "options_and_order_checked": 0,
+      "figures_symbols_tables_checked": 0,
+      "syllabus_mapping_manual_reviewed": 22,
+      "syllabus_mapping_ambiguous": 0,
+      "answer_key_direct_visual_check": "not re-run; prior direct visual final-key check remains recorded as 300/300 matches",
+      "corrections_summary": "Manually reviewed 22 question-level syllabus assignments in official common Music Units I-IV (Technical Terms, Folk Music, Rasa and Aesthetics, Research Methodology/Pedagogy) using question topic and official unit headings. No question stems, options, answers, Gujarati text or source refs were edited. Review flags retained because original-paper source proofreading remains pending.",
+      "batch_status": "22 syllabus mappings manually reviewed; source visual proofreading unchanged (154/300)."
     }
   ]
 }
