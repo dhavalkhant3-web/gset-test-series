@@ -467,11 +467,11 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 records source_verified, all 300 review-flagged pending original stem/options audit. Syllabus mapping: 0 verified, 164 provisional, 136 pending. Disputed items retained for review: Dec 2024 Q24, Dec 2024 Q35, Nov 2025 Q17. Do not treat answer-key reconciliation or bilingual helper fields as source proof of question text.",
-      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 records source_verified; all 300 retain review flags pending original stem/options audit. Syllabus mapping: 22 manually reviewed, 278 provisional, 0 pending. Disputed items retained for review: Dec 2024 Q24, Dec 2024 Q35, Nov 2025 Q17. Do not treat answer-key reconciliation or bilingual helper fields as source proof of question text.",
+      "unit_mapping_status": "all_units_assigned_provisional_or_manually_reviewed; source_review_pending",
       "unit_mapping_counts": {
-        "provisional": 152,
-        "pending": 126,
+        "provisional": 278,
+        "pending": 0,
         "verified": 22
       }
     },
