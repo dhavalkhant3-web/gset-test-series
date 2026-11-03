@@ -24,7 +24,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0 source_verified; all 300 await original-page visual review | Current records state official-key reconciliation; no independent recomputation in this pass | 0 manually verified, 298 provisional, 2 pending | 300 |
-| 30 | Music | 300 | 254 stems/options visually proofread; 46 pending. Gujarati fields exist on 300, but remaining OCR records are not treated as verified | 300/300 directly visually checked; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
+| 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
 | 32 | Public Administration | 300 | 0 source_verified; all 300 stem/options audits pending | PR/validator records 300-key reconciliation; full source-text verification remains separate | 22 manually reviewed, 278 provisional, 0 pending | 300 |
 | 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 22 manually reviewed, 278 provisional, 0 pending | 14 |
@@ -41,7 +41,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
 - **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
-- **30 Music:** proofread 46 remaining Dec 2024 questions; all 100 Nov 2025 questions source-proofread; resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings; review 124 remaining stream-specific provisional mappings. 22 mappings in common Units I-IV were manually reviewed on 2026-11-03; this does not reduce the 146 source visual checks.
+- **30 Music:** source-text visual proofreading is complete for all 300/300 records (Nov 2023 100/100, Dec 2024 100/100, Nov 2025 100/100). Completed the final 20 Dec 2024 checks (Q76–Q90 and Q96–Q100) on official printed pages 23–28 and 30–31 on 2026-11-03; repaired OCR-corrupted Gujarati in Q81, Q83, Q85, Q89 and Q90 and normalized Q79 English. No question-text visual checks remain. Resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings and review 124 remaining stream-specific provisional mappings. 212 review flags remain active for separate mapping/content gates.
 - **31 Performing Arts:** resolve 6 bilingual discrepancies and inspect 200 pending text/transcription records; review 171 provisional + 129 pending mappings. 36 provisional content-based assignments were added on 2026-11-03; source visual-review counts remain unchanged.
 - **32 Public Administration:** visually check 300 stems/options; resolve Dec 2024 Q24/Q35 and Nov 2025 Q17; mappings now 22 manually reviewed + 278 provisional + 0 pending. All 300 source-text review flags remain active.
 - **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 278 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
@@ -67,9 +67,9 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 ## Files changed in this execution
 - Created: `PROJECT_STATE.json`, `MASTER_PROGRESS.md`, `VERIFICATION_LOG.json`, `CHANGE_HISTORY.md`.
 - Updated: `assets/subjects/syllabus_units.json` (added Code 28 and Code 30 official units).
-- Updated: `assets/subjects/music/verification_pending.json` (fixed stale key-visual status and remaining work counts).
+- Updated: `assets/subjects/music/verification_pending.json` (reconciled visual source-proofreading checkpoint to 300/300; 0 text-proofreading items pending).
 - Updated: `assets/subjects/subjects.json` (synchronized six subject progress summaries with current integration-bank counts).
-- No question JSON, `lib/main.dart`, Paper-I code or Code 01 file was changed.
+- Updated Music Code 30 question JSON only for source-supported Gujarati OCR corrections and a source wording normalization in Q79; all 300 Music records now have `source_verified=true`. No answer key fields were changed; all 212 review flags remain. No `lib/main.dart`, Paper-I code or Code 01 file was changed.
 
 ## Remaining execution gates
 1. Recheck latest integration workflow runs #19–#21 and the workflow triggered by this register commit.
