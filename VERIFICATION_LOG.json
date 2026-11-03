@@ -714,5 +714,67 @@
       "pr_merged": false
     },
     "note": "Mapping assignments are provisional; no flags were cleared and no source-page visual proofreading was performed."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Performing Arts provisional syllabus mapping batch",
+    "commit": "c6a2f85d26d833f936c2ae3d338b71e861a3d4f5",
+    "parent_commit": "c6a2f85d26d833f936c2ae3d338b71e861a3d4f5",
+    "changed_files": [
+      "assets/subjects/performing_art_dance_drama_theatre/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "PROJECT_STATE.json",
+      "CHANGE_HISTORY.md"
+    ],
+    "mapping_review": {
+      "subject_code": "31",
+      "records_updated": 36,
+      "mapping_counts": {
+        "verified": 0,
+        "provisional": 171,
+        "pending": 129
+      },
+      "source_review_state": {
+        "source_pages_visually_verified": 94,
+        "question_text_transcription_pending": 200,
+        "bilingual_discrepancies": 6,
+        "review_flags_retained": 206
+      },
+      "note": "All 36 new mappings are provisional content-based suggestions; source text/options review counts were not changed. Stream-specific Unit 6 assignments remain provisional where stream evidence is absent."
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41584320487,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "b255ff5d0669cdd3a7191315a6b03b507f2a4a44"
+      },
+      "public_administration": {
+        "run_id": 41584320497,
+        "result": "PASS"
+      },
+      "debug_apk": {
+        "run_id": 41584320491,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_analyze": "in_progress",
+          "flutter_widget_tests": "pending",
+          "combined_debug_apk": "pending",
+          "artifact_upload": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "gujarati_transcription_changed": false,
+      "source_references_changed": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "No source visual verification was claimed; mappings remain provisional and source-review flags are preserved."
   }
 ]
