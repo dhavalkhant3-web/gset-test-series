@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-10-30
+Updated: 2026-11-03
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -10,9 +10,9 @@ Updated: 2026-10-30
 - Official GSET question papers, official syllabi and official FINAL answer keys are authoritative.
 - Paper-II and Paper-III remain separate.
 
-## Current branch checkpoint
+## Current branch checkpoint (historical head reference; refresh from GitHub before next edit)
 - `main`: `2108d34bd6fce149d02d0d5054946dd42dffc79e`
-- `integration/combined-subject-banks` current head: `b4efb8930e6f4cb980de8b56c14e026674c948ee` (parent: `6534a6a682ceefe58034cc81a4d78d1653f53d5e`)
+- Integration branch has continued advancing; verified live HEAD on 2026-11-03 is `3b4eacc7cf9ca9071b7ddd48cd93389c94ef5205`.
 - PR #16 merge commit: `bedd33e6536e4eb35823049d62e1889c3f75e7a7`
 
 ## Integrated question-bank checkpoint
@@ -201,3 +201,20 @@ Automated parsed-content checks were run against the current integration questio
 ## 2026-11-03 — Music Code 30 November 2025 paper fully source-proofread
 - Commit `be99ee33416ca6f105a80e1fae4fb4a044170286`: visually compared all 100 November 2025 Music Paper-II questions (printed pages 3–31) against the original official bilingual scan. English/Gujarati stems, four options, option order and Q87–Q90 Gujarati passage checked. Source-text `source_verified` is now 100/100 for this session; official final key remains separately checked 100/100.
 - Music total visual proofreading: 254/300 (November 2023: 100; December 2024: 54; November 2025: 100). Remaining 46 questions are all December 2024. Review flags are not cleared: mappings/content gates still show 162 manually reviewed, 14 ambiguous, 124 provisional. No PR merge; Code 01 and Paper-I untouched.
+
+
+## ACTIVE NON-DUPLICATION REGISTER — refreshed 2026-11-03
+Use this as the current actionable backlog. Historical mentions of larger counts (such as Music 146 visual checks) are superseded by this checkpoint and must not be repeated as current work.
+
+| Code | Subject | Remaining actionable work (current) |
+|---|---|---|
+| 02 | Physical Sciences | 86 core-field checks; 374 review flags; syllabus mapping; verify/repair options against source |
+| 03 | Chemical Sciences | 315 base + 1 overlay review flags; Q42 option format source check; syllabus mapping |
+| 28 | Hindu Studies | 24 provisional mappings; 40 review flags |
+| 29 | Indian Knowledge System | 300 original-PDF visual checks; 298 provisional mappings (2 unit-field assignments still pending) |
+| 30 | Music | **46 visual proofreading checks (all December 2024)**; 14 ambiguous mappings; 124 provisional stream-specific mappings. November 2025 Q1–Q100 source-page proofread complete; do not recheck these. Answer keys checked 300/300. |
+| 31 | Performing Arts | 200 source reviews; 6 bilingual discrepancies; mapping review |
+| 32 | Public Administration | 300 source checks; 278 provisional mappings |
+| 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
+
+Music checkpoint: 254/300 English/Gujarati stem+option visual proofreads; 46 remain, exclusively Dec 2024. 162 mappings manually reviewed, 14 ambiguous, 124 provisional. Keep all 212 review flags active until independent mapping/content reconciliation. 300/300 official final answer keys visually checked. Latest source-paper commit `be99ee33416ca6f105a80e1fae4fb4a044170286` records the completed Nov 2025 session. No PR merge; Code 01/Paper-I untouched.
