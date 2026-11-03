@@ -23,7 +23,8 @@
     "latest_live_head_before_register_refresh": "62490790e5ef39a395f0034d4b351a673d52a9ab",
     "master_progress_refresh_commit": "d3fd8b593bef201ec6d39a5100d931c4cf8594fe",
     "latest_live_head_before_manifest_repair": "62490790e5ef39a395f0034d4b351a673d52a9ab",
-    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d"
+    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "latest_live_head_before_mapping_progress_sync": "5c6fe3523f865d3831cf03ef1f38437c486715c8"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -74,11 +75,11 @@
       "gujarati_source_transcribed": 0,
       "mapping": {
         "verified": 0,
-        "provisional": 109,
-        "pending": 191
+        "provisional": 298,
+        "pending": 2
       },
-      "question_bank_sha": "bd750bc8398fb7b65a1642e36edd417163c0fece",
-      "status": "all source pages still require human visual review"
+      "question_bank_sha": "3a8daabdb8c0999cbfc659cd28413be021180366",
+      "status": "298 provisional content-based unit assignments; 2 remain pending (Dec 2024 Q20, Nov 2025 Q15); all 300 original pages still require visual review"
     },
     "30": {
       "name": "Music",
@@ -91,21 +92,22 @@
       "answer_keys_visually_checked": 300,
       "answer_key_mismatches": 0,
       "mapping": {
-        "manually_reviewed": 140,
+        "manually_reviewed": 162,
         "ambiguous": 14,
-        "provisional": 146,
+        "provisional": 124,
         "pending": 0
       },
       "review_flags": 212,
-      "question_bank_sha": "223f7f7ff0a655b0467bee1c93670c188a52d65c",
-      "verification_file_sha": "d669a3cb5aa021d8e6accb511d1d007e1fbd35b5",
+      "question_bank_sha": "382f83a7e545e6a9124afdd39bd9516c017690df",
+      "verification_file_sha": "97d98f808bc0b59286e554c7db7a3cba46c6b6a9",
       "source_review_split": {
         "nov23_visual_proofread": 100,
         "dec24_visual_proofread": 54,
         "dec24_pending": 46,
         "nov25_pending": 100
       },
-      "note": "Gujarati text/options fields are populated on all 300, but only 154 records have explicit visual proofreading evidence; the remaining OCR transcription stays unverified. Units I–IV are common; V–X require stream identification."
+      "note": "Gujarati text/options fields are populated on all 300, but only 154 records have explicit visual proofreading evidence; the remaining OCR transcription stays unverified. Units I–IV are common; V–X require stream identification.",
+      "status": "162 syllabus mappings manually reviewed, 14 ambiguous, 124 stream-specific provisional; original question visual proofread remains 154/300"
     },
     "31": {
       "name": "Performing Arts",
@@ -134,16 +136,17 @@
       "question_text_and_options_audit_pending": 300,
       "mapping": {
         "verified": 0,
-        "provisional": 164,
-        "pending": 136
+        "manually_reviewed": 22,
+        "provisional": 278,
+        "pending": 0
       },
       "disputed_items": [
         "December 2024 Q24",
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "f1e8d6119fd0146d7594b20a5cfcc38ce4f8261a",
-      "status": "official key reconciliation is separate from full question-text audit"
+      "question_bank_sha": "73b15e854a90985a0ef36fa6f6f2318d9fc2da3a",
+      "status": "all 300 question text/options audits remain pending; 22 mappings manually reviewed, 278 provisional, 0 unmapped; official key reconciliation remains separate"
     },
     "33": {
       "name": "Visual Art",
@@ -238,11 +241,11 @@
   },
   "mapping_rollup_for_codes_28_to_33": {
     "verified": 262,
-    "manually_reviewed_not_counted_as_verified": 140,
-    "provisional": 730,
+    "manually_reviewed_not_counted_as_verified": 184,
+    "provisional": 1011,
     "ambiguous": 14,
-    "pending": 654,
-    "note": "Music's 140 manually reviewed units remain in their own category; ambiguous Music mappings are not counted as verified."
+    "pending": 329,
+    "note": "Rollup counts 1,800 Paper-II question records across Codes 28–33. Manual review counts are mapping reviews only and do not imply source text verification; provisional mapping values are not verified."
   },
   "pr_status": {
     "4": "open_draft_unmerged",
@@ -404,19 +407,17 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "Finish the current-head Debug APK run 41163322554 and record artifact; do not infer success until completed.",
-    "Retrieve and visually compare official source pages for the flagged question records; no OCR-only promotion.",
-    "Physical Sciences: inspect 210 invalid option structures and flagged records; verify Q1/Q42-Q44 numbering against official PDFs; mapping pending.",
+    "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
+    "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
-    "Resolve Hindu Studies 40 content flags and 24 provisional mappings.",
-    "Visually review IKS 300 questions; resolve 109 provisional and 191 pending mappings.",
-    "Music: visually proofread 146 questions; resolve 14 ambiguous and 146 stream-specific provisional mappings.",
+    "Resolve Hindu Studies 40 content flags and 38 provisional mappings.",
+    "IKS: visually review all 300 original pages; 298 provisional mapping suggestions remain unverified and 2 unit assignments are pending.",
+    "Music: visually proofread 146 remaining questions; resolve 14 ambiguous and 124 stream-specific provisional mappings; common Units I-IV mapping review is 162/300.",
     "Performing Arts: review 200 source/text records and six bilingual discrepancies; resolve 135 provisional and 165 pending mappings.",
-    "Public Administration: visually review 300 stems/options and Q24/Q35/Q17; resolve 164 provisional and 136 pending mappings.",
+    "Public Administration: visually review all 300 stems/options and resolve disputed Dec24 Q24/Q35 and Nov25 Q17; mappings now 22 manually reviewed and 278 provisional.",
     "Visual Art: proofread 256 records, resolve 14 concerns, and review 138 provisional + 162 pending mappings.",
     "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission.",
-    "Run flutter test only after adding/locating meaningful test files; current workflow does not run it.",
-    "Re-run exact-head combined audit, Flutter analyze, and combined Debug APK after subsequent changes."
+    "Check latest exact-head Combined audit, Public Administration validation, Flutter analyze/widget tests and Debug APK artifact before reporting build status."
   ],
   "data_integrity_check": {
     "date": "2026-10-30",
