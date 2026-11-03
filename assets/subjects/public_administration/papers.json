@@ -26,15 +26,15 @@
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 66,
-      "unit_mapping_pending_count": 34,
-      "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_provisional_count": 78,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_verified_count": 22,
+      "unit_mapping_status_note": "22 mappings manually reviewed, 78 provisional content-based mappings, 0 unmapped/pending. Paper source-text audit remains independently pending; do not mark the paper verified."
     },
     {
       "paper_id": "public_administration_dec24",
@@ -52,15 +52,15 @@
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 51,
-      "unit_mapping_pending_count": 49,
+      "unit_mapping_provisional_count": 100,
+      "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "0 mappings manually reviewed, 100 provisional content-based mappings, 0 unmapped/pending. Paper source-text audit remains independently pending; do not mark the paper verified."
     },
     {
       "paper_id": "public_administration_nov25",
@@ -78,17 +78,17 @@
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "review_note": "All 100 stored answer letters were compared against the official GSET FINAL answer key for this session (100/100 match). Exact question-stem and four-option source review remains separate; the paper and subject stay unverified until all unresolved source-review flags are closed.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 47,
-      "unit_mapping_pending_count": 53,
+      "unit_mapping_provisional_count": 100,
+      "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "0 mappings manually reviewed, 100 provisional content-based mappings, 0 unmapped/pending. Paper source-text audit remains independently pending; do not mark the paper verified."
     }
   ],
-  "unit_mapping_status": "partial_provisional_mapping_review_pending",
-  "unit_mapping_note": "134/300 questions have provisional content-based unit suggestions; 166 remain unmapped. No unit mapping is officially verified. Manual confirmation against the official GSET syllabus and question content is pending."
+  "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed; source_review_pending",
+  "unit_mapping_note": "22/300 mappings manually reviewed; 278 are provisional content-based suggestions; 0 remain unmapped. Provisional values are not officially verified; question-paper text/options source review remains pending."
 }
