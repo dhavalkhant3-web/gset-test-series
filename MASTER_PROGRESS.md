@@ -161,3 +161,11 @@ Automated parsed-content checks were run against the current integration questio
 - Updated Code 29 and Code 32 subject-manifest mapping counts; updated Public Administration paper-manifest counts.
 - Combined bank audit run **41583643015** on commit `7df69a43b64739b615caea1e7838bee259144085`: SUCCESS. Public Administration validator run **41583643030**: queued at the latest status check. Exact-head Debug APK run **41583643012**: in progress; Flutter analyze was running, widget tests and APK build were still pending.
 - No question stems, options, answer keys, Gujarati transcription, source URLs, Paper-I UI or Code 01 records were changed. No PR was merged.
+
+
+## 2026-11-03 — Live execution checkpoint (provisional mapping only)
+- Current in-scope edits on the integration branch: Public Administration 28 previously-null unit fields filled provisionally (Unit I 7, III 11, V 1, VIII 7, X 2); Nov 2025 Q39 corrected provisionally to Unit IV (Panchayati Raj/73rd Amendment). Performing Arts 21 previously-null unit fields filled provisionally (Unit I 6, II 5, III 3, VI 6, VIII 1).
+- Current field-level count after edits: Public Administration has 98 question records with `unit_number=null` (all source/text flags still remain); Performing Arts has 144 records with `unit_number=null`. Mapping status and field presence are separate, so do not report status-label totals as filled fields. No source-verified status was promoted.
+- Public Administration exact-head validator and combined subject-bank audit passed on commit `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`. The combined Debug APK workflow `41590949177` was still building at the time of checkpoint; Flutter Analyze and widget tests were already successful. Confirm final workflow state/artifact before reporting.
+- Mapping commits: `e68195d5991cf9273111c99c8912f59ddd85a2f3`, `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`, `005e79ee91d9d059c890433340e860c0da9354ec`. Change-history log commit: `b976e1c5ac55896400e041dcdcc1834a29186738`.
+- Remaining: source page reviews and original PDF transcription, pending units for both banks, and work on Physical Sciences, Chemical Sciences, Hindu Studies, IKS, Music, Visual Art. Code 01/Paper-I unchanged; no PR merged.
