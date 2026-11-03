@@ -776,5 +776,68 @@
       "pr_merged": false
     },
     "note": "No source visual verification was claimed; mappings remain provisional and source-review flags are preserved."
+  },
+  {
+    "date": "2026-11-03",
+    "event": "Visual Art mapping batch 2",
+    "commit": "e80adba4f4ef1f10418c6ea83e2fcf888fda1030",
+    "parent_commit": "e80adba4f4ef1f10418c6ea83e2fcf888fda1030",
+    "changed_files": [
+      "assets/subjects/visual_art/questions.json",
+      "assets/subjects/subjects.json",
+      "MASTER_PROGRESS.md",
+      "PROJECT_STATE.json",
+      "CHANGE_HISTORY.md"
+    ],
+    "mapping_review": {
+      "subject_code": "33",
+      "records_updated": 83,
+      "cumulative_mapping_counts": {
+        "manually_reviewed": 22,
+        "provisional": 248,
+        "pending": 30
+      },
+      "cumulative_provisional_assignments_added_today": 117,
+      "source_review_state": {
+        "source_verified": 30,
+        "proofreading_pending": 256,
+        "content_concerns": 14
+      },
+      "note": "All 83 assignments are provisional content-based suggestions. Source text/options proofreading count and concern flags were not changed."
+    },
+    "validators": {
+      "combined_subject_bank_audit": {
+        "run_id": 41584513117,
+        "result": "PASS",
+        "errors": [],
+        "validated_data_commit": "270994d07386a694fce97efd8bb86dc546573dfd"
+      },
+      "public_administration": {
+        "run_id": 41584513079,
+        "result": "PASS"
+      },
+      "debug_apk": {
+        "run_id": 41584513093,
+        "status": "in_progress_at_last_check",
+        "steps": {
+          "flutter_setup": "in_progress",
+          "flutter_analyze": "pending",
+          "flutter_widget_tests": "pending",
+          "combined_debug_apk": "pending",
+          "artifact_upload": "pending"
+        }
+      }
+    },
+    "safety": {
+      "question_stems_changed": false,
+      "options_changed": false,
+      "answers_changed": false,
+      "source_references_changed": false,
+      "review_flags_cleared": false,
+      "code_01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false
+    },
+    "note": "Visual Art unit assignments remain provisional; image-dependent questions that need the original artwork and 30 unresolved unit mappings are retained pending."
   }
 ]
