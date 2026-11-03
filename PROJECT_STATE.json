@@ -90,9 +90,9 @@
       "name": "Music",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 154,
-      "english_gujarati_stem_option_visual_proofread": 154,
-      "remaining_question_text_visual_proofread": 146,
+      "source_verified_marked": 188,
+      "english_gujarati_stem_option_visual_proofread": 207,
+      "remaining_question_text_visual_proofread": 93,
       "gujarati_fields_populated": 300,
       "answer_keys_visually_checked": 300,
       "answer_key_mismatches": 0,
@@ -103,16 +103,17 @@
         "pending": 0
       },
       "review_flags": 212,
-      "question_bank_sha": "382f83a7e545e6a9124afdd39bd9516c017690df",
-      "verification_file_sha": "97d98f808bc0b59286e554c7db7a3cba46c6b6a9",
+      "question_bank_sha": "f3593ca78cfea9bb2a0cf933d73867f3c035cd83",
+      "verification_file_sha": "d61d687d7a018d2380983d7d7b47a91e8c9efbd0",
       "source_review_split": {
         "nov23_visual_proofread": 100,
         "dec24_visual_proofread": 54,
         "dec24_pending": 46,
-        "nov25_pending": 100
+        "nov25_visual_proofread": 53,
+        "nov25_pending": 47
       },
-      "note": "Gujarati text/options fields are populated on all 300, but only 154 records have explicit visual proofreading evidence; the remaining OCR transcription stays unverified. Units I–IV are common; V–X require stream identification.",
-      "status": "162 syllabus mappings manually reviewed, 14 ambiguous, 124 stream-specific provisional; original question visual proofread remains 154/300"
+      "note": "Gujarati fields populated on all 300. 207 have visual source-page proofreading evidence; 93 remain pending (46 Dec24, 47 Nov25). Question-text source_verified count 188; all 300 official final keys visually checked, zero mismatches. 162 manually reviewed, 14 ambiguous and 124 provisional stream-specific mappings; flags remain.",
+      "status": "207/300 question-text visual proofread; 93 pending; source_verified 188; mapping 162 manually reviewed, 14 ambiguous, 124 provisional"
     },
     "31": {
       "name": "Performing Arts",
@@ -713,8 +714,25 @@
         34,
         52,
         53,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
         73,
+        74,
+        75,
         76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
         84,
         85,
         86,
@@ -722,15 +740,20 @@
         88,
         89,
         90,
+        91,
+        92,
+        93,
+        94,
         95,
         96,
         97,
         98
       ],
-      "fields_corrected": 46,
-      "remaining_visual_checks": 68,
-      "commit": "f4198373bdf4ecdfc52cdfbedac07b96ce35337e",
-      "note": "Targeted batch of 32 questions. Review flags retained; these are source-compared, not promoted to fully source_verified."
+      "visual_checked_count": 53,
+      "source_verified_promotions": 34,
+      "remaining_visual_checks": 47,
+      "commit": "ebcc2a4fded8ab5fabb732f87470294bd506776c",
+      "note": "Q65-Q98 source scan visual recheck. Flags retained for syllabus/content review."
     }
   }
 }
