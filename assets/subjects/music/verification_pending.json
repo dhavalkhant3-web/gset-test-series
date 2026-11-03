@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Question-level evidence and progress counts reconciled on 2026-11-03 after direct inspection of official final answer keys and a new official PDF text-extraction correction batch.",
+  "generated_from": "Question-level evidence and progress counts reconciled on 2026-11-03 after official PDF visual source verification batch Q61-Q65.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -36,10 +36,10 @@
     }
   },
   "fully_verified_questions": 88,
-  "source_verified_field_count": 265,
+  "source_verified_field_count": 270,
   "review_flags": 212,
   "remaining_gates": [
-    "Visually proofread the remaining 35 December 2024 questions (Q61–Q90 and Q96–Q100): English/Gujarati stems, four options, option order and figures/tables against official PDF. Q91–Q95 inspected on official PDF page 29 on 2026-11-03 and marked source_verified; review flags stay for separate gates.",
+    "Visually proofread the remaining 30 December 2024 questions (Q66–Q90 and Q96–Q100): English/Gujarati stems, four options, option order and figures/tables against official PDF. Q61–Q65 visually checked on official printed pages 16–17 on 2026-11-03; Q91–Q95 on page 29 already checked. Review flags stay for separate gates.",
     "Manually resolve the 14 ambiguous mappings (November 2023: 12; December 2024: 2) and review the 124 remaining provisional stream-specific mappings (December 2024: 41; November 2025: 83) using the applicable Hindustani, Karnataka, Percussion or Rabindra Sangeet stream. Units V-X cannot be assigned without stream evidence.",
     "Run Music-specific validation and a full Android build/CI on the latest PR and integration heads, inspect the resulting artifacts and diff. Do not merge without explicit user authorization."
   ],
@@ -76,16 +76,16 @@
       "english_visual_proofread": false,
       "gujarati_visual_proofread": false,
       "syllabus_mapping_status": "57/100 mappings manually reviewed; 2 ambiguous; 41 provisional/pending",
-      "visual_questions_checked_count": 60,
+      "visual_questions_checked_count": 65,
       "syllabus_mapping_manual_reviewed_count": 57,
       "answer_key_visual_checked_count": 100,
       "source_verified": false,
       "question_source_verified": false,
       "syllabus_mapping_ambiguous_count": 2,
       "answer_key_visual_mismatches": 0,
-      "visual_proofreading_status": "60/100 English/Gujarati stems/options visually checked; 40 questions remain (prior 54 count corrected to sequential source-reviewed checkpoint 60)",
+      "visual_proofreading_status": "65/100 English/Gujarati stems/options visually checked; 35 remain (Q66-Q90 and Q96-Q100). Q61-Q65 checked against official printed pages 16-17 on 2026-11-03; Q91-Q95 previously checked.",
       "status": "source_proofread_60;key_visual_checked_100;mapping_reviewed_57;100_review_flags",
-      "review_note": "Q1-54 and Q55-60 have source-proofreading evidence; Q55-60 checked directly against original official December 2024 scan pages 15-16. Remaining 40 questions need visual source check. Official final key check remains complete 100/100 (0 mismatches). Mapping review 57/100, with 2 ambiguous and 41 provisional.",
+      "review_note": "Q1-54 and Q55-60 source proofreading documented earlier; Q61-65 directly checked against official bilingual scan printed pages 16-17 on 2026-11-03; Q91-95 checked on printed page 29. Remaining 35 questions require visual source check. Final key check remains complete 100/100 (0 mismatches). Mapping review 57/100, with 2 ambiguous and 41 provisional.",
       "syllabus_mapping_provisional_count": 41
     },
     {
