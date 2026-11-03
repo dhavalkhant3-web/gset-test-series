@@ -246,3 +246,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Compared stored `answer` fields for Music December 2024 Q81–Q85 against the published final answer key: Q81 B, Q82 D, Q83 A, Q84 A, Q85 A. All five match (5/5; no mismatch).
 - This is an answer-key reconciliation only. Original-paper bilingual stem/option visual proofreading was not performed in this batch because the question-paper PDF page retrieval was unavailable. `source_verified` remains false and `review_flag` remains true for Q81–Q85; no question data or answers were edited and the visual-proofread count does not increase.
 - Next distinct work: source-page visual proofreading of Q81–Q85 when original-paper pages can be accessed. Answer-key source: GSET December 2024 Music final key as published with the Paper-II page.
+
+
+## 2026-11-03 — Music Dec 2024 Q86–Q90 final-answer-key reconciliation
+- Reconciled repository answer values for Music December 2024 Q86–Q90 against the published final answer key: Q86 A, Q87 C, Q88 C, Q89 A, Q90 A. All five match (5/5; no discrepancy).
+- Answer-key reconciliation only. Original question paper bilingual stems/options have not been visually proofread for this batch; `source_verified` remains false and `review_flag` remains true. No question records were modified and the visual proofread count remains unchanged.
+- Next source-proofreading batch remains Q86–Q90 when official paper page retrieval is available. Final answer key source: GSET December 2024 Music Paper-II.
