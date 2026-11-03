@@ -122,3 +122,10 @@
 - Hindu Studies Code 28: all 300 structured `unit_number`/`unit_id` fields populated from existing `syllabus_unit` labels; status labels and review flags retained. Commit `3091e2f9fd60bf97cc44f6708a3032eb7df2e0be`.
 - Subject registry reconciled in commit `3830783effb66cf62379be43f6119d7d62f1d0c1`; master progress entry appended in `35f92c5b245423fd809c6142447207dc7c20fd6d`.
 - Changes synchronize already-present mapping labels only. They do not constitute source-PDF verification or mapping-status promotion.
+
+
+## 2026-11-03 — Verification and progress-register refresh
+- `PROJECT_STATE.json` refreshed with exact audit/validator/build run IDs, latest unit-field sync counts and APK artifact metadata (commit `35f2d9ccfadb21e7cbeb1e2a02caecceaf703eb1`).
+- `VERIFICATION_LOG.json` records the combined audit PASS (`41594284815`), Public Administration validation PASS (`41594284715`), and APK workflow PASS (`41594322933`), including Flutter Analyze, widget tests, APK build and upload (commit `768f0347cacabf973a6fa5a66b370ec169b3fa9c`).
+- `MASTER_PROGRESS.md` synchronized with these evidence-based results (commit `c6c4b285089d518f438aceceff4918629a0cbd38`).
+- No original PDF visual proofreads completed in this documentation checkpoint. No source data changed, no review flag cleared, no PR merged; Code 01 and Paper-I remain untouched.
