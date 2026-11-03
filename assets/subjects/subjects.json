@@ -415,12 +415,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded in the current bank. Current question-level state: 0 source_verified, 300 review-flagged pending original-page visual review. Syllabus mapping: 0 manually verified, 163 provisional content-based mappings, 137 pending. Gujarati source transcription is not populated in the current integrated bank. Do not copy the divergent PR branch without field-by-field source reconciliation.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded in the current bank. Current question-level state: 0 source_verified, 300 review-flagged pending original-page visual review. Syllabus mapping: 0 manually verified, 229 provisional content-based mappings, 71 pending. Gujarati source transcription is not populated in the current integrated bank. Do not copy the divergent PR branch without field-by-field source reconciliation.",
       "status": "verified_against_official_papers_and_final_keys",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "provisional": 163,
-        "pending": 137,
+        "provisional": 229,
+        "pending": 71,
         "verified": 0
       }
     },
