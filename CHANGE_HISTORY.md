@@ -69,3 +69,10 @@
 - Updated `assets/subjects/music/verification_pending.json`, `assets/subjects/subjects.json`, and `MASTER_PROGRESS.md` with the mapping counts. Updated `PROJECT_STATE.json` rollups for IKS, Music and Public Administration.
 - Combined subject bank audit run `41583928078`: SUCCESS. Public Administration validator `41583928058`: SUCCESS. Debug APK run `41583928048`: Flutter analyze and widget tests passed; combined APK build was still in progress at the last check.
 - No PR merged; Code 01 and Paper-I remain untouched.
+
+
+## 2026-11-03 — Visual Art provisional mapping batch
+- Added 34 provisional syllabus-unit assignments to Code 33 Visual Art November 2023 records using the official GSET Code 33 unit headings and question topic (fundamentals/color, traditional materials/techniques, Indian/Western art history, design/visual communication, cinema/animation, and contemporary Indian art).
+- Mapping counts from the integrated bank now: 22 manually reviewed, 165 provisional, 113 pending. Original question visual-proofreading count and 14 content concerns are unchanged; provisional assignments are not source-verified.
+- Updated `assets/subjects/subjects.json`, `MASTER_PROGRESS.md`, and `PROJECT_STATE.json` to synchronize counts. Combined bank audit run `41584155940` passed on metadata commit `9590778364d0d6fcf081e2cbbf0f094f87a09002`; Debug APK run `41584155869` was in progress and Visual Art validation `41584155887` was queued at last check.
+- No question text, options, answer, Gujarati translation, source references, Paper-I or Code 01 files changed; no PR merged.
