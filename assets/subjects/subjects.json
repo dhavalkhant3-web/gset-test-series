@@ -459,7 +459,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options are populated for 100 records. Syllabus mapping: 0 verified, 171 provisional content-based mappings, 129 pending. November 2023 Q11, Q21, Q39 and Q96–Q100 retain source concerns; Dec 2024 and Nov 2025 source review remains incomplete.",
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options populated for 100 records. Field-level syllabus assignment: 0 verified, 156 provisional unit numbers assigned, 144 records still have unit_number=null. Mapping status labels show 183 provisional and 117 pending; 27 records labeled provisional still have null unit fields. Newly filled 21 fields are provisional, stream-specific unit scope and source checks remain open.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "verified": 0,
@@ -480,7 +480,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 records source_verified; all 300 retain review flags pending original stem/options audit. Syllabus mapping: 22 manually reviewed, 278 provisional, 0 pending. Disputed items retained for review: Dec 2024 Q24, Dec 2024 Q35, Nov 2025 Q17. Do not treat answer-key reconciliation or bilingual helper fields as source proof of question text.",
+      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 source_verified; all 300 retain review flags pending original stem/options audit. Field-level syllabus assignment: 22 manually reviewed, 180 provisional unit numbers assigned, 98 records still have unit_number=null. The mapping-status labels count 22 manually reviewed + 278 provisional; 98 of those provisional-status records still lack a filled unit number. All newly filled fields remain provisional and expert confirmation/source text review is pending. Disputed items Dec 2024 Q24/Q35 and Nov 2025 Q17 remain flagged.",
       "unit_mapping_status": "all_units_assigned_provisional_or_manually_reviewed; source_review_pending",
       "unit_mapping_counts": {
         "provisional": 278,
