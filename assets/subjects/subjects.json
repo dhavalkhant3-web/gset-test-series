@@ -459,7 +459,13 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options are populated for 100 records. Syllabus mapping: 0 verified, 135 provisional, 165 pending. November 2023 Q11, Q21, Q39 and Q96–Q100 retain source concerns; Dec 2024 and Nov 2025 source review remains incomplete."
+      "data_status": "300 Paper-II questions across 3 sessions. Current bank: 94 records source_verified=true; 206 review flags remain. Source status: 94 source pages visually verified, 6 bilingual discrepancies flagged, and 200 question-text/Gujarati source-transcription reviews pending. Gujarati source text/options are populated for 100 records. Syllabus mapping: 0 verified, 171 provisional content-based mappings, 129 pending. November 2023 Q11, Q21, Q39 and Q96–Q100 retain source concerns; Dec 2024 and Nov 2025 source review remains incomplete.",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
+      "unit_mapping_counts": {
+        "verified": 0,
+        "provisional": 171,
+        "pending": 129
+      }
     },
     {
       "code": "32",
