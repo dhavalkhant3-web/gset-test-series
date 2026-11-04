@@ -142,8 +142,8 @@
       "question_text_and_options_audit_pending": 0,
       "mapping": {
         "verified": 0,
-        "manually_reviewed": 160,
-        "provisional": 140,
+        "manually_reviewed": 180,
+        "provisional": 120,
         "pending": 0
       },
       "disputed_items": [
@@ -151,8 +151,8 @@
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "2a294f845748171cf32d4f5fa5d2e42385236b76",
-      "status": "source text/options visual audit complete 300/300; 160 unit mappings manually reviewed against official syllabus, 140 provisional; 300 review flags retained",
+      "question_bank_sha": "9292c740b68ed59a568e98bbb5b1b4dbbc588396",
+      "status": "source text/options visual audit complete 300/300; 180 unit mappings manually reviewed against official syllabus, 120 provisional; all 300 review flags retained",
       "session_source_verified": {
         "nov23": 100,
         "dec24": 100,
