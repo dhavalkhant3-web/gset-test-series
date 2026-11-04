@@ -414,3 +414,9 @@
 - Reviewed 18 direct Dec 2024 match/chronology items; Code 33 mappings now 127 manually reviewed, 173 provisional, 0 pending.
 - Left Q54 marketing sequence and figure-led items provisional where the syllabus relation is not direct or original figures are needed. No source content or flags altered.
 - Bank commit `50c92f570abc3aa3e3addc1ceaa08c30289b9a81`; state sync `3843cd022b84e37d532c6acdebf274ec08122dec`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 6
+- Reviewed 59 direct Nov 2025 core-unit matches. Code 33 mapping checkpoint now 186 manually reviewed, 114 provisional, 0 pending.
+- Ambiguous and image-led items kept provisional; no question content or review flags altered.
+- Bank commit `97a3dda302c719d95c26053fa7809756960464d3`; state sync commit `2c0b512b1f1c917ec6000ebf3098442f4d833fe5`.
