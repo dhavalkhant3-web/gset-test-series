@@ -450,3 +450,9 @@
 - Inspected original Nov 2023 pages printed 22–23 for Q91–Q100. Q91–Q95 depict an Indian Buddha/Bodhisattva sculpture (Unit VII); Q96–Q100 refer to Picasso's Guernica (Unit VI).
 - Manually mapped 10 figure questions to official Units VII and VI; answer letters and source_verified flags unchanged.
 - Code 33 mapping checkpoint now 293 manually reviewed, 7 provisional, 0 pending. Bank commit `e2a1c8b179fbbf21931b2eb21ef7e1592b86868c`; state sync `ce755eb37745d5e29834fcbe3390b7a0d867d2d2`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 12
+- Resolved Nov 2023 Q54 to Unit VI (Western post-WWII modernist poster chronology) and Nov 2025 Q4 to Unit I (conceptual/perceptual aspects of visual art).
+- Left five cross-scope/global and generic marketing questions provisional. Code 33 mapping totals 295 manually reviewed, 5 provisional, 0 pending.
+- Bank commit `f8ee77304b76a35a1a9e2a029aff79a4804ff29a`; state sync `8503ba12d49e1daba79e8eacd95ad0b09570b49f`.
