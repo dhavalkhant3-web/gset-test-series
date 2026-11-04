@@ -137,9 +137,9 @@
       "name": "Public Administration",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 0,
+      "source_verified_marked": 127,
       "review_flags": 300,
-      "question_text_and_options_audit_pending": 300,
+      "question_text_and_options_audit_pending": 173,
       "mapping": {
         "verified": 0,
         "manually_reviewed": 22,
@@ -151,8 +151,8 @@
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "73b15e854a90985a0ef36fa6f6f2318d9fc2da3a",
-      "status": "all 300 question text/options audits remain pending; 22 mappings manually reviewed, 278 provisional, 0 unmapped; official key reconciliation remains separate"
+      "question_bank_sha": "af6e102327309b98362fd4ce65ffbdad084392db",
+      "status": "source-verified 127/300; 173 original question stem/options visual checks pending; 22 mappings manually reviewed, 278 provisional; all review flags retained"
     },
     "33": {
       "name": "Visual Art",
