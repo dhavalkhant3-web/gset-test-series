@@ -4620,5 +4620,64 @@
       "No PR merged; Paper-I and Code 01 untouched",
       "No provisional mapping promoted to verified"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Performing Arts Code 31 December 2024 direct syllabus mapping review tranche",
+    "scope": "December 2024 Paper-II Q4, Q11, Q27-Q29, Q46, Q55",
+    "source": "Existing integrated English question records and registered GSET Code 31 core syllabus unit headings",
+    "actions": [
+      "Manually reviewed seven explicit question-to-unit matches: Kathak/Indian Classical Dance; Bhavai/Folk and Traditional Theatre; three aesthetics questions/Art and Aesthetics; Natyashastra; Southeast Asian Dragon/Lion dance",
+      "Updated only question-level syllabus unit metadata and rationale for seven records",
+      "Recomputed mapping status totals from the current 300-record bank and synchronized paper/subject/project registers"
+    ],
+    "result": {
+      "Code31_total": 300,
+      "manual_mapping_reviews_added": 7,
+      "mapping_manually_reviewed": 7,
+      "mapping_provisional": 176,
+      "mapping_pending": 117,
+      "unit_fields_populated": 183,
+      "unit_fields_unset": 117,
+      "mapping_officially_verified": 0,
+      "source_verified_marked": 101,
+      "source_text_gujarati_review_pending": 193,
+      "bilingual_discrepancies": 6,
+      "review_flags": 206,
+      "by_paper": {
+        "performing_arts_dec24": {
+          "manual": 7,
+          "prov": 84,
+          "pending": 9,
+          "flags": 100,
+          "sourceVerified": 0,
+          "gu": 0,
+          "assigned": 91
+        },
+        "performing_arts_nov23": {
+          "manual": 0,
+          "prov": 43,
+          "pending": 57,
+          "flags": 6,
+          "sourceVerified": 94,
+          "gu": 100,
+          "assigned": 43
+        },
+        "performing_arts_nov25": {
+          "manual": 0,
+          "prov": 49,
+          "pending": 51,
+          "flags": 100,
+          "sourceVerified": 7,
+          "gu": 7,
+          "assigned": 49
+        }
+      }
+    },
+    "non_actions": [
+      "No question stem, option, answer letter, Gujarati translation, source URL, source_verified field or review flag changed",
+      "No PR merged; Paper-I and Code 01 untouched",
+      "No provisional or pending mapping promoted to officially verified"
+    ]
   }
 ]
