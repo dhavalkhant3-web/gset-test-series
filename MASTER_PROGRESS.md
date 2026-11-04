@@ -380,3 +380,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Dec 2024 Q86–Q90 and Nov 2025 Q86–Q90: all 10 stored answers match official GSET final answer keys.
 - Question paper visual check pending; source verified total remains 117/300 (183 pending). Provisional mappings and review flags unchanged.
 - Paper-I/Code 01 untouched; no PR merge.
+
+
+## Public Administration Code 32 — final answer-key reconciliation batch 14 (Q91–Q95; visual pending; 2026-11-04)
+- Dec 2024 Q91–Q95 and Nov 2025 Q91–Q95: reconciled all 10 stored answer letters against the official GSET final answer keys; all match.
+- Original question-paper stem/four-option visual review is pending; source-verified count remains 117/300 (183 pending). Existing review flags and 278 provisional mappings retained.
+- Paper-I and Code 01 untouched; no PR merged.
