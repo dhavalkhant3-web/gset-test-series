@@ -507,3 +507,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q83–Q92 against official Code 32 syllabus: Q83→IV rural development/local programmes; Q84→X sampling; Q85→VII social welfare programmes; Q86→V Riggs; Q87→II bureaucracy/admin thought; Q88→VI disinvestment; Q89→I position classification/personnel; Q90–Q92→VII social welfare organizations/programmes.
 - Mapping totals now 92 manually reviewed, 208 provisional, 0 pending. No mapping marked verified; all 300 review flags retained.
 - Updated question unit fields/notes, paper/subject manifests and Project State. No question text/options/answer edits; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 8 (2026-11-04)
+- Manually reviewed Nov 2023 Q93–Q100 against official Code 32 syllabus: Q93–Q95→VII Social Welfare Administration (globalization, voluntary organizations, service delivery); Q96–Q100→IX Governance and Good Governance (public sector governance, Rule of Law, governance process, citizen preferences, legitimate governance).
+- Nov 2023 mapping audit is now complete 100/100 manually reviewed against the official syllabus. Overall mapping counts: 100 manually reviewed, 200 provisional (Dec24 and Nov25), 0 pending/verified. All 300 content/review flags remain active.
+- Updated paper manifests, subject registry and Project State. No question content/answer fields changed; no PR merge; Code 01/Paper-I untouched.
