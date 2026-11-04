@@ -287,3 +287,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Read the registered official GSET syllabus units from `assets/subjects/syllabus_units.json` (Code 28 Units I–X) and inspected all 8 provisional records. The notes explain why these remain uncertain (exact ritual/topic not explicitly itemized in the syllabus). No promotions/demotions are justified without the complete syllabus subtopic evidence and specialist review; review flags preserved.
 - The 40 flagged questions include pre-existing source/content checks. They are not automatically mapping failures. No source-text review repeated; all 300 are already source_verified.
 - This is a factual live-register correction only. No question data, mapping status, unit label, answers, translations, review flags, Code 01/Paper-I, or PR merge changed. Commit records only the audit and updated count; remaining substantive review is blocked on source-evidence/specialist decision, not assumed complete.
+
+
+## Public Administration Code 32 — structural checkpoint (2026-11-04)
+- Live integration bank audited: 300 unique question records (100 each for November 2023, December 2024 and November 2025).
+- Internal field integrity: 0 blank English stems, 0 invalid four-option sets, 0 stored `answer` vs `official_answer` disagreements.
+- Source review is **not complete**: `source_verified=true` remains 0/300 and 300 review flags remain. Gujarati stem/options arrays are empty as the official medium is English; no translations were invented.
+- Mapping checkpoint: 22 manually reviewed; 278 provisional. Targeted source concerns still open: Dec 2024 Q24/Q35 and Nov 2025 Q17.
+- This is an internal JSON integrity audit only, not a visual source-PDF verification. No question data or verification status was changed.
