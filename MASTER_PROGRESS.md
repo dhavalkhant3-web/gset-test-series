@@ -477,3 +477,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q33–Q42 against the official Code 32 syllabus PDF. Confirmed or corrected: Q33→VIII (Dror/public policy); Q34→II (Weber); Q35→IX (Citizen's Charter); Q36→V (SDGs); Q37→V (comparative administrative system closest fit); Q38→VIII (Thomas Dye/public policy); Q39/Q40→X (statistical hypothesis/experimental research); Q41→IV (Chief Secretary/state-local administration); Q42→VII (social welfare schemes).
 - Mapping totals: 42 manually reviewed, 258 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
 - Updated papers.json, subjects.json and Project State. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 3 (2026-11-04)
+- Manually reviewed Nov 2023 Q43–Q52 against official Code 32 syllabus: Q43 McGregor→II; Q44 open organizational model→I; Q45 performance budget→VI; Q46 Riggs Agraria→V; Q47 Simon decision-making→II; Q48 budgetary process→VI; Q49 policy sciences barriers→VIII; Q50 Riggs society classification critics→V; Q51 development administration→V; Q52 Great Britain comparative administration→V (closest comparative scope).
+- Mapping totals now 52 manually reviewed, 248 provisional, 0 pending. All 300 review flags remain active; no question content or answer fields changed.
+- Updated paper manifests, subject registry and Project State. No PR merge; Code 01/Paper-I untouched.
