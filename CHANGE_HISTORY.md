@@ -193,3 +193,8 @@
 - Source-verified Dec 2024 Q71–Q75 and Nov 2025 Q71–Q75 (10 records) using official question-paper page images and official final answer keys; stems/options and answer letters match.
 - Running total: 117/300 source verified; 183 pending. Provisional mappings 278 unchanged; review flags retained.
 - No PR merge, Paper-I change or Code 01 change.
+
+
+## 2026-11-04 — Public Administration Code 32 answer-key reconciliation batch 11 (visual review pending)
+- Reconciled Dec 2024 Q76–Q80 and Nov 2025 Q76–Q80 against official final answer keys; all 10 answer letters match existing bank records.
+- Original question-paper visual check pending, so source_verified remains 117/300; 183 pending. Review flags retained; no Paper-I/Code 01 change and no PR merge.
