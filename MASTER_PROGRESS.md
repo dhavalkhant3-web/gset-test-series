@@ -537,3 +537,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Dec 2024 Q31–Q40 and Nov 2025 Q31–Q40 against official Code 32 syllabus. Corrected Dec24 Q40 Parkinson's organizational growth→I; Nov25 Q31 Inter-State Council→III. Confirmed writs/parliamentary procedure/committees→III/VI, local/district administration→IV, parastatal/public enterprises→VI, police/constitutional topics→III.
 - Mapping totals now 180 manually reviewed, 120 provisional, 0 pending. Session counts Nov23 100/0, Dec24 40/60, Nov25 40/60. All 300 review flags retained; no mapping promoted to verified.
 - Updated question-level unit fields, per-paper manifests, subject registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 13 (2026-11-04)
+- Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus. Dec24 civil-service origins/classification/training/recruitment Q41–Q46→I; Shadow Cabinet→III; bureaucracy typologies→II; Riggs diffracted society→V. Nov25 Heady/Riggs/Weidner/comparative and development topics→V; CSR→VI; PPP→V; social audit→V.
+- Mapping totals now 200 manually reviewed, 100 provisional, 0 pending. Session counts Nov23 100/0, Dec24 50/50, Nov25 50/50. All 300 review flags retained; no mapping promoted to verified.
+- Updated question-level unit fields/notes, paper/subject manifests and Project State. No question content/answer changes; no PR merge; Code 01/Paper-I untouched.
