@@ -438,3 +438,9 @@
 - Inspected the original Dec 2024 PDF figure pages for Q91–Q95 (Spiral Jetty by Robert Smithson, Land Art) and Q96–Q100 (Arnolfini Portrait by Jan van Eyck, Northern Renaissance).
 - Manually mapped 10 image-led questions to official Unit VI. No official answers or source_verified status changed.
 - Mapping checkpoint now 273 manually reviewed, 27 provisional, 0 pending. Bank commit `aac4d94fc42b13347f337e5ed3ecf42b58f09ddb`; state sync `564e9b3485cc3c26f3444bc232b47fb5fbf46203`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 10
+- Inspected original Nov 2025 source pages printed 21–23 for Q91–Q100. Q91–Q95 depict Rodin's Gates of Hell (Unit VI); Q96–Q100 depict Ustad Mansur's Mughal miniature Squirrels on a Chennar tree from Jahangir's period (Unit VII).
+- Manually mapped the 10 figure questions; official answer keys and source_verified fields preserved.
+- Code 33 mapping checkpoint now 283 manually reviewed, 17 provisional, 0 pending. Bank commit `d6596a9260bcc4f0bae538d2de7bb66397f1fe7e`; state sync `9e19436ed2ef2a39f3b33ca772262af1216016f5`.
