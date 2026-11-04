@@ -27,7 +27,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
-| 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 232 manually reviewed, 68 provisional, 0 pending | 14 |
+| 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 293 manually reviewed, 7 provisional, 0 pending | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
 
@@ -44,7 +44,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - **30 Music:** source-text visual proofreading is complete for all 300/300 records (Nov 2023 100/100, Dec 2024 100/100, Nov 2025 100/100). Completed the final 20 Dec 2024 checks (Q76–Q90 and Q96–Q100) on official printed pages 23–28 and 30–31 on 2026-11-03; repaired OCR-corrupted Gujarati in Q81, Q83, Q85, Q89 and Q90 and normalized Q79 English. No question-text visual checks remain. Resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings and review 124 remaining stream-specific provisional mappings. 212 review flags remain active for separate mapping/content gates.
 - **31 Performing Arts:** resolve 6 bilingual discrepancies and inspect 200 pending text/transcription records; review 171 provisional + 129 pending mappings. 36 provisional content-based assignments were added on 2026-11-03; source visual-review counts remain unchanged.
 - **32 Public Administration:** all 300 stems/options visually checked against official source PDFs and answer letters reconciled with final keys. Mapping progress is 300 manually reviewed + 0 provisional + 0 pending, after reviewing the 40 remaining provisional entries and correcting research-methodology unit assignments to official Unit X (Research Methodology) and governance assignments to official Unit IX (Governance and Good Governance). All 300 content/review flags remain active.
-- **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 258 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; a further 47 clear Nov 2023 mappings and 99 direct Dec 2024 mappings, 69 direct Nov 2025 mappings (including Q91–Q100 figure pages) and 18 direct Nov 2023 mappings were manually reviewed on 2026-11-04. Original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
+- **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 258 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; a further 47 clear Nov 2023 mappings and 99 direct Dec 2024 mappings, 69 direct Nov 2025 mappings and 28 direct Nov 2023 mappings (including both Nov 2023 figure sets) were manually reviewed on 2026-11-04. Original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
 
 ## PR and branch safety
 - #16 merged.
@@ -475,7 +475,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 ## Public Administration Code 32 — official syllabus mapping review tranche 2 (2026-11-04)
 - Manually reviewed Nov 2023 Q33–Q42 against the official Code 32 syllabus PDF. Confirmed or corrected: Q33→VIII (Dror/public policy); Q34→II (Weber); Q35→IX (Citizen's Charter); Q36→V (SDGs); Q37→V (comparative administrative system closest fit); Q38→VIII (Thomas Dye/public policy); Q39/Q40→X (statistical hypothesis/experimental research); Q41→IV (Chief Secretary/state-local administration); Q42→VII (social welfare schemes).
-- Mapping totals: 283 manually reviewed, 17 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
+- Mapping totals: 293 manually reviewed, 7 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
 - Updated papers.json, subjects.json and Project State. No PR merge; Paper-I and Code 01 untouched.
 
 
@@ -631,3 +631,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually mapped 10 figure-based questions to official Units VI and VII using the original images. Existing source_verified flags and official answer letters were preserved.
 - Code 33 mapping checkpoint: 283 manually reviewed, 17 provisional, 0 pending. Remaining provisional items are the Nov 2023 figure set, one unresolved marketing sequence and several ambiguous question topics; source proofreading backlog (256) and 14 content concerns remain.
 - Bank metadata commit: `d6596a9260bcc4f0bae538d2de7bb66397f1fe7e`; state sync commit: `9e19436ed2ef2a39f3b33ca772262af1216016f5`.
+
+
+## Visual Art Code 33 mapping batch 11 — 2026-11-04
+- Inspected original Nov 2023 source pages printed 22–23 for Q91–Q100. Q91–Q95 show an Indian Buddha/Bodhisattva sculpture (Unit VII); Q96–Q100 show Picasso's Guernica (Spanish Civil War, 1937, Museo Reina Sofía; Unit VI).
+- Manually mapped both image groups (10 questions) to official Units VII and VI. Official final-key letters and existing source_verified flags were preserved.
+- Code 33 mapping checkpoint: 293 manually reviewed, 7 provisional, 0 pending. The 7 remaining provisional mappings are less-direct content fits (not image-dependent items). Source text proofreading backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `e2a1c8b179fbbf21931b2eb21ef7e1592b86868c`; state sync commit: `ce755eb37745d5e29834fcbe3390b7a0d867d2d2`.
