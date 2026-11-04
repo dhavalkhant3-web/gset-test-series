@@ -90,9 +90,9 @@
       "name": "Music",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 254,
-      "english_gujarati_stem_option_visual_proofread": 254,
-      "remaining_question_text_visual_proofread": 46,
+      "source_verified_marked": 300,
+      "english_gujarati_stem_option_visual_proofread": 300,
+      "remaining_question_text_visual_proofread": 0,
       "gujarati_fields_populated": 300,
       "answer_keys_visually_checked": 300,
       "answer_key_mismatches": 0,
@@ -103,17 +103,17 @@
         "pending": 0
       },
       "review_flags": 212,
-      "question_bank_sha": "ad4a250afb8efdc80afcfc9f56baeb9b78fdff46",
-      "verification_file_sha": "7862efd9712f1e59300ff92b4b7b6dcb81a9a0ac",
+      "question_bank_sha": "d40e1b4c5dc056d20b709c2ec7f07366ce7b9b83",
+      "verification_file_sha": "b75ff8b9d4fc7a13fcf3a281237d2de516f0344e",
       "source_review_split": {
         "nov23_visual_proofread": 100,
-        "dec24_visual_proofread": 54,
-        "dec24_pending": 46,
+        "dec24_visual_proofread": 100,
+        "dec24_pending": 0,
         "nov25_visual_proofread": 100,
         "nov25_pending": 0
       },
-      "note": "Gujarati fields populated on all 300. Original-PDF visual proofread is complete for 254 records; 46 Dec 2024 questions remain. Question-text source_verified count 254. All 300 official final answer keys visually checked, zero mismatches. 162 manually reviewed, 14 ambiguous and 124 provisional stream-specific mappings remain separate; review flags remain.",
-      "status": "254/300 question-text visual proofread; 46 pending (Dec 2024); source_verified 254; mapping 162 manually reviewed, 14 ambiguous, 124 provisional"
+      "note": "All 300 English/Gujarati stems and option sets visually proofread against original bilingual scans. Dec 2024 Q91-Q95 passage and questions checked on printed pp.28-31; source English wording corrected and Gujarati passage transcribed. All 300 official final answer keys visually checked, zero mismatches. Mapping: 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific mappings remain separate; 212 review flags retained.",
+      "status": "300/300 question-text visual proofread; 0 pending; all official keys checked 300/300, 0 mismatches; mapping 162 manually reviewed, 14 ambiguous, 124 provisional; 212 review flags remain."
     },
     "31": {
       "name": "Performing Arts",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "b86411901a9453196b735fc33633fbf76face2c3",
-    "scope": "Visual Art Code 33 final source-text proofread Q76-Q90 across all three official papers; 45 records"
+    "commit": "f144b590afff114e0542eba0dd33c075d1f4683a",
+    "scope": "Music Code 30 Dec 2024 Q91-Q95 source visual proofreading and Gujarati passage transcription"
   }
 }
