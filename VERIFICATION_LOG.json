@@ -4112,5 +4112,27 @@
       "No Paper-I or Code 01 Mathematical Sciences files touched"
     ],
     "commit": "31bc3f9710481db05ff1e3116b15b86eddb45c8d"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 mapping review batch",
+    "scope": "Nov 2023 Q26-Q45; 20 clear mappings",
+    "source": "Official GSET Code 33 syllabus PDF https://gujaratset.ac.in/assets/syllabus/33.pdf (registered unit headings in assets/subjects/syllabus_units.json)",
+    "actions": [
+      "Reviewed direct matches for art media/printmaking, cinema, color theory, graphic communication/design, Indian art chronology and Western art chronology",
+      "Updated syllabus_unit, unit_number, unit_id, syllabus_mapping_status and syllabus_mapping_note for 20 records"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "manually_reviewed": 42,
+      "provisional": 258,
+      "pending": 0
+    },
+    "non_actions": [
+      "No question stems/options/answers or flags altered",
+      "Unclear and image-dependent items retained provisional",
+      "No PR merged; no Paper-I or Code 01 files touched"
+    ],
+    "commit": "9d850340f268911f1caa8f3ac951a3b610531363"
   }
 ]
