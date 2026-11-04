@@ -3373,5 +3373,43 @@
       "All original source text/options/answer data unchanged by mapping review.",
       "Review flags retained; no PR merge, Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 2",
+    "question_bank_commit": "62dee8edc00537e972b0e2cb3c96335d304c97c2",
+    "project_state_commit": "122d6e6cfd43bb2d2abe1dcb75b8e9b1ae2bd084",
+    "subject_registry_commit": "3c7fb663026d0ca41b74e6cac5c7d9e980441500",
+    "paper_manifest_commit": "da07c72e25059f9f22cb90d7fb172a6893b07d90",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q33",
+      "public_administration_nov23_q34",
+      "public_administration_nov23_q35",
+      "public_administration_nov23_q36",
+      "public_administration_nov23_q37",
+      "public_administration_nov23_q38",
+      "public_administration_nov23_q39",
+      "public_administration_nov23_q40",
+      "public_administration_nov23_q41",
+      "public_administration_nov23_q42"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 42,
+      "provisional": 258,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Q35 corrected to Unit IX Citizen's Charter; Q39/Q40 corrected to Unit X Research Methodology; Q41 Unit IV Chief Secretary; Q42 Unit VII social welfare administration.",
+      "Question content/answer fields were unchanged; all review flags retained.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
