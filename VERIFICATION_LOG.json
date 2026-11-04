@@ -3167,5 +3167,48 @@
       "Review flags and provisional mappings preserved; no mapping promotion.",
       "No PR merged; Code 01/Paper-I unchanged."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source verification tranche 18 and session completion reconciliation",
+    "commit": "06a1844cea89e16865432d421412bdce013feff9",
+    "question_bank_blob_sha": "adc2f1cf88749ba2765ae4cc6f8e4e8f4719a3e6",
+    "papers_manifest_commit": "55a6d6c072e1d254d6b4c48b1da8bd860d4deec8",
+    "subjects_registry_commit": "3079e2a64a9be3f8ad218a033b69b74a360b3872",
+    "questions_checked": [
+      "public_administration_dec24_q31",
+      "public_administration_dec24_q32",
+      "public_administration_dec24_q33",
+      "public_administration_dec24_q34",
+      "public_administration_nov25_q33",
+      "public_administration_nov25_q34",
+      "public_administration_nov25_q35"
+    ],
+    "source_visual_review": {
+      "stem_and_four_options_match": 7,
+      "official_final_key_match": 7,
+      "mismatches": 0
+    },
+    "metrics": {
+      "source_verified": 200,
+      "source_pending": 100,
+      "session_counts": {
+        "nov23": 0,
+        "dec24": 100,
+        "nov25": 100
+      },
+      "fully_source_text_verified_papers": {
+        "dec24": 100,
+        "nov25": 100
+      },
+      "mapping_manually_reviewed": 22,
+      "mapping_provisional": 278,
+      "review_flags_retained": 300
+    },
+    "notes": [
+      "December 2024 and November 2025 question-text visual audits are complete (100/100 each). November 2023 original-paper visual proofread remains pending 100/100.",
+      "All review flags retained for mapping/content adjudication.",
+      "No PR merged; Code 01 and Paper-I untouched."
+    ]
   }
 ]
