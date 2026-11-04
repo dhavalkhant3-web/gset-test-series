@@ -434,3 +434,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled stored answer/official_answer for all 10 questions against official final keys; all match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
 - Running source-verified total: 167/300; 133 pending. Exact session counts from the live JSON: Nov23 0/100, Dec24 83/100, Nov25 84/100. Mapping counts remain 22 manually reviewed, 278 provisional.
 - No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranches 16–17 (2026-11-04)
+- Tranche 16: Visually matched Dec 2024 Q1–Q7 and Nov 2025 Q1–Q6 against official GSET Paper-II printed page 3; 13 stems/options/order match and 13 stored answers match final keys.
+- Tranche 17: Visually matched Dec 2024 Q25–Q30 and Nov 2025 Q26–Q32 against official GSET Paper-II printed page 6; 13 stems/options/order match and 13 stored answers match final keys.
+- Running source-verified total: 193/300; 107 pending. Exact session counts: Nov23 0/100, Dec24 96/100, Nov25 97/100. Mapping remains 22 manually reviewed, 278 provisional; review flags retained.
+- No PR merge; Paper-I and Code 01 untouched.
