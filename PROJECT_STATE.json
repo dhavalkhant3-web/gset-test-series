@@ -821,7 +821,7 @@
       "28": "24 provisional mappings; 40 review flags",
       "29": "300 visual checks; 298 provisional mappings",
       "31": "200 source reviews; 6 bilingual discrepancies; mappings review",
-      "32": "300 source checks; 278 provisional mappings",
+      "32": "117/300 official source-verified; 183 source checks pending; 278 provisional syllabus mappings",
       "33": "256 proofreading checks; 14 content concerns; 278 provisional mappings",
       "02": "86 core-field checks; 374 review flags; syllabus mapping",
       "03": "315 base + 1 overlay review flags; Q42 format source check; syllabus mapping"
@@ -829,13 +829,13 @@
     "note": "Supersedes old Music pending-visual count 146; Music remaining visual checks apply only to Dec 2024. No PR merged; Code 01/Paper-I untouched."
   },
   "public_administration": {
-    "source_verified": 107,
-    "remaining_source_verification": 193,
+    "source_verified": 117,
+    "remaining_source_verification": 183,
     "provisional_syllabus_mappings": 278,
     "last_batch": {
       "date": "2026-11-04",
-      "dec24_questions": "66-70",
-      "nov25_questions": "66-70",
+      "dec24_questions": "71-75",
+      "nov25_questions": "71-75",
       "count": 10,
       "verification": "official PDF visual + final key"
     }
