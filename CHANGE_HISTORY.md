@@ -157,3 +157,8 @@
 ## 2026-11-04 — Public Administration Code 32 source verification tranche 3
 - Commit batch updates source verification for Dec 2024 Q36–Q40 and Nov 2025 Q36–Q40, ten items. Original official PDF pages visually matched; final answer key letters match JSON answers.
 - Running source-verified count 47/300; 253 pending. Provisional mappings 278 unchanged; active flags retained. No source question or answer rewritten.
+
+
+## 2026-11-04 — Public Administration Code 32 source verification tranche 4
+- Source-verified Dec 2024 Q41–Q46 and Nov 2025 Q41–Q46 against official PDF page images and official final answer keys (12 records).
+- All stems/options and stored answer letters matched; no source content edited. Running source verified 59/300, 241 pending; provisional mappings 278 unchanged, review flags retained.
