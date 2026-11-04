@@ -3713,5 +3713,67 @@
       "Review flags retained; no question content/answer changes.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 10",
+    "question_bank_commit": "ab09e2fb109aa7b2b41221cd9531b52e87666884",
+    "project_state_commit": "06c7663e8c0cbbf0ef44386a0332a50c2d3e3222",
+    "subject_registry_commit": "b84ddc164c03403954bf3f94245ddbf0d66b17d1",
+    "paper_manifest_commit": "47d0ef0f14fc4b4cec1f529f5faf97896e91568c",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_dec24_q11",
+      "public_administration_dec24_q12",
+      "public_administration_dec24_q13",
+      "public_administration_dec24_q14",
+      "public_administration_dec24_q15",
+      "public_administration_dec24_q16",
+      "public_administration_dec24_q17",
+      "public_administration_dec24_q18",
+      "public_administration_dec24_q19",
+      "public_administration_dec24_q20",
+      "public_administration_nov25_q11",
+      "public_administration_nov25_q12",
+      "public_administration_nov25_q13",
+      "public_administration_nov25_q14",
+      "public_administration_nov25_q15",
+      "public_administration_nov25_q16",
+      "public_administration_nov25_q17",
+      "public_administration_nov25_q18",
+      "public_administration_nov25_q19",
+      "public_administration_nov25_q20"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 20,
+      "provisional_to_manual": 20,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 140,
+      "provisional": 160,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 20,
+        "provisional": 80
+      },
+      "nov25": {
+        "manual_reviewed": 20,
+        "provisional": 80
+      }
+    },
+    "notes": [
+      "Dec24 Q15 Politics–Administration Dichotomy→Unit I; Dec24 Q17 New Public Administration→Unit II; Nov25 Q16 Fayol→II and Q17 Kautilya Saptanga→II.",
+      "All review flags retained; question content/answer fields unchanged.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
