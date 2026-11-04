@@ -456,3 +456,10 @@
 - Resolved Nov 2023 Q54 to Unit VI (Western post-WWII modernist poster chronology) and Nov 2025 Q4 to Unit I (conceptual/perceptual aspects of visual art).
 - Left five cross-scope/global and generic marketing questions provisional. Code 33 mapping totals 295 manually reviewed, 5 provisional, 0 pending.
 - Bank commit `f8ee77304b76a35a1a9e2a029aff79a4804ff29a`; state sync `8503ba12d49e1daba79e8eacd95ad0b09570b49f`.
+
+
+## 2026-11-04 — Visual Art Code 33 source proofreading batch 13
+- Proofread English stem and options against original scans for Nov 2023 Q1–Q16 (printed pp. 3–4), Dec 2024 Q1–Q16 (printed pp. 3–4), and Nov 2025 Q1–Q16 (printed pp. 3–6).
+- 47 additional question records proofread; Nov 2025 Q8's existing source proofread and review flag retained. No question/option/key edits.
+- Source proofreading count now 77/300; 209 pending; 14 flagged content concerns remain. Mapping total stays 295 manually reviewed and 5 provisional.
+- Bank note commit `95c18d0e69f6a52522ea693b5b6f675753719d3f`; state sync `5d512525ae2e29ad12c4fb8860e43cff77e69405`.
