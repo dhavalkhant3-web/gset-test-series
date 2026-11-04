@@ -501,3 +501,10 @@
 - Corrected Q91 English article, Q93 English phrase and Gujarati options, Q94 English tense/Gujarati stem, Q95 Gujarati stem/options spacing; transcribed original Gujarati passage to `passage_gu` and source-aligned `passage_en`.
 - Official answer keys preserved; all five review flags retained. Dec 2024 source proofreading now 100/100; Music total 300/300, 0 pending; mapping/content gates remain open.
 - Bank commit `f144b590afff114e0542eba0dd33c075d1f4683a`; state sync `930bfb73462722d670a80a17febe244bd3ff495c`; verification register `4c5d22317b203222700295fa6aac31560f6bafa2`.
+
+
+## 2026-11-04 — Performing Arts Code 31 Nov 2025 Q1–Q7 source audit
+- Compared English stems/options and Gujarati stems/options/order against official scan printed pp.3–4; transcribed Gujarati source text and recorded booklet serial 310026.
+- Official answers unchanged; all seven review flags retained for syllabus/content review.
+- Source-verified count now 101/300; 193 source text/Gujarati reviews pending; six bilingual discrepancy flags remain. Mapping counts 171 provisional, 129 pending.
+- Bank commit `6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef`; paper register `6d61fe9f4c0d1043984c0abdcd8e5f27f166e1b9`; state sync `91644e9175bd0b89c2ff69c494e2a3a3b5cc97b3`.
