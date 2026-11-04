@@ -2458,5 +2458,111 @@
       "Do not count these as source-verified until original paper stems and four options are visually checked.",
       "Existing review flags and provisional syllabus mapping statuses retained; no PR merge, Paper-I or Code 01 changes."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 official final answer-key reconciliation batch 12 (Q81-Q85; visual check pending)",
+    "sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf"
+    ],
+    "records": [
+      {
+        "id": "public_administration_dec24_q81",
+        "paper": "dec2432.pdf",
+        "question_no": 81,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q82",
+        "paper": "dec2432.pdf",
+        "question_no": 82,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q83",
+        "paper": "dec2432.pdf",
+        "question_no": 83,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q84",
+        "paper": "dec2432.pdf",
+        "question_no": 84,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q85",
+        "paper": "dec2432.pdf",
+        "question_no": 85,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q81",
+        "paper": "nov2532.pdf",
+        "question_no": 81,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q82",
+        "paper": "nov2532.pdf",
+        "question_no": 82,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q83",
+        "paper": "nov2532.pdf",
+        "question_no": 83,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q84",
+        "paper": "nov2532.pdf",
+        "question_no": 84,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q85",
+        "paper": "nov2532.pdf",
+        "question_no": 85,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      }
+    ],
+    "result": "10 final answer-key letters reconciled; stored answers match. Question paper page-image visual verification pending; source_verified remains 117/300.",
+    "notes": [
+      "Official final answer keys establish answer letters for Dec 2024 Q81-Q85 and Nov 2025 Q81-Q85.",
+      "Do not promote to source_verified until stems and all four options visually match official original paper.",
+      "Review flags retained; no Paper-I or Code 01 change; no PR merge."
+    ]
   }
 ]
