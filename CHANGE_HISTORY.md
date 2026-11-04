@@ -328,3 +328,9 @@
 - Manually reviewed Nov 2023 Q93–Q100 against official Code 32 syllabus: Social Welfare Administration Unit VII for welfare organization/service-delivery items, Governance Unit IX for public-sector governance, Rule of Law, citizen preferences and governance process.
 - All 100 November 2023 syllabus mappings now manually reviewed; aggregate 100 manually reviewed and 200 provisional across Dec24/Nov25. Zero mapped units are counted verified; all 300 review flags retained.
 - Synchronized subject/paper manifests, Project State, master progress and verification log. No question text/options/answer changed. No PR merged; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 9
+- Manually reviewed Dec 2024 Q1–Q10 and Nov 2025 Q1–Q10 against official Code 32 syllabus, correcting direct unit assignments including Pareto/Public Choice→IX, NPM→IX, separation of powers→III, and confirming organization/personnel/administrative thought topics.
+- Mapping totals 120 manually reviewed, 180 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 10/90, Nov25 10/90. All review flags retained; no question content or answers changed.
+- Synchronized Project State, subject/paper manifests and progress logs. No PR merged; Code 01/Paper-I unchanged.
