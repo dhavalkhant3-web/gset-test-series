@@ -384,3 +384,9 @@
 - Reviewed the 40 remaining provisional Code 32 mappings (December 2024 Q81–Q100 and November 2025 Q81–Q100) against the official corrected syllabus unit sequence.
 - Corrected Unit IX governance and Unit X research methodology assignment fields. All 300 Code 32 questions now have manually reviewed unit assignments; provisional/pending counts are zero.
 - Question-bank metadata commit: `31bc3f9710481db05ff1e3116b15b86eddb45c8d`; register sync commits: `974afd62c42dca1f88f1dd3da57e2e56cd898d39` and this entry. No question text, options, answers, or flags altered; no PR merged.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch
+- Manually reviewed 20 clear Nov 2023 mappings against the official Code 33 unit headings. Code 33 total now 42 manually reviewed and 258 provisional; no pending mappings.
+- Kept ambiguous architecture/subject-based and image-dependent mappings provisional; no source text/options/answers or review concerns altered.
+- Bank metadata commit `9d850340f268911f1caa8f3ac951a3b610531363`; state sync commit `d181a1118f6496d10453164b700a7a8c6c5b391b`.
