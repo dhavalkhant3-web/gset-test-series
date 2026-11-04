@@ -3210,5 +3210,77 @@
       "All review flags retained for mapping/content adjudication.",
       "No PR merged; Code 01 and Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 — complete question-text visual source audit",
+    "source_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2332.pdf",
+    "source_verified_batches": [
+      {
+        "q_range": "1-10",
+        "commit": "f9db9d75a8972c0b0d8568bb1196adbeffe59430"
+      },
+      {
+        "q_range": "11-20",
+        "commit": "7e4ca74fd5c596e13ca231d9d11a0c84909aa94d"
+      },
+      {
+        "q_range": "21-30",
+        "commit": "875f6d6397b7c380575c850074c1bdb81e920ac8"
+      },
+      {
+        "q_range": "31-40",
+        "commit": "14bd5105bca5cc7b2164f9173d1b1115ca76024f"
+      },
+      {
+        "q_range": "41-50",
+        "commit": "85c6aa62a18f9a6093b636c717772bdd83111de7"
+      },
+      {
+        "q_range": "51-60",
+        "commit": "a7c8b60547e05b1b89cfdd5c9b7595350ddf25e4"
+      },
+      {
+        "q_range": "61-70",
+        "commit": "c9625bca913a0dad7c5c91db5770ec8450511d4c"
+      },
+      {
+        "q_range": "71-80",
+        "commit": "8a343e673120e9b6a47466f06cc1b79519708c1d"
+      },
+      {
+        "q_range": "81-90",
+        "commit": "c472484317caf2601d2e338b6cb593b82f4cca32"
+      },
+      {
+        "q_range": "91-100",
+        "commit": "987dbd206f9d6446109f06b775458c825be1acfd"
+      }
+    ],
+    "final_question_bank_blob_sha": "026d8d22b79b9afcd8b8021ab45e7059957f6e82",
+    "final_papers_manifest_commit": "d0820161743f239527bd1c9a58205e9c52dadcc6",
+    "final_subject_registry_commit": "76b43e367b61257151f70738a8dad84da63f5caf",
+    "final_project_state_commit": "b7b1476c0073c99845fcff6b93ef27a5dcf23acf",
+    "metrics": {
+      "records": 300,
+      "source_verified": 300,
+      "session_source_visual_proofread": {
+        "nov23": 100,
+        "dec24": 100,
+        "nov25": 100
+      },
+      "stored_answer_equals_official_answer": 300,
+      "answer_mismatches": 0,
+      "review_flags_retained": 300,
+      "mapping_manually_reviewed": 22,
+      "mapping_provisional": 278,
+      "mapping_pending_fields": 0
+    },
+    "answer_key_scope_note": "Stored answer and official_answer fields agree for all 300. Answer-key reconciliation was already recorded in source data/progress; this audit's fresh visual pass focused on exact English question stems and option order against the official paper, not a fresh extraction of all final-key PDF cells.",
+    "notes": [
+      "Original question text/option visual proofreading is complete across all 3 sessions.",
+      "Mapping/content review flags are retained and no unit mapping statuses were promoted.",
+      "No PR merged; Code 01 and Paper-I untouched."
+    ]
   }
 ]
