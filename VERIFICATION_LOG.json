@@ -3335,5 +3335,43 @@
       "No PR merged",
       "Paper-I and Code 01 unchanged"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 1",
+    "question_bank_commit": "8338c3dcc62964793fc63cb56f442541316af0fc",
+    "project_state_commit": "5a0fd5fd2d49e8582adeb5e77ca852de653a8a0d",
+    "subject_registry_commit": "2de7d7bfce51ed98b1349e243899f7b7f11b6866",
+    "paper_manifest_commit": "b7ec8b79a0b54e5525f9e02bb3054bf0857e36a2",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q23",
+      "public_administration_nov23_q24",
+      "public_administration_nov23_q25",
+      "public_administration_nov23_q26",
+      "public_administration_nov23_q27",
+      "public_administration_nov23_q28",
+      "public_administration_nov23_q29",
+      "public_administration_nov23_q30",
+      "public_administration_nov23_q31",
+      "public_administration_nov23_q32"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 32,
+      "provisional": 268,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Q24 was corrected to Unit VI for parliamentary financial control; Q25/Q27 to Unit I personnel/recruitment; Q29 to Unit IV municipal/urban governance; Q30 to Unit II Kautilya; Q31 to Unit X sampling.",
+      "All original source text/options/answer data unchanged by mapping review.",
+      "Review flags retained; no PR merge, Code 01/Paper-I untouched."
+    ]
   }
 ]
