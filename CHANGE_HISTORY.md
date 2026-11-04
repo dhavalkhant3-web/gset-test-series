@@ -352,3 +352,9 @@
 - Manually reviewed Dec 2024 Q31–Q40 and Nov 2025 Q31–Q40 against official Code 32 syllabus, correcting Parkinson's Law to Unit I and Inter-State Council to Unit III; confirmed financial committees, district/local administration, public enterprises, constitutional and police topics.
 - Mapping totals 180 manually reviewed, 120 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 40/60, Nov25 40/60. All review flags retained; no question text/options/answer changed.
 - Updated question mappings, per-paper counts, subject registry, Project State and logs. No PR merged; Code 01/Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 13
+- Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus; aligned civil-service origins/classification/training/recruitment, bureaucracy theory, Riggs comparative administration, CSR, PPP and social audit to their explicit/closest unit scope.
+- Mapping totals 200 manually reviewed, 100 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 50/50, Nov25 50/50. All review flags retained; no question content/answers changed.
+- Updated question mappings, paper/subject manifests, Project State and progress logs. No PR merged; Code 01/Paper-I unchanged.
