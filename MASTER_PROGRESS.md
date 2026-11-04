@@ -525,3 +525,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Dec 2024 Q11–Q20 and Nov 2025 Q11–Q20 against official Code 32 syllabus. Confirmed classical/Human Relations/Behavioralism, New Public Service, Taylor/Fayol/Urwick, Weber bureaucracy and personnel/organization topics. Dec24 Q13→I closed/open organization theory; Q15→I Politics–Administration Dichotomy; Nov25 Q17→II Kautilya's Oriental thought; Nov25 Q16→II Fayol classical thought.
 - Mapping totals now 140 manually reviewed, 160 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 20/80, Nov25 20/80. All 300 review flags retained; no mapping counted verified.
 - Updated question-level mapping fields/notes, papers/subjects registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 11 (2026-11-04)
+- Manually reviewed Dec 2024 Q21–Q30 and Nov 2025 Q21–Q30 against official Code 32 syllabus. Key adjustments: Dec24 Q24 Mission Karmayogi→III capacity building; Q29 regulatory authority→III; Nov25 Q21 parliamentary committee→VI; Q22 GST Council→VI; Q26 regulator→III; Q28 Bengal partition→III; Q29 Kautilya monarchy→II.
+- Mapping totals now 160 manually reviewed, 140 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 30/70, Nov25 30/70. All 300 review flags retained; no unit mapping promoted to verified.
+- Updated per-question mapping fields/notes and subject/paper manifests, Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
