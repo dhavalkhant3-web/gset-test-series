@@ -58,11 +58,11 @@
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 50,
+      "unit_mapping_provisional_count": 30,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "50 manually reviewed against official Code 32 syllabus, 50 provisional content-based mappings, 0 unmapped/pending; manual review is not verified. All review flags retained.",
-      "unit_mapping_manually_reviewed_count": 50
+      "unit_mapping_status_note": "70 manually reviewed against official Code 32 syllabus, 30 provisional content-based mappings, 0 unmapped/pending; manual review is not verified. All review flags retained.",
+      "unit_mapping_manually_reviewed_count": 70
     },
     {
       "paper_id": "public_administration_nov25",
@@ -93,5 +93,5 @@
     }
   ],
   "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed; source_review_pending",
-  "unit_mapping_note": "22/300 mappings manually reviewed; 278 are provisional content-based suggestions; 0 remain unmapped. Provisional values are not officially verified; question-paper text/options source review remains pending."
+  "unit_mapping_note": "240/300 mappings manually reviewed against official Code 32 syllabus; 60 provisional content-based suggestions remain; 0 unmapped. Manual review is not verified; all 300 review flags remain active."
 }
