@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject_id": "music",
   "subject_code": "30",
-  "generated_from": "Question-level evidence and progress counts reconciled on 2026-11-03 after official GSET December 2024 bilingual Paper-II visual source proofreading Q76-Q90 and Q96-Q100; Gujarati OCR cleanup applied where needed.",
+  "generated_from": "Question-level evidence and progress counts reconciled on 2026-11-04 after original-PDF visual proofreading of December 2024 Music Q91-Q95, correction of source wording/options, and source Gujarati passage transcription; all 300 Music Paper-II stems/options visually proofread.",
   "answer_key_audit": {
     "questions": 300,
     "mismatches_reported": 0,
@@ -36,7 +36,7 @@
     }
   },
   "fully_verified_questions": 88,
-  "source_verified_field_count": 280,
+  "source_verified_field_count": 300,
   "review_flags": 212,
   "remaining_gates": [
     "Question-text visual proofreading is complete for all 300 Music Paper-II questions. Keep all review flags active for the independent syllabus-mapping/content-review gate.",
@@ -83,9 +83,9 @@
       "question_source_verified": true,
       "syllabus_mapping_ambiguous_count": 2,
       "answer_key_visual_mismatches": 0,
-      "visual_proofreading_status": "100/100 English/Gujarati stems and all four options/order visually checked against official GSET bilingual scan. Q76-Q90 and Q96-Q100 were completed on 2026-11-03; Q91-Q95 and earlier batches were already checked.",
+      "visual_proofreading_status": "100/100 English/Gujarati stems and all four options/order visually checked against the original official GSET bilingual scan. Q91-Q95 passage/stems/options proofread on printed pp.28-31 and Gujarati passage transcribed; source wording corrected. Official key checked 100/100 with zero mismatches.",
       "status": "source_proofread_100;key_visual_checked_100;mapping_reviewed_57;2_ambiguous;41_provisional;review_flags_retained",
-      "review_note": "All 100 December 2024 questions now visually checked against original official GSET bilingual Music Paper-II scan. Q76-Q90 (printed pages 23-28) and Q96-Q100 (printed pages 30-31) completed on 2026-11-03; corrected OCR-damaged Gujarati in Q81, Q83, Q85, Q89 and Q90, and normalized Q79 English wording. Official final key already visually checked 100/100, zero mismatches. Syllabus mapping remains 57 manually reviewed, 2 ambiguous, 41 provisional; review flags retained.",
+      "review_note": "All 100 December 2024 questions visually checked against original official GSET bilingual Music Paper-II scan. Q76-Q90 and Q96-Q100 were checked on 2026-11-03. On 2026-11-04, the Q91-Q95 passage was checked against printed pp.28-29, questions/stems/options against printed pp.30-31; English source wording was corrected for Q91, Q93 and Q94, Gujarati stems/options for Q91-Q95 were source-aligned, and the Gujarati passage was transcribed into passage_gu. Official final key visually checked 100/100, zero mismatches. Mapping remains 57 manually reviewed, 2 ambiguous, 41 provisional; review flags retained.",
       "syllabus_mapping_provisional_count": 41
     },
     {
@@ -122,7 +122,7 @@
     "unit_mapping_ambiguous": 14,
     "answer_key_visual_checked": 300,
     "answer_key_visual_remaining": 0,
-    "note": "Music Dec 2024 source proofreading now complete 100/100. Q76-Q90 visually checked on official printed pages 23-28 and Q96-Q100 on pages 30-31, including Gujarati OCR corrections. Nov 2023 and Nov 2025 source proofing remain complete. Overall 300/300 English/Gujarati stems and options visually checked. Key visual checked 300/300. Syllabus mapping/content review still unresolved separately.",
+    "note": "Music source-text visual proofreading is complete for all 300 English/Gujarati stems and option sets. Dec 2024 Q91-Q95 passage and questions were checked against printed pages 28-31 on 2026-11-04 and source discrepancies corrected. Nov 2023 and Nov 2025 source proofread remains complete. Official final-key visual check 300/300; 0 mismatches. Syllabus mapping/content review remains separate.",
     "unit_mapping_provisional": 124
   },
   "official_syllabus_source": {
@@ -267,6 +267,26 @@
       "answer_key_direct_visual_check": "not rerun; prior direct visual final-key verification remains complete 100/100, 0 mismatches",
       "corrections_summary": "Visually compared all bilingual stems and four options/order against official GSET December 2024 Music Paper-II printed pages 23-28 and 30-31. Corrected OCR-damaged Gujarati question/options for Q81, Q83, Q85, Q89 and Q90, and normalized Q79 English transcription. Set source_verified=true for this source-checked batch; review flags kept because mapping/content review is a separate gate.",
       "batch_status": "20 questions visually source-proofread; December 2024 visual source check complete 100/100; Music total visual proofread complete 300/300; no review flags removed."
+    },
+    {
+      "date": "2026-11-04",
+      "paper_id": "music_dec24",
+      "question_numbers": "91-95",
+      "source_pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "english_visual_checked": 5,
+      "gujarati_visual_checked": 5,
+      "options_and_order_checked": 5,
+      "figures_symbols_tables_checked": 5,
+      "syllabus_mapping_manual_reviewed": 0,
+      "syllabus_mapping_ambiguous": 0,
+      "answer_key_direct_visual_check": "not rerun; existing official final-key visual check 100/100, 0 mismatches retained",
+      "corrections_summary": "Visually proofread shared passage on printed pp.28-29 and Q91-Q95 stems/options on pp.30-31. Corrected source wording for Q91 (article), Q93 (source phrasing), Q94 (source tense); source-aligned Gujarati stems/options Q91-Q95; transcribed original Gujarati passage into passage_gu for the shared passage. Updated passage_en to match source wording including 'a longest sea shore', 'very strong influence', Saurashtra 'has', the Manbhatt phrase, 'musical folk dance forms' and 'Chaaran'. Official answers unchanged.",
+      "batch_status": "5 questions source-proofread; Dec 2024 100/100 visual proofreading complete; all 300 Music questions visually proofread, 0 pending; 212 review flags retained for separate mapping/content gate."
     }
   ],
   "source_page_batch_20261103": {
