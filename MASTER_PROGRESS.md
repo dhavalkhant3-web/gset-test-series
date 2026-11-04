@@ -513,3 +513,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q93–Q100 against official Code 32 syllabus: Q93–Q95→VII Social Welfare Administration (globalization, voluntary organizations, service delivery); Q96–Q100→IX Governance and Good Governance (public sector governance, Rule of Law, governance process, citizen preferences, legitimate governance).
 - Nov 2023 mapping audit is now complete 100/100 manually reviewed against the official syllabus. Overall mapping counts: 100 manually reviewed, 200 provisional (Dec24 and Nov25), 0 pending/verified. All 300 content/review flags remain active.
 - Updated paper manifests, subject registry and Project State. No question content/answer fields changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 9 (2026-11-04)
+- Manually reviewed Dec 2024 Q1–Q10 and Nov 2025 Q1–Q10 against official Code 32 syllabus. Unit assignments cover Administrative Thought/New Public Service, organization/personnel principles, Public Choice/Governance, NPM, globalization/development, public policy, and constitutional framework.
+- Overall mapping totals now 120 manually reviewed, 180 provisional, 0 pending. Session breakdown: Nov23 100 manual/0 provisional; Dec24 10 manual/90 provisional; Nov25 10 manual/90 provisional. All 300 review flags retained; no unit mappings marked verified.
+- Updated per-question unit fields/notes and paper/subject manifests plus Project State. No stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
