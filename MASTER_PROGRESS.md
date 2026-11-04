@@ -483,3 +483,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q43–Q52 against official Code 32 syllabus: Q43 McGregor→II; Q44 open organizational model→I; Q45 performance budget→VI; Q46 Riggs Agraria→V; Q47 Simon decision-making→II; Q48 budgetary process→VI; Q49 policy sciences barriers→VIII; Q50 Riggs society classification critics→V; Q51 development administration→V; Q52 Great Britain comparative administration→V (closest comparative scope).
 - Mapping totals now 52 manually reviewed, 248 provisional, 0 pending. All 300 review flags remain active; no question content or answer fields changed.
 - Updated paper manifests, subject registry and Project State. No PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 4 (2026-11-04)
+- Manually reviewed Nov 2023 Q53–Q62 against official Code 32 syllabus: Q53/Q54→I personnel/organization; Q55→IX governance; Q56→VI public finance/fiscal federalism; Q57→V comparative admin; Q58→IX Rule of Law; Q59–Q61→X research methods/hypothesis; Q62→VIII public policy.
+- Mapping totals now 62 manually reviewed, 238 provisional, 0 pending. No unit mapping counted as verified; all 300 review flags remain active.
+- Updated question-level unit fields/notes, papers.json, subjects.json and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
