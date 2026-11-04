@@ -152,3 +152,8 @@
 - Added source verification for 34 questions: Dec 2024 Q8–Q23 (16 items) and Nov 2025 Q7–Q16 plus Q18–Q25 (18 items), visually compared against original official GSET Paper-II PDF pages and final keys.
 - Stems/options matched; stored answers equal final key letters. No question content or answer values were modified. Review flags and syllabus mapping statuses retained.
 - Running source verification total: 37/300; pending 263; provisional mapping count unchanged at 278.
+
+
+## 2026-11-04 — Public Administration Code 32 source verification tranche 3
+- Commit batch updates source verification for Dec 2024 Q36–Q40 and Nov 2025 Q36–Q40, ten items. Original official PDF pages visually matched; final answer key letters match JSON answers.
+- Running source-verified count 47/300; 253 pending. Provisional mappings 278 unchanged; active flags retained. No source question or answer rewritten.
