@@ -3525,5 +3525,43 @@
       "All review flags retained; no question content/answer edits.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 6",
+    "question_bank_commit": "d945c64f3431f50fce049c0dda7d564e4e077eb2",
+    "project_state_commit": "a0769bb0b4a2154afafc2dbf03caf64758c4652b",
+    "subject_registry_commit": "1f102b4673f1d38ad208079094fb3270965916e1",
+    "paper_manifest_commit": "ffc5a745e4506fabc100722333dfba77b956c51c",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q73",
+      "public_administration_nov23_q74",
+      "public_administration_nov23_q75",
+      "public_administration_nov23_q76",
+      "public_administration_nov23_q77",
+      "public_administration_nov23_q78",
+      "public_administration_nov23_q79",
+      "public_administration_nov23_q80",
+      "public_administration_nov23_q81",
+      "public_administration_nov23_q82"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 82,
+      "provisional": 218,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Q76 central secretariat rank hierarchy mapped to Unit III; local/district hierarchy Q81 to Unit IV.",
+      "All review flags retained; no question text/options/answer edits.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
