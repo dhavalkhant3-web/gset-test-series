@@ -378,3 +378,9 @@
 - Mapping totals now 260 manually reviewed, 40 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained.
 - Question-bank commit `bf819587990b4138a5a82314e34790ccb5cb2159`; paper manifest `295129261242c41c45a0e372593e1468caef0b2a`; subject registry `6aef06edb55055b000988689149e728ed6d914bf`; Project State `6cd523eb21244710f487b0bcc5e8aed85fffe2f3`; verification log `fe7109fece0bf6814ab04311eb38308dbcdfe0cd`.
 - No question text/options/answers changed; no PR merged; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration syllabus mappings completed
+- Reviewed the 40 remaining provisional Code 32 mappings (December 2024 Q81–Q100 and November 2025 Q81–Q100) against the official corrected syllabus unit sequence.
+- Corrected Unit IX governance and Unit X research methodology assignment fields. All 300 Code 32 questions now have manually reviewed unit assignments; provisional/pending counts are zero.
+- Question-bank metadata commit: `31bc3f9710481db05ff1e3116b15b86eddb45c8d`; register sync commits: `974afd62c42dca1f88f1dd3da57e2e56cd898d39` and this entry. No question text, options, answers, or flags altered; no PR merged.
