@@ -3563,5 +3563,43 @@
       "All review flags retained; no question text/options/answer edits.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 7",
+    "question_bank_commit": "176fbae839000d0c8ea9d90b2928abb1f5e11a2c",
+    "project_state_commit": "fe308767f9c49a43163b65dc2e7c67d848885911",
+    "subject_registry_commit": "5359d1b4a0964b27f277cc05d7d419b7cf80b4ce",
+    "paper_manifest_commit": "bfc7912009bda23473f4bfac2e086a2b14d6ad5e",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q83",
+      "public_administration_nov23_q84",
+      "public_administration_nov23_q85",
+      "public_administration_nov23_q86",
+      "public_administration_nov23_q87",
+      "public_administration_nov23_q88",
+      "public_administration_nov23_q89",
+      "public_administration_nov23_q90",
+      "public_administration_nov23_q91",
+      "public_administration_nov23_q92"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 92,
+      "provisional": 208,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Q83 to Unit IV rural/local programme context; Q84 Unit X research sampling; Q89 Unit I personnel classification; welfare Q90-Q92 Unit VII.",
+      "All review flags retained; no question content or answer fields changed.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
