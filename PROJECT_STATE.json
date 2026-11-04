@@ -160,8 +160,8 @@
       "name": "Visual Art",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 159,
-      "key_applied_pending_proofread": 127,
+      "source_verified_marked": 203,
+      "key_applied_pending_proofread": 83,
       "content_concerns_flagged": 14,
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
@@ -170,8 +170,8 @@
         "provisional": 5,
         "pending": 0
       },
-      "question_bank_sha": "455d66a8931c01944f65e6f83e36fcad25b094c2",
-      "status": "295 syllabus mappings manually reviewed, 5 provisional, 0 pending; source visual proofread count 159/300, 127 pending; 14 content concerns/review flags preserved"
+      "question_bank_sha": "64cf52da702a6854077d3b740004daafe6968f5e",
+      "status": "295 syllabus mappings manually reviewed, 5 provisional, 0 pending; source visual proofread count 203/300, 83 pending; 14 content concerns/review flags preserved"
     },
     "02": {
       "name": "Physical Sciences",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "3eae934b2fdf609ce3f21b8dfde1629e9bf4c928",
-    "scope": "Visual Art Code 33 source-text proofread Q31-Q45 across Nov 2023, Dec 2024 and Nov 2025; 42 new records"
+    "commit": "196c550a9f322a1e8165b2cb0d24b31014c22307",
+    "scope": "Visual Art Code 33 source-text proofread Q46-Q60 across Nov 2023, Dec 2024 and Nov 2025; 44 new records"
   }
 }
