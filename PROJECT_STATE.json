@@ -137,9 +137,9 @@
       "name": "Public Administration",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 167,
+      "source_verified_marked": 193,
       "review_flags": 300,
-      "question_text_and_options_audit_pending": 133,
+      "question_text_and_options_audit_pending": 107,
       "mapping": {
         "verified": 0,
         "manually_reviewed": 22,
@@ -151,12 +151,12 @@
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "d42befc5777baa9add71b531de4ba14c2e177973",
-      "status": "source-verified 167/300; 133 original question stem/options visual checks pending; session counts Nov23 0/100, Dec24 83/100, Nov25 84/100; 22 mappings manually reviewed, 278 provisional; review flags retained",
+      "question_bank_sha": "5b8f2d6ccfec7ee33df7f180880ea0c316864581",
+      "status": "source-verified 193/300; 107 original question stem/options visual checks pending; session counts Nov23 0/100, Dec24 96/100, Nov25 97/100; 22 mappings manually reviewed, 278 provisional; review flags retained",
       "session_source_verified": {
         "nov23": 0,
-        "dec24": 83,
-        "nov25": 84
+        "dec24": 96,
+        "nov25": 97
       }
     },
     "33": {
