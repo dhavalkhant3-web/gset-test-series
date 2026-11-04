@@ -142,17 +142,13 @@
       "question_text_and_options_audit_pending": 0,
       "mapping": {
         "verified": 0,
-        "manually_reviewed": 260,
-        "provisional": 40,
+        "manually_reviewed": 300,
+        "provisional": 0,
         "pending": 0
       },
-      "disputed_items": [
-        "December 2024 Q24",
-        "December 2024 Q35",
-        "November 2025 Q17"
-      ],
-      "question_bank_sha": "6de655c73add88f0f0bcbc771d96c29d7ebae04d",
-      "status": "source text/options visual audit complete 300/300; 260 unit mappings manually reviewed against official syllabus, 40 provisional; 300 review flags retained",
+      "disputed_items": [],
+      "question_bank_sha": "e941e48c838769d9b953905a4eaf6f7ab7756702",
+      "status": "source text/options visual audit complete 300/300; all 300 syllabus assignments manually reviewed against the corrected official ten-unit sequence; 300 review flags retained",
       "session_source_verified": {
         "nov23": 100,
         "dec24": 100,
@@ -852,5 +848,10 @@
       "count": 10,
       "verification": "official final key matched; original paper visual check pending"
     }
+  },
+  "latest_execution_checkpoint": {
+    "date": "2026-11-04",
+    "commit": "31bc3f9710481db05ff1e3116b15b86eddb45c8d",
+    "scope": "Public Administration Code 32 syllabus mapping review; no question stems/options/answers changed"
   }
 }
