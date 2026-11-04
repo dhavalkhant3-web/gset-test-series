@@ -27,7 +27,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
-| 33 | Visual Art | 300 | 241 source-text records visually proofread; 45 pending proofreading; 14 content concerns retained | PR/validator records 300-key reconciliation; official answers unchanged | 295 manually reviewed, 5 provisional, 0 pending | 14 |
+| 33 | Visual Art | 300 | 300/300 English stems/options visually proofread; 14 content/key concerns retained for expert resolution | PR/validator records 300-key reconciliation; official answer letters preserved | 295 manually reviewed, 5 provisional, 0 pending | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
 
@@ -680,3 +680,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - 38 additional records were marked proofread. Seven records in this range already had source review with content/key concerns; all flags and official answers were preserved.
 - Source proofreading checkpoint: 241/300 visually proofread, 45 pending; 14 content concerns/review flags retained. Mapping status stays 295 manually reviewed, 5 provisional.
 - Bank note commit: `d3d98d0fa461f3f41684ae4d35a6b31ee674f067`; state sync commit: `de14a7fc8a953ae45c814d23b59cdf3fa84fb1e0`.
+
+
+## Visual Art Code 33 source proofreading completion batch 18 — 2026-11-04
+- Visually compared English stems and all options for Nov 2023 Q76–Q90 (printed pp. 18–22), Dec 2024 Q76–Q90 (printed pp. 17–21), and Nov 2025 Q76–Q90 (printed pp. 19–21) against the original source scans.
+- 45 additional records were proofread; text/options matched the scans and official answer letters remained unchanged.
+- Source proofreading is now complete for all 300/300 English stems and option sets. Fourteen source-confirmed content/key concerns remain flagged for subject-expert review; no flags were cleared. Gujarati question text is still unpopulated.
+- Mapping checkpoint remains 295 manually reviewed, 5 provisional, 0 pending. Bank note commit: `b86411901a9453196b735fc33633fbf76face2c3`; state sync commit: `2229cfe3f71ad80d7c4df8d3d93ff1a11e7b32f5`.
