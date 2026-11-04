@@ -119,19 +119,19 @@
       "name": "Performing Arts",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 94,
-      "source_page_visually_verified": 94,
+      "source_verified_marked": 101,
+      "source_page_visually_verified": 101,
       "bilingual_discrepancies_flagged": 6,
-      "question_text_and_gujarati_source_review_pending": 200,
-      "gujarati_fields_populated": 100,
+      "question_text_and_gujarati_source_review_pending": 193,
+      "gujarati_fields_populated": 107,
       "review_flags": 206,
       "mapping": {
         "verified": 0,
         "provisional": 171,
         "pending": 129
       },
-      "question_bank_sha": "a33dda2e7b200ef13afff5aa76ab2e06069ac811",
-      "status": "36 provisional mappings added; 171 provisional and 129 pending; 200 source text/Gujarati review records and 6 bilingual discrepancies remain"
+      "question_bank_sha": "0ffeba8239393cc02c8774e281918072b9d06067",
+      "status": "101/300 source page question sets visually verified; 193 source-text/Gujarati reviews pending; 6 bilingual discrepancy flags retained; 171 provisional and 129 pending syllabus mappings; 206 review flags remain"
     },
     "32": {
       "name": "Public Administration",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "f144b590afff114e0542eba0dd33c075d1f4683a",
-    "scope": "Music Code 30 Dec 2024 Q91-Q95 source visual proofreading and Gujarati passage transcription"
+    "commit": "6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef",
+    "scope": "Performing Arts Code 31 Nov 2025 Q1-Q7 English/Gujarati source proofread"
   }
 }
