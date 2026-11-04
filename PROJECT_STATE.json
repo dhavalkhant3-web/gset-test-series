@@ -166,12 +166,12 @@
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
       "mapping": {
-        "verified": 273,
-        "provisional": 27,
+        "verified": 283,
+        "provisional": 17,
         "pending": 0
       },
-      "question_bank_sha": "fa79e4bda46cb401f79ae97a997769a372f084d9",
-      "status": "273 mappings manually reviewed, 27 provisional, 0 unmapped; source-text proofreading and 14 content concerns remain; image-led questions from Nov 2023 and Nov 2025 await source figure visual inspection"
+      "question_bank_sha": "3a2575767f18a76d3eafa3704ae7d0635dec64d7",
+      "status": "283 mappings manually reviewed, 17 provisional, 0 unmapped; source text proofreading and 14 content concerns remain; Nov 2023 figure set remains pending source-image inspection"
     },
     "02": {
       "name": "Physical Sciences",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "aac4d94fc42b13347f337e5ed3ecf42b58f09ddb",
-    "scope": "Visual Art Code 33 Dec 2024 image questions Q91-Q100 visually mapped to Unit VI"
+    "commit": "d6596a9260bcc4f0bae538d2de7bb66397f1fe7e",
+    "scope": "Visual Art Code 33 Nov 2025 image questions Q91-Q100 visually mapped to Units VI and VII"
   }
 }
