@@ -3601,5 +3601,55 @@
       "All review flags retained; no question content or answer fields changed.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 8 and Nov23 mapping session completion",
+    "question_bank_commit": "0f8b8e456d74f8064f1c17ece365fbbf68002b5d",
+    "project_state_commit": "b09c957cb3087edb2ebdeebdb6b585494d40214a",
+    "subject_registry_commit": "c3b7c5edaf57a32c79a44bc33f0abce480d64500",
+    "paper_manifest_commit": "9d0c1f7aeec9e07164aa0b2db2120ecbf4a73f01",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q93",
+      "public_administration_nov23_q94",
+      "public_administration_nov23_q95",
+      "public_administration_nov23_q96",
+      "public_administration_nov23_q97",
+      "public_administration_nov23_q98",
+      "public_administration_nov23_q99",
+      "public_administration_nov23_q100"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 8,
+      "provisional_to_manual": 8,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 100,
+      "provisional": 200,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 0,
+        "provisional": 100
+      },
+      "nov25": {
+        "manual_reviewed": 0,
+        "provisional": 100
+      }
+    },
+    "notes": [
+      "All Nov23 question mappings now manually reviewed against the official Code 32 syllabus; the other two sessions remain provisional.",
+      "No unit mapping promoted to verified; all 300 review flags retained.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
