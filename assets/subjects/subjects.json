@@ -480,7 +480,7 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 0 source_verified; all 300 retain review flags pending original stem/options audit. Field-level syllabus assignment: 22 manually reviewed and 278 provisional unit numbers assigned; all 300 records have unit_number filled. The 98 newly filled fields were copied from existing provisional syllabus_unit values; no mapping-status label was promoted. All newly filled fields remain provisional and expert confirmation/source text review is pending. Disputed items Dec 2024 Q24/Q35 and Nov 2025 Q17 remain flagged.",
+      "data_status": "300 Paper-II questions across 3 sessions. Original question-paper stem/options visually source-verified for 127/300; 173 remain pending. Stored answers for the next batch (Dec 2024 Q76-Q80 and Nov 2025 Q76-Q80) visually matched against official paper images and final answer keys. All 300 review flags remain active pending mapping/content review; 22 mappings manually reviewed, 278 provisional. All unit_number fields populated; provisional mappings are not verified. Disputed Dec 2024 Q24/Q35 and Nov 2025 Q17 remain flagged.",
       "unit_mapping_status": "all_units_assigned_provisional_or_manually_reviewed; source_review_pending",
       "unit_mapping_counts": {
         "provisional": 278,
