@@ -4265,5 +4265,27 @@
       "No PR merged; Paper-I and Code 01 untouched"
     ],
     "commit": "2d72569bdb7d548bce528021405b98e88c1965b6"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 mapping review batch 8",
+    "scope": "Dec 2024 Q1-Q10, Q12-Q13, Q15-Q16, Q22-Q28, Q30-Q31, Q35-Q36, Q38, Q40-Q41, Q44, Q47-Q48; 31 direct matches",
+    "source": "Official GSET Code 33 syllabus https://gujaratset.ac.in/assets/syllabus/33.pdf and official core unit catalogue",
+    "actions": [
+      "Reviewed direct unit matches for Indian history/architecture, Central Asia/Far East, Western art history, Indian contemporary art, media techniques, aesthetics, typography and visual communication",
+      "Updated mapping fields and rationale for 31 records"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "manually_reviewed": 263,
+      "provisional": 37,
+      "pending": 0
+    },
+    "non_actions": [
+      "Q54 marketing chronology and figure-led Q91-Q100 left provisional",
+      "No question content, answers, translation, source citations or content flags altered",
+      "No PR merged; Paper-I and Code 01 untouched"
+    ],
+    "commit": "7d5bf5ad4c48aa3a21f720ceac7d51a02c3c1332"
   }
 ]
