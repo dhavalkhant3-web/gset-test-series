@@ -1276,5 +1276,45 @@
       "No question-bank content, answer, Gujarati translation, source_verified status, or mapping status was changed.",
       "Official source PDFs could not be fetched through the available web route in this execution; source review is blocked pending readable original pages."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration targeted official source visual review",
+    "source": "Official GSET source papers and final answer keys",
+    "records": [
+      {
+        "id": "public_administration_dec24_q24",
+        "paper": "dec2432.pdf",
+        "printed_page": 6,
+        "question_text_options": "match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q35",
+        "paper": "dec2432.pdf",
+        "printed_page": 7,
+        "question_text_options": "match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q17",
+        "paper": "nov2532.pdf",
+        "printed_page": 5,
+        "question_text_options": "match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      }
+    ],
+    "result": "3 question records source visual proofread and final-key reconciled; mapping review flags intentionally retained",
+    "notes": [
+      "No stems, options, answer letters, translations, or syllabus mapping values were altered.",
+      "Review flags remain because mapping review is independent and unresolved.",
+      "The papers as a whole remain source review pending."
+    ]
   }
 ]
