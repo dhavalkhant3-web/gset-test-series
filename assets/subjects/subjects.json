@@ -459,12 +459,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II records across Nov 2023, Dec 2024 and Nov 2025. Integrated question bank: 101 source_verified records (Nov23 94/100, Dec24 0/100, Nov25 7/100); 193 question-text/Gujarati source audits remain pending; six Nov23 bilingual discrepancy flags are retained; total 206 review flags remain. Mapping labels: 7 manually reviewed, 176 provisional, 117 pending; 183 unit fields populated and 117 unset. Seven Dec24 direct-content mapping reviews completed; no mapping counted officially verified.",
+      "data_status": "300 Paper-II records across Nov 2023, Dec 2024 and Nov 2025. Integrated question bank: 101 source_verified records (Nov23 94/100, Dec24 0/100, Nov25 7/100); 193 question-text/Gujarati source audits remain pending; six Nov23 bilingual discrepancy flags are retained; total 206 review flags remain. Mapping labels: 15 manually reviewed, 168 provisional, 117 pending; 183 unit fields populated and 117 unset. Fifteen direct-content mapping reviews completed for Dec24; no mapping counted officially verified.",
       "unit_mapping_status": "partial_manual_review_provisional_pending",
       "unit_mapping_counts": {
         "verified": 0,
-        "manually_reviewed": 7,
-        "provisional": 176,
+        "manually_reviewed": 15,
+        "provisional": 168,
         "pending": 117
       }
     },
