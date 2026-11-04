@@ -541,5 +541,5 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 ## Public Administration Code 32 — official syllabus mapping review tranche 13 (2026-11-04)
 - Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus. Dec24 civil-service origins/classification/training/recruitment Q41–Q46→I; Shadow Cabinet→III; bureaucracy typologies→II; Riggs diffracted society→V. Nov25 Heady/Riggs/Weidner/comparative and development topics→V; CSR→VI; PPP→V; social audit→V.
-- Mapping totals now 200 manually reviewed, 100 provisional, 0 pending. Session counts Nov23 100/0, Dec24 50/50, Nov25 50/50. All 300 review flags retained; no mapping promoted to verified.
-- Updated question-level unit fields/notes, paper/subject manifests and Project State. No question content/answer changes; no PR merge; Code 01/Paper-I untouched.
+- Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified. Session counts Nov23 100/0, Dec24 70/30, Nov25 70/30. All 300 review flags retained; no mapping promoted to verified.
+- Tranche 14: manually reviewed Dec24 Q61–Q70 and Nov25 Q61–Q70 against the official Code 32 syllabus. Updated question-level unit fields/notes, paper/subject manifests and Project State. No question text/options/answer changes; no PR merge; Code 01/Paper-I untouched.
