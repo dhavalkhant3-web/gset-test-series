@@ -4402,5 +4402,28 @@
       "No PR merged; Paper-I and Code 01 untouched"
     ],
     "commit": "95c18d0e69f6a52522ea693b5b6f675753719d3f"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 source proofreading batch 14",
+    "scope": "Nov 2023 Q17-Q30, Dec 2024 Q17-Q30, Nov 2025 Q17-Q30",
+    "source": "Original uploaded Visual Art source PDFs; printed pages Nov23 pp.5-6, Dec24 pp.5-6, Nov25 pp.6-9",
+    "actions": [
+      "Compared English stems and four options against original scans for 42 records in this question range",
+      "Added proofread page-specific review notes to 40 records with no prior source-proofread note"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "source_text_visual_proofread": 117,
+      "pending_proofread": 169,
+      "content_concerns_flagged": 14,
+      "review_flags": 14
+    },
+    "non_actions": [
+      "Nov 2023 Q17 and Dec 2024 Q30 had existing source proofreading with content concerns; retained their flags and key letters",
+      "No question text, options, official answer letters or translations changed",
+      "No PR merged; Paper-I and Code 01 untouched"
+    ],
+    "commit": "57cd57b662026386762ed600d53195f60baed24a"
   }
 ]
