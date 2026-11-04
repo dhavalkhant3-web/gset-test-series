@@ -252,3 +252,14 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled repository answer values for Music December 2024 Q86–Q90 against the published final answer key: Q86 A, Q87 C, Q88 C, Q89 A, Q90 A. All five match (5/5; no discrepancy).
 - Answer-key reconciliation only. Original question paper bilingual stems/options have not been visually proofread for this batch; `source_verified` remains false and `review_flag` remains true. No question records were modified and the visual proofread count remains unchanged.
 - Next source-proofreading batch remains Q86–Q90 when official paper page retrieval is available. Final answer key source: GSET December 2024 Music Paper-II.
+
+
+## 2026-11-04 — STOP-mode backlog reconciliation (live question-bank flags)
+- Live integration-bank recheck found **Music Code 30: 300/300 records have `source_verified=true`** and **Visual Art Code 33: 300/300 records have `source_verified=true`**. These live data states supersede older prose counts of 46 Music visual checks and 256 Visual Art proofreading checks in the earlier active register. Do not repeat those source-text proofreading tasks. This count is a repository field audit, not an independent re-review of the original scans in this checkpoint.
+- Music remaining: 14 `manual_review_required` syllabus mappings, 124 stream-specific provisional mappings, and 212 existing review flags remain open. Answer-key checked count is separately recorded as 300/300. Do not clear flags or change units without explicit syllabus/stream evidence.
+- Visual Art remaining: 14 review flags/concerns and 278 provisional syllabus mappings remain. All 300 source_verified fields are already set; stop repeating the source-text proofread.
+- Public Administration Code 32: 0/300 source_verified; all 300 source-text checks remain open. Its 22 manually reviewed + 278 provisional mappings are separate from source proofreading.
+- Indian Knowledge System Code 29: 0/300 source_verified; all 300 original-page checks remain open. Mapping status remains 298 provisional + 2 pending.
+- Hindu Studies Code 28: source_verified 300/300; stop source proofread. Keep 24 provisional mappings and 40 review flags as the active backlog.
+- Performing Arts Code 31 and Physical/Chemical Sciences Code 02/03 remain on the existing source-review and mapping backlog. Do not mark progress without the original official paper/key/syllabus evidence.
+- No question bank, answer, translation, mapping, review flag, Paper-I UI, or Code 01 data was changed by this reconciliation. No PR merged. This note is a register-only update.
