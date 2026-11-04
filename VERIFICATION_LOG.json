@@ -1242,5 +1242,39 @@
       "No Paper-I or Code 01 changes.",
       "No question answer or official answer key values changed."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 integrated-bank structural audit",
+    "scope": [
+      "assets/subjects/public_administration/questions.json",
+      "assets/subjects/public_administration/papers.json"
+    ],
+    "result": "PASS — internal structural checks only; source visual proofread remains pending",
+    "counts": {
+      "total": 300,
+      "november_2023": 100,
+      "december_2024": 100,
+      "november_2025": 100,
+      "source_verified": 0,
+      "review_flags": 300,
+      "blank_english_stems": 0,
+      "invalid_four_option_sets": 0,
+      "answer_vs_official_answer_mismatches": 0,
+      "gujarati_stems_populated": 0,
+      "gujarati_option_arrays_populated": 0,
+      "mappings_manually_reviewed": 22,
+      "mappings_provisional": 278
+    },
+    "targeted_source_concerns": [
+      "December 2024 Q24",
+      "December 2024 Q35",
+      "November 2025 Q17"
+    ],
+    "notes": [
+      "This audit confirms only stored JSON integrity and existing answer-letter agreement; it does not source-verify the question text/options or final key independently.",
+      "No question-bank content, answer, Gujarati translation, source_verified status, or mapping status was changed.",
+      "Official source PDFs could not be fetched through the available web route in this execution; source review is blocked pending readable original pages."
+    ]
   }
 ]
