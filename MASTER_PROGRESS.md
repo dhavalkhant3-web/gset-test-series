@@ -43,7 +43,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
 - **30 Music:** source-text visual proofreading is complete for all 300/300 records (Nov 2023 100/100, Dec 2024 100/100, Nov 2025 100/100). Completed the final 20 Dec 2024 checks (Q76–Q90 and Q96–Q100) on official printed pages 23–28 and 30–31 on 2026-11-03; repaired OCR-corrupted Gujarati in Q81, Q83, Q85, Q89 and Q90 and normalized Q79 English. No question-text visual checks remain. Resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings and review 124 remaining stream-specific provisional mappings. 212 review flags remain active for separate mapping/content gates.
 - **31 Performing Arts:** resolve 6 bilingual discrepancies and inspect 200 pending text/transcription records; review 171 provisional + 129 pending mappings. 36 provisional content-based assignments were added on 2026-11-03; source visual-review counts remain unchanged.
-- **32 Public Administration:** all 300 stems/options visually checked against official source PDFs and answer letters reconciled with final keys. Mapping progress is 240 manually reviewed + 60 provisional + 0 pending/verified; resolve Dec 2024 Q24/Q35 and Nov 2025 Q17. All 300 content/review flags remain active.
+- **32 Public Administration:** all 300 stems/options visually checked against official source PDFs and answer letters reconciled with final keys. Mapping progress is 300 manually reviewed + 0 provisional + 0 pending, after reviewing the 40 remaining provisional entries and correcting research-methodology unit assignments to official Unit X (Research Methodology) and governance assignments to official Unit IX (Governance and Good Governance). All 300 content/review flags remain active.
 - **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 278 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
 
 ## PR and branch safety
@@ -554,3 +554,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed December 2024 Q71–Q80 and November 2025 Q71–Q80 against the official GSET Code 32 syllabus. The questions primarily cover Unit VIII Public Policy/Policy Sciences, with specific matches to Unit III Indian Administration, Unit VII Social Welfare Administration and Unit II Administrative Thought.
 - Mapping totals now 260 manually reviewed, 40 provisional, 0 pending/verified. Session counts: Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained; no mapping promoted to verified.
 - Updated question-level unit fields/notes, paper manifest, subject registry and Project State. No question stems/options/answers or source verification fields changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 mapping batch — 2026-11-04
+- Reviewed the remaining 40 provisional question-level mappings (December 2024 Q81–Q100; November 2025 Q81–Q100) against the official Code 32 unit catalogue.
+- Corrected research-methodology entries to official Unit X and governance/e-governance entries to official Unit IX; the earlier bank records were using stale unit positions after the catalogue sequence correction.
+- Updated only syllabus mapping metadata (`syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, `syllabus_mapping_note`). No stems, options, answers, Gujarati fields, images, source references, or review flags changed.
+- Code 32 checkpoint: 300/300 manually reviewed; 0 provisional; 0 pending. All 300 review flags remain active independently.
+- Question-bank update commit: `31bc3f9710481db05ff1e3116b15b86eddb45c8d`; progress-state synchronization commit: `974afd62c42dca1f88f1dd3da57e2e56cd898d39`.
