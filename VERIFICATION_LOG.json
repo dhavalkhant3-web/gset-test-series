@@ -4287,5 +4287,28 @@
       "No PR merged; Paper-I and Code 01 untouched"
     ],
     "commit": "7d5bf5ad4c48aa3a21f720ceac7d51a02c3c1332"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 figure mapping review batch 9",
+    "scope": "Dec 2024 Q91-Q100 original source figures",
+    "source": "Original uploaded PDF dec2433(1).pdf (booklet 330019), pages printed 23-24",
+    "actions": [
+      "Visually inspected Q91-Q95 figure of Spiral Jetty by Robert Smithson and Q96-Q100 Arnolfini Portrait by Jan van Eyck",
+      "Mapped 10 figure questions to official Code 33 Unit VI and documented source-specific evidence",
+      "Preserved official key and already source_verified state"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "manually_reviewed": 273,
+      "provisional": 27,
+      "pending": 0
+    },
+    "non_actions": [
+      "No answer key, question text/options, translations, image assets or review flags changed",
+      "Nov 2023 and Nov 2025 image-dependent sets remain provisional",
+      "No PR merged; Paper-I and Code 01 untouched"
+    ],
+    "commit": "aac4d94fc42b13347f337e5ed3ecf42b58f09ddb"
   }
 ]
