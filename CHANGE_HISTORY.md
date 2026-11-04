@@ -280,3 +280,9 @@
 - Validator still checks stored answer letters against its official final-key arrays (300 records) and warns that it does not independently inspect source PDF bytes; all 300 review flags remain for mapping/content work.
 - Combined subject bank audit #436 passed on commit `d0820161743f239527bd1c9a58205e9c52dadcc6`. PA validator #609 and Debug APK #348 were queued on validator commit `62714248c391781f8e5c2cd7660256fa993c4208` at the time of the register update. Earlier validator failures were stale metadata expectations, now corrected.
 - No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 1
+- Manually reviewed Nov 2023 Q23–Q32 against the official Code 32 syllabus PDF. Adjusted specific unit numbers where the existing provisional assignment was less directly aligned (Q24→VI, Q25/Q27→I, Q29→IV, Q30→II, Q31→X); other mappings in the batch confirmed.
+- Mapping labels now 32 manually reviewed and 268 provisional, 0 pending. None counted as verified; all 300 review flags retained.
+- Updated papers.json, subjects.json, PROJECT_STATE, master progress and verification log. No question stem/options/answer text changed. No PR merged; Code 01/Paper-I untouched.
