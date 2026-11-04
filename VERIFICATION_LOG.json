@@ -2352,5 +2352,111 @@
       "Gujarati fields remain blank because source paper medium is English.",
       "Provisional syllabus mappings and review flags retained; no PR merge, Paper-I change or Code 01 change."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 official final answer-key reconciliation batch 11 (visual check pending)",
+    "sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf"
+    ],
+    "records": [
+      {
+        "id": "public_administration_dec24_q76",
+        "paper": "dec2432.pdf",
+        "question_no": 76,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q77",
+        "paper": "dec2432.pdf",
+        "question_no": 77,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q78",
+        "paper": "dec2432.pdf",
+        "question_no": 78,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q79",
+        "paper": "dec2432.pdf",
+        "question_no": 79,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q80",
+        "paper": "dec2432.pdf",
+        "question_no": 80,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q76",
+        "paper": "nov2532.pdf",
+        "question_no": 76,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q77",
+        "paper": "nov2532.pdf",
+        "question_no": 77,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q78",
+        "paper": "nov2532.pdf",
+        "question_no": 78,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q79",
+        "paper": "nov2532.pdf",
+        "question_no": 79,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q80",
+        "paper": "nov2532.pdf",
+        "question_no": 80,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      }
+    ],
+    "result": "10 final answer-key letters reconciled; stored answers match. Question paper page-image visual verification pending; source_verified count unchanged at 117/300.",
+    "notes": [
+      "Official final answer key PDFs establish answer letters for Dec 2024 Q76-Q80 and Nov 2025 Q76-Q80.",
+      "Do not count these as source-verified until original paper stems and four options are visually checked.",
+      "Existing review flags and provisional syllabus mapping statuses retained; no PR merge, Paper-I or Code 01 changes."
+    ]
   }
 ]
