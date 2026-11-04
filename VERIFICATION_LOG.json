@@ -4679,5 +4679,64 @@
       "No PR merged; Paper-I and Code 01 untouched",
       "No provisional or pending mapping promoted to officially verified"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Performing Arts Code 31 December 2024 direct syllabus mapping review tranche 2",
+    "scope": "December 2024 Paper-II Q16, Q17, Q19, Q41, Q44, Q63, Q64, Q78",
+    "source": "Existing integrated English question records and registered GSET Code 31 core syllabus unit headings",
+    "actions": [
+      "Manually reviewed eight direct question-to-unit matches involving Kutiyattam, Tamasha, regional Asian performance forms, Nritya/Nritta theory, dance treatises, classical dance exponents and Bhavai",
+      "Updated only mapping unit metadata and rationale for eight records",
+      "Recomputed mapping status totals from the current integrated bank and synchronized manifests/registers"
+    ],
+    "result": {
+      "Code31_total": 300,
+      "mapping_reviews_added": 8,
+      "mapping_manually_reviewed": 15,
+      "mapping_provisional": 168,
+      "mapping_pending": 117,
+      "unit_fields_populated": 183,
+      "unit_fields_unset": 117,
+      "mapping_officially_verified": 0,
+      "source_verified_marked": 101,
+      "source_text_gujarati_review_pending": 193,
+      "bilingual_discrepancies": 6,
+      "review_flags": 206,
+      "by_paper": {
+        "performing_arts_dec24": {
+          "manual": 15,
+          "prov": 76,
+          "pending": 9,
+          "flags": 100,
+          "sourceVerified": 0,
+          "gu": 0,
+          "assigned": 91
+        },
+        "performing_arts_nov23": {
+          "manual": 0,
+          "prov": 43,
+          "pending": 57,
+          "flags": 6,
+          "sourceVerified": 94,
+          "gu": 100,
+          "assigned": 43
+        },
+        "performing_arts_nov25": {
+          "manual": 0,
+          "prov": 49,
+          "pending": 51,
+          "flags": 100,
+          "sourceVerified": 7,
+          "gu": 7,
+          "assigned": 49
+        }
+      }
+    },
+    "non_actions": [
+      "No stems, options, official answer letters, Gujarati text, source URLs, source_verified fields or review flags changed",
+      "No PR merged; Paper-I and Code 01 untouched",
+      "No provisional or pending mapping promoted to officially verified"
+    ]
   }
 ]
