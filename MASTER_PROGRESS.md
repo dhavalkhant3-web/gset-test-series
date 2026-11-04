@@ -27,7 +27,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
-| 33 | Visual Art | 300 | 117 source-text records visually proofread; 169 pending proofreading; 14 content concerns retained | PR/validator records 300-key reconciliation; official answers unchanged | 295 manually reviewed, 5 provisional, 0 pending | 14 |
+| 33 | Visual Art | 300 | 159 source-text records visually proofread; 127 pending proofreading; 14 content concerns retained | PR/validator records 300-key reconciliation; official answers unchanged | 295 manually reviewed, 5 provisional, 0 pending | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
 
@@ -659,3 +659,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - 40 additional records were marked proofread. Nov 2023 Q17 and Dec 2024 Q30 were already source-proofread and flagged for content/key concerns; their flags and official answers were preserved.
 - Source proofreading checkpoint: 117/300 records visually proofread; 169 pending; 14 content concerns/review flags retained. Mapping count unchanged at 295 manually reviewed, 5 provisional.
 - Bank note commit: `57cd57b662026386762ed600d53195f60baed24a`; state sync commit: `a62ddab99b7e6d8ccb2c1fedc9ab2c7c52ae90a8`.
+
+
+## Visual Art Code 33 source proofreading batch 15 — 2026-11-04
+- Compared English stems and all options for Nov 2023 Q31–Q45 (printed pp. 7–9), Dec 2024 Q31–Q45 (printed pp. 6–8), and Nov 2025 Q31–Q45 (printed pp. 9–12) with original source scans.
+- 42 additional records were marked proofread. Dec 2024 Q32/Q36 and Nov 2025 Q37 already had source proofread with content/key concerns; their review flags and official answers remain unchanged.
+- Source proofreading checkpoint: 159/300 visually proofread, 127 pending; 14 content concerns/review flags retained. Mapping status remains 295 manually reviewed, 5 provisional.
+- Bank note commit: `3eae934b2fdf609ce3f21b8dfde1629e9bf4c928`; state sync commit: `bb2e218226ea2d347922400c343bcab58f695ac8`.
