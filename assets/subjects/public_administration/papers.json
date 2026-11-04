@@ -26,16 +26,16 @@
       "source_verified": true,
       "status": "source_question_text_verified_mapping_content_review_pending",
       "review_note": "All 100 question stems and four options/order visually matched against the official GSET Paper-II source PDF. All 100 stored answer letters match the official final answer key already reconciled for this session. Source question text/options audit complete; all review flags remain active for independent syllabus-mapping/content adjudication. This is not subject content-review completion.",
-      "unit_mapping_status": "manually_reviewed_and_provisional",
+      "unit_mapping_status": "all_mappings_manually_reviewed",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 8,
+      "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "92 manually reviewed against official Code 32 syllabus, 8 provisional content-based mappings, 0 unmapped/pending; manual review is not verified. All review flags retained.",
-      "unit_mapping_manually_reviewed_count": 92
+      "unit_mapping_status_note": "100 mappings manually reviewed against official Code 32 syllabus, 0 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
+      "unit_mapping_manually_reviewed_count": 100
     },
     {
       "paper_id": "public_administration_dec24",
@@ -53,7 +53,7 @@
       "source_verified": true,
       "status": "source_question_text_verified_mapping_content_review_pending",
       "review_note": "All 100 question stems and four options/order visually matched against the official GSET Paper-II source PDF. All 100 stored answer letters match the official final answer key already reconciled for this session. Source question text/options audit complete; all review flags remain active for independent syllabus-mapping/content adjudication. This is not subject content-review completion.",
-      "unit_mapping_status": "manually_reviewed_and_provisional",
+      "unit_mapping_status": "provisional_mapping_review_pending",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
@@ -61,7 +61,7 @@
       "unit_mapping_provisional_count": 100,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "0 manually reviewed against official Code 32 syllabus, 100 provisional content-based mappings, 0 unmapped/pending; manual review is not verified. All review flags retained.",
+      "unit_mapping_status_note": "0 mappings manually reviewed against official Code 32 syllabus, 100 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
       "unit_mapping_manually_reviewed_count": 0
     },
     {
@@ -80,7 +80,7 @@
       "source_verified": true,
       "status": "source_question_text_verified_mapping_content_review_pending",
       "review_note": "All 100 question stems and four options/order visually matched against the official GSET Paper-II source PDF. All 100 stored answer letters match the official final answer key already reconciled for this session. Source question text/options audit complete; all review flags remain active for independent syllabus-mapping/content adjudication. This is not subject content-review completion.",
-      "unit_mapping_status": "manually_reviewed_and_provisional",
+      "unit_mapping_status": "provisional_mapping_review_pending",
       "unit_mapping_note": "Keyword-based suggestions are provisional; official question-by-question syllabus verification remains pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
@@ -88,7 +88,7 @@
       "unit_mapping_provisional_count": 100,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "0 manually reviewed against official Code 32 syllabus, 100 provisional content-based mappings, 0 unmapped/pending; manual review is not verified. All review flags retained.",
+      "unit_mapping_status_note": "0 mappings manually reviewed against official Code 32 syllabus, 100 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
       "unit_mapping_manually_reviewed_count": 0
     }
   ],
