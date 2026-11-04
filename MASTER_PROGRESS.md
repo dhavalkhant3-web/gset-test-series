@@ -25,7 +25,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0 source_verified; all 300 await original-page visual review | Current records state official-key reconciliation; no independent recomputation in this pass | 0 manually verified, 298 provisional, 2 pending | 300 |
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
-| 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
+| 31 | Performing Arts | 300 | 101/300 source-page question sets visually verified; 193 text/Gujarati source audits pending; 6 bilingual discrepancies retained | Current integrated final-key check not independently repeated in this register sync | 7 manually reviewed, 176 provisional, 117 pending; 0 officially verified | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
 | 33 | Visual Art | 300 | 300/300 English stems/options visually source-proofread; 14 content/key concerns retained | 300/300 final-key reconciliation recorded; 14 expert concerns remain | 295 manually reviewed, 5 provisional, 0 pending/verified | 14 |
 
@@ -709,3 +709,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Updated the paper manifest and subject registry to reflect 300/300 source-text proofreading. 14 content/key concerns remain flagged (7 Nov23, 5 Dec24, 2 Nov25); source proofread completion does not resolve them. Gujarati question text remains unpopulated.
 - Mapping count reconciled: 295 manually reviewed against the official syllabus (Nov23 98, Dec24 99, Nov25 98); 5 provisional (Nov23 2, Dec24 1, Nov25 2), 0 pending, 0 officially verified. Kept the five less-direct mappings provisional.
 - Synchronized `PROJECT_STATE.json`, `assets/subjects/subjects.json`, and `assets/subjects/visual_art/papers.json` to the question-bank evidence. No question content, options, answer letters, translation, review flags, Paper-I, or Code 01 modified.
+
+
+## Performing Arts Code 31 — direct syllabus mapping review batch (2026-11-04)
+- Manually reviewed seven December 2024 questions against the registered GSET Code 31 core-unit headings: Q4 Kathak→Unit VII (Indian Classical Dance); Q11 Bhavai→Unit II (Folk and Traditional Theatre); Q27–Q29 aesthetics→Unit IV (Art and Aesthetics); Q46 Natyashastra→Unit III; Q55 Southeast Asian Dragon/Lion dance→Unit V.
+- Updated only `syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, and mapping rationale for these seven question records. Existing review flags and source verification fields remain unchanged; these mappings do not imply visual source proofreading.
+- Recomputed integrated question-bank mapping labels: 7 manually reviewed, 176 provisional, 117 pending; 183 unit fields populated, 117 unset, 0 officially verified. Session split: Dec24 7/84/9; Nov23 0/43/57; Nov25 0/49/51.
+- Synchronized question-level data into paper manifest, subject registry, Project State, verification log and change history. No PR merge; Paper-I and Code 01 untouched.
