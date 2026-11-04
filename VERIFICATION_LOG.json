@@ -3487,5 +3487,43 @@
       "All source/question/answer fields unchanged; review flags retained.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 5",
+    "question_bank_commit": "2a4fd12f41a9cdcd7e21dd275493e81c46d1d392",
+    "project_state_commit": "2cf860e3c310f746d5c81f0ee080871ac3c764a9",
+    "subject_registry_commit": "695049e41cc45f2c1a2ab3078f3aae08208949a7",
+    "paper_manifest_commit": "91f7b37473af37e61eda22224b1051c1233ffab6",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q63",
+      "public_administration_nov23_q64",
+      "public_administration_nov23_q65",
+      "public_administration_nov23_q66",
+      "public_administration_nov23_q67",
+      "public_administration_nov23_q68",
+      "public_administration_nov23_q69",
+      "public_administration_nov23_q70",
+      "public_administration_nov23_q71",
+      "public_administration_nov23_q72"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 72,
+      "provisional": 228,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "DRDA Q64 corrected to Unit IV district administration/DRDA; Q56 previously addressed under Unit VI.",
+      "All review flags retained; no question content/answer edits.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
