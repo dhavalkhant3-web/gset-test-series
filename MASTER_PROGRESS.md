@@ -501,3 +501,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q73–Q82 against official Code 32 syllabus: Q73→VI fiscal/monetary policy; Q74→VIII policy authors/books; Q75→VII welfare schemes; Q76/Q77→III Indian administration/civil service hierarchy and legislation; Q78→X research; Q79→VI budgetary process; Q80/Q82→VIII policy process; Q81→IV district/local administration.
 - Mapping totals now 82 manually reviewed, 218 provisional, 0 pending. All 300 review flags retained; no mapping status counted as verified.
 - Updated question-level unit fields, per-paper mapping counts, subject registry and Project State. No source text/answer/option changes; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 7 (2026-11-04)
+- Manually reviewed Nov 2023 Q83–Q92 against official Code 32 syllabus: Q83→IV rural development/local programmes; Q84→X sampling; Q85→VII social welfare programmes; Q86→V Riggs; Q87→II bureaucracy/admin thought; Q88→VI disinvestment; Q89→I position classification/personnel; Q90–Q92→VII social welfare organizations/programmes.
+- Mapping totals now 92 manually reviewed, 208 provisional, 0 pending. No mapping marked verified; all 300 review flags retained.
+- Updated question unit fields/notes, paper/subject manifests and Project State. No question text/options/answer edits; no PR merge; Code 01/Paper-I untouched.
