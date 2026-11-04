@@ -4543,5 +4543,31 @@
       "No PR merged; no Paper-I changes"
     ],
     "commit": "f144b590afff114e0542eba0dd33c075d1f4683a"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Performing Arts Code 31 Nov 2025 Q1-Q7 source audit",
+    "scope": "November 2025 Paper-II Q1-Q7 English/Gujarati stems and options",
+    "source": "Original official GSET bilingual Performing Arts scan nov2531.pdf, booklet 310026, printed pages 3-4",
+    "actions": [
+      "Visually compared English stems/options against original scan",
+      "Transcribed and checked Gujarati question stems/options/order from the source Gujarati column",
+      "Recorded source booklet serial and per-question page-specific audit notes"
+    ],
+    "result": {
+      "PerformingArts_total": 300,
+      "source_page_visually_verified": 101,
+      "source_text_gujarati_review_pending": 193,
+      "bilingual_discrepancies_flagged": 6,
+      "review_flags": 206,
+      "mapping_provisional": 171,
+      "mapping_pending": 129
+    },
+    "non_actions": [
+      "Official answer letters unchanged; all seven review flags retained for separate syllabus/content mapping",
+      "No generated Gujarati translation inserted",
+      "No PR merged; Paper-I untouched"
+    ],
+    "commit": "6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef"
   }
 ]
