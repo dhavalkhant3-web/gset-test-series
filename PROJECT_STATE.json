@@ -166,12 +166,12 @@
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
       "mapping": {
-        "verified": 109,
-        "provisional": 191,
+        "verified": 127,
+        "provisional": 173,
         "pending": 0
       },
-      "question_bank_sha": "bea306663a0e8272fd4d12341adb24b526d4dc5b",
-      "status": "109 mappings manually reviewed, 191 provisional, 0 unmapped; text/options source proofreading and 14 flagged content concerns remain; image-dependent mappings remain provisional pending image inspection"
+      "question_bank_sha": "0bb9119dbd4bd55bfac2b80220ee9111f1674eef",
+      "status": "127 mappings manually reviewed, 173 provisional, 0 unmapped; source proofreading and 14 flagged content concerns remain; image-dependent mappings are provisional pending source-page image inspection"
     },
     "02": {
       "name": "Physical Sciences",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "7caa7cadd9433d4850b6b9fafcd58dcd1d8fc71d",
-    "scope": "Visual Art Code 33 Dec 2024 second direct-mapping batch; 21 records"
+    "commit": "50c92f570abc3aa3e3addc1ceaa08c30289b9a81",
+    "scope": "Visual Art Code 33 Dec 2024 matching/chronology mappings; 18 records"
   }
 }
