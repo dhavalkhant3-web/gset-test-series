@@ -1958,5 +1958,114 @@
       "All stored answers match official final keys.",
       "Mapping review flags preserved."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source visual proofread batch 7",
+    "source": "Official GSET Paper-II PDFs and final answer keys",
+    "records": [
+      {
+        "id": "public_administration_dec24_q55",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q56",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q57",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q58",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q59",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q60",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q55",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q56",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q57",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q58",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q59",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q60",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      }
+    ],
+    "result": "12 additional source-verified questions; total 87/300; 213 pending",
+    "notes": [
+      "Dec 2024 Q55-Q60 and Nov 2025 Q55-Q60 visually matched official paper page images.",
+      "Stored answer letters match official final answer keys.",
+      "Mapping review flags preserved; no content or mapping rewritten."
+    ]
   }
 ]
