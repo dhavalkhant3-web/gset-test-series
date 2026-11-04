@@ -420,3 +420,9 @@
 - Reviewed 59 direct Nov 2025 core-unit matches. Code 33 mapping checkpoint now 186 manually reviewed, 114 provisional, 0 pending.
 - Ambiguous and image-led items kept provisional; no question content or review flags altered.
 - Bank commit `97a3dda302c719d95c26053fa7809756960464d3`; state sync commit `2c0b512b1f1c917ec6000ebf3098442f4d833fe5`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 7
+- Reviewed 18 direct Nov 2023 unit matches. Mapping checkpoint now 232 manually reviewed, 68 provisional, 0 pending.
+- Broad/ambiguous public-sculpture and sequence topics left provisional; source text and review flags unchanged.
+- Bank commit `2d72569bdb7d548bce528021405b98e88c1965b6`; state sync `ec17cd5376eb77a2054f2d6daa96bce1248d9845`.
