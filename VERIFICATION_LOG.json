@@ -1804,5 +1804,82 @@
       "Stored answers reconciled with final keys; all match.",
       "Review flags and syllabus mappings preserved."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source visual proofread batch 5",
+    "source": "Official GSET Paper-II source PDFs and final answer keys",
+    "records": [
+      {
+        "id": "public_administration_dec24_q47",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q48",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q49",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q50",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q47",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q48",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q49",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q50",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      }
+    ],
+    "result": "8 additional source-verified questions; total 67/300; 233 pending",
+    "notes": [
+      "Dec 2024 Q47-Q50 and Nov 2025 Q47-Q50 visually matched official PDF page images.",
+      "Stored answer letters match final key.",
+      "Mapping statuses and active review flags retained."
+    ]
   }
 ]
