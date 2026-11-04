@@ -166,12 +166,12 @@
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
       "mapping": {
-        "verified": 232,
-        "provisional": 68,
+        "verified": 263,
+        "provisional": 37,
         "pending": 0
       },
-      "question_bank_sha": "9c9399863feca354e9eee50e61879a9c1875a170",
-      "status": "232 mappings manually reviewed, 68 provisional, 0 unmapped; source-text proofreading and 14 content concerns remain; figure-dependent mappings await original source images"
+      "question_bank_sha": "6525cff86cd2eb01e768c2d541da621cffdc94e5",
+      "status": "263 mappings manually reviewed, 37 provisional, 0 unmapped; source text/options proofreading and 14 content concerns remain; image-dependent questions and unclear unit fits remain provisional"
     },
     "02": {
       "name": "Physical Sciences",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "2d72569bdb7d548bce528021405b98e88c1965b6",
-    "scope": "Visual Art Code 33 Nov 2023 direct mappings; 18 records"
+    "commit": "7d5bf5ad4c48aa3a21f720ceac7d51a02c3c1332",
+    "scope": "Visual Art Code 33 remaining Dec 2024 clear syllabus mappings; 31 records"
   }
 }
