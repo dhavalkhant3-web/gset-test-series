@@ -127,12 +127,12 @@
       "review_flags": 206,
       "mapping": {
         "verified": 0,
-        "manually_reviewed": 7,
-        "provisional": 176,
+        "manually_reviewed": 15,
+        "provisional": 168,
         "pending": 117
       },
-      "question_bank_sha": "93fb566e44fc10cb138bba8c66cddf12047cbc23",
-      "status": "101/300 source-page question sets visually verified (Nov23 94, Nov25 7, Dec24 0); 193 source-text/Gujarati audits pending; six bilingual discrepancy flags retained; mapping labels 7 manually reviewed, 176 provisional, 117 pending; 206 review flags remain."
+      "question_bank_sha": "a6c12bb66e3e8ab9e367b85f018efdd672da363a",
+      "status": "101/300 source-page question sets visually verified (Nov23 94, Nov25 7, Dec24 0); 193 source-text/Gujarati audits pending; six bilingual discrepancy flags retained; mapping labels 15 manually reviewed, 168 provisional, 117 pending; 206 review flags remain."
     },
     "32": {
       "name": "Public Administration",
