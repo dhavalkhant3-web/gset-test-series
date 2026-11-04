@@ -3775,5 +3775,67 @@
       "All review flags retained; question content/answer fields unchanged.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 11",
+    "question_bank_commit": "466ad7914231fa6b7fc0027a01ed5fe0468cd9b1",
+    "project_state_commit": "0bd48a5b1ba2fd6ebcf918032a5913bc02725c1d",
+    "subject_registry_commit": "4eaf03de111c15c767a063bc50417e5bb72a5835",
+    "paper_manifest_commit": "55a9b909cdb49118b9e732c35a7f30c84b66ebb8",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_dec24_q21",
+      "public_administration_dec24_q22",
+      "public_administration_dec24_q23",
+      "public_administration_dec24_q24",
+      "public_administration_dec24_q25",
+      "public_administration_dec24_q26",
+      "public_administration_dec24_q27",
+      "public_administration_dec24_q28",
+      "public_administration_dec24_q29",
+      "public_administration_dec24_q30",
+      "public_administration_nov25_q21",
+      "public_administration_nov25_q22",
+      "public_administration_nov25_q23",
+      "public_administration_nov25_q24",
+      "public_administration_nov25_q25",
+      "public_administration_nov25_q26",
+      "public_administration_nov25_q27",
+      "public_administration_nov25_q28",
+      "public_administration_nov25_q29",
+      "public_administration_nov25_q30"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 20,
+      "provisional_to_manual": 20,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 160,
+      "provisional": 140,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 30,
+        "provisional": 70
+      },
+      "nov25": {
+        "manual_reviewed": 30,
+        "provisional": 70
+      }
+    },
+    "notes": [
+      "Mission Karmayogi/capacity building, regulatory authorities, GST/financial committees, and Kautilya's Arthashastra aligned to explicit syllabus units.",
+      "All review flags retained; no question content/answer changes.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
