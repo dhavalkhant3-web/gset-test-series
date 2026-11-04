@@ -146,3 +146,9 @@
 - Commit `686aca9d2b442b36eaa1f17b7cc08b817067738a`: visually proofread GSET December 2024 Music Paper-II Q76–Q90 and Q96–Q100 against official source scan printed pages 23–28 and 30–31. Corrected OCR-damaged Gujarati in Q81, Q83, Q85, Q89 and Q90; normalized Q79 English wording. Set source_verified true for the 20 visually checked questions. No answer or official key values changed; review flags were retained for independent mapping/content review.
 - Commit `adb249822521c9271d7cd991f1fbb7cb9727539b`: updated Music `verification_pending.json` to record 300/300 source visual proofreading complete, 0 text-proofreading questions remaining. Mapping backlog remains 14 ambiguous + 124 provisional, and 212 review flags stay active.
 - Final Music question-bank integrity scan: 300/300 records, 300/300 source_verified, 0 blank Gujarati stems/options, 0 stored answer vs official_answer mismatches. No PR merge, Paper-I changes or Code 01 changes.
+
+
+## 2026-11-04 — Public Administration Code 32 source verification tranche 2
+- Added source verification for 34 questions: Dec 2024 Q8–Q23 (16 items) and Nov 2025 Q7–Q16 plus Q18–Q25 (18 items), visually compared against original official GSET Paper-II PDF pages and final keys.
+- Stems/options matched; stored answers equal final key letters. No question content or answer values were modified. Review flags and syllabus mapping statuses retained.
+- Running source verification total: 37/300; pending 263; provisional mapping count unchanged at 278.
