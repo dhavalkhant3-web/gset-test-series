@@ -27,7 +27,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
-| 33 | Visual Art | 300 | 300/300 English stems/options visually proofread; 14 content/key concerns retained for expert resolution | PR/validator records 300-key reconciliation; official answer letters preserved | 295 manually reviewed, 5 provisional, 0 pending | 14 |
+| 33 | Visual Art | 300 | 300/300 English stems/options visually source-proofread; 14 content/key concerns retained | 300/300 final-key reconciliation recorded; 14 expert concerns remain | 295 manually reviewed, 5 provisional, 0 pending/verified | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
 
@@ -702,3 +702,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Official final answer letters preserved; all seven review flags remain active for syllabus/content review. No invented translation inserted.
 - Performing Arts source audit checkpoint: 101/300 question sets source-verified, 193 source-text/Gujarati reviews pending; six previously identified bilingual discrepancy flags remain. Unit mappings remain 171 provisional, 129 pending.
 - Bank commit: `6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef`; paper-register commit: `6d61fe9f4c0d1043984c0abdcd8e5f27f166e1b9`; state sync: `91644e9175bd0b89c2ff69c494e2a3a3b5cc97b3`.
+
+
+## Visual Art Code 33 register synchronization — 2026-11-04
+- Recomputed the live integrated bank: each session has 100/100 English stems/options visually proofread (Nov 2023, Dec 2024, Nov 2025); all 300 records carry page-specific source-review notes.
+- Updated the paper manifest and subject registry to reflect 300/300 source-text proofreading. 14 content/key concerns remain flagged (7 Nov23, 5 Dec24, 2 Nov25); source proofread completion does not resolve them. Gujarati question text remains unpopulated.
+- Mapping count reconciled: 295 manually reviewed against the official syllabus (Nov23 98, Dec24 99, Nov25 98); 5 provisional (Nov23 2, Dec24 1, Nov25 2), 0 pending, 0 officially verified. Kept the five less-direct mappings provisional.
+- Synchronized `PROJECT_STATE.json`, `assets/subjects/subjects.json`, and `assets/subjects/visual_art/papers.json` to the question-bank evidence. No question content, options, answer letters, translation, review flags, Paper-I, or Code 01 modified.
