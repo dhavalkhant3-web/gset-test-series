@@ -3449,5 +3449,43 @@
       "All review flags retained, including known disputes.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 4",
+    "question_bank_commit": "e47ce762be459bc831d201a70e3bf8ef313b9a51",
+    "project_state_commit": "fedc240631fa61f0ae7834679428007182ec18fb",
+    "subject_registry_commit": "cac79442c66a950647f48c326f0ceb27441e7276",
+    "paper_manifest_commit": "64186bf8317cb37390cb4ed47a28633a22be21bb",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q53",
+      "public_administration_nov23_q54",
+      "public_administration_nov23_q55",
+      "public_administration_nov23_q56",
+      "public_administration_nov23_q57",
+      "public_administration_nov23_q58",
+      "public_administration_nov23_q59",
+      "public_administration_nov23_q60",
+      "public_administration_nov23_q61",
+      "public_administration_nov23_q62"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 62,
+      "provisional": 238,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Q53/Q54 to Unit I, Q55/Q58 Unit IX, Q56 Unit VI, Q59-61 Unit X corrected from earlier provisional suggestions.",
+      "All source/question/answer fields unchanged; review flags retained.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
