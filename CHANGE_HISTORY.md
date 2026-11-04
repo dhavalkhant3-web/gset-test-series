@@ -203,3 +203,8 @@
 ## 2026-11-04 — Public Administration Code 32 final-key reconciliation batch 12 (Q81–Q85)
 - Dec 2024 Q81–Q85 and Nov 2025 Q81–Q85: official final key letters reconciled; all ten existing answers match.
 - Question paper visual inspection remains pending, so verified total stays 117/300 and 183 visual checks remain. Mapping/review flags preserved; no Paper-I or Code 01 changes; no PR merge.
+
+
+## 2026-11-04 — Public Administration Code 32 final-key reconciliation batch 13 (Q86–Q90)
+- Checked Dec 2024 Q86–Q90 and Nov 2025 Q86–Q90 against official GSET final answer keys; all ten stored answers match.
+- Original question-paper visual proofread pending; source_verified total remains 117/300 (183 pending). Review flags/mappings retained; no Paper-I or Code 01 edits; no PR merge.
