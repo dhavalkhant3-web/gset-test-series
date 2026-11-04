@@ -480,13 +480,13 @@
       "source_verified": true,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300/300 Paper-II question stems/options visually proofread against official GSET source PDFs; stored answer letters match official final-key fields (300/300 parity). 82 unit assignments manually reviewed against official Code 32 syllabus, 218 remain provisional; 0 unit fields pending. All 300 review flags remain active for separate content/mapping adjudication; disputed Dec 2024 Q24/Q35 and Nov 2025 Q17 remain flagged.",
-      "unit_mapping_status": "source_question_text_verified; 82 manually_reviewed_official_syllabus, 218 provisional content-based",
+      "data_status": "300/300 Paper-II question stems/options visually proofread against official GSET source PDFs; stored answer letters match official final-key fields (300/300 parity). 92 unit assignments manually reviewed against official Code 32 syllabus, 208 remain provisional; 0 unit fields pending. All 300 review flags remain active for separate content/mapping adjudication; disputed Dec 2024 Q24/Q35 and Nov 2025 Q17 remain flagged.",
+      "unit_mapping_status": "source_question_text_verified; 92 manually_reviewed_official_syllabus, 208 provisional content-based",
       "unit_mapping_counts": {
-        "provisional": 218,
+        "provisional": 208,
         "pending": 0,
         "verified": 0,
-        "manually_reviewed": 82
+        "manually_reviewed": 92
       }
     },
     {
