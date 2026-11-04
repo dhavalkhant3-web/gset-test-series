@@ -3837,5 +3837,67 @@
       "All review flags retained; no question content/answer changes.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 12",
+    "question_bank_commit": "b3229b4fcd009070cecdadffef8b2fbe1a70fedd",
+    "project_state_commit": "1157a3d686a57b0600631ff575da3baeaa7b4944",
+    "subject_registry_commit": "89407575cd7aeffaadf2b7c97e9559d76666a548",
+    "paper_manifest_commit": "4a565d366cae8f703ccc3dc5901c7f9a2ae5bd6a",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_dec24_q31",
+      "public_administration_dec24_q32",
+      "public_administration_dec24_q33",
+      "public_administration_dec24_q34",
+      "public_administration_dec24_q35",
+      "public_administration_dec24_q36",
+      "public_administration_dec24_q37",
+      "public_administration_dec24_q38",
+      "public_administration_dec24_q39",
+      "public_administration_dec24_q40",
+      "public_administration_nov25_q31",
+      "public_administration_nov25_q32",
+      "public_administration_nov25_q33",
+      "public_administration_nov25_q34",
+      "public_administration_nov25_q35",
+      "public_administration_nov25_q36",
+      "public_administration_nov25_q37",
+      "public_administration_nov25_q38",
+      "public_administration_nov25_q39",
+      "public_administration_nov25_q40"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 20,
+      "provisional_to_manual": 20,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 180,
+      "provisional": 120,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 40,
+        "provisional": 60
+      },
+      "nov25": {
+        "manual_reviewed": 40,
+        "provisional": 60
+      }
+    },
+    "notes": [
+      "Dec24 Q40 Parkinson's Law mapped to Unit I organization theory; Nov25 Q31 Inter-State Council mapped to Unit III.",
+      "All review flags retained; no question text/options/answer changes.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
