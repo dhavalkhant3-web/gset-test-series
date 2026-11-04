@@ -322,3 +322,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled stored answers and official_answer against the final answer keys; all 12 letters match.
 - Running source verified: 59/300; pending 241. Provisional mappings 278 unchanged; existing flags remain.
 - No question content/answers/translations/mapping values altered. Code 01/Paper-I untouched; no PR merged.
+
+
+## Public Administration Code 32 — source proofread tranche 5 (2026-11-04)
+- Visually matched Dec 2024 Q47–Q50 and Nov 2025 Q47–Q50 (8 questions) against official GSET Paper-II page images; stems/options match.
+- Final answer-key reconciliation completed for all 8; stored answer and official_answer letters match.
+- Running source verified 67/300; 233 pending. Provisional syllabus mappings 278 unchanged. Existing review flags retained; no answer/content/mapping changed.
