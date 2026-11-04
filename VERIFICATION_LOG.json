@@ -2670,5 +2670,111 @@
       "All existing answer/official_answer letters match official final keys.",
       "Do not mark source_verified before visually matching stem and four options to the original question papers."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 official final answer-key reconciliation batch 14 (Q91-Q95; visual pending)",
+    "sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf"
+    ],
+    "records": [
+      {
+        "id": "public_administration_dec24_q91",
+        "paper": "dec2432.pdf",
+        "question_no": 91,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q92",
+        "paper": "dec2432.pdf",
+        "question_no": 92,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q93",
+        "paper": "dec2432.pdf",
+        "question_no": 93,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q94",
+        "paper": "dec2432.pdf",
+        "question_no": 94,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q95",
+        "paper": "dec2432.pdf",
+        "question_no": 95,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q91",
+        "paper": "nov2532.pdf",
+        "question_no": 91,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q92",
+        "paper": "nov2532.pdf",
+        "question_no": 92,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q93",
+        "paper": "nov2532.pdf",
+        "question_no": 93,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q94",
+        "paper": "nov2532.pdf",
+        "question_no": 94,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q95",
+        "paper": "nov2532.pdf",
+        "question_no": 95,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      }
+    ],
+    "result": "10 final answer-key letters reconciled; all stored answers match. Original question paper visual verification pending; source_verified remains 117/300.",
+    "notes": [
+      "Official GSET final keys establish answer letters for Dec 2024 Q91-Q95 and Nov 2025 Q91-Q95.",
+      "Do not promote to source_verified until stems and all four options visually match official original papers.",
+      "Existing review flags and provisional mappings retained; no Paper-I or Code 01 change; no PR merge."
+    ]
   }
 ]
