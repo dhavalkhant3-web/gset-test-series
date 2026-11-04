@@ -358,3 +358,10 @@
 - Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus; aligned civil-service origins/classification/training/recruitment, bureaucracy theory, Riggs comparative administration, CSR, PPP and social audit to their explicit/closest unit scope.
 - Mapping totals 200 manually reviewed, 100 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 50/50, Nov25 50/50. All review flags retained; no question content/answers changed.
 - Updated question mappings, paper/subject manifests, Project State and progress logs. No PR merged; Code 01/Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 14
+- Manually reviewed Dec 2024 Q61–Q70 and Nov 2025 Q61–Q70 against official GSET Code 32 syllabus Units III/VII.
+- Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 70/30, Nov25 70/30. All 300 review flags retained.
+- Question-bank commit `e12e87eacf16a310164ea8a05758762163b26d4d`; paper-manifest commit `fbf68be99bba60c110a94446f63fe8afb7920035`; subject registry commit `123008bfed564494b26eee0f87852d1ce9a69270`; Project State commit `b7648e364260ca392e9f73c1fc70c4f00c9be741`.
+- No question text/options/answers changed; no PR merged; Code 01/Paper-I untouched.
