@@ -3411,5 +3411,43 @@
       "Question content/answer fields were unchanged; all review flags retained.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 3",
+    "question_bank_commit": "d148869d71a8ac26d4e77b84a52f613ccae45abb",
+    "project_state_commit": "9fa78339ebeec988bbb2f82840373e45bfcff7cb",
+    "subject_registry_commit": "b2e7ce456f3974c3c745465b69bb288d59fc2f94",
+    "paper_manifest_commit": "f899d6a255b5eec9c363698684e0184c36c131a4",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_nov23_q43",
+      "public_administration_nov23_q44",
+      "public_administration_nov23_q45",
+      "public_administration_nov23_q46",
+      "public_administration_nov23_q47",
+      "public_administration_nov23_q48",
+      "public_administration_nov23_q49",
+      "public_administration_nov23_q50",
+      "public_administration_nov23_q51",
+      "public_administration_nov23_q52"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 10,
+      "provisional_to_manual": 10,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 52,
+      "provisional": 248,
+      "pending": 0,
+      "verified": 0
+    },
+    "notes": [
+      "Official Code 32 syllabus scopes cited in the per-record notes; no question bank content/answer changes.",
+      "All review flags retained, including known disputes.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
