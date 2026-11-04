@@ -103,19 +103,25 @@ def main():
         fail("Public Administration missing from subjects registry")
     if subject.get("questions_loaded") != len(bank) or subject.get("papers_loaded") != len(papers["papers"]):
         fail("subject registry counts do not match the question/paper files")
-    if subject.get("source_verified") is not False:
-        fail("source_verified must remain false until official source audit is complete")
+    verified_by_paper = Counter(q.get("paper_id") for q in bank if q.get("source_verified") is True)
+    all_source_verified = len(verified_by_paper) == 3 and all(verified_by_paper.get(pid, 0) == 100 for pid, _ in EXPECTED_SESSIONS.values())
+    if subject.get("source_verified") is not all_source_verified:
+        fail(f"subject source_verified status must reflect question-level audit count; actual verified={sum(verified_by_paper.values())}/300")
     for p in papers["papers"]:
+        pid = p.get("paper_id")
         if p.get("answer_key_verified") is not True:
-            fail(f"{p.get('paper_id')}: official final answer key comparison must be recorded as verified")
-        if p.get("source_verified") is not False or p.get("question_source_verified") is not False:
-            fail(f"{p.get('paper_id')}: question wording/options must remain unverified until source audit is complete")
+            fail(f"{pid}: official final answer key comparison must be recorded as verified")
+        paper_source_complete = verified_by_paper.get(pid, 0) == 100
+        if p.get("source_verified") is not paper_source_complete or p.get("question_source_verified") is not paper_source_complete:
+            fail(f"{pid}: paper source verification status must reflect the 100-question source audit count (found {verified_by_paper.get(pid, 0)}/100)")
+        if p.get("source_reviewed_question_count") != verified_by_paper.get(pid, 0):
+            fail(f"{pid}: source_reviewed_question_count does not match question-level source_verified records")
         if not str(p.get("question_paper_url", "")).startswith("https://www.gujaratset.ac.in/"):
-            fail(f"{p.get('paper_id')}: question paper URL is not official GSET domain")
+            fail(f"{pid}: question paper URL is not official GSET domain")
         if not str(p.get("answer_key_url", "")).startswith("https://www.gujaratset.ac.in/"):
-            fail(f"{p.get('paper_id')}: answer key URL is not official GSET domain")
-    print(f"PASS: {len(bank)} questions; {len(papers['papers'])} sessions; {flags} review-flagged records; 300 official final-key comparisons.")
-    print("NOTE: official answer keys reconciled. Question wording/options verification remains separate; unresolved records stay flagged.")
+            fail(f"{pid}: answer key URL is not official GSET domain")
+    print(f"PASS: {len(bank)} questions; {len(papers['papers'])} sessions; {flags} review-flagged records; 300 official final-key comparisons; source text verified {sum(verified_by_paper.values())}/300.")
+    print("NOTE: Validator checks stored key parity and manifest synchronization; it does not independently inspect source PDF bytes. Review flags remain active for mapping/content review.")
 
 if __name__ == "__main__":
     main()
