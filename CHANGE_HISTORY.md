@@ -252,3 +252,10 @@
 - Updated only the 20 relevant question records' source_verified, verification_status and review_note fields. All review flags remain active; syllabus mapping statuses were not promoted.
 - Running verified count 167/300; 133 pending. Session counts: Nov23 0/100, Dec24 83/100, Nov25 84/100. Updated papers manifest, subjects registry, Project State, master progress and verification log.
 - No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration Code 32 source proofreading tranches 16–17
+- Visually matched Dec 2024 Q1–Q7 and Nov 2025 Q1–Q6 against official printed page 3; visually matched Dec 2024 Q25–Q30 and Nov 2025 Q26–Q32 against official printed page 6. All 26 question stems/four-option order matched the integrated bank; 26 stored answers matched final keys.
+- Updated only these 26 records' source verification and review evidence fields; review flags retained and mapping statuses unchanged.
+- Running count 193/300 source verified, 107 pending; session counts Nov23 0, Dec24 96, Nov25 97. Synchronized state, subject manifest, paper manifests and progress/logs.
+- No PR merged; Code 01 and Paper-I unchanged.
