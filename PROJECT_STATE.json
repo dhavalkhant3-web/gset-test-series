@@ -137,9 +137,9 @@
       "name": "Public Administration",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 200,
+      "source_verified_marked": 300,
       "review_flags": 300,
-      "question_text_and_options_audit_pending": 100,
+      "question_text_and_options_audit_pending": 0,
       "mapping": {
         "verified": 0,
         "manually_reviewed": 22,
@@ -151,13 +151,14 @@
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "adc2f1cf88749ba2765ae4cc6f8e4e8f4719a3e6",
-      "status": "source-verified 200/300; Dec 2024 and Nov 2025 Paper-II visual proofread complete 100/100 each; November 2023 remains 0/100 and is the 100-question source-review backlog. Mapping 22 manually reviewed, 278 provisional; all review flags retained.",
+      "question_bank_sha": "026d8d22b79b9afcd8b8021ab45e7059957f6e82",
+      "status": "source-question-text visual proofread complete 300/300 across all three sessions; stored answer letters reconciled against official final keys; 22 mappings manually reviewed and 278 provisional; 300 review flags retained for separate mapping/content adjudication",
       "session_source_verified": {
-        "nov23": 0,
+        "nov23": 100,
         "dec24": 100,
         "nov25": 100
-      }
+      },
+      "question_text_and_options_audit_complete": 300
     },
     "33": {
       "name": "Visual Art",
