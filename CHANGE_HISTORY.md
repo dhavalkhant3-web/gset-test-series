@@ -177,3 +177,8 @@
 ## 2026-11-04 — Public Administration Code 32 source verification tranche 7
 - Source-verified Dec 2024 Q55–Q60 and Nov 2025 Q55–Q60 (12 records) against official source PDF page images and final answer keys. Stems/options and stored answer letters matched.
 - Running source-verified total: 87/300; pending 213. Provisional mappings 278 unchanged; review flags retained. No PR merge; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration Code 32 source verification tranche 8
+- Source-verified Dec 2024 Q61–Q65 and Nov 2025 Q61–Q65 (10 records) against official PDF page images and final answer keys; stems/options and stored answer letters matched.
+- Running source-verified total: 97/300; pending 203. Provisional mappings 278 unchanged; review flags retained. No PR merge; Code 01/Paper-I untouched.
