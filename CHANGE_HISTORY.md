@@ -346,3 +346,9 @@
 - Manually reviewed Dec 2024 Q21–Q30 and Nov 2025 Q21–Q30 against official Code 32 syllabus. Aligned Mission Karmayogi/civil-service capacity building, regulatory authorities, parliamentary fiscal committees/GST, Bengal administrative history and Kautilya's Arthashastra to direct units.
 - Mapping totals 160 manually reviewed, 140 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 30/70, Nov25 30/70. All review flags retained; no question text/options/answers changed.
 - Synchronized state, subject/paper manifests and progress logs. No PR merged; Code 01/Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 12
+- Manually reviewed Dec 2024 Q31–Q40 and Nov 2025 Q31–Q40 against official Code 32 syllabus, correcting Parkinson's Law to Unit I and Inter-State Council to Unit III; confirmed financial committees, district/local administration, public enterprises, constitutional and police topics.
+- Mapping totals 180 manually reviewed, 120 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 40/60, Nov25 40/60. All review flags retained; no question text/options/answer changed.
+- Updated question mappings, per-paper counts, subject registry, Project State and logs. No PR merged; Code 01/Paper-I unchanged.
