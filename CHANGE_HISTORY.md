@@ -310,3 +310,9 @@
 - Manually reviewed Nov 2023 Q63–Q72 against official Code 32 syllabus; aligned DRDA to Unit IV, measurement and research techniques to Unit X, public policy to Unit VIII, administrative-thought books/thinkers to Unit II, Indian institutions to Unit III, Riggs to Unit V, and committee reforms to Unit VI.
 - Mapping totals now 72 manually reviewed, 228 provisional, 0 pending/verified. All review flags retained; no question text/options/answer data changed.
 - Synchronized Project State, subject/paper manifests and progress logs. No PR merged; Code 01/Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration official syllabus mapping review tranche 6
+- Manually reviewed Nov 2023 Q73–Q82 against official Code 32 syllabus, aligning fiscal/monetary policy and parliamentary budget items to Unit VI, policy process/books to Unit VIII, welfare schemes to Unit VII, civil service hierarchy/legislation to Unit III, research sequencing to Unit X, and local/district hierarchy to Unit IV.
+- Mapping totals 82 manually reviewed, 218 provisional, 0 pending/verified. All review flags retained; question text/options/answer records unchanged.
+- Updated Project State, subjects/papers registry and progress logs. No PR merged; Code 01/Paper-I unchanged.
