@@ -520,3 +520,9 @@
 - Manually reviewed seven direct December 2024 unit matches (Kathak, Bhavai, aesthetics Q27–29, Natyashastra Q46, Southeast Asian Dragon/Lion dance Q55). Changed only mapping fields/rationales; source/text audit flags retained.
 - Integrated mapping label counts: 7 manually reviewed, 176 provisional, 117 pending, 0 officially verified; unit fields populated on 183 records. Session split Dec24 7/84/9, Nov23 0/43/57, Nov25 0/49/51.
 - Updated Code 31 paper manifest, subject registry, Project State, Master Progress and Verification Log. Question source status remains 101 source-verified, 193 text/Gujarati audits pending, six bilingual discrepancy flags and 206 review flags. No PR merge; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Performing Arts Code 31 mapping tranche 2
+- Reviewed eight additional December 2024 mappings: Kutiyattam Q16/Q17, Tamasha Q19, East/Southeast Asian forms Q41, Nritya/Nritta theory Q44, treatises Q63, classical dance Q64 and Bhavai Q78. Only mapping metadata/rationale changed.
+- Recomputed mapping counts: 15 manually reviewed, 168 provisional, 117 pending, 0 officially verified; 183 unit assignments populated. Dec24 15/76/9, Nov23 0/43/57, Nov25 0/49/51.
+- Updated Code31 papers manifest, subject registry, Project State, Master Progress and Verification Log. Source audit count remains 101 verified; 193 text/Gujarati reviews pending, six bilingual discrepancy flags, 206 review flags. No PR merge; Code01/Paper-I untouched.
