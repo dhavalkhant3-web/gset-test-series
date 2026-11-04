@@ -245,3 +245,10 @@
 - Visually source-checked Dec 2024 Q86–Q90 (printed page 14) and Nov 2025 Q86–Q90 (printed page 14) against official GSET question-paper PDF images; stems and four option/order fields match.
 - All 10 stored answer/official_answer letters match official final keys. Updated only those 10 source_verified/review-note/status fields in the question bank. Review flags remain on; mappings were not promoted.
 - Running source verification count 147/300, 153 pending. Progress/master/manifest/project state/log synchronized. No PR merge; Code 01 and Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration Code 32 source proofreading tranches 14–15
+- Visually source-checked Dec 2024 and Nov 2025 Q91–Q100 against official GSET Paper-II PDF images; all 20 question stems and four option/order fields match. Stored answers match official final answer keys (20/20, zero mismatches).
+- Updated only the 20 relevant question records' source_verified, verification_status and review_note fields. All review flags remain active; syllabus mapping statuses were not promoted.
+- Running verified count 167/300; 133 pending. Session counts: Nov23 0/100, Dec24 83/100, Nov25 84/100. Updated papers manifest, subjects registry, Project State, master progress and verification log.
+- No PR merged; Code 01 and Paper-I untouched.
