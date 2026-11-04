@@ -531,3 +531,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Dec 2024 Q21–Q30 and Nov 2025 Q21–Q30 against official Code 32 syllabus. Key adjustments: Dec24 Q24 Mission Karmayogi→III capacity building; Q29 regulatory authority→III; Nov25 Q21 parliamentary committee→VI; Q22 GST Council→VI; Q26 regulator→III; Q28 Bengal partition→III; Q29 Kautilya monarchy→II.
 - Mapping totals now 160 manually reviewed, 140 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 30/70, Nov25 30/70. All 300 review flags retained; no unit mapping promoted to verified.
 - Updated per-question mapping fields/notes and subject/paper manifests, Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 12 (2026-11-04)
+- Manually reviewed Dec 2024 Q31–Q40 and Nov 2025 Q31–Q40 against official Code 32 syllabus. Corrected Dec24 Q40 Parkinson's organizational growth→I; Nov25 Q31 Inter-State Council→III. Confirmed writs/parliamentary procedure/committees→III/VI, local/district administration→IV, parastatal/public enterprises→VI, police/constitutional topics→III.
+- Mapping totals now 180 manually reviewed, 120 provisional, 0 pending. Session counts Nov23 100/0, Dec24 40/60, Nov25 40/60. All 300 review flags retained; no mapping promoted to verified.
+- Updated question-level unit fields, per-paper manifests, subject registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
