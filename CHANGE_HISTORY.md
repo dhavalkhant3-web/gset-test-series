@@ -432,3 +432,9 @@
 - Reviewed 31 direct Dec 2024 core unit matches. Mapping checkpoint now 263 manually reviewed, 37 provisional, 0 pending.
 - Left Q54 and figure-based Q91–Q100 provisional. No question content or flags altered.
 - Bank commit `7d5bf5ad4c48aa3a21f720ceac7d51a02c3c1332`; state sync `bf8eba488996880f6e0eabaa3056998623db1d05`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 9
+- Inspected the original Dec 2024 PDF figure pages for Q91–Q95 (Spiral Jetty by Robert Smithson, Land Art) and Q96–Q100 (Arnolfini Portrait by Jan van Eyck, Northern Renaissance).
+- Manually mapped 10 image-led questions to official Unit VI. No official answers or source_verified status changed.
+- Mapping checkpoint now 273 manually reviewed, 27 provisional, 0 pending. Bank commit `aac4d94fc42b13347f337e5ed3ecf42b58f09ddb`; state sync `564e9b3485cc3c26f3444bc232b47fb5fbf46203`.
