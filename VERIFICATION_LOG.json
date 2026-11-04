@@ -2954,5 +2954,50 @@
       "Review flags and provisional mapping statuses retained; no mapping promotion.",
       "No PR merged; Code 01 and Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source verification tranche 12",
+    "commit": "4b84abaf18b202829578799104fe40a4e586600b",
+    "question_bank_blob_sha": "37b9d53150c6d4716d773f20eb316bc505964303",
+    "papers_manifest_commit": "01aaea168f53c617afcf216b100d2b2d2e535ea8",
+    "subjects_registry_commit": "f06f561db2c888ca7b0251a89b88a822376c9a40",
+    "questions_checked": [
+      "public_administration_dec24_q81",
+      "public_administration_dec24_q82",
+      "public_administration_dec24_q83",
+      "public_administration_dec24_q84",
+      "public_administration_dec24_q85",
+      "public_administration_nov25_q81",
+      "public_administration_nov25_q82",
+      "public_administration_nov25_q83",
+      "public_administration_nov25_q84",
+      "public_administration_nov25_q85"
+    ],
+    "source_pdfs": [
+      "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2532.pdf"
+    ],
+    "official_final_keys": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf"
+    ],
+    "source_visual_review": {
+      "stem_and_four_options_match": 10,
+      "official_final_key_match": 10,
+      "mismatches": 0
+    },
+    "metrics": {
+      "source_verified": 137,
+      "source_pending": 163,
+      "manual_mapping_reviewed": 22,
+      "provisional_mapping": 278,
+      "review_flags_retained": 300
+    },
+    "notes": [
+      "Dec24 Q81-Q85 visually checked printed page 13; Nov25 Q81-Q85 visually checked printed pages 13-14.",
+      "Review flags and provisional mapping statuses retained; no mapping promotion.",
+      "No PR merged; Code 01 and Paper-I untouched."
+    ]
   }
 ]
