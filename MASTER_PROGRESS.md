@@ -687,3 +687,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - 45 additional records were proofread; text/options matched the scans and official answer letters remained unchanged.
 - Source proofreading is now complete for all 300/300 English stems and option sets. Fourteen source-confirmed content/key concerns remain flagged for subject-expert review; no flags were cleared. Gujarati question text is still unpopulated.
 - Mapping checkpoint remains 295 manually reviewed, 5 provisional, 0 pending. Bank note commit: `b86411901a9453196b735fc33633fbf76face2c3`; state sync commit: `2229cfe3f71ad80d7c4df8d3d93ff1a11e7b32f5`.
+
+
+## Music Code 30 — Dec 2024 Q91–Q95 source proofreading completion batch — 2026-11-04
+- Visually compared the shared English/Gujarati passage against the original bilingual scan printed pp. 28–29 and Q91–Q95 stems/options/order against printed pp. 30–31.
+- Corrected source mismatches in Q91 English article, Q93 English wording and Gujarati option labels, Q94 English tense/Gujarati stem, Q95 Gujarati stem and option spacing. Transcribed the source Gujarati passage into `passage_gu` for Q91–Q95 and aligned `passage_en` to exact source wording.
+- Official final answer letters unchanged (key already visually checked 100/100, 0 mismatches); all five review flags retained for separate syllabus/content gates.
+- Music source-text visual proofread is now complete: 300/300 English/Gujarati stems and option sets; 0 pending. Mapping status remains 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific; 212 review flags remain.
+- Question-bank commit: `f144b590afff114e0542eba0dd33c075d1f4683a`; progress-state sync: `930bfb73462722d670a80a17febe244bd3ff495c`; verification-register sync: `4c5d22317b203222700295fa6aac31560f6bafa2`.
