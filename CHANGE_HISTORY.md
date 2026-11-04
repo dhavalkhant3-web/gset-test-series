@@ -239,3 +239,9 @@
 - Visually source-checked Dec 2024 Q81–Q85 (printed page 13) and Nov 2025 Q81–Q85 (printed pages 13–14) against official GSET question-paper PDF images; stems and four option/order fields match.
 - All 10 stored answer/official_answer letters match official final keys. Updated only those 10 source_verified/review-note/status fields in the question bank. Review flags remain on; mappings were not promoted.
 - Running source verification count 137/300, 163 pending. Progress/master/manifest/project state/log synchronized. No PR merge; Code 01 and Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration Code 32 source proofreading tranche 13
+- Visually source-checked Dec 2024 Q86–Q90 (printed page 14) and Nov 2025 Q86–Q90 (printed page 14) against official GSET question-paper PDF images; stems and four option/order fields match.
+- All 10 stored answer/official_answer letters match official final keys. Updated only those 10 source_verified/review-note/status fields in the question bank. Review flags remain on; mappings were not promoted.
+- Running source verification count 147/300, 153 pending. Progress/master/manifest/project state/log synchronized. No PR merge; Code 01 and Paper-I unchanged.
