@@ -24,9 +24,9 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "source_subset_checked_pending_full_source_audit",
-      "review_note": "The official source was visually checked for 94/100 questions. Six remain flagged: Q39 has an English/Gujarati matching-code discrepancy; Q96-Q100 have the full passage, stems and options transcribed from PDF pages 29-31, but inconsistent printed English/Gujarati colour terminology is unresolved. The remaining flagged records stay source-unverified. The source text for Q11 (page 4) and Q21 (page 6) was confirmed and all four Gujarati options were visible.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "status": "source_verified_subset_source_review_pending",
+      "review_note": "Current question-level source_verified=true count is 94/100. 6 review flags remain for content/source concerns. 6 question sets still require source-page text/Gujarati audit. No source review state promoted by syllabus mapping.",
+      "unit_mapping_status": "partial_manual_review_provisional_pending",
       "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
       "source_reviewed_question_count": 94,
       "review_flags_remaining_count": 6,
@@ -135,10 +135,12 @@
         "GSET_31_NOV23_100"
       ],
       "review_count": 6,
-      "unit_mapping_provisional_count": 38,
-      "unit_mapping_pending_count": 62,
+      "unit_mapping_provisional_count": 43,
+      "unit_mapping_pending_count": 57,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 0 manually reviewed, 43 provisional, 57 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
+      "unit_mapping_manually_reviewed_count": 0,
+      "source_verified_question_count": 94
     },
     {
       "paper_id": "performing_arts_dec24",
@@ -154,9 +156,9 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "pending_source_audit",
-      "review_note": "Official final-answer-key reconciliation is distinct from source-text verification. All 100 question stems and four options still require comparison against the original official paper, including Gujarati wherever printed. All 100 records remain flagged; paper-level source verification remains pending.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "status": "source_verified_subset_source_review_pending",
+      "review_note": "Current question-level source_verified=true count is 0/100. 100 review flags remain for content/source concerns. 100 question sets still require source-page text/Gujarati audit. No source review state promoted by syllabus mapping.",
+      "unit_mapping_status": "partial_manual_review_provisional_pending",
       "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
@@ -264,10 +266,12 @@
         "GSET_31_DEC24_100"
       ],
       "review_count": 100,
-      "unit_mapping_provisional_count": 55,
-      "unit_mapping_pending_count": 45,
+      "unit_mapping_provisional_count": 84,
+      "unit_mapping_pending_count": 9,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 7 manually reviewed, 84 provisional, 9 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
+      "unit_mapping_manually_reviewed_count": 7,
+      "source_verified_question_count": 0
     },
     {
       "paper_id": "performing_arts_nov25",
@@ -283,9 +287,9 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "source_subset_checked_pending_full_source_audit",
-      "review_note": "Original official November 2025 bilingual scan visually checked for Q1-Q7 (printed pages 3-4). English/Gujarati stems, all four options and ordering were transcribed/compared; official answer letters retained. Q8-Q100 still require full source audit. All question review flags remain active for separate syllabus/content review.",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "status": "source_verified_subset_source_review_pending",
+      "review_note": "Current question-level source_verified=true count is 7/100. 100 review flags remain for content/source concerns. 93 question sets still require source-page text/Gujarati audit. No source review state promoted by syllabus mapping.",
+      "unit_mapping_status": "partial_manual_review_provisional_pending",
       "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
       "source_reviewed_question_count": 7,
       "review_flags_remaining_count": 100,
@@ -401,16 +405,18 @@
         "GSET_31_NOV25_100"
       ],
       "review_count": 100,
-      "unit_mapping_provisional_count": 42,
-      "unit_mapping_pending_count": 58,
+      "unit_mapping_provisional_count": 49,
+      "unit_mapping_pending_count": 51,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Paper-level status remains pending because at least one question mapping in this paper is provisional, ambiguous, or unmapped. Question-level unit values and review states are unchanged."
+      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 0 manually reviewed, 49 provisional, 51 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
+      "unit_mapping_manually_reviewed_count": 0,
+      "source_verified_question_count": 7
     }
   ],
   "source_verified": false,
   "question_source_verified": false,
   "status": "official_key_reconciled_question_text_audit_pending",
   "review_note": "All 300 stored answer letters are checked against the official final-key sequences. Full independent question text and option transcription audit remains pending. Do not treat the subject as fully source-verified.",
-  "unit_mapping_status": "provisional_content_based_pending_official_verification",
-  "unit_mapping_note": "131/300 questions have provisional topic-based unit suggestions; 169 remain unmapped. Stream-specific syllabus validation is required before accepting any mapping."
+  "unit_mapping_status": "partial_provisional_mapping_review_pending",
+  "unit_mapping_note": "Current question-level mapping labels: 7 manually reviewed, 176 provisional and 117 pending (183 unit fields populated; 117 unit fields unset). 0 assignments counted officially verified. Source/text/Gujarati review and 206 review flags remain separate gates."
 }
