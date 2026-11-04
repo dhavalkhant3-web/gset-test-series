@@ -273,3 +273,10 @@
 - Updated all Public Administration paper manifests and subject registry/Project State to source-text complete. Master progress and verification log now include the complete batch list.
 - All 300 review flags retained: 22 mappings manually reviewed, 278 provisional; disputed Dec24 Q24/Q35 and Nov25 Q17 retained. No mapping/content flags cleared.
 - No PR merged; Paper-I and Code 01 unchanged.
+
+
+## 2026-11-04 — Public Administration source-aware validator and CI
+- Updated `tools/validate_public_administration.py` to accept the completed 300/300 question-level source audit and require the subject/paper manifests and per-paper source-review counts to match the integrated bank.
+- Validator still checks stored answer letters against its official final-key arrays (300 records) and warns that it does not independently inspect source PDF bytes; all 300 review flags remain for mapping/content work.
+- Combined subject bank audit #436 passed on commit `d0820161743f239527bd1c9a58205e9c52dadcc6`. PA validator #609 and Debug APK #348 were queued on validator commit `62714248c391781f8e5c2cd7660256fa993c4208` at the time of the register update. Earlier validator failures were stale metadata expectations, now corrected.
+- No PR merged; Code 01 and Paper-I untouched.
