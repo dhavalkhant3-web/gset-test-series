@@ -475,3 +475,9 @@
 - Proofread English stems/options against original scans for Nov 2023 Q31–Q45 (printed pp. 7–9), Dec 2024 Q31–Q45 (printed pp. 6–8), Nov 2025 Q31–Q45 (printed pp. 9–12).
 - 42 additional records proofread; flagged Dec 2024 Q32/Q36 and Nov 2025 Q37 had existing source review with content/key concern; preserved all flags and key letters.
 - Source proofread count now 159/300, pending 127, concerns 14. Bank commit `3eae934b2fdf609ce3f21b8dfde1629e9bf4c928`; state sync `bb2e218226ea2d347922400c343bcab58f695ac8`.
+
+
+## 2026-11-04 — Visual Art Code 33 source proofreading batch 16
+- Proofread English stems/options against source scans for Nov 2023 Q46–Q60 (printed pp. 9–13), Dec 2024 Q46–Q60 (printed pp. 9–12), Nov 2025 Q46–Q60 (printed pp. 13–14).
+- 44 additional records proofread; Dec 2024 Q46 had previous source proofread and an existing content/key chronology concern, which was preserved.
+- Source proofread count now 203/300, pending 83, concerns 14. Bank commit `196c550a9f322a1e8165b2cb0d24b31014c22307`; state sync `f04ef0f1da2a48d4d313a8605b5b9927520bbd9e`.
