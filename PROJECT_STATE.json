@@ -137,9 +137,9 @@
       "name": "Public Administration",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 193,
+      "source_verified_marked": 200,
       "review_flags": 300,
-      "question_text_and_options_audit_pending": 107,
+      "question_text_and_options_audit_pending": 100,
       "mapping": {
         "verified": 0,
         "manually_reviewed": 22,
@@ -151,12 +151,12 @@
         "December 2024 Q35",
         "November 2025 Q17"
       ],
-      "question_bank_sha": "5b8f2d6ccfec7ee33df7f180880ea0c316864581",
-      "status": "source-verified 193/300; 107 original question stem/options visual checks pending; session counts Nov23 0/100, Dec24 96/100, Nov25 97/100; 22 mappings manually reviewed, 278 provisional; review flags retained",
+      "question_bank_sha": "adc2f1cf88749ba2765ae4cc6f8e4e8f4719a3e6",
+      "status": "source-verified 200/300; Dec 2024 and Nov 2025 Paper-II visual proofread complete 100/100 each; November 2023 remains 0/100 and is the 100-question source-review backlog. Mapping 22 manually reviewed, 278 provisional; all review flags retained.",
       "session_source_verified": {
         "nov23": 0,
-        "dec24": 96,
-        "nov25": 97
+        "dec24": 100,
+        "nov25": 100
       }
     },
     "33": {
