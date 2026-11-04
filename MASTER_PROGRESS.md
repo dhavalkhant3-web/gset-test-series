@@ -26,8 +26,8 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 29 | Indian Knowledge System | 300 | 0 source_verified; all 300 await original-page visual review | Current records state official-key reconciliation; no independent recomputation in this pass | 0 manually verified, 298 provisional, 2 pending | 300 |
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
-| 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 260 manually reviewed, 40 provisional, 0 pending/verified | 300 |
-| 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 22 manually reviewed, 278 provisional, 0 pending | 14 |
+| 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
+| 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 232 manually reviewed, 68 provisional, 0 pending | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
 
