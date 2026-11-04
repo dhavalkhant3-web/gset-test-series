@@ -4310,5 +4310,28 @@
       "No PR merged; Paper-I and Code 01 untouched"
     ],
     "commit": "aac4d94fc42b13347f337e5ed3ecf42b58f09ddb"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 figure mapping review batch 10",
+    "scope": "Nov 2025 Q91-Q100 original source figures",
+    "source": "Original uploaded PDF nov2533.pdf (booklet 330013), pages printed 21-23",
+    "actions": [
+      "Visually inspected Q91-Q95 source image of Rodin's Gates of Hell; mapped to Unit VI",
+      "Visually inspected Q96-Q100 source image of Mughal miniature Squirrels on a Chennar tree by Ustad Mansur associated with Jahangir; mapped to Unit VII",
+      "Compared stems/options to the scan and retained official key letters"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "manually_reviewed": 283,
+      "provisional": 17,
+      "pending": 0
+    },
+    "non_actions": [
+      "No question text/options/answers/translations/image assets or source_verified flags altered",
+      "Nov 2023 figure set remains pending visual inspection",
+      "No PR merged; Paper-I and Code 01 untouched"
+    ],
+    "commit": "d6596a9260bcc4f0bae538d2de7bb66397f1fe7e"
   }
 ]
