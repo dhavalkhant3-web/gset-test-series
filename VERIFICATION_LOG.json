@@ -3899,5 +3899,67 @@
       "All review flags retained; no question text/options/answer changes.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 13",
+    "question_bank_commit": "3757c1cb964df78b39a42f8cf1e6ea7d0cea4305",
+    "project_state_commit": "3243c977c2bf8c854116f70d5816bc8763840575",
+    "subject_registry_commit": "607a49252b492917482f476e9c8dd0f6a7e3daff",
+    "paper_manifest_commit": "7d6efaed7bb646b8543bdbdbaa1be8315ae3bb90",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_dec24_q41",
+      "public_administration_dec24_q42",
+      "public_administration_dec24_q43",
+      "public_administration_dec24_q44",
+      "public_administration_dec24_q45",
+      "public_administration_dec24_q46",
+      "public_administration_dec24_q47",
+      "public_administration_dec24_q48",
+      "public_administration_dec24_q49",
+      "public_administration_dec24_q50",
+      "public_administration_nov25_q41",
+      "public_administration_nov25_q42",
+      "public_administration_nov25_q43",
+      "public_administration_nov25_q44",
+      "public_administration_nov25_q45",
+      "public_administration_nov25_q46",
+      "public_administration_nov25_q47",
+      "public_administration_nov25_q48",
+      "public_administration_nov25_q49",
+      "public_administration_nov25_q50"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 20,
+      "provisional_to_manual": 20,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 200,
+      "provisional": 100,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 50,
+        "provisional": 50
+      },
+      "nov25": {
+        "manual_reviewed": 50,
+        "provisional": 50
+      }
+    },
+    "notes": [
+      "Dec24 Q41-Q46 direct personnel/civil-service topics aligned Unit I; Nov25 Q44 Riggs diffracted society and Q50 social audit aligned Unit V.",
+      "All review flags retained; no question content/answer edits.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
