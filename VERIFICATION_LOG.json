@@ -2776,5 +2776,111 @@
       "Do not promote to source_verified until stems and all four options visually match official original papers.",
       "Existing review flags and provisional mappings retained; no Paper-I or Code 01 change; no PR merge."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 official final answer-key reconciliation batch 15 (Q96-Q100; visual pending)",
+    "sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2432.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2532.pdf"
+    ],
+    "records": [
+      {
+        "id": "public_administration_dec24_q96",
+        "paper": "dec2432.pdf",
+        "question_no": 96,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q97",
+        "paper": "dec2432.pdf",
+        "question_no": 97,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q98",
+        "paper": "dec2432.pdf",
+        "question_no": 98,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q99",
+        "paper": "dec2432.pdf",
+        "question_no": 99,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_dec24_q100",
+        "paper": "dec2432.pdf",
+        "question_no": 100,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q96",
+        "paper": "nov2532.pdf",
+        "question_no": 96,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q97",
+        "paper": "nov2532.pdf",
+        "question_no": 97,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q98",
+        "paper": "nov2532.pdf",
+        "question_no": 98,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q99",
+        "paper": "nov2532.pdf",
+        "question_no": 99,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      },
+      {
+        "id": "public_administration_nov25_q100",
+        "paper": "nov2532.pdf",
+        "question_no": 100,
+        "question_text_options": "visual_check_pending",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "ANSWER_KEY_PASS_VISUAL_PENDING"
+      }
+    ],
+    "result": "10 final answer-key letters reconciled; all stored answers match. Original question paper visual verification pending; source_verified remains 117/300.",
+    "notes": [
+      "Official final GSET answer keys provide the answer letters for Dec 2024 Q96-Q100 and Nov 2025 Q96-Q100.",
+      "Do not promote source_verified until question stem and four options are visually matched against original paper.",
+      "Review flags and provisional mappings retained; Paper-I and Code 01 untouched; no PR merged."
+    ]
   }
 ]
