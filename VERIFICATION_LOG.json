@@ -3044,5 +3044,72 @@
       "Review flags and provisional mapping statuses retained; no mapping promotion.",
       "No PR merged; Code 01 and Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source verification tranche 14",
+    "commit": "31453872585460ab4936942c49d2b4f03573743d",
+    "questions_checked": [
+      "public_administration_dec24_q91",
+      "public_administration_dec24_q92",
+      "public_administration_dec24_q93",
+      "public_administration_dec24_q94",
+      "public_administration_dec24_q95",
+      "public_administration_nov25_q91",
+      "public_administration_nov25_q92",
+      "public_administration_nov25_q93",
+      "public_administration_nov25_q94",
+      "public_administration_nov25_q95"
+    ],
+    "official_source_visual_match": 10,
+    "final_key_match": 10,
+    "mismatches": 0,
+    "metrics": {
+      "source_verified": 157,
+      "source_pending": 143
+    },
+    "note": "Review flags and provisional mapping labels retained; Code 01 and Paper-I untouched."
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source verification tranche 15",
+    "commit": "7de8c4f6450ac711007951799e7932012ee09463",
+    "question_bank_blob_sha": "d42befc5777baa9add71b531de4ba14c2e177973",
+    "papers_manifest_commit": "601535a87a41cf955addc335c2fa2ff37551b8da",
+    "subjects_registry_commit": "adf13ce4228202f44baf14cdc05322c8bd2495ad",
+    "questions_checked": [
+      "public_administration_dec24_q96",
+      "public_administration_dec24_q97",
+      "public_administration_dec24_q98",
+      "public_administration_dec24_q99",
+      "public_administration_dec24_q100",
+      "public_administration_nov25_q96",
+      "public_administration_nov25_q97",
+      "public_administration_nov25_q98",
+      "public_administration_nov25_q99",
+      "public_administration_nov25_q100"
+    ],
+    "source_visual_review": {
+      "stem_and_four_options_match": 10,
+      "official_final_key_match": 10,
+      "mismatches": 0
+    },
+    "metrics": {
+      "source_verified": 167,
+      "source_pending": 133,
+      "session_counts": {
+        "nov23": 0,
+        "dec24": 83,
+        "nov25": 84
+      },
+      "manual_mapping_reviewed": 22,
+      "provisional_mapping": 278,
+      "review_flags_retained": 300
+    },
+    "notes": [
+      "Official GSET Dec24 and Nov25 Paper-II printed page 15 visual comparisons completed for Q96-Q100.",
+      "Review flags and provisional mapping statuses retained; no mapping promotion.",
+      "No PR merged; Code 01 and Paper-I untouched."
+    ]
   }
 ]
