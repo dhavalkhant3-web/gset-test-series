@@ -3651,5 +3651,67 @@
       "No unit mapping promoted to verified; all 300 review flags retained.",
       "No PR merge; Code 01/Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration official syllabus mapping review tranche 9",
+    "question_bank_commit": "851925073133e4441cf42b256d5ac40b0b6eba25",
+    "project_state_commit": "3b041c7c03422149f1ba48bf4e0485b68358b3b1",
+    "subject_registry_commit": "15ed1d2d81d8e5ce36f1dea1821d7df622a1eb0b",
+    "paper_manifest_commit": "9c61d4d2415d97ca4fee08d28914021815ada4ea",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+    "questions_reviewed": [
+      "public_administration_dec24_q1",
+      "public_administration_dec24_q2",
+      "public_administration_dec24_q3",
+      "public_administration_dec24_q4",
+      "public_administration_dec24_q5",
+      "public_administration_dec24_q6",
+      "public_administration_dec24_q7",
+      "public_administration_dec24_q8",
+      "public_administration_dec24_q9",
+      "public_administration_dec24_q10",
+      "public_administration_nov25_q1",
+      "public_administration_nov25_q2",
+      "public_administration_nov25_q3",
+      "public_administration_nov25_q4",
+      "public_administration_nov25_q5",
+      "public_administration_nov25_q6",
+      "public_administration_nov25_q7",
+      "public_administration_nov25_q8",
+      "public_administration_nov25_q9",
+      "public_administration_nov25_q10"
+    ],
+    "mapping_review": {
+      "manual_reviewed": 20,
+      "provisional_to_manual": 20,
+      "verified_mapping_promotions": 0,
+      "review_flags_cleared": 0
+    },
+    "overall_mapping_counts": {
+      "manual_reviewed": 120,
+      "provisional": 180,
+      "pending": 0,
+      "verified": 0
+    },
+    "session_mapping_counts": {
+      "nov23": {
+        "manual_reviewed": 100,
+        "provisional": 0
+      },
+      "dec24": {
+        "manual_reviewed": 10,
+        "provisional": 90
+      },
+      "nov25": {
+        "manual_reviewed": 10,
+        "provisional": 90
+      }
+    },
+    "notes": [
+      "Dec24 Q3 Pareto Optimality corrected to Unit IX public choice theory; Nov25 Q6 NPM corrected to Unit IX; Nov25 Q9 separation of powers mapped to Unit III constitutional framework.",
+      "Review flags retained; no question content/answer changes.",
+      "No PR merge; Code 01/Paper-I untouched."
+    ]
   }
 ]
