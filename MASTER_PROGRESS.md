@@ -695,3 +695,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Official final answer letters unchanged (key already visually checked 100/100, 0 mismatches); all five review flags retained for separate syllabus/content gates.
 - Music source-text visual proofread is now complete: 300/300 English/Gujarati stems and option sets; 0 pending. Mapping status remains 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific; 212 review flags remain.
 - Question-bank commit: `f144b590afff114e0542eba0dd33c075d1f4683a`; progress-state sync: `930bfb73462722d670a80a17febe244bd3ff495c`; verification-register sync: `4c5d22317b203222700295fa6aac31560f6bafa2`.
+
+
+## Performing Arts Code 31 source audit batch 1 — 2026-11-04
+- Visually compared November 2025 Q1–Q7 English stems/options and original Gujarati stems/options/order against the official bilingual scan (printed pages 3–4). Transcribed Gujarati source fields; source booklet serial 310026 recorded.
+- Official final answer letters preserved; all seven review flags remain active for syllabus/content review. No invented translation inserted.
+- Performing Arts source audit checkpoint: 101/300 question sets source-verified, 193 source-text/Gujarati reviews pending; six previously identified bilingual discrepancy flags remain. Unit mappings remain 171 provisional, 129 pending.
+- Bank commit: `6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef`; paper-register commit: `6d61fe9f4c0d1043984c0abdcd8e5f27f166e1b9`; state sync: `91644e9175bd0b89c2ff69c494e2a3a3b5cc97b3`.
