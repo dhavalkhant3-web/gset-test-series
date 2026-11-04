@@ -444,3 +444,9 @@
 - Inspected original Nov 2025 source pages printed 21–23 for Q91–Q100. Q91–Q95 depict Rodin's Gates of Hell (Unit VI); Q96–Q100 depict Ustad Mansur's Mughal miniature Squirrels on a Chennar tree from Jahangir's period (Unit VII).
 - Manually mapped the 10 figure questions; official answer keys and source_verified fields preserved.
 - Code 33 mapping checkpoint now 283 manually reviewed, 17 provisional, 0 pending. Bank commit `d6596a9260bcc4f0bae538d2de7bb66397f1fe7e`; state sync `9e19436ed2ef2a39f3b33ca772262af1216016f5`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 11
+- Inspected original Nov 2023 pages printed 22–23 for Q91–Q100. Q91–Q95 depict an Indian Buddha/Bodhisattva sculpture (Unit VII); Q96–Q100 refer to Picasso's Guernica (Unit VI).
+- Manually mapped 10 figure questions to official Units VII and VI; answer letters and source_verified flags unchanged.
+- Code 33 mapping checkpoint now 293 manually reviewed, 7 provisional, 0 pending. Bank commit `e2a1c8b179fbbf21931b2eb21ef7e1592b86868c`; state sync `ce755eb37745d5e29834fcbe3390b7a0d867d2d2`.
