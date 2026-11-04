@@ -263,3 +263,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Hindu Studies Code 28: source_verified 300/300; stop source proofread. Keep 24 provisional mappings and 40 review flags as the active backlog.
 - Performing Arts Code 31 and Physical/Chemical Sciences Code 02/03 remain on the existing source-review and mapping backlog. Do not mark progress without the original official paper/key/syllabus evidence.
 - No question bank, answer, translation, mapping, review flag, Paper-I UI, or Code 01 data was changed by this reconciliation. No PR merged. This note is a register-only update.
+
+
+## 2026-11-04 — Hindu Studies Code 28 mapping review batch
+- Compared the 16 provisional Buddhist-tradition question mappings (across Nov 2023, Dec 2024, Nov 2025) with the official GSET Code 28 syllabus, Unit I. Unit I explicitly includes Bauddha-darśana traditions (official syllabus PDF, page 1).
+- Upgraded these 16 mapping records to `manually_reviewed_official_syllabus`, retaining their Unit I assignments and adding a bounded evidence note. This confirms broad syllabus coverage, not that each named Buddhist text/term is enumerated verbatim.
+- Hindu Studies mapping counts after this batch: 276 `verified_official_syllabus_mapping` (existing), 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`. The remaining 8 provisional cases are not forced into verified status.
+- All 40 existing Hindu Studies review flags remain active; no flags were cleared. Question content, options, answers, translations, Paper-I and Code 01 were untouched. No PR merged.
+- Commit: `f2aedeb5cfbb63a3dc33dc99b13e88bebb3cd950`.
