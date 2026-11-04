@@ -392,3 +392,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Dec 2024 Q96–Q100 and Nov 2025 Q96–Q100: reconciled all 10 stored answer letters against official GSET final answer keys; all match.
 - Original question-paper stem/four-option visual review remains pending; source-verified total remains 117/300 (183 pending). Existing review flags and 278 provisional mappings retained.
 - Paper-I and Code 01 untouched; no PR merged.
+
+
+## Music Code 30 — source-proofreading register reconciliation (2026-11-04)
+- Cross-checked integrated `assets/subjects/music/questions.json` (blob `a861a94b9e067c50a1774898c6086c14c62c5996`): all 300 records carry `source_verified=true`.
+- Cross-checked `assets/subjects/music/verification_pending.json` (blob `146cd9b5da0474cad21066c03d2715857a693563`): original-paper bilingual visual proofread complete Nov 2023 100/100, Dec 2024 100/100 and Nov 2025 100/100; Gujarati fields 300/300; official final answer-key visual checks 300/300, zero mismatches.
+- Corrected stale Project State counts 254/300 and 46 pending. Music question-text proofreading is complete; active gates remain 14 ambiguous mappings, 124 provisional stream-specific mappings and 212 retained review flags (mapping/content review).
+- Do not repeat completed Music visual batches. No question bank content changed; no PR merge; Code 01 and Paper-I untouched.
