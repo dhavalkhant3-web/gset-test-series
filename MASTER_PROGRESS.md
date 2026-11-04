@@ -456,3 +456,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Paper manifests updated for all three sessions: question text/options source audit complete; answer-key reconciliation recorded complete. Subject registry and Project State synced.
 - All 300 `review_flag` values remain true because separate mapping/content concerns are still open: 22 manually reviewed unit assignments, 278 provisional; disputes Nov23 none separately newly resolved, Dec24 Q24/Q35 and Nov25 Q17 retained. Flags were not cleared.
 - No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — validator synchronization and CI checkpoint (2026-11-04)
+- Source-text visual audit remains complete 300/300 across all three sessions; stored `answer`/`official_answer` parity is 300/300; 300 review flags retained; mapping counts remain 22 manually reviewed and 278 provisional.
+- Initial Public Administration validator runs failed because `tools/validate_public_administration.py` still hardcoded the prior policy that source-review manifests and subject metadata must remain false. This contradicted the newly complete question-level audit; no question-bank data errors were reported by that failing check.
+- Updated validator to derive source completion from question-level `source_verified` counts and verify that subject/paper manifests and `source_reviewed_question_count` match. It still checks all 300 stored answer keys against the validator's official-key arrays and explicitly states it does not inspect PDF bytes itself.
+- Combined subject bank audit run #436 on paper-manifest commit `d0820161743f239527bd1c9a58205e9c52dadcc6`: SUCCESS. Public Administration validator run #609 and Integration Debug APK run #348 on validator commit `62714248c391781f8e5c2cd7660256fa993c4208`: queued at checkpoint; awaiting completion.
+- No PR merged; Paper-I and Code 01 untouched.
