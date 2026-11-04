@@ -26,7 +26,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 29 | Indian Knowledge System | 300 | 0 source_verified; all 300 await original-page visual review | Current records state official-key reconciliation; no independent recomputation in this pass | 0 manually verified, 298 provisional, 2 pending | 300 |
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 94 source pages visually verified; 6 bilingual discrepancies; 200 pending source review | PR description claims 300/300; current-bank final-key run not independently repeated here | 0 verified, 171 provisional, 129 pending | 206 |
-| 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 240 manually reviewed, 60 provisional, 0 pending/verified | 300 |
+| 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 260 manually reviewed, 40 provisional, 0 pending/verified | 300 |
 | 33 | Visual Art | 300 | 30 records source_verified; 256 pending proofreading; 14 content concerns | PR/validator records 300-key reconciliation; question text still pending | 22 manually reviewed, 278 provisional, 0 pending | 14 |
 
 **Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
@@ -541,10 +541,16 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 ## Public Administration Code 32 — official syllabus mapping review tranche 13 (2026-11-04)
 - Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus. Dec24 civil-service origins/classification/training/recruitment Q41–Q46→I; Shadow Cabinet→III; bureaucracy typologies→II; Riggs diffracted society→V. Nov25 Heady/Riggs/Weidner/comparative and development topics→V; CSR→VI; PPP→V; social audit→V.
-- Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified. Session counts Nov23 100/0, Dec24 70/30, Nov25 70/30. All 300 review flags retained; no mapping promoted to verified.
+- Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified. Session counts Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained; no mapping promoted to verified.
 - Tranche 14: manually reviewed Dec24 Q61–Q70 and Nov25 Q61–Q70 against the official Code 32 syllabus. Updated question-level unit fields/notes, paper/subject manifests and Project State. No question text/options/answer changes; no PR merge; Code 01/Paper-I untouched.
 
 
 ## Public Administration Code 32 — tranche 14 metadata reconciliation (2026-11-04)
 - Actual integrated question JSON confirms 240 manually reviewed syllabus mappings (Nov23 100, Dec24 70, Nov25 70), 60 provisional and 0 pending; source/text verification is 300/300 and 300 review flags remain active.
 - Synchronized the summary table, paper manifest, subject registry, Project State, verification log and change history. CI status for the newest metadata commit has not been confirmed; no PR merged, Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 15 (2026-11-04)
+- Manually reviewed December 2024 Q71–Q80 and November 2025 Q71–Q80 against the official GSET Code 32 syllabus. The questions primarily cover Unit VIII Public Policy/Policy Sciences, with specific matches to Unit III Indian Administration, Unit VII Social Welfare Administration and Unit II Administrative Thought.
+- Mapping totals now 260 manually reviewed, 40 provisional, 0 pending/verified. Session counts: Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained; no mapping promoted to verified.
+- Updated question-level unit fields/notes, paper manifest, subject registry and Project State. No question stems/options/answers or source verification fields changed; no PR merge; Code 01/Paper-I untouched.
