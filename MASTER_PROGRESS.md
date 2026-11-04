@@ -44,7 +44,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - **30 Music:** source-text visual proofreading is complete for all 300/300 records (Nov 2023 100/100, Dec 2024 100/100, Nov 2025 100/100). Completed the final 20 Dec 2024 checks (Q76–Q90 and Q96–Q100) on official printed pages 23–28 and 30–31 on 2026-11-03; repaired OCR-corrupted Gujarati in Q81, Q83, Q85, Q89 and Q90 and normalized Q79 English. No question-text visual checks remain. Resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings and review 124 remaining stream-specific provisional mappings. 212 review flags remain active for separate mapping/content gates.
 - **31 Performing Arts:** resolve 6 bilingual discrepancies and inspect 200 pending text/transcription records; review 171 provisional + 129 pending mappings. 36 provisional content-based assignments were added on 2026-11-03; source visual-review counts remain unchanged.
 - **32 Public Administration:** all 300 stems/options visually checked against official source PDFs and answer letters reconciled with final keys. Mapping progress is 300 manually reviewed + 0 provisional + 0 pending, after reviewing the 40 remaining provisional entries and correcting research-methodology unit assignments to official Unit X (Research Methodology) and governance assignments to official Unit IX (Governance and Good Governance). All 300 content/review flags remain active.
-- **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 258 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; a further 47 clear Nov 2023 mappings and 40 direct Dec 2024 mappings were manually reviewed on 2026-11-04. Original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
+- **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 258 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; a further 47 clear Nov 2023 mappings and 58 direct Dec 2024 mappings were manually reviewed on 2026-11-04. Original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
 
 ## PR and branch safety
 - #16 merged.
@@ -475,7 +475,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 ## Public Administration Code 32 — official syllabus mapping review tranche 2 (2026-11-04)
 - Manually reviewed Nov 2023 Q33–Q42 against the official Code 32 syllabus PDF. Confirmed or corrected: Q33→VIII (Dror/public policy); Q34→II (Weber); Q35→IX (Citizen's Charter); Q36→V (SDGs); Q37→V (comparative administrative system closest fit); Q38→VIII (Thomas Dye/public policy); Q39/Q40→X (statistical hypothesis/experimental research); Q41→IV (Chief Secretary/state-local administration); Q42→VII (social welfare schemes).
-- Mapping totals: 109 manually reviewed, 191 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
+- Mapping totals: 127 manually reviewed, 173 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
 - Updated papers.json, subjects.json and Project State. No PR merge; Paper-I and Code 01 untouched.
 
 
@@ -589,3 +589,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Image-led Dec 2024 Q91–Q100 remain provisional until original figures are visually inspected.
 - Code 33 mapping checkpoint: 109 manually reviewed, 191 provisional, 0 pending. Source text proofreading backlog (256) and 14 content concerns remain unchanged.
 - Bank metadata commit: `7caa7cadd9433d4850b6b9fafcd58dcd1d8fc71d`; state sync commit: `a1a9df752b5260691bba5e8c14f81f0050d1f54e`.
+
+
+## Visual Art Code 33 mapping batch 5 — 2026-11-04
+- Reviewed 18 direct Dec 2024 match/chronology questions (Indian contemporary sculptors, Western sculptures, advertising insertions, animation, Indian temples, art books/groups, artist-work matches, sculpture tools/materials, designer-brand links, monuments and art chronology).
+- Dec 2024 Q54 marketing-sequence topic was left provisional as not a direct clear core-unit match; figure-based questions remain provisional.
+- Code 33 mapping checkpoint: 127 manually reviewed, 173 provisional, 0 pending. Source text proofread count/backlog and 14 content concerns unchanged.
+- Bank metadata commit: `50c92f570abc3aa3e3addc1ceaa08c30289b9a81`; state sync commit: `3843cd022b84e37d532c6acdebf274ec08122dec`.
