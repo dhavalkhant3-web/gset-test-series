@@ -4518,5 +4518,30 @@
       "No PR merged; Paper-I and Code 01 untouched"
     ],
     "commit": "b86411901a9453196b735fc33633fbf76face2c3"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Music Code 30 Dec 2024 Q91-Q95 source proofread completion",
+    "scope": "December 2024 Music Paper-II Q91-Q95, shared passage plus question stems/options",
+    "source": "Original official GSET December 2024 bilingual Music Paper-II scan (materialized source PDF dec2430(2).pdf), printed pages 28-31",
+    "actions": [
+      "Compared English and Gujarati passage text against printed pp.28-29",
+      "Visually compared English/Gujarati question stems and all four options/order for Q91-Q95 against printed pp.30-31",
+      "Corrected source mismatches in Q91 English article, Q93 English phrasing and Gujarati option spellings, Q94 English tense/Gujarati stem, Q95 Gujarati stem/options spacing",
+      "Transcribed the original Gujarati passage into passage_gu and corrected passage_en to match the source"
+    ],
+    "result": {
+      "Music_total": 300,
+      "source_text_visual_proofread": 300,
+      "pending_proofread": 0,
+      "answer_key_visual_checked": 300,
+      "answer_key_mismatches": 0,
+      "review_flags": 212
+    },
+    "non_actions": [
+      "Stored official answers unchanged; Q91-Q95 review flags retained for separate syllabus/content review",
+      "No PR merged; no Paper-I changes"
+    ],
+    "commit": "f144b590afff114e0542eba0dd33c075d1f4683a"
   }
 ]
