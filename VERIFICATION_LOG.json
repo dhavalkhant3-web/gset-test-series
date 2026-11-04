@@ -3111,5 +3111,61 @@
       "Review flags and provisional mapping statuses retained; no mapping promotion.",
       "No PR merged; Code 01 and Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source verification tranches 16-17",
+    "question_bank_commit": "a8d5c42792fbdeb0c9f809ce6cb55f821cb25785",
+    "midpaper_commit": "a83d42a15d9dc4eff8a0be5e632c63afca436b39",
+    "papers_manifest_commit": "ccf8a65eb3f3da041d3159ffbf062d78c6bd0de1",
+    "subjects_registry_commit": "22cc1b5c43c714db7085cc42c204ae5d809c3698",
+    "checked_ids": [
+      "public_administration_dec24_q1",
+      "public_administration_dec24_q2",
+      "public_administration_dec24_q3",
+      "public_administration_dec24_q4",
+      "public_administration_dec24_q5",
+      "public_administration_dec24_q6",
+      "public_administration_dec24_q7",
+      "public_administration_nov25_q1",
+      "public_administration_nov25_q2",
+      "public_administration_nov25_q3",
+      "public_administration_nov25_q4",
+      "public_administration_nov25_q5",
+      "public_administration_nov25_q6",
+      "public_administration_dec24_q25",
+      "public_administration_dec24_q26",
+      "public_administration_dec24_q27",
+      "public_administration_dec24_q28",
+      "public_administration_dec24_q29",
+      "public_administration_dec24_q30",
+      "public_administration_nov25_q26",
+      "public_administration_nov25_q27",
+      "public_administration_nov25_q28",
+      "public_administration_nov25_q29",
+      "public_administration_nov25_q30",
+      "public_administration_nov25_q31",
+      "public_administration_nov25_q32"
+    ],
+    "source_visual_match": 26,
+    "official_final_key_match": 26,
+    "mismatches": 0,
+    "metrics": {
+      "source_verified": 193,
+      "source_pending": 107,
+      "session_counts": {
+        "nov23": 0,
+        "dec24": 96,
+        "nov25": 97
+      },
+      "mapping_manually_reviewed": 22,
+      "mapping_provisional": 278,
+      "review_flags_retained": 300
+    },
+    "notes": [
+      "Dec24/NOV25 opening pages and mid-page source pages checked visually against official GSET PDFs.",
+      "Review flags and provisional mappings preserved; no mapping promotion.",
+      "No PR merged; Code 01/Paper-I unchanged."
+    ]
   }
 ]
