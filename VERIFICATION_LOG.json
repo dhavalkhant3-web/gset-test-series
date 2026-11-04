@@ -1602,5 +1602,98 @@
       "Syllabus mappings and active review flags were not changed; Gujarati fields remain blank as source medium is English.",
       "Existing three verified records were not repeated."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration Code 32 source visual proofread batch 3",
+    "source": "Official GSET Paper-II PDFs and final answer keys",
+    "records": [
+      {
+        "id": "public_administration_dec24_q36",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q37",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q38",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q39",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_dec24_q40",
+        "paper": "dec2432.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q36",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "C",
+        "final_key": "C",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q37",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "B",
+        "final_key": "B",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q38",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q39",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "D",
+        "final_key": "D",
+        "result": "PASS"
+      },
+      {
+        "id": "public_administration_nov25_q40",
+        "paper": "nov2532.pdf",
+        "question_text_options": "visual_match",
+        "stored_answer": "A",
+        "final_key": "A",
+        "result": "PASS"
+      }
+    ],
+    "result": "10 additional source-verified questions; running total 47/300; 253 pending",
+    "notes": [
+      "Dec 2024 Q36-Q40 and Nov 2025 Q36-Q40 checked against official source page images.",
+      "All recorded answers match the final key.",
+      "Mappings and review flags preserved; no Gujarati translations fabricated."
+    ]
   }
 ]
