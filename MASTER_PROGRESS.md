@@ -448,3 +448,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled all seven stored answers against official final answer keys; 7/7 match. Promoted only these seven records to `source_verified=true`; review flags and provisional mappings retained.
 - Running source-verified total: 200/300; 100 pending. Nov23 0/100; Dec24 100/100; Nov25 100/100. Dec24 and Nov25 source text/options visual audit complete; November 2023 original paper remains the entire source-proofreading backlog.
 - Mapping counts remain 22 manually reviewed, 278 provisional; review flags remain active. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — November 2023 full source visual proofread completion (2026-11-04)
+- Visually compared all Nov 2023 Q1–Q100 English stems and four options/order against the official GSET Paper-II PDF across printed pages 1–22 (English source section); recorded source verification by 10-question batches: Q1–10, 11–20, 21–30, 31–40, 41–50, 51–60, 61–70, 71–80, 81–90, 91–100.
+- Final integrated bank audit: 300 records total; `source_verified=true` on 300/300 across Nov23 100/100, Dec24 100/100, Nov25 100/100. All 300 `answer` values equal their stored `official_answer` values (0 mismatches). This is a consistency check against already-recorded official-key reconciliation, not a new independent answer-key PDF extraction.
+- Paper manifests updated for all three sessions: question text/options source audit complete; answer-key reconciliation recorded complete. Subject registry and Project State synced.
+- All 300 `review_flag` values remain true because separate mapping/content concerns are still open: 22 manually reviewed unit assignments, 278 provisional; disputes Nov23 none separately newly resolved, Dec24 Q24/Q35 and Nov25 Q17 retained. Flags were not cleared.
+- No PR merge; Paper-I and Code 01 untouched.
