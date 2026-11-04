@@ -4569,5 +4569,56 @@
       "No PR merged; Paper-I untouched"
     ],
     "commit": "6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef"
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Visual Art Code 33 source-proofreading and syllabus-mapping register synchronization",
+    "scope": "Integrated Visual Art Paper-II bank: Nov 2023, Dec 2024, Nov 2025",
+    "source": "Existing page-specific review notes recorded against the original official GSET Visual Art scans; current integration question JSON and official Code 33 core syllabus catalogue",
+    "actions": [
+      "Recounted source-proofread note coverage, source_verified field and review flags per paper",
+      "Reconciled paper manifest and subjects registry to the current integrated question bank",
+      "Separated manually reviewed mapping count from officially verified mapping count; retained five provisional mappings"
+    ],
+    "result": {
+      "Code33_total": 300,
+      "source_text_visual_proofread": 300,
+      "pending_proofread": 0,
+      "source_verified_marked": 300,
+      "content_concerns_flagged": 14,
+      "review_flags": 14,
+      "mapping_manually_reviewed": 295,
+      "mapping_provisional": 5,
+      "mapping_pending": 0,
+      "mapping_officially_verified": 0,
+      "by_paper": {
+        "visual_art_nov23": {
+          "proof": 100,
+          "verified": 100,
+          "flags": 7,
+          "manual": 98,
+          "prov": 2
+        },
+        "visual_art_dec24": {
+          "proof": 100,
+          "verified": 100,
+          "flags": 5,
+          "manual": 99,
+          "prov": 1
+        },
+        "visual_art_nov25": {
+          "proof": 100,
+          "verified": 100,
+          "flags": 2,
+          "manual": 98,
+          "prov": 2
+        }
+      }
+    },
+    "non_actions": [
+      "No question stems, options, official answer letters, Gujarati text, source URLs, or review flags changed",
+      "No PR merged; Paper-I and Code 01 untouched",
+      "No provisional mapping promoted to verified"
+    ]
   }
 ]
