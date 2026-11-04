@@ -494,3 +494,10 @@
 - 45 records proofread; all stems/options matched source scans and official answer letters preserved.
 - All 300 English stems/options now visually source-proofread; 14 content/key concerns remain flagged for expert review. No review flags cleared; Gujarati remains pending. Mapping remains 295 manually reviewed, 5 provisional.
 - Bank commit `b86411901a9453196b735fc33633fbf76face2c3`; state sync `2229cfe3f71ad80d7c4df8d3d93ff1a11e7b32f5`.
+
+
+## 2026-11-04 — Music Code 30 Dec 2024 Q91–Q95 source proofreading completed
+- Source-proofread shared passage printed pp.28–29 and question stems/options/order printed pp.30–31.
+- Corrected Q91 English article, Q93 English phrase and Gujarati options, Q94 English tense/Gujarati stem, Q95 Gujarati stem/options spacing; transcribed original Gujarati passage to `passage_gu` and source-aligned `passage_en`.
+- Official answer keys preserved; all five review flags retained. Dec 2024 source proofreading now 100/100; Music total 300/300, 0 pending; mapping/content gates remain open.
+- Bank commit `f144b590afff114e0542eba0dd33c075d1f4683a`; state sync `930bfb73462722d670a80a17febe244bd3ff495c`; verification register `4c5d22317b203222700295fa6aac31560f6bafa2`.
