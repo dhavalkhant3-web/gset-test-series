@@ -471,3 +471,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Confirmed/adjusted mappings: Q23→II (Simon/Admin Thought); Q24→VI (Estimates Committee/parliamentary financial control); Q25→I (merit recruitment/personnel); Q26→VIII (Dror/Mega-Meta policy); Q27→I (civil-service recruitment/personnel reform); Q28→II (Taylor); Q29→IV (municipal corporations/urban governance); Q30→II (Kautilya); Q31→X (probability sampling); Q32→III (Article 263/Union-State relations).
 - Mapping status totals now 32 manually reviewed, 268 provisional, 0 pending. These 32 are manual-review labels, not `verified` status. All 300 content/review flags retained; no flags cleared and no question text/answer/options changed in this mapping batch.
 - Updated per-paper mapping counts in `papers.json`, subject registry and Project State. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 2 (2026-11-04)
+- Manually reviewed Nov 2023 Q33–Q42 against the official Code 32 syllabus PDF. Confirmed or corrected: Q33→VIII (Dror/public policy); Q34→II (Weber); Q35→IX (Citizen's Charter); Q36→V (SDGs); Q37→V (comparative administrative system closest fit); Q38→VIII (Thomas Dye/public policy); Q39/Q40→X (statistical hypothesis/experimental research); Q41→IV (Chief Secretary/state-local administration); Q42→VII (social welfare schemes).
+- Mapping totals: 42 manually reviewed, 258 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
+- Updated papers.json, subjects.json and Project State. No PR merge; Paper-I and Code 01 untouched.
