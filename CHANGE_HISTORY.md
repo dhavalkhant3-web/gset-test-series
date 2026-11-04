@@ -259,3 +259,9 @@
 - Updated only these 26 records' source verification and review evidence fields; review flags retained and mapping statuses unchanged.
 - Running count 193/300 source verified, 107 pending; session counts Nov23 0, Dec24 96, Nov25 97. Synchronized state, subject manifest, paper manifests and progress/logs.
 - No PR merged; Code 01 and Paper-I unchanged.
+
+
+## 2026-11-04 — Public Administration Code 32 source proofreading tranche 18 and session status
+- Visually source-checked Dec 2024 Q31–Q34 and Nov 2025 Q33–Q35 against official GSET printed page 7; all seven stems and four options/order match. Stored answers match final keys 7/7.
+- Running source verified 200/300. Session source visual counts: Nov23 0/100, Dec24 100/100, Nov25 100/100. Updated paper manifests so Dec24 and Nov25 are source-question-text complete, with mapping/content review still pending.
+- All review flags retained; mappings not promoted. No PR merged; Code 01 and Paper-I unchanged.
