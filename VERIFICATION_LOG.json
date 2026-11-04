@@ -3282,5 +3282,58 @@
       "Mapping/content review flags are retained and no unit mapping statuses were promoted.",
       "No PR merged; Code 01 and Paper-I untouched."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "event": "Public Administration validator update and CI checkpoint",
+    "validator_file_commit": "62714248c391781f8e5c2cd7660256fa993c4208",
+    "validator_blob_sha": "1f8f979a01553d9b73e53d6ae62bf99f9e1173f5",
+    "ci": {
+      "combined_subject_bank_audit": {
+        "run_id": 41779631401,
+        "run_number": 436,
+        "commit": "d0820161743f239527bd1c9a58205e9c52dadcc6",
+        "conclusion": "success"
+      },
+      "public_administration_validator": {
+        "run_id": 41779852219,
+        "run_number": 609,
+        "commit": "62714248c391781f8e5c2cd7660256fa993c4208",
+        "status": "queued"
+      },
+      "integration_debug_apk": {
+        "run_id": 41779852190,
+        "run_number": 348,
+        "commit": "62714248c391781f8e5c2cd7660256fa993c4208",
+        "status": "queued"
+      }
+    },
+    "prior_validator_failures": [
+      {
+        "run_number": 606,
+        "run_id": 41779535463,
+        "commit": "987dbd206f9d6446109f06b775458c825be1acfd",
+        "failure": "validator hardcoded question source audit and subject manifest as false after question-level source audit had been completed"
+      },
+      {
+        "run_number": 605,
+        "run_id": 41779509026,
+        "commit": "c472484317caf2601d2e338b6cb593b82f4cca32",
+        "failure": "same stale manifest expectation"
+      }
+    ],
+    "repair": "Validator now derives source verified counts from integrated bank records and validates paper manifests and source_reviewed_question_count against each session's 100 question records. It retains its independent stored-answer vs official key-array checks and declares no independent PDF-byte inspection.",
+    "metrics": {
+      "records": 300,
+      "source_verified": 300,
+      "answer_official_answer_parity": 300,
+      "review_flags": 300,
+      "unit_mapping_manual": 22,
+      "unit_mapping_provisional": 278
+    },
+    "safety": [
+      "No PR merged",
+      "Paper-I and Code 01 unchanged"
+    ]
   }
 ]
