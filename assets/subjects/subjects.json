@@ -502,11 +502,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded separately from question-text verification. Current integrated bank: 30 records source_verified (figure/passage source review); 256 remain in key-applied/pending-proofread state; 14 content/answer concerns remain flagged. Syllabus mapping: 22 manually reviewed, 278 provisional content-based mappings, 0 unmapped; all 300 unit_number fields are populated (147 newly synchronized from existing provisional syllabus_unit values). Question text/options and the 14 concerns still require source review; the current English-medium bank does not contain Gujarati question text. Image-dependent mappings are provisional and source images remain uninspected.",
-      "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed; source_review_pending",
+      "data_status": "300 Paper-II English stems and all four options visually source-proofread across 3 sessions (100/100 each). 286 records have no unresolved content concern; 14 source-confirmed content/key concerns remain flagged and official final-answer letters are preserved. Syllabus mapping: 295 manually reviewed against official Code 33 units, 5 provisional, 0 pending, 0 officially verified. Gujarati question text remains unpopulated.",
+      "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "verified": 22,
-        "provisional": 278,
+        "verified": 0,
+        "manually_reviewed": 295,
+        "provisional": 5,
         "pending": 0
       }
     },
