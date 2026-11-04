@@ -399,3 +399,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Cross-checked `assets/subjects/music/verification_pending.json` (blob `146cd9b5da0474cad21066c03d2715857a693563`): original-paper bilingual visual proofread complete Nov 2023 100/100, Dec 2024 100/100 and Nov 2025 100/100; Gujarati fields 300/300; official final answer-key visual checks 300/300, zero mismatches.
 - Corrected stale Project State counts 254/300 and 46 pending. Music question-text proofreading is complete; active gates remain 14 ambiguous mappings, 124 provisional stream-specific mappings and 212 retained review flags (mapping/content review).
 - Do not repeat completed Music visual batches. No question bank content changed; no PR merge; Code 01 and Paper-I untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 11 (2026-11-04)
+- Visually matched Dec 2024 Q76–Q80 (official paper printed pages 12–13) and Nov 2025 Q76–Q80 (printed page 13) against official GSET Paper-II PDF page images; all stems and four options/order match the integrated records.
+- Reconciled stored answer/official_answer for all 10 questions against the official final keys; all answer letters match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 127/300; 173 pending. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
