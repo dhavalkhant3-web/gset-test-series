@@ -464,3 +464,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Updated validator to derive source completion from question-level `source_verified` counts and verify that subject/paper manifests and `source_reviewed_question_count` match. It still checks all 300 stored answer keys against the validator's official-key arrays and explicitly states it does not inspect PDF bytes itself.
 - Combined subject bank audit run #436 on paper-manifest commit `d0820161743f239527bd1c9a58205e9c52dadcc6`: SUCCESS. Public Administration validator run #609 and Integration Debug APK run #348 on validator commit `62714248c391781f8e5c2cd7660256fa993c4208`: queued at checkpoint; awaiting completion.
 - No PR merged; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 1 (2026-11-04)
+- Manually reviewed Nov 2023 Q23–Q32 against the official Code 32 syllabus PDF (https://gujaratset.ac.in/assets/syllabus/32.pdf), Unit headings and their stated scope.
+- Confirmed/adjusted mappings: Q23→II (Simon/Admin Thought); Q24→VI (Estimates Committee/parliamentary financial control); Q25→I (merit recruitment/personnel); Q26→VIII (Dror/Mega-Meta policy); Q27→I (civil-service recruitment/personnel reform); Q28→II (Taylor); Q29→IV (municipal corporations/urban governance); Q30→II (Kautilya); Q31→X (probability sampling); Q32→III (Article 263/Union-State relations).
+- Mapping status totals now 32 manually reviewed, 268 provisional, 0 pending. These 32 are manual-review labels, not `verified` status. All 300 content/review flags retained; no flags cleared and no question text/answer/options changed in this mapping batch.
+- Updated per-paper mapping counts in `papers.json`, subject registry and Project State. No PR merge; Paper-I and Code 01 untouched.
