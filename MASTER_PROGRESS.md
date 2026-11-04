@@ -489,3 +489,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Nov 2023 Q53–Q62 against official Code 32 syllabus: Q53/Q54→I personnel/organization; Q55→IX governance; Q56→VI public finance/fiscal federalism; Q57→V comparative admin; Q58→IX Rule of Law; Q59–Q61→X research methods/hypothesis; Q62→VIII public policy.
 - Mapping totals now 62 manually reviewed, 238 provisional, 0 pending. No unit mapping counted as verified; all 300 review flags remain active.
 - Updated question-level unit fields/notes, papers.json, subjects.json and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 5 (2026-11-04)
+- Manually reviewed Nov 2023 Q63–Q72 against official Code 32 syllabus: Q63→X measurement; Q64→IV DRDA/district administration; Q65→VIII public policy; Q66/Q69/Q70→II administrative thought; Q67→III Indian administrative history; Q68→V Riggs; Q71→III Indian authorities; Q72→VI tax/banking/disinvestment committees.
+- Mapping totals now 72 manually reviewed, 228 provisional, 0 pending. None promoted to verified; all 300 review flags remain active.
+- Updated question-level unit fields/notes, paper/subject manifests and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
