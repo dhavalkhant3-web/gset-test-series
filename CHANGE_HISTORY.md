@@ -365,3 +365,9 @@
 - Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified; session counts Nov23 100/0, Dec24 70/30, Nov25 70/30. All 300 review flags retained.
 - Question-bank commit `e12e87eacf16a310164ea8a05758762163b26d4d`; paper-manifest commit `fbf68be99bba60c110a94446f63fe8afb7920035`; subject registry commit `123008bfed564494b26eee0f87852d1ce9a69270`; Project State commit `b7648e364260ca392e9f73c1fc70c4f00c9be741`.
 - No question text/options/answers changed; no PR merged; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Public Administration tranche 14 metadata count reconciliation
+- Corrected Dec24 and Nov25 paper manifest mapping counts to 70 manually reviewed / 30 provisional each (question-level bank count is authoritative); Nov23 remains 100/0.
+- Updated `MASTER_PROGRESS.md` summary and `VERIFICATION_LOG.json` metadata reconciliation entry. New commits: paper manifest `4d63593fd9abcc9a67c846677a7ea19f7d821ca6`, progress `2698c59efd4535653f96d472e5d174cac36f59e2`, verification log `3895c6664fe9f1c49bb7e9c7469412cd4c4b8a3d`.
+- 240 manual mappings, 60 provisional, 0 pending/verified; all 300 flags retained. CI still not confirmed on the latest metadata commit.
