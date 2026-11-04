@@ -295,3 +295,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Source review is **not complete**: `source_verified=true` remains 0/300 and 300 review flags remain. Gujarati stem/options arrays are empty as the official medium is English; no translations were invented.
 - Mapping checkpoint: 22 manually reviewed; 278 provisional. Targeted source concerns still open: Dec 2024 Q24/Q35 and Nov 2025 Q17.
 - This is an internal JSON integrity audit only, not a visual source-PDF verification. No question data or verification status was changed.
+
+
+## Public Administration Code 32 — source proofread tranche (2026-11-04)
+- Official GSET source visual proofread and final-key reconciliation completed for 3 target items: Dec 2024 Q24 (printed p.6; key D), Dec 2024 Q35 (printed p.7; key C), Nov 2025 Q17 (printed p.5; key D). Question stems and all four options match the official pages; each stored answer letter matches the official final key.
+- These 3 records now carry `source_verified=true` and the source PDF/key filenames, while mapping review flags remain retained.
+- Public Administration source-verified count: 3/300. Whole-paper review is still pending (297 records remain), and 278 provisional syllabus mappings remain unresolved. No question text, options, answers or mappings were rewritten.
