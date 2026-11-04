@@ -402,3 +402,9 @@
 - Reviewed 19 direct Dec 2024 matches against official Code 33 units. Total mapping checkpoint: 88 manually reviewed, 212 provisional, 0 pending.
 - No question stems/options/answers, translations, citations or concerns changed. Source proofread backlog remains 256; content flags remain 14.
 - Bank commit `40fd20f613d851bbd3a0bcd24d5888b7c7028832`; state sync commit `43f770e193704f6ea14b75d0064810c696ac3eba`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 4
+- Reviewed 21 direct Dec 2024 mappings (Q70–Q90) for Western art movements/artists, Kushana sculpture, contemporary Indian groups, printmaking, painting technique, advertising and typography.
+- Mapping checkpoint now 109 manually reviewed, 191 provisional, 0 pending. Image-based Q91–Q100 remain provisional; no source content or flags altered.
+- Bank commit `7caa7cadd9433d4850b6b9fafcd58dcd1d8fc71d`; state sync commit `a1a9df752b5260691bba5e8c14f81f0050d1f54e`.
