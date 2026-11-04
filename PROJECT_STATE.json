@@ -829,14 +829,14 @@
     "note": "Supersedes old Music pending-visual count 146; Music remaining visual checks apply only to Dec 2024. No PR merged; Code 01/Paper-I untouched."
   },
   "public_administration": {
-    "source_verified": 37,
-    "remaining_source_verification": 263,
+    "source_verified": 47,
+    "remaining_source_verification": 253,
     "provisional_syllabus_mappings": 278,
     "last_batch": {
       "date": "2026-11-04",
-      "dec24_questions": "8-23",
-      "nov25_questions": "7-16,18-25",
-      "count": 34,
+      "dec24_questions": "36-40",
+      "nov25_questions": "36-40",
+      "count": 10,
       "verification": "official PDF visual + final key"
     }
   }
