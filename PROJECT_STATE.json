@@ -160,8 +160,8 @@
       "name": "Visual Art",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 30,
-      "key_applied_pending_proofread": 256,
+      "source_verified_marked": 77,
+      "key_applied_pending_proofread": 209,
       "content_concerns_flagged": 14,
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
@@ -170,8 +170,8 @@
         "provisional": 5,
         "pending": 0
       },
-      "question_bank_sha": "b45ca44090f2c32bb238f47230f0b3e0969bb8bc",
-      "status": "295 mappings manually reviewed, 5 provisional, 0 unmapped; source text proofreading and 14 content concerns remain; remaining five topics have ambiguous cross-unit/global scope"
+      "question_bank_sha": "d7f347bec93b66b1bf0f5a526109b141bd57c1d0",
+      "status": "295 syllabus mappings manually reviewed, 5 provisional, 0 pending; source visual proofread count 77/300, 209 pending; 14 content concerns/review flags retained; Gujarati transcription remains separate"
     },
     "02": {
       "name": "Physical Sciences",
@@ -851,7 +851,7 @@
   },
   "latest_execution_checkpoint": {
     "date": "2026-11-04",
-    "commit": "f8ee77304b76a35a1a9e2a029aff79a4804ff29a",
-    "scope": "Visual Art Code 33 direct conceptual reality and Western modernist poster chronology mappings"
+    "commit": "95c18d0e69f6a52522ea693b5b6f675753719d3f",
+    "scope": "Visual Art Code 33 source-text visual proofread batch: first 16 questions across Nov 2023, Dec 2024, Nov 2025; 47 new records"
   }
 }
