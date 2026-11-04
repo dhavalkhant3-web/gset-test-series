@@ -34,7 +34,7 @@
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "100 mappings manually reviewed against official Code 32 syllabus, 0 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
+      "unit_mapping_status_note": "100 manually reviewed against official Code 32 syllabus, 0 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
       "unit_mapping_manually_reviewed_count": 100
     },
     {
@@ -58,11 +58,11 @@
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 90,
+      "unit_mapping_provisional_count": 80,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "10 mappings manually reviewed against official Code 32 syllabus, 90 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
-      "unit_mapping_manually_reviewed_count": 10
+      "unit_mapping_status_note": "20 manually reviewed against official Code 32 syllabus, 80 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
+      "unit_mapping_manually_reviewed_count": 20
     },
     {
       "paper_id": "public_administration_nov25",
@@ -85,11 +85,11 @@
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 100,
       "review_count": 100,
-      "unit_mapping_provisional_count": 90,
+      "unit_mapping_provisional_count": 80,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "10 mappings manually reviewed against official Code 32 syllabus, 90 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
-      "unit_mapping_manually_reviewed_count": 10
+      "unit_mapping_status_note": "20 manually reviewed against official Code 32 syllabus, 80 provisional content-based mappings, 0 unmapped/pending; manually reviewed is not verified. All review flags remain active for content adjudication.",
+      "unit_mapping_manually_reviewed_count": 20
     }
   ],
   "unit_mapping_status": "all_unit_values_assigned_provisional_or_manually_reviewed; source_review_pending",
