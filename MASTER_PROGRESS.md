@@ -519,3 +519,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually reviewed Dec 2024 Q1–Q10 and Nov 2025 Q1–Q10 against official Code 32 syllabus. Unit assignments cover Administrative Thought/New Public Service, organization/personnel principles, Public Choice/Governance, NPM, globalization/development, public policy, and constitutional framework.
 - Overall mapping totals now 120 manually reviewed, 180 provisional, 0 pending. Session breakdown: Nov23 100 manual/0 provisional; Dec24 10 manual/90 provisional; Nov25 10 manual/90 provisional. All 300 review flags retained; no unit mappings marked verified.
 - Updated per-question unit fields/notes and paper/subject manifests plus Project State. No stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 10 (2026-11-04)
+- Manually reviewed Dec 2024 Q11–Q20 and Nov 2025 Q11–Q20 against official Code 32 syllabus. Confirmed classical/Human Relations/Behavioralism, New Public Service, Taylor/Fayol/Urwick, Weber bureaucracy and personnel/organization topics. Dec24 Q13→I closed/open organization theory; Q15→I Politics–Administration Dichotomy; Nov25 Q17→II Kautilya's Oriental thought; Nov25 Q16→II Fayol classical thought.
+- Mapping totals now 140 manually reviewed, 160 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 20/80, Nov25 20/80. All 300 review flags retained; no mapping counted verified.
+- Updated question-level mapping fields/notes, papers/subjects registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
