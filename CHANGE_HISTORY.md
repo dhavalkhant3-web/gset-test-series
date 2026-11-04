@@ -514,3 +514,9 @@
 - Reconciled progress metadata against the current integrated bank's page-specific source-review notes: 300/300 English stems/options proofread across the three sessions, 0 pending; 14 content/key concerns remain flagged.
 - Mapping counts synchronized: 295 manually reviewed (Nov23 98, Dec24 99, Nov25 98), 5 provisional (2/1/2), 0 pending and 0 officially verified. Five less-direct cross-scope mappings were deliberately retained as provisional.
 - Updated `assets/subjects/visual_art/papers.json`, `assets/subjects/subjects.json`, `PROJECT_STATE.json`, `MASTER_PROGRESS.md`, and `VERIFICATION_LOG.json`. Question-bank data, answer letters and review flags were not modified; no PR merge; Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Performing Arts Code 31 direct syllabus mapping tranche
+- Manually reviewed seven direct December 2024 unit matches (Kathak, Bhavai, aesthetics Q27–29, Natyashastra Q46, Southeast Asian Dragon/Lion dance Q55). Changed only mapping fields/rationales; source/text audit flags retained.
+- Integrated mapping label counts: 7 manually reviewed, 176 provisional, 117 pending, 0 officially verified; unit fields populated on 183 records. Session split Dec24 7/84/9, Nov23 0/43/57, Nov25 0/49/51.
+- Updated Code 31 paper manifest, subject registry, Project State, Master Progress and Verification Log. Question source status remains 101 source-verified, 193 text/Gujarati audits pending, six bilingual discrepancy flags and 206 review flags. No PR merge; Code 01/Paper-I untouched.
