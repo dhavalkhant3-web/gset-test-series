@@ -821,7 +821,7 @@
       "28": "24 provisional mappings; 40 review flags",
       "29": "300 visual checks; 298 provisional mappings",
       "31": "200 source reviews; 6 bilingual discrepancies; mappings review",
-      "32": "117/300 source-verified; 183 source checks pending; 278 provisional syllabus mappings; Q91-95 Dec24/Nov25 key reconciled, visual pending",
+      "32": "117/300 source-verified; 183 source checks pending; 278 provisional syllabus mappings; answer-key reconciliation Q96-100 (both papers), visual pending",
       "33": "256 proofreading checks; 14 content concerns; 278 provisional mappings",
       "02": "86 core-field checks; 374 review flags; syllabus mapping",
       "03": "315 base + 1 overlay review flags; Q42 format source check; syllabus mapping"
@@ -841,8 +841,8 @@
     },
     "last_answer_key_batch": {
       "date": "2026-11-04",
-      "dec24_questions": "91-95",
-      "nov25_questions": "91-95",
+      "dec24_questions": "96-100",
+      "nov25_questions": "96-100",
       "count": 10,
       "verification": "official final key matched; original paper visual check pending"
     }
