@@ -266,11 +266,11 @@
         "GSET_31_DEC24_100"
       ],
       "review_count": 100,
-      "unit_mapping_provisional_count": 84,
+      "unit_mapping_provisional_count": 76,
       "unit_mapping_pending_count": 9,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 7 manually reviewed, 84 provisional, 9 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
-      "unit_mapping_manually_reviewed_count": 7,
+      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 15 manually reviewed, 76 provisional, 9 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
+      "unit_mapping_manually_reviewed_count": 15,
       "source_verified_question_count": 0
     },
     {
@@ -418,5 +418,5 @@
   "status": "official_key_reconciled_question_text_audit_pending",
   "review_note": "All 300 stored answer letters are checked against the official final-key sequences. Full independent question text and option transcription audit remains pending. Do not treat the subject as fully source-verified.",
   "unit_mapping_status": "partial_provisional_mapping_review_pending",
-  "unit_mapping_note": "Current question-level mapping labels: 7 manually reviewed, 176 provisional and 117 pending (183 unit fields populated; 117 unit fields unset). 0 assignments counted officially verified. Source/text/Gujarati review and 206 review flags remain separate gates."
+  "unit_mapping_note": "Current question-level mapping labels: 15 manually reviewed, 168 provisional and 117 pending (183 unit fields populated; 117 unit fields unset). 0 assignments counted officially verified. Source/text/Gujarati review and 206 review flags remain separate gates."
 }
