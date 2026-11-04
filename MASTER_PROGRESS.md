@@ -25,7 +25,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0 source_verified; all 300 await original-page visual review | Current records state official-key reconciliation; no independent recomputation in this pass | 0 manually verified, 298 provisional, 2 pending | 300 |
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
-| 31 | Performing Arts | 300 | 101/300 source-page question sets visually verified; 193 text/Gujarati source audits pending; 6 bilingual discrepancies retained | Current integrated final-key check not independently repeated in this register sync | 7 manually reviewed, 176 provisional, 117 pending; 0 officially verified | 206 |
+| 31 | Performing Arts | 300 | 101/300 source-page question sets visually verified; 193 text/Gujarati source audits pending; 6 bilingual discrepancies retained | Current integrated final-key check not independently repeated in this register sync | 15 manually reviewed, 168 provisional, 117 pending; 0 officially verified | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
 | 33 | Visual Art | 300 | 300/300 English stems/options visually source-proofread; 14 content/key concerns retained | 300/300 final-key reconciliation recorded; 14 expert concerns remain | 295 manually reviewed, 5 provisional, 0 pending/verified | 14 |
 
@@ -716,3 +716,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Updated only `syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, and mapping rationale for these seven question records. Existing review flags and source verification fields remain unchanged; these mappings do not imply visual source proofreading.
 - Recomputed integrated question-bank mapping labels: 7 manually reviewed, 176 provisional, 117 pending; 183 unit fields populated, 117 unset, 0 officially verified. Session split: Dec24 7/84/9; Nov23 0/43/57; Nov25 0/49/51.
 - Synchronized question-level data into paper manifest, subject registry, Project State, verification log and change history. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Performing Arts Code 31 — direct syllabus mapping review tranche 2 (2026-11-04)
+- Manually reviewed eight further December 2024 questions against the registered Code 31 core-unit headings: Q16 Kutiyattam manuals/treatises→VI; Q17 Kutiyattam plays→II; Q19 Tamasha folk theatre→II; Q41 East/Southeast Asian performance forms→V; Q44 medieval Nritya/Nritta theory→VI; Q63 named dance treatises→VI; Q64 Indian classical dance forms/exponents→VII; Q78 Bhavai-style theatre→II.
+- Updated only mapping unit fields/status/rationale for these eight question records; all question text, options, answers, source verification and review flags remain unchanged.
+- Current integrated mapping counts: 15 manually reviewed, 168 provisional, 117 pending, 0 officially verified; unit fields populated on 183 records. Dec24 split is 15/76/9; Nov23 0/43/57; Nov25 0/49/51.
+- Progress and paper manifests synchronized. No PR merge; Paper-I and Code 01 untouched.
