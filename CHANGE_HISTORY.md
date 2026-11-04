@@ -463,3 +463,9 @@
 - 47 additional question records proofread; Nov 2025 Q8's existing source proofread and review flag retained. No question/option/key edits.
 - Source proofreading count now 77/300; 209 pending; 14 flagged content concerns remain. Mapping total stays 295 manually reviewed and 5 provisional.
 - Bank note commit `95c18d0e69f6a52522ea693b5b6f675753719d3f`; state sync `5d512525ae2e29ad12c4fb8860e43cff77e69405`.
+
+
+## 2026-11-04 — Visual Art Code 33 source proofreading batch 14
+- Proofread English stems/options against source scans for Nov 2023 Q17–Q30 (printed pp. 5–6), Dec 2024 Q17–Q30 (printed pp. 5–6), Nov 2025 Q17–Q30 (printed pp. 6–9).
+- 40 additional records proofread; flagged Nov 2023 Q17 and Dec 2024 Q30 already had visual source review, and their content/key flags were retained.
+- Source proofread count now 117/300, pending 169, concerns 14. Bank commit `57cd57b662026386762ed600d53195f60baed24a`; state sync `a62ddab99b7e6d8ccb2c1fedc9ab2c7c52ae90a8`.
