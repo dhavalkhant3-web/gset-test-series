@@ -390,3 +390,9 @@
 - Manually reviewed 20 clear Nov 2023 mappings against the official Code 33 unit headings. Code 33 total now 42 manually reviewed and 258 provisional; no pending mappings.
 - Kept ambiguous architecture/subject-based and image-dependent mappings provisional; no source text/options/answers or review concerns altered.
 - Bank metadata commit `9d850340f268911f1caa8f3ac951a3b610531363`; state sync commit `d181a1118f6496d10453164b700a7a8c6c5b391b`.
+
+
+## 2026-11-04 — Visual Art Code 33 mapping batch 2
+- Reviewed 27 additional direct-content mappings from Nov 2023 Q64–Q90. Code 33 total: 69 manually reviewed, 231 provisional, 0 pending.
+- Kept image-dependent/less-direct cases provisional and preserved all content flags and question text.
+- Bank commit `17c69e758e48bb4e89096401c5547630d763456`; state sync commit `ed78580b3bf4ec181e761811972bf076d4ebeabf`.
