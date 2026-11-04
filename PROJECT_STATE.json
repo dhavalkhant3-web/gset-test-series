@@ -160,18 +160,20 @@
       "name": "Visual Art",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 286,
+      "source_verified_marked": 300,
       "key_applied_pending_proofread": 0,
       "content_concerns_flagged": 14,
       "review_flags": 14,
       "gujarati_question_text_populated": 0,
       "mapping": {
-        "verified": 295,
+        "verified": 0,
+        "manually_reviewed": 295,
         "provisional": 5,
         "pending": 0
       },
       "question_bank_sha": "7d72a48e939df607074de5465514a7aea56d7ce7",
-      "status": "All 300 English stems/options visually source-proofread (286 clear source-verified records; 14 content concerns/review flags retained); 0 pending proofread. Syllabus mappings: 295 manually reviewed, 5 provisional, 0 unmapped. Gujarati question text remains unpopulated."
+      "status": "All 300 English stems/options visually source-proofread; 286 clear source records and 14 content/key concerns retained. Syllabus mappings: 295 manually reviewed, 5 provisional, 0 pending, 0 officially verified. Gujarati question text remains unpopulated.",
+      "source_text_visual_proofread": 300
     },
     "02": {
       "name": "Physical Sciences",
