@@ -198,3 +198,8 @@
 ## 2026-11-04 — Public Administration Code 32 answer-key reconciliation batch 11 (visual review pending)
 - Reconciled Dec 2024 Q76–Q80 and Nov 2025 Q76–Q80 against official final answer keys; all 10 answer letters match existing bank records.
 - Original question-paper visual check pending, so source_verified remains 117/300; 183 pending. Review flags retained; no Paper-I/Code 01 change and no PR merge.
+
+
+## 2026-11-04 — Public Administration Code 32 final-key reconciliation batch 12 (Q81–Q85)
+- Dec 2024 Q81–Q85 and Nov 2025 Q81–Q85: official final key letters reconciled; all ten existing answers match.
+- Question paper visual inspection remains pending, so verified total stays 117/300 and 183 visual checks remain. Mapping/review flags preserved; no Paper-I or Code 01 changes; no PR merge.
