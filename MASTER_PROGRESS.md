@@ -271,3 +271,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Hindu Studies mapping counts after this batch: 276 `verified_official_syllabus_mapping` (existing), 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`. The remaining 8 provisional cases are not forced into verified status.
 - All 40 existing Hindu Studies review flags remain active; no flags were cleared. Question content, options, answers, translations, Paper-I and Code 01 were untouched. No PR merged.
 - Commit: `f2aedeb5cfbb63a3dc33dc99b13e88bebb3cd950`.
+
+
+## 2026-11-04 — Hindu Studies Code 28 focused closeout pass
+- Selected Hindu Studies as the single focused subject for this execution.
+- Re-audited live `assets/subjects/hindu_studies/questions.json`: 300/300 records have `source_verified=true`; all 40 retained `review_flag=true` records also show source verification. Existing records preserve official answer-key checks in their review notes. This is source-field/review-note reconciliation, not a fresh 300-question scan in this pass.
+- Current mapping status counts from the live bank: 276 `verified_official_syllabus_mapping`, 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`. Thus the older “24 provisional mappings” backlog phrasing is stale; only 8 mappings still explicitly carry provisional status, while 16 are already manually reviewed. Do not repeat the 16 manual adjudications.
+- The 40 active review flags are retained for specific unresolved issues (e.g. syllabus scope not explicit, questionable printed spelling, or answer/key discrepancy). Do not clear them automatically. In particular Dec 2024 Q49 has a documented apparent source/key mismatch: official answer A retained, discrepancy remains expert review; Nov 2023 Q88 has option/form ambiguity on scan; Nov 2025 Q62 printed spelling flagged. These are not to be silently edited.
+- Focused closeout is **partial, not complete**: source verification is already populated; 8 provisional mappings and 40 flagged records remain as evidence-dependent review items. No question/answer/translation/mapping status/flag was changed in this pass. Only this progress register was reconciled; no PR merge, Code 01/Paper-I untouched.
