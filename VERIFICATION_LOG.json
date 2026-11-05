@@ -4818,5 +4818,56 @@
       "No question stems, options, answer letters, Gujarati translations or images changed",
       "No PR merged; Code 01 and Paper-I untouched"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "event": "Indian Knowledge System Code 29 final checkpoint after conservative mapping correction",
+    "branch": "integration/combined-subject-banks",
+    "branch_head_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
+    "result": {
+      "records": 300,
+      "unique_ids": 300,
+      "source_verified": 0,
+      "review_flags": 300,
+      "mapping_verified": 1,
+      "mapping_provisional": 298,
+      "mapping_pending": 1,
+      "answer_official_mismatch": 0
+    },
+    "actions": [
+      "Resolved Nov 2025 Q15 to official Code 29 Unit 2 (Indian Languages and Literature)",
+      "Reverted tentative Dec 2024 Q20 Unit 9 assignment and restored pending state because available stem/options do not establish a reliable unit",
+      "Retrieved all three official GSET Code 29 Paper-II PDFs and official Code 29 syllabus PDF; only selected Nov 2023 question pages could be visually sampled",
+      "Ran structural JSON validation: 300 records, 300 unique IDs, 100 per session, Q1-Q100 sequences, four non-empty English options, supported answer tokens, answer/official_answer parity and unit range all passed"
+    ],
+    "workflows": [
+      {
+        "run_id": 42023324889,
+        "name": "Combined subject bank audit",
+        "conclusion": "failure",
+        "blocker": "Performing Arts Code 31 GSET_31_NOV25_001 has review_flag=true and source_verified=true; audit stopped before IKS validation."
+      },
+      {
+        "run_id": 42023324932,
+        "name": "Integration Debug APK",
+        "status": "in_progress"
+      }
+    ],
+    "commits": [
+      "98ba316bcb4c5cc175cce053512395a9ff224d1b",
+      "a94296543b93eea00bb849dab16d2ed61ace0967",
+      "8353bc9fc2f3519bb62edbd61caeebbc4425ef79",
+      "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
+    ],
+    "limitations": [
+      "No complete session or question set fully visually verified; source_verified remains 0/300 and flags remain 300.",
+      "298 mappings remain provisional; 1 remains pending.",
+      "No fresh line-by-line transcription of all 300 official final-key rows performed in this execution.",
+      "Unrelated Code 31 issue was not modified."
+    ],
+    "non_actions": [
+      "No question text/options/answers/Gujarati text/images modified",
+      "No PR merged; Code 01 and Paper-I untouched"
+    ]
   }
 ]
