@@ -34,7 +34,7 @@
       "unit_mapping_provisional_count": 100,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Counts reconciled from question-level syllabus_mapping_status values; question stem/option source visual checks remain tracked independently."
+      "unit_mapping_status_note": "Recomputed from question-level mapping statuses. At least one question mapping remains provisional or pending; source page verification is tracked separately."
     },
     {
       "paper_id": "indian_knowledge_system_dec24",
@@ -58,9 +58,9 @@
       "source_reviewed_question_count": 0,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 99,
-      "unit_mapping_pending_count": 0,
-      "unit_mapping_verified_count": 1,
-      "unit_mapping_status_note": "Counts reconciled from question-level syllabus_mapping_status values; question stem/option source visual checks remain tracked independently."
+      "unit_mapping_pending_count": 1,
+      "unit_mapping_verified_count": 0,
+      "unit_mapping_status_note": "Recomputed from question-level mapping statuses. At least one question mapping remains provisional or pending; source page verification is tracked separately."
     },
     {
       "paper_id": "indian_knowledge_system_nov25",
@@ -86,7 +86,7 @@
       "unit_mapping_provisional_count": 99,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 1,
-      "unit_mapping_status_note": "Counts reconciled from question-level syllabus_mapping_status values; question stem/option source visual checks remain tracked independently."
+      "unit_mapping_status_note": "Recomputed from question-level mapping statuses. At least one question mapping remains provisional or pending; source page verification is tracked separately."
     }
   ],
   "unit_mapping_status": "provisional_content_based_pending_official_verification",
