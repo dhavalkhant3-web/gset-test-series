@@ -76,17 +76,17 @@
       "name": "Indian Knowledge System",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 9,
+      "source_verified_marked": 39,
       "review_flags": 300,
-      "official_answer_key_status": "300/300 question answer letters reconciled against direct official GSET final answer-key PDF tables; zero mismatches.",
+      "official_answer_key_status": "300/300 answer letters reconciled against direct official GSET final answer-key PDFs; zero mismatches.",
       "gujarati_source_transcribed": 0,
       "mapping": {
         "verified": 1,
         "provisional": 298,
         "pending": 1
       },
-      "question_bank_sha": "8957163ccc3ff324b086246a6ae2d9a64fab0779",
-      "status": "9 original-page visual verifications complete; all 300 answer-key checks reconciled; mapping 1 verified, 298 provisional, 1 pending",
+      "question_bank_sha": "1bab08e572d7addbd7f9b10130a868804a7f5d1b",
+      "status": "39 original-page visual checks complete (Nov23 30, Nov25 9); all 300 final-key rows reconciled; 1 mapping verified, 298 provisional, 1 pending",
       "mapping_updates": {
         "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
         "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
@@ -98,6 +98,36 @@
         "GSET_29_DEC24_020": "Pending; available question/options don't give enough context to map confidently"
       },
       "visual_batch_verified_ids": [
+        "GSET_29_NOV23_041",
+        "GSET_29_NOV23_042",
+        "GSET_29_NOV23_043",
+        "GSET_29_NOV23_044",
+        "GSET_29_NOV23_045",
+        "GSET_29_NOV23_046",
+        "GSET_29_NOV23_047",
+        "GSET_29_NOV23_048",
+        "GSET_29_NOV23_049",
+        "GSET_29_NOV23_050",
+        "GSET_29_NOV23_051",
+        "GSET_29_NOV23_052",
+        "GSET_29_NOV23_053",
+        "GSET_29_NOV23_054",
+        "GSET_29_NOV23_055",
+        "GSET_29_NOV23_056",
+        "GSET_29_NOV23_057",
+        "GSET_29_NOV23_058",
+        "GSET_29_NOV23_059",
+        "GSET_29_NOV23_060",
+        "GSET_29_NOV23_061",
+        "GSET_29_NOV23_062",
+        "GSET_29_NOV23_063",
+        "GSET_29_NOV23_064",
+        "GSET_29_NOV23_065",
+        "GSET_29_NOV23_066",
+        "GSET_29_NOV23_067",
+        "GSET_29_NOV23_068",
+        "GSET_29_NOV23_069",
+        "GSET_29_NOV23_070",
         "GSET_29_NOV25_020",
         "GSET_29_NOV25_021",
         "GSET_29_NOV25_022",
@@ -446,7 +476,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "IKS Code 29: visually verify remaining 291 original-paper question records, review 298 provisional mappings, resolve Dec 2024 Q20 using original context, and rerun CI after latest page-8 batch.",
+    "IKS Code 29: visually verify remaining 261 original-paper question records (Nov23 Q1-40,Q71-100; Dec24 all 100; Nov25 91 remaining); review 298 provisional mappings; resolve Dec24 Q20; check latest CI status.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
@@ -910,7 +940,7 @@
       "provisional": 298,
       "pending": 1
     },
-    "source_verified": 9,
+    "source_verified": 39,
     "review_flags": 300,
     "combined_audit": {
       "run_id": 42023324889,
@@ -949,7 +979,7 @@
       "conclusion": "success",
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978"
     },
-    "remaining_visual_questions": 291,
+    "remaining_visual_questions": 261,
     "visual_batch_page6": {
       "printedPage": 6,
       "count": 4
@@ -964,6 +994,11 @@
         "GSET_29_NOV25_030",
         "GSET_29_NOV25_031"
       ]
-    }
+    },
+    "visual_batches": {
+      "nov23_pages8_11": 30,
+      "nov25_pages6_8": 9
+    },
+    "latest_structural_validation": "PASS"
   }
 }
