@@ -5111,5 +5111,37 @@
       "Gujarati question/options translation remains blank, therefore review flags remain"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 mapping review batch 2 — source-verified Nov 2025 Q20-Q23,Q27-Q31",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "records": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 109,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 110,
+      "mappingProvisional": 189,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Reviewed official syllabus unit assignments for nine Nov25 records whose source page stems/options were visually checked",
+      "Mapped eight Rasasāstra/metallurgy questions to Unit 7 and Bhūtasaṅkhyā numeral question Q31 to Unit 6",
+      "Added per-question mapping rationale, updated Nov25 paper manifest and subject metadata",
+      "Structural validation PASS; combined audit run 42027444287 confirmed success"
+    ],
+    "commits": [
+      "c0d4352db71306c734e13e476fbdc3e2f63edaca",
+      "49fa194eb6219a1c99e39d6d40bfda32bde45022",
+      "50803a9d9748c24dd26ae60751277214de772aca"
+    ],
+    "limitations": [
+      "189 provisional mappings and one pending mapping remain",
+      "191 source visual checks remain",
+      "Gujarati transcription remains blank"
+    ],
+    "noMerge": true
   }
 ]
