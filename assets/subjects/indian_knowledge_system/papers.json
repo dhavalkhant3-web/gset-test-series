@@ -34,7 +34,7 @@
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
-      "unit_mapping_status_note": "Mapping counts reconciled to question-level statuses; reviewed mappings have per-question rationale against detailed official Code 29 syllabus descriptions. Remaining provisional/pending mappings have not been promoted.",
+      "unit_mapping_status_note": "Counts reconciled from question-level mapping statuses. Verified entries carry per-question rationales against detailed official Code 29 syllabus units; unresolved entries remain provisional or pending.",
       "source_reviewed_question_ids": [
         "GSET_29_NOV23_001",
         "GSET_29_NOV23_002",
@@ -162,7 +162,7 @@
       "unit_mapping_provisional_count": 99,
       "unit_mapping_pending_count": 1,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Mapping counts reconciled to question-level statuses; reviewed mappings have per-question rationale against detailed official Code 29 syllabus descriptions. Remaining provisional/pending mappings have not been promoted.",
+      "unit_mapping_status_note": "Counts reconciled from question-level mapping statuses. Verified entries carry per-question rationales against detailed official Code 29 syllabus units; unresolved entries remain provisional or pending.",
       "source_reviewed_question_ids": []
     },
     {
@@ -186,10 +186,10 @@
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
       "source_reviewed_question_count": 9,
       "review_flags_remaining_count": 100,
-      "unit_mapping_provisional_count": 99,
+      "unit_mapping_provisional_count": 90,
       "unit_mapping_pending_count": 0,
-      "unit_mapping_verified_count": 1,
-      "unit_mapping_status_note": "Mapping counts reconciled to question-level statuses; reviewed mappings have per-question rationale against detailed official Code 29 syllabus descriptions. Remaining provisional/pending mappings have not been promoted.",
+      "unit_mapping_verified_count": 10,
+      "unit_mapping_status_note": "Counts reconciled from question-level mapping statuses. Verified entries carry per-question rationales against detailed official Code 29 syllabus units; unresolved entries remain provisional or pending.",
       "source_reviewed_question_ids": [
         "GSET_29_NOV25_020",
         "GSET_29_NOV25_021",
