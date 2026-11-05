@@ -5143,5 +5143,39 @@
       "Gujarati transcription remains blank"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 source and syllabus batch 3 — Dec 2024 Q18-Q25",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "records": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 117,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 117,
+      "mappingProvisional": 182,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Rendered Prepp-hosted original GSET Dec24 Paper-II printed page 22; visually compared Q18-Q25 stems/options/order",
+      "Corrected Devanagari syllable ‘ग’ in Q20 and Sanskrit diacritics for source transcription",
+      "Marked 8 records source_verified with explicit secondary-host source provenance note",
+      "Reviewed seven question mappings to official syllabus Unit2/Unit3 and added rationale; Q20 remains pending after source context review due Unit1 vs Unit2 ambiguity",
+      "Reconciled Dec24 paper manifest and subject registry counts",
+      "Structural validation PASS and combined audit run 42027901976 success"
+    ],
+    "commits": [
+      "7f55d5989156c3316743cb2d8def0c855d6abc83",
+      "5785b6baf6ed3a52a5927edd692ac379fa645f9b",
+      "09727d5d0b00f63a470a7c8844d1d80e9aed785f"
+    ],
+    "limitations": [
+      "182 mappings remain provisional; Q20 mapping pending",
+      "183 source visual checks remain",
+      "Gujarati transcription blank; all review flags remain"
+    ],
+    "noMerge": true
   }
 ]
