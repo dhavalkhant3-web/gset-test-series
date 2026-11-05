@@ -77,11 +77,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "partial_original_page_visual_verification_pending",
-      "review_note": "Question-level source_verified count reconciled to original-page visual checks. November 2025 printed page 6 Q20-Q23 visually verified in this batch. Remaining questions still require page-by-page text/options review; paper-level source verification remains false.",
+      "review_note": "Original official November 2025 paper printed pages 6 and 8 were visually checked for Q20-Q23 and Q27-Q31 (9 records). Full session remains pending.",
       "review_count": 100,
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
-      "source_reviewed_question_count": 4,
+      "source_reviewed_question_count": 9,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 99,
       "unit_mapping_pending_count": 0,
@@ -91,7 +91,12 @@
         "GSET_29_NOV25_020",
         "GSET_29_NOV25_021",
         "GSET_29_NOV25_022",
-        "GSET_29_NOV25_023"
+        "GSET_29_NOV25_023",
+        "GSET_29_NOV25_027",
+        "GSET_29_NOV25_028",
+        "GSET_29_NOV25_029",
+        "GSET_29_NOV25_030",
+        "GSET_29_NOV25_031"
       ]
     }
   ],
