@@ -30,7 +30,8 @@
     "latest_live_head_before_visual_art_mapping_batch_2": "aa84ef60bb8ed8b0bbf414dd1dd41c51ece9455d",
     "latest_live_head_before_visual_art_mapping_batch_3": "249923f5d4ff3bd7325548ef7adc1509ba6834b8",
     "latest_integration_head_after_unit_field_sync": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
-    "latest_live_head_before_iks_execution": "797d305b55c1a6cae8498eabd15f7448f20398e7"
+    "latest_live_head_before_iks_execution": "797d305b55c1a6cae8498eabd15f7448f20398e7",
+    "latest_live_head_after_iks_execution_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -77,18 +78,24 @@
       "sessions": 3,
       "source_verified_marked": 0,
       "review_flags": 300,
-      "official_answer_key_status": "All 300 records have matching answer and official_answer values internally; official final-key tables located; independent table-to-record re-entry not completed in this execution.",
+      "official_answer_key_status": "Question records retain official final-key reconciliation; current in-session structural check confirms answer === official_answer for all 300. No fresh 300-row key transcription was performed.",
       "gujarati_source_transcribed": 0,
       "mapping": {
-        "verified": 2,
+        "verified": 1,
         "provisional": 298,
-        "pending": 0
+        "pending": 1
       },
-      "question_bank_sha": "f2424fe370c5d36d442cb77da49746f3bf3256d6",
-      "status": "2 mappings verified against official Code 29 syllabus; 298 provisional; all 300 original-page visual checks pending",
+      "question_bank_sha": "990fb679ab965d70abc16dacc9dbc212f2707997",
+      "status": "1 syllabus mapping verified; 298 provisional; 1 ambiguous mapping pending; all 300 original-page visual checks outstanding",
       "mapping_updates": {
         "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
         "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
+      },
+      "resolved_mapping": {
+        "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature"
+      },
+      "pending_mapping": {
+        "GSET_29_DEC24_020": "Pending; syllable ga + Sky/Water/Smell/Earth options insufficient for confident unit assignment"
       }
     },
     "30": {
@@ -423,7 +430,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "IKS Code 29: complete original-page visual verification for all 300 questions; finish official-source answer-key table comparison; independently review 298 provisional syllabus mappings; run JSON and project CI.",
+    "IKS Code 29: visually verify all 300 original-paper questions in three 100-question batches; independently reconcile final answer-key tables; review 298 provisional mappings; resolve Dec 2024 Q20 with original-paper context; rerun CI once unrelated Code 31 blocker is separately repaired.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
@@ -865,25 +872,39 @@
   "latest_iks_execution": {
     "date": "2026-11-05",
     "branch": "integration/combined-subject-banks",
-    "branch_head_at_start": "797d305b55c1a6cae8498eabd15f7448f20398e7",
-    "question_bank_commit": "98ba316bcb4c5cc175cce053512395a9ff224d1b",
-    "papers_manifest_commit": "a94296543b93eea00bb849dab16d2ed61ace0967",
-    "official_syllabus_pdf_retrieved": true,
-    "official_nov23_paper_pdf_retrieved": true,
-    "official_dec24_paper_pdf_retrieved": true,
-    "official_nov25_paper_pdf_retrieved": true,
-    "visual_page_batches": [
-      "Nov 2023 Q1-24",
-      "Nov 2023 Q48-55",
-      "Nov 2023 Q79-86"
+    "branch_head_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
+    "question_bank_commits": [
+      "98ba316bcb4c5cc175cce053512395a9ff224d1b",
+      "8353bc9fc2f3519bb62edbd61caeebbc4425ef79"
     ],
-    "full_visual_verification_count": 0,
-    "answer_field_parity_matches": 300,
-    "mapping_verified": 2,
-    "mapping_provisional": 298,
-    "mapping_pending": 0,
-    "json_validation": "not_run",
-    "ci": "not_run",
+    "papers_manifest_commits": [
+      "a94296543b93eea00bb849dab16d2ed61ace0967",
+      "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
+    ],
+    "official_syllabus_pdf_retrieved": true,
+    "official_ikspaper_pdfs_retrieved": 3,
+    "page_images_sampled": "selected November 2023 pages only",
+    "full_visual_verified_questions": 0,
+    "structural_json_validation": "PASS",
+    "total_records": 300,
+    "unique_ids": 300,
+    "answer_official_field_mismatches": 0,
+    "mapping": {
+      "verified": 1,
+      "provisional": 298,
+      "pending": 1
+    },
+    "source_verified": 0,
+    "review_flags": 300,
+    "combined_audit": {
+      "run_id": 42023324889,
+      "conclusion": "failure",
+      "blocker": "Unrelated Code 31 GSET_31_NOV25_001: review_flag=true with source_verified=true"
+    },
+    "integration_debug_apk": {
+      "run_id": 42023324932,
+      "status": "in_progress"
+    },
     "pr_merges": 0
   }
 }
