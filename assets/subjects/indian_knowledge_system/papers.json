@@ -76,17 +76,23 @@
       "question_source_verified": false,
       "questions_count": 100,
       "source_verified": false,
-      "status": "source_verified_subset_source_review_pending",
-      "review_note": "All 100 answer letters match the official final answer key. The question stems/options have not all been independently visually checked against the original source pages; all 100 questions remain flagged until that review is completed.",
+      "status": "partial_original_page_visual_verification_pending",
+      "review_note": "Question-level source_verified count reconciled to original-page visual checks. November 2025 printed page 6 Q20-Q23 visually verified in this batch. Remaining questions still require page-by-page text/options review; paper-level source verification remains false.",
       "review_count": 100,
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
-      "source_reviewed_question_count": 0,
+      "source_reviewed_question_count": 4,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 99,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 1,
-      "unit_mapping_status_note": "Recomputed from question-level mapping statuses. At least one question mapping remains provisional or pending; source page verification is tracked separately."
+      "unit_mapping_status_note": "Recomputed from question-level mapping statuses. At least one question mapping remains provisional or pending; source page verification is tracked separately.",
+      "source_reviewed_question_ids": [
+        "GSET_29_NOV25_020",
+        "GSET_29_NOV25_021",
+        "GSET_29_NOV25_022",
+        "GSET_29_NOV25_023"
+      ]
     }
   ],
   "unit_mapping_status": "provisional_content_based_pending_official_verification",
