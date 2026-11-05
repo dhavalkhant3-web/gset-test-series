@@ -5010,5 +5010,38 @@
       "Nov 2023 printed page 6 Q25-Q33 and Dec 2024 pages remain inaccessible by screenshot; mapping Dec24 Q20 pending"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 original-page visual batch 5 (Nov 2023 Q71-Q93)",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "total": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 93,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 1,
+      "mappingProvisional": 298,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Rendered official Nov 2023 Code 29 paper printed pages 12,13,14 and compared Q71-Q93 question text/options/order",
+      "Corrected transcription and transliteration/diacritic errors from source scans",
+      "Marked 23 records source_verified=true with printed page number and kept review flags for mapping/content tasks",
+      "Updated Nov 2023 manifest and subject registry counts",
+      "Ran structural validation, which passed"
+    ],
+    "commits": [
+      "20fef8032bdbcd7f2892f71265f00bb1b1f65a9d",
+      "0135a6ad91a8552fcdb5463562ace3fc74d3f2ab",
+      "b57268311c4299822a0ff658c862d912e1e2d6c0"
+    ],
+    "limitations": [
+      "207 records remain source visual verification pending",
+      "Nov 2023 Q25-Q33 and Q94-Q100, all Dec24, and 91 Nov25 records remain",
+      "Mapping: 298 provisional, one pending"
+    ],
+    "noMerge": true
   }
 ]
