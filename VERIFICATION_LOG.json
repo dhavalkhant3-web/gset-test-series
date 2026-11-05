@@ -4869,5 +4869,49 @@
       "No question text/options/answers/Gujarati text/images modified",
       "No PR merged; Code 01 and Paper-I untouched"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 official final answer-key reconciliation and original-paper page-6 visual batch",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "records": 300,
+      "unique_ids": 300,
+      "official_final_key_matched": 300,
+      "official_final_key_mismatches": 0,
+      "source_verified": 4,
+      "review_flags": 300,
+      "mapping_verified": 1,
+      "mapping_provisional": 298,
+      "mapping_pending": 1
+    },
+    "actions": [
+      "Transcribed all Q1-Q100 entries from each direct official GSET final answer-key PDF and confirmed 300/300 record answer parity",
+      "Rendered official Nov 2025 Paper-II PDF printed page 6 and compared Q20-Q23 question text, Sanskrit terms, four combination choices and sequence",
+      "Corrected visible source spelling/spacing and diacritics for Nov 2025 Q20-Q23; added source_page_number 6 and source_verified=true while keeping flags active for unfinished syllabus review",
+      "Reconciled Nov 2025 papers.json source-reviewed ID/count fields and subject-level Code 29 status"
+    ],
+    "official_sources": {
+      "paper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
+      "answer_keys": [
+        "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
+        "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
+        "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf"
+      ]
+    },
+    "commits": [
+      "e8510491abafd007f7ba3c89ea1277625278f640",
+      "d33083431a1471a982f0117b253c283e0709d02e",
+      "31b33ae90b35fb251b0e9f51dccf007a2c951b00",
+      "026a79a72b0591c4ec42fc2b7a7e2784dbfe7964"
+    ],
+    "limitations": [
+      "296/300 question text/options still need original page visual verification",
+      "298 mappings remain provisional and Dec 2024 Q20 remains pending",
+      "CI run 42024597978 success preceded this IKS batch; fresh CI check awaited"
+    ],
+    "non_actions": [
+      "No PR merged; Code 01 and Paper-I untouched"
+    ]
   }
 ]
