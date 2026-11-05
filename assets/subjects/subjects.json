@@ -415,13 +415,13 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions; official final-key reconciliation is recorded in the current bank. Current question-level state: 0 source_verified, 300 review-flagged pending original-page visual review. Syllabus mapping: 0 manually verified, 298 provisional content-based unit numbers assigned, 2 pending (Dec 2024 Q20; Nov 2025 Q15) with unit_number still null. Gujarati source transcription is not populated in the current integrated bank. Do not copy the divergent PR branch without field-by-field source reconciliation.",
-      "status": "verified_against_official_papers_and_final_keys",
+      "data_status": "300 Paper-II questions across 3 sessions. All 300 answer letters were reconciled against the official GSET final answer-key tables (Nov 2023, Dec 2024, Nov 2025); 4/300 question records visually compared against original official scan (Nov 2025 printed page 6 Q20-Q23). 296 remain original-page visual review pending. Current mapping: 1 official-syllabus verified, 298 provisional, 1 pending (Dec 2024 Q20). Gujarati source transcription remains unpopulated.",
+      "status": "official_final_keys_reconciled_partial_original_page_review",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
         "provisional": 298,
-        "pending": 2,
-        "verified": 0
+        "pending": 1,
+        "verified": 1
       }
     },
     {
