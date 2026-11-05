@@ -4944,5 +4944,38 @@
       "298 mappings remain provisional; one pending mapping remains"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 original-page visual batch 3 (Nov 2023 Q41-Q70)",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "total": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 39,
+      "reviewFlags": 300,
+      "answerKeyMatched": 300,
+      "mappingVerified": 1,
+      "mappingProvisional": 298,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Visually compared Nov 2023 official Paper-II printed page 8 Q41-Q47, page 9 Q48-Q55, page 10 Q56-Q62, page 11 Q63-Q70",
+      "Corrected text/option transcription based on source scans including Sanskrit diacritics and exact option order",
+      "Marked 30 records source_verified=true with corresponding printed page number while retaining review flags for pending syllabus/content review",
+      "Reconciled Nov 2023 paper manifest source-reviewed count and IDs",
+      "Ran structural validation: record count, unique IDs, 100 per paper sequence, options, answer tokens, answer-key parity passed"
+    ],
+    "commits": [
+      "3fdadbb38dc34c569d5460e6b3e398f2bd3ba7ca",
+      "806fcac368170c56b619f56b421aaafbf6f4f7f6",
+      "1f52690b3bf4f7d5e03061506f8ac13814476382",
+      "006431d6a1a47aa1d21e5df84169285755335a64"
+    ],
+    "limitations": [
+      "261 records still require original-page visual verification",
+      "298 mappings remain provisional and Dec 2024 Q20 pending"
+    ],
+    "noMerge": true
   }
 ]
