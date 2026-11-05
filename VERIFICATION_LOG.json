@@ -5077,5 +5077,39 @@
       "Dec24 Q20 mapping remains pending; 298 provisional mappings remain"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 mapping review batch 1 — Nov 2023 100 questions",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "records": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 109,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 101,
+      "mappingProvisional": 198,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Reviewed all 100 Nov 2023 question stems/options against detailed official Code 29 syllabus units 1-10",
+      "Updated each Nov 2023 record to verified_against_official_syllabus and added question-level rationale against exact unit descriptions",
+      "Visual source checks completed for all 100 Nov23 questions: 84 GSET-hosted pages, 16 secondary-hosted original scan page images with explicit provenance caveat",
+      "Reconciled paper manifest and subject-level mapping counts",
+      "Ran structural validation and confirmed combined audit run 42027141040 success"
+    ],
+    "commits": [
+      "7d51b048cb1dc231a3311d7770bea646a528dd33",
+      "2792f13f9142f4149a0f75bc1e9ab55100f42684",
+      "bee3dfcaa896df8964291045b855d678fb5d4f07",
+      "af0db5a0ae5e892dc4fb79095bded707e8626d9a"
+    ],
+    "limitations": [
+      "198 provisional mappings and one pending mapping remain",
+      "191 source visual checks remain (Dec24 100, Nov25 91)",
+      "Gujarati question/options translation remains blank, therefore review flags remain"
+    ],
+    "noMerge": true
   }
 ]
