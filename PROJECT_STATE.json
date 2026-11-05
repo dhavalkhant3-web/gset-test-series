@@ -78,7 +78,7 @@
       "sessions": 3,
       "source_verified_marked": 93,
       "review_flags": 300,
-      "official_answer_key_status": "300/300 final answer letters independently reconciled to official GSET final answer-key tables.",
+      "official_answer_key_status": "300/300 answer letters independently reconciled against official GSET final answer-key tables.",
       "gujarati_source_transcribed": 0,
       "mapping": {
         "verified": 1,
@@ -86,7 +86,7 @@
         "pending": 1
       },
       "question_bank_sha": "33199f906b9ae7a8a0a63603aea50d88c85b5e94",
-      "status": "93 original-page visual checks complete (Nov23 84, Nov25 9); 300/300 final-key parity; mapping 1 verified, 298 provisional, 1 pending",
+      "status": "93 original-page visual checks complete; all 300 official answer keys reconciled; 1 mapping verified, 298 provisional, 1 pending",
       "mapping_updates": {
         "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
         "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
@@ -530,7 +530,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "IKS Code 29: visually verify remaining 207 records (Nov23 Q25-Q33,Q94-Q100; Dec24 all100; Nov25 91 remaining); review 298 provisional mappings; resolve Dec24 Q20 with source context; confirm CI on latest data.",
+    "IKS Code 29: visually verify remaining 207 original-paper records (Nov23 Q25-Q33 and Q94-Q100; Dec24 all100; Nov25 91 remaining); review 298 provisional mappings; resolve Dec24 Q20 with source context; recover timed-out/missing source pages.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
@@ -1054,6 +1054,11 @@
       "nov23_q34_93": 60,
       "nov25_q20_23_q27_31": 9
     },
-    "latest_structural_validation": "PASS"
+    "latest_structural_validation": "PASS",
+    "latest_combined_audit": {
+      "run_id": 42026099099,
+      "conclusion": "success",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42026099099"
+    }
   }
 }
