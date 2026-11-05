@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-03
+Updated: 2026-11-05
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -723,3 +723,12 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Updated only mapping unit fields/status/rationale for these eight question records; all question text, options, answers, source verification and review flags remain unchanged.
 - Current integrated mapping counts: 15 manually reviewed, 168 provisional, 117 pending, 0 officially verified; unit fields populated on 183 records. Dec24 split is 15/76/9; Nov23 0/43/57; Nov25 0/49/51.
 - Progress and paper manifests synchronized. No PR merge; Paper-I and Code 01 untouched.
+
+
+## 2026-11-05 — Indian Knowledge System (Code 29) execution checkpoint
+- Live integration head at audit start: `797d305b55c1a6cae8498eabd15f7448f20398e7`. Two question-level syllabus mappings were resolved using the existing question-bank text and official GSET Code 29 syllabus: Dec 2024 Q20 (“ga” syllable, Kala/classical music) → Unit 9; Nov 2025 Q15 (classical Tamil vocabulary) → Unit 2 (Indian Languages and Literature). Mapping rationale records explicitly keep original-paper page visual verification pending.
+- Question-bank commit: `98ba316bcb4c5cc175cce053512395a9ff224d1b`; paper-manifest count reconciliation commit: `a94296543b93eea00bb849dab16d2ed61ace0967`. Current question-level mapping totals: 2 mappings marked verified against syllabus, 298 remain provisional, 0 pending.
+- Official Code 29 syllabus PDF was retrieved and inspected (16 pages). Official November 2023 Paper-II PDF was retrieved as a 16-page PDF; page images visibly inspected for Q1–24, Q48–55 and Q79–86 sample page ranges, but these did not constitute a complete 100-question paper verification. December 2024 and November 2025 PDFs were found (16 pages each), but individual page screenshots timed out in this session.
+- Final-key parity structural check of the existing 300 question records: 100 per session; stored `answer` and `official_answer` fields match on all 300. Key tables located for Nov 2023 and Dec 2024 on ExamsRepo mirrors, and Nov 2025 on the official GSET answer-key URL; full independent key-table-to-record transcription was not completed in this batch.
+- Current bank status after these commits: 300 records, 300 active review flags, 0 `source_verified` records, 2 syllabus mappings marked verified, 298 provisional, 0 mapping-pending. All three paper manifests reflect 100 questions each and reconciled mapping counts.
+- JSON validation / CI were not run in this checkpoint. No PR was merged; Code 01 and Paper-I untouched.
