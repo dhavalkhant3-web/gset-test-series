@@ -4738,5 +4738,85 @@
       "No PR merged; Paper-I and Code 01 untouched",
       "No provisional or pending mapping promoted to officially verified"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "event": "Indian Knowledge System Code 29 source access, two syllabus mappings and manifest reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "branch_head_at_start": "797d305b55c1a6cae8498eabd15f7448f20398e7",
+    "actions": [
+      "Retrieved and inspected official GSET Code 29 syllabus PDF (16 pages)",
+      "Retrieved official November 2023 Paper-II PDF (16 pages) and inspected available source-page screenshots for Q1-24, Q48-55 and Q79-86; this is a partial visual sampling, not a full paper review",
+      "Located December 2024 and November 2025 16-page question-paper PDFs; page screenshot attempts timed out",
+      "Resolved GSET_29_DEC24_020 to Unit 9 (Kala/classical music) and GSET_29_NOV25_015 to Unit 2 (Indian Languages and Literature), using question-bank text and official syllabus; kept original-page visual verification pending",
+      "Reconciled papers.json mapping counts to question-level mapping statuses",
+      "Checked all 300 records for count, unique ID, 100 per session, four English options, supported answer values, internal answer/official_answer parity"
+    ],
+    "result": {
+      "records": 300,
+      "unique_ids": 300,
+      "per_paper": {
+        "indian_knowledge_system_nov23": 100,
+        "indian_knowledge_system_dec24": 100,
+        "indian_knowledge_system_nov25": 100
+      },
+      "question_numbers_ok": true,
+      "four_options": true,
+      "valid_answers": true,
+      "answer_mismatches": 0,
+      "source_verified": 0,
+      "review_flags": 300,
+      "mapping": {
+        "provisional_content_based_pending_official_verification": 298,
+        "verified_against_official_syllabus": 2
+      },
+      "records_by_paper": {
+        "indian_knowledge_system_nov23": {
+          "records": 100,
+          "source_verified": 0,
+          "review_flags": 100,
+          "mapping_verified": 0,
+          "mapping_provisional": 100,
+          "mapping_pending": 0,
+          "answer_mismatch": 0
+        },
+        "indian_knowledge_system_dec24": {
+          "records": 100,
+          "source_verified": 0,
+          "review_flags": 100,
+          "mapping_verified": 1,
+          "mapping_provisional": 99,
+          "mapping_pending": 0,
+          "answer_mismatch": 0
+        },
+        "indian_knowledge_system_nov25": {
+          "records": 100,
+          "source_verified": 0,
+          "review_flags": 100,
+          "mapping_verified": 1,
+          "mapping_provisional": 99,
+          "mapping_pending": 0,
+          "answer_mismatch": 0
+        }
+      },
+      "visual_questions_fully_verified": 0,
+      "syllabus_mapping_verified": 2,
+      "syllabus_mapping_provisional": 298,
+      "syllabus_mapping_pending": 0
+    },
+    "commits": [
+      "98ba316bcb4c5cc175cce053512395a9ff224d1b",
+      "a94296543b93eea00bb849dab16d2ed61ace0967"
+    ],
+    "limitations": [
+      "Question page image inspection was partial; source_verified flags deliberately remain false for all 300",
+      "Final-key tables were located but independent 300-key table transcription/reconciliation was not rerun",
+      "December 2024 and November 2025 PDF page screenshots timed out",
+      "JSON validation and CI not run"
+    ],
+    "non_actions": [
+      "No question stems, options, answer letters, Gujarati translations or images changed",
+      "No PR merged; Code 01 and Paper-I untouched"
+    ]
   }
 ]
