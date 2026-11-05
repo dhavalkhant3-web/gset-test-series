@@ -76,17 +76,17 @@
       "name": "Indian Knowledge System",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 70,
+      "source_verified_marked": 93,
       "review_flags": 300,
-      "official_answer_key_status": "300/300 answer letters reconciled to official final answer-key tables; zero mismatches.",
+      "official_answer_key_status": "300/300 final answer letters independently reconciled to official GSET final answer-key tables.",
       "gujarati_source_transcribed": 0,
       "mapping": {
         "verified": 1,
         "provisional": 298,
         "pending": 1
       },
-      "question_bank_sha": "fb505db57dd694fb92bf643f78852b04351ab0be",
-      "status": "70 original-page visual checks complete (Nov23 61, Nov25 9); all final-key rows reconciled; 1 mapping verified, 298 provisional, 1 pending",
+      "question_bank_sha": "33199f906b9ae7a8a0a63603aea50d88c85b5e94",
+      "status": "93 original-page visual checks complete (Nov23 84, Nov25 9); 300/300 final-key parity; mapping 1 verified, 298 provisional, 1 pending",
       "mapping_updates": {
         "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
         "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
@@ -159,6 +159,29 @@
         "GSET_29_NOV23_068",
         "GSET_29_NOV23_069",
         "GSET_29_NOV23_070",
+        "GSET_29_NOV23_071",
+        "GSET_29_NOV23_072",
+        "GSET_29_NOV23_073",
+        "GSET_29_NOV23_074",
+        "GSET_29_NOV23_075",
+        "GSET_29_NOV23_076",
+        "GSET_29_NOV23_077",
+        "GSET_29_NOV23_078",
+        "GSET_29_NOV23_079",
+        "GSET_29_NOV23_080",
+        "GSET_29_NOV23_081",
+        "GSET_29_NOV23_082",
+        "GSET_29_NOV23_083",
+        "GSET_29_NOV23_084",
+        "GSET_29_NOV23_085",
+        "GSET_29_NOV23_086",
+        "GSET_29_NOV23_087",
+        "GSET_29_NOV23_088",
+        "GSET_29_NOV23_089",
+        "GSET_29_NOV23_090",
+        "GSET_29_NOV23_091",
+        "GSET_29_NOV23_092",
+        "GSET_29_NOV23_093",
         "GSET_29_NOV25_020",
         "GSET_29_NOV25_021",
         "GSET_29_NOV25_022",
@@ -507,7 +530,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "IKS Code 29: visually verify remaining 230 question records (Nov23 Q25-Q33 and Q71-Q100; Dec24 all100; Nov25 91 remaining); review 298 provisional mappings; resolve Dec24 Q20 using original context; check latest audit and Debug APK.",
+    "IKS Code 29: visually verify remaining 207 records (Nov23 Q25-Q33,Q94-Q100; Dec24 all100; Nov25 91 remaining); review 298 provisional mappings; resolve Dec24 Q20 with source context; confirm CI on latest data.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
@@ -971,7 +994,7 @@
       "provisional": 298,
       "pending": 1
     },
-    "source_verified": 70,
+    "source_verified": 93,
     "review_flags": 300,
     "combined_audit": {
       "run_id": 42023324889,
@@ -1010,7 +1033,7 @@
       "conclusion": "success",
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978"
     },
-    "remaining_visual_questions": 230,
+    "remaining_visual_questions": 207,
     "visual_batch_page6": {
       "printedPage": 6,
       "count": 4
@@ -1028,7 +1051,7 @@
     },
     "visual_batches": {
       "nov23_q1_24": 24,
-      "nov23_q34_70": 37,
+      "nov23_q34_93": 60,
       "nov25_q20_23_q27_31": 9
     },
     "latest_structural_validation": "PASS"
