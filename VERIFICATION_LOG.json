@@ -5043,5 +5043,39 @@
       "Mapping: 298 provisional, one pending"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 original-page visual batch 6 (Nov 2023 Q71-Q93) and combined audit status",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "total": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 93,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 1,
+      "mappingProvisional": 298,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Rendered official Nov 2023 Paper-II printed pages 12-14 and visually compared Q71-Q93",
+      "Corrected question and option transcription where source scan differed from bank",
+      "Marked 23 question records source_verified=true with printed page number",
+      "Updated paper manifest and subject registry counts to Nov23 84 visual verified, Nov25 9, Dec24 0",
+      "Structural validation PASS: 300 IDs/counts/sequences/options/answer token/parity checks",
+      "Confirmed combined bank audit workflow success run 42026099099 for current IKS question-bank and manifest content"
+    ],
+    "commits": [
+      "20fef8032bdbcd7f2892f71265f00bb1b1f65a9d",
+      "0135a6ad91a8552fcdb5463562ace3fc74d3f2ab",
+      "b57268311c4299822a0ff658c862d912e1e2d6c0"
+    ],
+    "limitations": [
+      "207 question records still require original-page visual review",
+      "Nov23 Q25-Q33 page screenshot times out; Q94-Q100 source page not located in current scan route",
+      "Dec24 Q20 mapping remains pending; 298 provisional mappings remain"
+    ],
+    "noMerge": true
   }
 ]
