@@ -415,12 +415,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. All 300 answer letters reconciled against direct official final answer-key tables. Original-page visual checks: 117/300 (Nov23 100/100, Dec24 8/100 printed page22 via secondary-hosted original scan, Nov25 9/100 official pages6&8); 183 remain visual review pending. Syllabus mappings: 117 verified, 182 provisional, 1 pending (Dec24 Q20 remains ambiguous between Unit1 phonetics/grammar and Unit2 Indian language/pronunciation). Gujarati question/options transcription remains unpopulated; review flags remain active. Secondary-source provenance notes retained for mirror pages.",
+      "data_status": "300 Paper-II questions across 3 sessions. All 300 answer letters reconciled against direct official final answer-key tables. Original-page visual checks: 117/300 (Nov23 100/100; Dec24 8/100 printed page22 secondary-hosted original scan; Nov25 9/100 official printed pages6&8). Detailed syllabus mapping review: 207 verified, 92 provisional, 1 pending (Dec24 Q20 remains ambiguous Unit1 vs Unit2 despite source-page context). Gujarati transcription remains unpopulated; review flags remain active. Secondary-source provenance notes retained.",
       "status": "official_final_keys_reconciled_partial_original_page_review",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "verified": 117,
-        "provisional": 182,
+        "verified": 207,
+        "provisional": 92,
         "pending": 1
       }
     },
