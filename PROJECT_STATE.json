@@ -76,17 +76,17 @@
       "name": "Indian Knowledge System",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 4,
+      "source_verified_marked": 9,
       "review_flags": 300,
-      "official_answer_key_status": "All 300 question answer letters independently transcribed and reconciled against the complete official GSET final answer-key tables (Nov 2023, Dec 2024, Nov 2025); 300/300 parity confirmed.",
+      "official_answer_key_status": "300/300 question answer letters reconciled against direct official GSET final answer-key PDF tables; zero mismatches.",
       "gujarati_source_transcribed": 0,
       "mapping": {
         "verified": 1,
         "provisional": 298,
         "pending": 1
       },
-      "question_bank_sha": "101f8f98bfcefc56f6d2729f6a02a9d0893edd34",
-      "status": "4 original-page visual verifications complete; official answer keys reconciled 300/300; 1 mapping verified, 298 provisional, 1 pending",
+      "question_bank_sha": "8957163ccc3ff324b086246a6ae2d9a64fab0779",
+      "status": "9 original-page visual verifications complete; all 300 answer-key checks reconciled; mapping 1 verified, 298 provisional, 1 pending",
       "mapping_updates": {
         "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
         "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
@@ -101,7 +101,12 @@
         "GSET_29_NOV25_020",
         "GSET_29_NOV25_021",
         "GSET_29_NOV25_022",
-        "GSET_29_NOV25_023"
+        "GSET_29_NOV25_023",
+        "GSET_29_NOV25_027",
+        "GSET_29_NOV25_028",
+        "GSET_29_NOV25_029",
+        "GSET_29_NOV25_030",
+        "GSET_29_NOV25_031"
       ],
       "official_answer_key_urls": {
         "nov23": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
@@ -441,7 +446,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
-    "IKS Code 29: visually compare remaining 296 records against official question paper page images; review 298 provisional mappings; resolve Dec 2024 Q20 with original context; run latest combined audit and Debug APK after batch commits.",
+    "IKS Code 29: visually verify remaining 291 original-paper question records, review 298 provisional mappings, resolve Dec 2024 Q20 using original context, and rerun CI after latest page-8 batch.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
     "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
@@ -905,7 +910,7 @@
       "provisional": 298,
       "pending": 1
     },
-    "source_verified": 4,
+    "source_verified": 9,
     "review_flags": 300,
     "combined_audit": {
       "run_id": 42023324889,
@@ -944,6 +949,21 @@
       "conclusion": "success",
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978"
     },
-    "remaining_visual_questions": 296
+    "remaining_visual_questions": 291,
+    "visual_batch_page6": {
+      "printedPage": 6,
+      "count": 4
+    },
+    "visual_batch_page8": {
+      "printedPage": 8,
+      "count": 5,
+      "verifiedQuestionIds": [
+        "GSET_29_NOV25_027",
+        "GSET_29_NOV25_028",
+        "GSET_29_NOV25_029",
+        "GSET_29_NOV25_030",
+        "GSET_29_NOV25_031"
+      ]
+    }
   }
 }
