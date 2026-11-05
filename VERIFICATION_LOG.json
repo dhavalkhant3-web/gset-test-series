@@ -4977,5 +4977,38 @@
       "298 mappings remain provisional and Dec 2024 Q20 pending"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 original-page visual batch 4 (Nov 2023 Q1-Q24 and Q34-Q40)",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "total": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 70,
+      "reviewFlags": 300,
+      "answerKeyMatches": 300,
+      "mappingVerified": 1,
+      "mappingProvisional": 298,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Rendered official Nov 2023 Code 29 Paper-II printed pages 3, 4, 5 and 7; compared questions/options for Q1-Q24 and Q34-Q40",
+      "Corrected source spelling/transliteration/diacritics and OCR errors in terms and choices",
+      "Marked 31 records source_verified=true with printed page number; review flags remain active for syllabus/content mapping",
+      "Updated Nov 2023 manifest source-reviewed count/ID list and Code 29 subject status",
+      "Re-ran structural validation; all checks passed"
+    ],
+    "commits": [
+      "74426aad0b40ca00d7a6a4742afa1e7c056eb7ac",
+      "e3436fdf9a6fa54f03519e5d3506eef99512a482",
+      "f5de35b4884dc968ff9476861ed805c3147f8bae",
+      "410c9cd01d7e1ecf122e511a38ac9a4ee58e87e1"
+    ],
+    "limitations": [
+      "230 question records remain original-page visual review pending",
+      "Nov 2023 printed page 6 Q25-Q33 and Dec 2024 pages remain inaccessible by screenshot; mapping Dec24 Q20 pending"
+    ],
+    "noMerge": true
   }
 ]
