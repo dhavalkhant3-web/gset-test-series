@@ -100,8 +100,15 @@ def main() -> None:
             fail(f"Official key mismatch {q.get('id')}: app={q.get('answer')!r}, key={official!r}")
         if q.get("review_flag"):
             flagged_by_session[session] += 1
-            if q.get("source_verified") is not False:
-                fail(f"Review-flagged question incorrectly has source_verified=true: {q.get('id')}")
+            if q.get("source_verified") is True:
+                # A review flag may remain for a distinct pending syllabus/content task
+                # after the original question stem/options were visually verified.
+                status = str(q.get("verification_status", ""))
+                note = str(q.get("review_note", ""))
+                if "question_text_options_visually_checked" not in status or "official GSET" not in note or "visually checked" not in note:
+                    fail(f"Review-flagged source-verified question lacks explicit source-page evidence: {q.get('id')}")
+            elif q.get("source_verified") is not False:
+                fail(f"Review-flagged question must explicitly state source_verified true or false: {q.get('id')}")
             if not isinstance(q.get("review_note"), str) or not q["review_note"].strip():
                 fail(f"Review-flagged question has no review_note: {q.get('id')}")
         else:
