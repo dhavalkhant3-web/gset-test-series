@@ -415,12 +415,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across 3 sessions. All 300 answer letters reconciled against official final answer-key tables. Original-page visual checks: 109/300 (Nov23 100/100 visually checked against page images of the original booklet; Q25-Q33 and Q94-Q100 hosted on secondary mirror because corresponding GSET archive pages timed out; Nov25 9/100; Dec24 0/100). Detailed syllabus mappings reviewed: 101/300 verified, 198 provisional, 1 pending (Dec24 Q20). Gujarati question/options transcription remains unpopulated; review flags remain active.",
+      "data_status": "300 Paper-II questions across 3 sessions. All 300 answer letters reconciled against official final answer-key tables. Original-page visual checks: 109/300 (Nov23 100/100; Nov25 9/100 printed pages 6 and 8; Dec24 0/100). Detailed syllabus mappings reviewed: 110/300 verified, 189 provisional, 1 pending (Dec24 Q20). Gujarati question/options transcription remains unpopulated; review flags remain active. Nov23 Q25-Q33 and Q94-Q100 visual source images were secondary-hosted original scans; explicit provenance notes retained.",
       "status": "official_final_keys_reconciled_partial_original_page_review",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_counts": {
-        "verified": 101,
-        "provisional": 198,
+        "verified": 110,
+        "provisional": 189,
         "pending": 1
       }
     },
