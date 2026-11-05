@@ -4913,5 +4913,36 @@
     "non_actions": [
       "No PR merged; Code 01 and Paper-I untouched"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "event": "IKS Code 29 original-paper printed page 8 visual verification batch",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "total": 300,
+      "uniqueIds": 300,
+      "sourceVerified": 9,
+      "reviewFlags": 300,
+      "officialKeyMatches": 300,
+      "mappingVerified": 1,
+      "mappingProvisional": 298,
+      "mappingPending": 1
+    },
+    "actions": [
+      "Rendered official GSET Nov 2025 Code 29 paper printed page 8 and compared Q27-Q31 stems/options/order",
+      "Corrected exact transcribed Sanskrit diacritics and Q28 bhūdhara term from official scan",
+      "Marked five records source_verified=true and source_page_number=8 while keeping review flags active for syllabus/content review",
+      "Reconciled Nov 2025 paper manifest and Code 29 subject registry counts"
+    ],
+    "commits": [
+      "121ee62826bacd6a69905f854489930897902b34",
+      "2ac64af7927265a1be1755dd26c40bebaa700c5f",
+      "8a25fdff0f226ac283ede3c8360928476feaa39d"
+    ],
+    "limitations": [
+      "291/300 question records still need original-page visual verification",
+      "298 mappings remain provisional; one pending mapping remains"
+    ],
+    "noMerge": true
   }
 ]
