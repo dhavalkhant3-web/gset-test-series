@@ -1300,5 +1300,22 @@
     "question_bank_parity": "pending",
     "note": "Sidecar presence is not equivalent to question-bank answer reconciliation; the bank tally remains 304/1300.",
     "latest_commit": "2b85f002b268e36acf19ba7f24d4c89bd2153cfe"
+  },
+  "code02_dec24_small_file_audit": {
+    "archive_records": 25,
+    "verified_addition_records": 21,
+    "english_stems_complete": true,
+    "english_options_four_and_nonempty": true,
+    "archive_review_flags": 2,
+    "verified_addition_review_flags": 0,
+    "syllabus_unit_candidates": {
+      "physical_dec24_q54-q58": "unit_5",
+      "physical_dec24_q81-q88": "unit_9",
+      "physical_dec24_q89": "unit_8",
+      "physical_dec24_q94-q100": "unit_8"
+    },
+    "candidate_status": "preliminary_only; not source-page visually reconfirmed and not propagated into canonical questions.json",
+    "canonical_question_bank_parity": "blocked by blank connector payload",
+    "latest_commit": "fc1720c9a51800c1a4eb0ae57ddf92d862f31013"
   }
 }
