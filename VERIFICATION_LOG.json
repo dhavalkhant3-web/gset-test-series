@@ -6408,5 +6408,42 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 official final-key parity and completion-state register synchronization",
+    "branch": "integration/combined-subject-banks",
+    "latest_commit": "ef5e294028e9bd6d2c6157753d78150b2f098104",
+    "official_key_batches": [
+      {
+        "paper_id": "physical_aug17",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+        "question_count": 50,
+        "exact_matches": 50,
+        "answer_corrections": 4
+      },
+      {
+        "paper_id": "physical_dec08",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0802.pdf",
+        "question_count": 50,
+        "exact_matches": 50,
+        "answer_corrections": 4
+      }
+    ],
+    "current_parity_checkpoint": {
+      "reconciled": 850,
+      "total": 1300,
+      "pending_in_tally": 450
+    },
+    "user_completion_confirmation": "User stated actual Physical Sciences Code 02 work is complete; stale old metrics are not an active backlog.",
+    "legacy_metrics_retained_for_historical_reference": {
+      "option_structure_pending": 206,
+      "syllabus_mapping_pending": 466,
+      "review_flags": 380
+    },
+    "no_pr_merge": true,
+    "ci": "not run as part of register sync",
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
