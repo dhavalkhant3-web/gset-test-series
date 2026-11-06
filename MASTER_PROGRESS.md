@@ -884,3 +884,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Added `official_answer`, `answer_key_verified`, `answer_source`, `verification_status`, and preserved each previous answer in `answer_before_key_reconciliation`; all nine corrected records remain review-flagged pending question transcription/options/explanation review.
 - Post-reconciliation answer parity: 75/75, zero mismatches. Official key: https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf.
 - Question-paper visual proofreading and syllabus mapping were not done in this batch. CI/build not run or confirmed; no PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences September 2018 official final-key sidecar
+- Added `assets/subjects/physical_sciences/sept18_official_final_answer_key.json` containing the 100 question-number choices from the official GSET September 2018 Physical Sciences Paper-II final key.
+- Official source: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Preserved official `Z` non-evaluation answers (Q16, Q80, Q86).
+- Sidecar commit: `7516842dbf505f7cc01af6618f3b05c242fc057b`. Question-bank parity and complete original-page transcription remain pending; no questions.json edits, CI/build claim, or PR merge.
