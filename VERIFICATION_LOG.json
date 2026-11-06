@@ -5177,5 +5177,42 @@
       "Gujarati transcription blank; all review flags remain"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 latest historical bank recovery and schema-aware audit",
+    "branch": "integration/combined-subject-banks",
+    "result": {
+      "records": 1300,
+      "uniqueIds": 1300,
+      "paperII_sessions": 19,
+      "sourceVerified": 895,
+      "reviewFlags": 371,
+      "optionRecordsIncomplete": 210,
+      "provisionalMappings": 834,
+      "pendingMappings": 466,
+      "verifiedMappings": 0,
+      "answerTokensValid": 1300,
+      "answerKeyPdfReconciliation": "pending"
+    },
+    "actions": [
+      "Inspected current branch registers and historical questions.json commit history; current branch bank had an empty blob.",
+      "Recovered latest non-empty historical question-bank snapshot from commit 7be25307b86d65c640ee0f98c0e76dd40d738d8f, retaining all 1300 unique Paper-II records and 834 provisional syllabus mappings.",
+      "Restored question bank via auditable commit 85f64ea7fb7952a5921d0c7558e36abdb2c3469d.",
+      "Ran schema-aware option validation supporting options_en arrays and options.A-D objects; 1090 valid, 210 incomplete. All 210 incomplete option records already carry review_flag=true.",
+      "Reconciled high-level bank counts: 895 source_verified records, 371 flagged records, 834 provisional mappings and 466 pending mappings.",
+      "Found paper-manifest mismatches for Sep 2018, Nov 2023 and Dec 2024 and recorded precise counts for follow-up."
+    ],
+    "limitations": [
+      "No question-level option corrections were made in this audit because the 210 incomplete options require official original-page transcription.",
+      "All 1300 answer letters remain pending independent reconciliation against official final-key PDFs; answer token structural validity is not answer-key proof.",
+      "834 mappings are provisional, 466 pending, zero officially verified in the recovered bank snapshot.",
+      "Question source visual review remains incomplete for records still flagged."
+    ],
+    "commits": [
+      "6894b0d5a3af068c6e8bbcaa1b415b1aaf7e2f35",
+      "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
+    ],
+    "noMerge": true
   }
 ]
