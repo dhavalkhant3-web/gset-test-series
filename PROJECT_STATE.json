@@ -1634,5 +1634,15 @@
       "Paper-I"
     ],
     "pr_merges": 0
+  },
+  "physical_sciences_app_qa_followup": {
+    "date": "2026-11-06",
+    "ui_commit": "7cf7b5a51f3d5bae621a232317b2f3f44f4925bb",
+    "record_count_label": "Loaded Questions",
+    "practice_count_label": "loaded questions",
+    "verified_badge": "still in progress; not certified from count alone",
+    "confirmed_defect": "December 2024 Question 1 screenshot shows instruction text and no options",
+    "question_data_patch": "pending official original paper source confirmation",
+    "apk_rebuild": "triggered by commit push; wait for completion"
   }
 }
