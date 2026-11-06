@@ -1125,13 +1125,18 @@
       "00110111, 256 μs",
       "00110111, 8 μs"
     ],
-    "answer": "A",
+    "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer A conflicts with GSET official final/corrected Paper-III key (B). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "A",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q43",
@@ -1287,13 +1292,18 @@
       "Has a time constant when it is bare",
       "Has a low time constant when it is provided with a sheath"
     ],
-    "answer": "D",
+    "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer D conflicts with GSET official final/corrected Paper-III key (C). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "D",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q49",
@@ -1314,13 +1324,18 @@
       "3%",
       "1%"
     ],
-    "answer": "C",
+    "answer": "A",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer C conflicts with GSET official final/corrected Paper-III key (A). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "C",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q50",
@@ -1368,13 +1383,18 @@
       "Tuned Amplifier",
       "RC coupled Amplifier"
     ],
-    "answer": "A",
+    "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer A conflicts with GSET official final/corrected Paper-III key (D). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "A",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q52",
@@ -1395,13 +1415,18 @@
       "12 dB per octave",
       "6 dB per octave"
     ],
-    "answer": "A",
+    "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer A conflicts with GSET official final/corrected Paper-III key (C). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "A",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q53",
@@ -1422,13 +1447,18 @@
       "Applying input parallelly to HPF with f_c = 5 kHz and LPF with f_c = 17 kHz and summing their outputs",
       "Connecting LPF with f_c = 17 kHz and HPF with f_c = 5 kHz in series"
     ],
-    "answer": "C",
+    "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer C conflicts with GSET official final/corrected Paper-III key (B). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "C",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q54",
@@ -1476,13 +1506,18 @@
       "12",
       "16"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer B conflicts with GSET official final/corrected Paper-III key (D). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "B",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q56",
@@ -1719,13 +1754,18 @@
       "Graph C: ln T decreases linearly with ln M",
       "Graph D: ln T increases and saturates with ln M"
     ],
-    "answer": "D",
+    "answer": "C",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer D conflicts with GSET official final/corrected Paper-III key (C). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "D",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q65",
@@ -1989,13 +2029,18 @@
       "Decreases with Z",
       "Increases with Z and A"
     ],
-    "answer": "C",
+    "answer": "B",
     "topic": "Physical Sciences",
     "difficulty": "Official PYQ",
-    "review_flag": false,
-    "review_note": "",
+    "review_flag": true,
+    "review_note": "Stored answer C conflicts with GSET official final/corrected Paper-III key (B). Official key retained; inspect question transcription/options/explanation against original source.",
     "source_verified": true,
-    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key"
+    "source": "GSET official September 2016 Physical Sciences Paper-III question paper + final/corrected answer key",
+    "answer_before_key_reconciliation": "C",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_sep16_p3_q75",
