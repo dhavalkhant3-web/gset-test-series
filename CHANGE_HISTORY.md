@@ -733,3 +733,9 @@
 - Compared all 100 canonical `physical_dec21` answers against the official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf. Result: 100/100 exact matches, zero mismatches, and no canonical answer edits.
 - The Dec 2021 answer-key sidecar's five transcription errors (Q93, Q94, Q95, Q96, Q98) had already been repaired directly from the official PDF table. Final-key parity total increases 404/1,300 -> 504/1,300; 796 pending.
 - No visual review flags or syllabus mappings cleared. PR not merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 September 2018 direct official final-key parity
+- Directly compared canonical `physical_sep18` Q1-Q100 answers against the official GSET FINAL answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Result: 100/100 exact matches, zero mismatches and no canonical answer edits.
+- Preserved official Z/non-evaluated entries at Q16, Q80 and Q86. Existing visual/source review flags (59 for Sep18) remain independent.
+- Code02 final-key parity increased 504/1,300 -> 604/1,300; 696 pending. No PR merge.
