@@ -635,6 +635,10 @@
       "path": "assets/subjects/subjects.json",
       "commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
       "action": "Physical Sciences Code02 progress metadata synchronized to 104/1300 final-key reconciled"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "corrected 11 canonical answer records after direct comparison to official GSET Dec 2024 and Nov 2022 Physical Sciences final-key PDFs; preserved all unrelated records and existing review flags"
     }
   ],
   "no_changes_made": [
@@ -1163,16 +1167,15 @@
   "latest_execution_checkpoint": {
     "date": "2026-11-06",
     "branch": "integration/combined-subject-banks",
-    "scope": "Physical Sciences Code 02 September 2018 official final-key sidecar transcription",
-    "sidecar_commit": "7516842dbf505f7cc01af6618f3b05c242fc057b",
-    "answer_rows_transcribed": 100,
-    "official_Z": [
-      16,
-      80,
-      86
+    "scope": "Physical Sciences Code 02 canonical answer-key parity corrections for Dec 2024 Q36-Q43/Q47-Q48 and Nov 2022 Q62",
+    "verified_official_final_key_rows": 11,
+    "answer_key_reconciled_total": "315/1300",
+    "answer_key_pending": 985,
+    "official_source_pdfs": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
     ],
-    "question_bank_parity": "pending",
-    "ci_run": "not run",
+    "ci_run": "pending",
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
@@ -1425,5 +1428,120 @@
     "question_edits": 0,
     "ci": "not run",
     "pr_merges": 0
+  },
+  "code02_canonical_bank_answer_key_parity_batch": {
+    "date": "2026-11-06",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "checked_papers": [
+      "physical_dec24",
+      "physical_nov22"
+    ],
+    "mismatches_corrected": 11,
+    "questions": [
+      {
+        "id": "physical_dec24_q36",
+        "exam": "December 2024",
+        "question_number": 36,
+        "old_answer": "D",
+        "official_final_answer": "A",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q37",
+        "exam": "December 2024",
+        "question_number": 37,
+        "old_answer": "D",
+        "official_final_answer": "C",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q38",
+        "exam": "December 2024",
+        "question_number": 38,
+        "old_answer": "C",
+        "official_final_answer": "B",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q39",
+        "exam": "December 2024",
+        "question_number": 39,
+        "old_answer": "C",
+        "official_final_answer": "A",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q40",
+        "exam": "December 2024",
+        "question_number": 40,
+        "old_answer": "A",
+        "official_final_answer": "C",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q41",
+        "exam": "December 2024",
+        "question_number": 41,
+        "old_answer": "A",
+        "official_final_answer": "D",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q42",
+        "exam": "December 2024",
+        "question_number": 42,
+        "old_answer": "C",
+        "official_final_answer": "B",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q43",
+        "exam": "December 2024",
+        "question_number": 43,
+        "old_answer": "B",
+        "official_final_answer": "A",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q47",
+        "exam": "December 2024",
+        "question_number": 47,
+        "old_answer": "B",
+        "official_final_answer": "D",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_dec24_q48",
+        "exam": "December 2024",
+        "question_number": 48,
+        "old_answer": "A",
+        "official_final_answer": "B",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "id": "physical_nov22_q62",
+        "exam": "November 2022",
+        "question_number": 62,
+        "old_answer": "B",
+        "official_final_answer": "A",
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+      }
+    ],
+    "answer_key_reconciled_count_before": 304,
+    "answer_key_reconciled_count_after": 315,
+    "answer_key_pending_count": 985,
+    "review_flags_retained": 376,
+    "syllabus_mapping_pending": 466,
+    "visual_review_promotions": 0,
+    "syllabus_mapping_promotions": 0,
+    "ci": "pending execution",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 }

@@ -5923,5 +5923,108 @@
     "question_edits": 0,
     "ci": "not run",
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 canonical bank official final-key parity corrections",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "verified_question_count": 11,
+    "changed_answers": [
+      {
+        "question_id": "physical_dec24_q36",
+        "exam": "December 2024",
+        "question_number": 36,
+        "old_answer": "D",
+        "official_final_answer": "A",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q37",
+        "exam": "December 2024",
+        "question_number": 37,
+        "old_answer": "D",
+        "official_final_answer": "C",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q38",
+        "exam": "December 2024",
+        "question_number": 38,
+        "old_answer": "C",
+        "official_final_answer": "B",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q39",
+        "exam": "December 2024",
+        "question_number": 39,
+        "old_answer": "C",
+        "official_final_answer": "A",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q40",
+        "exam": "December 2024",
+        "question_number": 40,
+        "old_answer": "A",
+        "official_final_answer": "C",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q41",
+        "exam": "December 2024",
+        "question_number": 41,
+        "old_answer": "A",
+        "official_final_answer": "D",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q42",
+        "exam": "December 2024",
+        "question_number": 42,
+        "old_answer": "C",
+        "official_final_answer": "B",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q43",
+        "exam": "December 2024",
+        "question_number": 43,
+        "old_answer": "B",
+        "official_final_answer": "A",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q47",
+        "exam": "December 2024",
+        "question_number": 47,
+        "old_answer": "B",
+        "official_final_answer": "D",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_dec24_q48",
+        "exam": "December 2024",
+        "question_number": 48,
+        "old_answer": "A",
+        "official_final_answer": "B",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf"
+      },
+      {
+        "question_id": "physical_nov22_q62",
+        "exam": "November 2022",
+        "question_number": 62,
+        "old_answer": "B",
+        "official_final_answer": "A",
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+      }
+    ],
+    "source_evidence": "Official GSET Final Answer Key PDFs opened and crosschecked: December 2024 Code 02 and November 2022 Code 02. Values are directly transcribed from PDF answer-key table lines.",
+    "result": "11 mismatched canonical answer records corrected; other matched answer records retained; review flags for visual/source concerns retained; no syllabus mapping or source_visual review status promoted.",
+    "ci": "not run yet",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
