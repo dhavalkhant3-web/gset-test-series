@@ -5647,5 +5647,35 @@
     "bank_parity": "not checked",
     "note": "Sidecar JSON answer arrays are source-transcribed; these records do not change the bank's reconciliation tally (304/1300).",
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 Dec 2024 small-file English option audit and syllabus-unit candidate review",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/questions_dec24_archive.json",
+      "assets/subjects/physical_sciences/questions_dec24_verified_additions.json",
+      "assets/subjects/syllabus_units.json"
+    ],
+    "findings": {
+      "archive_records": 25,
+      "verified_addition_records": 21,
+      "english_stems_complete": true,
+      "english_options_complete": true,
+      "archive_review_flags": 2,
+      "verified_addition_review_flags": 0
+    },
+    "syllabus_unit_candidates": {
+      "q54_q58": "unit_5",
+      "q81_q88": "unit_9",
+      "q89_and_q94_q100": "unit_8"
+    },
+    "limitations": [
+      "These are candidate mappings only, not verified records.",
+      "Canonical 2.58 MB questions.json content unavailable via connector; no parity/merge performed.",
+      "Q94 graph remains pending original page visual check."
+    ],
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+    "noMerge": true
   }
 ]
