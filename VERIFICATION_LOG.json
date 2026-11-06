@@ -6445,5 +6445,61 @@
     "ci": "not run as part of register sync",
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 October 2014 direct official final/corrected key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "key_sidecar": "assets/subjects/physical_sciences/oct14_official_final_answer_key.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf",
+    "paper_id": "physical_oct14",
+    "question_count": 50,
+    "exact_matches": 50,
+    "mismatches": 0,
+    "canonical_answer_changes": [
+      {
+        "q": 49,
+        "old": "B",
+        "official": "C"
+      }
+    ],
+    "answer_key_reconciled_count_before": 850,
+    "answer_key_reconciled_count_after": 900,
+    "answer_key_pending_count": 400,
+    "source_method": "Official final/corrected one-page PDF screenshot visually transcribed",
+    "result": "Canonical Oct 2014 Q1-Q50 directly matched official final/corrected key after Q49 correction.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 October 2011 direct official final-key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "key_sidecar": "assets/subjects/physical_sciences/oct11_official_final_answer_key.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
+    "paper_id": "physical_oct11",
+    "question_count": 50,
+    "exact_matches": 50,
+    "mismatches": 0,
+    "canonical_answer_changes": [
+      {
+        "q": 24,
+        "old": "D",
+        "official": "A"
+      }
+    ],
+    "answer_key_reconciled_count_before": 900,
+    "answer_key_reconciled_count_after": 950,
+    "answer_key_pending_count": 350,
+    "source_method": "Official final one-page PDF screenshot visually transcribed",
+    "result": "Canonical Oct 2011 Q1-Q50 directly matched official final-key scan after Q24 correction.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
