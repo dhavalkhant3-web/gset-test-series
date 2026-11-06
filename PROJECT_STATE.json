@@ -1304,5 +1304,24 @@
     "candidate_status": "preliminary_only; not source-page visually reconfirmed and not propagated into canonical questions.json",
     "canonical_question_bank_parity": "blocked by blank connector payload",
     "latest_commit": "fc1720c9a51800c1a4eb0ae57ddf92d862f31013"
+  },
+  "code02_sep18_key_provenance_review": {
+    "date": "2026-11-06",
+    "records_answer_key_verified": [
+      39,
+      41,
+      58
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
+    "source_question_visual_review_pending": [
+      39,
+      41,
+      58
+    ],
+    "review_flags_retained": true,
+    "canonical_bank_parity": "pending; large questions.json payload blank in connector",
+    "ci": "not run",
+    "pr_merges": 0,
+    "latest_source_review_commit": "d1433d815bc6cdfae91c6624d9d5a96e23997ceb"
   }
 }
