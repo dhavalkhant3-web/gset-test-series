@@ -1410,5 +1410,20 @@
     "syllabus_mapping": "pending",
     "ci": "not run",
     "pr_merges": 0
+  },
+  "code02_sep18_q32_q86_key_status_crosscheck": {
+    "date": "2026-11-06",
+    "official_final_key_answers": {
+      "Q32": "C",
+      "Q86": "Z"
+    },
+    "Q86_evaluation_status": "not_evaluated_official_final_key",
+    "source_review_sidecar_status_already_correct": true,
+    "source_verified": true,
+    "review_flag": false,
+    "canonical_bank_parity": "pending_connector_large_blob_unavailable",
+    "question_edits": 0,
+    "ci": "not run",
+    "pr_merges": 0
   }
 }
