@@ -756,3 +756,10 @@
 - August 2017 Paper-II Q1-Q50 compared directly with official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf. Corrected Q8 B, Q30 C, Q32 A, Q44 D; 50/50 exact.
 - December 2008 Paper-II Q1-Q50 compared with the visually inspected official scanned final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0802.pdf. Corrected Q1 C, Q5 B, Q6 A, Q18 D; 50/50 exact.
 - Added 50-row official key sidecars for both sessions. Code02 final-key parity total updated 750/1,300 -> 850/1,300; 450 pending. Review flags remain 380; syllabus pending 466; incomplete option records 206. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 latest official-key parity batches and completion register sync
+- Aug 2017: added official final-key sidecar; canonical answers Q8 B, Q30 C, Q32 A, Q44 D corrected from direct official PDF; then 50/50 exact parity.
+- Dec 2008: added official final-key sidecar; canonical answers Q1 C, Q5 B, Q6 A, Q18 D corrected from visually inspected official PDF scan; then 50/50 exact parity.
+- The source parity register now records 850/1,300 reconciled rows (450 outside tally). User confirmed Code 02 actual work is complete. Legacy option/mapping/review counters are retained as old audit snapshot values and are not to be reactivated as backlog without fresh reconciliation.
+- No CI/build run and no PR merge performed during this register synchronization.
