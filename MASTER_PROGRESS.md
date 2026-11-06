@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-05
+Updated: 2026-11-06
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -12,7 +12,7 @@ Updated: 2026-11-05
 
 ## Current branch checkpoint (historical head reference; refresh from GitHub before next edit)
 - `main`: `2108d34bd6fce149d02d0d5054946dd42dffc79e`
-- Integration branch has continued advancing; verified live HEAD on 2026-11-03 is `3b4eacc7cf9ca9071b7ddd48cd93389c94ef5205`.
+- Integration branch has continued advancing; live HEAD on 2026-11-06 after Physical Sciences bank recovery is `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`.
 - PR #16 merge commit: `bedd33e6536e4eb35823049d62e1889c3f75e7a7`
 
 ## Integrated question-bank checkpoint
@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 sessions | 892 source_verified; 374 review flags; 213 unresolved option structures (all already flagged) | Sep 2018 Q32/Q86 audit CI passed on PR commit; full archive key count not rechecked here | Pending | 364 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 895 source_verified; 371 review flags; 210 incomplete English option structures (all already flagged; schema-aware audit) | Paper manifest marks official keys as verified; 1,300 individual answer letters have not been freshly reconciled to the final-key PDFs in this audit | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 371 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -811,3 +811,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Question-bank mapping commit 5aa81aa67da700f88281177339bf440dbb76d954; manifest commit 7fbd419cf7ba6f804098d0ad85414d0e59646f4a; subject registry commit adc7cde6a4e3ddbf148dc6eefd646907a46a93ad.
 - Current IKS counts: 117 original-page visual checks (Nov23 100, Dec24 8, Nov25 9); 300/300 official final-key rows reconciled; mapping 207 verified, 92 provisional, 1 pending (Dec24 Q20). Source visual backlog remains 183 (Dec24 92, Nov25 91). Gujarati translation is blank and all review flags remain active.
 - Structural validation PASS; latest combined audit passed run 42028313291 on subject-registry commit adc7cde6a4e3ddbf148dc6eefd646907a46a93ad: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42028313291 . Integration Debug APK workflow 42028313200 is in progress.
+
+## 2026-11-06 — Physical Sciences Code 02 historical-bank recovery and strict audit
+- The current integration question-bank blob had become empty. Recovered the latest non-empty historical bank snapshot from commit `7be25307b86d65c640ee0f98c0e76dd40d738d8f` (not the older October 7 import), then restored its exact 1,300 Paper-II records and existing provisional mapping fields. No question stems, options, answers, review notes, or mappings were newly invented in this restore.
+- Recovery commit: `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`. Prior intermediate restore of the older historical snapshot: `6894b0d5a3af068c6e8bbcaa1b415b1aaf7e2f35`; it was superseded immediately by the later snapshot restore preserving the more recent mapping progress.
+- Reparsed the recovered historical JSON: 1,300 records, 1,300 unique IDs, 19 Paper-II sessions, 895 source_verified=true, 371 review_flag=true, 210 incomplete English option records (all included in the review-flagged union), 834 provisional syllabus mappings, 466 unmapped/pending, 0 mappings verified. Answer tokens structurally valid: 1,287 A–D + 13 Z; this is not an independent final-key PDF reconciliation.
+- Paper manifest drift found and queued for reconciliation: September 2018 review flags 59 (manifest 58); November 2023 source_verified 69 (manifest 66) and review flags 31 (manifest 34); December 2024 source_verified 90 (manifest 99) and review flags 23 (manifest 14). Other per-paper counts match the recovered question bank.
+- Strict remaining tasks: repair the 210 option records using original official-paper pages (Dec 2019 and other identified pages); visually/source-review every unresolved record; reconcile all 1,300 answer letters against official final answer-key PDFs; verify 834 provisional mappings against the detailed official syllabus; resolve 466 pending mappings only where source-supported; synchronize paper manifest and audit registers; run combined CI and Debug APK build. No other subject files, Code 01, Paper-I, or PRs were modified/merged.
