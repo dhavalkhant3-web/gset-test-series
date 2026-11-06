@@ -750,3 +750,9 @@
 - December 2019: all canonical Paper-II Q1-Q100 directly matched the official final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. 100/100 exact; 96 rows newly counted beyond the previous Q17-Q20 checkpoint; no answer edits.
 - September 2016: canonical Q1-Q50 directly matched the official final/corrected key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf after answer corrections Q21 B, Q25 D, Q27 B, Q28 C, Q35 C, Q45 C, Q46 D. Added official 50-answer sidecar and changed standalone overlay Q28 B→C. Key/explanation/option OCR conflicts are flagged at Q21,Q25,Q27,Q28,Q35,Q45; no mapping verified.
 - Final-key parity count updated 604/1,300 -> 750/1,300; 550 pending. Review flags count increased 376 -> 380. Syllabus mapping pending (466) and incomplete option structures (206) unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 August 2017 + December 2008 direct official final-key parity
+- August 2017 Paper-II Q1-Q50 compared directly with official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf. Corrected Q8 B, Q30 C, Q32 A, Q44 D; 50/50 exact.
+- December 2008 Paper-II Q1-Q50 compared with the visually inspected official scanned final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0802.pdf. Corrected Q1 C, Q5 B, Q6 A, Q18 D; 50/50 exact.
+- Added 50-row official key sidecars for both sessions. Code02 final-key parity total updated 750/1,300 -> 850/1,300; 450 pending. Review flags remain 380; syllabus pending 466; incomplete option records 206. No PR merge.
