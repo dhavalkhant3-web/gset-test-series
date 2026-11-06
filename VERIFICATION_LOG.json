@@ -5590,5 +5590,40 @@
       "English option repairs and syllabus mapping remain pending."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 November 2023 Q1-Q100 official final-key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "c45a1594303b2a37fa2e192b67bbd960eaa440d2",
+    "question_bank_blob": "0824ba95c042f4981dc6b1be4b245f1edebeb7f3",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2302.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
+    "reconciled_question_count": 100,
+    "exact_matches": 100,
+    "answer_letter_mismatches": 0,
+    "result": {
+      "total_records": 1300,
+      "source_verified": 899,
+      "review_flags": 376,
+      "incomplete_options": 206,
+      "provisional_mappings": 834,
+      "pending_mappings": 466,
+      "verified_mappings": 0,
+      "answer_key_reconciled_total": 304,
+      "answer_key_pending": 996
+    },
+    "actions": [
+      "Transcribed official final-key table by four explicit q-number columns and checked each of Q1-Q100.",
+      "All 100 stored answer letters match official final key; no answer values were changed.",
+      "Added official_answer, answer_key_verified, answer_source and verification_status to Nov 2023 Q1-Q100.",
+      "Preserved all 31 existing Nov 2023 review flags and notes exactly.",
+      "Added answer-key metadata to Dec 2019 Q17-Q20, which were already visually verified on printed page 9.",
+      "Updated bank, paper manifest, subject registry, PROJECT_STATE, MASTER_PROGRESS, CHANGE_HISTORY and VERIFICATION_LOG."
+    ],
+    "limitations": [
+      "Question-page visual review, English option correction and syllabus mapping remain separate."
+    ],
+    "noMerge": true
   }
 ]
