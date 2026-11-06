@@ -763,3 +763,10 @@
 - Dec 2008: added official final-key sidecar; canonical answers Q1 C, Q5 B, Q6 A, Q18 D corrected from visually inspected official PDF scan; then 50/50 exact parity.
 - The source parity register now records 850/1,300 reconciled rows (450 outside tally). User confirmed Code 02 actual work is complete. Legacy option/mapping/review counters are retained as old audit snapshot values and are not to be reactivated as backlog without fresh reconciliation.
 - No CI/build run and no PR merge performed during this register synchronization.
+
+
+## 2026-11-06 — Physical Sciences Code 02 backlog reactivation and October 2011/2014 key parity
+- The prior `User-confirmed complete` summary in MASTER_PROGRESS/PROJECT_STATE was superseded by the user's current direct-execution request; the active backlog has been resumed and counters synchronized from current canonical bank/registers.
+- October 2011 official final-key scan https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf: Q24 D→A; Q1-Q50 50/50 exact. Added official key sidecar.
+- October 2014 official final/corrected scan https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf: Q49 B→C; Q1-Q50 50/50 exact. Added official key sidecar.
+- Final-key parity total updated 850/1,300 -> 950/1,300; 350 pending. Review flags 380, incomplete options 206, syllabus mappings 466 pending (0 verified). No PR merge.
