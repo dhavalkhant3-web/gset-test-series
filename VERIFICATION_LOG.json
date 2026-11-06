@@ -6501,5 +6501,31 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "User-requested progress-list synchronization and Integration Debug APK success",
+    "branch": "integration/combined-subject-banks",
+    "code02_status": "user_confirmed_complete",
+    "latest_historical_final_key_parity_tally": "950/1300",
+    "stale_metrics_not_active_backlog": [
+      "206 incomplete option records",
+      "466 syllabus mappings pending",
+      "380 review flags"
+    ],
+    "apk": {
+      "workflow_run_number": 817,
+      "run_id": 42193491276,
+      "conclusion": "success",
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_id": 13491740585,
+      "size_bytes": 113166745,
+      "sha256": "04208494c52ef51724d802bb3b65312f58f46e559e29b3270677d60e73a5c537",
+      "expires_at": "2026-11-20",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42193491276"
+    },
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "pr_merges": 0
   }
 ]
