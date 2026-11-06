@@ -877,3 +877,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Rechecked the complete 50-question `questions_sep16_p2.json` answer array against the GSET official final/corrected Paper-II Physical Sciences key (official PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf).
 - Found one mismatch: Q28 repository answer C vs official answer B. Updated Q28 to answer B, changed both tips to the official key, and set `review_flag: true` with a discrepancy note. Other 49 records matched the official key.
 - Commit: `5c5edf92aac730588400027f06adfe67c31bcd14`. This is source-key reconciliation only; no PR merge. Full CI not run/confirmed.
+
+
+## 2026-11-06 — Physical Sciences September 2016 Paper-III official final-key reconciliation
+- Reconciled all 75 answer letters in `questions_sep16_p3.json` against the official GSET final/corrected Paper-III key: 66/75 matched before; 9 discrepancies at Q42, Q48, Q49, Q51, Q52, Q53, Q55, Q64, Q74 were corrected to the official choices B, C, A, D, C, B, D, C, B respectively.
+- Added `official_answer`, `answer_key_verified`, `answer_source`, `verification_status`, and preserved each previous answer in `answer_before_key_reconciliation`; all nine corrected records remain review-flagged pending question transcription/options/explanation review.
+- Post-reconciliation answer parity: 75/75, zero mismatches. Official key: https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf.
+- Question-paper visual proofreading and syllabus mapping were not done in this batch. CI/build not run or confirmed; no PR merged; Code 01 and Paper-I untouched.
