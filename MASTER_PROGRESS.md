@@ -864,3 +864,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Each sidecar has 100 numbered answer choices (A/B/C/D/Z), an official GSET source URL, and explicit status that question-bank parity has not yet been checked.
 - December 2021 sidecar commit: `2b85f002b268e36acf19ba7f24d4c89bd2153cfe`.
 - These sidecars preserve answer-key provenance but do not increase the bank's 304/1,300 reconciled question-record count. Actual questions.json parity, English options, syllabus mappings and CI/build remain pending. No PR merged; Code 01 and Paper-I untouched.
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 small-file audit and syllabus-unit candidate review
+- Audited the separate `questions_dec24_archive.json` (25 records) and `questions_dec24_verified_additions.json` (21 records) via accessible small-file reads. Both are structurally valid JSON; English stems are populated and all four English options are populated on every record.
+- The archive batch has 2 review flags; the verified-additions batch has 0 review flags. The question-number sets differ (archive includes Q54–Q58 and Q81–Q100; additions are a 21-question subset), so no blind merge or replacement was performed.
+- Preliminary official-syllabus-unit candidates from the Code 02 PDF: Dec 2024 Q54–Q58 -> Unit V Thermodynamic and Statistical Physics; Q81–Q88 -> Unit IX Nuclear and Particle Physics; Q89 and Q94–Q100 -> Unit VIII Condensed Matter Physics. Q94 contains a graph reference and remains tied to the original paper figure; mapping assignment is candidate-only pending source-page visual confirmation.
+- The main 2.58 MB `questions.json` blob remains unreadable through the connected GitHub contents response (blank body even when requesting a line slice), so parity and propagation into the canonical bank cannot be established. These candidate labels are not marked verified and no question-bank records were edited.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf. CI/status checks on latest register commit returned no status entries and no PR-triggered workflow run; this is not a build pass.
