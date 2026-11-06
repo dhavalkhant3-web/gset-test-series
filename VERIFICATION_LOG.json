@@ -6107,5 +6107,28 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 December 2021 (January 2022) direct official final-key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf",
+    "paper_id": "physical_dec21",
+    "question_count": 100,
+    "exact_matches": 100,
+    "mismatches": 0,
+    "sidecar_status": "five previous transcription errors repaired from official PDF (Q93 C, Q94 C, Q95 D, Q96 B, Q98 B)",
+    "canonical_answer_updates": 0,
+    "answer_key_reconciled_count_before": 404,
+    "answer_key_reconciled_count_after": 504,
+    "answer_key_pending_count": 796,
+    "review_flags_cleared": 0,
+    "syllabus_mappings_verified": 0,
+    "result": "Canonical bank Q1-Q100 exactly matches the official final-key PDF table; no canonical answer edits.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
