@@ -6026,5 +6026,44 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 Dec 2021 official answer-key sidecar transcription repair",
+    "sidecar": "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf",
+    "corrected_sidecar_answers": [
+      {
+        "question": 93,
+        "previous": "B",
+        "official": "C"
+      },
+      {
+        "question": 94,
+        "previous": "B",
+        "official": "C"
+      },
+      {
+        "question": 95,
+        "previous": "B",
+        "official": "D"
+      },
+      {
+        "question": 96,
+        "previous": "D",
+        "official": "B"
+      },
+      {
+        "question": 98,
+        "previous": "A",
+        "official": "B"
+      }
+    ],
+    "canonical_bank_answers_already_match_official": true,
+    "canonical_question_answer_updates": 0,
+    "answer_key_reconciliation_count_unchanged": "315/1300",
+    "review_flags_cleared": 0,
+    "mappings_verified": 0,
+    "pr_merges": 0
   }
 ]
