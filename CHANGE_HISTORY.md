@@ -664,3 +664,10 @@
 - Preliminary official-syllabus-unit candidates from the Code 02 PDF: Dec 2024 Q54–Q58 -> Unit V Thermodynamic and Statistical Physics; Q81–Q88 -> Unit IX Nuclear and Particle Physics; Q89 and Q94–Q100 -> Unit VIII Condensed Matter Physics. Q94 contains a graph reference and remains tied to the original paper figure; mapping assignment is candidate-only pending source-page visual confirmation.
 - The main 2.58 MB `questions.json` blob remains unreadable through the connected GitHub contents response (blank body even when requesting a line slice), so parity and propagation into the canonical bank cannot be established. These candidate labels are not marked verified and no question-bank records were edited.
 - Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf. CI/status checks on latest register commit returned no status entries and no PR-triggered workflow run; this is not a build pass.
+
+
+## 2026-11-06 — Physical Sciences September 2016 Paper-II key reconciliation
+- Audit of all 50 answer values against GSET official final/corrected key found a single discrepancy at Q28 (bank C; official B).
+- Updated Q28 `answer` and `tip_en`/`tip_gu` to B and marked `review_flag: true` with a precise review note.
+- Question-bank commit: `5c5edf92aac730588400027f06adfe67c31bcd14`; verification log commit: `6117f657798915276ef29f4f246de7efc69f8fea5`.
+- No merge performed; CI not run/confirmed.
