@@ -483,7 +483,10 @@
       "unit_mapping_provisional_count": 57,
       "unit_mapping_pending_count": 43,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current Paper-II counts: 57 provisional, 43 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain."
+      "unit_mapping_status_note": "Current Paper-II counts: 57 provisional, 43 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_source": "Official GSET final answer key PDF; question-number/letter parity checked across Q1-Q100.",
+      "answer_key_reconciliation_mismatch_count": 0
     },
     {
       "paper_id": "physical_sep16_p3",
