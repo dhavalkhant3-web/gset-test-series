@@ -739,3 +739,8 @@
 - Directly compared canonical `physical_sep18` Q1-Q100 answers against the official GSET FINAL answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Result: 100/100 exact matches, zero mismatches and no canonical answer edits.
 - Preserved official Z/non-evaluated entries at Q16, Q80 and Q86. Existing visual/source review flags (59 for Sep18) remain independent.
 - Code02 final-key parity increased 504/1,300 -> 604/1,300; 696 pending. No PR merge.
+
+
+## 2026-11-06 — Correction/reversal of 11 erroneous canonical answer-key edits
+- The previous batch changed Dec 2024 Q36-Q43/Q47-Q48 and Nov 2022 Q62 to values that disagreed with the official GSET final answer-key PDF table. This correction restored values directly shown in official PDFs and official sidecars: Dec 2024 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; Nov 2022 Q62 B.
+- This reversal preserves the audit history; no review flags or syllabus mappings were promoted. Latest reported parity checkpoint adjusted downward by 11, exact aggregate requires complete source audit reconciliation. No PR merge.

@@ -673,6 +673,10 @@
     {
       "path": "assets/subjects/physical_sciences/questions.json",
       "action": "directly reconciled Sep 2018 Q1-Q100 against official final-key PDF: 100 exact matches; no canonical answer edits; preserved Z values and review flags"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "reversed 11 erroneous answer-key edits and restored answers to official GSET final-key PDF values"
     }
   ],
   "no_changes_made": [
@@ -1201,17 +1205,14 @@
   "latest_execution_checkpoint": {
     "date": "2026-11-06",
     "branch": "integration/combined-subject-banks",
-    "scope": "Physical Sciences Code 02 September 2018 direct official final-key parity Q1-Q100",
-    "verified_official_final_key_rows": 100,
-    "answer_key_reconciled_total": "604/1300",
-    "answer_key_pending": 696,
-    "canonical_answer_updates": 0,
-    "official_source_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "official_non_evaluated_questions": [
-      16,
-      80,
-      86
+    "scope": "Physical Sciences Code 02 official PDF-based correction of 11 prior erroneous answer changes",
+    "previous_edits_reversed": 11,
+    "source_pdf_answer_values_restored": 11,
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
     ],
+    "canonical_answer_parity_adjustment": -11,
     "ci_run": "pending",
     "pr_merges": 0,
     "code01_changed": false,
@@ -1515,5 +1516,78 @@
     "answer_key_reconciled_total": "315/1300",
     "ci": "runs triggered on branch; current state pending",
     "pr_merges": 0
+  },
+  "code02_canonical_answer_correction_reversal": {
+    "date": "2026-11-06",
+    "scope": "Dec 2024 Q36-Q43,Q47-Q48 and Nov 2022 Q62",
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "previous_edits_reversed": 11,
+    "corrected_answers": [
+      {
+        "id": "physical_dec24_q36",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q37",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q38",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q39",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q40",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q41",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q42",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q43",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "id": "physical_dec24_q47",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "id": "physical_dec24_q48",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_nov22_q62",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      }
+    ],
+    "reason": "The previous answer changes disagreed with the official final answer-key PDF tables. Canonical answers restored to direct PDF values, which agree with the official key sidecars.",
+    "parity_checkpoint_adjustment": -11,
+    "visual_flags_cleared": 0,
+    "syllabus_mappings_verified": 0,
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 }

@@ -944,3 +944,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Compared all canonical `physical_sep18` Paper-II answers Q1-Q100 directly against the official GSET FINAL answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
 - Result: 100/100 exact matches; zero canonical answer edits. Official `Z` values at Q16, Q80 and Q86 are preserved as not evaluated. The 59 visual/source review flags remain independent and are not cleared by answer-key parity.
 - Final-key parity count updated 504/1,300 -> 604/1,300; 696 pending. Syllabus mappings (466 pending), option structure backlog (206) and review flags (376) unchanged. No PR merge.
+
+
+## 2026-11-06 — Correction/reversal of 11 erroneous canonical answer-key edits
+- Direct official PDF table and official key sidecar values take precedence. Restored Dec 2024 Code 02 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; restored Nov 2022 Code 02 Q62 B.
+- The prior 11 canonical edits were erroneous; their audit history remains preserved. The canonical question-bank values now match the official final-key answer table for these records. Answer-key parity tally is adjusted down by 11 relative to the latest checkpoint; the exact total should be recalculated from the complete source audit register.
+- Visual review flags and syllabus mapping pending counts are unchanged. No PR merge.

@@ -6157,5 +6157,73 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Reversal and correction of 11 Dec 2024/Nov 2022 answer records after official PDF table precedence audit",
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "corrections": [
+      {
+        "question_id": "physical_dec24_q36",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "question_id": "physical_dec24_q37",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "question_id": "physical_dec24_q38",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "question_id": "physical_dec24_q39",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "question_id": "physical_dec24_q40",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "question_id": "physical_dec24_q41",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "question_id": "physical_dec24_q42",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "question_id": "physical_dec24_q43",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "question_id": "physical_dec24_q47",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "question_id": "physical_dec24_q48",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "question_id": "physical_nov22_q62",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      }
+    ],
+    "reason": "Previous parity correction batch used answer values that disagreed with direct official final-key PDF table. Restored canonical answers to values directly shown in official PDF and matching official sidecar transcription. No visual review or syllabus mapping status promoted.",
+    "canonical_answer_parity_count_adjustment": -11,
+    "pr_merges": 0
   }
 ]
