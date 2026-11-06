@@ -5214,5 +5214,51 @@
       "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 Dec 2019 Q17-Q20 source transcription and final-key batch",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a",
+    "question_bank_blob": "6e02623743e15f6e015de7aab138355df1a61812",
+    "official_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf",
+    "official_final_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf",
+    "printed_page": 9,
+    "verified_question_ids": [
+      "physical_dec19_q17",
+      "physical_dec19_q18",
+      "physical_dec19_q19",
+      "physical_dec19_q20"
+    ],
+    "final_key_answers": {
+      "physical_dec19_q17": "B",
+      "physical_dec19_q18": "C",
+      "physical_dec19_q19": "D",
+      "physical_dec19_q20": "B"
+    },
+    "result": {
+      "records": 1300,
+      "unique_ids": 1300,
+      "source_verified": 899,
+      "review_flags": 367,
+      "incomplete_option_records": 206,
+      "provisional_mappings": 834,
+      "pending_mappings": 466,
+      "verified_mappings": 0,
+      "final_key_reconciled_in_this_execution": 4,
+      "source_visual_checked_in_this_execution": 4
+    },
+    "actions": [
+      "Compared printed page 9 of the official December 2019 Physical Sciences Paper-II scan and transcribed Q17-Q20 stems plus A-D options.",
+      "Matched Q17-Q20 answer letters B,C,D,B against the official final answer-key PDF; existing answer values matched.",
+      "Set source_verified=true and cleared source review flags for these four records only; retained syllabus mapping pending."
+    ],
+    "limitations": [
+      "No other question page was visually checked in this batch.",
+      "Remaining 206 incomplete option records still need original-page transcription.",
+      "Only 4 of 1,300 final answer-key rows were independently reconciled in this execution.",
+      "834 mappings remain provisional and 466 remain pending."
+    ],
+    "noMerge": true
   }
 ]
