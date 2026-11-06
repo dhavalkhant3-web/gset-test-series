@@ -1655,5 +1655,14 @@
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593"
     },
     "question1_status": "unresolved source correction; official final key answer C; screenshot confirms invalid instruction text/empty choices"
-  }
+  },
+  "physical_sciences_live_audit": {
+    "total": 1300,
+    "source_verified": 899,
+    "review_flags": 380,
+    "options_missing": 291,
+    "answer_key_verified": 304
+  },
+  "physical_sciences_fully_verified": false,
+  "physical_sciences_next_gate": "Original-paper visual reconciliation and correction of all 291 malformed/missing A-D option records plus 380 review flags"
 }
