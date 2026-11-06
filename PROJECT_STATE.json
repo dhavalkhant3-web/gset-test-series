@@ -639,6 +639,10 @@
     {
       "path": "assets/subjects/physical_sciences/questions.json",
       "action": "corrected 11 canonical answer records after direct comparison to official GSET Dec 2024 and Nov 2022 Physical Sciences final-key PDFs; preserved all unrelated records and existing review flags"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+      "action": "repaired five sidecar answer transcriptions from the official GSET final PDF; canonical bank answers already match the official values"
     }
   ],
   "no_changes_made": [
@@ -1543,5 +1547,22 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  "code02_dec21_official_key_sidecar_repair": {
+    "date": "2026-11-06",
+    "sidecar": "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf",
+    "corrected_q_numbers": [
+      93,
+      94,
+      95,
+      96,
+      98
+    ],
+    "canonical_bank_already_matches_official": true,
+    "canonical_answer_updates": 0,
+    "answer_key_reconciled_total": "315/1300",
+    "ci": "runs triggered on branch; current state pending",
+    "pr_merges": 0
   }
 }
