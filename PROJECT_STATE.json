@@ -1287,5 +1287,18 @@
       "status": "in_progress",
       "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901968"
     }
+  },
+  "code02_official_final_key_sidecars": {
+    "added_or_confirmed": [
+      "physical_nov22",
+      "physical_nov23",
+      "physical_dec24",
+      "physical_dec21"
+    ],
+    "sidecar_question_count_each": 100,
+    "verification_scope": "official GSET final answer-key PDFs",
+    "question_bank_parity": "pending",
+    "note": "Sidecar presence is not equivalent to question-bank answer reconciliation; the bank tally remains 304/1300.",
+    "latest_commit": "2b85f002b268e36acf19ba7f24d4c89bd2153cfe"
   }
 }
