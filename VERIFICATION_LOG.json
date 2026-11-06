@@ -5398,5 +5398,92 @@
       "Syllabus mappings remain provisional/pending; no mapping promoted.",
       "No PR merge; Code 01 and Paper-I unchanged."
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 December 2024 Q1-Q100 official final-key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "33ade6884bfc9bba824fc3d392df130d876c8262",
+    "question_bank_blob": "44111330ea45c526f190d09f134ee94379e24120",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+    "reconciled_question_count": 100,
+    "initial_exact_matches": 90,
+    "mismatches_corrected_to_official_key": [
+      {
+        "id": "physical_dec24_q18",
+        "previous_answer": "B",
+        "official_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q19",
+        "previous_answer": "C",
+        "official_answer": "B"
+      },
+      {
+        "id": "physical_dec24_q29",
+        "previous_answer": "A",
+        "official_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q41",
+        "previous_answer": "B",
+        "official_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q71",
+        "previous_answer": "A",
+        "official_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q72",
+        "previous_answer": "B",
+        "official_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q74",
+        "previous_answer": "B",
+        "official_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q77",
+        "previous_answer": "C",
+        "official_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q78",
+        "previous_answer": "C",
+        "official_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q80",
+        "previous_answer": "C",
+        "official_answer": "B"
+      }
+    ],
+    "result": {
+      "total_records": 1300,
+      "source_verified": 899,
+      "review_flags": 376,
+      "incomplete_options": 206,
+      "provisional_mappings": 834,
+      "pending_mappings": 466,
+      "verified_mappings": 0,
+      "answer_key_reconciled_total": 204,
+      "answer_key_pending": 1096
+    },
+    "actions": [
+      "Parsed the official final-key table for Q1-Q100 and compared each answer with the integrated question bank.",
+      "All 100 rows now carry official_answer, answer_key_verified, answer_source and verification_status.",
+      "Corrected 10 stored answers to the official final-key letters and preserved prior values in answer_before_key_reconciliation.",
+      "Raised review_flag and appended a discrepancy note to the ten corrected rows; did not rewrite their explanations.",
+      "Updated paper manifest, subject registry, PROJECT_STATE, MASTER_PROGRESS and CHANGE_HISTORY."
+    ],
+    "limitations": [
+      "This was an answer-key-only batch; it does not establish visual proofreading of all 100 source question pages.",
+      "The 206 incomplete English option records remain pending.",
+      "834 mappings remain provisional; 466 remain pending."
+    ],
+    "noMerge": true
   }
 ]
