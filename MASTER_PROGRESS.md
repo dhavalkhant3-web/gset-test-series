@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 367 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 4/1,300 answers independently matched to official final-key PDFs in this execution; remaining 1,296 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 367 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 367 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 104/1,300 answer rows reconciled against official final-key PDFs (Dec 2019 Q17–Q20; Nov 2025 Q1–Q100); 1,196 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 367 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -37,7 +37,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - No question-level syllabus assignments were changed by this catalogue registration.
 
 ## Subject-specific highest-priority work
-- **02 Physical:** 206 incomplete option records remain; 4/1,300 answers reconciled in the latest execution; 834 provisional mappings and 466 pending mappings remain. Source visual review continues question-by-question.
+- **02 Physical:** 206 incomplete option records remain; 104/1,300 answer-key rows reconciled (Dec 2019 Q17–Q20 and Nov 2025 Q1–Q100); 1,196 key rows remain. Syllabus mapping remains 834 provisional + 466 pending, with 0 officially verified. Source-page visual review remains a separate gate.
 - **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
 - **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
@@ -831,6 +831,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 
 ## 2026-11-06 — Physical Sciences Code 02 November 2025 final-key reconciliation batch (Q1–Q100)
+- Register sync correction: the top-level summary table and priority line now reflect the 104/1,300 reconciled answer-key rows recorded by this batch and the preceding December 2019 Q17–Q20 batch. This updates stale 4/1,300 rollups; it does not claim additional question data changes.
 - Reconciled all 100 November 2025 Paper-II answer letters (question numbers Q1–Q100) against the official GSET final answer-key table: every existing bank answer matches; mismatches 0/100.
 - Added question-level `official_answer`, `answer_key_verified=true`, `answer_source`, and `verification_status=official_final_answer_key_reconciled_direct_pdf` to the 100 Nov 2025 records. Existing answer values and source-review flags were retained; answer-key verification is separate from original question-page visual verification and syllabus mapping.
 - Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2502.pdf (table corroborated by ExamsRepo's transcription of the official key; no secondary source used to alter any answer).
