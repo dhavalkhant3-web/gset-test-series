@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 376 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 604/1,300 answer rows reconciled (prior 504 + September 2018 Q1-Q100 direct official-PDF parity); 696 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 376 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 380 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 750/1,300 answer rows reconciled (prior 604 + Dec 2019 Q21-Q100 newly parity-checked + Sep 2016 Q1-Q50); 550 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 380 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -950,3 +950,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Direct official PDF table and official key sidecar values take precedence. Restored Dec 2024 Code 02 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; restored Nov 2022 Code 02 Q62 B.
 - The prior 11 canonical edits were erroneous; their audit history remains preserved. The canonical question-bank values now match the official final-key answer table for these records. Answer-key parity tally is adjusted down by 11 relative to the latest checkpoint; the exact total should be recalculated from the complete source audit register.
 - Visual review flags and syllabus mapping pending counts are unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2019 + September 2016 direct official final-key parity
+- December 2019: directly compared canonical Paper-II Q1-Q100 with official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. Result 100/100 exact matches; 96 newly reconciled rows (Q17-Q20 had previously been counted); no answer edits.
+- September 2016: directly compared canonical Paper-II Q1-Q50 with official FINAL/CORRECTED key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf. Corrected canonical answers Q21 B, Q25 D, Q27 B, Q28 C, Q35 C, Q45 C, Q46 D; 50/50 exact after corrections. Added the official 50-answer sidecar and corrected overlay Q28 B→C.
+- Retained review flags for key/explanation or option-text discrepancies at Sep 2016 Q21, Q25, Q27, Q28, Q35, Q45. Four new review flags added; total flags now 380. Syllabus mapping pending (466) and incomplete option structure count (206) unchanged.
+- Final-key parity total updated 604/1,300 -> 750/1,300; 550 pending. No PR merge.
