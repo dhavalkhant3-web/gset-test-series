@@ -5677,5 +5677,34 @@
     ],
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2016 Paper-II answer key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/questions_sep16_p2.json"
+    ],
+    "findings": {
+      "question_records": 50,
+      "official_key_source": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf",
+      "matches_before": 49,
+      "mismatches_before": 1,
+      "mismatch": {
+        "question_no": 28,
+        "repository_answer": "C",
+        "official_answer": "B"
+      },
+      "answer_updated_to": "B",
+      "review_flag_set": true,
+      "review_note": "Repository answer differed from official corrected key; retained official B and flagged source/options/explanation for review.",
+      "matches_after": 50,
+      "remaining_mismatches": 0
+    },
+    "limitations": [
+      "Question 28 underlying source question/options/explanation still need visual review; official answer key is treated as authoritative.",
+      "CI has not been run or confirmed in this pass."
+    ],
+    "noMerge": true
   }
 ]
