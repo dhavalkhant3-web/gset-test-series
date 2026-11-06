@@ -5706,5 +5706,50 @@
       "CI has not been run or confirmed in this pass."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2016 Paper-III final answer-key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/questions_sep16_p3.json"
+    ],
+    "findings": {
+      "question_records": 75,
+      "official_key_source": "https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf",
+      "mismatches_before": 9,
+      "mismatch_question_numbers": [
+        42,
+        48,
+        49,
+        51,
+        52,
+        53,
+        55,
+        64,
+        74
+      ],
+      "corrections": {
+        "q42": "A→B",
+        "q48": "D→C",
+        "q49": "C→A",
+        "q51": "A→D",
+        "q52": "A→C",
+        "q53": "C→B",
+        "q55": "B→D",
+        "q64": "D→C",
+        "q74": "C→B"
+      },
+      "matches_after": 75,
+      "remaining_mismatches": 0,
+      "review_flags_set": 9,
+      "official_key_metadata_added": true
+    },
+    "limitations": [
+      "Prior stored answer letters preserved in answer_before_key_reconciliation; review flags retained for question-page/options/explanation inspection.",
+      "Question-paper visual review and syllabus mapping not included in this answer-key reconciliation.",
+      "CI/build not run or confirmed."
+    ],
+    "noMerge": true
   }
 ]
