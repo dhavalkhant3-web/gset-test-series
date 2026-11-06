@@ -671,3 +671,10 @@
 - Updated Q28 `answer` and `tip_en`/`tip_gu` to B and marked `review_flag: true` with a precise review note.
 - Question-bank commit: `5c5edf92aac730588400027f06adfe67c31bcd14`; verification log commit: `6117f657798915276ef29f4f246de7efc69f8fea5`.
 - No merge performed; CI not run/confirmed.
+
+
+## 2026-11-06 — Physical Sciences Code 02 September 2016 Paper-III final answer-key reconciliation
+- Compared all 75 question records with GSET's official final/corrected Paper-III key. Before correction, 66 answers matched and 9 mismatches were found (Q42, Q48, Q49, Q51, Q52, Q53, Q55, Q64, Q74).
+- Corrected those nine answers to official key choices: Q42 B, Q48 C, Q49 A, Q51 D, Q52 C, Q53 B, Q55 D, Q64 C, Q74 B. Preserved original answer letters and added official answer-key verification metadata. Review flags stay true on changed records.
+- After correction: 75/75 answers match official key. Source PDF: https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf. Commit: `dd4d842edf3aafc7599237fb792635a190f341d4`.
+- Original-paper visual proofreading, mapping validation, CI/build, and PR merge are not claimed.
