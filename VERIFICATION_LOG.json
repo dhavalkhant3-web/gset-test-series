@@ -5751,5 +5751,27 @@
       "CI/build not run or confirmed."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2018 official final-key sidecar transcription",
+    "branch": "integration/combined-subject-banks",
+    "sidecar": "assets/subjects/physical_sciences/sept18_official_final_answer_key.json",
+    "commit": "7516842dbf505f7cc01af6618f3b05c242fc057b",
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
+    "question_count": 100,
+    "answers_transcribed": 100,
+    "official_Z_non_evaluated": [
+      16,
+      80,
+      86
+    ],
+    "bank_parity": "pending",
+    "limitations": [
+      "No parity audit against canonical questions.json performed because the connected GitHub contents payload for that 2.58 MB file is blank.",
+      "Question-page visual proofread and syllabus mapping are separate pending tasks.",
+      "No CI/build pass or PR merge claimed."
+    ],
+    "noMerge": true
   }
 ]
