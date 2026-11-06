@@ -429,11 +429,15 @@
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 69,
-      "review_flags_remaining_count": 31,
+      "review_flags_remaining_count": 37,
       "unit_mapping_provisional_count": 50,
       "unit_mapping_pending_count": 50,
       "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current Paper-II counts: 50 provisional, 50 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain."
+      "unit_mapping_status_note": "Current Paper-II counts: 50 provisional, 50 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_source": "Official GSET final answer key PDF; question-number/letter parity checked Q1-Q100.",
+      "answer_key_reconciliation_mismatch_count": 14,
+      "answer_key_reconciliation_corrected_count": 14
     },
     {
       "paper_id": "physical_dec24",
