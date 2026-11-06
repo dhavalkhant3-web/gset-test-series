@@ -6560,5 +6560,19 @@
     "question_data_change": false,
     "q1_problem_still_open": true,
     "source_final_key_q1": "C"
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Canonical Code 02 live-bank strict QA reconciliation",
+    "canonical_blob_sha": "4973225c416989916604d2162067f5c85904e1e3",
+    "total": 1300,
+    "source_verified": 899,
+    "review_flags": 380,
+    "options_missing": 291,
+    "answer_key_verified": 304,
+    "fully_verified": false,
+    "question_content_changed": 0,
+    "registry_manifest_refreshed": true,
+    "pr_merged": false
   }
 ]
