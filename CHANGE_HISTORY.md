@@ -684,3 +684,9 @@
 - Added source-backed 100-answer sidecar for physical_sep18, including three official Z choices (Q16, Q80, Q86).
 - Official GSET PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
 - Commit: `7516842dbf505f7cc01af6618f3b05c242fc057b`. This is answer-key transcription only; canonical bank parity is still pending.
+
+
+## 2026-11-06 — Physical Sciences Sep 2018 source-review provenance
+- Recorded the official final answer-key PDF URL and `answer_key_verified: true` for source-review records Q39 (D), Q41 (C), and Q58 (D), while retaining `source_verified: false` and `review_flag: true` because their OCR stems/options still require visual transcription against the original question paper.
+- Source key: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Source-review file commit: `d1433d815bc6cdfae91c6624d9d5a96e23997ceb`.
+- This is provenance/status metadata only; no canonical question-bank records edited, no parity or CI/build pass claimed, no PR merged.
