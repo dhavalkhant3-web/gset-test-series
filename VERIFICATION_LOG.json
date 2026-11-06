@@ -5826,5 +5826,27 @@
       "CI/build not run or confirmed."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 Dec 2024 archive official answer-key parity",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/questions_dec24_archive.json",
+      "assets/subjects/physical_sciences/dec24_official_final_answer_key.json"
+    ],
+    "record_count": 25,
+    "question_numbers": "Q54–Q58 and Q81–Q100",
+    "official_key_source": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+    "matches": 25,
+    "mismatches": 0,
+    "answer_updates": 0,
+    "review_flags_preserved": true,
+    "scope": "archive JSON only; canonical bank parity not established",
+    "limitations": [
+      "Q54 and Q94 figures visual proofread pending.",
+      "CI/build not run or confirmed."
+    ],
+    "noMerge": true
   }
 ]
