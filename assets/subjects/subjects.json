@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1,300 unique records across 19 official sessions. User confirmed actual Code 02 work complete (2026-11-06). Latest committed official final-key parity register: 850/1,300 reconciled; 450 remain outside the historical tally and are not an active backlog by user confirmation. Older source/option/mapping/review metrics are stale audit snapshot values and must be freshly reconciled before being reported. Subject-level source_verified remains false as a legacy aggregate field; separate Paper-III archive remains excluded from Paper-II."
+      "data_status": "Paper-II archive: 1,300 unique records across 19 official sessions. User confirmed actual Code 02 work complete (2026-11-06). Historical official final-key parity tally in latest audit trail: 950/1,300; not an active backlog by user confirmation. Prior option/mapping/review counts are stale and must not be used as active work without fresh live-state reconciliation. Legacy subject-level source_verified remains false; separate Paper-III archive excluded from Paper-II."
     },
     {
       "code": "03",
