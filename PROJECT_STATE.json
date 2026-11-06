@@ -38,7 +38,8 @@
     "physical_sciences_batch_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a",
     "latest_physical_sciences_answer_key_batch_commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
     "physical_sciences_nov25_manifest_commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
-    "physical_sciences_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070"
+    "physical_sciences_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
+    "latest_integration_head_before_register_sync": "ef5e294028e9bd6d2c6157753d78150b2f098104"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -362,9 +363,9 @@
       "review_flagged": 380,
       "core_field_checks_pending": 206,
       "syllabus_mapping": "pending",
-      "provenance": "Restored exact bank snapshot from historical commit 7be25307b86d65c640ee0f98c0e76dd40d738d8f; source-verified flags and provisional mapping values preserved as recorded; full source-page and final-key independent re-audit pending.",
+      "provenance": "Current bank changes and key parity recorded through integration branch commit ef5e294028e9bd6d2c6157753d78150b2f098104. User confirmed actual Code 02 work complete; preserve historic metrics pending comprehensive register reconciliation.",
       "question_bank_sha": "0824ba95c042f4981dc6b1be4b245f1edebeb7f3",
-      "status": "recovered 1300-record Paper-II archive; Dec 2019 Q17-Q20 visually transcribed and official-key matched; remaining option, final-key, syllabus mapping and source-page audits pending",
+      "status": "User-confirmed complete (2026-11-06). Older option/mapping/review counters are stale audit snapshots and must not be treated as active backlog without a fresh reconciliation.",
       "source_unverified": 401,
       "review_flags": 380,
       "source_review_required_union": 380,
@@ -468,7 +469,19 @@
         "remaining_answer_key_rows": 450,
         "note": "Official one-page scanned key PDF was visually inspected. Canonical Dec08 Q1-Q50 exact after four official-key corrections. Source key sidecar added."
       },
-      "official_answer_key_status": "850/1300 reconciled: Dec 2008 Q1-Q50; Aug 2017 Q1-Q50; Dec 2019 Q1-Q100; Sep 2016 Q1-Q50; Sep 2018 Q1-Q100; Nov 2022 Q1-Q100; Dec 2021 (Jan 2022) Q1-Q100; Nov 2023 Q1-Q100; Dec 2024 Q1-Q100; Nov 2025 Q1-Q100. 450 pending."
+      "official_answer_key_status": "850/1300 reconciled: Dec 2008 Q1-Q50; Aug 2017 Q1-Q50; Dec 2019 Q1-Q100; Sep 2016 Q1-Q50; Sep 2018 Q1-Q100; Nov 2022 Q1-Q100; Dec 2021 (Jan 2022) Q1-Q100; Nov 2023 Q1-Q100; Dec 2024 Q1-Q100; Nov 2025 Q1-Q100. 450 pending.",
+      "official_final_key_parity": {
+        "reconciled": 850,
+        "total": 1300,
+        "pending_in_tally": 450,
+        "latest_direct_pdf_batches": [
+          "Dec 2019 100/100",
+          "Sep 2016 50/50",
+          "Aug 2017 50/50",
+          "Dec 2008 50/50"
+        ],
+        "last_register_commit": "ef5e294028e9bd6d2c6157753d78150b2f098104"
+      }
     },
     "03": {
       "name": "Chemical Sciences",
