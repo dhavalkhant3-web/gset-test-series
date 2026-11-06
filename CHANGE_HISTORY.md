@@ -744,3 +744,9 @@
 ## 2026-11-06 — Correction/reversal of 11 erroneous canonical answer-key edits
 - The previous batch changed Dec 2024 Q36-Q43/Q47-Q48 and Nov 2022 Q62 to values that disagreed with the official GSET final answer-key PDF table. This correction restored values directly shown in official PDFs and official sidecars: Dec 2024 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; Nov 2022 Q62 B.
 - This reversal preserves the audit history; no review flags or syllabus mappings were promoted. Latest reported parity checkpoint adjusted downward by 11, exact aggregate requires complete source audit reconciliation. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2019 + September 2016 direct final-key parity
+- December 2019: all canonical Paper-II Q1-Q100 directly matched the official final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. 100/100 exact; 96 rows newly counted beyond the previous Q17-Q20 checkpoint; no answer edits.
+- September 2016: canonical Q1-Q50 directly matched the official final/corrected key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf after answer corrections Q21 B, Q25 D, Q27 B, Q28 C, Q35 C, Q45 C, Q46 D. Added official 50-answer sidecar and changed standalone overlay Q28 B→C. Key/explanation/option OCR conflicts are flagged at Q21,Q25,Q27,Q28,Q35,Q45; no mapping verified.
+- Final-key parity count updated 604/1,300 -> 750/1,300; 550 pending. Review flags count increased 376 -> 380. Syllabus mapping pending (466) and incomplete option structures (206) unchanged. No PR merge.
