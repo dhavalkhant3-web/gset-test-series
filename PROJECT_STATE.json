@@ -1643,6 +1643,17 @@
     "verified_badge": "still in progress; not certified from count alone",
     "confirmed_defect": "December 2024 Question 1 screenshot shows instruction text and no options",
     "question_data_patch": "pending official original paper source confirmation",
-    "apk_rebuild": "triggered by commit push; wait for completion"
+    "apk_rebuild": "triggered by commit push; wait for completion",
+    "latest_debug_apk": {
+      "run_number": 837,
+      "run_id": 42196808593,
+      "conclusion": "success",
+      "artifact_id": 13493210817,
+      "size_bytes": 113170311,
+      "sha256": "9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7d",
+      "expires_at": "2026-11-20",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593"
+    },
+    "question1_status": "unresolved source correction; official final key answer C; screenshot confirms invalid instruction text/empty choices"
   }
 }
