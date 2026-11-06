@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1,300 unique records across 19 official sessions. Current source_verified=true: 899; review_flag=true: 367. Schema-aware English option audit: 1,094 valid records (1,009 options_en arrays plus 85 valid options.A-D objects); 206 incomplete records remain. Official final-key reconciliation performed in this execution: 4/1,300 (Dec 2019 Q17-Q20, B/C/D/B); remaining 1,296 still require independent question-level reconciliation. Syllabus mapping: 834 provisional, 466 pending, zero officially verified. Dec 2019 printed page 9 visually transcribed for Q17-Q20. Subject-level source_verified remains false. Separate September 2016 Paper-III archive remains excluded from Paper-II."
+      "data_status": "Paper-II archive: 1,300 unique records across 19 official sessions. Current source_verified=true: 899; review_flag=true: 367. Schema-aware English option audit: 1,094 valid records (1,009 options_en arrays plus 85 valid options.A-D objects); 206 incomplete records remain. Independently reconciled 104/1,300 answer-key rows: December 2019 Q17-Q20 (B/C/D/B) and November 2025 Q1-Q100 (all 100 letters match official final-key table); 1,196 remain. Syllabus mapping: 834 provisional, 466 pending, zero officially verified. December 2019 printed page 9 visually transcribed for Q17-Q20; November 2025 final-key reconciliation does not imply question-page visual proofread. Subject-level source_verified remains false. Separate September 2016 Paper-III archive remains excluded from Paper-II."
     },
     {
       "code": "03",
