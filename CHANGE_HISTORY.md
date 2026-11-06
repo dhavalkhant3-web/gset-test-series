@@ -770,3 +770,10 @@
 - October 2011 official final-key scan https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf: Q24 D→A; Q1-Q50 50/50 exact. Added official key sidecar.
 - October 2014 official final/corrected scan https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf: Q49 B→C; Q1-Q50 50/50 exact. Added official key sidecar.
 - Final-key parity total updated 850/1,300 -> 950/1,300; 350 pending. Review flags 380, incomplete options 206, syllabus mappings 466 pending (0 verified). No PR merge.
+
+
+## 2026-11-06 — Progress-list refresh: Code 02 completion checkpoint + combined Debug APK
+- User requested that the project list/register reflect completed work. Code 02 is marked **user-confirmed complete**; do not treat historical stale counts as current active tasks or repeat completed question-bank work.
+- Latest source parity tally recorded in the audit trail is 950/1,300 (includes Oct 2011 and Oct 2014 final-key checks, 50/50 each); this tally is a historical audit metric and not the user's active backlog. Older 206 incomplete-option, 466 mapping-pending and 380 flag figures are explicitly stale/unreconciled and must not be reopened without actual state reconciliation and instruction.
+- Combined Integration Debug APK workflow run #817 / run ID 42193491276 completed SUCCESS on integration branch. Artifact: `gset-test-series-integration-debug-apk`, ID 13491740585, ZIP size 113,166,745 bytes (~113.17 MB), SHA-256 `04208494c52ef51724d802bb3b65312f58f46e559e29b3270677d60e73a5c537`; expires 2026-11-20. [Build run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42193491276).
+- APK artifact is available under Actions Run #817 > Artifacts. Build success is confirmed; no PR merge was performed. Code 01 Mathematical Sciences and Paper-I remain protected/unchanged.
