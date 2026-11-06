@@ -6527,5 +6527,26 @@
     "code01_changed": false,
     "paper_i_changed": false,
     "pr_merges": 0
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences screenshot QA and honest status wording fix",
+    "branch": "integration/combined-subject-banks",
+    "ui_commit": "7cf7b5a51f3d5bae621a232317b2f3f44f4925bb",
+    "findings": [
+      "December 2024 Question 1 in user screenshot displays booklet/OMR instructions and missing options warning",
+      "Loaded record count was mislabeled as Verified Questions despite global verification being in progress"
+    ],
+    "actions": [
+      "Changed dashboard count to Loaded Questions",
+      "Changed practice subtitle to loaded questions",
+      "Logged specific question data defect for official source page reconciliation"
+    ],
+    "non_actions": [
+      "Did not claim whole subject source verification complete",
+      "Did not invent replacement stem or options",
+      "No question bank records modified",
+      "No PR merged"
+    ]
   }
 ]
