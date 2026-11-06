@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 376 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 315/1,300 answer rows reconciled (prior 304 + 11 official-key corrections in current batch); 985 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 376 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 376 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 404/1,300 answer rows reconciled (prior 304 + November 2022 Q1-Q100 direct official-PDF parity); 896 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 376 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -926,3 +926,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 ## 2026-11-06 — Physical Sciences Code 02 Dec 2021 official key sidecar transcription repair
 - Directly inspected the official GSET final key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf. Repaired sidecar values Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. Canonical bank already matched those official PDF answers, so no canonical answer records changed and the independently reconciled count remains 315/1,300 (985 pending).
 - This sidecar repair does not clear visual flags or syllabus mappings. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 direct official final-key table audit and sidecar repair
+- Directly inspected official GSET December 2024 and November 2022 Code 02 final-key PDF tables. The repository's existing sidecars had transcription errors: Dec 2024 Q36–Q43/Q47–Q48 (10 entries) and Nov 2022 Q62 (1 entry). Corrected those sidecars to match the official PDF tables.
+- Reverted the earlier 11 canonical answer changes that had relied on those faulty sidecar values. Canonical bank answers for Dec 2024 Q1–Q100 match the official PDF (already counted in the prior 304); canonical Nov 2022 Q1–Q100 also match the official PDF and now add 100 independently reconciled rows.
+- Current final-key parity is 404/1,300; 896 remain pending. Visual review flags (376), syllabus mapping pending (466), and option structure incomplete count (206) are unchanged. No PR merge.
