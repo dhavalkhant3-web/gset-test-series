@@ -1335,5 +1335,21 @@
     "visual_proofread": "pending",
     "ci": "not run",
     "pr_merges": 0
+  },
+  "code02_dec24_archive_answer_parity": {
+    "date": "2026-11-06",
+    "record_count": 25,
+    "matches": 25,
+    "mismatches": 0,
+    "answer_updates": 0,
+    "review_flags_preserved": true,
+    "scope": "archive JSON only, not canonical questions.json",
+    "official_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+    "visual_figure_review_pending": [
+      "Q54",
+      "Q94"
+    ],
+    "ci": "not run",
+    "pr_merges": 0
   }
 }
