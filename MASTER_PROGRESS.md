@@ -37,7 +37,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - No question-level syllabus assignments were changed by this catalogue registration.
 
 ## Subject-specific highest-priority work
-- **02 Physical:** 206 incomplete option records remain; 304/1,300 answer-key rows reconciled (Dec 2019 Q17–Q20, Nov 2023 Q1–Q100, Dec 2024 Q1–Q100 and Nov 2025 Q1–Q100); 996 key rows remain. Dec 2024 had 10 stored-answer discrepancies corrected to the official final key and flagged for expert review. Syllabus mapping remains 834 provisional + 466 pending, with 0 officially verified. Source-page visual review remains a separate gate.
+- **02 Physical Sciences:** User confirmed the actual Code 02 work is complete. Do not reopen this subject based on stale counts. Register refresh reconciles latest official-key audit commits (through `ef5e294028e9bd6d2c6157753d78150b2f098104`) to 850/1,300 parity tally; 450 rows are outside the reconciled tally, but this is a historical audit metric—not a user-approved active backlog. The older 206 option / 466 mapping / 380 flag counts require actual-state reconciliation before reuse.
 - **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
 - **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
@@ -963,3 +963,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - August 2017: compared canonical Paper-II Q1-Q50 directly against official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf. Corrected Q8 B, Q30 C, Q32 A, Q44 D; final 50/50 exact.
 - December 2008: visually inspected official one-page scanned final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0802.pdf. Corrected Q1 C, Q5 B, Q6 A, Q18 D; final 50/50 exact. Added direct-source key sidecars for both sessions.
 - Final-key parity count updated 750/1,300 -> 850/1,300; 450 pending. Review flags remain 380; no review flags cleared. Syllabus mapping pending 466, incomplete option records 206 unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences completion confirmation and progress-register synchronization
+- User confirmed the actual Physical Sciences Code 02 work is complete; previous pending counts in this register were stale and must not be treated as actionable backlog.
+- Verified latest integration branch commits: `a78659ed` corrected four Aug 2017 official-key answers and four Dec 2008 official-key answers; `ef5e2940` recorded direct official PDF parity for both papers (50/50 each). Earlier same-day direct PDF batches brought the parity tally to 850/1,300. No PR merge is performed.
+- The legacy 206 option, 466 mapping and review-flag metrics remain historical/unreconciled. Do not use them to reopen Code 02 without the user's instruction. This is a progress-register synchronization, not a claim that a new CI run was executed.
