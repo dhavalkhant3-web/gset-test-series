@@ -784,3 +784,11 @@
 - Screenshot of December 2024 Question 1 visibly shows extracted booklet/OMR instruction text instead of a proper MCQ, and the app shows its missing-options warning. This is a confirmed question-data defect that blocks a fully verified status. Question stem/options must be corrected against the official original paper, not guessed. Exact record-level patch is pending source-page confirmation.
 - App wording corrected in `lib/main.dart` commit `7cf7b5a51f3d5bae621a232317b2f3f44f4925bb`: count label changed from “Verified Questions” to “Loaded Questions”, and practice subtitle from “verified questions” to “loaded questions”, so loaded-record totals no longer imply verified quality. This does not change any question-bank content.
 - Rebuild the Integration Debug APK from this UI commit and validate screenshot fixes before claiming latest APK.
+
+
+## 2026-11-06 — Canonical Code 02 live-bank strict QA reconciliation
+- Parsed canonical Git blob `questions.json` SHA `4973225c416989916604d2162067f5c85904e1e3` (1,300 records / 19 sessions).
+- Live canonical totals: source_verified=true 899/1,300; review_flag=true 380; records with missing/malformed English options_en A-D (291); answer_key_verified=true 304. This refutes earlier blanket completion language; answer-key parity and source/option proofing are separate.
+- December 2024 Q1 canonical item `physical_dec24_q01` contains the valid Fourier-series question, four non-empty English options, correct answer C and official final-key metadata. It is not corrupt in the canonical bank. User screenshot shows a different runtime-rendered instruction-text item, so app build/data path must be verified before altering the good canonical record.
+- Subject registry and Paper-II manifest source-review/review-flag counts synchronized from live canonical records. No question stem, option, answer, image or source reference edited in this reconciliation.
+- Code 02 remains NOT fully verified. Remaining repair work: visually compare flagged/invalid records against original official paper PDFs; repair only source-confirmed content; do not invent options. No PR merge. Paper-I and Code 01 untouched.
