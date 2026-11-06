@@ -5625,5 +5625,27 @@
       "Question-page visual review, English option correction and syllabus mapping remain separate."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 official final answer-key sidecar additions/confirmation",
+    "branch": "integration/combined-subject-banks",
+    "commit": "2b85f002b268e36acf19ba7f24d4c89bd2153cfe",
+    "sidecars": [
+      "physical_nov22",
+      "physical_nov23",
+      "physical_dec24",
+      "physical_dec21"
+    ],
+    "sidecar_question_count_each": 100,
+    "sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf"
+    ],
+    "bank_parity": "not checked",
+    "note": "Sidecar JSON answer arrays are source-transcribed; these records do not change the bank's reconciliation tally (304/1300).",
+    "noMerge": true
   }
 ]
