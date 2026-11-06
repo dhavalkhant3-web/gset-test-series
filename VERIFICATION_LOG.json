@@ -6225,5 +6225,101 @@
     "reason": "Previous parity correction batch used answer values that disagreed with direct official final-key PDF table. Restored canonical answers to values directly shown in official PDF and matching official sidecar transcription. No visual review or syllabus mapping status promoted.",
     "canonical_answer_parity_count_adjustment": -11,
     "pr_merges": 0
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 December 2019 direct official final-key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf",
+    "paper_id": "physical_dec19",
+    "question_count": 100,
+    "exact_matches": 100,
+    "mismatches": 0,
+    "previously_reconciled_rows": 4,
+    "newly_reconciled_rows": 96,
+    "canonical_answer_updates": 0,
+    "answer_key_reconciled_count_before": 604,
+    "answer_key_reconciled_count_after": 700,
+    "answer_key_pending_count": 600,
+    "review_flags_retained": 60,
+    "syllabus_mappings_verified": 0,
+    "result": "All canonical Dec 2019 Paper-II Q1-Q100 answers match the official final-key PDF table; no canonical answer edits.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2016 direct official final/corrected key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "overlay_file": "assets/subjects/physical_sciences/questions_sep16_p2.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf",
+    "key_sidecar": "assets/subjects/physical_sciences/sept16_official_final_answer_key.json",
+    "paper_id": "physical_sep16",
+    "question_count": 50,
+    "exact_matches": 50,
+    "mismatches": 0,
+    "canonical_answer_changes": [
+      {
+        "question": 21,
+        "old": "C",
+        "official": "B"
+      },
+      {
+        "question": 25,
+        "old": "C",
+        "official": "D"
+      },
+      {
+        "question": 27,
+        "old": "A",
+        "official": "B"
+      },
+      {
+        "question": 28,
+        "old": "A",
+        "official": "C"
+      },
+      {
+        "question": 35,
+        "old": "D",
+        "official": "C"
+      },
+      {
+        "question": 45,
+        "old": "B",
+        "official": "C"
+      },
+      {
+        "question": 46,
+        "old": "B",
+        "official": "D"
+      }
+    ],
+    "overlay_answer_change": {
+      "question": 28,
+      "old": "B",
+      "official": "C"
+    },
+    "review_flags_added": 4,
+    "review_flagged_questions": [
+      21,
+      25,
+      27,
+      28,
+      35,
+      45
+    ],
+    "answer_key_reconciled_count_before": 700,
+    "answer_key_reconciled_count_after": 750,
+    "answer_key_pending_count": 550,
+    "result": "Canonical Sep 2016 Q1-Q50 now exactly match the official final/corrected key. Flags remain on items with source/explanation/option ambiguities; no syllabus mapping promoted.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
