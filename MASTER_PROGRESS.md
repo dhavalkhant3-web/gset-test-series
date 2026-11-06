@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 367 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 104/1,300 answer rows reconciled against official final-key PDFs (Dec 2019 Q17–Q20; Nov 2025 Q1–Q100); 1,196 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 367 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 376 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 204/1,300 answer rows reconciled against official final-key PDFs (Dec 2019 Q17–Q20; Dec 2024 Q1–Q100; Nov 2025 Q1–Q100); 1,096 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 376 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -37,7 +37,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - No question-level syllabus assignments were changed by this catalogue registration.
 
 ## Subject-specific highest-priority work
-- **02 Physical:** 206 incomplete option records remain; 104/1,300 answer-key rows reconciled (Dec 2019 Q17–Q20 and Nov 2025 Q1–Q100); 1,196 key rows remain. Syllabus mapping remains 834 provisional + 466 pending, with 0 officially verified. Source-page visual review remains a separate gate.
+- **02 Physical:** 206 incomplete option records remain; 204/1,300 answer-key rows reconciled (Dec 2019 Q17–Q20, Dec 2024 Q1–Q100 and Nov 2025 Q1–Q100); 1,096 key rows remain. Dec 2024 had 10 stored-answer discrepancies corrected to the official final key and flagged for expert review. Syllabus mapping remains 834 provisional + 466 pending, with 0 officially verified. Source-page visual review remains a separate gate.
 - **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
 - **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
@@ -838,3 +838,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Bank commit: `97c8c8cefdd6be3669c8342c2d69df30dc80c84b`; manifest commit: `62f538c2fc2d990822222f94dc56d4117bfd2981`; Code 02 registry commit: `ef33475bd143f4d716a69ee1047116a8bf5ef070`.
 - Updated Paper-II manifest with `answer_key_reconciled_question_count=100` and zero mismatches for Nov 2025. Overall independently reconciled Code 02 answer-key rows in this execution now 104/1,300 (Dec 2019 Q17–Q20 + Nov 2025 Q1–Q100); 1,196 remain. No question-page visual proofreading was performed in this batch; mapping counts unchanged (834 provisional, 466 pending, 0 verified); option incompletes remain 206; source_verified remains 899 and review flags 367.
 - No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences December 2024 official final-key batch
+- Reconciled all 100 December 2024 Paper-II answers against the official GSET final answer-key PDF.
+- 90/100 stored answer letters matched initially; 10 mismatches (Q18, Q19, Q29, Q41, Q71, Q72, Q74, Q77, Q78, Q80) were corrected to the official final key. Previous letters were preserved in `answer_before_key_reconciliation`; all ten records remain review-flagged because the prior answer/explanation or transcription conflicts with the final key.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf ; original question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf.
+- Total Code 02 final-key reconciliation: 204/1,300; 1,096 remain. Current flags recounted from bank records: 376. Option incompletes remain 206; syllabus mapping remains 834 provisional + 466 pending, zero verified. No PR merged; Code 01 and Paper-I untouched.
