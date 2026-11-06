@@ -851,3 +851,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled all 100 November 2023 Paper-II answer letters against official GSET final answer-key PDF: 86/100 initially matched, 14 discrepancies corrected to final key.
 - Added official key verification fields to Q1-Q100 and synchronized question bank, paper manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG and CHANGE_HISTORY.
 - Total key reconciliation now 300/1,300; 1000 remain. English option incomplete records: 206; source_verified: 899; review flags: 382; syllabus mapping remains 834 provisional + 466 pending, zero verified. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences November 2023 official final-key batch
+- Reconciled all 100 November 2023 Paper-II answer letters against the official GSET final key: 100/100 exact matches; zero answer mismatches or corrections.
+- Added official answer-key metadata to Q1-Q100. Preserved the 31 original Nov 2023 review flags/notes unchanged. Added answer-key metadata for Dec 2019 Q17-Q20 previously source-visually checked on printed page 9.
+- Total key reconciliation: 304/1,300; 996 remain. Option incompletes: 206; source_verified: 899; review flags: 376; mappings 834 provisional + 466 pending, zero verified. No PR merged.
