@@ -921,3 +921,8 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Retrieved the full 1,300-record canonical `questions.json` blob directly from GitHub Git Blob API and compared it against official GSET final-key answer tables for December 2024 Code 02 and November 2022 Code 02.
 - Corrected 10 December 2024 canonical answers (Q36 A, Q37 C, Q38 B, Q39 A, Q40 C, Q41 D, Q42 B, Q43 A, Q47 D, Q48 B) and 1 November 2022 answer (Q62 A). Official PDFs: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf and https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf.
 - Answer-key reconciliation total is updated from 304/1,300 to 315/1,300; 985 remain pending. Visual review flags (376), syllabus pending mappings (466), and option incomplete count (206) are unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 Dec 2021 official key sidecar transcription repair
+- Directly inspected the official GSET final key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf. Repaired sidecar values Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. Canonical bank already matched those official PDF answers, so no canonical answer records changed and the independently reconciled count remains 315/1,300 (985 pending).
+- This sidecar repair does not clear visual flags or syllabus mappings. No PR merge.
