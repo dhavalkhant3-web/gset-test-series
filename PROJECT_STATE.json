@@ -33,7 +33,9 @@
     "latest_live_head_before_iks_execution": "797d305b55c1a6cae8498eabd15f7448f20398e7",
     "latest_live_head_after_iks_execution_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
     "latest_live_head_before_physical_sciences_bank_recovery": "d80cd0af108dec5621625403117e385a3f2c9938",
-    "physical_sciences_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
+    "physical_sciences_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d",
+    "latest_live_head_before_physical_sciences_batch": "c4640e0d1f8c60629097c3c52155bb34648c4483",
+    "physical_sciences_batch_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -353,13 +355,13 @@
       "name": "Physical Sciences",
       "records": 1300,
       "sessions": 19,
-      "source_verified_marked": 895,
-      "review_flagged": 371,
-      "core_field_checks_pending": 210,
+      "source_verified_marked": 899,
+      "review_flagged": 367,
+      "core_field_checks_pending": 206,
       "syllabus_mapping": "pending",
       "provenance": "Restored exact bank snapshot from historical commit 7be25307b86d65c640ee0f98c0e76dd40d738d8f; source-verified flags and provisional mapping values preserved as recorded; full source-page and final-key independent re-audit pending.",
-      "question_bank_sha": "aec4aaf28fc78cf600c0595ba71bdb0ad01d8ba8",
-      "status": "recovered latest historical 1300-record bank; source/options/key/mapping audits remain",
+      "question_bank_sha": "6e02623743e15f6e015de7aab138355df1a61812",
+      "status": "recovered 1300-record Paper-II archive; Dec 2019 Q17-Q20 visually transcribed and official-key matched; remaining option, final-key, syllabus mapping and source-page audits pending",
       "source_unverified": 405,
       "review_flags": 371,
       "source_review_required_union": 371,
@@ -378,7 +380,22 @@
         "invalid_after_schema_normalization": 210,
         "valid_A_D_object_records": 85
       },
-      "question_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
+      "question_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d",
+      "last_execution_batch": {
+        "date": "2026-11-06",
+        "paper_id": "physical_dec19",
+        "question_ids": [
+          "physical_dec19_q17",
+          "physical_dec19_q18",
+          "physical_dec19_q19",
+          "physical_dec19_q20"
+        ],
+        "printed_page": 9,
+        "source_verified": 4,
+        "final_key_matched": 4,
+        "remaining_incomplete_options": 206,
+        "final_key_reconciled_total": 4
+      }
     },
     "03": {
       "name": "Chemical Sciences",
