@@ -358,7 +358,7 @@
       "core_field_checks_pending": 210,
       "syllabus_mapping": "pending",
       "provenance": "Restored exact bank snapshot from historical commit 7be25307b86d65c640ee0f98c0e76dd40d738d8f; source-verified flags and provisional mapping values preserved as recorded; full source-page and final-key independent re-audit pending.",
-      "question_bank_sha": "91cfdf3b2c0367e79c8a8386b702f7f622cfc26c",
+      "question_bank_sha": "aec4aaf28fc78cf600c0595ba71bdb0ad01d8ba8",
       "status": "recovered latest historical 1300-record bank; source/options/key/mapping audits remain",
       "source_unverified": 405,
       "review_flags": 371,
@@ -377,7 +377,8 @@
         "all_unresolved_already_review_flagged": true,
         "invalid_after_schema_normalization": 210,
         "valid_A_D_object_records": 85
-      }
+      },
+      "question_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
     },
     "03": {
       "name": "Chemical Sciences",
