@@ -715,3 +715,8 @@
 - Retrieved canonical `questions.json` through the GitHub Git Blob API and compared question records against the official GSET final answer-key PDF for December 2024 Code 02 and November 2022 Code 02.
 - Corrected Dec 2024 Q36 A, Q37 C, Q38 B, Q39 A, Q40 C, Q41 D, Q42 B, Q43 A, Q47 D, Q48 B; corrected Nov 2022 Q62 A. Official PDFs: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf and https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf.
 - Code 02 reconciled answer-key count updated 304/1,300 -> 315/1,300 (985 pending). No visual flags or syllabus mappings were cleared by this answer-key-only batch. No PR merge. CI was pending at register-write time.
+
+
+## 2026-11-06 — Physical Sciences Code 02 Dec 2021 official key sidecar transcription repair
+- Directly checked the GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf and corrected sidecar Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. Previous sidecar values were B, B, B, D, A.
+- Canonical bank answers for these five records already match the official PDF; no canonical question answer updates and no increment to 315/1,300 parity count. No visual flags or syllabus mappings were cleared. PR not merged.
