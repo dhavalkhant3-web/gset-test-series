@@ -5485,5 +5485,110 @@
       "834 mappings remain provisional; 466 remain pending."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 November 2023 Q1-Q100 official final-key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "8ea0f6fd61d0a38a31ffc3463d273438737e2831",
+    "question_bank_blob": "1d58c835c14688326760c0fecd169c55c15e7c57",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2302.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
+    "reconciled_question_count": 100,
+    "initial_matches": 86,
+    "mismatches_corrected": [
+      {
+        "id": "physical_nov23_q33",
+        "stored": "B",
+        "official": "D"
+      },
+      {
+        "id": "physical_nov23_q38",
+        "stored": "A",
+        "official": "C"
+      },
+      {
+        "id": "physical_nov23_q40",
+        "stored": "A",
+        "official": "B"
+      },
+      {
+        "id": "physical_nov23_q48",
+        "stored": "D",
+        "official": "B"
+      },
+      {
+        "id": "physical_nov23_q49",
+        "stored": "D",
+        "official": "A"
+      },
+      {
+        "id": "physical_nov23_q50",
+        "stored": "B",
+        "official": "D"
+      },
+      {
+        "id": "physical_nov23_q72",
+        "stored": "B",
+        "official": "D"
+      },
+      {
+        "id": "physical_nov23_q74",
+        "stored": "B",
+        "official": "D"
+      },
+      {
+        "id": "physical_nov23_q77",
+        "stored": "B",
+        "official": "C"
+      },
+      {
+        "id": "physical_nov23_q78",
+        "stored": "C",
+        "official": "B"
+      },
+      {
+        "id": "physical_nov23_q89",
+        "stored": "C",
+        "official": "D"
+      },
+      {
+        "id": "physical_nov23_q90",
+        "stored": "D",
+        "official": "C"
+      },
+      {
+        "id": "physical_nov23_q97",
+        "stored": "A",
+        "official": "B"
+      },
+      {
+        "id": "physical_nov23_q98",
+        "stored": "D",
+        "official": "A"
+      }
+    ],
+    "result": {
+      "total_records": 1300,
+      "source_verified": 899,
+      "review_flags": 382,
+      "incomplete_options": 206,
+      "provisional_mappings": 834,
+      "pending_mappings": 466,
+      "verified_mappings": 0,
+      "answer_key_reconciled_total": 300,
+      "answer_key_pending": 1000
+    },
+    "actions": [
+      "Parsed official GSET final-key table Q1-Q100 from the subject-specific PDF.",
+      "Compared all stored answers to the official key and added official_answer, answer_key_verified, answer_source and verification_status.",
+      "Corrected any discrepancies to the official key while retaining prior answer and flagging for expert review.",
+      "Updated question bank, paper manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG, MASTER_PROGRESS and CHANGE_HISTORY."
+    ],
+    "limitations": [
+      "This key reconciliation is independent from source-page visual checks.",
+      "English option repairs and syllabus mapping remain pending."
+    ],
+    "noMerge": true
   }
 ]
