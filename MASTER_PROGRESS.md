@@ -896,3 +896,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Recorded the official final answer-key PDF URL and `answer_key_verified: true` for source-review records Q39 (D), Q41 (C), and Q58 (D), while retaining `source_verified: false` and `review_flag: true` because their OCR stems/options still require visual transcription against the original question paper.
 - Source key: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Source-review file commit: `d1433d815bc6cdfae91c6624d9d5a96e23997ceb`.
 - This is provenance/status metadata only; no canonical question-bank records edited, no parity or CI/build pass claimed, no PR merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 verified-additions answer-key parity batch
+- Compared all 21 records in `questions_dec24_verified_additions.json` (Q54–Q58 and Q81–Q96 subset as present) against `dec24_official_final_answer_key.json`, which transcribes the official GSET FINAL key.
+- Result: 21/21 stored answer letters match the corresponding official-key entries; zero mismatches. No answer changes were needed. English/Gujarati content and source flags were left untouched.
+- This is answer-key parity for this standalone additions file only; does not establish canonical `questions.json` parity or visual source transcription. Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. CI/build not run; no PR merge.
