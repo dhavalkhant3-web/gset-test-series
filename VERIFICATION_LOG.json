@@ -5902,5 +5902,26 @@
       "Official syllabus mapping work remains pending.",
       "CI/build not run; no PR merged."
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Sep 2018 Q32/Q86 final-key status cross-check",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/sept18_source_review.json",
+      "assets/subjects/physical_sciences/sept18_official_final_answer_key.json"
+    ],
+    "official_key_answers": {
+      "Q32": "C",
+      "Q86": "Z"
+    },
+    "Q86_evaluation_status": "not_evaluated_official_final_key",
+    "source_review_sidecar_already_correct": true,
+    "source_verified": true,
+    "review_flag": false,
+    "canonical_bank_parity": "pending; large questions.json connector body blank",
+    "question_edits": 0,
+    "ci": "not run",
+    "noMerge": true
   }
 ]
