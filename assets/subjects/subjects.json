@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1,300 unique records across 19 official sessions. User confirmed actual Code 02 work complete (2026-11-06). Historical official final-key parity tally in latest audit trail: 950/1,300; not an active backlog by user confirmation. Prior option/mapping/review counts are stale and must not be used as active work without fresh live-state reconciliation. Legacy subject-level source_verified remains false; separate Paper-III archive excluded from Paper-II."
+      "data_status": "Paper-II archive: 1300 unique records across 19 official sessions. Live canonical audit (2026-11-06): 899/1300 source_verified; 380 review flags; 291 records have missing/malformed English A-D option arrays; 304 carry canonical answer_key_verified=true. These checks are separate. NOT fully verified. Do not mark subject source_verified until every record is source-reviewed and all required option content is reconciled."
     },
     {
       "code": "03",
