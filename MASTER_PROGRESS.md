@@ -12,7 +12,7 @@ Updated: 2026-11-06
 
 ## Current branch checkpoint (historical head reference; refresh from GitHub before next edit)
 - `main`: `2108d34bd6fce149d02d0d5054946dd42dffc79e`
-- Integration branch has continued advancing; live HEAD on 2026-11-06 after Physical Sciences bank recovery is `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`.
+- Physical Sciences bank recovery commit on 2026-11-06: `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`; subsequent commits synchronized the master/state/verification/change-history/subject registry/paper manifest registers.
 - PR #16 merge commit: `bedd33e6536e4eb35823049d62e1889c3f75e7a7`
 
 ## Integrated question-bank checkpoint
