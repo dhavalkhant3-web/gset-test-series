@@ -857,3 +857,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled all 100 November 2023 Paper-II answer letters against the official GSET final key: 100/100 exact matches; zero answer mismatches or corrections.
 - Added official answer-key metadata to Q1-Q100. Preserved the 31 original Nov 2023 review flags/notes unchanged. Added answer-key metadata for Dec 2019 Q17-Q20 previously source-visually checked on printed page 9.
 - Total key reconciliation: 304/1,300; 996 remain. Option incompletes: 206; source_verified: 899; review flags: 376; mappings 834 provisional + 466 pending, zero verified. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 official final-key sidecar batch
+- Added source-checked standalone answer-key JSON sidecars for November 2022, November 2023, December 2024, and December 2021 (January 2022 session) using the official GSET final-key PDFs.
+- Each sidecar has 100 numbered answer choices (A/B/C/D/Z), an official GSET source URL, and explicit status that question-bank parity has not yet been checked.
+- December 2021 sidecar commit: `2b85f002b268e36acf19ba7f24d4c89bd2153cfe`.
+- These sidecars preserve answer-key provenance but do not increase the bank's 304/1,300 reconciled question-record count. Actual questions.json parity, English options, syllabus mappings and CI/build remain pending. No PR merged; Code 01 and Paper-I untouched.
