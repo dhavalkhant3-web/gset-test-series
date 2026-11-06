@@ -6025,7 +6025,10 @@
     "ci": "not run yet",
     "pr_merges": 0,
     "code01_changed": false,
-    "paper_i_changed": false
+    "paper_i_changed": false,
+    "reversed": true,
+    "reversal_reason": "The Dec 2024 and Nov 2022 key sidecars contained transcription errors. Direct official PDF table values contradicted the sidecars; all 11 canonical answer changes were reverted to the original bank answers. Sidecars have since been corrected against the official PDFs.",
+    "net_canonical_answer_updates": 0
   },
   {
     "date": "2026-11-06",
@@ -6065,5 +6068,44 @@
     "review_flags_cleared": 0,
     "mappings_verified": 0,
     "pr_merges": 0
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 direct official final-key table audit and sidecar correction",
+    "branch": "integration/combined-subject-banks",
+    "official_pdfs": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "dec24_sidecar_corrected_question_numbers": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      47,
+      48
+    ],
+    "nov22_sidecar_corrected_question_numbers": [
+      62
+    ],
+    "dec24_canonical_parity": "100/100 exact matches with official PDF table; this session was already included in the earlier 304 reconciled count",
+    "nov22_canonical_parity": "100/100 exact matches with official PDF table after correcting sidecar Q62",
+    "canonical_answer_changes_in_this_correction": 0,
+    "prior_erroneous_canonical_changes_reverted": 11,
+    "answer_key_reconciled_count_before": 304,
+    "answer_key_reconciled_count_after": 404,
+    "answer_key_pending_count": 896,
+    "review_flags_cleared": 0,
+    "syllabus_mappings_verified": 0,
+    "result": "Official PDFs prevail over sidecar transcriptions. Canonical answer values restored; Dec 2024 and Nov 2022 sidecars now match official PDF tables. Nov 2022 adds 100 direct final-key parity rows.",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
