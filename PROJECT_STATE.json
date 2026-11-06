@@ -1163,33 +1163,19 @@
   "latest_execution_checkpoint": {
     "date": "2026-11-06",
     "branch": "integration/combined-subject-banks",
-    "scope": "Physical Sciences Code 02 — November 2025 Paper-II final-key Q1–Q100 batch",
-    "question_bank_commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
-    "manifest_commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
-    "subject_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
-    "final_key_reconciled_this_batch": 100,
-    "mismatches": 0,
-    "answer_key_reconciled_total_this_execution": 104,
-    "answer_key_pending": 1196,
-    "physical_sciences_counts": {
-      "total": 1300,
-      "source_verified": 899,
-      "review_flags": 367,
-      "options_incomplete": 206,
-      "mappings_provisional": 834,
-      "mappings_pending": 466,
-      "mappings_verified": 0
-    },
-    "ci_before_register_refresh": {
-      "combined_audit_run": 42162713671,
-      "conclusion": "success",
-      "debug_apk_run": 42162713676,
-      "conclusion_debug_apk": "success"
-    },
+    "scope": "Physical Sciences Code 02 September 2018 official final-key sidecar transcription",
+    "sidecar_commit": "7516842dbf505f7cc01af6618f3b05c242fc057b",
+    "answer_rows_transcribed": 100,
+    "official_Z": [
+      16,
+      80,
+      86
+    ],
+    "question_bank_parity": "pending",
+    "ci_run": "not run",
     "pr_merges": 0,
     "code01_changed": false,
-    "paper_i_changed": false,
-    "note": "Answer-key verification does not mean visual source-page proofreading or syllabus mappings are verified. Source flags retained."
+    "paper_i_changed": false
   },
   "latest_iks_execution": {
     "date": "2026-11-05",
@@ -1293,13 +1279,14 @@
       "physical_nov22",
       "physical_nov23",
       "physical_dec24",
-      "physical_dec21"
+      "physical_dec21",
+      "physical_sep18"
     ],
     "sidecar_question_count_each": 100,
     "verification_scope": "official GSET final answer-key PDFs",
     "question_bank_parity": "pending",
-    "note": "Sidecar presence is not equivalent to question-bank answer reconciliation; the bank tally remains 304/1300.",
-    "latest_commit": "2b85f002b268e36acf19ba7f24d4c89bd2153cfe"
+    "note": "Official GSET final-key sidecars available for physical_nov22, physical_nov23, physical_dec24, physical_dec21 and physical_sep18. Question-bank parity pending for these sidecars; this does not increase the reconciled bank tally.",
+    "latest_commit": "7516842dbf505f7cc01af6618f3b05c242fc057b"
   },
   "code02_dec24_small_file_audit": {
     "archive_records": 25,
