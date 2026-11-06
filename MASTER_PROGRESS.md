@@ -990,3 +990,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Screenshot of December 2024 Question 1 visibly shows extracted booklet/OMR instruction text instead of a proper MCQ, and the app shows its missing-options warning. This is a confirmed question-data defect that blocks a fully verified status. Question stem/options must be corrected against the official original paper, not guessed. Exact record-level patch is pending source-page confirmation.
 - App wording corrected in `lib/main.dart` commit `7cf7b5a51f3d5bae621a232317b2f3f44f4925bb`: count label changed from “Verified Questions” to “Loaded Questions”, and practice subtitle from “verified questions” to “loaded questions”, so loaded-record totals no longer imply verified quality. This does not change any question-bank content.
 - Rebuild the Integration Debug APK from this UI commit and validate screenshot fixes before claiming latest APK.
+
+
+## 2026-11-06 — APK build after Physical Sciences UI status wording correction
+- Latest branch commit `d0a79e7917c91272707dba3fbf1bb621dfe16744` has successful Integration Debug APK run #837 (run ID 42196808593; conclusion success).
+- Artifact: `gset-test-series-integration-debug-apk`, ID 13493210817, size 113,170,311 bytes, SHA-256 `9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7d`, expires 2026-11-20. [Run #837](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593).
+- App now uses “Loaded Questions” and “loaded questions” labels instead of implying the 1,300 loaded records are source-verified. The status card still says verification in progress; no false completion status applied.
+- User screenshot's Dec 2024 Q1 error remains pending correction from the official source page. The page identified by NDLI and ExamsRepo is the Dec 2024 Paper-II booklet (32 pages); official final key confirms Q1=C. The screenshot currently shows booklet instructions and empty options, so record is not accepted as valid MCQ. Avoid guesswork: restore correct Q1 stem/options only after the original page is visually read and compared.
