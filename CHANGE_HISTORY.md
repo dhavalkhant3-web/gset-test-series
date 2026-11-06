@@ -720,3 +720,10 @@
 ## 2026-11-06 — Physical Sciences Code 02 Dec 2021 official key sidecar transcription repair
 - Directly checked the GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf and corrected sidecar Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. Previous sidecar values were B, B, B, D, A.
 - Canonical bank answers for these five records already match the official PDF; no canonical question answer updates and no increment to 315/1,300 parity count. No visual flags or syllabus mappings were cleared. PR not merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 direct official final-key table audit and correction
+- Directly inspected the official GSET December 2024 and November 2022 Physical Sciences final answer-key PDFs. Repository sidecars had 11 transcription errors: Dec 2024 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; Nov 2022 Q62 B. Sidecars corrected to these PDF values.
+- Reverted the earlier 11 canonical answer changes that relied on the erroneous sidecar values. The canonical bank's original answers for these records match the official PDF tables. Net canonical answer changes in that earlier batch: zero.
+- Directly compared canonical November 2022 Paper-II Q1-Q100 against the official PDF table: 100/100 exact matches, adding 100 reconciled rows. December 2024 Q1-Q100 also matches its official PDF table and was already counted in the prior 304.
+- Current final-key parity: 404/1,300; 896 pending. Visual flags (376), syllabus mapping pending (466), option incomplete records (206) unchanged. No PR merge.
