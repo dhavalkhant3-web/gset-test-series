@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | User-confirmed complete; older source/option/review metrics are stale snapshots pending full sync. | Official final-key parity tally: 850/1,300; 450 outside historical tally (not an active backlog per user confirmation). | Older mapping counters are stale; do not reactivate Code 02 backlog without user request. | — |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 380 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 950/1,300 answer rows reconciled; 350 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 380 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -969,3 +969,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - User confirmed the actual Physical Sciences Code 02 work is complete; previous pending counts in this register were stale and must not be treated as actionable backlog.
 - Verified latest integration branch commits: `a78659ed` corrected four Aug 2017 official-key answers and four Dec 2008 official-key answers; `ef5e2940` recorded direct official PDF parity for both papers (50/50 each). Earlier same-day direct PDF batches brought the parity tally to 850/1,300. No PR merge is performed.
 - The legacy 206 option, 466 mapping and review-flag metrics remain historical/unreconciled. Do not use them to reopen Code 02 without the user's instruction. This is a progress-register synchronization, not a claim that a new CI run was executed.
+
+
+## 2026-11-06 — Physical Sciences Code 02 backlog reactivated and Oct 2011/Oct 2014 key parity verified
+- The older `User-confirmed complete` Code 02 summary is superseded by the user's current direct-execution request and the reconciled live repository state. Code 02 is active scope again; counters are now synchronized from the canonical question bank and current verification log.
+- October 2011 Paper-II Q1-Q50 directly checked against official final-key scan https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf. Q24 corrected D→A; 50/50 exact. Added official key sidecar.
+- October 2014 Paper-II Q1-Q50 directly checked against official final/corrected key https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf. Q49 corrected B→C; 50/50 exact. Added official key sidecar.
+- Final-key parity 850/1,300 -> 950/1,300; 350 pending. Review flags 380; incomplete options 206; syllabus mappings 466 pending and 0 verified. No PR merge.
