@@ -624,3 +624,12 @@
 - Question-bank commit: `717dde33b63a72e840af1fae6c473ff8ecab2e4a`; blob: `6e02623743e15f6e015de7aab138355df1a61812`.
 - Current counts: 899/1,300 source_verified; 367 review flags; 206 incomplete options; 4/1,300 answer-key rows reconciled in this execution; 834 provisional mappings; 466 pending mappings.
 - Manifest and registers synchronized. No other subject, Code 01, Paper-I, or PR was modified/merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 November 2025 final-key reconciliation batch (Q1–Q100)
+- Reconciled all 100 November 2025 Paper-II answer letters (question numbers Q1–Q100) against the official GSET final answer-key table: every existing bank answer matches; mismatches 0/100.
+- Added question-level `official_answer`, `answer_key_verified=true`, `answer_source`, and `verification_status=official_final_answer_key_reconciled_direct_pdf` to the 100 Nov 2025 records. Existing answer values and source-review flags were retained; answer-key verification is separate from original question-page visual verification and syllabus mapping.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2502.pdf (table corroborated by ExamsRepo's transcription of the official key; no secondary source used to alter any answer).
+- Bank commit: `97c8c8cefdd6be3669c8342c2d69df30dc80c84b`; manifest commit: `62f538c2fc2d990822222f94dc56d4117bfd2981`; Code 02 registry commit: `ef33475bd143f4d716a69ee1047116a8bf5ef070`.
+- Updated Paper-II manifest with `answer_key_reconciled_question_count=100` and zero mismatches for Nov 2025. Overall independently reconciled Code 02 answer-key rows in this execution now 104/1,300 (Dec 2019 Q17–Q20 + Nov 2025 Q1–Q100); 1,196 remain. No question-page visual proofreading was performed in this batch; mapping counts unchanged (834 provisional, 466 pending, 0 verified); option incompletes remain 206; source_verified remains 899 and review flags 367.
+- No PR merged; Code 01 and Paper-I untouched.
