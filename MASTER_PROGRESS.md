@@ -908,3 +908,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Compared all 25 records in `questions_dec24_archive.json` (Q54–Q58 and Q81–Q100) against the official GSET December 2024 FINAL answer-key sidecar.
 - Result: 25/25 answer letters match; zero mismatches and no answer edits. Existing review flags (including figure-based Q54 and Q94) were preserved; this does not clear visual proofread requirements.
 - Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. Scope is the archive JSON only; canonical `questions.json` parity is still pending. CI/build not run; no PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 official answer-key sidecar integrity audit (Dec 2021, Nov 2022, Nov 2023, Sep 2018)
+- Checked the existing official-final-key JSON sidecars for Dec 2021 (Jan 2022), Nov 2022, Nov 2023, and Sep 2018.
+- Structural result: 100 answer entries each (400 total); Q1–Q100 present for each; zero missing question numbers and zero invalid answer values (accepted alphabet A/B/C/D/Z).
+- This validates sidecar completeness only. It does not establish parity against canonical `questions.json`, visual source verification, or syllabus mapping. Existing review flags remain. No question-bank corrections made; CI/build not run; no PR merged.
+- Official key URLs: dec21 https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf; nov22 https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf; nov23 https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf; sept18 https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
