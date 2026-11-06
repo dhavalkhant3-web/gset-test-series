@@ -997,3 +997,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Artifact: `gset-test-series-integration-debug-apk`, ID 13493210817, size 113,170,311 bytes, SHA-256 `9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7d`, expires 2026-11-20. [Run #837](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593).
 - App now uses “Loaded Questions” and “loaded questions” labels instead of implying the 1,300 loaded records are source-verified. The status card still says verification in progress; no false completion status applied.
 - User screenshot's Dec 2024 Q1 error remains pending correction from the official source page. The page identified by NDLI and ExamsRepo is the Dec 2024 Paper-II booklet (32 pages); official final key confirms Q1=C. The screenshot currently shows booklet instructions and empty options, so record is not accepted as valid MCQ. Avoid guesswork: restore correct Q1 stem/options only after the original page is visually read and compared.
+
+
+## 2026-11-06 — Canonical Code 02 live-bank strict QA reconciliation
+- Parsed canonical Git blob `questions.json` SHA `4973225c416989916604d2162067f5c85904e1e3` (1,300 records / 19 sessions).
+- Live canonical totals: source_verified=true 899/1,300; review_flag=true 380; records with missing/malformed English options_en A-D (291); answer_key_verified=true 304. This refutes earlier blanket completion language; answer-key parity and source/option proofing are separate.
+- December 2024 Q1 canonical item `physical_dec24_q01` contains the valid Fourier-series question, four non-empty English options, correct answer C and official final-key metadata. It is not corrupt in the canonical bank. User screenshot shows a different runtime-rendered instruction-text item, so app build/data path must be verified before altering the good canonical record.
+- Subject registry and Paper-II manifest source-review/review-flag counts synchronized from live canonical records. No question stem, option, answer, image or source reference edited in this reconciliation.
+- Code 02 remains NOT fully verified. Remaining repair work: visually compare flagged/invalid records against original official paper PDFs; repair only source-confirmed content; do not invent options. No PR merge. Paper-I and Code 01 untouched.
