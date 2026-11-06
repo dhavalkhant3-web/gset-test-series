@@ -650,3 +650,10 @@
 - Compared Nov 2023 Paper-II Q1-Q100 against the official GSET final answer key: 100/100 exact matches; zero mismatches and no answer corrections. Preserved all 31 existing source-review flags and notes for that session.
 - Added official key verification fields to Nov 2023 Q1-Q100 and Dec 2019 Q17-Q20 already source-visually checked. Updated manifest, registry, PROJECT_STATE, VERIFICATION_LOG and MASTER_PROGRESS.
 - Reconciled total: 304/1,300; 996 pending. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 official answer-key sidecar additions
+- Added the December 2021 (January 2022) official final-key JSON sidecar; confirmed November 2022, November 2023 and December 2024 sidecars with the official final-key source URLs.
+- All sidecars contain 100 sequential answers and clearly separate PDF-key transcription from question-bank parity.
+- December 2021 sidecar commit: `2b85f002b268e36acf19ba7f24d4c89bd2153cfe`.
+- No question-bank parity or question-level answer verification claimed in this sidecar-only batch. Current bank reconciliation tally remains 304/1,300; options, syllabus mappings and CI/build validation remain pending. No PR merged.
