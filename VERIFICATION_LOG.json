@@ -5848,5 +5848,59 @@
       "CI/build not run or confirmed."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 answer-key sidecar integrity audit for pending review/mapping papers",
+    "branch": "integration/combined-subject-banks",
+    "files": [
+      "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/nov22_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/nov23_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/sept18_official_final_answer_key.json"
+    ],
+    "papers": [
+      {
+        "paper": "physical_dec21",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf"
+      },
+      {
+        "paper": "physical_nov22",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+      },
+      {
+        "paper": "physical_nov23",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf"
+      },
+      {
+        "paper": "physical_sep18",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf"
+      }
+    ],
+    "totals": {
+      "keyEntries": 400,
+      "missingQuestionNumbers": 0,
+      "invalidAnswerValues": 0
+    },
+    "scope": "Structure/completeness audit of existing official-key sidecar JSON only; not comparison with question-bank records, not visual question-paper verification, not syllabus mapping.",
+    "result": "All four sidecars have keys Q1-Q100 and each answer value is one of A/B/C/D/Z. No sidecar corrections performed.",
+    "limitations": [
+      "Answer parity with canonical questions.json remains pending; oversized connector payload is blank.",
+      "Question visual review flags remain unresolved.",
+      "Official syllabus mapping work remains pending.",
+      "CI/build not run; no PR merged."
+    ]
   }
 ]
