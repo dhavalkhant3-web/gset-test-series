@@ -6548,5 +6548,17 @@
       "No question bank records modified",
       "No PR merged"
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Integration Debug APK rebuilt after status-label correction",
+    "run_number": 837,
+    "run_id": 42196808593,
+    "conclusion": "success",
+    "artifact_id": 13493210817,
+    "sha256": "9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7",
+    "question_data_change": false,
+    "q1_problem_still_open": true,
+    "source_final_key_q1": "C"
   }
 ]
