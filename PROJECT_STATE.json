@@ -35,7 +35,10 @@
     "latest_live_head_before_physical_sciences_bank_recovery": "d80cd0af108dec5621625403117e385a3f2c9938",
     "physical_sciences_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d",
     "latest_live_head_before_physical_sciences_batch": "c4640e0d1f8c60629097c3c52155bb34648c4483",
-    "physical_sciences_batch_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a"
+    "physical_sciences_batch_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a",
+    "latest_physical_sciences_answer_key_batch_commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
+    "physical_sciences_nov25_manifest_commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
+    "physical_sciences_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -519,6 +522,21 @@
       "path": "assets/subjects/syllabus_units.json",
       "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
       "action": "corrected official ten-unit catalogue entries for IKS Code29 and Public Administration Code32; no question-level mappings changed"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
+      "action": "independently reconciled Nov 2025 Q1-Q100 final-key letters (100 matched, 0 mismatches); added question-level official answer source and key verification status; retained source review flags"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/papers.json",
+      "commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
+      "action": "manifest records Nov 2025 final answer-key reconciliation count 100 and zero mismatches"
+    },
+    {
+      "path": "assets/subjects/subjects.json",
+      "commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
+      "action": "Physical Sciences Code02 progress metadata synchronized to 104/1300 final-key reconciled"
     }
   ],
   "no_changes_made": [
@@ -610,6 +628,7 @@
     "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
   },
   "next_tasks": [
+    "Physical Sciences: reconcile the next source-accessible consecutive final-key batch; Nov 2025 Q1–Q100 is complete. Current final-key total 104/1,300, 1,196 pending.",
     "IKS Code 29: review remaining 182 provisional mappings; visually verify 183 records (Dec24 Q1-Q17,Q26-Q100; Nov25 91); determine Dec24 Q20 unit only if a defensible syllabus link emerges; Gujarati transcription pending.",
     "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
     "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
@@ -619,8 +638,7 @@
     "Performing Arts: review 200 source/text records and six bilingual discrepancies; mapping progress now 171 provisional and 129 pending.",
     "Public Administration: visually review all 300 stems/options and resolve disputed Dec24 Q24/Q35 and Nov25 Q17; mappings now 22 manually reviewed and 278 provisional.",
     "Visual Art: proofread 256 records, resolve 14 concerns; mappings are now fully assigned (22 manually reviewed, 278 provisional). Image-dependent suggestions remain provisional until source figures are inspected.",
-    "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission.",
-    "Check latest exact-head Combined audit, Public Administration validation, Flutter analyze/widget tests and Debug APK artifact before reporting build status."
+    "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission."
   ],
   "data_integrity_check": {
     "date": "2026-10-30",
@@ -1045,9 +1063,35 @@
     }
   },
   "latest_execution_checkpoint": {
-    "date": "2026-11-04",
-    "commit": "6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef",
-    "scope": "Performing Arts Code 31 Nov 2025 Q1-Q7 English/Gujarati source proofread"
+    "date": "2026-11-06",
+    "branch": "integration/combined-subject-banks",
+    "scope": "Physical Sciences Code 02 — November 2025 Paper-II final-key Q1–Q100 batch",
+    "question_bank_commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
+    "manifest_commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
+    "subject_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
+    "final_key_reconciled_this_batch": 100,
+    "mismatches": 0,
+    "answer_key_reconciled_total_this_execution": 104,
+    "answer_key_pending": 1196,
+    "physical_sciences_counts": {
+      "total": 1300,
+      "source_verified": 899,
+      "review_flags": 367,
+      "options_incomplete": 206,
+      "mappings_provisional": 834,
+      "mappings_pending": 466,
+      "mappings_verified": 0
+    },
+    "ci_before_register_refresh": {
+      "combined_audit_run": 42162713671,
+      "conclusion": "success",
+      "debug_apk_run": 42162713676,
+      "conclusion_debug_apk": "success"
+    },
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "note": "Answer-key verification does not mean visual source-page proofreading or syllabus mappings are verified. Source flags retained."
   },
   "latest_iks_execution": {
     "date": "2026-11-05",
