@@ -7,8 +7,8 @@
   "question_count": 100,
   "source_type": "GSET official FINAL answer key",
   "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf",
-  "verification_status": "official_final_key_crosschecked_against_GSET_PDF; question_bank_parity_not_yet_checked",
-  "note": "All 100 entries transcribed and checked against the official GSET final answer key PDF. Z denotes a question not considered for evaluation. Question-bank parity remains pending.",
+  "verification_status": "official_final_key_directly_rechecked_against_GSET_PDF; five transcription errors corrected; canonical question-bank parity checked",
+  "note": "Five sidecar transcription errors corrected from the official GSET December 2021 (January 2022) final answer-key PDF: Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. The canonical bank values already match the official PDF for these questions. Prior sidecar values are not authoritative over the PDF.",
   "answers": {
     "1": "B",
     "2": "A",
@@ -102,12 +102,12 @@
     "90": "C",
     "91": "A",
     "92": "B",
-    "93": "B",
-    "94": "B",
-    "95": "B",
-    "96": "D",
+    "93": "C",
+    "94": "C",
+    "95": "D",
+    "96": "B",
     "97": "B",
-    "98": "A",
+    "98": "B",
     "99": "B",
     "100": "D"
   }
