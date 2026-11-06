@@ -5773,5 +5773,37 @@
       "No CI/build pass or PR merge claimed."
     ],
     "noMerge": true
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2018 flagged answer-key provenance recorded",
+    "branch": "integration/combined-subject-banks",
+    "inspected_files": [
+      "assets/subjects/physical_sciences/sept18_source_review.json"
+    ],
+    "records": [
+      {
+        "question_no": 39,
+        "official_answer": "D"
+      },
+      {
+        "question_no": 41,
+        "official_answer": "C"
+      },
+      {
+        "question_no": 58,
+        "official_answer": "D"
+      }
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
+    "metadata_updated": true,
+    "review_flags_retained": 3,
+    "source_verified": false,
+    "limitations": [
+      "OCR stem/options remain incomplete/garbled; visual question-paper transcription pending.",
+      "Canonical questions.json parity unavailable via connector.",
+      "CI/build not run or confirmed."
+    ],
+    "noMerge": true
   }
 ]
