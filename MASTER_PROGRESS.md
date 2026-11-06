@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 380 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 850/1,300 answer rows reconciled (prior 750 + Aug 2017 Q1-Q50 + Dec 2008 Q1-Q50 direct official-PDF parity); 450 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 380 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | User-confirmed complete; older source/option/review metrics are stale snapshots pending full sync. | Official final-key parity tally: 850/1,300; 450 outside historical tally (not an active backlog per user confirmation). | Older mapping counters are stale; do not reactivate Code 02 backlog without user request. | — |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
