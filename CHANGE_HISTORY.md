@@ -639,3 +639,8 @@
 - Reconciled 100 December 2024 Paper-II answer rows against the official GSET final key: 90 existing letters matched; 10 were corrected to the official final choices (Q18, Q19, Q29, Q41, Q71, Q72, Q74, Q77, Q78, Q80) and flagged for expert review.
 - Updated the question bank, December 2024 paper manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG and MASTER_PROGRESS. Prior answer letters were retained in `answer_before_key_reconciliation`; explanations were not rewritten.
 - Reconciliation total: 204/1,300; 1,096 pending. Question-page proofreading, option repair and syllabus mapping remain separate. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences November 2023 final-key reconciliation
+- Compared November 2023 Q1-Q100 against official GSET final answer key. 86 matched existing answers; 14 discrepancies corrected to authoritative key, with previous answer preserved and flags raised where applicable.
+- Updated question bank, manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG and MASTER_PROGRESS. Reconciled total: 300/1,300; 1000 pending. No PR merged.
