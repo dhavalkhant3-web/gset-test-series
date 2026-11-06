@@ -1,7 +1,7 @@
 {
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "audit_scope": [
     "02",
     "03",
@@ -31,7 +31,9 @@
     "latest_live_head_before_visual_art_mapping_batch_3": "249923f5d4ff3bd7325548ef7adc1509ba6834b8",
     "latest_integration_head_after_unit_field_sync": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
     "latest_live_head_before_iks_execution": "797d305b55c1a6cae8498eabd15f7448f20398e7",
-    "latest_live_head_after_iks_execution_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
+    "latest_live_head_after_iks_execution_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
+    "latest_live_head_before_physical_sciences_bank_recovery": "d80cd0af108dec5621625403117e385a3f2c9938",
+    "physical_sciences_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d"
   },
   "rules": {
     "single_existing_android_app": true,
@@ -351,28 +353,29 @@
       "name": "Physical Sciences",
       "records": 1300,
       "sessions": 19,
-      "source_verified_marked": 892,
-      "review_flagged": 364,
-      "core_field_checks_pending": 86,
+      "source_verified_marked": 895,
+      "review_flagged": 371,
+      "core_field_checks_pending": 210,
       "syllabus_mapping": "pending",
-      "provenance": "Integration subjects.json metadata; counts may overlap and do not prove full visual proofreading",
+      "provenance": "Restored exact bank snapshot from historical commit 7be25307b86d65c640ee0f98c0e76dd40d738d8f; source-verified flags and provisional mapping values preserved as recorded; full source-page and final-key independent re-audit pending.",
       "question_bank_sha": "91cfdf3b2c0367e79c8a8386b702f7f622cfc26c",
-      "status": "partial",
-      "source_unverified": 408,
-      "review_flags": 374,
-      "source_review_required_union": 430,
-      "malformed_option_records": 213,
-      "malformed_option_records_already_review_flagged": 213,
+      "status": "recovered latest historical 1300-record bank; source/options/key/mapping audits remain",
+      "source_unverified": 405,
+      "review_flags": 371,
+      "source_review_required_union": 371,
+      "malformed_option_records": 210,
+      "malformed_option_records_already_review_flagged": 210,
       "unit_mapping": {
-        "missing": 581,
-        "provisional_or_unverified_declared": 719
+        "missing": 466,
+        "provisional_or_unverified_declared": 834,
+        "verified": 0
       },
-      "schema_note": "85 records use valid options.A-D dictionaries; the validator previously misclassified them because it checked options_en only. Schema-aware count is 213 unresolved options, not 298.",
+      "schema_note": "Options accept options_en string arrays or valid options.A-D objects. 1,090 records pass schema-aware nonempty four-option structure; 210 remain incomplete, all already review_flag=true.",
       "invalid_option_records": {
-        "valid_after_schema_normalization": 1087,
-        "unresolved": 213,
+        "valid_after_schema_normalization": 1090,
+        "unresolved": 210,
         "all_unresolved_already_review_flagged": true,
-        "invalid_after_schema_normalization": 213,
+        "invalid_after_schema_normalization": 210,
         "valid_A_D_object_records": 85
       }
     },
