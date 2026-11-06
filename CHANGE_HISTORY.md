@@ -727,3 +727,9 @@
 - Reverted the earlier 11 canonical answer changes that relied on the erroneous sidecar values. The canonical bank's original answers for these records match the official PDF tables. Net canonical answer changes in that earlier batch: zero.
 - Directly compared canonical November 2022 Paper-II Q1-Q100 against the official PDF table: 100/100 exact matches, adding 100 reconciled rows. December 2024 Q1-Q100 also matches its official PDF table and was already counted in the prior 304.
 - Current final-key parity: 404/1,300; 896 pending. Visual flags (376), syllabus mapping pending (466), option incomplete records (206) unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2021 (January 2022) direct official final-key parity
+- Compared all 100 canonical `physical_dec21` answers against the official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf. Result: 100/100 exact matches, zero mismatches, and no canonical answer edits.
+- The Dec 2021 answer-key sidecar's five transcription errors (Q93, Q94, Q95, Q96, Q98) had already been repaired directly from the official PDF table. Final-key parity total increases 404/1,300 -> 504/1,300; 796 pending.
+- No visual review flags or syllabus mappings cleared. PR not merged.
