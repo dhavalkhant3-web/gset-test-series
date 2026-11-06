@@ -602,7 +602,7 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
           Row(children: [
             Expanded(child: _statusCard(Icons.description_rounded, papers.length.toString(), 'Official Papers')),
             const SizedBox(width: 9),
-            Expanded(child: _statusCard(Icons.quiz_rounded, questions.length.toString(), 'Verified Questions')),
+            Expanded(child: _statusCard(Icons.quiz_rounded, questions.length.toString(), 'Loaded Questions')),
           ]),
           const SizedBox(height: 16),
           const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
@@ -631,7 +631,7 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
               onStateChanged: _saveState,
             )));
           }),
-          _action(Icons.shuffle_rounded, 'Practice Questions', questions.isEmpty ? 'Verified data pending' : questions.length.toString() + ' verified questions', () => _openTest(practice: true)),
+          _action(Icons.shuffle_rounded, 'Practice Questions', questions.isEmpty ? 'Verified data pending' : questions.length.toString() + ' loaded questions', () => _openTest(practice: true)),
           _action(Icons.timer_rounded, 'Full Length Mock', '100 Questions • 200 Marks', () => _openTest(mock: true)),
           _action(Icons.bookmark_rounded, 'Bookmarks', bookmarks.length.toString() + ' saved', () {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(bookmarks.length.toString() + (widget.gu ? ' questions bookmarked.' : ' questions bookmarked.'))));
