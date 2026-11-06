@@ -633,3 +633,9 @@
 - Bank commit: `97c8c8cefdd6be3669c8342c2d69df30dc80c84b`; manifest commit: `62f538c2fc2d990822222f94dc56d4117bfd2981`; Code 02 registry commit: `ef33475bd143f4d716a69ee1047116a8bf5ef070`.
 - Updated Paper-II manifest with `answer_key_reconciled_question_count=100` and zero mismatches for Nov 2025. Overall independently reconciled Code 02 answer-key rows in this execution now 104/1,300 (Dec 2019 Q17–Q20 + Nov 2025 Q1–Q100); 1,196 remain. No question-page visual proofreading was performed in this batch; mapping counts unchanged (834 provisional, 466 pending, 0 verified); option incompletes remain 206; source_verified remains 899 and review flags 367.
 - No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences December 2024 final-key reconciliation
+- Reconciled 100 December 2024 Paper-II answer rows against the official GSET final key: 90 existing letters matched; 10 were corrected to the official final choices (Q18, Q19, Q29, Q41, Q71, Q72, Q74, Q77, Q78, Q80) and flagged for expert review.
+- Updated the question bank, December 2024 paper manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG and MASTER_PROGRESS. Prior answer letters were retained in `answer_before_key_reconciliation`; explanations were not rewritten.
+- Reconciliation total: 204/1,300; 1,096 pending. Question-page proofreading, option repair and syllabus mapping remain separate. No PR merged.
