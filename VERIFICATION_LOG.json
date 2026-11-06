@@ -6130,5 +6130,32 @@
     "pr_merges": 0,
     "code01_changed": false,
     "paper_i_changed": false
+  },
+  {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 September 2018 direct official final-key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
+    "paper_id": "physical_sep18",
+    "question_count": 100,
+    "exact_matches": 100,
+    "mismatches": 0,
+    "official_non_evaluated_questions": [
+      16,
+      80,
+      86
+    ],
+    "canonical_answer_updates": 0,
+    "answer_key_reconciled_count_before": 504,
+    "answer_key_reconciled_count_after": 604,
+    "answer_key_pending_count": 696,
+    "review_flags_retained": 59,
+    "syllabus_mappings_verified": 0,
+    "result": "Canonical Sep 2018 Q1-Q100 directly compared with official final-key PDF table; 100/100 exact matches. Q16, Q80 and Q86 remain Z (not evaluated).",
+    "ci": "pending",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
   }
 ]
