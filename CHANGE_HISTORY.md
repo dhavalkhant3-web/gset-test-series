@@ -678,3 +678,9 @@
 - Corrected those nine answers to official key choices: Q42 B, Q48 C, Q49 A, Q51 D, Q52 C, Q53 B, Q55 D, Q64 C, Q74 B. Preserved original answer letters and added official answer-key verification metadata. Review flags stay true on changed records.
 - After correction: 75/75 answers match official key. Source PDF: https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf. Commit: `dd4d842edf3aafc7599237fb792635a190f341d4`.
 - Original-paper visual proofreading, mapping validation, CI/build, and PR merge are not claimed.
+
+
+## 2026-11-06 — Physical Sciences September 2018 final-key sidecar
+- Added source-backed 100-answer sidecar for physical_sep18, including three official Z choices (Q16, Q80, Q86).
+- Official GSET PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
+- Commit: `7516842dbf505f7cc01af6618f3b05c242fc057b`. This is answer-key transcription only; canonical bank parity is still pending.
