@@ -696,3 +696,9 @@
 - Compared all 21 records in `questions_dec24_verified_additions.json` (Q54–Q58 and Q81–Q96 subset as present) against `dec24_official_final_answer_key.json`, which transcribes the official GSET FINAL key.
 - Result: 21/21 stored answer letters match the corresponding official-key entries; zero mismatches. No answer changes were needed. English/Gujarati content and source flags were left untouched.
 - This is answer-key parity for this standalone additions file only; does not establish canonical `questions.json` parity or visual source transcription. Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. CI/build not run; no PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 archive answer-key parity batch
+- Compared all 25 records in `questions_dec24_archive.json` (Q54–Q58 and Q81–Q100) against the official GSET December 2024 FINAL answer-key sidecar.
+- Result: 25/25 answer letters match; zero mismatches and no answer edits. Existing review flags (including figure-based Q54 and Q94) were preserved; this does not clear visual proofread requirements.
+- Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. Scope is the archive JSON only; canonical `questions.json` parity is still pending. CI/build not run; no PR merge.
