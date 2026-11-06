@@ -615,3 +615,12 @@
 - Fresh schema-aware counts: 1,300 records / unique IDs / Paper-II sessions as listed in 19 session inventory; 895 source_verified=true; 371 review flags; 210 incomplete English option structures (all included in the flagged union); 1,090 valid option structures, including 85 valid options.A-D objects; 834 provisional mappings; 466 pending; zero verified syllabus mappings. All 1,300 answer tokens are valid structural tokens (including 13 Z); final answer-key PDF reconciliation is still pending.
 - Paper manifest inconsistencies identified: September 2018 flags 59 vs manifest 58; November 2023 source-verified 69 vs manifest 66 and flags 31 vs manifest 34; December 2024 source-verified 90 vs manifest 99 and flags 23 vs manifest 14. These require manifest synchronization.
 - No other subject bank, Code 01, Paper-I UI/functionality or PR merge touched. Option corrections, original-page visual checks, official final-key reconciliation, official-syllabus verification, manifest synchronization and CI/APK revalidation remain active.
+
+
+## 2026-11-06 — Physical Sciences Code 02 Dec 2019 Q17-Q20
+- Visually transcribed four English stems and their A-D options from the official GSET December 2019 Physical Sciences Paper-II scan, printed page 9.
+- Matched existing answer letters B, C, D, B against the official final answer-key PDF.
+- Updated question bank only for `physical_dec19_q17` through `physical_dec19_q20`; source_verified=true and source review flags cleared for these four. Syllabus mapping remains pending.
+- Question-bank commit: `717dde33b63a72e840af1fae6c473ff8ecab2e4a`; blob: `6e02623743e15f6e015de7aab138355df1a61812`.
+- Current counts: 899/1,300 source_verified; 367 review flags; 206 incomplete options; 4/1,300 answer-key rows reconciled in this execution; 834 provisional mappings; 466 pending mappings.
+- Manifest and registers synchronized. No other subject, Code 01, Paper-I, or PR was modified/merged.
