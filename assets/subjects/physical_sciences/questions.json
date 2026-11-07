@@ -6130,10 +6130,10 @@
     "question_en": "If J, (x) is Bessel’s polynomial of order n, the [J,,(x)? + [J_,(x)P is : |",
     "question_gu": "",
     "options_en": [
-      "(2/ nx) cosx",
-      "2/nx ; .",
-      "mx",
-      "V2cosx (mx) |"
+      "√(2/(πx)) cos x",
+      "2/(πx)",
+      "πx",
+      "√(2 cos x/(πx))"
     ],
     "options_gu": [],
     "answer": "B",
@@ -6142,7 +6142,7 @@
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "English option text visually transcribed from the official GSET December 2019 Physical Sciences Paper-II printed page 6; official final answer key B preserved. Other syllabus mapping remains provisional.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
