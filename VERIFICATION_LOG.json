@@ -6605,5 +6605,30 @@
     "answer_key_preserved": true,
     "pr_merge": false,
     "ci_run": false
+  },
+  {
+    "date": "2026-11-07",
+    "event": "Normalize legacy four-option objects into canonical English option arrays",
+    "branch": "integration/combined-subject-banks",
+    "commit": "pending",
+    "converted_records": 85,
+    "by_paper": {
+      "physical_sep16": 50,
+      "physical_dec24": 35
+    },
+    "legacy_options_preserved": true,
+    "totals_after": {
+      "questions": 1300,
+      "source_verified": 901,
+      "review_flags": 378,
+      "incomplete_options": 204
+    },
+    "per_paper_incomplete": {
+      "physical_sep16": 0,
+      "physical_dec19": 49,
+      "physical_dec24": 8
+    },
+    "answer_keys_changed": 0,
+    "pr_merged": false
   }
 ]

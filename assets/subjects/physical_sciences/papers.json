@@ -294,7 +294,7 @@
       "unit_mapping_pending_count": 5,
       "unit_mapping_verified_count": 0,
       "unit_mapping_status_note": "Current Paper-II counts: 45 provisional, 5 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
-      "options_incomplete_count": 50
+      "options_incomplete_count": 0
     },
     {
       "paper_id": "physical_aug17",
@@ -360,19 +360,19 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
-      "review_count": 57,
+      "review_count": 58,
       "question_source_verified": false,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
-      "source_reviewed_question_count": 43,
-      "review_flags_remaining_count": 57,
+      "source_reviewed_question_count": 42,
+      "review_flags_remaining_count": 58,
       "unit_mapping_provisional_count": 53,
       "unit_mapping_pending_count": 47,
       "unit_mapping_verified_count": 0,
       "unit_mapping_status_note": "Current Paper-II counts: 53 provisional, 47 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
-      "options_incomplete_count": 48
+      "options_incomplete_count": 49
     },
     {
       "paper_id": "physical_dec21",
@@ -484,7 +484,7 @@
       "answer_key_reconciliation_source": "Official GSET final answer key PDF; question-number/letter parity checked across Q1-Q100.",
       "answer_key_reconciliation_mismatch_count": 10,
       "answer_key_reconciliation_corrected_count": 10,
-      "options_incomplete_count": 35
+      "options_incomplete_count": 8
     },
     {
       "paper_id": "physical_nov25",

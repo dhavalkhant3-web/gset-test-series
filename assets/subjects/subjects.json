@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1300 unique records across 19 official sessions. Live canonical audit (2026-11-07 after source-confirmed Dec 2019 Q1-Q3 repair): 902/1300 source_verified; 377 review flags; 288 records have missing/malformed English A-D option sets; 304 carry canonical answer_key_verified=true. These checks are separate. NOT fully verified. Do not mark subject source_verified until every record is source-reviewed and all required option content is reconciled."
+      "data_status": "Paper-II archive: 1300 unique records across 19 official sessions. Live canonical audit (2026-11-07 after source-confirmed Dec 2019 Q1-Q3 repair and normalization of 85 verified legacy A-D option maps): 901/1300 source_verified; 378 review flags; 204 records have missing/malformed English A-D option sets; 304 carry canonical answer_key_verified=true. These checks are separate. NOT fully verified. Do not mark subject source_verified until every record is source-reviewed and all required option content is reconciled."
     },
     {
       "code": "03",
