@@ -1025,3 +1025,17 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Live canonical bank strict audit after this patch: 910/1,300 source_verified; 369 review flags; 194 incomplete/malformed option sets. December 2019: 49 flags and 39 incomplete option sets. These counts are freshly computed from the bank; all subject completion claims remain pending.
 - Official source PDF: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf ; official final key: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf
 - No Code 01/Paper-I edits; no PR merge. CI/APK validation requested and must be checked after commit.
+
+
+## Physical Sciences Code 02 — December 2019 Q07 Fourier source-page check (2026-11-07)
+- Official original question-paper PDF inspected directly: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf, printed page 6 (PDF page index 5), Question 7.
+- Q07 stem on source: “Fourier series for the expansion f(x) = x sin x in the interval −π < x < π is:”
+- Exact source-page options transcribed visually:
+  - A: 1 − 4[−cos x/4 + cos 2x/(1·3) − cos 3x/(2·4) + cos 4x/(3·5) − …]
+  - B: 1 − 2[−cos x/4 + cos 2x/(1·3) − cos 3x/(2·4) + cos 4x/(3·5) − …]
+  - C: 1 − 4[−sin x/3 + sin 2x/(1·3) − sin 3x/(2·4) + sin 4x/(3·5) − …]
+  - D: 1 − 2[−sin x/3 + sin 2x/(1·3) − sin 3x/(2·4) + sin 4x/(3·5) − …]
+- Official final answer key PDF independently checked: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. Q07 key is Z; official note states Z questions are excluded from evaluation. Final key retained, no answer changes.
+- This source-page check establishes exact Q07 options for transcription repair. Canonical question-bank file could not be retrieved in full through connected GitHub file API (large file response blank); therefore canonical JSON patch and verification flags are NOT claimed completed here.
+- December 2019 historical backlog checkpoint remains 39 option defects and 49 review flags. These have not been fully source-audited in this operation; do not mark them resolved based on this Q07 page alone.
+- Progress register updated with source evidence; CI and Debug APK need recheck after any canonical data edit. No question-bank commit or PR merge in this operation.
