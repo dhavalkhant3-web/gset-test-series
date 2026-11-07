@@ -1047,3 +1047,34 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Post-patch machine counts over the 100 December 2019 records: 48 review flags remain (down from 49); 39 incomplete/malformed option sets remain (unchanged). This was a count check, not full source audit of the remaining flagged items.
 - Question-bank commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/b059c668364ba267e3d2411eb6aeacc5746343f2
 - No PR merge. CI/Debug APK should be checked for the canonical data commit and this register update.
+
+
+## Physical Sciences Code 02 — full live canonical JSON audit checkpoint (2026-11-07)
+- Complete canonical blob `assets/subjects/physical_sciences/questions.json` audited on branch `integration/combined-subject-banks` at parent commit `991f43ded2819ba67fbf1b18ea2be210564765ea`; 1300 records across 19 paper batches.
+- Current strict live counts: 911/1300 records have `source_verified=true`; 368 have `review_flag=true`; 194 lack exactly four non-empty canonical `options_en`; 466 lack a populated syllabus identifier across `syllabus_unit`, `unit_number`, and `unit_id`.
+- A scan for explicit answer-key verification booleans found 304 marked records. This is a schema-marker count only, NOT proof of fresh official final-key PDF reconciliation. Do not claim the old 996 pending answer count as freshly verified without key-by-key source comparison.
+- These live counts supersede historical 177 visual flags, 206 incomplete options and 191 syllabus mappings previously quoted in conversation.
+- December 2019: 100 records; 52 source verified; 48 review flags; 39 incomplete options.
+- Per-paper live counts:
+| Paper | Total | Source verified | Review flags | Incomplete English options | Missing syllabus ID |
+|---|---:|---:|---:|---:|---:|
+| physical_aug17 | 50 | 49 | 1 | 1 | 11 |
+| physical_dec02 | 50 | 50 | 0 | 0 | 6 |
+| physical_dec03 | 50 | 47 | 3 | 0 | 7 |
+| physical_dec08 | 50 | 37 | 13 | 0 | 19 |
+| physical_dec19 | 100 | 52 | 48 | 39 | 47 |
+| physical_dec21 | 100 | 60 | 40 | 35 | 46 |
+| physical_dec24 | 100 | 90 | 32 | 8 | 22 |
+| physical_jan02 | 50 | 46 | 4 | 0 | 21 |
+| physical_jul04 | 50 | 50 | 0 | 0 | 22 |
+| physical_jul06 | 50 | 47 | 3 | 0 | 20 |
+| physical_nov22 | 100 | 53 | 47 | 37 | 54 |
+| physical_nov23 | 100 | 69 | 31 | 25 | 50 |
+| physical_nov25 | 100 | 100 | 3 | 0 | 43 |
+| physical_oct10 | 50 | 0 | 21 | 0 | 17 |
+| physical_oct11 | 50 | 0 | 23 | 0 | 19 |
+| physical_oct14 | 50 | 26 | 24 | 0 | 9 |
+| physical_sep13 | 50 | 43 | 7 | 0 | 7 |
+| physical_sep16 | 50 | 50 | 9 | 0 | 5 |
+| physical_sep18 | 100 | 42 | 59 | 49 | 41 |
+- Audit-only checkpoint; no question content modified. Other subjects and Paper-I untouched; no PR merged.
