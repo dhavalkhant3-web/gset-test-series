@@ -1039,3 +1039,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - This source-page check establishes exact Q07 options for transcription repair. Canonical question-bank file could not be retrieved in full through connected GitHub file API (large file response blank); therefore canonical JSON patch and verification flags are NOT claimed completed here.
 - December 2019 historical backlog checkpoint remains 39 option defects and 49 review flags. These have not been fully source-audited in this operation; do not mark them resolved based on this Q07 page alone.
 - Progress register updated with source evidence; CI and Debug APK need recheck after any canonical data edit. No question-bank commit or PR merge in this operation.
+
+
+## Physical Sciences Code 02 — December 2019 Q07 canonical JSON patch (2026-11-07)
+- Canonical record `physical_dec19_q07` in `assets/subjects/physical_sciences/questions.json` patched via Git blob/tree commit on `integration/combined-subject-banks`: stem and all four Fourier-series options now match official printed page 6.
+- Official Final Answer Key value `Z` preserved; source_verified set true and review_flag cleared only for this audited Q07 record. Q07 does not count as evaluated per official key note.
+- Post-patch machine counts over the 100 December 2019 records: 48 review flags remain (down from 49); 39 incomplete/malformed option sets remain (unchanged). This was a count check, not full source audit of the remaining flagged items.
+- Question-bank commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/b059c668364ba267e3d2411eb6aeacc5746343f2
+- No PR merge. CI/Debug APK should be checked for the canonical data commit and this register update.
