@@ -1017,3 +1017,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Normalized 85 source-verified question records that stored their four readable A–D options in the legacy `options` object (September 2016: 50; December 2024: 35) by adding the same ordered values to canonical `options_en`. Kept the legacy object unchanged; no question, option text, answer or source citation was removed or invented. Flutter `_readOptions` accepts both representations, and the normalized array now satisfies the canonical validator shape.
 - Recomputed strict live-bank metrics directly after normalization: source_verified 901/1,300; review flags 378; records with missing/malformed English A–D options 204 (down from 289 after the prior Dec 2019 transcription). The earlier Dec 2019 metrics note was one-count high; actual Q1–Q3 source/flag deltas are +2/−2 because Q3 was already source_verified and unflagged. Corrected totals supersede the previous note.
 - Per-session incomplete options now: Sep 2016 0/50; Dec 2019 49/100; Dec 2024 8/100. Source-verification flags remain independently pending. No Code 01 or Paper-I edits; no PR merge.
+
+
+## 2026-11-07 — December 2019 original-page correction batch (printed pages 6–8)
+- Matched and visually transcribed physical_dec19 Q04, Q06, and Q08–Q16 from the official paper PDF. Replaced OCR instruction/OMR/table spillover stems and empty/misaligned option sets with printed question content and four options; kept all official final-key answers untouched.
+- Q07 Fourier series remains held for further careful option-formula transcription; marked review required rather than guessing.
+- Live canonical bank strict audit after this patch: 910/1,300 source_verified; 369 review flags; 194 incomplete/malformed option sets. December 2019: 49 flags and 39 incomplete option sets. These counts are freshly computed from the bank; all subject completion claims remain pending.
+- Official source PDF: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf ; official final key: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf
+- No Code 01/Paper-I edits; no PR merge. CI/APK validation requested and must be checked after commit.

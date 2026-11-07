@@ -6630,5 +6630,37 @@
     },
     "answer_keys_changed": 0,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-07",
+    "event": "December 2019 printed pages 6–8 visual source correction batch",
+    "branch": "integration/combined-subject-banks",
+    "commit": "pending",
+    "source_pdf": "https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf",
+    "question_ids": [
+      "physical_dec19_q04",
+      "physical_dec19_q06",
+      "physical_dec19_q08",
+      "physical_dec19_q09",
+      "physical_dec19_q10",
+      "physical_dec19_q11",
+      "physical_dec19_q12",
+      "physical_dec19_q13",
+      "physical_dec19_q14",
+      "physical_dec19_q15",
+      "physical_dec19_q16"
+    ],
+    "held_question": "physical_dec19_q07",
+    "answer_key_preserved": true,
+    "totals_after": {
+      "questions": 1300,
+      "source_verified": 910,
+      "review_flags": 369,
+      "incomplete_options": 194,
+      "dec19_review_flags": 49,
+      "dec19_incomplete_options": 39
+    },
+    "pr_merge": false,
+    "ci_apk_check": "pending"
   }
 ]

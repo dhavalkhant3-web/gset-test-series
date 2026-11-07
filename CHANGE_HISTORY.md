@@ -792,3 +792,8 @@
 - December 2024 Q1 canonical item `physical_dec24_q01` contains the valid Fourier-series question, four non-empty English options, correct answer C and official final-key metadata. It is not corrupt in the canonical bank. User screenshot shows a different runtime-rendered instruction-text item, so app build/data path must be verified before altering the good canonical record.
 - Subject registry and Paper-II manifest source-review/review-flag counts synchronized from live canonical records. No question stem, option, answer, image or source reference edited in this reconciliation.
 - Code 02 remains NOT fully verified. Remaining repair work: visually compare flagged/invalid records against original official paper PDFs; repair only source-confirmed content; do not invent options. No PR merge. Paper-I and Code 01 untouched.
+
+
+## 2026-11-07 — Physical Sciences Dec 2019 printed-page correction batch
+- Source checked official PDF printed pages 6–8. Corrected Q04, Q06 and Q08–Q16 stems/options. Q07 remains explicitly review-flagged for its formula options. Preserved official key values and other record fields.
+- Live strict audit: 910 source verified, 369 review flags, 194 incomplete options; Dec 2019 49 flags / 39 option defects. No merge.

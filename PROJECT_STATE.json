@@ -1658,11 +1658,11 @@
   },
   "physical_sciences_live_audit": {
     "total": 1300,
-    "source_verified": 899,
-    "review_flags": 380,
-    "options_missing": 291,
+    "source_verified": 910,
+    "review_flags": 369,
+    "options_missing": 194,
     "answer_key_verified": 304
   },
   "physical_sciences_fully_verified": false,
-  "physical_sciences_next_gate": "Original-paper visual reconciliation and correction of all 291 malformed/missing A-D option records plus 380 review flags"
+  "physical_sciences_next_gate": "Continue official original PDF transcription/reconciliation; Dec 2019 current residual option defects 39 and review flags 49. Q07 formula option visual review is explicitly pending."
 }
