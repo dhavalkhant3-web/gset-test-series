@@ -6574,5 +6574,36 @@
     "question_content_changed": 0,
     "registry_manifest_refreshed": true,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-07",
+    "event": "December 2019 official PDF options visual repair batch Q1-Q3",
+    "branch": "integration/combined-subject-banks",
+    "commit": "66be9c0ffdcf54d50aa07cf78c76d0bc88cf46ee",
+    "source_pdf": "https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf",
+    "printed_pages": [
+      5,
+      6
+    ],
+    "question_ids": [
+      "physical_dec19_q01",
+      "physical_dec19_q02",
+      "physical_dec19_q03"
+    ],
+    "changes": {
+      "options_transcribed": 3,
+      "source_verified_delta": 3,
+      "review_flag_delta": -3,
+      "incomplete_options_delta": -3
+    },
+    "totals_after": {
+      "questions": 1300,
+      "source_verified": 902,
+      "review_flags": 377,
+      "incomplete_options": 288
+    },
+    "answer_key_preserved": true,
+    "pr_merge": false,
+    "ci_run": false
   }
 ]
