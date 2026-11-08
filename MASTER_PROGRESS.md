@@ -1058,7 +1058,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Per-paper live counts:
 | Paper | Total | Source verified | Review flags | Incomplete English options | Missing syllabus ID |
 |---|---:|---:|---:|---:|---:|
-| physical_aug17 | 50 | 49 | 1 | 1 | 11 |
+| physical_aug17 | 50 | 49 | 1 | 1 | 1 |
 | physical_dec02 | 50 | 50 | 0 | 0 | 0 |
 | physical_dec03 | 50 | 47 | 3 | 0 | 0 |
 | physical_dec08 | 50 | 37 | 13 | 0 | 0 |
@@ -1117,3 +1117,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Unit suggestions were content based against the official GSET/CSIR Physical Sciences syllabus: Unit I mathematical methods; Unit II classical mechanics/relativity/scattering; Unit III electromagnetic optics; Unit VI experimental methods; Unit VII atomic/molecular spectroscopy.
 - These remain `provisional_content_based_pending_official_verification`; they are not certified expert mappings. The batch's source verification and 24 review flags are unchanged. No other subject modified.
 - Reference: official syllabus https://gujaratset.ac.in/assets/syllabus/02.pdf ; paper listing metadata https://ndl.iitkgp.ac.in/cd_document/gjset/gjset/oct1402_pdf .
+
+
+## Physical Sciences Code 02 — August 2017 syllabus mapping pass (2026-11-08)
+- Added provisional unit IDs to `physical_aug17_q04`, `q07`, `q08`, `q10`, `q13`, `q14`, `q16`, `q18`, `q34`, and `q39` (10 records) based on the canonical question stem/options and official GSET Code 02 syllabus unit categories.
+- Assignments: Mathematical Methods (Q04); Classical Mechanics (Q07, Q08, Q10); Electromagnetic Theory (Q13, Q14, Q34); Quantum Mechanics (Q16, Q18); Atomic/Molecular Physics (Q39). Status intentionally remains `provisional_content_based_pending_official_verification`; no source review flag, answer, or `source_verified` field was changed. Q05 graph-based question remains unmapped pending original visual inspection.
+- August 2017 missing syllabus IDs reduced from 11 to 1. Reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/d8d17e8c073eef9037c67614d1fb6c6703701884
+- No other subject or Paper-I modified. No merge; full archive completion and CI/APK checks remain pending.
