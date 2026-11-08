@@ -1078,3 +1078,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 | physical_sep16 | 50 | 50 | 9 | 0 | 5 |
 | physical_sep18 | 100 | 42 | 59 | 49 | 41 |
 - Audit-only checkpoint; no question content modified. Other subjects and Paper-I untouched; no PR merged.
+
+
+## Physical Sciences Code 02 — December 2019 source audit continuation (Q17–Q20; 2026-11-08)
+- Visually checked the official GSET question-paper PDF, printed page 9 (PDF page index 8), for canonical records `physical_dec19_q17` through `physical_dec19_q20`: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf
+- Compared the live canonical English stems and four-option arrays to the source page. Q17–Q19 match the printed stems/options. Q20's Lorentz-transform alternatives also match the visible source-page layout; the canonical B option is the denominator square-root form, not the OCR's ambiguous exponent reading.
+- Independently reconciled official final answer key: Q17 B, Q18 C, Q19 D, Q20 B. Source: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. None are Z/non-evaluated.
+- These four records already carried `source_verified=true` and `review_flag=false`; no canonical question or answer data changed. The audit confirms source consistency for this bounded batch only; it does not reduce other outstanding Code 02 flags/options/mappings or certify full archive completion.
+- No other subjects or Paper-I changed. No PR merge. CI/APK status not rerun by this source-only audit.
