@@ -3051,11 +3051,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 1,
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit I Mathematical Methods of Physics: complex analysis explicitly includes analytic functions, poles, residues, and evaluation of integrals; the question asks for poles of a complex function. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q03",
@@ -3206,11 +3206,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 2,
+    "unit_number": 2,
+    "unit_id": "unit_2",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit II Classical Mechanics includes special relativity, relativistic kinematics, and mass-energy equivalence; the question asks for relativistic kinetic energy. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q08",
@@ -3299,11 +3299,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 1,
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part B Advanced Unit I Mathematical Methods of Physics explicitly includes partial differential equations, including the wave equation; the question asks for the general solution of a traveling wave equation. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q11",
@@ -3609,11 +3609,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 3,
+    "unit_number": 3,
+    "unit_id": "unit_3",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit III Electromagnetic Theory includes scalar/vector potentials and gauge invariance; the question concerns Coulomb and Lorentz gauges. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q21",
@@ -4043,11 +4043,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit V Thermodynamic and Statistical Physics includes statistical ensembles, probabilities, and thermodynamic quantities; the question derives temperature from state probabilities and energies. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q35",
@@ -4105,11 +4105,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit V Thermodynamic and Statistical Physics includes micro- and macro-states; the question calculates an expectation value from macrostate multiplicities. Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec03_q37",
@@ -4539,11 +4539,11 @@
     "source_verified": true,
     "source": "GSET official December 2003 Physical Sciences Paper-II question paper and final answer key",
     "question_source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 1,
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
+    "syllabus_mapping_note": "Official Code 02 Part A Unit I Mathematical Methods of Physics includes Fourier series/transforms and probability methods; this question classifies a periodic signal with anti-periodicity x(t+T) = −x(t). Mapping content review completed; source-page visual review and answer-key reconciliation remain separate."
   },
   {
     "id": "physical_dec08_q01",
