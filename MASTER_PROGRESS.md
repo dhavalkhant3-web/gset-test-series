@@ -1059,7 +1059,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 | Paper | Total | Source verified | Review flags | Incomplete English options | Missing syllabus ID |
 |---|---:|---:|---:|---:|---:|
 | physical_aug17 | 50 | 49 | 1 | 1 | 11 |
-| physical_dec02 | 50 | 50 | 0 | 0 | 6 |
+| physical_dec02 | 50 | 50 | 0 | 0 | 0 |
 | physical_dec03 | 50 | 47 | 3 | 0 | 7 |
 | physical_dec08 | 50 | 37 | 13 | 0 | 19 |
 | physical_dec19 | 100 | 52 | 48 | 39 | 47 |
@@ -1086,3 +1086,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Independently reconciled official final answer key: Q17 B, Q18 C, Q19 D, Q20 B. Source: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. None are Z/non-evaluated.
 - These four records already carried `source_verified=true` and `review_flag=false`; no canonical question or answer data changed. The audit confirms source consistency for this bounded batch only; it does not reduce other outstanding Code 02 flags/options/mappings or certify full archive completion.
 - No other subjects or Paper-I changed. No PR merge. CI/APK status not rerun by this source-only audit.
+
+
+## Physical Sciences Code 02 — December 2002 remaining syllabus mapping audit (2026-11-08)
+- Canonical records mapped: `physical_dec02_q11`, `q12`, `q19`, `q21`, `q30`, `q43` (full IDs use `physical_dec02_` prefix).
+- Mappings assigned against the official GSET Code 02 syllabus: Q11 Unit 03 Electromagnetic Theory (dispersion relation); Q12 Unit 02 Classical Mechanics (rigid-sphere scattering); Q19 Unit 06 Electronics and Experimental Methods (TV transmitter frequency); Q21 Unit 03 Electromagnetic Theory (radiation from accelerated charge); Q30 Unit 04 Quantum Mechanics (barrier reflection/transmission); Q43 Unit 06 Electronics and Experimental Methods (Millikan experimental method).
+- Updated each record's `syllabus_unit`, `unit_number`, `unit_id`, and mapping status/note to `official_syllabus_content_reviewed`. Independent source-page visual audit and answer-key reconciliation remain separate and were not changed.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf ; official December 2002 question paper: https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0202.pdf
+- December 2002 missing syllabus identifier count now 0/50. This mapping-only patch does not establish full archive completion. No other subjects or Paper-I changed; no PR merged. CI/APK validation still required.
