@@ -1074,8 +1074,8 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 | physical_oct10 | 50 | 0 | 21 | 0 | 17 |
 | physical_oct11 | 50 | 0 | 23 | 0 | 19 |
 | physical_oct14 | 50 | 26 | 24 | 0 | 0 |
-| physical_sep13 | 50 | 43 | 7 | 0 | 7 |
-| physical_sep16 | 50 | 50 | 9 | 0 | 5 |
+| physical_sep13 | 50 | 43 | 7 | 0 | 0 |
+| physical_sep16 | 50 | 50 | 9 | 0 | 0 |
 | physical_sep18 | 100 | 42 | 59 | 49 | 41 |
 - Audit-only checkpoint; no question content modified. Other subjects and Paper-I untouched; no PR merged.
 
@@ -1125,3 +1125,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - August 2017 missing syllabus IDs reduced from 11 to 1. Reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
 - Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/d8d17e8c073eef9037c67614d1fb6c6703701884
 - No other subject or Paper-I modified. No merge; full archive completion and CI/APK checks remain pending.
+
+
+## Physical Sciences Code 02 — September 2013 and September 2016 mapping pass (2026-11-08)
+- Added provisional syllabus identifiers to 7 previously unmapped September 2013 records (`physical_sep13_q01`, `q09`, `q13`, `q14`, `q35`, `q39`, `q43`) and 5 September 2016 records (`physical_sep16_q02`, `q12`, `q14`, `q23`, `q26`).
+- Topics categorized as Mathematical Methods, Classical Mechanics, Electromagnetic Theory, Electronics/Experimental Methods, Atomic/Molecular Physics, and Thermodynamic/Statistical Physics. These are provisional, content-based assignments, not source-verified or expert-certified. Source flags and answers unchanged.
+- Missing syllabus IDs: September 2013 7→0; September 2016 5→0. Official syllabus reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/4a17b66524a788b05dcb2c96d0141e1dbb705a86
+- Other subjects/Paper-I untouched; no merge. Full answer-key parity, source reviews, and option cleanup remain outstanding.
