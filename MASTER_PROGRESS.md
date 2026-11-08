@@ -1073,7 +1073,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 | physical_nov25 | 100 | 100 | 3 | 0 | 43 |
 | physical_oct10 | 50 | 0 | 21 | 0 | 17 |
 | physical_oct11 | 50 | 0 | 23 | 0 | 19 |
-| physical_oct14 | 50 | 26 | 24 | 0 | 9 |
+| physical_oct14 | 50 | 26 | 24 | 0 | 0 |
 | physical_sep13 | 50 | 43 | 7 | 0 | 7 |
 | physical_sep16 | 50 | 50 | 9 | 0 | 5 |
 | physical_sep18 | 100 | 42 | 59 | 49 | 41 |
@@ -1110,3 +1110,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Canonical syllabus unit fields and mapping review notes updated. The paper still has 13 source review flags; these were not modified. Source-page visual audit and final-key reconciliation remain separate.
 - Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf
 - December 2008 missing syllabus IDs now 0/50. No other subjects/Paper-I changed; no PR merge. CI/APK validation remains pending.
+
+
+## Physical Sciences Code 02 — October 2014 provisional syllabus mapping pass (2026-11-08)
+- Added provisional syllabus identifiers to `physical_oct14_q05`, `q08`, `q09`, `q13`, `q14`, `q15`, `q31`, `q36`, and `q40` (9 records). Canonical `questions.json` now has zero missing syllabus identifier fields for this paper batch.
+- Unit suggestions were content based against the official GSET/CSIR Physical Sciences syllabus: Unit I mathematical methods; Unit II classical mechanics/relativity/scattering; Unit III electromagnetic optics; Unit VI experimental methods; Unit VII atomic/molecular spectroscopy.
+- These remain `provisional_content_based_pending_official_verification`; they are not certified expert mappings. The batch's source verification and 24 review flags are unchanged. No other subject modified.
+- Reference: official syllabus https://gujaratset.ac.in/assets/syllabus/02.pdf ; paper listing metadata https://ndl.iitkgp.ac.in/cd_document/gjset/gjset/oct1402_pdf .
