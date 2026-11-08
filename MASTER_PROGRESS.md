@@ -1061,7 +1061,7 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 | physical_aug17 | 50 | 49 | 1 | 1 | 11 |
 | physical_dec02 | 50 | 50 | 0 | 0 | 0 |
 | physical_dec03 | 50 | 47 | 3 | 0 | 0 |
-| physical_dec08 | 50 | 37 | 13 | 0 | 19 |
+| physical_dec08 | 50 | 37 | 13 | 0 | 0 |
 | physical_dec19 | 100 | 52 | 48 | 39 | 47 |
 | physical_dec21 | 100 | 60 | 40 | 35 | 46 |
 | physical_dec24 | 100 | 90 | 32 | 8 | 22 |
@@ -1102,3 +1102,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Canonical fields `syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, and `syllabus_mapping_note` updated. Independent source-page visual verification and answer-key reconciliation remain separate.
 - Official syllabus: https://gujaratset.ac.in/assets/syllabus/02.pdf
 - December 2003 missing syllabus IDs now 0/50; source review flags (3) were not changed. No other subjects or Paper-I touched; no PR merged. CI/APK validation remains pending.
+
+ 
+## Physical Sciences Code 02 — December 2008 remaining syllabus mapping audit (2026-11-08)
+- Mapped 19 previously blank syllabus IDs: `physical_dec08_q02`, `q03`, `q04`, `q07`, `q10`, `q11`, `q14`, `q16`, `q20`, `q21`, `q23`, `q27`, `q28`, `q31`, `q38`, `q43`, `q44`, `q45`, `q47`.
+- Mapping topics assigned to the official Code 02 units: Mathematical Methods (Fourier orthogonality); Classical Mechanics (mass-energy, conservation, phase space); Electromagnetic Theory (multipole potential, grounded sphere, radiation, inductance); Quantum Mechanics (scattering, plane-wave momentum, de Broglie, uncertainty, operators, angular momentum, photoelectric effect, hydrogen); Thermodynamic and Statistical Physics (ideal gas and cryogenic phase ordering); Condensed Matter (superconductivity).
+- Canonical syllabus unit fields and mapping review notes updated. The paper still has 13 source review flags; these were not modified. Source-page visual audit and final-key reconciliation remain separate.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- December 2008 missing syllabus IDs now 0/50. No other subjects/Paper-I changed; no PR merge. CI/APK validation remains pending.
