@@ -23010,13 +23010,13 @@
     "id": "physical_nov22_q38",
     "paper_id": "physical_nov22",
     "exam": "November 2022",
-    "question_en": "£2230 | 2240 | 2249 | 2254 | 2280 | 22606 | 2270 | 22776 | 2200 | 2208 fs 1 2/2 3 2/4 4 & 38 }2z01 | 2208 | 2001 | 907 1 23992 | 2317 | 23929] ce2e | 2383 | 299011 4 212 3 314 « 8 37 | 2346 | 2360 | 2366 | 2900 | 2308 | 2371 as77 | 2282 | zeae !ozoants + 2/2 3 314 4 6 \"3a |2300 | 2404 | 2410 ' 2018 | 24a | 2027 | gana | 2450) 2ea9 |2eae ds 9 2/2 9 S{4 4 8 30 12456 | 2460 | 200 | 2472 | 2477 | 2409 | a4e0 | 2008 | 2500 , 200641 1 2/2 3 3/4 6 8 err ee Fed ed dll",
+    "question_en": "The two wave functions ψ_A(r) and ψ_B(r) are shown in the source figure. ψ_A(r) starts at zero, has two positive peaks at r = a and r = b with a positive dip between them, and returns to zero at large r. ψ_B(r) starts at zero, has a positive peak at r = a, crosses zero between a and b, reaches a negative minimum at r = b, and returns to zero at large r. Which statement is correct?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "ψ_A(r) and ψ_B(r) are symmetric",
+      "ψ_A(r) is symmetric and ψ_B(r) is antisymmetric",
+      "ψ_A(r) is antisymmetric and ψ_B(r) is symmetric",
+      "ψ_A(r) and ψ_B(r) are antisymmetric"
     ],
     "options_gu": [],
     "answer": "B",
@@ -23025,7 +23025,7 @@
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
     "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem, graph shapes and four statements transcribed from the official November 2022 GSET Physical Sciences Paper-II PDF, printed page 16. Graph artwork is described in text but not embedded as original app image assets; retain review flag until figure assets are rendered.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": false,
