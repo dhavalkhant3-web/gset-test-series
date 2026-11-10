@@ -105,8 +105,10 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "papers_loaded": 11,
+      "questions_loaded": 0,
+      "questions_pending_review": 850,
+      "data_status": "850 transcribed Paper-II questions across 11 sessions are retained in questions_review_pending.json; 817 await human source-page proofreading and 33 remain review_required. Two official Z/not-evaluated records have no answer letter. Five additional sessions have answer keys only and are kept in answer_keys_staging.json; no question text invented. Syllabus mapping pending."
     },
     {
       "code": "08",
@@ -119,8 +121,10 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "papers_loaded": 1,
+      "questions_loaded": 0,
+      "questions_pending_review": 50,
+      "data_status": "50 September 2016 Paper-II questions staged in questions_review_pending.json. Supplied reconciliation log reports 50/50 answer-letter matches; 48 need source-page proofreading and 2 remain review_required. Text/options and syllabus mapping are not yet verified."
     },
     {
       "code": "09",
@@ -376,9 +380,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 3,
-      "questions_loaded": 8,
-      "questions_pending_review": 292,
-      "data_status": "300 questions transcribed across Nov 2023, Dec 2024 and Nov 2025. All 300 official final-key entries reconciled. Eight source-page visually checked questions are active; 292 remain in questions_review_pending.json. Syllabus mapping for all 300 remains pending."
+      "questions_loaded": 9,
+      "questions_pending_review": 291,
+      "data_status": "Updated v3: 300 questions across 3 sessions; all 300 official final-key entries match the supplied evidence register. 9 source-page visually checked questions are active; 291 await independent second-pass source verification. Syllabus mapping pending; official syllabus not supplied."
     },
     {
       "code": "27",
@@ -391,8 +395,10 @@
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
       "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "papers_loaded": 3,
+      "questions_loaded": 6,
+      "questions_pending_review": 294,
+      "data_status": "300 questions across 3 sessions; all 300 official final-key entries match the supplied evidence register. 6 source-page visually checked questions are active; 294 await independent second-pass source verification. Syllabus mapping pending; official syllabus not supplied."
     },
     {
       "code": "28",
