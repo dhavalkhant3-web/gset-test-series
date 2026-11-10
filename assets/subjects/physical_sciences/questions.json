@@ -21788,13 +21788,13 @@
     "id": "physical_nov22_q05",
     "paper_id": "physical_nov22",
     "exam": "November 2022",
-    "question_en": "Which one of the following curves gives the solution of the differential equation dx K, at +K,x =K;, where K,, K, and K, are positive constants with an initial conditions x = O att =0? x x (A) (B) | ! i l ! 1 t t x mn bie ' ' I ! i 1 ! ' I ~-__e — oe eee I ! 1 (C) (Dl) 1 ! 1 t ' t t t 1",
+    "question_en": "Which one of the following curves gives the solution of the differential equation K₁(dx/dt) + K₂x = K₃, where K₁, K₂ and K₃ are positive constants, with the initial condition x = 0 at t = 0?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Graph A: x starts at zero, increases monotonically, and approaches a positive constant asymptotically.",
+      "Graph B: x starts near zero and increases slowly at first, then rises increasingly steeply toward a vertical asymptote.",
+      "Graph C: x starts at zero, rises to a maximum, and then decreases back to zero; a dashed horizontal line marks the maximum level.",
+      "Graph D: a U-shaped curve with its minimum at t = 0, bounded by two dashed vertical lines."
     ],
     "options_gu": [],
     "answer": "A",
@@ -21803,7 +21803,7 @@
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
     "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four graph choices transcribed from the official November 2022 GSET Physical Sciences Paper-II PDF, printed page 8, into accessible textual graph descriptions. Original graph artwork is not yet embedded as app assets; retain source-review flag until the four visual choices are rendered in the app.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": false,
