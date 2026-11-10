@@ -27,7 +27,12 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q02",
@@ -57,7 +62,12 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q03",
@@ -87,7 +97,12 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q04",
@@ -117,7 +132,12 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q05",
@@ -143,7 +163,12 @@
     "unit_number": null,
     "unit_id": "",
     "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q06",
@@ -173,7 +198,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q07",
@@ -203,7 +233,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q08",
@@ -233,7 +268,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q09",
@@ -263,7 +303,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q10",
@@ -293,7 +338,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q11",
@@ -323,7 +373,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q12",
@@ -353,7 +408,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q13",
@@ -383,7 +443,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q14",
@@ -413,7 +478,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q15",
@@ -443,7 +513,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q16",
@@ -473,7 +548,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q17",
@@ -503,7 +583,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q18",
@@ -533,7 +618,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q19",
@@ -563,7 +653,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q20",
@@ -593,7 +688,12 @@
     "unit_number": 1,
     "unit_id": "unit_1",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q21",
@@ -623,7 +723,12 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q22",
@@ -653,7 +758,12 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q23",
@@ -683,7 +793,12 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q24",
@@ -713,7 +828,12 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q25",
@@ -743,7 +863,12 @@
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q26",
@@ -773,7 +898,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q27",
@@ -803,7 +933,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q28",
@@ -833,7 +968,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q29",
@@ -863,7 +1003,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q30",
@@ -893,7 +1038,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q31",
@@ -923,7 +1073,12 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q32",
@@ -953,7 +1108,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q33",
@@ -983,7 +1143,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q34",
@@ -1013,7 +1178,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q35",
@@ -1043,7 +1213,12 @@
     "unit_number": 6,
     "unit_id": "unit_6",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q36",
@@ -1073,7 +1248,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q37",
@@ -1103,7 +1283,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q38",
@@ -1133,7 +1318,12 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q39",
@@ -1163,7 +1353,12 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified."
+    "syllabus_mapping_note": "Provisional content-based assignment against official GSET Code 02 syllabus units. The question topic was reviewed from the canonical stem/options; independent expert verification against the complete syllabus and source page is still pending. Do not treat as verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q40",
@@ -1193,7 +1388,12 @@
     "unit_number": 7,
     "unit_id": "unit_7",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q41",
@@ -1223,7 +1423,12 @@
     "unit_number": 3,
     "unit_id": "unit_3",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q42",
@@ -1253,7 +1458,12 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q43",
@@ -1283,7 +1493,12 @@
     "unit_number": 8,
     "unit_id": "unit_8",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q44",
@@ -1313,7 +1528,12 @@
     "unit_number": 5,
     "unit_id": "unit_5",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q45",
@@ -1343,7 +1563,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q46",
@@ -1373,7 +1598,12 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "C",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q47",
@@ -1403,7 +1633,12 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q48",
@@ -1433,7 +1668,12 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "A",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q49",
@@ -1463,7 +1703,12 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified.",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_aug17_q50",
@@ -1493,7 +1738,12 @@
     "unit_number": 4,
     "unit_id": "unit_4",
     "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required.",
+    "official_answer": "D",
+    "answer_key_verified": true,
+    "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
   },
   {
     "id": "physical_dec02_q01",
