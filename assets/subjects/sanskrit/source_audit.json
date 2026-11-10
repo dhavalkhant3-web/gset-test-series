@@ -184,5 +184,84 @@
   "nov2025_source_page_reference": "Official GSET Sanskrit November 2025 Paper-II PDF nov2507.pdf, printed pages 9–10 (Q46–Q61); Q53 remains review-required because the Brahmi-script glyph in option D is not transcribed.",
   "nov2025_official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
   "nov2025_official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
-  "nov2025_review_only_archival_copies_retained": 15
+  "nov2025_review_only_archival_copies_retained": 15,
+  "nov2025_q71_q80_ocr_extraction": {
+    "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
+    "official_printed_pages": [
+      12,
+      13
+    ],
+    "extracted_question_numbers": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "extraction_method": "Official GSET PDF text/OCR extraction (not visual page verification)",
+    "visual_source_verified_count": 0,
+    "status": "review_pending",
+    "note": "OCR output for Q71, Q73, Q74 and Q76 is materially garbled; Q72, Q75, Q77, Q78 and Q80 are more identifiable but still require visual comparison against the original page. Q79 title/author attribution requires visual confirmation. No question was activated and no question text/options were changed."
+  },
+  "nov2025_q71_q80_official_final_key_crosscheck": {
+    "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
+    "question_answer_letters": {
+      "71": "B",
+      "72": "B",
+      "73": "C",
+      "74": "C",
+      "75": "D",
+      "76": "A",
+      "77": "B",
+      "78": "C",
+      "79": "A",
+      "80": "D"
+    },
+    "parity": "10/10 letters match the official final answer key",
+    "note": "This records the official key cross-check only; it does not constitute question-source verification."
+  },
+  "nov2025_provisional_syllabus_candidates": [
+    {
+      "question": 72,
+      "unit": "VIII",
+      "basis": "Harshacharita is explicitly listed in the official syllabus Unit VIII (prose literature); OCR suggests a Harshacharita question.",
+      "status": "provisional_pending_visual_check"
+    },
+    {
+      "question": 75,
+      "unit": "VIII",
+      "basis": "Question appears to identify a Sanskrit metre; Shikharini is explicitly listed among metres in official Unit VIII.",
+      "status": "provisional_pending_visual_check"
+    },
+    {
+      "question": 77,
+      "unit": "IV",
+      "basis": "Question appears to define Uparati; official Unit IV prescribes Vedantasara.",
+      "status": "provisional_pending_visual_check"
+    },
+    {
+      "question": 78,
+      "unit": "IX",
+      "basis": "Question refers to Mahabharata characters/narrative; Mahabharata is explicitly listed in official Unit IX.",
+      "status": "provisional_pending_visual_check"
+    },
+    {
+      "question": 80,
+      "unit": "II",
+      "basis": "Question asks about a Rigvedic hymn; selected Rigveda hymns are explicitly listed in official Unit II.",
+      "status": "provisional_pending_visual_check"
+    }
+  ],
+  "nov2025_unmapped_questions_from_71_80": [
+    71,
+    73,
+    74,
+    76,
+    79
+  ]
 }
