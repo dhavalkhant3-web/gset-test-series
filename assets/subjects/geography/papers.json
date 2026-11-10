@@ -7,147 +7,168 @@
   "paper_pattern": {
     "questions": 100,
     "marks": 200,
-    "duration_minutes": 120,
-    "pattern_status": "confirm_against_each_session_source"
+    "duration_minutes": 120
   },
   "papers": [
     {
-      "paper_id": "geography_sep16",
+      "paper_id": "geography_sep2016",
       "exam": "September 2016",
       "subject_code": "24",
       "question_count": 50,
       "marks": 200,
-      "source_files": {
-        "question_paper": "sept1624.pdf",
-        "official_final_answer_key": "sept1624 (2).pdf"
-      },
+      "question_paper_file": "sept1624.pdf",
+      "answer_key_file": "sept1624__2_.pdf",
+      "questions_transcribed": 50,
       "questions_loaded": 0,
-      "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_entries": 50,
+      "answer_key_parsed": true,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 50,
+      "status": "source_review_pending",
+      "review_note": "All transcribed answer letters compared with the supplied official final-key table; 0 mismatches. Original question-page visual proofreading remains pending."
     },
     {
-      "paper_id": "geography_aug17",
+      "paper_id": "geography_aug2017",
       "exam": "August 2017",
       "subject_code": "24",
       "question_count": 50,
       "marks": 200,
-      "source_files": {
-        "question_paper": "aug1724.pdf",
-        "official_final_answer_key": "aug1724 (1).pdf"
-      },
+      "question_paper_file": "aug1724.pdf",
+      "answer_key_file": "aug1724__1_.pdf",
+      "questions_transcribed": 50,
       "questions_loaded": 0,
-      "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_entries": 50,
+      "answer_key_parsed": true,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 50,
+      "status": "source_review_pending",
+      "review_note": "All transcribed answer letters compared with the supplied official final-key table; 0 mismatches. Original question-page visual proofreading remains pending."
     },
     {
-      "paper_id": "geography_sep18",
+      "paper_id": "geography_sep2018",
       "exam": "September 2018",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "sept1824.pdf",
-        "official_final_answer_key": "sept1824 (1).pdf"
-      },
+      "question_paper_file": "sept1824.pdf",
+      "answer_key_file": "sept1824__1_.pdf",
+      "questions_transcribed": 0,
       "questions_loaded": 0,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
       "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_question_parity_verified": false,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 0,
+      "status": "source_review_pending",
+      "review_note": "Official answer-key table parsed; question text not yet transcribed, so question-to-key parity and source verification remain pending."
     },
     {
-      "paper_id": "geography_dec21",
+      "paper_id": "geography_dec2021",
       "exam": "December 2021",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "dec2124.pdf",
-        "official_final_answer_key": "dec2124 (1).pdf"
-      },
+      "question_paper_file": "dec2124.pdf",
+      "answer_key_file": "dec2124__1_.pdf",
+      "questions_transcribed": 0,
       "questions_loaded": 0,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
       "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_question_parity_verified": false,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 0,
+      "status": "source_review_pending",
+      "review_note": "Official answer-key table parsed; question text not yet transcribed, so question-to-key parity and source verification remain pending."
     },
     {
-      "paper_id": "geography_nov22",
+      "paper_id": "geography_nov2022",
       "exam": "November 2022",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "nov2224.pdf",
-        "official_final_answer_key": "nov2224 (1).pdf"
-      },
+      "question_paper_file": "nov2224.pdf",
+      "answer_key_file": "nov2224__1_.pdf",
+      "questions_transcribed": 0,
       "questions_loaded": 0,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
       "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_question_parity_verified": false,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 0,
+      "status": "source_review_pending",
+      "review_note": "Official answer-key table parsed; question text not yet transcribed, so question-to-key parity and source verification remain pending."
     },
     {
-      "paper_id": "geography_nov23",
+      "paper_id": "geography_nov2023",
       "exam": "November 2023",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "nov2324.pdf",
-        "official_final_answer_key": "nov2324 (1).pdf"
-      },
+      "question_paper_file": "nov2324.pdf",
+      "answer_key_file": "nov2324__1_.pdf",
+      "questions_transcribed": 0,
       "questions_loaded": 0,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
       "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_question_parity_verified": false,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 0,
+      "status": "source_review_pending",
+      "review_note": "Official answer-key table parsed; question text not yet transcribed, so question-to-key parity and source verification remain pending."
     },
     {
-      "paper_id": "geography_dec24",
+      "paper_id": "geography_dec2024",
       "exam": "December 2024",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "dec2424.pdf",
-        "official_final_answer_key": "dec2424 (1).pdf"
-      },
+      "question_paper_file": "dec2424.pdf",
+      "answer_key_file": "dec2424__1_.pdf",
+      "questions_transcribed": 0,
       "questions_loaded": 0,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
       "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_question_parity_verified": false,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 0,
+      "status": "source_review_pending",
+      "review_note": "Official answer-key table parsed; question text not yet transcribed, so question-to-key parity and source verification remain pending."
     },
     {
-      "paper_id": "geography_nov25",
+      "paper_id": "geography_nov2025",
       "exam": "November 2025",
       "subject_code": "24",
       "question_count": 100,
       "marks": 200,
-      "source_files": {
-        "question_paper": "nov2524.pdf",
-        "official_final_answer_key": "nov2524 (1).pdf"
-      },
+      "question_paper_file": "nov2524.pdf",
+      "answer_key_file": "nov2524__1_.pdf",
+      "questions_transcribed": 100,
       "questions_loaded": 0,
-      "answer_key_verified": false,
-      "question_source_verified": false,
+      "answer_key_entries": 100,
+      "answer_key_parsed": true,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 0,
       "source_verified": false,
-      "status": "staged_needs_official_audit",
-      "source": "Uploaded source PDF filenames; verify printed session, paper code, and question count before transcription"
+      "review_flags_remaining_count": 100,
+      "status": "source_review_pending",
+      "review_note": "All transcribed answer letters compared with the supplied official final-key table; 0 mismatches. Original question-page visual proofreading remains pending."
     }
-  ],
-  "data_status": "source_review_pending",
-  "note": "Eight official-source session manifests staged; no questions imported. Verify each PDF and final/corrected key before transcription."
+  ]
 }
