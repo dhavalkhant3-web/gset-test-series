@@ -462,5 +462,36 @@
     },
     "source_checked": "2026-11-10",
     "note": "Transcribed from the official final-key PDF table. This records official letters only; staged-question parity must be compared against these values independently. Z denotes not evaluated; no Z entries occur in this Sanskrit table."
+  },
+  "nov2025_active_answer_parity_check": {
+    "compared_questions": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "compared_count": 15,
+    "matches": 15,
+    "mismatches": [],
+    "source": "Active Sanskrit questions.json records compared programmatically against nov2025_official_final_key_full_table",
+    "status": "all_active_records_match"
+  },
+  "nov2025_q71_q100_key_audit_parity_check": {
+    "compared_count": 30,
+    "matches": 30,
+    "mismatches": [],
+    "source": "Q71-Q100 recorded key-only audit entries compared programmatically against official final-key table",
+    "status": "all_audited_letters_match"
   }
 }
