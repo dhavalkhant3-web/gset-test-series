@@ -106,9 +106,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 11,
-      "questions_loaded": 0,
-      "questions_pending_review": 850,
-      "data_status": "850 transcribed Paper-II questions across 11 sessions are retained in questions_review_pending.json; 817 await human source-page proofreading and 33 remain review_required. Two official Z/not-evaluated records have no answer letter. Five additional sessions have answer keys only and are kept in answer_keys_staging.json; no question text invented. Syllabus mapping pending."
+      "questions_loaded": 8,
+      "questions_pending_review": 842,
+      "data_status": "850 transcribed questions across 11 sessions; 8 November 2023 questions (Q60–Q67) visually verified against the official GSET paper and reconciled to the final key; 842 remain review-only, including 33 review_required and two Z/not-evaluated records. Official syllabus mapping pending."
     },
     {
       "code": "08",

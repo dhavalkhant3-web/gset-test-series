@@ -1,50 +1,55 @@
 {
-  "_staging_notice": "Normalized app audit summary; source staging file remains authoritative.",
+  "_staging_notice": "Sanskrit Code 07 source audit updated after official GSET PDF visual review.",
   "subject": "Sanskrit",
   "subject_code": "07",
   "paper": "Paper-II",
   "transcribed_questions": 850,
-  "active_questions": 0,
-  "pending_review": 850,
+  "active_questions": 8,
+  "pending_review": 842,
+  "nov2023_visual_verified_question_numbers": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "nov2023_visual_verified_count": 8,
+  "nov2023_final_key_parity": "8/8 matched official final answer key",
   "review_required": 33,
   "missing_official_answer": [
     "GSET-SAN07-AUG2017-Q022",
     "GSET-SAN07-DEC2019-Q094"
   ],
-  "syllabus_mapping": "all pending; no official syllabus file supplied in this batch",
   "keys_only_sessions": [
     {
       "session": "SEP2016_P2",
       "questions": 50,
-      "answer_entries": 50,
-      "not_evaluated": []
+      "answer_entries": 50
     },
     {
       "session": "SEP2018_P2",
       "questions": 100,
-      "answer_entries": 100,
-      "not_evaluated": [
-        44
-      ]
+      "answer_entries": 100
     },
     {
       "session": "JAN2002",
       "questions": 50,
-      "answer_entries": 50,
-      "not_evaluated": []
+      "answer_entries": 50
     },
     {
       "session": "JUL2004",
       "questions": 50,
-      "answer_entries": 50,
-      "not_evaluated": []
+      "answer_entries": 50
     },
     {
       "session": "JUL2006",
       "questions": 50,
-      "answer_entries": 50,
-      "not_evaluated": []
+      "answer_entries": 50
     }
   ],
-  "source_file_notice": "CONSOLIDATED STAGING FILE - NOT in the repository schema; not integrated; no repo validation/build run. Merged from the three Sanskrit staging files; IDs normalised to GSET-SAN07-<SESSION>-Qnnn; fields are the union (missing values null)."
+  "syllabus_mapping": "all pending; official syllabus not supplied",
+  "source_page_reference": "Official GSET Sanskrit November 2023 Paper-II PDF nov2307.pdf, page 11 (questions 60–67); official final answer key nov2307.pdf."
 }
