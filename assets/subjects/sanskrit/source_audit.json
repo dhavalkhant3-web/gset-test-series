@@ -263,5 +263,57 @@
     74,
     76,
     79
+  ],
+  "nov2025_q81_q90_ocr_extraction": {
+    "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
+    "official_printed_pages": [
+      14,
+      15
+    ],
+    "extracted_question_numbers": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "extraction_method": "Official GSET PDF text/OCR extraction (not visual page verification)",
+    "visual_source_verified_count": 0,
+    "status": "review_pending",
+    "note": "OCR for Q81-Q84 is partly readable; Q85-Q90 is materially garbled and requires original-page visual inspection. No question text/options were changed and no questions were activated."
+  },
+  "nov2025_q81_q90_official_final_key_crosscheck": {
+    "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
+    "question_answer_letters": {
+      "81": "A",
+      "82": "C",
+      "83": "A",
+      "84": "D",
+      "85": "C",
+      "86": "A",
+      "87": "C",
+      "88": "A",
+      "89": "B",
+      "90": "C"
+    },
+    "parity": "10/10 letters match the official GSET final answer key",
+    "note": "Official final-key cross-check only; it does not verify question text, options, or syllabus mappings."
+  },
+  "nov2025_unmapped_questions_from_81_90": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90
   ]
 }
