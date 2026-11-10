@@ -315,5 +315,44 @@
     88,
     89,
     90
-  ]
+  ],
+  "nov2025_q91_q100_official_final_key_crosscheck": {
+    "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
+    "question_answer_letters": {
+      "91": "C",
+      "92": "D",
+      "93": "D",
+      "94": "A",
+      "95": "C",
+      "96": "A",
+      "97": "D",
+      "98": "B",
+      "99": "B",
+      "100": "A"
+    },
+    "parity": "10/10 letters match the official GSET final answer key",
+    "note": "Cross-checked against the official final answer-key table; this does not verify question text, options, or syllabus mappings."
+  },
+  "nov2025_q91_q100_question_source_status": {
+    "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
+    "official_printed_pages": [
+      16,
+      17
+    ],
+    "question_numbers": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "visual_source_verified_count": 0,
+    "status": "review_pending",
+    "note": "Question text/options have not yet been independently extracted and visually checked against the original PDF. No question text/options or mappings changed; no questions activated."
+  }
 }
