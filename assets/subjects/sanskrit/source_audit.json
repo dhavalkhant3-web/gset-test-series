@@ -1,0 +1,50 @@
+{
+  "_staging_notice": "Normalized app audit summary; source staging file remains authoritative.",
+  "subject": "Sanskrit",
+  "subject_code": "07",
+  "paper": "Paper-II",
+  "transcribed_questions": 850,
+  "active_questions": 0,
+  "pending_review": 850,
+  "review_required": 33,
+  "missing_official_answer": [
+    "GSET-SAN07-AUG2017-Q022",
+    "GSET-SAN07-DEC2019-Q094"
+  ],
+  "syllabus_mapping": "all pending; no official syllabus file supplied in this batch",
+  "keys_only_sessions": [
+    {
+      "session": "SEP2016_P2",
+      "questions": 50,
+      "answer_entries": 50,
+      "not_evaluated": []
+    },
+    {
+      "session": "SEP2018_P2",
+      "questions": 100,
+      "answer_entries": 100,
+      "not_evaluated": [
+        44
+      ]
+    },
+    {
+      "session": "JAN2002",
+      "questions": 50,
+      "answer_entries": 50,
+      "not_evaluated": []
+    },
+    {
+      "session": "JUL2004",
+      "questions": 50,
+      "answer_entries": 50,
+      "not_evaluated": []
+    },
+    {
+      "session": "JUL2006",
+      "questions": 50,
+      "answer_entries": 50,
+      "not_evaluated": []
+    }
+  ],
+  "source_file_notice": "CONSOLIDATED STAGING FILE - NOT in the repository schema; not integrated; no repo validation/build run. Merged from the three Sanskrit staging files; IDs normalised to GSET-SAN07-<SESSION>-Qnnn; fields are the union (missing values null)."
+}
