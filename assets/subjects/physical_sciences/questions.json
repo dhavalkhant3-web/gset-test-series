@@ -10589,13 +10589,13 @@
     "id": "physical_dec21_q21",
     "paper_id": "physical_dec21",
     "exam": "December 2021 (January 2022)",
-    "question_en": "The Jacobi identity is",
+    "question_en": "The Jacobi identity is:",
     "question_gu": "",
     "options_en": [
-      "[u, [v, wi] + Iv, [w, ul] + [w, [u, v]] = 0",
-      "[u, [v, wl] + [v, [w, ul] + [w, [u, v]}] #0",
-      "[u, [w, v]] + [v, [w, ul] + [w, [u, vl] =0",
-      "[u, [w, vi] + [y, [w, ul] + [w, [v, ul] = 0 BBY: ae 2 eee A ‘ a"
+      "[u, [v, w]] + [v, [w, u]] + [w, [u, v]] = 0",
+      "[u, [v, w]] + [v, [w, u]] + [w, [u, v]] ≠ 0",
+      "[u, [w, v]] + [v, [w, u]] + [w, [u, v]] = 0",
+      "[u, [w, v]] + [v, [w, u]] + [w, [v, u]] = 0"
     ],
     "options_gu": [],
     "answer": "A",
@@ -10604,7 +10604,7 @@
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Jacobi-identity stem and all four nested-commutator options transcribed and checked against the official December 2021 (January 2022) GSET Physical Sciences Paper-II PDF, printed page 12. Official final answer key reconciliation remains independently recorded.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
