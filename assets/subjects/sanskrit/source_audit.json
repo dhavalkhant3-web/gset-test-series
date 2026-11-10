@@ -336,8 +336,7 @@
   "nov2025_q91_q100_question_source_status": {
     "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
     "official_printed_pages": [
-      16,
-      17
+      16
     ],
     "question_numbers": [
       91,
@@ -353,6 +352,7 @@
     ],
     "visual_source_verified_count": 0,
     "status": "review_pending",
-    "note": "Question text/options have not yet been independently extracted and visually checked against the original PDF. No question text/options or mappings changed; no questions activated."
+    "note": "Official PDF has 16 pages; Q91-Q100 are expected on the final printed page, but page-level question placement has not yet been visually confirmed. Question text/options have not been independently extracted and visually checked. No question text/options or mappings changed; no questions activated.",
+    "official_pdf_page_count": 16
   }
 }
