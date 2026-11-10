@@ -33,7 +33,7 @@
       "source_verified": false,
       "papers_loaded": 19,
       "questions_loaded": 1300,
-      "data_status": "Paper-II archive: 1300 unique records across 19 official sessions. Live canonical audit (2026-11-07 after source-confirmed Dec 2019 Q1-Q3 repair and normalization of 85 verified legacy A-D option maps): 901/1300 source_verified; 378 review flags; 204 records have missing/malformed English A-D option sets; 304 carry canonical answer_key_verified=true. These checks are separate. NOT fully verified. Do not mark subject source_verified until every record is source-reviewed and all required option content is reconciled."
+      "data_status": "Paper-II archive: 1,300 unique question records across 19 official sessions. Live canonical audit (2026-11-10): 1,005/1,300 source_verified; 800/1,300 answer_key_verified; 574/1,300 official syllabus mappings; 274 review flags remain; 107 records have missing or malformed English A-D option sets. December 2019: 100/100 official final answer keys reconciled, 100/100 syllabus mappings verified, 99/100 source-verified; Q89 remains blocked because its four graph options are not preserved as app assets. December 2024: 100/100 official final answer keys reconciled, 91/100 syllabus mappings verified, 93/100 source-verified; Q94 graph options remain incomplete. These checks are independent. NOT fully verified; keep subject source_verified=false until all remaining source figures, options, answer keys and syllabus mappings are reviewed."
     },
     {
       "code": "03",
