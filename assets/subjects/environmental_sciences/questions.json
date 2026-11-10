@@ -37,7 +37,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-DEC2024-Q008",
@@ -77,7 +78,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-DEC2024-Q020",
@@ -117,7 +119,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-DEC2024-Q051",
@@ -157,14 +160,56 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
+  },
+  {
+    "id": "GSET-ENV26-NOV2025-Q006",
+    "paper_id": "environmental_sciences_nov2025",
+    "paperId": "environmental_sciences_nov2025",
+    "question_no": 6,
+    "question_en": "Which among the following is NOT a minor tectonic plate ?",
+    "question_gu": "",
+    "options_en": [
+      "Arabian plate",
+      "Eurasian plate",
+      "Phillippine sea plate",
+      "Somali plate"
+    ],
+    "options_gu": [],
+    "answer": "B",
+    "official_answer": "B",
+    "answer_key_verified": true,
+    "source_verified": true,
+    "review_flag": false,
+    "review_note": "Corrected: scan (nov2526.pdf p.4, 300dpi crop) prints \"Phillippine\" (printed spelling kept as printed).",
+    "topic": "Syllabus mapping pending",
+    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "difficulty": "not_rated",
+    "exam_session": "November 2025 (exam date 16 Nov 2025)",
+    "exam_date": "2025-11-16",
+    "source_booklet_sl_no": "260101",
+    "source_question_id": "GSET-ENV26-NOV2025-Q006",
+    "source_question_paper": "",
+    "answer_source": "Final answer key PDF, Nov 2025 (Paper-II Env. Sci. (26))",
+    "passage_en": "",
+    "passage_gu": "",
+    "explanation_en": "",
+    "explanation_gu": "",
+    "tip_en": "",
+    "tip_gu": "",
+    "has_figure": false,
+    "image_asset": "",
+    "verification_status": "key_verified_visual_checked",
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-NOV2025-Q008",
     "paper_id": "environmental_sciences_nov2025",
     "paperId": "environmental_sciences_nov2025",
     "question_no": 8,
-    "question_en": "The highest seismic zone (zone V) in India is/are\nI. The Himayas\nII. The Kachchh area in the west\nIII. The Western ghats\nChoose the correct option :",
+    "question_en": "The highest seismic zone (zone V) in India is/are\nI. The Himalayas\nII. The Kachchh area in the west\nIII. The Western ghats\nChoose the correct option :",
     "question_gu": "",
     "options_en": [
       "I only",
@@ -178,7 +223,7 @@
     "answer_key_verified": true,
     "source_verified": true,
     "review_flag": false,
-    "review_note": "Checked against p.4: \"The Himayas\" is printed that way; kept as printed.",
+    "review_note": "Corrected: scan (nov2526.pdf p.4, 300dpi crop) prints \"The Himalayas\"; earlier staging had \"The Himayas\".",
     "topic": "Syllabus mapping pending",
     "syllabus_mapping_status": "pending_official_syllabus_mapping",
     "difficulty": "not_rated",
@@ -197,7 +242,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-NOV2025-Q015",
@@ -237,7 +283,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-NOV2025-Q019",
@@ -277,7 +324,8 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   },
   {
     "id": "GSET-ENV26-NOV2025-Q068",
@@ -317,6 +365,7 @@
     "has_figure": false,
     "image_asset": "",
     "verification_status": "key_verified_visual_checked",
-    "evaluation_status": "official_answer_letter_preserved"
+    "evaluation_status": "official_answer_letter_preserved",
+    "language": "en"
   }
 ]
