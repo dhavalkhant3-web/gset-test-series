@@ -386,19 +386,19 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
-      "review_count": 27,
+      "review_count": 13,
       "question_source_verified": false,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
-      "source_reviewed_question_count": 73,
-      "review_flags_remaining_count": 27,
+      "source_reviewed_question_count": 87,
+      "review_flags_remaining_count": 13,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 22,
       "unit_mapping_verified_count": 78,
       "unit_mapping_status_note": "Current question-level audit: 78/100 official syllabus unit mappings verified; 22 remain pending. Paper-level mapping remains pending.",
-      "options_incomplete_count": 25
+      "options_incomplete_count": 12
     },
     {
       "paper_id": "physical_nov22",
