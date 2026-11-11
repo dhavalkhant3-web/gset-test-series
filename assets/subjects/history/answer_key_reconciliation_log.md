@@ -24,3 +24,8 @@ This checks answer letters only. It does NOT verify question text, options, or s
 ## September 2016 Paper-II — official website recheck (correction)
 
 The official GSET Final/Corrected Answer Key PDF lists Q48 = D (not A). The original question asks for the author of *The Wealth of Nations* and option D is Adam Smith. Therefore Q48 is not an official-key/content conflict. The earlier staging value A and review-only conflict note were incorrect. Q48 has been corrected to D and moved from review-only to the active bank. All 50 official key entries match after correction. Official source: https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf
+
+
+## September 2016 Paper-II — official syllabus mapping review
+
+The official GSET History Code 08 syllabus was reviewed for the five remaining non-verified mappings. Q21 (late-14th-century coin hoard) is verified to Unit IV because that unit explicitly includes medieval archaeological, epigraphic and numismatic sources. Q43 (Durand Line) is verified to Unit VII as a British-era frontier/political-history item; the official concepts list also includes Forward Policy. Q50 (Patriarchy) is verified to Unit VIII under the explicitly listed Women’s Question and Gender Identity topics. Q46 (Apartheid/South Africa) remains pending because no direct Indian-history unit or named syllabus concept supports a precise placement. Q48 (Adam Smith / The Wealth of Nations) remains pending because the syllabus does not explicitly name the author or work; placing it under colonial economy would be inferential. Result: 48 verified, 0 provisional, 2 pending. No answer-key values changed. Official syllabus: https://gujaratset.ac.in/assets/syllabus/08.pdf
