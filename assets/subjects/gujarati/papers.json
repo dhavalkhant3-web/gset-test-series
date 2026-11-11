@@ -30,7 +30,8 @@
       "source_verified": false,
       "review_flags_remaining_count": 45,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions source-page visually checked; official final answer-key parity remains pending. These questions remain review-only."
+      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
+      "answer_key_reconciled_count": 5
     },
     {
       "paper_id": "gujarati_dec2003",
@@ -52,7 +53,8 @@
       "source_verified": false,
       "review_flags_remaining_count": 45,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions source-page visually checked; official final answer-key parity remains pending. These questions remain review-only."
+      "review_note": "5 questions visually checked; official final answer-key endpoint inaccessible during this pass, so key reconciliation remains pending.",
+      "answer_key_reconciled_count": 0
     },
     {
       "paper_id": "gujarati_dec2008",
@@ -74,7 +76,8 @@
       "source_verified": false,
       "review_flags_remaining_count": 45,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions source-page visually checked; official final answer-key parity remains pending. These questions remain review-only."
+      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
+      "answer_key_reconciled_count": 5
     },
     {
       "paper_id": "gujarati_aug2017",
@@ -96,7 +99,8 @@
       "source_verified": false,
       "review_flags_remaining_count": 45,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions source-page visually checked; official final answer-key parity remains pending. These questions remain review-only."
+      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
+      "answer_key_reconciled_count": 5
     },
     {
       "paper_id": "gujarati_dec2019",
@@ -118,7 +122,8 @@
       "source_verified": false,
       "review_flags_remaining_count": 95,
       "status": "partial_visual_review",
-      "review_note": "5/100 questions source-page visually checked; official final answer-key parity remains pending. These questions remain review-only."
+      "review_note": "5/100 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
+      "answer_key_reconciled_count": 5
     },
     {
       "paper_id": "gujarati_dec2021",
