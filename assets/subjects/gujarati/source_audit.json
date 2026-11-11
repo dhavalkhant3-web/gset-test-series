@@ -20,8 +20,8 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 records remain review-only. 82 older-paper records have visually inspected stems/options; 37 selected answer letters match official final keys. The five December 2003 Gujarati Q1–Q5 records have now been reconciled against the official final key. 228 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 Q35–Q41 printed-number alignment is verified; their answer-key and syllabus mapping checks remain pending.",
-  "syllabus_mapping": "partial_question_level_mapping",
+  "remaining_review_note": "303 records remain review-only. 82 older-paper records have visually inspected stems/options; 37 selected answer letters match official final keys. December 2003 Gujarati Q1–Q5 have been reconciled against the official final key. All 303 review-only records now have a primary syllabus-unit assignment: 82 verified and 221 provisional; 0 remain unmapped. Source-page and key provenance reviews remain open where flagged. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 Q35–Q41 printed-number alignment is verified; their answer-key reconciliation remains pending.",
+  "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
     "pending_record_count": 303,
@@ -174,11 +174,12 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 121,
-    "pending_records_without_defensible_unit_assignment": 162,
-    "note": "303 review-only records: 20 question-level mappings verified in individual review; 121 provisional unit suggestions and 162 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
+    "pending_records_with_provisional_unit_suggestion": 221,
+    "pending_records_without_defensible_unit_assignment": 0,
+    "note": "All 303 review-only Gujarati records now have a question-level primary unit assignment. 82 mappings are verified because the corresponding question source pages are verified; 221 mappings remain provisional because source-page verification is pending. No record is left without a unit suggestion. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent.",
+    "pending_records_with_verified_unit_mapping": 82
   },
-  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 20 question-level mappings have been individually verified against the official Code 06 unit titles; 121 provisional suggestions and 162 unassigned records remain.",
+  "syllabus_mapping_note": "All 303 review-only Gujarati records have a primary unit assignment against the official Code 06 syllabus: 82 verified mappings (source-verified records), 221 provisional mappings (source-page proof still pending), and 0 unmapped records.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 82,
     "records": [
@@ -403,7 +404,7 @@
     ]
   },
   "official_key_matched_in_batch": 84,
-  "last_batch_saved": "2026-11-11: December 2002 Q35–Q41 source/numbering verified against official printed page 10; December 2003 Q1–Q5 reconciled against official final Paper-II Gujarati key. Syllabus mapping remains pending.",
+  "last_batch_saved": "2026-11-11: December 2002 Q35–Q41 source/numbering verified; December 2003 Q1–Q5 official final key reconciled; all 303 review-only Gujarati records assigned a syllabus unit (82 verified, 221 provisional, 0 unmapped).",
   "last_old_paper_key_reconciliation": {
     "session": "December 2003 Gujarati",
     "questions": [
