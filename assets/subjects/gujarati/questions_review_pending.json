@@ -3742,7 +3742,10 @@
     "unit_number": 9,
     "unit_id": "unit_9",
     "syllabus_mapping_note": "Provisional Unit 8 (Gujarati works) suggestion based on the current transcription only; the question's exact source location/numbering is unresolved, so this mapping is not verified.",
-    "source_verification_note": "Unmatched staging row; official scan printed Q33-Q42 inspected. Exact source question number not established."
+    "source_verification_note": "Unmatched staging row; official scan printed Q33-Q42 inspected. Exact source question number not established.",
+    "source_key_question_no": 34,
+    "source_key_answer": "C",
+    "answer_key_verification_note": "Official published key lists printed Q34 = C, but this staging row's Eliot/Waste Land stem does not match printed Q34; do not claim key parity."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q035",
@@ -3763,7 +3766,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q34, but stored answer A differs from published key C; do not overwrite until record identity/options are reconciled.",
     "topic": "ગુજરાતી સાહિત્યનો ઇતિહાસ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -3781,7 +3784,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 1",
     "unit_number": 1,
@@ -3789,7 +3792,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 34.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 34 (repository staging row Q35); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 34
+    "source_printed_question_no": 34,
+    "source_key_question_no": 34,
+    "source_key_answer": "C",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q34 = C; staging answer differs (A). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q036",
@@ -3810,7 +3816,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q35, but stored answer C differs from published key A; do not overwrite until record identity/options are reconciled.",
     "topic": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -3828,7 +3834,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 2",
     "unit_number": 2,
@@ -3836,7 +3842,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 35.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 35 (repository staging row Q36); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 35
+    "source_printed_question_no": 35,
+    "source_key_question_no": 35,
+    "source_key_answer": "A",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q35 = A; staging answer differs (C). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q037",
@@ -3854,7 +3863,7 @@
     ],
     "answer": "C",
     "official_answer": "C",
-    "answer_key_verified": false,
+    "answer_key_verified": true,
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
@@ -3875,7 +3884,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_and_published_key_matched_final_status_unconfirmed",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 6",
     "unit_number": 6,
@@ -3883,7 +3892,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 36.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 36 (repository staging row Q37); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 36
+    "source_printed_question_no": 36,
+    "source_key_question_no": 36,
+    "source_key_answer": "C",
+    "answer_key_verification_note": "Stored answer matches official December 2002 published KEY FOR PAPER-II at printed Q36 (C). PDF is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q038",
@@ -3904,7 +3916,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q37, but stored answer A differs from published key C; do not overwrite until record identity/options are reconciled.",
     "topic": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -3922,7 +3934,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 2",
     "unit_number": 2,
@@ -3930,7 +3942,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 37.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 37 (repository staging row Q38); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 37
+    "source_printed_question_no": 37,
+    "source_key_question_no": 37,
+    "source_key_answer": "C",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q37 = C; staging answer differs (A). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q039",
@@ -3951,7 +3966,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q38, but stored answer D differs from published key A; do not overwrite until record identity/options are reconciled.",
     "topic": "ગુજરાતી સાહિત્યનો ઇતિહાસ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -3969,7 +3984,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 1",
     "unit_number": 1,
@@ -3977,7 +3992,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 38.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 38 (repository staging row Q39); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 38
+    "source_printed_question_no": 38,
+    "source_key_question_no": 38,
+    "source_key_answer": "A",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q38 = A; staging answer differs (D). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q040",
@@ -3998,7 +4016,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q39, but stored answer A differs from published key D; do not overwrite until record identity/options are reconciled.",
     "topic": "ગુજરાતી કૃતિઓ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -4016,7 +4034,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 8",
     "unit_number": 8,
@@ -4024,7 +4042,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 39.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 39 (repository staging row Q40); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 39
+    "source_printed_question_no": 39,
+    "source_key_question_no": 39,
+    "source_key_answer": "D",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q39 = D; staging answer differs (A). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q041",
@@ -4045,7 +4066,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
+    "review_note": "Source stem maps to printed Q40, but stored answer C differs from published key A; do not overwrite until record identity/options are reconciled.",
     "topic": "સાહિત્ય અને આંતરવિદ્યાઓ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -4063,7 +4084,7 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_verified_historical_key_mismatch_review_required",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 10",
     "unit_number": 10,
@@ -4071,7 +4092,10 @@
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 40.",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 40 (repository staging row Q41); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 40
+    "source_printed_question_no": 40,
+    "source_key_question_no": 40,
+    "source_key_answer": "A",
+    "answer_key_verification_note": "Official published KEY FOR PAPER-II gives printed Q40 = A; staging answer differs (C). Historical key is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q042",
@@ -4089,7 +4113,7 @@
     ],
     "answer": "D",
     "official_answer": "D",
-    "answer_key_verified": false,
+    "answer_key_verified": true,
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source text/options verified, but historical answer-key reconciliation remains pending.",
@@ -4110,14 +4134,17 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_verified_official_key_pending",
+    "verification_status": "source_and_published_key_matched_final_status_unconfirmed",
     "evaluation_status": "official_answer_letter_preserved",
     "syllabus_unit": "Unit 2",
     "unit_number": 2,
     "unit_id": "unit_2",
     "syllabus_mapping_note": "Question-level primary unit reviewed against the official GSET Gujarati Code 06 syllabus after source scan match; printed question 42.",
     "source_verification_note": "Stem and all four options visually match official December 2002 Gujarati Paper-II scan, printed question 42 (repository staging row Q42); repository question_no retained to avoid ID collision. Official key parity remains pending; review flag retained.",
-    "source_printed_question_no": 42
+    "source_printed_question_no": 42,
+    "source_key_question_no": 42,
+    "source_key_answer": "D",
+    "answer_key_verification_note": "Stored answer matches official December 2002 published KEY FOR PAPER-II at printed Q42 (D). PDF is not explicitly labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q043",
