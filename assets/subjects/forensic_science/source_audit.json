@@ -6,14 +6,38 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 6,
+  "visual_checked": 21,
   "proofread_pass1_pending_second_pass": 294,
-  "active_questions": 6,
-  "pending_review": 294,
+  "active_questions": 21,
+  "pending_review": 279,
   "syllabus_mapping": "all pending; official syllabus not supplied.",
   "source_pages": [
     "nov2327.pdf",
     "dec2427.pdf",
     "nov2527.pdf"
-  ]
+  ],
+  "last_visual_review": {
+    "session": "November 2023",
+    "questions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "count": 15,
+    "source": "Official GSET November 2023 Forensic Science Paper-II PDF, PDF pages 2–3.",
+    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
+    "result": "all selected question stems/options visually match; all selected answer letters match final key; printed Q5 spelling 'Salylation' preserved"
+  }
 }
