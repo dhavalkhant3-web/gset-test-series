@@ -6,22 +6,21 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 168,
+  "visual_checked": 172,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
     "question_numbers": [
-      42,
-      43,
-      44,
-      45,
-      46
+      47,
+      48,
+      49,
+      50
     ],
-    "count": 5,
-    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 10 (printed page 11).",
-    "result": "Q42-Q46 stems and all four options visually checked against the official scan. All five transcriptions match. Q42, Q44, Q45 and Q46 have defensible Unit 2/8/4/4 mappings respectively. Q35-Q41 remain unresolved due a printed question-number alignment discrepancy."
+    "count": 4,
+    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
+    "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 records remain review-only. 71 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 232 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 Q35–Q41 question-number alignment requires audit.",
+  "remaining_review_note": "303 records remain review-only. 75 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 228 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 repository Q35–Q41 question-number alignment requires audit.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -150,7 +149,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 71,
+  "visual_source_verified_in_batch": 75,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -181,7 +180,7 @@
   },
   "syllabus_mapping_note": "Among 303 review-only Gujarati records, 20 question-level mappings have been individually verified against the official Code 06 unit titles; 121 provisional suggestions and 162 unassigned records remain.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 71,
+    "newly_visual_checked": 75,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -224,7 +223,11 @@
           43,
           44,
           45,
-          46
+          46,
+          47,
+          48,
+          49,
+          50
         ],
         "printed_pages": [
           3,
@@ -234,9 +237,10 @@
           7,
           8,
           9,
-          11
+          11,
+          12
         ],
-        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q34 on pages 8–9; Q42–Q46 on PDF page index 10 (printed page 11). Printed-number alignment for repository Q35–Q41 is inconsistent and remains unresolved; those records were not source-verified."
+        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q34 on pages 8–9; Q42–Q46 on page 11; Q47–Q50 on PDF page index 11 (printed page 12). Repository Q35–Q41 printed-number alignment remains unresolved."
       },
       {
         "paper": "December 2003 Gujarati",
@@ -369,5 +373,5 @@
     ]
   },
   "official_key_matched_in_batch": 79,
-  "last_batch_saved": "2026-11-11: December 2002 Q42-Q46 source-verified against printed page 11; Q42/Q44/Q45/Q46 mappings verified. Q35-Q41 numbering discrepancy retained for audit."
+  "last_batch_saved": "2026-11-11: December 2002 Q47-Q50 visually checked against official printed page 12; passage-dependent mappings and key reconciliation left pending."
 }
