@@ -6,21 +6,13 @@
   "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
   "paper_date": "2016-09-25",
   "total_questions": 50,
-  "active_questions": 49,
-  "pending_review": 1,
+  "active_questions": 50,
+  "pending_review": 0,
   "visual_checked": 50,
   "official_final_key_matched": 50,
   "answer_key_mismatches": 0,
-  "official_key_content_conflicts": 1,
-  "conflict_details": [
-    {
-      "question_no": 48,
-      "official_final_key": "A",
-      "printed_option_A": "Karl Marx",
-      "printed_option_D": "Adam Smith",
-      "issue": "Question asks author of The Wealth of Nations; printed content conflicts with official key. Official key A preserved and question excluded from active bank pending expert review."
-    }
-  ],
+  "official_key_content_conflicts": 0,
+  "conflict_details": [],
   "page_review": "All 50 questions and four-option sets visually checked against printed question-paper pages 3–23. Official final/corrected answer-key letters compared for all 50.",
   "known_printed_text_anomalies": [
     "Q1 source scan prints 'lavoillois'; retained as printed.",
@@ -32,15 +24,18 @@
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/08.pdf",
     "verified": 45,
     "provisional": 3,
-    "pending": 1,
+    "pending": 2,
     "unmapped_question_numbers": [
-      46
+      46,
+      48
     ],
     "provisional_question_numbers": [
       21,
       43,
       50
     ],
-    "note": "45 active question mappings align directly with the official ten-unit History syllabus. Q21, Q43 and Q50 remain provisional for subject-expert review; Q46 remains unmapped. Q48 remains separately review-only because of the official-key/content conflict."
-  }
+    "note": "45 mappings verified, 3 provisional (Q21, Q43, Q50), and 2 pending (Q46, Q48) against the official Code 08 syllabus. Q48 is no longer an answer-key conflict: the official final/corrected key gives D, matching Adam Smith."
+  },
+  "official_key_matched": 50,
+  "official_key_mismatches": 0
 }
