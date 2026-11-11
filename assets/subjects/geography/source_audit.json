@@ -70,5 +70,18 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "pending_official_syllabus_mapping",
-  "remaining_subject_work": "150 staged questions across August 2017 and November 2025 remain review-only; 500 questions across five papers remain untranscribed."
+  "remaining_subject_work": "150 staged questions across August 2017 and November 2025 remain review-only; 500 questions across five papers remain untranscribed.",
+  "syllabus_mapping": {
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "verified": 47,
+    "provisional": 3,
+    "pending": 0,
+    "provisional_question_numbers": [
+      8,
+      26,
+      37
+    ],
+    "pending_question_numbers": [],
+    "note": "Unit mapping aligned to official Code 24 syllabus headings; provisional items require subject-expert confirmation."
+  }
 }
