@@ -142,5 +142,21 @@
     "source": "Official GSET Final Answer Key for December 2021 (January 2022), Paper-II Gujarati.",
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
+  },
+  "visual_source_verified_in_batch": 3,
+  "visual_source_verified_total_dec2021": 44,
+  "remaining_visual_review_dec2021": 56,
+  "last_visual_verification": {
+    "paper": "Gujarati Paper-II December 2021 / January 2022",
+    "pdf_url": "https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2106.pdf",
+    "pdf_page_index_zero_based": 9,
+    "printed_page": 10,
+    "questions": [
+      48,
+      49,
+      50
+    ],
+    "count": 3,
+    "result": "Question stems and all four options visually checked against official scan; Q48 spelling 'નિંબધો' corrected to 'નિબંધો'; Q49 transliterations of 'The Trial' and 'The Road' normalized to 'ધ ટ્રાયલ' and 'ધ રોડ'. Q51 was visible on the same scan but retained review-only because the printed name 'સતીસ ડણાક' is ambiguous."
   }
 }
