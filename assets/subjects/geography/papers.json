@@ -60,7 +60,12 @@
       "review_note": "All 50 question stems and options visually checked against official August 2017 Geography Paper-II PDF; all 50 answer letters matched official final answer key. Question-level syllabus mapping remains pending.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1724.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1724.pdf",
-      "questions_count": 50
+      "questions_count": 50,
+      "unit_mapping_verified_count": 46,
+      "unit_mapping_provisional_count": 4,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_status": "partially_mapped_official_syllabus",
+      "unit_mapping_status_note": "46 mappings directly aligned to official Code 24 unit descriptions; 4 require subject-expert confirmation."
     },
     {
       "paper_id": "geography_sep2018",
