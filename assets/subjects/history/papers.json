@@ -29,15 +29,15 @@
       "source_verified": true,
       "review_flags_remaining_count": 0,
       "status": "source_verified_final_key_reconciled",
-      "review_note": "All 50 questions and four-option sets visually checked against the official question paper; all 50 answers match the official final/corrected key. Syllabus mappings: 45 verified, 3 provisional (Q21, Q43, Q50), 2 pending (Q46, Q48).",
+      "review_note": "All 50 questions and four-option sets visually checked against the official question paper; all 50 answers match the official final/corrected key. Syllabus mappings: 48 verified, 0 provisional, 2 pending (Q46, Q48).",
       "official_final_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
       "source_reference_status": "official_question_paper_and_final_corrected_answer_key_resolved_and_visually_checked",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
-      "unit_mapping_verified_count": 45,
-      "unit_mapping_provisional_count": 3,
+      "unit_mapping_verified_count": 48,
+      "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 2,
       "unit_mapping_status": "partially_mapped_official_syllabus",
-      "unit_mapping_status_note": "45 mappings verified; 3 provisional (Q21, Q43, Q50); Q46 and Q48 pending official syllabus assignment."
+      "unit_mapping_status_note": "48 mappings verified; Q46 and Q48 remain pending with explicit rationale."
     }
   ]
 }
