@@ -6,8 +6,8 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 138,
-  "official_final_key_matched_in_batch": 65,
+  "visual_checked": 148,
+  "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
     "question_numbers": [
@@ -63,7 +63,7 @@
       70
     ]
   },
-  "remaining_review_note": "303 questions remain review-only. 41 older-paper records have had stems/options visually checked; 26 selected answers match official final keys. Five December 2003 records still await official final-key reconciliation. 262 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
+  "remaining_review_note": "303 records remain review-only. 51 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 252 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -192,7 +192,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 41,
+  "visual_source_verified_in_batch": 51,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -223,7 +223,7 @@
   },
   "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 74 verified unit matches, 20 provisional and 3 cross-unit/context-dependent. Q70 restored from official page 17 and mapped provisionally to Unit 1. 303 separate review-pending records: 137 provisional unit suggestions, 166 unassigned.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 41,
+    "newly_visual_checked": 51,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -242,13 +242,17 @@
           12,
           13,
           14,
-          15
+          15,
+          16,
+          17,
+          18,
+          19
         ],
         "printed_pages": [
           3,
-          4
-        ],
-        "note": "Q1–Q5 checked in earlier batch; Q6–Q15 checked against printed page 4 in this batch."
+          4,
+          5
+        ]
       },
       {
         "paper": "December 2003 Gujarati",
@@ -260,7 +264,7 @@
           5
         ],
         "printed_page": 3,
-        "note": "Source visual review only; final-key reconciliation pending."
+        "note": "Visual check only; key reconciliation pending."
       },
       {
         "paper": "December 2008 Gujarati",
@@ -298,17 +302,24 @@
           8,
           9,
           10,
-          11
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
         ],
         "printed_pages": [
           3,
-          4
+          4,
+          5
         ],
-        "note": "Q6–Q11 visually checked this batch and all six answer letters match official final key; Q7 official key is Z (not evaluated)."
+        "note": "Q6–Q17 selected answers all matched official final key; Q7 is Z/not evaluated."
       }
     ],
-    "result": "41 older-paper records have visually inspected source text/options; 26 have official final-key matches. December 2003 Q1–Q5 remain key reconciliation pending.",
-    "key_matched_in_batch": 26,
+    "result": "51 older-paper records visually inspected; 32 selected answers matched to official final answer keys. Five December 2003 records remain key reconciliation pending.",
+    "key_matched_in_batch": 32,
     "key_matched_questions": [
       {
         "paper": "gujarati_dec2002",
@@ -356,12 +367,18 @@
           8,
           9,
           10,
-          11
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
         ],
         "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1906.pdf"
       }
     ]
   },
   "official_key_matched_in_batch": 79,
-  "last_batch_saved": "2026-11-11: visually checked Dec 2002 Q6-Q15 (printed p.4) and Dec 2019 Q6-Q11 (printed p.4); Dec 2019 Q6-Q11 all matched final key."
+  "last_batch_saved": "2026-11-11: Dec 2002 Q16-Q19 printed p.5 and Dec 2019 Q12-Q17 printed p.5 visually checked; Dec 2019 Q12-Q17 matched final key."
 }
