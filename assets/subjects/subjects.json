@@ -108,7 +108,7 @@
       "papers_loaded": 11,
       "questions_loaded": 114,
       "questions_pending_review": 736,
-      "data_status": "850 transcribed questions are claimed by source audit; 114 active records are present (99 November 2023 and 15 November 2025). questions_review_pending.json is empty despite 736 pending being recorded; remaining staged records are missing from that file and must be restored before claiming full archive availability. Official syllabus mapping pending."
+      "data_status": "850 transcribed across 11 sessions; 114 active (99 November 2023 and 15 November 2025 visually checked); all remaining 736 records restored to questions_review_pending.json as review-only. 33 staging records are review_required, including two missing official answers; Q33 remains review-required. Official syllabus mapping pending."
     },
     {
       "code": "08",
