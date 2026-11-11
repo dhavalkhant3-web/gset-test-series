@@ -29,10 +29,15 @@
       "source_verified": true,
       "review_flags_remaining_count": 1,
       "status": "partial_source_verified_key_conflict_retained",
-      "review_note": "49/50 questions are eligible for active use after visual source review and official final-key parity. Q48 retained review-only: official final key says A while source question wording/options point to D; official key preserved, expert review needed. Syllabus mapping pending for all.",
+      "review_note": "49/50 questions are eligible for active use after visual source review and official final-key parity. Q48 retained review-only: official final key says A while source question wording/options point to D; official key preserved, expert review needed. Syllabus mapping pending for all. Q48 official key/content conflict remains review-only; Q46 unit mapping remains pending.",
       "official_final_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
       "source_reference_status": "official_question_paper_and_final_corrected_answer_key_resolved_and_visually_checked",
-      "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf"
+      "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
+      "unit_mapping_verified_count": 43,
+      "unit_mapping_provisional_count": 5,
+      "unit_mapping_pending_count": 1,
+      "unit_mapping_status": "partially_mapped_official_syllabus",
+      "unit_mapping_status_note": "43 question mappings aligned directly to official History Code 08 units; 5 mappings are provisional pending subject-expert review; Q46 remains unmapped because its apartheid/world-history framing is not explicitly covered in the published unit descriptions."
     }
   ]
 }
