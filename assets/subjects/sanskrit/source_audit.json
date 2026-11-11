@@ -493,5 +493,9 @@
     "mismatches": [],
     "source": "Q71-Q100 recorded key-only audit entries compared programmatically against official final-key table",
     "status": "all_audited_letters_match"
-  }
+  },
+  "review_pending_file_restored": true,
+  "review_pending_file_count": 736,
+  "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 question records); 114 IDs already present in active questions.json were excluded.",
+  "review_pending_file_integrity": "736 unique records restored to questions_review_pending.json; all remain source_verified=false and review_flag=true."
 }
