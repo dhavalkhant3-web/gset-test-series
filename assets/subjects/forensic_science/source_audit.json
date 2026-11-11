@@ -6,10 +6,10 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 60,
+  "visual_checked": 75,
   "proofread_pass1_pending_second_pass": 294,
-  "active_questions": 60,
-  "pending_review": 240,
+  "active_questions": 75,
+  "pending_review": 225,
   "syllabus_mapping": "all pending; official syllabus not supplied.",
   "source_pages": [
     "nov2327.pdf",
@@ -19,17 +19,24 @@
   "last_visual_review": {
     "session": "November 2023",
     "questions": [
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
     ],
-    "count": 8,
-    "source": "Official GSET November 2023 Forensic Science Paper-II PDF, PDF page 9.",
+    "count": 15,
+    "source": "Official GSET November 2023 Forensic Science Paper-II PDF, PDF pages 10–11.",
     "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
     "result": "all selected stems/options visually matched; all selected answer letters matched final key"
   }
