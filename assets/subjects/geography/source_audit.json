@@ -6,10 +6,11 @@
   "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf",
   "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf",
   "total_questions": 50,
-  "active_questions": 34,
-  "pending_review": 166,
-  "source_visual_checked_for_this_paper": 34,
-  "official_final_key_matches_for_this_paper": 34,
+  "active_questions": 50,
+  "pending_review": 0,
+  "visual_checked": 50,
+  "official_final_key_matched": 50,
+  "answer_key_mismatches": 0,
   "question_numbers_verified": [
     1,
     2,
@@ -44,11 +45,30 @@
     31,
     32,
     33,
-    34
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
   ],
-  "known_source_text_corrections": [
-    "Q2 option B spelling corrected from OCR 'Corbon' to printed 'Carbon Dioxide'.",
-    "Q33 option D corrected from OCR 'puryanchal' to printed 'Purvanchal'."
+  "source_review": "All 50 question stems and four options visually checked against printed pages 3–23. All 50 answer letters match the official final/corrected answer key.",
+  "ocr_corrections": [
+    "Q2 option B: 'Corbon Dioxide' corrected to printed 'Carbon Dioxide'.",
+    "Q33 option D: OCR 'puryanchal' corrected to 'Purvanchal'.",
+    "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
-  "remaining": "Q35–Q50 of September 2016, all other staged Geography questions, remaining 500 untranscribed questions, and official syllabus mappings."
+  "syllabus_mapping_status": "pending_official_syllabus_mapping",
+  "remaining_subject_work": "150 staged questions across August 2017 and November 2025 remain review-only; 500 questions across five papers remain untranscribed."
 }
