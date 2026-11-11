@@ -6,7 +6,7 @@
   "transcribed_questions": 400,
   "active_questions": 96,
   "pending_review": 304,
-  "visual_checked": 96,
+  "visual_checked": 121,
   "official_final_key_matched_in_batch": 59,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
@@ -60,7 +60,7 @@
     "answer_key": "Official GSET Final Answer Key, December 2021/January 2022, Paper-II Gujarati.",
     "result": "41 questions visually checked in the combined review batch; shared poem and Gandhi prose passage transcribed from the scan. Three ambiguous question records remain review-only."
   },
-  "remaining_review_note": "304 questions remain review-only. 138 have provisional unit suggestions based on their existing transcription; 166 remain unmapped due to ambiguous or insufficient text. Official question-paper scans for the older pending sessions were not available in the current files, so no source-page verification is claimed. December 2021/January 2022 has 96 active source-verified records and 4 review-only records (Q36, Q37, Q60, Q70); all 100 answer letters remain matched to the official final key.",
+  "remaining_review_note": "304 questions remain review-only. 25 additional records across 2002, 2003, 2008, 2017 and 2019 have had stems/options visually checked but still await official final-key reconciliation; 279 others still need source-page visual review and/or key provenance. December 2021/January 2022 has 96 active and 4 review-only records (Q36, Q37, Q60, Q70); all 100 answers match official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 96,
@@ -218,5 +218,72 @@
     "pending_records_without_defensible_unit_assignment": 166,
     "note": "Mapping is not source verification. Review-only records were not activated. Pending records received provisional topic suggestions only when a single unit matched available transcription; cross-unit or context-poor records remain unmapped. Q70 moved back to review-only because its stored chronology list is missing."
   },
-  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 71 verified unit matches, 25 provisional, 1 unmapped (Q70). The 303 separate review-pending records still require question-level mapping."
+  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 71 verified unit matches, 25 provisional, 1 unmapped (Q70). The 303 separate review-pending records still require question-level mapping.",
+  "source_verification_checkpoint": {
+    "newly_visual_checked": 25,
+    "records": [
+      {
+        "paper": "December 2002 Gujarati",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "pdf_page_index_zero_based": 2,
+        "printed_page": 3
+      },
+      {
+        "paper": "December 2003 Gujarati",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "pdf_page_index_zero_based": 2,
+        "printed_page": 3
+      },
+      {
+        "paper": "December 2008 Gujarati",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "pdf_page_index_zero_based": 2,
+        "printed_page": 3
+      },
+      {
+        "paper": "August 2017 Gujarati",
+        "questions": [
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "pdf_page_index_zero_based": 2,
+        "printed_page": 4,
+        "note": "Q8 excluded because the author-name glyph is ambiguous."
+      },
+      {
+        "paper": "December 2019 Gujarati",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "pdf_page_index_zero_based": 2,
+        "printed_page": 3
+      }
+    ],
+    "result": "25 stems and all four options visually matched to official GSET scans. These records remain review-only until official final-key reconciliation."
+  }
 }
