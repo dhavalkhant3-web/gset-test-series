@@ -1136,7 +1136,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 
 
 ## Physical Sciences execution checkpoint — 2026-11-11
-- Direct official final-key PDF visual recheck: January 2002 Q1–Q50 and December 2002 Q1–Q50; both 50/50 exact matches against sidecars and canonical `questions.json`; 0 mismatches.
+- Direct official final-key PDF visual recheck: January 2002 Q1–Q50, December 2002 Q1–Q50, and December 2003 Q1–Q50; all three batches 50/50 exact matches against sidecars and canonical `questions.json`; 0 mismatches.
 - Official key sidecar inventory: 13 files / 900 answer rows. November 2023 and September 2018 sidecars explicitly retain canonical parity pending.
 - Do not reuse the historical 1,000/1,300 aggregate until all 1,300 Paper-II records are reconciled paper-by-paper. Keep the 75-question September 2016 Paper-III separate.
 - Latest checkpoint commit: `b88874d9f4cbf5b56312eb152b3e785a50734f85`. No PR merged.
+
+- Latest direct PDF batch: December 2003 Q1–Q50; no canonical changes required. State checkpoint commit: `d49bdd0b9b0b7e78617b9378cac5ab43cb0f34b4`.
