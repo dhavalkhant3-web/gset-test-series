@@ -6,7 +6,7 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 178,
+  "visual_checked": 187,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
@@ -20,7 +20,7 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 review-only records remain. 81 source texts/options visually verified, with 222 mappings still provisional. December 2002 staging Q35–Q41 map to printed Q34–Q40; Q42 maps to printed Q42. Published-key comparison: Q37 and Q42 match; Q35, Q36, Q38, Q39, Q40, Q41 conflict with the key when aligned to printed numbers; Q34 staging stem is unmatched. Historical PDF is labelled KEY FOR PAPER-II, not explicitly FINAL. August 2017 Q1–Q50 match official FINAL key. December 2003 Q1–Q5 match published key only; final status unconfirmed.",
+  "remaining_review_note": "303 review-only records remain. 90 source texts/options visually verified; 213 mappings remain provisional. December 2002 repository Q34 and Q36–Q42 map to printed Q34, Q35–Q40, and Q42 respectively. Repository Q35 Sundaram record is unmatched and remains provisional. Historical key comparison: Q34, Q37, Q42 match published key; Q36, Q38–Q41 differ and remain unresolved. The 2002 key is not explicitly labelled FINAL. August 2017 Q1–Q50 match official FINAL key; additional source visual checks completed for Q13–Q16 and Q22–Q26.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -149,7 +149,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 81,
+  "visual_source_verified_in_batch": 90,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -174,73 +174,15 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 222,
+    "pending_records_with_provisional_unit_suggestion": 213,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "Of 303 review-only records, 81 now have source-backed verified unit mappings; 222 remain provisional pending source verification; 0 unmapped.",
-    "pending_records_with_verified_unit_mapping": 81
+    "note": "Of 303 review-only records, 90 have source-backed verified unit mappings; 213 remain provisional pending source verification; 0 unmapped.",
+    "pending_records_with_verified_unit_mapping": 90
   },
-  "syllabus_mapping_note": "303 review-only records have primary unit assignments: 81 verified mappings, 222 provisional, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 90 verified mappings, 213 provisional, 0 unmapped.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 81,
+    "newly_visual_checked": 90,
     "records": [
-      {
-        "paper": "December 2002 Gujarati",
-        "questions": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32,
-          33,
-          43,
-          44,
-          45,
-          46,
-          47,
-          48,
-          49,
-          50
-        ],
-        "printed_pages": [
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          11,
-          12
-        ],
-        "note": "Q1–Q33 and Q43–Q50 visually checked on the listed official scan pages. Repository Q34–Q42 have a printed-number/transcription alignment discrepancy on printed pages 9–10 and remain source-review pending until exact IDs are reconciled."
-      },
       {
         "paper": "December 2003 Gujarati",
         "questions": [
@@ -307,34 +249,85 @@
       {
         "paper": "December 2002 Gujarati",
         "questions": [
-          35,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
           36,
           37,
           38,
           39,
           40,
           41,
-          42
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
         ],
-        "printed_question_numbers": [
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40,
-          42
-        ],
-        "printed_pages": [
+        "note": "Q34 and Q36–Q42 visually inspected against official scan. Q35 repository Sundaram row is unmatched and excluded from verified count. Staging Q36–Q41 align to printed Q35–Q40; Q42 aligns printed Q42."
+      },
+      {
+        "paper": "August 2017 Gujarati",
+        "questions": [
+          7,
           9,
           10,
-          11
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          22,
+          23,
+          24,
+          25,
+          26
         ],
-        "note": "Repository Q35–Q41 exactly match official printed Q34–Q40 respectively; repository Q42 matches printed Q42. Repository Q34 is an unmatched staging record and remains unverified. Source question numbers recorded separately; staging IDs retained to avoid collisions."
+        "printed_pages": [
+          4,
+          5,
+          7
+        ],
+        "note": "Additional Q13–Q16 and Q22–Q26 stems/options visually matched against official scan; all 50 answer letters separately match official FINAL key."
       }
     ],
-    "result": "81 review-only records have visually inspected stems/options. December 2002 Q35–Q41 match printed Q34–Q40; Q42 matches printed Q42; repository Q34 remains unmatched. Historical-key alignment yields two matches (Q37 and Q42) and six answer conflicts (Q35, Q36, Q38–Q41); no answer letters were overwritten. August 2017 Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 match a published KEY FOR PAPER-II document, not explicitly labelled FINAL.",
+    "result": "90 review-only records now visually source checked. December 2002 Q34 and Q36–Q42 matched; Q35 repository row is unmatched. August 2017 Q13–Q16 and Q22–Q26 added to visual checks. No conflicting historical answer values were overwritten.",
     "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
@@ -426,7 +419,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: Corrected source-audit roll-up to 178 visually checked overall (97 active + 81 review-only). December 2002 numbering and published-key comparison documented; no conflicting answers overwritten.",
+  "last_batch_saved": "2026-11-11: Verified August 2017 Q13–Q16 and Q22–Q26 from official scan; corrected December 2002 audit: printed Q34 is Eliot, repo Q35 Sundaram unmatched, repo Q36–Q41 align printed Q35–Q40, repo Q42 aligns printed Q42. Review-only source/mapping verified count now 90; provisional 213.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
