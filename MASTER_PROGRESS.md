@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-06
+Updated: 2026-11-11
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -20,7 +20,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 
 | Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
 |---|---|---:|---|---|---|---:|
-| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 380 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 950/1,300 answer rows reconciled; 350 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 380 |
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions (Paper-III kept separate) | 939 source-reviewed count in papers manifest; 340 review flags; 60 incomplete option records | Aggregate answer-key tally under audit: historical 1,000/1,300 conflicts with current sidecar inventory (13 sidecars / 900 rows; 2 parity-pending) | 78 verified, 780 provisional, 442 pending | 340 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
 | 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
@@ -37,7 +37,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 - No question-level syllabus assignments were changed by this catalogue registration.
 
 ## Subject-specific highest-priority work
-- **02 Physical Sciences:** User confirmed the actual Code 02 work is complete. Do not reopen this subject based on stale counts. Register refresh reconciles latest official-key audit commits (through `ef5e294028e9bd6d2c6157753d78150b2f098104`) to 850/1,300 parity tally; 450 rows are outside the reconciled tally, but this is a historical audit metric—not a user-approved active backlog. The older 206 option / 466 mapping / 380 flag counts require actual-state reconciliation before reuse.
+- **02 Physical Sciences (active user priority):** Continue Code 02 only; all other subjects HOLD. Current manifest counts: 340 review flags, 60 incomplete option records, syllabus mapping 78 verified / 780 provisional / 442 pending. Official-key aggregate is unresolved: the historical 1,000/1,300 tally conflicts with 13 current sidecars covering 900 rows, including two whose metadata says canonical parity is pending. January 2002 and December 2002 official final-key PDFs were independently visually rechecked on 2026-11-11 (100/100 matches to sidecars and canonical bank). Rebuild paper-by-paper parity before publishing a completion percentage. Paper-III September 2016 is excluded from Paper-II totals.
 - **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
 - **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
 - **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
@@ -1133,3 +1133,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Missing syllabus IDs: September 2013 7→0; September 2016 5→0. Official syllabus reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
 - Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/4a17b66524a788b05dcb2c96d0141e1dbb705a86
 - Other subjects/Paper-I untouched; no merge. Full answer-key parity, source reviews, and option cleanup remain outstanding.
+
+
+## Physical Sciences execution checkpoint — 2026-11-11
+- Direct official final-key PDF visual recheck: January 2002 Q1–Q50 and December 2002 Q1–Q50; both 50/50 exact matches against sidecars and canonical `questions.json`; 0 mismatches.
+- Official key sidecar inventory: 13 files / 900 answer rows. November 2023 and September 2018 sidecars explicitly retain canonical parity pending.
+- Do not reuse the historical 1,000/1,300 aggregate until all 1,300 Paper-II records are reconciled paper-by-paper. Keep the 75-question September 2016 Paper-III separate.
+- Latest checkpoint commit: `b88874d9f4cbf5b56312eb152b3e785a50734f85`. No PR merged.
