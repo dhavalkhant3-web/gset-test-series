@@ -172,11 +172,11 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 127,
+    "pending_records_with_provisional_unit_suggestion": 121,
     "pending_records_without_defensible_unit_assignment": 166,
-    "note": "303 review-only records: 10 question-level mappings verified in individual review; 127 provisional unit suggestions and 166 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
+    "note": "303 review-only records: 16 question-level mappings verified in individual review; 121 provisional unit suggestions and 166 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
   },
-  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 10 question-level mappings have been individually verified against the official Code 06 unit titles; 127 provisional suggestions and 166 unassigned records remain.",
+  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 16 question-level mappings have been individually verified against the official Code 06 unit titles; 121 provisional suggestions and 166 unassigned records remain.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 66,
     "records": [
@@ -360,5 +360,5 @@
     ]
   },
   "official_key_matched_in_batch": 79,
-  "last_batch_saved": "2026-11-11: December 2002 Q33-Q34 visually checked against official printed page 9; Q34 Unit 9 mapping verified; no answer-key changes."
+  "last_batch_saved": "2026-11-11: December 2002 Q33-Q34 visually checked; Q34 Unit 9 mapping verified; six August 2017 question-level mappings verified (Q14, Q30, Q39, Q41, Q43, Q47)."
 }
