@@ -40527,13 +40527,13 @@
     "id": "physical_sep18_q02",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The number of different components for an antisymmetric tensor in N dimensional space is: 7 . (A) NO a (B) N20 | (C) NIN - 18 () N41 : |",
+    "question_en": "The number of different components for an antisymmetric tensor in N-dimensional space is:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "N",
+      "N²",
+      "N(N − 1)/2",
+      "N² − 1"
     ],
     "options_gu": [],
     "answer": "C",
@@ -40542,7 +40542,7 @@
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
     "review_flag": false,
-    "review_note": "Question stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. The stored official answer letter was retained; other question-ID/sequence anomalies in this paper remain under separate audit.",
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -40705,13 +40705,13 @@
     "id": "physical_sep18_q07",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Let a coin be tossed 5 timies, what is the probability of exactly 3 heads out. _ of the 5 tosses ? . 1 5 (A) 32 | (B) 32 | 1 10 | ©) 5 | @) 32 oo",
+    "question_en": "Let a coin be tossed 5 times. What is the probability of exactly 3 heads out of the 5 tosses?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "1/32",
+      "5/32",
+      "1/2",
+      "10/32"
     ],
     "options_gu": [],
     "answer": "D",
@@ -40720,7 +40720,7 @@
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
     "review_flag": false,
-    "review_note": "Question stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. The stored official answer letter was retained; other question-ID/sequence anomalies in this paper remain under separate audit.",
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -41161,13 +41161,13 @@
     "id": "physical_sep18_q19",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The incorrect relation for Poisson brackets is : (A) (Ly, py] = 0 ® ty p= 0 oO (©) Ly,pl=l, ©) O,, py) =p, |",
+    "question_en": "The incorrect relation for Poisson brackets is:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "[Lᵧ, pᵧ] = 0",
+      "[Lₓ, pₓ] = 0",
+      "[Lᵧ, p_z] = Lₓ",
+      "[Lₓ, pᵧ] = p_z"
     ],
     "options_gu": [],
     "answer": "C",
@@ -41175,11 +41175,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41191,7 +41191,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The incorrect relation for Poisson brackets is:",
+    "options": [
+      "[Lᵧ, pᵧ] = 0",
+      "[Lₓ, pₓ] = 0",
+      "[Lᵧ, p_z] = Lₓ",
+      "[Lₓ, pᵧ] = p_z"
+    ]
   },
   {
     "id": "physical_sep18_q20",
@@ -41302,13 +41309,13 @@
     "id": "physical_sep18_q23",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "For a one-dimensional harmonic oscillator, the representative point in two- dimensional phase space traces : . _ _ (A) a parabola (B) an ellipse (C) a hyperbola : (@) a straight line 94. A cube of side R has a constant electric potential V on its surface. If there , are no charges inside the cube, the potential ¢ at the center of the cube and the magnitude of the electric field |E| at the centre of the cube are given by: . a . (A) o=0 ‘|E| =0 | (B) ¢=V ‘{E] = 0 | | v V (C) $ = 9 {EI = oR . a vo Vv | DM) =; 6 |E| = For.",
+    "question_en": "For a one-dimensional harmonic oscillator, the representative point in two-dimensional phase space traces:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "A parabola",
+      "An ellipse",
+      "A hyperbola",
+      "A straight line"
     ],
     "options_gu": [],
     "answer": "B",
@@ -41316,11 +41323,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41332,19 +41339,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "For a one-dimensional harmonic oscillator, the representative point in two-dimensional phase space traces:",
+    "options": [
+      "A parabola",
+      "An ellipse",
+      "A hyperbola",
+      "A straight line"
+    ]
   },
   {
     "id": "physical_sep18_q24",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "A cube of side R has a constant electric potential V on its surface. If there are no charges inside the cube, the potential ¢ at the center of the cube and the magnitude of the electric field |E| at the centre of the cube are given by: , (A) o=0 ‘|E| =0 (B) ¢= V {E| = 0 V Vv Oey . IEl = = vo Vv (D) = & IEl = Toe",
+    "question_en": "A cube of side R has a constant electric potential V on its surface. If there are no charges inside the cube, the potential φ at the center of the cube and the magnitude of the electric field |E| at the centre of the cube are given by:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "φ = 0, |E| = 0",
+      "φ = V, |E| = 0",
+      "φ = V/2, |E| = V/(2R)",
+      "φ = V/6, |E| = V/√(2R)"
     ],
     "options_gu": [],
     "answer": "B",
@@ -41352,11 +41366,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41368,7 +41382,14 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A cube of side R has a constant electric potential V on its surface. If there are no charges inside the cube, the potential φ at the center of the cube and the magnitude of the electric field |E| at the centre of the cube are given by:",
+    "options": [
+      "φ = 0, |E| = 0",
+      "φ = V, |E| = 0",
+      "φ = V/2, |E| = V/(2R)",
+      "φ = V/6, |E| = V/√(2R)"
+    ]
   },
   {
     "id": "physical_sep18_q25",
@@ -41443,13 +41464,13 @@
     "id": "physical_sep18_q27",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "A capacitor with capacity C is charged in such a way, that one plate has ; charge Qq and the other one has charge - Q, at time ¢ = 0. It is connected to an inductor L as shown. At t = 0, switch S is closed. Assuming no radiation, what is the energy stored in capacitor as a function of time ? | | Cc | oe | L _ Qi _ Qs 2 t ) (A) oC (constant) — @B) aC TL Q “thf | Q3 t | —— — Ss —_—_ 3 (©) 20 ° ©) ac *\\ Vie) |",
+    "question_en": "A capacitor with capacitance C is charged so that one plate has charge Q₀ and the other has charge −Q₀ at time t = 0. It is connected to an inductor L as shown. At t = 0, switch S is closed. Assuming no radiation, what is the energy stored in the capacitor as a function of time?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Q₀²/(2C) (constant)",
+      "(Q₀²/(2C)) cos²(t/√(LC))",
+      "(Q₀²/(2C)) e^(−t/√(LC))",
+      "(Q₀²/(2C)) cos(t/√(LC))"
     ],
     "options_gu": [],
     "answer": "B",
@@ -41457,11 +41478,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41473,19 +41494,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A capacitor with capacitance C is charged so that one plate has charge Q₀ and the other has charge −Q₀ at time t = 0. It is connected to an inductor L as shown. At t = 0, switch S is closed. Assuming no radiation, what is the energy stored in the capacitor as a function of time?",
+    "options": [
+      "Q₀²/(2C) (constant)",
+      "(Q₀²/(2C)) cos²(t/√(LC))",
+      "(Q₀²/(2C)) e^(−t/√(LC))",
+      "(Q₀²/(2C)) cos(t/√(LC))"
+    ]
   },
   {
     "id": "physical_sep18_q28",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "11908 |} 1910| 1014 | 1919 | 1023 | 1928 | 1632 | 1938 | 1944 194870 t- 4/2 2 SiS 4 4 “a8 11980 | 1984 | 19589 | 1963 | 1988 | 1972 | 1977 | 1962 | tows | toot }o 1 1/2 2 3/8 4 4 \"30 [11996 |2000 | 2004 | 2000 | 2014 | 2018 | 2029 ] 2028 | 2os2 | 20970 1 1/2 2 319 4 4 81 42042 | 2046 | 2051 | 2056 | 2081 | 2008 | 2070 | 2076 | 2080 | 2084 F0 4 112 2 313 4 4 “34 Heoee | 2004 | 2000 | 2106 | 2109 }-2118'| 2148 52129] 2128 | 21890 1 1/2 2 3/3 4 4) ‘33 12196 |2148 | 2148 | 2188 | 2158 | 2789 | 2188 « 2278 | 2178 atwafo t 1'2 23/3 4 4 ; 124 [2108 | 2193 | 2198 | 2208 | 2208 | 2213 | 2718 | 2223} 2228 | 2264 J5 1 2/2 9 314 4 & ‘36 $2090 | 2244 | 2209 | 2284 | 2050 | 2206 | 2270} 2278.) 2200 | 2208]. 1 212 3 2/4 « § _ | 26 Peas } 2296 | 2301 | 2307 | 2312 | 2317 | 2923 | 2528 | 2393 | 2390] 1 212 3 3/4 4S ‘37 flesea | 2560 | 2368 | 2900 | 2900 | 2371 | 2977 | 2082 | zene )203}1 1 2/2 9 9/4 4 & “as [2300 | 2406 | 2610 ' 2416 | aunt | 2427 | 2492 | 400 | 2400 | ose 41 9 2/2 9.9) 4 4.3) - \"a6 {12486 | 2400 | 2408 | 2472 | 2477 | 2483 | 2490 | 2008 | 2500 | 2006]1 5 2/2 3 3/4 8 5 “ao }2512 {2516 | 2023 | 2500 | 2635-| 2561 | 2847 | 2003 | z0Be | acca} t 1 2/2 9 4/4 5 & | 41 fles70] 2578 | 2802 | 2889 | 200 | 2000 | zee j 2etz | zete | zeae) 1 1 212 5 414 & 8 “a2 f2es0 | 2698 | 2ee2 | 2000 | 208s | 2001 | 2067:| 2672 | 2670 | 2008 ]1 1 2/2 39 4/4 & © “a3 {2800 | 2008 | 2704 | 2710 | e716 | 2723 | 3729 ]2796 | e742 |2748 11 1 2/3 9 418 © 8 a6 V2780 | 2761 | 2767 | 2773 | 2780 | 2706 , z7aa | 2700 | 2006 | 2e2)1 3 2/5 9 418 & A& {12018 | 2028 | 2031 | 2638 | 2044 | 2861 gese 12004) 207) |en7711 1 213 2 478.5 9 ‘at: Heese | 2001 | 2007-| 2004 | 2011 | 2097 | 2024 | 2091 | 2008 |2044]1 1 2/3 3 4/5 5 © | “a7 Tooe1 | 2080 | 2908.| 2072 | 2970 | 2065 | 2092 | 2000 | 9008 |} 3013]1 1 2/3.3 4/5 5 6 “ae §3090 {3027 | 3034 | 3041 | 9040 | 9066 | soea | 900g | 3076 | s083/1 1 2/5 4 4/5 € 6 , 4 | 2000 | 3007 | 2108 | 3112 53110 | 9120 | 3193 | 3141.) 3145 sis6]1 1 -2)3 4 418 6 6] . . SO Antilogarithm Chart continue on page No. 30 Phy. Sci.-II 4",
+    "question_en": "In a certain medium, an electromagnetic wave is represented by E⃗ = 10 cos(10⁸t − 4y) î V/m, where î is the unit vector in the x-direction. What type of medium is it?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Free space",
+      "Perfect conductor",
+      "Loss-less dielectric",
+      "Lossy dielectric"
     ],
     "options_gu": [],
     "answer": "C",
@@ -41493,11 +41521,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. The capacitor/circuit diagram for Q27 was inspected and retained as source content. Existing official answer letter is unchanged; key reconciliation and syllabus mapping are tracked separately.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41506,7 +41534,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "In a certain medium, an electromagnetic wave is represented by E⃗ = 10 cos(10⁸t − 4y) î V/m, where î is the unit vector in the x-direction. What type of medium is it?",
+    "options": [
+      "Free space",
+      "Perfect conductor",
+      "Loss-less dielectric",
+      "Lossy dielectric"
+    ]
   },
   {
     "id": "physical_sep18_q29",
