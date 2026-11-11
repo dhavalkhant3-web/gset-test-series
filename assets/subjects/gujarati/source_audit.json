@@ -61,7 +61,7 @@
     "result": "41 questions visually checked in the combined review batch; shared poem and Gandhi prose passage transcribed from the scan. Three ambiguous question records remain review-only."
   },
   "remaining_review_note": "303 questions remain review-only pending source-page proofreading and/or official key provenance reconciliation. For Dec 2021/Jan 2022, 100/100 answer letters match the official final key; 97/100 question records are visually source-verified; 3 remain review-only. Question-level syllabus mapping remains pending.",
-  "syllabus_mapping": "pending_question_level_mapping",
+  "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
     "pending_record_count": 303,
@@ -206,5 +206,20 @@
     ],
     "count": 5,
     "result": "Q79-Q83 stems and all four response options visually checked against official scan. No uncertain OCR corrections were required; all five answer letters match official final key."
-  }
+  },
+  "syllabus_mapping_checkpoint": {
+    "source": "Uploaded official GSET Gujarati Code 06 syllabus PDF, 6 pages, Units 1-10",
+    "session": "December 2021 / January 2022",
+    "active_records_reviewed": 97,
+    "mapped_records": 96,
+    "verified_mappings": 71,
+    "provisional_mappings": 25,
+    "unmapped_active_records": 1,
+    "unmapped_question_numbers": [
+      70
+    ],
+    "review_pending_records_not_mapped": 303,
+    "note": "Question-level mapping applied only to the 97 records already in the active bank. 71 direct unit matches are marked verified; 25 cross-unit, contextual, passage-dependent or subject-placement cases remain provisional; Q70 has an incomplete stem and remains unmapped. The 303 review-pending records were not promoted or modified."
+  },
+  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 71 verified unit matches, 25 provisional, 1 unmapped (Q70). The 303 separate review-pending records still require question-level mapping."
 }
