@@ -42455,13 +42455,13 @@
     "id": "physical_sep18_q53",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "If Q is the canonical partition function for the system and q is the single particle partition function. N = number of particles in the system. The particles are identical. Then : (A) Q=qNN! (B) Q=Nq ; | (C) Q=qNInN @M) Q=q% |",
+    "question_en": "If Q is the canonical partition function for the system and q is the single-particle partition function, N is the number of particles in the system, and the particles are identical, then:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Q = qᴺ/N!",
+      "Q = Nq",
+      "Q = qN ln N",
+      "Q = qᴺ"
     ],
     "options_gu": [],
     "answer": "A",
@@ -42469,11 +42469,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42485,19 +42485,26 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "If Q is the canonical partition function for the system and q is the single-particle partition function, N is the number of particles in the system, and the particles are identical, then:",
+    "options": [
+      "Q = qᴺ/N!",
+      "Q = Nq",
+      "Q = qN ln N",
+      "Q = qᴺ"
+    ]
   },
   {
     "id": "physical_sep18_q54",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "A system consists of N weakly interacting subsystems, each with two internal - states with energies 0 and e«. The internal energy for the system at absolute temperature T is equal: to : . (A) Ne | | (B) 3/2 NET a (C) Ne eet — @) ont | _",
+    "question_en": "A system consists of N weakly interacting subsystems, each with two internal states with energies 0 and ε. The internal energy for the system at absolute temperature T is equal to:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Nε",
+      "(3/2)NkT",
+      "Nεe^(−ε/kT)",
+      "Nε/(e^(ε/kT) + 1)"
     ],
     "options_gu": [],
     "answer": "D",
@@ -42505,11 +42512,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42521,7 +42528,14 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A system consists of N weakly interacting subsystems, each with two internal states with energies 0 and ε. The internal energy for the system at absolute temperature T is equal to:",
+    "options": [
+      "Nε",
+      "(3/2)NkT",
+      "Nεe^(−ε/kT)",
+      "Nε/(e^(ε/kT) + 1)"
+    ]
   },
   {
     "id": "physical_sep18_q55",
@@ -42560,13 +42574,13 @@
     "id": "physical_sep18_q56",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "In a cold country in winter, a lake was freezing slowly. It was observed that it took 2 hrs to form.a layer of ice 2 cm thick on the water surface. Assuming a constant thermal conductivity, throughout the layer, the thickness of the ice would get doubled after (A} 2 more hours (B) 4 more hours (C) 6 more hours (D) 8 more hours",
+    "question_en": "In a cold country in winter, a lake was freezing slowly. It was observed that it took 2 hours to form a layer of ice 2 cm thick on the water surface. Assuming a constant thermal conductivity throughout the layer, the thickness of the ice would get doubled after:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "2 more hours",
+      "4 more hours",
+      "6 more hours",
+      "8 more hours"
     ],
     "options_gu": [],
     "answer": "C",
@@ -42574,11 +42588,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42590,7 +42604,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "In a cold country in winter, a lake was freezing slowly. It was observed that it took 2 hours to form a layer of ice 2 cm thick on the water surface. Assuming a constant thermal conductivity throughout the layer, the thickness of the ice would get doubled after:",
+    "options": [
+      "2 more hours",
+      "4 more hours",
+      "6 more hours",
+      "8 more hours"
+    ]
   },
   {
     "id": "physical_sep18_q57",
@@ -42629,13 +42650,13 @@
     "id": "physical_sep18_q58",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Which of the following circuits are used in signal conditioning ? . I, Filters . . | - II. Attenuators ; 7 - . | 7 ItI. Amplifiers oe | (A) I and II only (B) | II and IIT only (C) I and I only () 1, 0 and IN Phy. Sci.-II | 19 : [P.T.O.]",
+    "question_en": "Which of the following circuits are used in signal conditioning? I. Filters II. Attenuators III. Amplifiers",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
     ],
     "options_gu": [],
     "answer": "D",
@@ -42643,11 +42664,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42659,7 +42680,14 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Which of the following circuits are used in signal conditioning? I. Filters II. Attenuators III. Amplifiers",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ]
   },
   {
     "id": "physical_sep18_q59",
@@ -42842,13 +42870,13 @@
     "id": "physical_sep18_q64",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Compared to BJT the FETs have : a (A) Higher input impedance and produce more noise (B) Better thermal stability and lower input impedance . _ (C) Higher input impedance and produce lower noise | oe (D)} Lesser thermal stability and produce lower noise .",
+    "question_en": "Compared to BJT, the FETs have:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Higher input impedance and produce more noise",
+      "Better thermal stability and lower input impedance",
+      "Higher input impedance and produce lower noise",
+      "Lesser thermal stability and produce lower noise"
     ],
     "options_gu": [],
     "answer": "C",
@@ -42856,11 +42884,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42872,7 +42900,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Compared to BJT, the FETs have:",
+    "options": [
+      "Higher input impedance and produce more noise",
+      "Better thermal stability and lower input impedance",
+      "Higher input impedance and produce lower noise",
+      "Lesser thermal stability and produce lower noise"
+    ]
   },
   {
     "id": "physical_sep18_q65",
@@ -43094,13 +43129,13 @@
     "id": "physical_sep18_q71",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "In the Raman spectrum of a molecule, the Rayleigh line is 18315 cm7! and Lo stokes line is 18116 cm7!. Then the antistokes line is at : (A) 18116 em (B) 18315 cm! 7 | - (C) 18514 cm™ | (@) 17917 em™ | |",
+    "question_en": "In the Raman spectrum of a molecule, the Rayleigh line is 18315 cm⁻¹ and the Stokes line is 18116 cm⁻¹. Then the anti-Stokes line is at:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "18116 cm⁻¹",
+      "18315 cm⁻¹",
+      "18514 cm⁻¹",
+      "17917 cm⁻¹"
     ],
     "options_gu": [],
     "answer": "C",
@@ -43108,11 +43143,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43124,19 +43159,26 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "In the Raman spectrum of a molecule, the Rayleigh line is 18315 cm⁻¹ and the Stokes line is 18116 cm⁻¹. Then the anti-Stokes line is at:",
+    "options": [
+      "18116 cm⁻¹",
+      "18315 cm⁻¹",
+      "18514 cm⁻¹",
+      "17917 cm⁻¹"
+    ]
   },
   {
     "id": "physical_sep18_q72",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The ratio of Einstein coefficient A and B for a laser is proportional to (Here | vis frequency) : . 7 we a | | © v3 a wm) vA _ Phy. Sci.-IT — 22 .",
+    "question_en": "The ratio of Einstein coefficients A and B for a laser is proportional to (ν is frequency):",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "ν",
+      "ν²",
+      "ν³",
+      "ν⁴"
     ],
     "options_gu": [],
     "answer": "C",
@@ -43144,11 +43186,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43160,7 +43202,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The ratio of Einstein coefficients A and B for a laser is proportional to (ν is frequency):",
+    "options": [
+      "ν",
+      "ν²",
+      "ν³",
+      "ν⁴"
+    ]
   },
   {
     "id": "physical_sep18_q73",
@@ -43238,13 +43287,13 @@
     "id": "physical_sep18_q75",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Arigid rotator molecule having rotational constant B is excited by microwave radiation. If h is Planck’s constant, the frequency absorbed by the molecule in the transition from J = 0 and J = Lis: | : (A) Bh (B) 2B | (C) 3h _ WD) 4Bh",
+    "question_en": "A rigid rotator molecule having rotational constant B is excited by microwave radiation. If h is Planck's constant, the frequency absorbed by the molecule in the transition from J = 0 to J = 1 is:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "B/h",
+      "2B/h",
+      "3B/h",
+      "4B/h"
     ],
     "options_gu": [],
     "answer": "B",
@@ -43252,11 +43301,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43268,7 +43317,14 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A rigid rotator molecule having rotational constant B is excited by microwave radiation. If h is Planck's constant, the frequency absorbed by the molecule in the transition from J = 0 to J = 1 is:",
+    "options": [
+      "B/h",
+      "2B/h",
+      "3B/h",
+      "4B/h"
+    ]
   },
   {
     "id": "physical_sep18_q76",
@@ -43310,13 +43366,13 @@
     "id": "physical_sep18_q77",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "A diatomic molecule has vibrational states with energies E, = A(v + 1/2) and rotational states with energies E; = BG + 1) where v and j are non-negative | integers. Considering transitions with selection rules Av = + 1 and Aj = + 1 and initial and final states restricted to v < 1 and j < 2, what is . the largest allowed energy for transition ? | | . (A) A-3B (B) A-B - (C) A + 4B DM) 2A +B a",
+    "question_en": "A diatomic molecule has vibrational states with energies Eᵥ = A(v + 1/2) and rotational states with energies Eⱼ = B j(j + 1), where v and j are non-negative integers. Considering transitions with selection rules Δv = ±1 and Δj = ±1 and initial and final states restricted to v ≤ 1 and j ≤ 2, what is the largest allowed energy for transition?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "A − 3B",
+      "A − B",
+      "A + 4B",
+      "2A + B"
     ],
     "options_gu": [],
     "answer": "C",
@@ -43324,11 +43380,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43340,7 +43396,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A diatomic molecule has vibrational states with energies Eᵥ = A(v + 1/2) and rotational states with energies Eⱼ = B j(j + 1), where v and j are non-negative integers. Considering transitions with selection rules Δv = ±1 and Δj = ±1 and initial and final states restricted to v ≤ 1 and j ≤ 2, what is the largest allowed energy for transition?",
+    "options": [
+      "A − 3B",
+      "A − B",
+      "A + 4B",
+      "2A + B"
+    ]
   },
   {
     "id": "physical_sep18_q78",
@@ -43528,13 +43591,13 @@
     "id": "physical_sep18_q83",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The temperature (T) dependence of magnetic susceptibility (x) of a ferromagnetic substance with Curie temperature (TQ) is given by: . | (A) a for T < T. | (B _C_ for T > T T_T,’ ® < To ) T_T,’ or > cC . (C) T+, or T >To (D) Ti Ty or all temperatures Phy. Sci.-II 25 [P.T.0.]",
+    "question_en": "The temperature (T) dependence of magnetic susceptibility (χ) of a ferromagnetic substance with Curie temperature (T꜀) is given by:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "C/(T − T꜀), for T < T꜀",
+      "C/(T − T꜀), for T > T꜀",
+      "C/(T + T꜀), for T > T꜀",
+      "C/(T + T꜀), for all temperatures"
     ],
     "options_gu": [],
     "answer": "B",
@@ -43542,11 +43605,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43558,19 +43621,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The temperature (T) dependence of magnetic susceptibility (χ) of a ferromagnetic substance with Curie temperature (T꜀) is given by:",
+    "options": [
+      "C/(T − T꜀), for T < T꜀",
+      "C/(T − T꜀), for T > T꜀",
+      "C/(T + T꜀), for T > T꜀",
+      "C/(T + T꜀), for all temperatures"
+    ]
   },
   {
     "id": "physical_sep18_q84",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "In thermal equilibrium at low temperature T, the occupancy of a phonon mode of frequency is given by : (k = Boltzmann constant) ; | a 1 . (eit -1) ” (-# +) . . CO) hI RT @D) emma",
+    "question_en": "In thermal equilibrium at low temperature T, the occupancy of a phonon mode of frequency ω is given by (k = Boltzmann constant):",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "1/(e^(ℏω/kT) − 1)",
+      "1/(e^(−ℏω/kT) + 1)",
+      "ℏω/kT",
+      "e^(−ℏω/kT)"
     ],
     "options_gu": [],
     "answer": "A",
@@ -43578,11 +43648,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43594,7 +43664,14 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "In thermal equilibrium at low temperature T, the occupancy of a phonon mode of frequency ω is given by (k = Boltzmann constant):",
+    "options": [
+      "1/(e^(ℏω/kT) − 1)",
+      "1/(e^(−ℏω/kT) + 1)",
+      "ℏω/kT",
+      "e^(−ℏω/kT)"
+    ]
   },
   {
     "id": "physical_sep18_q85",
@@ -43710,13 +43787,13 @@
     "id": "physical_sep18_q88",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "[19445 | 9450 | 9455 | 9460 | 9465 | S400 | 0474 | 5479 | 0486 \\osep]0 1 112 2 als 4",
+    "question_en": "Effect of temperature on Fermi energy gives the following relation:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Eꜰ(T) = Eꜰ(0)[1 − (π²/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))³]"
     ],
     "options_gu": [],
     "answer": "A",
@@ -43724,11 +43801,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43737,7 +43814,14 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Effect of temperature on Fermi energy gives the following relation:",
+    "options": [
+      "Eꜰ(T) = Eꜰ(0)[1 − (π²/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))²]",
+      "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))³]"
+    ]
   },
   {
     "id": "physical_sep18_q89",
@@ -43779,13 +43863,13 @@
     "id": "physical_sep18_q90",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "loses |oeee | sels | 9509 | 9513 | ss18 | 9623 | o5ze/ 9599 |assalo 1 1/2 2 als 4 4] 90 [9842 | 9547 | e662 | 567 | a6e2 | 986s | 0571 [9676 | 9601 jeses|o 1 1/2 2 3/3 4 4 #1 |la6a0 | ases | 9600 | 9005 | eae | 9614 | vow | 002s | osze leesalo 1 1/2 2 sla a 4 62 1/9638 | S643 | 9647 | 9652 | 0657 | 9661 | sase | 0671 | 675 | se80}0 1-112 2 315 4 4 83/9685 | 9689 | 694 | S609 | 9703 | o7ps | $713 |9717 | 9722 |ov27/0 1 1/2 2 ala 6 4",
+    "question_en": "Deviation from Rutherford scattering formula for α-particle scattering gives an estimate of:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Size of an atom",
+      "Thickness of the target",
+      "Half-life of an α-emitter",
+      "Size of a nucleus"
     ],
     "options_gu": [],
     "answer": "D",
@@ -43793,11 +43877,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "English stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II source page. Source typography, mathematical symbols and formulae were inspected. Existing official answer letter retained; answer-key parity and syllabus mapping are independent.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43806,7 +43890,14 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Deviation from Rutherford scattering formula for α-particle scattering gives an estimate of:",
+    "options": [
+      "Size of an atom",
+      "Thickness of the target",
+      "Half-life of an α-emitter",
+      "Size of a nucleus"
+    ]
   },
   {
     "id": "physical_sep18_q91",
