@@ -447,7 +447,7 @@
         "canonical_answer_changes": [],
         "note": "Direct visual recheck of official GSET 7 December 2003 one-page final answer-key PDF; all 50 answers match existing sidecar and canonical questions.json."
       },
-      "official_answer_key_status": "Aggregate tally UNRESOLVED: historical 1,000/1,300 claim conflicts with sidecar inventory (13 sidecars / 900 rows; 2 sidecars still state parity pending). Independently rechecked Jan 2002 and Dec 2002 official PDFs: 100/100 matched.",
+      "official_answer_key_status": "Aggregate tally UNRESOLVED: historical 1,000/1,300 claim conflicts with sidecar inventory (13 sidecars / 900 rows; 2 sidecars still state parity pending). Independently rechecked Jan 2002, Dec 2002, and Dec 2003 official PDFs: 150/150 matched sidecars and canonical bank.",
       "official_final_key_parity": {
         "reconciled": 1000,
         "total": 1300,
