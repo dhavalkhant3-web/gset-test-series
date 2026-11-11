@@ -1,23 +1,31 @@
 {
-  "_staging_notice": "History Code 08 source audit summary.",
   "subject": "History",
   "subject_code": "08",
   "paper": "Paper-II",
-  "transcribed_questions": 50,
-  "active_questions": 0,
-  "pending_review": 50,
-  "review_required": [
+  "source_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
+  "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
+  "paper_date": "2016-09-25",
+  "total_questions": 50,
+  "active_questions": 49,
+  "pending_review": 1,
+  "visual_checked": 50,
+  "official_final_key_matched": 50,
+  "answer_key_mismatches": 0,
+  "official_key_content_conflicts": 1,
+  "conflict_details": [
     {
-      "id": "GSET-HIS08-SEP2016-Q022",
-      "review_note": "Official key D (jagir collection). Revenue farming (C) is the usual meaning of ijara; unverified. Official key retained."
-    },
-    {
-      "id": "GSET-HIS08-SEP2016-Q045",
-      "review_note": "Official key C (Nagaland). Rani Gaidinliu is commonly described as from Manipur; unverified. Official key retained."
+      "question_no": 48,
+      "official_final_key": "A",
+      "printed_option_A": "Karl Marx",
+      "printed_option_D": "Adam Smith",
+      "issue": "Question asks author of The Wealth of Nations; printed content conflicts with official key. Official key A preserved and question excluded from active bank pending expert review."
     }
   ],
-  "answer_key_reconciliation": "50/50 answer-letter match reported in supplied reconciliation log; text/options/mapping not verified.",
-  "syllabus_mapping": "all pending; no official syllabus supplied in this batch.",
-  "official_final_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
-  "question_paper_source_status": "GSET old-paper archive listing includes History September 2016 entry but does not expose a clickable Paper-II PDF link in the returned archive page; do not treat the answer-key PDF as a question-paper PDF."
+  "page_review": "All 50 questions and four-option sets visually checked against printed question-paper pages 3–23. Official final/corrected answer-key letters compared for all 50.",
+  "known_printed_text_anomalies": [
+    "Q1 source scan prints 'lavoillois'; retained as printed.",
+    "Q38 source scan appears to print 'Hestings'; retained as printed."
+  ],
+  "syllabus_mapping_status": "pending_official_syllabus_mapping",
+  "next_action": "Map the 49 active questions to official GSET History Code 08 syllabus units; obtain expert review for Q48."
 }
