@@ -40,7 +40,7 @@ Expected question records across these seven subjects: 3,200. Active: 463. Remai
 - Gujarati: 29 active / 371 review-only; registry reconciled with JSON. Active records still require independent source-provenance re-audit.
 - Sanskrit: 114 active / 736 review-only; 736 records restored from consolidated staging. Connector may fail fetching the large pending file in one response; Git blob exists.
 - Environmental Sciences: 87 active / 213 review-only; official syllabus mapping pending.
-- Forensic Science: 84 active / 216 review-only; official syllabus mapping pending.
+- Forensic Science: 84 active / 216 review-only; 300/300 official final-key entries match. The official Code 27 syllabus is now registered; 299 question records have provisional unit matches and one item (November 2025 Q47, forensic engineering scope) remains pending subject-expert review. Source-review and activation statuses are unchanged.
 - Social Work: 600 answer-key entries staged across six papers; no question text transcribed and no active questions.
 
 ## CI / merge safety
