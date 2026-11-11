@@ -66,10 +66,10 @@
   "remaining_review_note": "303 questions remain review-only. 25 older-paper records have had stems/options visually checked; 20 also match official final keys and 5 December 2003 records still await key retrieval. 278 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records (Q36, Q37, Q60); all 100 answer letters match the official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
-    "active_record_count": 96,
-    "pending_record_count": 304,
-    "unique_active_ids": 96,
-    "unique_pending_ids": 304,
+    "active_record_count": 97,
+    "pending_record_count": 303,
+    "unique_active_ids": 97,
+    "unique_pending_ids": 303,
     "overlap_count": 0,
     "session": "December 2021 / January 2022",
     "question_numbers_present": [
@@ -130,7 +130,7 @@
       82,
       83
     ],
-    "note": "Q70 removed from active bank due incomplete stored chronology stem and added to review-only. Reconcile IDs after this move."
+    "note": "After official scan repair of Q70: 97 active and 303 review-only records, unique IDs with zero overlap."
   },
   "official_final_key_matched_total_dec2021": 100,
   "last_key_reconciliation": {
@@ -216,12 +216,12 @@
     "verified_mappings": 74,
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
-    "pending_records_reviewed_for_topic_mapping": 304,
-    "pending_records_with_provisional_unit_suggestion": 138,
+    "pending_records_reviewed_for_topic_mapping": 303,
+    "pending_records_with_provisional_unit_suggestion": 137,
     "pending_records_without_defensible_unit_assignment": 166,
     "note": "97 active records: 74 verified unit mappings, 20 provisional and 3 cross-unit/context-dependent. Q70 restored after source scan inspection; 303 review-only records remain."
   },
-  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 71 verified unit matches, 25 provisional, 1 unmapped (Q70). The 303 separate review-pending records still require question-level mapping.",
+  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 74 verified unit matches, 20 provisional and 3 cross-unit/context-dependent. Q70 restored from official page 17 and mapped provisionally to Unit 1. 303 separate review-pending records: 137 provisional unit suggestions, 166 unassigned.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 25,
     "records": [
@@ -287,7 +287,7 @@
         "printed_page": 3
       }
     ],
-    "result": "25 stems/options visually checked; 20 also matched to official final answer keys. Five December 2003 questions remain key-reconciliation pending because the official key endpoint could not be retrieved.",
+    "result": "25 stems/options visually checked; 20 also matched to official final answer keys. Five December 2003 records still await final-key reconciliation.",
     "key_matched_in_batch": 20,
     "key_matched_questions": [
       {
