@@ -134,13 +134,13 @@
       "questions_count": 41,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
-      "answer_key_verified": false,
-      "answer_key_question_parity_verified": false,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
       "question_source_verified": 41,
       "source_verified": false,
       "review_flags_remaining_count": 59,
       "status": "partial_visual_review",
-      "review_note": "41/100 Gujarati questions visually checked against the official paper and matched to the official final answer key; 59 remain source-review pending. Syllabus mapping remains pending."
+      "review_note": "Official final answer key reconciliation complete: 100/100 answer letters match. Question-source visual verification is partial: 41/100 visually verified and active; 59/100 remain review-only pending visual proof against the official question-paper scan. Question-level syllabus mapping remains pending."
     }
   ]
 }
