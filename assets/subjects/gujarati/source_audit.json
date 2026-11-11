@@ -6,7 +6,7 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 81,
+  "visual_checked": 178,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
@@ -334,7 +334,7 @@
         "note": "Repository Q35–Q41 exactly match official printed Q34–Q40 respectively; repository Q42 matches printed Q42. Repository Q34 is an unmatched staging record and remains unverified. Source question numbers recorded separately; staging IDs retained to avoid collisions."
       }
     ],
-    "result": "73 older-paper records have visually inspected stems/options. August 2017 Gujarati Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 and December 2002 historical key entries previously checked match their published key documents, but those historical PDFs are not explicitly labelled final. December 2002 repository Q34–Q42 have a printed-number/transcription alignment discrepancy and remain source/key review pending.",
+    "result": "81 review-only records have visually inspected stems/options. December 2002 Q35–Q41 match printed Q34–Q40; Q42 matches printed Q42; repository Q34 remains unmatched. Historical-key alignment yields two matches (Q37 and Q42) and six answer conflicts (Q35, Q36, Q38–Q41); no answer letters were overwritten. August 2017 Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 match a published KEY FOR PAPER-II document, not explicitly labelled FINAL.",
     "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
@@ -420,15 +420,13 @@
         "result": "All seven stored answers (A, C, C, A, D, A, C) match the official GSET published Paper-II Gujarati key. The PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled final."
       }
     ],
-    "visual_source_verified_in_batch": 64,
+    "visual_source_verified_in_batch": 81,
     "newly_checked_questions": [
-      "December 2002 Q20–Q32 (Q25–Q30 printed-number parity flagged; Q31–Q32 exact page match)",
-      "December 2002 Q33–Q34 (printed page 9)",
-      "December 2002 Q35–Q41 (official printed page 10; numbering 35–41 matches repository IDs)"
+      "December 2002 repository Q35–Q41 mapped to printed Q34–Q40; Q42 mapped to printed Q42 after direct scan review."
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: December 2002 official scan and published key aligned by printed numbering. Repository Q35–Q41 map to printed Q34–Q40; Q42 maps to printed Q42. Only Q37 and Q42 match the published key; six rows conflict and Q34 is unmatched. No answer letters overwritten.",
+  "last_batch_saved": "2026-11-11: Corrected source-audit roll-up to 178 visually checked overall (97 active + 81 review-only). December 2002 numbering and published-key comparison documented; no conflicting answers overwritten.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
