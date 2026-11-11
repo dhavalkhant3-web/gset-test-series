@@ -130,17 +130,17 @@
       "question_paper_file": "dec2106.pdf",
       "answer_key_file": "dec2106.pdf (key, uploaded)",
       "questions_transcribed": 100,
-      "questions_loaded": 40,
-      "questions_count": 40,
+      "questions_loaded": 41,
+      "questions_count": 41,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 40,
+      "question_source_verified": 41,
       "source_verified": false,
-      "review_flags_remaining_count": 60,
+      "review_flags_remaining_count": 59,
       "status": "partial_visual_review",
-      "review_note": "40/100 Gujarati questions are visually checked against the official paper and matched to the official final answer key; remaining 60 require source review. Syllabus mapping remains pending."
+      "review_note": "41/100 Gujarati questions visually checked against the official paper and matched to the official final answer key; 59 remain source-review pending. Syllabus mapping remains pending."
     }
   ]
 }
