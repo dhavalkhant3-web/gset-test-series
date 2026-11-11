@@ -6,7 +6,7 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 172,
+  "visual_checked": 81,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
@@ -20,7 +20,7 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 records remain review-only. 73 older-paper records have visually inspected stems/options. 50 August 2017 Gujarati answer letters match the official FINAL answer key. December 2003 Q1–Q5 and December 2002 older key entries match published historical key PDFs not explicitly labelled final. December 2002 repository Q34–Q42 have a printed-number/transcription alignment discrepancy and remain unverified. All 303 review-only records have a primary syllabus-unit assignment: 73 verified and 230 provisional; 0 unmapped. Source-page reviews remain pending for 230 records.",
+  "remaining_review_note": "303 review-only records remain. 81 records now have visually verified source text/options; 222 syllabus mappings remain provisional. December 2002 repository Q34 remains unmatched; Q35–Q41 map to printed Q34–Q40 and Q42 maps to printed Q42. Historical answer-key reconciliation remains pending for these December 2002 rows. August 2017 Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 match a published 'KEY FOR PAPER-II' PDF not explicitly labelled final.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -149,7 +149,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 73,
+  "visual_source_verified_in_batch": 81,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -174,14 +174,14 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 230,
+    "pending_records_with_provisional_unit_suggestion": 222,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "All 303 review-only Gujarati records have a question-level primary unit assignment. 73 mappings are verified because the corresponding question source pages are verified; 230 mappings remain provisional because source-page verification or numbering resolution is pending. No record is left without a unit suggestion.",
-    "pending_records_with_verified_unit_mapping": 73
+    "note": "Of 303 review-only records, 81 now have source-backed verified unit mappings; 222 remain provisional pending source verification; 0 unmapped.",
+    "pending_records_with_verified_unit_mapping": 81
   },
-  "syllabus_mapping_note": "All 303 review-only Gujarati records have a primary unit assignment against the official Code 06 syllabus: 73 verified mappings, 230 provisional mappings, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records have primary unit assignments: 81 verified mappings, 222 provisional, 0 unmapped.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 73,
+    "newly_visual_checked": 81,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -313,13 +313,25 @@
           38,
           39,
           40,
-          41
+          41,
+          42
+        ],
+        "printed_question_numbers": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42
         ],
         "printed_pages": [
-          10
+          9,
+          10,
+          11
         ],
-        "note": "Q35–Q41 stems and all four options visually matched to the official GSET Gujarati Paper-II scan, printed page 10 (PDF page index 9). Printed numbering is sequential and matches repository question_no 35–41. Official answer-key reconciliation and question-level syllabus mapping remain pending.",
-        "source": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf"
+        "note": "Repository Q35–Q41 exactly match official printed Q34–Q40 respectively; repository Q42 matches printed Q42. Repository Q34 is an unmatched staging record and remains unverified. Source question numbers recorded separately; staging IDs retained to avoid collisions."
       }
     ],
     "result": "73 older-paper records have visually inspected stems/options. August 2017 Gujarati Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 and December 2002 historical key entries previously checked match their published key documents, but those historical PDFs are not explicitly labelled final. December 2002 repository Q34–Q42 have a printed-number/transcription alignment discrepancy and remain source/key review pending.",
@@ -416,7 +428,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: August 2017 Gujarati Q1–Q50 reconciled with official FINAL answer key (50/50); December 2002 Q34–Q42 reopened due printed-number mismatch; updated counts 73 source verified, 85 key verified in review bank, 73 verified mappings, 230 provisional, 0 unmapped.",
+  "last_batch_saved": "2026-11-11: December 2002 scan pages 9–11 reconciled. Repository Q35–Q41 match printed Q34–Q40; Q42 matches printed Q42; repository Q34 remains unmatched. Source verification and unit mapping advanced by 8; historical key parity remains pending.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
