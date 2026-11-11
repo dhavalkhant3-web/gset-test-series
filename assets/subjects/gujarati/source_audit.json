@@ -4,29 +4,31 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 32,
-  "pending_review": 368,
-  "visual_checked": 32,
-  "official_final_key_matched_in_batch": 32,
+  "active_questions": 34,
+  "pending_review": 366,
+  "visual_checked": 34,
+  "official_final_key_matched_in_batch": 34,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
     "question_numbers": [
+      31,
+      32,
       34,
       41,
       42
     ],
-    "count": 3,
+    "count": 5,
     "source": "Official GSET December 2021/January 2022 Gujarati Paper-II PDF, PDF pages 7 and 8.",
     "answer_key": "Official GSET Final Answer Key, December 2021/January 2022, Paper-II Gujarati.",
-    "result": "Q34 (PDF page 7), Q41 and Q42 (PDF page 8) stems/options visually matched; answer letters D, A and C respectively matched the official final key."
+    "result": "Q31 (B), Q32 (A), Q34 (D), Q41 (A) and Q42 (C) stems/options visually matched and answer letters matched the official final key. Minor transcription spellings in Q31/Q32 were corrected to match the scan."
   },
-  "remaining_review_note": "368 questions remain review-only pending source-page proofreading and/or official key provenance reconciliation. Dec 2019 Q7 is Z/not evaluated and must remain non-scored.",
+  "remaining_review_note": "366 questions remain review-only pending source-page proofreading and/or official key provenance reconciliation. Dec 2019 Q7 is Z/not evaluated and must remain non-scored.",
   "syllabus_mapping": "pending_question_level_mapping",
   "last_reconciliation": {
-    "active_record_count": 32,
-    "pending_record_count": 368,
-    "unique_active_ids": 32,
-    "unique_pending_ids": 368,
+    "active_record_count": 34,
+    "pending_record_count": 366,
+    "unique_active_ids": 34,
+    "unique_pending_ids": 366,
     "overlap_count": 0,
     "session": "December 2021 / January 2022",
     "question_numbers_present": [
@@ -59,10 +61,12 @@
       27,
       28,
       29,
+      31,
+      32,
       34,
       41,
       42
     ],
-    "note": "Updated after source-page verification of Q34, Q41 and Q42 and official final-key parity. This checkpoint does not claim full-session verification."
+    "note": "Updated after visual source verification of Q31, Q32, Q34, Q41 and Q42 and official final-key parity; not a full-session verification."
   }
 }
