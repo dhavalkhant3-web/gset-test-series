@@ -34,7 +34,7 @@ Expected question records across these seven subjects: 3,200. Active: 463. Remai
 - August 2017: 50/50 visually checked and official final-key matched; 50 active. Syllabus mapping: 46 verified, 4 provisional.
 - Official sources: September 2016 question paper https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf and key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf; August 2017 question paper https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1724.pdf and final key https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1724.pdf.
 - Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf
-- Remaining Geography: 100 staged questions (November 2025); 500 expected questions across five other listed papers not yet transcribed.
+- Remaining Geography: 100 staged questions (November 2025; all 100 final-key letters reconciled, source visual review pending); 500 expected questions across five other listed papers not yet transcribed.
 
 ### Other subjects
 - Gujarati: 29 active / 371 review-only; registry reconciled with JSON. Active records still require independent source-provenance re-audit.
@@ -51,7 +51,7 @@ Expected question records across these seven subjects: 3,200. Active: 463. Remai
 - Keep all unverified records review-only. Official final keys are authoritative; if key conflicts with source question, preserve the key and flag for expert review.
 
 ## Next work
-1. Geography: source-review the remaining 100 staged November 2025 questions; transcribe the remaining 500 questions from five papers.
+1. Geography: retry official November 2025 PDF visual verification for the 100 key-reconciled records; transcribe the remaining 500 questions from five papers.
 2. Continue Gujarati and Sanskrit source verification and official syllabus mappings.
 3. History: resolve Q48 with subject expert; review provisional mappings and Q46.
 4. Social Work: transcribe 600 questions from official question-paper PDFs; do not convert answer keys into fake question records.
