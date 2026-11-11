@@ -140,7 +140,11 @@
       "source_verified": false,
       "review_flags_remaining_count": 3,
       "status": "partial_visual_review",
-      "review_note": "Official final answer key reconciliation complete: 100/100 answer letters match. Question-source visual verification: 97/100 visually verified and active; 3/100 remain review-only. Question-level syllabus mapping remains pending."
+      "review_note": "Official final answer key reconciliation complete: 100/100 answer letters match. Question-source visual verification: 97/100 visually verified and active; 3/100 remain review-only. Question-level syllabus mapping remains pending. Syllabus mapping checkpoint: 71 verified, 25 provisional, 1 active question unmapped (Q70); three source-review-only questions remain outside active mapping.",
+      "syllabus_mapping_status": "partial_question_level_mapping",
+      "syllabus_mapping_verified": 71,
+      "syllabus_mapping_provisional": 25,
+      "syllabus_mapping_pending": 4
     }
   ]
 }
