@@ -40291,11 +40291,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. The stored official answer letter was retained; other question-ID/sequence anomalies in this paper remain under separate audit.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -40307,7 +40307,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The number of different components for an antisymmetric tensor in N-dimensional space is:",
+    "options": [
+      "N",
+      "N²",
+      "N(N − 1)/2",
+      "N² − 1"
+    ]
   },
   {
     "id": "physical_sep18_q03",
@@ -40462,11 +40469,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and all four options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. The stored official answer letter was retained; other question-ID/sequence anomalies in this paper remain under separate audit.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -40478,7 +40485,14 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Let a coin be tossed 5 times. What is the probability of exactly 3 heads out of the 5 tosses?",
+    "options": [
+      "1/32",
+      "5/32",
+      "1/2",
+      "10/32"
+    ]
   },
   {
     "id": "physical_sep18_q08",
