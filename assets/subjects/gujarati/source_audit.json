@@ -6,25 +6,26 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 234,
+  "visual_checked": 243,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
-    "session": "December 2003 Gujarati",
+    "session": "December 2019 Gujarati",
     "question_numbers": [
-      17,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
     ],
-    "count": 8,
-    "source": "Official GSET Gujarati Paper-II PDF dec0306.pdf, PDF page indexes 5–6 (printed pages 6–7).",
-    "result": "Q17, Q19–Q25 visually checked. Q21 option D corrected from staging 'અ અને ક' to scan 'અ અને ડ'. Q18 remains pending due to scan-sensitive option wording. Stored answers unchanged; key reconciliation pending."
+    "count": 9,
+    "source": "Official GSET Gujarati Paper-II December 2019 PDF, printed pages 10–12 (PDF page indexes 9–11).",
+    "result": "Question stems and all four options for Q31–Q39 visually matched the official scan. Their answer letters already match the official FINAL answer key; source_verified and syllabus mapping status updated to verified. No text or answer changes required."
   },
-  "remaining_review_note": "303 review-only records remain: 137 source texts/options visually verified with 137 verified mappings; 166 provisional mappings. December 2019 key reconciliation is now complete 100/100; visual review remains pending for 83 records in that paper. December 2003 Q17, Q19–Q25 source checked; Q18 remains pending. December 2002 unmatched Q35 and historical key conflicts Q36,Q38–Q41 remain unresolved.",
+  "remaining_review_note": "303 review-only records remain: 146 source texts/options visually verified with 146 verified mappings; 157 provisional. December 2019 Q31–Q39 newly source checked; 74 of that paper remain visual pending. December 2003 Q18 remains pending. December 2002 unmatched Q35 and historical key conflicts Q36,Q38–Q41 remain unresolved.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -121,7 +122,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0806.pdf",
     "result": "All 18 stored answers for Q7–Q24 match the official published key exactly. The PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled FINAL; final-key status remains unconfirmed. No answer values were changed."
   },
-  "visual_source_verified_in_batch": 137,
+  "visual_source_verified_in_batch": 146,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -151,7 +152,7 @@
     "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
     "pending_records_with_verified_unit_mapping": 137
   },
-  "syllabus_mapping_note": "303 review-only records: 137 verified mappings, 166 provisional, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 146 source-verified with verified mappings; 157 remain provisional; 0 unmapped.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 137,
     "records": [
@@ -464,7 +465,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: Reconciled Gujarati December 2019 Q1–Q100 against official GSET FINAL answer key; 100/100 matched, including Q7=Z not evaluated. 83 key records newly reconciled; visual review flags retained. Other subjects and Paper-I untouched.",
+  "last_batch_saved": "2026-11-11: December 2019 Q1–Q100 final-key reconciliation complete; additionally source-page visual verification completed for Q31–Q39 (9 questions, printed pages 10–12).",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
