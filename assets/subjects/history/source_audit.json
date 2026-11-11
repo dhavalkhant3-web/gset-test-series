@@ -19,22 +19,18 @@
     "Q38 source scan appears to print 'Hestings'; retained as printed."
   ],
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
-  "next_action": "Map the 49 active questions to official GSET History Code 08 syllabus units; obtain expert review for Q48.",
+  "next_action": "Resolve Q46 and Q48 only if a defensible official-syllabus link is established; otherwise retain pending. Then run subject validation and CI.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/08.pdf",
-    "verified": 45,
-    "provisional": 3,
+    "verified": 48,
+    "provisional": 0,
     "pending": 2,
     "unmapped_question_numbers": [
       46,
       48
     ],
-    "provisional_question_numbers": [
-      21,
-      43,
-      50
-    ],
-    "note": "45 mappings verified, 3 provisional (Q21, Q43, Q50), and 2 pending (Q46, Q48) against the official Code 08 syllabus. Q48 is no longer an answer-key conflict: the official final/corrected key gives D, matching Adam Smith."
+    "provisional_question_numbers": [],
+    "note": "48 mappings verified; Q46 (Apartheid/South Africa) and Q48 (Adam Smith, The Wealth of Nations) remain pending because the official syllabus does not provide a sufficiently direct unit placement."
   },
   "official_key_matched": 50,
   "official_key_mismatches": 0
