@@ -6,21 +6,54 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 196,
+  "visual_checked": 229,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
-    "session": "December 2002 Gujarati",
-    "question_numbers": [
-      47,
-      48,
-      49,
-      50
-    ],
-    "count": 4,
-    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
-    "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
+    "session": "December 2003 and December 2008 Gujarati",
+    "question_numbers": {
+      "December_2003": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "December_2008": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "count": 33,
+    "source": "Official GSET Gujarati Paper-II original question-paper scans.",
+    "result": "December 2003 Q6–Q20 (printed pages 4–6) and December 2008 Q7–Q24 (printed pages 4–6): stems and all four options visually checked against official scans. Answer-key reconciliation is still pending; stored answers were not changed."
   },
-  "remaining_review_note": "303 review-only records remain. 99 source texts/options visually verified; 204 mappings remain provisional. December 2002 Q34 and Q36–Q42 source-matched; Q35 repository Sundaram row is unmatched. Historical-key alignment remains unresolved for Q36, Q38–Q41; Q34, Q37, Q42 match published key; key PDF is not explicitly FINAL. August 2017 source checks expanded to Q7–Q16, Q22–Q26, Q31–Q37, Q42–Q43; all 50 answer letters match official FINAL key.",
+  "remaining_review_note": "303 review-only records remain. 132 source texts/options visually verified with 132 verified unit mappings; 171 mappings remain provisional. December 2003 Q6–Q20 and December 2008 Q7–Q24 newly verified against official scans. December 2002 Q35 remains unmatched; historical-key mismatches Q36 and Q38–Q41 remain unresolved.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -149,7 +182,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 99,
+  "visual_source_verified_in_batch": 132,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -174,14 +207,14 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 204,
+    "pending_records_with_provisional_unit_suggestion": 171,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "Of 303 review-only records, 99 now have source-backed verified unit mappings; 204 remain provisional pending source verification; 0 unmapped.",
-    "pending_records_with_verified_unit_mapping": 99
+    "note": "Of 303 review-only records, 132 now have source-backed verified unit mappings; 171 remain provisional pending source verification; 0 unmapped.",
+    "pending_records_with_verified_unit_mapping": 132
   },
-  "syllabus_mapping_note": "303 review-only records: 99 verified mappings, 204 provisional, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 132 verified mappings, 171 provisional, 0 unmapped.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 99,
+    "newly_visual_checked": 132,
     "records": [
       {
         "paper": "December 2003 Gujarati",
@@ -325,9 +358,64 @@
           13
         ],
         "note": "Stems and all four options visually checked against official scan; all 50 stored answers independently match official FINAL key."
+      },
+      {
+        "paper": "December 2003 Gujarati",
+        "questions": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "printed_pages": [
+          4,
+          5,
+          6
+        ],
+        "note": "Q6–Q20 stems and all four options visually checked against official scan; answer-key reconciliation pending."
+      },
+      {
+        "paper": "December 2008 Gujarati",
+        "questions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "printed_pages": [
+          4,
+          5,
+          6
+        ],
+        "note": "Q7–Q24 stems and all four options visually checked against official scan; answer-key reconciliation pending."
       }
     ],
-    "result": "99 review-only records now visually source checked. August 2017 visual checks cover Q7, Q9–Q16, Q22–Q26, Q31–Q37, Q42–Q43. December 2002 Q34 and Q36–Q42 source-matched; Q35 repository row remains unmatched. No conflicting historical answers overwritten.",
+    "result": "132 review-only records now visually source checked. Newly verified: December 2003 Q6–Q20 and December 2008 Q7–Q24, in addition to prior verified batches. No stored answer letters changed; key reconciliation remains pending for the new batch.",
     "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
@@ -419,7 +507,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: Additional August 2017 source scan verification completed for Q31–Q37 and Q42–Q43; total review-only source verified/mapped 99, provisional 204.",
+  "last_batch_saved": "2026-11-11: Source scan verification completed for December 2003 Q6–Q20 and December 2008 Q7–Q24; 33 additional questions verified. Review-only totals: 132 source verified/mapped, 171 provisional.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
