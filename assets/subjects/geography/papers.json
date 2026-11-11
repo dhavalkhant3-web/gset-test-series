@@ -184,8 +184,12 @@
       "question_source_verified": 0,
       "source_verified": false,
       "review_flags_remaining_count": 100,
-      "status": "source_review_pending",
-      "review_note": "All transcribed answer letters compared with the supplied official final-key table; 0 mismatches. Original question-page visual proofreading remains pending."
+      "status": "official_final_key_reconciled_source_visual_review_pending",
+      "review_note": "100/100 staged answer letters match official November 2025 final key. Question stems/options still require visual verification against official question-paper PDF before activation.",
+      "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
+      "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf",
+      "questions_count": 100,
+      "answer_key_parity_count": 100
     }
   ]
 }
