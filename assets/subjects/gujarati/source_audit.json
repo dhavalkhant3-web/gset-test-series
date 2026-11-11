@@ -284,6 +284,54 @@
         "printed_page": 3
       }
     ],
-    "result": "25 stems and all four options visually matched to official GSET scans. These records remain review-only until official final-key reconciliation."
-  }
+    "result": "25 stems/options visually checked; 20 also matched to official final answer keys. Five December 2003 questions remain key-reconciliation pending because the official key endpoint could not be retrieved.",
+    "key_matched_in_batch": 20,
+    "key_matched_questions": [
+      {
+        "paper": "gujarati_dec2002",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf"
+      },
+      {
+        "paper": "gujarati_dec2008",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0806.pdf"
+      },
+      {
+        "paper": "gujarati_aug2017",
+        "questions": [
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "source": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf"
+      },
+      {
+        "paper": "gujarati_dec2019",
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1906.pdf"
+      }
+    ]
+  },
+  "official_key_matched_in_batch": 79
 }
