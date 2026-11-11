@@ -4,10 +4,10 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 38,
-  "pending_review": 362,
-  "visual_checked": 38,
-  "official_final_key_matched_in_batch": 38,
+  "active_questions": 40,
+  "pending_review": 360,
+  "visual_checked": 40,
+  "official_final_key_matched_in_batch": 40,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
     "question_numbers": [
@@ -19,20 +19,22 @@
       38,
       40,
       41,
-      42
+      42,
+      45,
+      46
     ],
-    "count": 9,
-    "source": "Official GSET December 2021/January 2022 Gujarati Paper-II PDF, printed pages 7 and 8.",
+    "count": 11,
+    "source": "Official GSET December 2021/January 2022 Gujarati Paper-II PDF, printed pages 7–9.",
     "answer_key": "Official GSET Final Answer Key, December 2021/January 2022, Paper-II Gujarati.",
-    "result": "Q30 (D), Q31 (B), Q32 (A), Q34 (D), Q35 (C), Q38 (A), Q40 (D), Q41 (A), Q42 (C) visually checked; Gujarati spellings in Q30, Q35, Q38 and Q40 aligned to the scan."
+    "result": "Q30 D, Q31 B, Q32 A, Q34 D, Q35 C, Q38 A, Q40 D, Q41 A, Q42 C, Q45 A and Q46 C verified; source spellings in Q30, Q35, Q38, Q40, Q45 and Q46 aligned to the scan."
   },
-  "remaining_review_note": "362 questions remain review-only pending source-page proofreading and/or official key provenance reconciliation. Dec 2019 Q7 is Z/not evaluated and must remain non-scored.",
+  "remaining_review_note": "360 questions remain review-only pending source-page proofreading and/or official key provenance reconciliation. Dec 2019 Q7 is Z/not evaluated and must remain non-scored.",
   "syllabus_mapping": "pending_question_level_mapping",
   "last_reconciliation": {
-    "active_record_count": 38,
-    "pending_record_count": 362,
-    "unique_active_ids": 38,
-    "unique_pending_ids": 362,
+    "active_record_count": 40,
+    "pending_record_count": 360,
+    "unique_active_ids": 40,
+    "unique_pending_ids": 360,
     "overlap_count": 0,
     "session": "December 2021 / January 2022",
     "question_numbers_present": [
@@ -73,8 +75,10 @@
       38,
       40,
       41,
-      42
+      42,
+      45,
+      46
     ],
-    "note": "Updated after source visual verification and official final-key parity for Q30, Q31, Q32, Q34, Q35, Q38, Q40, Q41 and Q42; not a full-session verification."
+    "note": "Updated after visual source verification and official final-key parity for 11 questions; this is not full-session verification."
   }
 }
