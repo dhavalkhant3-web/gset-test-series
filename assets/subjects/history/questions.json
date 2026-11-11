@@ -900,7 +900,7 @@
     "review_flag": false,
     "review_note": null,
     "topic": "Medieval coins and numismatics",
-    "syllabus_mapping_status": "provisional",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "25 September 2016",
     "exam_date": "2016-09-25",
@@ -921,7 +921,8 @@
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
     "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan (printed pages 3–23); answer independently matched to official final/corrected key.",
-    "syllabus_unit": "Unit V"
+    "syllabus_unit": "Unit IV",
+    "syllabus_mapping_note": "Late-14th-century coin hoard is a numismatic/material source for medieval Indian history; Unit IV explicitly includes archaeological, epigraphic and numismatic sources."
   },
   {
     "id": "GSET-HIS08-SEP2016-Q022",
@@ -1868,7 +1869,7 @@
     "review_flag": false,
     "review_note": null,
     "topic": "British frontier policy and Afghanistan",
-    "syllabus_mapping_status": "provisional",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "25 September 2016",
     "exam_date": "2016-09-25",
@@ -1889,7 +1890,8 @@
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
     "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan (printed pages 3–23); answer independently matched to official final/corrected key.",
-    "syllabus_unit": "Unit VII"
+    "syllabus_unit": "Unit VII",
+    "syllabus_mapping_note": "The Durand Line is a British-era frontier boundary; Unit VII covers modern British power and colonial-era political relations. The official syllabus also lists Forward Policy among its concepts."
   },
   {
     "id": "GSET-HIS08-SEP2016-Q044",
@@ -2020,7 +2022,8 @@
     "evaluation_status": "official_final_key_reconciled",
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan (printed pages 3–23); answer independently matched to official final/corrected key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan (printed pages 3–23); answer independently matched to official final/corrected key.",
+    "syllabus_mapping_note": "Apartheid concerns South Africa and is not directly represented by a named topic or concept in the official Indian-history syllabus. No unit assigned without a defensible syllabus link."
   },
   {
     "id": "GSET-HIS08-SEP2016-Q047",
@@ -2107,7 +2110,8 @@
     "evaluation_status": "official_final_key_reconciled",
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan; answer D independently matched to official GSET Final/Corrected Answer Key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan; answer D independently matched to official GSET Final/Corrected Answer Key.",
+    "syllabus_mapping_note": "The author of The Wealth of Nations is a political-economy fact, but the official syllabus does not explicitly identify Adam Smith or the book. Unit VIII covers colonial economy, but assigning this item there would be inferential; retain pending."
   },
   {
     "id": "GSET-HIS08-SEP2016-Q049",
@@ -2174,7 +2178,7 @@
     "review_flag": false,
     "review_note": null,
     "topic": "Historical concepts and historiography",
-    "syllabus_mapping_status": "provisional",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "25 September 2016",
     "exam_date": "2016-09-25",
@@ -2195,6 +2199,7 @@
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
     "source_verification_note": "Question stem and all four options visually checked against official GSET History Paper-II September 2016 scan (printed pages 3–23); answer independently matched to official final/corrected key.",
-    "syllabus_unit": "Unit X"
+    "syllabus_unit": "Unit VIII",
+    "syllabus_mapping_note": "Patriarchy is directly relevant to the Women’s Question and gender identity topics explicitly listed in Unit VIII."
   }
 ]
