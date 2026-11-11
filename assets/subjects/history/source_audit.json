@@ -26,23 +26,21 @@
     "Q1 source scan prints 'lavoillois'; retained as printed.",
     "Q38 source scan appears to print 'Hestings'; retained as printed."
   ],
-  "syllabus_mapping_status": "pending_official_syllabus_mapping",
+  "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "next_action": "Map the 49 active questions to official GSET History Code 08 syllabus units; obtain expert review for Q48.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/08.pdf",
-    "verified": 43,
-    "provisional": 5,
+    "verified": 45,
+    "provisional": 3,
     "pending": 1,
     "unmapped_question_numbers": [
       46
     ],
     "provisional_question_numbers": [
-      9,
-      11,
       21,
       43,
       50
     ],
-    "note": "Mappings use the official ten-unit syllabus. Q46 remains unmapped because apartheid is not clearly assigned in the published unit descriptions; provisional classifications require expert review."
+    "note": "45 active question mappings align directly with the official ten-unit History syllabus. Q21, Q43 and Q50 remain provisional for subject-expert review; Q46 remains unmapped. Q48 remains separately review-only because of the official-key/content conflict."
   }
 }
