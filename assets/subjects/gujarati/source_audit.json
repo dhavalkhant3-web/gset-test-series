@@ -6,54 +6,25 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 229,
+  "visual_checked": 234,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
-    "session": "December 2003 and December 2008 Gujarati",
-    "question_numbers": {
-      "December_2003": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "December_2008": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
-      ]
-    },
-    "count": 33,
-    "source": "Official GSET Gujarati Paper-II original question-paper scans.",
-    "result": "December 2003 Q6–Q20 (printed pages 4–6) and December 2008 Q7–Q24 (printed pages 4–6): stems and all four options visually checked against official scans. Answer-key reconciliation is still pending; stored answers were not changed."
+    "session": "December 2003 Gujarati",
+    "question_numbers": [
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "count": 8,
+    "source": "Official GSET Gujarati Paper-II PDF dec0306.pdf, PDF page indexes 5–6 (printed pages 6–7).",
+    "result": "Q17, Q19–Q25 visually checked. Q21 option D corrected from staging 'અ અને ક' to scan 'અ અને ડ'. Q18 remains pending due to scan-sensitive option wording. Stored answers unchanged; key reconciliation pending."
   },
-  "remaining_review_note": "303 review-only records remain. 132 source texts/options visually verified with 132 verified unit mappings; 171 mappings remain provisional. December 2003 Q6–Q20 and December 2008 Q7–Q24 newly verified against official scans. December 2002 Q35 remains unmatched; historical-key mismatches Q36 and Q38–Q41 remain unresolved.",
+  "remaining_review_note": "303 review-only records remain. 137 source texts/options visually verified with 137 verified mappings; 166 provisional. December 2003 Q17, Q19–Q25 source checked; Q21 option D corrected to 'અ અને ડ'. Q18 remains pending due to scan-sensitive option transcription. December 2002 unmatched Q35 and historical key conflicts Q36,Q38–Q41 remain unresolved.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -150,7 +121,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0806.pdf",
     "result": "All 18 stored answers for Q7–Q24 match the official published key exactly. The PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled FINAL; final-key status remains unconfirmed. No answer values were changed."
   },
-  "visual_source_verified_in_batch": 132,
+  "visual_source_verified_in_batch": 137,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -175,14 +146,14 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 171,
+    "pending_records_with_provisional_unit_suggestion": 166,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "Of 303 review-only records, 132 now have source-backed verified unit mappings; 171 remain provisional pending source verification; 0 unmapped.",
-    "pending_records_with_verified_unit_mapping": 132
+    "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
+    "pending_records_with_verified_unit_mapping": 137
   },
-  "syllabus_mapping_note": "303 review-only records: 132 verified mappings, 171 provisional, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 137 verified mappings, 166 provisional, 0 unmapped.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 132,
+    "newly_visual_checked": 137,
     "records": [
       {
         "paper": "December 2003 Gujarati",
@@ -381,9 +352,27 @@
           6
         ],
         "note": "Q7–Q24 stems and all four options visually checked against official scan; answer-key reconciliation pending."
+      },
+      {
+        "paper": "December 2003 Gujarati",
+        "questions": [
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "printed_pages": [
+          6,
+          7
+        ],
+        "note": "Q17, Q19–Q25 stems and options visually checked. Q21 option D corrected to 'અ અને ડ'. Q18 excluded pending transcription resolution. Key reconciliation pending."
       }
     ],
-    "result": "132 review-only records now visually source checked. Newly verified: December 2003 Q6–Q20 and December 2008 Q7–Q24, in addition to prior verified batches. No stored answer letters changed; key reconciliation remains pending for the new batch.",
+    "result": "137 review-only records visually source checked. December 2003 Q17 and Q19–Q25 added; Q21 option D corrected against original scan. No answers changed.",
     "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
@@ -475,7 +464,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: December 2003 Q6–Q20 and December 2008 Q7–Q24 source scans verified; December 2008 Q7–Q24 also reconciled to official published key (18/18; not labelled FINAL). Review-only: 132 source verified/mapped, 171 provisional.",
+  "last_batch_saved": "2026-11-11: December 2003 Q17 and Q19–Q25 source verified; corrected Q21 option D from official scan. Review-only: 137 source verified/mapped, 166 provisional.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
