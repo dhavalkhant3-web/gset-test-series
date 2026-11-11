@@ -6,8 +6,8 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 122,
-  "official_final_key_matched_in_batch": 59,
+  "visual_checked": 138,
+  "official_final_key_matched_in_batch": 65,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
     "question_numbers": [
@@ -63,7 +63,7 @@
       70
     ]
   },
-  "remaining_review_note": "303 questions remain review-only. 25 older-paper records have had stems/options visually checked; 20 also match official final keys and 5 December 2003 records still await key retrieval. 278 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records (Q36, Q37, Q60); all 100 answer letters match the official final key.",
+  "remaining_review_note": "303 questions remain review-only. 41 older-paper records have had stems/options visually checked; 26 selected answers match official final keys. Five December 2003 records still await official final-key reconciliation. 262 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -223,7 +223,7 @@
   },
   "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 74 verified unit matches, 20 provisional and 3 cross-unit/context-dependent. Q70 restored from official page 17 and mapped provisionally to Unit 1. 303 separate review-pending records: 137 provisional unit suggestions, 166 unassigned.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 25,
+    "newly_visual_checked": 41,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -232,10 +232,23 @@
           2,
           3,
           4,
-          5
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "pdf_page_index_zero_based": 2,
-        "printed_page": 3
+        "printed_pages": [
+          3,
+          4
+        ],
+        "note": "Q1–Q5 checked in earlier batch; Q6–Q15 checked against printed page 4 in this batch."
       },
       {
         "paper": "December 2003 Gujarati",
@@ -246,8 +259,8 @@
           4,
           5
         ],
-        "pdf_page_index_zero_based": 2,
-        "printed_page": 3
+        "printed_page": 3,
+        "note": "Source visual review only; final-key reconciliation pending."
       },
       {
         "paper": "December 2008 Gujarati",
@@ -258,7 +271,6 @@
           4,
           5
         ],
-        "pdf_page_index_zero_based": 2,
         "printed_page": 3
       },
       {
@@ -270,9 +282,8 @@
           11,
           12
         ],
-        "pdf_page_index_zero_based": 2,
         "printed_page": 4,
-        "note": "Q8 excluded because the author-name glyph is ambiguous."
+        "note": "Q8 excluded due ambiguous glyph."
       },
       {
         "paper": "December 2019 Gujarati",
@@ -281,14 +292,23 @@
           2,
           3,
           4,
-          5
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
         ],
-        "pdf_page_index_zero_based": 2,
-        "printed_page": 3
+        "printed_pages": [
+          3,
+          4
+        ],
+        "note": "Q6–Q11 visually checked this batch and all six answer letters match official final key; Q7 official key is Z (not evaluated)."
       }
     ],
-    "result": "25 stems/options visually checked; 20 also matched to official final answer keys. Five December 2003 records still await final-key reconciliation.",
-    "key_matched_in_batch": 20,
+    "result": "41 older-paper records have visually inspected source text/options; 26 have official final-key matches. December 2003 Q1–Q5 remain key reconciliation pending.",
+    "key_matched_in_batch": 26,
     "key_matched_questions": [
       {
         "paper": "gujarati_dec2002",
@@ -330,11 +350,18 @@
           2,
           3,
           4,
-          5
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
         ],
         "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1906.pdf"
       }
     ]
   },
-  "official_key_matched_in_batch": 79
+  "official_key_matched_in_batch": 79,
+  "last_batch_saved": "2026-11-11: visually checked Dec 2002 Q6-Q15 (printed p.4) and Dec 2019 Q6-Q11 (printed p.4); Dec 2019 Q6-Q11 all matched final key."
 }
