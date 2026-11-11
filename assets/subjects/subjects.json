@@ -348,9 +348,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 8,
-      "questions_loaded": 0,
-      "data_status": "Eight official sessions and 700 answer-key entries are registered. 200 transcribed questions (Sep 2016, Aug 2017, Nov 2025) are retained in questions_review_pending.json. Official final-key parity comparison found 0 mismatches across all 200; source-page proofreading/visual verification remains pending. No unverified questions are active.",
-      "questions_pending_review": 200
+      "questions_loaded": 34,
+      "data_status": "200 questions transcribed from Sep 2016, Aug 2017 and Nov 2025. Geography Sep 2016 Q1–Q34 source-page visually verified and matched to official final key; 166 staged questions remain review-only. 500 questions across five other listed papers remain untranscribed. Syllabus mapping pending.",
+      "questions_pending_review": 166
     },
     {
       "code": "25",
