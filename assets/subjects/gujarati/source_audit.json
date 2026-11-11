@@ -6,64 +6,19 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 161,
+  "visual_checked": 163,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
-    "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
+    "session": "December 2002 Gujarati",
     "question_numbers": [
       33,
-      39,
-      44,
-      47,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
+      34
     ],
-    "count": 1,
-    "source": "Uploaded official GSET December 2021/January 2022 Gujarati Paper-II scan, printed pages 7–23.",
-    "answer_key": "Official GSET Final Answer Key, December 2021/January 2022, Paper-II Gujarati.",
-    "result": "Q70 stem and all four sequence options restored from official printed page 17; official final key A matched. Prior incomplete record was moved back to active only after source scan verification.",
-    "questions": [
-      70
-    ]
+    "count": 2,
+    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 8 (printed page 9).",
+    "result": "Q33 and Q34 stems and all four options visually checked; transcriptions match the scan. Q34 mapped to official Unit 9; Q33 retained unmapped because its matching-list content spans multiple literary categories. Answer-key reconciliation remains pending."
   },
-  "remaining_review_note": "303 records remain review-only. 64 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 239 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
+  "remaining_review_note": "303 records remain review-only. 66 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 237 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -192,7 +147,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 64,
+  "visual_source_verified_in_batch": 66,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -223,7 +178,7 @@
   },
   "syllabus_mapping_note": "Among 303 review-only Gujarati records, 10 question-level mappings have been individually verified against the official Code 06 unit titles; 127 provisional suggestions and 166 unassigned records remain.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 64,
+    "newly_visual_checked": 66,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -259,7 +214,9 @@
           29,
           30,
           31,
-          32
+          32,
+          33,
+          34
         ],
         "printed_pages": [
           3,
@@ -267,9 +224,10 @@
           5,
           6,
           7,
-          8
+          8,
+          9
         ],
-        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q32 visually checked on PDF page 8."
+        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q32 on page 8; Q33–Q34 on PDF page index 8 (printed page 9)."
       },
       {
         "paper": "December 2003 Gujarati",
@@ -335,7 +293,7 @@
         "note": "Q6–Q17 selected answers all matched official final key; Q7 is Z/not evaluated."
       }
     ],
-    "result": "64 older-paper records visually inspected; 32 selected answer letters matched to official final answer keys. Five December 2003 records remain key reconciliation pending. December 2002 printed question-number parity around PDF page 7 requires a separate ID audit.",
+    "result": "66 older-paper records visually inspected; 32 selected answer letters matched to official final answer keys. Five December 2003 records remain key reconciliation pending. December 2002 printed question-number parity around PDF page 7 requires a separate ID audit.",
     "key_matched_in_batch": 32,
     "key_matched_questions": [
       {
@@ -397,9 +355,10 @@
     ],
     "visual_source_verified_in_batch": 64,
     "newly_checked_questions": [
-      "December 2002 Q20–Q32 (Q25–Q30 printed-number parity flagged; Q31–Q32 exact page match)"
+      "December 2002 Q20–Q32 (Q25–Q30 printed-number parity flagged; Q31–Q32 exact page match)",
+      "December 2002 Q33–Q34 (printed page 9)"
     ]
   },
   "official_key_matched_in_batch": 79,
-  "last_batch_saved": "2026-11-11: Dec 2002 Q16-Q19 printed p.5 and Dec 2019 Q12-Q17 printed p.5 visually checked; Dec 2019 Q12-Q17 matched final key."
+  "last_batch_saved": "2026-11-11: December 2002 Q33-Q34 visually checked against official printed page 9; Q34 Unit 9 mapping verified; no answer-key changes."
 }
