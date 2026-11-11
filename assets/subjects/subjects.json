@@ -108,7 +108,7 @@
       "papers_loaded": 11,
       "questions_loaded": 114,
       "questions_pending_review": 736,
-      "data_status": "850 transcribed questions across 11 sessions; 8 November 2023 questions (Q60–Q67) visually verified against the official GSET paper and reconciled to the final key; 842 remain review-only, including 33 review_required and two Z/not-evaluated records. Official syllabus mapping pending."
+      "data_status": "850 transcribed questions are claimed by the source audit; 114 active records are present (99 November 2023 and 15 November 2025). The questions_review_pending.json file is empty despite 736 pending being recorded, so the remaining 736 question records are not currently available in the review file. Restore/reconcile the missing staged records before claiming the full archive is present. Official syllabus mapping pending."
     },
     {
       "code": "08",
@@ -380,9 +380,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 3,
-      "questions_loaded": 9,
-      "questions_pending_review": 291,
-      "data_status": "Updated v3: 300 questions across 3 sessions; all 300 official final-key entries match the supplied evidence register. 9 source-page visually checked questions are active; 291 await independent second-pass source verification. Syllabus mapping pending; official syllabus not supplied."
+      "questions_loaded": 17,
+      "questions_pending_review": 283,
+      "data_status": "300 transcribed across 3 sessions; 300/300 official final-key entries match supplied evidence register. 17 source-page visually checked questions are active; 283 remain review-only. Official syllabus mapping pending."
     },
     {
       "code": "27",
@@ -396,9 +396,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 3,
-      "questions_loaded": 6,
-      "questions_pending_review": 294,
-      "data_status": "300 questions across 3 sessions; all 300 official final-key entries match the supplied evidence register. 6 source-page visually checked questions are active; 294 await independent second-pass source verification. Syllabus mapping pending; official syllabus not supplied."
+      "questions_loaded": 21,
+      "questions_pending_review": 279,
+      "data_status": "300 transcribed across 3 sessions; 300/300 official final-key entries match supplied evidence register. 21 source-page visually checked questions are active; 279 remain review-only. Official syllabus mapping pending."
     },
     {
       "code": "28",
