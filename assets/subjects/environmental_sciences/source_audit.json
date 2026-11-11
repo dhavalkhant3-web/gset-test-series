@@ -6,26 +6,34 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 17,
+  "visual_checked": 33,
   "proofread_pass1_pending_second_pass": 291,
-  "active_questions": 17,
-  "pending_review": 283,
+  "active_questions": 33,
+  "pending_review": 267,
   "syllabus_mapping": "all pending; official syllabus not supplied.",
   "last_visual_review": {
     "session": "November 2023",
     "questions": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
     ],
-    "count": 8,
-    "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 2–3; final answer key independently matched.",
+    "count": 16,
+    "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 4–5.",
     "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
-    "result": "all selected question stems/options visually match; all selected answer letters match final key"
+    "result": "all selected stems/options visually matched; all selected answer letters matched final key"
   }
 }
