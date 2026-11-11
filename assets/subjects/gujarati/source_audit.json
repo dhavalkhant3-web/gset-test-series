@@ -6,7 +6,7 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 187,
+  "visual_checked": 196,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
@@ -20,7 +20,7 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 review-only records remain. 90 source texts/options visually verified; 213 mappings remain provisional. December 2002 repository Q34 and Q36–Q42 map to printed Q34, Q35–Q40, and Q42 respectively. Repository Q35 Sundaram record is unmatched and remains provisional. Historical key comparison: Q34, Q37, Q42 match published key; Q36, Q38–Q41 differ and remain unresolved. The 2002 key is not explicitly labelled FINAL. August 2017 Q1–Q50 match official FINAL key; additional source visual checks completed for Q13–Q16 and Q22–Q26.",
+  "remaining_review_note": "303 review-only records remain. 99 source texts/options visually verified; 204 mappings remain provisional. December 2002 Q34 and Q36–Q42 source-matched; Q35 repository Sundaram row is unmatched. Historical-key alignment remains unresolved for Q36, Q38–Q41; Q34, Q37, Q42 match published key; key PDF is not explicitly FINAL. August 2017 source checks expanded to Q7–Q16, Q22–Q26, Q31–Q37, Q42–Q43; all 50 answer letters match official FINAL key.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -149,7 +149,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 90,
+  "visual_source_verified_in_batch": 99,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -174,14 +174,14 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 213,
+    "pending_records_with_provisional_unit_suggestion": 204,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "Of 303 review-only records, 90 have source-backed verified unit mappings; 213 remain provisional pending source verification; 0 unmapped.",
-    "pending_records_with_verified_unit_mapping": 90
+    "note": "Of 303 review-only records, 99 now have source-backed verified unit mappings; 204 remain provisional pending source verification; 0 unmapped.",
+    "pending_records_with_verified_unit_mapping": 99
   },
-  "syllabus_mapping_note": "303 review-only records: 90 verified mappings, 213 provisional, 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 99 verified mappings, 204 provisional, 0 unmapped.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 90,
+    "newly_visual_checked": 99,
     "records": [
       {
         "paper": "December 2003 Gujarati",
@@ -205,18 +205,6 @@
           5
         ],
         "printed_page": 3
-      },
-      {
-        "paper": "August 2017 Gujarati",
-        "questions": [
-          7,
-          9,
-          10,
-          11,
-          12
-        ],
-        "printed_page": 4,
-        "note": "Q8 excluded due ambiguous glyph."
       },
       {
         "paper": "December 2019 Gujarati",
@@ -317,17 +305,29 @@
           23,
           24,
           25,
-          26
+          26,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          42,
+          43
         ],
         "printed_pages": [
           4,
           5,
-          7
+          7,
+          9,
+          10,
+          13
         ],
-        "note": "Additional Q13–Q16 and Q22–Q26 stems/options visually matched against official scan; all 50 answer letters separately match official FINAL key."
+        "note": "Stems and all four options visually checked against official scan; all 50 stored answers independently match official FINAL key."
       }
     ],
-    "result": "90 review-only records now visually source checked. December 2002 Q34 and Q36–Q42 matched; Q35 repository row is unmatched. August 2017 Q13–Q16 and Q22–Q26 added to visual checks. No conflicting historical answer values were overwritten.",
+    "result": "99 review-only records now visually source checked. August 2017 visual checks cover Q7, Q9–Q16, Q22–Q26, Q31–Q37, Q42–Q43. December 2002 Q34 and Q36–Q42 source-matched; Q35 repository row remains unmatched. No conflicting historical answers overwritten.",
     "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
@@ -419,7 +419,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: Verified August 2017 Q13–Q16 and Q22–Q26 from official scan; corrected December 2002 audit: printed Q34 is Eliot, repo Q35 Sundaram unmatched, repo Q36–Q41 align printed Q35–Q40, repo Q42 aligns printed Q42. Review-only source/mapping verified count now 90; provisional 213.",
+  "last_batch_saved": "2026-11-11: Additional August 2017 source scan verification completed for Q31–Q37 and Q42–Q43; total review-only source verified/mapped 99, provisional 204.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
