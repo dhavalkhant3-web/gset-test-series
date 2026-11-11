@@ -4,9 +4,9 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 96,
-  "pending_review": 304,
-  "visual_checked": 121,
+  "active_questions": 97,
+  "pending_review": 303,
+  "visual_checked": 122,
   "official_final_key_matched_in_batch": 59,
   "last_visual_review": {
     "session": "December 2021 / January 2022 (exam date 23 Jan 2022)",
@@ -55,12 +55,15 @@
       99,
       100
     ],
-    "count": 41,
+    "count": 1,
     "source": "Uploaded official GSET December 2021/January 2022 Gujarati Paper-II scan, printed pages 7–23.",
     "answer_key": "Official GSET Final Answer Key, December 2021/January 2022, Paper-II Gujarati.",
-    "result": "41 questions visually checked in the combined review batch; shared poem and Gandhi prose passage transcribed from the scan. Three ambiguous question records remain review-only."
+    "result": "Q70 stem and all four sequence options restored from official printed page 17; official final key A matched. Prior incomplete record was moved back to active only after source scan verification.",
+    "questions": [
+      70
+    ]
   },
-  "remaining_review_note": "304 questions remain review-only. 25 additional records across 2002, 2003, 2008, 2017 and 2019 have had stems/options visually checked but still await official final-key reconciliation; 279 others still need source-page visual review and/or key provenance. December 2021/January 2022 has 96 active and 4 review-only records (Q36, Q37, Q60, Q70); all 100 answers match official final key.",
+  "remaining_review_note": "303 questions remain review-only. 25 older-paper records have had stems/options visually checked; 20 also match official final keys and 5 December 2003 records still await key retrieval. 278 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records (Q36, Q37, Q60); all 100 answer letters match the official final key.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 96,
@@ -209,14 +212,14 @@
   },
   "syllabus_mapping_checkpoint": {
     "source": "Official GSET Gujarati Code 06 syllabus PDF (uploaded 6-page PDF; all ten units and listed subtopics inspected)",
-    "active_records_reviewed": 96,
+    "active_records_reviewed": 97,
     "verified_mappings": 74,
-    "provisional_mappings": 19,
+    "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 304,
     "pending_records_with_provisional_unit_suggestion": 138,
     "pending_records_without_defensible_unit_assignment": 166,
-    "note": "Mapping is not source verification. Review-only records were not activated. Pending records received provisional topic suggestions only when a single unit matched available transcription; cross-unit or context-poor records remain unmapped. Q70 moved back to review-only because its stored chronology list is missing."
+    "note": "97 active records: 74 verified unit mappings, 20 provisional and 3 cross-unit/context-dependent. Q70 restored after source scan inspection; 303 review-only records remain."
   },
   "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 71 verified unit matches, 25 provisional, 1 unmapped (Q70). The 303 separate review-pending records still require question-level mapping.",
   "source_verification_checkpoint": {
