@@ -20,7 +20,7 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 records remain review-only. 82 older-paper records have visually inspected stems/options; 37 selected answer letters match official final keys. December 2003 Gujarati Q1–Q5 have been reconciled against the official final key. All 303 review-only records now have a primary syllabus-unit assignment: 82 verified and 221 provisional; 0 remain unmapped. Source-page and key provenance reviews remain open where flagged. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 Q35–Q41 printed-number alignment is verified; their answer-key reconciliation remains pending.",
+  "remaining_review_note": "303 records remain review-only. 82 older-paper records have visually inspected stems/options; 44 selected answer letters match official GSET answer-key documents. December 2003 Gujarati Q1–Q5 match the official key. December 2002 Gujarati Q35–Q41 have now been source/numbering checked and all seven answers match the official published key; that PDF is not explicitly labelled final. All 303 review-only records now have a primary syllabus-unit assignment: 82 verified and 221 provisional; 0 remain unmapped. Source-page and key provenance reviews remain open where flagged. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -325,7 +325,7 @@
       }
     ],
     "result": "82 older-paper records have visually inspected stems/options. 37 selected answer letters have been matched to official final answer keys, including December 2003 Gujarati Q1–Q5. December 2002 Q35–Q41 printed-number alignment is verified against printed page 10; their answer-key and syllabus mapping review remain pending.",
-    "key_matched_in_batch": 37,
+    "key_matched_in_batch": 44,
     "key_matched_questions": [
       {
         "paper": "gujarati_dec2002",
@@ -394,6 +394,20 @@
         ],
         "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0306.pdf",
         "result": "All five stored selected answers (C, B, A, D, C) match the official final key."
+      },
+      {
+        "paper": "gujarati_dec2002",
+        "questions": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "source": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
+        "result": "All seven stored answers (A, C, C, A, D, A, C) match the official GSET published Paper-II Gujarati key. The PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled final."
       }
     ],
     "visual_source_verified_in_batch": 64,
@@ -403,9 +417,25 @@
       "December 2002 Q35–Q41 (official printed page 10; numbering 35–41 matches repository IDs)"
     ]
   },
-  "official_key_matched_in_batch": 84,
-  "last_batch_saved": "2026-11-11: December 2002 Q35–Q41 source/numbering verified; December 2003 Q1–Q5 official final key reconciled; all 303 review-only Gujarati records assigned a syllabus unit (82 verified, 221 provisional, 0 unmapped).",
+  "official_key_matched_in_batch": 91,
+  "last_batch_saved": "2026-11-11: December 2002 Q35–Q41 source/numbering verified and matched to official published key (not labelled final); December 2003 Q1–Q5 reconciled with official Paper-II key; all 303 review-only Gujarati records assigned syllabus units (82 verified, 221 provisional, 0 unmapped).",
   "last_old_paper_key_reconciliation": {
+    "session": "December 2002 Gujarati",
+    "questions": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "count": 7,
+    "source": "Official GSET published Paper-II answer key, 1 December 2002, Gujarati (Code 06).",
+    "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
+    "result": "All seven stored answers (A, C, C, A, D, A, C) match. The official PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled final; this caveat is retained in the question records."
+  },
+  "previous_old_paper_key_reconciliation": {
     "session": "December 2003 Gujarati",
     "questions": [
       1,
