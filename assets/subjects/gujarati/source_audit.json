@@ -217,11 +217,11 @@
     "provisional_mappings": 20,
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 135,
+    "pending_records_with_provisional_unit_suggestion": 127,
     "pending_records_without_defensible_unit_assignment": 166,
-    "note": "97 active records: 74 verified unit mappings, 20 provisional and 3 cross-unit/context-dependent. Among 303 review-only records, two provisional suggestions were individually reviewed and corrected to verified mappings (Aug 2017 Q3 -> Unit 8; Q10 -> Unit 2); 135 provisional suggestions and 166 unassigned records remain."
+    "note": "303 review-only records: 10 question-level mappings verified in individual review; 127 provisional unit suggestions and 166 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
   },
-  "syllabus_mapping_note": "97 active December 2021/January 2022 records reviewed: 74 verified unit matches, 20 provisional and 3 cross-unit/context-dependent. 303 separate review-pending records: 2 question-level mappings verified in this pass, 135 provisional unit suggestions remain, and 166 remain unassigned.",
+  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 10 question-level mappings have been individually verified against the official Code 06 unit titles; 127 provisional suggestions and 166 unassigned records remain.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 62,
     "records": [
