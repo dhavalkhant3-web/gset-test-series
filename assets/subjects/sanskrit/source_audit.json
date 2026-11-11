@@ -4,8 +4,8 @@
   "subject_code": "07",
   "paper": "Paper-II",
   "transcribed_questions": 850,
-  "active_questions": 114,
-  "pending_review": 736,
+  "active_questions": 130,
+  "pending_review": 720,
   "nov2023_visual_verified_question_numbers": [
     1,
     2,
@@ -159,7 +159,7 @@
   "dec2024_source_note": "Official final key was accessible and all 100 answer letters matched. Official question-paper PDF timed out during retrieval; no question text/options were activated.",
   "nov2025_final_key_parity": "100/100 staged answer letters match the official GSET final answer key",
   "nov2025_answer_key_verified_count": 100,
-  "nov2025_question_source_verified_count": 15,
+  "nov2025_question_source_verified_count": 31,
   "nov2025_visual_verified_question_numbers": [
     46,
     47,
@@ -204,9 +204,9 @@
       80
     ],
     "extraction_method": "Official GSET PDF text/OCR extraction (not visual page verification)",
-    "visual_source_verified_count": 0,
+    "visual_source_verified_count": 6,
     "status": "review_pending",
-    "note": "OCR output for Q71, Q73, Q74 and Q76 is materially garbled; Q72, Q75, Q77, Q78 and Q80 are more identifiable but still require visual comparison against the original page. Q79 title/author attribution requires visual confirmation. No question was activated and no question text/options were changed."
+    "note": "Q77-Q80 visually checked against printed page 13. Q71-Q76 remain review-only pending visual inspection."
   },
   "nov2025_q71_q80_official_final_key_crosscheck": {
     "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
@@ -283,9 +283,9 @@
       90
     ],
     "extraction_method": "Official GSET PDF text/OCR extraction (not visual page verification)",
-    "visual_source_verified_count": 0,
+    "visual_source_verified_count": 4,
     "status": "review_pending",
-    "note": "OCR for Q81-Q84 is partly readable; Q85-Q90 is materially garbled and requires original-page visual inspection. No question text/options were changed and no questions were activated."
+    "note": "Q81-Q84 visually checked against printed page 13. Q85-Q90 remain review-only pending visual inspection."
   },
   "nov2025_q81_q90_official_final_key_crosscheck": {
     "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
@@ -497,5 +497,30 @@
   "review_pending_file_restored": true,
   "review_pending_file_count": 736,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 question records); 114 IDs already present in active questions.json were excluded.",
-  "review_pending_file_integrity": "736 unique records restored to questions_review_pending.json; all remain source_verified=false and review_flag=true."
+  "review_pending_file_integrity": "736 unique records restored to questions_review_pending.json; all remain source_verified=false and review_flag=true.",
+  "nov2025_visual_verified_count": 31,
+  "nov2025_remaining_visual_review": 69,
+  "nov2025_last_visual_review": {
+    "question_numbers": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "count": 16,
+    "official_source": "Official GSET Sanskrit November 2025 Paper-II, printed pages 11 and 13 (PDF zero-based pages 8 and 10).",
+    "result": "All sixteen question stems and four-option sets visually checked. Q80 corrected from 'कस्या:' to printed 'कस्यां'. All sixteen answer letters match the official final key."
+  }
 }
