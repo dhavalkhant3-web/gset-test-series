@@ -41796,13 +41796,13 @@
     "id": "physical_sep18_q36",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The total number of degenerate states in the fourth excited state of Hydrogen atom while discarding spin states would be :. (A) 25 (B) 16 @M) 9 (C) &",
+    "question_en": "The total number of degenerate states in the fourth excited state of hydrogen atom while discarding spin states would be:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "25",
+      "16",
+      "5",
+      "9"
     ],
     "options_gu": [],
     "answer": "A",
@@ -41810,11 +41810,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41826,19 +41826,26 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The total number of degenerate states in the fourth excited state of hydrogen atom while discarding spin states would be:",
+    "options": [
+      "25",
+      "16",
+      "5",
+      "9"
+    ]
   },
   {
     "id": "physical_sep18_q37",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Which one of the following could be admissible wave function w(x) for a . | Schrédinger equation ? . . | A) Ne “(B) exp (ox?) | (C) exp © a|x|?) (D) exp (- ax) | Here ‘a’ is a constant.",
+    "question_en": "Which one of the following could be an admissible wave function ψ(x) for a Schrödinger equation? Here α is a constant.",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "N x²",
+      "exp(αx²)",
+      "exp(−α|x|²)",
+      "exp(−αx)"
     ],
     "options_gu": [],
     "answer": "C",
@@ -41846,11 +41853,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41862,7 +41869,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Which one of the following could be an admissible wave function ψ(x) for a Schrödinger equation? Here α is a constant.",
+    "options": [
+      "N x²",
+      "exp(αx²)",
+      "exp(−α|x|²)",
+      "exp(−αx)"
+    ]
   },
   {
     "id": "physical_sep18_q38",
@@ -41904,13 +41918,13 @@
     "id": "physical_sep18_q39",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "For a rigid rotator while considering radial potential, the spacing between two consecutive eigenvalues is directly proportional to : (A) t+ 1) (B) m (Cc) f+ v2 (D) ! Considering time-independent non-degenerate perturbation theory one can have second order correction to the ground state energy necessarily : {A) zero (B) ‘positive (C) negative (D) infinite Phy. Sci.-I 14",
+    "question_en": "For a rigid rotator while considering radial potential, the spacing between two consecutive eigenvalues is directly proportional to:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "l(l + 1)",
+      "m",
+      "[l(l + 1)]¹ᐟ²",
+      "l"
     ],
     "options_gu": [],
     "answer": "D",
@@ -41918,11 +41932,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41934,19 +41948,26 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "For a rigid rotator while considering radial potential, the spacing between two consecutive eigenvalues is directly proportional to:",
+    "options": [
+      "l(l + 1)",
+      "m",
+      "[l(l + 1)]¹ᐟ²",
+      "l"
+    ]
   },
   {
     "id": "physical_sep18_q40",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "_ Considering time-independent non-degenerate perturbation theory one can . , have second order correction to the ground state energy necessarily : | A) ero | B) ‘positive a | _ (C)_ negative _ (D) infinite | | . . Phy. Sci.-II 4 :",
+    "question_en": "Considering time-independent non-degenerate perturbation theory, one can have second-order correction to the ground-state energy necessarily:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Zero",
+      "Positive",
+      "Negative",
+      "Infinite"
     ],
     "options_gu": [],
     "answer": "C",
@@ -41954,11 +41975,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -41970,19 +41991,26 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Considering time-independent non-degenerate perturbation theory, one can have second-order correction to the ground-state energy necessarily:",
+    "options": [
+      "Zero",
+      "Positive",
+      "Negative",
+      "Infinite"
+    ]
   },
   {
     "id": "physical_sep18_q41",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "For an anharmonic oscillator, the perturbative term in the Hamiltonian is | represented by : | | (A) he ke? | | | (C) ax8 (D) - ke | a",
+    "question_en": "For an anharmonic oscillator, the perturbative term in the Hamiltonian is represented by:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "kx",
+      "kx²",
+      "λx³",
+      "−kx"
     ],
     "options_gu": [],
     "answer": "C",
@@ -41990,11 +42018,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42006,7 +42034,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "For an anharmonic oscillator, the perturbative term in the Hamiltonian is represented by:",
+    "options": [
+      "kx",
+      "kx²",
+      "λx³",
+      "−kx"
+    ]
   },
   {
     "id": "physical_sep18_q42",
@@ -42225,13 +42260,13 @@
     "id": "physical_sep18_q48",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "A body of mass m with constant specific heat C at temperature of 500 K is brought into contact with an identical body at temperature of 100 K and the two are isolated from their surroundings. The change in entropy of the system when they reach equilibrium is : Co 2me | 2) (A) 3 | (B) _ me In (2 | | _ 5 +me © mein (5) ©) 300 | Phy. Sci.-II . 16 .",
+    "question_en": "A body of mass m with constant specific heat C at temperature 500 K is brought into contact with an identical body at 100 K and the two are isolated from their surroundings. The change in entropy of the system when they reach equilibrium is:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "2mC/3",
+      "mC ln(9/5)",
+      "mC ln(5/3)",
+      "mC/300"
     ],
     "options_gu": [],
     "answer": "B",
@@ -42239,11 +42274,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42255,19 +42290,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A body of mass m with constant specific heat C at temperature 500 K is brought into contact with an identical body at 100 K and the two are isolated from their surroundings. The change in entropy of the system when they reach equilibrium is:",
+    "options": [
+      "2mC/3",
+      "mC ln(9/5)",
+      "mC ln(5/3)",
+      "mC/300"
+    ]
   },
   {
     "id": "physical_sep18_q49",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "lence [e011 | ea20 | nas | ons7 | cous | eves | aves | oo72 joe tT salsa cle 7 e | go llageo | eee | 7007 |-7016 | 7024 | 7098 | 7042 | 7080] 7050 {7067/1 2 31/2 4 Bie 7 8) 81 {7076 | 7084 | 7099 | 7101 | 7110 | 7119 | 7126] 7195 | 7149 | 7162} 1 2 313 4 518 7 8 2 47100 | 7168 | 7177 | 7105 | 7199 | 7202 | 7210 | 7218 | 7226 } 7298 ]1 2 2/3 4 5/8 7 7 - -g3 (724s | 7251 | 7250 | 7207 | 7275 | 7204 ' 7202 | 7300 [ 7308 | 791611 2 2)3 4 5]4@ 6 7 84 ||7324 | 7932 | 7240 | 7948 | 7366 | 7964 | 7372 47300 | 7288 | 7906 ]1 2 2/3 4 5/8 ¢ 7 == 9.14159 O4971S tn x=log r= (1/M)=toggk — (1/M) 2.90259 0.26222 @= 2.71628 0.43428 togx=og,, #= Alog x M= 0.43429 163778 _ Phy. Sci.-II 2 .",
+    "question_en": "The pressure-versus-temperature curves for Maxwell-Boltzmann gas, Fermi-Dirac gas and Bose-Einstein gas are shown in the original source figure. Which of the following is the correct identification?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "I: M-B gas; II: F-D gas; III: B-E gas",
+      "I: F-D gas; II: M-B gas; III: B-E gas",
+      "I: B-E gas; II: M-B gas; III: F-D gas",
+      "I: B-E gas; II: F-D gas; III: M-B gas"
     ],
     "options_gu": [],
     "answer": "B",
@@ -42275,11 +42317,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42288,19 +42330,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The pressure-versus-temperature curves for Maxwell-Boltzmann gas, Fermi-Dirac gas and Bose-Einstein gas are shown in the original source figure. Which of the following is the correct identification?",
+    "options": [
+      "I: M-B gas; II: F-D gas; III: B-E gas",
+      "I: F-D gas; II: M-B gas; III: B-E gas",
+      "I: B-E gas; II: M-B gas; III: F-D gas",
+      "I: B-E gas; II: F-D gas; III: M-B gas"
+    ]
   },
   {
     "id": "physical_sep18_q50",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "j3162 39170 | 3177 | 3184 | 3192 | 3199 | 3206 f.32144 9221 | 322671 1 2/3 4 415 6 7 ‘51 fis2a6 | s24s | 3251 | s258 | 2208 | $278 | 3281 | 3260 | 9208 |a904]1 2 2/3 4 5[5 6 7 82 ||a311 | 3319 | 3327 | 3994 | 3342 | 3350 | 9457 |'9968 | 8379 | 9981/1 2 2/3 4 SI5 6 7| . - $3 j/a3as | 33506 | 3404 | 2412 | 3420 | 3428 | 3496 | 3443 | 3481 | 3459/1 2 2/3 4 5/6 6 7 84 Y9667 | 3475 4 3483 | 3491 [3409 | s508 | 3516 | 3524] a5g2 | 384071 2 2/3 4 5/8 6 7 - | 38 llasee fasse | a565 | 3573 $9581 ; 3889 | asu7 | 3808 | aa14 | a622]1 2 2/3 4 S16 7 7 _ ss fos [zs | ae Hoes ze| aera [sn ae ame Joe}: 2 fa. c fe 7g",
+    "question_en": "Molecules of samples of two different substances (with different molecular masses) are known to have the same RMS speeds. We can be sure that the substances have:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Same specific heats",
+      "Same absolute temperatures",
+      "Same internal energies",
+      "Different absolute temperatures"
     ],
     "options_gu": [],
     "answer": "D",
@@ -42308,11 +42357,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four options visually transcribed and checked against the official September 2018 GSET Physical Sciences Paper-II PDF. For Q49, the source graph is preserved; only the textual options were restored. Official answer value remains unchanged; syllabus mapping and key parity are separate checks.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -42321,7 +42370,14 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Molecules of samples of two different substances (with different molecular masses) are known to have the same RMS speeds. We can be sure that the substances have:",
+    "options": [
+      "Same specific heats",
+      "Same absolute temperatures",
+      "Same internal energies",
+      "Different absolute temperatures"
+    ]
   },
   {
     "id": "physical_sep18_q51",
