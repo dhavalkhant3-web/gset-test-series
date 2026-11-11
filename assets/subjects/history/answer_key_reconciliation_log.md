@@ -20,3 +20,7 @@ Compared each stored answer set with the official key PDF supplied by the user.
 
 Not compared: Oct 2010 P-II key, Oct 2014 P-III key, Jan 2002 / Jul 2004 / Jul 2006 keys, Nov 2022 / Nov 2023 / Dec 2021 / Dec 2024 / Nov 2025 keys (no key PDF or not yet checked).
 This checks answer letters only. It does NOT verify question text, options, or syllabus mapping.
+
+## September 2016 Paper-II — official website recheck (correction)
+
+The official GSET Final/Corrected Answer Key PDF lists Q48 = D (not A). The original question asks for the author of *The Wealth of Nations* and option D is Adam Smith. Therefore Q48 is not an official-key/content conflict. The earlier staging value A and review-only conflict note were incorrect. Q48 has been corrected to D and moved from review-only to the active bank. All 50 official key entries match after correction. Official source: https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf
