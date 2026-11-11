@@ -6,19 +6,22 @@
   "transcribed_questions": 400,
   "active_questions": 97,
   "pending_review": 303,
-  "visual_checked": 163,
+  "visual_checked": 168,
   "official_final_key_matched_in_batch": 71,
   "last_visual_review": {
     "session": "December 2002 Gujarati",
     "question_numbers": [
-      33,
-      34
+      42,
+      43,
+      44,
+      45,
+      46
     ],
-    "count": 2,
-    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 8 (printed page 9).",
-    "result": "Q33 and Q34 stems and all four options visually checked; transcriptions match the scan. Q34 mapped to official Unit 9; Q33 retained unmapped because its matching-list content spans multiple literary categories. Answer-key reconciliation remains pending."
+    "count": 5,
+    "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 10 (printed page 11).",
+    "result": "Q42-Q46 stems and all four options visually checked against the official scan. All five transcriptions match. Q42, Q44, Q45 and Q46 have defensible Unit 2/8/4/4 mappings respectively. Q35-Q41 remain unresolved due a printed question-number alignment discrepancy."
   },
-  "remaining_review_note": "303 records remain review-only. 66 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 237 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key.",
+  "remaining_review_note": "303 records remain review-only. 71 older-paper records have visually inspected stems/options; 32 selected answer letters match official final keys. Five December 2003 records still await official final-key reconciliation. 232 other records still need source-page review and/or key provenance. December 2021/January 2022 has 97 active and 3 review-only records; all 100 answer letters match official final key. December 2002 Q35–Q41 question-number alignment requires audit.",
   "syllabus_mapping": "partial_question_level_mapping",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -147,7 +150,7 @@
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
     "result": "All 59 remaining pending-question answer letters (Q33, Q36–Q37, Q39, Q44, Q47–Q100) match the official final answer key; no answer-letter changes were needed. This is key reconciliation only, not visual question-source verification."
   },
-  "visual_source_verified_in_batch": 66,
+  "visual_source_verified_in_batch": 71,
   "visual_source_verified_total_dec2021": 97,
   "remaining_visual_review_dec2021": 3,
   "last_visual_verification": {
@@ -173,12 +176,12 @@
     "unmapped_active_records": 3,
     "pending_records_reviewed_for_topic_mapping": 303,
     "pending_records_with_provisional_unit_suggestion": 121,
-    "pending_records_without_defensible_unit_assignment": 166,
-    "note": "303 review-only records: 16 question-level mappings verified in individual review; 121 provisional unit suggestions and 166 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
+    "pending_records_without_defensible_unit_assignment": 162,
+    "note": "303 review-only records: 20 question-level mappings verified in individual review; 121 provisional unit suggestions and 162 unassigned records remain. Active December 2021/January 2022 mapping totals remain 74 verified, 20 provisional, 3 context-dependent."
   },
-  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 16 question-level mappings have been individually verified against the official Code 06 unit titles; 121 provisional suggestions and 166 unassigned records remain.",
+  "syllabus_mapping_note": "Among 303 review-only Gujarati records, 20 question-level mappings have been individually verified against the official Code 06 unit titles; 121 provisional suggestions and 162 unassigned records remain.",
   "source_verification_checkpoint": {
-    "newly_visual_checked": 66,
+    "newly_visual_checked": 71,
     "records": [
       {
         "paper": "December 2002 Gujarati",
@@ -216,7 +219,12 @@
           31,
           32,
           33,
-          34
+          34,
+          42,
+          43,
+          44,
+          45,
+          46
         ],
         "printed_pages": [
           3,
@@ -225,9 +233,10 @@
           6,
           7,
           8,
-          9
+          9,
+          11
         ],
-        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q32 on page 8; Q33–Q34 on PDF page index 8 (printed page 9)."
+        "note": "Q20–Q30 visually checked on PDF pages 6–7 (printed numbering parity flagged); Q31–Q34 on pages 8–9; Q42–Q46 on PDF page index 10 (printed page 11). Printed-number alignment for repository Q35–Q41 is inconsistent and remains unresolved; those records were not source-verified."
       },
       {
         "paper": "December 2003 Gujarati",
@@ -360,5 +369,5 @@
     ]
   },
   "official_key_matched_in_batch": 79,
-  "last_batch_saved": "2026-11-11: December 2002 Q33-Q34 visually checked; Q34 Unit 9 mapping verified; six August 2017 question-level mappings verified (Q14, Q30, Q39, Q41, Q43, Q47)."
+  "last_batch_saved": "2026-11-11: December 2002 Q42-Q46 source-verified against printed page 11; Q42/Q44/Q45/Q46 mappings verified. Q35-Q41 numbering discrepancy retained for audit."
 }
