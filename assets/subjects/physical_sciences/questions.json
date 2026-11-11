@@ -40850,13 +40850,13 @@
     "id": "physical_sep18_q100",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "The excited states of an even-even nucleus E(4*) and E(2*) are such that E(4*VE(2*) = 2. Then : oo",
+    "question_en": "The excited states of an even-even nucleus E(4⁺) and E(2⁺) are such that E(4⁺)/E(2⁺) = 2. Then:",
     "question_gu": "",
     "options_en": [
-      "The nucleus is a deformed nucleus . oo",
-      "The nucleus is closed shell nucleus |",
-      "The nucleus displays vibrational character ’",
-      "The nucleus displays rotational character a oo | 7 Phy. Sci.-II 29 (P.T0]"
+      "The nucleus is a deformed nucleus",
+      "The nucleus is a closed-shell nucleus",
+      "The nucleus displays vibrational character",
+      "The nucleus displays rotational character"
     ],
     "options_gu": [],
     "answer": "C",
@@ -40865,7 +40865,7 @@
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -40880,7 +40880,14 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The excited states of an even-even nucleus E(4⁺) and E(2⁺) are such that E(4⁺)/E(2⁺) = 2. Then:",
+    "options": [
+      "The nucleus is a deformed nucleus",
+      "The nucleus is a closed-shell nucleus",
+      "The nucleus displays vibrational character",
+      "The nucleus displays rotational character"
+    ]
   },
   {
     "id": "physical_sep18_q11",
@@ -43903,13 +43910,13 @@
     "id": "physical_sep18_q91",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Binding energy difference in mirror nuclei can be understood using Coulomb energy difference; this indicates : .",
+    "question_en": "Binding energy difference in mirror nuclei can be understood using Coulomb energy difference; this indicates:",
     "question_gu": "",
     "options_en": [
-      "nuclear force is spin dependent .",
-      "nuclear force is charge independent .",
-      "nuclear force is short range force — a",
-      "nuclear force is as strong as the Coulomb force , Phy. Sci.-II 27 : PTO]"
+      "Nuclear force is spin dependent",
+      "Nuclear force is charge independent",
+      "Nuclear force is a short-range force",
+      "Nuclear force is as strong as the Coulomb force"
     ],
     "options_gu": [],
     "answer": "B",
@@ -43918,7 +43925,7 @@
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -43933,19 +43940,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Binding energy difference in mirror nuclei can be understood using Coulomb energy difference; this indicates:",
+    "options": [
+      "Nuclear force is spin dependent",
+      "Nuclear force is charge independent",
+      "Nuclear force is a short-range force",
+      "Nuclear force is as strong as the Coulomb force"
+    ]
   },
   {
     "id": "physical_sep18_q92",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": ". Uranium nucleus at rest decays as given : . . . . 2351] —> 2317 +a “Which of the following is true ? | |",
+    "question_en": "A uranium nucleus at rest decays as ²³⁵₉₂U → ²³¹₉₀Th + α. Which of the following is true?",
     "question_gu": "",
     "options_en": [
-      "Each decay product has same kinetic energy |",
-      "Each product has same speed . - .",
+      "Each decay product has the same kinetic energy",
+      "Each product has the same speed",
       "The center of mass of the resulting system is stationary",
-      "Thorium nucleus has more momentum than the momentum of the - a-particle"
+      "Thorium nucleus has more momentum than the α-particle"
     ],
     "options_gu": [],
     "answer": "C",
@@ -43954,7 +43968,7 @@
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -43969,19 +43983,26 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "A uranium nucleus at rest decays as ²³⁵₉₂U → ²³¹₉₀Th + α. Which of the following is true?",
+    "options": [
+      "Each decay product has the same kinetic energy",
+      "Each product has the same speed",
+      "The center of mass of the resulting system is stationary",
+      "Thorium nucleus has more momentum than the α-particle"
+    ]
   },
   {
     "id": "physical_sep18_q93",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "An experimenter measures 9934 counts during one hour, from a radioactive sample: From this number, the count rate of the sample can be estimated with a standard deviation at most nearly : . - (A) 100 (B) 200 | | - (©) 300 | (D) 400. | a 94, Suppose #X decays by natural radioactivity in two stages to 4+Y. The two stages would most likely be :",
+    "question_en": "An experimenter measures 9934 counts during one hour from a radioactive sample. From this number, the count rate of the sample can be estimated with a standard deviation at most nearly:",
     "question_gu": "",
     "options_en": [
-      "a-emission followed by an electron capture",
-      "Bt decay followed by a-emission |",
-      "B- decay followed by a-emission | _",
-      "B emission followed by delayed neutron emission ;"
+      "100",
+      "200",
+      "300",
+      "400"
     ],
     "options_gu": [],
     "answer": "A",
@@ -43990,7 +44011,7 @@
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -44005,19 +44026,26 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "An experimenter measures 9934 counts during one hour from a radioactive sample. From this number, the count rate of the sample can be estimated with a standard deviation at most nearly:",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "400"
+    ]
   },
   {
     "id": "physical_sep18_q94",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "An experimenter measures 9934 counts during one hour, from a radioactive sample: From this number, the count rate of the sample can be estimated with a standard deviation at most nearly : . - (A) 100 (B) 200 | | - (©) 300 | (D) 400. | a 94, Suppose #X decays by natural radioactivity in two stages to 4+Y. The two stages would most likely be :",
+    "question_en": "Suppose a nucleus ᴬ_ZX decays by natural radioactivity in two stages to ᴬ⁻⁴_Z⁻¹Y. The two stages would most likely be:",
     "question_gu": "",
     "options_en": [
-      "a-emission followed by an electron capture",
-      "Bt decay followed by a-emission |",
-      "B- decay followed by a-emission | _",
-      "B emission followed by delayed neutron emission ;"
+      "α-emission followed by electron capture",
+      "β⁺ decay followed by α-emission",
+      "β⁻ decay followed by α-emission",
+      "β⁻ emission followed by delayed neutron emission"
     ],
     "options_gu": [],
     "answer": "C",
@@ -44026,7 +44054,7 @@
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -44041,19 +44069,26 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Suppose a nucleus ᴬ_ZX decays by natural radioactivity in two stages to ᴬ⁻⁴_Z⁻¹Y. The two stages would most likely be:",
+    "options": [
+      "α-emission followed by electron capture",
+      "β⁺ decay followed by α-emission",
+      "β⁻ decay followed by α-emission",
+      "β⁻ emission followed by delayed neutron emission"
+    ]
   },
   {
     "id": "physical_sep18_q95",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "_ The puzzle of magic numbers for nuclei was resolved by : _ |",
+    "question_en": "The puzzle of magic numbers for nuclei was resolved by:",
     "question_gu": "",
     "options_en": [
-      "Introducing hard core potential | 7",
+      "Introducing hard-core potential",
       "Introducing Yukawa potential to approximate nuclear potential well",
-      "Introducing spin-orbit force part to the nuclear potential co",
-      "Introducing tensor ‘character to the nuclear force Phy. Sei.-II 28 oe"
+      "Introducing spin-orbit force part to the nuclear potential",
+      "Introducing tensor character to the nuclear force"
     ],
     "options_gu": [],
     "answer": "C",
@@ -44062,7 +44097,7 @@
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -44077,19 +44112,26 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "The puzzle of magic numbers for nuclei was resolved by:",
+    "options": [
+      "Introducing hard-core potential",
+      "Introducing Yukawa potential to approximate nuclear potential well",
+      "Introducing spin-orbit force part to the nuclear potential",
+      "Introducing tensor character to the nuclear force"
+    ]
   },
   {
     "id": "physical_sep18_q96",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Most of the fission energy goes in = a ; | a | |",
+    "question_en": "Most of the fission energy goes in:",
     "question_gu": "",
     "options_en": [
-      "neutrinoes | | | | |",
-      "kinetic energy of the large fission products |",
-      "y-rays emitted after the fission | a |",
-      "kinetic energy of neutrons SO HO"
+      "Neutrinos",
+      "Kinetic energy of the large fission products",
+      "γ-rays emitted after the fission",
+      "Kinetic energy of neutrons"
     ],
     "options_gu": [],
     "answer": "B",
@@ -44098,7 +44140,7 @@
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -44113,19 +44155,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Most of the fission energy goes in:",
+    "options": [
+      "Neutrinos",
+      "Kinetic energy of the large fission products",
+      "γ-rays emitted after the fission",
+      "Kinetic energy of neutrons"
+    ]
   },
   {
     "id": "physical_sep18_q97",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "(9668 | 8872 | $877 | 9881 | 9866 | Be00 | 9604 | 9a99| w903 | 50810 1 1/2 2 3/3 4 4 - 96 (9012 | 9917 | 9921 | 99z6 | e890 | 9034 | ena0 | 9043 | cease !oes2]0 1 1/2 2 315 4 «. 90 |/9956 | 9961 | 9665 | 9060 | 9974 | 0976 | 9989 | 9087} 9901 | s908 fo 1 1/2 2 3l3 3 4 P 1. 2 a8 5 6 7 8 6 (40 | | loge” (0.4543 (0.8886 1.9028 1.7372 2.1715 26058 9.9401 3.4748 3.0087 4.5420 ge’ 45657 T1914 Zeo7t 22628 5.ezss 33062. Z.9se0 4.5258 4.0013 E.es71. sO Phy. Sci.-II 3 os ‘[P.T.O.]",
+    "question_en": "Mesons are made up of:",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Two quarks",
+      "One quark and one antiquark",
+      "Three quarks",
+      "Two quarks and one antiquark"
     ],
     "options_gu": [],
     "answer": "B",
@@ -44133,11 +44182,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -44146,19 +44195,26 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Mesons are made up of:",
+    "options": [
+      "Two quarks",
+      "One quark and one antiquark",
+      "Three quarks",
+      "Two quarks and one antiquark"
+    ]
   },
   {
     "id": "physical_sep18_q98",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Quarks interact with one another by exchange of :",
+    "question_en": "Quarks interact with one another by exchange of:",
     "question_gu": "",
     "options_en": [
-      "photoss",
-      "n-mesons",
-      "w*, o- and z° particles",
-      "gluons"
+      "Photons",
+      "π-mesons",
+      "W⁺, W⁻ and Z⁰ particles",
+      "Gluons"
     ],
     "options_gu": [],
     "answer": "D",
@@ -44167,7 +44223,7 @@
     "explanation_en": "Official GSET final answer key: D.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ D છે.",
     "review_flag": false,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
     "source_verified": true,
@@ -44182,19 +44238,26 @@
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Quarks interact with one another by exchange of:",
+    "options": [
+      "Photons",
+      "π-mesons",
+      "W⁺, W⁻ and Z⁰ particles",
+      "Gluons"
+    ]
   },
   {
     "id": "physical_sep18_q99",
     "paper_id": "physical_sep18",
     "exam": "September 2018",
-    "question_en": "Which conservation law is violated in the proposed decay ? | wt — m+, i. | (A) Lepton conservation | (B) Strangeness conservation - | (C) Energy conservation — | -_ () Parity conservation _ | |",
+    "question_en": "Which conservation law is violated in the proposed decay μ⁺ → π⁺ + ν̄μ?",
     "question_gu": "",
     "options_en": [
-      "",
-      "",
-      "",
-      ""
+      "Lepton conservation",
+      "Strangeness conservation",
+      "Energy conservation",
+      "Parity conservation"
     ],
     "options_gu": [],
     "answer": "C",
@@ -44202,11 +44265,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Source-image/manual review required; OCR is not authoritative. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks.",
+    "review_flag": false,
+    "review_note": "Question stem and four English options visually checked against the official GSET September 2018 Physical Sciences Paper-II PDF. Q93 and Q94 OCR records were separated into their correct distinct source questions; the source chart/figures remain intact. Existing official answer letter retained pending independent final-key parity check.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -44218,6 +44281,13 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "question": "Which conservation law is violated in the proposed decay μ⁺ → π⁺ + ν̄μ?",
+    "options": [
+      "Lepton conservation",
+      "Strangeness conservation",
+      "Energy conservation",
+      "Parity conservation"
+    ]
   }
 ]
