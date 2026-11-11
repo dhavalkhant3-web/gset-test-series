@@ -20,7 +20,7 @@
     "source": "Official GSET Gujarati Paper-II PDF dec0206.pdf, PDF page index 11 (printed page 12).",
     "result": "Q47-Q50 passage-based stems and all four options visually checked against the official scan. Exact transcription match; passage context is present across printed pages 11–12. Mapping and key parity remain pending."
   },
-  "remaining_review_note": "303 review-only records remain. 81 records now have visually verified source text/options; 222 syllabus mappings remain provisional. December 2002 repository Q34 remains unmatched; Q35–Q41 map to printed Q34–Q40 and Q42 maps to printed Q42. Historical answer-key reconciliation remains pending for these December 2002 rows. August 2017 Q1–Q50 match the official FINAL answer key. December 2003 Q1–Q5 match a published 'KEY FOR PAPER-II' PDF not explicitly labelled final.",
+  "remaining_review_note": "303 review-only records remain. 81 source texts/options visually verified, with 222 mappings still provisional. December 2002 staging Q35–Q41 map to printed Q34–Q40; Q42 maps to printed Q42. Published-key comparison: Q37 and Q42 match; Q35, Q36, Q38, Q39, Q40, Q41 conflict with the key when aligned to printed numbers; Q34 staging stem is unmatched. Historical PDF is labelled KEY FOR PAPER-II, not explicitly FINAL. August 2017 Q1–Q50 match official FINAL key. December 2003 Q1–Q5 match published key only; final status unconfirmed.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -428,7 +428,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-11: December 2002 scan pages 9–11 reconciled. Repository Q35–Q41 match printed Q34–Q40; Q42 matches printed Q42; repository Q34 remains unmatched. Source verification and unit mapping advanced by 8; historical key parity remains pending.",
+  "last_batch_saved": "2026-11-11: December 2002 official scan and published key aligned by printed numbering. Repository Q35–Q41 map to printed Q34–Q40; Q42 maps to printed Q42. Only Q37 and Q42 match the published key; six rows conflict and Q34 is unmatched. No answer letters overwritten.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
