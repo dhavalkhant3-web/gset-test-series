@@ -26,11 +26,11 @@
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 5,
+      "question_source_verified": 15,
       "source_verified": false,
-      "review_flags_remaining_count": 45,
+      "review_flags_remaining_count": 35,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
+      "review_note": "15/50 questions visually checked; 5 selected questions also matched to official final key. Remaining visual review and full-paper key parity pending.",
       "answer_key_reconciled_count": 5
     },
     {
@@ -118,12 +118,12 @@
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 5,
+      "question_source_verified": 11,
       "source_verified": false,
-      "review_flags_remaining_count": 95,
+      "review_flags_remaining_count": 89,
       "status": "partial_visual_review",
-      "review_note": "5/100 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
-      "answer_key_reconciled_count": 5
+      "review_note": "11/100 questions visually checked and 11/11 selected answer letters matched to official final key; full-paper visual review and key parity pending.",
+      "answer_key_reconciled_count": 11
     },
     {
       "paper_id": "gujarati_dec2021",
