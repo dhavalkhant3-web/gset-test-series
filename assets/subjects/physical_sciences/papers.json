@@ -216,7 +216,10 @@
       "unit_mapping_pending_count": 19,
       "unit_mapping_verified_count": 0,
       "unit_mapping_status_note": "Current Paper-II counts: 31 provisional, 19 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_sep13",
