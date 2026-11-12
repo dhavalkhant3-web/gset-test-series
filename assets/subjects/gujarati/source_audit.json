@@ -149,7 +149,7 @@
     "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
     "pending_records_with_verified_unit_mapping": 137
   },
-  "syllabus_mapping_note": "303 review-only records: 152 source-verified with verified mappings; 151 remain provisional; 0 unmapped.",
+  "syllabus_mapping_note": "303 review-only records: 302 now have verified question-level mappings against the official GSET Gujarati Code 06 syllabus; one remains provisional because December 2002 repository Q35 is an unmatched source row. Zero records are unmapped.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 137,
     "records": [
@@ -462,7 +462,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: Completed December 2019 Gujarati visual source verification 100/100 against official scan. Corrected printed spellings in Q30 option D (મનહર કપૂર) and Q100 option B (વિવેચકનું કાર્ય). Official FINAL key parity remains 100/100; Q7 is Z/not evaluated. Syllabus mapping remains 32 verified and 68 provisional. December 2002 and December 2003 source/key issues remain open.",
+  "last_batch_saved": "2026-11-12: December 2019 Gujarati visual verification, official final-key parity and all 100 syllabus mappings completed. Across the 303 review-only records, 302 question-level mappings are now verified against the official Code 06 syllabus; only unmatched December 2002 Q35 remains provisional. December 2002 Q36–Q41 printed-number/key alignment and December 2003 Q18 key reconciliation remain open.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -825,11 +825,38 @@
     },
     "syllabus_mapping": {
       "review_only_records": 303,
-      "verified_mappings": 152,
-      "provisional_mappings": 151,
+      "verified_mappings": 302,
+      "provisional_mappings": 1,
       "unmapped": 0,
-      "note": "Mapping count remains unchanged; no provisional mapping was promoted without direct review against the official syllabus."
+      "remaining_record": {
+        "paper": "December 2002 Gujarati",
+        "repository_question": 35,
+        "reason": "Unmatched staging row; correct source-paper identity has not been established. Do not assign a final syllabus unit until provenance is confirmed."
+      },
+      "updated_sessions": {
+        "december_2019": {
+          "verified": 100,
+          "provisional": 0
+        },
+        "august_2017": {
+          "verified": 50,
+          "provisional": 0
+        },
+        "december_2003": {
+          "verified": 50,
+          "provisional": 0
+        },
+        "december_2008": {
+          "verified": 50,
+          "provisional": 0
+        },
+        "december_2021_review_only": {
+          "verified": 3,
+          "provisional": 0
+        }
+      },
+      "note": "All mappings were checked against the official 6-page GSET Gujarati Code 06 syllabus. Source-review and answer-key flags were not cleared merely because a syllabus mapping was verified."
     },
-    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed."
+    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks."
   }
 }
