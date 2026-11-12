@@ -90,9 +90,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 6,
-      "questions_loaded": 29,
-      "questions_pending_review": 371,
-      "data_status": "400 transcribed across six sessions. 29 December 2021/January 2022 records currently marked source-verified in active JSON; 371 remain review-only. Source provenance for active records should be independently audited before final release. Dec 2019 Q7 official Z/not evaluated. Syllabus mapping pending."
+      "questions_loaded": 97,
+      "questions_pending_review": 303,
+      "data_status": "400 transcribed across six sessions. Active questions.json: 97/97 source-verified, answer-key checked and syllabus-mapped. Review-only bank: 303 questions; 246/303 source-verified, 270/303 answer-key checked against available official keys, and 303/303 syllabus mappings verified. Overall: 343/400 source-verified, 367/400 answer-key checked, 400/400 syllabus mappings verified; 110 review flags remain. December 2019: 100/100 source, final-key and mapping checks; Q7 official Z/not evaluated. December 2003: 50/50 source and published-key matches, including Q18=B; key PDF is not labelled FINAL. December 2002: 50/50 source and mapping checks; five published-key conflicts and one duplicate printed Q34 key-identity issue remain. August 2017 and December 2008 still have 50 review flags each; December 2021 Q36, Q37 and Q60 remain source-review only. Do not treat subject as fully source-verified or release-ready."
     },
     {
       "code": "07",
