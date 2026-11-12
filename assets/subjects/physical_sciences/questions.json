@@ -33709,8 +33709,8 @@
     "syllabus_unit": 1,
     "unit_number": 1,
     "unit_id": "unit_1",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Elementary probability theory — Unit I Mathematical Methods of Physics."
   },
   {
     "id": "physical_oct10_q02",
@@ -33738,8 +33738,8 @@
     "syllabus_unit": 1,
     "unit_number": 1,
     "unit_id": "unit_1",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Matrices and eigenvalues/eigenvectors — Unit I Mathematical Methods of Physics."
   },
   {
     "id": "physical_oct10_q03",
@@ -33764,11 +33764,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 1,
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Vector algebra and vector products — Unit I Mathematical Methods of Physics."
   },
   {
     "id": "physical_oct10_q04",
@@ -33796,8 +33796,8 @@
     "syllabus_unit": 1,
     "unit_number": 1,
     "unit_id": "unit_1",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Fourier series — Unit I Mathematical Methods of Physics."
   },
   {
     "id": "physical_oct10_q05",
@@ -33825,8 +33825,8 @@
     "syllabus_unit": 1,
     "unit_number": 1,
     "unit_id": "unit_1",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Introductory group theory, SU(2) — Unit I Mathematical Methods of Physics."
   },
   {
     "id": "physical_oct10_q06",
@@ -33851,11 +33851,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 1,
-    "unit_number": 1,
-    "unit_id": "unit_1",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 2,
+    "unit_number": 2,
+    "unit_id": "unit_2",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Newton’s laws and differential equations of motion — Unit II Classical Mechanics."
   },
   {
     "id": "physical_oct10_q07",
@@ -33883,8 +33883,8 @@
     "syllabus_unit": 2,
     "unit_number": 2,
     "unit_id": "unit_2",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Moment of inertia and rigid-body dynamics — Unit II Classical Mechanics."
   },
   {
     "id": "physical_oct10_q08",
@@ -33912,8 +33912,8 @@
     "syllabus_unit": 2,
     "unit_number": 2,
     "unit_id": "unit_2",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Euler angles and rigid-body dynamics — Unit II Classical Mechanics."
   },
   {
     "id": "physical_oct10_q09",
@@ -33938,11 +33938,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 2,
+    "unit_number": 2,
+    "unit_id": "unit_2",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Special theory of relativity and relativistic kinematics — Unit II Classical Mechanics."
   },
   {
     "id": "physical_oct10_q10",
@@ -33970,8 +33970,8 @@
     "syllabus_unit": 2,
     "unit_number": 2,
     "unit_id": "unit_2",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Lagrangian formalism — Unit II Classical Mechanics."
   },
   {
     "id": "physical_oct10_q11",
@@ -33999,8 +33999,8 @@
     "syllabus_unit": 3,
     "unit_number": 3,
     "unit_id": "unit_3",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Electrostatics and Maxwell-field condition for a conservative electrostatic field — Unit III Electromagnetic Theory."
   },
   {
     "id": "physical_oct10_q12",
@@ -34025,11 +34025,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 3,
+    "unit_number": 3,
+    "unit_id": "unit_3",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Electrostatics and grounded conducting boundary — Unit III Electromagnetic Theory."
   },
   {
     "id": "physical_oct10_q13",
@@ -34054,11 +34054,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 8,
-    "unit_number": 8,
-    "unit_id": "unit_8",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 3,
+    "unit_number": 3,
+    "unit_id": "unit_3",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Dielectrics and refractive index — Unit III Electromagnetic Theory."
   },
   {
     "id": "physical_oct10_q14",
@@ -34083,11 +34083,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 3,
+    "unit_number": 3,
+    "unit_id": "unit_3",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Dynamics of charged particles in electromagnetic fields — Unit III Electromagnetic Theory."
   },
   {
     "id": "physical_oct10_q15",
@@ -34112,11 +34112,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Resonance in an LCR circuit — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q16",
@@ -34141,11 +34141,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 4,
-    "unit_number": 4,
-    "unit_id": "unit_4",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 7,
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Electron spin and Stern–Gerlach experiment — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q17",
@@ -34170,11 +34170,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 4,
-    "unit_number": 4,
-    "unit_id": "unit_4",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 7,
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Quantum states of an electron in an atom and principal-quantum-number degeneracy — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q18",
@@ -34199,11 +34199,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 4,
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Momentum representation and momentum eigenfunctions — Unit IV Quantum Mechanics."
   },
   {
     "id": "physical_oct10_q19",
@@ -34231,8 +34231,8 @@
     "syllabus_unit": 4,
     "unit_number": 4,
     "unit_id": "unit_4",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Parity of the wavefunction and space inversion — Unit IV Quantum Mechanics."
   },
   {
     "id": "physical_oct10_q20",
@@ -34257,11 +34257,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 4,
-    "unit_number": 4,
-    "unit_id": "unit_4",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 9,
+    "unit_number": 9,
+    "unit_id": "unit_9",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Alpha decay and tunnelling through a nuclear potential barrier — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct10_q21",
@@ -34289,8 +34289,8 @@
     "syllabus_unit": 5,
     "unit_number": 5,
     "unit_id": "unit_5",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: First law of thermodynamics — Unit V Thermodynamic and Statistical Physics."
   },
   {
     "id": "physical_oct10_q22",
@@ -34318,8 +34318,8 @@
     "syllabus_unit": 5,
     "unit_number": 5,
     "unit_id": "unit_5",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Blackbody radiation — Unit V Thermodynamic and Statistical Physics."
   },
   {
     "id": "physical_oct10_q23",
@@ -34347,8 +34347,8 @@
     "syllabus_unit": 5,
     "unit_number": 5,
     "unit_id": "unit_5",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Canonical ensemble — Unit V Thermodynamic and Statistical Physics."
   },
   {
     "id": "physical_oct10_q24",
@@ -34373,11 +34373,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Microstates and statistical counting — Unit V Thermodynamic and Statistical Physics."
   },
   {
     "id": "physical_oct10_q25",
@@ -34402,11 +34402,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 7,
-    "unit_number": 7,
-    "unit_id": "unit_7",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional content-based suggestion against the official GSET syllabus unit title. Question-level mapping still requires expert confirmation; this is not marked verified."
+    "syllabus_unit": 4,
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: De Broglie wave-particle duality — Unit IV Quantum Mechanics."
   },
   {
     "id": "physical_oct10_q26",
@@ -34434,8 +34434,8 @@
     "syllabus_unit": 6,
     "unit_number": 6,
     "unit_id": "unit_6",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Negative feedback and amplifier gain-bandwidth — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q27",
@@ -34460,11 +34460,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Signal waveform differentiation — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q28",
@@ -34492,8 +34492,8 @@
     "syllabus_unit": 6,
     "unit_number": 6,
     "unit_id": "unit_6",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Photodetectors and light sensors — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q29",
@@ -34521,8 +34521,8 @@
     "syllabus_unit": 6,
     "unit_number": 6,
     "unit_id": "unit_6",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Operational-amplifier slew rate and signal performance — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q30",
@@ -34547,11 +34547,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": false,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Digital logic and Karnaugh-map minimization — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q31",
@@ -34576,11 +34576,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Optical pyrometry and temperature measurement — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q32",
@@ -34605,11 +34605,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Measurement accuracy and limiting error — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q33",
@@ -34634,11 +34634,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Resonant LC circuit response — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q34",
@@ -34663,11 +34663,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Shot noise in a p-n junction — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q35",
@@ -34692,11 +34692,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 2,
-    "unit_number": 2,
-    "unit_id": "unit_2",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 6,
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Linear variable differential transformer as a displacement transducer — Unit VI Electronics and Experimental Methods."
   },
   {
     "id": "physical_oct10_q36",
@@ -34721,11 +34721,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 7,
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Atomic electronic configuration — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q37",
@@ -34753,8 +34753,8 @@
     "syllabus_unit": 7,
     "unit_number": 7,
     "unit_id": "unit_7",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Moseley’s law and X-ray spectra — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q38",
@@ -34779,11 +34779,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 7,
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Rotational spectra of diatomic molecules — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q39",
@@ -34811,8 +34811,8 @@
     "syllabus_unit": 7,
     "unit_number": 7,
     "unit_id": "unit_7",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Laser systems — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q40",
@@ -34837,11 +34837,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 7,
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Atomic ionization potentials — Unit VII Atomic and Molecular Physics."
   },
   {
     "id": "physical_oct10_q41",
@@ -34869,8 +34869,8 @@
     "syllabus_unit": 8,
     "unit_number": 8,
     "unit_id": "unit_8",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Face-centred-cubic lattice coordination — Unit VIII Condensed Matter Physics."
   },
   {
     "id": "physical_oct10_q42",
@@ -34898,8 +34898,8 @@
     "syllabus_unit": 8,
     "unit_number": 8,
     "unit_id": "unit_8",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Phonons and lattice vibrations — Unit VIII Condensed Matter Physics."
   },
   {
     "id": "physical_oct10_q43",
@@ -34924,11 +34924,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": null,
-    "unit_number": null,
-    "unit_id": "",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending."
+    "syllabus_unit": 8,
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Semiconductor band theory and Fermi level — Unit VIII Condensed Matter Physics."
   },
   {
     "id": "physical_oct10_q44",
@@ -34953,11 +34953,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 8,
-    "unit_number": 8,
-    "unit_id": "unit_8",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Paramagnetism — Unit V Thermodynamic and Statistical Physics."
   },
   {
     "id": "physical_oct10_q45",
@@ -34985,8 +34985,8 @@
     "syllabus_unit": 8,
     "unit_number": 8,
     "unit_id": "unit_8",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Superconductivity and energy gap — Unit VIII Condensed Matter Physics."
   },
   {
     "id": "physical_oct10_q46",
@@ -35014,8 +35014,8 @@
     "syllabus_unit": 9,
     "unit_number": 9,
     "unit_id": "unit_9",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Nuclear radii — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct10_q47",
@@ -35043,8 +35043,8 @@
     "syllabus_unit": 9,
     "unit_number": 9,
     "unit_id": "unit_9",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Pairing nature of nuclear force — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct10_q48",
@@ -35072,8 +35072,8 @@
     "syllabus_unit": 9,
     "unit_number": 9,
     "unit_id": "unit_9",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Parity non-conservation in weak interaction — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct10_q49",
@@ -35098,11 +35098,11 @@
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
-    "syllabus_unit": 4,
-    "unit_number": 4,
-    "unit_id": "unit_4",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_unit": 9,
+    "unit_number": 9,
+    "unit_id": "unit_9",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Nuclear spin and parity — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct10_q50",
@@ -35130,8 +35130,8 @@
     "syllabus_unit": 9,
     "unit_number": 9,
     "unit_id": "unit_9",
-    "syllabus_mapping_status": "provisional_content_based_pending_official_verification",
-    "syllabus_mapping_note": "Provisional keyword-based suggestion against the official syllabus_units.json unit titles; question-level confirmation against the complete official syllabus is still required."
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to the official GSET Physical Sciences syllabus, Code 02: Quark model and proton baryon composition — Unit IX Nuclear and Particle Physics."
   },
   {
     "id": "physical_oct11_q01",
