@@ -6983,5 +6983,40 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 November 2022 figure and OCR restoration",
+    "branch": "integration/combined-subject-banks",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov22/nov2202.pdf",
+    "questions_restored": [
+      5,
+      38,
+      41,
+      86
+    ],
+    "review_flags_cleared": 4,
+    "source_verified_delta": 4,
+    "figure_assets": [
+      "assets/nov22_q05_graphs.png",
+      "assets/nov22_q38_wavefunctions.png",
+      "assets/nov22_q41_two_electron_atom.png"
+    ],
+    "official_answer_keys_unchanged": true,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 manifest-wide official final-key parity count",
+    "papers": 19,
+    "questions": 1300,
+    "exact_matches": 1300,
+    "mismatches": 0,
+    "sidecar_count": 19,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

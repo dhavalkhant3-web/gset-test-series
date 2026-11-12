@@ -34,7 +34,11 @@
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar jan02_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_dec02",
@@ -63,7 +67,8 @@
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_mismatch_count": 0,
-      "answer_key_reconciliation_corrected_count": 0
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar dec02_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_dec03",
@@ -89,7 +94,11 @@
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar dec03_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_jul04",
@@ -119,7 +128,7 @@
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
-      "answer_key_reconciliation_source": "Official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/jy04/jy0402.pdf; Q1–Q50 compared against canonical answer and official_answer fields; 0 remaining mismatches."
+      "answer_key_reconciliation_source": "Official final-key sidecar jul04_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_jul06",
@@ -147,7 +156,7 @@
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
-      "answer_key_reconciliation_source": "Official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/jy06/jy0602.pdf; Q1–Q50 compared against canonical answer and official_answer fields; 0 remaining mismatches.",
+      "answer_key_reconciliation_source": "Official final-key sidecar jul06_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0
     },
@@ -177,7 +186,7 @@
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
-      "answer_key_reconciliation_source": "Official GSET December 2008 Physical Sciences Paper-II final answer-key scan; all Q1-Q50 letters visually compared against the repository transcription.",
+      "answer_key_reconciliation_source": "Official final-key sidecar dec08_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "source_review_note": "All 50 questions and four options visually checked against the official December 2008 GSET Physical Sciences Paper-II scan. The six final flagged records (Q29, Q34, Q38, Q44, Q48, Q50) were checked and corrected/confirmed in the canonical bank. Official answer-key transcription parity is separately recorded as 50/50; this is not a blanket assertion that every question-bank answer was independently reconciled in this pass."
@@ -210,7 +219,7 @@
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 1,
-      "answer_key_reconciliation_source": "Official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1002.pdf; Q1–Q50 compared against canonical answer and official_answer fields; 0 remaining mismatches."
+      "answer_key_reconciliation_source": "Official final-key sidecar oct10_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_oct11",
@@ -239,7 +248,8 @@
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_mismatch_count": 0,
-      "answer_key_reconciliation_corrected_count": 0
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar oct11_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_sep13",
@@ -267,7 +277,7 @@
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
-      "answer_key_reconciliation_source": "Official GSET final answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/sept13/sept1302.pdf; Q1–Q50 compared against canonical answer and official_answer fields; 0 remaining mismatches.",
+      "answer_key_reconciliation_source": "Official final-key sidecar sep13_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0
     },
@@ -296,7 +306,11 @@
       "unit_mapping_verified_count": 50,
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
-      "options_status_note": "All 50 English stems and option sets are present; 24 source-sensitive flagged records were checked against the official October 2014 PDF and notation corrections applied."
+      "options_status_note": "All 50 English stems and option sets are present; 24 source-sensitive flagged records were checked against the official October 2014 PDF and notation corrections applied.",
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar oct14_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_sep16",
@@ -324,7 +338,9 @@
       "unit_mapping_status_note": "All 50 question-level mappings are marked official_verified in the canonical question bank.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
-      "answer_key_reconciliation_mismatch_count": 0
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar sept16_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_aug17",
@@ -351,7 +367,11 @@
       "unit_mapping_verified_count": 50,
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
-      "options_status_note": "All 50 questions have four English options; Q05 graph-based options and the original log-log graph are now represented in the canonical record and app asset."
+      "options_status_note": "All 50 questions have four English options; Q05 graph-based options and the original log-log graph are now represented in the canonical record and app asset.",
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar aug17_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
     },
     {
       "paper_id": "physical_sep18",
@@ -378,7 +398,11 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings are official_verified against the Code 02 syllabus. The 18 OCR-corrupted records have been restored from the original official September 2018 PDF and mapped by content.",
       "options_incomplete_count": 0,
-      "options_status_note": "All 100 stems and four-option sets are source-restored. One source-item defect remains flagged at Q86 (triclinic system absent from choices; official key Z)."
+      "options_status_note": "All 100 stems and four-option sets are source-restored. One source-item defect remains flagged at Q86 (triclinic system absent from choices; official key Z).",
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0,
+      "answer_key_reconciliation_source": "Official final-key sidecar sept18_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity."
     },
     {
       "paper_id": "physical_dec19",
@@ -407,7 +431,7 @@
       "options_incomplete_count": 0,
       "source_review_note": "Canonical-bank audit found 99/100 source_verified records and one retained visual flag: Q89. Q89 graph choices are represented descriptively; retain the flag until original graph artwork is rendered/visually verified in-app. All 100 records have four populated options and official syllabus mappings.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET December 2019 final answer key PDF; Q1–Q100 directly transcribed and compared against canonical answer and official_answer fields; exact match, including Z non-evaluated entries.",
+      "answer_key_reconciliation_source": "Official final-key sidecar dec19_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0
     },
@@ -437,7 +461,7 @@
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET December 2021/January 2022 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches.",
+      "answer_key_reconciliation_source": "Official final-key sidecar dec21_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "options_status_note": "Canonical questions.json audit confirms all 100 records contain four populated English options."
@@ -455,22 +479,23 @@
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
       "review_count": 4,
-      "question_source_verified": false,
-      "source_verified": false,
-      "status": "source_verified_subset_source_review_pending",
+      "question_source_verified": true,
+      "source_verified": true,
+      "status": "source_verified_complete",
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
-      "source_reviewed_question_count": 96,
-      "review_flags_remaining_count": 4,
+      "source_reviewed_question_count": 100,
+      "review_flags_remaining_count": 0,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET November 2022 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches, including Z no-evaluation entries.",
+      "answer_key_reconciliation_source": "Official final-key sidecar nov22_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
-      "answer_key_reconciliation_corrected_count": 0
+      "answer_key_reconciliation_corrected_count": 0,
+      "options_status_note": "All four source-review flags cleared: Q05 graph options, Q38 wavefunction graphs, Q41 two-electron geometry, and Q86 Hall-coefficient data/options are now restored; three diagrams are embedded as app PNG assets."
     },
     {
       "paper_id": "physical_nov23",
@@ -497,7 +522,7 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET November 2023 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches.",
+      "answer_key_reconciliation_source": "Official final-key sidecar nov23_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "options_incomplete_count": 0,
@@ -528,7 +553,7 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET December 2024 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero current mismatches. Ten prior corrections remain recorded in correction sidecar.",
+      "answer_key_reconciliation_source": "Official final-key sidecar dec24_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 10,
       "options_incomplete_count": 0,
@@ -559,7 +584,7 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 canonical question records mapped by question-content review to the official GSET Physical Sciences Code 02 syllabus, Units I–IX. Official syllabus source recorded in each question.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET November 2025 final answer key PDF; Q1–Q100 directly transcribed and compared against canonical answer and official_answer fields; exact match.",
+      "answer_key_reconciliation_source": "Official final-key sidecar nov25_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "options_incomplete_count": 0,
       "answer_key_reconciliation_corrected_count": 0

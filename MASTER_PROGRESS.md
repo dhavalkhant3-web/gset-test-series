@@ -1213,3 +1213,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - September 2018 now has 100/100 source-reviewed questions, 0 incomplete options, 100/100 official syllabus mappings, and one source-item defect flag.
 - Latest canonical status: 1,274 source-verified; 61 review flags; 0 incomplete options; 1,300/1,300 official syllabus mappings; 1,300/1,300 official final-key parity.
 - Other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 November 2022 figure and OCR restoration
+- Cleared all four November 2022 source flags. Q05's four differential-equation graph choices, Q38's paired wavefunction graphs, and Q41's two-electron atom geometry were visually checked and redrawn into app PNG assets. Q86's resistivity, Hall coefficient and four carrier-density options were restored from the official scan; official key Z is preserved.
+- November 2022 now has 100/100 source-reviewed questions and 0 visual flags. Three original figure concepts are linked with `image_asset` fields.
+- Reconciled the paper manifest against all 19 official final-key sidecars: 1,300/1,300 question rows now recorded as exact parity, with 0 mismatches.
+- Latest canonical status: 1,278 source-verified; 57 visual/source review flags; 0 incomplete option records; 1,300/1,300 official syllabus mappings; 1,300/1,300 official final-key parity.
+- Other subjects and Paper-I remain unchanged. No PR merged.
