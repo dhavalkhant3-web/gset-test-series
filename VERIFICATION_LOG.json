@@ -6829,5 +6829,23 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 August 2017 Q5 source graph restoration",
+    "branch": "integration/combined-subject-banks",
+    "question_id": "physical_aug17_q05",
+    "official_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/aug17/aug1702.pdf",
+    "official_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf",
+    "official_answer": "D",
+    "stem_and_options_verified": true,
+    "graph_asset": "assets/aug17_q05_graph.png",
+    "image_asset_field": "assets/aug17_q05_graph.png",
+    "source_verified": true,
+    "review_flag_cleared": true,
+    "incomplete_options_delta": -1,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

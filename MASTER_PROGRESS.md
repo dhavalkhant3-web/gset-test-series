@@ -1182,3 +1182,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - September 2018 source restoration: 19 OCR-corrupted records restored from the official scan; 19 source-verified, 18 review flags cleared, and Q33 retains one visual-asset flag. September 2018 now has 91 source-reviewed questions, 10 flags, 0 incomplete options, and 100 official syllabus mappings.
 - Combined subject audit and Debug APK runs triggered after the latest data commits; final outcomes must be read from the latest Actions runs before declaring build validation complete.
 - All other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 August 2017 graph restoration
+- Restored August 2017 Q05 from the official GSET Paper-II scan: stem, all four answer options, and the log-log graph showing a straight line with positive slope and positive intercept.
+- Added `assets/aug17_q05_graph.png` and linked it through the app-supported `image_asset` field. The option set is complete and the source-review flag for Q05 is cleared.
+- August 2017 now has 50/50 source-reviewed questions, 0 visual flags, 0 incomplete options, and 50 official syllabus mappings. Official answer key remains unchanged.
+- Latest canonical status: 1,300/1,300 official answer-key parity; 1,300/1,300 official syllabus mappings; 1,236 source-verified; 99 visual flags; 0 incomplete option records.
+- Other subjects and Paper-I remain unchanged. No PR merged.
