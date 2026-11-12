@@ -149,7 +149,7 @@
     "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
     "pending_records_with_verified_unit_mapping": 137
   },
-  "syllabus_mapping_note": "303 review-only records: 302 now have verified question-level mappings against the official GSET Gujarati Code 06 syllabus; one remains provisional because December 2002 repository Q35 is an unmatched source row. Zero records are unmapped.",
+  "syllabus_mapping_note": "303 review-only records: all 303 question-level syllabus mappings are now verified against the official GSET Gujarati Code 06 syllabus. Zero provisional and zero unmapped records remain.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 137,
     "records": [
@@ -462,7 +462,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: December 2019 Gujarati visual verification, official final-key parity and all 100 syllabus mappings completed. Across the 303 review-only records, 302 question-level mappings are now verified against the official Code 06 syllabus; only unmatched December 2002 Q35 remains provisional. December 2002 Q36–Q41 printed-number/key alignment and December 2003 Q18 key reconciliation remain open.",
+  "last_batch_saved": "2026-11-12: All 303 question-level syllabus mappings verified. December 2019 source/key/mapping checks 100/100 complete. December 2003 official published-key parity 50/50 complete, including Q18 = B; source visual review remains 25/50. December 2002 all 50 rows visually matched to source and mappings verified; 44/50 match the published key, five printed-key conflicts remain and one duplicate printed Q34 row has unresolved key identity.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -780,83 +780,94 @@
     "december_2003": {
       "question_count": 50,
       "source_verified": 25,
-      "source_verified_question_numbers": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ],
       "visual_review_pending": 25,
-      "published_key_verified": 5,
+      "published_key_matched": 50,
+      "published_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0306.pdf",
+      "key_title": "KEY FOR PAPER-II (not explicitly labelled FINAL)",
       "q18": {
         "source_verified": true,
-        "answer_key_verified": false,
-        "note": "Stem and four options match the official scan; key reconciliation is still pending."
-      }
+        "stored_answer": "B",
+        "published_key": "B",
+        "answer_key_verified": true,
+        "review_flag": false
+      },
+      "note": "All 50 stored answer letters match the official published key. Q1–Q25 (including Q18) are visually source-verified; Q26–Q50 still await visual review."
     },
     "december_2002": {
       "question_count": 50,
-      "source_verified": 49,
-      "unmatched_question": 35,
-      "printed_number_alignment_conflicts": "Repository Q36–Q41 do not align with the corresponding printed question numbers; do not reconcile by index or alter answers without direct paper/key proof.",
-      "selected_answer_key_verified": 8,
-      "full_paper_key_parity": false
+      "source_verified": 50,
+      "visual_review_pending": 0,
+      "published_key_matched": 44,
+      "published_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
+      "key_title": "KEY FOR PAPER-II (not explicitly labelled FINAL)",
+      "conflicts": [
+        {
+          "repository_question": 36,
+          "printed_question": 35,
+          "stored_answer": "C",
+          "published_key": "A"
+        },
+        {
+          "repository_question": 38,
+          "printed_question": 37,
+          "stored_answer": "A",
+          "published_key": "C"
+        },
+        {
+          "repository_question": 39,
+          "printed_question": 38,
+          "stored_answer": "D",
+          "published_key": "A"
+        },
+        {
+          "repository_question": 40,
+          "printed_question": 39,
+          "stored_answer": "A",
+          "published_key": "D"
+        },
+        {
+          "repository_question": 41,
+          "printed_question": 40,
+          "stored_answer": "C",
+          "published_key": "A"
+        }
+      ],
+      "numbering_collision": {
+        "repository_question": 35,
+        "printed_question_label": "34 (duplicate printed Q34)",
+        "answer_key_identity": "unresolved",
+        "stored_answer": "A"
+      },
+      "mapping_verified": 50,
+      "note": "The five conflicts and duplicate printed-number row are retained for adjudication. No staged answer was overwritten because the accessible official key is not labelled FINAL."
     },
     "syllabus_mapping": {
       "review_only_records": 303,
-      "verified_mappings": 302,
-      "provisional_mappings": 1,
+      "verified_mappings": 303,
+      "provisional_mappings": 0,
       "unmapped": 0,
-      "remaining_record": {
-        "paper": "December 2002 Gujarati",
-        "repository_question": 35,
-        "reason": "Unmatched staging row; correct source-paper identity has not been established. Do not assign a final syllabus unit until provenance is confirmed."
-      },
       "updated_sessions": {
         "december_2019": {
-          "verified": 100,
-          "provisional": 0
+          "verified": 100
         },
         "august_2017": {
-          "verified": 50,
-          "provisional": 0
+          "verified": 50
         },
         "december_2003": {
-          "verified": 50,
-          "provisional": 0
+          "verified": 50
         },
         "december_2008": {
-          "verified": 50,
-          "provisional": 0
+          "verified": 50
         },
         "december_2021_review_only": {
-          "verified": 3,
-          "provisional": 0
+          "verified": 3
+        },
+        "december_2002": {
+          "verified": 50
         }
       },
-      "note": "All mappings were checked against the official 6-page GSET Gujarati Code 06 syllabus. Source-review and answer-key flags were not cleared merely because a syllabus mapping was verified."
+      "note": "All question-level unit assignments were checked against the official 6-page GSET Gujarati Code 06 syllabus. Source and answer-key review flags remain independent of syllabus mapping verification."
     },
-    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks."
+    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks. December 2002 Q35 source wording/options now confirmed against the second printed Q34 entry; it is not a text mismatch but has a duplicate printed question number and unresolved key identity. All 50 mappings are verified. Five other key conflicts remain explicitly flagged; no answers changed."
   }
 }
