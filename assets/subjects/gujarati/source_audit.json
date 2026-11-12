@@ -138,16 +138,18 @@
     "result": "Q79-Q83 stems and all four response options visually checked against official scan. No uncertain OCR corrections were required; all five answer letters match official final key."
   },
   "syllabus_mapping_checkpoint": {
-    "source": "Official GSET Gujarati Code 06 syllabus PDF (uploaded 6-page PDF; all ten units and listed subtopics inspected)",
+    "source": "Official GSET Gujarati Code 06 syllabus PDF; all ten units and listed subtopics inspected.",
     "active_records_reviewed": 97,
-    "verified_mappings": 74,
-    "provisional_mappings": 20,
-    "unmapped_active_records": 3,
+    "verified_mappings": 97,
+    "provisional_mappings": 0,
+    "unmapped_active_records": 0,
     "pending_records_reviewed_for_topic_mapping": 303,
-    "pending_records_with_provisional_unit_suggestion": 166,
+    "pending_records_with_provisional_unit_suggestion": 0,
     "pending_records_without_defensible_unit_assignment": 0,
-    "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
-    "pending_records_with_verified_unit_mapping": 137
+    "pending_records_with_verified_unit_mapping": 303,
+    "total_records": 400,
+    "total_verified_mappings": 400,
+    "note": "All 97 active records and all 303 review-only records now have verified unit mappings. Source-review and answer-key flags remain independent; mapping verification does not activate review-only records."
   },
   "syllabus_mapping_note": "All 400 Gujarati Paper-II records across the 303 review-only and 97 active records now have verified question-level mappings against the official GSET Gujarati Code 06 syllabus. Provisional: 0. Pending: 0.",
   "source_verification_checkpoint": {
@@ -241,6 +243,7 @@
           32,
           33,
           34,
+          35,
           36,
           37,
           38,
@@ -257,7 +260,7 @@
           49,
           50
         ],
-        "note": "Q34 and Q36–Q42 visually inspected against official scan. Q35 repository Sundaram row is unmatched and excluded from verified count. Staging Q36–Q41 align to printed Q35–Q40; Q42 aligns printed Q42."
+        "note": "All 50 repository question stems/options visually checked against the official scan. Repository Q35 text matches the second printed Q34 entry; the duplicate printed number leaves key identity unresolved. Q36–Q41 correspond to printed Q35–Q40. This later verification supersedes the earlier unmatched-row count."
       },
       {
         "paper": "August 2017 Gujarati",
@@ -320,7 +323,7 @@
           5,
           6
         ],
-        "note": "Q6–Q20 stems and all four options visually checked against official scan; answer-key reconciliation pending."
+        "note": "Q6–Q20 stems and all four options visually checked against official scan; answer-key reconciliation pending. Historical note: Q18 has since been visually verified and its stored answer B matches the official published key; see repository_crosscheck_2026_11_12."
       },
       {
         "paper": "December 2008 Gujarati",
@@ -367,7 +370,7 @@
           6,
           7
         ],
-        "note": "Q17, Q19–Q25 stems and options visually checked. Q21 option D corrected to 'અ અને ડ'. Q18 excluded pending transcription resolution. Key reconciliation pending."
+        "note": "Q17, Q19–Q25 stems and options visually checked. Q21 option D corrected to 'અ અને ડ'. Q18 excluded pending transcription resolution. Key reconciliation pending. Historical note: Q18 has since been visually verified and its stored answer B matches the official published key; see repository_crosscheck_2026_11_12."
       }
     ],
     "result": "137 review-only records visually source checked. December 2003 Q17 and Q19–Q25 added; Q21 option D corrected against original scan. No answers changed.",
@@ -529,12 +532,57 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
     ],
-    "count": 5,
-    "source": "Official GSET published Paper-II answer key, 7 December 2003, Gujarati (Code 06).",
+    "count": 50,
+    "source": "Official GSET published KEY FOR PAPER-II, 7 December 2003, Gujarati (Code 06).",
     "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0306.pdf",
-    "result": "All five stored answers (C, B, A, D, C) match. The official PDF is titled 'KEY FOR PAPER-II' and is not explicitly labelled final; this caveat is retained in the question records."
+    "result": "All 50 stored answer letters match the official published KEY FOR PAPER-II, including Q18 = B. The PDF is not explicitly labelled FINAL. All 50 question stems/options are now source-verified and all 50 syllabus mappings are verified."
   },
   "official_final_key_matched_total_dec2019": 100,
   "last_key_reconciliation_dec2019": {
@@ -865,6 +913,15 @@
       ],
       "review_only_mappings_verified": 3,
       "note": "The 20 provisional and 3 pending mappings in the active 97-question bank were reviewed and verified. The three source-ambiguous questions remain review-only, but their syllabus unit assignments are now verified."
+    },
+    "total_records": {
+      "active": 97,
+      "review_only": 303,
+      "total": 400,
+      "source_verified": 343,
+      "answer_key_verified": 367,
+      "syllabus_mapping_verified": 400,
+      "review_flags": 110
     }
   }
 }
