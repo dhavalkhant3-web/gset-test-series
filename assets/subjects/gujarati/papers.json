@@ -165,11 +165,11 @@
       "source_verified": false,
       "review_flags_remaining_count": 3,
       "status": "partial_visual_review",
-      "review_note": "Official final answer-key reconciliation 100/100. 97/100 records active after visual verification; Q36, Q37 and Q60 remain review-only due source ambiguity. Question-level mapping checkpoint updated: 74 verified, 25 provisional, 1 pending across the full 100-question paper.",
-      "syllabus_mapping_status": "partial_question_level_mapping",
-      "syllabus_mapping_verified": 74,
-      "syllabus_mapping_provisional": 25,
-      "syllabus_mapping_pending": 1
+      "review_note": "Official final answer-key reconciliation 100/100. 97/100 records source-verified and active; Q36, Q37 and Q60 remain review-only due source ambiguity. All 100 question-level syllabus mappings are now verified against the official Code 06 syllabus (97 active + 3 review-only).",
+      "syllabus_mapping_status": "verified",
+      "syllabus_mapping_verified": 100,
+      "syllabus_mapping_provisional": 0,
+      "syllabus_mapping_pending": 0
     }
   ]
 }
