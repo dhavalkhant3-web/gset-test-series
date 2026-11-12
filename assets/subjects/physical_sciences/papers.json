@@ -392,7 +392,11 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 canonical question records have syllabus_mapping_status=official_verified. Counts reconciled from the canonical question bank.",
       "options_incomplete_count": 0,
-      "source_review_note": "Canonical-bank audit found 99/100 source_verified records and one retained visual flag: Q89. Q89 graph choices are represented descriptively; retain the flag until original graph artwork is rendered/visually verified in-app. All 100 records have four populated options and official syllabus mappings."
+      "source_review_note": "Canonical-bank audit found 99/100 source_verified records and one retained visual flag: Q89. Q89 graph choices are represented descriptively; retain the flag until original graph artwork is rendered/visually verified in-app. All 100 records have four populated options and official syllabus mappings.",
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_source": "Official GSET December 2019 Physical Sciences Paper-II FINAL answer-key PDF, all four columns Q1-Q100 compared against canonical questions.json; zero mismatches.",
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_dec21",
