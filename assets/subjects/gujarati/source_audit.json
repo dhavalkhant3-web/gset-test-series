@@ -462,7 +462,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: All 303 question-level syllabus mappings verified. December 2019 source/key/mapping checks 100/100 complete. December 2003 official published-key parity 50/50 complete, including Q18 = B; source visual review remains 25/50. December 2002 all 50 rows visually matched to source and mappings verified; 44/50 match the published key, five printed-key conflicts remain and one duplicate printed Q34 row has unresolved key identity.",
+  "last_batch_saved": "2026-11-12: December 2019 and December 2003 Gujarati Paper-II now have 100/100 and 50/50 source visual checks respectively. December 2003 published-key parity is 50/50, including Q18 = B; all 50 syllabus mappings verified. Across all 303 review-only records, 303 syllabus mappings are verified. December 2002 retains five published-key conflicts and one duplicate printed Q34 key-identity ambiguity.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -779,10 +779,11 @@
     },
     "december_2003": {
       "question_count": 50,
-      "source_verified": 25,
-      "visual_review_pending": 25,
+      "source_verified": 50,
+      "visual_review_pending": 0,
       "published_key_matched": 50,
       "published_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0306.pdf",
+      "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec03/dec0306.pdf",
       "key_title": "KEY FOR PAPER-II (not explicitly labelled FINAL)",
       "q18": {
         "source_verified": true,
@@ -791,7 +792,7 @@
         "answer_key_verified": true,
         "review_flag": false
       },
-      "note": "All 50 stored answer letters match the official published key. Q1–Q25 (including Q18) are visually source-verified; Q26–Q50 still await visual review."
+      "note": "All 50 stems and four-option sets visually checked against official scan; all 50 stored answer letters match the official published key. All 50 syllabus mappings verified. The key is not explicitly labelled FINAL."
     },
     "december_2002": {
       "question_count": 50,
@@ -868,6 +869,6 @@
       },
       "note": "All question-level unit assignments were checked against the official 6-page GSET Gujarati Code 06 syllabus. Source and answer-key review flags remain independent of syllabus mapping verification."
     },
-    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks. December 2002 Q35 source wording/options now confirmed against the second printed Q34 entry; it is not a text mismatch but has a duplicate printed question number and unresolved key identity. All 50 mappings are verified. Five other key conflicts remain explicitly flagged; no answers changed."
+    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks. December 2002 Q35 source wording/options now confirmed against the second printed Q34 entry; it is not a text mismatch but has a duplicate printed question number and unresolved key identity. All 50 mappings are verified. Five other key conflicts remain explicitly flagged; no answers changed. Completed the remaining December 2003 visual source checks Q26–Q50 against official printed pages 8–14; all 50 questions are now source-verified and all 50 published-key entries match. Q18 = B confirmed against official key; no answer changes required."
   }
 }
