@@ -6922,5 +6922,36 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 November 2023 source OCR restoration",
+    "branch": "integration/combined-subject-banks",
+    "official_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2302.pdf",
+    "questions_reviewed": [
+      13,
+      22,
+      53,
+      77,
+      78,
+      85,
+      86
+    ],
+    "review_flags_cleared": 5,
+    "review_flags_retained": [
+      "physical_nov23_q78",
+      "physical_nov23_q85"
+    ],
+    "corrections": [
+      13,
+      53,
+      77,
+      86
+    ],
+    "question_22_source_confirmed": true,
+    "official_answer_keys_unchanged": true,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

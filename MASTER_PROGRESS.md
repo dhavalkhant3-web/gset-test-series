@@ -1197,3 +1197,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Restored the full vector set in Q5; corrected source notation in Q2, Q10, Q17 and Q28; restored the source spelling “Thermister” in Q34 and the printed ²P₁/₂ option in Q37. Other stems/options were confirmed against the official PDF.
 - October 2014 now has 50/50 source-reviewed questions and 0 visual flags. Latest canonical status: 1,260 source-verified, 75 review flags, 0 incomplete options, 1,300/1,300 official syllabus mappings, and 1,300/1,300 final-key parity.
 - Other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 November 2023 source restoration
+- Compared seven flagged records (Q13, Q22, Q53, Q77, Q78, Q85, Q86) with the official November 2023 Paper-II PDF.
+- Restored the Minkowski-distance notation (Q13), full Joule–Thomson data/options (Q53), nitrogen configuration (Q77), and Dulong–Petit wording (Q86); Q22 source wording confirmed. Five review flags cleared.
+- Q78 and Q85 stems/options were restored from the official PDF extraction but remain flagged for visual confirmation of the compact d-spacing and effective-mass notation. November 2023 now has 98 source-reviewed records and 2 flags.
+- Latest canonical status: 1,265 source-verified; 70 review flags; 0 incomplete options; 1,300/1,300 official syllabus mappings; 1,300/1,300 final-key parity.
+- Other subjects and Paper-I remain unchanged. No PR merged.
