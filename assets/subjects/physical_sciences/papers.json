@@ -370,14 +370,14 @@
       "status": "source_verified_subset_source_review_pending",
       "unit_mapping_status": "official_syllabus_mapping_partially_verified",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
-      "source_reviewed_question_count": 72,
-      "review_flags_remaining_count": 29,
+      "source_reviewed_question_count": 90,
+      "review_flags_remaining_count": 11,
       "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 18,
-      "unit_mapping_verified_count": 82,
-      "unit_mapping_status_note": "82 question-level mappings are official_verified; 18 remain pending because the canonical stems/options are OCR-corrupted or source-dependent.",
-      "options_incomplete_count": 19,
-      "options_status_note": "Canonical audit identifies 19 records with blank option arrays, including OCR/scan-page contamination. Do not count these as complete; source reconstruction required."
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_status_note": "All 100 question-level mappings are official_verified against the Code 02 syllabus. The 18 OCR-corrupted records have been restored from the original official September 2018 PDF and mapped by content.",
+      "options_incomplete_count": 0,
+      "options_status_note": "All 100 records contain four populated English options. The previously incomplete 19 records were restored from original source pages; Q33 retains one visual asset flag for its triangle diagram."
     },
     {
       "paper_id": "physical_dec19",

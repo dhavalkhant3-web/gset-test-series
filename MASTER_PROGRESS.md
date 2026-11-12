@@ -1164,3 +1164,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Transcribed and compared all 200 rows with canonical records. July 2004 50/50 exact; July 2006 50/50 exact; September 2013 corrected key 50/50 exact; October 2010 50/50 exact after correcting Q46 from B to C per the official final-key scan (nuclear-radius ratio is 2^(1/3), option C).
 - Created four official key sidecars and updated canonical question-level answer-key verification metadata. Together with the earlier 1,100 rows, the complete 1,300/1,300 Paper-II archive now has official final-key parity. No mismatches remain.
 - Visual review, incomplete options and syllabus mapping remain separate gates; no visual flags were cleared in this answer-key-only batch. No other subjects or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 September 2018 source restoration
+- Reopened the official September 2018 Paper-II PDF and restored 19 OCR-corrupted records (Q1, Q3, Q5, Q6, Q8–Q13, Q16, Q18, Q21, Q26, Q33, Q42, Q55, Q57, Q62) with exact English stems and four options.
+- 18 records were fully source-verified and their review flags cleared; Q33 retains a visual flag because the original equilateral-triangle diagram still needs a dedicated app image asset (the spatial layout is described in the stem).
+- Completed official syllabus mapping for all 18 restored records. September 2018 now has 100/100 official syllabus mappings and 0 incomplete option records; 11 visual review flags remain in this paper.
+- Answer keys were not changed. No other subjects or Paper-I changed. No PR merged.

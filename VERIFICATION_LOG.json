@@ -6767,5 +6767,46 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 September 2018 OCR restoration and syllabus mapping",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "restored_questions": [
+      "physical_sep18_q01",
+      "physical_sep18_q03",
+      "physical_sep18_q05",
+      "physical_sep18_q06",
+      "physical_sep18_q08",
+      "physical_sep18_q09",
+      "physical_sep18_q10",
+      "physical_sep18_q11",
+      "physical_sep18_q12",
+      "physical_sep18_q13",
+      "physical_sep18_q16",
+      "physical_sep18_q18",
+      "physical_sep18_q21",
+      "physical_sep18_q26",
+      "physical_sep18_q33",
+      "physical_sep18_q42",
+      "physical_sep18_q55",
+      "physical_sep18_q57",
+      "physical_sep18_q62"
+    ],
+    "source_verified_delta": 18,
+    "review_flags_cleared": 18,
+    "review_flag_retained": [
+      "physical_sep18_q33"
+    ],
+    "incomplete_options_before": 19,
+    "incomplete_options_after": 0,
+    "syllabus_mappings_verified": 18,
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+    "answer_key_changes": 0,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]
