@@ -30,8 +30,8 @@ Expected question records across these seven subjects: 3,200. Active: 463. Remai
 - Syllabus mapping from official https://gujaratset.ac.in/assets/syllabus/08.pdf: 43 verified, 5 provisional, 1 pending (Q46).
 
 ### Geography Code 24
-- September 2016: 50/50 visually checked and official final-key matched; 50 active. Syllabus mapping: 47 verified, 3 provisional.
-- August 2017: 50/50 visually checked and official final-key matched; 50 active. Syllabus mapping: 46 verified, 4 provisional.
+- September 2016: 50/50 visually checked and official final-key matched; 50 active. Official syllabus mapping re-audit: 49 verified, 1 provisional (Q37). Q8 and Q26 verified as Unit X (transport networks).
+- August 2017: 50/50 visually checked and official final-key matched; 50 active. Official syllabus mapping re-audit: 47 verified, 3 provisional (Q10, Q21, Q44). Q45 verified as Unit IV (environment/forest cover).
 - Official sources: September 2016 question paper https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf and key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf; August 2017 question paper https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1724.pdf and final key https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1724.pdf.
 - Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf
 - Remaining Geography: 100 staged questions (November 2025; all 100 final-key letters reconciled, source visual review pending); 500 expected questions across five other listed papers not yet transcribed.
@@ -51,7 +51,7 @@ Expected question records across these seven subjects: 3,200. Active: 463. Remai
 - Keep all unverified records review-only. Official final keys are authoritative; if key conflicts with source question, preserve the key and flag for expert review.
 
 ## Next work
-1. Geography: retry official November 2025 PDF visual verification for the 100 key-reconciled records; transcribe the remaining 500 questions from five papers.
+1. Geography: November 2025 PDF visual verification remains blocked by PDF rendering timeout (100 key-matched, 0 visually checked); transcribe the remaining 500 questions from five papers.
 2. Continue Gujarati and Sanskrit source verification and official syllabus mappings.
 3. History: resolve Q48 with subject expert; review provisional mappings and Q46.
 4. Social Work: transcribe 600 questions from official question-paper PDFs; do not convert answer keys into fake question records.
