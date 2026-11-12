@@ -30,8 +30,12 @@
       "source_verified": false,
       "review_flags_remaining_count": 1,
       "status": "partial_visual_review",
-      "review_note": "49/50 question records have source_verified=true in the current review bank; Q35 remains the single unmatched staging row and is not counted as source-verified. Eight selected records have answer_key_verified=true, but full-paper key/question-number parity is not established. Q36–Q41 retain printed-number alignment conflicts; do not overwrite answers or activate the paper.",
-      "answer_key_reconciled_count": 8
+      "review_note": "49/50 question records source-verified; Q35 remains unmatched and unverified. Eight selected records have published-key checks, but full key/question-number parity is not established. Q36–Q41 printed-number alignment conflicts remain unresolved.",
+      "answer_key_reconciled_count": 8,
+      "syllabus_mapping_status": "partial_question_level_mapping",
+      "syllabus_mapping_verified": 49,
+      "syllabus_mapping_provisional": 1,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "gujarati_dec2003",
@@ -53,8 +57,12 @@
       "source_verified": false,
       "review_flags_remaining_count": 25,
       "status": "partial_visual_review",
-      "review_note": "25/50 question records (Q1–Q25) have source_verified=true in the current review bank, including Q18 stem and all four options. Only Q1–Q5 are currently marked answer_key_verified=true against the published KEY FOR PAPER-II; Q18 key reconciliation and full-paper key parity remain pending.",
-      "answer_key_reconciled_count": 5
+      "review_note": "25/50 question records Q1–Q25 visually source-verified, including Q18 stem and options. Five selected answers Q1–Q5 match the published KEY FOR PAPER-II; Q18 key reconciliation and full-paper key parity remain pending. All 50 question-level unit mappings are verified against the official Code 06 syllabus.",
+      "answer_key_reconciled_count": 5,
+      "syllabus_mapping_status": "verified",
+      "syllabus_mapping_verified": 50,
+      "syllabus_mapping_provisional": 0,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "gujarati_dec2008",
@@ -72,12 +80,16 @@
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 5,
+      "question_source_verified": 23,
       "source_verified": false,
-      "review_flags_remaining_count": 45,
+      "review_flags_remaining_count": 27,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
-      "answer_key_reconciled_count": 5
+      "review_note": "23/50 question records source-verified and 23 selected answers checked against the official final key. Remaining visual source review and full-paper key parity are pending. All 50 question-level unit mappings are verified against the official Code 06 syllabus.",
+      "answer_key_reconciled_count": 23,
+      "syllabus_mapping_status": "verified",
+      "syllabus_mapping_verified": 50,
+      "syllabus_mapping_provisional": 0,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "gujarati_aug2017",
@@ -93,14 +105,18 @@
       "questions_count": 0,
       "answer_key_entries": 50,
       "answer_key_parsed": true,
-      "answer_key_verified": false,
-      "answer_key_question_parity_verified": false,
-      "question_source_verified": 5,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 23,
       "source_verified": false,
-      "review_flags_remaining_count": 45,
+      "review_flags_remaining_count": 27,
       "status": "partial_visual_review",
-      "review_note": "5/50 questions visually checked. 5 selected questions also matched to the official final key; full-paper key parity remains pending.",
-      "answer_key_reconciled_count": 5
+      "review_note": "23/50 question records source-verified. All 50 stored answers match the official FINAL answer key. Remaining visual source-page review is pending. All 50 question-level unit mappings are verified against the official Code 06 syllabus.",
+      "answer_key_reconciled_count": 50,
+      "syllabus_mapping_status": "verified",
+      "syllabus_mapping_verified": 50,
+      "syllabus_mapping_provisional": 0,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "gujarati_dec2019",
@@ -121,8 +137,8 @@
       "question_source_verified": 100,
       "source_verified": true,
       "review_flags_remaining_count": 0,
-      "status": "source_verified_mapping_pending",
-      "review_note": "100/100 question stems and all four options visually checked against the official GSET December 2019 scan. All 100 answer-key entries match the official FINAL key; Q7 = Z is not evaluated and remains excluded from scoring. All 100 question-level syllabus mappings verified against the official Code 06 syllabus. Q7 remains the sole non-evaluated review flag.",
+      "status": "verified",
+      "review_note": "100/100 question stems/options visually verified; official FINAL key parity 100/100; all 100 syllabus mappings verified. Q7 is Z/not evaluated and remains excluded from scoring.",
       "answer_key_reconciled_count": 100,
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 100,
@@ -149,11 +165,11 @@
       "source_verified": false,
       "review_flags_remaining_count": 3,
       "status": "partial_visual_review",
-      "review_note": "Official final answer-key reconciliation 100/100. 97/100 records active after visual verification; Q36, Q37 and Q60 remain review-only due ambiguous source glyphs. Q70 chronology stem and sequence options restored from printed page 17. Mapping among active records: 74 verified, 20 provisional, 3 cross-unit/context-dependent.",
+      "review_note": "Official final answer-key reconciliation 100/100. 97/100 records active after visual verification; Q36, Q37 and Q60 remain review-only due source ambiguity. Question-level mapping checkpoint updated: 74 verified, 25 provisional, 1 pending across the full 100-question paper.",
       "syllabus_mapping_status": "partial_question_level_mapping",
-      "syllabus_mapping_verified": 71,
+      "syllabus_mapping_verified": 74,
       "syllabus_mapping_provisional": 25,
-      "syllabus_mapping_pending": 4
+      "syllabus_mapping_pending": 1
     }
   ]
 }
