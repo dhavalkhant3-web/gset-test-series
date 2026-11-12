@@ -1149,3 +1149,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Compared all 100 question numbers in each paper against both canonical `answer` and `official_answer` fields: 200/200 exact matches, 0 mismatches, 0 canonical answer changes. December 2019 Z entries remain non-evaluated as published.
 - Updated canonical answer-key verification metadata and the Physical Sciences paper manifest. Existing 900 sidecar-backed exact matches plus these 200 yield 1,100/1,300 reconciled; four 50-question papers remain without sidecars: July 2004, July 2006, October 2010, September 2013.
 - No visual flags or syllabus mappings were promoted by this key-only batch. No other subjects or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 November 2025 syllabus mapping
+- Completed question-level syllabus mapping for all 100 November 2025 Paper-II records against the official GSET Code 02 syllabus PDF.
+- Unit coverage: I Mathematical Methods (12), II Classical Mechanics (12), III Electromagnetic Theory (11), IV Quantum Mechanics (12), V Thermodynamic and Statistical Physics (12), VI Electronics and Experimental Methods (9), VII Atomic & Molecular Physics (10), IX Nuclear and Particle Physics (10), VIII Condensed Matter Physics (12).
+- November 2025 mapping status: 100 official_verified, 0 provisional, 0 pending. September 2018's 18 source-corrupted records remain pending; do not infer mappings before restoring original source text.
+- Physical Sciences canonical status after this pass: 1,282 official syllabus mappings, 0 provisional, 18 pending; 119 visual review flags and 20 incomplete option records remain. Answer-key sidecar parity is 1,100/1,300.
+- No other subjects or Paper-I changed. No PR merged.

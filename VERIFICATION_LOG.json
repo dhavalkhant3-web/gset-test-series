@@ -6691,5 +6691,30 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 November 2025 official syllabus mapping",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "question_count": 100,
+    "official_verified": 100,
+    "provisional": 0,
+    "pending": 0,
+    "unit_distribution": {
+      "unit_1": 12,
+      "unit_2": 12,
+      "unit_3": 11,
+      "unit_4": 12,
+      "unit_5": 12,
+      "unit_6": 9,
+      "unit_7": 10,
+      "unit_8": 12,
+      "unit_9": 10
+    },
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

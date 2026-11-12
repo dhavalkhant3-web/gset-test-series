@@ -1715,5 +1715,29 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merges": 0
+  },
+  "physical_sciences_nov25_syllabus_mapping_2026_11_12": {
+    "date": "2026-11-12",
+    "branch": "integration/combined-subject-banks",
+    "question_count": 100,
+    "official_verified": 100,
+    "provisional": 0,
+    "pending": 0,
+    "official_source": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+    "unit_distribution": {
+      "1": 12,
+      "2": 12,
+      "3": 11,
+      "4": 12,
+      "5": 12,
+      "6": 9,
+      "7": 10,
+      "8": 12,
+      "9": 10
+    },
+    "question_bank": "assets/subjects/physical_sciences/questions.json",
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merges": 0
   }
 }
