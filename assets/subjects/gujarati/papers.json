@@ -26,12 +26,12 @@
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 43,
+      "question_source_verified": 49,
       "source_verified": false,
-      "review_flags_remaining_count": 7,
+      "review_flags_remaining_count": 1,
       "status": "partial_visual_review",
-      "review_note": "43/50 question records have had stem/options visually inspected. Q42-Q50 checked against official printed pages 11–12; Q42/Q44/Q45/Q46 have defensible Unit 2/8/4/4 mappings. Q47-Q50 passage-based mappings and key parity remain pending. Selected answer-key checks remain partial. Repository Q35-Q41 printed question-number alignment remains unresolved; full-paper key parity pending.",
-      "answer_key_reconciled_count": 5
+      "review_note": "49/50 question records have source_verified=true in the current review bank; Q35 remains the single unmatched staging row and is not counted as source-verified. Eight selected records have answer_key_verified=true, but full-paper key/question-number parity is not established. Q36–Q41 retain printed-number alignment conflicts; do not overwrite answers or activate the paper.",
+      "answer_key_reconciled_count": 8
     },
     {
       "paper_id": "gujarati_dec2003",
@@ -49,12 +49,12 @@
       "answer_key_parsed": true,
       "answer_key_verified": false,
       "answer_key_question_parity_verified": false,
-      "question_source_verified": 5,
+      "question_source_verified": 25,
       "source_verified": false,
-      "review_flags_remaining_count": 45,
+      "review_flags_remaining_count": 25,
       "status": "partial_visual_review",
-      "review_note": "5 questions visually checked; official final answer-key endpoint inaccessible during this pass, so key reconciliation remains pending.",
-      "answer_key_reconciled_count": 0
+      "review_note": "25/50 question records (Q1–Q25) have source_verified=true in the current review bank, including Q18 stem and all four options. Only Q1–Q5 are currently marked answer_key_verified=true against the published KEY FOR PAPER-II; Q18 key reconciliation and full-paper key parity remain pending.",
+      "answer_key_reconciled_count": 5
     },
     {
       "paper_id": "gujarati_dec2008",
@@ -116,14 +116,14 @@
       "questions_count": 0,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
-      "answer_key_verified": false,
-      "answer_key_question_parity_verified": false,
-      "question_source_verified": 17,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 32,
       "source_verified": false,
-      "review_flags_remaining_count": 83,
+      "review_flags_remaining_count": 68,
       "status": "partial_visual_review",
-      "review_note": "17/100 questions visually checked and 17/17 selected answer letters matched to official final key; full-paper visual review and key parity pending.",
-      "answer_key_reconciled_count": 17
+      "review_note": "32/100 question records (Q1–Q17 and Q31–Q45) have source_verified=true in the current review bank; 68 remain visual-review pending. All 100 answer-key entries have answer_key_verified=true and match the official FINAL key, with Q7 = Z / not evaluated. Do not infer source verification from key parity; remaining 68 stay review-only.",
+      "answer_key_reconciled_count": 100
     },
     {
       "paper_id": "gujarati_dec2021",
