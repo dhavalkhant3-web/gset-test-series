@@ -3781,11 +3781,11 @@
       "નરસિંહરાવનું છંદપ્રભુત્વ નહોતું"
     ],
     "answer": "A",
-    "official_answer": null,
+    "official_answer": "A",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem and all four options visually match the second Q34 entry on official scan printed page 9. The booklet repeats printed number 34 for this item, creating a question-number collision; the one-row-per-number key does not establish this row's answer. Preserve stored answer A as unverified and retain review flag.",
+    "review_note": "Question stem and all four options visually match the second Q34 entry on official scan printed page 9. The booklet repeats printed number 34 for this item, creating a question-number collision; the one-row-per-number key does not establish this row's answer. Preserve existing staged answer/official_answer A as unverified and retain review flag.",
     "topic": "ગુજરાતી સાહિત્યનો ઇતિહાસ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
