@@ -161,11 +161,11 @@
       "question_source_verified": false,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
-      "review_count": 13,
+      "review_count": 9,
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
-      "source_reviewed_question_count": 37,
-      "review_flags_remaining_count": 13,
+      "source_reviewed_question_count": 41,
+      "review_flags_remaining_count": 9,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
@@ -174,7 +174,8 @@
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_source": "Official GSET December 2008 Physical Sciences Paper-II final answer-key scan; all Q1-Q50 letters visually compared against the repository transcription.",
       "answer_key_reconciliation_mismatch_count": 0,
-      "answer_key_reconciliation_corrected_count": 0
+      "answer_key_reconciliation_corrected_count": 0,
+      "source_review_note": "December 2008 official scan visual audit: Q11, Q12, Q15 and Q16 stem/options checked and corrected where needed; 9 visual flags remain. Official answer-key transcription parity remains recorded separately and does not imply canonical question-bank parity for all 50."
     },
     {
       "paper_id": "physical_oct10",
