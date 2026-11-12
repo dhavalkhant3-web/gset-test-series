@@ -462,7 +462,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: Reconciled Gujarati December 2002/2003/2019 paper metadata against the current questions_review_pending.json. December 2019: 32/100 source-verified (Q1–Q17, Q31–Q45), 68 visual reviews pending; 100/100 official FINAL key parity. December 2003: 25/50 source-verified (Q1–Q25, including Q18); Q18 key reconciliation remains pending; only Q1–Q5 have published-key verification. December 2002: 49/50 source-verified; Q35 remains unmatched; Q36–Q41 printed-number conflicts remain unresolved. No answer or question content changed.",
+  "last_batch_saved": "2026-11-12: Completed December 2019 Gujarati visual source verification 100/100 against official scan. Corrected printed spellings in Q30 option D (મનહર કપૂર) and Q100 option B (વિવેચકનું કાર્ય). Official FINAL key parity remains 100/100; Q7 is Z/not evaluated. Syllabus mapping remains 32 verified and 68 provisional. December 2002 and December 2003 source/key issues remain open.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -652,7 +652,7 @@
     "papers_metadata_file": "assets/subjects/gujarati/papers.json",
     "december_2019": {
       "question_count": 100,
-      "source_verified": 32,
+      "source_verified": 100,
       "source_verified_question_numbers": [
         1,
         2,
@@ -671,6 +671,19 @@
         15,
         16,
         17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
         31,
         32,
         33,
@@ -685,11 +698,84 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
       ],
-      "visual_review_pending": 68,
+      "visual_review_pending": 0,
       "official_final_key_reconciled": 100,
-      "not_evaluated_question": 7
+      "not_evaluated_question": 7,
+      "syllabus_mapping_verified": 32,
+      "syllabus_mapping_provisional": 68,
+      "remaining_review_flags": 69,
+      "corrections": [
+        {
+          "question": 30,
+          "field": "options_gu[3]",
+          "printed_text": "કાશીનો દીકરો, મનહર કપૂર, દરિયાવ દિલ, વિનોદિની નીલકંઠ",
+          "note": "Corrected source spelling."
+        },
+        {
+          "question": 100,
+          "field": "options_gu[1]",
+          "printed_text": "વિવેચકનું કાર્ય",
+          "note": "Corrected source spelling."
+        }
+      ],
+      "visual_source_pages_checked": "Official PDF printed pages 6–39, covering Q18–Q30 and Q46–Q100; earlier verified Q1–Q17 and Q31–Q45 retained."
     },
     "december_2003": {
       "question_count": 50,
@@ -744,6 +830,6 @@
       "unmapped": 0,
       "note": "Mapping count remains unchanged; no provisional mapping was promoted without direct review against the official syllabus."
     },
-    "changes": "Metadata-only synchronization. No question stem, option, answer, syllabus unit, review flag, active-bank status, or merge state was changed."
+    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed."
   }
 }
