@@ -1679,5 +1679,41 @@
     "answer_key_verified": 304
   },
   "physical_sciences_fully_verified": false,
-  "physical_sciences_next_gate": "Continue official original PDF transcription/reconciliation; Dec 2019 current residual option defects 39 and review flags 49. Q07 formula option visual review is explicitly pending."
+  "physical_sciences_next_gate": "Continue official original PDF transcription/reconciliation; Dec 2019 current residual option defects 39 and review flags 49. Q07 formula option visual review is explicitly pending.",
+  "physical_sciences_answer_key_reconciliation_2026_11_12": {
+    "date": "2026-11-12",
+    "branch": "integration/combined-subject-banks",
+    "source": "Official GSET final answer-key PDFs",
+    "papers": {
+      "physical_dec19": {
+        "question_count": 100,
+        "exact_matches": 100,
+        "mismatches": 0,
+        "canonical_answer_changes": 0,
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf"
+      },
+      "physical_nov25": {
+        "question_count": 100,
+        "exact_matches": 100,
+        "mismatches": 0,
+        "canonical_answer_changes": 0,
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2502.pdf"
+      }
+    },
+    "cumulative_sidecar_parity": {
+      "previous_exact_matches": 900,
+      "added_exact_matches": 200,
+      "total_exact_matches": 1100,
+      "remaining_questions": 200,
+      "remaining_papers": [
+        "physical_jul04",
+        "physical_jul06",
+        "physical_oct10",
+        "physical_sep13"
+      ]
+    },
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merges": 0
+  }
 }

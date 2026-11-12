@@ -396,7 +396,7 @@
       "options_incomplete_count": 0,
       "source_review_note": "Canonical-bank audit found 99/100 source_verified records and one retained visual flag: Q89. Q89 graph choices are represented descriptively; retain the flag until original graph artwork is rendered/visually verified in-app. All 100 records have four populated options and official syllabus mappings.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET December 2019 Physical Sciences Paper-II FINAL answer-key PDF, all four columns Q1-Q100 compared against canonical questions.json; zero mismatches.",
+      "answer_key_reconciliation_source": "Official GSET December 2019 final answer key PDF; Q1–Q100 directly transcribed and compared against canonical answer and official_answer fields; exact match, including Z non-evaluated entries.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0
     },
@@ -547,9 +547,10 @@
       "unit_mapping_verified_count": 0,
       "unit_mapping_status_note": "Canonical questions.json audit shows all 100 records lack official_verified or provisional mapping status; all 100 are pending authoritative syllabus mapping.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET final answer key PDF; question-number/letter parity checked across Q1-Q100.",
+      "answer_key_reconciliation_source": "Official GSET November 2025 final answer key PDF; Q1–Q100 directly transcribed and compared against canonical answer and official_answer fields; exact match.",
       "answer_key_reconciliation_mismatch_count": 0,
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_sep16_p3",

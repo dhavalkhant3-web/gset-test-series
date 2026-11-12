@@ -1142,3 +1142,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Latest checkpoint commit: `b88874d9f4cbf5b56312eb152b3e785a50734f85`. No PR merged.
 
 - Latest direct PDF batch: December 2003 Q1–Q50; no canonical changes required. State checkpoint commit: `d49bdd0b9b0b7e78617b9378cac5ab43cb0f34b4`.
+
+
+## Physical Sciences Code 02 — 12 November 2026 official final-key reconciliation
+- Added official final answer-key sidecars for December 2019 and November 2025 from the official GSET PDFs.
+- Compared all 100 question numbers in each paper against both canonical `answer` and `official_answer` fields: 200/200 exact matches, 0 mismatches, 0 canonical answer changes. December 2019 Z entries remain non-evaluated as published.
+- Updated canonical answer-key verification metadata and the Physical Sciences paper manifest. Existing 900 sidecar-backed exact matches plus these 200 yield 1,100/1,300 reconciled; four 50-question papers remain without sidecars: July 2004, July 2006, October 2010, September 2013.
+- No visual flags or syllabus mappings were promoted by this key-only batch. No other subjects or Paper-I changed. No PR merged.

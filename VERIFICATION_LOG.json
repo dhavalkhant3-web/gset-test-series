@@ -6662,5 +6662,34 @@
     },
     "pr_merge": false,
     "ci_apk_check": "pending"
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 December 2019 and November 2025 official final-key parity",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "papers": [
+      {
+        "paper_id": "physical_dec19",
+        "question_count": 100,
+        "exact_matches": 100,
+        "mismatches": 0,
+        "canonical_answer_changes": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf"
+      },
+      {
+        "paper_id": "physical_nov25",
+        "question_count": 100,
+        "exact_matches": 100,
+        "mismatches": 0,
+        "canonical_answer_changes": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2502.pdf"
+      }
+    ],
+    "cumulative_sidecar_parity": "1100/1300",
+    "remaining_key_parity": "200 across July 2004, July 2006, October 2010, September 2013",
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]
