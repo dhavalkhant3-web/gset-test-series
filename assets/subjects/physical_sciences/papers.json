@@ -170,7 +170,11 @@
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_source": "Official GSET December 2008 Physical Sciences Paper-II final answer-key scan; all Q1-Q50 letters visually compared against the repository transcription.",
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_oct10",
