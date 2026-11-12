@@ -74,15 +74,14 @@
   "next_action": "Map all 50 questions to official Geography Code 24 syllabus units.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
-    "verified": 46,
-    "provisional": 4,
+    "verified": 47,
+    "provisional": 3,
     "pending": 0,
     "provisional_question_numbers": [
       10,
       21,
-      44,
-      45
+      44
     ],
-    "note": "Question-level mapping aligned to the official ten-unit Code 24 syllabus; provisional items require subject-expert confirmation."
+    "note": "47 mappings directly align to official Code 24 unit descriptions; Q10, Q21 and Q44 remain provisional because their precise placement is not explicit in the official unit descriptions."
   }
 }
