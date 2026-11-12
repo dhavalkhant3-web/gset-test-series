@@ -923,5 +923,20 @@
       "syllabus_mapping_verified": 400,
       "review_flags": 110
     }
+  },
+  "latest_dec2021_ambiguity_recheck": {
+    "source": "Official GSET Gujarati Paper-II December 2021 scan: https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2106.pdf",
+    "printed_pages": [
+      7,
+      8,
+      13
+    ],
+    "questions": [
+      36,
+      37,
+      60
+    ],
+    "count": 3,
+    "result": "Re-inspected Q36, Q37 and Q60 against the original scan. Q36 option C OCR error corrected from 'પધવાર્તા' to 'પદ્યવાર્તા'. Q36 option A still has an ambiguous glyph in the compound word after 'પાત્રો'; Q37 contains several uncertain proper-name glyphs; Q60 author b spelling still requires exact glyph confirmation. All three remain review-only with review_flag=true and source_verified=false; no answers changed."
   }
 }
