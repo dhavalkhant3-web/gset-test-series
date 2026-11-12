@@ -418,7 +418,11 @@
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
-      "options_incomplete_count": 2
+      "options_incomplete_count": 2,
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_source": "Official GSET December 2021/January 2022 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches.",
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_nov22",
@@ -444,7 +448,11 @@
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
-      "options_incomplete_count": 0
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 100,
+      "answer_key_reconciliation_source": "Official GSET November 2022 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches, including Z no-evaluation entries.",
+      "answer_key_reconciliation_mismatch_count": 0,
+      "answer_key_reconciliation_corrected_count": 0
     },
     {
       "paper_id": "physical_nov23",
@@ -471,7 +479,7 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET final answer key PDF; Q1-Q100 exact letter matching.",
+      "answer_key_reconciliation_source": "Official GSET November 2023 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero mismatches.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "options_incomplete_count": 0
@@ -501,8 +509,8 @@
       "unit_mapping_verified_count": 100,
       "unit_mapping_status_note": "All 100 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "answer_key_reconciled_question_count": 100,
-      "answer_key_reconciliation_source": "Official GSET final answer key PDF; question-number/letter parity checked across Q1-Q100.",
-      "answer_key_reconciliation_mismatch_count": 10,
+      "answer_key_reconciliation_source": "Official GSET December 2024 final answer-key JSON; canonical questions.json answers compared Q1-Q100; zero current mismatches. Ten prior corrections remain recorded in correction sidecar.",
+      "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 10,
       "options_incomplete_count": 8
     },
