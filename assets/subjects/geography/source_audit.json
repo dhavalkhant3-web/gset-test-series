@@ -69,19 +69,17 @@
     "Q33 option D: OCR 'puryanchal' corrected to 'Purvanchal'.",
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
-  "syllabus_mapping_status": "pending_official_syllabus_mapping",
+  "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
   "remaining_subject_work": "150 staged questions across August 2017 and November 2025 remain review-only; 500 questions across five papers remain untranscribed.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
-    "verified": 47,
-    "provisional": 3,
+    "verified": 49,
+    "provisional": 1,
     "pending": 0,
     "provisional_question_numbers": [
-      8,
-      26,
       37
     ],
     "pending_question_numbers": [],
-    "note": "Unit mapping aligned to official Code 24 syllabus headings; provisional items require subject-expert confirmation."
+    "note": "49 question-level mappings align directly to official Code 24 unit descriptions; Q37 remains provisional because the broad development concept spans multiple syllabus areas."
   }
 }
