@@ -43602,8 +43602,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Plane electromagnetic waves in lossy/lossless media — Unit III Electromagnetic Theory.",
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -43614,7 +43614,10 @@
       "Perfect conductor",
       "Loss-less dielectric",
       "Lossy dielectric"
-    ]
+    ],
+    "syllabus_unit": 3,
+    "unit_number": 3,
+    "unit_id": "unit_3"
   },
   {
     "id": "physical_sep18_q29",
@@ -44398,8 +44401,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Pressure-temperature behaviour of Maxwell-Boltzmann, Fermi-Dirac and Bose-Einstein gases — Unit V Thermodynamic and Statistical Physics.",
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -44410,7 +44413,10 @@
       "I: F-D gas; II: M-B gas; III: B-E gas",
       "I: B-E gas; II: M-B gas; III: F-D gas",
       "I: B-E gas; II: F-D gas; III: M-B gas"
-    ]
+    ],
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "physical_sep18_q50",
@@ -44438,8 +44444,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Equipartition and kinetic theory from equal RMS molecular speeds — Unit V Thermodynamic and Statistical Physics.",
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -44450,7 +44456,10 @@
       "Same absolute temperatures",
       "Same internal energies",
       "Different absolute temperatures"
-    ]
+    ],
+    "syllabus_unit": 5,
+    "unit_number": 5,
+    "unit_id": "unit_5"
   },
   {
     "id": "physical_sep18_q51",
@@ -45882,8 +45891,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Temperature dependence of Fermi energy in metals — Unit VIII Condensed Matter Physics.",
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -45894,7 +45903,10 @@
       "Eꜰ(T) = Eꜰ(0)[1 + (π/12)(kT/Eꜰ(0))²]",
       "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))²]",
       "Eꜰ(T) = Eꜰ(0)[1 + (π²/12)(kT/Eꜰ(0))³]"
-    ]
+    ],
+    "syllabus_unit": 8,
+    "unit_number": 8,
+    "unit_id": "unit_8"
   },
   {
     "id": "physical_sep18_q89",
@@ -45958,8 +45970,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Rutherford scattering and nuclear-size estimation — Unit IX Nuclear and Particle Physics.",
     "official_answer": "D",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -45970,7 +45982,10 @@
       "Thickness of the target",
       "Half-life of an α-emitter",
       "Size of a nucleus"
-    ]
+    ],
+    "syllabus_unit": 9,
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "physical_sep18_q91",
@@ -46256,8 +46271,8 @@
     "source": "GSET official September 2018 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
-    "syllabus_mapping_note": "Not mapped: the current source text is OCR-corrupted or incomplete; restore the original question/figure before assigning a syllabus unit.",
+    "syllabus_mapping_status": "official_verified",
+    "syllabus_mapping_note": "Matched to official GSET Physical Sciences Code 02 syllabus: Mesons and quark composition — Unit IX Nuclear and Particle Physics.",
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
@@ -46268,7 +46283,10 @@
       "One quark and one antiquark",
       "Three quarks",
       "Two quarks and one antiquark"
-    ]
+    ],
+    "syllabus_unit": 9,
+    "unit_number": 9,
+    "unit_id": "unit_9"
   },
   {
     "id": "physical_sep18_q98",
