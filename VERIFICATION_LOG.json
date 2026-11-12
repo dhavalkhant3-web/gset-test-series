@@ -6847,5 +6847,80 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 October 2014 source-sensitive notation audit",
+    "branch": "integration/combined-subject-banks",
+    "official_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/oct14/oct1402.pdf",
+    "questions_reviewed": [
+      2,
+      4,
+      5,
+      6,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      28,
+      31,
+      33,
+      34,
+      37,
+      45,
+      46,
+      48,
+      50
+    ],
+    "review_flags_cleared": 24,
+    "source_verified_delta": 24,
+    "corrections": [
+      {
+        "q": 2,
+        "field": "option B",
+        "correction": "1 − (10⁻⁶)ᴺ"
+      },
+      {
+        "q": 5,
+        "field": "question stem",
+        "correction": "restored all six source vectors"
+      },
+      {
+        "q": 10,
+        "field": "option D",
+        "correction": "∂v/∂ṗₖ = 0"
+      },
+      {
+        "q": 17,
+        "field": "option C",
+        "correction": "[L, L_z] = 0"
+      },
+      {
+        "q": 28,
+        "field": "options C and D",
+        "correction": "restored complement overbars"
+      },
+      {
+        "q": 34,
+        "field": "option D",
+        "correction": "Thermister"
+      },
+      {
+        "q": 37,
+        "field": "option D",
+        "correction": "²P₁/₂"
+      }
+    ],
+    "official_answer_keys_unchanged": true,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

@@ -1190,3 +1190,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - August 2017 now has 50/50 source-reviewed questions, 0 visual flags, 0 incomplete options, and 50 official syllabus mappings. Official answer key remains unchanged.
 - Latest canonical status: 1,300/1,300 official answer-key parity; 1,300/1,300 official syllabus mappings; 1,236 source-verified; 99 visual flags; 0 incomplete option records.
 - Other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 October 2014 source audit
+- Checked all 24 flagged October 2014 question records against the official GSET Paper-II PDF (Q2, Q4–Q6, Q10–Q14, Q16–Q18, Q21–Q22, Q24, Q28, Q31, Q33–Q34, Q37, Q45–Q46, Q48, Q50).
+- Restored the full vector set in Q5; corrected source notation in Q2, Q10, Q17 and Q28; restored the source spelling “Thermister” in Q34 and the printed ²P₁/₂ option in Q37. Other stems/options were confirmed against the official PDF.
+- October 2014 now has 50/50 source-reviewed questions and 0 visual flags. Latest canonical status: 1,260 source-verified, 75 review flags, 0 incomplete options, 1,300/1,300 official syllabus mappings, and 1,300/1,300 final-key parity.
+- Other subjects and Paper-I remain unchanged. No PR merged.

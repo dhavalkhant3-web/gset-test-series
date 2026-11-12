@@ -1679,7 +1679,7 @@
     "answer_key_verified": 304
   },
   "physical_sciences_fully_verified": false,
-  "physical_sciences_next_gate": "Resolve the 99 remaining visual source review flags across other papers, then verify CI and the combined Debug APK.",
+  "physical_sciences_next_gate": "Resolve the remaining 75 source review flags across other papers, then verify CI and the combined Debug APK.",
   "physical_sciences_answer_key_reconciliation_2026_11_12": {
     "date": "2026-11-12",
     "branch": "integration/combined-subject-banks",
@@ -1832,8 +1832,8 @@
     "date": "2026-11-12",
     "branch": "integration/combined-subject-banks",
     "total_paper_ii_questions": 1300,
-    "source_verified": 1236,
-    "review_flags": 99,
+    "source_verified": 1260,
+    "review_flags": 75,
     "incomplete_option_records": 0,
     "incomplete_option_ids": [],
     "official_syllabus_mappings": 1300,
@@ -1842,7 +1842,7 @@
     "official_final_answer_key_parity": 1300,
     "answer_key_mismatches": 0,
     "remaining_work": [
-      "99 remaining visual source review flags across other papers",
+      "75 remaining visual/source review flags across other papers",
       "final CI and Combined Debug APK checks for latest data commit"
     ],
     "ci_apk_status": "new runs triggered by latest commits; latest completion pending",
