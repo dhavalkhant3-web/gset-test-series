@@ -1157,3 +1157,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - November 2025 mapping status: 100 official_verified, 0 provisional, 0 pending. September 2018's 18 source-corrupted records remain pending; do not infer mappings before restoring original source text.
 - Physical Sciences canonical status after this pass: 1,282 official syllabus mappings, 0 provisional, 18 pending; 119 visual review flags and 20 incomplete option records remain. Answer-key sidecar parity is 1,100/1,300.
 - No other subjects or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 full official final-key reconciliation
+- Retrieved the four remaining official Paper-II final-key scans from the GSET old-answer-key archive: July 2004, July 2006, October 2010, and September 2013.
+- Transcribed and compared all 200 rows with canonical records. July 2004 50/50 exact; July 2006 50/50 exact; September 2013 corrected key 50/50 exact; October 2010 50/50 exact after correcting Q46 from B to C per the official final-key scan (nuclear-radius ratio is 2^(1/3), option C).
+- Created four official key sidecars and updated canonical question-level answer-key verification metadata. Together with the earlier 1,100 rows, the complete 1,300/1,300 Paper-II archive now has official final-key parity. No mismatches remain.
+- Visual review, incomplete options and syllabus mapping remain separate gates; no visual flags were cleared in this answer-key-only batch. No other subjects or Paper-I changed. No PR merged.

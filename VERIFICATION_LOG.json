@@ -6716,5 +6716,56 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 final four-paper answer-key reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "papers": [
+      {
+        "paper_id": "physical_jul04",
+        "question_count": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/jy04/jy0402.pdf",
+        "corrected": []
+      },
+      {
+        "paper_id": "physical_jul06",
+        "question_count": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/jy06/jy0602.pdf",
+        "corrected": []
+      },
+      {
+        "paper_id": "physical_oct10",
+        "question_count": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1002.pdf",
+        "corrected": [
+          {
+            "q": 46,
+            "old": "B",
+            "official": "C"
+          }
+        ]
+      },
+      {
+        "paper_id": "physical_sep13",
+        "question_count": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/sept13/sept1302.pdf",
+        "corrected": []
+      }
+    ],
+    "cumulative_answer_key_parity": "1300/1300",
+    "remaining": 0,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

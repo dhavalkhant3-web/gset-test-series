@@ -1739,5 +1739,53 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merges": 0
+  },
+  "physical_sciences_answer_key_reconciliation_2026_11_12_full_archive": {
+    "date": "2026-11-12",
+    "branch": "integration/combined-subject-banks",
+    "official_final_key_source": "GSET official answer-key archive",
+    "newly_reconciled": {
+      "physical_jul04": {
+        "questions": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/jy04/jy0402.pdf"
+      },
+      "physical_jul06": {
+        "questions": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/jy06/jy0602.pdf"
+      },
+      "physical_oct10": {
+        "questions": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "corrections": [
+          {
+            "question": 46,
+            "old": "B",
+            "official": "C",
+            "reason": "Official corrected final-key scan; nuclear radius scales as A^(1/3)."
+          }
+        ],
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1002.pdf"
+      },
+      "physical_sep13": {
+        "questions": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept13/sept1302.pdf"
+      }
+    },
+    "cumulative": {
+      "total_questions": 1300,
+      "official_final_key_parity": 1300,
+      "remaining": 0,
+      "mismatches": 0
+    },
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merges": 0
   }
 }
