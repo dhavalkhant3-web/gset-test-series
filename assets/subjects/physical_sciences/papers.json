@@ -298,15 +298,17 @@
       "source_verified": true,
       "question_source_verified": true,
       "status": "source_verified_subset_source_review_pending",
-      "unit_mapping_status": "pending_official_syllabus_unit_mapping",
+      "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 50,
       "review_flags_remaining_count": 9,
-      "unit_mapping_provisional_count": 45,
-      "unit_mapping_pending_count": 5,
-      "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current Paper-II counts: 45 provisional, 5 unmapped, 0 verified. Paper-level mapping remains pending while any provisional or unmapped records remain.",
-      "options_incomplete_count": 0
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_verified_count": 50,
+      "unit_mapping_status_note": "All 50 question-level mappings are marked official_verified in the canonical question bank.",
+      "options_incomplete_count": 0,
+      "answer_key_reconciled_question_count": 50,
+      "answer_key_reconciliation_mismatch_count": 0
     },
     {
       "paper_id": "physical_aug17",
