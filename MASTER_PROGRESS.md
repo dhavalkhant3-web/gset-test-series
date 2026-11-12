@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-11
+Updated: 2026-11-12
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -1171,3 +1171,14 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - 18 records were fully source-verified and their review flags cleared; Q33 retains a visual flag because the original equilateral-triangle diagram still needs a dedicated app image asset (the spatial layout is described in the stem).
 - Completed official syllabus mapping for all 18 restored records. September 2018 now has 100/100 official syllabus mappings and 0 incomplete option records; 11 visual review flags remain in this paper.
 - Answer keys were not changed. No other subjects or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — latest live canonical audit (12 November 2026)
+- Canonical Paper-II bank: 1,300 questions.
+- Source verified: 1,235; visual review flags: 100.
+- Incomplete English option records: 1 (August 2017 Q5, graph-based options requiring the original figure asset).
+- Official syllabus mappings: 1,300/1,300 verified; 0 provisional; 0 pending.
+- Official final answer-key parity: 1,300/1,300 exact; 0 mismatches.
+- September 2018 source restoration: 19 OCR-corrupted records restored from the official scan; 19 source-verified, 18 review flags cleared, and Q33 retains one visual-asset flag. September 2018 now has 91 source-reviewed questions, 10 flags, 0 incomplete options, and 100 official syllabus mappings.
+- Combined subject audit and Debug APK runs triggered after the latest data commits; final outcomes must be read from the latest Actions runs before declaring build validation complete.
+- All other subjects and Paper-I remain unchanged. No PR merged.

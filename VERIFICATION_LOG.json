@@ -6794,7 +6794,7 @@
       "physical_sep18_q57",
       "physical_sep18_q62"
     ],
-    "source_verified_delta": 18,
+    "source_verified_delta": 19,
     "review_flags_cleared": 18,
     "review_flag_retained": [
       "physical_sep18_q33"
@@ -6805,6 +6805,27 @@
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
     "answer_key_changes": 0,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 latest live canonical audit",
+    "branch": "integration/combined-subject-banks",
+    "total_paper_ii_questions": 1300,
+    "source_verified": 1235,
+    "review_flags": 100,
+    "incomplete_option_records": 1,
+    "incomplete_option_ids": [
+      "physical_aug17_q05"
+    ],
+    "official_syllabus_mappings": 1300,
+    "provisional_mappings": 0,
+    "pending_mappings": 0,
+    "official_final_answer_key_parity": 1300,
+    "answer_key_mismatches": 0,
+    "remaining_visual_review": 100,
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
