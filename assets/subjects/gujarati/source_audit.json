@@ -149,7 +149,7 @@
     "note": "Of 303 review-only records, 137 now have source-backed verified unit mappings; 166 remain provisional pending source verification; 0 unmapped.",
     "pending_records_with_verified_unit_mapping": 137
   },
-  "syllabus_mapping_note": "303 review-only records: all 303 question-level syllabus mappings are now verified against the official GSET Gujarati Code 06 syllabus. Zero provisional and zero unmapped records remain.",
+  "syllabus_mapping_note": "All 400 Gujarati Paper-II records across the 303 review-only and 97 active records now have verified question-level mappings against the official GSET Gujarati Code 06 syllabus. Provisional: 0. Pending: 0.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 137,
     "records": [
@@ -462,7 +462,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: December 2019 and December 2003 Gujarati Paper-II now have 100/100 and 50/50 source visual checks respectively. December 2003 published-key parity is 50/50, including Q18 = B; all 50 syllabus mappings verified. Across all 303 review-only records, 303 syllabus mappings are verified. December 2002 retains five published-key conflicts and one duplicate printed Q34 key-identity ambiguity.",
+  "last_batch_saved": "2026-11-12: Completed all 303 review-only syllabus mappings and the additional 23 provisional/pending mappings in the 97 active December 2021 bank. All 400 Gujarati records now have verified syllabus mappings. December 2019: 100/100 source, key and mapping. December 2003: 50/50 source, published-key and mapping (Q18=B). December 2002: 50/50 source and mapping; 44/50 published-key matches with five conflicts and one duplicate printed Q34 key identity unresolved. December 2021: 97/100 source verified; Q36/Q37/Q60 remain review-only.",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -843,32 +843,28 @@
       "note": "The five conflicts and duplicate printed-number row are retained for adjudication. No staged answer was overwritten because the accessible official key is not labelled FINAL."
     },
     "syllabus_mapping": {
+      "total_records": 400,
       "review_only_records": 303,
-      "verified_mappings": 303,
+      "active_records": 97,
+      "verified_mappings": 400,
       "provisional_mappings": 0,
-      "unmapped": 0,
-      "updated_sessions": {
-        "december_2019": {
-          "verified": 100
-        },
-        "august_2017": {
-          "verified": 50
-        },
-        "december_2003": {
-          "verified": 50
-        },
-        "december_2008": {
-          "verified": 50
-        },
-        "december_2021_review_only": {
-          "verified": 3
-        },
-        "december_2002": {
-          "verified": 50
-        }
-      },
-      "note": "All question-level unit assignments were checked against the official 6-page GSET Gujarati Code 06 syllabus. Source and answer-key review flags remain independent of syllabus mapping verification."
+      "pending_mappings": 0,
+      "note": "All mappings reviewed against the official 6-page GSET Gujarati Code 06 syllabus. This includes the 303 review-only records and the 97 active December 2021 records; source/key review flags remain independent."
     },
-    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks. December 2002 Q35 source wording/options now confirmed against the second printed Q34 entry; it is not a text mismatch but has a duplicate printed question number and unresolved key identity. All 50 mappings are verified. Five other key conflicts remain explicitly flagged; no answers changed. Completed the remaining December 2003 visual source checks Q26–Q50 against official printed pages 8–14; all 50 questions are now source-verified and all 50 published-key entries match. Q18 = B confirmed against official key; no answer changes required."
+    "changes": "December 2019: source_verified set true for all 100 after scan review; Q30/Q100 option transcription corrections; Q1–Q6 and Q8–Q17 review flags cleared after source/key/mapping checks; Q7 retained as non-evaluated. Papers metadata synchronized. December 2002/2003 question content and answers unchanged; their metadata was synchronized earlier. No other subjects, Paper-I UI, or merge state changed. Verified the remaining 82 provisional mappings across August 2017, December 2003, December 2008 and the December 2021 review-only items, plus December 2019's 68 mappings. Corrected obvious unit placements (including Dec 2019 Q22/Q30/Q47/Q48/Q83). Only December 2002 unmatched Q35 remains provisional. No source/answer flags were cleared from records that still need those checks. December 2002 Q35 source wording/options now confirmed against the second printed Q34 entry; it is not a text mismatch but has a duplicate printed question number and unresolved key identity. All 50 mappings are verified. Five other key conflicts remain explicitly flagged; no answers changed. Completed the remaining December 2003 visual source checks Q26–Q50 against official printed pages 8–14; all 50 questions are now source-verified and all 50 published-key entries match. Q18 = B confirmed against official key; no answer changes required. Verified the additional 20 provisional and 3 pending syllabus mappings in the active December 2021 bank (Q8, Q10, Q21, Q26, Q28, Q30, Q38, Q40, Q53, Q58, Q67, Q70, Q82, Q85, Q91–Q94, Q96–Q100). All 400 Gujarati records now have verified syllabus mappings; source/key review flags were not cleared for unresolved source issues.",
+    "active_december_2021_mapping": {
+      "active_questions": 97,
+      "verified_mappings": 97,
+      "provisional_mappings": 0,
+      "pending_mappings": 0,
+      "review_only_questions": 3,
+      "review_only_question_numbers": [
+        36,
+        37,
+        60
+      ],
+      "review_only_mappings_verified": 3,
+      "note": "The 20 provisional and 3 pending mappings in the active 97-question bank were reviewed and verified. The three source-ambiguous questions remain review-only, but their syllabus unit assignments are now verified."
+    }
   }
 }
