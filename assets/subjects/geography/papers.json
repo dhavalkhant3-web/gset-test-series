@@ -28,16 +28,16 @@
       "source_verified": true,
       "review_flags_remaining_count": 0,
       "status": "source_verified_syllabus_mapping_pending",
-      "review_note": "All 50 questions and four options visually checked against official September 2016 Geography Paper-II PDF; all 50 answers matched official final/corrected key. Question-level syllabus mapping remains pending.",
+      "review_note": "All 50 questions and four options visually checked; all 50 answers matched official final/corrected key. 49/50 syllabus mappings directly aligned; Q37 remains provisional.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf",
       "questions_count": 50,
       "source_reference_status": "official_question_paper_and_final_corrected_answer_key_resolved",
-      "unit_mapping_verified_count": 47,
-      "unit_mapping_provisional_count": 3,
+      "unit_mapping_verified_count": 49,
+      "unit_mapping_provisional_count": 1,
       "unit_mapping_pending_count": 0,
       "unit_mapping_status": "partially_mapped_official_syllabus",
-      "unit_mapping_status_note": "47 question mappings aligned to official Geography Code 24 units; 3 remain provisional for expert review; 0 unmapped."
+      "unit_mapping_status_note": "49 mappings directly aligned to official Code 24 unit descriptions; 1 remains provisional (Q37)."
     },
     {
       "paper_id": "geography_aug2017",
@@ -57,15 +57,15 @@
       "source_verified": true,
       "review_flags_remaining_count": 0,
       "status": "source_verified_syllabus_mapping_pending",
-      "review_note": "All 50 question stems and options visually checked against official August 2017 Geography Paper-II PDF; all 50 answer letters matched official final answer key. Question-level syllabus mapping remains pending.",
+      "review_note": "All 50 question stems and options visually checked; all 50 answers matched official final key. 47/50 syllabus mappings directly aligned; Q10, Q21 and Q44 remain provisional.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1724.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1724.pdf",
       "questions_count": 50,
-      "unit_mapping_verified_count": 46,
-      "unit_mapping_provisional_count": 4,
+      "unit_mapping_verified_count": 47,
+      "unit_mapping_provisional_count": 3,
       "unit_mapping_pending_count": 0,
       "unit_mapping_status": "partially_mapped_official_syllabus",
-      "unit_mapping_status_note": "46 mappings directly aligned to official Code 24 unit descriptions; 4 require subject-expert confirmation."
+      "unit_mapping_status_note": "47 mappings directly aligned to official Code 24 unit descriptions; 3 remain provisional (Q10, Q21, Q44)."
     },
     {
       "paper_id": "geography_sep2018",
