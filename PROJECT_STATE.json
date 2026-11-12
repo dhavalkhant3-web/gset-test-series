@@ -1679,7 +1679,7 @@
     "answer_key_verified": 304
   },
   "physical_sciences_fully_verified": false,
-  "physical_sciences_next_gate": "Resolve the remaining 70 source review flags, including visual notation checks for November 2023 Q78 and Q85, then verify CI and the combined Debug APK.",
+  "physical_sciences_next_gate": "Resolve the remaining 61 source review flags across other papers and the September 2018 Q86 source-item defect, then verify CI and the combined Debug APK.",
   "physical_sciences_answer_key_reconciliation_2026_11_12": {
     "date": "2026-11-12",
     "branch": "integration/combined-subject-banks",
@@ -1832,8 +1832,8 @@
     "date": "2026-11-12",
     "branch": "integration/combined-subject-banks",
     "total_paper_ii_questions": 1300,
-    "source_verified": 1265,
-    "review_flags": 70,
+    "source_verified": 1274,
+    "review_flags": 61,
     "incomplete_option_records": 0,
     "incomplete_option_ids": [],
     "official_syllabus_mappings": 1300,
@@ -1842,7 +1842,7 @@
     "official_final_answer_key_parity": 1300,
     "answer_key_mismatches": 0,
     "remaining_work": [
-      "70 remaining source review flags, including November 2023 Q78/Q85 notation and graph/diagram assets",
+      "61 remaining source review flags across other papers; September 2018 Q86 remains flagged for a defective source option set",
       "final CI and Combined Debug APK checks for latest data commit"
     ],
     "ci_apk_status": "new runs triggered by latest commits; latest completion pending",

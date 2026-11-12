@@ -6953,5 +6953,35 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-12",
+    "event": "Physical Sciences Code 02 September 2018 visual source restoration batch",
+    "branch": "integration/combined-subject-banks",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept18/sept1802.pdf",
+    "questions_restored": [
+      29,
+      30,
+      45,
+      65,
+      66,
+      76,
+      78,
+      79,
+      80,
+      85
+    ],
+    "review_flags_cleared": 9,
+    "source_verified_delta": 9,
+    "review_flag_retained": [
+      {
+        "q": 86,
+        "reason": "Triclinic system absent from printed options; official final key Z."
+      }
+    ],
+    "official_answer_keys_unchanged": true,
+    "no_other_subjects_changed": true,
+    "paper_i_changed": false,
+    "pr_merged": false
   }
 ]

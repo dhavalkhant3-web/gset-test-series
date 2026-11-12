@@ -1205,3 +1205,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Q78 and Q85 stems/options were restored from the official PDF extraction but remain flagged for visual confirmation of the compact d-spacing and effective-mass notation. November 2023 now has 98 source-reviewed records and 2 flags.
 - Latest canonical status: 1,265 source-verified; 70 review flags; 0 incomplete options; 1,300/1,300 official syllabus mappings; 1,300/1,300 final-key parity.
 - Other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 12 November 2026 September 2018 visual source restoration
+- Visually restored Q29–Q30, Q45, Q65–Q66, Q76, Q78–Q80 and Q85 from the official September 2018 Paper-II scan; split duplicated OCR blocks and restored formulas, subscripts, options and question boundaries.
+- Nine review flags cleared. Q86 is source-verified but remains flagged because the printed parameters describe a triclinic lattice while the options omit Triclinic; the official final key marks it Z (not evaluated). No answer was invented.
+- September 2018 now has 100/100 source-reviewed questions, 0 incomplete options, 100/100 official syllabus mappings, and one source-item defect flag.
+- Latest canonical status: 1,274 source-verified; 61 review flags; 0 incomplete options; 1,300/1,300 official syllabus mappings; 1,300/1,300 official final-key parity.
+- Other subjects and Paper-I remain unchanged. No PR merged.
