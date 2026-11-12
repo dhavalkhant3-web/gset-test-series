@@ -118,12 +118,16 @@
       "answer_key_parsed": true,
       "answer_key_verified": true,
       "answer_key_question_parity_verified": true,
-      "question_source_verified": 32,
-      "source_verified": false,
-      "review_flags_remaining_count": 68,
-      "status": "partial_visual_review",
-      "review_note": "32/100 question records (Q1–Q17 and Q31–Q45) have source_verified=true in the current review bank; 68 remain visual-review pending. All 100 answer-key entries have answer_key_verified=true and match the official FINAL key, with Q7 = Z / not evaluated. Do not infer source verification from key parity; remaining 68 stay review-only.",
-      "answer_key_reconciled_count": 100
+      "question_source_verified": 100,
+      "source_verified": true,
+      "review_flags_remaining_count": 0,
+      "status": "source_verified_mapping_pending",
+      "review_note": "100/100 question stems and all four options visually checked against the official GSET December 2019 scan. All 100 answer-key entries match the official FINAL key; Q7 = Z is not evaluated and remains excluded from scoring. Syllabus mapping: 32 verified, 68 provisional. Those 68 mappings remain review-only; source verification does not promote provisional unit assignments.",
+      "answer_key_reconciled_count": 100,
+      "syllabus_mapping_status": "partial_question_level_mapping",
+      "syllabus_mapping_verified": 32,
+      "syllabus_mapping_provisional": 68,
+      "syllabus_mapping_pending": 0
     },
     {
       "paper_id": "gujarati_dec2021",
