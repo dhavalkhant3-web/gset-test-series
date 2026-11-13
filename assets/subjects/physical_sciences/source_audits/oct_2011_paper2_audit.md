@@ -1,10 +1,30 @@
 # Physical Sciences Paper-II — 16 October 2011 Source Audit
 
-## Source files reviewed
-- Question paper scan: 16 pages, titled **PHYSICAL SCIENCES, Paper-II, OCT-11/02**. Questions 1–50 appear on printed pages 3–13.
-- Answer-key scan: 1 page, titled **GUJARAT STATE ELIGIBILITY TEST — 16TH OCTOBER 2011**, **KEY FOR PAPER-II**, subject **PHY. SCI.**, Q1–Q50.
+## Official source files reviewed
+- Question paper: supplied official GSET scan, 16 pages, titled **PHYSICAL SCIENCES, Paper-II, OCT-11/02**. Questions 1–50 appear on printed pages 3–13.
+- Final answer key: supplied official GSET scan, 1 page, titled **GUJARAT STATE ELIGIBILITY TEST — 16TH OCTOBER 2011**, **KEY FOR PAPER-II**, subject **PHY. SCI.**, Q1–Q50.
 
-## Answer key transcription (source transcription only)
+## Canonical repository reconciliation
+Canonical file inspected directly from its Git blob:
+`assets/subjects/physical_sciences/questions.json`
+Blob SHA: `ea6bb97d1df3c1c1aeffebb97a8f785aa07ec976`
+
+- Matched records: `physical_oct11_q01` through `physical_oct11_q50` (50/50).
+- Official final answer key: 50/50 exact matches; zero mismatches.
+- `answer_key_verified`: true for all 50.
+- `source_verified`: true for all 50.
+- `review_flag`: false for all 50.
+- English option arrays: four options present for all 50.
+- Syllabus mapping: `official_verified` for all 50; no missing unit IDs or unit numbers.
+- No canonical question/answer JSON edits were necessary; existing records already satisfy these checks.
+
+## Source figure assets
+- Q14: original rotating circular wire-loop figure (uniform magnetic-field arrows, radius R, angular velocity ω) is referenced by `assets/images/physical_oct11_q14_original_figure.png`. Source: printed page 5.
+- Q29: original D-flip-flop symbol with inverted clock input is referenced by `assets/images/physical_oct11_q29_original_symbol.png`. Source: printed page 9.
+- Both records have `review_flag: false`, `source_verified: true`, and `answer_key_verified: true`.
+- Q5, Q9 and Q15 are text/formula questions in the supplied scan; no standalone figure is visible for these questions.
+
+## Official answer key transcription
 | Q | Key | Q | Key | Q | Key | Q | Key | Q | Key |
 |---:|:---:|---:|:---:|---:|:---:|---:|:---:|---:|:---:|
 | 1 | A | 11 | A | 21 | B | 31 | A | 41 | A |
@@ -18,13 +38,5 @@
 | 9 | D | 19 | C | 29 | A | 39 | A | 49 | B |
 | 10 | B | 20 | A | 30 | B | 40 | A | 50 | B |
 
-## Visual/source-page review notes
-- Q14 has a circular wire-loop / magnetic-field diagram (question-paper PDF page 6; printed page 5).
-- Q29 has a D-flip-flop symbol diagram (question-paper PDF page 10; printed page 9).
-- Q5, Q9 and Q15 are text/formula questions in this scan; no standalone figure is visible for these questions.
-- Preserve the original diagram crops if these questions are entered into the app; do not redraw or replace them with inferred artwork.
-
-## Verification boundary
-- The 50-letter key above is transcribed from the supplied answer-key scan.
-- This file does **not** claim that the canonical `assets/subjects/physical_sciences/questions.json` records have been reconciled against this key. That requires reading the full canonical JSON and matching the October 2011 paper records question-by-question.
-- No question text, options, or answers have been invented or modified in this audit.
+## Scope and safeguards
+This audit records a comparison of the supplied question paper and official final key against the existing canonical records. The canonical question data was not changed because the audit found no mismatch or incomplete record. No answer was inferred or substituted from model knowledge.
