@@ -1866,7 +1866,12 @@
       "Q35",
       "Q37",
       "Q40",
-      "Q44"
+      "Q44",
+      "Q72",
+      "Q74",
+      "Q77",
+      "Q78",
+      "Q80"
     ],
     "remaining_flags": [
       "Q06",
@@ -1877,19 +1882,19 @@
       "Q41",
       "Q51",
       "Q69",
-      "Q71",
-      "Q72",
-      "Q74",
-      "Q77",
-      "Q78",
-      "Q80"
+      "Q71"
     ],
     "second_batch_results": {
       "Q41": "Corrected expectation calculation: norm squared 6; <Sx>=ℏ/3, absent from options; flag retained.",
       "Q44": "Original scan says V=∞ for x≤0, not α. Half-oscillator energies 3ℏω/2 and 7ℏω/2 yield 31ℏω/10 (A); flag cleared.",
       "Q51": "Isolated-system qualifier absent; system entropy alone need not always increase; flag retained.",
       "Q69": "0.0134 mA at 0.67 A/W yields 0.020 mW; option/key B=20 mW implies 13.4 mA; flag retained.",
-      "Q71": "Corrected canonical stem/options to official ¹D₂→¹F₃ transition at 3122 Å. Single-state Boltzmann factor gives C=9.83×10⁻⁵; total-level degeneracy convention gives a different unlisted result; flag retained."
+      "Q71": "Corrected canonical stem/options to official ¹D₂→¹F₃ transition at 3122 Å. Single-state Boltzmann factor gives C=9.83×10⁻⁵; total-level degeneracy convention gives a different unlisted result; flag retained.",
+      "Q72": "Corrected canonical stem/options to official Na 3²P₃/₂ hyperfine structure; I=J=3/2 gives F=0,1,2,3, four states (D); flag cleared.",
+      "Q74": "Corrected canonical stem/options to laser linewidth/coherence-length question; hc/(0.0125 eV)=0.0992 mm (A); flag cleared.",
+      "Q77": "Corrected canonical stem/options to p+p̄→π⁺+π⁻; allowed annihilation channel (A); flag cleared.",
+      "Q78": "Corrected canonical stem/options to liquid-drop binding-energy-per-nucleon trend; rises then slowly decreases (D); flag cleared.",
+      "Q80": "Corrected canonical stem/options to left-handed electron-neutrino weak isospin; T₃=+1/2 (B); flag cleared."
     },
     "audit_files": [
       "assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md",
@@ -1901,6 +1906,9 @@
     "paper_i_modified": false,
     "pr_merged": false,
     "ci_run": false,
-    "combined_apk_built": false
+    "combined_apk_built": false,
+    "third_batch_audit": "assets/subjects/physical_sciences/source_audits/dec_2024_third_batch_q72_q74_q77_q78_q80.md",
+    "total_cleared_from_initial_22": 13,
+    "remaining_flags_count": 9
   }
 }
