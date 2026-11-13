@@ -387,6 +387,17 @@ class PaperIIDataService {
           }
         }
 
+        // December 2003 original source figures are committed as app assets.
+        // Link the three visual questions by canonical ID and close only their visual flags.
+        try {
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_dec03_visuals.json',
+          ));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {'image_asset', 'review_flag', 'review_note'});
+          }
+        } catch (_) {}
+
         // September 2016 Paper-II Q1-Q50 already exist in the base archive.
         // Merge the source-preserving records so corrected stems/options,
         // official answers and review flags replace stale OCR fields by ID.
@@ -1932,12 +1943,6 @@ class _TestPageState extends State<TestPage> {
         ),
         Expanded(child: ListView(padding: const EdgeInsets.all(16), children: [
           if (passage.isNotEmpty) Card(child: Padding(padding: const EdgeInsets.all(12), child: Text(passage, style: const TextStyle(height: 1.35)))),
-          Builder(builder: (_) {
-            // The Paper-I visual extractor writes the exact source-preserving asset path
-            // into each question. Use that path directly; never infer or redraw a visual here.
-            final imageAsset = (q['image_asset'] ?? '').toString();
-            return imageAsset.isNotEmpty ? Padding(padding: const EdgeInsets.only(bottom: 12), child: ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(imageAsset, fit: BoxFit.contain))) : const SizedBox.shrink();
-          }),
           if (_visualAsset != null)
             Padding(
               padding: const EdgeInsets.only(bottom: 12),
