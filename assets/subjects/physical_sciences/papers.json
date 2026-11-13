@@ -86,12 +86,12 @@
       "questions_count": 50,
       "question_source_verified": true,
       "source_verified": true,
-      "status": "source_verified; original_figure_asset_integration_pending",
-      "review_count": 3,
+      "status": "complete_verified",
+      "review_count": 0,
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 50,
-      "review_flags_remaining_count": 3,
+      "review_flags_remaining_count": 0,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
@@ -101,7 +101,7 @@
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "answer_key_reconciliation_source": "Official final-key sidecar dec03_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
-      "source_review_note": "All 50 questions checked against the user-supplied official December 2003 Paper-II scan (16 pages). Q05 (printed page 4), Q09 (printed page 5) and Q15 (printed page 7) have been visually verified; original diagram crops extracted for app asset integration. The three flags remain open until those original figure assets are committed and linked in the app. Official 7 December 2003 final answer-key sheet checked: all 50 canonical answers and official_answer values match exactly (50/50, zero mismatches). All 50 syllabus mappings verified; 0 incomplete options."
+      "source_review_note": "All 50 questions checked against the official December 2003 GSET Physical Sciences Paper-II scan (16 pages). Original diagram assets for Q05 (printed page 4: phase-space diagrams), Q09 (printed page 5: triatomic normal modes), and Q15 (printed page 7: grounded plates/image charges) are committed under assets/images/ and linked in questions_dec03_visuals.json; each visual manifest entry has review_flag=false. Official 7 December 2003 final answer-key sheet checked: all 50 canonical answers and official_answer values match exactly (50/50, zero mismatches). All 50 syllabus mappings verified; 0 incomplete options; 0 remaining visual asset flags."
     },
     {
       "paper_id": "physical_jul04",
