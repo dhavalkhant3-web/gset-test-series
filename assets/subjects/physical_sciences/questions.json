@@ -15622,10 +15622,10 @@
       "D": "3ℏ/2"
     },
     "answer": "A",
-    "topic": "Quantum Mechanics — Spin-1/2",
+    "topic": "Quantum Mechanics — Spin-1/2 expectation value",
     "difficulty": "Medium",
     "explanation_en": "For a spin-1/2 particle, Sx=(ℏ/2)σx. For |ψ⟩=(2,1−i)ᵀ, the norm squared is |2|²+|1−i|²=4+2=6. Thus ⟨σx⟩=[2 Re(2*(1−i))]/6=4/6=2/3, so ⟨Sx⟩=ℏ/3. This value is absent from the printed options; the official key A (2ℏ) is retained but the item remains flagged.",
-    "explanation_gu": "Spin-1/2 માટે Sx=(ℏ/2)σx. State (2,1-i)નું norm squared 4 છે અને ⟨σx⟩=1 મળે છે. તેથી ⟨Sx⟩=ℏ/2.",
+    "explanation_gu": "Spin-1/2 માટે Sx=(ℏ/2)σx. State (2,1−i)નું norm²=4+2=6 છે. તેથી ⟨σx⟩=4/6=2/3 અને ⟨Sx⟩=ℏ/3 મળે છે. આ મૂલ્ય આપેલા વિકલ્પોમાં નથી; official key A જાળવીને flag રાખ્યો છે.",
     "review_flag": true,
     "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists A; the previously stored answer was B. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review.",
     "tip_en": "For a two-component spinor, use the Pauli matrix σx directly.",
@@ -15746,10 +15746,10 @@
       "D": "25ℏω/10"
     },
     "answer": "A",
-    "topic": "Quantum Mechanics — Expectation value",
+    "topic": "Quantum Mechanics — Half-harmonic oscillator",
     "difficulty": "Hard",
     "explanation_en": "The infinite wall at x=0 makes this a half-harmonic oscillator. Its allowed states correspond to the odd-parity states of the full oscillator, so the half-oscillator ground and first excited energies are E0=3ℏω/2 and E1=7ℏω/2. Since ψ=−ψ0/√5+2ψ1/√5 and the eigenstates are orthonormal, ⟨E⟩=(1/5)E0+(4/5)E1=3ℏω/10+28ℏω/10=31ℏω/10, option A, matching the official final key.",
-    "explanation_gu": "Official final key પ્રમાણે A રાખવામાં આવ્યો છે. આપેલ half-line potential માટે boundary-condition-specific eigenenergies જરૂરી છે; માત્ર full harmonic oscillatorના E0 અને E1થી C મળે છે. તેથી official key બદલ્યા વગર A રાખ્યો છે અને review flag આપ્યો છે.",
+    "explanation_gu": "x=0 પર અનંત દિવાલ હોવાથી આ half-harmonic oscillator છે. તેની ground અને first excited energies અનુક્રમે 3ℏω/2 અને 7ℏω/2 છે. તેથી ⟨E⟩=(1/5)(3ℏω/2)+(4/5)(7ℏω/2)=31ℏω/10, વિકલ્પ A.",
     "review_flag": false,
     "review_note": "Resolved by direct inspection of the uploaded official original scan: the printed potential is V(x)=∞ for x≤0 (not α). The half-harmonic-oscillator spectrum gives E0=3ℏω/2 and E1=7ℏω/2; the stated superposition has expectation 31ℏω/10, option A, matching the official final key. This expert/content flag is cleared. Syllabus mapping status remains independently governed by its existing fields.",
     "tip_en": "When a piecewise potential is given, do not automatically use full harmonic-oscillator energies; check boundary conditions.",
@@ -16828,14 +16828,14 @@
       "D": "7.02 × 10⁻⁵"
     },
     "answer": "C",
-    "topic": "Atomic Physics — Hydrogen spectrum",
+    "topic": "Atomic Physics — Boltzmann population ratio",
     "difficulty": "Easy",
     "explanation_en": "From the Boltzmann factor for a single state, Nf/Ni=exp[−hc/(λkBT)]. With λ=3122 Å and T=5000 K, hc/(λkBT)=9.2276, giving exp(−9.2276)=9.83×10⁻⁵, option C, which matches the official final key. If the question intends total level populations including the statistical-weight ratio (2Jf+1)/(2Ji+1)=7/5 for Jf=3 and Ji=2, the result would instead be 1.38×10⁻⁴, which is not listed. The wording does not specify whether degeneracy is included, so this ambiguity remains flagged.",
-    "explanation_gu": "Rydberg formulaથી 1/λ=R(1/4−1/9)=5R/36. તેથી λ≈656.3 nm, H-alpha line.",
+    "explanation_gu": "એક જ state માટે Boltzmann factor exp[−hc/(λkBT)] છે. λ=3122 Å અને T=5000 K મૂકતાં exponent 9.2276 અને ratio 9.83×10⁻⁵ (C) મળે છે. જો સંપૂર્ણ level population માટે degeneracy ratio 7/5 ઉમેરાય તો આપેલા વિકલ્પોમાં ન આવતું મૂલ્ય મળે છે; તેથી આ conventionની અસ્પષ્ટતા માટે flag રાખ્યો છે.",
     "review_flag": true,
     "review_note": "Corrected a serious source-transcription mismatch against the uploaded official original PDF: Q71 is the ¹D₂→¹F₃ transition at 3122 Å, not a hydrogen n=3→2 question. Original options are 4.02×10⁻⁵, 2.03×10⁻⁵, 9.83×10⁻⁵, 7.02×10⁻⁵. The single-state Boltzmann factor gives option C, matching the final key. Flag retained because including the level statistical-weight factor 7/5 gives a value absent from the options; the question does not clarify this convention. Do not substitute the former hydrogen question.",
-    "tip_en": "Balmer H-alpha: n=3→2 gives 656.3 nm.",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "Use the Boltzmann factor exp(−ΔE/kBT); check whether level degeneracy is included.",
+    "tip_gu": "Boltzmann factor સાથે degeneracy ગણવી છે કે નહીં તે પ્રશ્નમાં સ્પષ્ટ છે કે નહીં તે તપાસો.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 7,
@@ -16849,10 +16849,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "A",
     "options_en": [
-      "656 nm",
-      "486 nm",
-      "434 nm",
-      "122 nm"
+      "4.02 × 10⁻⁵",
+      "2.03 × 10⁻⁵",
+      "9.83 × 10⁻⁵",
+      "7.02 × 10⁻⁵"
     ]
   },
   {
@@ -16870,14 +16870,14 @@
       "D": "4 states"
     },
     "answer": "D",
-    "topic": "Quantum Mechanics — Infinite well",
+    "topic": "Atomic Physics — Hyperfine structure",
     "difficulty": "Easy",
     "explanation_en": "For electronic angular momentum J=3/2 and nuclear spin I=3/2, the total angular momentum F takes values |I−J|, |I−J|+1, …, I+J, i.e. F=0,1,2,3. There are four hyperfine levels, option D, matching the official final key.",
-    "explanation_gu": "Infinite well માટે En=n²π²ℏ²/(2mL²), એટલે En∝n²/L².",
+    "explanation_gu": "I=3/2 અને J=3/2 હોવાથી F=|I−J|થી I+J સુધી 0,1,2,3 થાય છે. એટલે કુલ ચાર hyperfine states, વિકલ્પ D.",
     "review_flag": false,
     "review_note": "Corrected the canonical bank stem/options to match the uploaded official original scan (hyperfine structure of Na 3²P₃/₂, I=3/2). F=0,1,2,3 gives four levels; official key D. Expert/content flag cleared.",
-    "tip_en": "Infinite well energy scales as n² and 1/L².",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "Allowed hyperfine F values run from |I−J| to I+J in integer steps.",
+    "tip_gu": "Hyperfine states માટે F=|I−J|થી I+J સુધીના મૂલ્યો ગણો.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 4,
@@ -16891,10 +16891,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "B",
     "options_en": [
-      "n/L",
-      "n²/L²",
-      "n/L²",
-      "n²/L"
+      "1 state",
+      "2 states",
+      "3 states",
+      "4 states"
     ]
   },
   {
@@ -16953,14 +16953,14 @@
       "D": "1 m"
     },
     "answer": "A",
-    "topic": "Atomic Physics — Selection rules",
+    "topic": "Laser Physics — Coherence length",
     "difficulty": "Easy",
     "explanation_en": "The transition linewidth is the sum of the upper- and lower-level widths: ΔE=ΔE₂+ΔE₁=0.0125 eV. The coherence length is L=c/Δν=hc/ΔE. Using hc≈1.23984 eV·μm gives L≈99.2 μm≈0.0992 mm, option A, matching the official final key.",
-    "explanation_gu": "Electric dipole માટે મુખ્ય orbital selection rule Δl=±1 છે; Δm=0,±1 હોઈ શકે.",
+    "explanation_gu": "Transitionની કુલ energy width ΔE=0.01+0.0025=0.0125 eV છે. Coherence length L=hc/ΔE≈99.2 μm≈0.1 mm મળે છે, વિકલ્પ A.",
     "review_flag": false,
     "review_note": "Corrected the canonical bank stem/options to match the uploaded official scan; the previous electric-dipole selection-rule item was not the December 2024 Q74. Summed level widths give coherence length ≈0.1 mm, option A. Expert/content flag cleared.",
-    "tip_en": "E1 transition: Δl=±1.",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "Add the upper- and lower-level linewidths, then use Lcoh=hc/ΔE.",
+    "tip_gu": "બંને energy widths ઉમેરો અને L=hc/ΔE વાપરો.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 7,
@@ -16974,10 +16974,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "B",
     "options_en": [
-      "Δl=0",
-      "Δl=±1",
-      "Δl=±2",
-      "Δl=0,±2"
+      "0.1 mm",
+      "1 mm",
+      "1 cm",
+      "1 m"
     ]
   },
   {
@@ -17077,14 +17077,14 @@
       "D": "Allowed only under electromagnetic interaction"
     },
     "answer": "A",
-    "topic": "Nuclear Physics — Binding energy",
+    "topic": "Particle Physics — Proton-antiproton annihilation",
     "difficulty": "Easy",
     "explanation_en": "The initial proton–antiproton state has total baryon number 0 and charge 0. The π⁺π⁻ final state also has baryon number 0 and charge 0; proton–antiproton annihilation into mesons is allowed by the strong interaction. Thus option A, matching the official final key.",
-    "explanation_gu": "Binding energy per nucleon iron/nickel regionમાં maximum હોય છે, આશરે A≈56.",
+    "explanation_gu": "પ્રારંભિક p અને p̄નું કુલ charge તથા baryon number બંને શૂન્ય છે. π⁺π⁻ અંતિમ અવસ્થામાં પણ બંને સંરક્ષિત રહે છે; આ annihilation channel strong interactionથી શક્ય છે. વિકલ્પ A.",
     "review_flag": false,
     "review_note": "Corrected the canonical bank stem/options to match the uploaded official scan; the previous binding-energy-maximum item was not the December 2024 Q77. The p p̄ → π⁺π⁻ annihilation channel is allowed. Official key A; expert/content flag cleared.",
-    "tip_en": "Maximum B.E./nucleon → Fe/Ni region.",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "Check charge and baryon-number conservation for annihilation channels.",
+    "tip_gu": "પ્રતિક્રિયામાં charge અને baryon numberનું conservation તપાસો.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 9,
@@ -17098,10 +17098,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "C",
     "options_en": [
-      "Hydrogen",
-      "Helium",
-      "Iron/Nickel region",
-      "Uranium"
+      "Yes",
+      "No",
+      "Allowed only under weak interaction",
+      "Allowed only under electromagnetic interaction"
     ]
   },
   {
@@ -17119,14 +17119,14 @@
       "D": "Increases with mass number and then decreases slowly"
     },
     "answer": "D",
-    "topic": "Nuclear Physics — Semi-empirical mass formula",
+    "topic": "Nuclear Physics — Binding energy per nucleon",
     "difficulty": "Easy",
     "explanation_en": "In the liquid-drop/systematics picture, binding energy per nucleon rises rapidly for light nuclei, reaches a broad maximum near the iron–nickel region, and then decreases slowly for heavier nuclei. This is option D, matching the official final key.",
-    "explanation_gu": "Coulomb term protons વચ્ચેના electrostatic repulsionને દર્શાવે છે અને binding energyમાં negative contribution આપે છે; તેનું magnitude લગભગ Z²/A^(1/3) પ્રમાણે વધે છે.",
+    "explanation_gu": "હળવા nuclei માટે binding energy per nucleon વધે છે, iron–nickel region પાસે મહત્તમ થાય છે અને ભારે nuclei માટે ધીમે ધીમે ઘટે છે. તેથી વિકલ્પ D.",
     "review_flag": false,
     "review_note": "Corrected the canonical bank stem/options to match the uploaded official scan; the previous Coulomb-term question was not the December 2024 Q78. The binding-energy-per-nucleon trend is option D. Expert/content flag cleared.",
-    "tip_en": "More protons → stronger Coulomb repulsion.",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "Binding energy per nucleon peaks near iron/nickel, then falls slowly.",
+    "tip_gu": "B.E. per nucleonનું maximum iron–nickel region પાસે હોય છે.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 9,
@@ -17140,10 +17140,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "C",
     "options_en": [
-      "Volume term",
-      "Surface term",
-      "Coulomb term",
-      "Pairing term"
+      "Increases with increasing mass number for all nuclei",
+      "Decreases with increasing mass number for all nuclei",
+      "Remains same with increasing mass number",
+      "Increases with mass number and then decreases slowly"
     ]
   },
   {
@@ -17202,14 +17202,14 @@
       "D": "+1"
     },
     "answer": "B",
-    "topic": "Nuclear/Particle Physics — Threshold energy",
+    "topic": "Particle Physics — Weak isospin",
     "difficulty": "Medium",
     "explanation_en": "The left-handed electron neutrino is the upper component of the SU(2)ₗ lepton doublet (νₑ, eₗ)ᵀ. Its weak-isospin third component is T₃=+1/2, option B, matching the official final key.",
-    "explanation_gu": "Threshold પર CM frameમાં final particlesની relative kinetic energy zero હોય છે. Invariant s વાપરતાં projectile kinetic energy લગભગ 279.7 MeV મળે છે, એટલે closest option 280 MeV.",
+    "explanation_gu": "Left-handed electron neutrino SU(2)L lepton doubletનું upper component છે. તેથી તેનું weak-isospin third component T₃=+1/2 છે, વિકલ્પ B.",
     "review_flag": false,
     "review_note": "Corrected the canonical bank stem/options to match the uploaded official scan; the previous proton-proton pion-production threshold item was not the December 2024 Q80. The left-handed νₑ has T₃=+1/2. Official key B; expert/content flag cleared.",
-    "tip_en": "For fixed-target reactions, threshold energy is much larger than just the rest energy of the produced particle.",
-    "tip_gu": "Concept અને units ખાસ ચેક કરો.",
+    "tip_en": "The upper member of a left-handed SU(2)L lepton doublet has T3=+1/2.",
+    "tip_gu": "Lepton doubletના upper component νe માટે T₃=+1/2 છે.",
     "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences question paper and final answer key",
     "syllabus_unit": 9,
@@ -17223,10 +17223,10 @@
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
     "answer_before_key_reconciliation": "C",
     "options_en": [
-      "135 MeV",
-      "270 MeV",
-      "280 MeV",
-      "300 MeV"
+      "0",
+      "+1/2",
+      "−1/2",
+      "+1"
     ]
   },
   {
