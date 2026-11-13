@@ -1,0 +1,67 @@
+{
+  "_staging_notice": "Forensic Science Code 27 evidence summary from supplied v3 staging and CSV register.",
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "paper": "Paper-II",
+  "transcribed_questions": 300,
+  "official_key_matches": 300,
+  "official_key_mismatches": 0,
+  "visual_checked": 84,
+  "proofread_pass1_pending_second_pass": 294,
+  "active_questions": 84,
+  "pending_review": 216,
+  "syllabus_mapping": {
+    "provisional_unit_matches": 299,
+    "pending_subject_expert_review": 1,
+    "unit_distribution": {
+      "Unit 10": 45,
+      "Unit 1": 27,
+      "Unit 2": 25,
+      "Unit 8": 24,
+      "Unit 3": 45,
+      "Unit 5": 46,
+      "Unit 7": 32,
+      "Unit 4": 33,
+      "Unit 6": 11,
+      "Unit 9": 11
+    },
+    "session_distribution": {
+      "November 2023 (exam date 26 Nov 2023)": 100,
+      "November 2025 (exam date 16 Nov 2025)": 99,
+      "December 2024 (exam date 1 Dec 2024)": 100
+    },
+    "unresolved_questions": [
+      {
+        "id": "GSET-FS27-NOV2025-Q047",
+        "session": "November 2025 (exam date 16 Nov 2025)",
+        "question": "Which of the following best characterizes the scope of forensic engineering in the context of multidisciplinary litigation support ?"
+      }
+    ],
+    "review_note": "Provisional unit assignments were made from each question stem/options against the official unit scope. No question source-verification, answer key, or active/review-only status was changed."
+  },
+  "source_pages": [
+    "nov2327.pdf",
+    "dec2427.pdf",
+    "nov2527.pdf"
+  ],
+  "last_visual_review": {
+    "session": "November 2023",
+    "questions": [
+      72,
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "count": 9,
+    "source": "Official GSET November 2023 Forensic Science Paper-II PDF, PDF pages 12–13.",
+    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
+    "result": "all selected stems/options visually matched; all selected answer letters matched final key"
+  },
+  "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
+  "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate"
+}

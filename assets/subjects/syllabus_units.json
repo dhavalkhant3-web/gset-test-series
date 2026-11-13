@@ -468,6 +468,123 @@
           "notes": "Stream-specific. Titles include Hindustani Gharana and Institutional System; Karnataka Banis, Training, Education and Propagation; Percussion Gharanas and Institutional System; Rabindra Sangeet Gharana and Institutionalised System."
         }
       ]
+    },
+    "gujarati": {
+      "code": "06",
+      "name_en": "Gujarati",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "ગુજરાતી સાહિત્યનો ઇતિહાસ"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "ગુજરાતી વિવેચન"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "ભાષાવિજ્ઞાન"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "સાહિત્યિક સંશોધન"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "સાહિત્યસ્વરૂપો"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "ભારતીય કૃતિઓ"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "ગુજરાતી કૃતિઓ"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "વિશ્વસાહિત્ય : સિદ્ધાંત અને કૃતિઓ"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "સાહિત્ય અને આંતરવિદ્યાઓ"
+        }
+      ],
+      "status": "official_syllabus_unit_titles_registered_question_mapping_pending",
+      "source_note": "Unit titles copied from the uploaded official GSET Gujarati (06) syllabus-units file. The supplied file states question-to-unit mapping has not been done; no question mapping is marked verified."
+    },
+    "forensic_science": {
+      "code": "27",
+      "name_en": "Forensic Science",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Forensic Science: foundations, physical evidence and criminal investigation"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Scientific and instrumental methods"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Biological evidence, serology, DNA and wildlife forensics"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Forensic toxicology and chemical examination"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Firearms, ammunition, ballistics and tool marks"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Fire, arson, explosives and forensic photography"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Hair, fibres, trace materials and digital forensics"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Fingerprints, track marks, biometrics and voice analysis"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Questioned documents and handwriting examination"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Forensic medicine, death, injuries and human identification"
+        }
+      ],
+      "status": "official_gset_syllabus_registered_question_mapping_provisional",
+      "source_note": "Unit order and scope transcribed from the official GSET Code 27 syllabus PDF. 299 question-level matches are provisional content-to-syllabus candidates; one question remains unassigned for subject-expert review. These mappings do not alter source_verified, answer-key, or activation status."
     }
   }
 }

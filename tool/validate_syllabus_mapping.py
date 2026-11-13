@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "assets/subjects/syllabus_units.json"
 SUBJECTS_ROOT = ROOT / "assets/subjects"
 QUESTION_FILES = {
+    "06": "gujarati/questions.json",
     "02": "physical_sciences/questions.json",
     "03": "chemical_sciences/questions.json",
     "28": "hindu_studies/questions.json",
