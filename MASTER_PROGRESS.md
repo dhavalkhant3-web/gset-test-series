@@ -1133,3 +1133,13 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Missing syllabus IDs: September 2013 7→0; September 2016 5→0. Official syllabus reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
 - Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/4a17b66524a788b05dcb2c96d0141e1dbb705a86
 - Other subjects/Paper-I untouched; no merge. Full answer-key parity, source reviews, and option cleanup remain outstanding.
+
+
+## Seven-subject Paper-II — Geography Code 24 November 2025 Q1–Q7 (2026-11-13)
+- Data commit: 5c8912ec0b974ff14f5ae17e9ce6b372056ec782. Working branch: app/import-updated-subject-banks-2026-11-10; PR #22 remains open and unmerged.
+- Live counts before this batch (active / review-only / not transcribed): Gujarati 97/303/0; Sanskrit 130/720/0; History 50/0/0; Geography 100/100/500; Social Work 0/0/600; Environmental Sciences 87/213/0; Forensic Science 84/216/0. Totals: 548 active, 1,552 review-only, 1,100 not transcribed.
+- Live counts after this batch: Gujarati 97/303/0; Sanskrit 130/720/0; History 50/0/0; Geography 107/93/500; Social Work 0/0/600; Environmental Sciences 87/213/0; Forensic Science 84/216/0. Totals: 555 active, 1,545 review-only, 1,100 not transcribed.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf. Q1–Q3 checked on printed page 3 (PDF index 2); Q4–Q7 on printed page 4 (PDF index 3). All seven English stems and all four English options matched. No figures/tables occur in this range; Gujarati-side fields were not populated.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf. Q1–Q7 letters D, B, D, B, A, D, B match all seven records; full session parity remains 100/100. No answer changes.
+- Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mappings: Q1 VI, Q2 V, Q3 VI, Q4 V, Q5 X, Q6 IV, Q7 VI. Q1–Q7 promoted; Q8–Q100 remain review-only.
+- A render attempt for PDF page index 4 timed out; no verification is claimed beyond Q7. Other six subjects, Code 01, Code 28, Code 02, and Paper-I were not changed. No PR merge; no CI/APK success claimed.

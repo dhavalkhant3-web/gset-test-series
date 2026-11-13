@@ -27,7 +27,7 @@ Expected question records across these seven subjects: 3,200. Active: 555. Remai
 - All 50 answer letters compared with official final/corrected key: https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf
 - 50 active, 0 source-review-pending; 48 syllabus mappings verified and 2 mappings pending (Q46, Q48).
 - Q48's earlier answer conflict was corrected after the official final key was rechecked: Q48 = D, matching option D (Adam Smith). The prior A/conflict note is superseded.
-- Syllabus mapping from official https://gujaratset.ac.in/assets/syllabus/08.pdf: 43 verified, 5 provisional, 1 pending (Q46).
+- Syllabus mapping from official https://gujaratset.ac.in/assets/syllabus/08.pdf: 48 verified, 0 provisional, 2 pending (Q46 and Q48).
 
 ### Geography Code 24
 - September 2016: 50/50 visually checked and official final-key matched; 50 active. Official syllabus mapping re-audit: 49 verified, 1 provisional (Q37). Q8 and Q26 verified as Unit X (transport networks).
@@ -35,6 +35,8 @@ Expected question records across these seven subjects: 3,200. Active: 555. Remai
 - Official sources: September 2016 question paper https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf and key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf; August 2017 question paper https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1724.pdf and final key https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1724.pdf.
 - Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf
 - Remaining Geography: 100 staged questions (November 2025; all 100 final-key letters reconciled, source visual review pending); 500 expected questions across five other listed papers not yet transcribed.
+
+- November 2025: Q1–Q7 visually checked against the official question-paper PDF (Q1–Q3 printed page 3; Q4–Q7 printed page 4). All seven English stems and four options match; final-key letters D, B, D, B, A, D, B match 7/7; syllabus mappings verified to Units VI, V, VI, V, X, IV, VI respectively. Seven records promoted to active; Q8–Q100 remain review-only (93). Official paper: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf.
 
 ### Other subjects
 - Gujarati: live JSON contains 97 active / 303 review-only (400 total); 97 active records are source-verified and all 400 question-level syllabus mappings are recorded as verified.
@@ -53,7 +55,7 @@ Expected question records across these seven subjects: 3,200. Active: 555. Remai
 ## Next work
 1. Geography: continue November 2025 visual verification from Q8 onward (Q1–Q7 complete; 93 remain review-only). PDF page indexes 2–3 rendered; page index 4 timed out once and should be retried page-by-page. Five additional papers (500 questions) remain untranscribed.
 2. Continue Gujarati and Sanskrit source verification and official syllabus mappings.
-3. History: resolve Q48 with subject expert; review provisional mappings and Q46.
+3. History: review only the two pending syllabus placements (Q46 and Q48); question text and final-key checks are complete.
 4. Social Work: transcribe 600 questions from official question-paper PDFs; do not convert answer keys into fake question records.
 5. Environmental Sciences and Forensic Science: complete remaining source reviews and official syllabus mapping.
 6. Re-run subject validators and combined Debug APK only after the unrelated Code 28 CI blocker is resolved under explicit authorization.
