@@ -398,6 +398,19 @@ class PaperIIDataService {
           }
         } catch (_) {}
 
+        // December 2019 Q89 original conductivity-versus-temperature graph choices.
+        // The source crop closes the sole remaining visual/source flag for this paper.
+        try {
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_dec19_visuals.json',
+          ));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {
+              'image_asset', 'review_flag', 'review_note', 'source_verified',
+            });
+          }
+        } catch (_) {}
+
         // September 2016 Paper-II Q1-Q50 already exist in the base archive.
         // Merge the source-preserving records so corrected stems/options,
         // official answers and review flags replace stale OCR fields by ID.
