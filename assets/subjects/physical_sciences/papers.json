@@ -329,14 +329,14 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final/corrected answer key",
       "questions_count": 50,
-      "review_count": 5,
+      "review_count": 3,
       "source_verified": true,
       "question_source_verified": true,
       "status": "source_verified_subset_source_review_pending",
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 50,
-      "review_flags_remaining_count": 5,
+      "review_flags_remaining_count": 3,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
@@ -346,7 +346,7 @@
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "answer_key_reconciliation_source": "Official final-key sidecar sept16_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
-      "source_review_note": "Official September 25, 2016 GSET Physical Sciences Paper-II scan (18 pages) and final/corrected answer key (1 page) inspected. Resolved Q17 (printed p9), Q28 (p11), Q35 (p13), and Q45 (p15): corrected/confirmed exact source options and aligned explanatory notes with the official key; their flags cleared. Five flags remain for Q01, Q03, Q21, Q25, and Q27 because the official key conflicts with source-level mathematical/technical reading or needs expert adjudication; official key choices remain unchanged."
+      "source_review_note": "Official September 25, 2016 GSET Physical Sciences Paper-II scan (18 pages) and final/corrected answer key (1 page) inspected. Resolved Q17, Q28, Q35, Q45 in prior pass and now Q25 (printed p11) and Q27 (p12): source/options and official key align; Q25 continuous thermal activation explains decreasing Cp/Cv, Q27 counts 256 input plus 256 output ports = 512. Q03 (printed p5) source options corrected to the exact scan; computed integral for printed field/domain is 4^6π, absent from options, while official key is D, so retain flag. Q01 (printed p5) Fourier jump value is 1/2 while key C=1; retain flag. Q21 (printed p10) ice-to-water is first-order (option C) while key B; retain flag. Exactly 3 adjudication flags remain. Official answer-key choices remain unchanged."
     },
     {
       "paper_id": "physical_aug17",
