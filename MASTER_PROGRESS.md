@@ -1235,3 +1235,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Visually rechecked the three remaining flagged questions against the original scan: Q43 (printed state/operator yield 1.52 by direct evaluation while official final key is C/1.54); Q80 (printed option B is 12a² although the question asks for an RMS radius); Q85 (decay line contains anti-neutrino, but the final sentence says “anti-neutron”).
 - The canonical English stems/options match the official scan for all three; no OCR correction is justified. Preserved the official final-key values and source wording. Retained all three content-integrity flags rather than silently correcting source defects. November 2025 remains 100/100 source-verified, 100/100 official final-key parity, 0 incomplete options, with 3 documented content-integrity flags.
 - No other subject or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — 13 November 2026 January 2002 source review
+- Inspected the supplied January 2002 Paper-II scan (14 pages) and the separate official final answer-key sheet (20 January 2002, 50 entries).
+- Manually checked the four remaining flagged records against the original paper and final key. Q31 wording/options match printed page 9 and official key C; its missed-key-extraction flag is cleared. Q23 wording/options match printed page 7 and official key D; source verified, but the conceptual flag remains because dl is not numerically specified and the direct Biot–Savart expression depends on dl.
+- Q21 (printed page 7) and Q47 (printed page 12) were visually confirmed, with official answers D and B respectively. Their flags remain until the original semicircle diagram and log-log graph are embedded as dedicated app assets; no figure was fabricated or replaced by a text-only approximation.
+- January 2002 now has 48/50 source-verified, 3 review flags, 0 incomplete options, 50/50 official answer-key parity and 50/50 syllabus mappings. No other subject or Paper-I changed; no PR merged.
