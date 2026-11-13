@@ -398,6 +398,19 @@ class PaperIIDataService {
           }
         } catch (_) {}
 
+        // September 2013 Q16 original harmonic-oscillator eigenfunction graph.
+        // Keep the source graph visible in the question and close its final visual flag.
+        try {
+          final overlay = jsonDecode(await rootBundle.loadString(
+            'assets/subjects/physical_sciences/questions_sep13_visuals.json',
+          ));
+          if (overlay is List) {
+            mergePhysicalOverlay(overlay, {
+              'image_asset', 'review_flag', 'review_note', 'source_verified',
+            });
+          }
+        } catch (_) {}
+
         // December 2019 Q89 original conductivity-versus-temperature graph choices.
         // The source crop closes the sole remaining visual/source flag for this paper.
         try {

@@ -1,42 +1,30 @@
 # September 2013 Physical Sciences Paper-II source audit
 
 - Subject: GSET Physical Sciences (Code 02)
-- Exam date: 22 September 2013
-- Source question paper: user-supplied official scan, 20 PDF pages
-- Source key: user-supplied GSET corrected final answer-key scan, 1 page
+- Exam: September 2013
 - Canonical paper ID: `physical_sep13`
+- Sources: user-supplied official question-paper scan and official corrected final answer-key scan
 
-## Checkpoint
+## Final verified status
 
-- Canonical questions: 50/50 present
-- Source review before this pass: 43/50
-- Source review after this pass: 49/50
-- Remaining source-review flag: 1 (Q16 graph asset integration)
-- English option sets: 50/50 populated
+- Source review: 50/50
 - Official corrected answer-key parity: 50/50, zero mismatches
-- Official syllabus mappings: 50/50 retained as `official_verified`
+- Incomplete English options: 0
+- Official syllabus mappings: 50/50
+- Remaining source-review flags: 0
 
-## Newly checked against the original scan
+## Q16 graph asset
 
-| Question | Printed page | Result |
-|---|---:|---|
-| Q01 | 5 | Stem and all four options match the scan |
-| Q36 | 13 | Spectroscopic term symbols and options match |
-| Q37 | 13 | Landé g-factor term notation and options match |
-| Q41 | 14 | Dielectric-function expression and options match |
-| Q46 | 15 | Oxygen-17 spin/parity notation and options match |
-| Q50 | 16 | Uranium alpha-decay equation and all four statements match |
+The harmonic-oscillator eigenfunction graph from original printed page 9 was extracted from the supplied scan and committed as:
 
-The official corrected answer-key choices for these records were retained unchanged.
+`assets/images/physical_sep13_q16_eigenfunction_graph.png`
 
-## Q16 — remaining visual integration
+The asset is linked to canonical question ID `physical_sep13_q16` through `questions_sep13_visuals.json`. The Flutter question loader merges the visual overlay by canonical ID, preserving the original source graph in the app. Q16's source flag is closed only after the image asset was linked.
 
-Q16 on printed page 9 was inspected. The eigenfunction plot and four answer choices are legible in the original scan, and the canonical answer matches the official corrected key. The original graph still needs to be extracted and linked as an app image asset. This is the sole remaining source-review flag for this paper; do not mark the paper fully source-verified until the graph is preserved in-app.
+## Other verified questions
 
-## Official corrected answer key
+The previously reviewed Q01, Q36, Q37, Q41, Q46 and Q50 remain source-verified. Their official corrected answer-key choices were not changed.
 
-All 50 answer choices were compared with the existing canonical `answer` and `official_answer` values. Exact parity was confirmed: 50/50, zero mismatches. The sidecar `sep13_official_final_answer_key.json` remains the authoritative transcription of the supplied corrected key.
+## Answer-key and scope safeguards
 
-## Scope and safeguards
-
-Only Physical Sciences Paper-II September 2013 records and its paper manifest were updated. No other subject, Paper-I UI, or PR merge was changed.
+All 50 canonical `answer` and `official_answer` fields match the official corrected final answer key exactly. No answer was recalculated or substituted. Only Physical Sciences September 2013 Paper-II data, its visual overlay, audit record and required Flutter asset-loader registration were changed. No other subject, Paper-I UI or PR merge was changed.
