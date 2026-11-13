@@ -548,14 +548,14 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
-      "review_count": 14,
+      "review_count": 9,
       "source_verified": true,
       "question_source_verified": true,
-      "status": "source_review_complete; 14 expert/content discrepancies retained",
+      "status": "source_review_complete; 9 expert/content discrepancies retained",
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 100,
-      "review_flags_remaining_count": 14,
+      "review_flags_remaining_count": 9,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
@@ -565,8 +565,8 @@
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 10,
       "options_incomplete_count": 0,
-      "options_status_note": "All 100 English stems and four-option sets are populated. Q94's four original graph choices are preserved in assets/dec24_q94_graph.png. Original scan review is complete; 14 separate expert/content discrepancies remain intentionally flagged.",
-      "source_review_note": "Expert review on 2026-11-13 cleared Q19, Q22, Q29, Q34, Q35, Q37, Q40 and Q44 after source inspection and independent calculation. Fourteen unresolved items remain: Q06, Q09, Q11, Q18, Q28, Q41, Q51, Q69, Q71, Q72, Q74, Q77, Q78 and Q80. Q44's scanned boundary value was corrected from the erroneous alpha transcription to infinity; half-oscillator eigenenergies reproduce official option A. Q71's bank stem/options were corrected to match the original 1D2 to 1F3 transition; its statistical-weight convention remains under review. The official final-key letters remain authoritative and are not overwritten."
+      "options_status_note": "All 100 English stems and four-option sets are populated. Q94's four original graph choices are preserved in assets/dec24_q94_graph.png. Original scan review is complete; 9 separate expert/content discrepancies remain intentionally flagged.",
+      "source_review_note": "Expert review on 2026-11-13 cleared Q19, Q22, Q29, Q34, Q35, Q37, Q40, Q44, Q72, Q74, Q77, Q78 and Q80 after source inspection and independent calculation. Nine unresolved items remain: Q06, Q09, Q11, Q18, Q28, Q41, Q51, Q69 and Q71. Q44 was corrected to the scanned infinite-wall half-oscillator potential. Q72, Q74, Q77, Q78 and Q80 had incorrect canonical stem/options and were corrected to the uploaded official scan; their calculations match the official final key. Q71's stem/options were also corrected to the original transition; its statistical-weight convention remains flagged. Official final-key letters remain authoritative and unchanged."
     },
     {
       "paper_id": "physical_nov25",
