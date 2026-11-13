@@ -37,3 +37,10 @@ The four choices concern Dulong–Petit’s law and Einstein’s theory. The can
 
 ## Outcome and safeguards
 This is a source-to-canonical parity audit. The official final answer key remains authoritative. No answers or question text were inferred or altered. No unrelated subjects were modified, and no PR merge was performed.
+
+## Explicit re-check requested against the uploaded official PDFs
+The one-page final-key PDF supplied in this conversation was read directly from its rendered page image (header: **1ST DECEMBER 2002**, subject **PHY. SCI.**), not inferred from a secondary transcription. Its Q1–Q50 choices were compared in order against the canonical records. Result: **50/50 match**.
+
+The uploaded question-paper PDF was also checked directly. In particular, printed page 10 (PDF page 11) shows Q35 as the Debye-temperature/specific-heat question, matching canonical `physical_dec02_q35`; the official key page lists Q35 = **B**, and the canonical record stores both `answer: B` and `official_answer: B`.
+
+The earlier progress note mentioned “five December 2002 key conflicts” but did not preserve their question numbers in the retrievable historical record. A full direct comparison of all 50 questions against the uploaded official final key found no such conflicts in the current integration-branch canonical JSON. Therefore no answer values were changed. This avoids introducing incorrect edits based on an untraceable older conflict count.
