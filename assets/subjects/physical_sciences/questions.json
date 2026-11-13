@@ -36088,7 +36088,7 @@
     "explanation_en": "Official final answer: B.",
     "explanation_gu": "Official final answer: B.",
     "review_flag": false,
-    "review_note": "Question stem, all four options and any displayed mathematical notation/diagram visually checked against the official GSET October 2011 Physical Sciences Paper-II scan. Official final answer key independently reconciled with zero mismatches; syllabus mapping independently verified.",
+    "review_note": "Original source figure (rotating circular loop, uniform magnetic-field arrows, radius R and angular velocity ω) extracted from October 2011 Paper-II printed page 5 and embedded without redrawing. Official answer-key parity verified.",
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
@@ -36101,7 +36101,8 @@
     "answer_key_verified": true,
     "answer_source": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
-    "verification_status": "official_final_key_reconciled_direct_pdf"
+    "verification_status": "official_final_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_oct11_q14_original_figure.png"
   },
   {
     "id": "physical_oct11_q15",
@@ -36598,7 +36599,7 @@
     "explanation_en": "Official final answer: A.",
     "explanation_gu": "Official final answer: A.",
     "review_flag": false,
-    "review_note": "Question stem, all four options and any displayed mathematical notation/diagram visually checked against the official GSET October 2011 Physical Sciences Paper-II scan. Official final answer key independently reconciled with zero mismatches; syllabus mapping independently verified.",
+    "review_note": "Original D-flip-flop symbol with inverted clock input extracted from October 2011 Paper-II printed page 9 and embedded without redrawing. Official answer-key parity verified.",
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
@@ -36611,7 +36612,8 @@
     "answer_key_verified": true,
     "answer_source": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
-    "verification_status": "official_final_key_reconciled_direct_pdf"
+    "verification_status": "official_final_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_oct11_q29_original_symbol.png"
   },
   {
     "id": "physical_oct11_q30",
