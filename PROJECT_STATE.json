@@ -1,7 +1,7 @@
 {
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-13",
   "audit_scope": [
     "02",
     "03",
@@ -1854,7 +1854,7 @@
     "date": "2026-11-13",
     "branch": "integration/combined-subject-banks",
     "canonical_questions_reviewed": 100,
-    "official_final_key_parity": "100/100 exact; zero mismatches",
+    "official_final_key_parity": "100/100 exact; zero mismatches; answer letters preserved",
     "complete_english_options": "100/100",
     "syllabus_mappings": "100/100 verified",
     "initial_expert_flags": 22,
@@ -1865,7 +1865,8 @@
       "Q34",
       "Q35",
       "Q37",
-      "Q40"
+      "Q40",
+      "Q44"
     ],
     "remaining_flags": [
       "Q06",
@@ -1874,7 +1875,6 @@
       "Q18",
       "Q28",
       "Q41",
-      "Q44",
       "Q51",
       "Q69",
       "Q71",
@@ -1884,11 +1884,23 @@
       "Q78",
       "Q80"
     ],
-    "audit_file": "assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md",
+    "second_batch_results": {
+      "Q41": "Corrected expectation calculation: norm squared 6; <Sx>=ℏ/3, absent from options; flag retained.",
+      "Q44": "Original scan says V=∞ for x≤0, not α. Half-oscillator energies 3ℏω/2 and 7ℏω/2 yield 31ℏω/10 (A); flag cleared.",
+      "Q51": "Isolated-system qualifier absent; system entropy alone need not always increase; flag retained.",
+      "Q69": "0.0134 mA at 0.67 A/W yields 0.020 mW; option/key B=20 mW implies 13.4 mA; flag retained.",
+      "Q71": "Corrected canonical stem/options to official ¹D₂→¹F₃ transition at 3122 Å. Single-state Boltzmann factor gives C=9.83×10⁻⁵; total-level degeneracy convention gives a different unlisted result; flag retained."
+    },
+    "audit_files": [
+      "assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md",
+      "assets/subjects/physical_sciences/source_audits/dec_2024_first_batch_q06_q09_q11_q18_q28.md",
+      "assets/subjects/physical_sciences/source_audits/dec_2024_second_batch_q41_q44_q51_q69_q71.md"
+    ],
     "official_final_key_authoritative": true,
     "other_subjects_modified": false,
     "paper_i_modified": false,
     "pr_merged": false,
-    "ci_run": false
+    "ci_run": false,
+    "combined_apk_built": false
   }
 }
