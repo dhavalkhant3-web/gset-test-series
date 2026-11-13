@@ -1228,3 +1228,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Visually checked the previously flagged Q94 graph on question-paper page 29. Cropped and preserved all four original printed graph choices (A–D), including λ₀ intercepts, curve/line shapes, and λ/T axes, as `assets/dec24_q94_graph.png`; linked the asset from `physical_dec24_q94` and cleared its source-visual flag.
 - December 2024 source review is now 100/100, with 22 remaining expert/content review flags. These remaining flags concern mathematical ambiguity, printed notation, or prior answer/explanation discrepancies; they were not cleared merely because the scan is readable. Official final-key values remain authoritative.
 - Updated the December 2024 paper manifest and this progress register. No other subject, Paper-I, or PR was modified; no PR merged.
+
+
+## Physical Sciences Code 02 — 13 November 2026 November 2025 source-page verification
+- Received and inspected the official November 2025 Paper-II question-paper scan (24 pages) and official final answer-key PDF (1 page).
+- Visually rechecked the three remaining flagged questions against the original scan: Q43 (printed state/operator yield 1.52 by direct evaluation while official final key is C/1.54); Q80 (printed option B is 12a² although the question asks for an RMS radius); Q85 (decay line contains anti-neutrino, but the final sentence says “anti-neutron”).
+- The canonical English stems/options match the official scan for all three; no OCR correction is justified. Preserved the official final-key values and source wording. Retained all three content-integrity flags rather than silently correcting source defects. November 2025 remains 100/100 source-verified, 100/100 official final-key parity, 0 incomplete options, with 3 documented content-integrity flags.
+- No other subject or Paper-I changed. No PR merged.

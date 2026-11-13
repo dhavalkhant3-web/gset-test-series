@@ -575,7 +575,7 @@
       "questions_count": 100,
       "review_count": 3,
       "source_verified": true,
-      "status": "source_verified_subset_source_review_pending",
+      "status": "source_review_complete; expert_content_review_flags_remain",
       "unit_mapping_status": "pending_official_syllabus_unit_mapping",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 100,
@@ -588,7 +588,9 @@
       "answer_key_reconciliation_source": "Official final-key sidecar nov25_official_final_answer_key.json; canonical answer and official_answer compared for all 100 questions; exact parity.",
       "answer_key_reconciliation_mismatch_count": 0,
       "options_incomplete_count": 0,
-      "answer_key_reconciliation_corrected_count": 0
+      "answer_key_reconciliation_corrected_count": 0,
+      "options_status_note": "All 100 question records visually source-checked against the official November 2025 Paper-II scan; 0 incomplete options. Three content-integrity flags are deliberately retained: Q43 official key/calculation discrepancy, Q80 printed RMS-radius option dimensional inconsistency, and Q85 printed 'anti-neutron' terminology. These are source-visible issues, not OCR transcription defects.",
+      "source_review_note": "Official November 2025 Paper-II scan (24 pages) and final answer key (1 page) inspected. Q43, Q80 and Q85 visually checked on printed pages 13, 19 and 20 respectively. The source wording/options match canonical records; three content-integrity flags remain intentionally open."
     },
     {
       "paper_id": "physical_sep16_p3",
