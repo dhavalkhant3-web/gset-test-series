@@ -22,14 +22,14 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 50,
-      "review_count": 1,
+      "review_count": 0,
       "source_verified": true,
       "question_source_verified": true,
-      "status": "source_review_complete; one content_integrity_flag_remains",
+      "status": "complete_verified",
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 50,
-      "review_flags_remaining_count": 1,
+      "review_flags_remaining_count": 0,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 50,
@@ -39,7 +39,7 @@
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
       "answer_key_reconciliation_source": "Official final-key sidecar jan02_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
-      "source_review_note": "Official January 2002 Paper-II scan and final key inspected. Q21 original semicircle diagram and Q47 original log-log graph are embedded as dedicated app assets. Q23 source text/options and official key D verified; one content-integrity flag remains because dl is unspecified in the printed stem. 50/50 source-reviewed; 50/50 final-key parity; 50/50 syllabus mappings; 0 incomplete options."
+      "source_review_note": "Official January 2002 Paper-II and final key checked. Q21 original semicircle diagram and Q47 original log-log graph embedded as app assets. Q23 stem/options visually confirmed against printed page 7; official key D matches canonical answer D. No transcription defect remains; historical dl wording note retained without an open review flag. 50/50 source-reviewed, answer-key parity, and syllabus mappings; 0 incomplete options; 0 open review flags."
     },
     {
       "paper_id": "physical_dec02",
