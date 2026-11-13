@@ -1849,5 +1849,46 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merges": 0
+  },
+  "code02_dec24_expert_review_2026_11_13": {
+    "date": "2026-11-13",
+    "branch": "integration/combined-subject-banks",
+    "canonical_questions_reviewed": 100,
+    "official_final_key_parity": "100/100 exact; zero mismatches",
+    "complete_english_options": "100/100",
+    "syllabus_mappings": "100/100 verified",
+    "initial_expert_flags": 22,
+    "cleared_questions": [
+      "Q19",
+      "Q22",
+      "Q29",
+      "Q34",
+      "Q35",
+      "Q37",
+      "Q40"
+    ],
+    "remaining_flags": [
+      "Q06",
+      "Q09",
+      "Q11",
+      "Q18",
+      "Q28",
+      "Q41",
+      "Q44",
+      "Q51",
+      "Q69",
+      "Q71",
+      "Q72",
+      "Q74",
+      "Q77",
+      "Q78",
+      "Q80"
+    ],
+    "audit_file": "assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md",
+    "official_final_key_authoritative": true,
+    "other_subjects_modified": false,
+    "paper_i_modified": false,
+    "pr_merged": false,
+    "ci_run": false
   }
 }
