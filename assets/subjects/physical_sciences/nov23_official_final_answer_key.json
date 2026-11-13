@@ -7,8 +7,8 @@
   "question_count": 100,
   "source_type": "GSET official FINAL answer key",
   "source_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
-  "verification_status": "official_final_key_crosschecked_against_GSET_FINAL_PDF; question_bank_parity_not_yet_checked",
-  "note": "All 100 entries crosschecked against the official GSET final answer key PDF. Question-bank parity is a separate pending verification.",
+  "verification_status": "official_final_key_crosschecked_against_GSET_FINAL_PDF; question_bank_parity_verified_exact_100_of_100",
+  "note": "All 100 entries crosschecked against the official GSET final answer key PDF and compared against canonical Physical Sciences questions.json. Exact parity: 100/100; no mismatches.",
   "answers": {
     "1": "C",
     "2": "D",
