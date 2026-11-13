@@ -1266,3 +1266,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Closed the review flag. Kept a non-blocking technical note that the printed stem uses dl without assigning a numerical length; preserved official wording and official key unchanged.
 - January 2002 now has 50/50 source-reviewed, 50/50 official answer-key parity, 50/50 official syllabus mappings, 0 incomplete options, and 0 open review flags. Q21/Q47 original figure assets remain linked.
 - No other subject or Paper-I changed. No PR merged.
+
+
+## Physical Sciences Code 02 — December 2003 official paper/key verification (13 November 2026)
+- Inspected the user-supplied official December 2003 Paper-II scan (16 pages) and 7 December 2003 official final answer-key sheet (50 answers).
+- Compared all 50 canonical answers and official_answer values against the supplied key: exact 50/50 parity; zero mismatches. Four options exist for all 50 questions; 50/50 official syllabus mappings retained.
+- Visually checked Q05 on printed page 4 (phase-space diagram choices), Q09 on printed page 5 (linear triatomic molecule normal-mode diagrams), and Q15 on printed page 7 (grounded-plate image-charge geometry and choices). Original figure crops were extracted from the supplied scan; flags remain open until the original crops are committed and linked as app assets.
+- December 2003 source verification is now 50/50; answer-key parity 50/50; syllabus mapping 50/50; incomplete options 0; three app-figure integration flags remain (Q05, Q09, Q15).
+- No other subject or Paper-I changed. No PR merged.
