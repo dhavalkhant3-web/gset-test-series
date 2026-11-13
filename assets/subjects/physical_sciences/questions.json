@@ -17715,11 +17715,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "All four graph choices have been transcribed from the official December 2024 source page 29 into descriptive text, preserving axes, λ₀ intercept and curve/line shapes. The original graph artwork is not yet embedded as app image assets; retain review_flag=true and source_verified=false until the app's figure-rendering asset is added.",
+    "review_flag": false,
+    "review_note": "Official December 2024 Paper-II page 29 visually checked. The four original graph choices (A–D), including λ₀ intercepts, curve/line shapes and λ/T axes, are preserved in assets/dec24_q94_graph.png. Visual/source review completed; official answer-key value A remains unchanged.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official December 2024 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
@@ -17731,7 +17731,8 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/dec24_q94_graph.png"
   },
   {
     "id": "physical_dec24_q95",

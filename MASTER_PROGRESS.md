@@ -1221,3 +1221,10 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Reconciled the paper manifest against all 19 official final-key sidecars: 1,300/1,300 question rows now recorded as exact parity, with 0 mismatches.
 - Latest canonical status: 1,278 source-verified; 57 visual/source review flags; 0 incomplete option records; 1,300/1,300 official syllabus mappings; 1,300/1,300 official final-key parity.
 - Other subjects and Paper-I remain unchanged. No PR merged.
+
+
+## Physical Sciences Code 02 — 13 November 2026 December 2024 Q94 graph restoration
+- Received and inspected the December 2024 Paper-II question-paper scan (32 pages) and official final answer-key PDF (1 page). The official final key lists all 100 answers; it confirms Q94 = A and the existing December 2024 official-key sidecar records exact 100/100 canonical parity.
+- Visually checked the previously flagged Q94 graph on question-paper page 29. Cropped and preserved all four original printed graph choices (A–D), including λ₀ intercepts, curve/line shapes, and λ/T axes, as `assets/dec24_q94_graph.png`; linked the asset from `physical_dec24_q94` and cleared its source-visual flag.
+- December 2024 source review is now 100/100, with 22 remaining expert/content review flags. These remaining flags concern mathematical ambiguity, printed notation, or prior answer/explanation discrepancies; they were not cleared merely because the scan is readable. Official final-key values remain authoritative.
+- Updated the December 2024 paper manifest and this progress register. No other subject, Paper-I, or PR was modified; no PR merged.
