@@ -69,7 +69,8 @@
       "answer_key_reconciled_question_count": 50,
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
-      "answer_key_reconciliation_source": "Official final-key sidecar dec02_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity."
+      "answer_key_reconciliation_source": "Official final-key sidecar dec02_official_final_answer_key.json; canonical answer and official_answer compared for all 50 questions; exact parity.",
+      "source_review_note": "Rechecked against user-supplied official December 2002 Paper-II scan (14 pages) and 1 December 2002 official final answer-key sheet. All 50 canonical records are present; each canonical answer and official_answer exactly matches the official key (50/50, zero mismatches). Four options are present for every question; no review flags remain. Existing question source review and all 50 official syllabus mappings retained."
     },
     {
       "paper_id": "physical_dec03",
