@@ -1296,3 +1296,18 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Canonical bank, paper manifest and detailed audit updated. December 2024 expert/content flags: 14 remaining. Across the 22-flag review: 8 cleared, 14 retained.
 - Official answer-key letters not changed. Other subjects and Paper-I untouched. No PR merge, CI run, or Combined APK build.
 - Audit: assets/subjects/physical_sciences/source_audits/dec_2024_second_batch_q41_q44_q51_q69_q71.md
+
+
+## 2026-11-13 — Physical Sciences Code 02 December 2024 third expert-review batch
+
+- Continued directly from the uploaded official question paper and final key; visually checked Q72 and Q74 on PDF p.25, Q77 and Q78 on p.26, and Q80 on p.27.
+- Found canonical source-content mismatches in all five records (not just answer/explanation issues). Replaced each stem and four options with the actual official scan content:
+  - Q72: Na 3²P₃/₂ hyperfine structure, I=3/2; F=0,1,2,3 => four states (D).
+  - Q74: laser coherence length from ΔE₂=0.01 eV and ΔE₁=0.0025 eV; L=hc/(ΔE₂+ΔE₁)≈0.1 mm (A).
+  - Q77: p+p̄→π⁺+π⁻ is allowed (A).
+  - Q78: liquid-drop binding energy per nucleon rises then slowly decreases (D).
+  - Q80: left-handed νₑ has weak-isospin T₃=+1/2 (B).
+- Cleared these five expert flags after source and physics verification. Canonical official answer letters were already consistent and were not changed.
+- Current Dec 2024 expert/content flags: 9 remain — Q06, Q09, Q11, Q18, Q28, Q41, Q51, Q69, Q71. Total cleared from the initial 22: 13.
+- Audit: assets/subjects/physical_sciences/source_audits/dec_2024_third_batch_q72_q74_q77_q78_q80.md
+- Other subjects and Paper-I untouched. No PR merge, CI run, or Combined APK build.
