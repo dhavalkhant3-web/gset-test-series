@@ -18632,11 +18632,11 @@
     "difficulty": "Medium",
     "explanation_en": "",
     "explanation_gu": "",
-    "review_flag": true,
-    "review_note": "Original figure/graph is present in the official source page but is not embedded in this JSON record; manual visual review required. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. Official January 2002 scan visually checked on printed page 7. The original semicircular-loop diagram and magnetic-field region are present in the source. The official key confirms D. Keep review_flag=true/source_verified=false until the original diagram is embedded as a dedicated app image asset; do not clear a figure-preservation flag based only on seeing the PDF.",
+    "review_flag": false,
+    "review_note": "Official January 2002 Paper-II printed page 7 visually checked. Original semicircular-loop diagram and rectangular magnetic-field region preserved as assets/physical_jan02_q21_semicircle.png. Official final answer key confirms D. Figure-preservation review completed; answer and source wording unchanged.",
     "tip_en": "",
     "tip_gu": "",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key",
     "syllabus_unit": 3,
     "unit_number": 3,
@@ -18647,7 +18647,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/jan02/jan0202.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/jan02/jan0202.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/physical_jan02_q21_semicircle.png"
   },
   {
     "id": "physical_jan02_q22",
@@ -18703,7 +18704,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": true,
-    "review_note": "Official final answer key is D. The printed expression/options should be retained as source; manual review recommended because the direct Biot–Savart reading can suggest option A depending on interpretation of dl. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. Official January 2002 scan visually checked on printed page 7; exact stem/options match canonical record. Official final answer-key sheet confirms Q23 = D. Retain review_flag=true because the printed wording leaves dl unspecified and the direct Biot–Savart expression can be read as proportional to dl; do not rewrite the source or override the official key.",
+    "review_note": "Official January 2002 Paper-II printed page 7 and 20 January 2002 final answer-key sheet visually checked. The printed stem and options match the canonical record; official key confirms D. Retain content-integrity flag: the printed current element dl is not numerically specified and the Biot–Savart expression depends on dl, so preserve source wording and official key without silently resolving the ambiguity.",
     "tip_en": "",
     "tip_gu": "",
     "source_verified": true,
@@ -19542,11 +19543,11 @@
     "difficulty": "Medium",
     "explanation_en": "",
     "explanation_gu": "",
-    "review_flag": true,
-    "review_note": "Original figure/graph is present in the official source page but is not embedded in this JSON record; manual visual review required. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. Official January 2002 scan visually checked on printed page 12. The original log y versus log x straight-line graph is present in the source; the official key confirms B. Keep review_flag=true/source_verified=false until the original graph is embedded as a dedicated app image asset.",
+    "review_flag": false,
+    "review_note": "Official January 2002 Paper-II printed page 12 visually checked. Original log y versus log x straight-line graph, including axes and curve C, preserved as assets/physical_jan02_q47_loglog.png. Official final answer key confirms B. Figure-preservation review completed; answer and source wording unchanged.",
     "tip_en": "",
     "tip_gu": "",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official January 2002 Physical Sciences Paper-II question paper and final answer key",
     "syllabus_unit": 6,
     "unit_number": 6,
@@ -19557,7 +19558,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/jan02/jan0202.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/jan02/jan0202.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/physical_jan02_q47_loglog.png"
   },
   {
     "id": "physical_jan02_q48",

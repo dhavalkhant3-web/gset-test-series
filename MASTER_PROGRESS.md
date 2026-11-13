@@ -1242,3 +1242,12 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Manually checked the four remaining flagged records against the original paper and final key. Q31 wording/options match printed page 9 and official key C; its missed-key-extraction flag is cleared. Q23 wording/options match printed page 7 and official key D; source verified, but the conceptual flag remains because dl is not numerically specified and the direct Biot–Savart expression depends on dl.
 - Q21 (printed page 7) and Q47 (printed page 12) were visually confirmed, with official answers D and B respectively. Their flags remain until the original semicircle diagram and log-log graph are embedded as dedicated app assets; no figure was fabricated or replaced by a text-only approximation.
 - January 2002 now has 48/50 source-verified, 3 review flags, 0 incomplete options, 50/50 official answer-key parity and 50/50 syllabus mappings. No other subject or Paper-I changed; no PR merged.
+
+
+## Physical Sciences Code 02 — 13 November 2026 January 2002 figure assets completed
+- Embedded the original January 2002 Paper-II Q21 semicircular-loop/magnetic-field diagram from printed page 7 as `assets/physical_jan02_q21_semicircle.png`.
+- Embedded the original Q47 log-log graph (axes and straight line C) from printed page 12 as `assets/physical_jan02_q47_loglog.png`.
+- Linked both assets from the canonical question records and cleared their figure-preservation flags. Q21 official key D; Q47 official key B, both unchanged.
+- Rechecked Q23 against printed page 7 and the supplied official final-key sheet: source stem/options match and official key is D. Retained its single content-integrity flag because the printed dl term is unspecified; no source text or official answer changed.
+- January 2002 is now 50/50 source-reviewed, 50/50 official final-key parity, 50/50 syllabus mappings, 0 incomplete options, and 1 documented content-integrity flag (Q23).
+- No other subject or Paper-I changed. No PR merged.
