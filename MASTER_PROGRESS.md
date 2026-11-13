@@ -1282,3 +1282,17 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Cleared 7 resolved expert flags; 15 genuine or unresolved discrepancies remain: Q06, Q09, Q11, Q18, Q28, Q41, Q44, Q51, Q69, Q71, Q72, Q74, Q77, Q78 and Q80. These include no-valid-option cases, printed-data defects, convention/geometry ambiguity, and official-key-versus-calculation conflicts. Full adjudication and rationale are recorded in `assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md`.
 - Updated canonical question explanations/flags and December 2024 paper manifest. Current December 2024 counts: source review 100/100; official final-key parity 100/100 with zero mismatches; complete English options 100/100; syllabus mapping 100/100; expert/content flags 15 remaining (down from 22).
 - Other subjects and Paper-I untouched. No PR merged. CI/combined APK not run in this batch.
+
+
+## 2026-11-13 — Physical Sciences Code 02 December 2024 second expert-review batch
+
+- User supplied the official 32-page December 2024 question paper and one-page official final answer key.
+- Source-checked Q41 (PDF p.16), Q44 (p.17), Q51 (p.19), Q69 (p.23), and Q71 (p.24), including all four options and the official key.
+- Q41: corrected erroneous explanation (state norm squared is 6; expectation is ℏ/3, absent from options); flag retained; official A unchanged.
+- Q44: corrected source transcription from α to ∞ for x≤0. Half-oscillator energies 3ℏω/2 and 7ℏω/2 give expectation 31ℏω/10 (A); flag cleared.
+- Q51: isolated-system condition absent; entropy of system alone need not always increase; flag retained.
+- Q69: printed 0.0134 mA yields 0.020 mW, while option/key B is 20 mW; ×1000 discrepancy; flag retained.
+- Q71: corrected canonical stem/options from erroneous hydrogen n=3→2 to official ¹D₂→¹F₃, 3122 Å. Single-state Boltzmann factor gives C=9.83×10⁻⁵; full level degeneracy factor is not represented among options, so flag retained pending convention clarification.
+- Canonical bank, paper manifest and detailed audit updated. December 2024 expert/content flags: 14 remaining. Across the 22-flag review: 8 cleared, 14 retained.
+- Official answer-key letters not changed. Other subjects and Paper-I untouched. No PR merge, CI run, or Combined APK build.
+- Audit: assets/subjects/physical_sciences/source_audits/dec_2024_second_batch_q41_q44_q51_q69_q71.md
