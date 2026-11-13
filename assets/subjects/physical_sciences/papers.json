@@ -548,14 +548,14 @@
       "answer_key_verified": true,
       "source": "GSET official uploaded question paper + final answer key",
       "questions_count": 100,
-      "review_count": 16,
+      "review_count": 15,
       "source_verified": true,
       "question_source_verified": true,
-      "status": "source_review_complete; 16 expert/content review flags remain",
+      "status": "source_review_complete; 15 expert/content discrepancies retained",
       "unit_mapping_status": "official_syllabus_content_reviewed",
       "unit_mapping_note": "Question-level content-based suggestions are provisional. Confirm against the official syllabus before treating any mapping as verified.",
       "source_reviewed_question_count": 100,
-      "review_flags_remaining_count": 16,
+      "review_flags_remaining_count": 15,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
       "unit_mapping_verified_count": 100,
@@ -565,8 +565,8 @@
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 10,
       "options_incomplete_count": 0,
-      "options_status_note": "All 100 English stems and option sets are populated. Q94's four original graph choices have been restored as an app image asset from official page 29. 22 separate expert/content interpretation flags remain and are not cleared by visual transcription review.",
-      "source_review_note": "Official December 2024 Paper-II source and final answer key remain the authoritative references. Expert review on 2026-11-13 cleared Q19, Q22, Q34, Q35, Q37 and Q40 after independently checking the physics/mathematics and correcting explanations to agree with the official answer. Sixteen genuine or unresolved discrepancies remain flagged: Q06, Q09, Q11, Q18, Q28, Q29, Q41, Q44, Q51, Q69, Q71, Q72, Q74, Q77, Q78 and Q80. These include no-valid-option/printed-data issues and official-key-versus-calculation conflicts; official final-key letters are retained. No unresolved flag was cleared merely to make the count zero."
+      "options_status_note": "All 100 English stems and four-option sets are populated. Q94's four original graph choices are preserved in assets/dec24_q94_graph.png. Visual/source review is complete; 15 separate expert/content discrepancies remain intentionally flagged.",
+      "source_review_note": "Expert review on 2026-11-13 cleared Q19, Q22, Q29, Q34, Q35, Q37 and Q40 after independent calculation and correction of explanations. Fifteen unresolved items remain: Q06, Q09, Q11, Q18, Q28, Q41, Q44, Q51, Q69, Q71, Q72, Q74, Q77, Q78 and Q80. They include invalid/mismatched options, convention or geometry ambiguity, printed-data defects, and conflicts between physical calculations and the official final key. The official final-key letters remain authoritative and are not overwritten. No unresolved item was cleared solely to reduce the flag count."
     },
     {
       "paper_id": "physical_nov25",
