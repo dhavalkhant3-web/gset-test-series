@@ -34929,8 +34929,8 @@
     "difficulty": "Medium",
     "explanation_en": "The 1-cells in the source K-map correspond to A⊕B⊕C. Official final answer: C.",
     "explanation_gu": "મૂળ K-mapના 1-cells A⊕B⊕C દર્શાવે છે. Official final answer: C.",
-    "review_flag": true,
-    "review_note": "The uploaded original October 2010 Paper-II scan (printed page 10) was visually checked. The 3-input K-map has 1-cells at (AB,C) = (00,1), (01,0), (11,1), (10,0), which matches A⊕B⊕C (option C). The official final answer key also gives C. Content and answer are verified; keep the review flag only because the source K-map figure still needs to be embedded as an original image asset in the app. Do not redraw or omit the figure.",
+    "review_flag": false,
+    "review_note": "Original K-map source figure from October 2010 Paper-II printed page 10 is embedded as assets/images/physical_oct10_q30_kmap.png. The four 1-cells match A⊕B⊕C (option C), and the official final answer key gives C.",
     "tip_en": "Official final answer key is authoritative.",
     "tip_gu": "Official final answer key authoritative છે.",
     "source_verified": true,
@@ -34944,7 +34944,8 @@
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1002.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1002.pdf",
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
-    "question_source_verified": true
+    "question_source_verified": true,
+    "image_asset": "assets/images/physical_oct10_q30_kmap.png"
   },
   {
     "id": "physical_oct10_q31",
