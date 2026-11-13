@@ -21,7 +21,7 @@ Blob SHA inspected: `ea6bb97d1df3c1c1aeffebb97a8f785aa07ec976`
 - Q05 — printed page 4 (PDF page 5): free-particle phase-space diagrams A–D. The question record's answer A matches the supplied official key.
 - Q09 — printed page 5 (PDF page 6): linear triatomic molecule equilibrium configuration and four pairs of normal-mode diagrams. The question record's answer B matches the supplied official key.
 - Q15 — printed page 7 (PDF page 8): two mutually perpendicular grounded metallic plates, charge q at (a,b), and image-charge configurations A–D. The question record's answer C matches the supplied official key.
-- The original source figures were inspected visually. Figure crops were prepared from the supplied scan, but are **not yet committed/linked as app assets** in this repository. Therefore the three existing visual review flags must remain open until binary assets are committed and the Android question renderer references them.
+- The original source figures were inspected visually and committed as app assets: `assets/images/physical_dec03_q05_phase_space_bw.png`, `assets/images/physical_dec03_q09_normal_modes_bw.png`, and `assets/images/physical_dec03_q15_image_charges_bw.png`. The `questions_dec03_visuals.json` overlay links these assets to the canonical question IDs and clears the three app-level visual review flags. `PaperIIDataService` loads this overlay, and the TestPage renderer displays each explicit `image_asset` once.
 
 ## Official final answer key transcription
 | Q | Key | Q | Key | Q | Key | Q | Key | Q | Key |
