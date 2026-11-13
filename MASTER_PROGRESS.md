@@ -1274,3 +1274,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Visually checked Q05 on printed page 4 (phase-space diagram choices), Q09 on printed page 5 (linear triatomic molecule normal-mode diagrams), and Q15 on printed page 7 (grounded-plate image-charge geometry and choices). Original figure crops were extracted from the supplied scan; flags remain open until the original crops are committed and linked as app assets.
 - December 2003 source verification is now 50/50; answer-key parity 50/50; syllabus mapping 50/50; incomplete options 0; three app-figure integration flags remain (Q05, Q09, Q15).
 - No other subject or Paper-I changed. No PR merged.
+
+
+## 2026-11-13 — Physical Sciences Code 02 December 2024 expert review batch
+- Retrieved the complete canonical 1,300-record question bank through the GitHub Git Blob API and isolated all 22 December 2024 expert/content review flags.
+- Independently recalculated and corrected/confirmed explanations for Q19, Q22, Q29, Q34, Q35, Q37 and Q40. Q29 was evaluated distributionally at the origin; both gauge conditions fail globally. Preserved every official final-key answer.
+- Cleared 7 resolved expert flags; 15 genuine or unresolved discrepancies remain: Q06, Q09, Q11, Q18, Q28, Q41, Q44, Q51, Q69, Q71, Q72, Q74, Q77, Q78 and Q80. These include no-valid-option cases, printed-data defects, convention/geometry ambiguity, and official-key-versus-calculation conflicts. Full adjudication and rationale are recorded in `assets/subjects/physical_sciences/source_audits/dec_2024_expert_review.md`.
+- Updated canonical question explanations/flags and December 2024 paper manifest. Current December 2024 counts: source review 100/100; official final-key parity 100/100 with zero mismatches; complete English options 100/100; syllabus mapping 100/100; expert/content flags 15 remaining (down from 22).
+- Other subjects and Paper-I untouched. No PR merged. CI/combined APK not run in this batch.
