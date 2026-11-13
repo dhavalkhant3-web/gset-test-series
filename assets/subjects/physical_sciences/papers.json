@@ -159,10 +159,10 @@
       "unit_mapping_status_note": "All 50 question-level mappings matched to the official GSET Physical Sciences Code 02 syllabus.",
       "options_incomplete_count": 0,
       "answer_key_reconciled_question_count": 50,
-      "answer_key_reconciliation_source": "Official final-key sidecar jul06_official_final_answer_key.json; all 50 choices visually transcribed and compared. Q05=C confirmed against source option C. Q45=C retained as printed in the official final key despite the question-paper option typo.",
+      "answer_key_reconciliation_source": "All 50 official final-key choices visually checked and reconciled. Q05 resolved (official key C matches source option C). Q45 official key C retained; the exact printed source options have been transcribed, and the source-level typographical defect remains the single open review flag.",
       "answer_key_reconciliation_mismatch_count": 0,
       "answer_key_reconciliation_corrected_count": 0,
-      "source_review_note": "All 50 questions visually checked against the official July 2006 GSET Paper-II scan. Q05 (printed page 4) is resolved: option C is the Lorentz-invariant d'Alembertian and matches official final key C; its review flag is cleared. Q45 (printed page 11) remains flagged because the printed option expressions contain a source typographical defect; the official final key's C is retained unchanged. One source review flag remains."
+      "source_review_note": "All 50 questions checked against the official July 2006 GSET Paper-II scan. Q05 is resolved. Q45 (printed page 11): exact source transcription is (A) c=(μ0ε0)^−1, (B) c=(μ0/ε0), (C) c=(ε0/μ0)^−1/2, (D) c=(ε0/μ0)^1/2. None matches the standard vacuum relation c=(μ0ε0)^−1/2. Official final key marks C; official answer C is retained. One source-level typographical discrepancy remains flagged; no source content has been silently corrected."
     },
     {
       "paper_id": "physical_dec08",
