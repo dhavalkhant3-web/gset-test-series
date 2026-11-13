@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "150 staged questions across August 2017 and November 2025 remain review-only; 500 questions across five papers remain untranscribed.",
+  "remaining_subject_work": "93 staged November 2025 questions remain review-only pending visual proofread; 500 expected questions across five other listed papers remain untranscribed. August 2017 has 50/50 source-verified questions; three syllabus mappings remain provisional.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -81,5 +81,51 @@
     ],
     "pending_question_numbers": [],
     "note": "49 question-level mappings align directly to official Code 24 unit descriptions; Q37 remains provisional because the broad development concept spans multiple syllabus areas."
+  },
+  "nov2025_visual_batch": {
+    "date": "2026-11-13",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf",
+    "visual_checked_question_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "visual_checked_count": 7,
+    "printed_pages": [
+      3,
+      4
+    ],
+    "pdf_page_indexes_zero_based": [
+      2,
+      3
+    ],
+    "final_key_letters": [
+      "D",
+      "B",
+      "D",
+      "B",
+      "A",
+      "D",
+      "B"
+    ],
+    "final_key_matches": 7,
+    "answer_changes": 0,
+    "syllabus_mapping_verified": 7,
+    "syllabus_units": {
+      "1": "Unit VI",
+      "2": "Unit V",
+      "3": "Unit VI",
+      "4": "Unit V",
+      "5": "Unit X",
+      "6": "Unit IV",
+      "7": "Unit VI"
+    },
+    "remaining_visual_review": 93,
+    "note": "Q1–Q7 promoted to active after visual comparison of English stems and all four options. Gujarati-side fields remain unpopulated in these English-only records."
   }
 }
