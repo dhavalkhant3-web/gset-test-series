@@ -29637,10 +29637,10 @@
     "id": "physical_nov23_q78",
     "paper_id": "physical_nov23",
     "exam": "November 2023",
-    "question_en": "The interplanar spacing (dₕₖₗ) of a tetragonal crystal system is:",
+    "question_en": "The interplanar spacing (dₕₖₗ) of tetragonal crystal system is",
     "question_gu": "",
     "options_en": [
-      "[4/3(h² + hk + k²) + l²/c²]⁻¹ᐟ²",
+      "[4(h² + hk + k²)/(3a²) + l²/c²]⁻¹ᐟ²",
       "[h²/a² + k²/b² + l²/c²]⁻¹ᐟ²",
       "[(h² + k²)/a² + l²/c²]⁻¹ᐟ²",
       "a(h² + k² + l²)⁻¹ᐟ²"
@@ -29651,12 +29651,12 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: C.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ C છે.",
-    "review_flag": true,
-    "review_note": "Stem and options restored from official PDF extraction. The compact fractional d-spacing notation in option A needs a visual scan check (including whether the a² denominator is printed); retain flag until confirmed.",
+    "review_flag": false,
+    "review_note": "Visually checked against the original official GSET November 2023 Physical Sciences Paper-II scan, printed page 27 (PDF page 27). Option A explicitly contains 4(h²+hk+k²)/(3a²) + l²/c²; option C contains (h²+k²)/a² + l²/c². Preserve the printed notation; official final key is C.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official November 2023 Physical Sciences Paper-II PDF, text and notation checked against source.",
+    "source_verified": true,
+    "source": "GSET official November 2023 Physical Sciences Paper-II PDF; original printed page visually checked at high resolution.",
     "source_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2302.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
     "syllabus_unit": 8,
@@ -29667,7 +29667,7 @@
     "official_answer": "C",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_source_visual_verification_complete"
   },
   {
     "id": "physical_nov23_q79",
@@ -29889,7 +29889,7 @@
     "id": "physical_nov23_q85",
     "paper_id": "physical_nov23",
     "exam": "November 2023",
-    "question_en": "The energy wave-vector dispersion relation for a one-dimensional crystal of lattice parameter a is given by E(k) = E₀ − α − 2β cos(ka). What is the value of the effective mass of the electron m* in terms of k?",
+    "question_en": "The energy wave-vector dispersion relation for a one-dimensional crystal of lattice parameter a is given by E(k) = E₀ − α − 2β cos ka. What is the value of effective mass of electron m* in terms of k?",
     "question_gu": "",
     "options_en": [
       "m* = ħ²/(2a²β cos ka)",
@@ -29903,12 +29903,12 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: A.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ A છે.",
-    "review_flag": true,
-    "review_note": "Stem and options restored from official PDF extraction. The denominator uses the lattice parameter a; keep flagged until the printed a² versus α² glyph is visually confirmed in the original scan.",
+    "review_flag": false,
+    "review_note": "Visually checked against the original official GSET November 2023 Physical Sciences Paper-II scan, printed page 28 (PDF page 28). The printed denominator in all options is 2a²β cos ka; retain lattice parameter a (not a guessed α). Official final key is A.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
-    "source": "GSET official November 2023 Physical Sciences Paper-II PDF, text and notation checked against source.",
+    "source_verified": true,
+    "source": "GSET official November 2023 Physical Sciences Paper-II PDF; original printed page visually checked at high resolution.",
     "source_url": "https://www.gujaratset.ac.in/assets/papers/paperII/nov23/nov2302.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
     "syllabus_unit": 8,
@@ -29919,7 +29919,7 @@
     "official_answer": "A",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_source_visual_verification_complete"
   },
   {
     "id": "physical_nov23_q86",
