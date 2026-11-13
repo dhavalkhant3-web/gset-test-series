@@ -15216,10 +15216,10 @@
     "answer": "D",
     "topic": "Electromagnetism — Electromagnetic Potentials and Gauges",
     "difficulty": "Hard",
-    "explanation_en": "The vector potential is radial and proportional to t/r². Away from the origin, ∇·(r-hat/r²)=0, so ∇·A=0 and the Coulomb condition holds. Since V=0, the Lorenz condition ∇·A+(1/c²)∂V/∂t=0 also holds. Hence A.",
-    "explanation_gu": "r-hat/r²નું divergence origin સિવાય zero છે, તેથી ∇·A=0 અને Coulomb gauge satisfy થાય છે. V=0 હોવાથી Lorenz condition પણ satisfy થાય છે. એટલે A.",
-    "review_flag": true,
-    "review_note": "Gauge conditions are understood away from the singular origin; the historical question does not explicitly discuss the singular point. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists D; the previously stored answer was A. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review.",
+    "explanation_en": "The vector field r̂/r² has distributional divergence ∇·(r̂/r²)=4πδ³(r). Therefore ∇·A=−(qt/ε₀)δ³(r), which is not zero at the origin. Since V=0, the Lorenz-gauge expression ∇·A+(1/c²)∂V/∂t is also nonzero. Thus neither the Coulomb nor Lorenz gauge condition is satisfied globally; option D matches the official final key.",
+    "explanation_gu": "વિતરણાત્મક અર્થમાં ∇·(r̂/r²)=4πδ³(r) થાય છે. તેથી ∇·A=−(qt/ε₀)δ³(r), જે મૂળબિંદુએ શૂન્ય નથી. V=0 હોવાથી Lorenz gaugeનું ∇·A+(1/c²)∂V/∂t પણ શૂન્ય નથી. તેથી વૈશ્વિક રીતે Coulomb કે Lorenz — કોઈપણ gauge condition સંતોષાતી નથી; વિકલ્પ D Official final key સાથે મેળ ખાય છે.",
+    "review_flag": false,
+    "review_note": "",
     "tip_en": "Check Coulomb: ∇·A=0. Check Lorenz: ∇·A+(1/c²)∂V/∂t=0.",
     "tip_gu": "Coulomb માટે ∇·A અને Lorenz માટે ∇·A+(1/c²)∂V/∂t ચકાસો.",
     "source_verified": true,
@@ -15233,7 +15233,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
     "verification_status": "official_final_answer_key_reconciled_direct_pdf",
-    "answer_before_key_reconciliation": "A"
+    "answer_before_key_reconciliation": "A",
+    "expert_review_status": "expert_review_cleared_2026-11-13"
   },
   {
     "id": "physical_dec24_q30",
