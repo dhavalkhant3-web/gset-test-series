@@ -459,13 +459,14 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "data_status": "300 Paper-II questions across three official sessions. Question-level original-source visual verification: 300/300. Official final answer-key parity: 300/300. December 2024 Q4 and Q12 bilingual differences editorially resolved under the official GSET English-authoritative disclaimer; both printed versions are preserved. Syllabus mapping: 293/300 verified or manually reviewed; 7 pending (November 2023 Q57, Q62, Q69; November 2025 Q46, Q48-Q50). Subject-level source_verified remains false while seven syllabus mappings remain pending.",
+      "data_status": "300 Paper-II questions across three official sessions. Question-level original-source visual verification: 300/300. Official final answer-key parity: 300/300. December 2024 Q4 and Q12 bilingual differences editorially resolved under the official GSET English-authoritative disclaimer; both printed versions are preserved. Syllabus mapping review: 1 newly resolved (November 2023 Q57 -> Unit 8), 2 pending stream-specific review (November 2023 Q62 and Q69), and 4 explicitly classified outside the Code 31 syllabus (November 2025 Q46, Q48-Q50). Subject-level source_verified remains false while two stream-specific syllabus mappings and the broader subject-level review remain pending.",
       "unit_mapping_status": "question_level_review_with_pending_items",
       "unit_mapping_counts": {
         "verified": 97,
-        "manually_reviewed": 196,
+        "manually_reviewed": 197,
         "provisional": 0,
-        "pending": 7
+        "pending": 2,
+        "out_of_scope": 4
       }
     },
     {
