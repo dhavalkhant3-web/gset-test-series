@@ -26,8 +26,8 @@
       "source_verified": true,
       "status": "all_question_stems_options_source_checked_bilingual_review_flags_retained",
       "review_note": "All 100 question sets have been compared with the official paper. The final six bilingual discrepancies (Q39 and Q96–Q100) were retained exactly as printed in Gujarati and their editorial review was closed under the official GSET disclaimer that English is final where Gujarati differs. No Gujarati source text was silently normalized.",
-      "unit_mapping_status": "partial_verified_provisional_pending",
-      "unit_mapping_note": "6 questions mapped and verified against the official Code 31 syllabus; 94 question-level mappings remain to be completed. Existing provisional/pending assignments are not treated as verified.",
+      "unit_mapping_status": "94_verified_6_pending_stream_or_topic_clarification",
+      "unit_mapping_note": "Question-level mapping: 94/100 checked against the official Code 31 / UGC-NET Code 65 syllabus PDF. Six questions remain unmapped pending stream/topic clarification (Q10, Q37, Q57, Q62, Q69, Q76). Units 1–5 are common; Units 6–10 were assigned only where Dance or Drama/Theatre stream is identifiable from the question content.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
       "source_reviewed_question_ids": [
@@ -134,11 +134,11 @@
       ],
       "review_flags_remaining_ids": [],
       "review_count": 0,
-      "unit_mapping_provisional_count": 43,
-      "unit_mapping_pending_count": 51,
-      "unit_mapping_verified_count": 6,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 6,
+      "unit_mapping_verified_count": 94,
       "unit_mapping_status_note": "Question-level mapping: 6 officially verified (Q39 Unit 3; Q96–Q100 Unit 4), 43 provisional, 51 pending. Stream-specific mapping constraints still apply.",
-      "unit_mapping_manually_reviewed_count": 0,
+      "unit_mapping_manually_reviewed_count": 94,
       "source_verified_question_count": 100
     },
     {
