@@ -85,7 +85,7 @@
       "records": 300,
       "sessions": 3,
       "source_verified_marked": 190,
-      "review_flags": 300,
+      "review_flags": 111,
       "official_answer_key_status": "300/300 final-key rows reconciled in manifest; canonical answer fields match stored official_answer values 300/300",
       "gujarati_source_transcribed": 0,
       "medium": "English",
@@ -94,9 +94,9 @@
         "provisional": 2,
         "pending": 1
       },
-      "question_bank_sha": "c30437905de5ee8ed6842d8c993cf99c96305a48",
-      "papers_manifest_sha": "636eb355a3580b4c574dbeee959fba05d795364e",
-      "status": "190/300 original-page question sets visually checked; 297 mappings verified; 2 provisional; 1 pending; all 300 final-key rows reconciled",
+      "question_bank_sha": "a30b7a6b2ca794d6f20d0621dc91e84d978e9acc",
+      "papers_manifest_sha": "b0c9217d75f13f5a695016d6c1f058b971e6748b",
+      "status": "190/300 source-visual verified; 297 syllabus mappings verified, 2 provisional, 1 pending; 111 review flags remain",
       "visual_review_counts": {
         "nov23": 100,
         "dec24": 47,
@@ -108,7 +108,8 @@
         "GSET_29_DEC24_074"
       ],
       "pending_mapping_id": "GSET_29_DEC24_020",
-      "active_review_flags": 300
+      "active_review_flags": 300,
+      "review_flags_cleared": 189
     },
     "30": {
       "name": "Music",
@@ -1098,8 +1099,8 @@
     "date": "2026-11-14",
     "branch": "integration/combined-subject-banks",
     "branch_head_before_register_finalization": "c87d318f015606bf860551cfad1a95f47a0694ff",
-    "question_bank_blob_sha": "c30437905de5ee8ed6842d8c993cf99c96305a48",
-    "papers_manifest_blob_sha": "636eb355a3580b4c574dbeee959fba05d795364e",
+    "question_bank_blob_sha": "a30b7a6b2ca794d6f20d0621dc91e84d978e9acc",
+    "papers_manifest_blob_sha": "b0c9217d75f13f5a695016d6c1f058b971e6748b",
     "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
     "official_paper_pdfs": [
       "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1121,20 +1122,15 @@
     "mapping": {
       "verified": 297,
       "provisional": 2,
-      "pending": 1,
-      "provisional_ids": [
-        "GSET_29_DEC24_072",
-        "GSET_29_DEC24_074"
-      ],
-      "pending_id": "GSET_29_DEC24_020"
+      "pending": 1
     },
-    "review_flags": 300,
+    "review_flags": 111,
     "gujarati_fields": "blank across English-medium subject; not treated as source verification",
-    "latest_question_commit": "c5d954611f6a540a2e51ec32eefcd053c50fcc81",
-    "latest_manifest_commit": "f0dc4133201ce48b8f65573428d9f386342063a5",
+    "latest_question_commit": "1754b57cd67f77a51cee046efd66498ca7ddeaf7",
+    "latest_manifest_commit": "3730bf7dfa1bb7c3c7382a089debb2db46c45916",
     "latest_register_commits": [
-      "3a65d372747769cf9b9253ce09c07e2022bbd911",
-      "c87d318f015606bf860551cfad1a95f47a0694ff"
+      "43b79d19b9798c7ae9d7f9ee8b6720c3f449e7b6",
+      "cd24a1b4e560e37a84da0cb8a44359cc08801c26"
     ],
     "source_corrections": [
       "December 2024 Q37",
@@ -1147,15 +1143,18 @@
     ],
     "checks": {
       "json_parse_and_record_count": "PASS via connector-side JSON parse; 300 unique IDs",
-      "answer_field_parity": "PASS 300/300 against stored official_answer field; final-key 300/300 reconciliation remains recorded in manifest",
+      "answer_field_parity": "PASS 300/300 against stored official_answer; 300 final-key rows recorded as reconciled",
       "english_option_structure": "PASS 300/300 four non-empty options",
       "github_actions_latest_commit": "not checked; connector exposes no workflow dispatch or repository-wide workflow-run listing in this session",
-      "combined_debug_apk": "not checked"
+      "combined_debug_apk": "not checked",
+      "review_flags": "PASS: 189 cleared after source, final-key and syllabus gates; 111 remain"
     },
     "no_pr_merge": true,
     "other_subjects_changed": false,
     "code01_changed": false,
-    "paper_i_changed": false
+    "paper_i_changed": false,
+    "review_flags_before_clear": 300,
+    "review_flags_cleared": 189
   },
   "code02_official_final_key_sidecars": {
     "added_or_confirmed": [
