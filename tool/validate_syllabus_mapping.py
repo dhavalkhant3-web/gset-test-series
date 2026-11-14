@@ -97,6 +97,9 @@ def main():
                 errors.append(f"{sid}/{qid}: invalid mapping: {problem}")
                 continue
             if unit is None:
+                status = str(q.get("syllabus_mapping_status", "")).strip().lower()
+                if status == "out_of_official_subject_syllabus":
+                    continue
                 pending += 1
                 continue
             mapped[str(unit.get("number"))] += 1
