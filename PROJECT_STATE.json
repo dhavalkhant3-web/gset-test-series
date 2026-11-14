@@ -84,8 +84,8 @@
       "name": "Indian Knowledge System",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 190,
-      "review_flags": 111,
+      "source_verified_marked": 283,
+      "review_flags": 20,
       "official_answer_key_status": "300/300 final-key rows reconciled in manifest; canonical answer fields match stored official_answer values 300/300",
       "gujarati_source_transcribed": 0,
       "medium": "English",
@@ -94,22 +94,25 @@
         "provisional": 2,
         "pending": 1
       },
-      "question_bank_sha": "a30b7a6b2ca794d6f20d0621dc91e84d978e9acc",
-      "papers_manifest_sha": "b0c9217d75f13f5a695016d6c1f058b971e6748b",
-      "status": "190/300 source-visual verified; 297 syllabus mappings verified, 2 provisional, 1 pending; 111 review flags remain",
+      "question_bank_sha": "bb60e0c1d8a9297de8b2596e3c976bb1b8fdbff5",
+      "papers_manifest_sha": "9d573f3255ec25b92dcd4e1e75007e1613c2f986",
+      "status": "283/300 source-visual verified; 297 mappings verified, 2 provisional, 1 pending; 20 review flags remain",
       "visual_review_counts": {
         "nov23": 100,
         "dec24": 47,
         "nov25": 43
       },
-      "remaining_visual_question_count": 110,
+      "remaining_visual_question_count": 17,
       "provisional_mapping_ids": [
         "GSET_29_DEC24_072",
         "GSET_29_DEC24_074"
       ],
       "pending_mapping_id": "GSET_29_DEC24_020",
       "active_review_flags": 300,
-      "review_flags_cleared": 189
+      "review_flags_cleared": 280,
+      "remaining_visual_question_ids": [
+        "GSET_29_DEC24_055-GSET_29_DEC24_071"
+      ]
     },
     "30": {
       "name": "Music",
@@ -1099,8 +1102,8 @@
     "date": "2026-11-14",
     "branch": "integration/combined-subject-banks",
     "branch_head_before_register_finalization": "c87d318f015606bf860551cfad1a95f47a0694ff",
-    "question_bank_blob_sha": "a30b7a6b2ca794d6f20d0621dc91e84d978e9acc",
-    "papers_manifest_blob_sha": "b0c9217d75f13f5a695016d6c1f058b971e6748b",
+    "question_bank_blob_sha": "bb60e0c1d8a9297de8b2596e3c976bb1b8fdbff5",
+    "papers_manifest_blob_sha": "9d573f3255ec25b92dcd4e1e75007e1613c2f986",
     "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
     "official_paper_pdfs": [
       "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
@@ -1109,12 +1112,12 @@
     ],
     "total_records": 300,
     "unique_ids": 300,
-    "source_page_visual_checks": 190,
-    "remaining_source_page_checks": 110,
+    "source_page_visual_checks": 283,
+    "remaining_source_page_checks": 17,
     "source_reviewed_per_session": {
       "nov23": 100,
-      "dec24": 47,
-      "nov25": 43
+      "dec24": 83,
+      "nov25": 100
     },
     "official_final_key_rows_reconciliation_recorded": 300,
     "answer_vs_official_answer_matches": 300,
@@ -1124,13 +1127,12 @@
       "provisional": 2,
       "pending": 1
     },
-    "review_flags": 111,
+    "review_flags": 20,
     "gujarati_fields": "blank across English-medium subject; not treated as source verification",
-    "latest_question_commit": "1754b57cd67f77a51cee046efd66498ca7ddeaf7",
-    "latest_manifest_commit": "3730bf7dfa1bb7c3c7382a089debb2db46c45916",
+    "latest_question_commit": "93412e74dd17af3bb57ce5ae71b37851a2bd97c8",
+    "latest_manifest_commit": "167914dc75c393fbb1b2b95817b094282dc031f5",
     "latest_register_commits": [
-      "43b79d19b9798c7ae9d7f9ee8b6720c3f449e7b6",
-      "cd24a1b4e560e37a84da0cb8a44359cc08801c26"
+      "ca7cefd58c652ae0a07d77a419179b4c4f434253"
     ],
     "source_corrections": [
       "December 2024 Q37",
@@ -1142,19 +1144,22 @@
       "November 2025 Q40"
     ],
     "checks": {
-      "json_parse_and_record_count": "PASS via connector-side JSON parse; 300 unique IDs",
-      "answer_field_parity": "PASS 300/300 against stored official_answer; 300 final-key rows recorded as reconciled",
-      "english_option_structure": "PASS 300/300 four non-empty options",
+      "json_parse_and_record_count": "PASS: 300 records, 300 unique IDs",
+      "answer_field_parity": "PASS: 300/300 answer/official_answer fields equal; 300 final-key rows recorded as reconciled",
+      "english_option_structure": "PASS: 300/300 records have four non-empty English options",
       "github_actions_latest_commit": "not checked; connector exposes no workflow dispatch or repository-wide workflow-run listing in this session",
       "combined_debug_apk": "not checked",
-      "review_flags": "PASS: 189 cleared after source, final-key and syllabus gates; 111 remain"
+      "review_flags": "PASS: undefined cleared; 20 remain for unresolved gates"
     },
     "no_pr_merge": true,
     "other_subjects_changed": false,
     "code01_changed": false,
     "paper_i_changed": false,
     "review_flags_before_clear": 300,
-    "review_flags_cleared": 189
+    "review_flags_cleared": 280,
+    "remaining_visual_question_ids": [
+      "GSET_29_DEC24_055-GSET_29_DEC24_071"
+    ]
   },
   "code02_official_final_key_sidecars": {
     "added_or_confirmed": [
