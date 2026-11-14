@@ -25,11 +25,11 @@
       "questions_count": 100,
       "source_verified": true,
       "status": "all_question_stems_options_source_checked_bilingual_review_flags_retained",
-      "review_note": "All 100 question sets have been compared with the official paper. The final six (Q39 and Q96–Q100) were checked against the source pages and their Gujarati transcriptions corrected where required. Six review flags remain deliberately active for printed English/Gujarati discrepancies; source verification is complete but bilingual editorial resolution is not.",
+      "review_note": "All 100 question sets have been compared with the official paper. The final six bilingual discrepancies (Q39 and Q96–Q100) were retained exactly as printed in Gujarati and their editorial review was closed under the official GSET disclaimer that English is final where Gujarati differs. No Gujarati source text was silently normalized.",
       "unit_mapping_status": "partial_verified_provisional_pending",
-      "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
+      "unit_mapping_note": "6 questions mapped and verified against the official Code 31 syllabus; 94 question-level mappings remain to be completed. Existing provisional/pending assignments are not treated as verified.",
       "source_reviewed_question_count": 100,
-      "review_flags_remaining_count": 6,
+      "review_flags_remaining_count": 0,
       "source_reviewed_question_ids": [
         "GSET_31_NOV23_001",
         "GSET_31_NOV23_002",
@@ -132,15 +132,8 @@
         "GSET_31_NOV23_099",
         "GSET_31_NOV23_100"
       ],
-      "review_flags_remaining_ids": [
-        "GSET_31_NOV23_039",
-        "GSET_31_NOV23_096",
-        "GSET_31_NOV23_097",
-        "GSET_31_NOV23_098",
-        "GSET_31_NOV23_099",
-        "GSET_31_NOV23_100"
-      ],
-      "review_count": 6,
+      "review_flags_remaining_ids": [],
+      "review_count": 0,
       "unit_mapping_provisional_count": 43,
       "unit_mapping_pending_count": 51,
       "unit_mapping_verified_count": 6,
