@@ -4883,7 +4883,7 @@
     "paper_id": "indian_knowledge_system_dec24",
     "paperId": "indian_knowledge_system_dec24",
     "question_no": 20,
-    "question_en": "The syllable ‘ग’ is associated with which of the following?",
+    "question_en": "The syllable ‘ख’ is associated with which of the following?",
     "question_gu": "",
     "options_en": [
       "Sky",
@@ -4903,7 +4903,7 @@
     "explanation_en": "",
     "explanation_gu": "",
     "review_flag": false,
-    "review_note": "Official GSET December 2024 Code 29 question-paper source and final answer key were already reconciled. Syllabus mapping now verified against the official Code 29 syllabus, Unit 1 (Śikṣā / Sanskrit phonetics and pronunciation): the tested ‘ग’ syllable-to-sound association is a phonetics item, not a philosophical-system item. Official answer A retained. All verification gates pass.",
+    "review_note": "Rechecked against the user's archived original GSET December 2024 Code 29 Paper-II EPSON scan, printed page 5. High-resolution crop confirms the printed Devanagari syllable is ‘ख’ (kha), not the previously OCR-transcribed ‘ग’ (ga); canonical stem corrected accordingly. Options Sky/Water/Smell/Earth and order match the scan. Official final answer key Q20 = A (Sky). Mapping verified to official Unit 1 (Śikṣā / Sanskrit phonetics and pronunciation).",
     "tip_en": "Exam tip: Turn the stem into a precise association prompt (person–text, ruler–period, teacher–disciple, or site–object); compare all choices against that association rather than a loose keyword match. Focus: “The syllable ‘ga’ is associated with which of the following?”",
     "tip_gu": "પરીક્ષા ટીપ: પ્રશ્નને ચોક્કસ સંબંધ તરીકે ઓળખો (વ્યક્તિ–ગ્રંથ, શાસક–સમય, ગુરુ–શિષ્ય અથવા સ્થળ–વસ્તુ); માત્ર મળતા શબ્દને બદલે સંબંધથી વિકલ્પો ચકાસો. ધ્યાન: “The syllable ‘ga’ is associated with which of the following?”",
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
@@ -4913,11 +4913,11 @@
     "syllabus_unit": 1,
     "syllabus_mapping_status": "verified_against_official_syllabus",
     "language": "en",
-    "verification_status": "official_answer_key_reconciled_source_visual_review_pending;official_final_answer_key_reconciled_direct_pdf;source_page_visually_checked_secondary_original_scan;official_final_answer_key_reconciled_direct_pdf;official_syllabus_mapping_reviewed",
-    "syllabus_mapping_note": "The question asks for the phonetic/elemental association of the Sanskrit syllable ‘ग’. The tested item is a Sanskrit phoneme/letter and its sound association, which is covered directly by official Unit 1: the six Vedāṅgas including Śikṣā, and the explicit syllabus scope ‘Phonetics and grammar’ and scientific pronunciation of Sanskrit. Unit 2 is broader Indian language/literature and comparative pronunciation; this question is specifically Sanskrit phonetics, so Unit 1 is the direct fit.",
+    "verification_status": "official_answer_key_reconciled_source_visual_review_pending;official_final_answer_key_reconciled_direct_pdf;source_page_visually_checked_secondary_original_scan;official_final_answer_key_reconciled_direct_pdf;official_syllabus_mapping_reviewed;official_gset_pdf_visual_check;official_final_key_crosschecked;original_devanagari_glyph_corrected",
+    "syllabus_mapping_note": "The original printed syllable is ‘ख’ (kha), not ‘ग’ (ga). The question tests the Sanskrit syllable/phoneme and its sound/meaning association. Official Unit 1 explicitly includes Śikṣā (one of the six Vedāṅgas), phonetics and grammar, and the scientific nature of Sanskrit pronunciation. Unit 1 is therefore the direct official-syllabus fit.",
     "unit_number": 1,
     "unit_id": "unit_1",
-    "source_page_number": 22
+    "source_page_number": 5
   },
   {
     "id": "GSET_29_DEC24_021",
