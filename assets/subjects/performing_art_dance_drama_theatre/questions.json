@@ -11493,13 +11493,14 @@
     "exam_session": "November 2025",
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 4,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "visually_checked_against_official_scan",
-    "syllabus_mapping_note": "Question is drawn from the Indian Knowledge Systems passage; no direct matching unit is explicitly stated in the official Code 31 syllabus. Kept pending rather than force-mapped.",
-    "unit_number": null,
-    "unit_id": ""
+    "syllabus_mapping_note": "Unit 4: Art and Aesthetics. The question directly tests the Natyasastra's Rasa concept and Rasa theory, explicitly listed in Unit 4 (Rasasutra of Bharata and Rasa theory). Verified against the official Code 31 syllabus.",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "mapping_review_status": "manual_official_syllabus_reviewed"
   },
   {
     "id": "GSET_31_NOV25_048",
