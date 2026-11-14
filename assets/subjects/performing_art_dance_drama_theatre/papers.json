@@ -156,11 +156,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "partial_source_verified_bilingual_audit_in_progress",
-      "review_note": "December 2024 official PDF visually checked for Q1–Q30. Gujarati stems and four options transcribed for all 30; English source text/options checked. Q4 and Q12 retain bilingual meaning discrepancies and remain flagged. Q1–Q3, Q5–Q11 and Q13–Q30 are source-verified and unflagged. Q31–Q100 still require source-page and Gujarati transcription audit.",
+      "review_note": "December 2024 official PDF visually checked for Q1–Q34. Gujarati stems/options transcribed for Q1–Q30 and Q32–Q34. Q14 English option C corrected to Kathakali. Q4 and Q12 retain bilingual meaning discrepancies and remain flagged. Q1–Q3, Q5–Q11, Q13–Q11? and Q13–Q30, Q32–Q34 are source-verified; Q31 and Q35–Q100 remain pending.",
       "unit_mapping_status": "partial_manual_review_provisional_pending",
       "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
-      "source_reviewed_question_count": 30,
-      "review_flags_remaining_count": 72,
+      "source_reviewed_question_count": 33,
+      "review_flags_remaining_count": 69,
       "source_reviewed_question_ids": [
         "GSET_31_DEC24_001",
         "GSET_31_DEC24_002",
@@ -191,15 +191,15 @@
         "GSET_31_DEC24_027",
         "GSET_31_DEC24_028",
         "GSET_31_DEC24_029",
-        "GSET_31_DEC24_030"
+        "GSET_31_DEC24_030",
+        "GSET_31_DEC24_032",
+        "GSET_31_DEC24_033",
+        "GSET_31_DEC24_034"
       ],
       "review_flags_remaining_ids": [
         "GSET_31_DEC24_004",
         "GSET_31_DEC24_012",
         "GSET_31_DEC24_031",
-        "GSET_31_DEC24_032",
-        "GSET_31_DEC24_033",
-        "GSET_31_DEC24_034",
         "GSET_31_DEC24_035",
         "GSET_31_DEC24_036",
         "GSET_31_DEC24_037",
@@ -267,13 +267,13 @@
         "GSET_31_DEC24_099",
         "GSET_31_DEC24_100"
       ],
-      "review_count": 72,
+      "review_count": 69,
       "unit_mapping_provisional_count": 76,
       "unit_mapping_pending_count": 9,
       "unit_mapping_verified_count": 0,
       "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 15 manually reviewed, 76 provisional, 9 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
       "unit_mapping_manually_reviewed_count": 15,
-      "source_verified_question_count": 30
+      "source_verified_question_count": 33
     },
     {
       "paper_id": "performing_arts_nov25",
