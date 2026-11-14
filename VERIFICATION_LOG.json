@@ -7140,5 +7140,64 @@
       "combined_debug_apk": "not verified"
     },
     "note": "Do not clear the 111 remaining flags until source visual review and Q20 mapping gates are completed."
+  },
+  {
+    "date": "2026-11-14",
+    "event": "IKS Code 29 source verification checkpoint — 283/300",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "93412e74dd17af3bb57ce5ae71b37851a2bd97c8",
+    "papers_manifest_commit": "167914dc75c393fbb1b2b95817b094282dc031f5",
+    "progress_register_commit": "ca7cefd58c652ae0a07d77a419179b4c4f434253",
+    "metrics": {
+      "total": 300,
+      "unique": 300,
+      "source": 283,
+      "flags": 20,
+      "mapping": {
+        "verified": 297,
+        "provisional": 2,
+        "pending": 1
+      },
+      "keyEqual": 300,
+      "malformed": 0,
+      "source_by_session": {
+        "nov23": 100,
+        "dec24": 83,
+        "nov25": 100
+      },
+      "review_flags_cleared": 280,
+      "source_pending_questions": 17,
+      "remaining_flag_ids": [
+        "GSET_29_DEC24_020",
+        "GSET_29_DEC24_072",
+        "GSET_29_DEC24_074"
+      ]
+    },
+    "corrections": [
+      "December 2024 Q76 preserves source spelling Sālimotra",
+      "December 2024 Q74 option D corrected to Kūlacara",
+      "December 2024 Q85 option D corrected to Māyāmāḷavagauḷai",
+      "December 2024 Q86 option A corrected to Kūcipūḍi",
+      "November 2025 Q50 option D Rcosine",
+      "November 2025 Q60 pūrvavṛttitvam",
+      "November 2025 Q73 option Strī",
+      "November 2025 Q76 āsya",
+      "November 2025 Q79 Bhāgavata",
+      "November 2025 Q80 Pratyūṣa",
+      "November 2025 Q90 Pañcaratna Kṛti",
+      "November 2025 Q96 Darius I"
+    ],
+    "remaining": "December 2024 Q55–Q71 still source-visual pending; screenshots of official PDF pages repeatedly timed out. Q20 mapping pending; Q72/Q74 mappings remain provisional.",
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "ci": {
+      "github_actions": "not verified for latest commit",
+      "combined_debug_apk": "not verified for latest commit"
+    }
   }
 ]
