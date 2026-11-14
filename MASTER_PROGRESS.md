@@ -1353,3 +1353,9 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - December 2024 Q20 (“The syllable ‘ग’ is associated with which of the following?”) mapped to official Unit 1. The official syllabus explicitly includes the six Vedāṅgas (including Śikṣā) and “Phonetics and grammar” / scientific pronunciation of Sanskrit (official syllabus page 1). This is a Sanskrit phoneme/syllable sound-association item, so Unit 1 is the direct fit; Unit 2's broader Indian-language/literature scope is not the primary tested concept.
 - Final canonical audit: 300 records, 300 unique IDs, 300/300 source-verified, 300/300 final-key reconciled, 300/300 answer-to-official_answer parity, 300/300 official syllabus mappings verified, 0 malformed English option sets, 0 active review flags.
 - Manifest and canonical question bank updated. No other subject, Code 01 or Paper-I files changed. No PR merged and no force-push. CI/combined Debug APK status remains unverified for the latest commits; do not infer a successful build.
+
+
+### Completion amendment — original Devanagari glyph and literal source typo
+- A final high-resolution crop of the user's archived original December 2024 scan (printed page 5) shows that Q20's Devanagari syllable is **‘ख’ (kha), not ‘ग’ (ga)**. The canonical stem was corrected to ‘ख’; options and order remain Sky/Water/Smell/Earth and the official final answer remains A. Unit 1 mapping is confirmed by the official syllabus's explicit Śikṣā / phonetics / Sanskrit pronunciation scope.
+- Q60's printed scan literally reads “Sme function”. The bank preserves that exact source wording instead of silently correcting it to “Sine”; this is documented in the question's review note.
+- Final status remains 300/300 source-verified, 300/300 official final-key reconciled, 300/300 syllabus-mapped, 0 review flags.
