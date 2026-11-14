@@ -1,7 +1,7 @@
 {
   "project": "GSET Test Series",
   "repository": "dhavalkhant3-web/gset-test-series",
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-14",
   "audit_scope": [
     "02",
     "03",
@@ -84,186 +84,31 @@
       "name": "Indian Knowledge System",
       "records": 300,
       "sessions": 3,
-      "source_verified_marked": 117,
+      "source_verified_marked": 190,
       "review_flags": 300,
-      "official_answer_key_status": "300/300 answer letters reconciled against direct official GSET final answer-key PDFs.",
+      "official_answer_key_status": "300/300 final-key rows reconciled in manifest; canonical answer fields match stored official_answer values 300/300",
       "gujarati_source_transcribed": 0,
+      "medium": "English",
       "mapping": {
-        "verified": 117,
-        "provisional": 182,
+        "verified": 297,
+        "provisional": 2,
         "pending": 1
       },
-      "question_bank_sha": "21403d078f12749cddd7ef5cff7092eb8f870271",
-      "status": "117 source visual checks complete; all 300 final-key rows reconciled; 117 mappings verified, 182 provisional, 1 pending",
-      "mapping_updates": {
-        "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
-        "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
+      "question_bank_sha": "c30437905de5ee8ed6842d8c993cf99c96305a48",
+      "papers_manifest_sha": "636eb355a3580b4c574dbeee959fba05d795364e",
+      "status": "190/300 original-page question sets visually checked; 297 mappings verified; 2 provisional; 1 pending; all 300 final-key rows reconciled",
+      "visual_review_counts": {
+        "nov23": 100,
+        "dec24": 47,
+        "nov25": 43
       },
-      "resolved_mapping": {
-        "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature"
-      },
-      "pending_mapping": {
-        "GSET_29_DEC24_020": "Pending; available question/options don't give enough context to map confidently"
-      },
-      "visual_batch_verified_ids": [
-        "GSET_29_NOV23_001",
-        "GSET_29_NOV23_002",
-        "GSET_29_NOV23_003",
-        "GSET_29_NOV23_004",
-        "GSET_29_NOV23_005",
-        "GSET_29_NOV23_006",
-        "GSET_29_NOV23_007",
-        "GSET_29_NOV23_008",
-        "GSET_29_NOV23_009",
-        "GSET_29_NOV23_010",
-        "GSET_29_NOV23_011",
-        "GSET_29_NOV23_012",
-        "GSET_29_NOV23_013",
-        "GSET_29_NOV23_014",
-        "GSET_29_NOV23_015",
-        "GSET_29_NOV23_016",
-        "GSET_29_NOV23_017",
-        "GSET_29_NOV23_018",
-        "GSET_29_NOV23_019",
-        "GSET_29_NOV23_020",
-        "GSET_29_NOV23_021",
-        "GSET_29_NOV23_022",
-        "GSET_29_NOV23_023",
-        "GSET_29_NOV23_024",
-        "GSET_29_NOV23_034",
-        "GSET_29_NOV23_035",
-        "GSET_29_NOV23_036",
-        "GSET_29_NOV23_037",
-        "GSET_29_NOV23_038",
-        "GSET_29_NOV23_039",
-        "GSET_29_NOV23_040",
-        "GSET_29_NOV23_041",
-        "GSET_29_NOV23_042",
-        "GSET_29_NOV23_043",
-        "GSET_29_NOV23_044",
-        "GSET_29_NOV23_045",
-        "GSET_29_NOV23_046",
-        "GSET_29_NOV23_047",
-        "GSET_29_NOV23_048",
-        "GSET_29_NOV23_049",
-        "GSET_29_NOV23_050",
-        "GSET_29_NOV23_051",
-        "GSET_29_NOV23_052",
-        "GSET_29_NOV23_053",
-        "GSET_29_NOV23_054",
-        "GSET_29_NOV23_055",
-        "GSET_29_NOV23_056",
-        "GSET_29_NOV23_057",
-        "GSET_29_NOV23_058",
-        "GSET_29_NOV23_059",
-        "GSET_29_NOV23_060",
-        "GSET_29_NOV23_061",
-        "GSET_29_NOV23_062",
-        "GSET_29_NOV23_063",
-        "GSET_29_NOV23_064",
-        "GSET_29_NOV23_065",
-        "GSET_29_NOV23_066",
-        "GSET_29_NOV23_067",
-        "GSET_29_NOV23_068",
-        "GSET_29_NOV23_069",
-        "GSET_29_NOV23_070",
-        "GSET_29_NOV23_071",
-        "GSET_29_NOV23_072",
-        "GSET_29_NOV23_073",
-        "GSET_29_NOV23_074",
-        "GSET_29_NOV23_075",
-        "GSET_29_NOV23_076",
-        "GSET_29_NOV23_077",
-        "GSET_29_NOV23_078",
-        "GSET_29_NOV23_079",
-        "GSET_29_NOV23_080",
-        "GSET_29_NOV23_081",
-        "GSET_29_NOV23_082",
-        "GSET_29_NOV23_083",
-        "GSET_29_NOV23_084",
-        "GSET_29_NOV23_085",
-        "GSET_29_NOV23_086",
-        "GSET_29_NOV23_087",
-        "GSET_29_NOV23_088",
-        "GSET_29_NOV23_089",
-        "GSET_29_NOV23_090",
-        "GSET_29_NOV23_091",
-        "GSET_29_NOV23_092",
-        "GSET_29_NOV23_093",
-        "GSET_29_NOV25_020",
-        "GSET_29_NOV25_021",
-        "GSET_29_NOV25_022",
-        "GSET_29_NOV25_023",
-        "GSET_29_NOV25_027",
-        "GSET_29_NOV25_028",
-        "GSET_29_NOV25_029",
-        "GSET_29_NOV25_030",
-        "GSET_29_NOV25_031"
+      "remaining_visual_question_count": 110,
+      "provisional_mapping_ids": [
+        "GSET_29_DEC24_072",
+        "GSET_29_DEC24_074"
       ],
-      "official_answer_key_urls": {
-        "nov23": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
-        "dec24": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
-        "nov25": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf"
-      },
-      "nov23_mapping_review": {
-        "verified": 100,
-        "unit_rationale_per_record": true,
-        "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
-        "visual_source_provenance": {
-          "official_host_pages": 84,
-          "secondary_mirror_pages": 16,
-          "secondary_ids": [
-            "GSET_29_NOV23_025",
-            "GSET_29_NOV23_026",
-            "GSET_29_NOV23_027",
-            "GSET_29_NOV23_028",
-            "GSET_29_NOV23_029",
-            "GSET_29_NOV23_030",
-            "GSET_29_NOV23_031",
-            "GSET_29_NOV23_032",
-            "GSET_29_NOV23_033",
-            "GSET_29_NOV23_094",
-            "GSET_29_NOV23_095",
-            "GSET_29_NOV23_096",
-            "GSET_29_NOV23_097",
-            "GSET_29_NOV23_098",
-            "GSET_29_NOV23_099",
-            "GSET_29_NOV23_100"
-          ]
-        }
-      },
-      "nov25_mapping_review": {
-        "verified_question_ids": [
-          "GSET_29_NOV25_020",
-          "GSET_29_NOV25_021",
-          "GSET_29_NOV25_022",
-          "GSET_29_NOV25_023",
-          "GSET_29_NOV25_027",
-          "GSET_29_NOV25_028",
-          "GSET_29_NOV25_029",
-          "GSET_29_NOV25_030",
-          "GSET_29_NOV25_031"
-        ],
-        "unit7_count": 8,
-        "unit6_count": 1
-      },
-      "dec24_visual_batch": {
-        "source": "Prepp secondary-hosted original scan",
-        "printed_page": 22,
-        "question_ids": [
-          "GSET_29_DEC24_018",
-          "GSET_29_DEC24_019",
-          "GSET_29_DEC24_020",
-          "GSET_29_DEC24_021",
-          "GSET_29_DEC24_022",
-          "GSET_29_DEC24_023",
-          "GSET_29_DEC24_024",
-          "GSET_29_DEC24_025"
-        ],
-        "mapping_verified": 7,
-        "pending_id": "GSET_29_DEC24_020",
-        "pending_note": "Exact source stem/options confirmed; mapping remains ambiguous Unit1 phonetics vs Unit2 Indian language pronunciation."
-      }
+      "pending_mapping_id": "GSET_29_DEC24_020",
+      "active_review_flags": 300
     },
     "30": {
       "name": "Music",
@@ -1250,101 +1095,67 @@
     "paper_i_changed": false
   },
   "latest_iks_execution": {
-    "date": "2026-11-05",
+    "date": "2026-11-14",
     "branch": "integration/combined-subject-banks",
-    "branch_head_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
-    "question_bank_commits": [
-      "98ba316bcb4c5cc175cce053512395a9ff224d1b",
-      "8353bc9fc2f3519bb62edbd61caeebbc4425ef79"
+    "branch_head_before_register_finalization": "c87d318f015606bf860551cfad1a95f47a0694ff",
+    "question_bank_blob_sha": "c30437905de5ee8ed6842d8c993cf99c96305a48",
+    "papers_manifest_blob_sha": "636eb355a3580b4c574dbeee959fba05d795364e",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
+    "official_paper_pdfs": [
+      "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2329.pdf",
+      "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2429.pdf",
+      "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf"
     ],
-    "papers_manifest_commits": [
-      "a94296543b93eea00bb849dab16d2ed61ace0967",
-      "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
-    ],
-    "official_syllabus_pdf_retrieved": true,
-    "official_ikspaper_pdfs_retrieved": 3,
-    "page_images_sampled": "selected November 2023 pages only",
-    "full_visual_verified_questions": 0,
-    "structural_json_validation": "PASS",
     "total_records": 300,
     "unique_ids": 300,
-    "answer_official_field_mismatches": 0,
+    "source_page_visual_checks": 190,
+    "remaining_source_page_checks": 110,
+    "source_reviewed_per_session": {
+      "nov23": 100,
+      "dec24": 47,
+      "nov25": 43
+    },
+    "official_final_key_rows_reconciliation_recorded": 300,
+    "answer_vs_official_answer_matches": 300,
+    "malformed_english_option_sets": 0,
     "mapping": {
-      "verified": 117,
-      "provisional": 182,
-      "pending": 1
-    },
-    "source_verified": 117,
-    "review_flags": 300,
-    "combined_audit": {
-      "run_id": 42023324889,
-      "conclusion": "failure",
-      "blocker": "Unrelated Code 31 GSET_31_NOV25_001: review_flag=true with source_verified=true"
-    },
-    "integration_debug_apk": {
-      "run_id": 42023324932,
-      "status": "in_progress"
-    },
-    "pr_merges": 0,
-    "answer_key_reconciliation": {
-      "officialFinalKeyRows": 300,
-      "matched": 300,
-      "mismatches": 0,
-      "source": "direct official GSET final answer-key PDFs",
-      "urls": [
-        "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
-        "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
-        "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf"
-      ]
-    },
-    "visual_batch": {
-      "verifiedQuestionIds": [
-        "GSET_29_NOV25_020",
-        "GSET_29_NOV25_021",
-        "GSET_29_NOV25_022",
-        "GSET_29_NOV25_023"
+      "verified": 297,
+      "provisional": 2,
+      "pending": 1,
+      "provisional_ids": [
+        "GSET_29_DEC24_072",
+        "GSET_29_DEC24_074"
       ],
-      "count": 4,
-      "officialPaper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
-      "printedPage": 6
+      "pending_id": "GSET_29_DEC24_020"
     },
-    "code31_ci_repair": {
-      "audit_run": 42024597978,
-      "conclusion": "success",
-      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978"
+    "review_flags": 300,
+    "gujarati_fields": "blank across English-medium subject; not treated as source verification",
+    "latest_question_commit": "c5d954611f6a540a2e51ec32eefcd053c50fcc81",
+    "latest_manifest_commit": "f0dc4133201ce48b8f65573428d9f386342063a5",
+    "latest_register_commits": [
+      "3a65d372747769cf9b9253ce09c07e2022bbd911",
+      "c87d318f015606bf860551cfad1a95f47a0694ff"
+    ],
+    "source_corrections": [
+      "December 2024 Q37",
+      "December 2024 Q38",
+      "December 2024 Q50",
+      "November 2025 Q24",
+      "November 2025 Q25",
+      "November 2025 Q26",
+      "November 2025 Q40"
+    ],
+    "checks": {
+      "json_parse_and_record_count": "PASS via connector-side JSON parse; 300 unique IDs",
+      "answer_field_parity": "PASS 300/300 against stored official_answer field; final-key 300/300 reconciliation remains recorded in manifest",
+      "english_option_structure": "PASS 300/300 four non-empty options",
+      "github_actions_latest_commit": "not checked; connector exposes no workflow dispatch or repository-wide workflow-run listing in this session",
+      "combined_debug_apk": "not checked"
     },
-    "remaining_visual_questions": 183,
-    "visual_batch_page6": {
-      "printedPage": 6,
-      "count": 4
-    },
-    "visual_batch_page8": {
-      "printedPage": 8,
-      "count": 5,
-      "verifiedQuestionIds": [
-        "GSET_29_NOV25_027",
-        "GSET_29_NOV25_028",
-        "GSET_29_NOV25_029",
-        "GSET_29_NOV25_030",
-        "GSET_29_NOV25_031"
-      ]
-    },
-    "visual_batches": {
-      "nov23_q1_24": 24,
-      "nov23_q34_93": 60,
-      "nov25_q20_23_q27_31": 9
-    },
-    "latest_structural_validation": "PASS",
-    "latest_combined_audit": {
-      "run_id": 42027901976,
-      "conclusion": "success",
-      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901976"
-    },
-    "debug_apk": {
-      "run_id": 42027901968,
-      "status": "in_progress",
-      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901968"
-    }
+    "no_pr_merge": true,
+    "other_subjects_changed": false,
+    "code01_changed": false,
+    "paper_i_changed": false
   },
   "code02_official_final_key_sidecars": {
     "added_or_confirmed": [
