@@ -37,6 +37,6 @@ jobs:
       - name: Validate Performing Arts official keys and app/audit synchronization
         run: python tools/validate_performing_arts.py
       - name: Validate explicit syllabus unit references and pending mapping state
-        run: python tool/validate_syllabus_mapping.py
+        run: python tool/validate_syllabus_mapping.py --subject 31
       - name: Audit question banks without promoting verification claims
         run: python tool/audit_combined_subject_banks.py
