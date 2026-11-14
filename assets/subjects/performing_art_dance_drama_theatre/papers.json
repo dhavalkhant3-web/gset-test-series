@@ -26,8 +26,8 @@
       "source_verified": true,
       "status": "all_question_stems_options_source_checked_bilingual_review_flags_retained",
       "review_note": "All 100 question sets have been compared with the official paper. The final six bilingual discrepancies (Q39 and Q96–Q100) were retained exactly as printed in Gujarati and their editorial review was closed under the official GSET disclaimer that English is final where Gujarati differs. No Gujarati source text was silently normalized.",
-      "unit_mapping_status": "95_verified_5_pending_stream_or_topic_clarification",
-      "unit_mapping_note": "Question-level mapping: 95/100 checked against the official Code 31 / UGC-NET Code 65 syllabus PDF. Five questions remain unmapped pending stream/topic clarification (Q37, Q57, Q62, Q69, Q76). Units 1–5 are common; Units 6–10 were assigned only where Dance or Drama/Theatre stream is identifiable from the question content.",
+      "unit_mapping_status": "97_verified_3_pending_stream_clarification",
+      "unit_mapping_note": "Question-level mapping: 97/100 checked against the official Code 31 / UGC-NET Code 65 syllabus PDF. Three questions remain unmapped pending stream clarification (Q57, Q62, Q69). Units 1–5 are common; Units 6–10 were assigned only where Dance or Drama/Theatre stream is identifiable from the question content.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
       "source_reviewed_question_ids": [
@@ -135,10 +135,10 @@
       "review_flags_remaining_ids": [],
       "review_count": 0,
       "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 5,
-      "unit_mapping_verified_count": 95,
-      "unit_mapping_status_note": "Question-level mapping: 95 verified, 5 pending (Q37, Q57, Q62, Q69, Q76).",
-      "unit_mapping_manually_reviewed_count": 95,
+      "unit_mapping_pending_count": 3,
+      "unit_mapping_verified_count": 97,
+      "unit_mapping_status_note": "Question-level mapping: 97 verified, 3 pending (Q57, Q62, Q69).",
+      "unit_mapping_manually_reviewed_count": 97,
       "source_verified_question_count": 100
     },
     {
