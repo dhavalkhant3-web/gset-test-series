@@ -3,6 +3,7 @@
 from __future__ import annotations
 import json
 import sys
+import argparse
 from collections import Counter
 from pathlib import Path
 
@@ -54,10 +55,15 @@ def resolve_unit(q, units):
     return next(u for u in units if str(u.get("number")) == number_matches[0]), None
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--subject", help="Validate only one configured subject code, e.g. 31")
+    args = parser.parse_args()
     cfg = load(CONFIG)
     subject_cfg = cfg.get("subjects", {})
     errors = []
     for code, rel in QUESTION_FILES.items():
+        if args.subject and code != args.subject:
+            continue
         sid = Path(rel).parts[0]
         subject = subject_cfg.get(sid)
         if not subject:
