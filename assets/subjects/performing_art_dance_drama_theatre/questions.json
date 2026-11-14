@@ -7310,15 +7310,16 @@
     "exam_session": "November 2023",
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
-    "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_unit": 8,
+    "syllabus_mapping_status": "manually_reviewed_official_syllabus",
     "language": "en",
     "verification_status": "source_page_visually_verified",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending.",
-    "unit_number": null,
-    "unit_id": "",
+    "syllabus_mapping_note": "Mapped to Unit 8 (Indian Classical Dance in Independent India): the official syllabus explicitly includes major institutions in independent India, institutionalization, government/private patronage, important festivals and current happenings. Sangeet Natak Akademi establishment is an institutional-history item. Official GSET Code 31 syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf (Unit 8).",
+    "unit_number": 8,
+    "unit_id": "unit_8",
     "source_page_number": 18,
-    "source_review_note": "Original official GSET question paper, PDF page 18: English and Gujarati stem and all four options visually checked. Official final-key answer retained; unit mapping remains separate."
+    "source_review_note": "Original official GSET question paper, PDF page 18: English and Gujarati stem and all four options visually checked. Official final-key answer retained; unit mapping remains separate.",
+    "mapping_review_status": "manual_official_syllabus_reviewed"
   },
   {
     "id": "GSET_31_NOV23_058",
@@ -7546,14 +7547,15 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "pending_stream_specific_research_unit_review",
     "language": "en",
     "verification_status": "source_page_visually_verified",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending.",
+    "syllabus_mapping_note": "The question concerns a research digital library. Official Code 31 has separate research units: Unit 9 for Dance Education, Pedagogy and Research, and Unit 10 for Theatre Education, Pedagogy and Research. The record does not specify a Dance or Drama/Theatre stream, so a single unit cannot be assigned without unsupported stream inference. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf (Units 9 and 10).",
     "unit_number": null,
-    "unit_id": "",
+    "unit_id": null,
     "source_page_number": 19,
-    "source_review_note": "Original official GSET question paper, PDF page 19: English and Gujarati stem, list terms, matching codes and all four options visually checked. Official final-key answer retained; unit mapping remains separate."
+    "source_review_note": "Original official GSET question paper, PDF page 19: English and Gujarati stem, list terms, matching codes and all four options visually checked. Official final-key answer retained; unit mapping remains separate.",
+    "mapping_review_status": "pending_stream_specific_research_unit_review"
   },
   {
     "id": "GSET_31_NOV23_063",
@@ -7875,14 +7877,15 @@
     "exam_date": "2023-11-26",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "pending_stream_specific_research_unit_review",
     "language": "en",
     "verification_status": "source_page_visually_verified",
-    "syllabus_mapping_note": "No reliable keyword-based unit suggestion; official syllabus mapping remains pending.",
+    "syllabus_mapping_note": "The question concerns CCRT and a post-doctoral fellowship. Official Code 31 has separate research/education units: Unit 9 for Dance and Unit 10 for Theatre. The record does not specify the stream, so a unique unit cannot be assigned without unsupported inference. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf (Units 9 and 10).",
     "source_page_number": 21,
     "source_review_note": "Original official GSET question paper, PDF page 21: English and Gujarati stem/list/statements and all four options visually checked. Official final-key answer retained; unit mapping remains separate.",
     "unit_number": null,
-    "unit_id": ""
+    "unit_id": null,
+    "mapping_review_status": "pending_stream_specific_research_unit_review"
   },
   {
     "id": "GSET_31_NOV23_070",
@@ -11449,12 +11452,13 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "out_of_official_subject_syllabus",
     "language": "en",
     "verification_status": "visually_checked_against_official_scan",
-    "syllabus_mapping_note": "Question is drawn from the Indian Knowledge Systems passage; no direct matching unit is explicitly stated in the official Code 31 syllabus. Kept pending rather than force-mapped.",
+    "syllabus_mapping_note": "The question is explicitly based on an Indian Knowledge System (IKS) passage. The official GSET Code 31 Performing Arts syllabus does not list IKS as a unit or topic; no Code 31 unit is supported. Kept unassigned rather than force-mapped. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf.",
     "unit_number": null,
-    "unit_id": ""
+    "unit_id": null,
+    "mapping_review_status": "out_of_official_subject_syllabus"
   },
   {
     "id": "GSET_31_NOV25_047",
@@ -11540,12 +11544,13 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "out_of_official_subject_syllabus",
     "language": "en",
     "verification_status": "visually_checked_against_official_scan",
-    "syllabus_mapping_note": "Question is drawn from the Indian Knowledge Systems passage; no direct matching unit is explicitly stated in the official Code 31 syllabus. Kept pending rather than force-mapped.",
+    "syllabus_mapping_note": "The question is explicitly based on an Indian Knowledge System (IKS) passage and asks about ethics/epistemology. The official GSET Code 31 syllabus has no matching IKS unit/topic; no Code 31 unit is supported. Kept unassigned rather than force-mapped. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf.",
     "unit_number": null,
-    "unit_id": ""
+    "unit_id": null,
+    "mapping_review_status": "out_of_official_subject_syllabus"
   },
   {
     "id": "GSET_31_NOV25_049",
@@ -11585,12 +11590,13 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "out_of_official_subject_syllabus",
     "language": "en",
     "verification_status": "visually_checked_against_official_scan",
-    "syllabus_mapping_note": "Question is drawn from the Indian Knowledge Systems passage; no direct matching unit is explicitly stated in the official Code 31 syllabus. Kept pending rather than force-mapped.",
+    "syllabus_mapping_note": "The question is explicitly based on an Indian Knowledge System (IKS) passage and asks about Vastu. The official GSET Code 31 syllabus has no matching IKS/Vastu unit/topic; no Code 31 unit is supported. Kept unassigned rather than force-mapped. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf.",
     "unit_number": null,
-    "unit_id": ""
+    "unit_id": null,
+    "mapping_review_status": "out_of_official_subject_syllabus"
   },
   {
     "id": "GSET_31_NOV25_050",
@@ -11630,12 +11636,13 @@
     "exam_date": "2025-11-16",
     "source_booklet_sl_no": "",
     "syllabus_unit": null,
-    "syllabus_mapping_status": "pending_official_syllabus_unit_mapping",
+    "syllabus_mapping_status": "out_of_official_subject_syllabus",
     "language": "en",
     "verification_status": "visually_checked_against_official_scan",
-    "syllabus_mapping_note": "Question is drawn from the Indian Knowledge Systems passage; no direct matching unit is explicitly stated in the official Code 31 syllabus. Kept pending rather than force-mapped.",
+    "syllabus_mapping_note": "The question is explicitly based on an Indian Knowledge System (IKS) passage and asks about Arthashastra as an IKS trait. The official GSET Code 31 syllabus has no matching IKS/Arthashastra unit/topic; no Code 31 unit is supported. Kept unassigned rather than force-mapped. Official syllabus: https://gujaratset.ac.in/assets/syllabus/31.pdf.",
     "unit_number": null,
-    "unit_id": ""
+    "unit_id": null,
+    "mapping_review_status": "out_of_official_subject_syllabus"
   },
   {
     "id": "GSET_31_NOV25_051",
