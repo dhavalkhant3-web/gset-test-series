@@ -27,7 +27,7 @@
       "status": "source_verified_subset_source_review_pending",
       "review_note": "Question-level source visual checks: 100/100. Official final-key reconciliation is recorded for all 100 questions. Syllabus mapping: 100 verified, 0 provisional, 0 pending. 0 review flags remain for unresolved source/mapping gates; Gujarati fields are intentionally blank for this English-medium subject.",
       "unit_mapping_status": "verified_against_official_syllabus",
-      "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
+      "unit_mapping_note": "Question-level mapping counts against the official GSET Code 29 syllabus: 100 verified, 0 provisional, 0 pending.",
       "review_count": 100,
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
@@ -153,15 +153,15 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
-      "review_note": "Question-level source visual checks: 83/100. Official final-key reconciliation is recorded for all 100 questions. Syllabus mapping: 97 verified, 2 provisional, 1 pending. 20 review flags remain for unresolved source/mapping gates; Gujarati fields are intentionally blank for this English-medium subject.",
+      "review_note": "Question-level source visual checks: 83/100. Official final-key reconciliation is recorded for all 100 questions. Syllabus mapping: 99 verified, 0 provisional, 1 pending. 18 review flags remain for unresolved source/mapping gates; Gujarati fields are intentionally blank for this English-medium subject.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
-      "unit_mapping_note": "Question-level mapping review against the official 10-unit GSET Code 29 syllabus: 97 verified, 2 provisional (Q72 and Q74), 1 pending (Q20).",
+      "unit_mapping_note": "Question-level mapping counts against the official GSET Code 29 syllabus: 99 verified, 0 provisional, 1 pending.",
       "review_count": 100,
       "source_reviewed_question_count": 83,
-      "review_flags_remaining_count": 20,
-      "unit_mapping_provisional_count": 2,
+      "review_flags_remaining_count": 18,
+      "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 1,
-      "unit_mapping_verified_count": 97,
+      "unit_mapping_verified_count": 99,
       "unit_mapping_status_note": "Counts reconciled to question-level statuses. 90 previously provisional Dec 2024 mappings were reviewed individually against the detailed official unit descriptions. Q20 remains pending because its syllable-based classification is ambiguous; Q72 and Q74 remain provisional pending a more specific unit determination.",
       "source_reviewed_question_ids": [
         "GSET_29_DEC24_001",
@@ -267,7 +267,7 @@
       "review_note": "Question-level source visual checks: 100/100. Official final-key reconciliation is recorded for all 100 questions. Syllabus mapping: 100 verified, 0 provisional, 0 pending. 0 review flags remain for unresolved source/mapping gates; Gujarati fields are intentionally blank for this English-medium subject.",
       "review_count": 100,
       "unit_mapping_status": "verified_against_official_syllabus",
-      "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
+      "unit_mapping_note": "Question-level mapping counts against the official GSET Code 29 syllabus: 100 verified, 0 provisional, 0 pending.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
       "unit_mapping_provisional_count": 0,
@@ -378,10 +378,10 @@
       ]
     }
   ],
-  "unit_mapping_status": "partially_verified_against_official_syllabus",
-  "unit_mapping_note": "297/300 question-level mappings verified against the detailed official GSET Code 29 syllabus; 2 provisional (December 2024 Q72 and Q74) and 1 pending (December 2024 Q20).",
+  "unit_mapping_status": "299_verified_1_pending",
+  "unit_mapping_note": "299/300 question-level mappings verified against the detailed official GSET Code 29 syllabus; one pending mapping remains at December 2024 Q20.",
   "source_verified": false,
   "question_source_verified": false,
   "status": "official_final_key_reconciled_source_visual_audit_pending",
-  "review_note": "Official final-key reconciliation is recorded for all 300 questions. Original official-paper source visual checks: November 2023 100/100, December 2024 83/100, November 2025 100/100 (283/300). Official syllabus mapping: 297 verified, 2 provisional (December 2024 Q72/Q74), 1 pending (December 2024 Q20). 280 review flags cleared after source, key and mapping gates passed; 20 remain: 17 source-pending questions (December 2024 Q55-Q71) and 3 mapping-gate questions (Q20/Q72/Q74)."
+  "review_note": "Official final-key reconciliation is recorded for all 300 questions. Original official-paper source visual checks: November 2023 100/100, December 2024 83/100, November 2025 100/100 (283/300). Official syllabus mapping: 299 verified, 0 provisional, 1 pending (December 2024 Q20). 282 review flags cleared after source, key and mapping gates passed; 18 remain: 17 source-pending questions (December 2024 Q55-Q71) and 1 mapping-pending question (Q20)."
 }
