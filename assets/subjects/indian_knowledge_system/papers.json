@@ -153,11 +153,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
-      "review_note": "Question-level source visual checks: 41/100. All 100 final-key rows are recorded as reconciled. Syllabus mapping: 97 verified, 2 provisional, 1 pending. Review flags remain active where Gujarati transcription or separate content/source review is incomplete.",
+      "review_note": "Question-level source visual checks: 47/100. All 100 final-key rows are recorded as reconciled; source-review count records only question pages visually checked against the official original PDF. Syllabus mapping remains 97 verified, 2 provisional, 1 pending. Review flags remain active where Gujarati transcription or separate content/source review is incomplete.",
       "unit_mapping_status": "partial_provisional_mapping_review_pending",
       "unit_mapping_note": "Question-level mapping review against the official 10-unit GSET Code 29 syllabus: 97 verified, 2 provisional (Q72 and Q74), 1 pending (Q20).",
       "review_count": 100,
-      "source_reviewed_question_count": 41,
+      "source_reviewed_question_count": 47,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 2,
       "unit_mapping_pending_count": 1,
@@ -204,7 +204,13 @@
         "GSET_29_DEC24_038",
         "GSET_29_DEC24_039",
         "GSET_29_DEC24_040",
-        "GSET_29_DEC24_041"
+        "GSET_29_DEC24_041",
+        "GSET_29_DEC24_049",
+        "GSET_29_DEC24_050",
+        "GSET_29_DEC24_051",
+        "GSET_29_DEC24_052",
+        "GSET_29_DEC24_053",
+        "GSET_29_DEC24_054"
       ]
     },
     {
@@ -222,11 +228,11 @@
       "questions_count": 100,
       "source_verified": false,
       "status": "source_verified_subset_source_review_pending",
-      "review_note": "Question-level source visual checks: 31/100. All 100 final-key rows are recorded as reconciled; source-review count records only question pages visually checked against the official original PDF. Syllabus mapping remains 100 verified, 0 provisional, 0 pending. Review flags remain active where Gujarati transcription or separate content/mapping review is incomplete.",
+      "review_note": "Question-level source visual checks: 43/100. All 100 final-key rows are recorded as reconciled; source-review count records only question pages visually checked against the official original PDF. Syllabus mapping remains 100 verified, 0 provisional, 0 pending. Review flags remain active where Gujarati transcription or separate content/source review is incomplete.",
       "review_count": 100,
       "unit_mapping_status": "verified_against_official_syllabus",
       "unit_mapping_note": "Keyword-based unit suggestions are provisional. Official question-by-question syllabus confirmation is still pending.",
-      "source_reviewed_question_count": 31,
+      "source_reviewed_question_count": 43,
       "review_flags_remaining_count": 100,
       "unit_mapping_provisional_count": 0,
       "unit_mapping_pending_count": 0,
@@ -263,7 +269,19 @@
         "GSET_29_NOV25_028",
         "GSET_29_NOV25_029",
         "GSET_29_NOV25_030",
-        "GSET_29_NOV25_031"
+        "GSET_29_NOV25_031",
+        "GSET_29_NOV25_032",
+        "GSET_29_NOV25_033",
+        "GSET_29_NOV25_034",
+        "GSET_29_NOV25_035",
+        "GSET_29_NOV25_036",
+        "GSET_29_NOV25_037",
+        "GSET_29_NOV25_038",
+        "GSET_29_NOV25_039",
+        "GSET_29_NOV25_040",
+        "GSET_29_NOV25_041",
+        "GSET_29_NOV25_042",
+        "GSET_29_NOV25_043"
       ]
     }
   ],
@@ -272,5 +290,5 @@
   "source_verified": false,
   "question_source_verified": false,
   "status": "official_final_key_reconciled_source_visual_audit_pending",
-  "review_note": "Official final-key reconciliation is recorded for all 300 questions. Original official-paper source visual checks: 100/100 November 2023, 41/100 December 2024, 31/100 November 2025 (172/300 total). Official syllabus mapping: 297 verified, 2 provisional and 1 pending. Keep subject-level source verification pending until all 300 source pages are checked."
+  "review_note": "Official final-key reconciliation is recorded for all 300 questions. Original official-paper source visual checks: 100/100 November 2023, 47/100 December 2024, 43/100 November 2025 (190/300 total). Official syllabus mapping: 297 verified, 2 provisional and 1 pending. Keep subject-level source verification pending until all 300 source pages are checked."
 }
