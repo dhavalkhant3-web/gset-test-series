@@ -7199,5 +7199,53 @@
       "github_actions": "not verified for latest commit",
       "combined_debug_apk": "not verified for latest commit"
     }
+  },
+  {
+    "date": "2026-11-14",
+    "event": "IKS Code 29 syllabus mapping checkpoint — 299/300 verified",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "2a0ccfb973a1410b0dc1696421b4a96874d9fe45",
+    "papers_manifest_commit": "a898b34ad72695c0213843d4685009bacb107dcb",
+    "progress_register_commit": "4f0ede258ba3f39e2b6174fee39989d804800556",
+    "metrics": {
+      "total": 300,
+      "unique": 300,
+      "source": 283,
+      "flags": 18,
+      "mapping": {
+        "verified": 299,
+        "provisional": 0,
+        "pending": 1
+      },
+      "keyEqual": 300,
+      "malformed": 0,
+      "source_by_session": {
+        "nov23": 100,
+        "dec24": 83,
+        "nov25": 100
+      },
+      "review_flags_cleared": 282,
+      "remaining_flag_ids": [
+        "GSET_29_DEC24_020",
+        "GSET_29_DEC24_055-GSET_29_DEC24_071"
+      ]
+    },
+    "mapping_resolutions": {
+      "GSET_29_DEC24_072": "Unit 4 — Health and Well-being; primary concept is historical Ayurvedic medical personality.",
+      "GSET_29_DEC24_074": "Unit 8 — Life Sciences, Agriculture and Ecology; animal classification is explicitly in the unit scope.",
+      "GSET_29_DEC24_020": "Pending; the syllable-based association is not yet confidently attributable to one unit."
+    },
+    "remaining": "Only source visual checks for December 2024 Q55–Q71 (printed pages 10–11) and mapping for Q20 remain. Official PDF screenshot retrieval timed out repeatedly for pages containing Q55–Q71; no source verification was asserted.",
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "ci": {
+      "github_actions": "not verified for latest commit",
+      "combined_debug_apk": "not verified for latest commit"
+    }
   }
 ]
