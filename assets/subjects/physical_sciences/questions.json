@@ -3664,8 +3664,8 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: A. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
     "explanation_gu": "Official GSET final answer: A. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
-    "review_flag": true,
-    "review_note": "Official scan visually checked on printed page 4: the four phase-space diagrams are preserved in the source. Correct option A is confirmed by the supplied official key. Diagram crop extracted for app asset integration; flag remains until the image is committed and linked in the app.",
+    "review_flag": false,
+    "review_note": "Original source figure is now committed and linked in the app as assets/images/physical_dec03_q05_phase_space_bw.png. Source wording/options and official final-key answer A are preserved; visual review closed.",
     "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
     "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
     "source_verified": true,
@@ -3680,7 +3680,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_dec03_q05_phase_space_bw.png"
   },
   {
     "id": "physical_dec03_q06",
@@ -3808,8 +3809,8 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: B. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
     "explanation_gu": "Official GSET final answer: B. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
-    "review_flag": true,
-    "review_note": "Official scan visually checked on printed page 5: the linear triatomic molecule equilibrium diagram and four pairs of normal-mode diagrams are preserved in the source. Correct option B is confirmed by the supplied official key. Diagram crop extracted for app asset integration; flag remains until the image is committed and linked in the app.",
+    "review_flag": false,
+    "review_note": "Original source figure is now committed and linked in the app as assets/images/physical_dec03_q09_normal_modes_bw.png. Source wording/options and official final-key answer B are preserved; visual review closed.",
     "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
     "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
     "source_verified": true,
@@ -3824,7 +3825,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_dec03_q09_normal_modes_bw.png"
   },
   {
     "id": "physical_dec03_q10",
@@ -4024,8 +4026,8 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer: C. Source transcription is based on the uploaded December 2003 Physical Sciences Paper-II; this item contains mathematical notation/figure content and is flagged for source-visual review.",
     "explanation_gu": "Official GSET final answer: C. Uploaded December 2003 Physical Sciences Paper-II પરથી transcription કરવામાં આવ્યું છે; આ itemમાં mathematical notation/figure હોવાથી source-visual review માટે flag કરેલ છે.",
-    "review_flag": true,
-    "review_note": "Official scan visually checked on printed page 7: the two grounded plates at right angles, charge q at (a,b), and four image-charge answer choices are preserved in the source. Correct option C is confirmed by the supplied official key. Diagram crop extracted for app asset integration; flag remains until the image is committed and linked in the app.",
+    "review_flag": false,
+    "review_note": "Original source figure is now committed and linked in the app as assets/images/physical_dec03_q15_image_charges_bw.png. Source wording/options and official final-key answer C are preserved; visual review closed.",
     "tip_en": "Use the official question and final answer key; verify the original source for any flagged notation or figure.",
     "tip_gu": "Official question અને final answer keyને આધાર બનાવો; flagged notation/figure માટે original source ચકાસો.",
     "source_verified": true,
@@ -4040,7 +4042,8 @@
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0302.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_dec03_q15_image_charges_bw.png"
   },
   {
     "id": "physical_dec03_q16",
@@ -10224,11 +10227,11 @@
     "difficulty": "Medium",
     "explanation_en": "Official GSET final answer key: B.",
     "explanation_gu": "Official GSET final answer key મુજબ જવાબ B છે.",
-    "review_flag": true,
-    "review_note": "All four graph choices have been transcribed from the official December 2019 source page 27 into descriptive text, preserving axes and curve shapes. The original graph artwork is not yet embedded as app image assets; retain review_flag=true and source_verified=false until the app's figure-rendering asset is added.",
+    "review_flag": false,
+    "review_note": "Original source figure is now committed and linked in the app as assets/images/physical_dec19_q89_conductivity_graphs.png. Source wording/options and official final-key answer B are preserved; visual review closed.",
     "tip_en": "Verify equations, symbols, figures and scientific notation against the original GSET PDF.",
     "tip_gu": "Equation, symbol, figure અને scientific notation માટે original GSET PDF ચકાસો.",
-    "source_verified": false,
+    "source_verified": true,
     "source": "GSET official December 2019 Physical Sciences Paper-II and final answer key",
     "source_url": "https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf",
     "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf",
@@ -10240,7 +10243,8 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "answer_source": "Official GSET final answer key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf",
-    "verification_status": "official_final_answer_key_reconciled_direct_pdf"
+    "verification_status": "official_final_answer_key_reconciled_direct_pdf",
+    "image_asset": "assets/images/physical_dec19_q89_conductivity_graphs.png"
   },
   {
     "id": "physical_dec19_q90",
@@ -14397,7 +14401,7 @@
     "explanation_en": "The official GSET final key marks B. However, z²+2z+1=(z+1)², whose only root is z=−1, so none of the listed options satisfies the equation while having both parts non-zero.",
     "explanation_gu": "Official final keyમાં B આપેલું છે. પરંતુ z²+2z+1=(z+1)² હોવાથી સાચો mathematical root z=−1 છે; તેથી આપેલા optionsમાંથી કોઈ પણ equation satisfy કરતું નથી. Official key જ appમાં રાખી છે.",
     "review_flag": true,
-    "review_note": "Official final key = B, but the displayed equation/options are mathematically inconsistent. Retain official key for historical-paper fidelity; flag for review. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q6; official GSET final answer key Q6=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 8); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Official final key = B, but the displayed equation/options are mathematically inconsistent. Retain official key for historical-paper fidelity; flag for review. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q6; official GSET final answer key Q6=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "Always substitute a proposed complex root back into the original equation when the options look inconsistent.",
     "tip_gu": "Complex-number MCQમાં optionને original equationમાં substitute કરીને જરૂર ચકાસો.",
     "source_verified": true,
@@ -14426,10 +14430,7 @@
         "official_answer": "B"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 8,
-    "source_page_label": "Official scanned PDF page 8"
+    }
   },
   {
     "id": "physical_dec24_q07",
@@ -14518,7 +14519,7 @@
     "explanation_en": "The official final key marks B. Direct residue calculation gives lim(z→1)(z−1)f(z)=4/(1+2)=4/3, which corresponds to option D. Therefore this item is flagged as a key/question inconsistency.",
     "explanation_gu": "Official final key B આપે છે. પરંતુ residue = lim(z→1)(z−1)f(z)=4/(1+2)=4/3 આવે છે, જે option D છે. તેથી આ પ્રશ્નને Review Flag સાથે રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Official final key = B, while direct residue calculation gives D (4/3). Preserve official key and flag discrepancy. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q9; official GSET final answer key Q9=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 8); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Official final key = B, while direct residue calculation gives D (4/3). Preserve official key and flag discrepancy. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q9; official GSET final answer key Q9=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "For a simple pole at z=z₀, residue is lim(z→z₀)(z−z₀)f(z).",
     "tip_gu": "Simple pole માટે residue = lim(z→z₀)(z−z₀)f(z).",
     "source_verified": true,
@@ -14547,10 +14548,7 @@
         "official_answer": "B"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 8,
-    "source_page_label": "Official scanned PDF page 8"
+    }
   },
   {
     "id": "physical_dec24_q10",
@@ -14641,7 +14639,7 @@
     "explanation_en": "The official final key marks B. In standard tensor notation, a covariant tensor transforms with the Jacobian corresponding to the transformation of covariant components; terminology depends on which old/new coordinate convention is used. This item is therefore retained with a review note rather than silently changing the official key.",
     "explanation_gu": "Official final key B છે. Covariant components માટે Jacobian/inverse-Jacobianનું રૂપાંતરણ old/new coordinate convention પર notation મુજબ લખાય છે. તેથી historical fidelity માટે B જ રાખ્યો છે અને Review Note આપ્યું છે.",
     "review_flag": true,
-    "review_note": "Transformation wording depends on coordinate convention; official key B is preserved. Review before using as a theory-only question. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q11; official GSET final answer key Q11=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 9); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Transformation wording depends on coordinate convention; official key B is preserved. Review before using as a theory-only question. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q11; official GSET final answer key Q11=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "Always write the coordinate transformation explicitly before deciding Jacobian versus inverse Jacobian.",
     "tip_gu": "Jacobian કે inverse Jacobian નક્કી કરતાં પહેલાં old/new coordinate transformation સ્પષ્ટ લખો.",
     "source_verified": true,
@@ -14670,10 +14668,7 @@
         "official_answer": "B"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 9,
-    "source_page_label": "Official scanned PDF page 9"
+    }
   },
   {
     "id": "physical_dec24_q12",
@@ -14898,7 +14893,7 @@
     "explanation_en": "The centre-of-mass velocity is total momentum divided by total mass: V_CM=(m₁v₁+m₂v₂)/(m₁+m₂). Hence B.",
     "explanation_gu": "V_CM = કુલ momentum / કુલ mass = (m₁v₁+m₂v₂)/(m₁+m₂). એટલે B.",
     "review_flag": true,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists A; the previously stored answer was B. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review. Evidence references attached: official source paper dec2402.pdf, Q18; official GSET final answer key Q18=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 11); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists A; the previously stored answer was B. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review. Evidence references attached: official source paper dec2402.pdf, Q18; official GSET final answer key Q18=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "For two particles, use mass-weighted average of their velocities.",
     "tip_gu": "Centre-of-mass velocity એટલે velocityનું mass-weighted average.",
     "source_verified": true,
@@ -14928,10 +14923,7 @@
         "official_answer": "A"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 11,
-    "source_page_label": "Official scanned PDF page 11"
+    }
   },
   {
     "id": "physical_dec24_q19",
@@ -15259,7 +15251,7 @@
     "explanation_en": "For the ideal infinitely long uniformly magnetized cylinder with M parallel to its axis, there are no magnetic poles on the cylindrical surface and no free current. The demagnetizing field is H=0, while B=μ0(H+M)=μ0M0 z-hat inside. Hence A.",
     "explanation_gu": "Ideal infinite uniformly magnetized cylinderમાં M axisની દિશામાં હોવાથી demagnetizing field H=0 થાય છે. B=μ0(H+M)=μ0M0 z-hat અંદર મળે છે. એટલે A.",
     "review_flag": true,
-    "review_note": "The displayed options focus on regions r<R and the ideal-cylinder assumption. Preserve the official key A; for a finite cylinder, the field would be different. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q28; official GSET final answer key Q28=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 13); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "The displayed options focus on regions r<R and the ideal-cylinder assumption. Preserve the official key A; for a finite cylinder, the field would be different. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q28; official GSET final answer key Q28=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "For an ideal infinite axial magnetization, think of zero demagnetizing field inside.",
     "tip_gu": "Infinite axial magnetization માટે અંદર demagnetizing field zero યાદ રાખો.",
     "source_verified": true,
@@ -15288,10 +15280,7 @@
         "official_answer": "A"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 13,
-    "source_page_label": "Official scanned PDF page 13"
+    }
   },
   {
     "id": "physical_dec24_q29",
@@ -15722,7 +15711,7 @@
     "explanation_en": "For a spin-1/2 particle, Sx=(ℏ/2)σx. For |ψ⟩=(2,1−i)ᵀ, the norm squared is |2|²+|1−i|²=4+2=6. Thus ⟨σx⟩=[2 Re(2*(1−i))]/6=4/6=2/3, so ⟨Sx⟩=ℏ/3. This value is absent from the printed options; the official key A (2ℏ) is retained but the item remains flagged.",
     "explanation_gu": "Spin-1/2 માટે Sx=(ℏ/2)σx. State (2,1−i)નું norm²=4+2=6 છે. તેથી ⟨σx⟩=4/6=2/3 અને ⟨Sx⟩=ℏ/3 મળે છે. આ મૂલ્ય આપેલા વિકલ્પોમાં નથી; official key A જાળવીને flag રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists A; the previously stored answer was B. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review. Evidence references attached: official source paper dec2402.pdf, Q41; official GSET final answer key Q41=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 16); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 official final answer key lists A; the previously stored answer was B. Updated answer to official final key as authoritative. Expert review required because the previous answer/explanation or source transcription disagreed; do not clear this flag without review. Evidence references attached: official source paper dec2402.pdf, Q41; official GSET final answer key Q41=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "For a two-component spinor, use the Pauli matrix σx directly.",
     "tip_gu": "Concept અને formula યાદ રાખો; examમાં units અને sign convention ખાસ ચેક કરો.",
     "source_verified": true,
@@ -15758,10 +15747,7 @@
         "official_answer": "A"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 16,
-    "source_page_label": "Official scanned PDF page 16"
+    }
   },
   {
     "id": "physical_dec24_q42",
@@ -16152,7 +16138,7 @@
     "explanation_en": "The GSET final key marks A. However, the wording is broader than the standard statement: for an irreversible process, the entropy of an isolated system (or the total entropy of system plus surroundings) increases, whereas the entropy of the system alone need not always increase. The official key is preserved and the item is flagged for review.",
     "explanation_gu": "GSET final key પ્રમાણે A છે. પરંતુ standard thermodynamicsમાં irreversible process માટે isolated system અથવા system+surroundingsની total entropy વધે છે; માત્ર systemની entropy હંમેશા વધે એવું જરૂરી નથી. તેથી official key A રાખીને review flag મૂક્યો છે.",
     "review_flag": true,
-    "review_note": "Official final key A retained. Standard second-law wording normally refers to entropy increase of an isolated system/universe; system entropy alone can decrease. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q51; official GSET final answer key Q51=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 19); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Official final key A retained. Standard second-law wording normally refers to entropy increase of an isolated system/universe; system entropy alone can decrease. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q51; official GSET final answer key Q51=A (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "Distinguish entropy change of the system from entropy change of an isolated system/universe.",
     "tip_gu": "Systemની entropy અને isolated system/universeની entropy વચ્ચેનો તફાવત યાદ રાખો.",
     "source_verified": true,
@@ -16187,10 +16173,7 @@
         "official_answer": "A"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 19,
-    "source_page_label": "Official scanned PDF page 19"
+    }
   },
   {
     "id": "physical_dec24_q52",
@@ -16884,7 +16867,7 @@
     "explanation_en": "Using P=I/R, the printed value 0.0134 mA gives P≈0.020 mW, which does not match any option. The official final key is B, corresponding to 20 mW if the intended photocurrent was 13.4 mA. The official key is preserved and the question is flagged for review.",
     "explanation_gu": "P=I/R પ્રમાણે printed 0.0134 mAથી P≈0.020 mW મળે છે, જે કોઈ option સાથે match થતું નથી. Official key B છે અને B માટે intended current 13.4 mA હોવો જોઈએ. તેથી official key B રાખીને review flag મૂક્યો છે.",
     "review_flag": true,
-    "review_note": "The printed current appears as 0.0134 mA, which yields 0.020 mW, while official key B is 20 mW. This likely reflects a source-printing/decimal issue; official key B is preserved. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q69; official GSET final answer key Q69=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 23); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "The printed current appears as 0.0134 mA, which yields 0.020 mW, while official key B is 20 mW. This likely reflects a source-printing/decimal issue; official key B is preserved. Subject 02/03 official question-paper medium is English; Gujarati question/options/passage source fields cleared because these are not official Gujarati source text. Any Gujarati explanation/tip translations are retained separately. Source visual verification and official syllabus unit mapping remain independent pending tasks. December 2024 question number and answer letter reconciled against the official final answer-key table. Original-paper visual review and syllabus mapping remain independent. Evidence references attached: official source paper dec2402.pdf, Q69; official GSET final answer key Q69=B (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "Photodiode relation: I_ph=R P. Units carefully convert કરો.",
     "tip_gu": "Formula અને basic concept યાદ રાખો અને units ચેક કરો.",
     "source_verified": true,
@@ -16919,10 +16902,7 @@
         "official_answer": "B"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 23,
-    "source_page_label": "Official scanned PDF page 23"
+    }
   },
   {
     "id": "physical_dec24_q70",
@@ -16985,7 +16965,7 @@
     "explanation_en": "From the Boltzmann factor for a single state, Nf/Ni=exp[−hc/(λkBT)]. With λ=3122 Å and T=5000 K, hc/(λkBT)=9.2276, giving exp(−9.2276)=9.83×10⁻⁵, option C, which matches the official final key. If the question intends total level populations including the statistical-weight ratio (2Jf+1)/(2Ji+1)=7/5 for Jf=3 and Ji=2, the result would instead be 1.38×10⁻⁴, which is not listed. The wording does not specify whether degeneracy is included, so this ambiguity remains flagged.",
     "explanation_gu": "એક જ state માટે Boltzmann factor exp[−hc/(λkBT)] છે. λ=3122 Å અને T=5000 K મૂકતાં exponent 9.2276 અને ratio 9.83×10⁻⁵ (C) મળે છે. જો સંપૂર્ણ level population માટે degeneracy ratio 7/5 ઉમેરાય તો આપેલા વિકલ્પોમાં ન આવતું મૂલ્ય મળે છે; તેથી આ conventionની અસ્પષ્ટતા માટે flag રાખ્યો છે.",
     "review_flag": true,
-    "review_note": "Corrected a serious source-transcription mismatch against the uploaded official original PDF: Q71 is the ¹D₂→¹F₃ transition at 3122 Å, not a hydrogen n=3→2 question. Original options are 4.02×10⁻⁵, 2.03×10⁻⁵, 9.83×10⁻⁵, 7.02×10⁻⁵. The single-state Boltzmann factor gives option C, matching the final key. Flag retained because including the level statistical-weight factor 7/5 gives a value absent from the options; the question does not clarify this convention. Do not substitute the former hydrogen question. Evidence references attached: official source paper dec2402.pdf, Q71; official GSET final answer key Q71=C (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf).  Direct visual verification completed against the official scanned original paper (PDF page 24); question number, printed wording, mathematical notation and all four options visually checked. Official source scan linked in source_paper_url. Technical/expert review remains open; review_flag is intentionally retained.",
+    "review_note": "Corrected a serious source-transcription mismatch against the uploaded official original PDF: Q71 is the ¹D₂→¹F₃ transition at 3122 Å, not a hydrogen n=3→2 question. Original options are 4.02×10⁻⁵, 2.03×10⁻⁵, 9.83×10⁻⁵, 7.02×10⁻⁵. The single-state Boltzmann factor gives option C, matching the final key. Flag retained because including the level statistical-weight factor 7/5 gives a value absent from the options; the question does not clarify this convention. Do not substitute the former hydrogen question. Evidence references attached: official source paper dec2402.pdf, Q71; official GSET final answer key Q71=C (https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf). Page-level locator has not been asserted.",
     "tip_en": "Use the Boltzmann factor exp(−ΔE/kBT); check whether level degeneracy is included.",
     "tip_gu": "Boltzmann factor સાથે degeneracy ગણવી છે કે નહીં તે પ્રશ્નમાં સ્પષ્ટ છે કે નહીં તે તપાસો.",
     "source_verified": true,
@@ -17021,10 +17001,7 @@
         "official_answer": "C"
       },
       "review_scope": "Question identity and official final-key letter reference attached. The existing technical/source ambiguity remains open for expert review."
-    },
-    "source_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf",
-    "source_page": 24,
-    "source_page_label": "Official scanned PDF page 24"
+    }
   },
   {
     "id": "physical_dec24_q72",
