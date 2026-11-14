@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-06
+Updated: 2026-11-14
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -1143,3 +1143,11 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf. Q1–Q7 letters D, B, D, B, A, D, B match all seven records; full session parity remains 100/100. No answer changes.
 - Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mappings: Q1 VI, Q2 V, Q3 VI, Q4 V, Q5 X, Q6 IV, Q7 VI. Q1–Q7 promoted; Q8–Q100 remain review-only.
 - A render attempt for PDF page index 4 timed out; no verification is claimed beyond Q7. Other six subjects, Code 01, Code 28, Code 02, and Paper-I were not changed. No PR merge; no CI/APK success claimed.
+
+
+## Seven-subject PR #22 checkpoint — 2026-11-14
+- Working branch: `app/import-updated-subject-banks-2026-11-10`; PR #22 remains open and unmerged.
+- Geography Code 24 November 2025 Q8–Q10 visually checked against official printed page 5; Q8 table and all four options checked. Official final key A/B/C matches all three. Q9 maps to official Unit VII and is active; Q8 and Q10 remain review-only pending exact syllabus placement. Q11–Q100 source visual review remains pending.
+- Geography before/after: 107/93/500 -> 108/92/500 (active/review-only/not transcribed). Seven-subject totals: 555/1,545/1,100 -> 556/1,544/1,100.
+- Official evidence: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
+- No other subject, Paper-I, Code 01, Code 02 or Code 28 changed. No PR merge authorized. No CI/Combined Debug APK result is claimed.

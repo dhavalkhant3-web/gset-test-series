@@ -8,12 +8,12 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 7,
-  "active_questions": 7,
-  "pending_review": 93,
-  "source_visual_status": "partial: Q1–Q7 visually checked against official PDF printed pages 3–4; Q8–Q100 remain unverified and review-only",
-  "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q7 are now also source-visually checked and active; Q8–Q100 (93 records) remain review-only until their question stems and four options are visually proofread.",
-  "next_action": "Continue visual verification from Q8 onward. Q8–Q100 remain review-only until each stem and all four options are visually checked; retry individual PDF pages if rendering times out.",
+  "source_visual_checked": 10,
+  "active_questions": 8,
+  "pending_review": 92,
+  "source_visual_status": "partial: Q1–Q10 visually checked against official PDF printed pages 3–5; Q1–Q7 and Q9 active; Q8 and Q10 remain review-only for syllabus-mapping confirmation; Q11–Q100 remain source-visual pending",
+  "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
+  "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
     1,
     2,
@@ -21,15 +21,20 @@
     4,
     5,
     6,
-    7
+    7,
+    8,
+    9,
+    10
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
-    3
+    3,
+    4
   ],
   "source_visual_printed_pages": [
     3,
-    4
+    4,
+    5
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -42,6 +47,11 @@
       5,
       6,
       7
+    ],
+    "printed_page_5": [
+      8,
+      9,
+      10
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -51,9 +61,10 @@
     4,
     5,
     6,
-    7
+    7,
+    9
   ],
-  "syllabus_mapping_verified_count": 7,
+  "syllabus_mapping_verified_count": 8,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -89,11 +100,15 @@
       "question": 7,
       "unit": "Unit VI",
       "rationale": "Official Code 24 syllabus Unit VI includes typology of regions and regional development; a nodal region is a functional region."
+    },
+    {
+      "question": 9,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 syllabus Unit VII (Cultural, Social and Political Geography) explicitly lists Geography of Federalism; the stem directly asks the defining characteristic of federalism."
     }
   ],
   "remaining_review_question_numbers": [
     8,
-    9,
     10,
     11,
     12,
@@ -186,5 +201,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-13: official PDF screenshots rendered for PDF page indexes 2 and 3 (printed pages 3 and 4). Q1–Q7 English stems and four-option sets match the scan. Final-key letters D,B,D,B,A,D,B match exactly. No answer changes. All seven mappings verified against official syllabus."
+  "batch_note": "2026-11-14: official PDF page index 4 (printed page 5) rendered successfully. Q8–Q10 English stems and all four options checked; Q8 two-column matching table checked. Final-key letters A, B, C match exactly. Q9 mapped to Unit VII (Geography of Federalism) and promoted active. Q8 and Q10 source-verified but remain review-only due to syllabus-placement uncertainty. Gujarati-side text was not populated."
 }

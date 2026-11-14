@@ -6662,5 +6662,50 @@
     },
     "pr_merge": false,
     "ci_apk_check": "pending"
+  },
+  {
+    "date": "2026-11-14",
+    "event": "Geography Code 24 November 2025 Q8-Q10 official source verification",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "pr": 22,
+    "sources": [
+      "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf",
+      "https://gujaratset.ac.in/assets/syllabus/24.pdf"
+    ],
+    "question_range": "Q8-Q10",
+    "evidence": "Official PDF printed page 5 (zero-based PDF page index 4) visually inspected. Q8 date/event table, stems and all four options checked; Q9 and Q10 stems/options checked. Official final key Q8=A, Q9=B, Q10=C matches all three.",
+    "outcome": "Q9 verified against explicit Unit VII Geography of Federalism and promoted active. Q8 and Q10 source-verified but retained review-only because exact syllabus placements are not explicit. No content or key corrections.",
+    "before": {
+      "geography": {
+        "active": 107,
+        "review_only": 93,
+        "not_transcribed": 500
+      },
+      "seven_subjects": {
+        "active": 555,
+        "review_only": 1545,
+        "not_transcribed": 1100
+      }
+    },
+    "after": {
+      "geography": {
+        "active": 108,
+        "review_only": 92,
+        "not_transcribed": 500
+      },
+      "seven_subjects": {
+        "active": 556,
+        "review_only": 1544,
+        "not_transcribed": 1100
+      }
+    },
+    "next": "Geography Code 24 November 2025 Q11 onward; obtain expert confirmation for Q8/Q10 syllabus placement.",
+    "non_actions": [
+      "No other subject changed",
+      "No Paper-I, Code 01, Code 02 or Code 28 changed",
+      "PR #22 not merged",
+      "No CI or APK pass claimed"
+    ]
   }
 ]
