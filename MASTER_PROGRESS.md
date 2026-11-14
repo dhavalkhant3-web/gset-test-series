@@ -23,7 +23,7 @@ Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** 
 | 02 | Physical Sciences | 1,300 / 19 Paper-II sessions (Paper-III kept separate) | 939 source-reviewed count in papers manifest; 340 review flags; 60 incomplete option records | Aggregate answer-key tally under audit: historical 1,000/1,300 conflicts with current sidecar inventory (13 sidecars / 900 rows; 2 parity-pending) | 78 verified, 780 provisional, 442 pending | 340 |
 | 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
 | 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
-| 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
+| 29 | Indian Knowledge System | 300 | 190/300 original-page questions visually checked against official PDFs (Nov 2023 100, Dec 2024 47, Nov 2025 43) | 300/300 answer and official_answer fields match internally; all 300 official final-key reconciliations are recorded in the manifest | 297 verified, 2 provisional (Dec 2024 Q72/Q74), 1 pending (Dec 2024 Q20) | 300 |
 | 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
 | 31 | Performing Arts | 300 | 101/300 source-page question sets visually verified; 193 text/Gujarati source audits pending; 6 bilingual discrepancies retained | Current integrated final-key check not independently repeated in this register sync | 15 manually reviewed, 168 provisional, 117 pending; 0 officially verified | 206 |
 | 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
@@ -1311,3 +1311,14 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Current Dec 2024 expert/content flags: 9 remain — Q06, Q09, Q11, Q18, Q28, Q41, Q51, Q69, Q71. Total cleared from the initial 22: 13.
 - Audit: assets/subjects/physical_sciences/source_audits/dec_2024_third_batch_q72_q74_q77_q78_q80.md
 - Other subjects and Paper-I untouched. No PR merge, CI run, or Combined APK build.
+
+
+## 2026-11-14 — Indian Knowledge System (Code 29) execution checkpoint
+- Scope: Code 29 only on `integration/combined-subject-banks`; no other subject, Code 01 or Paper-I files were changed; no PR was merged.
+- Canonical bank integrity: 300 records, 300 unique IDs, 0 malformed English option sets, 0 `answer` vs `official_answer` field mismatches.
+- Official original-page visual verification recorded: 190/300 — November 2023 100/100, December 2024 47/100, November 2025 43/100. The remaining 110 question pages still require direct visual comparison; subject-level source verification remains false.
+- Official final answer-key reconciliation: manifest records 300/300. Current canonical answer fields match the stored official-answer fields 300/300; this structural parity check is not represented as a new full manual transcription of all three key PDFs.
+- Official GSET Code 29 syllabus mapping: 297 verified, 2 provisional (December 2024 Q72 and Q74), 1 pending (December 2024 Q20). Ninety December 2024 provisional mappings were reviewed individually against the official 10-unit syllabus and promoted only where the tested concept had a clear unit fit.
+- Source corrections: December 2024 Q37/Q38 stems aligned to the original scan; Q50 label corrected from OCR `8-2` to `S-2`. November 2025 Q24–Q26 transcription/options corrected against the original scan; Q40 `Pafcanga` corrected to `Pañcāṅga`.
+- Review flags remain active (300); they have not been cleared simply because the official subject medium is English or because answer-key/mapping gates passed. Gujarati fields remain empty in this English-medium subject.
+- Commits on this checkpoint: `861089d`, `09b7162`, `ed8d4af`, `4e94553`, `619e7a4`, `cc564da`, `a1a12b4`, `cae7145`, `c5d9546`, `f0dc413`. CI/combined Debug APK for the latest checkpoint has not yet been verified; no success is claimed.
