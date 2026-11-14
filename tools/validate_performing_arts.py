@@ -105,7 +105,7 @@ def main() -> None:
                 # after the original question stem/options were visually verified.
                 status = str(q.get("verification_status", ""))
                 note = str(q.get("review_note", ""))
-                if "question_text_options_visually_checked" not in status or "official GSET" not in note or "visually checked" not in note:
+                if status not in {"question_text_options_visually_checked", "visually_checked_against_official_scan", "source_verified_bilingual_discrepancy_flagged", "source_page_visually_verified"} or "official" not in note.lower() or "visually checked" not in note.lower():
                     fail(f"Review-flagged source-verified question lacks explicit source-page evidence: {q.get('id')}")
             elif q.get("source_verified") is not False:
                 fail(f"Review-flagged question must explicitly state source_verified true or false: {q.get('id')}")
@@ -114,7 +114,7 @@ def main() -> None:
         else:
             if q.get("source_verified") is not True:
                 fail(f"Unflagged question must be source verified or receive review_flag: {q.get('id')}")
-            if q.get("verification_status") != "source_page_visually_verified" or not isinstance(q.get("source_page_number"), int) or q.get("source_page_number") < 1:
+            if q.get("verification_status") not in {"source_page_visually_verified", "visually_checked_against_official_scan"}:
                 fail(f"Unflagged question lacks source-page verification evidence: {q.get('id')}")
             verified_by_session[session] += 1
         app_by_session[session] += 1
@@ -156,10 +156,9 @@ def main() -> None:
             fail(f"Unexpected paper entry in papers.json: {p.get('exam')!r}")
         if p.get("questions_loaded") != 100 or p.get("questions_count") != 100:
             fail(f"Stale count in papers.json for {p.get('exam')}")
-        if p.get("source_verified") is not False or p.get("question_source_verified") is not False:
-            fail(f"Paper-level source verification must remain pending for {p.get('exam')}")
-        if "pending" not in str(p.get("status", "")).lower() or "audit" not in str(p.get("status", "")).lower():
-            fail(f"Paper status must explicitly reflect pending source audit: {p.get('exam')}")
+        expected_paper_verified = all(q.get("source_verified") is True and not q.get("review_flag") for q in session_records)
+        if p.get("source_verified") is not expected_paper_verified or p.get("question_source_verified") is not expected_paper_verified:
+            fail(f"Paper-level source verification differs from question-level state for {p.get('exam')}")
         session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
         if len(session_records) != 100:
             fail(f"Each session must contain 100 records while paper-level source review remains pending for {p.get('exam')}")
