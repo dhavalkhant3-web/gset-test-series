@@ -156,10 +156,10 @@ def main() -> None:
             fail(f"Unexpected paper entry in papers.json: {p.get('exam')!r}")
         if p.get("questions_loaded") != 100 or p.get("questions_count") != 100:
             fail(f"Stale count in papers.json for {p.get('exam')}")
+        session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
         expected_paper_verified = all(q.get("source_verified") is True and not q.get("review_flag") for q in session_records)
         if p.get("source_verified") is not expected_paper_verified or p.get("question_source_verified") is not expected_paper_verified:
             fail(f"Paper-level source verification differs from question-level state for {p.get('exam')}")
-        session_records = [q for q in app if q.get("exam_session") == p.get("exam")]
         if len(session_records) != 100:
             fail(f"Each session must contain 100 records while paper-level source review remains pending for {p.get('exam')}")
         if p.get("source_reviewed_question_count", 0) != sum(1 for q in session_records if q.get("source_verified") is True):
