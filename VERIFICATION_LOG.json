@@ -7092,5 +7092,53 @@
       "combined_debug_apk": "not verified for latest checkpoint"
     },
     "note": "Do not mark Code 29 source-verified until all 300 original-page question sets are visually checked. Keep Q20 pending and Q72/Q74 provisional rather than guessing."
+  },
+  {
+    "date": "2026-11-14",
+    "event": "IKS Code 29 English-medium review-flag reconciliation",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "1754b57cd67f77a51cee046efd66498ca7ddeaf7",
+    "papers_manifest_commit": "3730bf7dfa1bb7c3c7382a089debb2db46c45916",
+    "progress_register_commit": "43b79d19b9798c7ae9d7f9ee8b6720c3f449e7b6",
+    "evidence": "Official GSET 2026 Information Bulletin identifies Indian Knowledge System Code 29 as English-medium. The subject is not expected to have Gujarati question/option transcription.",
+    "actions": [
+      "Reviewed all 189 records where source_verified=true and syllabus_mapping_status=verified_against_official_syllabus.",
+      "Resolved prior secondary-mirror provenance caveats for Nov 2023 Q25-Q33 and Q94-Q100 and Dec 2024 Q18-Q25 by inspecting the corresponding pages in the direct official GSET PDFs.",
+      "Cleared review_flag only on those 189 records after source, final-key and syllabus gates were all complete.",
+      "Kept all 110 source-pending records flagged and kept Dec 2024 Q20 flagged because its syllabus unit remains pending; Q72/Q74 remain provisional."
+    ],
+    "metrics": {
+      "total": 300,
+      "source_verified": 190,
+      "source_pending": 110,
+      "official_final_key_reconciliation_recorded": 300,
+      "answer_official_answer_matches": 300,
+      "syllabus_mapping": {
+        "verified": 297,
+        "provisional": 2,
+        "pending": 1
+      },
+      "review_flags_before": 300,
+      "review_flags_cleared": 189,
+      "review_flags_remaining": 111,
+      "flags_by_session": {
+        "nov23": 0,
+        "dec24": 54,
+        "nov25": 57
+      }
+    },
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "checks": {
+      "json_parse": "not rerun after flag edit",
+      "github_actions": "not verified",
+      "combined_debug_apk": "not verified"
+    },
+    "note": "Do not clear the 111 remaining flags until source visual review and Q20 mapping gates are completed."
   }
 ]
