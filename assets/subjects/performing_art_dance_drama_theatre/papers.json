@@ -157,8 +157,8 @@
       "source_verified": false,
       "status": "all_question_sets_source_checked_two_bilingual_discrepancies_flagged",
       "review_note": "All 100 December 2024 question sets have been visually checked against the official bilingual question-paper scan; Gujarati stems/options transcribed for Q1–Q30 and Q32–Q100. Q4 and Q12 retain bilingual meaning discrepancies and remain flagged exactly as printed; English is authoritative under the GSET disclaimer. Q14 English option C corrected to Kathakali. All 100 answer letters were compared with the official final answer key. Paper text audit complete; subject/paper review flags remain until the two bilingual editorial discrepancies are resolved under policy.",
-      "unit_mapping_status": "partial_manual_review_provisional_pending",
-      "unit_mapping_note": "Provisional keyword-based unit suggestions exist; official question-by-question syllabus confirmation is pending.",
+      "unit_mapping_status": "manual_question_level_review_complete",
+      "unit_mapping_note": "All 100 question-level syllabus mappings manually reviewed against the official Code 31 syllabus. Unit 1–5 common scope and Dance/Drama-Theatre stream-specific Units 6–10 applied. Existing Q4 and Q12 bilingual editorial flags remain separate.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 2,
       "source_reviewed_question_ids": [
@@ -268,11 +268,11 @@
         "GSET_31_DEC24_012"
       ],
       "review_count": 2,
-      "unit_mapping_provisional_count": 76,
-      "unit_mapping_pending_count": 9,
-      "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 15 manually reviewed, 76 provisional, 9 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
-      "unit_mapping_manually_reviewed_count": 15,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_status_note": "Question-level mapping statuses: 100 manually reviewed against official syllabus; 0 provisional; 0 pending.",
+      "unit_mapping_manually_reviewed_count": 100,
       "source_verified_question_count": 100
     },
     {
@@ -291,8 +291,8 @@
       "source_verified": true,
       "status": "all_100_questions_source_verified_gujarati_transcribed_final_key_reconciled",
       "review_note": "All 100 question stems and four options were checked against the uploaded official November 2025 Paper-II scan (40-page bilingual paper). Gujarati source text/options have been transcribed for all 100 questions. Q32 English name corrected to Abhinav Gupta, Q37 name corrected to Rajiv Naik, and Q83 count corrected to 2 to match the scan. All 100 stored answer letters were independently compared with the official final answer key; 100/100 match. No remaining source-review flags.",
-      "unit_mapping_status": "partial_manual_review_provisional_pending",
-      "unit_mapping_note": "Syllabus unit mapping is a separate gate; existing provisional and pending mapping statuses have not been changed by this source-text verification.",
+      "unit_mapping_status": "manual_question_level_review_with_iks_items_pending",
+      "unit_mapping_note": "95 questions manually mapped against official Code 31 syllabus. Q46–Q50 (Indian Knowledge Systems passage) remain pending because the official Code 31 syllabus does not explicitly identify a directly matching unit; these were not force-mapped.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
       "source_reviewed_question_ids": [
@@ -399,11 +399,11 @@
       ],
       "review_flags_remaining_ids": [],
       "review_count": 0,
-      "unit_mapping_provisional_count": 49,
-      "unit_mapping_pending_count": 51,
-      "unit_mapping_verified_count": 0,
-      "unit_mapping_status_note": "Current integrated bank question-level mapping statuses: 0 manually reviewed, 49 provisional, 51 pending, 0 officially verified. Mapping remains independent from source text/Gujarati verification.",
-      "unit_mapping_manually_reviewed_count": 0,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 5,
+      "unit_mapping_verified_count": 95,
+      "unit_mapping_status_note": "Question-level mapping statuses: 95 manually reviewed against official syllabus; 0 provisional; 5 pending (Q46–Q50 IKS passage).",
+      "unit_mapping_manually_reviewed_count": 95,
       "source_verified_question_count": 100
     }
   ],
