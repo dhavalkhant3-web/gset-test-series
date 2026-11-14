@@ -7247,5 +7247,59 @@
       "github_actions": "not verified for latest commit",
       "combined_debug_apk": "not verified for latest commit"
     }
+  },
+  {
+    "date": "2026-11-14",
+    "event": "IKS Code 29 COMPLETE — all 300 source pages, official keys and syllabus mappings verified",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "6c8ba9c3b55d8551d2704d7b0581080f12ed6f54",
+    "papers_manifest_commit": "1be633e7e62db7f2caa1d0188d3422f0516c5ccf",
+    "progress_register_commit": "652aa7d078b6bda28190c5b70974d2cb1f38b9de",
+    "original_pdf": "dec2429 (1).pdf — user Library archive; EPSON Scan; 16 pages",
+    "visual_review": {
+      "december_2024_printed_page_10": "Q55-Q63; visually inspected at 300 dpi",
+      "december_2024_printed_page_11": "Q64-Q71; visually inspected at 180 dpi",
+      "questions_checked": 17,
+      "corrections": "Canonical question stems/options normalized to original printed Sanskrit diacritics and option sequence."
+    },
+    "q20_mapping": {
+      "question": "The syllable ‘ग’ is associated with which of the following?",
+      "official_answer": "A — Sky",
+      "syllabus_unit": 1,
+      "rationale": "Official Unit 1 explicitly includes Śikṣā (one of the six Vedāṅgas), phonetics and grammar, and the scientific nature of Sanskrit pronunciation. The tested item is a Sanskrit syllable/phoneme association, so Unit 1 is the direct fit."
+    },
+    "metrics": {
+      "total": 300,
+      "unique": 300,
+      "source": 300,
+      "flags": 0,
+      "mapping": {
+        "verified": 300,
+        "provisional": 0,
+        "pending": 0
+      },
+      "keyEqual": 300,
+      "malformed": 0
+    },
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "checks": {
+      "json_parse": "PASS",
+      "unique_question_ids": "PASS 300/300",
+      "official_final_key": "PASS 300/300 recorded",
+      "answer_official_answer_parity": "PASS 300/300",
+      "english_option_structure": "PASS 300/300",
+      "official_syllabus_mapping": "PASS 300/300",
+      "review_flags": "PASS 0 active"
+    },
+    "ci": {
+      "github_actions": "not verified for latest commit",
+      "combined_debug_apk": "not verified for latest commit"
+    }
   }
 ]
