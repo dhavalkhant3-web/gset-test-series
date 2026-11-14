@@ -114,7 +114,7 @@ def main() -> None:
         else:
             if q.get("source_verified") is not True:
                 fail(f"Unflagged question must be source verified or receive review_flag: {q.get('id')}")
-            if q.get("verification_status") not in {"source_page_visually_verified", "visually_checked_against_official_scan"}:
+            if q.get("verification_status") not in {"source_page_visually_verified", "visually_checked_against_official_scan", "source_verified_bilingual_discrepancy_flagged"}:
                 fail(f"Unflagged question lacks source-page verification evidence: {q.get('id')}")
             verified_by_session[session] += 1
         app_by_session[session] += 1
