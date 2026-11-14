@@ -7301,5 +7301,51 @@
       "github_actions": "not verified for latest commit",
       "combined_debug_apk": "not verified for latest commit"
     }
+  },
+  {
+    "date": "2026-11-14",
+    "event": "Final IKS Q20 source glyph correction and 300/300 completion confirmation",
+    "branch": "integration/combined-subject-banks",
+    "question_bank_commit": "a0664a39ca69958200ffc7533cf3e88f5a82897c",
+    "progress_register_commit": "119c8de16fcd6b76c733eddf544a491d8ee5b60f",
+    "original_source": "User's archived original EPSON scan dec2429 (1).pdf",
+    "findings": {
+      "q20": "Printed page 5 high-resolution crop confirms ‘ख’ (kha), not ‘ग’ (ga). Stem corrected. Official key A (Sky). Unit 1 justified by official syllabus: Śikṣā, phonetics and Sanskrit pronunciation.",
+      "q55_q63": "Printed page 10 visually verified.",
+      "q64_q71": "Printed page 11 visually verified.",
+      "q60": "Original printed scan literally says “Sme function”; canonical bank preserves literal source spelling and documents it rather than silently emending."
+    },
+    "metrics": {
+      "total": 300,
+      "unique": 300,
+      "source": 300,
+      "flags": 0,
+      "key_equal": 300,
+      "mapping_verified": 300,
+      "mapping_provisional": 0,
+      "mapping_pending": 0,
+      "malformed_options": 0
+    },
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "checks": {
+      "json_parse": "PASS",
+      "unique_ids": "PASS",
+      "source_pages": "PASS 300/300",
+      "official_final_key": "PASS 300/300 recorded",
+      "answer_parity": "PASS 300/300",
+      "english_options": "PASS 300/300",
+      "official_syllabus": "PASS 300/300",
+      "review_flags": "PASS 0"
+    },
+    "ci": {
+      "github_actions": "not verified",
+      "combined_debug_apk": "not verified"
+    }
   }
 ]
