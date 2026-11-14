@@ -94,9 +94,9 @@
         "provisional": 0,
         "pending": 0
       },
-      "question_bank_sha": "0eee412376a67336473b8f6dc9ab3e79164f19fc",
+      "question_bank_sha": "73f54c4b1e361573c4b79ec83a35eb36d692660e",
       "papers_manifest_sha": "f5e2617e60bb1c0997530d85f3430b7b84f97961",
-      "status": "COMPLETE — 300/300 source verified; 300/300 final-key reconciled; 300/300 official syllabus mappings verified; 0 review flags",
+      "status": "COMPLETE — 300/300 source verified, 300/300 final-key reconciled, 300/300 official syllabus mappings verified, 0 review flags",
       "visual_review_counts": {
         "nov23": 100,
         "dec24": 100,
@@ -1094,7 +1094,7 @@
     "date": "2026-11-14",
     "branch": "integration/combined-subject-banks",
     "branch_head_before_register_finalization": "c87d318f015606bf860551cfad1a95f47a0694ff",
-    "question_bank_blob_sha": "0eee412376a67336473b8f6dc9ab3e79164f19fc",
+    "question_bank_blob_sha": "73f54c4b1e361573c4b79ec83a35eb36d692660e",
     "papers_manifest_blob_sha": "f5e2617e60bb1c0997530d85f3430b7b84f97961",
     "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
     "official_paper_pdfs": [
@@ -1121,10 +1121,10 @@
     },
     "review_flags": 0,
     "gujarati_fields": "blank across English-medium subject; not treated as source verification",
-    "latest_question_commit": "6c8ba9c3b55d8551d2704d7b0581080f12ed6f54",
+    "latest_question_commit": "a0664a39ca69958200ffc7533cf3e88f5a82897c",
     "latest_manifest_commit": "1be633e7e62db7f2caa1d0188d3422f0516c5ccf",
     "latest_register_commits": [
-      "652aa7d078b6bda28190c5b70974d2cb1f38b9de"
+      "119c8de16fcd6b76c733eddf544a491d8ee5b60f"
     ],
     "source_corrections": [
       "December 2024 Q37",
@@ -1137,12 +1137,12 @@
     ],
     "checks": {
       "json_parse_and_record_count": "PASS: 300 records, 300 unique IDs",
-      "answer_field_parity": "PASS: 300/300 answer/official_answer fields equal; official final-key reconciliation recorded 300/300",
-      "english_option_structure": "PASS: 300/300 records have four non-empty English options",
+      "answer_field_parity": "PASS: 300/300 answer/official_answer fields equal",
+      "english_option_structure": "PASS: 300/300 four non-empty options",
       "github_actions_latest_commit": "not verified",
       "combined_debug_apk": "not verified",
-      "review_flags": "PASS: 0 active review flags",
-      "official_syllabus_mapping": "PASS: 300/300 verified, 0 provisional, 0 pending"
+      "review_flags": "PASS: 0 active flags",
+      "official_syllabus_mapping": "PASS: 300/300 verified"
     },
     "no_pr_merge": true,
     "other_subjects_changed": false,
@@ -1150,7 +1150,10 @@
     "paper_i_changed": false,
     "review_flags_before_clear": 300,
     "review_flags_cleared": 300,
-    "remaining_visual_question_ids": []
+    "remaining_visual_question_ids": [],
+    "q20_original_glyph": "ख (kha), verified on original PDF printed page 5",
+    "q20_syllabus_unit": 1,
+    "q60_literal_source_text": "Sme function (preserved exactly as printed)"
   },
   "code02_official_final_key_sidecars": {
     "added_or_confirmed": [
