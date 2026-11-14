@@ -291,8 +291,8 @@
       "source_verified": true,
       "status": "all_100_questions_source_verified_gujarati_transcribed_final_key_reconciled",
       "review_note": "All 100 question stems and four options were checked against the uploaded official November 2025 Paper-II scan (40-page bilingual paper). Gujarati source text/options have been transcribed for all 100 questions. Q32 English name corrected to Abhinav Gupta, Q37 name corrected to Rajiv Naik, and Q83 count corrected to 2 to match the scan. All 100 stored answer letters were independently compared with the official final answer key; 100/100 match. No remaining source-review flags.",
-      "unit_mapping_status": "manual_question_level_review_with_iks_items_pending",
-      "unit_mapping_note": "95 questions manually mapped against official Code 31 syllabus. Q46–Q50 (Indian Knowledge Systems passage) remain pending because the official Code 31 syllabus does not explicitly identify a directly matching unit; these were not force-mapped.",
+      "unit_mapping_status": "manual_question_level_review_with_four_iks_items_pending",
+      "unit_mapping_note": "96 questions manually mapped against the official Code 31 syllabus. Q46 and Q48–Q50 (general Indian Knowledge Systems passage) remain pending because the official Code 31 syllabus does not explicitly identify a direct matching unit; Q47 is mapped to Unit 4 because it directly tests the Natyasastra's Rasa theory.",
       "source_reviewed_question_count": 100,
       "review_flags_remaining_count": 0,
       "source_reviewed_question_ids": [
@@ -400,10 +400,10 @@
       "review_flags_remaining_ids": [],
       "review_count": 0,
       "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 5,
-      "unit_mapping_verified_count": 95,
-      "unit_mapping_status_note": "Question-level mapping statuses: 95 manually reviewed against official syllabus; 0 provisional; 5 pending (Q46–Q50 IKS passage).",
-      "unit_mapping_manually_reviewed_count": 95,
+      "unit_mapping_pending_count": 4,
+      "unit_mapping_verified_count": 96,
+      "unit_mapping_status_note": "Question-level mapping statuses: 96 manually reviewed against official syllabus; 0 provisional; 4 pending (Q46, Q48–Q50).",
+      "unit_mapping_manually_reviewed_count": 96,
       "source_verified_question_count": 100
     }
   ],
