@@ -7018,5 +7018,79 @@
     "no_other_subjects_changed": true,
     "paper_i_changed": false,
     "pr_merged": false
+  },
+  {
+    "date": "2026-11-14",
+    "event": "Indian Knowledge System Code 29 source, answer-key and syllabus audit checkpoint",
+    "branch": "integration/combined-subject-banks",
+    "commits": [
+      "861089d5737123822c8b4a8504ccc7430998aa8d",
+      "09b7162c76396002e195068b9807920869d29e10",
+      "ed8d4afe8228098beac74e92f86c06ffd4fdf840",
+      "4e945533f96ae7acc8151619e637aef4e80eac85",
+      "619e7a4658b8aa4604aad680c4907e4137f1723a",
+      "cc564daa9feceb37e7f9e58a5b87aea04938f7d0",
+      "a1a12b4e78b8d2a7e6d960900b7504c52b5e600a",
+      "cae71457201a61bfc6ea1ddb1a8ce9f3bf2830c3",
+      "c5d954611f6a540a2e51ec32eefcd053c50fcc81",
+      "f0dc4133201ce48b8f65573428d9f386342063a5",
+      "3a65d372747769cf9b9253ce09c07e2022bbd911"
+    ],
+    "metrics": {
+      "code29": {
+        "total": 300,
+        "unique_ids": 300,
+        "source_page_visually_verified": 190,
+        "source_pending": 110,
+        "official_final_key_reconciliation_recorded": 300,
+        "answer_official_answer_field_matches": 300,
+        "invalid_english_option_sets": 0,
+        "syllabus_mapping": {
+          "verified": 297,
+          "provisional": 2,
+          "pending": 1
+        },
+        "review_flags": 300
+      }
+    },
+    "source_review": {
+      "official_papers": {
+        "november_2023": {
+          "verified": 100,
+          "total": 100
+        },
+        "december_2024": {
+          "verified": 47,
+          "total": 100
+        },
+        "november_2025": {
+          "verified": 43,
+          "total": 100
+        }
+      },
+      "corrected_records": [
+        "December 2024 Q37",
+        "December 2024 Q38",
+        "December 2024 Q50",
+        "November 2025 Q24",
+        "November 2025 Q25",
+        "November 2025 Q26",
+        "November 2025 Q40"
+      ],
+      "note": "Question text/options were compared with official GSET PDF page images. Answer-key and mapping gates are tracked separately."
+    },
+    "safety": {
+      "other_subjects_changed": false,
+      "code01_changed": false,
+      "paper_i_changed": false,
+      "pr_merged": false,
+      "force_push": false
+    },
+    "checks": {
+      "local_json_validation": "not run in this connector session",
+      "github_actions_ci": "not verified for latest checkpoint",
+      "combined_debug_apk": "not verified for latest checkpoint"
+    },
+    "note": "Do not mark Code 29 source-verified until all 300 original-page question sets are visually checked. Keep Q20 pending and Q72/Q74 provisional rather than guessing."
   }
 ]
