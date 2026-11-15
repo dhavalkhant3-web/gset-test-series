@@ -1442,3 +1442,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Official Code 27 syllabus: https://gujaratset.ac.in/assets/syllabus/27.pdf. All 300 question stems/options visually source-verified and all 300 official final-key entries reconciled.
 - 78 review-only records with direct official unit fits promoted; 9 retained for subject-expert review where no unique direct unit fit is explicit. No question text/options/answers changed.
 - Canonical bank now 291 active / 9 review-only. Mapping counts: 205 verified, 94 provisional, 1 pending.
+
+
+## 2026-11-15 — Latest verified completion updates
+- Geography Code 24: 198 active / 2 review-only. Remaining Q23 (official-key/content conflict) and Q26 (geological chronology not explicitly stated in syllabus); November 2025 Q1–Q100 source and final-key checks 100/100.
+- Environmental Sciences Code 26: all 300 records (87 active + 213 review-only) mapped to official ten-unit syllabus; 213 review-only source flags intentionally remain because page-level proofreading has not been completed.
+- Forensic Science Code 27: all 300 questions visually source-verified and 300/300 official final-key reconciled. After reviewing the 87 review-only records against the official syllabus, 78 directly mapped records promoted; current 291 active / 9 review-only. Mapping totals 205 verified, 94 provisional, 1 pending. Nine held records: December 2024 Q20, Q21, Q22, Q25, Q26, Q33, Q59; November 2025 Q47, Q59.
+- Repository totals for seven subjects now 869 active + 527 review-only + 704 Sanskrit staging records not in canonical queue + 1,100 untranscribed (Geography 500; Social Work 600) = 3,200 expected.
+- No PR merge. CI/Combined APK remains unverified.
