@@ -12,13 +12,13 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 06 | Gujarati | 97 | 303 | 0 | 0 |
 | 07 | Sanskrit | 146 | 0 | 704 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
-| 24 | Geography | 193 | 7 | 0 | 500 |
+| 24 | Geography | 195 | 5 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 213 | 87 | 0 | 0 |
-| **Total** | | **786** | **610** | **704** | **1,100** |
+| **Total** | | **788** | **608** | **704** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 786 active + 610 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 93 of those are active and seven remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 788 active + 608 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 95 of those are active and five remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -55,7 +55,7 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Keep all unverified records review-only. Official final keys are authoritative; if key conflicts with source question, preserve the key and flag for expert review.
 
 ## Next work
-1. Geography: November 2025 Q1–Q100 source-visual verification is complete; seven records remain review-only for mapping/key resolution (Q8, Q10, Q23, Q26, Q51, Q62, Q68). Five additional papers (500 questions) remain untranscribed.
+1. Geography: November 2025 Q1–Q100 source-visual verification is complete; five records remain review-only (Q8, Q10, Q23, Q26, Q62); Q51 and Q68 are mapped to Units VIII and V respectively. Five additional papers (500 questions) remain untranscribed.
 2. Continue Gujarati and Sanskrit source verification and official syllabus mappings.
 3. History: review only the two pending syllabus placements (Q46 and Q48); question text and final-key checks are complete.
 4. Social Work: transcribe 600 questions from official question-paper PDFs; do not convert answer keys into fake question records.
