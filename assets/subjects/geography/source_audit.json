@@ -127,5 +127,49 @@
     },
     "remaining_visual_review": 93,
     "note": "Q1–Q7 promoted to active after visual comparison of English stems and all four options. Gujarati-side fields remain unpopulated in these English-only records."
+  },
+  "nov2025_q26_q31_visual_batch": {
+    "date": "2026-11-15",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "visual_checked_question_numbers": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "printed_pages": [
+      10,
+      11
+    ],
+    "pdf_page_indexes_zero_based": [
+      9,
+      10
+    ],
+    "final_key_letters": [
+      "A",
+      "B",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "final_key_matches": 6,
+    "answer_changes": 0,
+    "active_promotions": 0,
+    "active_records_rechecked": [
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "review_only_retained": [
+      26
+    ],
+    "note": "Q26–Q31 stems and all four options were visually inspected on original pages. All six stored answer letters match the official final answer key. Q26 remains review-only because its precise syllabus unit is not explicit. Q27–Q31 remain active with existing official syllabus mappings. Gujarati-side text remains unpopulated."
   }
 }
