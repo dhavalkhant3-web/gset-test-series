@@ -389,3 +389,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Seven-subject totals: 750 -> 757 active; 646 -> 639 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next work: resolve seven December 2024 syllabus holds and visually review November 2023 / November 2025 sessions.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2023 Q82–Q100 source verification
+- Official GSET November 2023 question paper printed pages 13–15 (PDF page indexes 12–14) visually checked. All 19 stems and all four options match the canonical transcription; no figures/tables in this range.
+- Official November 2023 final-key letters Q82–Q100: B, D, D, B, A, A, C, B, B, B, C, D, C, B, C, B, A, A, A; all 19 match stored answers. No answer values changed.
+- Official Code 27 syllabus checked: Q82 Unit II; Q83 Unit V; Q84 Unit VII; Q85 Unit VIII; Q86–Q88 Unit VII; Q89–Q90 Unit X; Q91 Unit VII; Q92 Unit I; Q93 Unit VI; Q94 Unit III; Q95 Unit VII; Q96 Unit V; Q97 Unit IV; Q98 Unit III; Q99 Unit VI; Q100 Unit IV. All 19 moved from review-only to active.
+- November 2023 now 100/100 source-page verified and final-key matched; 100 active, zero pending. Forensic Science total: 196 active / 104 review-only. Remaining review-only: December 2024 Q20–Q22, Q25–Q26, Q33, Q59 (7); November 2025 Q4–Q100 except the three already active (97).
+- Question-level syllabus mapping: 110 reviewed, 189 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
