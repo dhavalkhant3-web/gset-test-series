@@ -190,7 +190,7 @@
     "answer_key_verified": true,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Original stem and options are visually verified and official key D matches. The lagoon/coastal landform topic does not have an unambiguous explicit placement in the Code 24 unit text; retain review-only pending expert syllabus placement.",
+    "review_note": "Original English stem and all four options visually checked against official printed page 12; official final key D matches. Retain review-only because the precise Pulicat lagoon formation is not explicitly assigned to a single Code 24 unit.",
     "topic": "Landform Occurrence (coastal lagoon)",
     "syllabus_mapping_status": "provisional_needs_review",
     "difficulty": "not_rated",
@@ -208,10 +208,10 @@
     "tip_gu": "",
     "has_figure": false,
     "image_asset": "",
-    "verification_status": "source_page_visually_checked_and_final_key_matched",
+    "verification_status": "source_page_visually_checked_final_key_matched_mapping_review_pending",
     "evaluation_status": "official_answer_letter_preserved",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
-    "source_verification_note": "English stem and all four English options visually checked against the official GSET November 2025 Geography Paper-II scan, printed page 12 (PDF page index 11). Official final-key letter D independently matched. Gujarati-side text remains unpopulated in the canonical record."
+    "source_verification_note": "English stem and all four options visually checked against the official GSET November 2025 Geography Paper-II scan, printed page 12 (PDF page index 11). Official final-key letter D independently matched. Retained review-only because the precise Pulicat lagoon formation is not explicitly assigned to a single Code 24 unit; do not force a syllabus mapping."
   },
   {
     "id": "GSET-GE24-NOV2025-Q051",
