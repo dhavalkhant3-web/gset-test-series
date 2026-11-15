@@ -1398,3 +1398,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Promoted Q32 from review-only to active. Geography now 192 active / 8 review-only across 200 transcribed questions; November 2025 has 92 active / 8 review-only, 100/100 source visual checks, 100/100 final-key parity, and 93 verified / 7 provisional syllabus mappings. The eight review-only records are Q8, Q10, Q23, Q26, Q51, Q54, Q62 and Q68.
 - Updated canonical questions, review queue, source audits, paper manifest and subject registry. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q54 official syllabus mapping closure
+- Rechecked the source-verified Q54 island-origin matching item against official GSET Code 24 syllabus. It tests geomorphic origin/classification (offshore, coral and volcanic islands), which falls directly under Unit I Geomorphology and landform occurrence.
+- Official question-paper printed page 18 and final answer key confirm the matching set and answer C. No stem, option or answer was changed.
+- Promoted Q54 from review-only to active. Geography now 193 active / 7 review-only across 200 transcribed questions; November 2025 has 93 active / 7 review-only, 100/100 source visual checks, 100/100 final-key parity, and 94 verified / 6 provisional syllabus mappings. Remaining review-only: Q8, Q10, Q23, Q26, Q51, Q62 and Q68.
+- Updated canonical questions, review queue, source audits, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
