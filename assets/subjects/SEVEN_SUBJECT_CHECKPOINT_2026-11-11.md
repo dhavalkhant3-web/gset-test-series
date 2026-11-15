@@ -15,8 +15,8 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 24 | Geography | 191 | 9 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
-| 27 | Forensic Science | 84 | 216 | 0 | 0 |
-| **Total** | | **655** | **741** | **704** | **1,100** |
+| 27 | Forensic Science | 92 | 208 | 0 | 0 |
+| **Total** | | **663** | **733** | **704** | **1,100** |
 
 Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 655 active + 741 review-only records present + 704 Sanskrit review-only records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
@@ -252,3 +252,12 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Changed only the syllabus mapping status/evidence fields for Q48 and Q49; answers and all source-review/activation fields were preserved. Q48, Q49 and Q50 remain review-only because independent second-pass source-page visual verification is pending.
 - Updated aggregate mapping count to 3 verified, 296 provisional, 1 pending; Unit X distribution now 47. The unresolved forensic-engineering Q47 remains pending because no direct official unit placement is supported.
 - Official source: https://gujaratset.ac.in/assets/syllabus/27.pdf, page 5. No other subject, Code 01, Code 02, Paper-I or app UI changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q43–Q50 verified and activated
+- Visually checked official GSET PDF printed page 7 (Q43–Q45), page 8 (Q46–Q49), and page 9 (Q50); independently matched final answer key: Q43 A, Q44 A, Q45 C, Q46 B, Q47 A, Q48 C, Q49 D, Q50 B.
+- Official syllabus mapping checked against Code 27 syllabus PDF page 5: Q43–Q45 -> Unit IX (forensic documents/handwriting); Q46–Q50 -> Unit X (forensic medicine, post-mortem examination and entomology). Eight records are active/source_verified with review_flag=false.
+- Forensic Science Code 27 live canonical count: 92 active, 208 review-only; December 2024 has 8 source-verified/loaded questions. Mapping total: 8 verified, 291 provisional, 1 pending (November 2025 Q47 forensic-engineering scope). Subject-level source_verified remains false because the other records/sessions are not fully verified.
+- Sanskrit Code 07: live review queue remains empty; 704 distinct staged records still missing from canonical review JSON. Do not claim recovered.
+- Seven-subject totals: 663 active, 733 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I, or app UI changed. PR #22 remains open/unmerged; no CI/APK pass claimed.
