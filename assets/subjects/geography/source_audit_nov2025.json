@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 85,
-  "active_questions": 76,
-  "pending_review": 24,
-  "source_visual_status": "partial: Q1–Q85 visually checked against official PDF printed pages 3–27; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61, Q63–Q67, Q69–Q85 active; Q8, Q10, Q26, Q32, Q51, Q54, Q62 and Q68 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q86–Q100 remain source-visual pending",
+  "source_visual_checked": 93,
+  "active_questions": 84,
+  "pending_review": 16,
+  "source_visual_status": "partial: Q1–Q93 visually checked against official PDF printed pages 3–29; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61, Q63–Q67, Q69–Q93 active; Q8, Q10, Q26, Q32, Q51, Q54, Q62 and Q68 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q94–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -99,7 +99,15 @@
     82,
     83,
     84,
-    85
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -126,7 +134,9 @@
     23,
     24,
     25,
-    26
+    26,
+    27,
+    28
   ],
   "source_visual_printed_pages": [
     3,
@@ -153,7 +163,9 @@
     24,
     25,
     26,
-    27
+    27,
+    28,
+    29
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -290,6 +302,18 @@
       83,
       84,
       85
+    ],
+    "printed_page_28": [
+      86,
+      87,
+      88,
+      89
+    ],
+    "printed_page_29": [
+      90,
+      91,
+      92,
+      93
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -302,7 +326,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 77,
+  "syllabus_mapping_verified_count": 85,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -688,6 +712,46 @@
       "question": 85,
       "unit": "Unit III",
       "rationale": "Official Code 24 Unit III covers oceanography and relief of oceans, including trenches."
+    },
+    {
+      "question": 86,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes remote-sensing platforms, sensors and data."
+    },
+    {
+      "question": 87,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I covers geomorphology and fluvial processes."
+    },
+    {
+      "question": 88,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes correlation and regression analysis."
+    },
+    {
+      "question": 89,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I explicitly covers geomorphic cycle and landform evolution theories."
+    },
+    {
+      "question": 90,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes GPS and geospatial technologies."
+    },
+    {
+      "question": 91,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I explicitly includes weathering and denudation processes."
+    },
+    {
+      "question": 92,
+      "unit": "Unit X",
+      "rationale": "Official Code 24 Unit X covers India's mineral resources and their distribution."
+    },
+    {
+      "question": 93,
+      "unit": "Unit X",
+      "rationale": "Official Code 24 Unit X explicitly includes the distribution of mineral resources in India."
     }
   ],
   "remaining_review_question_numbers": [
@@ -700,14 +764,6 @@
     54,
     62,
     68,
-    86,
-    87,
-    88,
-    89,
-    90,
-    91,
-    92,
-    93,
     94,
     95,
     96,
@@ -716,5 +772,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 25–26 (printed pages 26–27) visually checked for Q80–Q85. English stems/options and Q81's variable-gas matching table match canonical records; official final-key letters D,A,A,C,B,B match. Verified mappings: Q80 Unit VIII (scholarly contributions); Q81 Unit II (atmospheric composition); Q82 Unit IX (stream ordering/morphometry); Q83 Unit I (plate tectonics); Q84 Unit IX (PCA/cluster analysis); Q85 Unit III (ocean trenches). All six promoted active. Q86–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 27–28 (printed pages 28–29) visually checked for Q86–Q93. English stems/options and Q92's mineral-producer matching table match canonical transcriptions; official final-key letters B,B,C,C,D,C,A,C match. Verified mappings: Q86 Unit IX (remote-sensing platform); Q87 Unit I (graded river/fluvial equilibrium); Q88 Unit IX (regression); Q89 Unit I (dynamic equilibrium); Q90 Unit IX (GPS); Q91 Unit I (weathering); Q92 Unit X (Indian mineral producers); Q93 Unit X (Vindhyan mineral resources). All eight promoted active. Q94–Q100 remain source-visual pending."
 }
