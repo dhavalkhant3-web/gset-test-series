@@ -1229,3 +1229,8 @@ Official November 2025 Sanskrit Paper-II printed page 14 visually checked for Q8
 ## 2026-11-15 — Sanskrit Code 07 Q91–Q100 source verification
 
 Official November 2025 Sanskrit Paper-II printed pages 14–15 visually checked for Q91–Q100. Final-key letters C, D, D, A, C, A, D, B, B, A match the registered official table. Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain source-verified but review-only due to Devanagari transcription discrepancies. Sanskrit now 146 active / 704 review-only; November 2025 source visual verification 53/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Official Sanskrit syllabus registered; 18 mappings verified
+
+Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/subjects/syllabus_units.json`. Added 18 question-level mappings for November 2025 Sanskrit questions to directly named syllabus texts/topics. Q88, Q91, Q93 and Q97 remain review-only for transcription discrepancies despite having a syllabus unit; 832 of 850 Sanskrit records remain unmapped pending content review. Counts unchanged: 146 active / 704 review-only. No PR merge or APK pass claimed.
