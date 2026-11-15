@@ -547,36 +547,58 @@
     "date": "2026-11-15",
     "verified_questions": [
       {
-        "question_id": "GSET-FS27-DEC2024-Q027",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q011",
+        "unit": "Unit II"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q028",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q012",
+        "unit": "Unit IV"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q029",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q013",
+        "unit": "Unit IV"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q030",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q014",
+        "unit": "Unit IV"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q031",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q015",
+        "unit": "Unit I"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q032",
-        "unit": "Unit III"
+        "question_id": "GSET-FS27-NOV2025-Q016",
+        "unit": "Unit IV"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q034",
-        "unit": "Unit VIII"
+        "question_id": "GSET-FS27-NOV2025-Q017",
+        "unit": "Unit IV"
+      },
+      {
+        "question_id": "GSET-FS27-NOV2025-Q018",
+        "unit": "Unit X"
+      },
+      {
+        "question_id": "GSET-FS27-NOV2025-Q019",
+        "unit": "Unit IV"
+      },
+      {
+        "question_id": "GSET-FS27-NOV2025-Q020",
+        "unit": "Unit IV"
+      },
+      {
+        "question_id": "GSET-FS27-NOV2025-Q021",
+        "unit": "Unit III"
       }
     ],
     "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
-    "source_page": 5
+    "source_pages": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
   },
   "mapping_summary": {
     "verified": 127,
