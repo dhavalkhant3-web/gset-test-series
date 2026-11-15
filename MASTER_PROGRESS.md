@@ -1168,3 +1168,8 @@ PR: https://github.com/dhavalkhant3-web/gset-test-series/pull/22 (OPEN, NOT MERG
 ## 2026-11-15 — Geography Code 24 Q38–Q45 verified
 
 On PR #22 branch, verified official PDF printed pages 14–15 against Q38–Q45, checked all four options and official final-key letters, and assigned explicit Code 24 syllabus units. All eight were promoted to active. Geography now 140 active / 60 review-only; November 2025 Q1–Q45 visually checked (40 active, five source-verified review-only items), Q46–Q100 remain visual-review pending; 500 expected questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q46–Q51 verified
+
+On PR #22 branch, visually checked official PDF printed pages 16–17 for Q46–Q51, matched all six answer letters to the official final key, and assigned five explicit syllabus units. Q46–Q50 promoted active; Q51 remains source-verified but review-only for syllabus placement. Geography now 145 active / 55 review-only; November 2025 Q1–Q51 visually checked (45 active, six review-only), Q52–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
