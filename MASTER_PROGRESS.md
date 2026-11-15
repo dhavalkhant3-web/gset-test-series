@@ -1208,3 +1208,9 @@ On PR #22 branch, visually checked official PDF printed pages 28–29 for Q86–
 ## 2026-11-15 — Geography Code 24 November 2025 paper source review complete
 
 On PR #22 branch, visually checked official PDF printed pages 30–31 for Q94–Q100, including Q100's pass-to-state matching table, matched all seven official final-key letters, and assigned seven explicit syllabus units. All seven promoted active. Geography now 191 active / 9 review-only; the full November 2025 Q1–Q100 source-visual review is complete (91 active, nine retained for mapping/key review). Five other Geography papers (500 questions) remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Sanskrit review-queue recovery completed (PR #22 branch)
+
+Recovered `gset_sanskrit_07_consolidated_staging.json` from the Library. The file contains 850 unique question IDs. Compared against the 130 canonical active Sanskrit questions: 130 overlap and 720 distinct records were restored to `assets/subjects/sanskrit/questions_review_pending.json`. The restored queue contains 687 key-applied pending-proofread records and 33 explicit `review_required` records. All 720 remain source-unverified and review-flagged. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) retain `official_answer: null`; the app-facing answer is marked Z, not a fabricated A–D option. Reconciled `papers.json`, `source_audit.json` and `subjects.json`. Seven-subject PR #22 totals now: 639 active, 1,461 review-only, zero missing from canonical JSON, 1,100 not transcribed (Geography 500; Social Work 600), 3,200 expected.
+
