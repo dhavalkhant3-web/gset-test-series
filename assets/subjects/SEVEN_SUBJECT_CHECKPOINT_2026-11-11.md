@@ -12,15 +12,15 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 06 | Gujarati | 97 | 303 | 0 | 0 |
 | 07 | Sanskrit | 130 | 0 | 720 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
-| 24 | Geography | 164 | 36 | 0 | 500 |
+| 24 | Geography | 170 | 30 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 84 | 216 | 0 | 0 |
-| **Total** | | **612** | **768** | **720** | **1,100** |
+| **Total** | | **618** | **762** | **720** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Canonical active records: 612. Review-only records actually present in JSON: 768. A further 720 Sanskrit records are reported as pending by source_audit.json but are missing from the canonical review queue (the file is empty); they must be recovered before being counted as staged review-only. Not yet transcribed: 1,100 (Geography 500 and Social Work 600). Total remaining expected work: 2,588, comprising 768 stored review-only + 720 missing Sanskrit review records + 1,100 not yet transcribed.
+Expected question records across these seven subjects: 3,200. Canonical active records: 618. Review-only records actually present in JSON: 762. A further 720 Sanskrit records are reported as pending by source_audit.json but are missing from the canonical review queue (the file is empty); they must be recovered before being counted as staged review-only. Not yet transcribed: 1,100 (Geography 500 and Social Work 600). Total remaining expected work: 2,582, comprising 762 stored review-only + 720 missing Sanskrit review records + 1,100 not yet transcribed.
 
-**Important reconciliation:** Current canonical files supersede older checkpoint/registry figures. History is 50 active records with 48 syllabus mappings verified and Q46/Q48 pending; Q48's official final answer is D and its earlier key-conflict note is superseded. Geography is now 164 active / 36 review-only after the Q11–Q73 source batch. Sanskrit has 130 active question records, but its review queue is empty despite the audit reporting 720 pending records; treat this as a missing-data recovery blocker, not as a completed or stored queue.
+**Important reconciliation:** Current canonical files supersede older checkpoint/registry figures. History is 50 active records with 48 syllabus mappings verified and Q46/Q48 pending; Q48's official final answer is D and its earlier key-conflict note is superseded. Geography is now 170 active / 30 review-only after the Q11–Q79 source batch. Sanskrit has 130 active question records, but its review queue is empty despite the audit reporting 720 pending records; treat this as a missing-data recovery blocker, not as a completed or stored queue.
 
 ## Latest completed source work
 
@@ -164,5 +164,14 @@ Expected question records across these seven subjects: 3,200. Canonical active r
 - Official final-key letters D, D, D, D, A, D, D, C match the registered final-key table.
 - Verified mappings: Q66 Unit IX (raster GIS data); Q67 Unit V (urban systems/population); Q69 Unit V (tribal distribution); Q70 Unit VI (primary economic activities); Q71 Unit II (climate change/greenhouse gases); Q72 Unit V (tribal population); Q73 Unit IV (ecosystem/trophic levels).
 - Promoted Q66–Q67 and Q69–Q73 to active. Q68 is source-verified/key-matched but remains review-only pending explicit syllabus placement for Chandigarh's master plan. Geography now 164 active / 36 review-only; November 2025 Q1–Q73 visually checked, 64 active and nine review-only items (Q8, Q10, Q23, Q26, Q32, Q51, Q54, Q62, Q68); Q74–Q100 remain visual-review pending. Five other Geography papers (500 questions) remain untranscribed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
+- Gujarati-side text was not populated. No other subject, Code 01, Code 02, Code 28 or Paper-I changed. PR #22 remains open/unmerged. No CI/APK result is claimed for this PR branch.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q74–Q79 source batch
+- Official PDF indexes 23–24 (printed pages 24–25) visually checked. English stems and all options for Q74–Q79 match canonical transcriptions.
+- Official final-key letters A, D, C, D, D, A match the registered final-key table.
+- Verified mappings: Q74 Unit VII (organic theory of state); Q75 Unit IV (Kyoto Protocol); Q76 Unit V (Toda tribe); Q77 Unit II (Köppen classification); Q78 Unit VIII (nature/scope and geographic traditions); Q79 Unit II (westerlies/pressure and winds).
+- Promoted all six to active. Geography now 170 active / 30 review-only; November 2025 Q1–Q79 visually checked, 70 active and nine review-only items (Q8, Q10, Q23, Q26, Q32, Q51, Q54, Q62, Q68); Q80–Q100 remain visual-review pending. Five other Geography papers (500 questions) remain untranscribed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
 - Gujarati-side text was not populated. No other subject, Code 01, Code 02, Code 28 or Paper-I changed. PR #22 remains open/unmerged. No CI/APK result is claimed for this PR branch.
