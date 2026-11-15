@@ -379,3 +379,13 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Seven-subject totals: 745 -> 750 active; 651 -> 646 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q25–Q34.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q25–Q34 source verification
+- Official GSET question-paper printed pages 5–6 (PDF page indexes 4–5) visually checked. All ten stems and all four options match canonical transcription; no figures/tables in this range.
+- Official final-key letters D, B, A, B, D, D, A, D, A, D match Q25–Q34 exactly. No answer values changed.
+- Q27–Q32 activated with official Unit III DNA/genetic-marker/profiling mapping; Q34 activated with Unit VIII fingerprint-development mapping (vacuum metal deposition). Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain review-only because exact topics are not explicitly listed in the official syllabus.
+- Forensic Science Code 27: 170 -> 177 active; 130 -> 123 review-only. December 2024: all 100 questions now source-page checked; 93 active and seven retained review-only for syllabus resolution (Q20–Q22, Q25–Q26, Q33, Q59). Mapping totals: 84 -> 91 verified, 278 provisional, 1 pending.
+- Seven-subject totals: 750 -> 757 active; 646 -> 639 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next work: resolve seven December 2024 syllabus holds and visually review November 2023 / November 2025 sessions.
