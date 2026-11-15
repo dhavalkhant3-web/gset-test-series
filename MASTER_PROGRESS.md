@@ -1406,3 +1406,12 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Promoted Q54 from review-only to active. Geography now 193 active / 7 review-only across 200 transcribed questions; November 2025 has 93 active / 7 review-only, 100/100 source visual checks, 100/100 final-key parity, and 94 verified / 6 provisional syllabus mappings. Remaining review-only: Q8, Q10, Q23, Q26, Q51, Q62 and Q68.
 - Updated canonical questions, review queue, source audits, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2025 Q11–Q21 source and syllabus verification
+- Official GSET November 2025 Forensic Science Paper-II printed page 4 (PDF page index 3) visually checked. All 11 question stems and four-option sets match the canonical transcriptions.
+- Official final-key letters Q11–Q21: A, D, C, B, C, C, B, B, A, A, C. All 11 match the stored official answers; no answer values changed.
+- Official Code 27 syllabus mappings: Q11 Unit II (immunoassays/ELISA); Q12–Q14 Unit IV (ethyl alcohol and toxicology); Q15 Unit I (criminal investigation/corpus delicti); Q16–Q17 Unit IV (poison/pesticide toxicity); Q18 Unit X (human dentition and age estimation); Q19–Q20 Unit IV (metallic poison and ethyl alcohol analysis); Q21 Unit III (DNA/Y-STR profiling). All 11 promoted to active.
+- Forensic Science now 213 active / 87 review-only. November 2025: 20/100 source-page verified, 20/100 final-key matched, 80 remain source-review pending. Overall subject mapping audit: 127 verified, 172 provisional, 1 pending.
+- Updated canonical questions, review queue, source audit, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
