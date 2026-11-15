@@ -1466,3 +1466,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Recovered 704 distinct staging questions into canonical review-only JSON; 146 existing active records were matched and not duplicated. Sanskrit totals 146 active + 704 review-only = 850.
 - All 704 recovered records remain `source_verified=false`, `review_flag=true`, and syllabus mapping pending until independent Devanagari proofreading and official syllabus review. No question promoted to active.
 - Answer-key verified only where provenance explicitly identifies a final key and A–D letter; older non-final-labelled key sources remain unverified.
+
+
+## 2026-11-15 — Sanskrit Code 07 staging recovery
+- Recovered 704 distinct staging questions into canonical review-only JSON; 146 active records were matched and not duplicated. Sanskrit totals 146 active + 704 review-only = 850.
+- All recovered records remain source_verified=false, review_flag=true and syllabus mapping pending until independent Devanagari proofreading and official syllabus review. No question promoted to active.
+- Answer-key verified only where provenance explicitly identifies a final key and A–D answer; older non-final-labelled key sources remain unverified.
