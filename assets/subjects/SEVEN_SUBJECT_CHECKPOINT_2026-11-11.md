@@ -397,3 +397,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official Code 27 syllabus checked: Q82 Unit II; Q83 Unit V; Q84 Unit VII; Q85 Unit VIII; Q86–Q88 Unit VII; Q89–Q90 Unit X; Q91 Unit VII; Q92 Unit I; Q93 Unit VI; Q94 Unit III; Q95 Unit VII; Q96 Unit V; Q97 Unit IV; Q98 Unit III; Q99 Unit VI; Q100 Unit IV. All 19 moved from review-only to active.
 - November 2023 now 100/100 source-page verified and final-key matched; 100 active, zero pending. Forensic Science total: 196 active / 104 review-only. Remaining review-only: December 2024 Q20–Q22, Q25–Q26, Q33, Q59 (7); November 2025 Q4–Q100 except the three already active (97).
 - Question-level syllabus mapping: 110 reviewed, 189 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2025 Q4–Q7 and Q9–Q10 source verification
+- Official GSET November 2025 question paper printed page 3 (PDF page index 2) visually checked. All six stems and all four options match canonical transcription. Q8 was already active and visually checked in an earlier batch.
+- Official November 2025 final-key letters Q4 A, Q5 B, Q6 A, Q7 B, Q9 C, Q10 C match all six stored answers. No answer values changed.
+- Official Code 27 syllabus mappings: Q4 Unit IV (chemical examination of tissues/viscera); Q5 Unit VI (fire/arson and accelerants); Q6–Q7 Unit IV (pesticides and metallic poisons); Q9–Q10 Unit IV (trap-case chemicals and drugs of abuse). All six moved to active.
+- November 2025 now 9 active / 91 awaiting source review. Forensic Science total: 202 active / 98 review-only. December 2024 holds remain seven (Q20–Q22, Q25–Q26, Q33, Q59); November 2025 remaining review queue 91.
+- Question-level syllabus mapping: 116 reviewed, 183 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
