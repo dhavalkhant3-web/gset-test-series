@@ -108,7 +108,7 @@
       "papers_loaded": 11,
       "questions_loaded": 146,
       "questions_pending_review": 704,
-      "data_status": "850 Sanskrit question records are now present in canonical JSON: 146 active and 704 review-only. The 704 recovered records remain source_verified=false and review_flag=true pending human Devanagari proofreading and official syllabus mapping. The original staging source contains 850 questions; 146 overlapped with existing active records and were not duplicated. Five key-only sessions remain separate and are not counted as transcribed questions."
+      "data_status": "850 Sanskrit question records now present in canonical JSON: 146 active + 704 review-only. The 704 recovered records remain source_verified=false and review_flag=true pending human Devanagari proofreading and official syllabus mapping. 146 existing active records were matched by ID and not duplicated. Five key-only sessions remain separate."
     },
     {
       "code": "08",
