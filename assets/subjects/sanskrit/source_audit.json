@@ -633,5 +633,9 @@
     "not_evaluated_official_Z_records": 2,
     "discrepancy": "Resolved: the consolidated Library staging source was recovered. The 720 non-overlapping records were absent from the repository review queue and are now restored. No missing question text was invented."
   },
-  "syllabus_mapping_status": "partially_mapped_official_syllabus"
+  "syllabus_mapping_status": "partially_mapped_official_syllabus",
+  "canonical_review_queue_file_bytes": 0,
+  "pending_records_missing_from_canonical_json": 704,
+  "queue_restoration_status": "not_restored_in_live_branch",
+  "queue_reconciliation_note": "Live GitHub fetch on 2026-11-15: questions.json contains 146 active records; questions_review_pending.json is empty. The Library staging source has 850 unique records, leaving 704 IDs not present in active JSON. Keep the expected pending count visible, but do not count those records as present in canonical JSON until restored."
 }
