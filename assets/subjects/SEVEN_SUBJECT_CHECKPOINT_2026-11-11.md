@@ -438,3 +438,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Reconciled session totals across both banks: November 2023 100, December 2024 100, November 2025 100.
 - Updated `source_audit.json` and the Code 27 entry in `assets/subjects/subjects.json`. Question content, answers, review flags, and activation status were not changed.
 - PR #22 remains open/unmerged. No CI or Combined APK pass is claimed.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q51 and Q68 syllabus mapping
+- Reviewed the official Code 24 syllabus: Q51's exploration/discovery and cartography content maps to Unit VIII (Geographic Thought, scholars and cartographic contributions); Q68's Chandigarh master-plan question maps to Unit V (Population and Settlement Geography, urban planning/settlement).
+- Both questions had already been visually checked against the official November 2025 paper and matched the official final answer key. Only syllabus mapping and review status were updated; stems, options and official answer letters were preserved.
+- Geography now 195 active / 5 review-only across 200 transcribed questions. Remaining November 2025 review-only: Q8, Q10, Q23, Q26 and Q62. Q23 remains held due official-key/content concern.
+- Five additional Geography papers (500 questions) remain untranscribed. No other subject, Code 01, Code 02, Code 28 or Paper-I changed; PR #22 remains open/unmerged; no CI/APK pass claimed.
