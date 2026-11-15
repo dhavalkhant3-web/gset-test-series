@@ -6,20 +6,20 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 84,
-  "proofread_pass1_pending_second_pass": 294,
-  "active_questions": 100,
-  "pending_review": 200,
+  "visual_checked": 107,
+  "proofread_pass1_pending_second_pass": 193,
+  "active_questions": 107,
+  "pending_review": 193,
   "syllabus_mapping": {
-    "provisional_unit_matches": 285,
+    "provisional_unit_matches": 278,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
-      "Unit 10": 45,
-      "Unit 1": 27,
+      "Unit 10": 49,
+      "Unit 1": 28,
       "Unit 2": 25,
       "Unit 8": 24,
-      "Unit 3": 45,
-      "Unit 5": 46,
+      "Unit 3": 46,
+      "Unit 5": 47,
       "Unit 7": 32,
       "Unit 4": 33,
       "Unit 6": 11,
@@ -37,8 +37,8 @@
         "question": "Which of the following best characterizes the scope of forensic engineering in the context of multidisciplinary litigation support ?"
       }
     ],
-    "review_note": "Provisional unit assignments were made from each question stem/options against the official unit scope. No question source-verification, answer key, or active/review-only status was changed.",
-    "verified_unit_mappings": 14,
+    "review_note": "Official Code 27 syllabus content was manually checked for December 2024 Q51–Q57. The remaining 278 provisional assignments and one pending subject-expert item are unchanged; only these seven mappings were promoted.",
+    "verified_unit_mappings": 21,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q048",
       "GSET-FS27-DEC2024-Q049",
@@ -53,34 +53,45 @@
       "GSET-FS27-DEC2024-Q037",
       "GSET-FS27-DEC2024-Q038",
       "GSET-FS27-DEC2024-Q039",
-      "GSET-FS27-DEC2024-Q042"
+      "GSET-FS27-DEC2024-Q042",
+      "GSET-FS27-DEC2024-Q051",
+      "GSET-FS27-DEC2024-Q052",
+      "GSET-FS27-DEC2024-Q053",
+      "GSET-FS27-DEC2024-Q054",
+      "GSET-FS27-DEC2024-Q055",
+      "GSET-FS27-DEC2024-Q056",
+      "GSET-FS27-DEC2024-Q057"
     ],
     "last_mapping_review": {
       "date": "2026-11-15",
       "verified_questions": [
         {
-          "question_id": "GSET-FS27-DEC2024-Q035",
-          "unit": "Unit VIII"
+          "question_id": "GSET-FS27-DEC2024-Q051",
+          "unit": "Unit X"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q036",
-          "unit": "Unit VIII"
+          "question_id": "GSET-FS27-DEC2024-Q052",
+          "unit": "Unit V"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q037",
-          "unit": "Unit VIII"
+          "question_id": "GSET-FS27-DEC2024-Q053",
+          "unit": "Unit X"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q038",
-          "unit": "Unit VIII"
+          "question_id": "GSET-FS27-DEC2024-Q054",
+          "unit": "Unit I"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q039",
-          "unit": "Unit VIII"
+          "question_id": "GSET-FS27-DEC2024-Q055",
+          "unit": "Unit III"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q042",
-          "unit": "Unit IX"
+          "question_id": "GSET-FS27-DEC2024-Q056",
+          "unit": "Unit X"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q057",
+          "unit": "Unit X"
         }
       ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
@@ -93,22 +104,20 @@
     "nov2527.pdf"
   ],
   "last_visual_review": {
-    "session": "November 2023",
+    "session": "December 2024",
     "questions": [
-      72,
-      73,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
     ],
-    "count": 9,
-    "source": "Official GSET November 2023 Forensic Science Paper-II PDF, PDF pages 12–13.",
-    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
-    "result": "all selected stems/options visually matched; all selected answer letters matched final key"
+    "count": 7,
+    "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 9 (PDF page index 8).",
+    "answer_key": "Official GSET Final Answer Key, December 2024, Paper-II",
+    "result": "All seven English stems and all four options visually matched; final-key letters D, A, D, D, A, A, C matched. No figure or table occurs in this range."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
@@ -128,40 +137,47 @@
     47,
     48,
     49,
-    50
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
   ],
-  "dec2024_visual_verified_count": 16,
-  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q50 source-page visually checked and activated.",
-  "dec2024_review_flags_remaining_count": 97,
+  "dec2024_visual_verified_count": 23,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q57 source-page visually checked and activated.",
+  "dec2024_review_flags_remaining_count": 77,
   "last_source_review": {
     "date": "2026-11-15",
     "paper": "December 2024",
     "question_numbers": [
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
     ],
     "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
-    "printed_pages": [
-      7
+    "pdf_page_indexes_zero_based": [
+      8
     ],
-    "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2427.pdf",
+    "printed_pages": [
+      9
+    ],
+    "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
     "official_answers": {
-      "35": "B",
-      "36": "A",
-      "37": "A",
-      "38": "A",
-      "39": "C",
-      "40": "A",
-      "41": "D",
-      "42": "A"
+      "51": "D",
+      "52": "A",
+      "53": "D",
+      "54": "D",
+      "55": "A",
+      "56": "A",
+      "57": "C"
     },
-    "result": "All eight stems/options and official answer letters visually reconciled; six mappings explicitly tied to Units VIII/IX; Q40 and Q41 mappings remain provisional.",
-    "activated": true
+    "result": "All seven stems and four options matched the original official scan; all seven official final-key letters matched; no figures/tables in this range. All seven records activated."
   }
 }
