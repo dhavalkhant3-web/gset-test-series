@@ -2944,7 +2944,7 @@
     "review_flag": true,
     "review_note": "Independent second-pass visual verification pending.",
     "topic": "Unit X — Forensic medicine, death, injuries and human identification",
-    "syllabus_mapping_status": "provisional_unit_match",
+    "syllabus_mapping_status": "official_syllabus_content_reviewed",
     "difficulty": "not_rated",
     "exam_session": "December 2024 (exam date 1 Dec 2024)",
     "exam_date": "2024-12-01",
@@ -2963,8 +2963,9 @@
     "verification_status": "key_verified_proofread_pass1",
     "evaluation_status": "official_answer_letter_preserved",
     "language": "en",
-    "syllabus_mapping_source": "Official GSET Forensic Science (27) syllabus PDF",
-    "syllabus_unit_number": 10
+    "syllabus_mapping_source": "Official GSET Forensic Science (27) syllabus PDF, page 5, Unit X explicitly lists Forensic Entomology",
+    "syllabus_unit_number": 10,
+    "syllabus_mapping_note": "Verified: the question asks for forensic entomology used to estimate the post-mortem interval; official Code 27 Unit X explicitly includes Forensic Entomology and insects of forensic importance. This mapping decision does not clear the independent source-page proofreading flag."
   },
   {
     "id": "GSET-FS27-DEC2024-Q051",
