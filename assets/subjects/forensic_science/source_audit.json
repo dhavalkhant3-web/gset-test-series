@@ -14,21 +14,21 @@
     "provisional_unit_matches": 172,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
-      "Unit 10": 50,
-      "Unit 1": 31,
-      "Unit 2": 32,
-      "Unit 8": 27,
-      "Unit 3": 63,
-      "Unit 5": 64,
-      "Unit 7": 41,
-      "Unit 4": 46,
-      "Unit 6": 11,
-      "Unit 9": 15
+      "Unit 2": 8,
+      "Unit 5": 21,
+      "Unit 7": 15,
+      "Unit 8": 9,
+      "Unit 10": 16,
+      "Unit 1": 6,
+      "Unit 6": 3,
+      "Unit 3": 21,
+      "Unit 4": 20,
+      "Unit 9": 8
     },
     "session_distribution": {
       "November 2023 (exam date 26 Nov 2023)": 100,
-      "November 2025 (exam date 16 Nov 2025)": 99,
-      "December 2024 (exam date 1 Dec 2024)": 100
+      "December 2024 (exam date 1 Dec 2024)": 93,
+      "November 2025 (exam date 16 Nov 2025)": 20
     },
     "unresolved_questions": [
       {
@@ -229,7 +229,8 @@
       "verified": 127,
       "provisional": 172,
       "pending": 1
-    }
+    },
+    "unit_distribution_basis": "Counts are computed only from canonical questions.json records with syllabus_mapping_status=official_syllabus_content_reviewed; provisional and pending mappings are excluded."
   },
   "source_pages": [
     "nov2327.pdf",
@@ -598,11 +599,13 @@
       2,
       3,
       4
-    ]
+    ],
+    "distribution_reconciled_from_canonical": true,
+    "distribution_reconciled_at": "2026-11-15"
   },
   "mapping_summary": {
     "verified": 127,
-    "provisional": 172,
-    "pending": 1
+    "provisional": 86,
+    "pending": 0
   }
 }
