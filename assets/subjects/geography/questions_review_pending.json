@@ -62,9 +62,9 @@
     "answer_key_verified": true,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Original question stem and all four answer combinations visually checked against official printed page 10; official final key A matches. Retain review-only because geological-period chronology is not explicitly specified in the official Code 24 syllabus. No unit was inferred.",
+    "review_note": "Question stem, all four options and official final-key answer A are source-verified. The only unresolved item is provisional syllabus placement in Unit I (Geomorphology); expert confirmation required before activation.",
     "topic": "Landform Occurrence (geological time)",
-    "syllabus_mapping_status": "provisional_needs_review",
+    "syllabus_mapping_status": "provisional_unit_match",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -83,6 +83,8 @@
     "verification_status": "source_page_visually_checked_final_key_matched_mapping_review_pending",
     "evaluation_status": "official_answer_letter_preserved",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
-    "source_verification_note": "English stem and all four options visually checked against the official GSET November 2025 Geography Paper-II scan, printed page 10 (PDF page index 9). Official final-key letter A independently matched. Retained review-only because geological-period chronology is not explicitly specified in the official Code 24 syllabus; no unit was inferred."
+    "source_verification_note": "English stem and all four options visually checked against the official GSET November 2025 Geography Paper-II scan, printed page 10 (PDF page index 9). Official final-key letter A independently matched. Retained review-only because geological-period chronology is not explicitly specified in the official Code 24 syllabus; no unit was inferred.",
+    "syllabus_unit": "Unit I",
+    "syllabus_mapping_note": "Provisional only: geological-period chronology is a foundational geologic-time topic and has a broad relationship to Unit I (Geomorphology), but the official Code 24 syllabus names Geomorphology without explicitly listing the geological time scale or the periods in this question. Retain review-only; do not activate until a Geography subject expert confirms the unit. Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf."
   }
 ]
