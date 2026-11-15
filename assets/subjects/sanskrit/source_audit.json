@@ -511,9 +511,9 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 736,
-  "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 question records); 114 IDs already present in active questions.json were excluded.",
-  "review_pending_file_integrity": "736 unique records restored to questions_review_pending.json; all remain source_verified=false and review_flag=true.",
+  "review_pending_file_count": 720,
+  "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
+  "review_pending_file_integrity": "720 unique non-overlapping records restored to questions_review_pending.json; all source_verified=false and review_flag=true. 687 have key_applied_pending_proofread status; 33 retain review_required notes. Two official final-key Z entries remain not-evaluated and have no official option letter.",
   "nov2025_visual_verified_count": 31,
   "nov2025_remaining_visual_review": 69,
   "nov2025_last_visual_review": {
@@ -541,11 +541,16 @@
   },
   "canonical_file_reconciliation": {
     "current_branch": "app/import-updated-subject-banks-2026-11-10",
-    "question_records_in_questions_json": 130,
-    "question_records_in_questions_review_pending_json": 0,
-    "source_audit_reported_pending_review": 720,
-    "source_audit_reported_review_required": 33,
-    "actual_review_flag_true_in_questions_json": 0,
-    "discrepancy": "The source audit reports 720 pending records and 33 review-required records, but the canonical review queue is empty and the 130 canonical question records have no review_flag=true entries. The 720 question objects are not present in the canonical question/review JSON at this branch head. Treat this as a recovery blocker; do not represent them as stored review-only questions."
+    "staging_source_records": 850,
+    "staging_unique_ids": 850,
+    "active_questions_json_records": 130,
+    "staging_ids_already_active": 130,
+    "review_pending_json_records": 720,
+    "review_pending_unique_ids": 720,
+    "active_review_union_unique_ids": 850,
+    "review_queue_duplicates": 0,
+    "review_required_records": 33,
+    "not_evaluated_official_Z_records": 2,
+    "discrepancy": "Resolved: the consolidated Library staging source was recovered. The 720 non-overlapping records were absent from the repository review queue and are now restored. No missing question text was invented."
   }
 }
