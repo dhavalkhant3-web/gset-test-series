@@ -6768,5 +6768,21 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "event": "Sanskrit Code 07 live review-queue reconciliation correction",
+    "active_questions": 146,
+    "review_queue_file_bytes": 0,
+    "expected_pending_from_staging": 704,
+    "pending_records_missing_from_canonical_json": 704,
+    "staging_unique_ids": 850,
+    "action": "Corrected seven-subject checkpoint, subject registry and source_audit to state that the 704 review-only records are missing from the live canonical queue; earlier restoration note is stale.",
+    "non_actions": [
+      "No question records fabricated or reconstructed",
+      "No questions activated",
+      "No source_verified flags changed",
+      "No PR merged"
+    ]
   }
 ]
