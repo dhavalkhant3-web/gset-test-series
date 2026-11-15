@@ -461,3 +461,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Q35 option A remains as printed in the scan: “Pentathol sodium”.
 - November 2025 source-verified coverage increased from 20 to 44/100; Q46–Q100 remain pending (55 questions). Across all sessions, the 87 review-only records remain review-only where syllabus mapping is provisional; source verification does not automatically activate them.
 - Official source: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf. PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Environmental Sciences Code 26 official syllabus mapping
+- Re-read the official ten-unit Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Assigned question-level units to all 300 canonical records (87 active + 213 review-only): 300 verified mappings, 0 provisional, 0 pending. Unit distribution: {"Unit I":22,"Unit X":28,"Unit IV":32,"Unit VI":38,"Unit II":42,"Unit III":28,"Unit V":35,"Unit VII":23,"Unit VIII":25,"Unit IX":27}.
+- Mapped both active and review-only records. Review-only flags and source-verification fields were preserved; mapping completion does NOT mark the 213 source pages visually checked or activate them.
+- November 2023 / December 2024 / November 2025 papers remain source-review pending as per paper metadata; no answer or question text changed.
