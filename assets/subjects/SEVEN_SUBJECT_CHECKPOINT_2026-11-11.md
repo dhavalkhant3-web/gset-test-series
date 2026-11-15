@@ -15,10 +15,10 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 24 | Geography | 195 | 5 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
-| 27 | Forensic Science | 213 | 87 | 0 | 0 |
+| 27 | Forensic Science | 291 | 9 | 0 | 0 |
 | **Total** | | **788** | **608** | **704** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 788 active + 608 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 95 of those are active and five remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 869 active + 527 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 95 of those are active and five remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -475,3 +475,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Reviewed the 87 review-only records against the ten official units. Promoted 78 records with direct syllabus matches to the active bank; retained 9 review-only records where the syllabus does not directly name the topic or a unique unit cannot be justified. No source text, options or official answers changed.
 - Current bank: 291 active / 9 review-only. Mapping totals: 205 verified, 94 provisional, 1 pending. Verified unit distribution: {"Unit 2":8,"Unit 5":21,"Unit 7":15,"Unit 8":9,"Unit 10":16,"Unit 1":6,"Unit 6":3,"Unit 3":21,"Unit 4":20,"Unit 9":8,"Unit NaN":78}.
 - PR #22 remains open/unmerged; no CI or Combined APK pass claimed.
+
+
+## 2026-11-15 — Latest verified completion updates
+- Geography Code 24: 198 active / 2 review-only. Remaining Q23 (official-key/content conflict) and Q26 (geological chronology not explicitly stated in syllabus); November 2025 Q1–Q100 source and final-key checks 100/100.
+- Environmental Sciences Code 26: all 300 records (87 active + 213 review-only) mapped to official ten-unit syllabus; 213 review-only source flags intentionally remain because page-level proofreading has not been completed.
+- Forensic Science Code 27: all 300 questions visually source-verified and 300/300 official final-key reconciled. After reviewing the 87 review-only records against the official syllabus, 78 directly mapped records promoted; current 291 active / 9 review-only. Mapping totals 205 verified, 94 provisional, 1 pending. Nine held records: December 2024 Q20, Q21, Q22, Q25, Q26, Q33, Q59; November 2025 Q47, Q59.
+- Repository totals for seven subjects now 869 active + 527 review-only + 704 Sanskrit staging records not in canonical queue + 1,100 untranscribed (Geography 500; Social Work 600) = 3,200 expected.
+- No PR merge. CI/Combined APK remains unverified.
