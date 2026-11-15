@@ -328,3 +328,13 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Seven-subject totals: 696 -> 705 active; 700 -> 691 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q86–Q92.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q86–Q92 source verification
+- Official GSET question-paper printed page 14 (PDF page index 13) visually checked. All seven stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters B, D, C, C, B, A, D match Q86–Q92 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q86 Unit III (wildlife forensics); Q87–Q88 and Q90–Q92 Unit V (firearms/ballistics); Q89 Unit II (comparison microscopy). All seven records moved from review-only to active.
+- Forensic Science Code 27: 134 -> 141 active; 166 -> 159 review-only. December 2024 source-verified/activated count 50 -> 57; 43 remain review-only in that session. Mapping totals: 48 -> 55 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 714 -> 721 active; 682 -> 675 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: November 2023 review or December 2024 Q93–Q100.
