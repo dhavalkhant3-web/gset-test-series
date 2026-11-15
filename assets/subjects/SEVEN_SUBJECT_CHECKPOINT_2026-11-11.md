@@ -515,3 +515,15 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Verified the Git blob for `questions_review_pending.json`: 704 records, 1,392,220 characters, valid JSON; 0 duplicate IDs and 0 overlaps with the 146 active records.
 - All 704 records have exactly four options, `source_verified=false`, `review_flag=true`, and `syllabus_mapping_status=pending_official_syllabus_mapping`. 502 carry answer letters from staging sources explicitly labelled final; 202 remain unverified because their source key is not explicitly final or the answer is not an A–D letter.
 - Seven-subject totals: 968 active + 1,132 review-only + 1,100 untranscribed = 3,200.
+
+
+## 2026-11-15 — Final cross-subject checkpoint
+- Geography Code 24: 198 active / 2 review-only. Q26 has a provisional Unit I (Geomorphology) fit pending expert confirmation; Q23 remains held because the official final-key letter conflicts with the apparent content answer. November 2025 source and final-key checks are 100/100.
+- Sanskrit Code 07: 146 active / 704 review-only; 850 records present without duplication. All 704 recovered records remain source-unverified and syllabus-mapping pending. The 1.39 MB review queue was validated through its Git blob: valid JSON, 704 unique IDs, four options each, no overlap with active IDs.
+- Forensic Science Code 27: 291 active / 9 review-only. All 300 source records visually verified and 300/300 final-key entries reconciled. The November 2025 paper metadata is corrected to 100 loaded / 100 source verified; 98 mappings verified, Q59 provisional and Q47 pending.
+- Environmental Sciences Code 26: 300/300 syllabus mappings assigned to official units; 213 review-only source-verification flags remain untouched.
+- Gujarati Code 06: 196 active / 204 review-only after moving 99 fully checked December 2019 records into active. Q7 (official Z/not evaluated) remains held.
+- Seven-subject totals: 968 active + 1,132 review-only + 1,100 untranscribed = 3,200. The untranscribed backlog is Geography 500 + Social Work 600.
+- History Q46/Q48 remain unmapped because the official Code 08 syllabus does not give a defensible direct unit fit; no guessed mapping was added.
+- Social Work Code 25 remains 600 not transcribed. Official Code 25 syllabus located; the six official paper PDFs in the repository manifest have not yet been made available for source-based transcription in this workspace.
+- PR #22 remains open and unmerged. Latest commit CI workflow runs and combined status checks are empty; no CI/APK PASS is claimed.
