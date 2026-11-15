@@ -106,18 +106,18 @@
   "last_visual_review": {
     "session": "December 2024",
     "questions": [
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
     ],
     "count": 7,
-    "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 9 (PDF page index 8).",
+    "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 10 (PDF page index 9).",
     "answer_key": "Official GSET Final Answer Key, December 2024, Paper-II",
-    "result": "All seven English stems and all four options visually matched; final-key letters D, A, D, D, A, A, C matched. No figure or table occurs in this range."
+    "result": "All seven stems and all four options visually matched. Official final-key letters A, A, C, D, D, D, C matched. Q58, Q60–Q64 activated with official syllabus mapping; Q59 remains review-only because Units I and X both address sexual-offence evidence/medicolegal context."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
@@ -144,40 +144,91 @@
     54,
     55,
     56,
-    57
+    57,
+    58,
+    60,
+    61,
+    62,
+    63,
+    64
   ],
-  "dec2024_visual_verified_count": 23,
-  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q57 source-page visually checked and activated.",
-  "dec2024_review_flags_remaining_count": 77,
+  "dec2024_visual_verified_count": 29,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q64 source-page visually checked (Q35–Q58 and Q60–Q64 activated; Q59 retained review-only for syllabus-unit ambiguity).",
+  "dec2024_review_flags_remaining_count": 71,
   "last_source_review": {
     "date": "2026-11-15",
     "paper": "December 2024",
     "question_numbers": [
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
     ],
     "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
     "pdf_page_indexes_zero_based": [
-      8
+      9
     ],
     "printed_pages": [
-      9
+      10
     ],
     "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
     "official_answers": {
-      "51": "D",
-      "52": "A",
-      "53": "D",
-      "54": "D",
-      "55": "A",
-      "56": "A",
-      "57": "C"
+      "58": "A",
+      "59": "A",
+      "60": "C",
+      "61": "D",
+      "62": "D",
+      "63": "D",
+      "64": "C"
     },
-    "result": "All seven stems and four options matched the original official scan; all seven official final-key letters matched; no figures/tables in this range. All seven records activated."
+    "result": "All seven stems and option sets matched the official scan; all seven final-key letters matched. Q58, Q60–Q64 moved to active. Q59 is source/key verified but remains review-only for overlapping official syllabus scope (Units I and X)."
+  },
+  "verified_unit_mappings": 27,
+  "verified_question_ids": [
+    "GSET-FS27-DEC2024-Q058",
+    "GSET-FS27-DEC2024-Q060",
+    "GSET-FS27-DEC2024-Q061",
+    "GSET-FS27-DEC2024-Q062",
+    "GSET-FS27-DEC2024-Q063",
+    "GSET-FS27-DEC2024-Q064"
+  ],
+  "last_mapping_review": {
+    "date": "2026-11-15",
+    "verified_questions": [
+      {
+        "question_id": "GSET-FS27-DEC2024-Q058",
+        "unit": "Unit X"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q060",
+        "unit": "Unit X"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q061",
+        "unit": "Unit IV"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q062",
+        "unit": "Unit VIII"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q063",
+        "unit": "Unit IX"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q064",
+        "unit": "Unit III"
+      }
+    ],
+    "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "source_page": 5
+  },
+  "mapping_summary": {
+    "verified": 27,
+    "provisional": 272,
+    "pending": 1
   }
 }
