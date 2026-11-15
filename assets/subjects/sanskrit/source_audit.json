@@ -640,17 +640,14 @@
   "queue_reconciliation_note": "Live GitHub fetch on 2026-11-15: questions.json contains 146 active records; questions_review_pending.json is empty. The Library staging source has 850 unique records, leaving 704 IDs not present in active JSON. Keep the expected pending count visible, but do not count those records as present in canonical JSON until restored.",
   "staging_recovery": {
     "date": "2026-11-15",
-    "staging_source": "Library gset_sanskrit_07_consolidated_staging.json",
     "staging_questions": 850,
     "overlap_with_active": 146,
     "recovered_to_review_queue": 704,
     "source_verified_on_recovery": 0,
     "review_flags_set": 704,
     "syllabus_mapping_pending": 704,
-    "answer_key_source_counts": {
-      "verified": 502,
-      "notFinalOrInvalid": 202
-    },
+    "answer_key_verified_recovered": 502,
+    "answer_key_unverified_recovered": 202,
     "session_summary": {
       "December 2002 (exam date 1 Dec 2002)": {
         "records": 50,
@@ -719,7 +716,7 @@
         "reviewOnly": 53
       }
     },
-    "note": "Recovered only records missing from canonical active bank. No staging record was promoted to active. Every recovered record remains review-only pending human source proofreading and syllabus mapping; answer_key_verified is true only where the staging answer_source explicitly identifies a final key and answer letter is A-D."
+    "note": "Recovered only records missing from canonical active bank. No staging record was promoted to active. All recovered records remain review-only pending human Devanagari source proofreading and official syllabus mapping. Answer-key verification is true only where the staging answer_source explicitly identifies a final key and answer letter is A-D."
   },
   "mapping_summary": {
     "verified": 14,
