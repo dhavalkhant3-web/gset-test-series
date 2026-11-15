@@ -107,8 +107,8 @@
       "source_verified": false,
       "papers_loaded": 11,
       "questions_loaded": 130,
-      "questions_pending_review": 0,
-      "data_status": "Current canonical files: 130 question records in questions.json; all 130 are source_verified and official-key reconciled, but all 130 still have pending official syllabus mapping. IMPORTANT RECOVERY BLOCKER: source_audit.json reports 720 pending review records (850 transcribed minus 130 active), but questions_review_pending.json is empty at the current branch head and was also empty in its last recorded commits; those 720 question objects are not present in the canonical review queue. The audit also reports 33 review_required records and 2 missing official answers, but the 130 active JSON records have 0 review_flag=true. Do not count the 720 as stored review-only records until recovered. Five keys-only sessions contain 300 answer entries; these are not question records. Official syllabus mapping remains pending."
+      "questions_pending_review": 720,
+      "data_status": "850 unique question records recovered from the consolidated Sanskrit staging source: 130 active/source-verified records and 720 review-only records now restored to questions_review_pending.json. Of the 720, 687 are key-applied pending original-page proofread and 33 retain explicit review_required notes. Two records (August 2017 Q22 and December 2019 Q94) carry official final-key Z/not-evaluated status and no official option letter. November 2023 source verification is 100/100 with Q33 retained for review; November 2025 source verification is 31/100, with 69 still pending visual proofread. Five keys-only sessions contain 300 answer entries and are not additional question records. Official syllabus mapping remains pending across the recovered queue."
     },
     {
       "code": "08",
