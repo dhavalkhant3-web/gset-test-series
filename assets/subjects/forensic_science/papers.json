@@ -73,9 +73,9 @@
       "answer_key_parsed": true,
       "answer_key_verified": true,
       "answer_key_question_parity_verified": true,
-      "question_source_verified": 44,
+      "question_source_verified": 49,
       "source_verified": true,
-      "review_flags_remaining_count": 56,
+      "review_flags_remaining_count": 51,
       "status": "partial_visual_review",
       "review_note": "20/100 questions source-page visually checked and matched against the official final key: Q4–Q10 and Q11–Q21 (Q8 was checked in an earlier batch). 80 remain pending source review. The newly checked Q11–Q21 all have explicit official syllabus mappings.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
@@ -102,6 +102,7 @@
         18,
         19,
         20,
+        21,
         22,
         23,
         24,
@@ -125,10 +126,15 @@
         42,
         43,
         44,
-        45
+        45,
+        52,
+        53,
+        54,
+        56,
+        57
       ],
-      "source_reviewed_question_count": 44,
-      "source_review_note": "Q1–Q21 were previously source checked; Q22–Q45 were visually checked against official printed pages 5–8? Note PDF zero-based pages 3–6 correspond printed page numbers 4–7. Question wording/options match the stored records; official final-key parity is already reconciled. Q35 option A is transcribed as printed ('Pentathol sodium'). Q46–Q100 remain source-visual review pending."
+      "source_reviewed_question_count": 49,
+      "source_review_note": "Q1–Q21 and Q22–Q45 were previously visually checked. Q52–Q54 and Q56–Q57 now visually checked against official printed page 9; Q55 was already outside review queue. Q46–Q51 and Q58–Q100 remain visual review pending."
     }
   ]
 }
