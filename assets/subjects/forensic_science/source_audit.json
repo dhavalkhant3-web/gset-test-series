@@ -714,7 +714,7 @@
       100
     ]
   },
-  "remaining_subject_work": "Forensic Science total 300: 213 active, 87 review-only. November 2025 source visual verification 97/100; only Q1–Q3 remain. The 87 review-only records remain review-only where syllabus mapping is provisional or pending; source verification does not auto-promote them.",
+  "remaining_subject_work": "Forensic Science total 300: 213 active, 87 review-only. November 2025 Q1–Q100 source visual verification complete (100/100); official final-key parity 100/100. Review-only records remain for syllabus mapping and metadata issues; no auto-promotion.",
   "nov2025_visual_batch_2": {
     "date": "2026-11-15",
     "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
@@ -905,5 +905,19 @@
       2,
       3
     ]
+  },
+  "nov2025_visual_batch_5": {
+    "date": "2026-11-15",
+    "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
+    "printed_page": 3,
+    "pdf_zero_based_page": 2,
+    "question_numbers": [
+      1,
+      2,
+      3
+    ],
+    "count": 3,
+    "result": "Q1–Q3 stems and all four options visually checked against the official source scan. No corrections required; official final-key parity was previously audited.",
+    "remaining_nov2025_source_review_questions": []
   }
 }
