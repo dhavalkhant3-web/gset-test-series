@@ -637,5 +637,93 @@
   "canonical_review_queue_file_bytes": 0,
   "pending_records_missing_from_canonical_json": 704,
   "queue_restoration_status": "not_restored_in_live_branch",
-  "queue_reconciliation_note": "Live GitHub fetch on 2026-11-15: questions.json contains 146 active records; questions_review_pending.json is empty. The Library staging source has 850 unique records, leaving 704 IDs not present in active JSON. Keep the expected pending count visible, but do not count those records as present in canonical JSON until restored."
+  "queue_reconciliation_note": "Live GitHub fetch on 2026-11-15: questions.json contains 146 active records; questions_review_pending.json is empty. The Library staging source has 850 unique records, leaving 704 IDs not present in active JSON. Keep the expected pending count visible, but do not count those records as present in canonical JSON until restored.",
+  "staging_recovery": {
+    "date": "2026-11-15",
+    "staging_source": "Library gset_sanskrit_07_consolidated_staging.json",
+    "staging_questions": 850,
+    "overlap_with_active": 146,
+    "recovered_to_review_queue": 704,
+    "source_verified_on_recovery": 0,
+    "review_flags_set": 704,
+    "syllabus_mapping_pending": 704,
+    "answer_key_source_counts": {
+      "verified": 502,
+      "notFinalOrInvalid": 202
+    },
+    "session_summary": {
+      "December 2002 (exam date 1 Dec 2002)": {
+        "records": 50,
+        "loaded": 50,
+        "finalKeySourceEntries": 0,
+        "reviewOnly": 50
+      },
+      "December 2003 (exam date 7 Dec 2003)": {
+        "records": 50,
+        "loaded": 50,
+        "finalKeySourceEntries": 0,
+        "reviewOnly": 50
+      },
+      "December 2008 (exam date 7 Dec 2008)": {
+        "records": 50,
+        "loaded": 50,
+        "finalKeySourceEntries": 0,
+        "reviewOnly": 50
+      },
+      "September 2013 (exam date 22 Sep 2013)": {
+        "records": 50,
+        "loaded": 50,
+        "finalKeySourceEntries": 0,
+        "reviewOnly": 50
+      },
+      "August 2017 (exam date 27 Aug 2017)": {
+        "records": 50,
+        "loaded": 50,
+        "finalKeySourceEntries": 49,
+        "reviewOnly": 50
+      },
+      "December 2019 (exam date 29 Dec 2019)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 99,
+        "reviewOnly": 100
+      },
+      "December 2021 / January 2022 (exam date 23 Jan 2022)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 100,
+        "reviewOnly": 100
+      },
+      "November 2022 (exam date 6 Nov 2022)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 100,
+        "reviewOnly": 100
+      },
+      "November 2023 (exam date 26 Nov 2023)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 100,
+        "reviewOnly": 1
+      },
+      "December 2024 (exam date 1 Dec 2024)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 100,
+        "reviewOnly": 100
+      },
+      "November 2025 (exam date 16 Nov 2025)": {
+        "records": 100,
+        "loaded": 100,
+        "finalKeySourceEntries": 100,
+        "reviewOnly": 53
+      }
+    },
+    "note": "Recovered only records missing from canonical active bank. No staging record was promoted to active. Every recovered record remains review-only pending human source proofreading and syllabus mapping; answer_key_verified is true only where the staging answer_source explicitly identifies a final key and answer letter is A-D."
+  },
+  "mapping_summary": {
+    "verified": 14,
+    "provisional": 0,
+    "pending": 836
+  }
 }
