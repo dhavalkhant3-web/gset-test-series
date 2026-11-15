@@ -1151,3 +1151,15 @@ Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all
 - Geography before/after: 107/93/500 -> 108/92/500 (active/review-only/not transcribed). Seven-subject totals: 555/1,545/1,100 -> 556/1,544/1,100.
 - Official evidence: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
 - No other subject, Paper-I, Code 01, Code 02 or Code 28 changed. No PR merge authorized. No CI/Combined Debug APK result is claimed.
+
+
+## 2026-11-15 — PR #22 execution update (separate, unmerged branch)
+
+Branch: app/import-updated-subject-banks-2026-11-10  
+PR: https://github.com/dhavalkhant3-web/gset-test-series/pull/22 (OPEN, NOT MERGED)
+
+- Geography Code 24: official November 2025 source-page verification extended through Q37. Current canonical bank is 132 active / 68 review-only out of 200 transcribed; 500 expected questions across five other papers remain untranscribed. Q23 remains review-only because official key A conflicts with the apparent content answer; official key A is preserved. Q8, Q10, Q26 and Q32 remain mapping review.
+- History Code 08: 50 canonical questions; 48 syllabus mappings verified and Q46/Q48 pending. Official final key confirms Q48=D; the old key-conflict note is superseded.
+- Sanskrit Code 07 recovery blocker: 130 question records in questions.json; questions_review_pending.json is empty although source_audit.json reports 720 pending and 33 review-required. The 720 question objects are absent from canonical JSON and must be recovered from source/backup; no fabricated replacement was made.
+- Reconciled seven-subject totals: 580 active; 800 review-only present; 720 reported Sanskrit review records missing from canonical JSON; 1,100 not transcribed (Geography 500, Social Work 600). Expected total 3,200.
+- Geography changes saved through commit 1f263b6584496a58c2b05c841272a496c9683bb4. No PR merge authorized. No new PR-branch CI or APK pass is claimed.
