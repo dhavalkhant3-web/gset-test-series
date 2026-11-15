@@ -16,11 +16,11 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **968** | **428** | **704** | **1,100** |
+| **Total** | | **968** | **1,132** | **0** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 869 active + 527 review-only records present + 704 Sanskrit records recovered into the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 968 active + 1,132 review-only records present + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
-**Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
+**Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records and `questions_review_pending.json` contains 704 restored review-only records (1.39 MB). The Library staging source had 850 unique records; 146 overlapped with active records and were not duplicated. All 704 recovered records remain source_verified=false, review_flag=true, and syllabus mapping pending until human Devanagari proofreading. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
 ## Latest completed source work
 
@@ -509,3 +509,9 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - All 704 recovered records remain review-only: `source_verified=false`, `review_flag=true`, and official syllabus mapping pending. No recovered question was promoted to active.
 - Answer-key verification marked true only where staging provenance explicitly identifies a final answer key and the answer is A–D; older published keys not labelled FINAL remain unverified.
 - Sanskrit totals: 146 active + 704 review-only = 850. Five key-only sessions remain separate and were not invented/transcribed.
+
+
+## 2026-11-15 — Canonical Sanskrit queue validation
+- Verified the Git blob for `questions_review_pending.json`: 704 records, 1,392,220 characters, valid JSON; 0 duplicate IDs and 0 overlaps with the 146 active records.
+- All 704 records have exactly four options, `source_verified=false`, `review_flag=true`, and `syllabus_mapping_status=pending_official_syllabus_mapping`. 502 carry answer letters from staging sources explicitly labelled final; 202 remain unverified because their source key is not explicitly final or the answer is not an A–D letter.
+- Seven-subject totals: 968 active + 1,132 review-only + 1,100 untranscribed = 3,200.
