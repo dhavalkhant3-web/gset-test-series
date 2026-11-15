@@ -9,7 +9,7 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 
 | Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
-| 06 | Gujarati | 97 | 303 | 0 | 0 |
+| 06 | Gujarati | 196 | 204 | 0 | 0 |
 | 07 | Sanskrit | 146 | 0 | 704 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
@@ -483,3 +483,9 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Forensic Science Code 27: all 300 questions visually source-verified and 300/300 official final-key reconciled. After reviewing the 87 review-only records against the official syllabus, 78 directly mapped records promoted; current 291 active / 9 review-only. Mapping totals 205 verified, 94 provisional, 1 pending. Nine held records: December 2024 Q20, Q21, Q22, Q25, Q26, Q33, Q59; November 2025 Q47, Q59.
 - Repository totals for seven subjects now 869 active + 527 review-only + 704 Sanskrit staging records not in canonical queue + 1,100 untranscribed (Geography 500; Social Work 600) = 3,200 expected.
 - No PR merge. CI/Combined APK remains unverified.
+
+
+## 2026-11-15 — Gujarati Code 06 December 2019 active-bank promotion
+- Promoted 99 December 2019 questions to active after confirming each has source_verified=true, answer_key_verified=true, verified Code 06 syllabus mapping, review_flag=false, and an answer matching the official FINAL key.
+- December 2019 Q7 remains review-only because the official final key prints Z and the official note excludes it from evaluation.
+- Gujarati bank is now 196 active / 204 review-only. This is a queue cleanup only; no question wording, options or answer letters were changed. The remaining 204 include 44 December 2002 and 50 December 2003 records whose available published keys are not explicitly labelled FINAL, plus source-review backlog in August 2017, December 2008 and December 2021.
