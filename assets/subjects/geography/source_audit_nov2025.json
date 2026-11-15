@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 65,
-  "active_questions": 57,
-  "pending_review": 43,
-  "source_visual_status": "partial: Q1–Q65 visually checked against official PDF printed pages 3–21; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61 and Q63–Q65 active; Q8, Q10, Q26, Q32, Q51, Q54 and Q62 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q66–Q100 remain source-visual pending",
+  "source_visual_checked": 73,
+  "active_questions": 64,
+  "pending_review": 36,
+  "source_visual_status": "partial: Q1–Q73 visually checked against official PDF printed pages 3–23; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61, Q63–Q67 and Q69–Q73 active; Q8, Q10, Q26, Q32, Q51, Q54, Q62 and Q68 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q74–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -79,7 +79,15 @@
     62,
     63,
     64,
-    65
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -100,7 +108,9 @@
     17,
     18,
     19,
-    20
+    20,
+    21,
+    22
   ],
   "source_visual_printed_pages": [
     3,
@@ -121,7 +131,9 @@
     18,
     19,
     20,
-    21
+    21,
+    22,
+    23
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -226,6 +238,18 @@
       63,
       64,
       65
+    ],
+    "printed_page_22": [
+      66,
+      67,
+      68,
+      69
+    ],
+    "printed_page_23": [
+      70,
+      71,
+      72,
+      73
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -238,7 +262,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 58,
+  "syllabus_mapping_verified_count": 65,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -529,6 +553,41 @@
       "question": 65,
       "unit": "Unit VI",
       "rationale": "Official Code 24 Unit VI explicitly lists the World Trade Organization and world trade patterns."
+    },
+    {
+      "question": 66,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly covers raster/vector data formats and remote sensing."
+    },
+    {
+      "question": 67,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V covers urban systems, urbanization and urban population."
+    },
+    {
+      "question": 69,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly covers population composition and the spatial distribution of social groups."
+    },
+    {
+      "question": 70,
+      "unit": "Unit VI",
+      "rationale": "Official Code 24 Unit VI covers primary, secondary and tertiary economic activities."
+    },
+    {
+      "question": 71,
+      "unit": "Unit II",
+      "rationale": "Official Code 24 Unit II covers climatology and climate change."
+    },
+    {
+      "question": 72,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly covers population composition and tribal distribution."
+    },
+    {
+      "question": 73,
+      "unit": "Unit IV",
+      "rationale": "Official Code 24 Unit IV covers ecosystems, food chains and trophic levels."
     }
   ],
   "remaining_review_question_numbers": [
@@ -540,14 +599,7 @@
     51,
     54,
     62,
-    66,
-    67,
     68,
-    69,
-    70,
-    71,
-    72,
-    73,
     74,
     75,
     76,
@@ -576,5 +628,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 19–20 (printed pages 20–21) visually checked for Q60–Q65. English stems/options match canonical transcriptions; official final-key letters B,D,B,A,C,C match all six. Verified mappings: Q60 Unit X (India/Tropic of Cancer); Q61 Unit I (earthquakes); Q63 Unit V (demographic transition); Q64 Unit V (Harris–Ullman urban model); Q65 Unit VI (WTO/world trade). Q60, Q61 and Q63–Q65 promoted active. Q62 source-verified/key-matched but remains review-only pending explicit syllabus placement for nuclear power-station location. Q66–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 21–22 (printed pages 22–23) visually checked for Q66–Q73. English stems and all options match canonical records; official final-key letters D,D,D,D,A,D,D,C match. Verified mappings: Q66 Unit IX (raster GIS data); Q67 Unit V (urban systems/population); Q69 Unit V (tribal distribution); Q70 Unit VI (primary economic activities); Q71 Unit II (climate change/greenhouse gases); Q72 Unit V (tribal population); Q73 Unit IV (ecosystem/trophic levels). Q66–Q67 and Q69–Q73 promoted active. Q68 source-verified/key-matched but remains review-only pending explicit unit placement for Chandigarh's master plan. Q74–Q100 remain source-visual pending."
 }
