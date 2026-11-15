@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "93 staged November 2025 questions remain review-only pending visual proofread; 500 expected questions across five other listed papers remain untranscribed. August 2017 has 50/50 source-verified questions; three syllabus mappings remain provisional.",
+  "remaining_subject_work": "November 2025: all 100 questions visually checked and 100/100 official final-key matched; 92 active and eight review-only (Q8, Q10, Q23, Q26, Q51, Q54, Q62, Q68). Q32 mapped to Unit I (Geomorphology: coastal lagoon/spit landform). Five other listed papers (500 questions) remain untranscribed. August 2017 has three provisional syllabus mappings.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -191,12 +191,18 @@
     "final_key_matches": 3,
     "answer_changes": 0,
     "active_records_rechecked": [
+      32,
       33,
       34
     ],
-    "review_only_retained": [
+    "review_only_retained": [],
+    "note": "Q32–Q34 stems and four-option sets visually checked against original source; all three stored answer letters match the official final key. Q32 promoted to active after mapping its coastal lagoon/spit landform to official Unit I (Geomorphology; landform occurrence). Q33 printed phrase '19 per live births' retained as printed.",
+    "active_promotions": 1,
+    "syllabus_mapping_verified_question_numbers": [
       32
     ],
-    "note": "Q32-Q34 stems and four-option sets visually checked against original source. All three stored answer letters match official final key. Q32 remains review-only pending defensible syllabus placement. Q33 source's printed phrase '19 per live births' retained as printed."
+    "syllabus_units": {
+      "32": "Unit I"
+    }
   }
 }
