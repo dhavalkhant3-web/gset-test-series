@@ -1450,3 +1450,8 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Forensic Science Code 27: all 300 questions visually source-verified and 300/300 official final-key reconciled. After reviewing the 87 review-only records against the official syllabus, 78 directly mapped records promoted; current 291 active / 9 review-only. Mapping totals 205 verified, 94 provisional, 1 pending. Nine held records: December 2024 Q20, Q21, Q22, Q25, Q26, Q33, Q59; November 2025 Q47, Q59.
 - Repository totals for seven subjects now 869 active + 527 review-only + 704 Sanskrit staging records not in canonical queue + 1,100 untranscribed (Geography 500; Social Work 600) = 3,200 expected.
 - No PR merge. CI/Combined APK remains unverified.
+
+
+## 2026-11-15 — Gujarati Code 06 December 2019 promotion
+- Promoted 99 December 2019 records with completed source, official FINAL-key and syllabus checks to active bank. Q7 remains held as official Z/not evaluated.
+- Gujarati totals now 196 active / 204 review-only. No content or answer changes; 204 queue records still include old-key and source-review work.
