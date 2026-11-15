@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 79,
-  "active_questions": 70,
-  "pending_review": 30,
-  "source_visual_status": "partial: Q1–Q79 visually checked against official PDF printed pages 3–25; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61, Q63–Q67, Q69–Q79 active; Q8, Q10, Q26, Q32, Q51, Q54, Q62 and Q68 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q80–Q100 remain source-visual pending",
+  "source_visual_checked": 85,
+  "active_questions": 76,
+  "pending_review": 24,
+  "source_visual_status": "partial: Q1–Q85 visually checked against official PDF printed pages 3–27; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61, Q63–Q67, Q69–Q85 active; Q8, Q10, Q26, Q32, Q51, Q54, Q62 and Q68 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q86–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -93,7 +93,13 @@
     76,
     77,
     78,
-    79
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -118,7 +124,9 @@
     21,
     22,
     23,
-    24
+    24,
+    25,
+    26
   ],
   "source_visual_printed_pages": [
     3,
@@ -143,7 +151,9 @@
     22,
     23,
     24,
-    25
+    25,
+    26,
+    27
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -270,6 +280,16 @@
     "printed_page_25": [
       78,
       79
+    ],
+    "printed_page_26": [
+      80,
+      81
+    ],
+    "printed_page_27": [
+      82,
+      83,
+      84,
+      85
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -282,7 +302,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 71,
+  "syllabus_mapping_verified_count": 77,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -638,6 +658,36 @@
       "question": 79,
       "unit": "Unit II",
       "rationale": "Official Code 24 Unit II explicitly includes pressure and winds."
+    },
+    {
+      "question": 80,
+      "unit": "Unit VIII",
+      "rationale": "Official Code 24 Unit VIII explicitly includes the contributions of Arab and Indian scholars."
+    },
+    {
+      "question": 81,
+      "unit": "Unit II",
+      "rationale": "Official Code 24 Unit II covers atmospheric composition and structure."
+    },
+    {
+      "question": 82,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes stream ordering and morphometric analysis."
+    },
+    {
+      "question": 83,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I covers geomorphology and tectonic processes."
+    },
+    {
+      "question": 84,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly lists principal component and cluster analysis."
+    },
+    {
+      "question": 85,
+      "unit": "Unit III",
+      "rationale": "Official Code 24 Unit III covers oceanography and relief of oceans, including trenches."
     }
   ],
   "remaining_review_question_numbers": [
@@ -650,12 +700,6 @@
     54,
     62,
     68,
-    80,
-    81,
-    82,
-    83,
-    84,
-    85,
     86,
     87,
     88,
@@ -672,5 +716,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 23–24 (printed pages 24–25) visually checked for Q74–Q79. English stems/options match canonical records; official final-key letters A,D,C,D,D,A match all six. Verified mappings: Q74 Unit VII (organic theory of state); Q75 Unit IV (Kyoto Protocol); Q76 Unit V (Toda tribe); Q77 Unit II (Köppen climate classification); Q78 Unit VIII (nature/scope and geographic traditions); Q79 Unit II (westerlies/pressure and winds). All six promoted active. Q80–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 25–26 (printed pages 26–27) visually checked for Q80–Q85. English stems/options and Q81's variable-gas matching table match canonical records; official final-key letters D,A,A,C,B,B match. Verified mappings: Q80 Unit VIII (scholarly contributions); Q81 Unit II (atmospheric composition); Q82 Unit IX (stream ordering/morphometry); Q83 Unit I (plate tectonics); Q84 Unit IX (PCA/cluster analysis); Q85 Unit III (ocean trenches). All six promoted active. Q86–Q100 remain source-visual pending."
 }
