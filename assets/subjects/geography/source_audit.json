@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "November 2025: all 100 questions visually checked and 100/100 official final-key matched; 92 active and eight review-only (Q8, Q10, Q23, Q26, Q51, Q54, Q62, Q68). Q32 mapped to Unit I (Geomorphology: coastal lagoon/spit landform). Five other listed papers (500 questions) remain untranscribed. August 2017 has three provisional syllabus mappings.",
+  "remaining_subject_work": "November 2025: all 100 questions visually checked and 100/100 official final-key matched; 93 active and seven review-only (Q8, Q10, Q23, Q26, Q51, Q62, Q68). Q32 and Q54 mapped to Unit I (Geomorphology: coastal lagoon/spit landform and island-origin classification). Five other listed papers (500 questions) remain untranscribed. August 2017 has three provisional syllabus mappings.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -204,5 +204,20 @@
     "syllabus_units": {
       "32": "Unit I"
     }
+  },
+  "nov2025_q54_mapping": {
+    "date": "2026-11-15",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "printed_page": 18,
+    "pdf_page_index_zero_based": 17,
+    "question": 54,
+    "final_key": "C",
+    "source_verified": true,
+    "answer_key_verified": true,
+    "syllabus_unit": "Unit I",
+    "mapping_rationale": "Geomorphology and landform occurrence; the item tests offshore, coral and volcanic island origins.",
+    "promoted_to_active": true
   }
 }
