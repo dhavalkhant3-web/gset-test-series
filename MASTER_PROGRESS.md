@@ -1163,3 +1163,8 @@ PR: https://github.com/dhavalkhant3-web/gset-test-series/pull/22 (OPEN, NOT MERG
 - Sanskrit Code 07 recovery blocker: 130 question records in questions.json; questions_review_pending.json is empty although source_audit.json reports 720 pending and 33 review-required. The 720 question objects are absent from canonical JSON and must be recovered from source/backup; no fabricated replacement was made.
 - Reconciled seven-subject totals: 580 active; 800 review-only present; 720 reported Sanskrit review records missing from canonical JSON; 1,100 not transcribed (Geography 500, Social Work 600). Expected total 3,200.
 - Geography changes saved through commit 1f263b6584496a58c2b05c841272a496c9683bb4. No PR merge authorized. No new PR-branch CI or APK pass is claimed.
+
+
+## 2026-11-15 — Geography Code 24 Q38–Q45 verified
+
+On PR #22 branch, verified official PDF printed pages 14–15 against Q38–Q45, checked all four options and official final-key letters, and assigned explicit Code 24 syllabus units. All eight were promoted to active. Geography now 140 active / 60 review-only; November 2025 Q1–Q45 visually checked (40 active, five source-verified review-only items), Q46–Q100 remain visual-review pending; 500 expected questions from five other papers remain untranscribed. No merge or combined APK claim.
