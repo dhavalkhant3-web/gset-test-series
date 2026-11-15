@@ -15,10 +15,10 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 24 | Geography | 191 | 9 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
-| 27 | Forensic Science | 92 | 208 | 0 | 0 |
-| **Total** | | **663** | **733** | **704** | **1,100** |
+| 27 | Forensic Science | 100 | 200 | 0 | 0 |
+| **Total** | | **671** | **725** | **704** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 655 active + 741 review-only records present + 704 Sanskrit review-only records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 671 active + 725 review-only records present + 704 Sanskrit review-only records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -269,4 +269,13 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Forensic Science Code 27 live bank: 100 active, 200 review-only; all 100 December 2024 questions are now loaded, of which 16 have been visually verified. Subject remains source_verified=false because the other two sessions are not fully verified. Mapping totals: 14 verified, 285 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
 - Sanskrit Code 07 queue is still empty; 704 distinct records from the 850-record Library staging source remain missing from canonical review JSON.
 - Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q35–Q50 verified
+- Official GSET PDF printed page 7: Q35–Q42 visually checked; page 8: Q43–Q49; page 9: Q50. Official final-key answers matched: Q35 B, Q36 A, Q37 A, Q38 A, Q39 C, Q40 A, Q41 D, Q42 A, Q43 A, Q44 A, Q45 C, Q46 B, Q47 A, Q48 C, Q49 D, Q50 B.
+- Source review complete for December 2024 Q35–Q50 (16 questions); all 16 activated with source_verified=true and review_flag=false. Official syllabus mapping verified for Q35–Q39 (Unit VIII), Q42–Q45 (Unit IX), Q46–Q50 (Unit X). Q40 and Q41 remain provisional mappings.
+- Forensic Science Code 27 live bank: 100 active, 200 review-only; December 2024 has 16 source-verified questions. Mapping totals: 14 verified, 285 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
+- Sanskrit Code 07 queue remains empty; 704 distinct staged records are missing from canonical review JSON.
+- Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON, 1,100 not transcribed = 3,200 expected.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI/APK pass claimed.
