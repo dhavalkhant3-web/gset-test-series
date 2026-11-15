@@ -16,7 +16,7 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **869** | **527** | **704** | **1,100** |
+| **Total** | | **968** | **428** | **704** | **1,100** |
 
 Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 869 active + 527 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
@@ -489,3 +489,9 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Promoted 99 December 2019 questions to active after confirming each has source_verified=true, answer_key_verified=true, verified Code 06 syllabus mapping, review_flag=false, and an answer matching the official FINAL key.
 - December 2019 Q7 remains review-only because the official final key prints Z and the official note excludes it from evaluation.
 - Gujarati bank is now 196 active / 204 review-only. This is a queue cleanup only; no question wording, options or answer letters were changed. The remaining 204 include 44 December 2002 and 50 December 2003 records whose available published keys are not explicitly labelled FINAL, plus source-review backlog in August 2017, December 2008 and December 2021.
+
+
+## 2026-11-15 — Reconciled seven-subject totals after Gujarati promotion
+- Gujarati Code 06: 99 December 2019 questions with completed source, official FINAL-key and syllabus checks moved from review queue to active. Q7 remains excluded as official Z/not evaluated. Gujarati now 196 active / 204 review-only.
+- Seven-subject canonical totals now 968 active + 428 review-only + 704 Sanskrit staging records absent from canonical JSON + 1,100 not yet transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- Other current closures remain: Geography 198/2; Environmental Sciences all 300 mapped to official syllabus but 213 review-only source flags retained; Forensic Science 291/9 with 300/300 source verification and final-key reconciliation.
