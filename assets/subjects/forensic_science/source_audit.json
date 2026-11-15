@@ -8,8 +8,8 @@
   "official_key_mismatches": 0,
   "visual_checked": 84,
   "proofread_pass1_pending_second_pass": 294,
-  "active_questions": 84,
-  "pending_review": 216,
+  "active_questions": 87,
+  "pending_review": 213,
   "syllabus_mapping": {
     "provisional_unit_matches": 296,
     "pending_subject_expert_review": 1,
@@ -88,5 +88,35 @@
     "result": "all selected stems/options visually matched; all selected answer letters matched final key"
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
-  "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate"
+  "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
+  "dec2024_visual_verified_question_numbers": [
+    48,
+    49,
+    50
+  ],
+  "dec2024_visual_verified_count": 3,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q48–Q50 newly source-page visually checked and activated.",
+  "dec2024_review_flags_remaining_count": 97,
+  "last_source_review": {
+    "date": "2026-11-15",
+    "paper": "December 2024",
+    "question_numbers": [
+      48,
+      49,
+      50
+    ],
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
+    "printed_pages": [
+      8,
+      9
+    ],
+    "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
+    "official_answers": {
+      "48": "C",
+      "49": "D",
+      "50": "B"
+    },
+    "result": "All three stems/options and official answer letters visually reconciled.",
+    "activated": true
+  }
 }
