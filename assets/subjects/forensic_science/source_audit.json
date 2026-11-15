@@ -172,7 +172,8 @@
     "count": 8,
     "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 3 (PDF page index 2).",
     "answer_key": "Official GSET Final Answer Key, December 2024, Paper-II",
-    "result": "All eight stems and all four options visually matched. Official final-key letters B, B, A, A, A, B, B, A matched. All eight records activated with official syllabus mappings. Source spellings 'Ocular lance' and 'Abbey Condensers' preserved."
+    "result": "All eight stems and all four options visually matched. Official final-key letters B, B, A, A, A, B, B, A matched. All eight records activated with official syllabus mappings. Source spellings 'Ocular lance' and 'Abbey Condensers' preserved.",
+    "note": "Q59 was also visually checked and final-key matched, but intentionally remains review-only due overlapping Units I and X."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
@@ -209,6 +210,7 @@
     56,
     57,
     58,
+    59,
     60,
     61,
     62,
@@ -251,8 +253,8 @@
     99,
     100
   ],
-  "dec2024_visual_verified_count": 73,
-  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q1–Q8 and Q35–Q100 source-page visually checked (Q1–Q8, Q35–Q58, Q60–Q100 activated; Q59 remains review-only for syllabus-unit ambiguity).",
+  "dec2024_visual_verified_count": 74,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q1–Q8 and Q35–Q100 (including Q59) source-page visually checked. Q1–Q8, Q35–Q58 and Q60–Q100 activated; Q59 remains review-only for syllabus-unit ambiguity.",
   "dec2024_review_flags_remaining_count": 27,
   "last_source_review": {
     "date": "2026-11-15",
