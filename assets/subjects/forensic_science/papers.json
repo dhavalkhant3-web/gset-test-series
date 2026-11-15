@@ -32,7 +32,10 @@
       "review_note": "All 100/100 questions source-page visually checked against the official November 2023 paper and independently matched against the official final answer key. Question-level syllabus mappings reviewed for all newly activated Q82–Q100; no answer values changed.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2327.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2327.pdf",
-      "source_reference_status": "official_GSET_URL_resolved"
+      "source_reference_status": "official_GSET_URL_resolved",
+      "unit_mapping_verified_count": 19,
+      "unit_mapping_provisional_count": 81,
+      "unit_mapping_pending_count": 0
     },
     {
       "paper_id": "forensic_science_dec2024",
@@ -56,7 +59,10 @@
       "review_note": "December 2024 Q1–Q34 and Q35–Q100 source checked. Q1–Q19, Q23–Q24, Q27–Q32, Q34–Q58 and Q60–Q100 active; Q20–Q22, Q25–Q26, Q33 and Q59 source/key verified but retained review-only for syllabus scope.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
-      "source_reference_status": "official_GSET_URL_resolved"
+      "source_reference_status": "official_GSET_URL_resolved",
+      "unit_mapping_verified_count": 91,
+      "unit_mapping_provisional_count": 9,
+      "unit_mapping_pending_count": 0
     },
     {
       "paper_id": "forensic_science_nov2025",
@@ -184,7 +190,10 @@
         100
       ],
       "source_reviewed_question_count": 100,
-      "source_review_note": "Q1–Q100 stems and all four options are visually checked against official printed pages 3–15. Official final-key parity is recorded for all 100. Review-only records remain held where mapping is provisional/pending; visual source verification does not auto-promote."
+      "source_review_note": "Q1–Q100 stems and all four options are visually checked against official printed pages 3–15. Official final-key parity is recorded for all 100. Review-only records remain held where mapping is provisional/pending; visual source verification does not auto-promote.",
+      "unit_mapping_verified_count": 95,
+      "unit_mapping_provisional_count": 4,
+      "unit_mapping_pending_count": 1
     }
   ]
 }
