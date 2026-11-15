@@ -454,3 +454,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - All three were already visually checked against the official paper and official final-key matched; question wording, options and answer letters were preserved.
 - November 2025 Geography now 98 active / 2 review-only. Q23 remains held for an apparent official-key/content conflict; Q26 remains held because the geological-period chronology is not explicit in the Code 24 syllabus. Five other Geography papers (500 questions) remain untranscribed.
 - Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. No other subject changed; PR #22 remains unmerged.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2025 Q22–Q45 visual source verification
+- Visually compared Q22–Q45 and all four options with official PDF printed pages 4–7 (PDF zero-based pages 3–6). Stored stems, option order and official answer letters were retained; no corrections were needed.
+- Q35 option A remains as printed in the scan: “Pentathol sodium”.
+- November 2025 source-verified coverage increased from 20 to 44/100; Q46–Q100 remain pending (55 questions). Across all sessions, the 87 review-only records remain review-only where syllabus mapping is provisional; source verification does not automatically activate them.
+- Official source: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf. PR #22 remains open/unmerged.
