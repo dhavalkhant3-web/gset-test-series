@@ -6,12 +6,12 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 107,
-  "proofread_pass1_pending_second_pass": 187,
-  "active_questions": 113,
-  "pending_review": 187,
+  "visual_checked": 203,
+  "proofread_pass1_pending_second_pass": 97,
+  "active_questions": 196,
+  "pending_review": 104,
   "syllabus_mapping": {
-    "provisional_unit_matches": 272,
+    "provisional_unit_matches": 189,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
       "Unit 10": 49,
@@ -38,7 +38,7 @@
       }
     ],
     "review_note": "Official Code 27 syllabus manually checked for December 2024 Q1–Q34, Q51–Q58 and Q60–Q100. Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain provisional because exact topics are not explicit in the syllabus.",
-    "verified_unit_mappings": 91,
+    "verified_unit_mappings": 110,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q048",
       "GSET-FS27-DEC2024-Q049",
@@ -136,36 +136,95 @@
       "date": "2026-11-15",
       "verified_questions": [
         {
-          "question_id": "GSET-FS27-DEC2024-Q027",
-          "unit": "Unit III"
+          "question_id": "GSET-FS27-NOV2023-Q082",
+          "unit": "Unit II"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q028",
-          "unit": "Unit III"
+          "question_id": "GSET-FS27-NOV2023-Q083",
+          "unit": "Unit V"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q029",
-          "unit": "Unit III"
+          "question_id": "GSET-FS27-NOV2023-Q084",
+          "unit": "Unit VII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q030",
-          "unit": "Unit III"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q031",
-          "unit": "Unit III"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q032",
-          "unit": "Unit III"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q034",
+          "question_id": "GSET-FS27-NOV2023-Q085",
           "unit": "Unit VIII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q086",
+          "unit": "Unit VII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q087",
+          "unit": "Unit VII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q088",
+          "unit": "Unit VII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q089",
+          "unit": "Unit X"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q090",
+          "unit": "Unit X"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q091",
+          "unit": "Unit VII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q092",
+          "unit": "Unit I"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q093",
+          "unit": "Unit VI"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q094",
+          "unit": "Unit III"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q095",
+          "unit": "Unit VII"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q096",
+          "unit": "Unit V"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q097",
+          "unit": "Unit IV"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q098",
+          "unit": "Unit III"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q099",
+          "unit": "Unit VI"
+        },
+        {
+          "question_id": "GSET-FS27-NOV2023-Q100",
+          "unit": "Unit IV"
         }
       ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
-      "source_page": 5
+      "source_pages": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "mapping_summary": {
+      "verified": 110,
+      "provisional": 189,
+      "pending": 1
     }
   },
   "source_pages": [
@@ -174,23 +233,32 @@
     "nov2527.pdf"
   ],
   "last_visual_review": {
-    "session": "December 2024",
+    "session": "November 2023",
     "questions": [
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
     ],
-    "count": 10,
-    "source": "Official GSET December 2024 Forensic Science Paper-II, printed page 5 (PDF page index 4).",
-    "answer_key": "Official GSET Final Answer Key, December 2024, Paper-II",
-    "result": "All ten stems and options visually matched; final-key letters D, B, A, B, D, D, A, D, A, D matched. Q27–Q32 activated under Unit III and Q34 under Unit VIII. Q25, Q26 and Q33 source/key verified but retained review-only due exact syllabus-topic ambiguity."
+    "count": 19,
+    "source": "Official GSET November 2023 Forensic Science Paper-II, printed pages 13–15 (PDF page indexes 12–14).",
+    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
+    "result": "All 19 stems and four options visually matched. Final-key letters B,D,D,B,A,A,C,B,B,B,C,D,C,B,C,B,A,A,A matched. Official syllabus mapping checked and activated."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
