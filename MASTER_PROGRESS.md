@@ -1254,3 +1254,12 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Sanskrit Code 07 remains the immediate recovery blocker: live review queue file is zero bytes; 704 distinct records from the 850-record Library staging source remain absent from canonical review JSON. Do not mark restored until live GitHub file contains the records.
 - Seven-subject totals: 663 active, 733 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged. No CI run or combined Debug APK pass is verified for these latest commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q35–Q50 completed
+- Visually checked official GSET December 2024 Forensic Science Paper-II PDF printed pages 7–9 for Q35–Q50 and independently matched all 16 answer letters against the official final key. All 16 moved from review-only to active with source_verified=true and review_flag=false.
+- Official Code 27 syllabus page 5 confirms 14 explicit mappings: Q35–Q39 -> Unit VIII; Q42–Q45 -> Unit IX; Q46–Q50 -> Unit X. Q40 and Q41 remain provisional mappings; their source review is complete but no unsupported unit promotion was made. One mapping remains pending: November 2025 Q47 forensic-engineering scope.
+- Forensic Science Code 27: 100 active / 200 review-only; December 2024 session 100/100 questions now loaded, with 16 source-page visually verified. Subject-level source_verified remains false because November 2023 and November 2025 still need their own source review. Mapping totals: 14 verified, 285 provisional, 1 pending.
+- Sanskrit Code 07 remains blocked: review queue file is empty; 704 distinct staged records remain missing from canonical review JSON. Do not claim restored.
+- Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or combined Debug APK pass verified for these commits.
