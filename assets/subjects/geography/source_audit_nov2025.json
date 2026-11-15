@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 37,
-  "active_questions": 32,
-  "pending_review": 68,
-  "source_visual_status": "partial: Q1–Q37 visually checked against official PDF printed pages 3–13; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31 and Q33–Q37 active; Q8, Q10, Q26 and Q32 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q38–Q100 remain source-visual pending",
+  "source_visual_checked": 45,
+  "active_questions": 40,
+  "pending_review": 60,
+  "source_visual_status": "partial: Q1–Q45 visually checked against official PDF printed pages 3–15; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31 and Q33–Q45 active; Q8, Q10, Q26 and Q32 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q46–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -51,7 +51,15 @@
     34,
     35,
     36,
-    37
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -64,7 +72,9 @@
     9,
     10,
     11,
-    12
+    12,
+    13,
+    14
   ],
   "source_visual_printed_pages": [
     3,
@@ -77,7 +87,9 @@
     10,
     11,
     12,
-    13
+    13,
+    14,
+    15
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -138,6 +150,18 @@
       35,
       36,
       37
+    ],
+    "printed_page_14": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "printed_page_15": [
+      42,
+      43,
+      44,
+      45
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -150,7 +174,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 33,
+  "syllabus_mapping_verified_count": 41,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -316,6 +340,46 @@
       "question": 37,
       "unit": "Unit VI",
       "rationale": "Official Code 24 Unit VI explicitly lists theories of industrial location, including A. Weber."
+    },
+    {
+      "question": 38,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly includes rural settlement types, patterns and distribution."
+    },
+    {
+      "question": 39,
+      "unit": "Unit X",
+      "rationale": "Official Code 24 Unit X explicitly includes Regional Development Planning in India."
+    },
+    {
+      "question": 40,
+      "unit": "Unit IV",
+      "rationale": "Official Code 24 Unit IV explicitly lists international treaties and the Paris Agreement."
+    },
+    {
+      "question": 41,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 Unit VII explicitly lists Heartland and Rimland Theories."
+    },
+    {
+      "question": 42,
+      "unit": "Unit IV",
+      "rationale": "Official Code 24 Unit IV explicitly includes water pollution and environmental impacts."
+    },
+    {
+      "question": 43,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 Unit VII explicitly includes social well-being and quality of life."
+    },
+    {
+      "question": 44,
+      "unit": "Unit IV",
+      "rationale": "Official Code 24 Unit IV covers environmental hazards, pollution and human impacts."
+    },
+    {
+      "question": 45,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 Unit VII explicitly lists boundaries and frontiers."
     }
   ],
   "remaining_review_question_numbers": [
@@ -324,14 +388,6 @@
     23,
     26,
     32,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
     46,
     47,
     48,
@@ -388,5 +444,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 11–12 (printed pages 12–13) visually checked for Q32–Q37. English stems/options match canonical records; official final-key letters D,B,D,B,A,B match the registered key. Verified syllabus mappings: Q33 Unit V (mortality analysis); Q34 Unit V (rural settlements); Q35 Unit VI (world agricultural systems); Q36 Unit VII (social well-being/quality of life); Q37 Unit VI (Weber's industrial location theory). Q33–Q37 promoted active. Q32 source-verified/key-matched but retained review-only pending a defensible coastal lagoon syllabus placement. Q38–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 13–14 (printed pages 14–15) visually checked for Q38–Q45. English stems and all four options match canonical transcriptions; official final-key letters D,C,C,C,D,A,A,C match all eight. Official syllabus mappings: Q38 Unit V (rural settlement patterns); Q39 Unit X (regional planning in India); Q40 Unit IV (Paris Agreement); Q41 Unit VII (Rimland Theory); Q42 Unit IV (water pollution/eutrophication); Q43 Unit VII (quality of life); Q44 Unit IV (environmental hazards); Q45 Unit VII (frontiers). All eight promoted active. Q46–Q100 remain source-visual pending; Q8/Q10/Q26/Q32 mapping pending and Q23 key conflict remain review-only."
 }
