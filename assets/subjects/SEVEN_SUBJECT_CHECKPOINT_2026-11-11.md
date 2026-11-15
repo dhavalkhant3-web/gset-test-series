@@ -359,3 +359,13 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Seven-subject totals: 729 -> 737 active; 667 -> 659 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q9–Q16.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q9–Q16 source verification
+- Official GSET question-paper printed page 4 (PDF page index 3) visually checked. All eight stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters A, C, B, B, B, A, B, C match Q9–Q16 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q9 Unit VIII (fingerprint methods); Q10–Q11 Unit V (primer charge and rifled firearms); Q12 Unit I (lie detection/polygraphy); Q13–Q16 Unit III (DNA structure, profiling and extraction). Q16 was corrected from the earlier provisional Unit IV to Unit III based on the explicit DNA extraction coverage in Unit III.
+- All eight records moved from review-only to active. Forensic Science Code 27: 157 -> 165 active; 143 -> 135 review-only. December 2024 source-verified count 74 -> 82; Q17–Q34 remain pending source review (18 questions), while Q59 remains review-only for syllabus ambiguity. Mapping totals: 71 -> 79 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 737 -> 745 active; 659 -> 651 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q17–Q24.
