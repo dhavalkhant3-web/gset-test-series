@@ -11,10 +11,10 @@
   "active_questions": 84,
   "pending_review": 216,
   "syllabus_mapping": {
-    "provisional_unit_matches": 298,
+    "provisional_unit_matches": 296,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
-      "Unit 10": 45,
+      "Unit 10": 47,
       "Unit 1": 27,
       "Unit 2": 25,
       "Unit 8": 24,
@@ -38,19 +38,30 @@
       }
     ],
     "review_note": "Provisional unit assignments were made from each question stem/options against the official unit scope. No question source-verification, answer key, or active/review-only status was changed.",
-    "verified_unit_mappings": 1,
+    "verified_unit_mappings": 3,
     "verified_question_ids": [
-      "GSET-FS27-DEC2024-Q050"
+      "GSET-FS27-DEC2024-Q050",
+      "GSET-FS27-DEC2024-Q048",
+      "GSET-FS27-DEC2024-Q049"
     ],
     "last_mapping_review": {
       "date": "2026-11-15",
-      "question_id": "GSET-FS27-DEC2024-Q050",
-      "unit": "Unit 10",
-      "decision": "verified",
-      "evidence": "Official GSET Code 27 syllabus PDF, page 5, Unit X explicitly includes Forensic Entomology; question asks the forensic use of insects to estimate post-mortem interval.",
+      "verified_questions": [
+        {
+          "question_id": "GSET-FS27-DEC2024-Q048",
+          "unit": "Unit 10",
+          "evidence": "Official Code 27 syllabus Unit X explicitly includes post-mortem examination and its medicolegal importance."
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q049",
+          "unit": "Unit 10",
+          "evidence": "Official Code 27 syllabus Unit X explicitly includes post-mortem changes and estimation of time since death."
+        }
+      ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+      "source_page": 5,
       "source_verified": false,
-      "review_flag_retained": true
+      "review_flags_retained": true
     }
   },
   "source_pages": [
