@@ -33572,8 +33572,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source page and all four options inspected. Printed stem begins “वेदत्रयीपदार्थ...” while the current canonical transcription reads “वेदप्रतिदित...”. This is a material Devanagari transcription discrepancy; retain review-only until the exact source glyphs are resolved.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Official Code 07 syllabus-mapped topic",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -33599,7 +33599,9 @@
     "figure_group": null,
     "figure_instruction": null,
     "figure_asset": null,
-    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF, printed page 14 (PDF zero-based page 13). Official final-key letter A matched the registered GSET final-key table. Syllabus mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF, printed page 14 (PDF zero-based page 13). Official final-key letter A matched the registered GSET final-key table. Syllabus mapping remains pending.",
+    "syllabus_unit": "Unit I",
+    "syllabus_mapping_note": "Unit I explicitly includes Brahmana and Aranyaka literature within the general study of Vedic literature; the source stem concerns the emergence/purpose of Vedic explanatory texts. Transcription remains flagged."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q091",
@@ -33621,8 +33623,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source page and options inspected. The printed Vedic verse differs in several conjunct/diacritic details from the current canonical transcription (notably the phrase around “भद्रेषां/भद्रैषां” and “लक्ष्मीर्निहिताधि”). Keep review-only until a high-resolution crop confirms the exact source spelling.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Official Code 07 syllabus-mapped topic",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -33648,7 +33650,9 @@
     "figure_group": null,
     "figure_instruction": null,
     "figure_asset": null,
-    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter C matched the registered GSET final-key table. Syllabus mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter C matched the registered GSET final-key table. Syllabus mapping remains pending.",
+    "syllabus_unit": "Unit II",
+    "syllabus_mapping_note": "Unit II explicitly lists the Rigveda Jñana Sukta (10.71), which the question's keyed option identifies. Source transcription remains flagged."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q093",
@@ -33670,8 +33674,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source page and options inspected. The printed mantra appears to read “उदितं मामकं वचः”, while the canonical transcription has “उदिदं मामकं वचः”; the following sandhi/avagraha also needs exact comparison. Keep review-only pending a high-resolution transcription check.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Official Code 07 syllabus-mapped topic",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -33697,7 +33701,9 @@
     "figure_group": null,
     "figure_instruction": null,
     "figure_asset": null,
-    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter D matched the registered GSET final-key table. Syllabus mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter D matched the registered GSET final-key table. Syllabus mapping remains pending.",
+    "syllabus_unit": "Unit II",
+    "syllabus_mapping_note": "Unit II's specific Atharvaveda study explicitly lists Rashtraabhivardhanam (1.29). Source transcription remains flagged."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q094",
@@ -33768,8 +33774,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Source page and options inspected. The printed verse phrase appears to read “न वेदि ... पञ्चांशः”, while the canonical transcription reads “न वेद्मि ... पद्यांशः”. This is a material transcription discrepancy; retain review-only pending high-resolution confirmation.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Official Code 07 syllabus-mapped topic",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -33795,6 +33801,8 @@
     "figure_group": null,
     "figure_instruction": null,
     "figure_asset": null,
-    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter D matched the registered GSET final-key table. Syllabus mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET Sanskrit November 2025 Paper-II PDF: Q91–Q92 on printed page 14 and Q93–Q100 on printed page 15 (PDF zero-based pages 13–14). Official final-key letter D matched the registered GSET final-key table. Syllabus mapping remains pending.",
+    "syllabus_unit": "Unit VII",
+    "syllabus_mapping_note": "Unit VII's general introduction lists major Sanskrit poets and Mahakavyas; this is an author-identification question. Source transcription remains flagged."
   }
 ]
