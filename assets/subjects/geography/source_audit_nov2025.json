@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 10,
-  "active_questions": 8,
-  "pending_review": 92,
-  "source_visual_status": "partial: Q1–Q10 visually checked against official PDF printed pages 3–5; Q1–Q7 and Q9 active; Q8 and Q10 remain review-only for syllabus-mapping confirmation; Q11–Q100 remain source-visual pending",
+  "source_visual_checked": 18,
+  "active_questions": 16,
+  "pending_review": 84,
+  "source_visual_status": "partial: Q1–Q18 visually checked against official PDF printed pages 3–7; Q1–Q7, Q9 and Q11–Q18 active; Q8 and Q10 remain review-only for syllabus-mapping confirmation; Q19–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -24,17 +24,29 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
     3,
-    4
+    4,
+    5,
+    6
   ],
   "source_visual_printed_pages": [
     3,
     4,
-    5
+    5,
+    6,
+    7
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -52,6 +64,18 @@
       8,
       9,
       10
+    ],
+    "printed_page_6": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "printed_page_7": [
+      15,
+      16,
+      17,
+      18
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -64,7 +88,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 8,
+  "syllabus_mapping_verified_count": 16,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -105,19 +129,51 @@
       "question": 9,
       "unit": "Unit VII",
       "rationale": "Official Code 24 syllabus Unit VII (Cultural, Social and Political Geography) explicitly lists Geography of Federalism; the stem directly asks the defining characteristic of federalism."
+    },
+    {
+      "question": 11,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 syllabus Unit VII explicitly lists Cultural Ecology."
+    },
+    {
+      "question": 12,
+      "unit": "Unit IV",
+      "rationale": "Official Code 24 syllabus Unit IV explicitly lists International Programmes and Policies, including Agenda 21."
+    },
+    {
+      "question": 13,
+      "unit": "Unit VIII",
+      "rationale": "Official Code 24 syllabus Unit VIII explicitly names Immanuel Kant among contributions of geographers."
+    },
+    {
+      "question": 14,
+      "unit": "Unit II",
+      "rationale": "Official Code 24 syllabus Unit II (Climatology) explicitly includes temperature."
+    },
+    {
+      "question": 15,
+      "unit": "Unit VIII",
+      "rationale": "The item tests geographic thought and man–environment traditions; official Unit VIII includes contributions of geographers, major geographic traditions, man–environment relationship and dualisms."
+    },
+    {
+      "question": 16,
+      "unit": "Unit II",
+      "rationale": "Official Code 24 syllabus Unit II explicitly lists thunderstorms under Meteorological Hazards and Disasters."
+    },
+    {
+      "question": 17,
+      "unit": "Unit VIII",
+      "rationale": "Official Code 24 syllabus Unit VIII explicitly lists the regional-versus-systematic dualism."
+    },
+    {
+      "question": 18,
+      "unit": "Unit III",
+      "rationale": "Official Code 24 syllabus Unit III explicitly includes circulation of warm and cold ocean currents."
     }
   ],
   "remaining_review_question_numbers": [
     8,
     10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
     19,
     20,
     21,
@@ -201,5 +257,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-14: official PDF page index 4 (printed page 5) rendered successfully. Q8–Q10 English stems and all four options checked; Q8 two-column matching table checked. Final-key letters A, B, C match exactly. Q9 mapped to Unit VII (Geography of Federalism) and promoted active. Q8 and Q10 source-verified but remain review-only due to syllabus-placement uncertainty. Gujarati-side text was not populated."
+  "batch_note": "2026-11-15: Official PDF page indexes 5 and 6 (printed pages 6 and 7) visually checked for Q11–Q18. English stems and all four options match canonical transcription; official final-key answers C,D,C,C,C,C,D,A match all eight records. Syllabus mappings verified against official Code 24 syllabus: Q11 VII, Q12 IV, Q13 VIII, Q14 II, Q15 VIII, Q16 II, Q17 VIII, Q18 III. Promoted Q11–Q18 to active. Q8 and Q10 remain review-only for mapping; Q19–Q100 remain source-visual pending. Gujarati-side text not populated."
 }
