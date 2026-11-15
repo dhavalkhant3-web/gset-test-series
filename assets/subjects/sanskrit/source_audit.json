@@ -142,7 +142,33 @@
       "answer_entries": 50
     }
   ],
-  "syllabus_mapping": "all pending; official syllabus not supplied",
+  "syllabus_mapping": {
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "verified": 18,
+    "provisional": 0,
+    "pending": 832,
+    "verified_question_ids": [
+      "GSET-SAN07-NOV2025-Q072",
+      "GSET-SAN07-NOV2025-Q074",
+      "GSET-SAN07-NOV2025-Q075",
+      "GSET-SAN07-NOV2025-Q076",
+      "GSET-SAN07-NOV2025-Q078",
+      "GSET-SAN07-NOV2025-Q080",
+      "GSET-SAN07-NOV2025-Q086",
+      "GSET-SAN07-NOV2025-Q088",
+      "GSET-SAN07-NOV2025-Q089",
+      "GSET-SAN07-NOV2025-Q090",
+      "GSET-SAN07-NOV2025-Q091",
+      "GSET-SAN07-NOV2025-Q092",
+      "GSET-SAN07-NOV2025-Q093",
+      "GSET-SAN07-NOV2025-Q096",
+      "GSET-SAN07-NOV2025-Q097",
+      "GSET-SAN07-NOV2025-Q098",
+      "GSET-SAN07-NOV2025-Q099",
+      "GSET-SAN07-NOV2025-Q100"
+    ],
+    "note": "18 question-level mappings were verified against the official Code 07 syllabus. Remaining 832 of the 850 canonical questions remain unmapped pending individual content review; no inferred mappings were forced."
+  },
   "source_page_reference": "Official GSET Sanskrit November 2023 Paper-II PDF nov2307.pdf, pages 3–15 (questions 1–100); official final answer key nov2307.pdf.",
   "nov2023_review_only_archival_copies_retained": 91,
   "dec2024_final_key_parity": "100/100 staged answer letters match the official GSET final answer key",
@@ -606,5 +632,6 @@
     "review_required_records": 39,
     "not_evaluated_official_Z_records": 2,
     "discrepancy": "Resolved: the consolidated Library staging source was recovered. The 720 non-overlapping records were absent from the repository review queue and are now restored. No missing question text was invented."
-  }
+  },
+  "syllabus_mapping_status": "partially_mapped_official_syllabus"
 }
