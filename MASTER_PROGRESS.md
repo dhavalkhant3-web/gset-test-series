@@ -1390,3 +1390,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Official Code 27 syllabus mappings: Q4 Unit IV (chemical examination of tissues/viscera); Q5 Unit VI (fire/arson and accelerants); Q6–Q7 Unit IV (pesticides and metallic poisons); Q9–Q10 Unit IV (trap-case chemicals and drugs of abuse). All six moved to active.
 - November 2025 now 9 active / 91 awaiting source review. Forensic Science total: 202 active / 98 review-only. December 2024 holds remain seven (Q20–Q22, Q25–Q26, Q33, Q59); November 2025 remaining review queue 91.
 - Question-level syllabus mapping: 116 reviewed, 183 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q32 official syllabus mapping closure
+- Rechecked the already source-verified Q32 record against official GSET Code 24 syllabus PDF. The question identifies Pulicat Lake as a lagoon enclosed by a spit; official Unit I is Geomorphology and explicitly includes landform occurrence. This is a direct geomorphic landform match, so Q32 is mapped to Unit I.
+- Official question-paper printed page 12 and official November 2025 final answer key independently confirm the stem/options and answer D. No answer or source wording changed.
+- Promoted Q32 from review-only to active. Geography now 192 active / 8 review-only across 200 transcribed questions; November 2025 has 92 active / 8 review-only, 100/100 source visual checks, 100/100 final-key parity, and 93 verified / 7 provisional syllabus mappings. The eight review-only records are Q8, Q10, Q23, Q26, Q51, Q54, Q62 and Q68.
+- Updated canonical questions, review queue, source audits, paper manifest and subject registry. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
