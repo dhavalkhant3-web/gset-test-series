@@ -176,14 +176,14 @@
       "question_paper_file": "nov2524.pdf",
       "answer_key_file": "nov2524__1_.pdf",
       "questions_transcribed": 100,
-      "questions_loaded": 92,
+      "questions_loaded": 93,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
       "answer_key_verified": true,
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 8,
+      "review_flags_remaining_count": 7,
       "status": "source_verified_syllabus_mapping_pending",
       "review_note": "Q1–Q10 visually checked against official question-paper printed pages 3–5; all ten final-key letters match. Q1–Q7 and Q9 are active with verified syllabus mappings; Q8 and Q10 remain review-only for provisional syllabus placement; Q11–Q100 remain pending source visual review.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf",
@@ -296,11 +296,11 @@
       ],
       "answer_key_reconciled_question_count": 100,
       "answer_key_reconciliation_mismatch_count": 0,
-      "unit_mapping_verified_count": 93,
-      "unit_mapping_provisional_count": 7,
+      "unit_mapping_verified_count": 94,
+      "unit_mapping_provisional_count": 6,
       "unit_mapping_pending_count": 0,
-      "unit_mapping_status_note": "93/100 mappings are verified against official Code 24 units. Seven mapping holds remain (Q8, Q10, Q26, Q51, Q54, Q62, Q68); Q23 is mapped but remains review-only for an official-key/content concern. Q32 is verified as Unit I (Geomorphology: coastal lagoon/spit landform).",
-      "source_review_note": "Official GSET November 2025 PDF printed pages 3–31 visually checked for Q1–Q100; all stems and four-option sets are source-verified. Official final-key parity is 100/100 with zero mismatches. Q8, Q10, Q26, Q51, Q54, Q62 and Q68 remain review-only for syllabus mapping; Q23 remains review-only for key/content review. Q32 is mapped to Unit I based on the official syllabus coverage of geomorphology and landform occurrence."
+      "unit_mapping_status_note": "94/100 mappings are verified against official Code 24 units. Six mapping holds remain (Q8, Q10, Q26, Q51, Q62, Q68); Q23 is mapped but remains review-only for an official-key/content concern. Q32 and Q54 are mapped to Unit I (Geomorphology: coastal lagoon/spit landform and island-origin classification).",
+      "source_review_note": "Official GSET November 2025 PDF printed pages 3–31 visually checked for Q1–Q100; all stems and four-option sets are source-verified. Official final-key parity is 100/100 with zero mismatches. Q8, Q10, Q26, Q51, Q62 and Q68 remain review-only for syllabus mapping; Q23 remains review-only for key/content review. Q32 (coastal lagoon/spit) and Q54 (island origins) are mapped to Unit I (Geomorphology)."
     }
   ]
 }
