@@ -106,9 +106,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 11,
-      "questions_loaded": 114,
-      "questions_pending_review": 736,
-      "data_status": "850 transcribed across 11 sessions; 114 active (99 November 2023 and 15 November 2025 visually checked); all remaining 736 records restored to questions_review_pending.json as review-only. 33 staging records are review_required, including two missing official answers; Q33 remains review-required. Official syllabus mapping pending."
+      "questions_loaded": 130,
+      "questions_pending_review": 0,
+      "data_status": "Current canonical files: 130 question records in questions.json; all 130 are source_verified and official-key reconciled, but all 130 still have pending official syllabus mapping. IMPORTANT RECOVERY BLOCKER: source_audit.json reports 720 pending review records (850 transcribed minus 130 active), but questions_review_pending.json is empty at the current branch head and was also empty in its last recorded commits; those 720 question objects are not present in the canonical review queue. The audit also reports 33 review_required records and 2 missing official answers, but the 130 active JSON records have 0 review_flag=true. Do not count the 720 as stored review-only records until recovered. Five keys-only sessions contain 300 answer entries; these are not question records. Official syllabus mapping remains pending."
     },
     {
       "code": "08",
@@ -122,9 +122,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 1,
-      "questions_loaded": 49,
-      "questions_pending_review": 1,
-      "data_status": "49 active questions; Q48 retained review-only due official key/content conflict. Syllabus mapping: 43 verified, 5 provisional, 1 pending (Q46)."
+      "questions_loaded": 50,
+      "questions_pending_review": 0,
+      "data_status": "50 question records in canonical questions.json; all 50 source-verified and official final-key reconciled. The September 2016 official final key confirms Q48=D (Adam Smith); prior answer-conflict note is superseded. Syllabus mapping: 48 verified, 0 provisional, 2 pending (Q46 Apartheid/South Africa and Q48 Adam Smith/The Wealth of Nations); retain pending because the official Code 08 syllabus does not provide a sufficiently direct unit placement. No question objects are in questions_review_pending.json."
     },
     {
       "code": "09",
@@ -348,9 +348,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 8,
-      "questions_loaded": 108,
-      "data_status": "200 question records transcribed across September 2016, August 2017 and November 2025. September 2016 and August 2017 (100 questions) source-verified and final-key matched. November 2025 Q1–Q10 visually checked; all ten final-key letters match; Q1–Q7 and Q9 active, while Q8 and Q10 remain review-only pending syllabus-placement confirmation. Q11–Q100 source visual review pending. Current bank: 108 active, 92 review-only; 500 questions across five additional papers not yet transcribed. Syllabus mappings: Sep16 49 verified/1 provisional; Aug17 47 verified/3 provisional; Nov25 8 verified/92 provisional.",
-      "questions_pending_review": 92
+      "questions_loaded": 132,
+      "data_status": "200 question records transcribed across September 2016, August 2017 and November 2025. Current canonical bank: 132 active, 68 review-only; 500 expected questions across five additional papers not yet transcribed. Sep 2016: 49 syllabus mappings verified/1 provisional. Aug 2017: 47 verified/3 provisional. Nov 2025: Q1–Q37 visually checked against official printed pages 3–13; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31 and Q33–Q37 active (32 active); Q8, Q10, Q26 and Q32 remain mapping-review only; Q23 remains review-only due official-key/content discrepancy (official key A preserved); Q38–Q100 visual review pending. Nov 2025 mapping: 33 verified, 4 provisional/pending. Gujarati-side text is not populated.",
+      "questions_pending_review": 68
     },
     {
       "code": "25",
