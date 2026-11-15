@@ -1219,3 +1219,8 @@ Recovered `gset_sanskrit_07_consolidated_staging.json` from the Library. The fil
 ## 2026-11-15 — Sanskrit Code 07 November 2025 Q71–Q76 verified
 
 Official GSET Sanskrit November 2025 Paper-II printed page 12 was visually checked against the six canonical question records. All stems and four-option sets match; official final-key letters B, B, C, C, D, A match the registered key table. Q71–Q76 promoted to active; syllabus mapping remains pending. Sanskrit totals: 136 active / 714 review-only, with 37/100 November 2025 questions visually verified. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Sanskrit Code 07 Q85–Q90 source verification
+
+Official November 2025 Sanskrit Paper-II printed page 14 visually checked for Q85–Q90. Final-key letters C, A, C, A, B, C match the registered final-key table. Q86, Q87, Q89 and Q90 promoted active; Q85 and Q88 remain source-verified but review-only due exact Devanagari transcription discrepancies. Sanskrit now 140 active / 710 review-only; November 2025 visual verification 43/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
