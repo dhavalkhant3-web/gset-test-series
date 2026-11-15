@@ -1234,3 +1234,14 @@ Official November 2025 Sanskrit Paper-II printed pages 14–15 visually checked 
 ## 2026-11-15 — Official Sanskrit syllabus registered; 18 mappings verified
 
 Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/subjects/syllabus_units.json`. Added 18 question-level mappings for November 2025 Sanskrit questions to directly named syllabus texts/topics. Q88, Q91, Q93 and Q97 remain review-only for transcription discrepancies despite having a syllabus unit; 832 of 850 Sanskrit records remain unmapped pending content review. Counts unchanged: 146 active / 704 review-only. No PR merge or APK pass claimed.
+
+
+## 2026-11-15 — Live re-audit correction and Forensic Science mapping completion batch
+
+- Forensic Science Code 27: verified three direct Unit X mappings against the official GSET Code 27 syllabus PDF, page 5: December 2024 Q48 (forensic autopsy/post-mortem examination), Q49 (rigor mortis/post-mortem changes), and Q50 (forensic entomology). Mapping totals: 3 verified, 296 provisional, 1 pending (November 2025 Q47 forensic-engineering scope). Official answers B/B/B unchanged. All three remain `source_verified=false`, `review_flag=true`, and review-only pending independent source-page visual verification. No activation.
+- Updated the canonical Forensic Science review queue, `source_audit.json`, subject registry, seven-subject checkpoint and `VERIFICATION_LOG.json` on this branch. Latest batch commit: `2f72906d270c750e7d35bb51b88382bdde1e399b`.
+- Sanskrit live-state correction: a fresh fetch of `assets/subjects/sanskrit/questions_review_pending.json` returned an empty file (zero bytes), while `questions.json` contains 146 active records and `source_audit.json` reports 704 pending. Therefore the earlier statement in this file that 720 records had been restored is NOT the current live repository state and must not be relied on. The Library staging source contains 850 unique records; restoring the 704 records not already active remains outstanding. No records were fabricated or promoted in this execution.
+- Geography Code 24 November 2025 Q1–Q100 source-visual verification is complete; 191 active and nine review-only remain, with 500 questions across five other papers not transcribed.
+- History Code 08 Q46 and Q48 syllabus mappings remain pending because the official syllabus does not provide a direct unit placement; Q48's answer was corrected to official key D in the prior audit.
+- Social Work Code 25 still has 600 answer-key entries but no question transcription. Gujarati 303, Environmental Sciences 213, and Forensic Science 216 review-only records remain in their current gates; Sanskrit's 704-record pending queue requires restoration.
+- No Code 01, Code 02, Code 28, Paper-I or app UI files changed. PR #22 remains unmerged. No CI run or combined Debug APK pass is verified for the latest commits.
