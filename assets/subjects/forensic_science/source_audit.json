@@ -8,22 +8,22 @@
   "official_key_mismatches": 0,
   "visual_checked": 84,
   "proofread_pass1_pending_second_pass": 294,
-  "active_questions": 92,
-  "pending_review": 208,
+  "active_questions": 100,
+  "pending_review": 200,
   "syllabus_mapping": {
-    "provisional_unit_matches": 291,
+    "provisional_unit_matches": 285,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
       "Unit 10": 49,
       "Unit 1": 27,
       "Unit 2": 25,
-      "Unit 8": 24,
+      "Unit 8": 29,
       "Unit 3": 45,
       "Unit 5": 46,
       "Unit 7": 32,
       "Unit 4": 33,
       "Unit 6": 11,
-      "Unit 9": 3
+      "Unit 9": 4
     },
     "session_distribution": {
       "November 2023 (exam date 26 Nov 2023)": 100,
@@ -38,7 +38,7 @@
       }
     ],
     "review_note": "Provisional unit assignments were made from each question stem/options against the official unit scope. No question source-verification, answer key, or active/review-only status was changed.",
-    "verified_unit_mappings": 8,
+    "verified_unit_mappings": 14,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q050",
       "GSET-FS27-DEC2024-Q048",
@@ -47,25 +47,42 @@
       "GSET-FS27-DEC2024-Q047",
       "GSET-FS27-DEC2024-Q043",
       "GSET-FS27-DEC2024-Q044",
-      "GSET-FS27-DEC2024-Q045"
+      "GSET-FS27-DEC2024-Q045",
+      "GSET-FS27-DEC2024-Q035",
+      "GSET-FS27-DEC2024-Q036",
+      "GSET-FS27-DEC2024-Q037",
+      "GSET-FS27-DEC2024-Q038",
+      "GSET-FS27-DEC2024-Q039",
+      "GSET-FS27-DEC2024-Q040",
+      "GSET-FS27-DEC2024-Q041",
+      "GSET-FS27-DEC2024-Q042"
     ],
     "last_mapping_review": {
       "date": "2026-11-15",
       "verified_questions": [
         {
-          "question_id": "GSET-FS27-DEC2024-Q043",
-          "unit": "Unit IX",
-          "evidence": "Official Code 27 Unit IX covers forensic document examination, alteration, ink/paper and handwriting analysis."
+          "question_id": "GSET-FS27-DEC2024-Q035",
+          "unit": "Unit VIII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q044",
-          "unit": "Unit IX",
-          "evidence": "Official Code 27 Unit IX covers forensic document examination, alteration, ink/paper and handwriting analysis."
+          "question_id": "GSET-FS27-DEC2024-Q036",
+          "unit": "Unit VIII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q045",
-          "unit": "Unit IX",
-          "evidence": "Official Code 27 Unit IX covers forensic document examination, alteration, ink/paper and handwriting analysis."
+          "question_id": "GSET-FS27-DEC2024-Q037",
+          "unit": "Unit VIII"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q038",
+          "unit": "Unit VIII"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q039",
+          "unit": "Unit VIII"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q042",
+          "unit": "Unit IX"
         }
       ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
@@ -98,6 +115,14 @@
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
   "dec2024_visual_verified_question_numbers": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
     43,
     44,
     45,
@@ -107,16 +132,21 @@
     49,
     50
   ],
-  "dec2024_visual_verified_count": 8,
-  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q43–Q50 newly source-page visually checked and activated.",
+  "dec2024_visual_verified_count": 16,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q50 source-page visually checked and activated.",
   "dec2024_review_flags_remaining_count": 97,
   "last_source_review": {
     "date": "2026-11-15",
     "paper": "December 2024",
     "question_numbers": [
-      43,
-      44,
-      45
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
     ],
     "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
     "printed_pages": [
@@ -124,11 +154,16 @@
     ],
     "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2427.pdf",
     "official_answers": {
-      "43": "A",
-      "44": "A",
-      "45": "C"
+      "35": "B",
+      "36": "A",
+      "37": "A",
+      "38": "A",
+      "39": "C",
+      "40": "A",
+      "41": "D",
+      "42": "A"
     },
-    "result": "All three stems/options and official answer letters visually reconciled.",
+    "result": "All eight stems/options and official answer letters visually reconciled; six mappings explicitly tied to Units VIII/IX; Q40 and Q41 mappings remain provisional.",
     "activated": true
   }
 }
