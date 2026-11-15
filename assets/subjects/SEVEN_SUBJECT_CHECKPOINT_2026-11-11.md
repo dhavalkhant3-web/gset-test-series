@@ -502,3 +502,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - All 704 recovered records are explicitly review-only: `source_verified=false`, `review_flag=true`, and syllabus mapping pending. No recovered question was promoted to active.
 - Answer-key verification is marked true only where the staging provenance explicitly identifies a final answer key and the letter is A–D; older published “KEY FOR PAPER-II” sources not labelled FINAL remain unverified.
 - Sanskrit canonical totals now 146 active + 704 review-only = 850 records. Five keys-only sessions are still separate and were not invented/transcribed.
+
+
+## 2026-11-15 — Sanskrit Code 07 staging recovery
+- Restored 704 distinct records from consolidated staging into canonical `questions_review_pending.json`; the 146 records already active were matched by ID and not duplicated.
+- All 704 recovered records remain review-only: `source_verified=false`, `review_flag=true`, and official syllabus mapping pending. No recovered question was promoted to active.
+- Answer-key verification marked true only where staging provenance explicitly identifies a final answer key and the answer is A–D; older published keys not labelled FINAL remain unverified.
+- Sanskrit totals: 146 active + 704 review-only = 850. Five key-only sessions remain separate and were not invented/transcribed.
