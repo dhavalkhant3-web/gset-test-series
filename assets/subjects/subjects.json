@@ -400,15 +400,15 @@
       "icon": "fingerprint_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
+      "source_verified": true,
       "papers_loaded": 3,
-      "questions_loaded": 213,
-      "questions_pending_review": 87,
-      "data_status": "300 questions transcribed across November 2023, December 2024 and November 2025. Current canonical bank: 213 active / 87 review-only; all 300 official final-answer-key entries match. November 2023: 100/100 source-verified. December 2024: 93 active, 7 mapping-review holds, all 100 source-verified. November 2025: 20/100 source-verified; 80 remain source-review pending. Official syllabus mapping: 127 verified, 172 provisional, 1 pending expert review. Verified unit distribution reconciled from canonical active questions.",
-      "unit_mapping_status": "127 question-level mappings verified against the official Code 27 syllabus; 172 provisional; 1 pending subject-expert review.",
+      "questions_loaded": 291,
+      "questions_pending_review": 9,
+      "data_status": "300 questions transcribed across November 2023, December 2024 and November 2025. All 300 source stems/options visually verified and all 300 official final-key entries reconciled. Current canonical bank: 291 active / 9 review-only. Official Code 27 syllabus mapping: 205 verified, 94 provisional, 1 pending. Remaining review-only items lack a direct one-unit syllabus fit and are held for expert resolution.",
+      "unit_mapping_status": "205 verified, 94 provisional, 1 pending",
       "unit_mapping_counts": {
-        "verified": 127,
-        "provisional": 172,
+        "verified": 205,
+        "provisional": 94,
         "pending": 1
       }
     },
