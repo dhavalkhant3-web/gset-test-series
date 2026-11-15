@@ -14,17 +14,16 @@
     "provisional_unit_matches": 94,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
-      "Unit 2": 8,
-      "Unit 5": 21,
-      "Unit 7": 15,
-      "Unit 8": 9,
-      "Unit 10": 16,
-      "Unit 1": 6,
-      "Unit 6": 3,
-      "Unit 3": 21,
-      "Unit 4": 20,
-      "Unit 9": 8,
-      "Unit NaN": 78
+      "Unit 2": 14,
+      "Unit 5": 34,
+      "Unit 7": 26,
+      "Unit 8": 14,
+      "Unit 10": 25,
+      "Unit 1": 21,
+      "Unit 6": 7,
+      "Unit 3": 26,
+      "Unit 4": 27,
+      "Unit 9": 11
     },
     "session_distribution": {
       "November 2023 (exam date 26 Nov 2023)": 100,
@@ -721,19 +720,19 @@
       "GSET-FS27-NOV2025-Q059"
     ],
     "unit_distribution": {
-      "Unit 2": 8,
-      "Unit 5": 21,
-      "Unit 7": 15,
-      "Unit 8": 9,
-      "Unit 10": 16,
-      "Unit 1": 6,
-      "Unit 6": 3,
-      "Unit 3": 21,
-      "Unit 4": 20,
-      "Unit 9": 8,
-      "Unit NaN": 78
+      "Unit 2": 14,
+      "Unit 5": 34,
+      "Unit 7": 26,
+      "Unit 8": 14,
+      "Unit 10": 25,
+      "Unit 1": 21,
+      "Unit 6": 7,
+      "Unit 3": 26,
+      "Unit 4": 27,
+      "Unit 9": 11
     },
-    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf"
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "distribution_reconciled_from_canonical": true
   },
   "mapping_summary": {
     "verified": 205,
