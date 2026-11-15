@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 31,
-  "active_questions": 27,
-  "pending_review": 73,
-  "source_visual_status": "partial: Q1–Q31 visually checked against official PDF printed pages 3–11; Q1–Q7, Q9, Q11–Q22, Q24–Q25 and Q27–Q31 active; Q8, Q10 and Q26 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q32–Q100 remain source-visual pending",
+  "source_visual_checked": 37,
+  "active_questions": 32,
+  "pending_review": 68,
+  "source_visual_status": "partial: Q1–Q37 visually checked against official PDF printed pages 3–13; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31 and Q33–Q37 active; Q8, Q10, Q26 and Q32 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q38–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -45,7 +45,13 @@
     28,
     29,
     30,
-    31
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -56,7 +62,9 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12
   ],
   "source_visual_printed_pages": [
     3,
@@ -67,7 +75,9 @@
     8,
     9,
     10,
-    11
+    11,
+    12,
+    13
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -118,6 +128,16 @@
       29,
       30,
       31
+    ],
+    "printed_page_12": [
+      32,
+      33,
+      34
+    ],
+    "printed_page_13": [
+      35,
+      36,
+      37
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -130,7 +150,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 28,
+  "syllabus_mapping_verified_count": 33,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -271,6 +291,31 @@
       "question": 31,
       "unit": "Unit X",
       "rationale": "Official Code 24 Unit X explicitly includes types and distribution of vegetation."
+    },
+    {
+      "question": 33,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly includes fertility and mortality analysis, including indices and determinants."
+    },
+    {
+      "question": 34,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly covers rural settlement types, patterns and distribution."
+    },
+    {
+      "question": 35,
+      "unit": "Unit VI",
+      "rationale": "Official Code 24 Unit VI explicitly includes agricultural systems of the world."
+    },
+    {
+      "question": 36,
+      "unit": "Unit VII",
+      "rationale": "Official Code 24 Unit VII explicitly includes social well-being and quality of life."
+    },
+    {
+      "question": 37,
+      "unit": "Unit VI",
+      "rationale": "Official Code 24 Unit VI explicitly lists theories of industrial location, including A. Weber."
     }
   ],
   "remaining_review_question_numbers": [
@@ -279,11 +324,6 @@
     23,
     26,
     32,
-    33,
-    34,
-    35,
-    36,
-    37,
     38,
     39,
     40,
@@ -348,5 +388,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 9–10 (printed pages 10–11) visually checked for Q26–Q31. English stems/options match the scan; final-key letters A,B,B,A,B,A match the registered official final-key table. Verified mappings: Q27 Unit X (Green Revolution/agriculture), Q28 Unit I (glacial geomorphology), Q29 Unit X (Indian physiographic regions), Q30 Unit I (geomorphic landforms), Q31 Unit X (Indian vegetation). Q27–Q31 promoted active. Q26 source-verified and key-matched but remains review-only because the geological-period ordering is not explicitly scoped in the Code 24 syllabus. Q23 remains review-only due to official-key/content discrepancy. Q32–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 11–12 (printed pages 12–13) visually checked for Q32–Q37. English stems/options match canonical records; official final-key letters D,B,D,B,A,B match the registered key. Verified syllabus mappings: Q33 Unit V (mortality analysis); Q34 Unit V (rural settlements); Q35 Unit VI (world agricultural systems); Q36 Unit VII (social well-being/quality of life); Q37 Unit VI (Weber's industrial location theory). Q33–Q37 promoted active. Q32 source-verified/key-matched but retained review-only pending a defensible coastal lagoon syllabus placement. Q38–Q100 remain source-visual pending."
 }
