@@ -1245,3 +1245,12 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - History Code 08 Q46 and Q48 syllabus mappings remain pending because the official syllabus does not provide a direct unit placement; Q48's answer was corrected to official key D in the prior audit.
 - Social Work Code 25 still has 600 answer-key entries but no question transcription. Gujarati 303, Environmental Sciences 213, and Forensic Science 216 review-only records remain in their current gates; Sanskrit's 704-record pending queue requires restoration.
 - No Code 01, Code 02, Code 28, Paper-I or app UI files changed. PR #22 remains unmerged. No CI run or combined Debug APK pass is verified for the latest commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q43–Q50 source verification
+- Visually checked official GSET PDF printed page 7 (Q43–Q45), page 8 (Q46–Q49), and page 9 (Q50); independently matched official final answer key letters: Q43 A, Q44 A, Q45 C, Q46 B, Q47 A, Q48 C, Q49 D, Q50 B.
+- Official Code 27 syllabus PDF page 5 confirms Q43–Q45 -> Unit IX (document examination/handwriting) and Q46–Q50 -> Unit X (forensic medicine/post-mortem examination/entomology). All eight records are now source_verified=true, review_flag=false and active.
+- Live Forensic Science bank: 92 active, 208 review-only; 8/100 December 2024 questions source-verified. Subject remains not fully verified. Mapping: 8 verified, 291 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
+- Sanskrit Code 07 remains the immediate recovery blocker: live review queue file is zero bytes; 704 distinct records from the 850-record Library staging source remain absent from canonical review JSON. Do not mark restored until live GitHub file contains the records.
+- Seven-subject totals: 663 active, 733 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged. No CI run or combined Debug APK pass is verified for these latest commits.
