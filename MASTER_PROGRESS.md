@@ -1455,3 +1455,8 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 ## 2026-11-15 — Gujarati Code 06 December 2019 promotion
 - Promoted 99 December 2019 records with completed source, official FINAL-key and syllabus checks to active bank. Q7 remains held as official Z/not evaluated.
 - Gujarati totals now 196 active / 204 review-only. No content or answer changes; 204 queue records still include old-key and source-review work.
+
+
+## 2026-11-15 — Seven-subject totals update
+- Gujarati Code 06: 99 fully verified December 2019 questions promoted to active; Q7 official Z/not evaluated remains review-only. Counts 196 active / 204 review-only.
+- Seven-subject totals: 968 active + 428 review-only + 704 Sanskrit records still outside canonical JSON + 1,100 untranscribed = 3,200 expected.
