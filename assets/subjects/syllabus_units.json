@@ -585,6 +585,76 @@
       ],
       "status": "official_gset_syllabus_registered_question_mapping_provisional",
       "source_note": "Unit order and scope transcribed from the official GSET Code 27 syllabus PDF. 299 question-level matches are provisional content-to-syllabus candidates; one question remains unassigned for subject-expert review. These mappings do not alter source_verified, answer-key, or activation status."
+    },
+    "sanskrit": {
+      "code": "07",
+      "name_en": "Sanskrit",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Vedic Literature — General Introduction",
+          "name_gu": "वैदिक-साहित्य का सामान्य परिचय"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Vedic Literature — Specific Study",
+          "name_gu": "वैदिक-साहित्य का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Philosophical Literature — General Introduction",
+          "name_gu": "दर्शन-साहित्य का सामान्य परिचय"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Philosophical Literature — Specific Study",
+          "name_gu": "दर्शन-साहित्य का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Grammar and Linguistics — General Introduction",
+          "name_gu": "व्याकरण एवं भाषाविज्ञान — सामान्य परिचय"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Grammar — Specific Study",
+          "name_gu": "व्याकरण का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Sanskrit Literature, Poetics and Prosody — General Introduction",
+          "name_gu": "संस्कृत-साहित्य, काव्यशास्त्र एवं छन्दपरिचय — सामान्य परिचय"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Sanskrit Literature, Poetics and Prosody — Specific Study",
+          "name_gu": "संस्कृत-साहित्य, काव्यशास्त्र एवं छन्दपरिचय — विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Puranic and Epic Literature, Dharmashastra and Epigraphy — General Introduction",
+          "name_gu": "पुराणेतिहास, धर्मशास्त्र एवं अभिलेखशास्त्र — सामान्य परिचय"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Specific Study of Prescribed Texts",
+          "name_gu": "निर्धारित ग्रन्थों का विशिष्ट अध्ययन"
+        }
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings transcribed from the official GSET Code 07 Sanskrit syllabus PDF, printed pages 1–6. The PDF separates general and specific study for Vedic literature, philosophy, grammar/linguistics, Sanskrit literature/poetics/prosody, and Puranic/Epic literature, Dharmashastra and epigraphy.",
+      "mapping_policy": "Assign a question only when its tested text/topic is explicitly named or clearly included in the official unit description. Keep uncertain OCR/transcription or broad cross-unit items pending."
     }
   }
 }
