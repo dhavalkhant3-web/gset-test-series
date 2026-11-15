@@ -6,8 +6,8 @@
   "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf",
   "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf",
   "total_questions": 50,
-  "active_questions": 50,
-  "pending_review": 0,
+  "active_questions": 195,
+  "pending_review": 5,
   "visual_checked": 50,
   "official_final_key_matched": 50,
   "answer_key_mismatches": 0,
@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "November 2025: all 100 questions visually checked and 100/100 official final-key matched; 93 active and seven review-only (Q8, Q10, Q23, Q26, Q51, Q62, Q68). Q32 and Q54 mapped to Unit I (Geomorphology: coastal lagoon/spit landform and island-origin classification). Five other listed papers (500 questions) remain untranscribed. August 2017 has three provisional syllabus mappings.",
+  "remaining_subject_work": "November 2025 Q1–Q100 source-visual checked and 100/100 official final-key matched; 95 active and five review-only (Q8, Q10, Q23, Q26, Q62). Q51 and Q68 mapped to Unit VIII and Unit V respectively. Five additional Geography papers (500 questions) remain untranscribed.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -219,5 +219,29 @@
     "syllabus_unit": "Unit I",
     "mapping_rationale": "Geomorphology and landform occurrence; the item tests offshore, coral and volcanic island origins.",
     "promoted_to_active": true
+  },
+  "nov2025_mapping_review_batch": {
+    "date": "2026-11-15",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "promoted_questions": [
+      {
+        "question_no": 51,
+        "unit": "Unit 8",
+        "rationale": "Official GSET Code 24 Unit VIII (Geographic Thought) covers contributions of scholars and explicitly includes cartography and thematic/methodological contributions. This item asks what exploration and discoveries aimed to develop, with options covering topographic description, cartography and chorography; Unit VIII is the direct syllabus fit. Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf."
+      },
+      {
+        "question_no": 68,
+        "unit": "Unit 5",
+        "rationale": "Official GSET Code 24 Unit V (Population and Settlement Geography) covers settlement geography, urbanization, internal structure of the city, urban land-use models and changing urban forms. Chandigarh master planning is a direct urban-planning/settlement topic within this unit. Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf."
+      }
+    ],
+    "remaining_review_only_question_numbers": [
+      8,
+      10,
+      23,
+      26,
+      62
+    ],
+    "note": "Q51 and Q68 promoted after direct alignment with official Unit VIII (Geographic Thought/cartography) and Unit V (Population and Settlement Geography/urban planning). Q23 remains held due official-key/content concern; Q8, Q10, Q26, Q62 remain held pending clearer placement."
   }
 }
