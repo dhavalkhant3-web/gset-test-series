@@ -238,3 +238,10 @@ Expected question records across these seven subjects: 3,200. Canonical records 
 - Mapped 18 November 2025 Sanskrit questions to explicit syllabus topics/texts: Q72 Unit VIII, Q74 Unit I, Q75 Unit VIII, Q76 Unit IX, Q78 Unit IX, Q80 Unit II, Q86 Unit III, Q88 Unit I, Q89 Unit IX, Q90 Unit X, Q91 Unit II, Q92 Unit VIII, Q93 Unit II, Q96 Unit IV, Q97 Unit VII, Q98 Unit VIII, Q99 Unit I and Q100 Unit VII.
 - Q88, Q91, Q93 and Q97 remain review-only for source transcription discrepancies even though their topic-level syllabus units are now identified. 832 of 850 Sanskrit records remain unmapped; no speculative mapping was forced.
 - Sanskrit counts unchanged: 146 active / 704 review-only. Seven-subject totals remain 655 active, 1,445 review-only, zero missing, 1,100 not transcribed.
+
+
+## 2026-11-15 — Forensic Science Code 27 official syllabus mapping review
+- Reviewed December 2024 Q50: “The study of insects in a forensic context to estimate the post-mortem interval is known as”. The official GSET Code 27 syllabus PDF, page 5, Unit X, explicitly includes “Forensic Entomology” and insects of forensic importance.
+- Verified Q50's existing Unit 10 mapping. Stored answer B and official answer B were left unchanged. Changed only `syllabus_mapping_status` from provisional to `official_syllabus_content_reviewed`, with the official syllabus page/source recorded.
+- Updated mapping audit: 1 verified, 298 provisional, 1 pending (November 2025 Q47 forensic-engineering scope). Q50 remains `source_verified=false` and `review_flag=true` because independent source-page visual verification is still pending; it remains review-only and is not activated.
+- Official source: https://gujaratset.ac.in/assets/syllabus/27.pdf (page 5, Unit X). No other subject, Code 01, Code 02, Paper-I, or app UI changed. PR #22 remains open/unmerged; no CI/APK pass claimed.
