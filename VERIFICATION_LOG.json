@@ -6972,5 +6972,97 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "event": "Forensic Science Code 27 December 2024 Q51-Q57 source verification and official syllabus mapping",
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
+    "source_page": 9,
+    "source_pdf_page_index_zero_based": 8,
+    "final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
+    "syllabus": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "syllabus_page": 5,
+    "questions": [
+      {
+        "id": "GSET-FS27-DEC2024-Q051",
+        "answer": "D",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q052",
+        "answer": "A",
+        "unit": "Unit V",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q053",
+        "answer": "D",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q054",
+        "answer": "D",
+        "unit": "Unit I",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q055",
+        "answer": "A",
+        "unit": "Unit III",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q056",
+        "answer": "A",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q057",
+        "answer": "C",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "official_syllabus_content_reviewed"
+      }
+    ],
+    "active_count": 107,
+    "pending_review_count": 193,
+    "dec2024_source_verified_count": 23,
+    "dec2024_pending_review_count": 77,
+    "mapping_counts": {
+      "verified": 21,
+      "provisional": 278,
+      "pending": 1
+    },
+    "seven_subject_totals": {
+      "active": 678,
+      "review_only_present": 718,
+      "missing_from_canonical_json": 704,
+      "not_transcribed": 1100,
+      "expected": 3200
+    },
+    "non_actions": [
+      "No other subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Code 28 or Paper-I files changed",
+      "No app UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
