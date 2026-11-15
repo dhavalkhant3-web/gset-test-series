@@ -6734,5 +6734,39 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "event": "Forensic Science Code 27 December 2024 Q48-Q49 syllabus mapping verification",
+    "questions": [
+      {
+        "id": "GSET-FS27-DEC2024-Q048",
+        "unit": "Unit X",
+        "evidence": "Official Code 27 syllabus Unit X explicitly includes post-mortem examination and its medicolegal importance."
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q049",
+        "unit": "Unit X",
+        "evidence": "Official Code 27 syllabus Unit X explicitly includes post-mortem changes and estimation of time since death."
+      }
+    ],
+    "source": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "source_page": 5,
+    "answers_changed": false,
+    "source_verified": false,
+    "review_flags_retained": true,
+    "activated": false,
+    "mapping_totals": {
+      "verified": 3,
+      "provisional": 296,
+      "pending": 1
+    },
+    "non_actions": [
+      "No other subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Paper-I UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
