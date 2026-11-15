@@ -445,3 +445,12 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Both questions had already been visually checked against the official November 2025 paper and matched the official final answer key. Only syllabus mapping and review status were updated; stems, options and official answer letters were preserved.
 - Geography now 195 active / 5 review-only across 200 transcribed questions. Remaining November 2025 review-only: Q8, Q10, Q23, Q26 and Q62. Q23 remains held due official-key/content concern.
 - Five additional Geography papers (500 questions) remain untranscribed. No other subject, Code 01, Code 02, Code 28 or Paper-I changed; PR #22 remains open/unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-15 — Geography Code 24 Q8, Q10 and Q62 mapping decisions
+- Q8 mapped to Unit IV (Geography of Environment): the official syllabus explicitly lists environmental policy, international treaties, international programmes and policies; this question tests international environmental observance days.
+- Q10 mapped to Unit III (Oceanography): sea-to-land offshore/shore/backshore zonation under relief of oceans.
+- Q62 mapped to Unit X (Geography of India): Indian nuclear power station location under India’s natural-resource/industrial geography.
+- All three were already visually checked against the official paper and official final-key matched; question wording, options and answer letters were preserved.
+- November 2025 Geography now 98 active / 2 review-only. Q23 remains held for an apparent official-key/content conflict; Q26 remains held because the geological-period chronology is not explicit in the Code 24 syllabus. Five other Geography papers (500 questions) remain untranscribed.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. No other subject changed; PR #22 remains unmerged.
