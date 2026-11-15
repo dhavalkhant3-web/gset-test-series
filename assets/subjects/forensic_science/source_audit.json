@@ -27,8 +27,8 @@
     },
     "session_distribution": {
       "November 2023 (exam date 26 Nov 2023)": 100,
-      "December 2024 (exam date 1 Dec 2024)": 93,
-      "November 2025 (exam date 16 Nov 2025)": 20
+      "December 2024 (exam date 1 Dec 2024)": 100,
+      "November 2025 (exam date 16 Nov 2025)": 100
     },
     "unresolved_questions": [
       {
@@ -230,7 +230,11 @@
       "provisional": 172,
       "pending": 1
     },
-    "unit_distribution_basis": "Counts are computed only from canonical questions.json records with syllabus_mapping_status=official_syllabus_content_reviewed; provisional and pending mappings are excluded."
+    "unit_distribution_basis": "Verified-only distribution computed from canonical active questions.json records with syllabus_mapping_status=official_syllabus_content_reviewed; review-only/provisional/pending records are excluded.",
+    "pending_question_ids": [
+      "GSET-FS27-NOV2025-Q047"
+    ],
+    "total_records": 300
   },
   "source_pages": [
     "nov2327.pdf",
@@ -601,11 +605,12 @@
       4
     ],
     "distribution_reconciled_from_canonical": true,
-    "distribution_reconciled_at": "2026-11-15"
+    "distribution_reconciled_at": "2026-11-15",
+    "scope": "Combined active and review-only canonical records; verified unit distribution is active verified subset only."
   },
   "mapping_summary": {
     "verified": 127,
-    "provisional": 86,
-    "pending": 0
+    "provisional": 172,
+    "pending": 1
   }
 }
