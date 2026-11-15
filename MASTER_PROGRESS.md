@@ -1436,3 +1436,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Official Code 26 syllabus reviewed: https://gujaratset.ac.in/assets/syllabus/26.pdf.
 - All 300 canonical question records (87 active, 213 review-only) assigned to the ten official syllabus units; 300 verified mappings, 0 provisional, 0 pending. Unit distribution: {"Unit I":22,"Unit X":28,"Unit IV":32,"Unit VI":38,"Unit II":42,"Unit III":28,"Unit V":35,"Unit VII":23,"Unit VIII":25,"Unit IX":27}.
 - All 213 review-only source flags remain in place; this mapping pass did not claim visual source verification or promote questions.
+
+
+## 2026-11-15 — Forensic Science Code 27 source and syllabus review closure
+- Official Code 27 syllabus: https://gujaratset.ac.in/assets/syllabus/27.pdf. All 300 question stems/options visually source-verified and all 300 official final-key entries reconciled.
+- 78 review-only records with direct official unit fits promoted; 9 retained for subject-expert review where no unique direct unit fit is explicit. No question text/options/answers changed.
+- Canonical bank now 291 active / 9 review-only. Mapping counts: 205 verified, 94 provisional, 1 pending.
