@@ -6,22 +6,22 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 209,
-  "proofread_pass1_pending_second_pass": 91,
-  "active_questions": 202,
-  "pending_review": 98,
+  "visual_checked": 220,
+  "proofread_pass1_pending_second_pass": 80,
+  "active_questions": 213,
+  "pending_review": 87,
   "syllabus_mapping": {
-    "provisional_unit_matches": 183,
+    "provisional_unit_matches": 172,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
-      "Unit 10": 49,
-      "Unit 1": 30,
-      "Unit 2": 31,
+      "Unit 10": 50,
+      "Unit 1": 31,
+      "Unit 2": 32,
       "Unit 8": 27,
-      "Unit 3": 62,
+      "Unit 3": 63,
       "Unit 5": 64,
       "Unit 7": 41,
-      "Unit 4": 39,
+      "Unit 4": 46,
       "Unit 6": 11,
       "Unit 9": 15
     },
@@ -37,8 +37,8 @@
         "question": "Which of the following best characterizes the scope of forensic engineering in the context of multidisciplinary litigation support ?"
       }
     ],
-    "review_note": "Official Code 27 syllabus manually checked for December 2024 Q1–Q34, Q51–Q58 and Q60–Q100. Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain provisional because exact topics are not explicit in the syllabus.",
-    "verified_unit_mappings": 116,
+    "review_note": "Official Code 27 syllabus manually checked for December 2024 Q1–Q34, Q51–Q58 and Q60–Q100. Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain provisional because exact topics are not explicit in the syllabus. November 2025 Q11–Q21 were visually checked on printed page 4, matched to the official final key and mapped to Units II, IV, I, X and III based on explicit syllabus coverage.",
+    "verified_unit_mappings": 127,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q048",
       "GSET-FS27-DEC2024-Q049",
@@ -235,17 +235,35 @@
   "last_visual_review": {
     "session": "November 2025",
     "questions": [
-      4,
-      5,
-      6,
-      7,
-      9,
-      10
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
     ],
-    "count": 6,
-    "source": "Official GSET November 2025 Forensic Science Paper-II, printed page 3 (PDF page index 2).",
+    "count": 11,
+    "source": "Official GSET November 2025 Forensic Science Paper-II, printed page 4 (PDF page index 3).",
     "answer_key": "Official GSET Final Answer Key, November 2025, Paper-II",
-    "result": "All six stems and four options visually matched. Final-key letters A, B, A, B, C, C matched. Official syllabus mapping reviewed: Q4 Unit IV; Q5 Unit VI; Q6–Q7 Unit IV; Q9–Q10 Unit IV. Q8 was already active and source-checked."
+    "final_key_letters": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "C",
+      "C",
+      "B",
+      "B",
+      "A",
+      "A",
+      "C"
+    ],
+    "result": "All 11 stems and four options visually matched. Final-key letters A,D,C,B,C,C,B,B,A,A,C matched 11/11. All 11 mapped to official Code 27 units: Q11 Unit II; Q12–Q14 Unit IV; Q15 Unit I; Q16–Q17 Unit IV; Q18 Unit X; Q19–Q20 Unit IV; Q21 Unit III."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
@@ -391,7 +409,7 @@
     },
     "result": "All ten stems/options and key letters verified. Q27–Q32 active Unit III; Q34 active Unit VIII. Q25, Q26, Q33 source/key verified but held for syllabus mapping review."
   },
-  "verified_unit_mappings": 91,
+  "verified_unit_mappings": 127,
   "verified_question_ids": [
     "GSET-FS27-DEC2024-Q058",
     "GSET-FS27-DEC2024-Q060",
@@ -462,7 +480,18 @@
     "GSET-FS27-DEC2024-Q030",
     "GSET-FS27-DEC2024-Q031",
     "GSET-FS27-DEC2024-Q032",
-    "GSET-FS27-DEC2024-Q034"
+    "GSET-FS27-DEC2024-Q034",
+    "GSET-FS27-NOV2025-Q011",
+    "GSET-FS27-NOV2025-Q012",
+    "GSET-FS27-NOV2025-Q013",
+    "GSET-FS27-NOV2025-Q014",
+    "GSET-FS27-NOV2025-Q015",
+    "GSET-FS27-NOV2025-Q016",
+    "GSET-FS27-NOV2025-Q017",
+    "GSET-FS27-NOV2025-Q018",
+    "GSET-FS27-NOV2025-Q019",
+    "GSET-FS27-NOV2025-Q020",
+    "GSET-FS27-NOV2025-Q021"
   ],
   "last_mapping_review": {
     "date": "2026-11-15",
@@ -500,8 +529,8 @@
     "source_page": 5
   },
   "mapping_summary": {
-    "verified": 91,
-    "provisional": 278,
+    "verified": 127,
+    "provisional": 172,
     "pending": 1
   }
 }
