@@ -1224,3 +1224,8 @@ Official GSET Sanskrit November 2025 Paper-II printed page 12 was visually check
 ## 2026-11-15 — Sanskrit Code 07 Q85–Q90 source verification
 
 Official November 2025 Sanskrit Paper-II printed page 14 visually checked for Q85–Q90. Final-key letters C, A, C, A, B, C match the registered final-key table. Q86, Q87, Q89 and Q90 promoted active; Q85 and Q88 remain source-verified but review-only due exact Devanagari transcription discrepancies. Sanskrit now 140 active / 710 review-only; November 2025 visual verification 43/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Sanskrit Code 07 Q91–Q100 source verification
+
+Official November 2025 Sanskrit Paper-II printed pages 14–15 visually checked for Q91–Q100. Final-key letters C, D, D, A, C, A, D, B, B, A match the registered official table. Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain source-verified but review-only due to Devanagari transcription discrepancies. Sanskrit now 146 active / 704 review-only; November 2025 source visual verification 53/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
