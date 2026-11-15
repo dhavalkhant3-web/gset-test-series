@@ -1,0 +1,60 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "question_count": 300,
+  "papers": [
+    {
+      "paper_id": "forensic_science_nov23",
+      "session": "November 2023",
+      "questions": 100,
+      "answer_key_text_match_count": 100,
+      "ocr_stem_token_overlap_count": 99,
+      "manual_review_question_numbers": [
+        9
+      ]
+    },
+    {
+      "paper_id": "forensic_science_dec24",
+      "session": "December 2024",
+      "questions": 100,
+      "answer_key_text_match_count": 100,
+      "ocr_stem_token_overlap_count": 99,
+      "manual_review_question_numbers": [
+        13
+      ]
+    },
+    {
+      "paper_id": "forensic_science_nov25",
+      "session": "November 2025",
+      "questions": 100,
+      "answer_key_text_match_count": 100,
+      "ocr_stem_token_overlap_count": 100,
+      "manual_review_question_numbers": []
+    }
+  ],
+  "totals": {
+    "official_final_answer_key_text_comparison": "300/300 match",
+    "ocr_stem_token_overlap": "298/300 high overlap",
+    "manual_question_text_review_required": 2,
+    "human_visual_proofreading": "NOT COMPLETE",
+    "source_verified_count": 0,
+    "review_flagged_count": 300
+  },
+  "syllabus": {
+    "official_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+    "reference": "Official GSET-hosted PDF is titled Forensic Science, UGC NET Bureau Code No. 82; GSET subject code 27 maps to Forensic Science. GSET examination bulletin says subject syllabi follow UGC/CSIR NET as applicable.",
+    "unit_mapping_status": "provisional_only",
+    "verified_mapping_count": 0,
+    "note": "Existing keyword-based unit suggestions are not verified mappings. Do not promote them to verified without checking each question against the complete official syllabus."
+  },
+  "source_review": {
+    "source_question_papers": "Supplied scanned official GSET Paper-II PDFs for November 2023, December 2024, and November 2025",
+    "note": "OCR token overlap is a triage aid, not human visual proofreading. Questions 9 (Nov 2023) and 13 (Dec 2024) need manual visual review. All 300 remain source_verified=false and review_flag=true."
+  },
+  "safety": {
+    "existing_question_banks_preserved": true,
+    "existing_banks_overwritten": false,
+    "merge_performed": false,
+    "branch": "staging/forensic-science-code27-audit"
+  }
+}
