@@ -6827,5 +6827,37 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "event": "Forensic Science Code 27 December 2024 Q46-Q47 source verification and Unit X mapping",
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
+    "source_page": 8,
+    "final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec2427.pdf",
+    "questions": [
+      {
+        "id": "GSET-FS27-DEC2024-Q046",
+        "answer": "B",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false
+      },
+      {
+        "id": "GSET-FS27-DEC2024-Q047",
+        "answer": "A",
+        "unit": "Unit X",
+        "source_verified": true,
+        "review_flag": false
+      }
+    ],
+    "active_count": 89,
+    "pending_review_count": 211,
+    "non_actions": [
+      "No other subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Paper-I UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
