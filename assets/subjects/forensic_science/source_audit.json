@@ -40,6 +40,27 @@
     "review_note": "Official Code 27 syllabus content was manually checked for December 2024 Q51–Q58 and Q60–Q64. Six mappings in Q58 and Q60–Q64 were promoted; Q59 remains provisional due overlapping Units I and X. 272 provisional assignments and one pending subject-expert item remain.",
     "verified_unit_mappings": 27,
     "verified_question_ids": [
+      "GSET-FS27-DEC2024-Q048",
+      "GSET-FS27-DEC2024-Q049",
+      "GSET-FS27-DEC2024-Q050",
+      "GSET-FS27-DEC2024-Q046",
+      "GSET-FS27-DEC2024-Q047",
+      "GSET-FS27-DEC2024-Q043",
+      "GSET-FS27-DEC2024-Q044",
+      "GSET-FS27-DEC2024-Q045",
+      "GSET-FS27-DEC2024-Q035",
+      "GSET-FS27-DEC2024-Q036",
+      "GSET-FS27-DEC2024-Q037",
+      "GSET-FS27-DEC2024-Q038",
+      "GSET-FS27-DEC2024-Q039",
+      "GSET-FS27-DEC2024-Q042",
+      "GSET-FS27-DEC2024-Q051",
+      "GSET-FS27-DEC2024-Q052",
+      "GSET-FS27-DEC2024-Q053",
+      "GSET-FS27-DEC2024-Q054",
+      "GSET-FS27-DEC2024-Q055",
+      "GSET-FS27-DEC2024-Q056",
+      "GSET-FS27-DEC2024-Q057",
       "GSET-FS27-DEC2024-Q058",
       "GSET-FS27-DEC2024-Q060",
       "GSET-FS27-DEC2024-Q061",
@@ -51,32 +72,28 @@
       "date": "2026-11-15",
       "verified_questions": [
         {
-          "question_id": "GSET-FS27-DEC2024-Q051",
+          "question_id": "GSET-FS27-DEC2024-Q058",
           "unit": "Unit X"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q052",
-          "unit": "Unit V"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q053",
+          "question_id": "GSET-FS27-DEC2024-Q060",
           "unit": "Unit X"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q054",
-          "unit": "Unit I"
+          "question_id": "GSET-FS27-DEC2024-Q061",
+          "unit": "Unit IV"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q055",
+          "question_id": "GSET-FS27-DEC2024-Q062",
+          "unit": "Unit VIII"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q063",
+          "unit": "Unit IX"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q064",
           "unit": "Unit III"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q056",
-          "unit": "Unit X"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q057",
-          "unit": "Unit X"
         }
       ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
