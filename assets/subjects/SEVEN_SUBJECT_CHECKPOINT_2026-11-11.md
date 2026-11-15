@@ -5,22 +5,22 @@ Branch: `app/import-updated-subject-banks-2026-11-10`
 Pull request: https://github.com/dhavalkhant3-web/gset-test-series/pull/22
 Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathematical Sciences Code 01, or Code 28.
 
-## Current counts — reconciled against live canonical files (2026-11-15)
+## Current counts — reconciled against canonical files (2026-11-15)
 
-| Code | Subject | Active | Review-only present in JSON | Review-only records missing from JSON | Not yet transcribed |
+| Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
 | 06 | Gujarati | 97 | 303 | 0 | 0 |
-| 07 | Sanskrit | 130 | 0 | 720 | 0 |
+| 07 | Sanskrit | 130 | 720 | 0 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 191 | 9 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 84 | 216 | 0 | 0 |
-| **Total** | | **639** | **741** | **720** | **1,100** |
+| **Total** | | **639** | **1,461** | **0** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Canonical active records: 639. Review-only records actually present in JSON: 741. A further 720 Sanskrit records are reported as pending by source_audit.json but are missing from the canonical review queue (the file is empty); they must be recovered before being counted as staged review-only. Not yet transcribed: 1,100 (Geography 500 and Social Work 600). Total remaining expected work: 2,561, comprising 741 stored review-only + 720 missing Sanskrit review records + 1,100 not yet transcribed.
+Expected question records across these seven subjects: 3,200. Canonical records now reconcile to 639 active + 1,461 review-only + 1,100 not yet transcribed = 3,200. No question records are currently missing from the canonical review queues. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
-**Important reconciliation:** Current canonical files supersede older checkpoint/registry figures. History is 50 active records with 48 syllabus mappings verified and Q46/Q48 pending; Q48's official final answer is D and its earlier key-conflict note is superseded. Geography is now 191 active / 9 review-only after the Q11–Q100 source batch. Sanskrit has 130 active question records, but its review queue is empty despite the audit reporting 720 pending records; treat this as a missing-data recovery blocker, not as a completed or stored queue.
+**Sanskrit recovery:** 850 unique records in `gset_sanskrit_07_consolidated_staging.json`; 130 IDs already existed in active `questions.json`, and the remaining 720 are now restored to `questions_review_pending.json`. The 720 queue contains 687 key-applied pending proofread records and 33 `review_required` records. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) have no option answer. All 720 remain `source_verified=false` and `review_flag=true`; no unsupported promotion was made.
 
 ## Latest completed source work
 
@@ -202,3 +202,12 @@ Expected question records across these seven subjects: 3,200. Canonical active r
 - Promoted all seven to active. Geography now 191 active / 9 review-only out of 200 transcribed; November 2025 Q1–Q100 source-visual review is complete. Nine review-only records remain for non-source gates: Q8, Q10, Q23, Q26, Q32, Q51, Q54, Q62 and Q68. Five other Geography papers (500 questions) remain untranscribed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
 - Gujarati-side text was not populated. No other subject, Code 01, Code 02, Code 28 or Paper-I changed. PR #22 remains open/unmerged. No CI/APK result is claimed for this PR branch.
+
+
+## 2026-11-15 — Sanskrit 720-record review queue restored
+- Recovered the original Library source `gset_sanskrit_07_consolidated_staging.json` (850 records, 850 unique IDs).
+- Compared IDs against canonical active `questions.json`: 130 overlaps; restored the other 720 unique records to `questions_review_pending.json`.
+- Restored queue integrity: 720 unique records, 687 `key_applied_pending_proofread`, 33 `review_required`; every record remains `source_verified=false` and `review_flag=true`.
+- Preserved two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) with `official_answer=null` and `answer=Z`; did not invent option letters.
+- Reconciled per-paper `papers.json`, `source_audit.json` and subject registry. Sanskrit is 130 active / 720 review-only, with all 850 unique records accounted for. Five keys-only sessions remain answer-entry metadata, not extra question text.
+- Updated seven-subject totals: 639 active, 1,461 review-only present, zero missing from JSON, 1,100 not transcribed; expected total 3,200.
