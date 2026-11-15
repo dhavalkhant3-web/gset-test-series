@@ -538,5 +538,14 @@
     "count": 16,
     "official_source": "Official GSET Sanskrit November 2025 Paper-II, printed pages 11 and 13 (PDF zero-based pages 8 and 10).",
     "result": "All sixteen question stems and four-option sets visually checked. Q80 corrected from 'कस्या:' to printed 'कस्यां'. All sixteen answer letters match the official final key."
+  },
+  "canonical_file_reconciliation": {
+    "current_branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_records_in_questions_json": 130,
+    "question_records_in_questions_review_pending_json": 0,
+    "source_audit_reported_pending_review": 720,
+    "source_audit_reported_review_required": 33,
+    "actual_review_flag_true_in_questions_json": 0,
+    "discrepancy": "The source audit reports 720 pending records and 33 review-required records, but the canonical review queue is empty and the 130 canonical question records have no review_flag=true entries. The 720 question objects are not present in the canonical question/review JSON at this branch head. Treat this as a recovery blocker; do not represent them as stored review-only questions."
   }
 }
