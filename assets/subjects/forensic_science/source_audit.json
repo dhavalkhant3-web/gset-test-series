@@ -19,11 +19,11 @@
       "Unit 2": 26,
       "Unit 8": 25,
       "Unit 3": 47,
-      "Unit 5": 59,
-      "Unit 7": 37,
+      "Unit 5": 60,
+      "Unit 7": 41,
       "Unit 4": 39,
       "Unit 6": 11,
-      "Unit 9": 12
+      "Unit 9": 15
     },
     "session_distribution": {
       "November 2023 (exam date 26 Nov 2023)": 100,
@@ -37,8 +37,8 @@
         "question": "Which of the following best characterizes the scope of forensic engineering in the context of multidisciplinary litigation support ?"
       }
     ],
-    "review_note": "Official Code 27 syllabus manually checked for December 2024 Q51–Q58 and Q60–Q92. Mappings for Q58, Q60–Q92 are explicit; Q59 remains provisional due overlapping Units I and X.",
-    "verified_unit_mappings": 55,
+    "review_note": "Official Code 27 syllabus manually checked for December 2024 Q51–Q58 and Q60–Q100. Mappings for Q58, Q60–Q100 are explicit; Q59 remains provisional due overlapping Units I and X.",
+    "verified_unit_mappings": 63,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q048",
       "GSET-FS27-DEC2024-Q049",
@@ -94,38 +94,50 @@
       "GSET-FS27-DEC2024-Q089",
       "GSET-FS27-DEC2024-Q090",
       "GSET-FS27-DEC2024-Q091",
-      "GSET-FS27-DEC2024-Q092"
+      "GSET-FS27-DEC2024-Q092",
+      "GSET-FS27-DEC2024-Q093",
+      "GSET-FS27-DEC2024-Q094",
+      "GSET-FS27-DEC2024-Q095",
+      "GSET-FS27-DEC2024-Q096",
+      "GSET-FS27-DEC2024-Q097",
+      "GSET-FS27-DEC2024-Q098",
+      "GSET-FS27-DEC2024-Q099",
+      "GSET-FS27-DEC2024-Q100"
     ],
     "last_mapping_review": {
       "date": "2026-11-15",
       "verified_questions": [
         {
-          "question_id": "GSET-FS27-DEC2024-Q086",
-          "unit": "Unit III"
-        },
-        {
-          "question_id": "GSET-FS27-DEC2024-Q087",
+          "question_id": "GSET-FS27-DEC2024-Q093",
           "unit": "Unit V"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q088",
-          "unit": "Unit V"
+          "question_id": "GSET-FS27-DEC2024-Q094",
+          "unit": "Unit VII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q089",
-          "unit": "Unit II"
+          "question_id": "GSET-FS27-DEC2024-Q095",
+          "unit": "Unit VII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q090",
-          "unit": "Unit V"
+          "question_id": "GSET-FS27-DEC2024-Q096",
+          "unit": "Unit VII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q091",
-          "unit": "Unit V"
+          "question_id": "GSET-FS27-DEC2024-Q097",
+          "unit": "Unit VII"
         },
         {
-          "question_id": "GSET-FS27-DEC2024-Q092",
-          "unit": "Unit V"
+          "question_id": "GSET-FS27-DEC2024-Q098",
+          "unit": "Unit IX"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q099",
+          "unit": "Unit IX"
+        },
+        {
+          "question_id": "GSET-FS27-DEC2024-Q100",
+          "unit": "Unit IX"
         }
       ],
       "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
@@ -140,18 +152,19 @@
   "last_visual_review": {
     "session": "December 2024",
     "questions": [
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
     ],
-    "count": 7,
-    "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 14 (PDF page index 13).",
+    "count": 8,
+    "source": "Official GSET December 2024 Forensic Science Paper-II PDF, printed page 15 (PDF page index 14).",
     "answer_key": "Official GSET Final Answer Key, December 2024, Paper-II",
-    "result": "All seven stems and all four options visually matched. Official final-key letters B, D, C, C, B, A, D matched. All seven records activated with official syllabus mappings."
+    "result": "All eight stems and all four options visually matched. Official final-key letters D, B, B, B, B, D, B, B matched. All eight records activated with official syllabus mappings."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
@@ -212,43 +225,53 @@
     89,
     90,
     91,
-    92
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
   ],
-  "dec2024_visual_verified_count": 57,
-  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q92 source-page visually checked (Q35–Q58, Q60–Q92 activated; Q59 remains review-only for syllabus-unit ambiguity).",
-  "dec2024_review_flags_remaining_count": 43,
+  "dec2024_visual_verified_count": 65,
+  "dec2024_final_key_parity": "100/100 answer letters match official final answer key; Q35–Q100 source-page visually checked (Q35–Q58, Q60–Q100 activated; Q59 remains review-only for syllabus-unit ambiguity).",
+  "dec2024_review_flags_remaining_count": 35,
   "last_source_review": {
     "date": "2026-11-15",
     "paper": "December 2024",
     "question_numbers": [
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
     ],
     "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf",
     "pdf_page_indexes_zero_based": [
-      13
+      14
     ],
     "printed_pages": [
-      14
+      15
     ],
     "final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf",
     "official_answers": {
-      "86": "B",
-      "87": "D",
-      "88": "C",
-      "89": "C",
-      "90": "B",
-      "91": "A",
-      "92": "D"
+      "93": "D",
+      "94": "B",
+      "95": "B",
+      "96": "B",
+      "97": "B",
+      "98": "D",
+      "99": "B",
+      "100": "B"
     },
-    "result": "All seven stems and option sets matched the official scan; all seven final-key letters matched. All seven records moved to active with explicit official syllabus mappings."
+    "result": "All eight stems and option sets matched the official scan; all eight final-key letters matched. All eight records moved to active with explicit official syllabus mappings."
   },
-  "verified_unit_mappings": 55,
+  "verified_unit_mappings": 63,
   "verified_question_ids": [
     "GSET-FS27-DEC2024-Q058",
     "GSET-FS27-DEC2024-Q060",
@@ -283,45 +306,57 @@
     "GSET-FS27-DEC2024-Q089",
     "GSET-FS27-DEC2024-Q090",
     "GSET-FS27-DEC2024-Q091",
-    "GSET-FS27-DEC2024-Q092"
+    "GSET-FS27-DEC2024-Q092",
+    "GSET-FS27-DEC2024-Q093",
+    "GSET-FS27-DEC2024-Q094",
+    "GSET-FS27-DEC2024-Q095",
+    "GSET-FS27-DEC2024-Q096",
+    "GSET-FS27-DEC2024-Q097",
+    "GSET-FS27-DEC2024-Q098",
+    "GSET-FS27-DEC2024-Q099",
+    "GSET-FS27-DEC2024-Q100"
   ],
   "last_mapping_review": {
     "date": "2026-11-15",
     "verified_questions": [
       {
-        "question_id": "GSET-FS27-DEC2024-Q086",
-        "unit": "Unit III"
-      },
-      {
-        "question_id": "GSET-FS27-DEC2024-Q087",
+        "question_id": "GSET-FS27-DEC2024-Q093",
         "unit": "Unit V"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q088",
-        "unit": "Unit V"
+        "question_id": "GSET-FS27-DEC2024-Q094",
+        "unit": "Unit VII"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q089",
-        "unit": "Unit II"
+        "question_id": "GSET-FS27-DEC2024-Q095",
+        "unit": "Unit VII"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q090",
-        "unit": "Unit V"
+        "question_id": "GSET-FS27-DEC2024-Q096",
+        "unit": "Unit VII"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q091",
-        "unit": "Unit V"
+        "question_id": "GSET-FS27-DEC2024-Q097",
+        "unit": "Unit VII"
       },
       {
-        "question_id": "GSET-FS27-DEC2024-Q092",
-        "unit": "Unit V"
+        "question_id": "GSET-FS27-DEC2024-Q098",
+        "unit": "Unit IX"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q099",
+        "unit": "Unit IX"
+      },
+      {
+        "question_id": "GSET-FS27-DEC2024-Q100",
+        "unit": "Unit IX"
       }
     ],
     "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
     "source_page": 5
   },
   "mapping_summary": {
-    "verified": 55,
+    "verified": 63,
     "provisional": 272,
     "pending": 1
   }
