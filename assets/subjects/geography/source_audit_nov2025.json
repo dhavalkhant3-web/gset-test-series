@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 18,
-  "active_questions": 16,
-  "pending_review": 84,
-  "source_visual_status": "partial: Q1–Q18 visually checked against official PDF printed pages 3–7; Q1–Q7, Q9 and Q11–Q18 active; Q8 and Q10 remain review-only for syllabus-mapping confirmation; Q19–Q100 remain source-visual pending",
+  "source_visual_checked": 25,
+  "active_questions": 22,
+  "pending_review": 78,
+  "source_visual_status": "partial: Q1–Q25 visually checked against official PDF printed pages 3–9; Q1–Q7, Q9, Q11–Q22 and Q24–Q25 active; Q8 and Q10 remain mapping-review only; Q23 remains review-only due to an official-key/content discrepancy; Q26–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -32,21 +32,32 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8
   ],
   "source_visual_printed_pages": [
     3,
     4,
     5,
     6,
-    7
+    7,
+    8,
+    9
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -76,6 +87,17 @@
       16,
       17,
       18
+    ],
+    "printed_page_8": [
+      19,
+      20,
+      21
+    ],
+    "printed_page_9": [
+      22,
+      23,
+      24,
+      25
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -88,7 +110,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 16,
+  "syllabus_mapping_verified_count": 23,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -169,18 +191,47 @@
       "question": 18,
       "unit": "Unit III",
       "rationale": "Official Code 24 syllabus Unit III explicitly includes circulation of warm and cold ocean currents."
+    },
+    {
+      "question": 19,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes remote sensing sensors and platforms."
+    },
+    {
+      "question": 20,
+      "unit": "Unit III",
+      "rationale": "Official Code 24 Unit III covers oceanography and relief of oceans."
+    },
+    {
+      "question": 21,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly includes the electromagnetic spectrum, sensors and platforms in remote sensing."
+    },
+    {
+      "question": 22,
+      "unit": "Unit III",
+      "rationale": "Official Code 24 Unit III explicitly includes ocean composition, temperature, density and salinity."
+    },
+    {
+      "question": 23,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX explicitly covers GIS functions and geographic data processing."
+    },
+    {
+      "question": 24,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I covers geomorphology, denudation, weathering and earth movements."
+    },
+    {
+      "question": 25,
+      "unit": "Unit IX",
+      "rationale": "Official Code 24 Unit IX covers geographic information sources, types of maps and map-making techniques."
     }
   ],
   "remaining_review_question_numbers": [
     8,
     10,
-    19,
-    20,
-    21,
-    22,
     23,
-    24,
-    25,
     26,
     27,
     28,
@@ -257,5 +308,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF page indexes 5 and 6 (printed pages 6 and 7) visually checked for Q11–Q18. English stems and all four options match canonical transcription; official final-key answers C,D,C,C,C,C,D,A match all eight records. Syllabus mappings verified against official Code 24 syllabus: Q11 VII, Q12 IV, Q13 VIII, Q14 II, Q15 VIII, Q16 II, Q17 VIII, Q18 III. Promoted Q11–Q18 to active. Q8 and Q10 remain review-only for mapping; Q19–Q100 remain source-visual pending. Gujarati-side text not populated."
+  "batch_note": "2026-11-15: Official PDF indexes 7–8 (printed pages 8–9) visually checked for Q19–Q25. English stems and all four options match the scan; official final-key letters D,A,C,C,A,C,B match all seven canonical records and the registered final-key table. Syllabus mappings: Q19 IX, Q20 III, Q21 IX, Q22 III, Q23 IX, Q24 I, Q25 IX. Q19, Q20, Q21, Q22, Q24 and Q25 promoted active. Q23 source-verified and mapped but retained review-only because official key A conflicts with the apparent content answer B (Data acquisition); preserve official A and request expert review. Q26–Q100 remain source-visual pending."
 }
