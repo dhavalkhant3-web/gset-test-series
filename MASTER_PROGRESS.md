@@ -1193,3 +1193,8 @@ On PR #22 branch, visually checked official PDF printed pages 22–23 for Q66–
 ## 2026-11-15 — Geography Code 24 Q74–Q79 verified
 
 On PR #22 branch, visually checked official PDF printed pages 24–25 for Q74–Q79, matched official final-key letters, and assigned six explicit syllabus units. All six promoted active. Geography now 170 active / 30 review-only; November 2025 Q1–Q79 visually checked (70 active, nine review-only), Q80–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q80–Q85 verified
+
+On PR #22 branch, visually checked official PDF printed pages 26–27 for Q80–Q85, including Q81's matching table, matched official key letters, and assigned six explicit syllabus units. All six promoted active. Geography now 176 active / 24 review-only; November 2025 Q1–Q85 visually checked (76 active, nine review-only), Q86–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
