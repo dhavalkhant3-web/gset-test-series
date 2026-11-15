@@ -10,7 +10,26 @@
   "proofread_pass1_pending_second_pass": 291,
   "active_questions": 87,
   "pending_review": 213,
-  "syllabus_mapping": "all pending; official syllabus not supplied.",
+  "syllabus_mapping": {
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "total_records": 300,
+    "verified": 300,
+    "provisional": 0,
+    "pending": 0,
+    "unit_distribution": {
+      "Unit I": 22,
+      "Unit X": 28,
+      "Unit IV": 32,
+      "Unit VI": 38,
+      "Unit II": 42,
+      "Unit III": 28,
+      "Unit V": 35,
+      "Unit VII": 23,
+      "Unit VIII": 25,
+      "Unit IX": 27
+    },
+    "note": "All 300 canonical Environmental Sciences records were assigned to one of the ten official Code 26 syllabus units. Mapping status is independent of source-page visual verification; 213 review-only records remain flagged for source review."
+  },
   "last_visual_review": {
     "session": "November 2023",
     "questions": [
@@ -29,5 +48,26 @@
     "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 14–15.",
     "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
     "result": "all selected stems/options visually matched; all selected answer letters matched final key"
+  },
+  "last_mapping_review": {
+    "date": "2026-11-15",
+    "scope": "All 300 active and review-only canonical records",
+    "verified_mappings": 300,
+    "provisional_mappings": 0,
+    "pending_mappings": 0,
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "unit_distribution": {
+      "Unit I": 22,
+      "Unit X": 28,
+      "Unit IV": 32,
+      "Unit VI": 38,
+      "Unit II": 42,
+      "Unit III": 28,
+      "Unit V": 35,
+      "Unit VII": 23,
+      "Unit VIII": 25,
+      "Unit IX": 27
+    },
+    "note": "Question-level mappings assigned against the explicit ten-unit Code 26 syllabus. No source flags, answers, stems or options changed."
   }
 }
