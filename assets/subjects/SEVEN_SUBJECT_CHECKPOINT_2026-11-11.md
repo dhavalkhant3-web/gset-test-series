@@ -15,10 +15,10 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 24 | Geography | 191 | 9 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
-| 27 | Forensic Science | 100 | 200 | 0 | 0 |
-| **Total** | | **671** | **725** | **704** | **1,100** |
+| 27 | Forensic Science | 107 | 193 | 0 | 0 |
+| **Total** | | **678** | **718** | **704** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 671 active + 725 review-only records present + 704 Sanskrit review-only records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 678 active + 718 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -42,9 +42,9 @@ Expected question records across these seven subjects: 3,200. The live canonical
 
 ### Other subjects
 - Gujarati: live JSON contains 97 active / 303 review-only (400 total); 97 active records are source-verified and all 400 question-level syllabus mappings are recorded as verified.
-- Sanskrit: live JSON contains 146 active / 704 review-only (850 total); the 720 pending records remain review-only.
+- Sanskrit: live canonical JSON contains 146 active / 0 review-only present; 704 distinct staged records remain missing from questions_review_pending.json and are not counted as present.
 - Environmental Sciences: 87 active / 213 review-only; official syllabus mapping pending.
-- Forensic Science: 84 active / 216 review-only; 300/300 official final-key entries match. The official Code 27 syllabus is now registered; 299 question records have provisional unit matches and one item (November 2025 Q47, forensic engineering scope) remains pending subject-expert review. Source-review and activation statuses are unchanged.
+- Forensic Science: 107 active / 193 review-only; 300/300 official final-key entries match. December 2024 Q35–Q57 (23/100) is source-page verified. Official syllabus mapping: 21 verified, 278 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
 - Social Work: 600 answer-key entries staged across six papers; no question text transcribed and no active questions.
 
 ## CI / merge safety
@@ -55,11 +55,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Keep all unverified records review-only. Official final keys are authoritative; if key conflicts with source question, preserve the key and flag for expert review.
 
 ## Next work
-1. Geography: continue November 2025 visual verification from Q11 onward (Q1–Q10 source-checked; Q8 and Q10 remain mapping-review only, Q11–Q100 source-visual pending). PDF page index 4 rendered successfully on 2026-11-14. Five additional papers (500 questions) remain untranscribed.
+1. Geography: November 2025 Q1–Q100 source-visual verification is complete; nine source-verified records remain review-only for mapping/key resolution (Q8, Q10, Q23, Q26, Q32, Q51, Q54, Q62, Q68). Five additional papers (500 questions) remain untranscribed.
 2. Continue Gujarati and Sanskrit source verification and official syllabus mappings.
 3. History: review only the two pending syllabus placements (Q46 and Q48); question text and final-key checks are complete.
 4. Social Work: transcribe 600 questions from official question-paper PDFs; do not convert answer keys into fake question records.
-5. Environmental Sciences and Forensic Science: complete remaining source reviews and official syllabus mapping.
+5. Forensic Science: continue December 2024 source-page review from Q58 onward; Q35–Q57 are now verified (23/100), with 77 still review-only in that session. Environmental Sciences: 87/300 questions are source-visual verified; obtain/review the official Code 26 syllabus before mapping.
 6. Re-run subject validators and combined Debug APK only after the unrelated Code 28 CI blocker is resolved under explicit authorization.
 
 
@@ -279,3 +279,12 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Sanskrit Code 07 queue remains empty; 704 distinct staged records are missing from canonical review JSON.
 - Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON, 1,100 not transcribed = 3,200 expected.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q51–Q57 source batch
+- Before: Forensic Science 100 active / 200 review-only; December 2024 Q35–Q50 source-verified (16/100). Seven-subject totals: 671 active, 725 review-only present, 704 Sanskrit records missing from canonical JSON, 1,100 not transcribed.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf. Printed page 9 (PDF page index 8) visually checked for Q51–Q57. All seven stems and all four options match the canonical transcription; no figure or table occurs in this range.
+- Official final answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf. Q51–Q57 letters D, A, D, D, A, A, C match all seven stored answers. No answer values changed.
+- Official Code 27 syllabus: https://gujaratset.ac.in/assets/syllabus/27.pdf, page 5. Verified mappings: Q51 Unit X; Q52 Unit V; Q53 Unit X; Q54 Unit I; Q55 Unit III; Q56 Unit X; Q57 Unit X.
+- After: Forensic Science 107 active / 193 review-only; December 2024 Q35–Q57 source-verified (23/100), 77 remain review-only in that session. Mapping totals: 21 verified, 278 provisional, 1 pending. Seven-subject totals: 678 active, 718 review-only present, 704 Sanskrit records missing from canonical JSON, 1,100 not transcribed = 3,200 expected.
+- Next batch: Forensic Science Code 27 December 2024 Q58–Q64 (printed page 10), subject to the same official-source/key/syllabus checks. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
