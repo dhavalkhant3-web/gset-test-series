@@ -6,12 +6,12 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 203,
-  "proofread_pass1_pending_second_pass": 97,
-  "active_questions": 196,
-  "pending_review": 104,
+  "visual_checked": 209,
+  "proofread_pass1_pending_second_pass": 91,
+  "active_questions": 202,
+  "pending_review": 98,
   "syllabus_mapping": {
-    "provisional_unit_matches": 189,
+    "provisional_unit_matches": 183,
     "pending_subject_expert_review": 1,
     "unit_distribution": {
       "Unit 10": 49,
@@ -38,7 +38,7 @@
       }
     ],
     "review_note": "Official Code 27 syllabus manually checked for December 2024 Q1–Q34, Q51–Q58 and Q60–Q100. Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain provisional because exact topics are not explicit in the syllabus.",
-    "verified_unit_mappings": 110,
+    "verified_unit_mappings": 116,
     "verified_question_ids": [
       "GSET-FS27-DEC2024-Q048",
       "GSET-FS27-DEC2024-Q049",
@@ -222,8 +222,8 @@
       ]
     },
     "mapping_summary": {
-      "verified": 110,
-      "provisional": 189,
+      "verified": 116,
+      "provisional": 183,
       "pending": 1
     }
   },
@@ -233,32 +233,19 @@
     "nov2527.pdf"
   ],
   "last_visual_review": {
-    "session": "November 2023",
+    "session": "November 2025",
     "questions": [
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
     ],
-    "count": 19,
-    "source": "Official GSET November 2023 Forensic Science Paper-II, printed pages 13–15 (PDF page indexes 12–14).",
-    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
-    "result": "All 19 stems and four options visually matched. Final-key letters B,D,D,B,A,A,C,B,B,B,C,D,C,B,C,B,A,A,A matched. Official syllabus mapping checked and activated."
+    "count": 6,
+    "source": "Official GSET November 2025 Forensic Science Paper-II, printed page 3 (PDF page index 2).",
+    "answer_key": "Official GSET Final Answer Key, November 2025, Paper-II",
+    "result": "All six stems and four options visually matched. Final-key letters A, B, A, B, C, C matched. Official syllabus mapping reviewed: Q4 Unit IV; Q5 Unit VI; Q6–Q7 Unit IV; Q9–Q10 Unit IV. Q8 was already active and source-checked."
   },
   "syllabus_source": "Official GSET Forensic Science (27) syllabus PDF — https://gujaratset.ac.in/assets/syllabus/27.pdf",
   "syllabus_mapping_status": "provisional_mapping_applied_with_subject_review_gate",
