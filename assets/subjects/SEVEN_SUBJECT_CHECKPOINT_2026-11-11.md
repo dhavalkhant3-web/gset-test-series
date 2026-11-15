@@ -10,15 +10,15 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
 | 06 | Gujarati | 97 | 303 | 0 | 0 |
-| 07 | Sanskrit | 140 | 710 | 0 | 0 |
+| 07 | Sanskrit | 146 | 704 | 0 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 191 | 9 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
 | 27 | Forensic Science | 84 | 216 | 0 | 0 |
-| **Total** | | **649** | **1,451** | **0** | **1,100** |
+| **Total** | | **655** | **1,445** | **0** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Canonical records now reconcile to 649 active + 1,451 review-only + 1,100 not yet transcribed = 3,200. No question records are currently missing from the canonical review queues. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. Canonical records now reconcile to 655 active + 1,445 review-only + 1,100 not yet transcribed = 3,200. No question records are currently missing from the canonical review queues. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 91 of those are active and nine remain review-only for mapping/key resolution. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery:** 850 unique records in `gset_sanskrit_07_consolidated_staging.json`; 130 IDs already existed in active `questions.json`, and the remaining 720 are now restored to `questions_review_pending.json`. The 720 queue contains 687 key-applied pending proofread records and 33 `review_required` records. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) have no option answer. All 720 remain `source_verified=false` and `review_flag=true`; no unsupported promotion was made.
 
@@ -42,7 +42,7 @@ Expected question records across these seven subjects: 3,200. Canonical records 
 
 ### Other subjects
 - Gujarati: live JSON contains 97 active / 303 review-only (400 total); 97 active records are source-verified and all 400 question-level syllabus mappings are recorded as verified.
-- Sanskrit: live JSON contains 140 active / 710 review-only (850 total); the 720 pending records remain review-only.
+- Sanskrit: live JSON contains 146 active / 704 review-only (850 total); the 720 pending records remain review-only.
 - Environmental Sciences: 87 active / 213 review-only; official syllabus mapping pending.
 - Forensic Science: 84 active / 216 review-only; 300/300 official final-key entries match. The official Code 27 syllabus is now registered; 299 question records have provisional unit matches and one item (November 2025 Q47, forensic engineering scope) remains pending subject-expert review. Source-review and activation statuses are unchanged.
 - Social Work: 600 answer-key entries staged across six papers; no question text transcribed and no active questions.
@@ -224,3 +224,10 @@ Expected question records across these seven subjects: 3,200. Canonical records 
 - Official final-key letters C, A, C, A, B, C match the registered key table. Q86, Q87, Q89 and Q90 promoted active.
 - Q85 remains review-only: source appears to read “चरितं” while canonical text reads “चरति”. Q88 remains review-only: source begins “वेदत्रयीपदार्थ...” while canonical text reads “वेदप्रतिदित...”. Both are source-verified/key-matched but require transcription correction confirmation.
 - Sanskrit now 140 active / 710 review-only; November 2025 visual verification 43/100 (41 active; Q85/Q88 source-verified but review-only; 57 still awaiting source-page review). Seven-subject totals: 649 active, 1,451 review-only, zero missing, 1,100 not transcribed.
+
+
+## 2026-11-15 — Sanskrit Code 07 November 2025 Q91–Q100 visual verification
+- Official GSET Sanskrit November 2025 Paper-II printed page 14 (Q91–Q92) and printed page 15 (Q93–Q100) visually checked against the canonical queue.
+- Official final-key letters C, D, D, A, C, A, D, B, B, A match the registered key table. Q92, Q95, Q96, Q98, Q99 and Q100 promoted active.
+- Q91, Q93, Q94 and Q97 remain source-verified/key-matched but review-only because their current Devanagari transcription differs from the printed source; exact wording is documented in source_audit.json.
+- Sanskrit now 146 active / 704 review-only; November 2025 visual verification 53/100 (47 active, six source-verified transcription-review items, 47 not yet visually checked). Seven-subject totals: 655 active, 1,445 review-only, zero missing, 1,100 not transcribed.
