@@ -1423,3 +1423,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Both questions were already source-visually verified and official final-key matched; only mapping metadata and review status changed. Original question wording, options and answer letters preserved.
 - Geography canonical totals: 195 active / 5 review-only; remaining review-only Q8, Q10, Q23, Q26 and Q62. November 2025 Q1–Q100 source and final-key parity remain 100/100. Five other Geography papers (500 questions) remain untranscribed.
 - Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI or Combined APK pass claimed.
+
+
+## 2026-11-15 — Geography Code 24 Q8, Q10 and Q62 mapping decisions
+- Q8 → Unit IV (Geography of Environment: international environmental programmes/policies); Q10 → Unit III (Oceanography: offshore/shore/backshore coastal zonation); Q62 → Unit X (Geography of India: Indian nuclear power station location).
+- All three source transcriptions and final-key letters were previously visually checked. No question text/options/answers altered.
+- Geography November 2025 status: 98 active, 2 review-only (Q23 key/content issue, Q26 mapping not explicit). Q1–Q100 source check and official final-key parity remain 100/100.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI/APK result claimed.
