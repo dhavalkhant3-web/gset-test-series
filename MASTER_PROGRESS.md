@@ -1430,3 +1430,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - All three source transcriptions and final-key letters were previously visually checked. No question text/options/answers altered.
 - Geography November 2025 status: 98 active, 2 review-only (Q23 key/content issue, Q26 mapping not explicit). Q1–Q100 source check and official final-key parity remain 100/100.
 - Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI/APK result claimed.
+
+
+## 2026-11-15 — Environmental Sciences Code 26 syllabus mapping
+- Official Code 26 syllabus reviewed: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- All 300 canonical question records (87 active, 213 review-only) assigned to the ten official syllabus units; 300 verified mappings, 0 provisional, 0 pending. Unit distribution: {"Unit I":22,"Unit X":28,"Unit IV":32,"Unit VI":38,"Unit II":42,"Unit III":28,"Unit V":35,"Unit VII":23,"Unit VIII":25,"Unit IX":27}.
+- All 213 review-only source flags remain in place; this mapping pass did not claim visual source verification or promote questions.
