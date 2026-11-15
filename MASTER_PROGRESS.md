@@ -1415,3 +1415,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Forensic Science now 213 active / 87 review-only. November 2025: 20/100 source-page verified, 20/100 final-key matched, 80 remain source-review pending. Overall subject mapping audit: 127 verified, 172 provisional, 1 pending.
 - Updated canonical questions, review queue, source audit, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+
+
+## 2026-11-15 — Geography Code 24 syllabus mapping closure (Q51, Q68)
+- Q51 exploration/discovery and cartography mapped to official Unit VIII (Geographic Thought; scholars and cartographic contributions).
+- Q68 Chandigarh master-plan question mapped to official Unit V (Population and Settlement Geography; urban planning, settlement and city structure).
+- Both questions were already source-visually verified and official final-key matched; only mapping metadata and review status changed. Original question wording, options and answer letters preserved.
+- Geography canonical totals: 195 active / 5 review-only; remaining review-only Q8, Q10, Q23, Q26 and Q62. November 2025 Q1–Q100 source and final-key parity remain 100/100. Five other Geography papers (500 questions) remain untranscribed.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI or Combined APK pass claimed.
