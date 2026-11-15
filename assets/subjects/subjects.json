@@ -108,7 +108,7 @@
       "papers_loaded": 11,
       "questions_loaded": 146,
       "questions_pending_review": 704,
-      "data_status": "850 unique Sanskrit question records reconciled: 146 active/source-verified and 704 review-only. Review queue: 665 key-applied pending proofread and 39 explicit review_required records. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) have no option letter. November 2023 source visual check: 100/100 with Q33 retained for review; November 2025 source visual check: 53/100, with 47 active, six source-verified but review-only for exact transcription discrepancies (Q85, Q88, Q91, Q93, Q94, Q97), and 47 still awaiting visual verification. Official syllabus mapping remains pending."
+      "data_status": "850 unique Sanskrit records reconciled against the Library staging source; 146 are active in canonical questions.json. The expected 704 review-only records are NOT currently present: questions_review_pending.json is zero bytes. Restore the 704 distinct staging records before claiming queue recovery or review-only JSON completeness. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status. Source verification and syllabus mapping remain pending for the applicable records."
     },
     {
       "code": "08",
