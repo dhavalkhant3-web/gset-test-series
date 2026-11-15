@@ -4,8 +4,8 @@
   "subject_code": "07",
   "paper": "Paper-II",
   "transcribed_questions": 850,
-  "active_questions": 130,
-  "pending_review": 720,
+  "active_questions": 136,
+  "pending_review": 714,
   "nov2023_visual_verified_question_numbers": [
     1,
     2,
@@ -159,7 +159,7 @@
   "dec2024_source_note": "Official final key was accessible and all 100 answer letters matched. Official question-paper PDF timed out during retrieval; no question text/options were activated.",
   "nov2025_final_key_parity": "100/100 staged answer letters match the official GSET final answer key",
   "nov2025_answer_key_verified_count": 100,
-  "nov2025_question_source_verified_count": 31,
+  "nov2025_question_source_verified_count": 37,
   "nov2025_visual_verified_question_numbers": [
     46,
     47,
@@ -184,6 +184,12 @@
     67,
     68,
     69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
     77,
     78,
     79,
@@ -197,7 +203,7 @@
     38,
     53
   ],
-  "nov2025_source_page_reference": "Official GSET Sanskrit November 2025 Paper-II PDF nov2507.pdf: printed pages 9–11 (Q46–Q69) and printed page 13 (Q77–Q84). Q38 and Q53 remain pending; Q53 option D contains an unresolved Brahmi-script glyph.",
+  "nov2025_source_page_reference": "Official GSET Sanskrit November 2025 Paper-II PDF nov2507.pdf: printed pages 9–11 (Q46–Q69), printed page 12 (Q71–Q76), and printed page 13 (Q77–Q84). Q38 and Q53 remain specifically flagged; Q70 and Q85–Q100 remain source-visual pending.",
   "nov2025_official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
   "nov2025_official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf",
   "nov2025_review_only_archival_copies_retained": 15,
@@ -220,9 +226,9 @@
       80
     ],
     "extraction_method": "Official GSET PDF text/OCR extraction (not visual page verification)",
-    "visual_source_verified_count": 4,
-    "status": "review_pending",
-    "note": "Q77–Q80 visually checked against printed page 13. Q71–Q76 remain pending visual inspection."
+    "visual_source_verified_count": 10,
+    "status": "source_visual_verified",
+    "note": "Q71–Q76 visually checked against official printed page 12; Q77–Q80 visually checked against printed page 13. All ten question stems and four-option sets have source-page visual verification."
   },
   "nov2025_q71_q80_official_final_key_crosscheck": {
     "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf",
@@ -239,7 +245,7 @@
       "80": "D"
     },
     "parity": "10/10 letters match the official final answer key",
-    "note": "This records the official key cross-check only; it does not constitute question-source verification."
+    "note": "All ten Q71–Q80 official final-key letters match the registered final answer-key table. Q71–Q76 have now also been visually checked against the original question paper; Q77–Q80 were visually checked earlier."
   },
   "nov2025_provisional_syllabus_candidates": [
     {
@@ -495,13 +501,31 @@
       58,
       59,
       60,
-      61
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
-    "compared_count": 15,
-    "matches": 15,
+    "compared_count": 37,
+    "matches": 37,
     "mismatches": [],
     "source": "Active Sanskrit questions.json records compared programmatically against nov2025_official_final_key_full_table",
-    "status": "all_active_records_match"
+    "status": "all_37_active_records_match"
   },
   "nov2025_q71_q100_key_audit_parity_check": {
     "compared_count": 30,
@@ -511,42 +535,32 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 720,
+  "review_pending_file_count": 714,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
-  "review_pending_file_integrity": "720 unique non-overlapping records restored to questions_review_pending.json; all source_verified=false and review_flag=true. 687 have key_applied_pending_proofread status; 33 retain review_required notes. Two official final-key Z entries remain not-evaluated and have no official option letter.",
-  "nov2025_visual_verified_count": 31,
-  "nov2025_remaining_visual_review": 69,
+  "review_pending_file_integrity": "714 unique records remain in questions_review_pending.json; all source_verified=false and review_flag=true. 681 have key_applied_pending_proofread status; 33 retain review_required notes. Six November 2025 questions (Q71–Q76) were moved to active after page-12 visual verification and final-key parity. Two official final-key Z/not-evaluated records remain without an option letter.",
+  "nov2025_visual_verified_count": 37,
+  "nov2025_remaining_visual_review": 63,
   "nov2025_last_visual_review": {
     "question_numbers": [
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
     ],
-    "count": 16,
-    "official_source": "Official GSET Sanskrit November 2025 Paper-II, printed pages 11 and 13 (PDF zero-based pages 8 and 10).",
-    "result": "All sixteen question stems and four-option sets visually checked. Q80 corrected from 'कस्या:' to printed 'कस्यां'. All sixteen answer letters match the official final key."
+    "count": 6,
+    "official_source": "Official GSET Sanskrit November 2025 Paper-II, printed page 12 (PDF zero-based page 11).",
+    "result": "All six question stems and four-option sets visually checked. Official final-key letters B, B, C, D, D, A match the registered final answer-key table. Q71–Q76 promoted to active; syllabus mapping remains pending."
   },
   "canonical_file_reconciliation": {
     "current_branch": "app/import-updated-subject-banks-2026-11-10",
     "staging_source_records": 850,
     "staging_unique_ids": 850,
-    "active_questions_json_records": 130,
-    "staging_ids_already_active": 130,
-    "review_pending_json_records": 720,
-    "review_pending_unique_ids": 720,
+    "active_questions_json_records": 136,
+    "staging_ids_already_active": 136,
+    "review_pending_json_records": 714,
+    "review_pending_unique_ids": 714,
     "active_review_union_unique_ids": 850,
     "review_queue_duplicates": 0,
     "review_required_records": 33,
