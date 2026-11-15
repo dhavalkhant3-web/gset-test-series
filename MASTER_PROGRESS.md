@@ -1263,3 +1263,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Sanskrit Code 07 remains blocked: review queue file is empty; 704 distinct staged records remain missing from canonical review JSON. Do not claim restored.
 - Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
 - No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or combined Debug APK pass verified for these commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q51–Q57 source verification
+- Visually checked the official GSET December 2024 Forensic Science Paper-II scan, printed page 9 (PDF page index 8), for Q51–Q57. All seven stems and all four options matched the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters D, A, D, D, A, A, C matched Q51–Q57 exactly. No stored answer changed.
+- Official Code 27 syllabus page 5 mappings verified: Q51 Unit X; Q52 Unit V; Q53 Unit X; Q54 Unit I; Q55 Unit III; Q56 Unit X; Q57 Unit X. All seven records moved from review-only to active with source_verified=true and review_flag=false.
+- Forensic Science Code 27: 100 -> 107 active; 200 -> 193 review-only. December 2024 source-verified count 16 -> 23/100; 77 remain review-only in that session. Mapping totals: 14 -> 21 verified; 285 -> 278 provisional; 1 pending unchanged.
+- Seven-subject totals: 671 -> 678 active; 725 -> 718 review-only present; 704 Sanskrit records missing from canonical JSON; 1,100 not transcribed. Total expected remains 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- Next batch: Forensic Science Code 27 December 2024 Q58–Q64 (printed page 10). No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass claimed.
