@@ -468,3 +468,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Assigned question-level units to all 300 canonical records (87 active + 213 review-only): 300 verified mappings, 0 provisional, 0 pending. Unit distribution: {"Unit I":22,"Unit X":28,"Unit IV":32,"Unit VI":38,"Unit II":42,"Unit III":28,"Unit V":35,"Unit VII":23,"Unit VIII":25,"Unit IX":27}.
 - Mapped both active and review-only records. Review-only flags and source-verification fields were preserved; mapping completion does NOT mark the 213 source pages visually checked or activate them.
 - November 2023 / December 2024 / November 2025 papers remain source-review pending as per paper metadata; no answer or question text changed.
+
+
+## 2026-11-15 — Forensic Science Code 27 source and syllabus review closure
+- Official Code 27 syllabus reviewed: https://gujaratset.ac.in/assets/syllabus/27.pdf. All 300 question stems/options are source-verified (November 2023 100/100, December 2024 100/100, November 2025 100/100); official final-key parity is 300/300.
+- Reviewed the 87 review-only records against the ten official units. Promoted 78 records with direct syllabus matches to the active bank; retained 9 review-only records where the syllabus does not directly name the topic or a unique unit cannot be justified. No source text, options or official answers changed.
+- Current bank: 291 active / 9 review-only. Mapping totals: 205 verified, 94 provisional, 1 pending. Verified unit distribution: {"Unit 2":8,"Unit 5":21,"Unit 7":15,"Unit 8":9,"Unit 10":16,"Unit 1":6,"Unit 6":3,"Unit 3":21,"Unit 4":20,"Unit 9":8,"Unit NaN":78}.
+- PR #22 remains open/unmerged; no CI or Combined APK pass claimed.
