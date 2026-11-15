@@ -31,7 +31,12 @@
       "status": "partial_visual_review",
       "review_note": "79/100 questions source-page visually checked and matched against official final key; 21 remain pending source review. Official syllabus mapping remains pending.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
-      "source_reference_status": "official_GSET_URL_resolved"
+      "source_reference_status": "official_GSET_URL_resolved",
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_status": "official_syllabus_mapped",
+      "unit_mapping_note": "Question-level mappings reviewed against official Code 26 syllabus; source-page review flags remain independent."
     },
     {
       "paper_id": "environmental_sciences_dec2024",
@@ -55,7 +60,12 @@
       "review_note": "All 100 official final-key entries match the supplied evidence register. 3/100 questions are source-page visually checked; remaining 97 await second-pass source verification. Syllabus mapping is pending because the official syllabus was not supplied.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2426.pdf",
-      "source_reference_status": "official_GSET_URL_resolved"
+      "source_reference_status": "official_GSET_URL_resolved",
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_status": "official_syllabus_mapped",
+      "unit_mapping_note": "Question-level mappings reviewed against official Code 26 syllabus; source-page review flags remain independent."
     },
     {
       "paper_id": "environmental_sciences_nov2025",
@@ -79,7 +89,12 @@
       "review_note": "All 100 official final-key entries match the supplied evidence register. 5/100 questions are source-page visually checked; remaining 95 await second-pass source verification. Syllabus mapping is pending because the official syllabus was not supplied.",
       "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2526.pdf",
       "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2526.pdf",
-      "source_reference_status": "official_GSET_URL_resolved"
+      "source_reference_status": "official_GSET_URL_resolved",
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_status": "official_syllabus_mapped",
+      "unit_mapping_note": "Question-level mappings reviewed against official Code 26 syllabus; source-page review flags remain independent."
     }
   ]
 }
