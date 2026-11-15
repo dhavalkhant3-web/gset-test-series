@@ -10,7 +10,7 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
 | 06 | Gujarati | 196 | 204 | 0 | 0 |
-| 07 | Sanskrit | 146 | 0 | 704 | 0 |
+| 07 | Sanskrit | 146 | 704 | 0 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
@@ -18,7 +18,7 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
 | **Total** | | **968** | **428** | **704** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 869 active + 527 review-only records present + 704 Sanskrit records missing from the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit queue is currently an empty file; the 704 records are available in the Library staging source but are not present in this branch's canonical JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 869 active + 527 review-only records present + 704 Sanskrit records recovered into the canonical review queue + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records; `questions_review_pending.json` is currently zero bytes. The Library staging source contains 850 unique records, so 704 distinct records still need to be restored to the canonical review queue. The source audit reports 704 pending; do not count these as present in JSON until the queue is actually restored. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -495,3 +495,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Gujarati Code 06: 99 December 2019 questions with completed source, official FINAL-key and syllabus checks moved from review queue to active. Q7 remains excluded as official Z/not evaluated. Gujarati now 196 active / 204 review-only.
 - Seven-subject canonical totals now 968 active + 428 review-only + 704 Sanskrit staging records absent from canonical JSON + 1,100 not yet transcribed (Geography 500; Social Work 600) = 3,200 expected.
 - Other current closures remain: Geography 198/2; Environmental Sciences all 300 mapped to official syllabus but 213 review-only source flags retained; Forensic Science 291/9 with 300/300 source verification and final-key reconciliation.
+
+
+## 2026-11-15 — Sanskrit Code 07 staging recovery
+- Restored 704 distinct records from the consolidated Library staging source into `questions_review_pending.json` using the canonical app schema. The 146 records already in the active bank were matched by ID and not duplicated.
+- All 704 recovered records are explicitly review-only: `source_verified=false`, `review_flag=true`, and syllabus mapping pending. No recovered question was promoted to active.
+- Answer-key verification is marked true only where the staging provenance explicitly identifies a final answer key and the letter is A–D; older published “KEY FOR PAPER-II” sources not labelled FINAL remain unverified.
+- Sanskrit canonical totals now 146 active + 704 review-only = 850 records. Five keys-only sessions are still separate and were not invented/transcribed.
