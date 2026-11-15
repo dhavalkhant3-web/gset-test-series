@@ -8,10 +8,10 @@
   "transcribed": 100,
   "official_final_key_matches": 100,
   "key_mismatches": 0,
-  "source_visual_checked": 59,
-  "active_questions": 52,
-  "pending_review": 48,
-  "source_visual_status": "partial: Q1–Q59 visually checked against official PDF printed pages 3–19; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50 and Q52–Q53, Q55–Q59 active; Q8, Q10, Q26, Q32, Q51 and Q54 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q60–Q100 remain source-visual pending",
+  "source_visual_checked": 65,
+  "active_questions": 57,
+  "pending_review": 43,
+  "source_visual_status": "partial: Q1–Q65 visually checked against official PDF printed pages 3–21; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31, Q33–Q50, Q52–Q53, Q55–Q61 and Q63–Q65 active; Q8, Q10, Q26, Q32, Q51, Q54 and Q62 remain syllabus-review only; Q23 remains review-only due to official-key/content discrepancy; Q66–Q100 remain source-visual pending",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
   "source_visual_verified_question_numbers": [
@@ -73,7 +73,13 @@
     56,
     57,
     58,
-    59
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
   ],
   "source_visual_pdf_page_indexes_zero_based": [
     2,
@@ -92,7 +98,9 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20
   ],
   "source_visual_printed_pages": [
     3,
@@ -111,7 +119,9 @@
     16,
     17,
     18,
-    19
+    19,
+    20,
+    21
   ],
   "source_visual_question_ranges": {
     "printed_page_3": [
@@ -206,6 +216,16 @@
       57,
       58,
       59
+    ],
+    "printed_page_20": [
+      60,
+      61
+    ],
+    "printed_page_21": [
+      62,
+      63,
+      64,
+      65
     ]
   },
   "syllabus_mapping_verified_question_numbers": [
@@ -218,7 +238,7 @@
     7,
     9
   ],
-  "syllabus_mapping_verified_count": 53,
+  "syllabus_mapping_verified_count": 58,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -484,6 +504,31 @@
       "question": 59,
       "unit": "Unit I",
       "rationale": "Official Code 24 Unit I explicitly includes theories and processes of slope development, including Davis and Penck."
+    },
+    {
+      "question": 60,
+      "unit": "Unit X",
+      "rationale": "Official Code 24 Unit X covers the geography and major physiographic regions of India."
+    },
+    {
+      "question": 61,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I explicitly includes earthquakes among geomorphic hazards."
+    },
+    {
+      "question": 63,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly lists Demographic Transition."
+    },
+    {
+      "question": 64,
+      "unit": "Unit V",
+      "rationale": "Official Code 24 Unit V explicitly lists urban land-use models, including Harris and Ullman."
+    },
+    {
+      "question": 65,
+      "unit": "Unit VI",
+      "rationale": "Official Code 24 Unit VI explicitly lists the World Trade Organization and world trade patterns."
     }
   ],
   "remaining_review_question_numbers": [
@@ -494,12 +539,7 @@
     32,
     51,
     54,
-    60,
-    61,
     62,
-    63,
-    64,
-    65,
     66,
     67,
     68,
@@ -536,5 +576,5 @@
     99,
     100
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 17–18 (printed pages 18–19) visually checked for Q52–Q59. English stems/options and Q54 matching table match canonical transcriptions; official final-key letters B,C,C,A,D,C,C,B match all eight. Verified mappings: Q52 Unit II (Coriolis/pressure and winds); Q53 Unit IX (basin circularity ratio); Q55 Unit III (ocean circulation); Q56 Unit IX (GIS attribute data); Q57 Unit I (geomorphology/drainage); Q58 Unit IX (digital image processing); Q59 Unit I (slope development/Penck). Q52, Q53, Q55–Q59 promoted active. Q54 source-verified/key-matched but remains review-only because island-origin classification has no unambiguous single-unit placement. Q60–Q100 remain source-visual pending."
+  "batch_note": "2026-11-15: Official PDF indexes 19–20 (printed pages 20–21) visually checked for Q60–Q65. English stems/options match canonical transcriptions; official final-key letters B,D,B,A,C,C match all six. Verified mappings: Q60 Unit X (India/Tropic of Cancer); Q61 Unit I (earthquakes); Q63 Unit V (demographic transition); Q64 Unit V (Harris–Ullman urban model); Q65 Unit VI (WTO/world trade). Q60, Q61 and Q63–Q65 promoted active. Q62 source-verified/key-matched but remains review-only pending explicit syllabus placement for nuclear power-station location. Q66–Q100 remain source-visual pending."
 }
