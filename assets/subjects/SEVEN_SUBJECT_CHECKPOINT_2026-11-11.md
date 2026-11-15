@@ -430,3 +430,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Forensic Science now 213 active / 87 review-only. November 2025: 20/100 source-page verified, 20/100 final-key matched, 80 remain source-review pending. Overall subject mapping audit: 127 verified, 172 provisional, 1 pending.
 - Updated canonical questions, review queue, source audit, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+
+
+## 2026-11-15 — Forensic Science Code 27 mapping-audit reconciliation
+- Recomputed the verified unit distribution from canonical active `questions.json` records whose `syllabus_mapping_status` is `official_syllabus_content_reviewed`; verified count remains 127.
+- Reconciled aggregate mapping totals across active and review-only banks (300 records): 127 verified, 172 provisional, 1 pending. The pending record is November 2025 Q47; no mapping was forced.
+- Reconciled session totals across both banks: November 2023 100, December 2024 100, November 2025 100.
+- Updated `source_audit.json` and the Code 27 entry in `assets/subjects/subjects.json`. Question content, answers, review flags, and activation status were not changed.
+- PR #22 remains open/unmerged. No CI or Combined APK pass is claimed.
