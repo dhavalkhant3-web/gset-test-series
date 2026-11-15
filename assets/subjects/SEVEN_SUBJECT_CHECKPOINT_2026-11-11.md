@@ -5,20 +5,22 @@ Branch: `app/import-updated-subject-banks-2026-11-10`
 Pull request: https://github.com/dhavalkhant3-web/gset-test-series/pull/22
 Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathematical Sciences Code 01, or Code 28.
 
-## Current counts
+## Current counts — reconciled against live canonical files (2026-11-15)
 
-| Code | Subject | Active | Staged review-only | Not yet transcribed |
-|---|---|---:|---:|---:|
-| 06 | Gujarati | 97 | 303 | 0 |
-| 07 | Sanskrit | 130 | 720 | 0 |
-| 08 | History | 50 | 0 | 0 |
-| 24 | Geography | 108 | 92 | 500 |
-| 25 | Social Work | 0 | 0 | 600 |
-| 26 | Environmental Sciences | 87 | 213 | 0 |
-| 27 | Forensic Science | 84 | 216 | 0 |
-| **Total** | | **556** | **1,544** | **1,100** |
+| Code | Subject | Active | Review-only present in JSON | Review-only records missing from JSON | Not yet transcribed |
+|---|---|---:|---:|---:|---:|
+| 06 | Gujarati | 97 | 303 | 0 | 0 |
+| 07 | Sanskrit | 130 | 0 | 720 | 0 |
+| 08 | History | 50 | 0 | 0 | 0 |
+| 24 | Geography | 132 | 68 | 0 | 500 |
+| 25 | Social Work | 0 | 0 | 0 | 600 |
+| 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
+| 27 | Forensic Science | 84 | 216 | 0 | 0 |
+| **Total** | | **580** | **800** | **720** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Active: 556. Remaining work: 2,644 records, consisting of 1,544 transcribed but review-only and 1,100 not yet transcribed. Social Work's 600 official answer-key entries are source material only, not question records.
+Expected question records across these seven subjects: 3,200. Canonical active records: 580. Review-only records actually present in JSON: 800. A further 720 Sanskrit records are reported as pending by source_audit.json but are missing from the canonical review queue (the file is empty); they must be recovered before being counted as staged review-only. Not yet transcribed: 1,100 (Geography 500 and Social Work 600). Total remaining expected work: 2,620, comprising 800 stored review-only + 720 missing Sanskrit review records + 1,100 not yet transcribed.
+
+**Important reconciliation:** Current canonical files supersede older checkpoint/registry figures. History is 50 active records with 48 syllabus mappings verified and Q46/Q48 pending; Q48's official final answer is D and its earlier key-conflict note is superseded. Geography is now 132 active / 68 review-only after the Q11–Q37 source batch. Sanskrit has 130 active question records, but its review queue is empty despite the audit reporting 720 pending records; treat this as a missing-data recovery blocker, not as a completed or stored queue.
 
 ## Latest completed source work
 
@@ -113,3 +115,9 @@ Expected question records across these seven subjects: 3,200. Active: 556. Remai
 - Promoted Q33–Q37 to active. Q32 is source-verified/key-matched but remains review-only pending a defensible syllabus placement for the coastal lagoon item. Geography now has 132 active and 68 review-only records; 500 expected questions remain untranscribed. November 2025 Q1–Q37 are visually checked; Q1–Q7, Q9, Q11–Q22, Q24–Q25, Q27–Q31 and Q33–Q37 active; Q8/Q10/Q26/Q32 mapping review; Q23 official-key/content conflict; Q38–Q100 visual review pending.
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
 - Gujarati-side text was not populated. No other subject, Code 01, Code 02, Code 28 or Paper-I changed. PR #22 remains open/unmerged. No CI/APK result is claimed for this PR branch.
+
+
+## 2026-11-15 — Canonical file and registry reconciliation
+- Reconciled subject registry against current canonical JSON files for Codes 06, 07, 08, 24, 26 and 27. Corrected Code 08 and Code 24 loaded/review counts and refreshed their data_status descriptions.
+- Sanskrit discrepancy found: questions.json has 130 records; questions_review_pending.json is empty; source_audit.json reports 720 pending and 33 review-required records, but none of the 130 question records has review_flag=true. The 720 records are not present in canonical JSON. Updated source audit and registry to make this a visible recovery blocker; did not fabricate or reconstruct missing question records.
+- Current seven-subject totals: 580 active; 800 review-only records actually present in JSON; 720 Sanskrit review-only records reported but missing from JSON; 1,100 not transcribed (Geography 500, Social Work 600). PR #22 remains open/unmerged.
