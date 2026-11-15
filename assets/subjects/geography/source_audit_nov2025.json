@@ -9,8 +9,8 @@
   "official_final_key_matches": 100,
   "key_mismatches": 0,
   "source_visual_checked": 100,
-  "active_questions": 91,
-  "pending_review": 9,
+  "active_questions": 92,
+  "pending_review": 8,
   "source_visual_status": "complete: Q1–Q100 visually checked against official PDF printed pages 3–31. 91 questions active; nine remain review-only for mapping or key/content resolution: Q8, Q10, Q23, Q26, Q32, Q51, Q54, Q62 and Q68. Q23 official final key A is preserved despite apparent content conflict. No source-visual checks remain for the November 2025 paper.",
   "answer_key_note": "Official final answer key confirms all 100 staged answer letters. Q1–Q10 are now also source-visually checked; Q8=A, Q9=B and Q10=C match exactly. Q8 and Q10 remain review-only because their syllabus placements are not explicit; Q11–Q100 remain source-review pending.",
   "next_action": "Continue visual verification from Q11 onward, beginning with the next official PDF page. Separately obtain subject-expert confirmation for Q8 and Q10 syllabus placements before promoting them.",
@@ -346,9 +346,10 @@
     5,
     6,
     7,
-    9
+    9,
+    32
   ],
-  "syllabus_mapping_verified_count": 92,
+  "syllabus_mapping_verified_count": 93,
   "syllabus_mapping_units": [
     {
       "question": 1,
@@ -489,6 +490,11 @@
       "question": 31,
       "unit": "Unit X",
       "rationale": "Official Code 24 Unit X explicitly includes types and distribution of vegetation."
+    },
+    {
+      "question": 32,
+      "unit": "Unit I",
+      "rationale": "Official Code 24 Unit I is Geomorphology and explicitly includes landform occurrence. Pulicat Lake is identified in the source question as a lagoon enclosed by a spit, a coastal geomorphic landform."
     },
     {
       "question": 33,
@@ -816,11 +822,10 @@
     10,
     23,
     26,
-    32,
     51,
     54,
     62,
     68
   ],
-  "batch_note": "2026-11-15: Official PDF indexes 29–30 (printed pages 30–31) visually checked for Q94–Q100. English stems/options and Q100's pass-to-state matching table match canonical transcriptions; official final-key letters B,B,B,D,D,C,D match. Verified mappings: Q94 Unit I (knickpoint/rejuvenation); Q95 Unit X (Gujarat Golden Corridor/industrial regions); Q96 Unit I (recumbent folding); Q97 Unit I (badland topography); Q98 Unit X (transport networks); Q99 Unit I (plate tectonics/vulcanicity); Q100 Unit X (Himalayan passes). All seven promoted active. November 2025 source visual verification is now complete Q1–Q100; nine questions remain review-only for non-source gates."
+  "batch_note": "2026-11-15: Official PDF indexes 29–30 (printed pages 30–31) visually checked for Q94–Q100. English stems/options and Q100's pass-to-state matching table match canonical transcriptions; official final-key letters B,B,B,D,D,C,D match. Verified mappings: Q94 Unit I (knickpoint/rejuvenation); Q95 Unit X (Gujarat Golden Corridor/industrial regions); Q96 Unit I (recumbent folding); Q97 Unit I (badland topography); Q98 Unit X (transport networks); Q99 Unit I (plate tectonics/vulcanicity); Q100 Unit X (Himalayan passes). All seven promoted active. November 2025 source visual verification is now complete Q1–Q100; nine questions remain review-only for non-source gates. Q32 was promoted to active after confirming the coastal lagoon/spit landform falls within official Unit I (Geomorphology; landform occurrence). Active 92/100; eight review-only records remain."
 }
