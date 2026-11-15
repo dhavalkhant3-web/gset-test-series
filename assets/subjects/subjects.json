@@ -382,7 +382,13 @@
       "papers_loaded": 3,
       "questions_loaded": 87,
       "questions_pending_review": 213,
-      "data_status": "300 transcribed across 3 sessions; 300/300 official final-key entries match supplied evidence register. 87 source-page visually checked questions are active; 213 remain review-only. Official syllabus mapping pending."
+      "data_status": "300 questions transcribed across November 2023, December 2024 and November 2025. All 300 records mapped to the ten official Code 26 syllabus units. Canonical bank: 87 active / 213 review-only. Review-only questions remain flagged because source-page visual proofreading is pending; mapping does not clear source flags.",
+      "unit_mapping_status": "300/300 question-level mappings verified against official GSET Code 26 syllabus",
+      "unit_mapping_counts": {
+        "verified": 300,
+        "provisional": 0,
+        "pending": 0
+      }
     },
     {
       "code": "27",
