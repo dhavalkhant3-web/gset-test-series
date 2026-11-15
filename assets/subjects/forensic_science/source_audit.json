@@ -714,7 +714,7 @@
       100
     ]
   },
-  "remaining_subject_work": "Forensic Science total 300: 213 active, 87 review-only. November 2025 source visual verification 65/100; remaining source review Q69–Q100 (35 questions). Review-only flags remain independent of source verification and syllabus mapping.",
+  "remaining_subject_work": "Forensic Science total 300: 213 active, 87 review-only. November 2025 source visual verification 97/100; only Q1–Q3 remain. The 87 review-only records remain review-only where syllabus mapping is provisional or pending; source verification does not auto-promote them.",
   "nov2025_visual_batch_2": {
     "date": "2026-11-15",
     "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
@@ -847,6 +847,63 @@
       98,
       99,
       100
+    ]
+  },
+  "nov2025_visual_batch_4": {
+    "date": "2026-11-15",
+    "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
+    "printed_pages": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "pdf_zero_based_pages": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "question_numbers": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "count": 32,
+    "result": "Q69–Q100 stems and all four options visually checked against official source pages 12–15. No text, option or answer changes were made; official final-key parity was previously audited.",
+    "remaining_nov2025_source_review_questions": [
+      1,
+      2,
+      3
     ]
   }
 }
