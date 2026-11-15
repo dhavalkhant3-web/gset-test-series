@@ -397,12 +397,12 @@
       "source_verified": false,
       "papers_loaded": 3,
       "questions_loaded": 300,
-      "questions_pending_review": 130,
-      "data_status": "300 Paper-II records transcribed across three sessions. December 2024 Q1–Q24 and Q35–Q100 source-page visually checked; 86 active, with Q20–Q22 and Q59 source/key verified but retained review-only for syllabus scope. Q25–Q34 (10 questions) and other session records remain under review. Overall bank remains partial; Gujarati fields not populated.",
-      "unit_mapping_status": "84 question-level mappings manually reviewed against official Code 27 syllabus; 275 provisional, 1 pending.",
+      "questions_pending_review": 123,
+      "data_status": "300 Paper-II records transcribed across three sessions. December 2024 Q1–Q34 and Q35–Q100 source-page visually checked; 93 active, with Q20–Q22, Q25–Q26, Q33 and Q59 source/key verified but retained review-only for syllabus scope. All 100 December 2024 questions now source-page checked; other session records remain under review. Gujarati fields not populated.",
+      "unit_mapping_status": "91 question-level mappings manually reviewed against official Code 27 syllabus; 278 provisional, 1 pending.",
       "unit_mapping_counts": {
-        "verified": 84,
-        "provisional": 275,
+        "verified": 91,
+        "provisional": 278,
         "pending": 1
       }
     },
