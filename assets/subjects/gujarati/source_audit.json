@@ -4,8 +4,8 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 97,
-  "pending_review": 303,
+  "active_questions": 196,
+  "pending_review": 204,
   "visual_checked": 249,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
@@ -938,5 +938,11 @@
     ],
     "count": 3,
     "result": "Re-inspected Q36, Q37 and Q60 against the original scan. Q36 option C OCR error corrected from 'પધવાર્તા' to 'પદ્યવાર્તા'. Q36 option A still has an ambiguous glyph in the compound word after 'પાત્રો'; Q37 contains several uncertain proper-name glyphs; Q60 author b spelling still requires exact glyph confirmation. All three remain review-only with review_flag=true and source_verified=false; no answers changed."
+  },
+  "dec2019_review_queue_cleanup": {
+    "date": "2026-11-15",
+    "promoted": 99,
+    "retained_non_evaluated_question": "GSET-GUJ06-DEC2019-Q007",
+    "basis": "All 99 promoted records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified, review_flag=false, and match the official December 2019 FINAL answer key. Q7 answer Z remains excluded from scoring."
   }
 }
