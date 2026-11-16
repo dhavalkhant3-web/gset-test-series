@@ -15,7 +15,7 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 187 | 113 | 0 | 0 |
-| 27 | Forensic Science | 291 | 9 | 0 | 0 |
+| 27 | Forensic Science | 292 | 8 | 0 | 0 |
 | **Total** | | **1,214** | **336** | **550** | **1,100** |
 
 Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,214 active + 336 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
@@ -792,3 +792,9 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official final-key answers matched: Q80 A, Q81 A, Q82 A, Q83 A, Q84 A, Q85 B, Q86 B, Q87 B, Q88 C. All nine already had verified syllabus mappings.
 - Promoted nine records after duplicate-ID checks. Environmental Sciences now stands at 187 active / 113 review-only.
 - Seven-subject totals: 1,214 active + 336 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200. PR #22 remains open/unmerged; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Forensic Science Code 27 Q59 mapping resolution
+- Reviewed the official Code 27 syllabus. December 2024 Q59 (rape-kit purpose) is supported by Unit I, which explicitly includes sexual offences under Criminal Investigations and collection/preservation of physical evidence.
+- Promoted `GSET-FS27-DEC2024-Q059` from review-only to active without changing its source wording, options, or official final-key answer.
+- Current Forensic Science count after live verification: 292 active / 8 review-only. The remaining eight are retained for explicit syllabus-scope uncertainty; no forced mapping.
