@@ -917,3 +917,42 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Social Work: 396 unique records; review_flag=true on 373, all pending syllabus mapping; Dec 2019 100/100, Dec 2021/Jan 2022 96/100, Nov 2022 100/100, Nov 2023 100/100. Remaining transcription 204.
 - Sanskrit staging discrepancy: canonical questions.json has 192 records (unique), while source_audit.json claims 850 transcribed questions and 108 pending review. The review queue file is empty and all 192 canonical records currently have review_flag=false; only 14 have syllabus_mapping_status=verified. answer_keys_staging.json explicitly contains 300 keys-only entries across five sessions, including SEP2018 Q44 marked Z/not evaluated, and mentions three further 50-question sessions (Oct 2010, Oct 2011, Oct 2014) whose question/key files were not available. The reported 550 staging count cannot be reconciled to the present files: do not invent missing question text or promote key-only entries.
 - No flags were cleared automatically where source, official key, or syllabus evidence remained unresolved. Data discrepancies are recorded for reconciliation.
+
+
+## 16 November 2026 — execution continuation (latest verified snapshot)
+
+### Social Work (Code 25)
+- Canonical question bank: 419 unique records; no duplicate IDs; every loaded record has four English options.
+- December 2019: 100/100 transcribed and final-key parity complete.
+- December 2021 / January 2022: 96/100 transcribed; Q32–Q35 remain untranscribed. No full-paper parity claim until the missing four are recovered.
+- November 2022: 100/100 transcribed and final-key reconciled; 77 syllabus mapping review flags remain.
+- November 2023: 100/100 transcribed and final-key reconciled; 100 syllabus mapping review flags remain.
+- December 2024: Q1–Q23 transcribed from official PDF; all 23 match the official final key. Q24–Q100 remain.
+- November 2025: 0/100 transcribed.
+- Remaining Social Work transcription: 181 questions (Dec 2021 Q32–Q35 = 4; Dec 2024 Q24–Q100 = 77; Nov 2025 = 100). 396 of 419 records are review-only pending mapping/source gates.
+
+### Geography (Code 24)
+- Canonical question bank: 304 unique records; no duplicate IDs; all loaded records have four English options.
+- November 2022: 100/100 questions now transcribed and visually checked; all 100 answers match the official final key. All 100 remain review-only pending official syllabus mapping.
+- September 2018: Q1–Q6 transcribed and final-key matched; Q7–Q100 remain.
+- November 2022 Q1–Q100 complete; remaining 396 geography questions are September 2018 Q7–Q100 (94), December 2021 (100), November 2023 (100), December 2024 (100), and two untranscribed November 2025 records.
+- Existing September 2016 and August 2017 papers remain 50/50 each; November 2025 canonical bank has 98 records, with two review-only records separately queued.
+
+### Environmental Sciences (Code 26)
+- Canonical audit confirms 300/300 records across November 2023, December 2024 and November 2025; all 300 have source_verified=true, answer_key_verified=true, review_flag=false and syllabus_mapping_status=verified.
+- Reconciled stale papers.json counters: each paper now records 100 loaded/source-verified questions and zero review flags. This was a manifest correction against canonical question-level records, not a new transcription claim.
+
+### Sanskrit (Code 07) — reconciliation warning
+- Canonical questions.json currently contains 192 records (99 November 2023, 93 November 2025). The separate answer_keys_staging.json contains 300 answer-key-only entries across five sessions; these are not question-text records and must not be counted as transcribed questions.
+- The earlier audit/source_audit references 550 recovered staging questions, but the current questions_review_pending.json fetch is empty (0 bytes). The claimed 550-record review queue is therefore not confirmed in the actual file. Do not promote or count those 550 until the missing content is physically present and validated.
+
+### Other review-only queues
+- Gujarati: 36 separate review-only records; no duplicate IDs in canonical bank.
+- History: 2 explicit syllabus-mapping holds (Q46 and Q48); keep them unmapped.
+- Forensic Science: 8 separate review-only records remain; retain the syllabus-scope holds rather than forcing units.
+- Geography: 2 separate November 2025 review-only records plus 100 November 2022 mapping holds and six September 2018 source/mapping review flags.
+- Social Work: mapping/source review flags remain as listed above; no unsupported unit assignments made.
+
+### CI / integration
+- Latest PR #22 head checked: no associated commit status checks and no PR-triggered workflow runs returned. No Combined APK PASS is claimed.
+- PR #22 remains open and unmerged. No merge authorization received.
