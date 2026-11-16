@@ -22,7 +22,7 @@
     ],
     "result": "Seven August 2017 questions Q44–Q50 visually checked against official source pages 14–15; official final answer-key and verified syllabus gates already passed. Promoted without altering stems, options, or answers."
   },
-  "remaining_review_note": "303 review-only records remain: 152 source texts/options visually verified with 152 verified mappings; 151 provisional. December 2019 Q1–Q6, Q8–Q17, Q19–Q45 source checked; 55 visual checks remain in that session. December 2003 Q18 and other unverified ranges remain pending. December 2002 unmatched Q35 and historical key conflicts Q36,Q38–Q41 remain unresolved.",
+  "remaining_review_note": "LIVE QUEUE CHECKPOINT (2026-11-16): 44 review-only records remain in questions_review_pending.json. Breakdown by paper: August 2017 = 8; December 2002 = 6; December 2008 = 27; December 2021/January 2022 = 3. This live queue count supersedes historical review totals and narrative checkpoints elsewhere in this audit. No record is promoted solely because an answer key or syllabus mapping is verified.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -966,5 +966,19 @@
     "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
     "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
   },
-  "_latest_checkpoint": "August 2017 Q44–Q50 promoted after visual source check; 7 moved from review-only to active."
+  "_latest_checkpoint": "Live queue corrected: 356 active, 44 review-only; pending records distributed across Aug 2017 (8), Dec 2002 (6), Dec 2008 (27), Dec 2021 (3).",
+  "live_review_queue_checkpoint": {
+    "date": "2026-11-16",
+    "active_questions": 356,
+    "pending_review": 44,
+    "unique_pending_ids": 44,
+    "pending_by_paper": {
+      "gujarati_aug2017": 8,
+      "gujarati_dec2002": 6,
+      "gujarati_dec2008": 27,
+      "gujarati_dec2021": 3
+    },
+    "source": "Current canonical questions.json and questions_review_pending.json on app/import-updated-subject-banks-2026-11-10",
+    "note": "Live JSON counts supersede older historical counts retained elsewhere in this audit."
+  }
 }
