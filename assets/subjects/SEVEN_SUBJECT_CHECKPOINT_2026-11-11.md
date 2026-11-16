@@ -617,3 +617,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final-key answers confirmed: Q24 A, Q25 A, Q26 D, Q27 C, Q28 A (existing record), Q29 A, Q30 B, Q31 A. Seven new records added to review queue; Q28 remains held for its separate verse transcription review. All remain review-only pending full-paper completion and official syllabus mapping.
 - Sanskrit canonical totals: 192 active / 40 review-only; 618 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 460 review-only + 618 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q32–Q39 source batch
+- Visually checked printed page 7 of the user-supplied official December 2024 Sanskrit Paper-II scan. Q32–Q39 stems and all four options match the scan.
+- Official final-key answers confirmed: Q32 A, Q33 A, Q34 B, Q35 B, Q36 D, Q37 A, Q38 C, Q39 B. Eight records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
+- Sanskrit canonical totals: 192 active / 48 review-only; 610 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 468 review-only + 610 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
