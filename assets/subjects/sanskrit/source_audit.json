@@ -635,7 +635,7 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 26,
+  "review_pending_file_count": 33,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
   "review_pending_file_integrity": "704 unique records remain in questions_review_pending.json; all review-flagged. 665 are key-applied pending visual proofread; 39 retain review_required notes. Q91–Q100 were visually checked on printed pages 14–15 and final-key matched; Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain review-only for exact Devanagari transcription review. Two official final-key Z/not-evaluated records remain without an option letter.",
   "nov2025_visual_verified_count": 100,
@@ -663,14 +663,14 @@
     "staging_unique_ids": 850,
     "active_questions_json_records": 192,
     "staging_ids_already_active": 192,
-    "review_pending_json_records": 26,
-    "review_pending_unique_ids": 26,
-    "active_review_union_unique_ids": 218,
+    "review_pending_json_records": 33,
+    "review_pending_unique_ids": 33,
+    "active_review_union_unique_ids": 225,
     "review_queue_duplicates": 0,
-    "review_required_records": 55,
+    "review_required_records": 62,
     "not_evaluated_official_Z_records": 2,
-    "staging_ids_not_in_either_canonical_file": 632,
-    "discrepancy": "December 2024 Q1-Q16 source checked so far; Q1-Q16 retained review-only pending completion of the paper and syllabus mapping. November 2023 Q33 retained review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
+    "staging_ids_not_in_either_canonical_file": 625,
+    "discrepancy": "December 2024 Q1-Q23 source checked; all 23 questions retained review-only pending full-paper completion and official syllabus mapping. November 2023 Q33 retained review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
@@ -762,7 +762,7 @@
     "provisional": 0,
     "pending": 836
   },
-  "canonical_review_queue_count": 26,
+  "canonical_review_queue_count": 33,
   "canonical_review_queue_ids": [
     "GSET-SAN07-NOV2025-Q053",
     "GSET-SAN07-NOV2025-Q085",
@@ -780,6 +780,6 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "2026-11-16: December 2024 Q8-Q16 (nine questions) visually checked against printed page 4; all stems and options match the official scan and answers match the final key. Added to review queue; not promoted to active pending full-paper source review and official syllabus mapping.",
+  "latest_batch_note": "2026-11-16: December 2024 Q17-Q23 (seven questions) visually checked against printed page 5. Q23's matching-table layout preserved as structured multi-line text. All seven official final-key answers matched; records added to review queue, not promoted to active pending full-paper and syllabus review.",
   "review_required_records": 40
 }
