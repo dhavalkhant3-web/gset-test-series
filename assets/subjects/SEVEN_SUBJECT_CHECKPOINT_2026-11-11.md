@@ -874,3 +874,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Social Work: all newly transcribed records remain review-only pending official syllabus mapping.
 - No CI workflow run/status check or combined APK PASS has been observed for the current head.
 - PR #22 remains open and unmerged; no merge authorized.
+
+
+## 16 November 2026 — Social Work follow-up and parity audit
+- Social Work Dec 2019: 100/100 complete; all 100 answers match the official final key. Q17 was corrected from C to official key B after an independent question-level parity check.
+- Social Work Dec 2021/Jan 2022: Q1–Q31 transcribed from official source pages and all 31 answers match the official final answer key. Q32–Q100 remain untranscribed.
+- Social Work canonical total is now 331/600: Nov 2022 100, Nov 2023 100, Dec 2019 100, Dec 2021 31. Remaining transcription: 269 (Dec 2021 69 + Dec 2024 100 + Nov 2025 100).
+- Independent key parity audit: zero mismatches across all 331 transcribed Social Work records. All 331 records have four complete English options. All 308 current Social Work review flags remain due to pending official syllabus mapping; no unsupported units were assigned.
+- Sanskrit 550 missing staged questions have been restored to review-only queue; 658 total review-only records. No activation occurred.
+- CI/APK: current feature-branch head has no associated Actions run or status checks. Combined subject audit and integration Debug APK workflows are configured for the integration branch / workflow_dispatch, not this feature branch. No APK PASS is claimed.
