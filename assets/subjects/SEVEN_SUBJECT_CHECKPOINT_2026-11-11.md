@@ -9,18 +9,18 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 
 | Code | Subject | Active | Review-only present in JSON | Staged / not integrated | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
-| 06 | Gujarati | 196 | 204 | 0 | 0 |
+| 06 | Gujarati | 202 | 198 | 0 | 0 |
 | 07 | Sanskrit | 192 | 108 | 550 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 108 | 192 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **1,035** | **515** | **550** | **1,100** |
+| **Total** | | **1,041** | **509** | **550** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,035 active + 515 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
+Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,041 active + 509 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
 
-**Latest live audit notes:** Gujarati 196 active / 204 review-only (57 review records still lack source-page verification; 33 lack final-key verification). History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 108 active / 192 review-only after the November 2023 Q88–Q100 source-verification batch. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
+**Latest live audit notes:** Gujarati 202 active / 198 review-only (51 review records still lack source-page verification; 33 lack final-key verification). History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 108 active / 192 review-only after the November 2023 Q88–Q100 source-verification batch. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
 
 ## Latest completed source work
 
@@ -689,4 +689,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - All 13 already had a recorded official Code 26 syllabus unit; after source verification they were promoted from review-only to active.
 - Environmental Sciences changed from 95 active / 205 review-only to 108 active / 192 review-only. No other subject was modified in this batch.
 - Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; official final answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; official syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf
+- PR #22 remains open and unmerged. No combined Debug APK or CI PASS is claimed.
+
+
+## 2026-11-16 — Gujarati Code 06 August 2017 Q7–Q12 source verification
+- Rechecked the official August 2017 Gujarati Paper-II scan, printed page 4 (PDF zero-based page 2), for Q7–Q12. Stems and all four Gujarati options match the source; Q11's chronological-order list was preserved.
+- Official final-key answers: Q7 C, Q8 D, Q9 A, Q10 B, Q11 C, Q12 B. All six match the official final key.
+- All six records have verified Code 06 syllabus-unit placements. Q8's previously pending visual source check was completed; Q7 and Q9–Q12 were already source-checked but were held in the review queue. All six passed the active-bank gates and were promoted.
+- Gujarati changed from 196 active / 204 review-only to 202 active / 198 review-only. The remaining Gujarati review queue still contains 51 source-unverified records and 33 records without final-key verification.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1706.pdf ; official final answer key: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf ; official syllabus: https://gujaratset.ac.in/assets/syllabus/06.pdf
 - PR #22 remains open and unmerged. No combined Debug APK or CI PASS is claimed.
