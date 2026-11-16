@@ -905,3 +905,15 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Canonical Social Work total: 396 unique records: Dec 2019 (100), Dec 2021/Jan 2022 (96), Nov 2022 (100), Nov 2023 (100). Remaining Social Work transcription: 204 questions (Dec 2021 Q32–Q35; Dec 2024 100; Nov 2025 100).
 - An integrity audit confirmed unique IDs, four English options per record, and exact official final-key parity for every loaded question in Dec 2019 and Dec 2021. No unsupported syllabus mappings were added; review flags retained.
 - PR #22 remains open and unmerged. No CI run or combined APK PASS observed.
+
+
+## 16 November 2026 — Cross-subject review-queue and Sanskrit staging audit
+
+- Gujarati: 36 records in questions_review_pending.json; these include source-page proofreading, ambiguous glyphs, and historical key/numbering conflicts. They remain held.
+- History: 2 mapping holds; both remain review-only.
+- Geography: 2 explicit review-queue records (Nov 2025 Q23 key/content concern; Q26 provisional Unit I mapping). The live questions bank has 207 unique IDs, so the older PR summary of 200 total is stale; 500 questions across five papers remain untranscribed.
+- Forensic Science: 8 review-queue records remain; the 86 provisional-unit matches are not being promoted automatically. Existing official-source/key checks are retained.
+- Environmental Sciences: review queue empty; 300 unique records.
+- Social Work: 396 unique records; review_flag=true on 373, all pending syllabus mapping; Dec 2019 100/100, Dec 2021/Jan 2022 96/100, Nov 2022 100/100, Nov 2023 100/100. Remaining transcription 204.
+- Sanskrit staging discrepancy: canonical questions.json has 192 records (unique), while source_audit.json claims 850 transcribed questions and 108 pending review. The review queue file is empty and all 192 canonical records currently have review_flag=false; only 14 have syllabus_mapping_status=verified. answer_keys_staging.json explicitly contains 300 keys-only entries across five sessions, including SEP2018 Q44 marked Z/not evaluated, and mentions three further 50-question sessions (Oct 2010, Oct 2011, Oct 2014) whose question/key files were not available. The reported 550 staging count cannot be reconciled to the present files: do not invent missing question text or promote key-only entries.
+- No flags were cleared automatically where source, official key, or syllabus evidence remained unresolved. Data discrepancies are recorded for reconciliation.
