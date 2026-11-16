@@ -4,23 +4,63 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 196,
-  "pending_review": 204,
+  "active_questions": 338,
+  "pending_review": 62,
   "visual_checked": 249,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
-    "session": "December 2019 Gujarati",
-    "question_numbers": [
-      40,
-      41,
-      42,
-      43,
-      44,
-      45
+    "date": "2026-11-16",
+    "count": 42,
+    "question_ids": [
+      "GSET-GUJ06-AUG2017-Q013",
+      "GSET-GUJ06-AUG2017-Q014",
+      "GSET-GUJ06-AUG2017-Q015",
+      "GSET-GUJ06-AUG2017-Q016",
+      "GSET-GUJ06-AUG2017-Q022",
+      "GSET-GUJ06-AUG2017-Q023",
+      "GSET-GUJ06-AUG2017-Q024",
+      "GSET-GUJ06-AUG2017-Q025",
+      "GSET-GUJ06-AUG2017-Q026",
+      "GSET-GUJ06-AUG2017-Q031",
+      "GSET-GUJ06-AUG2017-Q032",
+      "GSET-GUJ06-AUG2017-Q033",
+      "GSET-GUJ06-AUG2017-Q034",
+      "GSET-GUJ06-AUG2017-Q035",
+      "GSET-GUJ06-AUG2017-Q036",
+      "GSET-GUJ06-AUG2017-Q037",
+      "GSET-GUJ06-AUG2017-Q042",
+      "GSET-GUJ06-AUG2017-Q043",
+      "GSET-GUJ06-DEC2008-Q001",
+      "GSET-GUJ06-DEC2008-Q002",
+      "GSET-GUJ06-DEC2008-Q003",
+      "GSET-GUJ06-DEC2008-Q004",
+      "GSET-GUJ06-DEC2008-Q005",
+      "GSET-GUJ06-DEC2008-Q007",
+      "GSET-GUJ06-DEC2008-Q008",
+      "GSET-GUJ06-DEC2008-Q009",
+      "GSET-GUJ06-DEC2008-Q010",
+      "GSET-GUJ06-DEC2008-Q011",
+      "GSET-GUJ06-DEC2008-Q012",
+      "GSET-GUJ06-DEC2008-Q013",
+      "GSET-GUJ06-DEC2008-Q014",
+      "GSET-GUJ06-DEC2008-Q015",
+      "GSET-GUJ06-DEC2008-Q016",
+      "GSET-GUJ06-DEC2008-Q017",
+      "GSET-GUJ06-DEC2008-Q018",
+      "GSET-GUJ06-DEC2008-Q019",
+      "GSET-GUJ06-DEC2008-Q020",
+      "GSET-GUJ06-DEC2008-Q021",
+      "GSET-GUJ06-DEC2008-Q022",
+      "GSET-GUJ06-DEC2008-Q023",
+      "GSET-GUJ06-DEC2008-Q024",
+      "GSET-GUJ06-DEC2019-Q007"
     ],
-    "count": 6,
-    "source": "Official GSET Gujarati Paper-II December 2019 PDF, printed pages 13–14 (PDF page indexes 12–13).",
-    "result": "Q40–Q45 stems and all response options visually matched the official scan. Stored answer letters match the official FINAL key; no text or answer changes required."
+    "sessions": {
+      "August 2017 (exam date 27 Aug 2017)": 18,
+      "December 2008 (exam date 7 Dec 2008)": 23,
+      "December 2019 (exam date 29 Dec 2019)": 1
+    },
+    "result": "Promoted only records already marked source_verified=true, answer_key_verified=true and syllabus_mapping_status=verified. No answer or source content changed; duplicate-ID checks passed. All other review-only records retained."
   },
   "remaining_review_note": "303 review-only records remain: 152 source texts/options visually verified with 152 verified mappings; 151 provisional. December 2019 Q1–Q6, Q8–Q17, Q19–Q45 source checked; 55 visual checks remain in that session. December 2003 Q18 and other unverified ranges remain pending. December 2002 unmatched Q35 and historical key conflicts Q36,Q38–Q41 remain unresolved.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
@@ -465,7 +505,7 @@
     ]
   },
   "official_key_matched_in_batch": 85,
-  "last_batch_saved": "2026-11-12: Completed all 303 review-only syllabus mappings and the additional 23 provisional/pending mappings in the 97 active December 2021 bank. All 400 Gujarati records now have verified syllabus mappings. December 2019: 100/100 source, key and mapping. December 2003: 50/50 source, published-key and mapping (Q18=B). December 2002: 50/50 source and mapping; 44/50 published-key matches with five conflicts and one duplicate printed Q34 key identity unresolved. December 2021: 97/100 source verified; Q36/Q37/Q60 remain review-only.",
+  "last_batch_saved": "2026-11-16",
   "last_old_paper_key_reconciliation": {
     "session": "August 2017 Gujarati",
     "questions": [
@@ -944,5 +984,6 @@
     "promoted": 99,
     "retained_non_evaluated_question": "GSET-GUJ06-DEC2019-Q007",
     "basis": "All 99 promoted records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified, review_flag=false, and match the official December 2019 FINAL answer key. Q7 answer Z remains excluded from scoring."
-  }
+  },
+  "last_updated": "2026-11-16"
 }
