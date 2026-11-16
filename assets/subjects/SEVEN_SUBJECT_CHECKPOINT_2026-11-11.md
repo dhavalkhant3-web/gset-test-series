@@ -659,3 +659,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final-key answers confirmed: Q71 D, Q72 C, Q73 B, Q74 D, Q75 C, Q76 C, Q77 D, Q78 A. Eight records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
 - Sanskrit canonical totals: 192 active / 86 review-only; 572 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 506 review-only + 572 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q79–Q86 source batch
+- Visually checked printed page 13 of the user-supplied official December 2024 Sanskrit Paper-II scan. Q79–Q86 stems and all four options match.
+- Q85's printed notation `प(p)` is preserved verbatim rather than normalized. Official final-key answers confirmed: Q79 D, Q80 C, Q81 D, Q82 C, Q83 B, Q84 C, Q85 B, Q86 A. Eight records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
+- Sanskrit canonical totals: 192 active / 94 review-only; 564 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 514 review-only + 564 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
