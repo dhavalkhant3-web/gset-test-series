@@ -839,3 +839,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Social Work now has 23 active records; 577 of the 600 target questions remain untranscribed. This is a first partial batch, not a completed subject.
 - Seven-subject totals now: 1,419 active + 154 review-only + 550 Sanskrit keys-only staging + 1,077 not transcribed = 3,200 expected.
 - PR #22 remains open and unmerged. No combined APK/CI PASS is claimed. No other subject or unrelated bank was modified in this batch.
+
+
+## 16 November 2026 — Social Work transcription continuation
+
+- Nov 2023: 100/100 questions transcribed; official final-key parity complete. All 100 retain review flags pending official syllabus mapping.
+- Dec 2019: Q1–Q25 transcribed and visually checked against official source PDF; all 25 answers match the official final key. Q26–Q100 remain.
+- Nov 2022: 100/100 questions transcribed and reconciled; 77 syllabus mapping flags remain.
+- Canonical Social Work total: 225 question records. Remaining transcription: 375 (Dec 2019: 75; Dec 2021: 100; Dec 2024: 100; Nov 2025: 100).
+- No unsupported syllabus mappings assigned; these Social Work records remain review-only pending mapping review.
+- Latest branch head at this checkpoint: 68b875abb6769207939e44527de14d8f0de06907. PR #22 open/unmerged. No CI workflow run or combined APK PASS observed.
