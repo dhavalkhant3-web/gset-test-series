@@ -14,13 +14,13 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
-| 26 | Environmental Sciences | 170 | 130 | 0 | 0 |
+| 26 | Environmental Sciences | 178 | 122 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **1,197** | **353** | **550** | **1,100** |
+| **Total** | | **1,205** | **345** | **550** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,197 active + 353 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
+Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,205 active + 345 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
 
-**Latest live audit notes:** Gujarati 296 active / 104 review-only after promoting 94 records that already passed source, official-final-key, and official-syllabus checks; the remaining review queue has 56 source-unverified and 33 final-key-unverified records. History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 170 active / 130 review-only after verified December 2024 Q1–Q7, Q9–Q19, Q21–Q27 and Q34–Q71 source batches. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
+**Latest live audit notes:** Gujarati 296 active / 104 review-only after promoting 94 records that already passed source, official-final-key, and official-syllabus checks; the remaining review queue has 56 source-unverified and 33 final-key-unverified records. History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 178 active / 122 review-only after verified December 2024 Q1–Q7, Q9–Q19, Q21–Q27 and Q34–Q79 source batches. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
 
 ## Latest completed source work
 
@@ -778,3 +778,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official final-key answers matched: Q63 D, Q64 C, Q65 B, Q66 D, Q67 C, Q68 C, Q69 B, Q70 A, Q71 B. All nine already had verified syllabus mappings.
 - Promoted nine records after duplicate-ID checks; no text or answer letters changed. Environmental Sciences now stands at 170 active / 130 review-only.
 - Seven-subject totals: 1,197 active + 353 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200. PR #22 remains open/unmerged; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Environmental Sciences Code 26 December 2024 Q72–Q79
+- Visually checked the official December 2024 scan: Q72–Q75 on printed page 15 (PDF index 14) and Q76–Q79 on printed page 16 (PDF index 15). Stems and all four options match; matching and statement-selection structures were preserved.
+- Official final-key answers matched: Q72 D, Q73 C, Q74 B, Q75 C, Q76 B, Q77 D, Q78 D, Q79 B. All eight already had verified syllabus mappings.
+- Promoted eight records after duplicate-ID checks. Environmental Sciences now stands at 178 active / 122 review-only.
+- Seven-subject totals: 1,205 active + 345 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200. PR #22 remains open/unmerged; no CI/APK PASS is claimed.
