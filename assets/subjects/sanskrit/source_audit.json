@@ -5,7 +5,7 @@
   "paper": "Paper-II",
   "transcribed_questions": 850,
   "active_questions": 192,
-  "pending_review": 658,
+  "pending_review": 108,
   "nov2023_visual_verified_question_numbers": [
     1,
     2,
@@ -670,23 +670,23 @@
     "review_required_records": 108,
     "not_evaluated_official_Z_records": 2,
     "staging_ids_not_in_either_canonical_file": 550,
-    "discrepancy": "December 2024 Q1-Q100 visually source-checked and reconciled 100/100 against the official final answer key; all remain review-only pending official syllabus mapping/editorial sign-off. November 2023 Q33 remains review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
+    "discrepancy": "Live canonical files on branch were re-fetched and parsed on 2026-11-16: questions.json has 192 records; questions_review_pending.json has 108 unique records; union 300. Compared with 850 unique staging IDs, 550 are not present in either canonical file. All 192 active and 108 pending records have source_verified=true and answer_key_verified=true; only 14 active + 106 pending records have verified syllabus mapping. The pending queue still includes editorial/expert holds."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
   "pending_records_missing_from_canonical_json": 648,
-  "queue_restoration_status": "review queue reconciled; ten records retained review-only",
-  "queue_reconciliation_note": "Live branch audit 2026-11-16: 192 active canonical records and 10 review-only records. The 850-question staging source has 648 IDs not yet present in either canonical JSON file. Six November 2025 records (Q85, Q88, Q91, Q93, Q94, Q97) are retained in review-only status due exact Devanagari transcription discrepancies; Q53 remains held for Brahmi glyph / official key discrepancy.",
+  "queue_restoration_status": "Canonical queue verified: 108 records present; 550 staging IDs absent from both canonical files and still require schema restoration.",
+  "queue_reconciliation_note": "Previous audit sections claiming 704 records in questions_review_pending.json were stale and contradicted the live file. Actual queue contains 108 unique records. Do not treat 704 as integrated.",
   "staging_recovery": {
     "date": "2026-11-15",
     "staging_questions": 850,
-    "overlap_with_active": 146,
-    "recovered_to_review_queue": 704,
-    "source_verified_on_recovery": 0,
-    "review_flags_set": 704,
-    "syllabus_mapping_pending": 704,
-    "answer_key_verified_recovered": 502,
-    "answer_key_unverified_recovered": 202,
+    "overlap_with_active": 192,
+    "recovered_to_review_queue": 108,
+    "source_verified_on_recovery": 108,
+    "review_flags_set": 108,
+    "syllabus_mapping_pending": 180,
+    "answer_key_verified_recovered": 108,
+    "answer_key_unverified_recovered": 0,
     "session_summary": {
       "December 2002 (exam date 1 Dec 2002)": {
         "records": 50,
@@ -755,12 +755,14 @@
         "reviewOnly": 53
       }
     },
-    "note": "Recovered only records missing from canonical active bank. No staging record was promoted to active. All recovered records remain review-only pending human Devanagari source proofreading and official syllabus mapping. Answer-key verification is true only where the staging answer_source explicitly identifies a final key and answer letter is A-D."
+    "note": "Corrected against live canonical JSON files on branch 2026-11-16. 192 staging IDs overlap active bank; 108 staging IDs are in review queue; 550 staging IDs are absent from both canonical files. All 300 canonical records currently have source_verified=true and answer_key_verified=true. Mapping remains verified for 120 canonical records and pending for 180. Review-only status is retained pending mapping/editorial resolution."
   },
   "mapping_summary": {
-    "verified": 14,
+    "verified": 120,
     "provisional": 0,
-    "pending": 836
+    "pending": 180,
+    "not_in_canonical": 550,
+    "note": "Counts computed from live canonical files: 14 active + 106 review-only mappings verified; 178 active + 2 review-only mappings pending. The remaining 550 staging IDs are not in canonical JSON and have not been mapped."
   },
   "canonical_review_queue_count": 108,
   "canonical_review_queue_ids": [
@@ -780,9 +782,10 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "2026-11-16: Completed December 2024 Sanskrit Paper-II Q1-Q100 source verification and official final-key parity (100/100). Canonical coverage is complete for this paper; 100 records are in review queue pending official Code 07 syllabus mapping and editorial sign-off. No changes to other subjects.",
+  "latest_batch_note": "Audit correction: live review queue is 108, not 704. 550 of 850 staging IDs remain absent from canonical active/review files. No records were invented or promoted.",
   "review_required_records": 108,
   "dec2024_source_verified_count": 100,
   "dec2024_visual_verified_count": 100,
-  "dec2024_remaining_visual_review": 0
+  "dec2024_remaining_visual_review": 0,
+  "queue_pending_actual_count": 108
 }
