@@ -894,3 +894,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official syllabus mapping and source review remain open for review-only records; no unsupported mapping or automatic promotion was made.
 - Current feature branch has no Actions run or status checks. Combined subject audit and Integration Debug APK workflows support workflow_dispatch; no APK PASS is claimed.
 - PR #22 remains open and unmerged.
+
+
+## 16 November 2026 — Social Work transcription continuation (latest)
+
+- December 2019: 100/100 questions now transcribed from the official GSET Paper-II PDF. All 100 answers match the official final answer key; source and key parity complete. All 100 remain review-only pending official syllabus mapping.
+- December 2021 / January 2022: 96/100 questions transcribed and visually checked. All 96 answers match the official final answer key. Q32–Q35 are still not transcribed because the corresponding official PDF page could not be reliably retrieved; do not infer them. Paper remains incomplete and not eligible as a full practice test.
+- November 2022: 100/100 transcribed and key-reconciled; 77 syllabus mapping flags remain.
+- November 2023: 100/100 transcribed and key-reconciled; 100 syllabus mapping flags remain.
+- Canonical Social Work total: 396 unique records: Dec 2019 (100), Dec 2021/Jan 2022 (96), Nov 2022 (100), Nov 2023 (100). Remaining Social Work transcription: 204 questions (Dec 2021 Q32–Q35; Dec 2024 100; Nov 2025 100).
+- An integrity audit confirmed unique IDs, four English options per record, and exact official final-key parity for every loaded question in Dec 2019 and Dec 2021. No unsupported syllabus mappings were added; review flags retained.
+- PR #22 remains open and unmerged. No CI run or combined APK PASS observed.
