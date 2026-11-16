@@ -60,18 +60,18 @@
       "marks": 200,
       "question_paper_file": "1794243976027_nov2225.pdf",
       "answer_key_file": "1794243976027_nov2225__1_.pdf",
-      "questions_transcribed": 31,
-      "questions_loaded": 31,
-      "questions_count": 31,
+      "questions_transcribed": 37,
+      "questions_loaded": 37,
+      "questions_count": 37,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
       "answer_key_verified": true,
       "answer_key_question_parity_verified": true,
-      "question_source_verified": 31,
+      "question_source_verified": 37,
       "source_verified": false,
       "review_flags_remaining_count": 77,
       "status": "partial_source_verified_syllabus_review_and_transcription_pending",
-      "review_note": "Q1–Q23 and Q24–Q31 are canonical records with complete English stems and four options. All 31 answers match the official GSET final answer key. Q24–Q31 source transcription was visually checked against official PDF pages 10–11. Their syllabus mapping remains pending and they retain review_flag=true. Q32–Q100 remain untranscribed. Total review flags remaining: 8 mapping reviews + 69 untranscribed questions. Do not expose the full paper as complete."
+      "review_note": "Q1–Q23 and Q24–Q37 are canonical records with complete English stems and four options. All 37 answers match the official GSET final answer key. Q24–Q37 were visually checked against official PDF pages 10–13. These 14 new questions retain review_flag=true because official syllabus mapping remains pending. Q38–Q100 remain untranscribed (63 questions). Total review flags remaining: 14 mapping reviews + 63 untranscribed questions = 77."
     },
     {
       "paper_id": "social_work_nov2023",
