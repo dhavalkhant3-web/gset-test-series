@@ -596,3 +596,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final-key answers confirmed: Q1 D, Q2 A, Q3 D, Q4 A, Q5 D, Q6 A, Q7 D. All seven are retained review-only pending full December 2024 paper completion and official syllabus mapping; no automatic promotion to active.
 - Sanskrit canonical totals: 192 active / 17 review-only; 641 of 850 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 437 review-only + 641 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q8–Q16 source batch
+- Visually checked printed page 4 of the user-supplied official December 2024 Sanskrit Paper-II scan. Q8–Q16 stems and all four options match the source; nine records added to the canonical review queue.
+- Official final-key answers confirmed: Q8 A, Q9 B, Q10 C, Q11 A, Q12 A, Q13 C, Q14 D, Q15 B, Q16 C. All nine remain review-only pending full-paper completion and official syllabus mapping.
+- Sanskrit canonical totals: 192 active / 26 review-only; 632 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 446 review-only + 632 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
