@@ -814,3 +814,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Forensic Science: 292 active + 8 review-only. Geography: 198 active + 2 review-only + 500 not transcribed. Sanskrit: 192 active + 108 review-only + 550 staging not integrated. History: 50 active; Q46 and Q48 remain syllabus holds. Social Work: 600 official key entries but question text remains untranscribed.
 - Corrected seven-subject aggregate: 1,388 active + 162 review-only + 550 Sanskrit staging + 1,100 not transcribed = 3,200 expected records.
 - Updated PR #22 body to reflect these canonical counts. No question content was changed in this audit; no unrelated subject/Paper-I/Code 01/Code 02/Code 28 was modified. PR #22 remains open and unmerged; no combined APK PASS is claimed.
+
+
+## 2026-11-16 — Gujarati Code 06 source-verification batch
+- Official GSET August 2017 Gujarati Paper-II printed page 12 (PDF page index 11) visually checked for Q40 and Q41, including both matching tables and all four answer options.
+- Official GSET final answer key independently confirms Q40=B and Q41=D.
+- Promoted only these two records from review-only to canonical active questions. Canonical Gujarati count: 358 active / 42 review-only (400 total).
+- Review queue reduced from 44 to 42. Q40/Q41 source verification notes record the official paper page and final-key parity.
+- No other subject, Paper-I, Code 01, Code 02, or Code 28 changed. PR #22 remains open and unmerged. No CI/APK pass is claimed.
