@@ -5,22 +5,22 @@ Branch: `app/import-updated-subject-banks-2026-11-10`
 Pull request: https://github.com/dhavalkhant3-web/gset-test-series/pull/22
 Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathematical Sciences Code 01, or Code 28.
 
-## Current counts — reconciled against canonical files (2026-11-16)
+## Current counts — reconciled against canonical files (2026-11-16, after Environmental Sciences Q88–Q100)
 
-| Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
+| Code | Subject | Active | Review-only present in JSON | Staged / not integrated | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
 | 06 | Gujarati | 196 | 204 | 0 | 0 |
-| 07 | Sanskrit | 192 | 10 | 648 | 0 |
+| 07 | Sanskrit | 192 | 108 | 550 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
-| 26 | Environmental Sciences | 95 | 205 | 0 | 0 |
+| 26 | Environmental Sciences | 108 | 192 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **1,022** | **430** | **648** | **1,100** |
+| **Total** | | **1,035** | **515** | **550** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 1,022 active + 430 review-only records present + 648 staged records not yet integrated + 1,100 not yet transcribed = 3,200. Sanskrit's `questions_review_pending.json` is currently empty; the 698 outstanding records are in the separate Library staging source and must not be counted as present in the repository JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,035 active + 515 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
 
-**Sanskrit recovery status — live audit 2026-11-16:** `questions.json` contains 192 active records; `questions_review_pending.json` contains 10 review-only records (Q53 and December 2024 Q5/Q28/Q63). The Library staging file `gset_sanskrit_07_consolidated_staging.json` contains 850 unique question records; 192 overlap with active canonical records and 10 are in the canonical review queue, leaving 648 staging records not yet integrated. The staging file marks 817 records `key_applied_pending_proofread` and 33 `review_required`; those labels are staging metadata, not repository review-queue entries. Five additional answer-key-only sessions (September 2016: 50; September 2018: 100; January 2002: 50; July 2004: 50; July 2006: 50) contain 300 key rows without transcribed question records and are separate from the 850-question staging count. The official final-key Z/not-evaluated records must retain their non-evaluated status.
+**Latest live audit notes:** Gujarati 196 active / 204 review-only (57 review records still lack source-page verification; 33 lack final-key verification). History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 108 active / 192 review-only after the November 2023 Q88–Q100 source-verification batch. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
 
 ## Latest completed source work
 
@@ -681,3 +681,12 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - All 100 are source-verified and final-key reconciled, but remain review-only pending official Code 07 syllabus mapping and editorial sign-off; source verification alone does not authorize activation.
 - Sanskrit canonical totals: 192 active / 108 review-only; 550 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 528 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Environmental Sciences Code 26 November 2023 Q88–Q100 source verification
+- Visually checked Q88–Q100 against the official GSET November 2023 Environmental Sciences Paper-II scan (PDF zero-based pages 16–18). Q91 and Q94 matching-column structures were checked and retained.
+- Independently reconciled all 13 stored answer letters against the official final answer key: Q88 A, Q89 B, Q90 D, Q91 A, Q92 A, Q93 B, Q94 A, Q95 C, Q96 A, Q97 D, Q98 A, Q99 A, Q100 D — 13/13 match.
+- All 13 already had a recorded official Code 26 syllabus unit; after source verification they were promoted from review-only to active.
+- Environmental Sciences changed from 95 active / 205 review-only to 108 active / 192 review-only. No other subject was modified in this batch.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; official final answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; official syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf
+- PR #22 remains open and unmerged. No combined Debug APK or CI PASS is claimed.
