@@ -4,8 +4,8 @@
   "subject_code": "07",
   "paper": "Paper-II",
   "transcribed_questions": 850,
-  "active_questions": 146,
-  "pending_review": 704,
+  "active_questions": 153,
+  "pending_review": 697,
   "nov2023_visual_verified_question_numbers": [
     1,
     2,
@@ -173,20 +173,19 @@
   "nov2023_review_only_archival_copies_retained": 91,
   "dec2024_final_key_parity": "100/100 staged answer letters match the official GSET final answer key",
   "dec2024_answer_key_verified_count": 100,
-  "dec2024_question_source_verified_count": 0,
-  "dec2024_question_source_verification_pending": 100,
+  "dec2024_question_source_verified_count": 3,
+  "dec2024_question_source_verification_pending": 97,
   "dec2024_review_required_question_numbers": [
-    5,
-    28,
     63
   ],
   "dec2024_official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2407.pdf",
   "dec2024_official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2407.pdf",
-  "dec2024_source_note": "Official final key was accessible and all 100 answer letters matched. Official question-paper PDF timed out during retrieval; no question text/options were activated.",
+  "dec2024_source_note": "Official December 2024 paper pages 1 (Q5), 5 (Q28), and 10 (Q63) visually checked. Q5 and Q28 transcription concerns resolved; Q63 preserves the printed form कर्मण्यतिहारे and remains expert-review pending due to discrepancy with the familiar sutra form. Official final key matches staged answers Q5=D, Q28=A, Q63=D. The remaining 97 questions still need source verification.",
   "nov2025_final_key_parity": "100/100 staged answer letters match the official GSET final answer key",
   "nov2025_answer_key_verified_count": 100,
-  "nov2025_question_source_verified_count": 53,
+  "nov2025_question_source_verified_count": 55,
   "nov2025_visual_verified_question_numbers": [
+    3,
     46,
     47,
     48,
@@ -194,6 +193,7 @@
     50,
     51,
     52,
+    53,
     54,
     55,
     56,
@@ -242,7 +242,7 @@
     100
   ],
   "nov2025_review_required_question_numbers": [
-    38,
+    53,
     53,
     85,
     88,
@@ -722,5 +722,18 @@
     "verified": 14,
     "provisional": 0,
     "pending": 836
-  }
+  },
+  "canonical_review_queue_count": 4,
+  "canonical_review_queue_ids": [
+    "GSET-SAN07-NOV2025-Q053",
+    "GSET-SAN07-DEC2024-Q005",
+    "GSET-SAN07-DEC2024-Q028",
+    "GSET-SAN07-DEC2024-Q063"
+  ],
+  "dec2024_proofreading_resolved_question_numbers": [
+    5,
+    28
+  ],
+  "last_updated": "2026-11-16",
+  "latest_batch_note": "2026-11-16: November 2025 Q3 matching-table layout and Q53 Brahmi glyph visually verified; Q3 integrated active, Q53 transcribed as Unicode Brahmi letter KA U+11013 but retained review-only due official-key semantic conflict. December 2024 Q5 and Q28 transcription ambiguities resolved against scan; Q63 scan reading preserved with expert review hold."
 }
