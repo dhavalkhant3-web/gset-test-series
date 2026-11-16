@@ -849,3 +849,28 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Canonical Social Work total: 225 question records. Remaining transcription: 375 (Dec 2019: 75; Dec 2021: 100; Dec 2024: 100; Nov 2025: 100).
 - No unsupported syllabus mappings assigned; these Social Work records remain review-only pending mapping review.
 - Latest branch head at this checkpoint: 68b875abb6769207939e44527de14d8f0de06907. PR #22 open/unmerged. No CI workflow run or combined APK PASS observed.
+
+
+## 16 November 2026 — latest verified continuation
+
+### Social Work (Code 25)
+- December 2019 Q1–Q100 is now complete: all 100 question stems/options were transcribed from the official paper and all 100 stored answers match the official final answer key. Syllabus mapping remains pending for all 100, so they remain review-only.
+- December 2021 / January 2022 Q1–Q12 are transcribed and visually checked against the official paper; all 12 answers match the official final key. Q13–Q100 remain untranscribed.
+- Current canonical Social Work records: 312. Per-paper counts: social_work_dec2019=100, social_work_dec2021=12, social_work_nov2022=100, social_work_nov2023=100.
+- Social Work transcription remaining: 288 (Dec 2021 Q13–Q100 = 88; Dec 2024 = 100; Nov 2025 = 100). Nov 2022 and Nov 2023 remain 100/100 each.
+
+### Sanskrit (Code 07)
+- Restored 550 unique question records from the consolidated staging Library source into questions_review_pending.json after confirming they were absent from both canonical files.
+- Review queue now contains 658 unique records (108 existing + 550 restored). All 550 recovered records remain review-only, source_verified=false, with official syllabus mapping pending. No record was promoted active by this recovery.
+- The five separate answer-key-only sessions (300 key entries) remain distinct and are not treated as transcribed question text.
+- Updated source_audit.json; it now records zero missing staging IDs across active + review-only stores.
+
+### Outstanding work
+- Geography: 500 questions remain untranscribed across five papers. Two Nov 2025 records remain review-only (one official-key/content discrepancy; one provisional syllabus mapping).
+- Sanskrit: visual proofreading, final-key reconciliation where applicable, and syllabus mapping remain for the restored queue.
+- History: Q46 and Q48 remain intentionally unmapped because the official syllabus does not explicitly cover their concepts.
+- Gujarati: 36 review-only records remain; only source-backed records may be promoted.
+- Forensic Science: eight source/key-verified review-only records remain due to syllabus-scope uncertainty; do not force mappings.
+- Social Work: all newly transcribed records remain review-only pending official syllabus mapping.
+- No CI workflow run/status check or combined APK PASS has been observed for the current head.
+- PR #22 remains open and unmerged; no merge authorized.
