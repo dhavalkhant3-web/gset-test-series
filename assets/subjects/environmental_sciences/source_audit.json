@@ -8,8 +8,8 @@
   "official_key_mismatches": 0,
   "visual_checked": 107,
   "proofread_pass1_pending_second_pass": 291,
-  "active_questions": 107,
-  "pending_review": 193,
+  "active_questions": 217,
+  "pending_review": 83,
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "total_records": 300,
@@ -72,5 +72,54 @@
       "Unit IX": 28
     },
     "note": "Q84 asks which model is related to population ecology. Official Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions; Unit IX is the direct match. No other question mappings changed."
-  }
+  },
+  "dec2024_last_visual_review": {
+    "date": "2026-11-16",
+    "question_numbers": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "count": 18,
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2426.pdf",
+    "printed_pages": "Q28–Q33 printed page 9; Q89–Q96 printed page 18; Q97–Q100 printed page 19.",
+    "answer_letters": {
+      "28": "B",
+      "29": "D",
+      "30": "D",
+      "31": "B",
+      "32": "C",
+      "33": "B",
+      "89": "D",
+      "90": "D",
+      "91": "A",
+      "92": "A",
+      "93": "D",
+      "94": "D",
+      "95": "C",
+      "96": "A",
+      "97": "C",
+      "98": "C",
+      "99": "D",
+      "100": "D"
+    },
+    "result": "All 18 question stems and all option sets visually matched official scan; all stored answer letters matched the official FINAL key; all existing syllabus mappings retained; records promoted after duplicate-ID and review-gate checks."
+  },
+  "last_updated": "2026-11-16"
 }
