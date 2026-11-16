@@ -830,3 +830,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Promoted Q1–Q6 from review-only into canonical `questions.json`; the review queue was reduced by six.
 - Gujarati now has 364 active + 36 review-only = 400 records. Seven-subject aggregate is 1,396 active + 154 review-only + 550 Sanskrit keys-only staging + 1,100 Geography/Social Work untranscribed = 3,200 expected.
 - PR #22 remains open and unmerged. No CI or Combined APK pass is claimed; no other subject was changed.
+
+
+## 2026-11-16 — Social Work Code 25 transcription batch 1
+- Transcribed official November 2022 Paper-II questions Q1–Q23 from the official question booklet PDF (booklet serial 250512). English stems and all four English options were captured; the booklet states English prevails in case of language discrepancy.
+- Reconciled all 23 answer letters against the official GSET FINAL ANSWER KEY for November 2022. No answer-key mismatch was found.
+- Added 23 canonical Social Work records with source PDF URL, official final-key source, exam date (6 November 2022), and question-level syllabus-unit mapping for Units I, II, III, V, VI and VII. No figure/table was present in this batch.
+- Social Work now has 23 active records; 577 of the 600 target questions remain untranscribed. This is a first partial batch, not a completed subject.
+- Seven-subject totals now: 1,419 active + 154 review-only + 550 Sanskrit keys-only staging + 1,077 not transcribed = 3,200 expected.
+- PR #22 remains open and unmerged. No combined APK/CI PASS is claimed. No other subject or unrelated bank was modified in this batch.
