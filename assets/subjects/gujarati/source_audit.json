@@ -4,8 +4,8 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 338,
-  "pending_review": 62,
+  "active_questions": 349,
+  "pending_review": 51,
   "visual_checked": 249,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
@@ -985,5 +985,25 @@
     "retained_non_evaluated_question": "GSET-GUJ06-DEC2019-Q007",
     "basis": "All 99 promoted records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified, review_flag=false, and match the official December 2019 FINAL answer key. Q7 answer Z remains excluded from scoring."
   },
-  "last_updated": "2026-11-16"
+  "last_updated": "2026-11-16",
+  "aug2017_visual_review": {
+    "date": "2026-11-16",
+    "count": 11,
+    "question_numbers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      27,
+      28,
+      29,
+      30,
+      38,
+      39
+    ],
+    "source_pdf": "https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1706.pdf",
+    "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
+    "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
+  }
 }
