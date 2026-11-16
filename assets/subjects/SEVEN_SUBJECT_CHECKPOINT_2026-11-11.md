@@ -10,17 +10,17 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
 | 06 | Gujarati | 196 | 204 | 0 | 0 |
-| 07 | Sanskrit | 146 | 704 | 0 | 0 |
+| 07 | Sanskrit | 147 | 0 | 703 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
 | 26 | Environmental Sciences | 95 | 205 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **976** | **1,124** | **0** | **1,100** |
+| **Total** | | **977** | **420** | **703** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 976 active + 1,124 review-only records present + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 977 active + 420 review-only records present + 703 staged records not yet integrated + 1,100 not yet transcribed = 3,200. Sanskrit's `questions_review_pending.json` is currently empty; the 703 outstanding records are in the separate Library staging source and must not be counted as present in the repository JSON. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
-**Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records and `questions_review_pending.json` contains 704 restored review-only records (1.39 MB). The Library staging source had 850 unique records; 146 overlapped with active records and were not duplicated. All 704 recovered records remain source_verified=false, review_flag=true, and syllabus mapping pending until human Devanagari proofreading. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
+**Sanskrit recovery status — live audit 2026-11-16:** `questions.json` contains 147 active records; `questions_review_pending.json` is empty (0 bytes). The Library staging file `gset_sanskrit_07_consolidated_staging.json` contains 850 unique question records; 147 overlap with active canonical records, leaving 703 records not yet integrated. The staging file marks 817 records `key_applied_pending_proofread` and 33 `review_required`; those labels are staging metadata, not repository review-queue entries. Five additional answer-key-only sessions (September 2016: 50; September 2018: 100; January 2002: 50; July 2004: 50; July 2006: 50) contain 300 key rows without transcribed question records and are separate from the 850-question staging count. The official final-key Z/not-evaluated records must retain their non-evaluated status.
 
 ## Latest completed source work
 
@@ -42,7 +42,7 @@ Expected question records across these seven subjects: 3,200. The live canonical
 
 ### Other subjects
 - Gujarati: live JSON contains 97 active / 303 review-only (400 total); 97 active records are source-verified and all 400 question-level syllabus mappings are recorded as verified.
-- Sanskrit: live canonical JSON contains 146 active / 0 review-only present; 704 distinct staged records remain missing from questions_review_pending.json and are not counted as present.
+- Sanskrit: live canonical JSON contains 147 active / 0 review-only present; 703 distinct staged records remain outside the canonical JSON and are not counted as present.
 - Environmental Sciences: 87 active / 213 review-only; official syllabus mapping pending.
 - Forensic Science: 213 active / 87 review-only; all 300 official final-key entries match. November 2023 is 100/100 source-verified; December 2024 is 100/100 source-verified with seven mapping holds; November 2025 is 20/100 source-verified (Q4–Q21), with 80 still awaiting source review. Official syllabus mapping: 127 verified, 172 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
 - Social Work: 600 answer-key entries staged across six papers; no question text transcribed and no active questions.
@@ -538,3 +538,13 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
 - Seven-subject totals: 976 active + 1,124 review-only present + 1,100 untranscribed = 3,200. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Next batch: Environmental Sciences Code 26, November 2023 Q88–Q95.
+
+
+## 2026-11-16 — Sanskrit Code 07 recovery audit and one source-verified integration
+- Audited the Library consolidated staging source (850 question records across December 2002, December 2003, December 2008, September 2013, August 2017, December 2019, December 2021, November 2022, November 2023, December 2024, and November 2025). Against the canonical bank before this batch, 146 records overlapped and 704 were absent; the review queue file itself was empty. After this batch, canonical active count is 147 and 703 staged records remain unintegrated.
+- November 2025 final-answer-key parity: staging answers match the official final answer key 100/100. December 2024 final-answer-key parity: 100/100. This is answer-key reconciliation only; it does not mean every transcription has been visually verified.
+- November 2025 Q38 was visually compared against official paper printed page 8 (Q38–Q45): stem and all four options match. Its answer B matches the official final key. Q38 was promoted to active in `questions.json`; it is not a blanket approval of the other staged records. Commit: `2fb731f43541c23868b2a22c10cfb613fb4cf855`.
+- November 2025 Q53 remains review-required because option D is a Brahmi-script glyph that is not represented as ordinary text; official key B is retained. December 2024 staging still has three review-required items (Q5, Q28, Q63); November 2025 has one remaining review-required item (Q53) after Q38 resolution.
+- The consolidated staging file also contains 300 answer-key-only rows across September 2016 (50), September 2018 (100), January 2002 (50), July 2004 (50), and July 2006 (50). These do not contain transcribed question records and are not included in the 850-question staging count.
+- Official source PDFs: November 2025 question paper `https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2507.pdf`, final key `https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2507.pdf`; December 2024 question paper `https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2407.pdf`, final key `https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2407.pdf`.
+- No other subject or Paper-I changed. PR #22 remains unmerged; no CI/APK pass is claimed.
