@@ -1,6 +1,6 @@
 # GSET Test Series — Master Progress
 
-Updated: 2026-11-14
+Updated: 2026-11-16
 
 ## Protected rules
 - Continue the existing Android application; keep one combined APK.
@@ -1484,3 +1484,14 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - History Q46/Q48 remain unmapped because the official Code 08 syllabus does not give a defensible direct unit fit; no guessed mapping was added.
 - Social Work Code 25 remains 600 not transcribed. Official Code 25 syllabus located; the six official paper PDFs in the repository manifest have not yet been made available for source-based transcription in this workspace.
 - PR #22 remains open and unmerged. Latest commit CI workflow runs and combined status checks are empty; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Environmental Sciences Code 26 November 2023 Q79–Q86 source verification
+- Before this batch: 87 active / 213 review-only across 300 records; November 2023 had 79 source-verified questions and 21 review-only records. The already-verified Q87 was retained and not repeated.
+- Official question-paper PDF pages 16–17 (zero-based indexes 15–16) visually checked. Q79–Q86 stems and all four options match the original scan; no figures or tables occur in this range.
+- Official final-key answers: Q79 D, Q80 C, Q81 A, Q82 A, Q83 B, Q84 A, Q85 D, Q86 A. All 8/8 match the stored official answers and the GSET final-key table.
+- Mappings: Q79–Q80 Unit VIII; Q81–Q86 Unit IX. Q84 was corrected from Unit III to Unit IX because official Code 26 Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions.
+- After this batch: Environmental Sciences 95 active / 205 review-only; November 2023 is 87/100 source-verified with Q88–Q100 still pending. All 300 mappings remain verified (0 provisional, 0 pending). Official answer-key parity remains 300/300.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Seven-subject totals: 976 active + 1,124 review-only present + 1,100 untranscribed = 3,200. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Next batch: Environmental Sciences Code 26, November 2023 Q88–Q95.

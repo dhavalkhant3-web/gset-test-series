@@ -6,10 +6,10 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 87,
+  "visual_checked": 95,
   "proofread_pass1_pending_second_pass": 291,
-  "active_questions": 87,
-  "pending_review": 213,
+  "active_questions": 95,
+  "pending_review": 205,
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "total_records": 300,
@@ -22,36 +22,34 @@
       "Unit IV": 32,
       "Unit VI": 38,
       "Unit II": 42,
-      "Unit III": 28,
+      "Unit III": 27,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
-      "Unit IX": 27
+      "Unit IX": 28
     },
     "note": "All 300 canonical Environmental Sciences records were assigned to one of the ten official Code 26 syllabus units. Mapping status is independent of source-page visual verification; 213 review-only records remain flagged for source review."
   },
   "last_visual_review": {
     "session": "November 2023",
     "questions": [
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
     ],
-    "count": 10,
-    "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 14–15.",
-    "answer_key": "Official GSET Final Answer Key, November 2023, Paper-II",
-    "result": "all selected stems/options visually matched; all selected answer letters matched final key"
+    "count": 8,
+    "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 16–17 (zero-based indexes 15–16).",
+    "answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "result": "All eight stems and four-option sets visually matched the official scan; all eight answer letters matched the official final key. No figures or tables occur in this range. Q84 syllabus placement corrected to Unit IX after direct review of the official syllabus."
   },
   "last_mapping_review": {
-    "date": "2026-11-15",
-    "scope": "All 300 active and review-only canonical records",
+    "date": "2026-11-16",
+    "scope": "Question Q84 direct syllabus-placement re-audit; previous all-300 mapping review retained, with Q84 corrected from Unit III to Unit IX.",
     "verified_mappings": 300,
     "provisional_mappings": 0,
     "pending_mappings": 0,
@@ -62,12 +60,12 @@
       "Unit IV": 32,
       "Unit VI": 38,
       "Unit II": 42,
-      "Unit III": 28,
+      "Unit III": 27,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
-      "Unit IX": 27
+      "Unit IX": 28
     },
-    "note": "Question-level mappings assigned against the explicit ten-unit Code 26 syllabus. No source flags, answers, stems or options changed."
+    "note": "Q84 asks which model is related to population ecology. Official Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions; Unit IX is the direct match. No other question mappings changed."
   }
 }

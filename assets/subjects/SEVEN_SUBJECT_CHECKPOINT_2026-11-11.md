@@ -1,11 +1,11 @@
-# GSET Paper-II — Seven-subject checkpoint (2026-11-14, refreshed)
+# GSET Paper-II — Seven-subject checkpoint (2026-11-16, refreshed)
 
 Repository: https://github.com/dhavalkhant3-web/gset-test-series
 Branch: `app/import-updated-subject-banks-2026-11-10`
 Pull request: https://github.com/dhavalkhant3-web/gset-test-series/pull/22
 Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathematical Sciences Code 01, or Code 28.
 
-## Current counts — reconciled against canonical files (2026-11-15)
+## Current counts — reconciled against canonical files (2026-11-16)
 
 | Code | Subject | Active | Review-only present in JSON | Missing from JSON | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
@@ -14,11 +14,11 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
-| 26 | Environmental Sciences | 87 | 213 | 0 | 0 |
+| 26 | Environmental Sciences | 95 | 205 | 0 | 0 |
 | 27 | Forensic Science | 291 | 9 | 0 | 0 |
-| **Total** | | **968** | **1,132** | **0** | **1,100** |
+| **Total** | | **976** | **1,124** | **0** | **1,100** |
 
-Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 968 active + 1,132 review-only records present + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
+Expected question records across these seven subjects: 3,200. The live canonical files reconcile to 976 active + 1,124 review-only records present + 1,100 not yet transcribed = 3,200. The Sanskrit review queue now contains 704 recovered records from the Library staging source; all remain review-only pending Devanagari proofreading and syllabus mapping. Geography Code 24 has all November 2025 Q1–Q100 source-visually checked; 98 of those are active and two remain review-only (Q23 key/content concern; Q26 syllabus mapping hold). Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed.
 
 **Sanskrit recovery status — live recheck supersedes any earlier restoration note:** `questions.json` contains 146 active records and `questions_review_pending.json` contains 704 restored review-only records (1.39 MB). The Library staging source had 850 unique records; 146 overlapped with active records and were not duplicated. All 704 recovered records remain source_verified=false, review_flag=true, and syllabus mapping pending until human Devanagari proofreading. The two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) must retain their non-evaluated status.
 
@@ -527,3 +527,14 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - History Q46/Q48 remain unmapped because the official Code 08 syllabus does not give a defensible direct unit fit; no guessed mapping was added.
 - Social Work Code 25 remains 600 not transcribed. Official Code 25 syllabus located; the six official paper PDFs in the repository manifest have not yet been made available for source-based transcription in this workspace.
 - PR #22 remains open and unmerged. Latest commit CI workflow runs and combined status checks are empty; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Environmental Sciences Code 26 November 2023 Q79–Q86 source verification
+- Before this batch: 87 active / 213 review-only across 300 records; November 2023 had 79 source-verified questions and 21 review-only records. The already-verified Q87 was retained and not repeated.
+- Official question-paper PDF pages 16–17 (zero-based indexes 15–16) visually checked. Q79–Q86 stems and all four options match the original scan; no figures or tables occur in this range.
+- Official final-key answers: Q79 D, Q80 C, Q81 A, Q82 A, Q83 B, Q84 A, Q85 D, Q86 A. All 8/8 match the stored official answers and the GSET final-key table.
+- Mappings: Q79–Q80 Unit VIII; Q81–Q86 Unit IX. Q84 was corrected from Unit III to Unit IX because official Code 26 Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions.
+- After this batch: Environmental Sciences 95 active / 205 review-only; November 2023 is 87/100 source-verified with Q88–Q100 still pending. All 300 mappings remain verified (0 provisional, 0 pending). Official answer-key parity remains 300/300.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Seven-subject totals: 976 active + 1,124 review-only present + 1,100 untranscribed = 3,200. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Next batch: Environmental Sciences Code 26, November 2023 Q88–Q95.

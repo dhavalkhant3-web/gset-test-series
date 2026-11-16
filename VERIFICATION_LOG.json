@@ -7064,5 +7064,125 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "event": "Environmental Sciences Code 26 November 2023 Q79-Q86 source verification and syllabus correction",
+    "subject_code": "26",
+    "session": "November 2023",
+    "question_range": "Q79-Q86",
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "source_pdf_page_indexes_zero_based": [
+      15,
+      16
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "questions": [
+      {
+        "id": "GSET-ENV26-NOV2023-Q079",
+        "answer": "D",
+        "unit": "Unit VIII",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q080",
+        "answer": "C",
+        "unit": "Unit VIII",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q081",
+        "answer": "A",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q082",
+        "answer": "A",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q083",
+        "answer": "B",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q084",
+        "answer": "A",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q085",
+        "answer": "D",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-ENV26-NOV2023-Q086",
+        "answer": "A",
+        "unit": "Unit IX",
+        "source_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      }
+    ],
+    "final_key_parity": {
+      "checked": 8,
+      "matches": 8,
+      "mismatches": 0
+    },
+    "visual_source_review": {
+      "checked": 8,
+      "all_stems_and_four_options_match": true,
+      "figures_or_tables": 0
+    },
+    "mapping_correction": {
+      "question": "Q84",
+      "from": "Unit III",
+      "to": "Unit IX",
+      "reason": "Official Unit IX explicitly names Leslie matrix and Lotka–Volterra models under models of population growth and interactions."
+    },
+    "active_count": 95,
+    "pending_review_count": 205,
+    "nov2023_source_verified_count": 87,
+    "nov2023_pending_review_count": 13,
+    "mapping_counts": {
+      "verified": 300,
+      "provisional": 0,
+      "pending": 0
+    },
+    "seven_subject_totals": {
+      "active": 976,
+      "review_only_present": 1124,
+      "missing_from_canonical_json": 0,
+      "not_transcribed": 1100,
+      "expected": 3200
+    },
+    "non_actions": [
+      "No other subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Code 28 or Paper-I files changed",
+      "No app UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
