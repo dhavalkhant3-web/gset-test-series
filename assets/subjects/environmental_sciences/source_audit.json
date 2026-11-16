@@ -6,10 +6,10 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 95,
+  "visual_checked": 107,
   "proofread_pass1_pending_second_pass": 291,
-  "active_questions": 95,
-  "pending_review": 205,
+  "active_questions": 107,
+  "pending_review": 193,
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "total_records": 300,
@@ -31,21 +31,26 @@
     "note": "All 300 canonical Environmental Sciences records were assigned to one of the ten official Code 26 syllabus units. Mapping status is independent of source-page visual verification; 213 review-only records remain flagged for source review."
   },
   "last_visual_review": {
-    "session": "November 2023",
+    "date": "2026-11-16",
+    "session": "November 2025",
     "questions": [
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
     ],
-    "count": 8,
-    "source": "Official GSET November 2023 Environmental Sciences Paper-II PDF, PDF pages 16–17 (zero-based indexes 15–16).",
-    "answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
-    "result": "All eight stems and four-option sets visually matched the official scan; all eight answer letters matched the official final key. No figures or tables occur in this range. Q84 syllabus placement corrected to Unit IX after direct review of the official syllabus."
+    "count": 12,
+    "source": "Official GSET November 2025 Environmental Sciences Paper-II, https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2526.pdf; PDF page index 17 (printed page 18) for Q89-Q95 and index 18 (printed page 19) for Q96-Q100.",
+    "answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2526.pdf",
+    "result": "All twelve stems and option sets visually matched the official scan. All twelve stored answers matched the official FINAL key: Q89 A, Q90 B, Q91 C, Q92 C, Q93 D, Q94 C, Q95 D, Q96 A, Q97 D, Q98 B, Q99 A, Q100 A. All twelve existing official syllabus mappings were retained. Promoted after duplicate-ID and status-gate checks."
   },
   "last_mapping_review": {
     "date": "2026-11-16",
