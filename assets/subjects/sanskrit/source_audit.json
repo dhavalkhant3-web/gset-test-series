@@ -635,7 +635,7 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 86,
+  "review_pending_file_count": 94,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
   "review_pending_file_integrity": "704 unique records remain in questions_review_pending.json; all review-flagged. 665 are key-applied pending visual proofread; 39 retain review_required notes. Q91–Q100 were visually checked on printed pages 14–15 and final-key matched; Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain review-only for exact Devanagari transcription review. Two official final-key Z/not-evaluated records remain without an option letter.",
   "nov2025_visual_verified_count": 100,
@@ -663,14 +663,14 @@
     "staging_unique_ids": 850,
     "active_questions_json_records": 192,
     "staging_ids_already_active": 192,
-    "review_pending_json_records": 86,
-    "review_pending_unique_ids": 86,
-    "active_review_union_unique_ids": 278,
+    "review_pending_json_records": 94,
+    "review_pending_unique_ids": 94,
+    "active_review_union_unique_ids": 286,
     "review_queue_duplicates": 0,
-    "review_required_records": 115,
+    "review_required_records": 123,
     "not_evaluated_official_Z_records": 2,
-    "staging_ids_not_in_either_canonical_file": 572,
-    "discrepancy": "December 2024 Q1-Q78 source checked except Q79 onward; checked records remain review-only pending full-paper completion and official syllabus mapping. November 2023 Q33 remains review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
+    "staging_ids_not_in_either_canonical_file": 564,
+    "discrepancy": "December 2024 Q1-Q86 source checked; Q1-Q86 held review-only pending completion of remaining pages and official syllabus mapping. November 2023 Q33 remains review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
@@ -762,7 +762,7 @@
     "provisional": 0,
     "pending": 836
   },
-  "canonical_review_queue_count": 86,
+  "canonical_review_queue_count": 94,
   "canonical_review_queue_ids": [
     "GSET-SAN07-NOV2025-Q053",
     "GSET-SAN07-NOV2025-Q085",
@@ -780,6 +780,6 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "2026-11-16: December 2024 Q71-Q78 (eight questions) visually checked against printed page 12. All stems/options matched the scan and official final-key letters were reconciled; added to review queue pending full-paper and syllabus review.",
+  "latest_batch_note": "2026-11-16: December 2024 Q79-Q86 (eight questions) visually checked against printed page 13. Q85's printed `प(p)` notation retained verbatim. All eight official final-key letters matched; added to review queue pending full-paper and syllabus review.",
   "review_required_records": 40
 }
