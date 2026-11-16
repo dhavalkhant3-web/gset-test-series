@@ -635,7 +635,7 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 108,
+  "review_pending_file_count": 658,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
   "review_pending_file_integrity": "704 unique records remain in questions_review_pending.json; all review-flagged. 665 are key-applied pending visual proofread; 39 retain review_required notes. Q91–Q100 were visually checked on printed pages 14–15 and final-key matched; Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain review-only for exact Devanagari transcription review. Two official final-key Z/not-evaluated records remain without an option letter.",
   "nov2025_visual_verified_count": 100,
@@ -663,99 +663,41 @@
     "staging_unique_ids": 850,
     "active_questions_json_records": 192,
     "staging_ids_already_active": 192,
-    "review_pending_json_records": 108,
-    "review_pending_unique_ids": 108,
-    "active_review_union_unique_ids": 300,
+    "review_pending_json_records": 658,
+    "review_pending_unique_ids": 658,
+    "active_review_union_unique_ids": 850,
     "review_queue_duplicates": 0,
-    "review_required_records": 108,
-    "not_evaluated_official_Z_records": 2,
-    "staging_ids_not_in_either_canonical_file": 550,
-    "discrepancy": "Live canonical files on branch were re-fetched and parsed on 2026-11-16: questions.json has 192 records; questions_review_pending.json has 108 unique records; union 300. Compared with 850 unique staging IDs, 550 are not present in either canonical file. All 192 active and 108 pending records have source_verified=true and answer_key_verified=true; only 14 active + 106 pending records have verified syllabus mapping. The pending queue still includes editorial/expert holds."
+    "review_required_records": 27,
+    "not_evaluated_official_Z_records": 0,
+    "staging_ids_not_in_either_canonical_file": 0,
+    "discrepancy": "All 850 consolidated staging question IDs are represented across active questions.json and review-only questions_review_pending.json. 550 missing IDs restored. Five answer-key-only sessions remain separate and are not question transcriptions."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
-  "pending_records_missing_from_canonical_json": 648,
-  "queue_restoration_status": "Canonical queue verified: 108 records present; 550 staging IDs absent from both canonical files and still require schema restoration.",
-  "queue_reconciliation_note": "Previous audit sections claiming 704 records in questions_review_pending.json were stale and contradicted the live file. Actual queue contains 108 unique records. Do not treat 704 as integrated.",
+  "pending_records_missing_from_canonical_json": 0,
+  "queue_restoration_status": "Complete: 550 staging records restored; review-only queue now contains 658 unique records. Recovered records require visual proofreading, answer-key reconciliation where source is not final, and official syllabus mapping.",
+  "queue_reconciliation_note": "Restored 550 IDs previously absent from both canonical files. All restored records remain review-only; older stale 704-record claim is not used.",
   "staging_recovery": {
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "staging_questions": 850,
     "overlap_with_active": 192,
-    "recovered_to_review_queue": 108,
-    "source_verified_on_recovery": 108,
-    "review_flags_set": 108,
-    "syllabus_mapping_pending": 180,
-    "answer_key_verified_recovered": 108,
-    "answer_key_unverified_recovered": 0,
+    "recovered_to_review_queue": 550,
+    "source_verified_on_recovery": 0,
+    "review_flags_set": 550,
+    "syllabus_mapping_pending": 550,
+    "answer_key_verified_recovered": 348,
+    "answer_key_unverified_recovered": 202,
     "session_summary": {
-      "December 2002 (exam date 1 Dec 2002)": {
-        "records": 50,
-        "loaded": 50,
-        "finalKeySourceEntries": 0,
-        "reviewOnly": 50
-      },
-      "December 2003 (exam date 7 Dec 2003)": {
-        "records": 50,
-        "loaded": 50,
-        "finalKeySourceEntries": 0,
-        "reviewOnly": 50
-      },
-      "December 2008 (exam date 7 Dec 2008)": {
-        "records": 50,
-        "loaded": 50,
-        "finalKeySourceEntries": 0,
-        "reviewOnly": 50
-      },
-      "September 2013 (exam date 22 Sep 2013)": {
-        "records": 50,
-        "loaded": 50,
-        "finalKeySourceEntries": 0,
-        "reviewOnly": 50
-      },
-      "August 2017 (exam date 27 Aug 2017)": {
-        "records": 50,
-        "loaded": 50,
-        "finalKeySourceEntries": 49,
-        "reviewOnly": 50
-      },
-      "December 2019 (exam date 29 Dec 2019)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 99,
-        "reviewOnly": 100
-      },
-      "December 2021 / January 2022 (exam date 23 Jan 2022)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 100,
-        "reviewOnly": 100
-      },
-      "November 2022 (exam date 6 Nov 2022)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 100,
-        "reviewOnly": 100
-      },
-      "November 2023 (exam date 26 Nov 2023)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 100,
-        "reviewOnly": 1
-      },
-      "December 2024 (exam date 1 Dec 2024)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 100,
-        "reviewOnly": 100
-      },
-      "November 2025 (exam date 16 Nov 2025)": {
-        "records": 100,
-        "loaded": 100,
-        "finalKeySourceEntries": 100,
-        "reviewOnly": 53
-      }
+      "December 2002 (exam date 1 Dec 2002)": 50,
+      "December 2003 (exam date 7 Dec 2003)": 50,
+      "December 2008 (exam date 7 Dec 2008)": 50,
+      "September 2013 (exam date 22 Sep 2013)": 50,
+      "August 2017 (exam date 27 Aug 2017)": 50,
+      "December 2019 (exam date 29 Dec 2019)": 100,
+      "December 2021 / January 2022 (exam date 23 Jan 2022)": 100,
+      "November 2022 (exam date 6 Nov 2022)": 100
     },
-    "note": "Corrected against live canonical JSON files on branch 2026-11-16. 192 staging IDs overlap active bank; 108 staging IDs are in review queue; 550 staging IDs are absent from both canonical files. All 300 canonical records currently have source_verified=true and answer_key_verified=true. Mapping remains verified for 120 canonical records and pending for 180. Review-only status is retained pending mapping/editorial resolution."
+    "note": "Restored exactly 550 unique IDs absent from both canonical questions.json and questions_review_pending.json, using the consolidated staging Library file. All recovered records remain review-only; source_verified=false; no active promotion or inferred syllabus unit."
   },
   "mapping_summary": {
     "verified": 120,
@@ -764,7 +706,7 @@
     "not_in_canonical": 550,
     "note": "Counts computed from live canonical files: 14 active + 106 review-only mappings verified; 178 active + 2 review-only mappings pending. The remaining 550 staging IDs are not in canonical JSON and have not been mapped."
   },
-  "canonical_review_queue_count": 108,
+  "canonical_review_queue_count": 658,
   "canonical_review_queue_ids": [
     "GSET-SAN07-NOV2025-Q053",
     "GSET-SAN07-NOV2025-Q085",
@@ -782,10 +724,10 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "Audit correction: live review queue is 108, not 704. 550 of 850 staging IDs remain absent from canonical active/review files. No records were invented or promoted.",
+  "latest_batch_note": "Restored 550 unique Sanskrit question records from consolidated staging Library source into questions_review_pending.json. No records promoted active; all recovered records retain review flags.",
   "review_required_records": 108,
   "dec2024_source_verified_count": 100,
   "dec2024_visual_verified_count": 100,
   "dec2024_remaining_visual_review": 0,
-  "queue_pending_actual_count": 108
+  "queue_pending_actual_count": 658
 }
