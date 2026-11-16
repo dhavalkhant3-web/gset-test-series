@@ -667,10 +667,10 @@
     "review_pending_unique_ids": 108,
     "active_review_union_unique_ids": 300,
     "review_queue_duplicates": 0,
-    "review_required_records": 137,
+    "review_required_records": 108,
     "not_evaluated_official_Z_records": 2,
     "staging_ids_not_in_either_canonical_file": 550,
-    "discrepancy": "December 2024 full 100-question paper visually source-checked and final-key reconciled; all 100 remain review-only pending official syllabus mapping/editorial sign-off. November 2023 Q33 remains review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
+    "discrepancy": "December 2024 Q1-Q100 visually source-checked and reconciled 100/100 against the official final answer key; all remain review-only pending official syllabus mapping/editorial sign-off. November 2023 Q33 remains review-only for expert content/key interpretation. November 2025 six transcription discrepancies and Q53 remain held."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
@@ -780,8 +780,8 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "2026-11-16: Completed December 2024 Sanskrit Paper-II source pass Q1-Q100. Final page Q96-Q100 visually checked; Q99 matching table preserved. All 100 question numbers now represented in canonical active+review files, source-verified and official final-key reconciled; kept review-only until official syllabus mapping/editorial sign-off.",
-  "review_required_records": 40,
+  "latest_batch_note": "2026-11-16: Completed December 2024 Sanskrit Paper-II Q1-Q100 source verification and official final-key parity (100/100). Canonical coverage is complete for this paper; 100 records are in review queue pending official Code 07 syllabus mapping and editorial sign-off. No changes to other subjects.",
+  "review_required_records": 108,
   "dec2024_source_verified_count": 100,
   "dec2024_visual_verified_count": 100,
   "dec2024_remaining_visual_review": 0
