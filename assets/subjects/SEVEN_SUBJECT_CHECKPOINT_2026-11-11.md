@@ -673,3 +673,11 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Q90 title preserved as printed. Official final-key answers confirmed: Q87 A, Q88 B, Q89 B, Q90 D, Q91 A, Q92 A, Q93 C, Q94 B, Q95 B. Nine records added to review queue; all remain review-only pending final-page completion and official syllabus mapping.
 - Sanskrit canonical totals: 192 active / 103 review-only; 555 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 523 review-only + 555 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 complete source pass
+- Completed visual source verification of all 100 questions in the user-supplied official December 2024 Sanskrit Paper-II scan, Q1–Q100, and reconciled every answer against the official final answer key (100/100).
+- Final page Q96–Q100 checked; Q99's matching table preserved. Existing Q5, Q28 and Q63 were retained without duplicates; other missing records added to the review queue. All 100 December 2024 questions are represented in canonical active + review files.
+- All 100 are source-verified and final-key reconciled, but remain review-only pending official Code 07 syllabus mapping and editorial sign-off; source verification alone does not authorize activation.
+- Sanskrit canonical totals: 192 active / 108 review-only; 550 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 528 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
