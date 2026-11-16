@@ -631,3 +631,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final-key answers confirmed: Q40 A, Q41 C, Q42 C, Q43 A, Q44 C, Q45 A, Q46 A, Q47 A, Q48 A. Nine records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
 - Sanskrit canonical totals: 192 active / 57 review-only; 601 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 477 review-only + 601 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q49–Q55 source batch
+- Visually checked printed page 9 of the user-supplied official December 2024 Sanskrit Paper-II scan. Q49–Q55 stems and all four options match.
+- Official final-key answers confirmed: Q49 D, Q50 A, Q51 A, Q52 C, Q53 A, Q54 A, Q55 A. Seven records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
+- Sanskrit canonical totals: 192 active / 64 review-only; 594 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 484 review-only + 594 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
