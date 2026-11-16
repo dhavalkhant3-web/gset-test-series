@@ -645,3 +645,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final-key answers confirmed: Q56 A, Q57 D, Q58 B, Q59 A, Q60 A, Q61 B, Q62 A, Q63 D. Seven new records added to review queue; Q63 remains separately held for its printed wording concern.
 - Sanskrit canonical totals: 192 active / 71 review-only; 587 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 491 review-only + 587 staged-not-integrated + 1,100 not transcribed = 3,200.
 - No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q64–Q70 source batch
+- Visually checked printed page 11 of the user-supplied official December 2024 Sanskrit Paper-II scan. Q64–Q70 stems and all four options match.
+- Official final-key answers confirmed: Q64 D, Q65 A, Q66 C, Q67 B, Q68 C, Q69 C, Q70 A. Seven records added to review queue; all remain review-only pending full-paper completion and official syllabus mapping.
+- Sanskrit canonical totals: 192 active / 78 review-only; 580 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 498 review-only + 580 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
