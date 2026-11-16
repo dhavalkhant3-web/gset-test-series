@@ -883,3 +883,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Independent key parity audit: zero mismatches across all 331 transcribed Social Work records. All 331 records have four complete English options. All 308 current Social Work review flags remain due to pending official syllabus mapping; no unsupported units were assigned.
 - Sanskrit 550 missing staged questions have been restored to review-only queue; 658 total review-only records. No activation occurred.
 - CI/APK: current feature-branch head has no associated Actions run or status checks. Combined subject audit and integration Debug APK workflows are configured for the integration branch / workflow_dispatch, not this feature branch. No APK PASS is claimed.
+
+
+## 16 November 2026 — latest checkpoint after Dec 2021 Q31
+- Social Work canonical questions: 331/600 (Nov 2022 100, Nov 2023 100, Dec 2019 100, Dec 2021 31). Remaining transcription: 269 (Dec 2021 Q32–Q100: 69; Dec 2024: 100; Nov 2025: 100).
+- Social Work answer-key parity rechecked against the staging key table: 331/331 transcribed questions match the official final key. Dec 2019 Q17 was corrected to official key B; no mismatch remains. All 331 records have four English options.
+- Seven-subject canonical structural audit: 1,727 records; zero duplicate IDs, zero missing four-option arrays, zero invalid answer letters, and zero unknown paper IDs. This is a JSON/schema audit, not a CI or APK build.
+- Current subject state (active / review-only): Gujarati 364/36; Sanskrit 192/658; History 48/2; Geography 198/2; Social Work 23/308; Environmental Sciences 300/0; Forensic Science 292/8. Totals: 1,417 active and 1,014 review-only.
+- Not yet transcribed: Geography 500 and Social Work 269 = 769 questions. Sanskrit's 550 recovered staging records are now counted in the review-only queue, not as active questions. Five separate Sanskrit keys-only sessions (300 answer entries) remain separate from question text.
+- Official syllabus mapping and source review remain open for review-only records; no unsupported mapping or automatic promotion was made.
+- Current feature branch has no Actions run or status checks. Combined subject audit and Integration Debug APK workflows support workflow_dispatch; no APK PASS is claimed.
+- PR #22 remains open and unmerged.
