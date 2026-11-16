@@ -699,3 +699,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Gujarati changed from 196 active / 204 review-only to 202 active / 198 review-only. The remaining Gujarati review queue still contains 51 source-unverified records and 33 records without final-key verification.
 - Official question paper: https://gujaratset.ac.in/assets/papers/paperII/aug17/aug1706.pdf ; official final answer key: https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf ; official syllabus: https://gujaratset.ac.in/assets/syllabus/06.pdf
 - PR #22 remains open and unmerged. No combined Debug APK or CI PASS is claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 official syllabus mapping
+- Reopened the official GSET Sanskrit Code 07 syllabus PDF (7 pages) and mapped the December 2024 question batch Q1–Q100 at question level.
+- 98/100 questions now have an explicit official syllabus unit assignment in `questions_review_pending.json`; Q14 (specific vāyu / vital-air classification) and Q27 (fourfold body classification) remain unmapped because that exact subject matter is not expressly named in the official syllabus. They remain review-only; no forced unit assignment.
+- Mapping covers Units I–X: Vedic literature; specific Vedic literature; general and specific Indian philosophy; grammar and linguistics; detailed grammar; Sanskrit literature/poetics/chandas; prescribed literary works; Puranic history/Dharmashastra/inscriptions; and Arthashastra/Smriti.
+- All 100 December 2024 records remain review-only pending editorial sign-off. No question was promoted to active solely because mapping was completed. Existing Q5/Q28/Q63 concerns remain preserved; official final-key letters remain unchanged.
+- Sanskrit canonical count remains 192 active / 108 review-only; staging records not integrated remain 550. Seven-subject totals remain 1,041 active + 509 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. PR #22 remains open and unmerged; no CI/APK PASS is claimed.
