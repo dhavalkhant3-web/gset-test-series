@@ -822,3 +822,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Promoted only these two records from review-only to canonical active questions. Canonical Gujarati count: 358 active / 42 review-only (400 total).
 - Review queue reduced from 44 to 42. Q40/Q41 source verification notes record the official paper page and final-key parity.
 - No other subject, Paper-I, Code 01, Code 02, or Code 28 changed. PR #22 remains open and unmerged. No CI/APK pass is claimed.
+
+
+## 2026-11-16 — Gujarati Code 06 source-verification batch 2
+- Official GSET August 2017 Gujarati Paper-II PDF page index 3 (printed page 3; scan rotated 180 degrees) visually checked for Q1–Q6, including stems and all four Gujarati options.
+- All six stored answers already matched the official answer-key records; answer letters were not changed.
+- Promoted Q1–Q6 from review-only into canonical `questions.json`; the review queue was reduced by six.
+- Gujarati now has 364 active + 36 review-only = 400 records. Seven-subject aggregate is 1,396 active + 154 review-only + 550 Sanskrit keys-only staging + 1,100 Geography/Social Work untranscribed = 3,200 expected.
+- PR #22 remains open and unmerged. No CI or Combined APK pass is claimed; no other subject was changed.
