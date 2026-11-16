@@ -582,3 +582,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - November 2025 canonical distribution: 93 active and 7 review-only (Q53, Q85, Q88, Q91, Q93, Q94, Q97). Q53 remains held for Brahmi glyph / official-key discrepancy. Q85, Q88, Q91, Q93, Q94 and Q97 remain review-only because the earlier source audit identified Devanagari transcription discrepancies requiring another exact proofread; official final-key letters were preserved.
 - Sanskrit canonical totals: 192 active, 10 review-only, 648 staged records not yet integrated. Seven-subject totals: 1,022 active + 430 review-only + 648 staged-not-integrated + 1,100 not yet transcribed = 3,200.
 - Source audit and review queue reconciled. No PR merge. No CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 November 2023 Q33 source verification
+- User supplied the official November 2023 Sanskrit Paper-II scan and final answer key. Printed page 7 visually confirms Q33 stem `अधोदत्तेषु किं काण्डं रामायणे प्रक्षिप्तं मन्यते ?` and options A सुन्दरकाण्डम्, B युद्धकाण्डम्, C अयोध्याकाण्डम्, D किष्किन्धाकाण्डम्.
+- Official final answer key gives Q33 = B. The stem/options and key were checked, but the item remains review-only because its content/key interpretation requires Sanskrit subject-expert review; official key B is preserved and no model-derived answer substituted.
+- Added Q33 to `questions_review_pending.json`; no active-bank promotion. Sanskrit remains 192 active / 11 review-only; 647 of 850 staging records are outside both canonical files. Seven-subject totals: 1,022 active + 431 review-only + 647 staged-not-integrated + 1,100 not transcribed = 3,200.
+- December 2024 official paper and final key were also supplied; existing Q5, Q28 and Q63 remain source-verified review-only. The remaining December 2024 records have not yet been integrated. No other subject changed; PR #22 remains unmerged; no CI/APK pass claimed.
