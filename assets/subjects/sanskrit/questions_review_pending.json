@@ -166,8 +166,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Option D is transcribed as Unicode Brahmi letter KA (U+11013, 𑀓), matching the glyph visible in the official scan. The question's semantic wording appears to point to D, while the official final answer key specifies B (+). Preserve official key B and retain this record for expert/key-discrepancy review; do not auto-correct the official key.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "History of writing — Brahmi script",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -189,7 +189,11 @@
     "language": "sa",
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
-    "source_verification_note": "Printed page 9 visually checked. Option D is the Brahmi glyph represented as Unicode U+11013 (𑀓); official final-key answer B (+) is retained despite the apparent semantic mismatch."
+    "source_verification_note": "Printed page 9 visually checked. Option D is the Brahmi glyph represented as Unicode U+11013 (𑀓); official final-key answer B (+) is retained despite the apparent semantic mismatch.",
+    "syllabus_unit": "Unit IX",
+    "unit_number": 9,
+    "unit_id": "unit_9",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit IX: Official Unit IX explicitly includes the history and origin of Brahmi script and inscriptions. The official-key/content discrepancy remains review-only. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q085",
@@ -211,8 +215,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Samkhya philosophy — Purusha / guna terminology",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -232,7 +236,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit IV: Official Unit IV specifically prescribes Samkhya Karika and its doctrines. The exact Devanagari transcription remains under proofreading review. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q088",
@@ -254,8 +262,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vedic literature — Brahmana texts",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -275,7 +283,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit I",
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit I: Official Unit I explicitly covers Brahmana literature. The exact stem transcription remains under proofreading review. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q091",
@@ -297,8 +309,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vedic literature — Rigvedic hymn identification",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -318,7 +330,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit I",
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit I: Official Unit I explicitly includes Rigvedic Samhita and selected suktas. The exact mantra transcription remains under proofreading review. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q093",
@@ -340,8 +356,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vedic literature — Vedic mantra / sukta identification",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -361,7 +377,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit I",
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit I: Official Unit I explicitly includes Vedic Samhita and selected suktas. The exact mantra transcription remains under proofreading review. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q094",
@@ -383,8 +403,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vedic literature — Rigvedic concepts",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -404,7 +424,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit I",
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit I: Official Unit I explicitly covers Rigvedic Samhita and selected Vedic concepts. The exact wording remains under proofreading review. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q097",
@@ -426,8 +450,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "Earlier source-audit review identified a Devanagari transcription discrepancy requiring a second line-by-line proofread against the printed scan. Preserve the official final-key answer; keep this record out of the active bank until the exact printed text is reconciled.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit poetry — Mahakavi attribution",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -447,7 +471,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit VII",
+    "unit_number": 7,
+    "unit_id": "unit_7",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit VII: Official Unit VII includes the general study of Sanskrit poets and mahakavya. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q033",
@@ -469,8 +497,8 @@
     "source_verified": true,
     "review_flag": true,
     "review_note": "The official final key gives B (Yuddhakanda). The item remains held for Sanskrit subject-expert review of the content/key interpretation; preserve the official key and do not substitute a model-derived answer.",
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Itihasa — Ramayana",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -489,7 +517,11 @@
     "verification_status": "source_verified_review_required",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Printed page 7 of the user-supplied official November 2023 Sanskrit Paper-II scan visually checked. Stem and all four options match the original; official final-key answer B independently confirmed. Retained review-only because the content/key interpretation requires expert review."
+    "source_verification_note": "Printed page 7 of the user-supplied official November 2023 Sanskrit Paper-II scan visually checked. Stem and all four options match the original; official final-key answer B independently confirmed. Retained review-only because the content/key interpretation requires expert review.",
+    "syllabus_unit": "Unit IX",
+    "unit_number": 9,
+    "unit_id": "unit_9",
+    "syllabus_mapping_note": "Question-level match to official GSET Sanskrit Code 07 Unit IX: Official Unit IX includes the Ramayana and its general study; this question asks about a kanḍa in the Ramayana. The content/key interpretation remains expert-review flagged. Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf."
   },
   {
     "id": "GSET-SAN07-DEC2024-Q001",
