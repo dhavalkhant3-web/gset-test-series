@@ -6,7 +6,7 @@
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 190,
+  "visual_checked": 300,
   "proofread_pass1_pending_second_pass": 291,
   "active_questions": 300,
   "pending_review": 0,
@@ -100,28 +100,8 @@
     "count": 18,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2426.pdf",
-    "printed_pages": "Q28–Q33 printed page 9; Q89–Q96 printed page 18; Q97–Q100 printed page 19.",
-    "answer_letters": {
-      "28": "B",
-      "29": "D",
-      "30": "D",
-      "31": "B",
-      "32": "C",
-      "33": "B",
-      "89": "D",
-      "90": "D",
-      "91": "A",
-      "92": "A",
-      "93": "D",
-      "94": "D",
-      "95": "C",
-      "96": "A",
-      "97": "C",
-      "98": "C",
-      "99": "D",
-      "100": "D"
-    },
-    "result": "All 18 question stems and all option sets visually matched official scan; all stored answer letters matched the official FINAL key; all existing syllabus mappings retained; records promoted after duplicate-ID and review-gate checks."
+    "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
+    "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
   "last_updated": "2026-11-16"
 }
