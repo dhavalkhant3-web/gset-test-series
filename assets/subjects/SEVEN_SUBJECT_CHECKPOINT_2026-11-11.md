@@ -9,14 +9,14 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 
 | Code | Subject | Active | Review-only present in JSON | Staged / not integrated | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
-| 06 | Gujarati | 296 | 104 | 0 | 0 |
+| 06 | Gujarati | 356 | 44 | 0 | 0 |
 | 07 | Sanskrit | 192 | 108 | 550 | 0 |
 | 08 | History | 50 | 0 | 0 | 0 |
 | 24 | Geography | 198 | 2 | 0 | 500 |
 | 25 | Social Work | 0 | 0 | 0 | 600 |
-| 26 | Environmental Sciences | 187 | 113 | 0 | 0 |
+| 26 | Environmental Sciences | 300 | 0 | 0 | 0 |
 | 27 | Forensic Science | 292 | 8 | 0 | 0 |
-| **Total** | | **1,214** | **336** | **550** | **1,100** |
+| **Total** | | **1,388** | **162** | **550** | **1,100** |
 
 Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,214 active + 336 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
 
@@ -805,3 +805,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Updated both canonical records with `review_flag=true` and explicit `review_note`; their final-key answers and source-verification status were not changed. Both remain pending official syllabus mapping / expert review.
 - Official syllabus: https://www.gujaratset.ac.in/assets/syllabus/08.pdf (GSET History Code 08).
 - No unrelated subject, Paper-I, Code 01, Code 02, or Code 28 was modified. PR #22 remains open and unmerged; no combined APK PASS is claimed.
+
+
+## 2026-11-16 — Canonical JSON count correction (live branch audit)
+- Re-fetched all seven canonical `questions.json` files and the applicable review queues on branch `app/import-updated-subject-banks-2026-11-10`. Counts in the PR body and top checkpoint table had drifted from the live JSON.
+- Gujarati: 356 records in `questions.json` + 44 in `questions_review_pending.json` = 400; all 356 canonical active records have `review_flag=false`. This supersedes stale 296/104 counts.
+- Environmental Sciences: 300 records in `questions.json`, 0 in `questions_review_pending.json`; all 300 canonical records have `source_verified=true`, `answer_key_verified=true`, `review_flag=false`, and `syllabus_mapping_status=verified`. This supersedes stale 187/113 counts and confirms the subject bank is complete at the canonical-file level.
+- Forensic Science: 292 active + 8 review-only. Geography: 198 active + 2 review-only + 500 not transcribed. Sanskrit: 192 active + 108 review-only + 550 staging not integrated. History: 50 active; Q46 and Q48 remain syllabus holds. Social Work: 600 official key entries but question text remains untranscribed.
+- Corrected seven-subject aggregate: 1,388 active + 162 review-only + 550 Sanskrit staging + 1,100 not transcribed = 3,200 expected records.
+- Updated PR #22 body to reflect these canonical counts. No question content was changed in this audit; no unrelated subject/Paper-I/Code 01/Code 02/Code 28 was modified. PR #22 remains open and unmerged; no combined APK PASS is claimed.
