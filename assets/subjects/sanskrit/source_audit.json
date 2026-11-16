@@ -635,7 +635,7 @@
     "status": "all_audited_letters_match"
   },
   "review_pending_file_restored": true,
-  "review_pending_file_count": 10,
+  "review_pending_file_count": 11,
   "review_pending_file_source": "gset_sanskrit_07_consolidated_staging.json (Library source file, 850 unique question records); the 130 IDs already present in active questions.json were excluded.",
   "review_pending_file_integrity": "704 unique records remain in questions_review_pending.json; all review-flagged. 665 are key-applied pending visual proofread; 39 retain review_required notes. Q91–Q100 were visually checked on printed pages 14–15 and final-key matched; Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain review-only for exact Devanagari transcription review. Two official final-key Z/not-evaluated records remain without an option letter.",
   "nov2025_visual_verified_count": 100,
@@ -663,14 +663,14 @@
     "staging_unique_ids": 850,
     "active_questions_json_records": 192,
     "staging_ids_already_active": 192,
-    "review_pending_json_records": 10,
-    "review_pending_unique_ids": 10,
-    "active_review_union_unique_ids": 202,
+    "review_pending_json_records": 11,
+    "review_pending_unique_ids": 11,
+    "active_review_union_unique_ids": 203,
     "review_queue_duplicates": 0,
-    "review_required_records": 39,
+    "review_required_records": 40,
     "not_evaluated_official_Z_records": 2,
-    "staging_ids_not_in_either_canonical_file": 648,
-    "discrepancy": "45 November 2025 questions were integrated after source/key review; six transcription-discrepancy records remain review-only. The staging source's other unintegrated questions remain outside canonical JSON pending source proofread."
+    "staging_ids_not_in_either_canonical_file": 647,
+    "discrepancy": "November 2023 Q33 was visually verified against printed page 7 and matched to official final-key B; retained in review queue for expert content/key interpretation. November 2025 six transcription-discrepancy records and Q53 remain review-only. Other unintegrated staging records remain outside canonical JSON pending source proofread."
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
@@ -762,7 +762,7 @@
     "provisional": 0,
     "pending": 836
   },
-  "canonical_review_queue_count": 10,
+  "canonical_review_queue_count": 11,
   "canonical_review_queue_ids": [
     "GSET-SAN07-NOV2025-Q053",
     "GSET-SAN07-NOV2025-Q085",
@@ -780,5 +780,6 @@
     28
   ],
   "last_updated": "2026-11-16",
-  "latest_batch_note": "2026-11-16: Integrated 45 missing November 2025 questions after checking source text and matching official final-key answers. Six records (Q85, Q88, Q91, Q93, Q94, Q97) were moved to review-only because earlier source audit identified transcription discrepancies. November 2025 now has 93 active + 7 review-only = 100; Q53's Brahmi glyph/key conflict remains review-only. November 2023 Q100 was already canonical; no duplicate added. No CI/APK pass claimed."
+  "latest_batch_note": "2026-11-16: User-supplied official November 2023 and December 2024 Sanskrit papers and final keys inspected. November 2023 Q33 (printed page 7) stem/options visually verified; official final-key B confirmed. Added Q33 to canonical review queue, not active, because content/key interpretation requires subject-expert review. Canonical active remains 192; review queue 11; 647 staging IDs remain outside both canonical files. No other subject changed; no CI/APK pass claimed.",
+  "review_required_records": 40
 }
