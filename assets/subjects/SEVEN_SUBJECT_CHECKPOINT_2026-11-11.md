@@ -589,3 +589,10 @@ Expected question records across these seven subjects: 3,200. The live canonical
 - Official final answer key gives Q33 = B. The stem/options and key were checked, but the item remains review-only because its content/key interpretation requires Sanskrit subject-expert review; official key B is preserved and no model-derived answer substituted.
 - Added Q33 to `questions_review_pending.json`; no active-bank promotion. Sanskrit remains 192 active / 11 review-only; 647 of 850 staging records are outside both canonical files. Seven-subject totals: 1,022 active + 431 review-only + 647 staged-not-integrated + 1,100 not transcribed = 3,200.
 - December 2024 official paper and final key were also supplied; existing Q5, Q28 and Q63 remain source-verified review-only. The remaining December 2024 records have not yet been integrated. No other subject changed; PR #22 remains unmerged; no CI/APK pass claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 December 2024 Q1–Q7 source batch
+- Visually checked printed page 3 of the user-supplied official December 2024 Paper-II scan. Q1–Q7 stems and all four options were compared with the consolidated staging transcription. Q5 was already present in the review queue; Q1–Q4 and Q6–Q7 were added as six new review-only records.
+- Official final-key answers confirmed: Q1 D, Q2 A, Q3 D, Q4 A, Q5 D, Q6 A, Q7 D. All seven are retained review-only pending full December 2024 paper completion and official syllabus mapping; no automatic promotion to active.
+- Sanskrit canonical totals: 192 active / 17 review-only; 641 of 850 staging records remain outside both canonical files. Seven-subject totals: 1,022 active + 437 review-only + 641 staged-not-integrated + 1,100 not transcribed = 3,200.
+- No other subject changed. PR #22 remains unmerged; no CI/APK pass claimed.
