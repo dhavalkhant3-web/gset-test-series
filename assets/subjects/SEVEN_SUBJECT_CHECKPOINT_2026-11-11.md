@@ -798,3 +798,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Reviewed the official Code 27 syllabus. December 2024 Q59 (rape-kit purpose) is supported by Unit I, which explicitly includes sexual offences under Criminal Investigations and collection/preservation of physical evidence.
 - Promoted `GSET-FS27-DEC2024-Q059` from review-only to active without changing its source wording, options, or official final-key answer.
 - Current Forensic Science count after live verification: 292 active / 8 review-only. The remaining eight are retained for explicit syllabus-scope uncertainty; no forced mapping.
+
+
+## 2026-11-16 — History Code 08 syllabus-hold clarification
+- Rechecked official Code 08 syllabus against September 2016 Q46 and Q48. Q46 asks about South African apartheid/racial segregation; the syllabus scope is Indian history and does not explicitly include South Africa/Apartheid. Q48 asks for the author of *The Wealth of Nations*; the syllabus does not explicitly list Adam Smith or European political economy. Neither question has been assigned an inferred unit.
+- Updated both canonical records with `review_flag=true` and explicit `review_note`; their final-key answers and source-verification status were not changed. Both remain pending official syllabus mapping / expert review.
+- Official syllabus: https://www.gujaratset.ac.in/assets/syllabus/08.pdf (GSET History Code 08).
+- No unrelated subject, Paper-I, Code 01, Code 02, or Code 28 was modified. PR #22 remains open and unmerged; no combined APK PASS is claimed.
