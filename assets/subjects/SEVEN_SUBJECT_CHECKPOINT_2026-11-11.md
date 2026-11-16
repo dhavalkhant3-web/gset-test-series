@@ -708,3 +708,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - All 100 December 2024 records remain review-only pending editorial sign-off. No question was promoted to active solely because mapping was completed. Existing Q5/Q28/Q63 concerns remain preserved; official final-key letters remain unchanged.
 - Sanskrit canonical count remains 192 active / 108 review-only; staging records not integrated remain 550. Seven-subject totals remain 1,041 active + 509 review-only + 550 staged-not-integrated + 1,100 not transcribed = 3,200.
 - Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. PR #22 remains open and unmerged; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Sanskrit Code 07 remaining review-record syllabus pass
+- Added official syllabus mappings for the eight previously pending Sanskrit review records: November 2023 Q33 (Ramayana / Unit IX) and November 2025 Q53 (Brahmi script / Unit IX), Q85 (Samkhya / Unit IV), Q88, Q91, Q93, Q94 (Vedic literature / Unit I), and Q97 (Sanskrit poetry / Unit VII).
+- These eight records remain review-only: Q33 retains the official-key/content expert-review hold; Q53 retains the official-key discrepancy; Q85/Q88/Q91/Q93/Q94 retain transcription-proofreading holds; Q97 is mapped but awaits editorial sign-off. No official answer letter or source text was changed.
+- Across the December 2024 batch, 98/100 are syllabus-mapped; Q14 and Q27 remain the only December 2024 mapping holds. No review-only record was promoted.
+- Official source: https://gujaratset.ac.in/assets/syllabus/07.pdf. PR #22 remains open and unmerged; no CI/APK PASS is claimed.
