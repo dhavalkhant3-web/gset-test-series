@@ -1,0 +1,2179 @@
+{
+  "schema_version": 1,
+  "subject_id": "commerce",
+  "subject_code": "17",
+  "paper": "Paper-II",
+  "exam_id": "GSET_2011_10",
+  "session": "16 October 2011",
+  "status": "STAGING_DRAFT_NOT_APP_READY",
+  "source_policy": "User-supplied bilingual transcription; do not publish until line-by-line comparison with the official question booklet is complete.",
+  "sources": {
+    "official_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1117.pdf",
+    "official_final_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/oct11/oct1117.pdf",
+    "syllabus_reference": "GSET Commerce Code 17 official syllabus; question-level unit mapping pending"
+  },
+  "validation": {
+    "record_count": 50,
+    "english_stems_present": 50,
+    "gujarati_stems_present": 50,
+    "english_option_sets_present": 50,
+    "gujarati_option_sets_present": 50,
+    "official_answer_key_verified": 50,
+    "official_question_booklet_comparison": 0,
+    "official_unit_ids_assigned": 0,
+    "app_ready": false,
+    "merge_authorized": false
+  },
+  "questions": [
+    {
+      "question_id": "GSET_2011_10_P2_Q001",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 1,
+      "unit_id": null,
+      "question_text_en": "The unique features of business environment are:",
+      "question_text_gu": "ધંધાકીય વાતાવરણના વિશિષ્ટ લક્ષણો છે :",
+      "options": {
+        "A": {
+          "text_en": "Its forces are dynamic",
+          "text_gu": "ચલ શક્તિ બળ"
+        },
+        "B": {
+          "text_en": "A symbiotic relationship exists amongst the forces",
+          "text_gu": "ચલો વચ્ચે સહજીવ સંબંધ ધરાવે છે"
+        },
+        "C": {
+          "text_en": "A single firm cannot change it",
+          "text_gu": "એક પેઢી તે બદલી ન શકે"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરોક્ત બધા જ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Environment"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q002",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 2,
+      "unit_id": null,
+      "question_text_en": "Economic planning is :",
+      "question_text_gu": "આર્થિક નિયોજન છે :",
+      "options": {
+        "A": {
+          "text_en": "Part of economic environment",
+          "text_gu": "આર્થિક વાતાવરણનો ભાગ છે"
+        },
+        "B": {
+          "text_en": "Done to promote large businesses",
+          "text_gu": "મોટા ધંધાઓને પ્રોત્સાહિત કરે છે"
+        },
+        "C": {
+          "text_en": "Done by business houses",
+          "text_gu": "ધંધાઓ દ્વારા કરવામાં આવે છે"
+        },
+        "D": {
+          "text_en": "None of the above",
+          "text_gu": "ઉપરોક્ત કોઈ પણ નહીં"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Environment"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q003",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 3,
+      "unit_id": null,
+      "question_text_en": "Under the second generations reforms in India business firms:",
+      "question_text_gu": "ભારતના બીજા તબકકાના સુધારાઓમાં ધંધાકીય પેઢીઓને :",
+      "options": {
+        "A": {
+          "text_en": "were put under strict licencing regime",
+          "text_gu": "કડક લાઈસન્સીંગ પ્રશાસનમાં મૂકવામાં આવેલ હતી"
+        },
+        "B": {
+          "text_en": "were not allowed to expand their business abroad",
+          "text_gu": "વિદેશમાં ધંધાનો વિસ્તાર કરવાની પરવાનગી આપવામાં આવેલ ન હતી"
+        },
+        "C": {
+          "text_en": "were given flexibility for entry and exit",
+          "text_gu": "પ્રવેશ અને નિકાલની છૂટ આપવામાં આવેલ હતી"
+        },
+        "D": {
+          "text_en": "were ordered to hire labor only from the local area only",
+          "text_gu": "સ્થાનિક વિસ્તારમાંથી મજૂર લેવાનો આદેશ આપવામાં આવેલ હતો"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Environment"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q004",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 4,
+      "unit_id": null,
+      "question_text_en": "Privatization process requires :",
+      "question_text_gu": "ખાનગીકરણ પ્રક્રિયામાં :",
+      "options": {
+        "A": {
+          "text_en": "Changes in legislation",
+          "text_gu": "કાયદાકીય ફેરફારો જરૂરી છે"
+        },
+        "B": {
+          "text_en": "No planning",
+          "text_gu": "આયોજન જરૂરી નથી"
+        },
+        "C": {
+          "text_en": "Financing by the government",
+          "text_gu": "સરકારની નાણાંકીય સહાયતા જરૂરી છે"
+        },
+        "D": {
+          "text_en": "More control by the government",
+          "text_gu": "સરકાર દ્વારા વધારે નિયંત્રણ જરૂરી છે"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Environment"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q005",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 5,
+      "unit_id": null,
+      "question_text_en": "The most important aspect of Fiscal Policy for a business is:",
+      "question_text_gu": "ધંધા માટે રાજકોષિય નીતિનું સૌથી મહત્વનું પાસું............. છે.",
+      "options": {
+        "A": {
+          "text_en": "Budget Deficit",
+          "text_gu": "અંદાજપત્રીય ઘટ"
+        },
+        "B": {
+          "text_en": "Fiscal Deficit",
+          "text_gu": "રાજકોષીય ઘટ"
+        },
+        "C": {
+          "text_en": "Taxes",
+          "text_gu": "કરવેરા"
+        },
+        "D": {
+          "text_en": "Subsidies",
+          "text_gu": "અનુદાન"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Environment"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q006",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 6,
+      "unit_id": null,
+      "question_text_en": "Which one of the following assets is the least liquid asset ?",
+      "question_text_gu": "નીચેના પૈકી કઈ અસ્કયામત ન્યૂનતમ પ્રવાહી અસ્કયામત છે ?",
+      "options": {
+        "A": {
+          "text_en": "Intangible",
+          "text_gu": "અદૃશ્ય"
+        },
+        "B": {
+          "text_en": "Floating",
+          "text_gu": "તરતી"
+        },
+        "C": {
+          "text_en": "Wasting",
+          "text_gu": "ઘટતી જતી"
+        },
+        "D": {
+          "text_en": "Fictitious",
+          "text_gu": "કાલ્પનિક"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Accounting and Auditing"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q007",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 7,
+      "unit_id": null,
+      "question_text_en": "Which account is generally used for rectification of errors?",
+      "question_text_gu": "ભૂલ સુધારણા માટે સામાન્ય રીતે કયા ખાતાનો ઉપયોગ થાય છે ?",
+      "options": {
+        "A": {
+          "text_en": "Cash",
+          "text_gu": "રોકડ"
+        },
+        "B": {
+          "text_en": "Profit and Loss",
+          "text_gu": "નફા અને નુકસાન"
+        },
+        "C": {
+          "text_en": "General Ledger Adjustment",
+          "text_gu": "સામાન્ય ખાતાવહી હવાલો"
+        },
+        "D": {
+          "text_en": "Suspense",
+          "text_gu": "સંશય"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Accounting and Auditing"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q008",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 8,
+      "unit_id": null,
+      "question_text_en": "X and Y are partners sharing profits and losses in the ratio of 3: 2. Z is admitted as a partner and their new profit sharing ratio is 3:3:2. The sacrificing ratio of X and Y is:",
+      "question_text_gu": "X અને Y 3 : 2 ના પ્રમાણમાં નફા અને નુકસાન વહેંચતા ભાગીદારો છે. Z ને ભાગીદાર તરીકે પ્રવેશ આપેલ છે. અને તેઓનું નવો નફા-વહેંચણી પ્રમાણ 3 : 3 : 2 છે. X અને Y ના ત્યાગ પ્રમાણ છે :",
+      "options": {
+        "A": {
+          "text_en": "1:9",
+          "text_gu": "1:9"
+        },
+        "B": {
+          "text_en": "9:1",
+          "text_gu": "9:1"
+        },
+        "C": {
+          "text_en": "3:1",
+          "text_gu": "3:1"
+        },
+        "D": {
+          "text_en": "1:3",
+          "text_gu": "1:3"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Accounting and Auditing"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q009",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 9,
+      "unit_id": null,
+      "question_text_en": "When shares are allotted for consideration other than cash the account to be debited would be :",
+      "question_text_gu": "જયારે અંશ (શેયર્સ) રોકડ સિવાયના બદલામાં ફાળવવામાં આવેલ હોય ત્યારે કયું ખાતું ઉધારવામાં આવશે ?",
+      "options": {
+        "A": {
+          "text_en": "Goodwill",
+          "text_gu": "શાખ"
+        },
+        "B": {
+          "text_en": "Capital Reserve",
+          "text_gu": "મૂડી અનામત"
+        },
+        "C": {
+          "text_en": "Concerned Asset",
+          "text_gu": "સંબંધિત અસ્કયામત"
+        },
+        "D": {
+          "text_en": "Bonus Share",
+          "text_gu": "બોનસ શેયર્સ"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Accounting and Auditing"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q010",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 10,
+      "unit_id": null,
+      "question_text_en": "An unfavourable material price variance occurs because of :",
+      "question_text_gu": "પ્રતિકૂળ માલકિંમત વિચલન થવાનું કારણ છે :",
+      "options": {
+        "A": {
+          "text_en": "Price increase in raw materials",
+          "text_gu": "કાચા માલની કિંમતમાં વધારો"
+        },
+        "B": {
+          "text_en": "Price decrease in raw materials",
+          "text_gu": "કાચા માલની કિંમતમાં ઘટાડો"
+        },
+        "C": {
+          "text_en": "Less than anticipated normal wastage in manufacturing process",
+          "text_gu": "ઉત્પાદન પ્રક્રિયાનો અપેક્ષિત સામાન્ય બગાડ ઓછો હોવો"
+        },
+        "D": {
+          "text_en": "More than anticipated normal wastage in manufacturing process",
+          "text_gu": "ઉત્પાદન પ્રક્રિયાનો અપેક્ષિત સામાન્ય બગાડ વધારે હોવો"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Accounting and Auditing"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q011",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 11,
+      "unit_id": null,
+      "question_text_en": "The major point on which Business Economics differs from pure economics is:",
+      "question_text_gu": "ધંધાકીય અર્થશાસ્ત્ર એ શુદ્ધ અર્થશાસ્ત્રથી કયા મહત્વના મુદ્દાથી અલગ પડે છે :",
+      "options": {
+        "A": {
+          "text_en": "It is more normative in nature leading to decisions",
+          "text_gu": "તે પ્રકૃતિમાં વધારાનું આદર્શ મૂલક છે અને નિર્ણયો સુધી લઈ જાય છે"
+        },
+        "B": {
+          "text_en": "It is more analytical",
+          "text_gu": "તે વધારે વિશ્લેષણાત્મક છે"
+        },
+        "C": {
+          "text_en": "It uses data",
+          "text_gu": "તે આંકડાનો ઉપયોગ કરે છે"
+        },
+        "D": {
+          "text_en": "It relates to money",
+          "text_gu": "તે નાણાં સાથે સંબંધિત છે"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Economics"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q012",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 12,
+      "unit_id": null,
+      "question_text_en": "A supplier of machine parts should:",
+      "question_text_gu": "યંત્રના ભાગો પૂરા પાડનાર વેપારીએ :",
+      "options": {
+        "A": {
+          "text_en": "Focus only on customers' demand",
+          "text_gu": "ફક્ત ગ્રાહકોની માંગ ઉપર ધ્યાન આપવું જોઈએ"
+        },
+        "B": {
+          "text_en": "Focus on customers' and market demand",
+          "text_gu": "ગ્રાહકો અને બજારની માંગ ઉપર ધ્યાન આપવું જોઈએ"
+        },
+        "C": {
+          "text_en": "Focus on its supply price only",
+          "text_gu": "ફક્ત પોતાની વેચાણ કિંમત ઉપર ધ્યાન આપવું જોઈએ"
+        },
+        "D": {
+          "text_en": "None of the above",
+          "text_gu": "ઉપરોક્તમાંથી એક પણ નહીં"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Economics"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q013",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 13,
+      "unit_id": null,
+      "question_text_en": "A producer found that for a production of 1039 units the average cost was minimum. For this level of production:",
+      "question_text_gu": "એક ઉત્પાદકને ખબર પડયું કે 1039 એકમોની સરેરાશ પડતર સૌથી ઓછી હતી. આ ઉત્પાદન સ્તરમાં :",
+      "options": {
+        "A": {
+          "text_en": "Marginal cost will be equal to average cost",
+          "text_gu": "સીમાન્ત પડતર એ સરેરાશ પડતર જેટલી હશે"
+        },
+        "B": {
+          "text_en": "Average cost will be higher than total cost",
+          "text_gu": "સરેરાશ પડતર કુલ પડતરથી વધારે હશે"
+        },
+        "C": {
+          "text_en": "Average cost will be higher than marginal cost",
+          "text_gu": "સરેરાશ પડતર સીમાન્ત પડતરથી વધારે હશે"
+        },
+        "D": {
+          "text_en": "Average cost will be zero",
+          "text_gu": "સરેરાશ પડતર શૂન્ય હશે"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Economics"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q014",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 14,
+      "unit_id": null,
+      "question_text_en": "If a firm adopts cost plus pricing policy, it would :",
+      "question_text_gu": "જો એક પેઢી પડતર વત્તા કિંમત નીતિ અપનાવે ત્યારે તે :",
+      "options": {
+        "A": {
+          "text_en": "Charge a price which does not include promotional costs",
+          "text_gu": "કિંમતમાં પ્રોત્સાહન ખર્ચનો સમાવેશ ન કરે"
+        },
+        "B": {
+          "text_en": "Charge a price which does not include profit",
+          "text_gu": "કિંમતમાં નફાનો સમાવેશ ન કરે"
+        },
+        "C": {
+          "text_en": "Charge a price which does not include transportation cost",
+          "text_gu": "કિંમતમાં વાહનખર્ચનો સમાવેશ ન કરે"
+        },
+        "D": {
+          "text_en": "Charge a price which includes minimum profit over all costs",
+          "text_gu": "કિંમતમાં કુલ પડતર ઉપરાંત ઓછામાં ઓછા નફાનો સમાવેશ કરે"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Economics"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q015",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 15,
+      "unit_id": null,
+      "question_text_en": "A firm can earn maximum profit when:",
+      "question_text_gu": "પેઢી ત્યારે જ મહત્તમ નફો કમાઈ શકે જયારે :",
+      "options": {
+        "A": {
+          "text_en": "Average cost is equal to average revenue",
+          "text_gu": "સરેરાશ પડતર એ સરેરાશ આવક જેટલી જ હોય"
+        },
+        "B": {
+          "text_en": "Average cost is equal to marginal revenue",
+          "text_gu": "સરેરાશ પડતર એ સીમાન્ત આવક જેટલી જ હોય"
+        },
+        "C": {
+          "text_en": "Marginal revenue is maximum",
+          "text_gu": "સીમાન્ત આવક મહત્તમ જ હોય"
+        },
+        "D": {
+          "text_en": "Marginal revenue is equal to marginal cost",
+          "text_gu": "સીમાન્ત પડતર એ સીમાન્ત આવક જેટલી જ હોય"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Economics"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q016",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 16,
+      "unit_id": null,
+      "question_text_en": "Which one of the following is non-parametric test ?",
+      "question_text_gu": "નીચેના પૈકી કયું પ્રાચલિક પરીક્ષણ નથી ?",
+      "options": {
+        "A": {
+          "text_en": "F-test",
+          "text_gu": "F-પરીક્ષણ"
+        },
+        "B": {
+          "text_en": "t-test",
+          "text_gu": "t-પરીક્ષણ"
+        },
+        "C": {
+          "text_en": "Z-test",
+          "text_gu": "Z-પરીક્ષણ"
+        },
+        "D": {
+          "text_en": "Chi-square test",
+          "text_gu": "Chi-square પરીક્ષણ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Statistics and Research Methods"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q017",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 17,
+      "unit_id": null,
+      "question_text_en": "The 'cause and effect' relationship between the two variables is calculated by applying one of the following statistical methods. Which one is that ?",
+      "question_text_gu": "નીચેના પૈકી એક આંકડાકીય પદ્ધતિ દ્વારા બે-ચલ વચ્ચે કારણ-અસર સંબંધ ગણવામાં આવે છે. નીચેના પૈકી તે કયું છે ?",
+      "options": {
+        "A": {
+          "text_en": "Correlation Analysis",
+          "text_gu": "સહસંબંધ વિશ્લેષણ"
+        },
+        "B": {
+          "text_en": "Regression Analysis",
+          "text_gu": "પ્રત્યાવર્તન વિશ્લેષણ"
+        },
+        "C": {
+          "text_en": "Skewness",
+          "text_gu": "વિરૂપતા"
+        },
+        "D": {
+          "text_en": "ANOVA",
+          "text_gu": "પ્રસરણ વિશ્લેષણ"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Statistics and Research Methods"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q018",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 18,
+      "unit_id": null,
+      "question_text_en": "Here is incomplete statement: \"Random sampling\" is one of the important technique of data collection. This technique is also known as ............ Which one of the following will correctly complete it ?",
+      "question_text_gu": "અહીં અપૂર્ણ કથન છે : 'યાદૃચ્છિક પ્રતિચયન' આંકડા સંકલનની એક અગત્યની પદ્ધતિ છે. આ પદ્ધતિને જાણવામાં આવે છે............ નીચેના પૈકી કયું આને સાચી રીતે પૂર્ણ કરશે ?",
+      "options": {
+        "A": {
+          "text_en": "Normal sampling",
+          "text_gu": "સામાન્ય નમૂનીકરણ"
+        },
+        "B": {
+          "text_en": "Poisson sampling",
+          "text_gu": "પોયજન નમૂનીકરણ"
+        },
+        "C": {
+          "text_en": "Probability sampling",
+          "text_gu": "સંભાવના નમૂનીકરણ"
+        },
+        "D": {
+          "text_en": "Non-systematic sampling",
+          "text_gu": "અપદ્ધતિસરનું નમૂનીકરણ"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Statistics and Research Methods"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q019",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 19,
+      "unit_id": null,
+      "question_text_en": "If N=25000; n=10; and P=1/500 in a Poisson distribution, then m (a positive constant) will be equal to one of the following. That is:",
+      "question_text_gu": "જો પોયજન-વિતરણમાં N=25000; n=10 અને P=1/500 હોય તો m (ભાવાત્મક સતત ગુણ) નીચેના પૈકી એક બરાબર હશે. તે હશે :",
+      "options": {
+        "A": {
+          "text_en": "0.02",
+          "text_gu": "0.02"
+        },
+        "B": {
+          "text_en": "0.002",
+          "text_gu": "0.002"
+        },
+        "C": {
+          "text_en": "0.25",
+          "text_gu": "0.25"
+        },
+        "D": {
+          "text_en": "0.025",
+          "text_gu": "0.025"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Statistics and Research Methods"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q020",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 20,
+      "unit_id": null,
+      "question_text_en": "Given: Sum of squares between the columns = 304.22, Degrees of freedom = 2. What will be the F-value under the method of Analysis of Variance ?",
+      "question_text_gu": "સ્તંભ વચ્ચેના વર્ગોનો સરવાળો = 304.22, સ્વતંત્રતાની સીમા = 2. તો પ્રસરણ વિશ્લેષણની પદ્ધતિમાં F-મૂલ્ય શું હશે ?",
+      "options": {
+        "A": {
+          "text_en": "9.85",
+          "text_gu": "9.85"
+        },
+        "B": {
+          "text_en": "19.70",
+          "text_gu": "19.70"
+        },
+        "C": {
+          "text_en": "10.85",
+          "text_gu": "10.85"
+        },
+        "D": {
+          "text_en": "20.70",
+          "text_gu": "20.70"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Statistics and Research Methods"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q021",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 21,
+      "unit_id": null,
+      "question_text_en": "The theory of MBO (Management by Objective) was derived by:",
+      "question_text_gu": "\"હેતુઓ દ્વારા સંચાલન\" નો ખ્યાલ આપનાર લેખક :",
+      "options": {
+        "A": {
+          "text_en": "Harold Koontz",
+          "text_gu": "હારોલ્ડ કૂન્ટઝ"
+        },
+        "B": {
+          "text_en": "Peter F. Drucker",
+          "text_gu": "પીટર એફ. ડ્રકર"
+        },
+        "C": {
+          "text_en": "Henri Fayol",
+          "text_gu": "હેન્રી ફેયોલ"
+        },
+        "D": {
+          "text_en": "Philip Kotler",
+          "text_gu": "ફીલીપ કોટલર"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q022",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 22,
+      "unit_id": null,
+      "question_text_en": "Hawthorne experiment was undertaken between:",
+      "question_text_gu": "વિખ્યાત 'હોવથોર્ન પ્રયોગ' નીચેના વર્ષો દરમ્યાન હાથ ધરવામાં આવેલ :",
+      "options": {
+        "A": {
+          "text_en": "1927 and 1932",
+          "text_gu": "૧૯૨૭ થી ૧૯૩૨"
+        },
+        "B": {
+          "text_en": "1928 and 1931",
+          "text_gu": "૧૯૨૮ થી ૧૯૩૧"
+        },
+        "C": {
+          "text_en": "1929 and 1932",
+          "text_gu": "૧૯૨૯ થી ૧૯૩૨"
+        },
+        "D": {
+          "text_en": "1930 and 1935",
+          "text_gu": "૧૯૩૦ થી ૧૯૩૫"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q023",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 23,
+      "unit_id": null,
+      "question_text_en": "Theory 'X' and theory 'Y' of motivation was developed by:",
+      "question_text_gu": "પ્રેરણાની થીયરી 'X' અને 'Y' ના પ્રણેતા છે :",
+      "options": {
+        "A": {
+          "text_en": "McGregor",
+          "text_gu": "મેક ગ્રેગર"
+        },
+        "B": {
+          "text_en": "Elton Mayo",
+          "text_gu": "એલ્ટન મેયો"
+        },
+        "C": {
+          "text_en": "Henri Fayol",
+          "text_gu": "હેન્રી ફેયોલ"
+        },
+        "D": {
+          "text_en": "William G. Ouchi",
+          "text_gu": "વિલિયમ જી. આઉચી"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q024",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 24,
+      "unit_id": null,
+      "question_text_en": "The process where actual results are compared with desired results is known as:",
+      "question_text_gu": "નકકર પરિણામો અને અપેક્ષિત પરિણામોની સરખામણી કરવાની પ્રક્રિયા એટલે :",
+      "options": {
+        "A": {
+          "text_en": "Co-ordination",
+          "text_gu": "સંકલન"
+        },
+        "B": {
+          "text_en": "Organization",
+          "text_gu": "સંગઠન"
+        },
+        "C": {
+          "text_en": "Controlling",
+          "text_gu": "અંકુશ"
+        },
+        "D": {
+          "text_en": "Planning",
+          "text_gu": "આયોજન"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q025",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 25,
+      "unit_id": null,
+      "question_text_en": "The leadership style which is based on consultations within the group is known as:",
+      "question_text_gu": "ચર્ચા-પરામર્શના આધારની નેતૃત્વ પદ્ધતિ નીચે પ્રમાણે જાણીતી છે :",
+      "options": {
+        "A": {
+          "text_en": "Autocratic",
+          "text_gu": "એકહથ્થુ"
+        },
+        "B": {
+          "text_en": "Democratic",
+          "text_gu": "લોકશાહી"
+        },
+        "C": {
+          "text_en": "Free reign",
+          "text_gu": "છૂટો દોર"
+        },
+        "D": {
+          "text_en": "None of the above",
+          "text_gu": "ઉપરોક્ત કોઈ પણ નહીં"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q026",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 26,
+      "unit_id": null,
+      "question_text_en": "Marketing concept is based on:",
+      "question_text_gu": "માર્કેટીંગ વિભાવનાનો મૂળ આધાર :",
+      "options": {
+        "A": {
+          "text_en": "Customer oriented",
+          "text_gu": "ગ્રાહક લક્ષી"
+        },
+        "B": {
+          "text_en": "Profit oriented",
+          "text_gu": "નફા લક્ષી"
+        },
+        "C": {
+          "text_en": "Programme oriented",
+          "text_gu": "કાર્યક્રમ લક્ષી"
+        },
+        "D": {
+          "text_en": "None of the above",
+          "text_gu": "ઉપરોક્ત કોઈ પણ નહીં"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Marketing Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q027",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 27,
+      "unit_id": null,
+      "question_text_en": "Who developed the 4 P's of marketing ?",
+      "question_text_gu": "માર્કેટીંગના 4 P ના પ્રણેતા કોણ છે ?",
+      "options": {
+        "A": {
+          "text_en": "Philip Kotler",
+          "text_gu": "ફીલીપ કોટલર"
+        },
+        "B": {
+          "text_en": "Peter F. Drucker",
+          "text_gu": "પીટર એફ. ડ્રકર"
+        },
+        "C": {
+          "text_en": "McCarthy",
+          "text_gu": "મેક કાર્થી"
+        },
+        "D": {
+          "text_en": "Cundiff and Still",
+          "text_gu": "કન્ડીફ અને સ્ટીલ"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Marketing Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q028",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 28,
+      "unit_id": null,
+      "question_text_en": "Which of the following cost may be used for price decision ?",
+      "question_text_gu": "નીચે જણાવેલ કઈ પડતર ભાવ નિર્ણય પ્રક્રિયામાં ઉપયોગી થાય છે ?",
+      "options": {
+        "A": {
+          "text_en": "Fixed cost",
+          "text_gu": "સ્થાયી પડતર"
+        },
+        "B": {
+          "text_en": "Variable cost",
+          "text_gu": "ચલિત પડતર"
+        },
+        "C": {
+          "text_en": "Average cost",
+          "text_gu": "સરેરાશ પડતર"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરની દરેક"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Marketing Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q029",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 29,
+      "unit_id": null,
+      "question_text_en": "Direct distribution channel is:",
+      "question_text_gu": "એકાકી વિતરણ માર્ગ (મધ્યસ્થી વિનાની ચેનલ) એટલે કે :",
+      "options": {
+        "A": {
+          "text_en": "Producer -> Wholesaler",
+          "text_gu": "ઉત્પાદક -> જથ્થાબંધ વેપારી"
+        },
+        "B": {
+          "text_en": "Producer -> Retailer",
+          "text_gu": "ઉત્પાદક -> છૂટક વેપારી"
+        },
+        "C": {
+          "text_en": "Producer -> Consumer",
+          "text_gu": "ઉત્પાદક -> ગ્રાહકો"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરના દરેક"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Marketing Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q030",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 30,
+      "unit_id": null,
+      "question_text_en": "Marketing planning includes:",
+      "question_text_gu": "માર્કેટીંગ આયોજનમાં નીચેની નીતિનો સમાવેશ થાય છે :",
+      "options": {
+        "A": {
+          "text_en": "Product Policy",
+          "text_gu": "પેદાશ નીતિ"
+        },
+        "B": {
+          "text_en": "Price Policy",
+          "text_gu": "પડતર નીતિ"
+        },
+        "C": {
+          "text_en": "Promotional Policy",
+          "text_gu": "અભિવૃદ્ધિ નીતિ"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરના બધા જ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Marketing Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q031",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 31,
+      "unit_id": null,
+      "question_text_en": "Principal goal of financial management is considered to be the maximisation of:",
+      "question_text_gu": "નાણાંકીય સંચાલનનો મુખ્ય ઉદ્દેશ........ અધિકતમ કરણ માનવામાં આવે છે :",
+      "options": {
+        "A": {
+          "text_en": "Profit",
+          "text_gu": "નફાનું"
+        },
+        "B": {
+          "text_en": "Shareholders' wealth",
+          "text_gu": "અંશ-ધારકની સંપત્તિનું"
+        },
+        "C": {
+          "text_en": "Earnings per share",
+          "text_gu": "શેયર (અંશ) દીઠ આવકનું"
+        },
+        "D": {
+          "text_en": "Return on equity",
+          "text_gu": "શેયર (અંશ) દીઠ વળતરનું"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Financial Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q032",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 32,
+      "unit_id": null,
+      "question_text_en": "Given: Operating Fixed Costs Rs. 25,000; Sales Rs. 1,00,000; P/V Ratio 40%. The operating leverage shall be :",
+      "question_text_gu": "આપેલ છે : સંચાલકીય સ્થાયી પડતર રૂ. 25,000; વેચાણ રૂ. 1,00,000; લાભ/માત્રા ગુણોત્તર 40%. પરિચાલક ઉત્તોલક થશે :",
+      "options": {
+        "A": {
+          "text_en": "1.50",
+          "text_gu": "1.50"
+        },
+        "B": {
+          "text_en": "2.50",
+          "text_gu": "2.50"
+        },
+        "C": {
+          "text_en": "2.67",
+          "text_gu": "2.67"
+        },
+        "D": {
+          "text_en": "2.47",
+          "text_gu": "2.47"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Financial Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q033",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 33,
+      "unit_id": null,
+      "question_text_en": "A company raises Rs. 1,00,000 by the issue of 1000, 10% debentures of Rs. 100 each repayable at par after 10 years. If the corporate tax rate is 30%, what is the cost of debt capital to the firm:",
+      "question_text_gu": "એક કંપની રૂા. 100 ના 10% ડિબેંચર લેખે 1000 ડિબેંચર બહાર પાડી રૂા. 1,00,000 ની મૂડી ઉઘરાવે છે. જેનું પુન: પ્રતિદાન, 10 વર્ષ પછી સમમૂલ્ય પર છે. જો કંપની કરનો દર 30% હોય તો, ઋણની લાગત થશે :",
+      "options": {
+        "A": {
+          "text_en": "7%",
+          "text_gu": "7%"
+        },
+        "B": {
+          "text_en": "7.5%",
+          "text_gu": "7.5%"
+        },
+        "C": {
+          "text_en": "9%",
+          "text_gu": "9%"
+        },
+        "D": {
+          "text_en": "10%",
+          "text_gu": "10%"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Financial Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q034",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 34,
+      "unit_id": null,
+      "question_text_en": "Financing current assets involves the following, except:",
+      "question_text_gu": "ચાલુ અસ્કયામતની નાણાં વ્યવસ્થાનું નીચેના સમાવેશ કરે છે, સિવાય કે :",
+      "options": {
+        "A": {
+          "text_en": "Determining the level of current assets",
+          "text_gu": "ચાલુ અસ્કયામતનું ધોરણ નકકી કરવા માટે"
+        },
+        "B": {
+          "text_en": "Evaluating alternative policies of financing",
+          "text_gu": "નાણાં વ્યવસ્થાની વૈકલ્પિક નીતિના મૂલ્યાંકન માટે"
+        },
+        "C": {
+          "text_en": "Determining the level of fixed assets",
+          "text_gu": "સ્થાયી સંપત્તિનું ધોરણ નકકી કરવા માટે"
+        },
+        "D": {
+          "text_en": "Finding an appropriate source with regard to cost and risk",
+          "text_gu": "લાગત અને જોખમના સંદર્ભમાં સમુચિત સ્ત્રોત શોધવા માટે"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Financial Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q035",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 35,
+      "unit_id": null,
+      "question_text_en": "The objective of a good dividend policy is to:",
+      "question_text_gu": "સારી લાભાંશ નીતિનો હેતુ છે :",
+      "options": {
+        "A": {
+          "text_en": "Maximize the value of the firm",
+          "text_gu": "પેઢીના મૂલ્યનું અધિકતમકરણ"
+        },
+        "B": {
+          "text_en": "Minimize the amount to be retained",
+          "text_gu": "પ્રતિધારિત કરવાની રકમને ન્યૂનતમ કરવી"
+        },
+        "C": {
+          "text_en": "Iron out the fluctuations in earnings",
+          "text_gu": "આવકના ફેરફારને બંધ કરવા"
+        },
+        "D": {
+          "text_en": "Prevent transfer of shares",
+          "text_gu": "શેયરની ફેરબદલી રોકવી"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Financial Management"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q036",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 36,
+      "unit_id": null,
+      "question_text_en": "Which of the following does not include under the functions of Human Resource Management ?",
+      "question_text_gu": "માનવ-સંસાધન સંચાલનના કાર્યોમાં નીચે પ્રમાણેના કયા કાર્યોનો સમાવેશ થતો નથી ?",
+      "options": {
+        "A": {
+          "text_en": "Planning",
+          "text_gu": "આયોજન"
+        },
+        "B": {
+          "text_en": "Organising",
+          "text_gu": "સંગઠન"
+        },
+        "C": {
+          "text_en": "Profitability",
+          "text_gu": "નફાકારકતા"
+        },
+        "D": {
+          "text_en": "Recruitment",
+          "text_gu": "ભરતી પ્રક્રિયા"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q037",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 37,
+      "unit_id": null,
+      "question_text_en": "The Basket Training method means:",
+      "question_text_gu": "બાસ્કેટ (Basket) તાલીમનો અર્થ :",
+      "options": {
+        "A": {
+          "text_en": "Development of decision skill",
+          "text_gu": "નિર્ણય ક્ષમતાનો વિકાસ"
+        },
+        "B": {
+          "text_en": "Development of Institute",
+          "text_gu": "સંસ્થાનો વિકાસ"
+        },
+        "C": {
+          "text_en": "Development of resources",
+          "text_gu": "સ્ત્રોતોનો વિકાસ"
+        },
+        "D": {
+          "text_en": "Development of production",
+          "text_gu": "ઉત્પાદનનો વિકાસ"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q038",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 38,
+      "unit_id": null,
+      "question_text_en": "Which is an Incentive Plan?",
+      "question_text_gu": "નીચે જણાવેલમાંથી પ્રેરક યોજનાને ઓળખો :",
+      "options": {
+        "A": {
+          "text_en": "Halsey Plan",
+          "text_gu": "હાલસે યોજના"
+        },
+        "B": {
+          "text_en": "Merrick Plan",
+          "text_gu": "મેરીક યોજના"
+        },
+        "C": {
+          "text_en": "Rowan Plan",
+          "text_gu": "રોવન યોજના"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરના બધા જ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q039",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 39,
+      "unit_id": null,
+      "question_text_en": "Equity theory of work motivation has been developed by:",
+      "question_text_gu": "કાર્ય અભિપ્રેરણાની ક્ષમતા સિદ્ધાંતનો વિકાસ કરનારનું નામ :",
+      "options": {
+        "A": {
+          "text_en": "J.S. Adams",
+          "text_gu": "જે.એસ. આદમ્સ"
+        },
+        "B": {
+          "text_en": "J. Arun Kaul",
+          "text_gu": "જે. અરૂન કોલ"
+        },
+        "C": {
+          "text_en": "Waterman",
+          "text_gu": "વોટરમેન"
+        },
+        "D": {
+          "text_en": "C.K. Prahalad",
+          "text_gu": "સી.કે. પ્રહલાદ"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q040",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 40,
+      "unit_id": null,
+      "question_text_en": "When the Payment of Wages Act (Regulation the deductions from wages) was passed ?",
+      "question_text_gu": "મજૂરી ચૂકવણીનો ધારો (મજૂરી કપાત સંબંધિત નિયમ) ક્યારે પસાર હતો ?",
+      "options": {
+        "A": {
+          "text_en": "1937",
+          "text_gu": "૧૯૩૭"
+        },
+        "B": {
+          "text_en": "1936",
+          "text_gu": "૧૯૩૬"
+        },
+        "C": {
+          "text_en": "1948",
+          "text_gu": "૧૯૪૮"
+        },
+        "D": {
+          "text_en": "1980",
+          "text_gu": "૧૯૮૦"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Business Management and HRM"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q041",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 41,
+      "unit_id": null,
+      "question_text_en": "A merchant bank :",
+      "question_text_gu": "એ મરચન્ટ બેંક :",
+      "options": {
+        "A": {
+          "text_en": "Accepts deposits from public for retail operations",
+          "text_gu": "છૂટક કાર્યો માટે જાહેર જનતા પાસેથી થાપણો લે છે"
+        },
+        "B": {
+          "text_en": "Sells merchandize",
+          "text_gu": "માલ વેચે છે"
+        },
+        "C": {
+          "text_en": "Provides bill discounting facility",
+          "text_gu": "હૂંડી વટાવવાની સવલત આપે છે"
+        },
+        "D": {
+          "text_en": "Provides management services for corporate public capital issues",
+          "text_gu": "કંપનીના જાહેર મૂડી ભરણા માટે સંચાલકીય સેવા આપે છે"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Banking and Financial Institutions"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q042",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 42,
+      "unit_id": null,
+      "question_text_en": "The National Bank for Rural and Agricultural Development :",
+      "question_text_gu": "નાબાર્ડ એ :",
+      "options": {
+        "A": {
+          "text_en": "is an autonomous financial institution",
+          "text_gu": "એક સ્વાયત્ત નાણાંકીય સંસ્થા છે"
+        },
+        "B": {
+          "text_en": "is an institution providing re-finance facility for agricultural credit",
+          "text_gu": "ખેતી ધિરાણ માટે પુનર્વિત્ત આપવાની સંસ્થા છે"
+        },
+        "C": {
+          "text_en": "provides re-finance for micro-finance",
+          "text_gu": "સુક્ષ્મ ધિરાણ માટે પુનર્વિત્ત આપે છે"
+        },
+        "D": {
+          "text_en": "all of the above",
+          "text_gu": "ઉપરોક્ત બધા જ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Banking and Financial Institutions"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q043",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 43,
+      "unit_id": null,
+      "question_text_en": "The capital adequacy norms for Banks according to Basle III cover:",
+      "question_text_gu": "બેઝલ-III પ્રમાણે બેંકો માટે મૂડી પર્યાપ્તતા ધોરણોમાં સમાવેશ થાય છે :",
+      "options": {
+        "A": {
+          "text_en": "Credit risk and default risk",
+          "text_gu": "શાખ જોખમ અને ચૂકવણી કસૂર જોખમ"
+        },
+        "B": {
+          "text_en": "Credit risk, interest rate risk and market risk",
+          "text_gu": "શાખ જોખમ, વ્યાજ દર જોખમ અને બજાર જોખમ"
+        },
+        "C": {
+          "text_en": "Market risk only",
+          "text_gu": "ફક્ત બજાર જોખમ"
+        },
+        "D": {
+          "text_en": "Interest rate risk only",
+          "text_gu": "ફક્ત વ્યાજ દરનું જોખમ"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Banking and Financial Institutions"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q044",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 44,
+      "unit_id": null,
+      "question_text_en": "Which instrument is used most often by the Reserve Bank of India to control liquidity in the short-run ?",
+      "question_text_gu": "ટૂંકા ગાળામાં પ્રવાહિતા નિયંત્રણ કરવા માટે રીઝર્વ બેંક ઓફ ઈન્ડિયા કયા સાધનોનો સૌથી વધારે ઉપયોગ કરે છે ?",
+      "options": {
+        "A": {
+          "text_en": "Interest Rate",
+          "text_gu": "વ્યાજ દર"
+        },
+        "B": {
+          "text_en": "Base Rate",
+          "text_gu": "આધારભૂત દર"
+        },
+        "C": {
+          "text_en": "Repo Rate",
+          "text_gu": "રેપો દર"
+        },
+        "D": {
+          "text_en": "Bank Rate",
+          "text_gu": "(મૂળ પ્રશ્નપત્રમાં વિકલ્પ D છપાયેલ નથી)"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Banking and Financial Institutions"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q045",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 45,
+      "unit_id": null,
+      "question_text_en": "The Industrial Finance Corporation of India was set up to:",
+      "question_text_gu": "IFCI ની સ્થાપના કરવામાં આવેલ છે :",
+      "options": {
+        "A": {
+          "text_en": "provide finance to small scale industries",
+          "text_gu": "નાના પાયા પરના ઉદ્યોગોને નાણાં પૂરા પાડવા"
+        },
+        "B": {
+          "text_en": "provide medium and long-term finance to large industries",
+          "text_gu": "મોટા પાયા પરના ઉદ્યોગોને મધ્યમ અને લાંબા ગાળાનાં નાણાં પૂરા પાડવા"
+        },
+        "C": {
+          "text_en": "provide short-term finance to large scale industries",
+          "text_gu": "મોટા પાયા પરના ઉદ્યોગોને ટૂંકા ગાળાનાં નાણાં પૂરાં પાડવા"
+        },
+        "D": {
+          "text_en": "provide long-term finance to small scale industries",
+          "text_gu": "નાના પાયા પરના ઉદ્યોગોને લાંબા ગાળાનાં નાણાં પૂરા પાડવા"
+        }
+      },
+      "correct_option": "B",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "Banking and Financial Institutions"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q046",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 46,
+      "unit_id": null,
+      "question_text_en": "Expansion of International Business leads to :",
+      "question_text_gu": "આંતરરાષ્ટ્રીય ધંધાનું વિસ્તરણ દોરી જાય છે :",
+      "options": {
+        "A": {
+          "text_en": "Reduction in risk",
+          "text_gu": "જોખમમાં ઘટાડો"
+        },
+        "B": {
+          "text_en": "Expansion of market",
+          "text_gu": "બજારનું વિસ્તરણ"
+        },
+        "C": {
+          "text_en": "Optimum utilization of world resources",
+          "text_gu": "વૈશ્વિક સંસાધનોનો મહત્તમ ઉપયોગ"
+        },
+        "D": {
+          "text_en": "All of the above",
+          "text_gu": "ઉપરોકત બધા જ"
+        }
+      },
+      "correct_option": "D",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "International Business"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q047",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 47,
+      "unit_id": null,
+      "question_text_en": "International liquidity is composed of:",
+      "question_text_gu": "આંતરરાષ્ટ્રીય પ્રવાહિતામાં સમાવેશ થાય છે :",
+      "options": {
+        "A": {
+          "text_en": "Foreign currency reserves and gold reserves",
+          "text_gu": "વિદેશી ચલણ અનામતો અને સોનાની અનામતો"
+        },
+        "B": {
+          "text_en": "Gold held by public",
+          "text_gu": "જનતા પાસેનું સોનું"
+        },
+        "C": {
+          "text_en": "Gold and foreign currency with banks",
+          "text_gu": "બેંકો પાસેનું સોનું અને વિદેશી ચલણ"
+        },
+        "D": {
+          "text_en": "Foreign currency with public",
+          "text_gu": "જનતા પાસે વિદેશી ચલણ"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "International Business"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q048",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 48,
+      "unit_id": null,
+      "question_text_en": "One of the objectives of the International Monetary Fund is:",
+      "question_text_gu": "આંતરરાષ્ટ્રીય નાણાં ભંડોળનો એક ઉદ્દેશ છે :",
+      "options": {
+        "A": {
+          "text_en": "To encourage devaluation of currencies",
+          "text_gu": "ચલણોના અવમૂલ્યનને પ્રોત્સાહન"
+        },
+        "B": {
+          "text_en": "To encourage upvaluation of currencies",
+          "text_gu": "ચલણોના ઊર્ધ્વ મૂલ્યાંકનને પ્રોત્સાહન"
+        },
+        "C": {
+          "text_en": "To discourage competitive devaluation of currencies",
+          "text_gu": "ચલણોના સ્પર્ધાત્મક અવમૂલ્યનને અવરોધવા"
+        },
+        "D": {
+          "text_en": "None of the above",
+          "text_gu": "ઉપરોક્ત એક પણ નહીં"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "International Business"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q049",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 49,
+      "unit_id": null,
+      "question_text_en": "Dumping in the international markets means :",
+      "question_text_gu": "આંતરરાષ્ટ્રીય બજારમાં ડમ્પીંગ (Dumping) નો અર્થ :",
+      "options": {
+        "A": {
+          "text_en": "Selling in Bulk",
+          "text_gu": "જથ્થામાં વેચાણ"
+        },
+        "B": {
+          "text_en": "Selling at a high price",
+          "text_gu": "ઊંચી કિંમતે વેચાણ"
+        },
+        "C": {
+          "text_en": "Selling in bulk below cost price or domestic price",
+          "text_gu": "સ્વદેશી બજાર કિંમત અને પડતર કિંમતથી નીચે જથ્થામાં વેચાણ"
+        },
+        "D": {
+          "text_en": "Selling all over the world",
+          "text_gu": "આખા વિશ્વમાં વેચાણ"
+        }
+      },
+      "correct_option": "C",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "International Business"
+    },
+    {
+      "question_id": "GSET_2011_10_P2_Q050",
+      "exam_id": "GSET_2011_10",
+      "session_label": "16 October 2011",
+      "exam_date": "2011-10-16",
+      "subject_code": "17",
+      "subject_name": "Commerce",
+      "paper": "Paper-II",
+      "question_number": 50,
+      "unit_id": null,
+      "question_text_en": "Regulation of foreign trade is an indicator of:",
+      "question_text_gu": "વિદેશી વ્યાપારનું નિયમન સૂચિત કરે છે :",
+      "options": {
+        "A": {
+          "text_en": "Inward looking policy",
+          "text_gu": "આંત્રમુખી નીતિ"
+        },
+        "B": {
+          "text_en": "Encouragement of trade",
+          "text_gu": "વેપારનું પ્રોત્સાહન"
+        },
+        "C": {
+          "text_en": "Discouraging domestic production",
+          "text_gu": "સ્વદેશી ઉત્પાદનનું અવરોધક"
+        },
+        "D": {
+          "text_en": "Imposing taxes on domestic production",
+          "text_gu": "સ્વદેશી ઉત્પાદન ઉપર કરવેરાનું ભારણ"
+        }
+      },
+      "correct_option": "A",
+      "is_dropped_z": false,
+      "marks": 2,
+      "negative_marks": 0,
+      "has_table_or_diagram": null,
+      "source_question_pdf": "oct1117 (1).pdf",
+      "source_answer_key_pdf": "oct1117.pdf",
+      "answer_verification_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_extraction_status": "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON",
+      "needs_human_review": true,
+      "review_reason": "Bilingual transcription supplied by user; compare stem and all options against the official scanned question booklet before publication. Syllabus label also requires mapping against official syllabus.",
+      "uploaded_syllabus_label": "International Business"
+    }
+  ]
+}
