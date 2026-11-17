@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "subject": "Commerce",
+  "subject_code": "17",
+  "branch": "staging/commerce-code17-answer-keys",
+  "audit_type": "answer_key_dataset_integrity",
+  "result": "STRUCTURE_PASS_WITH_SPECIAL_Z_MARKERS_REQUIRING_SEMANTIC_REVIEW",
+  "summary": {
+    "files": 13,
+    "total_answer_entries": 1000,
+    "expected_answer_entries": 1000,
+    "all_question_numbers_contiguous": true,
+    "all_symbols_within_A_B_C_D_Z": true,
+    "z_marker_count": 5,
+    "z_markers_need_schema_and_app_renderer_review": true
+  },
+  "interpretation": "The earlier simplistic validation that treated every question number above 50 as invalid was incorrect: six modern sessions contain 100 questions (1-100). Z is present as a literal answer marker in five records; it has not been normalized or changed because its intended dropped-question semantics and app handling must be confirmed from the official key and app schema.",
+  "files": [
+    {
+      "file": "aug17_paper2.json",
+      "exam": "27 August 2017",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "dec19_paper2.json",
+      "exam": "29 December 2019",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "z_marker_questions": [
+        86
+      ],
+      "verified_answers_count": 100,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "dec21_paper2.json",
+      "exam": "23 January 2022 (Dec 2021 Cycle)",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 100,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "dec24_paper2.json",
+      "exam": "December 2024",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "z_marker_questions": [
+        78
+      ],
+      "verified_answers_count": null,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "nov22_paper2.json",
+      "exam": "November 2022",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "z_marker_questions": [
+        43
+      ],
+      "verified_answers_count": null,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "nov23_paper2.json",
+      "exam": "November 2023",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": null,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "nov25_paper2.json",
+      "exam": "November 2025",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "z_marker_questions": [
+        99
+      ],
+      "verified_answers_count": null,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "oct10_paper2.json",
+      "exam": "24 October 2010",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "oct11_paper2.json",
+      "exam": "16 October 2011",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "oct14_paper2.json",
+      "exam": "19 October 2014",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "sept13_paper2.json",
+      "exam": "22 September 2013",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "sept16_paper2.json",
+      "exam": "25 September 2016",
+      "answer_count": 50,
+      "first_question": 1,
+      "last_question": 50,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "z_marker_questions": [
+        13
+      ],
+      "verified_answers_count": 50,
+      "source_verified": true,
+      "answer_key_verified": true
+    },
+    {
+      "file": "sept18_paper2.json",
+      "exam": "30 September 2018",
+      "answer_count": 100,
+      "first_question": 1,
+      "last_question": 100,
+      "question_numbers_contiguous": true,
+      "answer_symbols": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "z_marker_questions": [],
+      "verified_answers_count": 100,
+      "source_verified": true,
+      "answer_key_verified": true
+    }
+  ],
+  "required_follow_up": [
+    "Confirm the official meaning of each Z marker from the corresponding official final key (do not replace with A-D).",
+    "Inspect the Android question model and UI renderer to ensure Z/dropped questions are represented correctly.",
+    "After old answer-key scans are retrieved, transcribe and cross-check all 300 pending choices.",
+    "Run branch CI and combined APK validation; neither is claimed by this audit."
+  ]
+}
