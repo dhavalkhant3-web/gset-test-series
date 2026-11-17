@@ -1,0 +1,63 @@
+{
+  "subject": "Commerce",
+  "subject_code": "17",
+  "paper": "Paper-II",
+  "exam": "16 October 2011",
+  "exam_id": "GSET_2011_10",
+  "source_question_paper": "https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1117.pdf",
+  "source_final_answer_key": "https://www.gujaratset.ac.in/assets/anskey/paperII/oct11/oct1117.pdf",
+  "transcription": {
+    "records_received": 50,
+    "english_stems_present": 50,
+    "gujarati_stems_present": 50,
+    "english_option_sets_present": 50,
+    "gujarati_option_sets_present": 50,
+    "source_comparison": "PENDING",
+    "publication_status": "NOT_READY"
+  },
+  "answer_key": {
+    "verified_against_official_final_key": 50,
+    "pending": 0,
+    "corrections_applied_vs_user_supplied_transcription": 27,
+    "conflicts_remaining": 0
+  },
+  "syllabus_mapping": {
+    "provisional_labels_received": 50,
+    "official_unit_ids_validated": 0,
+    "status": "PENDING_OFFICIAL_SYLLABUS_REVIEW"
+  },
+  "review_flags": [
+    {
+      "question_no": 44,
+      "issue": "English option D is recorded as 'Bank Rate'; Gujarati option D explicitly notes that option D is not printed in the original question paper.",
+      "required_action": "Preserve this source discrepancy and compare the original scanned page before publication; do not silently normalize."
+    }
+  ],
+  "source_verification": {
+    "question_booklet_download_or_visual_review": "BLOCKED",
+    "reason": "The official GSET PDF endpoint was opened but page rendering timed out; connected Firecrawl request was not run because its credit allowance was exhausted.",
+    "verified_claims": [
+      "The uploaded JSON contains 50 bilingual question stems and 50 bilingual option sets.",
+      "The official final answer key contains 50 verified choices."
+    ],
+    "unverified_claims": [
+      "Exact line-by-line match of all question stems and options against the official question booklet.",
+      "Official syllabus unit mapping."
+    ]
+  },
+  "integration": {
+    "staging_branch": "staging/commerce-code17-answer-keys",
+    "canonical_questions_json_uploaded": false,
+    "app_ready": false,
+    "pr_created": false,
+    "merged": false
+  },
+  "next_actions": [
+    "Complete visual comparison of all 50 bilingual questions against the official scanned booklet.",
+    "Preserve Q44's printed-option discrepancy in the canonical record.",
+    "Validate all 50 syllabus mappings against the official Commerce syllabus and populate unit_id only when supported.",
+    "Integrate verified records into the canonical questions.json schema.",
+    "Continue retrieving and verifying the 300 pending answer-key entries from official final keys only.",
+    "Run schema validation, subject manifest audit, CI, and combined APK validation after content completion."
+  ]
+}
