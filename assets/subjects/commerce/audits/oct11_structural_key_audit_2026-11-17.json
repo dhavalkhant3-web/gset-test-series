@@ -1,0 +1,34 @@
+{
+  "subject": "Commerce",
+  "subject_code": "17",
+  "paper": "Paper-II",
+  "session": "October 2011",
+  "source_file": "GSET_Commerce_Paper2_Oct2011.json",
+  "audit_scope": "Structural validation of user-supplied bilingual transcription plus comparison of correct_option values against the separately recorded official GSET final answer-key audit. Not a visual comparison with the original scanned question booklet.",
+  "results": {
+    "question_records": 50,
+    "question_numbers_unique_and_complete": true,
+    "english_stems_present": 50,
+    "gujarati_stems_present": 50,
+    "english_option_sets_complete": 50,
+    "gujarati_option_sets_complete": 50,
+    "correct_option_matches_official_key": 50,
+    "official_answer_key_choices_recorded": 50,
+    "structural_errors": [],
+    "answer_key_mismatches": [],
+    "same_english_gujarati_option_text_count": 20
+  },
+  "specific_review": {
+    "Q44": "Gujarati option D states it is not printed in the original paper while English option D is 'Bank Rate'. Preserve as unresolved source discrepancy until original booklet page is visually inspected."
+  },
+  "source_comparison": {
+    "original_question_paper_pdf_bytes_available": false,
+    "visual_pages_compared": 0,
+    "status": "BLOCKED_PENDING_ORIGINAL_PDF_OR_PAGE_IMAGES"
+  },
+  "publication_status": "NOT_READY_FOR_PRODUCTION",
+  "next_actions": [
+    "Obtain original official oct1117 question booklet PDF/page images and visually compare all 50 stems/options, including Q44.",
+    "Retrieve six legacy official answer-key PDFs and transcribe/reconcile 300 choices."
+  ]
+}
