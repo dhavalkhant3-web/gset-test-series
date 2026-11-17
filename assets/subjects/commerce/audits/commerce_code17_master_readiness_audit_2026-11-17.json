@@ -1,0 +1,215 @@
+{
+  "subject": "Commerce",
+  "subject_code": "17",
+  "audit_date": "2026-11-17",
+  "branch": "staging/commerce-code17-answer-keys",
+  "local_master": {
+    "file": "gset_commerce_17_master_oct2011_final_checked.json",
+    "bytes_approx": 1780000,
+    "schema": "GSET_Android_Test_Series_Question_Bank v2.0.0",
+    "sessions": 19,
+    "question_slots": 1300,
+    "production_bank_synced": false
+  },
+  "verified_counts": {
+    "official_answers": 1000,
+    "official_answers_status_breakdown": {
+      "VERIFIED_OFFICIAL_KEY": 950,
+      "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 50
+    },
+    "october_2011_bilingual_question_stems": 50,
+    "october_2011_bilingual_options": 200
+  },
+  "pending_counts": {
+    "official_answer_key_ocr_or_missing": 300,
+    "question_stems_english_missing_or_pending": 1250,
+    "question_stems_gujarati_missing_or_pending": 1250,
+    "records_with_all_four_english_options_missing_or_incomplete": 1250,
+    "records_with_all_four_gujarati_options_missing_or_incomplete": 1250,
+    "syllabus_unit_mappings_missing": 1300
+  },
+  "answer_status_breakdown": {
+    "PENDING_ANSWER_KEY_OCR": 250,
+    "MISSING_OFFICIAL_KEY_PDF": 50
+  },
+  "question_extraction_status_breakdown": {
+    "PENDING_OCR_FROM_OFFICIAL_PDF": 1250,
+    "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON": 49,
+    "BILINGUAL_BOOKLET_CHECKED_Q44": 1
+  },
+  "session_audit": [
+    {
+      "exam_id": "GSET_2002_01",
+      "session": "January 2002",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2002_12",
+      "session": "December 2002",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2003_12",
+      "session": "December 2003",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2004_07",
+      "session": "July 2004",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2006_07",
+      "session": "July 2006",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2008_12",
+      "session": "December 2008",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 0
+    },
+    {
+      "exam_id": "GSET_2010_10",
+      "session": "October 2010",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2011_10",
+      "session": "October 2011",
+      "slots": 50,
+      "english_stems": 50,
+      "gujarati_stems": 50,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2013_09",
+      "session": "September 2013",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2014_10",
+      "session": "October 2014",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2016_09",
+      "session": "September 2016",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2017_08",
+      "session": "August 2017",
+      "slots": 50,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 50
+    },
+    {
+      "exam_id": "GSET_2018_09",
+      "session": "September 2018",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2019_12",
+      "session": "December 2019",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2021_12",
+      "session": "December 2021 cycle",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2022_11",
+      "session": "November 2022",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2023_11",
+      "session": "November 2023",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2024_12",
+      "session": "December 2024",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    },
+    {
+      "exam_id": "GSET_2025_11",
+      "session": "November 2025",
+      "slots": 100,
+      "english_stems": 0,
+      "gujarati_stems": 0,
+      "answers": 100
+    }
+  ],
+  "critical_finding": "The local master is an archive skeleton for most sessions, not a publishable question bank. 1,250 records have no question text/options populated; 300 answer records are pending OCR or missing official key; no question has a syllabus unit assigned.",
+  "next_execution_order": [
+    "Obtain/verify official source PDFs and final answer keys for the 2002-2008 sessions and fill answer-key gaps without inference.",
+    "OCR and human-verify bilingual question text/options session by session from official booklets.",
+    "Reconcile 300 pending/missing answer slots to official final keys.",
+    "Map syllabus units only after question text is source-verified.",
+    "Create production questions.json in the app's expected schema after data validation.",
+    "Run Flutter analyze, tests, debug build and Combined APK validation."
+  ],
+  "app_integration": {
+    "loader_contract": "assets/subjects/<subject_id>/questions.json and papers.json",
+    "generic_loader_found": true,
+    "production_bank_exists": false,
+    "flutter_build_tested": false
+  },
+  "safeguards": {
+    "main_modified": false,
+    "pr_created": false,
+    "merged": false,
+    "no_answers_or_questions_fabricated": true
+  }
+}
