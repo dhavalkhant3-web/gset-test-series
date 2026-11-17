@@ -49,14 +49,17 @@
   ],
   "source_verification": {
     "question_booklet_download_or_visual_review": "BLOCKED",
-    "reason": "The official GSET PDF endpoint was opened but page rendering timed out; connected Firecrawl request was not run because its credit allowance was exhausted.",
+    "reason": "Official GSET PDF endpoint timed out in web retrieval. NDLI catalogue metadata confirms an open Gujarati-English PDF record and ExamsRepo confirms the 20-page paper exists, but neither page-image pixels nor PDF bytes were retrievable in this session. Firecrawl request was refused due exhausted connected-app credits.",
     "verified_claims": [
       "The uploaded JSON contains 50 bilingual question stems and 50 bilingual option sets.",
-      "The official final answer key contains 50 verified choices."
+      "The official final answer key contains 50 verified choices.",
+      "NDLI catalog lists the October 2011 Commerce Paper-II as an open Gujarati-English PDF provided by GSET.",
+      "ExamsRepo archive catalog lists the 16 October 2011 Commerce Paper-II (oct1117), bilingual, 20 pages, with a one-page answer-key scan."
     ],
     "unverified_claims": [
       "Exact line-by-line match of all question stems and options against the official question booklet.",
-      "Official syllabus unit mapping."
+      "Official syllabus unit mapping.",
+      "Question-by-question visual match of the 50 supplied bilingual records against the original 20-page booklet."
     ]
   },
   "integration": {
@@ -69,9 +72,9 @@
     "canonical_staging_draft_path": "staging_questions/oct11_paper2_canonical_staging_draft.json"
   },
   "next_actions": [
-    "Retrieve the answer-key tab image from each archive page; transcribe its 50 choices and compare against the GSET official final-key PDF before inserting.",
-    "Complete October 2011 source-page visual comparison; the draft has passed structural validation only.",
-    "After content verification, populate the canonical production questions.json and run CI plus the combined APK build."
+    "Obtain the original oct1117 PDF bytes or page images, then compare all 50 bilingual stems and A-D options line-by-line; explicitly inspect Q44's printed-option discrepancy.",
+    "Retrieve all six old answer-key PDF scans and transcribe 50 choices per paper; reconcile every choice against the official GSET final key.",
+    "After source verification, update production JSON only for verified records and run CI plus combined APK validation."
   ],
   "legacy_answer_key_discovery": {
     "status": "ALL_SIX_ARCHIVE_PAGES_CONFIRMED_TO_INCLUDE_ONE_PAGE_ANSWER_KEY_IMAGE",
@@ -138,10 +141,22 @@
   "official_question_paper_discovery": {
     "official_pdf": "https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1117.pdf",
     "archive_reference": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2011/paper-ii-commerce",
-    "archive_page_reports": "20-page bilingual question paper and a one-page answer-key scan; source attributed to Maharaja Sayajirao University of Baroda",
+    "archive_page_reports": "ExamsRepo catalogue page identifies 16 October 2011, Paper II Commerce, code oct1117, bilingual, 20 pages, plus a one-page answer-key scan; source attribution is Maharaja Sayajirao University of Baroda.",
     "page_images_retrieved": false,
     "line_by_line_comparison_completed": 0,
-    "status": "SOURCE_PAGE_DISCOVERED_BUT_PAGE_IMAGES_NOT_RETRIEVED_FOR_COMPARISON"
+    "status": "OFFICIAL_PAPER_CATALOGUED_20_PAGES_BUT_IMAGE_BYTES_UNAVAILABLE_FOR_TRANSCRIPTION_COMPARISON",
+    "archive_page": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2011/paper-ii-commerce",
+    "ndli_catalogue_record": "https://ndl.iitkgp.ac.in/cd_document/gjset/gjset/oct1117_pdf",
+    "ndli_metadata": {
+      "provider": "Gujarat State Eligibility Test",
+      "file_format": "PDF",
+      "language": "Gujarati English",
+      "access_restriction": "Open",
+      "resource_type": "Question Paper",
+      "year": 2011
+    },
+    "archive_metadata_verified": true,
+    "visual_page_content_retrieved": false
   },
   "validation_checks": {
     "json_parse": "PASS",
