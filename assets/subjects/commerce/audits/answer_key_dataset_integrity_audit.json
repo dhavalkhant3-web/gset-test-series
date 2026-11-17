@@ -12,9 +12,10 @@
     "all_question_numbers_contiguous": true,
     "all_symbols_within_A_B_C_D_Z": true,
     "z_marker_count": 5,
-    "z_markers_need_schema_and_app_renderer_review": true
+    "z_markers_need_schema_and_app_renderer_review": true,
+    "z_marker_app_handling": "CONFIRMED_SUPPORTED_IN_MAIN_LIB_MAIN_DART"
   },
-  "interpretation": "The earlier simplistic validation that treated every question number above 50 as invalid was incorrect: six modern sessions contain 100 questions (1-100). Z is present as a literal answer marker in five records; it has not been normalized or changed because its intended dropped-question semantics and app handling must be confirmed from the official key and app schema.",
+  "interpretation": "All 13 answer-key files contain contiguous question-number sequences and total 1,000 answer entries. 50-question legacy sessions and 100-question modern sessions are both structurally valid. Five Z markers appear across the data. Main-branch app code explicitly treats Z and X as not-evaluated answers (excludes them from scoring and denominator), so Z is a supported marker and must remain unchanged pending final source confirmation. The earlier simplistic validator that treated every question number above 50 as invalid was incorrect.",
   "files": [
     {
       "file": "aug17_paper2.json",
@@ -271,5 +272,22 @@
     "Inspect the Android question model and UI renderer to ensure Z/dropped questions are represented correctly.",
     "After old answer-key scans are retrieved, transcribe and cross-check all 300 pending choices.",
     "Run branch CI and combined APK validation; neither is claimed by this audit."
-  ]
+  ],
+  "app_schema_review": {
+    "file": "lib/main.dart",
+    "branch": "main",
+    "confirmed_behaviors": [
+      "Z and X are excluded from score calculation",
+      "Z and X are excluded from evaluated-question denominator",
+      "question UI marks Z/X as not evaluated"
+    ],
+    "lines": [
+      1709,
+      1730,
+      1771,
+      1804,
+      2182
+    ],
+    "result": "SUPPORTED_NO_APP_CODE_CHANGE_REQUIRED_FOR_Z_MARKER"
+  }
 }
