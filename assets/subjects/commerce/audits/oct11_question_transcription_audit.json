@@ -50,13 +50,15 @@
     "canonical_questions_json_uploaded": false,
     "app_ready": false,
     "pr_created": false,
-    "merged": false
+    "merged": false,
+    "canonical_staging_draft_uploaded": true,
+    "canonical_staging_draft_path": "staging_questions/oct11_paper2_canonical_staging_draft.json"
   },
   "next_actions": [
     "Complete visual comparison of all 50 bilingual questions against the official scanned booklet.",
     "Preserve Q44's printed-option discrepancy in the canonical record.",
     "Validate all 50 syllabus mappings against the official Commerce syllabus and populate unit_id only when supported.",
-    "Integrate verified records into the canonical questions.json schema.",
+    "Promote the staging draft into canonical questions.json only after source verification.",
     "Continue retrieving and verifying the 300 pending answer-key entries from official final keys only.",
     "Run schema validation, subject manifest audit, CI, and combined APK validation after content completion."
   ]
