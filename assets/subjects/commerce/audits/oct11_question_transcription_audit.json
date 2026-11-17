@@ -23,8 +23,11 @@
   },
   "syllabus_mapping": {
     "provisional_labels_received": 50,
-    "official_unit_ids_assigned_in_staging": 50,
-    "unit_assignment_status": "STAGING_MAPPED_TO_GSET_COMMERCE_CODE17_UNIT_HEADINGS_PENDING_FINAL_QUESTION_SOURCE_REVIEW",
+    "official_syllabus_reference": "https://www.gujaratset.ac.in/assets/syllabus/17.pdf",
+    "official_units_in_reference": 10,
+    "assigned_staging_unit_ids": 50,
+    "mapping_basis": "Each supplied topic label was matched to the official Commerce Code 17 unit heading: Business Environment and International Business→UNIT_01; Accounting and Auditing→UNIT_02; Business Economics→UNIT_03; Financial Management→UNIT_04 (Business Finance); Business Statistics and Research Methods→UNIT_05; Business Management and HRM→UNIT_06; Banking and Financial Institutions→UNIT_07; Marketing Management→UNIT_08; International Business→UNIT_01.",
+    "final_mapping_status": "STAGING_MAPPED_PENDING_QUESTION_BY_QUESTION_REVIEW",
     "unit_distribution": {
       "UNIT_01": 10,
       "UNIT_02": 5,
@@ -35,7 +38,7 @@
       "UNIT_07": 5,
       "UNIT_08": 5
     },
-    "note": "Question topics and supplied labels were mapped to the matching GSET Commerce syllabus unit headings. This staging assignment is not a final publication sign-off; retain human review until the official question booklet comparison is completed."
+    "note": "Units 9 and 10 are present in the official syllabus but are not represented by the supplied topic labels for these 50 questions. No question was forced into Units 9 or 10."
   },
   "review_flags": [
     {
@@ -66,10 +69,57 @@
     "canonical_staging_draft_path": "staging_questions/oct11_paper2_canonical_staging_draft.json"
   },
   "next_actions": [
-    "Complete visual comparison of all 50 bilingual questions against the official scanned booklet.",
-    "Preserve Q44's printed-option discrepancy in the canonical record.",
-    "Promote the verified staging records into canonical questions.json only after source verification.",
-    "Continue retrieving and verifying the 300 pending answer-key entries from official final keys only.",
-    "Run schema validation, subject manifest audit, CI, and combined APK validation after content completion."
-  ]
+    "Retrieve the one-page answer-key scans from the six candidate archive pages and cross-check each scan against GSET's official final answer key before transcribing any option.",
+    "Complete visual comparison of all 50 October 2011 bilingual questions against the official scanned booklet.",
+    "Promote the October 2011 staging records into canonical questions.json only after source verification.",
+    "After content completion, run schema validation, subject manifest audit, CI, and combined APK validation."
+  ],
+  "legacy_answer_key_discovery": {
+    "status": "SIX_CANDIDATE_MIRROR_PAGES_FOUND",
+    "rule": "These pages show a one-page Answer Key image and identify Maharaja Sayajirao University of Baroda as the source/publisher. The images were not retrieved or transcribed in this pass; no answer is counted as verified and none is inserted into the app dataset.",
+    "records": [
+      {
+        "paper_id": "commerce_2002_01",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/january-2002-paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      },
+      {
+        "paper_id": "commerce_2002_12",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/december-2002-paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      },
+      {
+        "paper_id": "commerce_2003_12",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2003/paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      },
+      {
+        "paper_id": "commerce_2004_07",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2004/paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      },
+      {
+        "paper_id": "commerce_2006_07",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2006/paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      },
+      {
+        "paper_id": "commerce_2008_12",
+        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2008/paper-ii-commerce",
+        "answer_key_scan_reported": true,
+        "transcribed": false,
+        "verified_official_final_key": false
+      }
+    ]
+  }
 }
