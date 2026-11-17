@@ -17,8 +17,8 @@
       "VERIFIED_OFFICIAL_KEY": 950,
       "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 50
     },
-    "october_2011_bilingual_question_stems": 50,
-    "october_2011_bilingual_options": 200
+    "october_2011_bilingual_question_stems": 1,
+    "october_2011_bilingual_options": 4
   },
   "pending_counts": {
     "official_answer_key_ocr_or_missing": 300,
@@ -26,7 +26,8 @@
     "question_stems_gujarati_missing_or_pending": 1250,
     "records_with_all_four_english_options_missing_or_incomplete": 1250,
     "records_with_all_four_gujarati_options_missing_or_incomplete": 1250,
-    "syllabus_unit_mappings_missing": 1300
+    "syllabus_unit_mappings_missing": 1300,
+    "october_2011_bilingual_question_records": 49
   },
   "answer_status_breakdown": {
     "PENDING_ANSWER_KEY_OCR": 250,
@@ -191,7 +192,7 @@
       "answers": 100
     }
   ],
-  "critical_finding": "The local master is an archive skeleton for most sessions, not a publishable question bank. 1,250 records have no question text/options populated; 300 answer records are pending OCR or missing official key; no question has a syllabus unit assigned.",
+  "critical_finding": "The local master is an archive skeleton for most sessions, not a publishable question bank. 1,250 records have no question text/options populated; for October 2011, only Q44 has been manually source-compared while 49 draft records remain pending; 300 answer records are pending OCR or missing official key; no question has a syllabus unit assigned.",
   "next_execution_order": [
     "Obtain/verify official source PDFs and final answer keys for the 2002-2008 sessions and fill answer-key gaps without inference.",
     "OCR and human-verify bilingual question text/options session by session from official booklets.",
