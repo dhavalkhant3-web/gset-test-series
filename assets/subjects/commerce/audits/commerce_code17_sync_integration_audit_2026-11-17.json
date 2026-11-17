@@ -13,9 +13,9 @@
     "source_booklet": "oct1117 (1).pdf",
     "source_booklet_status": "UPLOADED: original 20-page bilingual booklet; question pages 3-18",
     "question_records_in_local_master": 50,
-    "bilingual_stems_visually_signed_off": 50,
-    "bilingual_options_visually_signed_off": 200,
-    "official_answer_key": "50/50 previously verified; unchanged",
+    "bilingual_stems_visually_signed_off": 1,
+    "bilingual_options_visually_signed_off": 4,
+    "official_answer_key": "50/50 previously verified; unchanged; answer-key verification is separate from booklet transcription",
     "q44": {
       "status": "VISUALLY_VERIFIED",
       "printed_page": 17,
@@ -23,8 +23,10 @@
       "option_D_gu": "બેંક દર",
       "correct_option": "C"
     },
-    "q1_q43_q45_q50": "VISUAL BILINGUAL SIGN-OFF COMPLETE: English/Gujarati stems and all four options compared against the original booklet for every question.",
-    "pending": 0
+    "q1_q43_q45_q50": "NOT VERIFIED: draft transcription exists, but no line-by-line source comparison evidence is recorded.",
+    "verified_question_count": 1,
+    "pending_question_count": 49,
+    "pending": 49
   },
   "app_integration": {
     "production_question_bank_path": "NOT_FOUND",
@@ -40,5 +42,6 @@
     "main_modified": false,
     "pr_created": false,
     "merged": false
-  }
+  },
+  "correction_note": "Corrected on 2026-11-17: an earlier audit incorrectly claimed 50/50 bilingual visual verification. The local Master extraction statuses show 49 USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON and 1 BILINGUAL_BOOKLET_CHECKED_Q44. The 50/50 claim has been withdrawn."
 }
