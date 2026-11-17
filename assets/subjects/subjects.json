@@ -245,13 +245,14 @@
       "source_verified": false,
       "papers_loaded": 0,
       "questions_loaded": 0,
-      "data_status": "Master archive has 1,300 slots across 19 sessions, but it is NOT production-ready: 1,250 records still lack bilingual question text/options; 300 answer slots are pending OCR or missing official key; all 1,300 syllabus mappings are unassigned. October 2011 alone is source-verified for bilingual transcription (50/50) and official answers (50/50).",
+      "data_status": "Master archive has 1,300 slots across 19 sessions, but it is NOT production-ready: 1,250 records lack bilingual question text/options; 300 answer slots are pending OCR or missing official key; all 1,300 syllabus mappings are unassigned. October 2011 official answers are verified 50/50, but bilingual booklet comparison is verified for Q44 only (1/50); 49 remain pending.",
       "staged_master_sessions": 19,
       "staged_master_question_records": 1300,
-      "october_2011_bilingual_visual_verified": 50,
+      "october_2011_bilingual_visual_verified": 1,
       "october_2011_official_key_verified": 50,
       "production_bank_synced": false,
-      "master_readiness_audit": "commerce/audits/commerce_code17_master_readiness_audit_2026-11-17.json"
+      "master_readiness_audit": "commerce/audits/commerce_code17_master_readiness_audit_2026-11-17.json",
+      "october_2011_bilingual_visual_pending": 49
     },
     {
       "code": "18",
