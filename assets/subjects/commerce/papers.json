@@ -9,7 +9,7 @@
     "marks": 200,
     "duration_minutes": 120
   },
-  "source_policy": "Official GSET question papers and official final answer keys only. Question-booklet transcription and answer-key verification are tracked separately. October 2011 bilingual booklet comparison is complete for all 50 questions.",
+  "source_policy": "Official GSET question papers and official final answer keys only. Question-booklet transcription and answer-key verification are tracked separately. October 2011 bilingual booklet comparison is manually verified for Q44 only; Q1-Q43 and Q45-Q50 remain pending.",
   "papers": [
     {
       "paper_id": "commerce_2002_01",
@@ -198,21 +198,23 @@
       "answer_key_verified": true,
       "verified_answers_count": 50,
       "pending_answer_count": 0,
-      "question_source_verified": true,
-      "source_verified": true,
-      "status": "bilingual_question_booklet_visually_verified_50_of_50_official_answer_key_verified_50_of_50",
+      "question_source_verified": false,
+      "source_verified": false,
+      "status": "official_answer_key_verified_bilingual_booklet_check_1_of_50",
       "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY_50_OF_50",
       "question_transcription_received_count": 50,
-      "question_transcription_status": "50 bilingual records visually compared against original 20-page booklet; Q1-Q50 English/Gujarati stems and four options signed off; Q44 option D is Bank Rate / બેંક દર",
+      "question_transcription_status": "50 bilingual records exist in the draft; only Q44 has been manually compared against the original booklet. Q1-Q43 and Q45-Q50 remain pending source comparison.",
       "question_transcription_audit": "audits/oct2011_bilingual_source_verification.json",
       "canonical_staging_draft": "staging_questions/oct11_paper2_canonical_staging_draft.json",
-      "review_flags": [],
+      "review_flags": [
+        "Q1-Q43 and Q45-Q50 require line-by-line English/Gujarati stem and four-option comparison against original booklet."
+      ],
       "question_source_received": true,
       "question_source_file": "oct1117 (1).pdf",
       "question_source_pages": "20-page bilingual booklet; question pages 3-18",
-      "question_transcription_verified_count": 50,
-      "question_transcription_pending_count": 0,
-      "question_source_verification_note": "Original user-uploaded 20-page bilingual booklet oct1117 (1).pdf, question pages 3-18. Visual bilingual sign-off completed for all 50 questions, including all 200 options. Official final answer key remains 50/50 verified and unchanged."
+      "question_transcription_verified_count": 1,
+      "question_transcription_pending_count": 49,
+      "question_source_verification_note": "Original 20-page bilingual booklet is available. Direct visual verification currently evidenced only for Q44: option D Bank Rate / બેંક દર. Do not mark the other 49 records verified until manually compared."
     },
     {
       "paper_id": "commerce_2013_09",
