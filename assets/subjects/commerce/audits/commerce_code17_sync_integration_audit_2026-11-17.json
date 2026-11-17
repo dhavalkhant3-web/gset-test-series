@@ -4,68 +4,36 @@
   "branch": "staging/commerce-code17-answer-keys",
   "audit_date": "2026-11-17",
   "master_sync": {
-    "canonical_repository_question_bank": "NOT_FOUND: no assets/subjects/commerce/questions.json or equivalent Commerce production question-bank JSON exists in the inspected branch tree.",
-    "uploaded_master": "gset_commerce_17_master_oct2011_answerkey_corrected.json",
-    "uploaded_master_schema": "GSET_Android_Test_Series_Question_Bank v2.0.0; 19 sessions; 1300 slots",
-    "limitation": "The uploaded master artifact is not present at a canonical repository path and the repository has no Commerce production question-bank file to merge into. Do not invent a new production schema or mark question records source-verified."
+    "canonical_repository_question_bank": "NOT_FOUND: no assets/subjects/commerce/questions.json or equivalent production question-bank file exists in the inspected Commerce subtree.",
+    "local_master": "gset_commerce_17_master_oct2011_final_checked.json",
+    "local_master_schema": "GSET_Android_Test_Series_Question_Bank v2.0.0; 19 sessions; 1300 slots",
+    "limitation": "The corrected 1.7 MB local master is available in the working session, but it has not been transferred to GitHub. The connected GitHub file-write interface accepts content strings; the local file bytes cannot be passed directly from the container in this session. Do not claim synchronization."
   },
-  "answer_key_sync": {
-    "January 2002": {
-      "verified": 49,
-      "total": 50,
-      "pending": [
-        46
-      ],
-      "status": "official key scan has no printed Q46 answer"
-    },
-    "December 2002": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    },
-    "December 2003": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    },
-    "July 2004": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    },
-    "July 2006": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    },
-    "December 2008": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    },
-    "October 2011": {
-      "verified": 50,
-      "total": 50,
-      "pending": []
-    }
-  },
-  "papers_json_updated": true,
   "october_2011": {
-    "bilingual_records": 50,
-    "structural_check": "PASS",
-    "answer_key": "50/50",
-    "original_booklet_visual_comparison": "BLOCKED: original oct1117 question booklet not uploaded/retrieved in current workspace",
-    "q44": "Unresolved discrepancy: English D is Bank Rate; Gujarati D says option D not printed. Preserve until original page inspected."
+    "source_booklet": "oct1117 (1).pdf",
+    "source_booklet_status": "UPLOADED: original 20-page bilingual booklet; question pages 3-18",
+    "question_records_in_local_master": 50,
+    "bilingual_stems_present": 50,
+    "bilingual_option_fields_present": 400,
+    "official_answer_key": "50/50 previously verified; unchanged",
+    "q44": {
+      "status": "DIRECTLY_VISUALLY_VERIFIED_AND_CORRECTED",
+      "printed_page": 17,
+      "option_D_en": "Bank Rate",
+      "option_D_gu": "બેંક દર",
+      "correct_option": "C"
+    },
+    "q1_q43_q45_q50": "Transcription exists in staged local master; full manual word-by-word bilingual sign-off remains pending. OCR is not sufficient to certify every Gujarati glyph.",
+    "important_correction": "Earlier presence/structure checks were not proof of source-level accuracy. Do not mark the remaining 49 questions fully verified."
   },
   "app_integration": {
     "production_question_bank_path": "NOT_FOUND",
-    "commerce_question_records_in_repository": "NOT_FOUND in inspected Commerce subtree",
-    "app_ui_integration": "BLOCKED until canonical question-bank destination/schema and source-verified question data are available",
+    "app_ui_integration": "BLOCKED until canonical Commerce production bank destination/schema is confirmed and verified master is transferred",
+    "pubspec_asset_registration": "NOT_COMPLETED",
     "paper_i_and_other_subjects": "unchanged"
   },
   "ci": {
-    "latest_relevant_commit_status": "No status checks returned for previous answer-key commit",
-    "fresh_ci_run": "NOT_TRIGGERED; no workflow dispatch action exposed in connected GitHub tools",
+    "fresh_ci_run": "NOT_TRIGGERED; no workflow-dispatch action exposed in connected GitHub tools",
     "combined_apk": "NOT_VALIDATED"
   },
   "safeguards": {
