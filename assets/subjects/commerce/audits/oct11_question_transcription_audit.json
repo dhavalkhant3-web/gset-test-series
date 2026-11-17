@@ -69,56 +69,69 @@
     "canonical_staging_draft_path": "staging_questions/oct11_paper2_canonical_staging_draft.json"
   },
   "next_actions": [
-    "Retrieve the one-page answer-key scans from the six candidate archive pages and cross-check each scan against GSET official final keys before transcribing any option.",
-    "Retrieve the 20-page October 2011 source scan and complete visual comparison of all 50 bilingual questions.",
-    "Promote October 2011 staging records into canonical questions.json only after source verification.",
-    "Run the existing GitHub Actions build workflow only after authorized main-branch integration; current APK workflow pushes only on main or manual workflow dispatch, and no dispatch action is available through this connection."
+    "Retrieve the answer-key tab image from each archive page; transcribe its 50 choices and compare against the GSET official final-key PDF before inserting.",
+    "Complete October 2011 source-page visual comparison; the draft has passed structural validation only.",
+    "After content verification, populate the canonical production questions.json and run CI plus the combined APK build."
   ],
   "legacy_answer_key_discovery": {
-    "status": "SIX_CANDIDATE_MIRROR_PAGES_FOUND",
-    "rule": "These pages show a one-page Answer Key image and identify Maharaja Sayajirao University of Baroda as the source/publisher. The images were not retrieved or transcribed in this pass; no answer is counted as verified and none is inserted into the app dataset.",
+    "status": "ALL_SIX_ARCHIVE_PAGES_CONFIRMED_TO_INCLUDE_ONE_PAGE_ANSWER_KEY_IMAGE",
+    "archive_source": "ExamsRepo pages identify the papers as bilingual and state that the official answer key is included; source attribution is Maharaja Sayajirao University of Baroda.",
+    "answer_key_images_transcribed": 0,
+    "verified_answer_choices_added": 0,
     "records": [
       {
         "paper_id": "commerce_2002_01",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/january-2002-paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/jan02/jan0217.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/jan02/jan0217.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       },
       {
         "paper_id": "commerce_2002_12",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/december-2002-paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec02/dec0217.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec02/dec0217.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       },
       {
         "paper_id": "commerce_2003_12",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2003/paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec03/dec0317.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec03/dec0317.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       },
       {
         "paper_id": "commerce_2004_07",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2004/paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/jy04/jy0417.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/jy04/jy0417.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       },
       {
         "paper_id": "commerce_2006_07",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2006/paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/jy06/jy0617.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/jy06/jy0617.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       },
       {
         "paper_id": "commerce_2008_12",
-        "url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2008/paper-ii-commerce",
-        "answer_key_scan_reported": true,
-        "transcribed": false,
-        "verified_official_final_key": false
+        "official_gset_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec08/dec0817.pdf",
+        "official_gset_question_paper_url": "https://www.gujaratset.ac.in/assets/papers/paperII/dec08/dec0817.pdf",
+        "archive_answer_key_image_reported": true,
+        "scan_image_visually_retrieved": false,
+        "answers_transcribed": 0,
+        "official_key_reconciled": false
       }
     ]
   },
