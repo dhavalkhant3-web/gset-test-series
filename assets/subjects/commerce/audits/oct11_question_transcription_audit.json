@@ -69,10 +69,10 @@
     "canonical_staging_draft_path": "staging_questions/oct11_paper2_canonical_staging_draft.json"
   },
   "next_actions": [
-    "Retrieve the one-page answer-key scans from the six candidate archive pages and cross-check each scan against GSET's official final answer key before transcribing any option.",
-    "Complete visual comparison of all 50 October 2011 bilingual questions against the official scanned booklet.",
-    "Promote the October 2011 staging records into canonical questions.json only after source verification.",
-    "After content completion, run schema validation, subject manifest audit, CI, and combined APK validation."
+    "Retrieve the one-page answer-key scans from the six candidate archive pages and cross-check each scan against GSET official final keys before transcribing any option.",
+    "Retrieve the 20-page October 2011 source scan and complete visual comparison of all 50 bilingual questions.",
+    "Promote October 2011 staging records into canonical questions.json only after source verification.",
+    "Run the existing GitHub Actions build workflow only after authorized main-branch integration; current APK workflow pushes only on main or manual workflow dispatch, and no dispatch action is available through this connection."
   ],
   "legacy_answer_key_discovery": {
     "status": "SIX_CANDIDATE_MIRROR_PAGES_FOUND",
@@ -121,5 +121,27 @@
         "verified_official_final_key": false
       }
     ]
+  },
+  "official_question_paper_discovery": {
+    "official_pdf": "https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1117.pdf",
+    "archive_reference": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2011/paper-ii-commerce",
+    "archive_page_reports": "20-page bilingual question paper and a one-page answer-key scan; source attributed to Maharaja Sayajirao University of Baroda",
+    "page_images_retrieved": false,
+    "line_by_line_comparison_completed": 0,
+    "status": "SOURCE_PAGE_DISCOVERED_BUT_PAGE_IMAGES_NOT_RETRIEVED_FOR_COMPARISON"
+  },
+  "validation_checks": {
+    "json_parse": "PASS",
+    "question_count": "50/50",
+    "unique_question_ids": "50/50",
+    "sequential_question_numbers": "1-50",
+    "bilingual_stems": "50/50_present",
+    "bilingual_option_sets": "50/50_all_A_TO_D_present",
+    "answer_options": "50/50_valid_A_TO_D",
+    "unit_id_consistency_with_supplied_topic_labels": "50/50_consistent_with_official_GSET_COMMERCE_SYLLABUS_HEADINGS",
+    "q44_printed_discrepancy_preserved": true,
+    "source_page_visual_comparison": "NOT_RUN",
+    "production_questions_json_integration": false,
+    "app_ready": false
   }
 }
