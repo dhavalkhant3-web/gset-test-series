@@ -1495,3 +1495,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
 - Seven-subject totals: 976 active + 1,124 review-only present + 1,100 untranscribed = 3,200. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
 - Next batch: Environmental Sciences Code 26, November 2023 Q88–Q95.
+
+
+## 2026-11-17 — Social Work Code 25 December 2021 Q32–Q35 recovered
+- Before: 419 Social Work records; 23 active / 396 review-only; December 2021 had 96/100 questions, with Q32–Q35 missing. Canonical question-number audit confirms Q51–Q57 are present, correcting a stale manifest note.
+- Official PDF page index 12 visually checked. Added Q32–Q35 stems and all four English options; no figures/tables. Official FINAL answer-key parity: B, B, B, D (4/4).
+- Official syllabus mapping: Q32–Q33 Unit V (Research in Social Work); Q34–Q35 Unit VI (Administration, Welfare and Development Services). All four new records passed source, final-key and mapping gates and are active.
+- After: 423 Social Work records; 27 active / 396 review-only. December 2021 100/100 transcribed; 96 other questions remain review-only for syllabus mapping. Remaining Social Work transcription: 177 (December 2024 Q24–Q100 = 77; November 2025 Q1–Q100 = 100).
+- Sources: https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2125.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2125.pdf ; https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Next batch: Social Work December 2024 Q24–Q31. The previously planned Environmental Sciences November 2023 Q88–Q95 is already visually source-verified in canonical records and was not repeated.
+- PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
