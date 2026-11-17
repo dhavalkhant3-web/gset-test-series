@@ -244,7 +244,13 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 0,
-      "questions_loaded": 0
+      "questions_loaded": 0,
+      "data_status": "Local Master JSON contains 1,300 question records across 19 sessions; October 2011 bilingual booklet verification is complete (50/50). Production questions.json has not yet been synchronized to GitHub, so app question loading remains pending.",
+      "staged_master_sessions": 19,
+      "staged_master_question_records": 1300,
+      "october_2011_bilingual_visual_verified": 50,
+      "october_2011_official_key_verified": 50,
+      "production_bank_synced": false
     },
     {
       "code": "18",
