@@ -12,7 +12,15 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1iVMmp3U1BYXUQJ7NZegNqIdoCNbb75D7&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK jan0217.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     },
     {
       "paper_id": "commerce_2002_12",
@@ -22,7 +30,15 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1cHCu-RJIjBTRzue-OPR2hfGUj3w0fLK_&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK dec0217.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     },
     {
       "paper_id": "commerce_2003_12",
@@ -32,7 +48,15 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1Z5JS75TsN3ITZUILFRJHUYxiSOZ65bCn&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK dec0317.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     },
     {
       "paper_id": "commerce_2004_07",
@@ -42,7 +66,15 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1tA5jjluUTzxoxnihDLn-S_TYO1j8jyH9&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK jy0417.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     },
     {
       "paper_id": "commerce_2006_07",
@@ -52,7 +84,15 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1BSk7Vo_6kXNVL1eSPiSESJh_LbJSZn46&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK jy0617.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     },
     {
       "paper_id": "commerce_2008_12",
@@ -62,7 +102,31 @@
       "scan_retrieved": false,
       "transcribed_answers": 0,
       "verified_answers": 0,
-      "official_key_status": "PENDING"
+      "official_key_status": "PENDING",
+      "alternate_archive_index": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+      "alternate_mirror_file_url": "https://drive.google.com/open?id=1lByakrzZqUBQST4UlBN_KojMvZdyPjHW&usp=drive_copy",
+      "alternate_mirror_filename": "Commerce AK dec0817.pdf",
+      "mirror_link_discovered": true,
+      "mirror_file_retrieved": false,
+      "mirror_transcription": 0,
+      "mirror_verification": "NOT_PERFORMED",
+      "blocker": "Google Drive mirror link resolves from the index but PDF download could not be retrieved in this session; Firecrawl credits unavailable. Official GSET PDF remains authoritative."
     }
-  ]
+  ],
+  "alternate_archive_discovery": {
+    "index_url": "https://www.cggkonlinetest.com/p/gujrat-set-exam-questions-paper.html",
+    "description": "The index lists six Commerce answer-key PDFs by filename and links each to Google Drive. These are discovery leads only, not independently inspected or verified content.",
+    "listed_answer_key_filenames": [
+      "Commerce AK jan0217.pdf",
+      "Commerce AK dec0217.pdf",
+      "Commerce AK dec0317.pdf",
+      "Commerce AK jy0417.pdf",
+      "Commerce AK jy0617.pdf",
+      "Commerce AK dec0817.pdf"
+    ],
+    "files_downloaded": 0,
+    "answers_transcribed": 0,
+    "official_key_reconciled": 0
+  },
+  "updated_status": "DISCOVERY_EXPANDED_DOWNLOAD_BLOCKED_NO_UNVERIFIED_ANSWERS_INSERTED"
 }
