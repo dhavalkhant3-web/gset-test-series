@@ -9,7 +9,7 @@
     "marks": 200,
     "duration_minutes": 120
   },
-  "source_policy": "Official GSET question papers and official final answer keys only. October 2011 answer key is verified 50/50. Its 50 bilingual stems and option sets have been received from a user-supplied transcription, but exact question-booklet comparison and official syllabus mapping remain pending. No question record is marked source-verified until checked.",
+  "source_policy": "Official GSET question papers and official final answer keys only. Answer-key transcription status is tracked separately from question-booklet source verification. October 2011 bilingual transcription remains staged and not production-ready until original booklet comparison and Q44 discrepancy review.",
   "papers": [
     {
       "paper_id": "commerce_2002_01",
@@ -24,15 +24,17 @@
       "questions_loaded": 0,
       "questions_count": 0,
       "answer_key_verified": false,
-      "verified_answers_count": 0,
-      "pending_answer_count": 50,
+      "verified_answers_count": 49,
+      "pending_answer_count": 1,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "answer_key_pending_ocr_or_missing",
-      "answer_key_status": "OFFICIAL_KEY_URL_AND_ARCHIVE_SCAN_DISCOVERED_NOT_TRANSCRIBED",
+      "status": "official_key_49_of_50_q46_blank_question_source_pending",
+      "answer_key_status": "OFFICIAL_SCAN_TRANSCRIBED_49_OF_50_Q46_NOT_PRINTED",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/january-2002-paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
-      "answer_key_archive_discovered": true
+      "answer_key_archive_discovered": true,
+      "answer_key_source_file": "jan02_paper2.json",
+      "answer_key_verification_note": "49 printed choices transcribed from uploaded official scan; Q46 has no printed correct choice and remains null. Do not infer."
     },
     {
       "paper_id": "commerce_2002_12",
@@ -71,18 +73,20 @@
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/dec03/dec0317.pdf",
       "questions_loaded": 0,
       "questions_count": 0,
-      "answer_key_verified": false,
-      "verified_answers_count": 0,
-      "pending_answer_count": 50,
+      "answer_key_verified": true,
+      "verified_answers_count": 50,
+      "pending_answer_count": 0,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "question_paper_received_answer_key_pending",
-      "answer_key_status": "PENDING_OFFICIAL_ANSWER_KEY_SCAN",
+      "status": "official_answer_key_verified_question_source_pending",
+      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_50_OF_50",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2003/paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
       "question_paper_received": true,
-      "question_paper_received_file": "dec0317.pdf"
+      "question_paper_received_file": "dec0317.pdf",
+      "answer_key_source_file": "dec03_paper2.json",
+      "answer_key_verification_note": "All 50 choices transcribed from the user-uploaded one-page GSET official answer-key scan dec0317(2).pdf; question booklet verification remains separate."
     },
     {
       "paper_id": "commerce_2004_07",
@@ -196,12 +200,15 @@
       "pending_answer_count": 0,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "answer_key_verified_transcription_staged_source_review_pending",
-      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "status": "answer_key_verified_bilingual_transcription_source_review_pending",
+      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY_50_OF_50",
       "question_transcription_received_count": 50,
       "question_transcription_status": "USER_SUPPLIED_BILINGUAL_TRANSCRIPTION_PENDING_OFFICIAL_BOOKLET_COMPARISON",
       "question_transcription_audit": "audits/oct11_question_transcription_audit.json",
-      "canonical_staging_draft": "staging_questions/oct11_paper2_canonical_staging_draft.json"
+      "canonical_staging_draft": "staging_questions/oct11_paper2_canonical_staging_draft.json",
+      "review_flags": [
+        "Q44 Gujarati option D discrepancy; original booklet page not yet visually checked"
+      ]
     },
     {
       "paper_id": "commerce_2013_09",
