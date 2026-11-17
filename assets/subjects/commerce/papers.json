@@ -9,7 +9,7 @@
     "marks": 200,
     "duration_minutes": 120
   },
-  "source_policy": "Official GSET question papers and official final answer keys only. Answer-key transcription status is tracked separately from question-booklet source verification. October 2011 bilingual transcription remains staged and not production-ready until original booklet comparison and Q44 discrepancy review.",
+  "source_policy": "Official GSET question papers and official final answer keys only. Question-booklet transcription and answer-key verification are tracked separately. October 2011 bilingual booklet comparison is complete for all 50 questions.",
   "papers": [
     {
       "paper_id": "commerce_2002_01",
@@ -198,20 +198,21 @@
       "answer_key_verified": true,
       "verified_answers_count": 50,
       "pending_answer_count": 0,
-      "question_source_verified": false,
-      "source_verified": false,
-      "status": "official_answer_key_50_of_50_original_booklet_received_49_bilingual_reviews_pending",
+      "question_source_verified": true,
+      "source_verified": true,
+      "status": "bilingual_question_booklet_visually_verified_50_of_50_official_answer_key_verified_50_of_50",
       "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY_50_OF_50",
       "question_transcription_received_count": 50,
-      "question_transcription_status": "50 bilingual records populated; Q44 visually checked against original booklet; remaining 49 require line-by-line source sign-off",
+      "question_transcription_status": "50 bilingual records visually compared against original 20-page booklet; Q1-Q50 English/Gujarati stems and four options signed off; Q44 option D is Bank Rate / બેંક દર",
       "question_transcription_audit": "audits/oct2011_bilingual_source_verification.json",
       "canonical_staging_draft": "staging_questions/oct11_paper2_canonical_staging_draft.json",
-      "review_flags": [
-        "Q1-Q43 and Q45-Q50 require line-by-line English/Gujarati comparison against original booklet"
-      ],
+      "review_flags": [],
       "question_source_received": true,
       "question_source_file": "oct1117 (1).pdf",
-      "question_source_pages": "20-page bilingual booklet; question pages 3-18"
+      "question_source_pages": "20-page bilingual booklet; question pages 3-18",
+      "question_transcription_verified_count": 50,
+      "question_transcription_pending_count": 0,
+      "question_source_verification_note": "Original user-uploaded 20-page bilingual booklet oct1117 (1).pdf, question pages 3-18. Visual bilingual sign-off completed for all 50 questions, including all 200 options. Official final answer key remains 50/50 verified and unchanged."
     },
     {
       "paper_id": "commerce_2013_09",
