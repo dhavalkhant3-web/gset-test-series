@@ -9,7 +9,7 @@
     "marks": 200,
     "duration_minutes": 120
   },
-  "source_policy": "Session inventory is transcribed from the uploaded master JSON. October 2011 official final answer key is now verified 50/50 from the official GSET PDF; 2011 bilingual question text/options are user-supplied and pending full comparison with the official scanned booklet. No question content is marked source-verified until checked.",
+  "source_policy": "Official GSET question papers and official final answer keys only. October 2011 answer key is verified 50/50. Its 50 bilingual stems and option sets have been received from a user-supplied transcription, but exact question-booklet comparison and official syllabus mapping remain pending. No question record is marked source-verified until checked.",
   "papers": [
     {
       "paper_id": "commerce_2002_01",
@@ -168,8 +168,11 @@
       "pending_answer_count": 0,
       "question_source_verified": false,
       "source_verified": false,
-      "status": "answer_key_verified_question_transcription_pending",
-      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY"
+      "status": "answer_key_verified_transcription_received_source_review_pending",
+      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+      "question_transcription_received_count": 50,
+      "question_transcription_status": "USER_SUPPLIED_BILINGUAL_TRANSCRIPTION_PENDING_OFFICIAL_BOOKLET_COMPARISON",
+      "question_transcription_audit": "audits/oct11_question_transcription_audit.json"
     },
     {
       "paper_id": "commerce_2013_09",
