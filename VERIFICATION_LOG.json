@@ -7184,5 +7184,105 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "event": "Social Work Code 25 December 2021 Q32-Q35 official transcription, final-key parity and syllabus mapping",
+    "subject_code": "25",
+    "session": "December 2021 / January 2022",
+    "question_range": "Q32-Q35",
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2125.pdf",
+    "source_pdf_page_indexes_zero_based": [
+      12
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2125.pdf",
+    "syllabus": "https://gujaratset.ac.in/assets/syllabus/25.pdf",
+    "questions": [
+      {
+        "id": "GSET-SW25-DEC2021-Q032",
+        "answer": "B",
+        "unit": "Unit V",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2021-Q033",
+        "answer": "B",
+        "unit": "Unit V",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2021-Q034",
+        "answer": "B",
+        "unit": "Unit VI",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2021-Q035",
+        "answer": "D",
+        "unit": "Unit VI",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      }
+    ],
+    "final_key_parity": {
+      "checked": 4,
+      "matches": 4,
+      "mismatches": 0
+    },
+    "visual_source_review": {
+      "checked": 4,
+      "all_stems_and_four_options_match": true,
+      "figures_or_tables": 0
+    },
+    "before": {
+      "records": 419,
+      "active": 23,
+      "review_only": 396,
+      "dec2021_transcribed": 96,
+      "dec2021_missing": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "social_work_not_transcribed": 181
+    },
+    "after": {
+      "records": 423,
+      "active": 27,
+      "review_only": 396,
+      "dec2021_transcribed": 100,
+      "dec2021_missing": [],
+      "social_work_not_transcribed": 177,
+      "dec2021_active": 4,
+      "dec2021_review_only": 96
+    },
+    "metadata_correction": "The previous Social Work Dec2021 manifest note listed Q51-Q57 as untranscribed; canonical question-number audit confirms only Q32-Q35 were absent.",
+    "next_batch": {
+      "subject": "Social Work",
+      "session": "December 2024",
+      "question_range": "Q24-Q31",
+      "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf",
+      "final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf"
+    },
+    "non_actions": [
+      "No unrelated subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Code 28 or Paper-I files changed",
+      "No app UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
