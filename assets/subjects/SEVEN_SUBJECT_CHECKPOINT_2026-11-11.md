@@ -1,11 +1,11 @@
-# GSET Paper-II — Seven-subject checkpoint (2026-11-16, refreshed)
+# GSET Paper-II — Seven-subject checkpoint (2026-11-17, refreshed)
 
 Repository: https://github.com/dhavalkhant3-web/gset-test-series
 Branch: `app/import-updated-subject-banks-2026-11-10`
 Pull request: https://github.com/dhavalkhant3-web/gset-test-series/pull/22
 Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathematical Sciences Code 01, or Code 28.
 
-## Current counts — reconciled against canonical files (2026-11-16, after Environmental Sciences Q88–Q100)
+## Historical counts snapshot — 2026-11-16 (superseded by dated per-file audits below)
 
 | Code | Subject | Active | Review-only present in JSON | Staged / not integrated | Not yet transcribed |
 |---|---|---:|---:|---:|---:|
@@ -21,6 +21,10 @@ Status: Open; NOT MERGED. Do not modify unrelated subjects, Paper-I UI, Mathemat
 Expected question records across these seven subjects: 3,200. Canonical JSON now contains 1,214 active + 336 review-only = 1,550 records. A further 550 Sanskrit staging questions are not yet integrated, while 500 Geography and 600 Social Work questions remain untranscribed. These categories sum to 3,200. Review-only records are not counted as active app questions. Sanskrit's review queue contains 108 records; its 550 staging records remain outside both canonical JSON files.
 
 **Latest live audit notes:** Gujarati 296 active / 104 review-only after promoting 94 records that already passed source, official-final-key, and official-syllabus checks; the remaining review queue has 56 source-unverified and 33 final-key-unverified records. History 50 active; Q46 and Q48 remain syllabus-mapping holds. Geography 198 active / 2 review-only; five other papers (500 questions) remain untranscribed. Social Work has 600 key-only staged entries and no question text. Environmental Sciences now has 187 active / 113 review-only after verified December 2024 Q1–Q7, Q9–Q19, Q21–Q27, Q34–Q79 and Q80–Q88 source batches. Forensic Science has 291 active / 9 review-only; all 300 answer-key entries are recorded, and its November 2025 source questions Q47 and Q59 remain review-only for syllabus placement.
+
+
+
+**Count integrity note (17 November 2026):** The table above is retained as a historical snapshot. Current canonical files and several older checkpoint/manifest counters disagree (notably Sanskrit staging, Geography review records, and earlier Social Work counts). Do not use the old aggregate row as a live total; use the dated per-file updates below until a full seven-subject reconciliation is completed.
 
 ## Latest completed source work
 
@@ -956,3 +960,16 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 ### CI / integration
 - Latest PR #22 head checked: no associated commit status checks and no PR-triggered workflow runs returned. No Combined APK PASS is claimed.
 - PR #22 remains open and unmerged. No merge authorization received.
+
+
+## 17 November 2026 — Social Work Code 25 December 2021 Q32–Q35 recovered
+
+- Pre-batch canonical audit: Social Work had 419 records; December 2021 / January 2022 had 96/100 questions, with only Q32–Q35 absent. The earlier manifest note also listed Q51–Q57 as missing, but the canonical question-number audit found those questions present; that stale note is corrected.
+- Visually inspected the official GSET question-paper PDF, zero-based PDF page index 12. Transcribed English stems and all four options for Q32–Q35; no figures or tables occur in this range.
+- Official FINAL answer-key parity: Q32 B, Q33 B, Q34 B, Q35 D — 4/4 exact matches.
+- Official Code 25 syllabus mapping: Q32 and Q33 → Unit V (Research in Social Work); Q34 and Q35 → Unit VI (Administration, Welfare and Development Services). All four new records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified, review_flag=false.
+- After batch: Social Work canonical records 423 (before 419, +4); active 27 (before 23, +4); review-only 396 (unchanged); December 2021 is 100/100 transcribed. Remaining Social Work transcription is 177: December 2024 Q24–Q100 (77) and November 2025 Q1–Q100 (100). The other 96 December 2021 records remain review-only pending syllabus mapping, so the paper is not yet fully cleared for practice use.
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2125.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2125.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Next batch: Social Work Code 25, December 2024 Q24–Q31 (official question paper and final-key URLs resolve).
+- The earlier planned Environmental Sciences November 2023 Q88–Q95 batch was not repeated: those canonical records already carry source_verified=true, answer_key_verified=true, review_flag=false and visual-source notes.
+- PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
