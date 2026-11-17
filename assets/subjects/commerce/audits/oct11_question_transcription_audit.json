@@ -23,8 +23,19 @@
   },
   "syllabus_mapping": {
     "provisional_labels_received": 50,
-    "official_unit_ids_validated": 0,
-    "status": "PENDING_OFFICIAL_SYLLABUS_REVIEW"
+    "official_unit_ids_assigned_in_staging": 50,
+    "unit_assignment_status": "STAGING_MAPPED_TO_GSET_COMMERCE_CODE17_UNIT_HEADINGS_PENDING_FINAL_QUESTION_SOURCE_REVIEW",
+    "unit_distribution": {
+      "UNIT_01": 10,
+      "UNIT_02": 5,
+      "UNIT_03": 5,
+      "UNIT_04": 5,
+      "UNIT_05": 5,
+      "UNIT_06": 10,
+      "UNIT_07": 5,
+      "UNIT_08": 5
+    },
+    "note": "Question topics and supplied labels were mapped to the matching GSET Commerce syllabus unit headings. This staging assignment is not a final publication sign-off; retain human review until the official question booklet comparison is completed."
   },
   "review_flags": [
     {
@@ -57,8 +68,7 @@
   "next_actions": [
     "Complete visual comparison of all 50 bilingual questions against the official scanned booklet.",
     "Preserve Q44's printed-option discrepancy in the canonical record.",
-    "Validate all 50 syllabus mappings against the official Commerce syllabus and populate unit_id only when supported.",
-    "Promote the staging draft into canonical questions.json only after source verification.",
+    "Promote the verified staging records into canonical questions.json only after source verification.",
     "Continue retrieving and verifying the 300 pending answer-key entries from official final keys only.",
     "Run schema validation, subject manifest audit, CI, and combined APK validation after content completion."
   ]
