@@ -1598,3 +1598,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q73 Unit II; Q74–Q75 Unit VI; Q76 and Q78 Unit II; Q77 Unit X; Q79 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q80 retained pending because Vishrutacharita is not explicitly listed among prescribed works. Verified mappings: 85 → 92; pending: 107 → 100 (192 records). Q33 remains absent.
 - Questions commit: ba10c6af8526cdc4c43fba32f38f677140baf550; checkpoint commit: 1c972962fe8d7abe7e17a22e43980cab92faabba. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q81–Q88 mapping
+- Mapped Q81–Q83 Unit VIII; Q84–Q86 Unit VI; Q87 Unit IV; Q88 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; question and answer content unchanged. Verified mappings: 92 → 100; pending: 100 → 92 (192 records). Q33 absent; Q80 held.
+- Questions commit: 7c49bafd282dfb0aadc3d824d7315cb50968e6d1; checkpoint commit: 2a7acf2cdad2378d7892359c8ae53718c338bfca. PR #22 remains open/unmerged.
