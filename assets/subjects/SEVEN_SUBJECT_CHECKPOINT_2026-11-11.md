@@ -1069,3 +1069,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Q76 (Panchayati Raj Institutions) remains review-only because the syllabus does not name this topic explicitly; no unit was forced. All other unresolved questions remain review-only.
 - December 2024 Social Work now has 85/100 question stems transcribed, 55 active, and 30 review-only for syllabus mapping. Q86–Q100 remain untranscribed. The official final answer-key parity remains verified for the 85 transcribed records; full 100-question parity is not claimed.
 - No Gujarati-side transcription was added in this batch. No other subject, Paper-I, Code 01, Code 02 or Code 28 was modified. PR #22 remains unmerged; no CI or APK pass is claimed.
+
+
+## Social Work Code 25 — November 2022 syllabus mapping batch (18 November 2026)
+- Official source: https://gujaratset.ac.in/assets/syllabus/25.pdf
+- 59 of 77 previously unmapped questions (Q27, Q29–Q64 except Q65, Q66–Q76, Q88–Q92, Q94–Q97, Q99–Q100) were assigned only where the official syllabus text gave a direct topic match.
+- Unit distribution: Unit II: 2; Unit V: 1; Unit VI: 2; Unit VII: 3; Unit VIII: 26; Unit IX: 11; Unit X: 14.
+- These 59 records already had source_verified=true, answer_key_verified=true, and four English options; those values and answers were not changed. Each mapped record now has syllabus_mapping_status=verified, official syllabus source, unit fields, and review_flag=false.
+- 18 remain review-only: Q24–Q26, Q28, Q65, Q77–Q87, Q93, Q98. No unsupported mappings were assigned.
+- Commits: questions `18d3d27bbeda2983b55bc2ca12bae05426deff71`; manifest `5e059d957bb23e19ee406089f8fb7f0aa623cd55`; manifest note correction `5e531efd855c9be21d6a94da69803519779df8e1`.
