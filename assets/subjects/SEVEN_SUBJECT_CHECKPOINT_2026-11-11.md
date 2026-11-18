@@ -1152,3 +1152,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit mappings: 22 → 30 verified; pending official syllabus mappings: 170 → 162 (192 canonical records). No source verification or question promotion was claimed.
 - Questions commit: `de587314821beb4dd1596db52f60f841565b8ee5`. PR #22 remains open and unmerged; other subjects and protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q17–Q24, only where an explicit official syllabus fit exists.
+
+
+## Sanskrit Code 07 — November 2023 Q17–Q24 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without changing text/options/answers: Q17 Unit VIII (Buddhacharita); Q18–Q19 Unit II (Vedic/Rigvedic literature); Q20 Unit I (Vedanga Shiksha); Q21 Unit II (Rkpratishakhya); Q22 Unit VI (Karaka/Paninian grammar); Q23 Unit II (Brihadaranyaka Upanishad); Q24 Unit VIII (Bharata Natyashastra/Rasa).
+- Sanskrit verified syllabus mappings: 30 → 38; pending: 162 → 154 (192 canonical records). No source verification or activation was claimed.
+- Questions commit: `9a0b3e002e7780b3a3c6b541084cfa357d4a61fc`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q25–Q32, only where explicit syllabus coverage is present.
