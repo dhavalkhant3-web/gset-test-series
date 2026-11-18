@@ -1202,3 +1202,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 77 → 85; pending: 115 → 107 (192 canonical records). No question text/options/answers or source flags changed.
 - Questions commit: `2da75d353fdf809e6d49fa6f82140844ab1d76e2`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q73–Q80.
+
+
+## Sanskrit Code 07 — November 2023 Q73–Q79 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven source/key-verified records without modifying question text/options/answers: Q73 Unit II (Vedic hymn); Q74–Q75 Unit VI (Samasa/Karaka); Q76 and Q78 Unit II (Rigvedic hymns); Q77 Unit X (Manusmriti); Q79 Unit VIII (Visheshokti Alankara).
+- Q80 remains pending: the cited Vishrutacharita is not explicitly named in the prescribed literary works list; no unsupported unit assigned.
+- Sanskrit verified mappings: 85 → 92; pending: 107 → 100 (192 canonical records). Q33 remains absent and uncreated.
+- Questions commit: `ba10c6af8526cdc4c43fba32f38f677140baf550`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q81–Q88, only where explicit coverage exists.
