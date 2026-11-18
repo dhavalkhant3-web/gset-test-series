@@ -4662,8 +4662,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Upanishadic literature: Taittiriya Upanishad",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4682,7 +4682,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit II",
+    "unit_number": 2,
+    "unit_id": "unit_2",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit II explicitly prescribes the Taittiriya Upanishad."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q002",
@@ -4704,8 +4709,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Upanishadic literature: Kena Upanishad and Samaveda",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4724,7 +4729,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit II",
+    "unit_number": 2,
+    "unit_id": "unit_2",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit II explicitly prescribes the Kena Upanishad."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q003",
@@ -4746,8 +4756,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit prosody: Upendra-vajra, Shalini, Vamshastha and Indra-vajra",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4769,7 +4779,12 @@
     "language": "sa",
     "verification_status": "visually_checked_against_official_scan",
     "evaluation_status": "official_final_key_reconciled",
-    "source_verification_note": "Printed page 3 visually checked. The four named metres, four gana patterns, and four answer permutations are transcribed in the same a–d / i–iv structure as the source; official final-key answer C matches the printed choice."
+    "source_verification_note": "Printed page 3 visually checked. The four named metres, four gana patterns, and four answer permutations are transcribed in the same a–d / i–iv structure as the source; official final-key answer C matches the printed choice.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII explicitly includes Chhanda Parichaya and the prescribed Sanskrit metres."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q004",
@@ -4791,8 +4806,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Mimamsa philosophy: Dvadashalakshani",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4811,7 +4826,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IV explicitly includes Purva Mimamsa and its philosophical literature."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q005",
@@ -4833,8 +4853,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vaisheshika philosophy: Prashastapada's Padarthadharmasangraha",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4853,7 +4873,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IV explicitly includes Vaisheshika philosophy and its foundational texts."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q006",
@@ -4875,8 +4900,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sankhya philosophy: Satkaryavada",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4895,7 +4920,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II PDF, printed page 3 (Q1–Q6); answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IV explicitly includes Sankhya philosophy and its doctrines."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q007",
@@ -4917,8 +4947,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Patanjali Yoga: Samprajnata Samadhi",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4938,7 +4968,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IV explicitly prescribes Patanjali's Yogasutra and its concepts of Samadhi."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q008",
@@ -4960,8 +4995,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit literature: Dandin, Ashvaghosha, Shudraka and Vishakhadatta",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2025 (exam date 16 Nov 2025)",
     "exam_date": "2025-11-16",
@@ -4981,7 +5016,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2025 Sanskrit Paper-II question paper; answer independently matched to official final answer key. Syllabus unit not inferred; mapping remains pending.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII explicitly lists these authors and their prescribed literary works."
   },
   {
     "id": "GSET-SAN07-NOV2025-Q009",
