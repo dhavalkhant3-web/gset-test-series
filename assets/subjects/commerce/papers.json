@@ -79,14 +79,14 @@
       "question_source_verified": false,
       "source_verified": false,
       "status": "official_answer_key_verified_question_source_pending",
-      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_50_OF_50",
+      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY_50_OF_50",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2003/paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
       "question_paper_received": true,
       "question_paper_received_file": "dec0317.pdf",
-      "answer_key_source_file": "dec03_paper2.json",
-      "answer_key_verification_note": "All 50 choices transcribed from the user-uploaded one-page GSET official answer-key scan dec0317(2).pdf; question booklet verification remains separate."
+      "answer_key_source_file": "dec0317(2).pdf",
+      "answer_key_verification_note": "All 50 choices transcribed and visually checked against the user-supplied one-page GSET final answer-key scan headed 7 December 2003, Paper-II, Commerce. See audits/commerce_dec2003_official_final_key_reconciliation_2026-11-18.json. Question booklet transcription remains a separate pending task."
     },
     {
       "paper_id": "commerce_2004_07",
