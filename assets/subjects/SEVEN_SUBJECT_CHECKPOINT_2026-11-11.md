@@ -1323,3 +1323,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 now has Q1–Q18 mapped and verified; Q19–Q100 remain pending (82). Manifest reflects 18 verified mappings and 82 pending.
 - Questions commit: `52aa8ecc5daec7fbef243c3f29ae1216331a64bf`; manifest commit: `7bcd8573f2237fa618ac734117309948a05001c8`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Geography November 2022 Q19–Q27.
+
+
+## Geography Code 24 — November 2022 Q19–Q27 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mapped eight source/key-verified records: Q19 Unit VII (federalism); Q21–Q24 Unit I (continental drift, earthquakes, plate tectonics and faulting); Q25 Unit IV (Urban Heat Island); Q26–Q27 Unit IX (aerial photography/photogrammetry and spatial data).
+- Q20 (chronology of religions) remains unmapped because the syllabus lists religion in the context of spatial distribution of social groups, not a chronology of world religions.
+- Q24 is mapped but review-flagged: the stem appears to describe strike-slip faulting while the official key says A (Normal fault). Official answer A is retained; no correction is made without authority.
+- November 2022 now has 26 mappings verified, 74 mapping-pending (Q20 and Q28–Q100), and 1 additional content review flag (Q24); manifest review count 75.
+- Questions commit: `44264c27a4d0b7d9b1fb1b0f1b34e7574181144e`; manifest commit: `32fd9210048ba0e3a112567ccda2d796fb1c0650`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
+- Next batch: Geography November 2022 Q28–Q36.
