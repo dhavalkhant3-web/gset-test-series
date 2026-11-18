@@ -1561,3 +1561,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q25 Unit I; Q26 Unit VIII; Q27 Unit IX; Q28 Unit VI; Q29 Unit VIII; Q30 Unit IV; Q31–Q32 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Eight existing source/key-verified records mapped; no question or answer changes. Verified mappings: 38 → 46; pending: 154 → 146 (192 total).
 - Questions commit: 35f28c46007c305c9686eaaf5bac8caf54ed94d9; checkpoint commit: 960eb306abebf2124a7fb2236adcb086b069deaa. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q34–Q40 syllabus mapping
+- Mapped Q34–Q37 Unit IV (Vedanta/Sankhya) and Q38–Q40 Unit VIII (Kavyashastra/Alankara/Rasa) using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q33 was not found in the current canonical JSON; no content was fabricated or added.
+- Verified mappings: 46 → 53; pending: 146 → 139 (192 records). Seven existing source/key-verified records mapped; question text/options/answers unchanged.
+- Questions commit: 5825f2e4b8ff650f8540a9229221d554cb8b1f78; checkpoint commit: 6ebbc31a12485a4c9867ab4deec55d6b444dd297. PR #22 remains open/unmerged.
