@@ -73,9 +73,13 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 77,
-      "status": "source_verified_final_key_reconciled_syllabus_mapping_pending",
-      "review_note": "All 100 questions Q1–Q100 are now transcribed into canonical JSON from the official GSET November 2022 Social Work Paper-II PDF, with four English options per question. All 100 answers match the official GSET final answer key. Source verification and final-key parity are complete for this paper. Q24–Q100 retain review_flag=true because their official syllabus-unit mappings have not yet been verified; 77 mapping reviews remain. No unsupported syllabus units were assigned."
+      "review_flags_remaining_count": 18,
+      "status": "source_verified_final_key_reconciled_syllabus_mapping_partially_verified",
+      "review_note": "All 100 questions are transcribed from the official GSET November 2022 Social Work Paper-II PDF and all 100 stored answers match the official final answer key. 59 questions now have explicit mappings to the official Code 25 syllabus and are active. 18 remaining questions retain review_flag=true because their syllabus placement is not sufficiently explicit: Q24–Q26, Q28, Q77–Q87, Q93 and Q98. No unsupported mappings were assigned.",
+      "unit_mapping_verified_count": 59,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 18,
+      "unit_mapping_status": "official_syllabus_mapping_partially_verified"
     },
     {
       "paper_id": "social_work_nov2023",
