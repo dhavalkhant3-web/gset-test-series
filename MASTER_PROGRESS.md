@@ -1586,3 +1586,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q57 Unit V; Q58 Unit IV; Q59 Unit V; Q60 Unit VI; Q61 Unit X; Q62 Unit II; Q63 Unit V; Q64 Unit VI, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 69 → 77; pending: 123 → 115 (192 total). Q33 remains absent.
 - Questions commit: 3f33ef89a0f9b59142d0a180c3e7341f7d46c7d5; checkpoint commit: 7858b8b9a93e07f482fcf72b53c5a472380a6a06. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q65–Q72 syllabus mapping
+- Mapped Q65–Q67 and Q72 to Unit VI grammar; Q68–Q71 to Unit VI Bhartrihari/Vakyapadiya, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; question content and answers unchanged. Verified mappings: 77 → 85; pending: 115 → 107 (192 total).
+- Questions commit: 2da75d353fdf809e6d49fa6f82140844ab1d76e2; checkpoint commit: 9b619495de38234786b72343a30b04065ca24e39. PR #22 remains open/unmerged.
