@@ -1061,3 +1061,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Data commits: questions Q80–Q85 759fa0a2deec286e9bb3ed588aef881b431d0b80; paper manifest 98539a2cc12afad3d45c814dd72df0e129fef1c1. Checkpoint commit recorded separately after this note.
 - Next batch: Social Work Code 25, December 2024 Q86–Q93. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 syllabus-mapping batch
+- Re-audited the existing December 2024 Q64–Q85 records against the official GSET Code 25 syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf
+- Promoted 18 already source-verified and final-key-verified records to active using explicit syllabus matches: Q64, Q65, Q67, Q70 → Unit VII; Q71–Q75 and Q77–Q80 → Unit VIII; Q81–Q85 → Unit IX.
+- Q76 (Panchayati Raj Institutions) remains review-only because the syllabus does not name this topic explicitly; no unit was forced. All other unresolved questions remain review-only.
+- December 2024 Social Work now has 85/100 question stems transcribed, 55 active, and 30 review-only for syllabus mapping. Q86–Q100 remain untranscribed. The official final answer-key parity remains verified for the 85 transcribed records; full 100-question parity is not claimed.
+- No Gujarati-side transcription was added in this batch. No other subject, Paper-I, Code 01, Code 02 or Code 28 was modified. PR #22 remains unmerged; no CI or APK pass is claimed.
