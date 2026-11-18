@@ -18,7 +18,9 @@
       "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 100
     },
     "october_2011_bilingual_question_stems": 50,
-    "october_2011_bilingual_options": 200
+    "october_2011_bilingual_options": 200,
+    "user_supplied_key_scan_letters_visually_checked": 296,
+    "october_2011_bilingual_questions": 50
   },
   "pending_counts": {
     "official_answer_key_ocr_or_missing": 250,
@@ -27,7 +29,11 @@
     "records_with_all_four_english_options_missing_or_incomplete": 1250,
     "records_with_all_four_gujarati_options_missing_or_incomplete": 1250,
     "syllabus_unit_mappings_missing": 1300,
-    "october_2011_bilingual_question_records": 0
+    "october_2011_bilingual_question_records": 0,
+    "bilingual_question_records": 1250,
+    "official_final_answer_key_reconciliation": 300,
+    "syllabus_unit_mapping": 1300,
+    "january_2002_blank_key_entry": 1
   },
   "answer_status_breakdown": {
     "VERIFIED_OFFICIAL_KEY": 950,
@@ -194,7 +200,7 @@
       "answers": 100
     }
   ],
-  "critical_finding": "The October 2011 bilingual source sign-off is complete (50/50 stems and 200/200 bilingual option fields; no exceptions). A separate uploaded GSET final answer-key scan for December 2003 has now been visually transcribed and reconciled for all 50 answers, reducing pending answer-key slots from 300 to 250. Across the 1,300-slot archive, 1,250 records still lack bilingual question text/options, 250 answer slots remain pending OCR, and all 1,300 syllabus mappings remain unassigned. The complete updated Master JSON is available as a local output but has not yet been synchronized to GitHub; no production questions.json exists.",
+  "critical_finding": "The full updated 1,300-slot Master JSON has now been synchronized to the staging branch and its Git blob SHA independently matched against the local source. Five additional user-supplied GSET key scans were visually inspected (246 A-D choices, three explicit Z drops, one blank). Their official-final-key provenance is not yet independently confirmed, so the official-final reconciliation backlog remains 300 until archive provenance is checked. October 2011 remains 50/50 signed off. Bilingual transcription 1,250 and syllabus mappings 1,300 remain pending.",
   "next_execution_order": [
     "Synchronize the updated signed-off 1,300-slot Master JSON to the staging branch and verify the fetched-back content/hash.",
     "Continue bilingual question transcription from official booklets; October 2011 is complete and must not be repeated.",
@@ -216,5 +222,40 @@
     "no_answers_or_questions_fabricated": true,
     "october_2011_visual_signoff": "50/50 stems and 200/200 bilingual option fields; zero exceptions",
     "december_2003_final_key": "50/50 choices transcribed from uploaded final-key scan"
+  },
+  "master_json_sync": {
+    "status": "SYNCED_TO_STAGING_AND_GIT_BLOB_SHA_VERIFIED",
+    "path": "assets/subjects/commerce/master/gset_commerce_17_master.json",
+    "commit": "0549aa542198b68f6add05ae0568a99fa2b28d9c",
+    "git_blob_sha": "d9b3b07b47dfb60c12200571be43595be9ec8fc0",
+    "source_bytes": 1258425,
+    "source_sha256": "8268f4592da4c7987c0e4d51af89827186227f0a4340c411a7056ef41068f316",
+    "verification": "GitHub file fetch returned the exact Git blob SHA; independently computed Git blob SHA from the local compact JSON matched."
+  },
+  "answer_key_scan_reconciliation": {
+    "newly_scanned_sessions": [
+      "GSET_2002_01",
+      "GSET_2002_12",
+      "GSET_2004_07",
+      "GSET_2006_07",
+      "GSET_2008_12"
+    ],
+    "verified_choice_letters": 246,
+    "explicit_dropped_z": 3,
+    "blank_entries": 1,
+    "official_final_key_provenance": "NOT YET INDEPENDENTLY CONFIRMED AGAINST GSET ARCHIVE URL/HASH; these are user-supplied scans headed GSET key.",
+    "evidence": "audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json"
+  },
+  "production_integration": {
+    "status": "PENDING",
+    "questions_json": "NOT_CREATED",
+    "reason": "Question stems/options remain untranscribed for 1,250 slots; unverified records must not be published."
+  },
+  "ci_validation": {
+    "status": "NOT_RUN",
+    "flutter_analyze": "NOT_RUN",
+    "unit_tests": "NOT_RUN",
+    "debug_build": "NOT_RUN",
+    "combined_apk": "NOT_VALIDATED"
   }
 }
