@@ -28,7 +28,7 @@
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "All 300 canonical Environmental Sciences records were assigned to one of the ten official Code 26 syllabus units. Mapping status is independent of source-page visual verification; 213 review-only records remain flagged for source review."
+    "note": "All 300 canonical Environmental Sciences records have verified Code 26 syllabus mappings. The 291 pass-1 records remain pending an independent second proofreading pass; this is separate from source_verified and review_queue status."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -103,5 +103,22 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-16"
+  "last_updated": "2026-11-16",
+  "live_reconciliation_2026_11_18": {
+    "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
+    "active_questions": 300,
+    "active_unique_ids": 300,
+    "review_queue_questions": 0,
+    "review_queue_unique_ids": 0,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "review_flag_false": 300,
+    "syllabus_mapping_verified": 300,
+    "syllabus_mapping_provisional": 0,
+    "syllabus_mapping_pending": 0,
+    "first_pass_proofread_pending_second_pass": 291,
+    "independently_visual_checked": 9,
+    "second_pass_question_ids_not_encoded_in_canonical_schema": true,
+    "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
+  }
 }
