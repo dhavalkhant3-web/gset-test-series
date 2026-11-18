@@ -1210,3 +1210,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 85 → 92; pending: 107 → 100 (192 canonical records). Q33 remains absent and uncreated.
 - Questions commit: `ba10c6af8526cdc4c43fba32f38f677140baf550`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q81–Q88, only where explicit coverage exists.
+
+
+## Sanskrit Code 07 — November 2023 Q81–Q88 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without changing text/options/answers: Q81–Q83 Unit VIII (Chhanda and Dhvani/Kavyashastra); Q84–Q86 Unit VI (Paninian grammar, Mahabhashya and Vakyapadiya); Q87 Unit IV (Badarayana Brahmasutra); Q88 Unit VIII (Uttararamacharita).
+- Sanskrit verified mappings: 92 → 100; pending: 100 → 92 (192 canonical records). Q33 remains absent and Q80 remains on hold pending an explicit syllabus fit.
+- Questions commit: `7c49bafd282dfb0aadc3d824d7315cb50968e6d1`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q89–Q96.
