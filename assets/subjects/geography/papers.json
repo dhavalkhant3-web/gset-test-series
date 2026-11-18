@@ -83,10 +83,12 @@
       "answer_key_question_parity_verified": false,
       "question_source_verified": 6,
       "source_verified": false,
-      "review_flags_remaining_count": 100,
-      "status": "partial_source_verified_transcription_and_syllabus_mapping_pending",
-      "review_note": "Q1–Q6 transcribed and visually checked against official paper; all six answers match official final answer key. Q7–Q100 remain untranscribed. This paper is incomplete.",
-      "questions_count": 6
+      "review_flags_remaining_count": 94,
+      "status": "partial_source_verified_transcription_syllabus_mapping_verified_for_loaded_records",
+      "review_note": "Q1–Q6 are source-verified, final-key matched and mapped to the official Code 24 syllabus. Q7–Q100 remain untranscribed; this paper is incomplete.",
+      "questions_count": 6,
+      "syllabus_mapping_verified_count": 6,
+      "syllabus_mapping_pending_count": 0
     },
     {
       "paper_id": "geography_dec2021",
@@ -126,10 +128,10 @@
       "source_verified": true,
       "review_flags_remaining_count": 4,
       "status": "source_verified_final_key_reconciled_syllabus_mapping_partial_with_review_flags",
-      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q100 have explicit syllabus mappings (98 total). Q20 (chronology of religions) and Q54 (mixed settlement/regional-development concepts) remain unmapped. Q24 and Q42 remain content-review flags; official keys are preserved.",
+      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q100 have explicit syllabus mappings (99 total). Q20 (chronology of religions) remains unmapped. Q24 and Q42 remain content-review flags; official keys are preserved.",
       "questions_count": 100,
-      "syllabus_mapping_verified_count": 98,
-      "syllabus_mapping_pending_count": 2
+      "syllabus_mapping_verified_count": 99,
+      "syllabus_mapping_pending_count": 1
     },
     {
       "paper_id": "geography_nov2023",
