@@ -1087,3 +1087,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Q31 (a general search-engine question) remains review-only because the official Code 25 syllabus provides no defensible unit match.
 - Existing source and official final-key checks were preserved; answer letters and question text were not changed. All mapped records were already source_verified and answer_key_verified with four English options.
 - Commits: questions `0484b00cdd1b2d8b12bb76878eb0d26ff129244a`, `ee79d05e7076ab431dae34a111bf9a346889337c`; manifest `2761592ce66aef3a25852168bd595620333536d7`, `18473a8f647b944d58b3dcbf89665133f55bb217`.
+
+
+## Social Work Code 25 — November 2023 syllabus mapping batch (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf
+- 99/100 questions received verified mappings across Units I–X. Unit distribution: I: 9; II: 14; III: 5; IV: 10; V: 10; VI: 9; VII: 10; VIII: 8; IX: 13; X: 11.
+- Q21 (“bug in the ear” / field-work supervision) remains review-only because the Code 25 syllabus does not explicitly identify field-work supervision as a separate topic. No unsupported mapping was assigned.
+- Existing source-page checks, official final-key checks, question text, options and answer letters were preserved; all 99 mapped records were already source_verified and answer_key_verified with four English options.
+- Commits: questions `217c9a9f558fe241e82f291a06ffbc2f5c8719b6`; manifest `b8244c3d72903af9049c91933c93e137064ca373`.
