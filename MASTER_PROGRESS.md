@@ -1622,3 +1622,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q1–Q2 Unit II; Q3 Unit VIII; Q4–Q7 Unit IV; Q8 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - All eight were already source_verified and answer_key_verified. No question/answer or source flags changed. Verified mappings: 111 → 119; pending: 73 → 65 (192 records).
 - Questions commit: d6956a3d970e2102393174877b43a94cdc2ccc49; checkpoint commit: 42c4277a55cc1dffa354c87fd557fac4e518b77f. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q9–Q16 mapping
+- Mapped Q9 Unit IV; Q10 Unit I; Q11–Q13 Unit IV; Q14 Unit VIII; Q16 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q15 held because V. Raghavan is not explicitly listed in the official prescribed topics. Seven existing source/key-verified records mapped; verified mappings: 119 → 126; pending: 65 → 58.
+- Questions commit: c612e1f7fc7274e190415764a52c64ddf4e8abc6; checkpoint commit: c8d348a0153a70b4e1888c736f6863fc347aa14b. PR #22 remains open/unmerged.
