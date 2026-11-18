@@ -1110,3 +1110,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 now has 98/100 verified mappings. Q24 (MOOC) and Q26 (image-file extensions) remain review-only because these are not explicitly identified as Social Work syllabus topics.
 - Source and official final-key flags were already verified for all mapped records; answer letters, stems and options were not changed.
 - Commits: questions `c1868a3cdff92941824c28eaf51e26acf5d0f9ba`; manifest `f6f32d10d9a610463f0984d4f4fd7c28cc8c824d`.
+
+
+## Social Work Code 25 — December 2024 syllabus mapping review (18 November 2026)
+- 29 additional questions mapped to the official Code 25 syllabus: Q1–Q23, Q32, Q54, Q60, Q61, Q63 and Q76.
+- December 2024 now has 84/85 verified mappings. Q56 (productivity as a mathematical input-output relationship) remains review-only because no exact syllabus topic is explicit.
+- Q1–Q85 source verification and official FINAL answer-key parity remain unchanged; no question text, options or answer letters were modified. Q86–Q100 are still not transcribed.
+- Commits: questions `910f4817af60ed06472eb3453f8742e282ac95da`; manifest `24e67f555d1090b5eef6408cf7c803d3bd4e280d`.
