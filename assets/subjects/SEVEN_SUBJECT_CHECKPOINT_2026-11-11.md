@@ -1174,3 +1174,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 46 → 53; pending: 146 → 139 (192 canonical records). No source verification or activation was claimed.
 - Questions commit: `5825f2e4b8ff650f8540a9229221d554cb8b1f78`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q41–Q48, only where exact syllabus coverage exists.
+
+
+## Sanskrit Code 07 — November 2023 Q41–Q48 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without modifying question text/options/answers: Q41 Unit VIII (Venisamhara); Q42 Unit X (Yajnavalkya Smriti, Vyavahara); Q43–Q45 Unit X (historical epigraphy); Q46 Unit VIII (dramatic theory); Q47 Unit VIII (Uttararamacharita); Q48 Unit VIII (Ratnavali).
+- Sanskrit verified mappings: 53 → 61; pending: 139 → 131 (192 canonical records). Q33 remains absent from the current canonical JSON; it was not fabricated.
+- Questions commit: `01ca95d8e02286210103c89b3c7ad51e2b003e57`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q49–Q56, subject to exact syllabus coverage.
