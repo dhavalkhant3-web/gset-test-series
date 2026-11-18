@@ -1103,3 +1103,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - All 100 records already had source_verified=true, answer_key_verified=true and four English options. Question stems, options and answer letters were not modified.
 - Manifest: unit_mapping_verified_count=100; unit_mapping_pending_count=0; review_flags_remaining_count=0; status=source_verified_final_key_reconciled_syllabus_mapped.
 - Questions file SHA after update: `0ae5e460fbc5fa76bd9b988d3e05cd45a849668f`; manifest SHA: `e715e677f756cab6d046165d738ec145c562d1aa`.
+
+
+## Social Work Code 25 — November 2022 mapping review continued (18 November 2026)
+- 16 additional questions mapped to explicit topics in the official Code 25 syllabus: Q25, Q28, Q65, Q77–Q87, Q93 and Q98.
+- November 2022 now has 98/100 verified mappings. Q24 (MOOC) and Q26 (image-file extensions) remain review-only because these are not explicitly identified as Social Work syllabus topics.
+- Source and official final-key flags were already verified for all mapped records; answer letters, stems and options were not changed.
+- Commits: questions `c1868a3cdff92941824c28eaf51e26acf5d0f9ba`; manifest `f6f32d10d9a610463f0984d4f4fd7c28cc8c824d`.
