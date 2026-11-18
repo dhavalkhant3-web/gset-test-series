@@ -1534,3 +1534,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Commits: questions 7d9ac14059180b0ee7480a2134d0572abd9deaa1; manifest 910a49a882300fbcae0895fe2ca718ee24ba4dbd; checkpoint 40875a6076c8bd0b2b908134ec97d91f8b6c5574.
 - PR #22 remains open and unmerged; no CI/Combined APK PASS is claimed. Other subjects and protected areas remain untouched.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q1–Q8 syllabus mapping
+- Mapped 8 existing source/key-verified questions to official Code 07 syllabus: Q1 Unit VIII; Q2–Q8 Unit VI.
+- Used https://gujaratset.ac.in/assets/syllabus/07.pdf, printed pages 4–5. No question text, options, answer letters, or source flags changed.
+- Sanskrit verified mappings: 14 → 22; pending mappings: 178 → 170 (192 canonical records). No automatic activation or source-verification claim.
+- Questions commit: 41ac81955e5bcb4881c7d3666e95daa020d89904; checkpoint commit: 39f2f6a6031e6dd1fc3d030acd92007325f6f5f5.
+- PR #22 remains open and unmerged. Protected subjects and all other subject files untouched.
