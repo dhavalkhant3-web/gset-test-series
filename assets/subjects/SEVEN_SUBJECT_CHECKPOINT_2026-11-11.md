@@ -1232,3 +1232,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 107 → 111; pending: 85 → 81 (192 canonical records). Q33 remains absent from the November 2023 canonical set; Q80 and Q92 remain unmapped due to no explicit prescribed-text fit.
 - Questions commit: `c037195522aae7d75a8ac545e3420d339f593e3c`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next: audit Sanskrit December 2024 Q1–Q8 mapping; do not assume that other sessions have the same unit distribution.
+
+
+## Sanskrit Code 07 — November 2025 Q1–Q8 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight existing source-verified and final-key-verified records without changing stems/options/answers: Q1–Q2 Unit II (Taittiriya/Kena Upanishads); Q3 Unit VIII (Chhanda); Q4–Q7 Unit IV (Mimamsa, Vaisheshika, Sankhya and Yoga); Q8 Unit VIII (prescribed Sanskrit authors/works).
+- All eight passed source and final-key gates before mapping; no source flags or activation changed.
+- Sanskrit total verified mappings: 111 → 119; pending official mappings: 73 → 65 (192 canonical records). November 2023 Q33 absent; Q80 and Q92 held pending explicit fit.
+- Questions commit: `d6956a3d970e2102393174877b43a94cdc2ccc49`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Sanskrit November 2025 Q9–Q16; inspect source/key flags individually before mapping.
