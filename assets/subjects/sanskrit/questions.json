@@ -1147,8 +1147,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Vedic studies: Naradiya Shiksha and the Sama Veda",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1167,7 +1167,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit I",
+    "unit_number": 1,
+    "unit_id": "unit_1",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit I explicitly lists Vedanga Shiksha and the Vedic tradition."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q026",
@@ -1189,8 +1194,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit literature: Mahabharata-based and classical drama",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1209,7 +1214,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII includes Sanskrit drama and prescribed literary works including Abhijnana Shakuntalam."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q027",
@@ -1231,8 +1241,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Puranic literature: Maurya dynasty in the Puranas",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1251,7 +1261,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit IX",
+    "unit_number": 9,
+    "unit_id": "unit_9",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IX explicitly covers Puranas and their historical narratives."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q028",
@@ -1273,8 +1288,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit grammar: correct sentence construction",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1293,7 +1308,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit VI",
+    "unit_number": 6,
+    "unit_id": "unit_6",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VI prescribes detailed Sanskrit grammar and grammatical usage."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q029",
@@ -1315,8 +1335,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit prosody: identification of Sanskrit metre",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1335,7 +1355,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII explicitly includes Chhanda Parichaya and prescribed metres."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q030",
@@ -1357,8 +1382,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Nyaya philosophy: six types of sense-object contact",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1377,7 +1402,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit IV",
+    "unit_number": 4,
+    "unit_id": "unit_4",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit IV explicitly includes Nyaya philosophy and its categories and epistemology."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q031",
@@ -1399,8 +1429,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit prose and Champu literature: Nalachampu",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1419,7 +1449,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII explicitly prescribes Nalachampu."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q032",
@@ -1441,8 +1476,8 @@
     "source_verified": true,
     "review_flag": false,
     "review_note": null,
-    "topic": "Syllabus mapping pending",
-    "syllabus_mapping_status": "pending_official_syllabus_mapping",
+    "topic": "Sanskrit poetics: Kuntaka's Vakrokti and Kavi-vyapara",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "November 2023 (exam date 26 Nov 2023)",
     "exam_date": "2023-11-26",
@@ -1461,7 +1496,12 @@
     "verification_status": "key_verified_visual_checked",
     "evaluation_status": "official_final_key_reconciled",
     "language": "sa",
-    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key."
+    "source_verification_note": "Question stem and all four options visually checked against official GSET November 2023 Sanskrit Paper-II PDF, pages 3–15; answer independently matched to the official final answer key.",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+    "syllabus_mapping_note": "Unit VIII explicitly prescribes Vakroktijivitam and Kavyashastra concepts."
   },
   {
     "id": "GSET-SAN07-NOV2023-Q034",
