@@ -1592,3 +1592,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q65–Q67 and Q72 to Unit VI grammar; Q68–Q71 to Unit VI Bhartrihari/Vakyapadiya, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Eight source/key-verified records mapped; question content and answers unchanged. Verified mappings: 77 → 85; pending: 115 → 107 (192 total).
 - Questions commit: 2da75d353fdf809e6d49fa6f82140844ab1d76e2; checkpoint commit: 9b619495de38234786b72343a30b04065ca24e39. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q73–Q79 mapping
+- Mapped Q73 Unit II; Q74–Q75 Unit VI; Q76 and Q78 Unit II; Q77 Unit X; Q79 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q80 retained pending because Vishrutacharita is not explicitly listed among prescribed works. Verified mappings: 85 → 92; pending: 107 → 100 (192 records). Q33 remains absent.
+- Questions commit: ba10c6af8526cdc4c43fba32f38f677140baf550; checkpoint commit: 1c972962fe8d7abe7e17a22e43980cab92faabba. PR #22 remains open/unmerged.
