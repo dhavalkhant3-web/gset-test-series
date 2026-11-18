@@ -7158,10 +7158,10 @@
     "official_answer": "B",
     "answer_key_verified": true,
     "source_verified": true,
-    "review_flag": true,
-    "review_note": "Question stem and four English options visually transcribed from official GSET December 2021 (January 2022) Social Work Paper-II PDF, PDF page 19. Answer independently matched to official final answer key. Syllabus-unit mapping pending.",
+    "review_flag": false,
+    "review_note": null,
     "topic": "",
-    "syllabus_mapping_status": "pending",
+    "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
     "exam_session": "December 2021 / January 2022 (exam date 23 January 2022)",
     "exam_date": "2022-01-23",
@@ -7182,8 +7182,11 @@
     "language": "en",
     "source_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2125.pdf",
     "source_verification_note": "English stem and four options visually checked against official source PDF, PDF page 19; final answer key independently checked. Syllabus mapping pending.",
-    "syllabus_mapping_source": "Official GSET Social Work Code 25 syllabus: https://www.gujaratset.ac.in/assets/syllabus/25.pdf",
-    "syllabus_unit": ""
+    "syllabus_mapping_source": "https://gujaratset.ac.in/assets/syllabus/25.pdf",
+    "syllabus_unit": "Unit VIII",
+    "unit_number": 8,
+    "unit_id": "unit_8",
+    "syllabus_mapping_note": "Official Code 25 Unit VIII explicitly covers the Indian Constitution, its Articles, Fundamental Rights and social justice; this question directly concerns Article 24 and the constitutional prohibition of child labour."
   },
   {
     "id": "GSET-SW25-DEC2021-Q057",
