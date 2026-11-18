@@ -29,12 +29,12 @@
       "question_source_verified": false,
       "source_verified": false,
       "status": "official_key_49_of_50_q46_blank_question_source_pending",
-      "answer_key_status": "OFFICIAL_SCAN_TRANSCRIBED_49_OF_50_Q46_NOT_PRINTED",
+      "answer_key_status": "USER_SUPPLIED_GSET_KEY_SCAN_VISUALLY_CHECKED_WITH_BLANK",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/january-2002-paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
-      "answer_key_source_file": "jan02_paper2.json",
-      "answer_key_verification_note": "49 printed choices transcribed from uploaded official scan; Q46 has no printed correct choice and remains null. Do not infer."
+      "answer_key_source_file": "jan0217.pdf",
+      "answer_key_verification_note": "Question 46 is visibly blank in the supplied key scan; not guessed. See audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json. Not yet independently confirmed against the official archive URL/hash."
     },
     {
       "paper_id": "commerce_2002_12",
@@ -54,12 +54,12 @@
       "question_source_verified": false,
       "source_verified": true,
       "status": "answer_key_verified_question_source_pending",
-      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_AND_VISUALLY_CHECKED",
+      "answer_key_status": "USER_SUPPLIED_GSET_KEY_SCAN_VISUALLY_CHECKED",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2002/december-2002-paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
-      "answer_key_source_file": "dec02_paper2.json",
-      "answer_key_verification_note": "50 choices transcribed from uploaded one-page GSET answer-key scan; Z markers preserved where printed."
+      "answer_key_source_file": "dec0217.pdf",
+      "answer_key_verification_note": "All 50 answer letters visually checked. See audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json. Not yet independently confirmed against the official archive URL/hash."
     },
     {
       "paper_id": "commerce_2003_12",
@@ -106,12 +106,12 @@
       "question_source_verified": false,
       "source_verified": true,
       "status": "answer_key_verified_question_source_pending",
-      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_AND_VISUALLY_CHECKED",
+      "answer_key_status": "USER_SUPPLIED_GSET_KEY_SCAN_VISUALLY_CHECKED",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2004/paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
-      "answer_key_source_file": "jul04_paper2.json",
-      "answer_key_verification_note": "50 choices transcribed from uploaded one-page GSET answer-key scan; Z markers preserved where printed."
+      "answer_key_source_file": "jy0417.pdf",
+      "answer_key_verification_note": "All 50 answer letters visually checked. See audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json. Not yet independently confirmed against the official archive URL/hash."
     },
     {
       "paper_id": "commerce_2006_07",
@@ -125,18 +125,18 @@
       "answer_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/jy06/jy0617.pdf",
       "questions_loaded": 0,
       "questions_count": 0,
-      "answer_key_verified": true,
-      "verified_answers_count": 50,
+      "answer_key_verified": false,
+      "verified_answers_count": 47,
       "pending_answer_count": 0,
       "question_source_verified": false,
       "source_verified": true,
       "status": "answer_key_verified_question_source_pending",
-      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_AND_VISUALLY_CHECKED",
+      "answer_key_status": "USER_SUPPLIED_GSET_KEY_SCAN_VISUALLY_CHECKED_WITH_BLANK",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2006/paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
-      "answer_key_source_file": "jul06_paper2.json",
-      "answer_key_verification_note": "50 choices transcribed from uploaded one-page GSET answer-key scan; Z markers preserved where printed."
+      "answer_key_source_file": "jy0617.pdf",
+      "answer_key_verification_note": "The scan prints Z at Q23, Q31 and Q35. These are preserved as dropped, not mapped to A-D. See audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json. Not yet independently confirmed against the official archive URL/hash."
     },
     {
       "paper_id": "commerce_2008_12",
@@ -156,12 +156,12 @@
       "question_source_verified": false,
       "source_verified": true,
       "status": "answer_key_verified_question_source_pending",
-      "answer_key_status": "USER_UPLOADED_OFFICIAL_SCAN_TRANSCRIBED_AND_VISUALLY_CHECKED",
+      "answer_key_status": "USER_SUPPLIED_GSET_KEY_SCAN_VISUALLY_CHECKED",
       "answer_key_candidate_reference_url": "https://examsrepo.com/previous-year-papers/gset-or-gujarat-state-eligibility-test/2008/paper-ii-commerce",
       "answer_key_candidate_reference_status": "MIRROR_PAGE_LISTS_ONE_PAGE_ANSWER_KEY_IMAGE_NOT_TRANSCRIBED_NOT_COUNTED_AS_VERIFIED",
       "answer_key_archive_discovered": true,
-      "answer_key_source_file": "dec08_paper2.json",
-      "answer_key_verification_note": "50 choices transcribed from uploaded one-page GSET answer-key scan; Z markers preserved where printed."
+      "answer_key_source_file": "dec0817.pdf",
+      "answer_key_verification_note": "All 50 answer letters visually checked. See audits/commerce_five_session_key_scan_reconciliation_2026-11-18.json. Not yet independently confirmed against the official archive URL/hash."
     },
     {
       "paper_id": "commerce_2010_10",
