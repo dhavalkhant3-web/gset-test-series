@@ -1263,3 +1263,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 134 → 141; pending: 50 → 43 (192 records). Q15 and Q29 held; no source/key flags changed.
 - Questions commit: `e61b659d2a39a3532b6d73b19854bb66986c29b9`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Sanskrit November 2025 Q33–Q40.
+
+
+## Sanskrit Code 07 — November 2025 Q33–Q39 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven source/key-verified records without changing text/options/answers: Q33 Unit VIII (Arthashlesha); Q34 and Q36 Unit II (Vedic deities); Q35 Unit V (phonetics); Q37 Unit VI (Dvandva); Q38 Unit VIII (Mudrarakshasa); Q39 Unit V (historical linguistics/Kentum-Satem).
+- Q40 (Trivikrama Bhatta verse) remains pending because the poet is not explicitly listed in the official prescribed author list.
+- Sanskrit verified mappings: 141 → 148; pending: 43 → 36 (192 records). Q15, Q29 and Q40 remain held.
+- Questions commit: `86beb401c057823912ebd9cc8b024addbe5fd0ec`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Sanskrit November 2025 Q41–Q48.
