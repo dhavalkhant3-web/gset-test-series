@@ -27,9 +27,13 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 100,
-      "status": "source_verified_final_key_reconciled_syllabus_mapping_pending",
-      "review_note": "All Q1–Q100 transcribed from the official December 2019 booklet and all answers match the official final answer key. Source verification and answer-key parity complete. All 100 retain review_flag=true pending official syllabus mapping; not to be treated as fully cleared."
+      "review_flags_remaining_count": 0,
+      "status": "source_verified_final_key_reconciled_syllabus_mapped",
+      "review_note": "All 100 questions were transcribed from the official December 2019 Social Work Paper-II source and all stored answers match the official final answer key. All 100 now have explicit topic-aligned mappings to the official Code 25 syllabus (Units I–X). Question text, options and answer letters were not changed.",
+      "unit_mapping_verified_count": 100,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 0,
+      "unit_mapping_status": "official_syllabus_mapping_verified"
     },
     {
       "paper_id": "social_work_dec2021",
