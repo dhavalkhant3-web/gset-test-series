@@ -1240,3 +1240,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit total verified mappings: 111 → 119; pending official mappings: 73 → 65 (192 canonical records). November 2023 Q33 absent; Q80 and Q92 held pending explicit fit.
 - Questions commit: `d6956a3d970e2102393174877b43a94cdc2ccc49`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Sanskrit November 2025 Q9–Q16; inspect source/key flags individually before mapping.
+
+
+## Sanskrit Code 07 — November 2025 Q9–Q16 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven existing source/key-verified records without changing text/options/answers: Q9 Unit IV (Buddhist philosophy); Q10 Unit I (Yajnavalkya Shiksha); Q11–Q13 Unit IV (Vedanta/Yoga); Q14 Unit VIII (Raghuvamsa); Q16 Unit IV (Sankhya).
+- Q15 (V. Raghavan's birth year) remains pending because the official syllabus does not explicitly list this modern scholar as a prescribed author/topic.
+- Sanskrit verified mappings: 119 → 126; pending: 65 → 58 (192 records). No source or key flags changed.
+- Questions commit: `c612e1f7fc7274e190415764a52c64ddf4e8abc6`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Sanskrit November 2025 Q17–Q24, subject to source/key and syllabus checks.
