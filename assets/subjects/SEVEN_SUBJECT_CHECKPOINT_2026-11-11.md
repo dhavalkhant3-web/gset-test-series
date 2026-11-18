@@ -1181,3 +1181,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 53 → 61; pending: 139 → 131 (192 canonical records). Q33 remains absent from the current canonical JSON; it was not fabricated.
 - Questions commit: `01ca95d8e02286210103c89b3c7ad51e2b003e57`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q49–Q56, subject to exact syllabus coverage.
+
+
+## Sanskrit Code 07 — November 2023 Q49–Q56 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without changing text/options/answers: Q49 Unit X (Kautilya Arthashastra); Q50–Q51 Unit IX (Ramayana/Purana); Q52–Q54 Unit II (Nirukta, Hiranyagarbha Sukta, Taittiriya Upanishad); Q55 Unit VI (Kashikavritti/grammar); Q56 Unit V (Grassmann's Law and phonetic change).
+- Sanskrit verified mappings: 61 → 69; pending: 131 → 123 (192 canonical records). Q33 remains absent from the canonical file and is not fabricated.
+- Questions commit: `4f7e9c0ca1c3d1cb6e03ef86a484f64393ac6737`. PR #22 remains open and unmerged; other subjects and protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q57–Q64.
