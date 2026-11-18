@@ -1526,3 +1526,11 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Source paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf ; FINAL key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf ; syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Commits: questions bfea560d530cdaf478bea27a61459e1cd8bf2ac7; paper metadata 67d8f5895c3225a0109c6989595d8bd10c3fe622; checkpoint update pending in this entry.
 - PR #22 remains open and unmerged. No other subject, Paper-I, Code 01, Code 02, Code 28 or app UI changed. No CI/Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q94
+- Added Q94 from official scan page index 28; all four English options checked. Official FINAL key C matched exactly; mapped to official Unit X (Social Work with Families and interventions).
+- December 2024 now 94/100 transcribed and 93 mapped. Review flags: Q56 (mapping), Q91 and Q92 (question/key interpretation). Q95–Q100 remain untranscribed because PDF page indexes 29–31 timed out during rendering and direct retrieval failed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Commits: questions 7d9ac14059180b0ee7480a2134d0572abd9deaa1; manifest 910a49a882300fbcae0895fe2ca718ee24ba4dbd; checkpoint 40875a6076c8bd0b2b908134ec97d91f8b6c5574.
+- PR #22 remains open and unmerged; no CI/Combined APK PASS is claimed. Other subjects and protected areas remain untouched.
