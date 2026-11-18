@@ -1751,3 +1751,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Refined Nov 2022 Q95 to Unit VI (natural resource management). Nov 2022 now 99 mapped; Q20 held; Q24/Q42 review flags retained.
 - Geography overall: 298 verified mappings, 4 provisional, 2 pending. Questions commit: 93a81678291f622bf6cf7b80d2fc0d0e26791bc7; manifest commit: 9e23bc561118afbe31492cf92500680dce6bc966; checkpoint commit: bebad387944a10d26423f8a32bc8c9e285a5f6b1.
 - PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Audit corrections and Social Work Nov 2025 source blocker
+- Corrected Geography Nov 2022 manifest to 98/100 mapped; Q20 and Q54 pending. Q95 was only a unit refinement, not a new mapping. Overall Geography: 298 verified, 4 provisional, 2 pending; 4 review flags.
+- Confirmed Social Work Nov 2025 official final answer key (100 entries) at https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf. Official question PDF URL recorded, but 10.86 MB exceeded web fetch limit and Firecrawl credits were exhausted. No question transcription or visual verification claimed; practice availability remains blocked.
+- Geography manifest commit: 5ff5f3fb4ed0e4d7da2ff4a44d082254520fa31b; Social Work manifest commit: 598fb9334f3b10511bfda4d8b377742917118be2; checkpoint commit: 3916e41dc8d82b79f5e4ba9270755021c4d86987. PR #22 remains open/unmerged; no current CI PASS claimed.
