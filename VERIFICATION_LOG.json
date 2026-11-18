@@ -7284,5 +7284,265 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "event": "Social Work Code 25 December 2024 Q24-Q31 official visual verification, final-key parity and syllabus mapping",
+    "subject_code": "25",
+    "session": "December 2024",
+    "question_range": "Q24-Q31",
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf",
+    "source_pdf_page_indexes_zero_based": [
+      10,
+      11
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf",
+    "syllabus": "https://gujaratset.ac.in/assets/syllabus/25.pdf",
+    "questions": [
+      {
+        "id": "GSET-SW25-DEC2024-Q024",
+        "question_no": 24,
+        "answer": "C",
+        "unit": "Unit II",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q025",
+        "question_no": 25,
+        "answer": "A",
+        "unit": "Unit II",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q026",
+        "question_no": 26,
+        "answer": "B",
+        "unit": "Unit III",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q027",
+        "question_no": 27,
+        "answer": "D",
+        "unit": "Unit III",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q028",
+        "question_no": 28,
+        "answer": "A",
+        "unit": "Unit III",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q029",
+        "question_no": 29,
+        "answer": "D",
+        "unit": "Unit III",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q030",
+        "question_no": 30,
+        "answer": "C",
+        "unit": "Unit II",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      },
+      {
+        "id": "GSET-SW25-DEC2024-Q031",
+        "question_no": 31,
+        "answer": "B",
+        "unit": "Unit IV",
+        "source_verified": true,
+        "answer_key_verified": true,
+        "review_flag": false,
+        "mapping_status": "verified"
+      }
+    ],
+    "final_key_parity": {
+      "checked": 8,
+      "matches": 8,
+      "mismatches": 0,
+      "official_answers": [
+        "C",
+        "A",
+        "B",
+        "D",
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    "visual_source_review": {
+      "checked": 8,
+      "all_stems_and_four_english_options_match": true,
+      "source_pdf_page_indexes_zero_based": [
+        10,
+        11
+      ],
+      "figures_or_tables": 0,
+      "english_column_only": true,
+      "gujarati_transcription_added": false
+    },
+    "syllabus_mapping": {
+      "verified": 8,
+      "provisional": 0,
+      "pending": 0,
+      "units": {
+        "Unit II": [
+          24,
+          25,
+          30
+        ],
+        "Unit III": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "Unit IV": [
+          31
+        ]
+      }
+    },
+    "before": {
+      "social_work_records": 423,
+      "active": 27,
+      "review_only": 396,
+      "dec2024_transcribed": 23,
+      "dec2024_missing": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "social_work_not_transcribed": 177
+    },
+    "after": {
+      "social_work_records": 431,
+      "active": 35,
+      "review_only": 396,
+      "dec2024_transcribed": 31,
+      "dec2024_missing": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "dec2024_review_only": 23,
+      "dec2024_newly_active": 8,
+      "social_work_not_transcribed": 169
+    },
+    "remaining": {
+      "dec2024_untranscribed": 69,
+      "nov2025_untranscribed": 100,
+      "total_social_work_untranscribed": 169
+    },
+    "next_batch": {
+      "subject": "Social Work",
+      "session": "December 2024",
+      "question_range": "Q32-Q39",
+      "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf",
+      "final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf"
+    },
+    "non_actions": [
+      "No other subject changed",
+      "No Code 01 or Code 02 files changed",
+      "No Code 28 or Paper-I files changed",
+      "No app UI changed",
+      "No PR merged",
+      "No CI/APK pass claimed"
+    ]
   }
 ]
