@@ -1,0 +1,52 @@
+{
+  "audit_id": "COMMERCE_DEC2003_SOURCE_PAGE_MAP_2026-11-18",
+  "subject_code": "17",
+  "subject": "Commerce",
+  "paper": "Paper-II",
+  "session": "7 December 2003",
+  "source_file": "dec0317(1).pdf",
+  "source_pages_total": 18,
+  "question_pages": [3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+  "question_count_expected": 50,
+  "question_page_ranges": [
+    {"pdf_page":3,"printed_page":3,"questions":[1]},
+    {"pdf_page":4,"printed_page":4,"questions":[2,3,4]},
+    {"pdf_page":5,"printed_page":5,"questions":[5,6,7]},
+    {"pdf_page":6,"printed_page":6,"questions":[8]},
+    {"pdf_page":7,"printed_page":7,"questions":[9,10,11]},
+    {"pdf_page":8,"printed_page":8,"questions":[12,13,14,15]},
+    {"pdf_page":9,"printed_page":9,"questions":[16,17,18]},
+    {"pdf_page":10,"printed_page":10,"questions":[19,20,21]},
+    {"pdf_page":11,"printed_page":11,"questions":[22,23,24,25,26]},
+    {"pdf_page":12,"printed_page":12,"questions":[27,28,29,30,31]},
+    {"pdf_page":13,"printed_page":13,"questions":[32,33,34,35]},
+    {"pdf_page":14,"printed_page":14,"questions":[36,37,38,39,40,41]},
+    {"pdf_page":15,"printed_page":15,"questions":[42,43,44,45,46]},
+    {"pdf_page":16,"printed_page":16,"questions":[47,48,49,50]}
+  ],
+  "coverage_check": {
+    "unique_question_numbers_mapped": 50,
+    "missing_question_numbers": [],
+    "duplicate_question_numbers": [],
+    "page_mapping_status": "SOURCE_PAGE_MAP_COMPLETE",
+    "transcription_status": "OCR_DRAFT_ONLY_NOT_HUMAN_VERIFIED",
+    "bilingual_visual_signoff": false,
+    "answer_key_final_provenance": "NOT_INDEPENDENTLY_CONFIRMED",
+    "production_publishable": false
+  },
+  "known_ocr_risks": [
+    "Gujarati glyphs and option labels are frequently misrecognized.",
+    "Several question numbers are OCR-corrupted (for example, Q37 and Q38 appear as 87/88 in extracted text).",
+    "Mathematical symbols, accounting notation, amounts and percentages require page-image comparison.",
+    "Question text and all four options must be checked against the source page before promotion to verified records.",
+    "Page 17 and page 18 are rough-work/blank pages and do not contain question records."
+  ],
+  "next_required_actions": [
+    "Human visual transcription of English stems and options for Q1-Q50.",
+    "Human visual transcription of Gujarati stems and options for Q1-Q50.",
+    "Preserve diagrams, tables, symbols and numerical values exactly as printed.",
+    "Cross-check the session's Paper-II final answer key against an official GSET archive source.",
+    "Run schema validation only after source-verified question records are populated."
+  ],
+  "integrity_note": "This audit records source-page coverage only. It does not certify OCR accuracy, bilingual transcription, answers, syllabus mapping, or production readiness."
+}
