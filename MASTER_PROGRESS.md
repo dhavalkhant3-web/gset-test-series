@@ -1568,3 +1568,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Q33 was not found in the current canonical JSON; no content was fabricated or added.
 - Verified mappings: 46 → 53; pending: 146 → 139 (192 records). Seven existing source/key-verified records mapped; question text/options/answers unchanged.
 - Questions commit: 5825f2e4b8ff650f8540a9229221d554cb8b1f78; checkpoint commit: 6ebbc31a12485a4c9867ab4deec55d6b444dd297. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q41–Q48 syllabus mapping
+- Mapped Q41 Unit VIII; Q42–Q45 Unit X; Q46–Q48 Unit VIII using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 53 → 61; pending: 139 → 131 (192 total). Q33 remains absent from canonical JSON.
+- Questions commit: 01ca95d8e02286210103c89b3c7ad51e2b003e57; checkpoint commit: 7ffb22d28db009dacee3c86227137d77dcb24b6b. PR #22 remains open/unmerged.
