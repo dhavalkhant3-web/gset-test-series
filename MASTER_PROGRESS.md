@@ -1634,3 +1634,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q17 Unit VIII; Q18–Q19 Unit X; Q20–Q23 Unit VIII; Q24 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Eight source/key-verified records mapped; no question/answer changes. Verified mappings: 126 → 134; pending: 58 → 50 (192 records). Q15 remains pending.
 - Questions commit: 9244caf18c989b3bc5670f4c7fd8b0d8de3dc475; checkpoint commit: d1db1a207ae8f47be1a2d59a94f58c9fdbd4c7f2. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q25–Q32 mapping
+- Mapped Q25–Q26 Unit IV; Q27 Unit VIII; Q28 Unit VI; Q30–Q31 Unit VI; Q32 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q29 held because Tattvadipika/Ramananda is not explicit in the official syllabus. Seven source/key-verified records mapped. Verified mappings: 134 → 141; pending: 50 → 43 (192 total). Q15 and Q29 held.
+- Questions commit: e61b659d2a39a3532b6d73b19854bb66986c29b9; checkpoint commit: 393eea5b6abb2cce58a0182c10622d4caffce307. PR #22 remains open/unmerged.
