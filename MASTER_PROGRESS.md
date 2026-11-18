@@ -1646,3 +1646,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q33 Unit VIII; Q34 and Q36 Unit II; Q35 Unit V; Q37 Unit VI; Q38 Unit VIII; Q39 Unit V, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q40 held because Trivikrama Bhatta is not explicitly listed in the official prescribed author list. Verified mappings: 141 → 148; pending: 43 → 36 (192 records). Q15, Q29, Q40 held.
 - Questions commit: 86beb401c057823912ebd9cc8b024addbe5fd0ec; checkpoint commit: 68d55259fb37992b0734b1c4c823fd904100fc14. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q41–Q48 mapping
+- Mapped Q41 Unit X; Q42–Q43 Unit VIII; Q44–Q46 Unit V; Q47 Unit II; Q48 Unit VI, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 148 → 156; pending: 36 → 28 (192 records). Q15, Q29 and Q40 remain held.
+- Questions commit: bbd4a1a191c823cb29517f7f274756b2cdc6f6b8; checkpoint commit: e010ca6c5dca862cf0ada15924b685eacc284409. PR #22 remains open/unmerged.
