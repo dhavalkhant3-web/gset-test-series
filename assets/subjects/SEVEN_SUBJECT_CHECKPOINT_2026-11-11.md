@@ -1188,3 +1188,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 61 → 69; pending: 131 → 123 (192 canonical records). Q33 remains absent from the canonical file and is not fabricated.
 - Questions commit: `4f7e9c0ca1c3d1cb6e03ef86a484f64393ac6737`. PR #22 remains open and unmerged; other subjects and protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q57–Q64.
+
+
+## Sanskrit Code 07 — November 2023 Q57–Q64 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without modifying text/options/answers: Q57 Unit V (phonetics); Q58 Unit IV (Sankhya); Q59 Unit V (phonetic classification); Q60 Unit VI (Samasa); Q61 Unit X (Brahmi decipherment); Q62 Unit II (Vedic accents); Q63 Unit V (linguistics); Q64 Unit VI (Sandhi).
+- Sanskrit verified mappings: 69 → 77; pending: 123 → 115 (192 canonical records). Q33 remains absent and uncreated.
+- Questions commit: `3f33ef89a0f9b59142d0a180c3e7341f7d46c7d5`. PR #22 remains open and unmerged; all other subjects and protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q65–Q72.
