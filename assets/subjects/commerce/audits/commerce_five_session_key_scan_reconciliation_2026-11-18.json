@@ -1,0 +1,69 @@
+{
+  "audit_id": "COMMERCE_CODE17_FIVE_SESSION_KEY_SCAN_RECONCILIATION_2026-11-18",
+  "subject_code": "17",
+  "subject": "Commerce",
+  "method": "High-resolution visual inspection of each user-supplied one-page GSET Paper-II Commerce key scan; OCR used only as a reading aid. No answer was calculated or inferred.",
+  "source_status": "USER_SUPPLIED_GSET_KEY_SCANS_VISUALLY_CHECKED; official-final-key provenance still requires URL/hash cross-check against the GSET archive.",
+  "sessions": [
+    {
+      "exam_id": "GSET_2002_01",
+      "label": "January 2002",
+      "file": "jan0217.pdf",
+      "answers": 49,
+      "blank": [
+        46
+      ],
+      "dropped": [],
+      "note": "Question 46 is visibly blank in the supplied key scan; not guessed."
+    },
+    {
+      "exam_id": "GSET_2002_12",
+      "label": "December 2002",
+      "file": "dec0217.pdf",
+      "answers": 50,
+      "blank": [],
+      "dropped": [],
+      "note": "All 50 answer letters visually checked."
+    },
+    {
+      "exam_id": "GSET_2004_07",
+      "label": "July 2004",
+      "file": "jy0417.pdf",
+      "answers": 50,
+      "blank": [],
+      "dropped": [],
+      "note": "All 50 answer letters visually checked."
+    },
+    {
+      "exam_id": "GSET_2006_07",
+      "label": "July 2006",
+      "file": "jy0617.pdf",
+      "answers": 47,
+      "blank": [],
+      "dropped": [
+        23,
+        31,
+        35
+      ],
+      "note": "The scan prints Z at Q23, Q31 and Q35. These are preserved as dropped, not mapped to A-D."
+    },
+    {
+      "exam_id": "GSET_2008_12",
+      "label": "December 2008",
+      "file": "dec0817.pdf",
+      "answers": 50,
+      "blank": [],
+      "dropped": [],
+      "note": "All 50 answer letters visually checked."
+    }
+  ],
+  "totals": {
+    "sessions": 5,
+    "question_slots": 250,
+    "answer_letters_verified": 246,
+    "explicit_Z_dropped": 3,
+    "blank_unanswered": 1,
+    "unresolved_slots": 4
+  },
+  "policy": "Only A/B/C/D printed on the scan are recorded as answers. Z entries remain dropped. Blank entries remain pending. This audit does not claim independent official-final-key confirmation."
+}
