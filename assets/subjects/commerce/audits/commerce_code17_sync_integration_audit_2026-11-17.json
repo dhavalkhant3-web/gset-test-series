@@ -5,9 +5,10 @@
   "audit_date": "2026-11-18",
   "master_sync": {
     "canonical_repository_question_bank": "NOT_FOUND: no assets/subjects/commerce/questions.json or equivalent production question-bank file exists in the inspected Commerce subtree.",
-    "local_master": "gset_commerce_17_master_oct2011_visual_signed_off.json",
+    "local_master": "gset_commerce_17_master_updated_dec2003_answers.json",
     "local_master_schema": "GSET_Android_Test_Series_Question_Bank v2.0.0; 19 sessions; 1300 slots",
-    "limitation": "The signed-off local Master JSON contains 1,300 questions across 19 sessions. The current GitHub connector accepts UTF-8 text/base64 content but does not expose a direct local-file upload handoff in this workflow. Repository metadata and audit records are being synchronized separately; the full Master JSON remains not synchronized."
+    "limitation": "The signed-off local Master JSON contains 1,300 questions across 19 sessions. The current GitHub connector accepts UTF-8 text/base64 content but does not expose a direct local-file upload handoff in this workflow. Repository metadata and audit records are being synchronized separately; the full Master JSON remains not synchronized.",
+    "full_master_sync_status": "NOT_SYNCHRONIZED: updated 1,300-record Master JSON remains a local output; the GitHub connector actions available in this workflow accept text payloads but do not provide a local-container-file upload handoff."
   },
   "october_2011": {
     "source_booklet": "oct1117 (1).pdf",
@@ -46,5 +47,11 @@
     "pr_created": false,
     "merged": false
   },
-  "correction_note": "Supersedes the stale 1/50 and 49-pending statements: the user supplied an updated signed-off Master JSON and a separate visual sign-off audit proving Q1-Q50 (50/50) and 200 bilingual option fields checked against the original booklet, with zero exceptions. Official final answer key remains 50/50. Full signed-off Master JSON is not yet synchronized to GitHub; no claim of production integration is made."
+  "correction_note": "October 2011 is complete 50/50 and must not be repeated. December 2003 official final answer key is newly reconciled 50/50. Remaining global pending answer-key slots: 250. Full updated Master JSON and production questions.json are still not synchronized/created.",
+  "answer_key_progress": {
+    "previous_pending": 300,
+    "newly_reconciled": "GSET_2003_12 — 50/50 from uploaded GSET final answer-key scan",
+    "current_pending": 250,
+    "evidence": "audits/commerce_dec2003_official_final_key_reconciliation_2026-11-18.json"
+  }
 }
