@@ -1127,3 +1127,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Commits: questions `bfea560d530cdaf478bea27a61459e1cd8bf2ac7`; paper manifest `67d8f5895c3225a0109c6989595d8bd10c3fe622`.
 - No other subject, Paper-I, Code 01, Code 02, Code 28, or app UI changed. PR #22 remains open and unmerged. CI/Combined APK status must be checked separately; no APK PASS is claimed.
 - Next batch: Social Work Code 25, December 2024 Q94–Q100.
+
+
+## Social Work Code 25 — December 2024 Q94 (18 November 2026)
+- Official GSET December 2024 Social Work paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf. Q94 stem and all four options visually checked on zero-based PDF page index 28; no figure/table. Gujarati-side text not transcribed.
+- Official FINAL key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf. Q94 = C; stored answer matches exactly.
+- Official Code 25 syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf. Q94 mapped to Unit X (Social Work with Families; family dynamics and interventions).
+- December 2024 now 94/100 transcribed; 93 mapped. Review-only: Q56 (mapping), Q91 and Q92 (official-key/question wording requires subject-expert review). Q95–Q100 remain untranscribed: attempts to render official PDF page indexes 29–31 timed out, and direct PDF retrieval failed. No transcription or visual verification is claimed for Q95–Q100.
+- Commits: questions `7d9ac14059180b0ee7480a2134d0572abd9deaa1`; paper manifest `910a49a882300fbcae0895fe2ca718ee24ba4dbd`.
+- PR #22 remains open and unmerged. No other subject, Paper-I, Code 01, Code 02, Code 28 or app UI changed. No CI/Combined APK PASS is claimed.
+- Next: continue Q95–Q100 only after official PDF pages are retrievable; otherwise switch to another independently verifiable subject batch.
