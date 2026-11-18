@@ -1078,3 +1078,12 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - These 59 records already had source_verified=true, answer_key_verified=true, and four English options; those values and answers were not changed. Each mapped record now has syllabus_mapping_status=verified, official syllabus source, unit fields, and review_flag=false.
 - 18 remain review-only: Q24–Q26, Q28, Q65, Q77–Q87, Q93, Q98. No unsupported mappings were assigned.
 - Commits: questions `18d3d27bbeda2983b55bc2ca12bae05426deff71`; manifest `5e059d957bb23e19ee406089f8fb7f0aa623cd55`; manifest note correction `5e531efd855c9be21d6a94da69803519779df8e1`.
+
+
+## Social Work Code 25 — December 2021 syllabus mapping batch (18 November 2026)
+- Official syllabus used: https://gujaratset.ac.in/assets/syllabus/25.pdf
+- 95 additional questions were mapped in this batch: 94 first-pass mappings plus Q56 (Article 24 / child labour) after a final explicit constitutional check. Together with the earlier Q32–Q35, 99/100 questions now have verified unit mappings.
+- Unit distribution of the 95 new mappings: Unit I: 10; Unit II: 7; Unit III: 6; Unit IV: 3; Unit V: 9; Unit VI: 1; Unit VII: 11; Unit VIII: 32; Unit IX: 9; Unit X: 13.
+- Q31 (a general search-engine question) remains review-only because the official Code 25 syllabus provides no defensible unit match.
+- Existing source and official final-key checks were preserved; answer letters and question text were not changed. All mapped records were already source_verified and answer_key_verified with four English options.
+- Commits: questions `0484b00cdd1b2d8b12bb76878eb0d26ff129244a`, `ee79d05e7076ab431dae34a111bf9a346889337c`; manifest `2761592ce66aef3a25852168bd595620333536d7`, `18473a8f647b944d58b3dcbf89665133f55bb217`.
