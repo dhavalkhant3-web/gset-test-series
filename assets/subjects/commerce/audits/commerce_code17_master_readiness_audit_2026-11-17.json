@@ -12,16 +12,16 @@
     "production_bank_synced": false
   },
   "verified_counts": {
-    "official_answers": 1000,
+    "official_answers": 1050,
     "official_answers_status_breakdown": {
       "VERIFIED_OFFICIAL_KEY": 950,
-      "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 50
+      "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 100
     },
     "october_2011_bilingual_question_stems": 50,
     "october_2011_bilingual_options": 200
   },
   "pending_counts": {
-    "official_answer_key_ocr_or_missing": 300,
+    "official_answer_key_ocr_or_missing": 250,
     "question_stems_english_missing_or_pending": 1250,
     "question_stems_gujarati_missing_or_pending": 1250,
     "records_with_all_four_english_options_missing_or_incomplete": 1250,
@@ -30,8 +30,10 @@
     "october_2011_bilingual_question_records": 0
   },
   "answer_status_breakdown": {
+    "VERIFIED_OFFICIAL_KEY": 950,
+    "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 100,
     "PENDING_ANSWER_KEY_OCR": 250,
-    "MISSING_OFFICIAL_KEY_PDF": 50
+    "MISSING_OFFICIAL_KEY_PDF": 0
   },
   "question_extraction_status_breakdown": {
     "PENDING_OCR_FROM_OFFICIAL_PDF": 1250,
@@ -60,7 +62,8 @@
       "slots": 50,
       "english_stems": 0,
       "gujarati_stems": 0,
-      "answers": 0
+      "answers": 50,
+      "answer_key_status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY_50_OF_50"
     },
     {
       "exam_id": "GSET_2004_07",
@@ -191,12 +194,11 @@
       "answers": 100
     }
   ],
-  "critical_finding": "The signed-off October 2011 source audit confirms all 50 bilingual question records and 200 English/Gujarati option fields visually checked against the original booklet, with no exceptions; official final answer key remains 50/50. Across the 1,300-slot archive, 1,250 records still lack bilingual question text/options, 300 answer slots remain pending OCR or missing official key, and all 1,300 syllabus mappings remain unassigned. The signed-off local Master JSON has not yet been synchronized to the repository; no production questions.json exists.",
+  "critical_finding": "The October 2011 bilingual source sign-off is complete (50/50 stems and 200/200 bilingual option fields; no exceptions). A separate uploaded GSET final answer-key scan for December 2003 has now been visually transcribed and reconciled for all 50 answers, reducing pending answer-key slots from 300 to 250. Across the 1,300-slot archive, 1,250 records still lack bilingual question text/options, 250 answer slots remain pending OCR, and all 1,300 syllabus mappings remain unassigned. The complete updated Master JSON is available as a local output but has not yet been synchronized to GitHub; no production questions.json exists.",
   "next_execution_order": [
-    "Synchronize the user-supplied signed-off 1,300-slot Master JSON to the staging branch without changing main.",
-    "Obtain/verify official source PDFs and final answer keys for the 2002-2008 sessions and fill answer-key gaps without inference.",
-    "OCR and human-verify bilingual question text/options session by session from official booklets; October 2011 is complete and must not be repeated.",
-    "Reconcile the 300 pending/missing answer slots to official final keys.",
+    "Synchronize the updated signed-off 1,300-slot Master JSON to the staging branch and verify the fetched-back content/hash.",
+    "Continue bilingual question transcription from official booklets; October 2011 is complete and must not be repeated.",
+    "Reconcile the remaining 250 answer slots against official final answer keys; never infer missing answers.",
     "Map syllabus units only after question text is source-verified.",
     "Create production questions.json in the app's expected schema after data validation.",
     "Run Flutter analyze, tests, debug build and Combined APK validation."
@@ -212,6 +214,7 @@
     "pr_created": false,
     "merged": false,
     "no_answers_or_questions_fabricated": true,
-    "october_2011_visual_signoff": "50/50 stems and 200/200 bilingual option fields; sign-off audit has zero exceptions"
+    "october_2011_visual_signoff": "50/50 stems and 200/200 bilingual option fields; zero exceptions",
+    "december_2003_final_key": "50/50 choices transcribed from uploaded final-key scan"
   }
 }
