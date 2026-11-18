@@ -1610,3 +1610,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q89 Unit IV; Q90 Unit VIII; Q91 Unit IX; Q93 Unit VI; Q94 Unit IV; Q95 Unit VIII; Q96 Unit II, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q92 retained pending because Varnikar's Shivrajyodaya is not explicitly listed in the prescribed works. Verified mappings: 100 → 107; pending: 92 → 85 (192 records). Q33 and Q80 remain unresolved holds.
 - Questions commit: 03221f701f0901a6807234f8523f30466122b876; checkpoint commit: 2dde4a885a75f6425ffe63a7104c877449ef6b41. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q97–Q100 mapping
+- Mapped Q97 Unit II; Q98 Unit IV; Q99–Q100 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Four source/key-verified records mapped; no question or answer changes. Verified mappings: 107 → 111; pending: 85 → 81 (192 total). Q33 absent; Q80/Q92 retained pending.
+- Questions commit: c037195522aae7d75a8ac545e3420d339f593e3c; checkpoint commit: b65a06c3ce26492c6eb1664d214529efb80c4776. PR #22 remains open/unmerged.
