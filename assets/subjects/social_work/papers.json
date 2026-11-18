@@ -115,12 +115,12 @@
       "answer_key_question_parity_verified": false,
       "question_source_verified": 39,
       "source_verified": false,
-      "review_flags_remaining_count": 23,
+      "review_flags_remaining_count": 24,
       "status": "partial_source_verified_transcription_and_syllabus_review_pending",
-      "review_note": "Q1–Q39 are transcribed and visually checked against the official GSET December 2024 Social Work Paper-II PDF; all 39 stored answers match the official FINAL answer key. Q24–Q39 are mapped to official Code 25 Units II, III and IV (Q32 Unit I; Q33–Q39 Unit IV) and are active. Q1–Q23 remain review_flag=true pending syllabus mapping; Q40–Q100 remain untranscribed. Paper is incomplete.",
-      "unit_mapping_verified_count": 16,
-      "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 23,
+      "review_note": "Q1–Q39 are transcribed and visually checked against the official GSET December 2024 Social Work Paper-II PDF; all 39 stored answers match the official FINAL answer key. Q24–Q31 and Q33–Q39 (15 questions) have official syllabus mappings and are active. Q32 remains review-only: its Elizabethan Poor Law topic is not explicitly named in the official syllabus; Unit I is provisional. Q1–Q23 remain review_flag=true pending syllabus mapping; Q40–Q100 remain untranscribed. Paper is incomplete.",
+      "unit_mapping_verified_count": 15,
+      "unit_mapping_provisional_count": 1,
+      "unit_mapping_pending_count": 24,
       "unit_mapping_status": "partially_official_syllabus_mapped"
     },
     {
