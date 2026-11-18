@@ -1390,3 +1390,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 mapping audit complete: 98/100 mapped; Q20 (chronology of religions) and Q54 (mixed Unit V/VI concepts) remain pending rather than forcing a unit. Q24 and Q42 remain content-review flags; official final-key letters preserved. Manifest review count 4 (2 mapping holds + 2 content flags).
 - Questions commit: `0f8bbee9f909dfdddf2c481fc266381420ddc6b0`; manifest commit: `257cd6da72fadb61179ceeea64305a8698aeb898`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
 - Next: audit the three Geography provisional mappings from August 2017, then proceed to November 2022 review-only items Q20/Q54 only if explicit evidence is found.
+
+
+## Geography Code 24 — September 2018 Q1–Q6 mapping and Nov 2022 Q95 refinement (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mapped the six already source/key-verified September 2018 records: Q1 Unit VIII (Humboldt/Kosmos); Q2 Unit X (Indian river deltas); Q3 Unit II (CO2/greenhouse effect); Q4 Unit III (West Australian Current); Q5 Unit V (transhumance); Q6 Unit X (literacy/education). Q7–Q100 remain untranscribed.
+- Refined November 2022 Q95 to Unit VI because the official syllabus explicitly places natural resource management in Geography of Economic Activities and Regional Development. November 2022 now 99 mapped, 1 mapping hold (Q20), plus Q24/Q42 content-review flags.
+- Geography canonical file now has 298 verified mappings, 4 provisional mappings, and 2 pending mappings; 6 review-only flags remain (Q20, Q24, Q42, Q54, plus four provisional records remain separately provisional). September 2018 still has 94 untranscribed questions.
+- Questions commit: `93a81678291f622bf6cf7b80d2fc0d0e26791bc7`; manifest commit: `9e23bc561118afbe31492cf92500680dce6bc966`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
+- Next: audit the four provisional Aug 2017/Sept 2016 records and the two mapping holds, then continue transcription for Sep 2018.
