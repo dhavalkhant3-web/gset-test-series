@@ -48,13 +48,13 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 96,
-      "status": "source_verified_final_key_reconciled_syllabus_mapping_pending",
-      "review_note": "Q1–Q100 are now transcribed and source-checked against the official paper; all 100 stored answer letters match the official FINAL answer key. Q32–Q35 were recovered from zero-based PDF page index 12 and mapped directly to Code 25 Units V, V, VI and VI. The other 96 records remain review_flag=true pending official syllabus-unit mapping; this paper is not yet cleared as a full practice test.",
-      "unit_mapping_verified_count": 4,
+      "review_flags_remaining_count": 2,
+      "status": "source_verified_final_key_reconciled_syllabus_mapping_partially_verified",
+      "review_note": "Q1–Q100 are transcribed and source-checked against the official GSET December 2021 Social Work Paper-II PDF; all 100 stored answer letters match the official FINAL answer key. 94 additional questions have now been mapped to explicit topics in the official Code 25 syllabus (in addition to the 4 previously mapped Q32–Q35). 2 remain review-only because their syllabus placement is not sufficiently explicit: Q31, Q56. No unsupported syllabus units were assigned.",
+      "unit_mapping_verified_count": 98,
       "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 96,
-      "unit_mapping_status": "partially_official_syllabus_mapped"
+      "unit_mapping_pending_count": 2,
+      "unit_mapping_status": "official_syllabus_mapping_partially_verified"
     },
     {
       "paper_id": "social_work_nov2022",
