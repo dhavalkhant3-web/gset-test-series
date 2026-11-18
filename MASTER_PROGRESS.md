@@ -1658,3 +1658,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q49–Q52 Unit VI; Q54 Unit X; Q55 Unit IX; Q56 Unit X, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q53 is absent from canonical JSON; no question was fabricated. Verified mappings: 156 → 163; pending: 28 → 21 (192 records). Q15, Q29, Q40 and Q53 remain unresolved.
 - Questions commit: d4ec756207bab7ed125d68693e56a02411786f9c; checkpoint commit: dc790eb0206bc5f5da952d824abf4f76fd6cc5a5. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q57–Q64 mapping
+- Mapped Q57–Q60 Unit IX; Q61 Unit X; Q62 Unit I; Q63 Unit VIII; Q64 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no content changes. Verified mappings: 163 → 171; pending: 21 → 13 (192 records). Q15, Q29, Q40 and Q53 remain unresolved.
+- Questions commit: b277e91c06f584aefa78ebb0c40ee754cb5a62d6; checkpoint commit: 1c7785ce9a0b7b85a45b97decda13229bb4a6f84. PR #22 remains open/unmerged.
