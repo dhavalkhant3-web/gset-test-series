@@ -1,10 +1,10 @@
 {
   "subject": "Commerce",
   "subject_code": "17",
-  "audit_date": "2026-11-17",
+  "audit_date": "2026-11-18",
   "branch": "staging/commerce-code17-answer-keys",
   "local_master": {
-    "file": "gset_commerce_17_master_oct2011_final_checked.json",
+    "file": "gset_commerce_17_master_oct2011_visual_signed_off.json (user-supplied signed-off version; local source file not yet synchronized to repository)",
     "bytes_approx": 1780000,
     "schema": "GSET_Android_Test_Series_Question_Bank v2.0.0",
     "sessions": 19,
@@ -17,8 +17,8 @@
       "VERIFIED_OFFICIAL_KEY": 950,
       "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY": 50
     },
-    "october_2011_bilingual_question_stems": 1,
-    "october_2011_bilingual_options": 4
+    "october_2011_bilingual_question_stems": 50,
+    "october_2011_bilingual_options": 200
   },
   "pending_counts": {
     "official_answer_key_ocr_or_missing": 300,
@@ -27,7 +27,7 @@
     "records_with_all_four_english_options_missing_or_incomplete": 1250,
     "records_with_all_four_gujarati_options_missing_or_incomplete": 1250,
     "syllabus_unit_mappings_missing": 1300,
-    "october_2011_bilingual_question_records": 49
+    "october_2011_bilingual_question_records": 0
   },
   "answer_status_breakdown": {
     "PENDING_ANSWER_KEY_OCR": 250,
@@ -35,8 +35,7 @@
   },
   "question_extraction_status_breakdown": {
     "PENDING_OCR_FROM_OFFICIAL_PDF": 1250,
-    "USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON": 49,
-    "BILINGUAL_BOOKLET_CHECKED_Q44": 1
+    "BILINGUAL_BOOKLET_VISUALLY_VERIFIED": 50
   },
   "session_audit": [
     {
@@ -192,11 +191,12 @@
       "answers": 100
     }
   ],
-  "critical_finding": "The local master is an archive skeleton for most sessions, not a publishable question bank. 1,250 records have no question text/options populated; for October 2011, only Q44 has been manually source-compared while 49 draft records remain pending; 300 answer records are pending OCR or missing official key; no question has a syllabus unit assigned.",
+  "critical_finding": "The signed-off October 2011 source audit confirms all 50 bilingual question records and 200 English/Gujarati option fields visually checked against the original booklet, with no exceptions; official final answer key remains 50/50. Across the 1,300-slot archive, 1,250 records still lack bilingual question text/options, 300 answer slots remain pending OCR or missing official key, and all 1,300 syllabus mappings remain unassigned. The signed-off local Master JSON has not yet been synchronized to the repository; no production questions.json exists.",
   "next_execution_order": [
+    "Synchronize the user-supplied signed-off 1,300-slot Master JSON to the staging branch without changing main.",
     "Obtain/verify official source PDFs and final answer keys for the 2002-2008 sessions and fill answer-key gaps without inference.",
-    "OCR and human-verify bilingual question text/options session by session from official booklets.",
-    "Reconcile 300 pending/missing answer slots to official final keys.",
+    "OCR and human-verify bilingual question text/options session by session from official booklets; October 2011 is complete and must not be repeated.",
+    "Reconcile the 300 pending/missing answer slots to official final keys.",
     "Map syllabus units only after question text is source-verified.",
     "Create production questions.json in the app's expected schema after data validation.",
     "Run Flutter analyze, tests, debug build and Combined APK validation."
@@ -211,6 +211,7 @@
     "main_modified": false,
     "pr_created": false,
     "merged": false,
-    "no_answers_or_questions_fabricated": true
+    "no_answers_or_questions_fabricated": true,
+    "october_2011_visual_signoff": "50/50 stems and 200/200 bilingual option fields; sign-off audit has zero exceptions"
   }
 }
