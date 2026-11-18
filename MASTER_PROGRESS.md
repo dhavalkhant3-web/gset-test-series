@@ -1689,3 +1689,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q10 Unit VIII; Q11 Unit IX; Q12 Unit II; Q13 Unit IX; Q14 Unit IV; Q15–Q16 Unit X; Q17–Q18 Unit VII, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
 - Q1–Q18 now mapped; Q19–Q100 pending (82). Questions commit: 52aa8ecc5daec7fbef243c3f29ae1216331a64bf; manifest commit: 7bcd8573f2237fa618ac734117309948a05001c8; checkpoint commit: e1dfba696cb97d5fdbbf4e89934c62dbea4e4270.
 - PR #22 remains open/unmerged; no other subject or protected area changed.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q19–Q27 mapping
+- Mapped Q19 Unit VII; Q21–Q24 Unit I; Q25 Unit IV; Q26–Q27 Unit IX, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q20 held for lack of explicit syllabus coverage. Q24 retains official key A but is review-flagged because the stem appears to describe strike-slip faulting, not normal faulting.
+- Total mapped 26; mapping pending 74; additional review flag 1. Questions commit: 44264c27a4d0b7d9b1fb1b0f1b34e7574181144e; manifest commit: 32fd9210048ba0e3a112567ccda2d796fb1c0650; checkpoint commit: c8704851da4d1d24151e9d332a4da113135fbbed.
+- PR #22 remains open/unmerged.
