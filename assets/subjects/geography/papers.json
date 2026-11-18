@@ -124,12 +124,12 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 66,
+      "review_flags_remaining_count": 58,
       "status": "source_verified_final_key_reconciled_syllabus_mapping_partial_with_review_flags",
-      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q36 have explicit syllabus mappings (35 total). Q20 remains unmapped because the chronology of religions is not explicitly covered by the Code 24 syllabus. Q24 remains review-flagged: the stem appears to describe strike-slip faulting while the official final key says Normal fault; the official key is preserved. Q37–Q100 remain pending mapping.",
+      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q45 have explicit syllabus mappings (44 total). Q20 remains unmapped because the chronology of religions is not explicitly covered. Q24 and Q42 remain review-flagged for apparent official-key/content conflicts; official key letters are preserved. Q46–Q100 remain pending mapping.",
       "questions_count": 100,
-      "syllabus_mapping_verified_count": 35,
-      "syllabus_mapping_pending_count": 65
+      "syllabus_mapping_verified_count": 44,
+      "syllabus_mapping_pending_count": 56
     },
     {
       "paper_id": "geography_nov2023",
