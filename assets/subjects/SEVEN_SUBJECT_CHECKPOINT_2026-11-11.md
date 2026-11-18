@@ -1117,3 +1117,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - December 2024 now has 84/85 verified mappings. Q56 (productivity as a mathematical input-output relationship) remains review-only because no exact syllabus topic is explicit.
 - Q1–Q85 source verification and official FINAL answer-key parity remain unchanged; no question text, options or answer letters were modified. Q86–Q100 are still not transcribed.
 - Commits: questions `910f4817af60ed06472eb3453f8742e282ac95da`; manifest `24e67f555d1090b5eef6408cf7c803d3bd4e280d`.
+
+
+## Social Work Code 25 — December 2024 Q86–Q93 source transcription (18 November 2026)
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf. Visually checked all English stems and four options: Q86–Q90 on zero-based PDF page index 26, Q91–Q92 on index 27, and Q93 on index 28. No figures/tables in this range; Gujarati text was not transcribed.
+- Official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf. Exact stored-key matches: Q86 A, Q87 B, Q88 B, Q89 C, Q90 B, Q91 A, Q92 C, Q93 A (8/8). The official key was retained as authoritative.
+- Official Code 25 syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf. Mappings: Q86–Q87 Unit II; Q88–Q91 Unit VIII; Q92–Q93 Unit X. All eight received explicit unit mappings. Q91 remains review-only because option A appears to describe the SC/ST (Prevention of Atrocities) Act more closely than the Protection of Civil Rights Act. Q92 remains review-only because both options B and C describe important purposes of the Juvenile Justice Act and the wording/key needs expert interpretation. Q56 remains review-only for mapping uncertainty.
+- After batch: Social Work canonical question file 493 records total; December 2024 is 93/100 transcribed, with 92/93 mapped and three review flags in that paper (Q56, Q91, Q92). December 2024 Q94–Q100 and November 2025 Q1–Q100 remain untranscribed (107 questions total).
+- Commits: questions `bfea560d530cdaf478bea27a61459e1cd8bf2ac7`; paper manifest `67d8f5895c3225a0109c6989595d8bd10c3fe622`.
+- No other subject, Paper-I, Code 01, Code 02, Code 28, or app UI changed. PR #22 remains open and unmerged. CI/Combined APK status must be checked separately; no APK PASS is claimed.
+- Next batch: Social Work Code 25, December 2024 Q94–Q100.
