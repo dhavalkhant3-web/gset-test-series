@@ -1278,3 +1278,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 148 → 156; pending: 36 → 28 (192 records). Q15, Q29 and Q40 remain held; no source/key flags changed.
 - Questions commit: `bbd4a1a191c823cb29517f7f274756b2cdc6f6b8`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Sanskrit November 2025 Q49–Q56.
+
+
+## Sanskrit Code 07 — November 2025 Q49–Q56 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven source/key-verified records without changing text/options/answers: Q49–Q52 Unit VI (Paninian verbal morphology and derivation); Q54 Unit X (writing traditions); Q55 Unit IX (history of writing); Q56 Unit X (James Prinsep/Ashokan Brahmi inscriptions).
+- Q53 is absent from the current canonical JSON; it was not created or inferred. No unsupported mapping was assigned.
+- Sanskrit verified mappings: 156 → 163; pending: 28 → 21 (192 records). Q15, Q29, Q40 and Q53 remain missing/held as noted in the subject audit.
+- Questions commit: `d4ec756207bab7ed125d68693e56a02411786f9c`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Sanskrit November 2025 Q57–Q64.
