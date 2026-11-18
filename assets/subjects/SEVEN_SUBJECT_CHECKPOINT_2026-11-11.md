@@ -1028,3 +1028,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Data commits: questions Q56–Q63 722b84cf7bed41af59ba0b7549b8ecafa37a4410; paper manifest d9210bfc09a1362555b3191a521b35cdad3cc249. Checkpoint commit recorded separately after this note.
 - Next batch: Social Work Code 25, December 2024 Q64–Q71. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q64–Q71
+- Pre-batch canonical audit: 463 Social Work records (61 active / 402 review-only); December 2024 Q1–Q63 were present. Q64–Q71 were missing. No completed question was repeated.
+- Visually checked official GSET December 2024 Social Work Paper-II PDF pages: zero-based page index 20 (Q64–Q65), 21 (Q66–Q69), and 22 (Q70–Q71). English stems and all four options checked against the scan.
+- Official FINAL answer-key parity: Q64 C, Q65 A, Q66 B, Q67 D, Q68 B, Q69 C, Q70 C, Q71 B — 8/8 exact matches.
+- Official Code 25 syllabus mapping: Q66, Q68 and Q69 → Unit VI (Administration, Welfare and Development Services / history, coordination, development services). Q64, Q65, Q67, Q70 and Q71 remain review-only because the official syllabus does not explicitly identify the institutional-redistributive model, social-policy analysis, policy statements, democratic sources of social policy or Article 38. No forced units.
+- After batch: Social Work canonical records 471 (before 463, +8); active 64 (before 61, +3); review-only 407 (before 402, +5). December 2024 is 71/100 transcribed. Remaining Social Work transcription: 129 (December 2024 Q72–Q100 = 29; November 2025 Q1–Q100 = 100). December 2024 mapping counters: 37 verified, 1 provisional (Q32), 34 pending/review-only (Q1–Q23, Q32, Q54, Q56, Q60, Q61, Q63–Q65, Q67, Q70 and Q71).
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Data commits: questions Q64–Q71 cd9110893991245411779329ee78ae14e1be102a; paper manifest 61b19e8b997ec2fb09013895deb1f4bb00c61dab. Checkpoint commit recorded separately after this note.
+- Next batch: Social Work Code 25, December 2024 Q72–Q79. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
