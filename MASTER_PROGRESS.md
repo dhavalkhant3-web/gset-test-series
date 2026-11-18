@@ -1702,3 +1702,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q28–Q29 Unit IX; Q30 Unit IV; Q31 Unit I; Q32–Q34 Unit III; Q35–Q36 Unit IV, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
 - Q1–Q19 and Q21–Q36 now mapped (35); Q20 and Q37–Q100 pending (65). Q24 remains review-flagged; total review count 66.
 - Questions commit: 8ea413394f642afd4a71d77646c1880e93309e5d; manifest commit: bf7059cb5e0832c036fe9253e527cfcbc760a577; checkpoint commit: c46f262f92de131d3ddd61a8d42ea9e01dea6a0e. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q37–Q45 mapping
+- Mapped Q37–Q38 Unit IV; Q39–Q41 Unit II; Q42 Unit IV; Q43 Unit VII; Q44 Unit V; Q45 Unit X, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q42 review-flagged because official key D points to WWF, an environmental organisation; key retained. Q24 also remains flagged for fault-type discrepancy. Mapped 44; pending 56; content review flags 2.
+- Questions commit: 4e0eeed4c237cde287d32e0d21e0700a888e1bf9; manifest commit: b4b209c301ead9318724b3705507038e81ba65e7; checkpoint commit: cc4c1a49b80ea9276b8bcbe7bacf1d1764e6dceb. PR #22 remains open/unmerged.
