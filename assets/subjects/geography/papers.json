@@ -124,12 +124,12 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 50,
+      "review_flags_remaining_count": 41,
       "status": "source_verified_final_key_reconciled_syllabus_mapping_partial_with_review_flags",
-      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q53 have explicit syllabus mappings (52 total). Q20 remains unmapped because chronology of religions is not explicit. Q24 and Q42 remain content-review flags; official key letters are preserved. Q54–Q100 remain pending mapping; Q54 spans settlement geography and regional development without a unique unit.",
+      "review_note": "All Q1–Q100 are source-verified and official-final-key reconciled. Q1–Q19 and Q21–Q63 have explicit syllabus mappings (61 total). Q20 and Q54 remain unmapped due to lack of an unambiguous syllabus fit. Q24 and Q42 remain content-review flags with official key letters preserved. Q64–Q100 remain pending mapping.",
       "questions_count": 100,
-      "syllabus_mapping_verified_count": 52,
-      "syllabus_mapping_pending_count": 48
+      "syllabus_mapping_verified_count": 61,
+      "syllabus_mapping_pending_count": 39
     },
     {
       "paper_id": "geography_nov2023",
