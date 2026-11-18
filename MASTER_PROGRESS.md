@@ -1542,3 +1542,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Sanskrit verified mappings: 14 → 22; pending mappings: 178 → 170 (192 canonical records). No automatic activation or source-verification claim.
 - Questions commit: 41ac81955e5bcb4881c7d3666e95daa020d89904; checkpoint commit: 39f2f6a6031e6dd1fc3d030acd92007325f6f5f5.
 - PR #22 remains open and unmerged. Protected subjects and all other subject files untouched.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q9–Q16 syllabus mapping
+- Mapped Q9–Q10 Unit VI; Q11 Unit VIII; Q12 Unit IV; Q13 Unit I; Q14 Unit IV; Q15 Unit IX; Q16 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight existing source/key-verified records mapped; stems, options, answers and source flags unchanged. Verified mappings: 22 → 30; pending: 170 → 162 (192 total).
+- Questions commit: de587314821beb4dd1596db52f60f841565b8ee5; checkpoint commit: c03119af0156bdde8f378f15d854443846c4de7c.
+- PR #22 remains open/unmerged. No other subject or protected area changed.
