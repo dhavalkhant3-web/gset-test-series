@@ -1293,3 +1293,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 163 → 171; pending: 21 → 13 (192 records). Q15, Q29, Q40 and Q53 remain missing/held as recorded.
 - Questions commit: `b277e91c06f584aefa78ebb0c40ee754cb5a62d6`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next mapping batch: Sanskrit November 2025 Q65–Q72.
+
+
+## Sanskrit Code 07 — November 2025 Q65–Q72 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped six source/key-verified records without changing text/options/answers: Q65 Unit IV (philosophical concept of Vikara); Q66–Q67 Unit VIII (Dashakumaracharita/Kadambari); Q68 Unit I (Vedic mantra classification); Q69–Q70 Unit IV (Nyaya inference and Upadhi).
+- Q71 remains pending because the quoted verse is not clearly anchored to a prescribed text or explicit syllabus item. Q72 was already verified and was not rewritten.
+- Sanskrit verified mappings: 171 → 177; pending: 13 → 7 (192 records). Remaining pending: Q71, Q80, Q92, Q15, Q29 and Q40. Q33 and Q53 are absent from canonical data.
+- Questions commit: `7abb5ffc90f4dd1201414fef96a76c0c942764b8`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next: final audit of the seven remaining pending mappings and missing question IDs; do not force unsupported mappings.
