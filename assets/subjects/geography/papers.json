@@ -124,10 +124,12 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 100,
-      "status": "source_verified_final_key_reconciled_syllabus_mapping_pending",
-      "review_note": "All Q1–Q100 transcribed and visually checked against official paper; all 100 answers match official final answer key. Syllabus-unit mapping remains pending for all 100, so they remain review-only until mapping review is complete.",
-      "questions_count": 100
+      "review_flags_remaining_count": 91,
+      "status": "source_verified_final_key_reconciled_syllabus_mapping_partial",
+      "review_note": "All Q1–Q100 are transcribed and visually checked against the official paper; all 100 answers match the official final answer key. Q1–Q9 now have explicit mappings to the official Code 24 syllabus. Q10–Q100 remain review-only pending syllabus mapping.",
+      "questions_count": 100,
+      "syllabus_mapping_verified_count": 9,
+      "syllabus_mapping_pending_count": 91
     },
     {
       "paper_id": "geography_nov2023",
