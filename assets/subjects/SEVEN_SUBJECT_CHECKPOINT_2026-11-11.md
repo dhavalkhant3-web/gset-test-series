@@ -1347,3 +1347,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 now has 44 mapped, 56 mapping-pending (Q20 and Q46–Q100), plus 2 content review flags; manifest review count 58.
 - Questions commit: `4e0eeed4c237cde287d32e0d21e0700a888e1bf9`; manifest commit: `b4b209c301ead9318724b3705507038e81ba65e7`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
 - Next batch: Geography November 2022 Q46–Q54.
+
+
+## Geography Code 24 — November 2022 Q46–Q53 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mapped eight source/key-verified records: Q46 Unit III (wind-driven ocean circulation); Q47 Unit VII (Heartland/Rimland/Shatterbelt); Q48 Unit V (Mumford's urban development); Q49 Unit I (folding/nappes); Q50–Q52 Unit VIII (Greek geographers, Ritter and positivism); Q53 Unit IX (factor analysis).
+- Q54 remains pending because its matching concepts span Units V and VI and no single unit is unambiguous. Q20 also remains pending. Q24 and Q42 remain content-review flags with official keys preserved.
+- November 2022 now has 52 mapped, 48 mapping-pending (Q20 and Q54–Q100), and 2 content review flags; manifest review count 50.
+- Questions commit: `6a4d361b8c577ef8dd8f5e18da6f10345efe6e12`; manifest commit: `52e92f4a4507f8c44a58293b10525627155cecb9`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
+- Next batch: Geography November 2022 Q55–Q63.
