@@ -1039,3 +1039,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Data commits: questions Q64–Q71 cd9110893991245411779329ee78ae14e1be102a; paper manifest 61b19e8b997ec2fb09013895deb1f4bb00c61dab. Checkpoint commit recorded separately after this note.
 - Next batch: Social Work Code 25, December 2024 Q72–Q79. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q72–Q79
+- Pre-batch canonical audit: 471 Social Work records (64 active / 407 review-only); December 2024 Q1–Q71 were present. Q72–Q79 were missing. No completed question was repeated.
+- Visually checked official GSET December 2024 Social Work Paper-II PDF pages: zero-based page index 22 (Q72–Q73), 23 (Q74–Q76), and 24 (Q77–Q79). English stems and all four options checked against the scan.
+- Official FINAL answer-key parity: Q72 B, Q73 B, Q74 C, Q75 C, Q76 C, Q77 B, Q78 B, Q79 C — 8/8 exact matches.
+- Source transcription and answer-key verification are complete for all eight. All eight remain review-only because exact mapping to an explicit official Code 25 syllabus topic has not been established. No unsupported syllabus units assigned.
+- After batch: Social Work canonical records 479 (before 471, +8); active 64 (unchanged); review-only 415 (before 407, +8). December 2024 is 79/100 transcribed. Remaining Social Work transcription: 121 (December 2024 Q80–Q100 = 21; November 2025 Q1–Q100 = 100). December 2024 mapping counters: 37 verified, 1 provisional (Q32), 42 pending/review-only (including Q1–Q23, Q32, Q54, Q56, Q60, Q61, Q64–Q65, Q67, Q70–Q79).
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Data commits: questions Q72–Q79 1398aad994a127a9b67b4d90765ccc5abf3f90a6; paper manifest 0f01585987b933da7307ea7e03d96bb32fbb29c0. Checkpoint commit recorded separately after this note.
+- Next batch: Social Work Code 25, December 2024 Q80–Q87. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
