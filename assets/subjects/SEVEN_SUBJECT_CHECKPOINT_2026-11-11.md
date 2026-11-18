@@ -1383,3 +1383,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 now has 88 mappings verified, 12 mapping-pending (Q20, Q54 and Q91–Q100), plus 2 content-review flags (Q24/Q42); manifest review count 14.
 - Questions commit: `0e8552bdaa431c1d1658ad0699754f5c449b7089`; manifest commit: `a78e0b64001f7f021ecd9e03fd6ad03a6f41583d`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
 - Next batch: Geography November 2022 Q91–Q100 and close the paper mapping audit.
+
+
+## Geography Code 24 — November 2022 Q91–Q100 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mapped ten source/key-verified records: Q91–Q93 Unit VI (resource management, economic sectors and Estancia); Q94 Unit III (West Australian current); Q95–Q96 Unit IV (resource conservation and global warming); Q97 Unit VIII (Humboldt/Ritter/Darwin); Q98–Q100 Unit IX (map scales and statistical/thematic representations).
+- November 2022 mapping audit complete: 98/100 mapped; Q20 (chronology of religions) and Q54 (mixed Unit V/VI concepts) remain pending rather than forcing a unit. Q24 and Q42 remain content-review flags; official final-key letters preserved. Manifest review count 4 (2 mapping holds + 2 content flags).
+- Questions commit: `0f8bbee9f909dfdddf2c481fc266381420ddc6b0`; manifest commit: `257cd6da72fadb61179ceeea64305a8698aeb898`. PR #22 remains open/unmerged; other subjects/protected areas untouched.
+- Next: audit the three Geography provisional mappings from August 2017, then proceed to November 2022 review-only items Q20/Q54 only if explicit evidence is found.
