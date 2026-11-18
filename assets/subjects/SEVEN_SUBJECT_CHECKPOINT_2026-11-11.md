@@ -1255,3 +1255,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 126 → 134; pending: 58 → 50 (192 records). Q15 remains pending; no source/key flags changed.
 - Questions commit: `9244caf18c989b3bc5670f4c7fd8b0d8de3dc475`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next mapping batch: Sanskrit November 2025 Q25–Q32.
+
+
+## Sanskrit Code 07 — November 2025 Q25–Q32 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven source/key-verified records without changing text/options/answers: Q25–Q26 Unit IV (Charvaka and Patanjali Yoga); Q27 Unit VIII (Abhijnana Shakuntalam); Q28 Unit VI (Sphota/Vakyapadiya); Q30–Q31 Unit VI (grammar); Q32 Unit VIII (Lakshana/Shabdashakti).
+- Q29 (Ramananda as commentator of Tattvadipika) remains pending because this specific work/commentator is not explicit in the published syllabus.
+- Sanskrit verified mappings: 134 → 141; pending: 50 → 43 (192 records). Q15 and Q29 held; no source/key flags changed.
+- Questions commit: `e61b659d2a39a3532b6d73b19854bb66986c29b9`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Sanskrit November 2025 Q33–Q40.
