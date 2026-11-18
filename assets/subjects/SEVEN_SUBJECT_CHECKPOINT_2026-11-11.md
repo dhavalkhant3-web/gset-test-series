@@ -1301,3 +1301,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 171 → 177; pending: 13 → 7 (192 records). Remaining pending: Q71, Q80, Q92, Q15, Q29 and Q40. Q33 and Q53 are absent from canonical data.
 - Questions commit: `7abb5ffc90f4dd1201414fef96a76c0c942764b8`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next: final audit of the seven remaining pending mappings and missing question IDs; do not force unsupported mappings.
+
+
+## Sanskrit Code 07 — branch-content audit correction and November 2025 Q73/Q77/Q81–Q84/Q95 mapping (18 November 2026)
+- A direct audit of the current branch blob found 15 pending mappings, not the earlier interim count of 7. The previous summary undercounted the remaining queue; this correction supersedes that interim figure.
+- Seven source/key-verified records mapped using https://gujaratset.ac.in/assets/syllabus/07.pdf: Q73 Unit II (Shakapuni/Nirukta); Q77 Unit IV (Vedanta/Dama); Q81–Q82 Unit I (Vedic chronology/Kalpa); Q83 Unit V (linguistics); Q84 Unit VIII (Abhinaya); Q95 Unit II (Samaveda/Samagana).
+- Q79 (Vichitra Parishadyatra) and Q87 (Vikramabahu's chamberlain) remain pending because the relevant author/work is not explicit in the prescribed list. Other held records: Nov 2023 Q80/Q92; Nov 2025 Q15/Q29/Q40/Q71.
+- Current canonical status after correction: 184/192 mappings verified; 8 pending (the six held items above plus Q79 and Q87). Two absent question IDs, Nov 2023 Q33 and Nov 2025 Q53, are not fabricated.
+- Questions commit: `2f1501ecc2d4188ae9ca8c5bcb791bbc19f57937`. PR #22 remains open/unmerged; no CI/Combined APK PASS claimed.
