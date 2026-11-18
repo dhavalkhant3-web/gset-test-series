@@ -1095,3 +1095,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Q21 (“bug in the ear” / field-work supervision) remains review-only because the Code 25 syllabus does not explicitly identify field-work supervision as a separate topic. No unsupported mapping was assigned.
 - Existing source-page checks, official final-key checks, question text, options and answer letters were preserved; all 99 mapped records were already source_verified and answer_key_verified with four English options.
 - Commits: questions `217c9a9f558fe241e82f291a06ffbc2f5c8719b6`; manifest `b8244c3d72903af9049c91933c93e137064ca373`.
+
+
+## Social Work Code 25 — December 2019 syllabus mapping completed (18 November 2026)
+- Official Code 25 syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf
+- 100/100 December 2019 questions now have explicit mappings across Units I–X; 100 Active, 0 review-only for syllabus mapping.
+- All 100 records already had source_verified=true, answer_key_verified=true and four English options. Question stems, options and answer letters were not modified.
+- Manifest: unit_mapping_verified_count=100; unit_mapping_pending_count=0; review_flags_remaining_count=0; status=source_verified_final_key_reconciled_syllabus_mapped.
+- Questions file SHA after update: `0ae5e460fbc5fa76bd9b988d3e05cd45a849668f`; manifest SHA: `e715e677f756cab6d046165d738ec145c562d1aa`.
