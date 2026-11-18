@@ -1217,3 +1217,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 92 → 100; pending: 100 → 92 (192 canonical records). Q33 remains absent and Q80 remains on hold pending an explicit syllabus fit.
 - Questions commit: `7c49bafd282dfb0aadc3d824d7315cb50968e6d1`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q89–Q96.
+
+
+## Sanskrit Code 07 — November 2023 Q89–Q96 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped seven source/key-verified records without changing text/options/answers: Q89 Unit IV (Indian philosophical systems); Q90 Unit VIII (Magha); Q91 Unit IX (Ramayana); Q93 Unit VI (verb forms); Q94 Unit IV (Patanjali Yoga Sutra); Q95 Unit VIII (Natyashastra); Q96 Unit II (Vishvamitra-Nadi Sukta).
+- Q92 (Varnikar's Shivrajyodaya) remains pending because the author/work is not explicitly included in the official prescribed author/text list; no forced unit assigned.
+- Sanskrit verified mappings: 100 → 107; pending: 92 → 85 (192 canonical records). Q33 and Q80 remain separate unresolved holds.
+- Questions commit: `03221f701f0901a6807234f8523f30466122b876`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next mapping batch: Sanskrit November 2023 Q97–Q100, then audit the next paper's records.
