@@ -1137,3 +1137,11 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Commits: questions `7d9ac14059180b0ee7480a2134d0572abd9deaa1`; paper manifest `910a49a882300fbcae0895fe2ca718ee24ba4dbd`.
 - PR #22 remains open and unmerged. No other subject, Paper-I, Code 01, Code 02, Code 28 or app UI changed. No CI/Combined APK PASS is claimed.
 - Next: continue Q95–Q100 only after official PDF pages are retrievable; otherwise switch to another independently verifiable subject batch.
+
+
+## Sanskrit Code 07 — November 2023 Q1–Q8 official syllabus mapping (18 November 2026)
+- Official syllabus reviewed: https://gujaratset.ac.in/assets/syllabus/07.pdf (printed pages 4–5; PDF indexes 3–4).
+- Mapped eight already source-verified and final-key-verified questions without changing stems, options or answers: Q1 Unit VIII (Kavyashastra / Kavyalakshana / Alankara); Q2 Unit VI (Bhartrihari / Vakyapadiya); Q3–Q8 Unit VI (Paninian grammar, case usage, Anga-sanjna, Agama, Sandhi and Samasa).
+- Sanskrit canonical file: 192 records. Verified syllabus mappings increased from 14 to 22; pending official mappings decreased from 178 to 170. No question was promoted or marked source-verified by this mapping-only batch; no answer or transcription changed.
+- Questions commit: `41ac81955e5bcb4881c7d3666e95daa020d89904`. PR #22 remains open and unmerged. Other subjects and protected areas remain untouched.
+- Next mapping batch: Sanskrit November 2023 Q9–Q16, subject to exact fit in the official syllabus.
