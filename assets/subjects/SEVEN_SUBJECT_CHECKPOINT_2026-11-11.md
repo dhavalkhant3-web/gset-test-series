@@ -1404,3 +1404,8 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Geography manifest correction: November 2022 is 98/100 mapped, not 99/100. Q20 and Q54 both remain unmapped; Q95 was a unit refinement of an already mapped record, not a new mapping. Q24/Q42 remain content-review flags. Overall Geography: 298 verified, 4 provisional, 2 pending; review flags currently 4.
 - Social Work Nov 2025: official FINAL answer key confirmed for all 100 questions at https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf. Official question paper URL recorded as https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2525.pdf. The official PDF is 10.86 MB and exceeded the web fetch limit; Firecrawl retrieval was not run because connected-app credits were exhausted. No question text/options were transcribed. Paper remains blocked and not practice-ready.
 - Manifest commits: Geography `5ff5f3fb4ed0e4d7da2ff4a44d082254520fa31b`; Social Work `598fb9334f3b10511bfda4d8b377742917118be2`. PR #22 remains open/unmerged; no CI result is claimed for the latest head.
+
+
+## Final count clarification — Geography Code 24 (18 November 2026)
+- Current canonical status is 298 `verified`, 4 `provisional`, 2 `pending` out of 304 records. The four `review_flag=true` records are exactly Nov 2022 Q20, Q24, Q42 and Q54. The four provisional records (Aug 2017 Q10, Q21, Q44 and Sep 2016 Q37) are a separate mapping state, not review flags.
+- November 2022 manifest: 98 mapped, 2 pending; content review flags Q24/Q42; Q20/Q54 are mapping holds. September 2018: Q1–Q6 mapped; Q7–Q100 still untranscribed.
