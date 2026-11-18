@@ -1309,3 +1309,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Q79 (Vichitra Parishadyatra) and Q87 (Vikramabahu's chamberlain) remain pending because the relevant author/work is not explicit in the prescribed list. Other held records: Nov 2023 Q80/Q92; Nov 2025 Q15/Q29/Q40/Q71.
 - Current canonical status after correction: 184/192 mappings verified; 8 pending (the six held items above plus Q79 and Q87). Two absent question IDs, Nov 2023 Q33 and Nov 2025 Q53, are not fabricated.
 - Questions commit: `2f1501ecc2d4188ae9ca8c5bcb791bbc19f57937`. PR #22 remains open/unmerged; no CI/Combined APK PASS claimed.
+
+
+## Geography Code 24 — November 2022 Q1–Q9 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Nine source-verified and final-key-verified questions mapped without changing stems/options/answers: Q1 Unit X (Kumaon Himalaya); Q2 Unit VI (Detour Index/transport); Q3 Unit VII (social and cultural geography); Q4 Unit VI (regional/economic models); Q5 Unit VII (cultural diffusion); Q6 Unit V (population distribution); Q7–Q9 Unit VIII (geographic thought, positivism and paradigm shift).
+- November 2022 manifest: 100/100 source-verified and final-key-reconciled; 9 mappings verified, 91 pending. The nine mapped records are no longer review-only.
+- Questions commit: `9801975ba1722f1447a6bf7b909331ff8636ff36`; manifest commit: `98611eb1d8458c5c18cb02e763c0106627f8c99b`. PR #22 remains open and unmerged. Other subjects/protected areas untouched.
+- Next batch: Geography November 2022 Q10–Q18, only after checking exact question content and official syllabus fit.
