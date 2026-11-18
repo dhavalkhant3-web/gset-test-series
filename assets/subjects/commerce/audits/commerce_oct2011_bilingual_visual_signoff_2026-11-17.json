@@ -1,0 +1,37 @@
+{
+  "audit_id": "COMMERCE_2011_10_BILINGUAL_VISUAL_SIGNOFF_2026-11-17",
+  "subject": "Commerce",
+  "subject_code": "17",
+  "exam_id": "GSET_2011_10",
+  "paper_id": "commerce_2011_10",
+  "source_file": "oct1117 (1).pdf",
+  "source_description": "Original 20-page bilingual GSET booklet; questions appear on printed pages 3-18.",
+  "audit_result": "VISUAL_BILINGUAL_SIGNOFF_COMPLETE",
+  "audit_date": "2026-11-17",
+  "questions_total": 50,
+  "questions_visually_verified": 50,
+  "questions_previously_verified": 1,
+  "questions_newly_verified": 49,
+  "bilingual_option_fields_verified": 200,
+  "official_final_answer_key": {
+    "status": "VERIFIED_OFFICIAL_FINAL_ANSWER_KEY",
+    "verified_answers": 50,
+    "total_answers": 50,
+    "changed_by_this_audit": false
+  },
+  "verification_method": "Page-by-page visual comparison of English and Gujarati question stems and all A-D options against the original scanned booklet. OCR was used only as a reading aid; the printed source image is authoritative.",
+  "page_map": "Q1-Q50 mapped across printed pages 3-18 of the original booklet.",
+  "exceptions": [],
+  "scope_note": "This sign-off verifies booklet transcription only. It does not complete syllabus-unit mapping or production app integration.",
+  "next_steps": [
+    "Keep October 2011 booklet verification closed; do not repeat this work.",
+    "Synchronize the signed-off canonical Master JSON to the staging branch.",
+    "Continue source transcription and verification for other Commerce sessions using official booklets only."
+  ],
+  "safeguards": {
+    "main_modified": false,
+    "pr_created": false,
+    "merged": false,
+    "no_questions_or_answers_fabricated": true
+  }
+}
