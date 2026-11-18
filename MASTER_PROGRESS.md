@@ -1726,3 +1726,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q64 Unit VII; Q65–Q67 Unit I; Q68 Unit II; Q69 Unit III; Q70–Q72 Unit X, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
 - Mapped 70; pending 30 (Q20, Q54, Q73–Q100); review flags Q24/Q42. Questions commit: a57182b9ed6e9607d62aa75119e51b87cb55756b; manifest commit: 7823317742036db5dd2b38e4ecff6789883408c1; checkpoint commit: f9796c8ab34a3b02e0436d3ea50866f927a522f3.
 - PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q73–Q81 mapping
+- Mapped Q73–Q77 Unit X; Q78–Q80 Unit III; Q81 Unit V, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Mapped 79; pending 21 (Q20, Q54, Q82–Q100); content-review flags Q24/Q42. Questions commit: 6b01a665892c93607e0dbe99dec85796af43d3b4; manifest commit: 2bde26cdf54aaa422de1300bf1087e544aeb4e7e; checkpoint commit: 4802044627cbe1d23b7a8288cdea74d1a02946a8.
+- PR #22 remains open/unmerged.
