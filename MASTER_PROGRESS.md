@@ -1757,3 +1757,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Corrected Geography Nov 2022 manifest to 98/100 mapped; Q20 and Q54 pending. Q95 was only a unit refinement, not a new mapping. Overall Geography: 298 verified, 4 provisional, 2 pending; 4 review flags.
 - Confirmed Social Work Nov 2025 official final answer key (100 entries) at https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf. Official question PDF URL recorded, but 10.86 MB exceeded web fetch limit and Firecrawl credits were exhausted. No question transcription or visual verification claimed; practice availability remains blocked.
 - Geography manifest commit: 5ff5f3fb4ed0e4d7da2ff4a44d082254520fa31b; Social Work manifest commit: 598fb9334f3b10511bfda4d8b377742917118be2; checkpoint commit: 3916e41dc8d82b79f5e4ba9270755021c4d86987. PR #22 remains open/unmerged; no current CI PASS claimed.
+
+
+## 2026-11-18 — Geography final count clarification
+- Canonical Geography status: 298 verified, 4 provisional, 2 pending (304 total). Exactly four records have review_flag=true: Nov 2022 Q20, Q24, Q42 and Q54. The four provisional records are separate and are not review flags.
+- Nov 2022: 98 mapped, 2 mapping holds; Q24/Q42 content review. Sep 2018 Q1–Q6 mapped; Q7–Q100 untranscribed.
+- Checkpoint commit: 2ac06e091802abadee7ab60e57d42ec210533441. PR #22 remains open/unmerged; no CI run for latest head.
