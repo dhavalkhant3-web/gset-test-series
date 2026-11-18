@@ -1670,3 +1670,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q65 Unit IV; Q66–Q67 Unit VIII; Q68 Unit I; Q69–Q70 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q71 held because its quotation is not clearly anchored to a prescribed text. Q72 was already mapped and left unchanged. Verified mappings: 171 → 177; pending: 13 → 7 (192 records).
 - Questions commit: 7abb5ffc90f4dd1201414fef96a76c0c942764b8; checkpoint commit: b2858ade86f884a51f2d3c2ba28c85fecfc2bdfd. PR #22 remains open/unmerged. Q33 and Q53 remain absent from canonical data.
+
+
+## 2026-11-18 — Sanskrit branch audit correction and Nov 2025 Q73/Q77/Q81–Q84/Q95
+- Direct current-branch blob audit corrected an interim undercount: 15 pending mappings before this batch, not 7.
+- Mapped Q73 Unit II; Q77 Unit IV; Q81–Q82 Unit I; Q83 Unit V; Q84 Unit VIII; Q95 Unit II, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q79/Q87 held due no explicit prescribed-text match. Other holds: Nov 2023 Q80/Q92; Nov 2025 Q15/Q29/Q40/Q71. Missing IDs Q33 and Q53 remain absent.
+- Current canonical mapping status: 184 verified, 8 pending of 192 records. Questions commit: 2f1501ecc2d4188ae9ca8c5bcb791bbc19f57937; checkpoint commit: aaf03347502107a06dcdd7df2358b1bcbe1989e5. PR #22 remains open/unmerged.
