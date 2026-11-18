@@ -1316,3 +1316,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - November 2022 manifest: 100/100 source-verified and final-key-reconciled; 9 mappings verified, 91 pending. The nine mapped records are no longer review-only.
 - Questions commit: `9801975ba1722f1447a6bf7b909331ff8636ff36`; manifest commit: `98611eb1d8458c5c18cb02e763c0106627f8c99b`. PR #22 remains open and unmerged. Other subjects/protected areas untouched.
 - Next batch: Geography November 2022 Q10–Q18, only after checking exact question content and official syllabus fit.
+
+
+## Geography Code 24 — November 2022 Q10–Q18 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mapped nine source/key-verified records without changing text/options/answers: Q10 Unit VIII (Greek geographers); Q11 Unit IX (rank correlation); Q12 Unit II (tropical cyclones); Q13 Unit IX (Lorenz curve/inequality); Q14 Unit IV (environmental treaties); Q15–Q16 Unit X (Indian dams/rivers and population density); Q17–Q18 Unit VII (Indian Ocean geopolitics and federalism).
+- November 2022 now has Q1–Q18 mapped and verified; Q19–Q100 remain pending (82). Manifest reflects 18 verified mappings and 82 pending.
+- Questions commit: `52aa8ecc5daec7fbef243c3f29ae1216331a64bf`; manifest commit: `7bcd8573f2237fa618ac734117309948a05001c8`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next batch: Geography November 2022 Q19–Q27.
