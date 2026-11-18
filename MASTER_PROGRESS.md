@@ -1677,3 +1677,9 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q73 Unit II; Q77 Unit IV; Q81–Q82 Unit I; Q83 Unit V; Q84 Unit VIII; Q95 Unit II, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
 - Q79/Q87 held due no explicit prescribed-text match. Other holds: Nov 2023 Q80/Q92; Nov 2025 Q15/Q29/Q40/Q71. Missing IDs Q33 and Q53 remain absent.
 - Current canonical mapping status: 184 verified, 8 pending of 192 records. Questions commit: 2f1501ecc2d4188ae9ca8c5bcb791bbc19f57937; checkpoint commit: aaf03347502107a06dcdd7df2358b1bcbe1989e5. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q1–Q9 mapping
+- Mapped Q1 Unit X; Q2 Unit VI; Q3 Unit VII; Q4 Unit VI; Q5 Unit VII; Q6 Unit V; Q7–Q9 Unit VIII using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- All nine records already had source_verified and answer_key_verified true. Q1–Q9 are now verified; Q10–Q100 remain pending (91). Questions commit: 9801975ba1722f1447a6bf7b909331ff8636ff36; manifest commit: 98611eb1d8458c5c18cb02e763c0106627f8c99b; checkpoint commit: 3a4856feb5fe15ff84156cb1e13184cdccb2dc8d.
+- PR #22 remains open/unmerged; no other subject or protected area changed.
