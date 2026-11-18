@@ -1225,3 +1225,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 100 → 107; pending: 92 → 85 (192 canonical records). Q33 and Q80 remain separate unresolved holds.
 - Questions commit: `03221f701f0901a6807234f8523f30466122b876`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next mapping batch: Sanskrit November 2023 Q97–Q100, then audit the next paper's records.
+
+
+## Sanskrit Code 07 — November 2023 Q97–Q100 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped four source/key-verified records without changing text/options/answers: Q97 Unit II (Aksha Sukta); Q98 Unit IV (Jain philosophy); Q99 Unit VIII (Naishadhiyacharita/Sriharsha); Q100 Unit VIII (Kiratarjuniya).
+- Sanskrit verified mappings: 107 → 111; pending: 85 → 81 (192 canonical records). Q33 remains absent from the November 2023 canonical set; Q80 and Q92 remain unmapped due to no explicit prescribed-text fit.
+- Questions commit: `c037195522aae7d75a8ac545e3420d339f593e3c`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next: audit Sanskrit December 2024 Q1–Q8 mapping; do not assume that other sessions have the same unit distribution.
