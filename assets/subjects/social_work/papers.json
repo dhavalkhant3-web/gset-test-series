@@ -148,13 +148,15 @@
       "questions_count": 0,
       "answer_key_entries": 100,
       "answer_key_parsed": true,
-      "answer_key_verified": false,
+      "answer_key_verified": true,
       "answer_key_question_parity_verified": false,
       "question_source_verified": 0,
       "source_verified": false,
       "review_flags_remaining_count": 100,
-      "status": "answer_key_only_question_transcription_pending",
-      "review_note": "Official answer-key entries are available, but the question paper has not been transcribed. Do not expose this paper as a practice test until question text/options are added and reconciled."
+      "status": "official_final_key_confirmed_question_paper_retrieval_blocked_transcription_pending",
+      "review_note": "Official FINAL answer key is available and confirmed for all 100 questions. The official question paper URL is recorded, but the 10.86 MB PDF exceeded the web PDF fetch limit and Firecrawl retrieval could not run because connected-app credits were exhausted. No question text/options have been transcribed or visually verified. Do not expose this paper as a practice test until the official paper is accessible and question-key parity is checked.",
+      "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2525.pdf",
+      "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf"
     }
   ]
 }
