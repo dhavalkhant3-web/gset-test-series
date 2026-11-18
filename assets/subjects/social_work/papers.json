@@ -98,9 +98,13 @@
       "answer_key_question_parity_verified": true,
       "question_source_verified": 100,
       "source_verified": true,
-      "review_flags_remaining_count": 100,
-      "status": "source_verified_final_key_reconciled_syllabus_mapping_pending",
-      "review_note": "All 100 questions Q1–Q100 are transcribed into canonical JSON from the official November 2023 Social Work Paper-II PDF. All 100 answers match the official GSET final answer key. Source verification and final-key parity are complete. All 100 records retain review_flag=true pending official syllabus-unit mapping; no unsupported syllabus units were assigned."
+      "review_flags_remaining_count": 1,
+      "status": "source_verified_final_key_reconciled_syllabus_mapping_partially_verified",
+      "review_note": "All 100 questions were transcribed from the official GSET November 2023 Social Work Paper-II PDF and all 100 stored answers match the official final answer key. 99 questions now have explicit mappings to the official Code 25 syllabus. Q21 (field-work supervision / “bug in the ear”) remains review-only because the published syllabus does not explicitly specify field-work supervision as a separate topic. No unsupported unit was assigned.",
+      "unit_mapping_verified_count": 99,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 1,
+      "unit_mapping_status": "official_syllabus_mapping_partially_verified"
     },
     {
       "paper_id": "social_work_dec2024",
