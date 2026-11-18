@@ -973,3 +973,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Next batch: Social Work Code 25, December 2024 Q24–Q31 (official question paper and final-key URLs resolve).
 - The earlier planned Environmental Sciences November 2023 Q88–Q95 batch was not repeated: those canonical records already carry source_verified=true, answer_key_verified=true, review_flag=false and visual-source notes.
 - PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q24–Q31 verified
+- Pre-batch live canonical audit: Social Work had 423 records, 27 active and 396 review-only. December 2024 had Q1–Q23 transcribed; Q24–Q31 were absent. Total Social Work transcription remaining was 177 (December 2024 Q24–Q100: 77; November 2025 Q1–Q100: 100).
+- Visually checked the official GSET December 2024 Social Work Paper-II scan on zero-based PDF page indexes 10 and 11. Q24–Q31 stems and all four English options match the scan; no figures or tables occur in this range. Gujarati-side text was not added.
+- Official FINAL answer-key parity: Q24 C, Q25 A, Q26 B, Q27 D, Q28 A, Q29 D, Q30 C, Q31 B — 8/8 exact matches.
+- Official Code 25 syllabus mapping: Q24 Unit II (Theories of Personality); Q25 Unit II (Human Behavior and Life Span Development); Q26–Q29 Unit III (Social Group Work); Q30 Unit II (Sociological Concepts / Social Groups); Q31 Unit IV (Community Organization). All eight records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified and review_flag=false.
+- After batch: Social Work canonical records 431 (before 423, +8); active 35 (before 27, +8); review-only 396 (unchanged). December 2024 is 31/100 transcribed, with Q1–Q23 still review-only pending mapping and Q32–Q100 untranscribed. Remaining Social Work transcription is 169: December 2024 Q32–Q100 (69) and November 2025 Q1–Q100 (100).
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Next batch: Social Work Code 25, December 2024 Q32–Q39. No previously completed question was repeated.
+- PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
