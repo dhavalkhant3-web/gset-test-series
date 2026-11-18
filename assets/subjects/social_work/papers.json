@@ -115,12 +115,12 @@
       "answer_key_question_parity_verified": false,
       "question_source_verified": 85,
       "source_verified": false,
-      "review_flags_remaining_count": 48,
+      "review_flags_remaining_count": 30,
       "status": "partial_source_verified_transcription_and_syllabus_review_pending",
-      "review_note": "Q1–Q85 are transcribed and visually checked against the official GSET December 2024 Social Work Paper-II PDF; all stored answers match the official FINAL answer key. 37 questions have official Code 25 syllabus mappings and are active. Q32, Q54, Q56, Q60, Q61, Q64, Q65, Q67, Q70–Q85 remain review-only pending exact official syllabus mapping; Q1–Q23 also remain review_flag=true pending mapping. Q86–Q100 remain untranscribed. Paper is incomplete.",
-      "unit_mapping_verified_count": 37,
+      "review_note": "Q1–Q85 are transcribed and visually checked against the official GSET December 2024 Social Work Paper-II PDF; all stored answers match the official FINAL answer key. 55 questions now have explicit official Code 25 syllabus mappings and are active. 30 remain review-only pending syllabus placement: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q32, Q54, Q56, Q60, Q61, Q63, Q76. Q86–Q100 remain untranscribed. Paper is incomplete.",
+      "unit_mapping_verified_count": 55,
       "unit_mapping_provisional_count": 1,
-      "unit_mapping_pending_count": 48,
+      "unit_mapping_pending_count": 30,
       "unit_mapping_status": "partially_official_syllabus_mapped"
     },
     {
