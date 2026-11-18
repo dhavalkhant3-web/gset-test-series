@@ -1744,3 +1744,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Mapped Q91–Q93 Unit VI; Q94 Unit III; Q95–Q96 Unit IV; Q97 Unit VIII; Q98–Q100 Unit IX, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
 - November 2022 now 98/100 mapped; Q20 and Q54 held for lack of an unambiguous syllabus match. Q24 and Q42 content-review flags retained with official keys. Questions commit: 0f8bbee9f909dfdddf2c481fc266381420ddc6b0; manifest commit: 257cd6da72fadb61179ceeea64305a8698aeb898; checkpoint commit: 704b8e62b17a3b7940fb9423b6de0fe846c4f0f6.
 - PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 Sep 2018 Q1–Q6 and Nov 2022 Q95
+- Mapped Sep 2018 Q1 Unit VIII; Q2 Unit X; Q3 Unit II; Q4 Unit III; Q5 Unit V; Q6 Unit X. All six were already source/key verified. Q7–Q100 remain untranscribed.
+- Refined Nov 2022 Q95 to Unit VI (natural resource management). Nov 2022 now 99 mapped; Q20 held; Q24/Q42 review flags retained.
+- Geography overall: 298 verified mappings, 4 provisional, 2 pending. Questions commit: 93a81678291f622bf6cf7b80d2fc0d0e26791bc7; manifest commit: 9e23bc561118afbe31492cf92500680dce6bc966; checkpoint commit: bebad387944a10d26423f8a32bc8c9e285a5f6b1.
+- PR #22 remains open/unmerged.
