@@ -2,19 +2,19 @@
   "subject": "Commerce",
   "subject_code": "17",
   "branch": "staging/commerce-code17-answer-keys",
-  "audit_date": "2026-11-17",
+  "audit_date": "2026-11-18",
   "master_sync": {
     "canonical_repository_question_bank": "NOT_FOUND: no assets/subjects/commerce/questions.json or equivalent production question-bank file exists in the inspected Commerce subtree.",
-    "local_master": "gset_commerce_17_master_oct2011_final_checked.json",
+    "local_master": "gset_commerce_17_master_oct2011_visual_signed_off.json",
     "local_master_schema": "GSET_Android_Test_Series_Question_Bank v2.0.0; 19 sessions; 1300 slots",
-    "limitation": "The 1.7 MB local master JSON has 1,300 questions across 19 sessions. It is not yet synchronized to GitHub; the connected GitHub tools accept text content but this execution environment does not expose a direct local-file-to-GitHub upload handoff."
+    "limitation": "The signed-off local Master JSON contains 1,300 questions across 19 sessions. The current GitHub connector accepts UTF-8 text/base64 content but does not expose a direct local-file upload handoff in this workflow. Repository metadata and audit records are being synchronized separately; the full Master JSON remains not synchronized."
   },
   "october_2011": {
     "source_booklet": "oct1117 (1).pdf",
     "source_booklet_status": "UPLOADED: original 20-page bilingual booklet; question pages 3-18",
     "question_records_in_local_master": 50,
-    "bilingual_stems_visually_signed_off": 1,
-    "bilingual_options_visually_signed_off": 4,
+    "bilingual_stems_visually_signed_off": 50,
+    "bilingual_options_visually_signed_off": 200,
     "official_answer_key": "50/50 previously verified; unchanged; answer-key verification is separate from booklet transcription",
     "q44": {
       "status": "VISUALLY_VERIFIED",
@@ -23,16 +23,19 @@
       "option_D_gu": "બેંક દર",
       "correct_option": "C"
     },
-    "q1_q43_q45_q50": "NOT VERIFIED: draft transcription exists, but no line-by-line source comparison evidence is recorded.",
-    "verified_question_count": 1,
-    "pending_question_count": 49,
-    "pending": 49
+    "q1_q43_q45_q50": "VISUALLY VERIFIED as part of the 50/50 page-by-page sign-off; no remaining booklet comparison pending for this session.",
+    "verified_question_count": 50,
+    "pending_question_count": 0,
+    "pending": 0,
+    "signoff_audit": "audits/commerce_oct2011_bilingual_visual_signoff_2026-11-17.json",
+    "signoff_status": "VISUAL_BILINGUAL_SIGNOFF_COMPLETE_50_OF_50_NO_EXCEPTIONS"
   },
   "app_integration": {
     "production_question_bank_path": "NOT_FOUND",
     "app_ui_integration": "BLOCKED pending synchronization of the canonical 1,300-question Master JSON and confirmation of the app's subject-loader contract.",
     "pubspec_asset_registration": "NOT_COMPLETED",
-    "paper_i_and_other_subjects": "unchanged"
+    "paper_i_and_other_subjects": "unchanged",
+    "production_bank_path": "NOT_FOUND: no assets/subjects/commerce/questions.json exists in the inspected Commerce subtree."
   },
   "ci": {
     "fresh_ci_run": "NOT_TRIGGERED; no workflow-dispatch action exposed in connected GitHub tools",
@@ -43,5 +46,5 @@
     "pr_created": false,
     "merged": false
   },
-  "correction_note": "Corrected on 2026-11-17: an earlier audit incorrectly claimed 50/50 bilingual visual verification. The local Master extraction statuses show 49 USER_SUPPLIED_TRANSCRIPTION_PENDING_OFFICIAL_QUESTION_PAPER_COMPARISON and 1 BILINGUAL_BOOKLET_CHECKED_Q44. The 50/50 claim has been withdrawn."
+  "correction_note": "Supersedes the stale 1/50 and 49-pending statements: the user supplied an updated signed-off Master JSON and a separate visual sign-off audit proving Q1-Q50 (50/50) and 200 bilingual option fields checked against the original booklet, with zero exceptions. Official final answer key remains 50/50. Full signed-off Master JSON is not yet synchronized to GitHub; no claim of production integration is made."
 }
