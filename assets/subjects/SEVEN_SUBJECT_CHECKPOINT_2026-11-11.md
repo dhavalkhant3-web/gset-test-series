@@ -1248,3 +1248,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 119 → 126; pending: 65 → 58 (192 records). No source or key flags changed.
 - Questions commit: `c612e1f7fc7274e190415764a52c64ddf4e8abc6`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Sanskrit November 2025 Q17–Q24, subject to source/key and syllabus checks.
+
+
+## Sanskrit Code 07 — November 2025 Q17–Q24 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight existing source/key-verified records without changing text/options/answers: Q17 Unit VIII (Riti/Kavyashastra); Q18–Q19 Unit X (Arthashastra/Manusmriti); Q20–Q23 Unit VIII (Rasa, Guna, Shabdashakti and Dasharupaka); Q24 Unit IV (Mimamsa/Arthasangraha).
+- Sanskrit verified mappings: 126 → 134; pending: 58 → 50 (192 records). Q15 remains pending; no source/key flags changed.
+- Questions commit: `9244caf18c989b3bc5670f4c7fd8b0d8de3dc475`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next mapping batch: Sanskrit November 2025 Q25–Q32.
