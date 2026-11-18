@@ -1050,3 +1050,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
 - Data commits: questions Q72–Q79 1398aad994a127a9b67b4d90765ccc5abf3f90a6; paper manifest 0f01585987b933da7307ea7e03d96bb32fbb29c0. Checkpoint commit recorded separately after this note.
 - Next batch: Social Work Code 25, December 2024 Q80–Q87. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q80–Q85
+- Pre-batch canonical audit: 479 Social Work records (64 active / 415 review-only); December 2024 Q1–Q79 were present. Q80–Q85 were missing. No completed question was repeated.
+- Visually checked official GSET December 2024 Social Work Paper-II PDF: Q80 on zero-based page index 24 and Q81–Q85 on index 25. English stems and all four options checked against the scan.
+- Official FINAL answer-key parity: Q80 B, Q81 B, Q82 C, Q83 B, Q84 B, Q85 C — 6/6 exact matches.
+- Source transcription and final-key verification are complete for all six. All six remain review-only pending exact mapping to explicit Code 25 syllabus topics; no unsupported units assigned.
+- After batch: Social Work canonical records 485 (before 479, +6); active 64 (unchanged); review-only 421 (before 415, +6). December 2024 is 85/100 transcribed. Remaining Social Work transcription: 115 (December 2024 Q86–Q100 = 15; November 2025 Q1–Q100 = 100). December 2024 mapping counters: 37 verified, 1 provisional (Q32), 48 pending/review-only.
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Data commits: questions Q80–Q85 759fa0a2deec286e9bb3ed588aef881b431d0b80; paper manifest 98539a2cc12afad3d45c814dd72df0e129fef1c1. Checkpoint commit recorded separately after this note.
+- Next batch: Social Work Code 25, December 2024 Q86–Q93. PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
