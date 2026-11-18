@@ -1286,3 +1286,10 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Sanskrit verified mappings: 156 → 163; pending: 28 → 21 (192 records). Q15, Q29, Q40 and Q53 remain missing/held as noted in the subject audit.
 - Questions commit: `d4ec756207bab7ed125d68693e56a02411786f9c`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
 - Next batch: Sanskrit November 2025 Q57–Q64.
+
+
+## Sanskrit Code 07 — November 2025 Q57–Q64 official syllabus mapping (18 November 2026)
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/07.pdf. Mapped eight source/key-verified records without changing text/options/answers: Q57–Q60 Unit IX (Ramayana/Mahabharata/Itihasa-Purana); Q61 Unit X (Manava/ancient polity); Q62 Unit I (Brahmana literature); Q63 Unit VIII (Natyashastra); Q64 Unit IV (Mimamsa/Parisankhya Vidhi).
+- Sanskrit verified mappings: 163 → 171; pending: 21 → 13 (192 records). Q15, Q29, Q40 and Q53 remain missing/held as recorded.
+- Questions commit: `b277e91c06f584aefa78ebb0c40ee754cb5a62d6`. PR #22 remains open and unmerged; other subjects/protected areas untouched.
+- Next mapping batch: Sanskrit November 2025 Q65–Q72.
