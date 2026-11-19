@@ -1770,3 +1770,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Q1 Unit I, Q2 Unit X, Q3–Q5 Unit I, Q6 Unit IV, Q7 Unit I and Q10 Unit I retained. Q8/Q9 moved to review-only with pending mapping because the official syllabus does not explicitly support institute-location matching or the Silent Spring author. No content or answer changes.
 - Code 26 before → after: active 300 → 298; review flags 0 → 2; mappings verified 300 → 298; mapping pending 0 → 2; second-pass complete 9 → 19; second-pass pending 291 → 281. Source/key-verified remains 300/300.
 - Questions commit: 0bd50124f467abcdade5a23e5862fdba0a3fe041; manifest: 10e4a475032c8f7402495415f440f5eb55989cc6; source audit: ac0e4de77bfea2ae05e88bd6e1684476580c4056; registry: 98b5b7e433455666c17d6e37c5fd63f1c0bca1d7; checkpoint: ed2301ffd3a026bae12caac1b737ce9136eea777. PR #22 remains open/unmerged; no CI/APK claim.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 November 2023 Q11–Q20 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q11–Q20 against official printed pages 5–6 (PDF zero-based page indexes 4–5). Q11–Q18 are on printed page 5; Q19–Q20 are on printed page 6. All ten stems and all four options match the official scan. No figures or tables occur.
+- Official final-key letters B, D, A, A, C, A, A, C, D, B match the stored answers 10/10. All ten records map to Unit II, supported by the official syllabus topics (environmental chemistry, calorimetry, toxic chemicals, pesticides, radioisotopes and analytical methods). No question text, options, answer letters or unit fields changed.
+- Before → after: independent second-pass verified 19 → 29; pass-1 records still awaiting second pass 281 → 271. Canonical questions remain 300; active 298; review-only 2 (Q8/Q9 syllabus holds); mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q011, GSET-ENV26-NOV2023-Q012, GSET-ENV26-NOV2023-Q013, GSET-ENV26-NOV2023-Q014, GSET-ENV26-NOV2023-Q015, GSET-ENV26-NOV2023-Q016, GSET-ENV26-NOV2023-Q017, GSET-ENV26-NOV2023-Q018, GSET-ENV26-NOV2023-Q019, GSET-ENV26-NOV2023-Q020. Cumulative independent second-pass IDs: 29.
+- Next batch: Environmental Sciences November 2023 Q21–Q30; inspect official pages and re-check stems, four options, final-key letters and syllabus mapping before updating.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.

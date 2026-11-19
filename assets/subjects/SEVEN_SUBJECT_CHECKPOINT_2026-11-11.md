@@ -1420,3 +1420,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Evidence batch: GSET-ENV26-NOV2023-Q001, GSET-ENV26-NOV2023-Q002, GSET-ENV26-NOV2023-Q003, GSET-ENV26-NOV2023-Q004, GSET-ENV26-NOV2023-Q005, GSET-ENV26-NOV2023-Q006, GSET-ENV26-NOV2023-Q007, GSET-ENV26-NOV2023-Q008, GSET-ENV26-NOV2023-Q009, GSET-ENV26-NOV2023-Q010. Cumulative independent second-pass IDs: 19.
 - Next batch: Environmental Sciences November 2023 Q11–Q20 independent second-pass; inspect official pages and re-check the four options and final-key letters before updating.
 - No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 November 2023 Q11–Q20 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q11–Q20 against official printed pages 5–6 (PDF zero-based page indexes 4–5). Q11–Q18 are on printed page 5; Q19–Q20 are on printed page 6. All ten stems and all four options match the official scan. No figures or tables occur.
+- Official final-key letters B, D, A, A, C, A, A, C, D, B match the stored answers 10/10. All ten records map to Unit II, supported by the official syllabus topics (environmental chemistry, calorimetry, toxic chemicals, pesticides, radioisotopes and analytical methods). No question text, options, answer letters or unit fields changed.
+- Before → after: independent second-pass verified 19 → 29; pass-1 records still awaiting second pass 281 → 271. Canonical questions remain 300; active 298; review-only 2 (Q8/Q9 syllabus holds); mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q011, GSET-ENV26-NOV2023-Q012, GSET-ENV26-NOV2023-Q013, GSET-ENV26-NOV2023-Q014, GSET-ENV26-NOV2023-Q015, GSET-ENV26-NOV2023-Q016, GSET-ENV26-NOV2023-Q017, GSET-ENV26-NOV2023-Q018, GSET-ENV26-NOV2023-Q019, GSET-ENV26-NOV2023-Q020. Cumulative independent second-pass IDs: 29.
+- Next batch: Environmental Sciences November 2023 Q21–Q30; inspect official pages and re-check stems, four options, final-key letters and syllabus mapping before updating.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.

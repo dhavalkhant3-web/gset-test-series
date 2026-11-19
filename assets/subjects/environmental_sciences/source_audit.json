@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 281,
+  "proofread_pass1_pending_second_pass": 271,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -125,45 +125,43 @@
     "date": "2026-11-19",
     "session": "November 2023",
     "questions": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      2,
-      3,
-      4
-    ],
-    "printed_pages": [
-      3,
       4,
       5
     ],
+    "printed_pages": [
+      5,
+      6
+    ],
     "final_key_letters": [
       "B",
-      "C",
       "D",
       "A",
       "A",
       "C",
-      "D",
       "A",
-      "B",
-      "C"
+      "A",
+      "C",
+      "D",
+      "B"
     ],
     "final_key_parity": "10/10",
-    "result": "All ten stems and all four options visually matched the official scan. Q8's two-column matching table was checked. No figures occur in this batch. Q8 and Q9 remain review-only for syllabus mapping; no question text, options, or answer letters changed."
+    "result": "All ten stems and all four options visually matched the official scan. Q11-Q18 are on printed page 5 and Q19-Q20 on printed page 6. No figures or tables occur. All ten map directly to Unit II; no question text, options, answer letters or mapping fields changed."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -184,9 +182,19 @@
     "GSET-ENV26-NOV2023-Q007",
     "GSET-ENV26-NOV2023-Q008",
     "GSET-ENV26-NOV2023-Q009",
-    "GSET-ENV26-NOV2023-Q010"
+    "GSET-ENV26-NOV2023-Q010",
+    "GSET-ENV26-NOV2023-Q011",
+    "GSET-ENV26-NOV2023-Q012",
+    "GSET-ENV26-NOV2023-Q013",
+    "GSET-ENV26-NOV2023-Q014",
+    "GSET-ENV26-NOV2023-Q015",
+    "GSET-ENV26-NOV2023-Q016",
+    "GSET-ENV26-NOV2023-Q017",
+    "GSET-ENV26-NOV2023-Q018",
+    "GSET-ENV26-NOV2023-Q019",
+    "GSET-ENV26-NOV2023-Q020"
   ],
-  "second_pass_visual_verified_count": 19,
+  "second_pass_visual_verified_count": 29,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -198,9 +206,9 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 19,
-    "proofread_second_pass_pending": 281,
-    "second_pass_question_ids_not_encoded_in_original_staging_schema": true,
-    "note": "Q1-Q10 November 2023 independently checked in this batch. The original nine independently visual-checked records were retained in the cumulative register. The two new mapping holds remain source/key verified but review-only."
+    "proofread_second_pass_verified": 29,
+    "proofread_second_pass_pending": 271,
+    "second_pass_question_ids_not_encoded_in_original_staging_schema": false,
+    "note": "Q1-Q10 and Q11-Q20 November 2023 independently checked in separate batches; previous nine checks retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   }
 }
