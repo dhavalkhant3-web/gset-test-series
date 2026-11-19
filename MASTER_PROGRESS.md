@@ -1763,3 +1763,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Canonical Geography status: 298 verified, 4 provisional, 2 pending (304 total). Exactly four records have review_flag=true: Nov 2022 Q20, Q24, Q42 and Q54. The four provisional records are separate and are not review flags.
 - Nov 2022: 98 mapped, 2 mapping holds; Q24/Q42 content review. Sep 2018 Q1–Q6 mapped; Q7–Q100 untranscribed.
 - Checkpoint commit: 2ac06e091802abadee7ab60e57d42ec210533441. PR #22 remains open/unmerged; no CI run for latest head.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 Nov 2023 Q1–Q10 second-pass audit
+- Rechecked official paper printed pages 3–5 (PDF indexes 2–4): all ten stems/options match; Q8 matching table checked; no figures. Official final key B,C,D,A,A,C,D,A,B,C matches 10/10. Sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; syllabus https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Q1 Unit I, Q2 Unit X, Q3–Q5 Unit I, Q6 Unit IV, Q7 Unit I and Q10 Unit I retained. Q8/Q9 moved to review-only with pending mapping because the official syllabus does not explicitly support institute-location matching or the Silent Spring author. No content or answer changes.
+- Code 26 before → after: active 300 → 298; review flags 0 → 2; mappings verified 300 → 298; mapping pending 0 → 2; second-pass complete 9 → 19; second-pass pending 291 → 281. Source/key-verified remains 300/300.
+- Questions commit: 0bd50124f467abcdade5a23e5862fdba0a3fe041; manifest: 10e4a475032c8f7402495415f440f5eb55989cc6; source audit: ac0e4de77bfea2ae05e88bd6e1684476580c4056; registry: 98b5b7e433455666c17d6e37c5fd63f1c0bca1d7; checkpoint: ed2301ffd3a026bae12caac1b737ce9136eea777. PR #22 remains open/unmerged; no CI/APK claim.
