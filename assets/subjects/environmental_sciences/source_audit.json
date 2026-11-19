@@ -7,28 +7,28 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 291,
-  "active_questions": 300,
-  "pending_review": 0,
+  "proofread_pass1_pending_second_pass": 281,
+  "active_questions": 298,
+  "pending_review": 2,
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "total_records": 300,
-    "verified": 300,
+    "verified": 298,
     "provisional": 0,
-    "pending": 0,
+    "pending": 2,
     "unit_distribution": {
       "Unit I": 22,
       "Unit X": 28,
-      "Unit IV": 32,
-      "Unit VI": 38,
+      "Unit IV": 31,
       "Unit II": 42,
       "Unit III": 27,
+      "Unit VI": 37,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "All 300 canonical Environmental Sciences records have verified Code 26 syllabus mappings. The 291 pass-1 records remain pending an independent second proofreading pass; this is separate from source_verified and review_queue status."
+    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending because their previous unit assignments are not explicitly supported by the official Code 26 syllabus. Independent second-pass visual review is a separate gate: 19/300 completed, 281 pending."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -55,25 +55,25 @@
     "result": "All 14 stems and option sets visually matched the official scan. All had verified final-key parity and verified official syllabus mappings. Promoted after duplicate-ID and status-gate checks; the Nov 2025 review queue is now empty."
   },
   "last_mapping_review": {
-    "date": "2026-11-16",
-    "scope": "Question Q84 direct syllabus-placement re-audit; previous all-300 mapping review retained, with Q84 corrected from Unit III to Unit IX.",
-    "verified_mappings": 300,
+    "date": "2026-11-19",
+    "scope": "Re-audited Nov 2023 Q1-Q10 against official Code 26 syllabus; removed unsupported mappings for Q8 and Q9.",
+    "verified_mappings": 298,
     "provisional_mappings": 0,
-    "pending_mappings": 0,
+    "pending_mappings": 2,
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "unit_distribution": {
       "Unit I": 22,
       "Unit X": 28,
-      "Unit IV": 32,
-      "Unit VI": 38,
+      "Unit IV": 31,
       "Unit II": 42,
       "Unit III": 27,
+      "Unit VI": 37,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "Q84 asks which model is related to population ecology. Official Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions; Unit IX is the direct match. No other question mappings changed."
+    "note": "Q1 Unit I; Q2 Unit X; Q3–Q5 Unit I; Q6 Unit IV; Q7 Unit I; Q10 Unit I remain verified. Q8 institution/location matching and Q9 Silent Spring author are not explicit in the syllabus; no unit was guessed."
   },
   "dec2024_last_visual_review": {
     "date": "2026-11-16",
@@ -103,7 +103,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-19",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -120,5 +120,87 @@
     "independently_visual_checked": 9,
     "second_pass_question_ids_not_encoded_in_canonical_schema": true,
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
+  },
+  "last_second_pass_visual_review": {
+    "date": "2026-11-19",
+    "session": "November 2023",
+    "questions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "count": 10,
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "pdf_page_indexes_zero_based": [
+      2,
+      3,
+      4
+    ],
+    "printed_pages": [
+      3,
+      4,
+      5
+    ],
+    "final_key_letters": [
+      "B",
+      "C",
+      "D",
+      "A",
+      "A",
+      "C",
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "final_key_parity": "10/10",
+    "result": "All ten stems and all four options visually matched the official scan. Q8's two-column matching table was checked. No figures occur in this batch. Q8 and Q9 remain review-only for syllabus mapping; no question text, options, or answer letters changed."
+  },
+  "second_pass_visual_verified_question_ids": [
+    "GSET-ENV26-DEC2024-Q008",
+    "GSET-ENV26-DEC2024-Q020",
+    "GSET-ENV26-DEC2024-Q051",
+    "GSET-ENV26-NOV2023-Q087",
+    "GSET-ENV26-NOV2025-Q006",
+    "GSET-ENV26-NOV2025-Q008",
+    "GSET-ENV26-NOV2025-Q015",
+    "GSET-ENV26-NOV2025-Q019",
+    "GSET-ENV26-NOV2025-Q068",
+    "GSET-ENV26-NOV2023-Q001",
+    "GSET-ENV26-NOV2023-Q002",
+    "GSET-ENV26-NOV2023-Q003",
+    "GSET-ENV26-NOV2023-Q004",
+    "GSET-ENV26-NOV2023-Q005",
+    "GSET-ENV26-NOV2023-Q006",
+    "GSET-ENV26-NOV2023-Q007",
+    "GSET-ENV26-NOV2023-Q008",
+    "GSET-ENV26-NOV2023-Q009",
+    "GSET-ENV26-NOV2023-Q010"
+  ],
+  "second_pass_visual_verified_count": 19,
+  "live_reconciliation_2026_11_19": {
+    "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
+    "canonical_questions": 300,
+    "active_questions": 298,
+    "review_flagged_questions": 2,
+    "review_queue_file_records": 0,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_provisional": 0,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 19,
+    "proofread_second_pass_pending": 281,
+    "second_pass_question_ids_not_encoded_in_original_staging_schema": true,
+    "note": "Q1-Q10 November 2023 independently checked in this batch. The original nine independently visual-checked records were retained in the cumulative register. The two new mapping holds remain source/key verified but review-only."
   }
 }
