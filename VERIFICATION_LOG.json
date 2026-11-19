@@ -7544,5 +7544,87 @@
       "No PR merged",
       "No CI/APK pass claimed"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "event": "Environmental Sciences Code 26 November 2023 Q1-Q10 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "November 2023 Q1-Q10",
+    "printed_pages": [
+      3,
+      4,
+      5
+    ],
+    "pdf_page_indexes_zero_based": [
+      2,
+      3,
+      4
+    ],
+    "final_key_letters": [
+      "B",
+      "C",
+      "D",
+      "A",
+      "A",
+      "C",
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "option_sets_match": 10,
+      "table_checked": [
+        "Q8"
+      ],
+      "figures_present": 0
+    },
+    "before": {
+      "canonical_questions": 300,
+      "active": 300,
+      "review_flagged": 0,
+      "verified_mappings": 300,
+      "pending_mappings": 0,
+      "independent_second_pass_verified": 9,
+      "independent_second_pass_pending": 291
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 19,
+      "independent_second_pass_pending": 281,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "review_only_ids": [
+      "GSET-ENV26-NOV2023-Q008",
+      "GSET-ENV26-NOV2023-Q009"
+    ],
+    "review_reason": "The official Code 26 syllabus does not explicitly prescribe environmental institute-location matching or the author of Silent Spring; previous unit assignments removed rather than guessed.",
+    "question_text_options_answers_changed": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false,
+    "commits": {
+      "questions": "0bd50124f467abcdade5a23e5862fdba0a3fe041",
+      "manifest": "10e4a475032c8f7402495415f440f5eb55989cc6",
+      "source_audit": "ac0e4de77bfea2ae05e88bd6e1684476580c4056",
+      "registry": "98b5b7e433455666c17d6e37c5fd63f1c0bca1d7",
+      "checkpoint": "ed2301ffd3a026bae12caac1b737ce9136eea777",
+      "master_progress": "73a1f4592d7f5abcd80ecbfeb3d27a0c76a7ac7b"
+    }
   }
 ]
