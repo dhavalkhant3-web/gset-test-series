@@ -1409,3 +1409,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 ## Final count clarification — Geography Code 24 (18 November 2026)
 - Current canonical status is 298 `verified`, 4 `provisional`, 2 `pending` out of 304 records. The four `review_flag=true` records are exactly Nov 2022 Q20, Q24, Q42 and Q54. The four provisional records (Aug 2017 Q10, Q21, Q44 and Sep 2016 Q37) are a separate mapping state, not review flags.
 - November 2022 manifest: 98 mapped, 2 pending; content review flags Q24/Q42; Q20/Q54 are mapping holds. September 2018: Q1–Q6 mapped; Q7–Q100 still untranscribed.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 November 2023 Q1–Q10 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q1–Q10 against official printed pages 3–5 (PDF zero-based page indexes 2–4). All ten stems and all four options match the official scan. Q8's two-column institute/location matching table was checked; no figures occur in this range.
+- Official final-key letters B, C, D, A, A, C, D, A, B, C match the stored answers 10/10. Question text, options, and answer letters were not changed.
+- Syllabus re-audit: Q1 Unit I; Q2 Unit X; Q3–Q5 Unit I; Q6 Unit IV; Q7 Unit I; Q10 Unit I remain verified. Q8 (environmental institute/location matching) and Q9 (author of *Silent Spring*) are now review-only: the official syllabus does not explicitly prescribe those items, so their previous Unit VI/Unit IV assignments were removed. No unit guessed.
+- Before → after: active 300 → 298; review-flagged 0 → 2; verified mappings 300 → 298; mapping pending 0 → 2; independent second-pass verified 9 → 19; pass-1 records still awaiting second pass 291 → 281. All 300 remain source-verified and final-key matched. The two review flags are syllabus-only; the review-queue JSON remains empty.
+- Evidence batch: GSET-ENV26-NOV2023-Q001, GSET-ENV26-NOV2023-Q002, GSET-ENV26-NOV2023-Q003, GSET-ENV26-NOV2023-Q004, GSET-ENV26-NOV2023-Q005, GSET-ENV26-NOV2023-Q006, GSET-ENV26-NOV2023-Q007, GSET-ENV26-NOV2023-Q008, GSET-ENV26-NOV2023-Q009, GSET-ENV26-NOV2023-Q010. Cumulative independent second-pass IDs: 19.
+- Next batch: Environmental Sciences November 2023 Q11–Q20 independent second-pass; inspect official pages and re-check the four options and final-key letters before updating.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
