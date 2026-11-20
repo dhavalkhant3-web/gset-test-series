@@ -60,5 +60,17 @@
     "review_flags_cleared": 0,
     "merge_authorized": false
   },
-  "note": "This branch adds a separate mapping audit artifact and checkpoint only. Existing canonical question records remain unchanged because visual source proofing is still pending."
+  "note": "This branch adds a separate mapping audit artifact and checkpoint only. Existing canonical question records remain unchanged because visual source proofing is still pending.",
+  "uploaded_official_final_key_reconciliation": {
+    "status": "PASS",
+    "official_final_key_records": 300,
+    "staged_json_answers_matching_official_keys": 300,
+    "mismatches": 0,
+    "missing_entries": 0,
+    "alternate_staging_file": "gset_forensic_science_paper2_staging(3).json",
+    "alternate_staging_answers_populated": 300,
+    "source_visual_proofreading_pending": 300,
+    "answer_key_visual_review_pending": 300,
+    "note": "User uploaded all three question-paper scans and all three official final answer keys. Automated direct comparison passed; visual proofread is still required."
+  }
 }
