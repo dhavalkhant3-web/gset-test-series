@@ -1,0 +1,46 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "scope": "Paper-II: November 2023, December 2024, November 2025",
+  "official_sources": [
+    {
+      "session": "November 2023",
+      "question_paper": "nov2327 (1)(1).pdf",
+      "final_answer_key": "nov2327.pdf",
+      "booklet": "270062"
+    },
+    {
+      "session": "December 2024",
+      "question_paper": "dec2427 (1).pdf",
+      "final_answer_key": "dec2427(1).pdf",
+      "booklet": "270054"
+    },
+    {
+      "session": "November 2025",
+      "question_paper": "nov2527 (1).pdf",
+      "final_answer_key": "nov2527.pdf",
+      "booklet": "270075"
+    }
+  ],
+  "reconciliation": {
+    "official_final_key_records": 300,
+    "staged_json_with_answers": 300,
+    "staged_json_answers_matching_official_key": 300,
+    "staged_json_mismatches": 0,
+    "staged_json_missing_key_entries": 0,
+    "alternate_staging_records": 300,
+    "alternate_staging_answers_populated_from_official_keys": 300,
+    "alternate_staging_status": "answer-key-enriched; source visual proofread remains pending"
+  },
+  "visual_review": {
+    "question_paper_visual_proofread": 0,
+    "question_paper_visual_proofread_pending": 300,
+    "answer_key_visual_review": 0,
+    "answer_key_visual_review_pending": 300,
+    "note": "Official final answer-key PDFs were parsed and compared. This does not substitute for manual visual cross-check of each question-paper transcription and answer-key entry."
+  },
+  "integrity": {
+    "other_subjects_modified": false,
+    "merge_authorized": false
+  }
+}
