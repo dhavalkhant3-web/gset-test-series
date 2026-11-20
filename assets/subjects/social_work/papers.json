@@ -153,14 +153,14 @@
       "question_source_verified": 100,
       "source_verified": true,
       "review_flags_remaining_count": 100,
-      "status": "english_source_verified_final_key_reconciled_gujarati_transcribed_20_syllabus_mapped_20_review_pending",
-      "review_note": "Q1-Q100 English stems and four options are source-checked; all 100 answers match official final key. Gujarati stems/options transcribed for Q1-Q20 and individually mapped to official Code 25 Units I-III (20/100). All 100 remain review-only pending independent Gujarati proofreading; Q21-Q100 Gujarati transcription and mapping remain pending.",
+      "status": "english_source_verified_final_key_reconciled_gujarati_transcribed_40_syllabus_mapped_40_review_pending",
+      "review_note": "Q1-Q100 English stems/options source-checked; all 100 answers match official final key. Gujarati stems and four options transcribed for Q1-Q40 and mapped to official Code 25 Units I-IV (40/100). All 100 remain review-only pending independent Gujarati proofreading; Q41-Q100 Gujarati transcription and mapping remain pending.",
       "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2525.pdf",
       "answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf",
-      "unit_mapping_verified_count": 20,
+      "unit_mapping_verified_count": 40,
       "unit_mapping_provisional_count": 0,
-      "unit_mapping_pending_count": 80,
-      "unit_mapping_status": "partially_verified_20_of_100"
+      "unit_mapping_pending_count": 60,
+      "unit_mapping_status": "partially_verified_40_of_100"
     }
   ]
 }
