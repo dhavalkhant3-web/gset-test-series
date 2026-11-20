@@ -9,26 +9,25 @@
     "source_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
     "note": "Unit descriptions taken from the uploaded official GSET syllabus PDF, pages 1–5."
   },
-  "method": "Conservative question-stem topic matching against the official syllabus. A unit is assigned only when exactly one syllabus unit matches the subject topic; zero or multiple matches remain review-only. This is a mapping audit artifact, not source-page proofing.",
+  "method": "Conservative topic matching against the uploaded official GSET Code 27 syllabus. Candidate units are suggestions only and remain pending human confirmation. Ambiguous/no-direct-match records remain review-only. This audit does not certify question-paper transcription or visual answer-key review.",
   "summary": {
     "total": 300,
+    "candidate_mapping_pending_human_review": 183,
+    "review_only": 117,
+    "verified_mappings": 0,
     "unit_counts": {
-      "Unit 1": 13,
+      "Unit 1": 12,
       "Unit 2": 13,
       "Unit 3": 32,
-      "Unit 4": 25,
-      "Unit 5": 29,
-      "Unit 6": 9,
+      "Unit 4": 23,
+      "Unit 5": 28,
+      "Unit 6": 6,
       "Unit 7": 19,
       "Unit 8": 16,
       "Unit 9": 7,
       "Unit 10": 27
     },
-    "verified": 190,
-    "review_only": 110,
-    "duplicate_ids": 0,
-    "source_verified_count": 0,
-    "answer_key_verified_count": 300
+    "duplicate_ids": 0
   },
   "questions": [
     {
@@ -37,8 +36,8 @@
       "question_no": 1,
       "question_en": "The following factors do not influence in the formation of a bruise",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -52,7 +51,7 @@
       "question_en": "Under which Section of Indian Law dowry deaths are booked ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -66,8 +65,8 @@
       "question_no": 3,
       "question_en": "Which of the following sutures of the skull is last to fuse ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -81,7 +80,7 @@
       "question_en": "In an aircrash case, which survey method is more suitable ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -92,8 +91,8 @@
       "question_no": 5,
       "question_en": "Salylation is used in",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -106,8 +105,8 @@
       "question_no": 6,
       "question_en": "MCT detector is used in",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -120,8 +119,8 @@
       "question_no": 7,
       "question_en": "Match the following : List – I: I. Arches; II. Lateral pocket loop; III. Twinned loop; IV. Central pocket loop. List – II: 1. Contains two loops opening on the same side; 2. Contains two loops opening on the opposite sides; 3. Contains one core and two delta; 4. Contains no delta",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -135,7 +134,7 @@
       "question_en": "Radial diffusion test is used for the detection of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -146,8 +145,8 @@
       "question_no": 9,
       "question_en": "Zip gun is a",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -161,7 +160,7 @@
       "question_en": "The following is a regenerated fibre",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 7"
@@ -175,8 +174,8 @@
       "question_no": 11,
       "question_en": "Application of ABO blood grouping in disputed paternity is first used by",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -190,7 +189,7 @@
       "question_en": "Which of the following preservatives is used to preserve the blood in case of alcohol poisoning ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 4"
@@ -204,8 +203,8 @@
       "question_no": 13,
       "question_en": "A technique used for increasing the amount of a specific segment of DNA is called",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -218,8 +217,8 @@
       "question_no": 14,
       "question_en": "The relative density of quartz is about",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -232,8 +231,8 @@
       "question_no": 15,
       "question_en": "The main constituent of Kaolinite clay soil is",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -246,8 +245,8 @@
       "question_no": 16,
       "question_en": "Rohypnol is used for",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -260,8 +259,8 @@
       "question_no": 17,
       "question_en": "Most superior form of inquest is",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -274,8 +273,8 @@
       "question_no": 18,
       "question_en": "Soil sample when moistened with few drops of water and concentrated hydrochloric acid gives yellow colour due to the presence of",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -288,8 +287,8 @@
       "question_no": 19,
       "question_en": "During gravimetric method of analysis of cement filtrate-D is used for calculation of",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -303,7 +302,7 @@
       "question_en": "Which amino acid is present in hair medullar protein that is usually not a component of proteins ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 7"
@@ -317,8 +316,8 @@
       "question_no": 21,
       "question_en": "Family Silphidae insects belong to the order",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -332,7 +331,7 @@
       "question_en": "Cyanide inhibits the activity of which of the following enzyme ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 4"
@@ -345,9 +344,9 @@
       "paper_id": "forensic_science_nov23",
       "question_no": 23,
       "question_en": "Octane number indicates",
-      "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -360,8 +359,8 @@
       "question_no": 24,
       "question_en": "Which plant contain the toxalbumin – \"Ricin\" ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -374,8 +373,8 @@
       "question_no": 25,
       "question_en": "Which of the following plants is not a cardiac poison ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -389,7 +388,7 @@
       "question_en": "Which of the following pairs is not matched correctly ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -400,8 +399,8 @@
       "question_no": 27,
       "question_en": "In histological section of teeth, enamel shows incremental lines which are known as",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -414,8 +413,8 @@
       "question_no": 28,
       "question_en": "An explosion during a fire due to the mixing of fresh air in a compartment having inflammable, volatile pyrolysis product and low oxygen, is known as",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -428,8 +427,8 @@
       "question_no": 29,
       "question_en": "Which of the following physiological parameters is NOT assessed in polygraph testing ?",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -443,7 +442,7 @@
       "question_en": "A tool having thin cutting edge, the spacing in between the striations shows change with",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -454,8 +453,8 @@
       "question_no": 31,
       "question_en": "STR DNA analysis can help in determining which of the following ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -468,8 +467,8 @@
       "question_no": 32,
       "question_en": "Which of the following test is used to determine the blood group from a blood stain ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -482,8 +481,8 @@
       "question_no": 33,
       "question_en": "Which of the following is NOT true for AES ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -496,8 +495,8 @@
       "question_no": 34,
       "question_en": "Thin layer of which metal are coated to develop latent fingerprints using VMD method ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -510,8 +509,8 @@
       "question_no": 35,
       "question_en": "Which of the following can be said as interlineation ?",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -524,8 +523,8 @@
       "question_no": 36,
       "question_en": "Which of the following technique has NOT been routinely used in the forensic analysis of explosives ?",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -538,8 +537,8 @@
       "question_no": 37,
       "question_en": "An office of the government handwriting expert of Bengal was established in Calcutta in 1904 which was shifted to Shimla in which year ?",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -553,7 +552,7 @@
       "question_en": "A condition of prolonged transition from sleep to waking with partial alertness, disorientation, drowsiness, poor co-ordination and violent behaviour is known as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -565,7 +564,7 @@
       "question_en": "Simon sign is seen in which of the following ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -576,8 +575,8 @@
       "question_no": 40,
       "question_en": "In gas chromatography technique which of the following gas is NOT suitable ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -590,8 +589,8 @@
       "question_no": 41,
       "question_en": "Photomultiplier tube is NOT suitable for the detection of",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -605,7 +604,7 @@
       "question_en": "Jaffe test used for examination of urine sample is a ________ method.",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -617,7 +616,7 @@
       "question_en": "Pyrolysis gas chromatography is useful technique for characterization of the following paint constituents",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 2",
         "Unit 7"
@@ -632,7 +631,7 @@
       "question_en": "\"Davidson Body\" is present in",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -643,8 +642,8 @@
       "question_no": 45,
       "question_en": "At which angle of projection, the range of projectile is maximum ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -657,8 +656,8 @@
       "question_no": 46,
       "question_en": "Musket is a",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -671,8 +670,8 @@
       "question_no": 47,
       "question_en": "The cutting of barrel length in shotgun causes",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -686,7 +685,7 @@
       "question_en": "The diameter of SG pellet in 12 bore shotgun cartridge is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 8"
@@ -701,7 +700,7 @@
       "question_en": "As per IPC, emasculation is classified as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 6"
@@ -715,8 +714,8 @@
       "question_no": 50,
       "question_en": "The homicide caused unintentionally by an act done in a good faith is",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -730,7 +729,7 @@
       "question_en": "Forensic entomology helps in crime investigations in cases of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -745,7 +744,7 @@
       "question_en": "These are the various types of mental deficiency, except",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -756,8 +755,8 @@
       "question_no": 53,
       "question_en": "Dying declaration is to be preferably recorded by",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -770,8 +769,8 @@
       "question_no": 54,
       "question_en": "Police inquest is conducted under Section",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -785,7 +784,7 @@
       "question_en": "Faeces stains are identified from odour, presence of indigested matter, vegetable fibres and",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6",
         "Unit 7"
@@ -799,8 +798,8 @@
       "question_no": 56,
       "question_en": "For hardening of plaster of paris cast of foot prints, following substance is added",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -814,7 +813,7 @@
       "question_en": "The skid marks on the road in a vehicular accident may give an indication of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 7",
         "Unit 8"
@@ -828,8 +827,8 @@
       "question_no": 58,
       "question_en": "Scales are found on the following fibre",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -842,8 +841,8 @@
       "question_no": 59,
       "question_en": "Fractures due to heat are",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -856,8 +855,8 @@
       "question_no": 60,
       "question_en": "The sequence of post-mortem changes in a cadaver includes",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -871,7 +870,7 @@
       "question_en": "Sodium-halide-bromide cell window are used in",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -882,8 +881,8 @@
       "question_no": 62,
       "question_en": "Wet digestion method is used for the extraction of ________ poisons from viscera.",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -896,8 +895,8 @@
       "question_no": 63,
       "question_en": "The trigger pull of service rifle is",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -910,8 +909,8 @@
       "question_no": 64,
       "question_en": "Chronograph is an instrument which measures the following in forensic ballistics",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -924,8 +923,8 @@
       "question_no": 65,
       "question_en": "Bullet that leaves a visible smoke mark on the flight is called",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -938,8 +937,8 @@
       "question_no": 66,
       "question_en": "The following method is non-destructive technique for ink identification",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -952,8 +951,8 @@
       "question_no": 67,
       "question_en": "Skull photo superimposition technique was used for the first time in which of the following cases ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -966,8 +965,8 @@
       "question_no": 68,
       "question_en": "Linea aspera is present on which of the following bone ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -980,8 +979,8 @@
       "question_no": 69,
       "question_en": "To visualise the latent fingerprints, ninhydrin reacts with which of the following ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -994,8 +993,8 @@
       "question_no": 70,
       "question_en": "Split laceration resembles",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -1008,8 +1007,8 @@
       "question_no": 71,
       "question_en": "The evidence of Expert in the Court of Law is recorded in the following order",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -1022,8 +1021,8 @@
       "question_no": 72,
       "question_en": "First Fingerprint Bureau was started at Kolkata in the year",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1036,8 +1035,8 @@
       "question_no": 73,
       "question_en": "The most reliable test for detection of semen in the absence of spermatozoa is",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1050,8 +1049,8 @@
       "question_no": 74,
       "question_en": "Which of the following tests is not a catalytic colour test for blood stain ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1064,8 +1063,8 @@
       "question_no": 75,
       "question_en": "Who is credited for his practical interest in fingerprints as a means of identifying workers to detect duplicate payment of wages ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1079,7 +1078,7 @@
       "question_en": "The time limit for exhumation in India is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -1094,7 +1093,7 @@
       "question_en": "Singeing of hair around a wound of entry is seen at which range ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 7",
         "Unit 10"
@@ -1109,7 +1108,7 @@
       "question_en": "Match the various sections of Forensic Science Lab with the Physical Evidence they are examining. List – I: a. Chemistry; b. Physics; c. Toxicology; d. Ballistics. List – II: i. Ricochet bullet; ii. Insecticides; iii. Ink; iv. Skid marks",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 4",
@@ -1128,7 +1127,7 @@
       "question_en": "Match the following : List – I: a. Cephalic index; b. Carl Pearson's formula; c. Gustafson's method; d. Turner's syndrome. List – II: i. Age; ii. Disputed sex; iii. Race; iv. Stature",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6",
         "Unit 10"
@@ -1142,8 +1141,8 @@
       "question_no": 80,
       "question_en": "Zeroing is",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1157,7 +1156,7 @@
       "question_en": "Match the following : List – I (Author): a. Soderman; b. Paul L. Kirk; c. O'Hara; d. Rudolph Reise. List – II (Name of the book): i. Fundamentals of Criminal Investigation; ii. Judicial Photography; iii. Modern Criminal Investigation; iv. Crime Investigation",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 6"
@@ -1171,8 +1170,8 @@
       "question_no": 82,
       "question_en": "Rocket Immunoelectrophoresis is also known as",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -1186,7 +1185,7 @@
       "question_en": "Primary high explosives used in percussion cap of cartridge is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 6",
@@ -1201,8 +1200,8 @@
       "question_no": 84,
       "question_en": "The following are the examples of cybercrime except",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -1215,8 +1214,8 @@
       "question_no": 85,
       "question_en": "Which one of the following is the example of behavioural biometric ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1229,8 +1228,8 @@
       "question_no": 86,
       "question_en": "Which of the following program is run to examine network traffic ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -1244,7 +1243,7 @@
       "question_en": "Which of the following type of images store graphic information in a grid of individual pixels ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1255,8 +1254,8 @@
       "question_no": 88,
       "question_en": "Data can be retrieved from a mobile device by using which software ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -1270,7 +1269,7 @@
       "question_en": "Beetle larva is known as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1281,8 +1280,8 @@
       "question_no": 90,
       "question_en": "Multiplication factor for stature from femur is",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -1296,7 +1295,7 @@
       "question_en": "Most of the chats and instant message conversions are stored in computer in",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1307,8 +1306,8 @@
       "question_no": 92,
       "question_en": "Injury is legally defined under Section",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -1321,8 +1320,8 @@
       "question_no": 93,
       "question_en": "In explosions, the damage is due to",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -1335,8 +1334,8 @@
       "question_no": 94,
       "question_en": "The first technique that was adopted for forensic DNA analysis was",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1349,8 +1348,8 @@
       "question_no": 95,
       "question_en": "The consistency of paint is adjusted by which of the following ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -1363,8 +1362,8 @@
       "question_no": 96,
       "question_en": "An AK-47 Rifle can fire",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1377,8 +1376,8 @@
       "question_no": 97,
       "question_en": "Which of the following is hepatotoxic poison ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -1391,8 +1390,8 @@
       "question_no": 98,
       "question_en": "Which of the following is a complementary base-pairing in DNA ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1405,8 +1404,8 @@
       "question_no": 99,
       "question_en": "Which of the following is a permitted explosive ?",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -1420,7 +1419,7 @@
       "question_en": "Which of the following drug is known as \"Date rape drug\" ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 4"
@@ -1434,8 +1433,8 @@
       "question_no": 1,
       "question_en": "Ricochet of Bullet means",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1448,8 +1447,8 @@
       "question_no": 2,
       "question_en": "The function of primer is",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1462,8 +1461,8 @@
       "question_no": 3,
       "question_en": "The Microscope that produced image due to emission of Secondary Electron",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -1477,7 +1476,7 @@
       "question_en": "P – 300 MERMER is related with",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1488,8 +1487,8 @@
       "question_no": 5,
       "question_en": "The part of Microscope that focuses the light on the object is",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -1503,7 +1502,7 @@
       "question_en": "Which of the following is NOT a part of optical system ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1515,7 +1514,7 @@
       "question_en": "Which of the following is NOT a part of Mechanical System ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1525,9 +1524,9 @@
       "paper_id": "forensic_science_dec24",
       "question_no": 8,
       "question_en": "The striation marks can be examined in",
-      "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1541,7 +1540,7 @@
       "question_en": "The AgNO₃ method is related with",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1552,8 +1551,8 @@
       "question_no": 10,
       "question_en": "Which of the following is used as primer charge ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1566,8 +1565,8 @@
       "question_no": 11,
       "question_en": "Which of the following is NOT a Rifled Weapon ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -1581,7 +1580,7 @@
       "question_en": "Plethysmograph is related with",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1592,8 +1591,8 @@
       "question_no": 13,
       "question_en": "DNA is a",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1607,7 +1606,7 @@
       "question_en": "Which of the following channel in EPG is labeled with 6-FAM in GlobalFiler Multiplex STR Kit ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1618,8 +1617,8 @@
       "question_no": 15,
       "question_en": "Approx. DNA content in a sperm cell is",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1632,8 +1631,8 @@
       "question_no": 16,
       "question_en": "In PCIA DNA extraction method, which reagent is used to reduce the hydrophilic nature of DNA ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1646,8 +1645,8 @@
       "question_no": 17,
       "question_en": "Which of the following is NOT required for DNA amplification ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1660,8 +1659,8 @@
       "question_no": 18,
       "question_en": "DNA replication takes place in",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1674,8 +1673,8 @@
       "question_no": 19,
       "question_en": "Which enzyme is known as molecular scissors?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1688,8 +1687,8 @@
       "question_no": 20,
       "question_en": "What is the function of sigma unit of bacterial RNA polymerase?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1703,7 +1702,7 @@
       "question_en": "Which of the following occurs at a Lac Operon when lactose levels are high and glucose levels are low ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1714,8 +1713,8 @@
       "question_no": 22,
       "question_en": "The end product of purine metabolism is",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1729,7 +1728,7 @@
       "question_en": "Which of the following is NOT a PCR enhancing additive ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1741,7 +1740,7 @@
       "question_en": "Random Amplified Polymorphic DNA does NOT use: i. Restriction enzyme; ii. PCR; iii. DNA polymerase; iv. Radio-labelled probe",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 6"
@@ -1755,8 +1754,8 @@
       "question_no": 25,
       "question_en": "When the expression of one gene is suppressed by the effect of a non-allelic gene, it is known as",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1769,8 +1768,8 @@
       "question_no": 26,
       "question_en": "The tertiary structure of protein is maintained by",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1783,8 +1782,8 @@
       "question_no": 27,
       "question_en": "The mechanism of intake of DNA Fragments from the surrounding medium by a cell is called as",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1798,7 +1797,7 @@
       "question_en": "The phenomena where multiple codons decode the same amino acid is called as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1809,8 +1808,8 @@
       "question_no": 29,
       "question_en": "Which molecular marker does NOT use amplification of DNA through PCR ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1823,8 +1822,8 @@
       "question_no": 30,
       "question_en": "Which rule explains that a ratio of purines and pyrimidines bases should remain equal in DNA molecules ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1838,7 +1837,7 @@
       "question_en": "Operon system consists of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1849,8 +1848,8 @@
       "question_no": 32,
       "question_en": "Which of the following is a heat tolerable DNA polymerase ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -1864,7 +1863,7 @@
       "question_en": "Full form of DMORT is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1876,7 +1875,7 @@
       "question_en": "Vacuum Metal Deposition utilises vacuum-coating technology for the evaporation of metals and the deposition of thin metal films. Thin layers of what metal is used for this process ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1888,7 +1887,7 @@
       "question_en": "In order to accelerate the development of superglue treated prints, one of the following is commonly used ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -1899,8 +1898,8 @@
       "question_no": 36,
       "question_en": "The first Scientist who reported the use of DFO for the fluorescent detection of latent prints on paper ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1914,7 +1913,7 @@
       "question_en": "When fingerprinting the dead and rigor mortis (stiffening of the muscles) has set in and the fingers are tightly clenched, the fingers may be",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 8",
         "Unit 10"
@@ -1928,8 +1927,8 @@
       "question_no": 38,
       "question_en": "Prints deposited when the friction ridges are wet, usually with water or a fluid other than sweat, are commonly referred to as wet prints. The friction ridges tend to appear as a series of ________ before and after development.",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1942,8 +1941,8 @@
       "question_no": 39,
       "question_en": "Hale's islands and branchings refer to major 2nd level ridge path deviations found on the friction ridges known as",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -1956,8 +1955,8 @@
       "question_no": 40,
       "question_en": "Thermoplastic powders must be applied to a surface with",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -1971,7 +1970,7 @@
       "question_en": "To take fingerprints in Mummified Dead Bodies, to rehydrate the skin which solution is used ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6",
         "Unit 8"
@@ -1985,8 +1984,8 @@
       "question_no": 42,
       "question_en": "NCR acronym in context of examination of document stands for ?",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -2000,7 +1999,7 @@
       "question_en": "Grabber marks may be found in which of the following ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2012,7 +2011,7 @@
       "question_en": "It refers to the widening of the ink strokes due to the added pressure of the more obvious increase in the width of the strokes",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2024,7 +2023,7 @@
       "question_en": "One of the following terms refers to, \"the forger has trouble matching the paper, ink or writing materials to the exact date it was supposed to have been written.\" In other words, something is wrong in the time and place.",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2035,8 +2034,8 @@
       "question_no": 46,
       "question_en": "Which of the following is a primary goal of forensic medicine ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2049,8 +2048,8 @@
       "question_no": 47,
       "question_en": "In forensic medicine, what does the term \"PMI\" stands for ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2063,8 +2062,8 @@
       "question_no": 48,
       "question_en": "Which post-mortem examination involves the dissection of a body to determine the cause of death and to gather evidence for legal proceedings ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2077,8 +2076,8 @@
       "question_no": 49,
       "question_en": "Rigor mortis is a post-mortem phenomenon that occurs due to",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2091,8 +2090,8 @@
       "question_no": 50,
       "question_en": "The study of insects in a forensic context to estimate the post-mortem interval is known as",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2105,8 +2104,8 @@
       "question_no": 51,
       "question_en": "Which of the following is NOT a common method of determining the age of skeletal remains in forensic anthropology ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2120,7 +2119,7 @@
       "question_en": "The examination of firearms and ammunition in a forensic investigation is known as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 5"
@@ -2134,8 +2133,8 @@
       "question_no": 53,
       "question_en": "Which of the following is an example of a Livor mortis pattern that can help determine the position of a body at the time of death ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2149,7 +2148,7 @@
       "question_en": "The preservation of physical evidence collected from a crime scene is essential to maintain its integrity. What is the recommended method for preserving biological evidence, such as blood or hair ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3",
@@ -2164,8 +2163,8 @@
       "question_no": 55,
       "question_en": "Forensic DNA analysis typically focuses on which type of DNA sequence to establish individual identity ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -2178,8 +2177,8 @@
       "question_no": 56,
       "question_en": "Which of the following is a method used to estimate the time of death by examining the stages of decomposition in a body ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2193,7 +2192,7 @@
       "question_en": "Forensic odontology primarily involves the examination of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2205,7 +2204,7 @@
       "question_en": "The science that deals with the identification of an individual based on their unique dental records is known as",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2217,7 +2216,7 @@
       "question_en": "What is the primary purpose of a rape kit in forensic medicine ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -2232,7 +2231,7 @@
       "question_en": "What term is used to describe the process of identifying the deceased by comparing their post-mortem features with antemortem records, such as photographs and dental records ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6",
         "Unit 10"
@@ -2246,8 +2245,8 @@
       "question_no": 61,
       "question_en": "In forensic toxicology, which of the following is NOT typically tested for when investigating cases involving drug overdose or poisoning ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2260,8 +2259,8 @@
       "question_no": 62,
       "question_en": "The process of identifying an individual by analyzing the unique patterns of friction ridges on their fingertips and palms is known as",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -2275,7 +2274,7 @@
       "question_en": "What is the term for the study of handwriting and document analysis in forensic investigations ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 9"
@@ -2289,8 +2288,8 @@
       "question_no": 64,
       "question_en": "In forensic medicine, what is the primary purpose of serological testing ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2304,7 +2303,7 @@
       "question_en": "When assessing a gunshot wound, what is the name for the small circular or oval abrasion around the entrance wound, caused by the bullet brushing against the skin ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 10"
@@ -2318,8 +2317,8 @@
       "question_no": 66,
       "question_en": "Forensic toxicology primarily deals with the analysis of",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2333,7 +2332,7 @@
       "question_en": "Which of the following is an example of a common post-mortem specimen used in toxicology analysis ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 10"
@@ -2347,8 +2346,8 @@
       "question_no": 68,
       "question_en": "Toxicology testing is often performed in cases involving",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2362,7 +2361,7 @@
       "question_en": "The main objective of post-mortem toxicology is to",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 10"
@@ -2376,8 +2375,8 @@
       "question_no": 70,
       "question_en": "In toxicology, the abbreviation \"BAC\" stands for",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2390,8 +2389,8 @@
       "question_no": 71,
       "question_en": "For given muzzle-velocity of a bullet, the range X (ft.), ballistic coefficient, the time of flight T in seconds, for range X calculated by using Ingalls' Ballistic Tables, then the maximum height H, of trajectory for range 'X' is given by which of the following relations ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2404,8 +2403,8 @@
       "question_no": 72,
       "question_en": "Let S = rate of spin imparted to the bullet by the rifling when the bullet leaves the muzzle, u = muzzle velocity of bullet, d = pitch of rifling; 'S', 'u' and 'd' are connected by which of the following relations ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2419,7 +2418,7 @@
       "question_en": "A high velocity cartridge has been designated as 7.62×51 mm cartridge. In relation to this cartridge, which of the following statements is correct ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 8"
@@ -2432,9 +2431,9 @@
       "paper_id": "forensic_science_dec24",
       "question_no": 74,
       "question_en": "Which of the following is the major factor affecting the rate of burning of propellants is",
-      "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -2446,9 +2445,9 @@
       "paper_id": "forensic_science_dec24",
       "question_no": 75,
       "question_en": "The shape of propellant grains is maintained during its burning or the law of burning of propellant grain by",
-      "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -2461,8 +2460,8 @@
       "question_no": 76,
       "question_en": "Which of the following gives the variation in bullet velocity with bullet travel along the bore ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2475,8 +2474,8 @@
       "question_no": 77,
       "question_en": "The phenomena of sheared primer causes which of the following marks ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2490,7 +2489,7 @@
       "question_en": "In wound ballistic studies, the retardation of bullet with angle of yaw, say 'a' degrees, follows which of the following relations ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 10"
@@ -2505,7 +2504,7 @@
       "question_en": "In which city of India, the first Central Forensic Science laboratory of MHA, Government of India was established ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3"
@@ -2520,7 +2519,7 @@
       "question_en": "Hardest tissue in human body is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2531,8 +2530,8 @@
       "question_no": 81,
       "question_en": "Transitional phase in hair growth cycle is",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -2545,8 +2544,8 @@
       "question_no": 82,
       "question_en": "Scale pattern on hair helps to",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -2559,8 +2558,8 @@
       "question_no": 83,
       "question_en": "Study of pollen grains is called as",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -2574,7 +2573,7 @@
       "question_en": "Microscopic examination of cotton fibers reveal",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 2",
         "Unit 7"
@@ -2589,7 +2588,7 @@
       "question_en": "On the basis of diatoms which is the best suited for diagnosis of ante-mortem drowning",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 7",
@@ -2604,8 +2603,8 @@
       "question_no": 86,
       "question_en": "Wildlife Protection Act in India came into force in the year",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -2619,7 +2618,7 @@
       "question_en": "Which of the following is True about striae present in the interior surface of barrel of a firearm ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 5"
@@ -2634,7 +2633,7 @@
       "question_en": "Acidified aqueous solution of which of the following is generally used to restore erased punched identification marks on firearms ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 5",
@@ -2650,7 +2649,7 @@
       "question_en": "The most important tool available for the firearms examiner in linking of fired bullets and fired cartridge cases with the suspected firearm is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 8"
@@ -2664,8 +2663,8 @@
       "question_no": 90,
       "question_en": "Which of these are individual characteristic marks on fired bullets ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2678,8 +2677,8 @@
       "question_no": 91,
       "question_en": "The velocity with which a bullet travels inside a target is called",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2692,8 +2691,8 @@
       "question_no": 92,
       "question_en": "Which of the following is the major factor affecting the trajectory of a projectile in air ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2706,8 +2705,8 @@
       "question_no": 93,
       "question_en": "On which of the following bullets, the effect of air resistance is least ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -2721,7 +2720,7 @@
       "question_en": "Which of the following technique is used to prevent altering of data on suspected drives ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2732,8 +2731,8 @@
       "question_no": 95,
       "question_en": "To verify the integrity of the original Hard Disk, we use",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -2747,7 +2746,7 @@
       "question_en": "What is the full form of NIC used in computers ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2758,8 +2757,8 @@
       "question_no": 97,
       "question_en": "\"Laser discs and compact discs\" are classified as",
       "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fire/arson, explosives, bombs, explosion investigation or forensic photography—topics expressly listed in Unit VI.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -2772,8 +2771,8 @@
       "question_no": 98,
       "question_en": "The fibres of a writing paper do NOT contain",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -2787,7 +2786,7 @@
       "question_en": "The quality of a paper also depends upon",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -2798,8 +2797,8 @@
       "question_no": 100,
       "question_en": "A charred document becomes completely black at a temperature of",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -2813,7 +2812,7 @@
       "question_en": "Death due to the consumption of the illicit liquor is mainly due to the presence of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 10"
@@ -2827,8 +2826,8 @@
       "question_no": 2,
       "question_en": "Pseudo contusions/false bruises are produced by one of the following",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2841,8 +2840,8 @@
       "question_no": 3,
       "question_en": "The specific drug that is re-excreted into the stomach even when it is administered through the intravenous route",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2855,8 +2854,8 @@
       "question_no": 4,
       "question_en": "One of the following is NOT preserved generally for the chemical analysis during the autopsy examination",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -2870,7 +2869,7 @@
       "question_en": "What physical condition allows a liquid accelerant to vaporize and support combustion ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 6"
@@ -2885,7 +2884,7 @@
       "question_en": "Endrin is classified under the following type of pesticides",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 6"
@@ -2899,8 +2898,8 @@
       "question_no": 7,
       "question_en": "The term plumbism refers to the poisoning of one of the following",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2913,8 +2912,8 @@
       "question_no": 8,
       "question_en": "In one of the following acute poisoning cases, the symptoms resembles the natural disease namely cholera/gastroenteritis",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2926,9 +2925,9 @@
       "paper_id": "forensic_science_nov25",
       "question_no": 9,
       "question_en": "In bribe trap cases, the chemical used is one of the following",
-      "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2941,8 +2940,8 @@
       "question_no": 10,
       "question_en": "Designer drugs are",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2955,8 +2954,8 @@
       "question_no": 11,
       "question_en": "Which of the following test is most suitable for the detection of death due to snake venom ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -2969,8 +2968,8 @@
       "question_no": 12,
       "question_en": "Disulfiram is used in the treatment of one of the following drug addiction",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2983,8 +2982,8 @@
       "question_no": 13,
       "question_en": "One of the following chemicals used in the breath analyser is",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -2997,8 +2996,8 @@
       "question_no": 14,
       "question_en": "Ethanol is absorbed mainly through",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -3010,9 +3009,9 @@
       "paper_id": "forensic_science_nov25",
       "question_no": 15,
       "question_en": "The term corpus delicti refers to",
-      "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3025,8 +3024,8 @@
       "question_no": 16,
       "question_en": "The mode of action of sulphuric acid poisons involves primarily",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -3039,8 +3038,8 @@
       "question_no": 17,
       "question_en": "Red coloured tears that occurs in the organo phosphorus poisoning is due to the",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -3054,7 +3053,7 @@
       "question_en": "Second molar erupts in an adult at the age of",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3065,8 +3064,8 @@
       "question_no": 19,
       "question_en": "Aldrich mees line is classical finding commonly seen in case of one of the following poisoning",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -3080,7 +3079,7 @@
       "question_en": "The Widmark formula is commonly applied in the forensic analysis of which of the following poisons ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 6"
@@ -3094,8 +3093,8 @@
       "question_no": 21,
       "question_en": "Y-STR analysis is specifically useful in cases involving",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -3108,8 +3107,8 @@
       "question_no": 22,
       "question_en": "Minimum number of ridge characteristics required for a positive match in fingerprints analysis for the identification of individuals is",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -3122,8 +3121,8 @@
       "question_no": 23,
       "question_en": "One of the most reliable signs of antemortem burns is",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -3137,7 +3136,7 @@
       "question_en": "A forensic analyst obtains complete male DNA profile from the cigarette butt found at the crime scene. The sample shows two Y STR haplotypes, this suggests",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3"
@@ -3151,8 +3150,8 @@
       "question_no": 25,
       "question_en": "A degraded DNA samples of a 25 years old murder case yields no nuclear DNA profile but still gives forensic information. Which of the following is most likely the basis for the analysis ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -3165,8 +3164,8 @@
       "question_no": 26,
       "question_en": "Why is DNA considered a \"gold standard\" in forensic science today ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -3180,7 +3179,7 @@
       "question_en": "What is the primary goal of Bloodstain Pattern Analysis in forensic investigations ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3"
@@ -3195,7 +3194,7 @@
       "question_en": "In which context did the use of potassium levels in ocular fluid is forensically relevant ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3206,8 +3205,8 @@
       "question_no": 29,
       "question_en": "What is the primary function of a flash hider attached to the muzzle of a firearm ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3220,8 +3219,8 @@
       "question_no": 30,
       "question_en": "Which of the following statements correctly distinguishes between different types of firearms ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3235,7 +3234,7 @@
       "question_en": "How should soot deposits be collected and preserved for forensic analysis ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3247,7 +3246,7 @@
       "question_en": "Which is the court in which the death sentence is to be ascertained by the High Court ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -3261,8 +3260,8 @@
       "question_no": 33,
       "question_en": "CCTNS refers to",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3275,8 +3274,8 @@
       "question_no": 34,
       "question_en": "Lie detection/Polygraph examination does not involve one of the following parameters",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3290,7 +3289,7 @@
       "question_en": "The drug used in the Narco analysis for the detection of deception is",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 4"
@@ -3304,8 +3303,8 @@
       "question_no": 36,
       "question_en": "Cephalic index is useful to determine ________ of an individual.",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -3319,7 +3318,7 @@
       "question_en": "Accident reconstruction involves the following parameters except",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3330,8 +3329,8 @@
       "question_no": 38,
       "question_en": "Under which Section of the Cr PC the scientific experts report is admissible as evidence in the court proceedings ?",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3344,8 +3343,8 @@
       "question_no": 39,
       "question_en": "Who is credited with introducing DNA profiling in Forensic Science ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -3359,7 +3358,7 @@
       "question_en": "Which of the following materials is most suitable for collecting liquid blood at a crime scene ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3"
@@ -3374,7 +3373,7 @@
       "question_en": "Which of the following is NOT a commonly used method for sealing forensic evidence ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3386,7 +3385,7 @@
       "question_en": "Which search pattern involves covering the area from two different angles, helping ensure no evidence is missed ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 8"
@@ -3400,8 +3399,8 @@
       "question_no": 43,
       "question_en": "Cadaveric spasm is also known as",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -3414,8 +3413,8 @@
       "question_no": 44,
       "question_en": "What does a colour space represent in a digital image like JPEG ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3428,8 +3427,8 @@
       "question_no": 45,
       "question_en": "In optical microscopy, what does resolution refer to ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -3443,7 +3442,7 @@
       "question_en": "Which of the following statements best describes the cone fracture pattern caused by a high-velocity projectile impacting glass ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 7"
@@ -3457,8 +3456,8 @@
       "question_no": 47,
       "question_en": "Which of the following best characterizes the scope of forensic engineering in the context of multidisciplinary litigation support ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3471,8 +3470,8 @@
       "question_no": 48,
       "question_en": "Which properties of handwriting makes it more reliable and unique in terms of individualization ?",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -3485,8 +3484,8 @@
       "question_no": 49,
       "question_en": "Which of the following best describes the effective range of a firearm ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3500,7 +3499,7 @@
       "question_en": "Which of the following statements best defines an assault rifle ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 5"
@@ -3515,7 +3514,7 @@
       "question_en": "Which of the following chemicals is commonly used as an oxidizer in priming compounds ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3526,8 +3525,8 @@
       "question_no": 52,
       "question_en": "What is the correct relationship between ammunition and a firearm ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3540,8 +3539,8 @@
       "question_no": 53,
       "question_en": "Which of the following best describes the role of a firearm as a thermodynamic device ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3553,9 +3552,9 @@
       "paper_id": "forensic_science_nov25",
       "question_no": 54,
       "question_en": "Which of the following is NOT an advantage of nitro-based propellants compared to black powder ?",
-      "syllabus_unit": "Unit 6",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VI",
+      "syllabus_unit": null,
+      "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6"
       ],
@@ -3569,7 +3568,7 @@
       "question_en": "In the context of internal ballistics, what is the fundamental role of the propellant used in modern firearms ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 5",
@@ -3584,8 +3583,8 @@
       "question_no": 56,
       "question_en": "Which of the following statements best explains why a 12-bore shotgun has a larger barrel diameter than a 20-bore shotgun ?",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -3599,7 +3598,7 @@
       "question_en": "What is the primary use of forensic entomology in criminal investigations ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 10"
@@ -3613,8 +3612,8 @@
       "question_no": 58,
       "question_en": "What component in seminal fluid is most indicative of recent sexual activity within 24 hours ?",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -3628,7 +3627,7 @@
       "question_en": "Which of the following pairs correctly matches the abbreviation with its primary role or function in Forensic Science ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3639,8 +3638,8 @@
       "question_no": 60,
       "question_en": "Why is maintaining a proper chain of custody critical in forensic investigations ?",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3653,8 +3652,8 @@
       "question_no": 61,
       "question_en": "What is the significance of indented writings in document analysis ?",
       "syllabus_unit": "Unit 9",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IX",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns questioned documents, handwriting, inks/papers, indentations or forgery—topics expressly listed in Unit IX.",
       "matched_unit_candidates": [
         "Unit 9"
       ],
@@ -3668,7 +3667,7 @@
       "question_en": "In forensic evidence handling, what is the primary rationale for using a druggist's fold when collecting small trace evidence such as hair or powders ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 4",
@@ -3683,8 +3682,8 @@
       "question_no": 63,
       "question_en": "Why is the use of tamper-evident packaging essential in forensic evidence management ?",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3698,7 +3697,7 @@
       "question_en": "Which of the following is an acceptable method for preserving wet biological evidence such as blood at a crime scene ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 3"
@@ -3713,7 +3712,7 @@
       "question_en": "Why must fire residue evidence be stored in airtight containers such as unused paint cans ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 6",
         "Unit 7"
@@ -3727,8 +3726,8 @@
       "question_no": 66,
       "question_en": "Which of the following is NOT recommended for collecting trace evidence such as hair or fibers ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3742,7 +3741,7 @@
       "question_en": "What is the correct packaging method for fresh plant material like marijuana to prevent decomposition ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 7"
@@ -3756,8 +3755,8 @@
       "question_no": 68,
       "question_en": "Which of the following best reflects the correct sequence and legal priority during a crime scene investigation ?",
       "syllabus_unit": "Unit 1",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit I",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns crime-scene/evidence handling, investigation, courts or criminal profiling—topics expressly listed in Unit I.",
       "matched_unit_candidates": [
         "Unit 1"
       ],
@@ -3770,8 +3769,8 @@
       "question_no": 69,
       "question_en": "In the context of Thin Layer Chromatography (TLC), which of the following statements is most accurate regarding analyte separation ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -3784,8 +3783,8 @@
       "question_no": 70,
       "question_en": "Ninhydrin is commonly used in Forensic Science to develop latent fingerprints by reacting with which component of fingerprint residue ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -3798,8 +3797,8 @@
       "question_no": 71,
       "question_en": "When AFIS (Automated Fingerprint Identification System) searches its database of fingerprints, it primarily looks for which types of characteristics ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -3812,8 +3811,8 @@
       "question_no": 72,
       "question_en": "What is a major limitation of urine drug testing in living individuals ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -3826,8 +3825,8 @@
       "question_no": 73,
       "question_en": "Which important factor has the greatest effect on the rate of algor mortis ?",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -3841,7 +3840,7 @@
       "question_en": "What postmortem process involves the gravitational pooling of blood and can reveal if a body was moved after death ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 10"
@@ -3856,7 +3855,7 @@
       "question_en": "What forensic software ensures integrity of a hard drive image using hashing ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3867,8 +3866,8 @@
       "question_no": 76,
       "question_en": "Why are deleted files recoverable during forensic imaging ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3882,7 +3881,7 @@
       "question_en": "In a cyber forensic investigation, what is the significance of the index.dat file ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 7"
@@ -3896,8 +3895,8 @@
       "question_no": 78,
       "question_en": "What evidence is most critical in establishing an IP address used during a cyber crime ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3911,7 +3910,7 @@
       "question_en": "Which online artifact is most helpful in reconstructing web browsing behaviour ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3923,7 +3922,7 @@
       "question_en": "What is the primary goal of a forensic computer investigation ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 7"
@@ -3937,8 +3936,8 @@
       "question_no": 81,
       "question_en": "Which pigment types are increasingly replacing heavy metals in modern car paints ?",
       "syllabus_unit": "Unit 7",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns trace/material evidence or computer/mobile forensics—topics expressly listed in Unit VII.",
       "matched_unit_candidates": [
         "Unit 7"
       ],
@@ -3951,8 +3950,8 @@
       "question_no": 82,
       "question_en": "Which microscopy technique permits the highest magnification (upto 100,000x) ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -3966,7 +3965,7 @@
       "question_en": "Which substance is best for etching steel surfaces in serial number restoration ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [],
       "review_flag": true,
       "review_note": "Question stem/options still require visual source-page proofreading; mapping status does not certify source transcription or answer-key visual review."
@@ -3978,7 +3977,7 @@
       "question_en": "Which element is most often identified with primer residue using SEM-EDX ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 5",
         "Unit 6"
@@ -3992,8 +3991,8 @@
       "question_no": 85,
       "question_en": "Which microscope enables visualization of polarized light properties in crystals ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
@@ -4007,7 +4006,7 @@
       "question_en": "What microscopic technique provides both visual and spectrophotometric data for fibers ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 2",
         "Unit 7"
@@ -4022,7 +4021,7 @@
       "question_en": "Which analytical method is most effective in distinguishing chemically similar paint binders ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 2",
         "Unit 7"
@@ -4036,8 +4035,8 @@
       "question_no": 88,
       "question_en": "A follicular tag is most valuable for",
       "syllabus_unit": "Unit 3",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit III",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns blood/body fluids, serology, DNA profiling, parentage or wildlife evidence—topics expressly listed in Unit III.",
       "matched_unit_candidates": [
         "Unit 3"
       ],
@@ -4051,7 +4050,7 @@
       "question_en": "What is the primary function of the comparison microscope in firearms analysis ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 2",
         "Unit 5"
@@ -4065,8 +4064,8 @@
       "question_no": 90,
       "question_en": "What term describes a drug's potential to produce strong withdrawal symptoms upon cessation ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -4079,8 +4078,8 @@
       "question_no": 91,
       "question_en": "What is the active component detected in the Duquenois-Levine test ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -4093,8 +4092,8 @@
       "question_no": 92,
       "question_en": "Which method combines separation and identification in drug mixtures with high specificity ?",
       "syllabus_unit": "Unit 4",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit IV",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns alcohol, drugs, poisons, pesticides or toxicological examination—topics expressly listed in Unit IV.",
       "matched_unit_candidates": [
         "Unit 4"
       ],
@@ -4108,7 +4107,7 @@
       "question_en": "In arson investigations, what analytical technique is most sensitive for detecting accelerants ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 1",
         "Unit 4",
@@ -4124,7 +4123,7 @@
       "question_en": "Which preservation technique is essential to prevent decline in postmortem alcohol levels ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 4",
         "Unit 10"
@@ -4139,7 +4138,7 @@
       "question_en": "What is the standard breath-to-blood alcohol partition ratio used in IR breath testing ?",
       "syllabus_unit": null,
       "syllabus_mapping_status": "review_only_ambiguous_or_no_direct_unit_match",
-      "mapping_reason": "No unique direct topic match to a single unit in the official GSET Code 27 syllabus; retain review-only rather than infer.",
+      "mapping_reason": "No unique direct topic match confirmed from the question stem alone; keep review-only until manual contextual review.",
       "matched_unit_candidates": [
         "Unit 3",
         "Unit 4"
@@ -4153,8 +4152,8 @@
       "question_no": 96,
       "question_en": "Which factor contributes most to the permanence of a fingerprint ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -4167,8 +4166,8 @@
       "question_no": 97,
       "question_en": "In the Henry classification system, the primary classification is based on which fingerprint pattern feature ?",
       "syllabus_unit": "Unit 8",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit VIII",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns fingerprints/AFIS, track marks, biometrics or voice analysis—topics expressly listed in Unit VIII.",
       "matched_unit_candidates": [
         "Unit 8"
       ],
@@ -4181,8 +4180,8 @@
       "question_no": 98,
       "question_en": "In toolmark comparison, lead is used as a test medium because",
       "syllabus_unit": "Unit 5",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit V",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns firearms, ammunition, ballistics, gunshot residue or tool marks—topics expressly listed in Unit V.",
       "matched_unit_candidates": [
         "Unit 5"
       ],
@@ -4195,8 +4194,8 @@
       "question_no": 99,
       "question_en": "One of the following bones is best suitable for the estimation of stature of an individual",
       "syllabus_unit": "Unit 10",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit X",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns death/post-mortem changes, injuries, forensic anthropology, skeletal/dental identification or entomology—topics expressly listed in Unit X.",
       "matched_unit_candidates": [
         "Unit 10"
       ],
@@ -4209,8 +4208,8 @@
       "question_no": 100,
       "question_en": "Which chromatography method is commonly used to distinguish between inks of different chemical composition ?",
       "syllabus_unit": "Unit 2",
-      "syllabus_mapping_status": "verified_against_official_syllabus",
-      "mapping_reason": "Unit II",
+      "syllabus_mapping_status": "candidate_mapping_pending_human_review",
+      "mapping_reason": "The stem concerns an instrumental/analytical technique explicitly listed under Unit II (microscopy, spectroscopy, chromatography, electrophoresis or immunoassays).",
       "matched_unit_candidates": [
         "Unit 2"
       ],
