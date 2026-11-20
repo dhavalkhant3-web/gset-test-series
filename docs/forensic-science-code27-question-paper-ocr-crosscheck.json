@@ -1,0 +1,57 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "scope": "Paper-II; Nov 2023, Dec 2024, Nov 2025",
+  "method": "Local OCR cross-check of uploaded original scanned question-paper PDFs at 2.2x render scale against the 300 staged English stems and four-option texts. This is a transcription screening aid, not human visual proofread and not permission to set source_verified=true.",
+  "metrics": {
+    "NOV2023": {
+      "questions": 100,
+      "stem_presence_coverage_at_65pct": 99,
+      "mean_stem_and_option_token_presence": 0.9969,
+      "below_98pct_tokens": [
+        {
+          "question_no": 6,
+          "token_coverage": 0.75
+        },
+        {
+          "question_no": 74,
+          "token_coverage": 0.941
+        }
+      ]
+    },
+    "DEC2024": {
+      "questions": 100,
+      "stem_presence_coverage_at_65pct": 99,
+      "mean_stem_and_option_token_presence": 0.9992,
+      "below_98pct_tokens": [
+        {
+          "question_no": 9,
+          "token_coverage": 0.917
+        }
+      ]
+    },
+    "NOV2025": {
+      "questions": 100,
+      "stem_presence_coverage_at_65pct": 100,
+      "mean_stem_and_option_token_presence": 0.9985,
+      "below_98pct_tokens": [
+        {
+          "question_no": 83,
+          "token_coverage": 0.867
+        }
+      ]
+    }
+  },
+  "manual_followup_queue": [
+    "NOV2023 Q6",
+    "NOV2023 Q74",
+    "DEC2024 Q9",
+    "NOV2025 Q83"
+  ],
+  "status": {
+    "OCR_screened": 300,
+    "source_visual_proofread": 0,
+    "source_visual_proofread_pending": 300,
+    "note": "All question text is present in OCR corpus at high token overlap; four questions are prioritized for visual inspection because OCR token coverage is below 98%. Do not treat this automated metric as a verified visual proofreading count."
+  }
+}
