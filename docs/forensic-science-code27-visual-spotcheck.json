@@ -1,0 +1,38 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "method": "High-resolution rendered-page spot-check against canonical question text and all four options. This is a limited spot-check only, not a full 300-question proofread.",
+  "checked": [
+    {
+      "session": "November 2023",
+      "question_no": 6,
+      "source_pdf_page": 3,
+      "result": "Stem and all four options visually match the canonical transcription."
+    },
+    {
+      "session": "November 2023",
+      "question_no": 74,
+      "source_pdf_page": 12,
+      "result": "Stem and all four options visually match the canonical transcription."
+    },
+    {
+      "session": "December 2024",
+      "question_no": 9,
+      "source_pdf_page": 4,
+      "result": "Stem and all four options visually match the canonical transcription."
+    },
+    {
+      "session": "November 2025",
+      "question_no": 83,
+      "source_pdf_page": 13,
+      "result": "Stem and all four options visually match the canonical transcription."
+    }
+  ],
+  "summary": {
+    "spot_checked": 4,
+    "mismatches_found": 0,
+    "full_question_visual_proofread": 0,
+    "remaining_full_visual_proofread": 296
+  },
+  "note": "Do not set source_verified=true for the whole paper based on these four checks. The remaining 296 questions still require full visual proofreading."
+}
