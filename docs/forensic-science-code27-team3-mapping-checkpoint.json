@@ -47,10 +47,10 @@
     "id_parity": "PASS (300/300 exact IDs; no duplicates/missing/extra)",
     "four_option_structure": "PASS (300/300)",
     "answer_key_text_parity": "PASS (300/300, existing automated text-level result; visual key review pending)",
-    "source_visual_proofreading": "NOT RUN / PENDING (0/300)",
+    "source_visual_proofreading": "PENDING (0/300 certified); OCR and contact-sheet scan only",
     "repository_subject_validator": "Repository-wide tool/validate_questions.py is not applicable to this subject-only branch: it hardcodes assets/questions.json, 1070 questions and 20 papers. Subject-scoped structural validator PASS (300/300).",
     "GitHub_CI": "PENDING — no workflow run/check result found for latest PR head; existing flutter-validation workflow targets main only.",
-    "debug_apk": "NOT RUN — Flutter CI workflow not triggered; no build artifact.",
+    "debug_apk": "NOT RUN",
     "subject_specific_structural_validator": {
       "status": "PASS",
       "checked_against": "assets/subjects/forensic_science/questions.json and docs/forensic-science-code27-syllabus-mapping-audit.json",
@@ -63,7 +63,9 @@
       "four_english_options": 300,
       "answer_values_present_and_valid": 300,
       "note": "Custom subject-scoped structural validation executed against the live PR branch files. This is separate from the repository-wide validator and Flutter CI."
-    }
+    },
+    "answer_key_visual_review": "PENDING (0/300 manually certified); official answer-key parity remains 300/300",
+    "github_ci": "PENDING — no PR workflow run returned for latest commit"
   },
   "data_safety": {
     "canonical_questions_json_modified": false,
@@ -133,5 +135,14 @@
     ],
     "manually_visual_proofread": 0,
     "visual_proofread_pending": 300
+  },
+  "mapping_review_round2": {
+    "former_review_only": 117,
+    "single_unit_proposals_added": 56,
+    "remaining_review_only": 61,
+    "proposed_mappings_pending_subject_expert_signoff": 239,
+    "human_subject_expert_verified": 0,
+    "report": "docs/forensic-science-code27-mapping-review-round2.json",
+    "note": "The 56 decisions are AI-assisted contextual proposals, not human expert sign-off. All retain review flags."
   }
 }
