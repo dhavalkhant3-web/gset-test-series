@@ -144,5 +144,12 @@
     "human_subject_expert_verified": 0,
     "report": "docs/forensic-science-code27-mapping-review-round2.json",
     "note": "The 56 decisions are AI-assisted contextual proposals, not human expert sign-off. All retain review flags."
+  },
+  "question_visual_spotcheck": {
+    "spot_checked": 4,
+    "mismatches": 0,
+    "remaining_full_visual_proofread": 296,
+    "report": "docs/forensic-science-code27-visual-spotcheck.json",
+    "note": "4 priority questions visually matched against high-resolution original scans; this is not completion of the 300-question proofread."
   }
 }
