@@ -64,13 +64,61 @@
   "uploaded_official_final_key_reconciliation": {
     "status": "PASS",
     "official_final_key_records": 300,
-    "staged_json_answers_matching_official_keys": 300,
+    "staged_answers_matching_official_keys": 300,
     "mismatches": 0,
     "missing_entries": 0,
-    "alternate_staging_file": "gset_forensic_science_paper2_staging(3).json",
-    "alternate_staging_answers_populated": 300,
-    "source_visual_proofreading_pending": 300,
-    "answer_key_visual_review_pending": 300,
-    "note": "User uploaded all three question-paper scans and all three official final answer keys. Automated direct comparison passed; visual proofread is still required."
+    "raster_visual_manual_review": 0,
+    "note": "Text-level official final key parity is 300/300. Visual inspection of every key entry remains pending; OCR/text parity is not a human visual review."
+  },
+  "question_paper_ocr_crosscheck": {
+    "status": "PASS — automated OCR screening completed for 300/300",
+    "method": "2.2x page render and OCR token-presence comparison against staged English stems/options; not human visual proofread",
+    "per_paper": {
+      "NOV2023": {
+        "questions": 100,
+        "stem_presence_coverage_at_65pct": 99,
+        "mean_stem_and_option_token_presence": 0.9969,
+        "below_98pct_tokens": [
+          {
+            "question_no": 6,
+            "token_coverage": 0.75
+          },
+          {
+            "question_no": 74,
+            "token_coverage": 0.941
+          }
+        ]
+      },
+      "DEC2024": {
+        "questions": 100,
+        "stem_presence_coverage_at_65pct": 99,
+        "mean_stem_and_option_token_presence": 0.9992,
+        "below_98pct_tokens": [
+          {
+            "question_no": 9,
+            "token_coverage": 0.917
+          }
+        ]
+      },
+      "NOV2025": {
+        "questions": 100,
+        "stem_presence_coverage_at_65pct": 100,
+        "mean_stem_and_option_token_presence": 0.9985,
+        "below_98pct_tokens": [
+          {
+            "question_no": 83,
+            "token_coverage": 0.867
+          }
+        ]
+      }
+    },
+    "priority_visual_followup": [
+      "NOV2023 Q6",
+      "NOV2023 Q74",
+      "DEC2024 Q9",
+      "NOV2025 Q83"
+    ],
+    "manually_visual_proofread": 0,
+    "visual_proofread_pending": 300
   }
 }
