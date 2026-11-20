@@ -48,9 +48,22 @@
     "four_option_structure": "PASS (300/300)",
     "answer_key_text_parity": "PASS (300/300, existing automated text-level result; visual key review pending)",
     "source_visual_proofreading": "NOT RUN / PENDING (0/300)",
-    "repository_subject_validator": "NOT RUN",
-    "GitHub_CI": "PENDING PR checks",
-    "debug_apk": "NOT RUN"
+    "repository_subject_validator": "Repository-wide tool/validate_questions.py is not applicable to this subject-only branch: it hardcodes assets/questions.json, 1070 questions and 20 papers. Subject-scoped structural validator PASS (300/300).",
+    "GitHub_CI": "PENDING — no workflow run/check result found for latest PR head; existing flutter-validation workflow targets main only.",
+    "debug_apk": "NOT RUN — Flutter CI workflow not triggered; no build artifact.",
+    "subject_specific_structural_validator": {
+      "status": "PASS",
+      "checked_against": "assets/subjects/forensic_science/questions.json and docs/forensic-science-code27-syllabus-mapping-audit.json",
+      "total_questions": 300,
+      "unique_question_ids": 300,
+      "audit_records": 300,
+      "missing_ids": 0,
+      "extra_ids": 0,
+      "duplicate_ids": 0,
+      "four_english_options": 300,
+      "answer_values_present_and_valid": 300,
+      "note": "Custom subject-scoped structural validation executed against the live PR branch files. This is separate from the repository-wide validator and Flutter CI."
+    }
   },
   "data_safety": {
     "canonical_questions_json_modified": false,
