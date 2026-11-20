@@ -1,0 +1,64 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "scope": "Paper-II only; Nov 2023, Dec 2024, Nov 2025",
+  "base_branch": "add-forensic-science-27-staged",
+  "audit_branch": "team3/forensic-science-27-syllabus-map-audit",
+  "official_syllabus": {
+    "file": "27 (1).pdf",
+    "pages": 5,
+    "units": 10,
+    "url": "https://gujaratset.ac.in/assets/syllabus/27.pdf"
+  },
+  "mapping_audit": {
+    "total_questions": 300,
+    "candidate_mappings_pending_human_review": 183,
+    "review_only": 117,
+    "verified_mappings": 0,
+    "unit_counts": {
+      "1": 12,
+      "2": 13,
+      "3": 32,
+      "4": 23,
+      "5": 28,
+      "6": 6,
+      "7": 19,
+      "8": 16,
+      "9": 7,
+      "10": 27
+    },
+    "note": "Candidate mapping is a conservative topic-level suggestion, not a final human-verified mapping. The 117 no-unique-match questions remain review-only. All earlier review-only items are included because the audit was run over all 300 IDs."
+  },
+  "registry_parity": {
+    "canonical_question_count": 300,
+    "audit_record_count": 300,
+    "unique_question_ids": 300,
+    "unique_audit_ids": 300,
+    "missing_audit_ids": 0,
+    "extra_audit_ids": 0,
+    "duplicate_question_ids": 0,
+    "duplicate_audit_ids": 0,
+    "four_option_records": 300,
+    "answer_key_text_matches": 300,
+    "source_page_visual_verified": 0
+  },
+  "validation": {
+    "json_parse": "PASS (questions.json, papers.json, mapping audit)",
+    "id_parity": "PASS (300/300 exact IDs; no duplicates/missing/extra)",
+    "four_option_structure": "PASS (300/300)",
+    "answer_key_text_parity": "PASS (300/300, existing automated text-level result; visual key review pending)",
+    "source_visual_proofreading": "NOT RUN / PENDING (0/300)",
+    "repository_subject_validator": "NOT RUN",
+    "GitHub_CI": "PENDING PR checks",
+    "debug_apk": "NOT RUN"
+  },
+  "data_safety": {
+    "canonical_questions_json_modified": false,
+    "papers_json_modified": false,
+    "other_subjects_modified": false,
+    "source_verified_promoted": 0,
+    "review_flags_cleared": 0,
+    "merge_authorized": false
+  },
+  "note": "This branch adds a separate mapping audit artifact and checkpoint only. Existing canonical question records remain unchanged because visual source proofing is still pending."
+}
