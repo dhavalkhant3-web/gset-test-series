@@ -1,0 +1,427 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "title": "Round 2 topic review of previously review-only questions",
+  "source_basis": "Uploaded official GSET Code 27 syllabus (Units I-X), three uploaded question-paper scans and their official final answer keys.",
+  "method": "Question stems and available options were reviewed against the exact unit topics. This is an AI-assisted contextual classification proposal, not a human forensic-subject-expert certification. Proposed units remain review_flag=true and are not promoted to verified mappings.",
+  "previous_review_only_count": 117,
+  "reclassified_to_single_unit_proposal": 56,
+  "remaining_review_only": 61,
+  "decisions": [
+    {
+      "question_id": "forensic_science_nov23_q4",
+      "proposed_unit": "Unit 1",
+      "rationale": "Crime-scene search/survey method; physical-evidence search and criminal investigation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q7",
+      "proposed_unit": "Unit 8",
+      "rationale": "Fingerprint ridge-pattern classification: arches and loop types.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q8",
+      "proposed_unit": "Unit 2",
+      "rationale": "Radial immunodiffusion is an immunochemical assay/analytical technique.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q21",
+      "proposed_unit": "Unit 10",
+      "rationale": "Silphidae are carrion-associated beetles; forensic entomology.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q24",
+      "proposed_unit": "Unit 4",
+      "rationale": "Ricin is a plant-derived poison; plant poisons.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q29",
+      "proposed_unit": "Unit 1",
+      "rationale": "Polygraph physiological parameters; lie detection/criminal profiling.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q30",
+      "proposed_unit": "Unit 5",
+      "rationale": "Tool striation examination; tool marks.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q34",
+      "proposed_unit": "Unit 8",
+      "rationale": "Vacuum metal deposition for latent fingerprint development.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q40",
+      "proposed_unit": "Unit 2",
+      "rationale": "Gas chromatography; analytical techniques.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q50",
+      "proposed_unit": "Unit 10",
+      "rationale": "Homicide/death classification in medico-legal context; legal interpretation still needs expert sign-off.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q53",
+      "proposed_unit": "Unit 1",
+      "rationale": "Dying declaration; court/evidence procedure.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q55",
+      "proposed_unit": "Unit 3",
+      "rationale": "Faecal stain identification as biological/body-fluid evidence.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q57",
+      "proposed_unit": "Unit 8",
+      "rationale": "Skid marks; track-mark examination.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q59",
+      "proposed_unit": "Unit 10",
+      "rationale": "Heat fractures; post-mortem/injury interpretation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q68",
+      "proposed_unit": "Unit 10",
+      "rationale": "Linea aspera; skeletal landmark/forensic anthropology.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q75",
+      "proposed_unit": "Unit 8",
+      "rationale": "Fingerprint history and identification applications.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q81",
+      "proposed_unit": "Unit 1",
+      "rationale": "Criminal investigation literature; forensic investigation foundations.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q87",
+      "proposed_unit": "Unit 7",
+      "rationale": "Pixel-grid image representation; digital/computer forensics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q93",
+      "proposed_unit": "Unit 6",
+      "rationale": "Explosion damage; explosion investigation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov23_q99",
+      "proposed_unit": "Unit 6",
+      "rationale": "Explosive types and classification.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q4",
+      "proposed_unit": "Unit 1",
+      "rationale": "P-300 MERMER; brain-based deception detection/brain mapping.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q5",
+      "proposed_unit": "Unit 2",
+      "rationale": "Microscope condenser; optical microscopy.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q7",
+      "proposed_unit": "Unit 2",
+      "rationale": "Microscope mechanical system; microscopy.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q12",
+      "proposed_unit": "Unit 1",
+      "rationale": "Plethysmograph; physiological measurement in polygraph/lie detection.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q14",
+      "proposed_unit": "Unit 3",
+      "rationale": "STR kit fluorescent channel; forensic DNA profiling.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q19",
+      "proposed_unit": "Unit 3",
+      "rationale": "Restriction enzymes; molecular tools in DNA analysis.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q21",
+      "proposed_unit": "Unit 3",
+      "rationale": "Lac operon; molecular genetics relevant to DNA/genetic analysis.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q22",
+      "proposed_unit": "Unit 3",
+      "rationale": "Purine metabolism; molecular genetics/genetic marker background.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q23",
+      "proposed_unit": "Unit 3",
+      "rationale": "PCR additives; forensic DNA amplification.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q25",
+      "proposed_unit": "Unit 3",
+      "rationale": "Epistasis; gene interaction/genetics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q28",
+      "proposed_unit": "Unit 3",
+      "rationale": "Codon degeneracy; molecular genetics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q31",
+      "proposed_unit": "Unit 3",
+      "rationale": "Operon system; gene regulation/molecular genetics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q33",
+      "proposed_unit": "Unit 10",
+      "rationale": "DMORT; disaster mortuary/death response.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q34",
+      "proposed_unit": "Unit 8",
+      "rationale": "Vacuum metal deposition; latent fingerprint development.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q38",
+      "proposed_unit": "Unit 8",
+      "rationale": "Wet friction-ridge impressions; fingerprint evidence.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q39",
+      "proposed_unit": "Unit 8",
+      "rationale": "Ridge islands/branchings; fingerprint ridge characteristics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q40",
+      "proposed_unit": "Unit 8",
+      "rationale": "Powder application for latent print development.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q58",
+      "proposed_unit": "Unit 10",
+      "rationale": "Dental records; forensic odontology/identification.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q84",
+      "proposed_unit": "Unit 7",
+      "rationale": "Cotton fibre structure; fibre examination.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q88",
+      "proposed_unit": "Unit 5",
+      "rationale": "Restoration of erased firearm identification marks.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q94",
+      "proposed_unit": "Unit 7",
+      "rationale": "Write-blocking; preservation/acquisition of digital evidence.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q96",
+      "proposed_unit": "Unit 7",
+      "rationale": "NIC in computer context; computer/digital forensics.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_dec24_q97",
+      "proposed_unit": "Unit 7",
+      "rationale": "Optical discs; digital/computer evidence media.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q2",
+      "proposed_unit": "Unit 10",
+      "rationale": "Pseudo-contusions/false bruises; injury findings.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q5",
+      "proposed_unit": "Unit 6",
+      "rationale": "Accelerant vaporization/combustion; fire and arson.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q6",
+      "proposed_unit": "Unit 4",
+      "rationale": "Endrin; pesticide toxicity/analysis.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q13",
+      "proposed_unit": "Unit 4",
+      "rationale": "Breath analyser; alcohol analysis in breath.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q18",
+      "proposed_unit": "Unit 10",
+      "rationale": "Tooth eruption age; forensic odontology/age estimation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q22",
+      "proposed_unit": "Unit 8",
+      "rationale": "Ridge characteristics; fingerprint identification.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q34",
+      "proposed_unit": "Unit 1",
+      "rationale": "Polygraph parameters; lie detection.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q41",
+      "proposed_unit": "Unit 1",
+      "rationale": "Sealing forensic evidence; evidence packing/preservation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q63",
+      "proposed_unit": "Unit 1",
+      "rationale": "Tamper-evident packaging; evidence integrity/chain of custody.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q81",
+      "proposed_unit": "Unit 7",
+      "rationale": "Automotive paint pigments; paint composition/examination.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q82",
+      "proposed_unit": "Unit 2",
+      "rationale": "Microscope magnification; microscopy.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q93",
+      "proposed_unit": "Unit 6",
+      "rationale": "Accelerant detection in arson investigation.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    },
+    {
+      "question_id": "forensic_science_nov25_q98",
+      "proposed_unit": "Unit 5",
+      "rationale": "Toolmark comparison; tool-mark examination.",
+      "status": "proposed_mapping_pending_subject_expert_signoff",
+      "review_flag": true
+    }
+  ],
+  "retained_review_only": [
+    {
+      "question_id": "forensic_science_nov23_q23",
+      "reason": "Octane number is not directly named in the official unit topics; no forced mapping."
+    },
+    {
+      "question_id": "forensic_science_nov23_q38",
+      "reason": "Sleep-waking disorder is not directly named in the official unit topics."
+    },
+    {
+      "question_id": "forensic_science_nov23_q44",
+      "reason": "Davidson body is a general pathology/cytology term without a direct listed syllabus topic."
+    },
+    {
+      "question_id": "forensic_science_nov23_q52",
+      "reason": "Mental-deficiency classification is not directly named in the official syllabus topics."
+    },
+    {
+      "question_id": "forensic_science_dec24_q26",
+      "reason": "Protein tertiary structure is general molecular biology; no direct forensic syllabus topic is stated."
+    }
+  ],
+  "next_required": "Subject-expert sign-off for all proposed mappings; do not mark any as verified solely from this AI-assisted review."
+}
