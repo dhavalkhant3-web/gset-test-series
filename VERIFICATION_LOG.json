@@ -7709,5 +7709,113 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-20",
+    "event": "Environmental Sciences Code 26 November 2023 Q21-Q30 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "November 2023 Q21-Q30",
+    "printed_pages": [
+      6,
+      7,
+      8
+    ],
+    "pdf_page_indexes_zero_based": [
+      5,
+      6,
+      7
+    ],
+    "final_key_letters": [
+      "D",
+      "B",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "B",
+      "B",
+      "A"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "option_sets_match": 10,
+      "tables_checked": [
+        "Q25"
+      ],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit": "Unit III"
+    },
+    "mapping_corrections": [
+      {
+        "question_no": 24,
+        "from": "Unit II",
+        "to": "Unit III",
+        "basis": "Unit III explicitly lists acute and chronic toxicity and toxicology."
+      },
+      {
+        "question_no": 25,
+        "from": "Unit VI",
+        "to": "Unit III",
+        "basis": "Unit III explicitly covers community ecology and ecological interactions."
+      },
+      {
+        "question_no": 30,
+        "from": "Unit IV",
+        "to": "Unit III",
+        "basis": "Unit III explicitly covers biodiversity and conservation."
+      }
+    ],
+    "question_ids": [
+      "GSET-ENV26-NOV2023-Q021",
+      "GSET-ENV26-NOV2023-Q022",
+      "GSET-ENV26-NOV2023-Q023",
+      "GSET-ENV26-NOV2023-Q024",
+      "GSET-ENV26-NOV2023-Q025",
+      "GSET-ENV26-NOV2023-Q026",
+      "GSET-ENV26-NOV2023-Q027",
+      "GSET-ENV26-NOV2023-Q028",
+      "GSET-ENV26-NOV2023-Q029",
+      "GSET-ENV26-NOV2023-Q030"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 29,
+      "independent_second_pass_pending": 271
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 39,
+      "independent_second_pass_pending": 261,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]

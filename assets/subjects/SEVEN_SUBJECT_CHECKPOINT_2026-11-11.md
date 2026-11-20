@@ -1430,3 +1430,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Evidence IDs: GSET-ENV26-NOV2023-Q011, GSET-ENV26-NOV2023-Q012, GSET-ENV26-NOV2023-Q013, GSET-ENV26-NOV2023-Q014, GSET-ENV26-NOV2023-Q015, GSET-ENV26-NOV2023-Q016, GSET-ENV26-NOV2023-Q017, GSET-ENV26-NOV2023-Q018, GSET-ENV26-NOV2023-Q019, GSET-ENV26-NOV2023-Q020. Cumulative independent second-pass IDs: 29.
 - Next batch: Environmental Sciences November 2023 Q21–Q30; inspect official pages and re-check stems, four options, final-key letters and syllabus mapping before updating.
 - No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-20 — Environmental Sciences Code 26 November 2023 Q21–Q30 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q21–Q30 against official printed pages 6–8 (PDF zero-based page indexes 5–7). Q21–Q24 are on printed page 6, Q25–Q29 on page 7, and Q30 on page 8. All ten stems and all four options match the scan. Q25's Column I/Column II matching table was checked; no figures occur.
+- Official final-key letters D, B, B, B, A, B, B, B, B, A match the stored answers 10/10. No question wording, option wording or answer letter changed.
+- Syllabus re-audit: Q21–Q30 all map directly to Unit III (Environmental Biology). Corrected Q24 from Unit II because Unit III explicitly lists acute/chronic toxicity; Q25 from Unit VI because Unit III explicitly covers community ecology and ecological interactions; and Q30 from Unit IV because Unit III explicitly covers biodiversity and conservation. Q8 and Q9 remain the only syllabus mapping holds.
+- Before → after: independent second-pass verified 29 → 39; pass-1 records still awaiting second pass 271 → 261. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300. Unit distribution adjusted: Unit II 42→41, Unit VI 37→36, Unit IV 31→30, Unit III 27→30.
+- Evidence IDs: GSET-ENV26-NOV2023-Q021, GSET-ENV26-NOV2023-Q022, GSET-ENV26-NOV2023-Q023, GSET-ENV26-NOV2023-Q024, GSET-ENV26-NOV2023-Q025, GSET-ENV26-NOV2023-Q026, GSET-ENV26-NOV2023-Q027, GSET-ENV26-NOV2023-Q028, GSET-ENV26-NOV2023-Q029, GSET-ENV26-NOV2023-Q030. Cumulative independent second-pass IDs: 39 (includes the prior nine checks and Q1–Q30).
+- Next batch: Environmental Sciences November 2023 Q31–Q40; independently inspect the official source pages, final-key letters and explicit syllabus fit before changing any status.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
