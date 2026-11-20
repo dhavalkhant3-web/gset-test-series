@@ -1,0 +1,34 @@
+name: Chemical Sciences bank validation
+
+on:
+  push:
+    branches:
+      - complete-chemical-sciences-03
+    paths:
+      - 'assets/subjects/chemical_sciences/**'
+      - 'assets/subjects/subjects.json'
+      - 'lib/main.dart'
+      - 'tools/validate_chemical_sciences.py'
+      - '.github/workflows/chemical-sciences-validation.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'assets/subjects/chemical_sciences/**'
+      - 'assets/subjects/subjects.json'
+      - 'lib/main.dart'
+      - 'tools/validate_chemical_sciences.py'
+      - '.github/workflows/chemical-sciences-validation.yml'
+
+jobs:
+  validate-chemical-sciences:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Chemical Sciences Paper-II archive
+        run: python tools/validate_chemical_sciences.py

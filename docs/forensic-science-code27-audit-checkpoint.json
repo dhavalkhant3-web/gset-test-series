@@ -1,0 +1,35 @@
+{
+  "subject": "Forensic Science",
+  "subject_code": "27",
+  "scope": "Paper-II; GSET November 2023, December 2024, November 2025",
+  "question_count": 300,
+  "counts_by_session": {
+    "GSET November 2023": 100,
+    "GSET December 2024": 100,
+    "GSET November 2025": 100
+  },
+  "official_final_answer_key_audit": {
+    "status": "automated_text_level_comparison_completed",
+    "result": "All 300 staged answer letters match the supplied official final answer-key PDFs.",
+    "visual_key_proofreading": "pending",
+    "note": "Text extraction and comparison is not a substitute for human visual review of the official key pages."
+  },
+  "question_text_visual_proofreading": {
+    "status": "pending",
+    "verified_question_count": 0,
+    "pending_question_count": 300,
+    "note": "Every stem and all four options still require visual comparison against the original scanned question-paper pages."
+  },
+  "syllabus_unit_mapping": {
+    "status": "pending_official_syllabus_required",
+    "verified_count": 0,
+    "pending_count": 300,
+    "note": "The official Forensic Science syllabus was not included in the supplied files. Do not infer unit assignments."
+  },
+  "data_safety": {
+    "source_verified": false,
+    "review_flag": true,
+    "existing_bank_overwrite": false,
+    "note": "Do not replace an existing bank. Keep the records in staging until visual proofread, schema conversion, and repository validation are complete."
+  }
+}

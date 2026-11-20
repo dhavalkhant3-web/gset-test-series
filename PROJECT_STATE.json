@@ -1,0 +1,1668 @@
+{
+  "project": "GSET Test Series",
+  "repository": "dhavalkhant3-web/gset-test-series",
+  "updated_at": "2026-11-06",
+  "audit_scope": [
+    "02",
+    "03",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33"
+  ],
+  "branch_snapshot": {
+    "main": "2108d34bd6fce149d02d0d5054946dd42dffc79e",
+    "integration_parent_before_register_refresh": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+    "pr16_merge_commit": "bedd33e6536e4eb35823049d62e1889c3f75e7a7",
+    "latest_integration_head_before_register_refresh": "4cef120441bdb8be9a525edea933b6a4d6926132",
+    "latest_integration_head_before_final_audit_register": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+    "latest_integration_head_before_option_schema_reconciliation": "bd87675a38e77ebf7c9a06478b2ef77af3217948",
+    "latest_integration_head_before_syllabus_checkpoint": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "latest_live_head_before_register_refresh": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "master_progress_refresh_commit": "d3fd8b593bef201ec6d39a5100d931c4cf8594fe",
+    "latest_live_head_before_manifest_repair": "62490790e5ef39a395f0034d4b351a673d52a9ab",
+    "manifest_repair_commit": "99545b7f7923ad56afd752ed22961390823ffa8d",
+    "latest_live_head_before_mapping_progress_sync": "5c6fe3523f865d3831cf03ef1f38437c486715c8",
+    "latest_live_head_before_visual_art_mapping_batch": "ccbced0ee7638a4da165bf88b04a9e6b4ff0c408",
+    "latest_live_head_before_performing_arts_mapping_batch": "ba09764d1a2abc8980a811223e589920dd00defb",
+    "latest_live_head_before_visual_art_mapping_batch_2": "aa84ef60bb8ed8b0bbf414dd1dd41c51ece9455d",
+    "latest_live_head_before_visual_art_mapping_batch_3": "249923f5d4ff3bd7325548ef7adc1509ba6834b8",
+    "latest_integration_head_after_unit_field_sync": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+    "latest_live_head_before_iks_execution": "797d305b55c1a6cae8498eabd15f7448f20398e7",
+    "latest_live_head_after_iks_execution_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
+    "latest_live_head_before_physical_sciences_bank_recovery": "d80cd0af108dec5621625403117e385a3f2c9938",
+    "physical_sciences_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d",
+    "latest_live_head_before_physical_sciences_batch": "c4640e0d1f8c60629097c3c52155bb34648c4483",
+    "physical_sciences_batch_commit": "717dde33b63a72e840af1fae6c473ff8ecab2e4a",
+    "latest_physical_sciences_answer_key_batch_commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
+    "physical_sciences_nov25_manifest_commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
+    "physical_sciences_registry_commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
+    "latest_integration_head_before_register_sync": "ef5e294028e9bd6d2c6157753d78150b2f098104"
+  },
+  "rules": {
+    "single_existing_android_app": true,
+    "paper_i_ui_and_functionality_untouched_in_this_execution": true,
+    "mathematical_sciences_code_01": "HOLD_DO_NOT_MODIFY",
+    "no_pr_merge_without_explicit_authorization": true,
+    "no_force_push": true,
+    "no_bulk_question_bank_overwrite": true,
+    "official_gset_question_papers_and_final_keys_authoritative": true,
+    "paper_ii_and_paper_iii_separate": true,
+    "OCR_or_AI_text_not_verified_without_source_review": true
+  },
+  "scope_totals": {
+    "subjects": 8,
+    "paper_ii_records_expected_or_registered": 4400,
+    "note": "Aggregate of registry/checkpoint counts: Physical 1,300; Chemical 1,300; and 300 each for Codes 28–33. This is not a fresh exhaustive count of every underlying 02/03 source file."
+  },
+  "subject_checkpoints": {
+    "28": {
+      "name": "Hindu Studies",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 300,
+      "source_visual_proofread": 300,
+      "official_answer_key_matches_recorded": 300,
+      "gujarati_source_transcribed": 100,
+      "mapping": {
+        "verified": 262,
+        "provisional": 38,
+        "pending": 0
+      },
+      "review_flags": 40,
+      "flagged_concerns": [
+        "November 2023 Q88",
+        "December 2024 Q49"
+      ],
+      "question_bank_sha": "202bf3b726170a7742ec6376da19c2a3898aa447",
+      "verification_file_sha": "94d44e5343abbcd8a5e78434563ff8dcff6b1945",
+      "status": "source visual review recorded complete; mapping and expert flags remain"
+    },
+    "29": {
+      "name": "Indian Knowledge System",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 117,
+      "review_flags": 300,
+      "official_answer_key_status": "300/300 answer letters reconciled against direct official GSET final answer-key PDFs.",
+      "gujarati_source_transcribed": 0,
+      "mapping": {
+        "verified": 117,
+        "provisional": 182,
+        "pending": 1
+      },
+      "question_bank_sha": "21403d078f12749cddd7ef5cff7092eb8f870271",
+      "status": "117 source visual checks complete; all 300 final-key rows reconciled; 117 mappings verified, 182 provisional, 1 pending",
+      "mapping_updates": {
+        "GSET_29_DEC24_020": "Unit 9 — Kala/classical music; visual source page check pending",
+        "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature; visual source page check pending"
+      },
+      "resolved_mapping": {
+        "GSET_29_NOV25_015": "Unit 2 — Indian Languages and Literature"
+      },
+      "pending_mapping": {
+        "GSET_29_DEC24_020": "Pending; available question/options don't give enough context to map confidently"
+      },
+      "visual_batch_verified_ids": [
+        "GSET_29_NOV23_001",
+        "GSET_29_NOV23_002",
+        "GSET_29_NOV23_003",
+        "GSET_29_NOV23_004",
+        "GSET_29_NOV23_005",
+        "GSET_29_NOV23_006",
+        "GSET_29_NOV23_007",
+        "GSET_29_NOV23_008",
+        "GSET_29_NOV23_009",
+        "GSET_29_NOV23_010",
+        "GSET_29_NOV23_011",
+        "GSET_29_NOV23_012",
+        "GSET_29_NOV23_013",
+        "GSET_29_NOV23_014",
+        "GSET_29_NOV23_015",
+        "GSET_29_NOV23_016",
+        "GSET_29_NOV23_017",
+        "GSET_29_NOV23_018",
+        "GSET_29_NOV23_019",
+        "GSET_29_NOV23_020",
+        "GSET_29_NOV23_021",
+        "GSET_29_NOV23_022",
+        "GSET_29_NOV23_023",
+        "GSET_29_NOV23_024",
+        "GSET_29_NOV23_034",
+        "GSET_29_NOV23_035",
+        "GSET_29_NOV23_036",
+        "GSET_29_NOV23_037",
+        "GSET_29_NOV23_038",
+        "GSET_29_NOV23_039",
+        "GSET_29_NOV23_040",
+        "GSET_29_NOV23_041",
+        "GSET_29_NOV23_042",
+        "GSET_29_NOV23_043",
+        "GSET_29_NOV23_044",
+        "GSET_29_NOV23_045",
+        "GSET_29_NOV23_046",
+        "GSET_29_NOV23_047",
+        "GSET_29_NOV23_048",
+        "GSET_29_NOV23_049",
+        "GSET_29_NOV23_050",
+        "GSET_29_NOV23_051",
+        "GSET_29_NOV23_052",
+        "GSET_29_NOV23_053",
+        "GSET_29_NOV23_054",
+        "GSET_29_NOV23_055",
+        "GSET_29_NOV23_056",
+        "GSET_29_NOV23_057",
+        "GSET_29_NOV23_058",
+        "GSET_29_NOV23_059",
+        "GSET_29_NOV23_060",
+        "GSET_29_NOV23_061",
+        "GSET_29_NOV23_062",
+        "GSET_29_NOV23_063",
+        "GSET_29_NOV23_064",
+        "GSET_29_NOV23_065",
+        "GSET_29_NOV23_066",
+        "GSET_29_NOV23_067",
+        "GSET_29_NOV23_068",
+        "GSET_29_NOV23_069",
+        "GSET_29_NOV23_070",
+        "GSET_29_NOV23_071",
+        "GSET_29_NOV23_072",
+        "GSET_29_NOV23_073",
+        "GSET_29_NOV23_074",
+        "GSET_29_NOV23_075",
+        "GSET_29_NOV23_076",
+        "GSET_29_NOV23_077",
+        "GSET_29_NOV23_078",
+        "GSET_29_NOV23_079",
+        "GSET_29_NOV23_080",
+        "GSET_29_NOV23_081",
+        "GSET_29_NOV23_082",
+        "GSET_29_NOV23_083",
+        "GSET_29_NOV23_084",
+        "GSET_29_NOV23_085",
+        "GSET_29_NOV23_086",
+        "GSET_29_NOV23_087",
+        "GSET_29_NOV23_088",
+        "GSET_29_NOV23_089",
+        "GSET_29_NOV23_090",
+        "GSET_29_NOV23_091",
+        "GSET_29_NOV23_092",
+        "GSET_29_NOV23_093",
+        "GSET_29_NOV25_020",
+        "GSET_29_NOV25_021",
+        "GSET_29_NOV25_022",
+        "GSET_29_NOV25_023",
+        "GSET_29_NOV25_027",
+        "GSET_29_NOV25_028",
+        "GSET_29_NOV25_029",
+        "GSET_29_NOV25_030",
+        "GSET_29_NOV25_031"
+      ],
+      "official_answer_key_urls": {
+        "nov23": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
+        "dec24": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
+        "nov25": "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf"
+      },
+      "nov23_mapping_review": {
+        "verified": 100,
+        "unit_rationale_per_record": true,
+        "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
+        "visual_source_provenance": {
+          "official_host_pages": 84,
+          "secondary_mirror_pages": 16,
+          "secondary_ids": [
+            "GSET_29_NOV23_025",
+            "GSET_29_NOV23_026",
+            "GSET_29_NOV23_027",
+            "GSET_29_NOV23_028",
+            "GSET_29_NOV23_029",
+            "GSET_29_NOV23_030",
+            "GSET_29_NOV23_031",
+            "GSET_29_NOV23_032",
+            "GSET_29_NOV23_033",
+            "GSET_29_NOV23_094",
+            "GSET_29_NOV23_095",
+            "GSET_29_NOV23_096",
+            "GSET_29_NOV23_097",
+            "GSET_29_NOV23_098",
+            "GSET_29_NOV23_099",
+            "GSET_29_NOV23_100"
+          ]
+        }
+      },
+      "nov25_mapping_review": {
+        "verified_question_ids": [
+          "GSET_29_NOV25_020",
+          "GSET_29_NOV25_021",
+          "GSET_29_NOV25_022",
+          "GSET_29_NOV25_023",
+          "GSET_29_NOV25_027",
+          "GSET_29_NOV25_028",
+          "GSET_29_NOV25_029",
+          "GSET_29_NOV25_030",
+          "GSET_29_NOV25_031"
+        ],
+        "unit7_count": 8,
+        "unit6_count": 1
+      },
+      "dec24_visual_batch": {
+        "source": "Prepp secondary-hosted original scan",
+        "printed_page": 22,
+        "question_ids": [
+          "GSET_29_DEC24_018",
+          "GSET_29_DEC24_019",
+          "GSET_29_DEC24_020",
+          "GSET_29_DEC24_021",
+          "GSET_29_DEC24_022",
+          "GSET_29_DEC24_023",
+          "GSET_29_DEC24_024",
+          "GSET_29_DEC24_025"
+        ],
+        "mapping_verified": 7,
+        "pending_id": "GSET_29_DEC24_020",
+        "pending_note": "Exact source stem/options confirmed; mapping remains ambiguous Unit1 phonetics vs Unit2 Indian language pronunciation."
+      }
+    },
+    "30": {
+      "name": "Music",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 300,
+      "english_gujarati_stem_option_visual_proofread": 300,
+      "remaining_question_text_visual_proofread": 0,
+      "gujarati_fields_populated": 300,
+      "answer_keys_visually_checked": 300,
+      "answer_key_mismatches": 0,
+      "mapping": {
+        "manually_reviewed": 162,
+        "ambiguous": 14,
+        "provisional": 124,
+        "pending": 0
+      },
+      "review_flags": 212,
+      "question_bank_sha": "d40e1b4c5dc056d20b709c2ec7f07366ce7b9b83",
+      "verification_file_sha": "b75ff8b9d4fc7a13fcf3a281237d2de516f0344e",
+      "source_review_split": {
+        "nov23_visual_proofread": 100,
+        "dec24_visual_proofread": 100,
+        "dec24_pending": 0,
+        "nov25_visual_proofread": 100,
+        "nov25_pending": 0
+      },
+      "note": "All 300 English/Gujarati stems and option sets visually proofread against original bilingual scans. Dec 2024 Q91-Q95 passage and questions checked on printed pp.28-31; source English wording corrected and Gujarati passage transcribed. All 300 official final answer keys visually checked, zero mismatches. Mapping: 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific mappings remain separate; 212 review flags retained.",
+      "status": "300/300 question-text visual proofread; 0 pending; all official keys checked 300/300, 0 mismatches; mapping 162 manually reviewed, 14 ambiguous, 124 provisional; 212 review flags remain."
+    },
+    "31": {
+      "name": "Performing Arts",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 101,
+      "source_page_visually_verified": 101,
+      "bilingual_discrepancies_flagged": 6,
+      "question_text_and_gujarati_source_review_pending": 193,
+      "gujarati_fields_populated": 107,
+      "review_flags": 206,
+      "mapping": {
+        "verified": 0,
+        "manually_reviewed": 15,
+        "provisional": 168,
+        "pending": 117
+      },
+      "question_bank_sha": "a6c12bb66e3e8ab9e367b85f018efdd672da363a",
+      "status": "101/300 source-page question sets visually verified (Nov23 94, Nov25 7, Dec24 0); 193 source-text/Gujarati audits pending; six bilingual discrepancy flags retained; mapping labels 15 manually reviewed, 168 provisional, 117 pending; 206 review flags remain."
+    },
+    "32": {
+      "name": "Public Administration",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 300,
+      "review_flags": 300,
+      "question_text_and_options_audit_pending": 0,
+      "mapping": {
+        "verified": 0,
+        "manually_reviewed": 300,
+        "provisional": 0,
+        "pending": 0
+      },
+      "disputed_items": [],
+      "question_bank_sha": "e941e48c838769d9b953905a4eaf6f7ab7756702",
+      "status": "source text/options visual audit complete 300/300; all 300 syllabus assignments manually reviewed against the corrected official ten-unit sequence; 300 review flags retained",
+      "session_source_verified": {
+        "nov23": 100,
+        "dec24": 100,
+        "nov25": 100
+      },
+      "question_text_and_options_audit_complete": 300
+    },
+    "33": {
+      "name": "Visual Art",
+      "records": 300,
+      "sessions": 3,
+      "source_verified_marked": 300,
+      "key_applied_pending_proofread": 0,
+      "content_concerns_flagged": 14,
+      "review_flags": 14,
+      "gujarati_question_text_populated": 0,
+      "mapping": {
+        "verified": 0,
+        "manually_reviewed": 295,
+        "provisional": 5,
+        "pending": 0
+      },
+      "question_bank_sha": "7d72a48e939df607074de5465514a7aea56d7ce7",
+      "status": "All 300 English stems/options visually source-proofread; 286 clear source records and 14 content/key concerns retained. Syllabus mappings: 295 manually reviewed, 5 provisional, 0 pending, 0 officially verified. Gujarati question text remains unpopulated.",
+      "source_text_visual_proofread": 300
+    },
+    "02": {
+      "name": "Physical Sciences",
+      "records": 1300,
+      "sessions": 19,
+      "source_verified_marked": 899,
+      "review_flagged": 380,
+      "core_field_checks_pending": 206,
+      "syllabus_mapping": "pending",
+      "provenance": "Current canonical bank source-key corrections and direct official PDF parity batches recorded through the active integration branch. The user has explicitly resumed Code 02 direct execution; older completion snapshot superseded.",
+      "question_bank_sha": "4973225c416989916604d2162067f5c85904e1e3",
+      "status": "Active direct-execution backlog resumed (2026-11-06): official final-key parity 950/1300 (350 pending); 380 review flags; 466 syllabus mappings pending; 206 incomplete option records.",
+      "source_unverified": 401,
+      "review_flags": 380,
+      "source_review_required_union": 380,
+      "malformed_option_records": 206,
+      "malformed_option_records_already_review_flagged": true,
+      "unit_mapping": {
+        "missing": 466,
+        "provisional_or_unverified_declared": 834,
+        "verified": 0
+      },
+      "schema_note": "Options accept options_en string arrays or valid options.A-D objects. 1,090 records pass schema-aware nonempty four-option structure; 210 remain incomplete, all already review_flag=true.",
+      "invalid_option_records": {
+        "valid_after_schema_normalization": 1094,
+        "unresolved": 206,
+        "all_unresolved_already_review_flagged": true,
+        "invalid_after_schema_normalization": 206,
+        "valid_A_D_object_records": 85
+      },
+      "question_bank_recovery_commit": "85f64ea7fb7952a5921d0c7558e36abdb2c3469d",
+      "last_execution_batch": {
+        "date": "2026-11-06",
+        "paper_id": "physical_oct11",
+        "question_ids": [
+          "physical_oct11_q01",
+          "physical_oct11_q02",
+          "physical_oct11_q03",
+          "physical_oct11_q04",
+          "physical_oct11_q05",
+          "physical_oct11_q06",
+          "physical_oct11_q07",
+          "physical_oct11_q08",
+          "physical_oct11_q09",
+          "physical_oct11_q10",
+          "physical_oct11_q11",
+          "physical_oct11_q12",
+          "physical_oct11_q13",
+          "physical_oct11_q14",
+          "physical_oct11_q15",
+          "physical_oct11_q16",
+          "physical_oct11_q17",
+          "physical_oct11_q18",
+          "physical_oct11_q19",
+          "physical_oct11_q20",
+          "physical_oct11_q21",
+          "physical_oct11_q22",
+          "physical_oct11_q23",
+          "physical_oct11_q24",
+          "physical_oct11_q25",
+          "physical_oct11_q26",
+          "physical_oct11_q27",
+          "physical_oct11_q28",
+          "physical_oct11_q29",
+          "physical_oct11_q30",
+          "physical_oct11_q31",
+          "physical_oct11_q32",
+          "physical_oct11_q33",
+          "physical_oct11_q34",
+          "physical_oct11_q35",
+          "physical_oct11_q36",
+          "physical_oct11_q37",
+          "physical_oct11_q38",
+          "physical_oct11_q39",
+          "physical_oct11_q40",
+          "physical_oct11_q41",
+          "physical_oct11_q42",
+          "physical_oct11_q43",
+          "physical_oct11_q44",
+          "physical_oct11_q45",
+          "physical_oct11_q46",
+          "physical_oct11_q47",
+          "physical_oct11_q48",
+          "physical_oct11_q49",
+          "physical_oct11_q50"
+        ],
+        "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
+        "reconciled": 50,
+        "exact_matches": 50,
+        "mismatches": 0,
+        "canonical_answer_changes": [
+          {
+            "q": 24,
+            "old": "D",
+            "official": "A"
+          }
+        ],
+        "remaining_answer_key_rows": 350,
+        "note": "October 2011 Q1-Q50 direct official PDF parity completed (Q24 corrected). October 2014 Q1-Q50 also completed in the same execution (Q49 corrected). Both key sidecars added."
+      },
+      "official_answer_key_status": "950/1300 reconciled: Dec 2008 Q1-Q50; Aug 2017 Q1-Q50; Oct 2011 Q1-Q50; Oct 2014 Q1-Q50; Dec 2019 Q1-Q100; Sep 2016 Q1-Q50; Sep 2018 Q1-Q100; Nov 2022 Q1-Q100; Dec 2021 (Jan 2022) Q1-Q100; Nov 2023 Q1-Q100; Dec 2024 Q1-Q100; Nov 2025 Q1-Q100. 350 pending.",
+      "official_final_key_parity": {
+        "reconciled": 950,
+        "total": 1300,
+        "pending_in_tally": 350,
+        "latest_direct_pdf_batches": [
+          "Oct 2011 50/50",
+          "Oct 2014 50/50",
+          "Aug 2017 50/50",
+          "Dec 2008 50/50",
+          "Dec 2019 100/100",
+          "Sep 2016 50/50",
+          "Sep 2018 100/100",
+          "Nov 2022 100/100",
+          "Dec 2021 100/100"
+        ],
+        "last_register_commit": "current integration branch head"
+      }
+    },
+    "03": {
+      "name": "Chemical Sciences",
+      "records_expected": 1300,
+      "base_records": 1250,
+      "sep16_paper_ii_overlay": 50,
+      "base_source_verified_marked": 1004,
+      "review_flagged": 314,
+      "syllabus_mapping": "pending",
+      "provenance": "Integration subjects.json metadata; loader is expected to append the 50-question Paper-II overlay and deduplicate by ID",
+      "base_question_bank_sha": "6a91730fe4534c11fc4e421d550796cc5799f25d",
+      "status": "partial",
+      "base_review_flags": 315,
+      "september_2016_paper_ii_overlay": {
+        "records": 50,
+        "unique_ids": 50,
+        "source_verified": 50,
+        "review_flags": 1,
+        "overlap_with_base_ids": 0
+      },
+      "paper_ii_total": 1300,
+      "paper_iii_records": 75,
+      "malformed_option_record": {
+        "id": "chemical_jul06_q42",
+        "answer": "C",
+        "source_verified": true,
+        "review_flag": true,
+        "issue": "options_en is a single string rather than an A-D option array; question/answer retained"
+      },
+      "unit_mapping": {
+        "missing": 540,
+        "provisional_or_unverified_declared": 710
+      },
+      "paper_ii_combined": {
+        "base_records": 1250,
+        "sep16_paper_ii_overlay": 50,
+        "total_unique": 1300,
+        "base_source_verified": 1004,
+        "overlay_source_verified": 50,
+        "base_review_flags": 315,
+        "overlay_review_flags": 1,
+        "malformed_q42_flagged": true,
+        "q42_answer_retained": "C"
+      }
+    }
+  },
+  "mapping_rollup_for_codes_28_to_33": {
+    "verified": 262,
+    "manually_reviewed_not_counted_as_verified": 206,
+    "provisional": 1187,
+    "ambiguous": 14,
+    "pending": 131,
+    "note": "Rollup counts 1,800 Paper-II question records across Codes 28–33. Manual review counts are mapping reviews only and do not imply source text verification; provisional mapping values are not verified."
+  },
+  "pr_status": {
+    "4": "open_draft_unmerged",
+    "10": "open_unmerged",
+    "11": "open_unmerged",
+    "12": "open_unmerged",
+    "14": "open_unmerged",
+    "15": "open_draft_unmerged",
+    "16": "merged",
+    "17": "open_draft_unmerged_blocked_from_integration_because_it_modifies_Code_01",
+    "18": "open_unmerged_diverged",
+    "19": "open_draft_unmerged_diverged",
+    "20": "open_draft_outside_current_scope_Code_27"
+  },
+  "branch_integration_findings": [
+    "All examined subject PR branches have diverged from the current integration branch; they are not safe fast-forward integrations.",
+    "PR #19 Hindu Studies question bank file is byte-identical to the integrated bank; its mapping and audit status must be read from current integration files, not the PR description.",
+    "PR #18 Music bank has the same 300 IDs as integration but differs on 45 Gujarati stems, 31 Gujarati option arrays, 183 provenance values, 146 source_verified values, 52 review flags, 38 unit assignments and all 300 verification/review notes; do not copy wholesale.",
+    "PR #10 Performing Arts, #11 IKS, #4 Public Administration and #12 Visual Art each have large field-level differences from current integration banks. Preserve current data and resolve only with source evidence.",
+    "PR #17 changes Mathematical Sciences Code 01 question and paper files; never integrate it under the current HOLD rule."
+  ],
+  "changes_made_in_this_execution": [
+    {
+      "path": "PROJECT_STATE.json",
+      "commit": "cc687abc1ccc7c8a8142960219bdeca31c214311",
+      "action": "created"
+    },
+    {
+      "path": "MASTER_PROGRESS.md",
+      "commit": "255cd5e46c01d45fb9a7a74b4df08ff780ca78f4",
+      "action": "created"
+    },
+    {
+      "path": "VERIFICATION_LOG.json",
+      "commit": "377f3d6772c2edf06978caca50f628000c353420",
+      "action": "created"
+    },
+    {
+      "path": "CHANGE_HISTORY.md",
+      "commit": "025dcce8a90ecfff3dd0ee14a256e8eca7b82131",
+      "action": "created"
+    },
+    {
+      "path": "assets/subjects/syllabus_units.json",
+      "commit": "b76df8c65e191b558ed82841f098626a23194c3e",
+      "action": "added official Hindu Studies and Music unit records"
+    },
+    {
+      "path": "assets/subjects/music/verification_pending.json",
+      "commit": "4235ac24301e8be12053a011405a7a9863e0994f",
+      "action": "corrected stale answer-key visual-check status and remaining question/mapping gates"
+    },
+    {
+      "path": "assets/subjects/subjects.json",
+      "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+      "action": "synchronized six subject progress descriptions with current integrated records"
+    },
+    {
+      "path": "assets/subjects/chemical_sciences/questions.json",
+      "action": "added review_flag and review_note to chemical_jul06_q42 only; did not change question, options or answer",
+      "parent_blob_sha": "6a91730fe4534c11fc4e421d550796cc5799f25d"
+    },
+    {
+      "path": "tool/audit_combined_subject_banks.py",
+      "action": "support both options_en list and options A-D object when validating English options"
+    },
+    {
+      "path": "assets/subjects/syllabus_units.json",
+      "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+      "action": "corrected official ten-unit catalogue entries for IKS Code29 and Public Administration Code32; no question-level mappings changed"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "commit": "97c8c8cefdd6be3669c8342c2d69df30dc80c84b",
+      "action": "independently reconciled Nov 2025 Q1-Q100 final-key letters (100 matched, 0 mismatches); added question-level official answer source and key verification status; retained source review flags"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/papers.json",
+      "commit": "62f538c2fc2d990822222f94dc56d4117bfd2981",
+      "action": "manifest records Nov 2025 final answer-key reconciliation count 100 and zero mismatches"
+    },
+    {
+      "path": "assets/subjects/subjects.json",
+      "commit": "ef33475bd143f4d716a69ee1047116a8bf5ef070",
+      "action": "Physical Sciences Code02 progress metadata synchronized to 104/1300 final-key reconciled"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "Earlier 11-answer change batch was reverted after direct PDF tables showed the key sidecars were mis-transcribed; canonical records restored to official PDF answers.",
+      "reversed": true
+    },
+    {
+      "path": "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+      "action": "repaired five sidecar answer transcriptions from the official GSET final PDF; canonical bank answers already match the official values"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "restored canonical answer records to the original bank values after official Dec24/Nov22 PDF tables proved the sidecar values were wrong; directly reconciled Nov22 Q1-Q100 (100 exact matches)"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/dec24_official_final_answer_key.json",
+      "action": "corrected ten sidecar transcription errors against official December 2024 final-key PDF; canonical Dec24 Q1-Q100 matched PDF"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/nov22_official_final_answer_key.json",
+      "action": "corrected sidecar Q62 from A to B against official November 2022 final-key PDF; canonical Nov22 Q1-Q100 matched PDF"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "directly reconciled Dec 2021 (Jan 2022) Q1-Q100 against official final-key PDF: 100 exact matches, zero answer edits"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "directly reconciled Nov 2022 Q1-Q100 against official final-key PDF: 100 exact matches, zero answer edits"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "directly reconciled Sep 2018 Q1-Q100 against official final-key PDF: 100 exact matches; no canonical answer edits; preserved Z values and review flags"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "reversed 11 erroneous answer-key edits and restored answers to official GSET final-key PDF values"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "corrected seven Sep 2016 Paper-II canonical answer letters against official final/corrected key and retained review flags for conflicting explanations/option OCR"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions_sep16_p2.json",
+      "action": "corrected overlay Q28 answer B to official final/corrected key C"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/sept16_official_final_answer_key.json",
+      "action": "added 50-row direct transcription of the official GSET final/corrected Sep 2016 answer key"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "directly reconciled Dec 2019 Q1-Q100 against official final-key PDF: 100 exact matches; 96 newly counted rows"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "corrected four Aug 2017 Paper-II answer letters against official final-key PDF; 50/50 exact parity"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "corrected four Dec 2008 Paper-II answer letters against visually inspected official final-key PDF; 50/50 exact parity"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/aug17_official_final_answer_key.json",
+      "action": "added 50-row official Aug 2017 final-key sidecar"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/dec08_official_final_answer_key.json",
+      "action": "added 50-row official Dec 2008 final-key sidecar from visually inspected scan"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/questions.json",
+      "action": "corrected Oct 2011 Q24 D→A and Oct 2014 Q49 B→C against direct official final/corrected key PDFs; both sessions 50/50 parity"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/oct11_official_final_answer_key.json",
+      "action": "added 50-row official Oct 2011 final-key sidecar from scanned one-page PDF"
+    },
+    {
+      "path": "assets/subjects/physical_sciences/oct14_official_final_answer_key.json",
+      "action": "added 50-row official Oct 2014 final/corrected key sidecar from scanned one-page PDF"
+    }
+  ],
+  "no_changes_made": [
+    "No Paper-I UI or feature files edited",
+    "No Code 01 files edited",
+    "No PR merged and no branch force-pushed",
+    "No question stem, options or answer text edited; one existing Chemical Sciences record received a review flag/note for a malformed options field."
+  ],
+  "ci": {
+    "integration_workflow": "Integration Debug APK",
+    "successful_run": {
+      "run_id": 41012595587,
+      "commit": "025dcce8a90ecfff3dd0ee14a256e8eca7b82131",
+      "conclusion": "success",
+      "flutter_analyze": "success; log says No issues found",
+      "debug_apk_build": "success",
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_id": 12957748495,
+      "artifact_size_bytes": 113034941,
+      "artifact_zip_sha256": "8cc0e47c8b31a0db91c4788c3c750ed62080dc9241ff0ceafeee08ee632811ed",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41012595587"
+    },
+    "metadata_commit_runs_in_progress_at_last_check": [
+      {
+        "run_id": 41013260988,
+        "commit": "b76df8c65e191b558ed82841f098626a23194c3e"
+      },
+      {
+        "run_id": 41013293269,
+        "commit": "4235ac24301e8be12053a011405a7a9863e0994f"
+      },
+      {
+        "run_id": 41013629626,
+        "commit": "4cef120441bdb8be9a525edea933b6a4d6926132"
+      }
+    ],
+    "flutter_test": "not run in the integration workflow",
+    "subject_validator_status": "Historical PR-commit validators passed for Physical, Chemical, Hindu, IKS and Visual Art; Performing Arts and Music current integration validators not proven on the current head.",
+    "latest_successful_metadata_build": {
+      "run_id": 41013333491,
+      "commit": "4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f",
+      "conclusion": "success",
+      "flutter_analyze": "success; No issues found",
+      "combined_debug_apk": "success",
+      "artifact_id": 12958701650,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_size_bytes": 113036152,
+      "artifact_zip_sha256": "939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41013333491"
+    },
+    "current_head_build_status": "Run #22 on current head 4cef120 is in progress; commit contains master-register documentation only. Run #21 already validated the current app code and metadata.",
+    "latest_combined_audit": {
+      "run_id": 41014771828,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "conclusion": "success",
+      "errors": [],
+      "all_steps_success": true,
+      "note": "Combined audit for Codes 02,03,28,29,30,31,32,33. Code 01 explicitly excluded."
+    },
+    "latest_integration_debug_build": {
+      "run_id": 41014223501,
+      "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+      "status": "in_progress_at_last_check",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014223501"
+    },
+    "latest_successful_debug_apk": {
+      "run_id": 41014771759,
+      "commit": "57198996bb867ade25684aee2a70a4f1c311118e",
+      "conclusion": "success",
+      "flutter_analyze": "success",
+      "combined_debug_apk": "success",
+      "artifact_id": 12959312490,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_size_bytes": 113037216,
+      "artifact_digest": "sha256:366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18",
+      "artifact_url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41014771759"
+    },
+    "latest_syllabus_commit_check": {
+      "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+      "combined_status": "no status entries returned at time of final snapshot",
+      "status": "not_yet_verified",
+      "note": "Firecrawl actions pages were unavailable because connected account credits were exhausted; no unsupported success claim is recorded."
+    }
+  },
+  "official_syllabus_sources": {
+    "gset_bulletin": "https://gujaratset.ac.in/assets/download/info-bulletin-gset-2025-1.4.pdf",
+    "hindu_studies": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+    "music": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+    "note": "GSET 2025 bulletin says non-science subject syllabi follow UGC-NET. GSET Code 28 and Code 30 PDFs were retrieved and used to register official syllabus units. Music PDF states Units I–IV common across streams and Units V–X stream-specific."
+  },
+  "next_tasks": [
+    "Physical Sciences: reconcile next source-accessible final-key session; Dec 2008 Q1-Q50, Aug 2017 Q1-Q50, Dec 2019 Q1-Q100, Sep 2016 Q1-Q50, Sep 2018 Q1-Q100, Nov 2022 Q1-Q100, Dec 2021 Q1-Q100, Nov 2023 Q1-Q100, Dec 2024 Q1-Q100 and Nov 2025 Q1-Q100 are complete. Current final-key total 850/1,300, 450 pending.",
+    "IKS Code 29: review remaining 182 provisional mappings; visually verify 183 records (Dec24 Q1-Q17,Q26-Q100; Nov25 91); determine Dec24 Q20 unit only if a defensible syllabus link emerges; Gujarati transcription pending.",
+    "Obtain original question-paper PDFs/pages or reliable visual source material for the outstanding question text/options review; no OCR-only promotion.",
+    "Physical Sciences: inspect unresolved option structures, source flags and 581 pending mappings against original official papers.",
+    "Chemical Sciences: correct July 2006 Q42 options only from official source; audit base 1,250 and Sep16 Paper-II overlay 50 separately; mapping pending.",
+    "Resolve Hindu Studies 40 content flags and 38 provisional mappings.",
+    "Music: source visual proofreading is complete 300/300; resolve 14 ambiguous and 124 provisional stream-specific syllabus mappings using verified stream evidence. Retain all 212 review flags; do not repeat question-text proofreading.",
+    "Performing Arts: review 200 source/text records and six bilingual discrepancies; mapping progress now 171 provisional and 129 pending.",
+    "Public Administration: visually review all 300 stems/options and resolve disputed Dec24 Q24/Q35 and Nov25 Q17; mappings now 22 manually reviewed and 278 provisional.",
+    "Visual Art: proofread 256 records, resolve 14 concerns; mappings are now fully assigned (22 manually reviewed, 278 provisional). Image-dependent suggestions remain provisional until source figures are inspected.",
+    "Forensic Science PR #20: visually review all 300 staged records, especially Q9 Nov23 and Q13 Dec24; do not merge without explicit permission."
+  ],
+  "data_integrity_check": {
+    "date": "2026-10-30",
+    "scope": "Integrated Paper-II question banks for Codes 28,29,30,31,32,33",
+    "result": "passed",
+    "per_subject": {
+      "28": 300,
+      "29": 300,
+      "30": 300,
+      "31": 300,
+      "32": 300,
+      "33": 300
+    },
+    "checks_passed": [
+      "300 records per subject",
+      "300 unique question IDs per subject; no duplicate IDs",
+      "three official session groups per subject, exactly 100 records each",
+      "question numbers 1-100 per session with no duplicate or out-of-range numbers",
+      "no missing English question stems",
+      "exactly four non-empty English options per record",
+      "answer values within supported A/B/C/D/Z/X set",
+      "stored answer and official_answer fields match for all records where official_answer exists",
+      "papers.json contains three corresponding paper manifests"
+    ],
+    "limitation": "This is a structural and internal-field consistency check, not a fresh comparison against original paper images or official final answer key pages. Physical/Chemical large files were not included in this six-bank parser pass."
+  },
+  "validator_changes": {
+    "commit": "4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f",
+    "changed_files": [
+      "tool/audit_combined_subject_banks.py",
+      "tool/validate_syllabus_mapping.py"
+    ],
+    "workflow_run": {
+      "id": 41014223484,
+      "workflow": "Combined subject bank audit",
+      "conclusion": "success",
+      "job_id": 123926769406,
+      "steps": {
+        "performing_arts_official_keys_and_app_audit": "success",
+        "explicit_syllabus_unit_mapping_validation": "success",
+        "combined_bank_integrity_and_language_audit": "success"
+      },
+      "errors": [],
+      "excluded_code_01": "not read or changed"
+    },
+    "fixes": [
+      "Added Hindu Studies Code 28 and Music Code 30 to the combined bank audit scope",
+      "Corrected Code 28 Nov 2025 bilingual-session detection",
+      "Treated numeric/symbol-only Gujarati answer options as valid rather than as missing Gujarati text",
+      "Separated source_verified record counts from independent review_flag counts",
+      "Counted provisional, ambiguous and manual_review_required mappings as not verified"
+    ],
+    "metric_results": {
+      "28": {
+        "total": 300,
+        "source_verified": 300,
+        "review_required": 40,
+        "mapping": {
+          "verified": 262,
+          "provisional": 38,
+          "pending": 0
+        },
+        "gujarati_source_fields_populated": 100,
+        "missing_tip_en": 300,
+        "missing_tip_gu": 300
+      },
+      "29": {
+        "total": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 109,
+          "pending": 191
+        }
+      },
+      "30": {
+        "total": 300,
+        "source_verified": 154,
+        "review_required": 212,
+        "mapping": {
+          "verified": 140,
+          "ambiguous": 14,
+          "provisional": 146,
+          "pending": 0
+        },
+        "gujarati_source_fields_populated": 300,
+        "gujarati_visually_proofread": 154,
+        "gujarati_visual_review_pending": 146,
+        "missing_tip_en": 300,
+        "missing_tip_gu": 300,
+        "latin_text_in_gujarati_options": 11
+      },
+      "31": {
+        "total": 300,
+        "source_verified": 94,
+        "review_required": 206,
+        "mapping": {
+          "verified": 0,
+          "provisional": 135,
+          "pending": 165
+        },
+        "missing_gujarati_source_transcription": 200,
+        "latin_text_in_gujarati_options": 16
+      },
+      "32": {
+        "total": 300,
+        "source_verified": 0,
+        "review_required": 300,
+        "mapping": {
+          "verified": 0,
+          "provisional": 164,
+          "pending": 136
+        }
+      },
+      "33": {
+        "total": 300,
+        "source_verified": 30,
+        "review_required": 270,
+        "mapping": {
+          "verified": 0,
+          "provisional": 138,
+          "pending": 162
+        }
+      }
+    },
+    "note": "The audit reports source_verified independently of review_flag; flagged content/mapping questions remain open even when their original source page was visually verified. Missing tip counters on Codes 28/30 are structural fields reported empty by the audit and need product-owner decision before adding explanations."
+  },
+  "option_schema_reconciliation": {
+    "physical_schema_counts": {
+      "total": 1300,
+      "options_en_array": 1215,
+      "options_object_A_to_D": 85,
+      "valid_after_normalization": 1087,
+      "invalid_after_normalization": 213,
+      "all_213_invalid_already_flagged": true
+    },
+    "chemical_schema_counts": {
+      "base_total": 1250,
+      "valid_after_normalization": 1249,
+      "invalid_after_normalization": 1,
+      "malformed_question_id": "chemical_jul06_q42",
+      "malformed_flag_added": true
+    }
+  },
+  "syllabus_catalog_updates": {
+    "commit": "6534a6a682ceefe58034cc81a4d78d1653f53d5e",
+    "file": "assets/subjects/syllabus_units.json",
+    "blob_sha": "af0724f93a3d9524d6906c8458a090e0050e7c66",
+    "updated_subjects": {
+      "29": {
+        "units": 10,
+        "source": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
+        "title_order": [
+          "Indian Philosophical Systems – Part (a)",
+          "Indian Philosophical Systems – Part (b)",
+          "Astronomy",
+          "Health and Well-being",
+          "Architecture",
+          "Mathematics",
+          "Chemistry and Metallurgy",
+          "Life Sciences, Agriculture and Ecology",
+          "Kala",
+          "Ancient India and World"
+        ]
+      },
+      "32": {
+        "units": 10,
+        "source": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+        "title_order": [
+          "Introduction to Public Administration and Principles of Organization; Personnel Administration",
+          "Administrative Thought",
+          "Indian Administration",
+          "State and Local Administration",
+          "Development Administration",
+          "Economic and Financial Administration",
+          "Social Welfare Administration",
+          "Public Policy",
+          "Governance and Good Governance",
+          "Research Methodology"
+        ]
+      }
+    },
+    "unchanged": {
+      "28": "Existing ten-unit catalogue retained.",
+      "30": "Existing ten-unit catalogue retained; Units V-X stream-specific.",
+      "31": "UGC-NET code 65 portal confirms subject identity but PDF retrieval failed; existing unit catalogue left unchanged pending full text verification.",
+      "33": "Existing ten-unit Visual Art catalogue was already aligned with official PDF; no update."
+    },
+    "question_level_unit_assignments_changed": false
+  },
+  "latest_recheck": {
+    "date": "2026-11-03",
+    "exact_audited_question_data_commit": "3830783effb66cf62379be43f6119d7d62f1d0c1",
+    "latest_documentation_head": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+    "combined_subject_bank_audit": {
+      "run_id": 41594284815,
+      "conclusion": "success",
+      "errors": []
+    },
+    "public_administration_validator": {
+      "run_id": 41594284715,
+      "conclusion": "success"
+    },
+    "debug_apk": {
+      "run_id": 41594322933,
+      "commit": "a1595221d04bc8776ceea4bb9f0b3db14b6bbb58",
+      "conclusion": "success",
+      "flutter_analyze": "success",
+      "flutter_widget_tests": "success",
+      "debug_apk_build": "success",
+      "artifact_upload": "success",
+      "artifact_id": 13211129479,
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_sha256": "1b8d45cead329d03a6c7d1a07110ef83ba7a69922d1f2b3659d7cac7fd07f124"
+    },
+    "unit_field_sync": {
+      "code28": {
+        "assigned": 300,
+        "null": 0,
+        "source": "existing syllabus_unit label",
+        "mapping_labels_preserved": "276 verified, 24 provisional"
+      },
+      "code29": {
+        "assigned": 298,
+        "null": 2,
+        "pending_ids": [
+          "GSET_29_DEC24_020",
+          "GSET_29_NOV25_015"
+        ],
+        "mapping_status": "298 provisional, 2 pending"
+      },
+      "code32": {
+        "assigned": 300,
+        "null": 0,
+        "previously_null_filled": 98,
+        "mapping_labels_preserved": "22 manually reviewed, 278 provisional"
+      },
+      "code33": {
+        "assigned": 300,
+        "null": 0,
+        "previously_null_filled": 147,
+        "mapping_labels_preserved": "22 manually reviewed, 278 provisional"
+      },
+      "code31": {
+        "assigned": 156,
+        "null": 144,
+        "source_review_pending": 200,
+        "bilingual_discrepancies": 6
+      },
+      "code30": {
+        "assigned": 300,
+        "null": 0,
+        "visual_proofread": 154,
+        "visual_pending": 146,
+        "ambiguous_mappings": 14
+      }
+    },
+    "source_visual_proofreads_in_this_batch": 0,
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "notes": [
+      "Structured unit fields in Codes 28, 29, 32 and 33 were synchronized from pre-existing syllabus labels; this is not source proofread or new expert mapping verification.",
+      "Code 29 Q20 and Q15 remain pending because the topic-to-unit fit was not reliably established from question text.",
+      "No question stems, options, answers, translations or review flags were altered in this synchronization batch."
+    ],
+    "source_visual_batch": {
+      "subject": "Music",
+      "paper_id": "music_nov25",
+      "questions_checked": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "visual_checked_count": 100,
+      "source_verified_promotions": 100,
+      "remaining_visual_checks": 0,
+      "commit": "be99ee33416ca6f105a80e1fae4fb4a044170286",
+      "note": "All November 2025 Music Paper-II questions 1-100 visually compared with the original bilingual official scan; all source-text fields verified. Review flags retained for mapping/content review."
+    }
+  },
+  "active_non_duplication_register": {
+    "refreshed": "2026-11-03",
+    "music": {
+      "visual_proofread": 254,
+      "visual_proofread_pending": 46,
+      "pending_session": "December 2024 only",
+      "november_2025_complete": 100,
+      "ambiguous_mappings": 14,
+      "provisional_mappings": 124,
+      "manual_reviewed_mappings": 162,
+      "answer_keys_visual_checked": "300/300",
+      "review_flags_active": 212,
+      "do_not_repeat": "November 2025 Music Q1-Q100 source-page visual proofreading; completed."
+    },
+    "other_subjects": {
+      "28": "24 provisional mappings; 40 review flags",
+      "29": "300 visual checks; 298 provisional mappings",
+      "31": "200 source reviews; 6 bilingual discrepancies; mappings review",
+      "32": "117/300 source-verified; 183 source checks pending; 278 provisional syllabus mappings; answer-key reconciliation Q96-100 (both papers), visual pending",
+      "33": "256 proofreading checks; 14 content concerns; 278 provisional mappings",
+      "02": "86 core-field checks; 374 review flags; syllabus mapping",
+      "03": "315 base + 1 overlay review flags; Q42 format source check; syllabus mapping"
+    },
+    "note": "Supersedes old Music pending-visual count 146; Music remaining visual checks apply only to Dec 2024. No PR merged; Code 01/Paper-I untouched."
+  },
+  "public_administration": {
+    "source_verified": 117,
+    "remaining_source_verification": 183,
+    "provisional_syllabus_mappings": 278,
+    "last_batch": {
+      "date": "2026-11-04",
+      "dec24_questions": "71-75",
+      "nov25_questions": "71-75",
+      "count": 10,
+      "verification": "official PDF visual + final key"
+    },
+    "last_answer_key_batch": {
+      "date": "2026-11-04",
+      "dec24_questions": "96-100",
+      "nov25_questions": "96-100",
+      "count": 10,
+      "verification": "official final key matched; original paper visual check pending"
+    }
+  },
+  "latest_execution_checkpoint": {
+    "date": "2026-11-06",
+    "branch": "integration/combined-subject-banks",
+    "scope": "Physical Sciences Code 02 October 2011 and October 2014 direct official final-key parity",
+    "verified_official_final_key_rows": 100,
+    "answer_key_reconciled_total": "950/1300",
+    "answer_key_pending": 350,
+    "canonical_answer_updates": 2,
+    "official_source_pdfs": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf"
+    ],
+    "ci_run": "pending",
+    "review_flags_total": 380,
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
+  },
+  "latest_iks_execution": {
+    "date": "2026-11-05",
+    "branch": "integration/combined-subject-banks",
+    "branch_head_before_register_finalization": "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee",
+    "question_bank_commits": [
+      "98ba316bcb4c5cc175cce053512395a9ff224d1b",
+      "8353bc9fc2f3519bb62edbd61caeebbc4425ef79"
+    ],
+    "papers_manifest_commits": [
+      "a94296543b93eea00bb849dab16d2ed61ace0967",
+      "c38b4ec5e4a49907556255d7e6eaa174e3ba47ee"
+    ],
+    "official_syllabus_pdf_retrieved": true,
+    "official_ikspaper_pdfs_retrieved": 3,
+    "page_images_sampled": "selected November 2023 pages only",
+    "full_visual_verified_questions": 0,
+    "structural_json_validation": "PASS",
+    "total_records": 300,
+    "unique_ids": 300,
+    "answer_official_field_mismatches": 0,
+    "mapping": {
+      "verified": 117,
+      "provisional": 182,
+      "pending": 1
+    },
+    "source_verified": 117,
+    "review_flags": 300,
+    "combined_audit": {
+      "run_id": 42023324889,
+      "conclusion": "failure",
+      "blocker": "Unrelated Code 31 GSET_31_NOV25_001: review_flag=true with source_verified=true"
+    },
+    "integration_debug_apk": {
+      "run_id": 42023324932,
+      "status": "in_progress"
+    },
+    "pr_merges": 0,
+    "answer_key_reconciliation": {
+      "officialFinalKeyRows": 300,
+      "matched": 300,
+      "mismatches": 0,
+      "source": "direct official GSET final answer-key PDFs",
+      "urls": [
+        "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf",
+        "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf",
+        "https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf"
+      ]
+    },
+    "visual_batch": {
+      "verifiedQuestionIds": [
+        "GSET_29_NOV25_020",
+        "GSET_29_NOV25_021",
+        "GSET_29_NOV25_022",
+        "GSET_29_NOV25_023"
+      ],
+      "count": 4,
+      "officialPaper": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2529.pdf",
+      "printedPage": 6
+    },
+    "code31_ci_repair": {
+      "audit_run": 42024597978,
+      "conclusion": "success",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978"
+    },
+    "remaining_visual_questions": 183,
+    "visual_batch_page6": {
+      "printedPage": 6,
+      "count": 4
+    },
+    "visual_batch_page8": {
+      "printedPage": 8,
+      "count": 5,
+      "verifiedQuestionIds": [
+        "GSET_29_NOV25_027",
+        "GSET_29_NOV25_028",
+        "GSET_29_NOV25_029",
+        "GSET_29_NOV25_030",
+        "GSET_29_NOV25_031"
+      ]
+    },
+    "visual_batches": {
+      "nov23_q1_24": 24,
+      "nov23_q34_93": 60,
+      "nov25_q20_23_q27_31": 9
+    },
+    "latest_structural_validation": "PASS",
+    "latest_combined_audit": {
+      "run_id": 42027901976,
+      "conclusion": "success",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901976"
+    },
+    "debug_apk": {
+      "run_id": 42027901968,
+      "status": "in_progress",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901968"
+    }
+  },
+  "code02_official_final_key_sidecars": {
+    "added_or_confirmed": [
+      "physical_nov22",
+      "physical_nov23",
+      "physical_dec24",
+      "physical_dec21",
+      "physical_sep18"
+    ],
+    "sidecar_question_count_each": 100,
+    "verification_scope": "official GSET final answer-key PDFs",
+    "question_bank_parity": "Direct official PDF parity completed: physical_oct11 (50/50), physical_oct14 (50/50), physical_dec08 (50/50), physical_aug17 (50/50), physical_dec19 (100/100), physical_sep16 (50/50), physical_sep18 (100/100), physical_dec21 (100/100), physical_nov22 (100/100), physical_nov23 (100/100), physical_dec24 (100/100), physical_nov25 (100/100).",
+    "note": "Official key sidecars added for Oct 2011 and Oct 2014. Direct PDF parity has been verified for these sessions; their one answer discrepancy each was corrected.",
+    "latest_commit": "7516842dbf505f7cc01af6618f3b05c242fc057b"
+  },
+  "code02_dec24_small_file_audit": {
+    "archive_records": 25,
+    "verified_addition_records": 21,
+    "english_stems_complete": true,
+    "english_options_four_and_nonempty": true,
+    "archive_review_flags": 2,
+    "verified_addition_review_flags": 0,
+    "syllabus_unit_candidates": {
+      "physical_dec24_q54-q58": "unit_5",
+      "physical_dec24_q81-q88": "unit_9",
+      "physical_dec24_q89": "unit_8",
+      "physical_dec24_q94-q100": "unit_8"
+    },
+    "candidate_status": "preliminary_only; not source-page visually reconfirmed and not propagated into canonical questions.json",
+    "canonical_question_bank_parity": "blocked by blank connector payload",
+    "latest_commit": "fc1720c9a51800c1a4eb0ae57ddf92d862f31013"
+  },
+  "code02_sep18_key_provenance_review": {
+    "date": "2026-11-06",
+    "records_answer_key_verified": [
+      39,
+      41,
+      58
+    ],
+    "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf",
+    "source_question_visual_review_pending": [
+      39,
+      41,
+      58
+    ],
+    "review_flags_retained": true,
+    "canonical_bank_parity": "pending; large questions.json payload blank in connector",
+    "ci": "not run",
+    "pr_merges": 0,
+    "latest_source_review_commit": "d1433d815bc6cdfae91c6624d9d5a96e23997ceb"
+  },
+  "code02_dec24_verified_additions_answer_parity": {
+    "date": "2026-11-06",
+    "record_count": 21,
+    "matches": 21,
+    "mismatches": 0,
+    "answer_updates": 0,
+    "scope": "standalone verified_additions file, not canonical questions.json",
+    "official_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+    "visual_proofread": "pending",
+    "ci": "not run",
+    "pr_merges": 0
+  },
+  "code02_dec24_archive_answer_parity": {
+    "date": "2026-11-06",
+    "record_count": 25,
+    "matches": 25,
+    "mismatches": 0,
+    "answer_updates": 0,
+    "review_flags_preserved": true,
+    "scope": "archive JSON only, not canonical questions.json",
+    "official_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+    "visual_figure_review_pending": [
+      "Q54",
+      "Q94"
+    ],
+    "ci": "not run",
+    "pr_merges": 0
+  },
+  "code02_answer_key_sidecar_integrity_audit": {
+    "date": "2026-11-06",
+    "event": "Physical Sciences Code 02 answer-key sidecar integrity audit for pending review/mapping papers",
+    "branch": "integration/combined-subject-banks",
+    "files": [
+      "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/nov22_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/nov23_official_final_answer_key.json",
+      "assets/subjects/physical_sciences/sept18_official_final_answer_key.json"
+    ],
+    "papers": [
+      {
+        "paper": "physical_dec21",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf"
+      },
+      {
+        "paper": "physical_nov22",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+      },
+      {
+        "paper": "physical_nov23",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf"
+      },
+      {
+        "paper": "physical_sep18",
+        "entries": 100,
+        "missing": 0,
+        "invalid": 0,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf"
+      }
+    ],
+    "totals": {
+      "keyEntries": 400,
+      "missingQuestionNumbers": 0,
+      "invalidAnswerValues": 0
+    },
+    "scope": "Structure/completeness audit of existing official-key sidecar JSON only; not comparison with question-bank records, not visual question-paper verification, not syllabus mapping.",
+    "result": "All four sidecars have keys Q1-Q100 and each answer value is one of A/B/C/D/Z. No sidecar corrections performed.",
+    "limitations": [
+      "Answer parity with canonical questions.json remains pending; oversized connector payload is blank.",
+      "Question visual review flags remain unresolved.",
+      "Official syllabus mapping work remains pending.",
+      "CI/build not run; no PR merged."
+    ],
+    "question_bank_parity": "pending",
+    "visual_review": "pending",
+    "syllabus_mapping": "pending",
+    "ci": "not run",
+    "pr_merges": 0
+  },
+  "code02_sep18_q32_q86_key_status_crosscheck": {
+    "date": "2026-11-06",
+    "official_final_key_answers": {
+      "Q32": "C",
+      "Q86": "Z"
+    },
+    "Q86_evaluation_status": "not_evaluated_official_final_key",
+    "source_review_sidecar_status_already_correct": true,
+    "source_verified": true,
+    "review_flag": false,
+    "canonical_bank_parity": "pending_connector_large_blob_unavailable",
+    "question_edits": 0,
+    "ci": "not run",
+    "pr_merges": 0
+  },
+  "code02_canonical_bank_answer_key_parity_batch": {
+    "date": "2026-11-06",
+    "branch": "integration/combined-subject-banks",
+    "canonical_file": "assets/subjects/physical_sciences/questions.json",
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "checked_papers": [
+      "physical_dec24",
+      "physical_nov22"
+    ],
+    "mismatches_corrected": 0,
+    "questions": [],
+    "answer_key_reconciled_count_before": 304,
+    "answer_key_reconciled_count_after": 404,
+    "answer_key_pending_count": 896,
+    "review_flags_retained": 376,
+    "syllabus_mapping_pending": 466,
+    "visual_review_promotions": 0,
+    "syllabus_mapping_promotions": 0,
+    "ci": "pending execution",
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false,
+    "reversed": true,
+    "reversal_reason": "The repository Dec 2024 and Nov 2022 official-key sidecars had transcription errors. Direct official PDF tables showed canonical answers were already correct; the 11 answer edits were reverted. Both sidecars have since been repaired from PDF values.",
+    "net_canonical_answer_updates": 0,
+    "direct_pdf_parity": {
+      "dec24": "100/100 exact; already counted in prior 304",
+      "nov22": "100/100 exact; adds 100 rows"
+    }
+  },
+  "code02_dec21_official_key_sidecar_repair": {
+    "date": "2026-11-06",
+    "sidecar": "assets/subjects/physical_sciences/dec21_official_final_answer_key.json",
+    "official_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf",
+    "corrected_q_numbers": [
+      93,
+      94,
+      95,
+      96,
+      98
+    ],
+    "canonical_bank_already_matches_official": true,
+    "canonical_answer_updates": 0,
+    "answer_key_reconciled_total": "315/1300",
+    "ci": "runs triggered on branch; current state pending",
+    "pr_merges": 0
+  },
+  "code02_canonical_answer_correction_reversal": {
+    "date": "2026-11-06",
+    "scope": "Dec 2024 Q36-Q43,Q47-Q48 and Nov 2022 Q62",
+    "official_sources": [
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf"
+    ],
+    "previous_edits_reversed": 11,
+    "corrected_answers": [
+      {
+        "id": "physical_dec24_q36",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q37",
+        "previous_current_answer": "D",
+        "official_pdf_answer": "D"
+      },
+      {
+        "id": "physical_dec24_q38",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q39",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q40",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q41",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_dec24_q42",
+        "previous_current_answer": "C",
+        "official_pdf_answer": "C"
+      },
+      {
+        "id": "physical_dec24_q43",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "id": "physical_dec24_q47",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      },
+      {
+        "id": "physical_dec24_q48",
+        "previous_current_answer": "A",
+        "official_pdf_answer": "A"
+      },
+      {
+        "id": "physical_nov22_q62",
+        "previous_current_answer": "B",
+        "official_pdf_answer": "B"
+      }
+    ],
+    "reason": "The previous answer changes disagreed with the official final answer-key PDF tables. Canonical answers restored to direct PDF values, which agree with the official key sidecars.",
+    "parity_checkpoint_adjustment": -11,
+    "visual_flags_cleared": 0,
+    "syllabus_mappings_verified": 0,
+    "pr_merges": 0,
+    "code01_changed": false,
+    "paper_i_changed": false
+  },
+  "latest_progress_list_refresh": {
+    "date": "2026-11-06",
+    "user_requested": true,
+    "branch": "integration/combined-subject-banks",
+    "code02_status": "user_confirmed_complete",
+    "code02_latest_historical_final_key_parity_tally": "950/1300",
+    "stale_metrics": [
+      "206 incomplete option records",
+      "466 syllabus mappings pending",
+      "380 review flags"
+    ],
+    "stale_metrics_policy": "Not active backlog; do not reopen without reconciled live state and user instruction.",
+    "combined_debug_apk": {
+      "workflow_run_number": 817,
+      "run_id": 42193491276,
+      "conclusion": "success",
+      "artifact_name": "gset-test-series-integration-debug-apk",
+      "artifact_id": 13491740585,
+      "size_bytes": 113166745,
+      "sha256": "04208494c52ef51724d802bb3b65312f58f46e559e29b3270677d60e73a5c537",
+      "expires_at": "2026-11-20",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42193491276"
+    },
+    "protected_files_untouched": [
+      "Code 01 Mathematical Sciences",
+      "Paper-I"
+    ],
+    "pr_merges": 0
+  },
+  "physical_sciences_app_qa_followup": {
+    "date": "2026-11-06",
+    "ui_commit": "7cf7b5a51f3d5bae621a232317b2f3f44f4925bb",
+    "record_count_label": "Loaded Questions",
+    "practice_count_label": "loaded questions",
+    "verified_badge": "still in progress; not certified from count alone",
+    "confirmed_defect": "December 2024 Question 1 screenshot shows instruction text and no options",
+    "question_data_patch": "pending official original paper source confirmation",
+    "apk_rebuild": "triggered by commit push; wait for completion",
+    "latest_debug_apk": {
+      "run_number": 837,
+      "run_id": 42196808593,
+      "conclusion": "success",
+      "artifact_id": 13493210817,
+      "size_bytes": 113170311,
+      "sha256": "9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7d",
+      "expires_at": "2026-11-20",
+      "url": "https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593"
+    },
+    "question1_status": "unresolved source correction; official final key answer C; screenshot confirms invalid instruction text/empty choices"
+  },
+  "physical_sciences_live_audit": {
+    "total": 1300,
+    "source_verified": 910,
+    "review_flags": 369,
+    "options_missing": 194,
+    "answer_key_verified": 304
+  },
+  "physical_sciences_fully_verified": false,
+  "physical_sciences_next_gate": "Continue official original PDF transcription/reconciliation; Dec 2019 current residual option defects 39 and review flags 49. Q07 formula option visual review is explicitly pending."
+}

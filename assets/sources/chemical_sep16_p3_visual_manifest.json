@@ -1,0 +1,46 @@
+{
+  "paper_id": "chemical_sep16_p3",
+  "exam": "September 2016",
+  "year": "2016",
+  "subject_code": "03",
+  "paper": "Chemical Sciences Paper-III",
+  "question_count": 75,
+  "marks": 150,
+  "not_evaluated_questions": [31],
+  "source_question_paper": {
+    "filename": "sept16p303 (1)(1).pdf",
+    "sha256": "727eebe36e25cc51b80dade0ceffa1495daec681b3f79932ab6c524a2a81a20e",
+    "official_url": "https://www.gujaratset.ac.in/assets/papers/paperIII/sept16/sept16p303.pdf"
+  },
+  "source_answer_key": {
+    "filename": "sept16p303(1).pdf",
+    "sha256": "d8ce80d1828bd612c673942e6c9f3b4c0d064aeff5e8ffddef42547721622223",
+    "official_url": "https://www.gujaratset.ac.in/assets/anskey/paperIII/sept16/sept1603.pdf",
+    "authoritative": true
+  },
+  "audit_scope": {
+    "pdf_pages_checked": "5-29",
+    "questions_checked": "1-75",
+    "visual_question_count": 17,
+    "result": "Full page-by-page visual audit completed; only questions listed below require an original visual asset."
+  },
+  "visual_questions": [
+    {"question_no": 17, "pdf_page": 9, "reason": "Multiple molecular structures in reversed-phase HPLC", "asset": "assets/images/chemical_sep16_q17.png"},
+    {"question_no": 46, "pdf_page": 17, "reason": "Ene reaction: product, reaction conditions, starting-material/synthon structures and structure-rich options", "asset": "assets/images/chemical_sep16_q46.png"},
+    {"question_no": 48, "pdf_page": 18, "reason": "Stereochemical reaction sequence with wedge/dash structures", "asset": "assets/images/chemical_sep16_q48.png"},
+    {"question_no": 49, "pdf_page": 18, "reason": "Epoxidation/asymmetric catalysis reaction with structure-rich options", "asset": "assets/images/chemical_sep16_q49.png"},
+    {"question_no": 50, "pdf_page": 19, "reason": "Fischer projections / stereoisomer comparison", "asset": "assets/images/chemical_sep16_q50.png"},
+    {"question_no": 51, "pdf_page": 20, "reason": "Bridged bicyclic structure and KMnO4 product choices", "asset": "assets/images/chemical_sep16_q51.png"},
+    {"question_no": 52, "pdf_page": 20, "reason": "Reaction scheme and reactive-intermediate structure options", "asset": "assets/images/chemical_sep16_q52.png"},
+    {"question_no": 54, "pdf_page": 21, "reason": "Molecular structure with stereochemical wedges/dashes for IUPAC naming", "asset": "assets/images/chemical_sep16_q54.png"},
+    {"question_no": 55, "pdf_page": 21, "reason": "Reaction scheme with multiple structural product options", "asset": "assets/images/chemical_sep16_q55.png"},
+    {"question_no": 56, "pdf_page": 22, "reason": "Concerted reaction with complex structure and stereochemical product options", "asset": "assets/images/chemical_sep16_q56.png"},
+    {"question_no": 58, "pdf_page": 23, "reason": "Reagent/catalyst to reaction-outcome matching table", "asset": "assets/images/chemical_sep16_q58.png"},
+    {"question_no": 59, "pdf_page": 24, "reason": "13C NMR/1H NMR signal-count question with molecular structure", "asset": "assets/images/chemical_sep16_q59.png"},
+    {"question_no": 60, "pdf_page": 24, "reason": "McLafferty rearrangement with two molecular structures", "asset": "assets/images/chemical_sep16_q60.png"},
+    {"question_no": 62, "pdf_page": 25, "reason": "Chemical reaction with complex starting structure and product structures", "asset": "assets/images/chemical_sep16_q62.png"},
+    {"question_no": 63, "pdf_page": 26, "reason": "Chemical conversion between stereochemical structures", "asset": "assets/images/chemical_sep16_q63.png"},
+    {"question_no": 66, "pdf_page": 27, "reason": "Fischer projection plus LiAlH4 reaction and stereochemical products", "asset": "assets/images/chemical_sep16_q66.png"},
+    {"question_no": 68, "pdf_page": 28, "reason": "Baker's yeast reaction with molecular/product structures", "asset": "assets/images/chemical_sep16_q68.png"}
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "source_policy": "Official GSET syllabus only. Question-level unit assignment stays pending until it has been made from actual content and checked against the official syllabus.",
+  "subjects": {
+    "physical_sciences": {
+      "code": "02",
+      "name_en": "Physical Sciences",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/02.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Mathematical Methods of Physics"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Classical Mechanics"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Electromagnetic Theory"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Quantum Mechanics"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Thermodynamic and Statistical Physics"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Electronics and Experimental Methods"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Atomic and Molecular Physics"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Condensed Matter Physics"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Nuclear and Particle Physics"
+        }
+      ]
+    },
+    "chemical_sciences": {
+      "code": "03",
+      "name_en": "Chemical Sciences",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/03.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Inorganic Chemistry"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Physical Chemistry"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Organic Chemistry"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Interdisciplinary Topics"
+        }
+      ]
+    },
+    "indian_knowledge_system": {
+      "code": "29",
+      "name_en": "Indian Knowledge System",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/29.pdf",
+      "official_syllabus_code": "103",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Indian Philosophical Systems – Part (a)"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Indian Philosophical Systems – Part (b)"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Astronomy"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Health and Well-being"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Architecture"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Mathematics"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Chemistry and Metallurgy"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Life Sciences, Agriculture and Ecology"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Kala"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Ancient India and World"
+        }
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings/order transcribed from the official GSET Code 29 syllabus PDF. Units 1–10 include Indian Philosophical Systems (a/b), Astronomy, Health and Well-being, Architecture, Mathematics, Chemistry and Metallurgy, Life Sciences/Agriculture/Ecology, Kala, and Ancient India and World."
+    },
+    "performing_art_dance_drama_theatre": {
+      "code": "31",
+      "name_en": "Performing Art - Dance/Drama/Theatre",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/31.pdf",
+      "official_syllabus_code": "65",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Cultural History of India",
+          "notes": ""
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Folk and Traditional Theatre Forms of India",
+          "notes": ""
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "The Natyasastra",
+          "notes": ""
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Art and Aesthetics",
+          "notes": ""
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Dance and Theatre forms of East and South Asian Countries",
+          "notes": ""
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Dance in Sanskrit Literature and Treatises / Drama and its theories: Indian and Western",
+          "notes": "Unit 6 differs by stream: Dance=Dance in Sanskrit Literature and Treatises; Drama/Theatre=Drama and its theories: Indian and Western."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Indian Classical Dance",
+          "notes": ""
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Indian Classical Dance in Independent India",
+          "notes": ""
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Dance Education, Pedagogy and Research",
+          "notes": ""
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "International dance and interactions",
+          "notes": ""
+        }
+      ]
+    },
+    "public_administration": {
+      "code": "32",
+      "name_en": "Public Administration",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/32.pdf",
+      "official_syllabus_code": "14",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Introduction to Public Administration and Principles of Organization; Personnel Administration"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Administrative Thought"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Indian Administration"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "State and Local Administration"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Development Administration"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Economic and Financial Administration"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Social Welfare Administration"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Public Policy"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Governance and Good Governance"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Research Methodology"
+        }
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings/order corrected against the official GSET Code 32 syllabus PDF (UGC-NET subject code 14). The official sequence has Unit IX Governance and Good Governance, and Unit X Research Methodology."
+    },
+    "visual_art": {
+      "code": "33",
+      "name_en": "Visual Art",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/33.pdf",
+      "syllabus_subject_code": "79",
+      "syllabus_source_note": "Official GSET PDF points to UGC-NET Visual Arts Code 79. Core Units I–X below are transcribed from the official PDF. Separate electives (Art History, Drawing and Painting, Applied Art, Printmaking, Sculpture) are not collapsed into core units.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Fundamentals of visual art: line, shape, form, space, colour, texture, tonal values, perspective, design; composition; 2D/3D representation; environmental, conceptual and perceptual aspects",
+          "name_gu": "દૃશ્યકળાનાં મૂળતત્ત્વો: રેખા, આકાર, સ્વરૂપ, અવકાશ, રંગ, સપાટી, ટોનલ મૂલ્યો, પરિપ્રેક્ષ્ય અને ડિઝાઇન; રચનાનાં સિદ્ધાંતો; દ્વિ-પરિમાણીય અને ત્રિ-પરિમાણીય અભિવ્યક્તિ; પર્યાવરણીય, વૈચારિક અને અનુભૂતિમૂલક પાસાં"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Forms of visual arts and their inter-relationship with performing art, cinema, literature and other creative expression",
+          "name_gu": "દૃશ્યકળાનાં વિવિધ સ્વરૂપો અને પ્રદર્શનકલા, સિનેમા, સાહિત્ય તથા અન્ય સર્જનાત્મક અભિવ્યક્તિઓ સાથેનો આંતરસંબંધ"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Traditional media, materials and techniques: carving, casting, pigments, printmaking, fresco, murals and miniature preparation",
+          "name_gu": "પરંપરાગત માધ્યમો, સામગ્રી અને તકનીકો: કોતરકામ, ઢાળકામ, રંગદ્રવ્યો, પ્રિન્ટમેકિંગ, ફ્રેસ્કો, ભીંતચિત્રો અને લઘુચિત્રોની તૈયારી"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Modern techniques and processes in contemporary visual practice: installation, multicolour print, computer-aided design, multimedia and digital technologies, trompe-l’oeil and hyperrealism",
+          "name_gu": "સમકાલીન દૃશ્યકળામાં આધુનિક તકનીકો અને પ્રક્રિયાઓ: ઇન્સ્ટોલેશન, બહુ-રંગી પ્રિન્ટ, કમ્પ્યુટર-સહાયિત ડિઝાઇન, મલ્ટીમિડિયા અને ડિજિટલ તકનીકો, ટ્રોમ્પ-લોઇલ અને અતિ-વાસ્તવવાદ"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Indian and Western aesthetics and art appreciation",
+          "name_gu": "ભારતીય અને પશ્ચિમી સૌંદર્યશાસ્ત્ર તથા કલાસ્વાદ"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Western art chronology from prehistory to post-modernism and major movements",
+          "name_gu": "પ્રાગૈતિહાસિક કાળથી ઉત્તર-આધુનિક કલા સુધીનો પશ્ચિમી કલાનો સમયક્રમ અને મુખ્ય કલાચળવળો"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Indian art chronology and developments from prehistory to the 19th century",
+          "name_gu": "પ્રાગૈતિહાસિક કાળથી 19મી સદી સુધીની ભારતીય કલાનો સમયક્રમ અને વિકાસ"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "20th–21st century Indian contemporary art, movements and exponents; advertising, design, visual communication, experimental expression and art education",
+          "name_gu": "20મી અને 21મી સદીની ભારતીય સમકાલીન કલા, ચળવળો અને અગ્રણી કલાકારો; જાહેરાત, ડિઝાઇન, દૃશ્ય સંચાર, પ્રયોગાત્મક અભિવ્યક્તિ અને કલા શિક્ષણ"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Art of the Far East, South-East Asia, Central Asia and the ancient Near East",
+          "name_gu": "દૂર પૂર્વ, દક્ષિણ-પૂર્વ એશિયા, મધ્ય એશિયા અને પ્રાચીન નજીકના પૂર્વની કલા"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Traditional community visual practices and contemporary transformations: folk, tribal and craft practices in India",
+          "name_gu": "પરંપરાગત સમુદાયોની દૃશ્યકળા અને તેના સમકાલીન પરિવર્તનો: ભારતમાં લોકકલા, આદિવાસી કલા અને હસ્તકલા"
+        }
+      ],
+      "mapping_policy": "Map a question to a core unit only when its actual tested content clearly fits the official unit text. If it belongs to a specialist elective or cannot be resolved, leave it unmapped/provisional pending confirmation of the candidate's elective."
+    },
+    "hindu_studies": {
+      "code": "28",
+      "name_en": "Hindu Studies",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/28.pdf",
+      "official_syllabus_code": "102",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Official GSET Code 28 syllabus PDF identifies Hindu Studies; the PDF title prints UGC-NET syllabus code 102. Ten units are transcribed from the GSET-hosted PDF. The unit mapping basis is the official GSET Code 28 syllabus.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Tattva Vimarsā"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Dharma, and Karma Vimarsā"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Punarjanma-Bandhan-Mokṣa Vimarsā"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Pramāṇa Siddhānta"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Vāda-Paramparā"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Applicability of Western Methods for Understanding Indian Texts"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Rāmāyaṇa"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Mahābhārata"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Sanskrit Parichaya"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Other Allied Topics"
+        }
+      ]
+    },
+    "music": {
+      "code": "30",
+      "name_en": "Music",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/30.pdf",
+      "official_syllabus_code": "30",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Official GSET Code 30 Music syllabus PDF. Units I–IV are common to all Music streams; Units V–X are stream-specific. The stream must be identified before assigning a question to Units V–X.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Technical Terms",
+          "notes": "Common to Hindustani (Vocal, Instrumental & Musicology), Karnataka, Percussion and Rabindra Sangeet."
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Folk Music",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Rasa and Aesthetics",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Research Methodology and Pedagogy, Avenues, Interdisciplinary Aspects and Modern Technology",
+          "notes": "Common to all four Music streams."
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Applied Theory",
+          "notes": "Stream-specific. Hindustani: Applied Theory; Karnataka: Applied Theory; Percussion: Applied Theory – Taal & Avanaddhavadya; Rabindra Sangeet: Applied Theory."
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "History / Historical Perspective of Music",
+          "notes": "Stream-specific. Titles and emphasis differ across Hindustani, Karnataka, Percussion and Rabindra Sangeet."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Compositional Forms and Their Evolution",
+          "notes": "Stream-specific; includes different forms by tradition and performance practice."
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Musical Instruments and Their Classification",
+          "notes": "Stream-specific instrument lists and techniques."
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Contribution of Composers, Performers, Scholars and Their Textual Traditions",
+          "notes": "Stream-specific lists and traditions."
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Gharana / Institutional System / Training / Propagation",
+          "notes": "Stream-specific. Titles include Hindustani Gharana and Institutional System; Karnataka Banis, Training, Education and Propagation; Percussion Gharanas and Institutional System; Rabindra Sangeet Gharana and Institutionalised System."
+        }
+      ]
+    },
+    "gujarati": {
+      "code": "06",
+      "name_en": "Gujarati",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "ગુજરાતી સાહિત્યનો ઇતિહાસ"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "ગુજરાતી વિવેચન"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "ભાષાવિજ્ઞાન"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "સાહિત્યિક સંશોધન"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "સાહિત્યસ્વરૂપો"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "ભારતીય કૃતિઓ"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "ગુજરાતી કૃતિઓ"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "વિશ્વસાહિત્ય : સિદ્ધાંત અને કૃતિઓ"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "સાહિત્ય અને આંતરવિદ્યાઓ"
+        }
+      ],
+      "status": "official_syllabus_unit_titles_registered_question_mapping_pending",
+      "source_note": "Unit titles copied from the uploaded official GSET Gujarati (06) syllabus-units file. The supplied file states question-to-unit mapping has not been done; no question mapping is marked verified."
+    },
+    "forensic_science": {
+      "code": "27",
+      "name_en": "Forensic Science",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Forensic Science: foundations, physical evidence and criminal investigation"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Scientific and instrumental methods"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Biological evidence, serology, DNA and wildlife forensics"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Forensic toxicology and chemical examination"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Firearms, ammunition, ballistics and tool marks"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Fire, arson, explosives and forensic photography"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Hair, fibres, trace materials and digital forensics"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Fingerprints, track marks, biometrics and voice analysis"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Questioned documents and handwriting examination"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Forensic medicine, death, injuries and human identification"
+        }
+      ],
+      "status": "official_gset_syllabus_registered_question_mapping_provisional",
+      "source_note": "Unit order and scope transcribed from the official GSET Code 27 syllabus PDF. 299 question-level matches are provisional content-to-syllabus candidates; one question remains unassigned for subject-expert review. These mappings do not alter source_verified, answer-key, or activation status."
+    },
+    "sanskrit": {
+      "code": "07",
+      "name_en": "Sanskrit",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/07.pdf",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Vedic Literature — General Introduction",
+          "name_gu": "वैदिक-साहित्य का सामान्य परिचय"
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Vedic Literature — Specific Study",
+          "name_gu": "वैदिक-साहित्य का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Philosophical Literature — General Introduction",
+          "name_gu": "दर्शन-साहित्य का सामान्य परिचय"
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Philosophical Literature — Specific Study",
+          "name_gu": "दर्शन-साहित्य का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Grammar and Linguistics — General Introduction",
+          "name_gu": "व्याकरण एवं भाषाविज्ञान — सामान्य परिचय"
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Grammar — Specific Study",
+          "name_gu": "व्याकरण का विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Sanskrit Literature, Poetics and Prosody — General Introduction",
+          "name_gu": "संस्कृत-साहित्य, काव्यशास्त्र एवं छन्दपरिचय — सामान्य परिचय"
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Sanskrit Literature, Poetics and Prosody — Specific Study",
+          "name_gu": "संस्कृत-साहित्य, काव्यशास्त्र एवं छन्दपरिचय — विशिष्ट अध्ययन"
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Puranic and Epic Literature, Dharmashastra and Epigraphy — General Introduction",
+          "name_gu": "पुराणेतिहास, धर्मशास्त्र एवं अभिलेखशास्त्र — सामान्य परिचय"
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Specific Study of Prescribed Texts",
+          "name_gu": "निर्धारित ग्रन्थों का विशिष्ट अध्ययन"
+        }
+      ],
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit headings transcribed from the official GSET Code 07 Sanskrit syllabus PDF, printed pages 1–6. The PDF separates general and specific study for Vedic literature, philosophy, grammar/linguistics, Sanskrit literature/poetics/prosody, and Puranic/Epic literature, Dharmashastra and epigraphy.",
+      "mapping_policy": "Assign a question only when its tested text/topic is explicitly named or clearly included in the official unit description. Keep uncertain OCR/transcription or broad cross-unit items pending."
+    }
+  }
+}

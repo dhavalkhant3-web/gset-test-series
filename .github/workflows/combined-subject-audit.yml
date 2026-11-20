@@ -1,0 +1,42 @@
+name: Combined subject bank audit
+
+on:
+  push:
+    branches:
+      - integration/combined-subject-banks
+    paths:
+      - 'assets/subjects/**'
+      - 'tool/audit_combined_subject_banks.py'
+      - 'tool/validate_syllabus_mapping.py'
+      - 'tools/validate_performing_arts.py'
+      - 'assets/json/performing_arts.json'
+      - '.github/workflows/combined-subject-audit.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'assets/subjects/**'
+      - 'tool/audit_combined_subject_banks.py'
+      - 'tool/validate_syllabus_mapping.py'
+      - 'tools/validate_performing_arts.py'
+      - 'assets/json/performing_arts.json'
+      - '.github/workflows/combined-subject-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Performing Arts official keys and app/audit synchronization
+        run: python tools/validate_performing_arts.py
+      - name: Validate explicit syllabus unit references and pending mapping state
+        run: python tool/validate_syllabus_mapping.py
+      - name: Audit question banks without promoting verification claims
+        run: python tool/audit_combined_subject_banks.py

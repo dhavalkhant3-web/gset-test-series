@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "subject_id": "history",
+  "subject_code": "08",
+  "name_en": "History",
+  "medium": "English & Gujarati",
+  "paper_pattern": {
+    "questions": 50,
+    "marks": 100,
+    "duration_minutes": 60
+  },
+  "papers": [
+    {
+      "paper_id": "history_sep2016",
+      "exam": "September 2016 (exam date 25 Sep 2016)",
+      "subject_code": "08",
+      "exam_date": "2016-09-25",
+      "question_count": 50,
+      "marks": 100,
+      "question_paper_file": "sept1608.pdf",
+      "questions_transcribed": 50,
+      "questions_loaded": 50,
+      "questions_count": 50,
+      "answer_key_entries": 50,
+      "answer_key_parsed": true,
+      "answer_key_verified": true,
+      "answer_key_question_parity_verified": true,
+      "question_source_verified": 50,
+      "source_verified": true,
+      "review_flags_remaining_count": 0,
+      "status": "source_verified_final_key_reconciled",
+      "review_note": "All 50 questions and four-option sets visually checked against the official question paper; all 50 answers match the official final/corrected key. Syllabus mappings: 48 verified, 0 provisional, 2 pending (Q46, Q48).",
+      "official_final_key_url": "https://www.gujaratset.ac.in/assets/anskey/paperII/sept16/sept1608.pdf",
+      "source_reference_status": "official_question_paper_and_final_corrected_answer_key_resolved_and_visually_checked",
+      "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1608.pdf",
+      "unit_mapping_verified_count": 48,
+      "unit_mapping_provisional_count": 0,
+      "unit_mapping_pending_count": 2,
+      "unit_mapping_status": "partially_mapped_official_syllabus",
+      "unit_mapping_status_note": "48 mappings verified; Q46 and Q48 remain pending with explicit rationale."
+    }
+  ]
+}

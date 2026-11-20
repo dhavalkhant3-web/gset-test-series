@@ -1,0 +1,1793 @@
+# GSET Test Series — Master Progress
+
+Updated: 2026-11-16
+
+## Protected rules
+- Continue the existing Android application; keep one combined APK.
+- Paper-I UI/functionality and all Code 01 Mathematical Sciences data remain untouched.
+- Never merge a PR without explicit user authorization. No PR was merged in this execution.
+- Do not overwrite question banks or mark OCR/AI output verified without source review.
+- Official GSET question papers, official syllabi and official FINAL answer keys are authoritative.
+- Paper-II and Paper-III remain separate.
+
+## Current branch checkpoint (historical head reference; refresh from GitHub before next edit)
+- `main`: `2108d34bd6fce149d02d0d5054946dd42dffc79e`
+- Physical Sciences bank recovery commit on 2026-11-06: `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`; subsequent commits synchronized the master/state/verification/change-history/subject registry/paper manifest registers.
+- PR #16 merge commit: `bedd33e6536e4eb35823049d62e1889c3f75e7a7`
+
+## Integrated question-bank checkpoint
+Registry/checkpoint total for Codes 02, 03, 28–33: **4,400 Paper-II records** (1,300 Physical + 1,300 Chemical + 300 each for Codes 28–33). This is a registry total; Physical/Chemical raw files were not exhaustively reparsed in this pass.
+
+| Code | Subject | Records | Source/text review | Official final-key status | Syllabus mapping | Review flags |
+|---|---|---:|---|---|---|---:|
+| 02 | Physical Sciences | 1,300 / 19 Paper-II sessions | 899 source_verified; 380 review flags; 206 incomplete English option structures (85 records use valid A-D object schema) | 950/1,300 answer rows reconciled; 350 pending | 834 provisional syllabus mappings; 466 unmapped/pending; 0 verified | 380 |
+| 03 | Chemical Sciences | 1,300 unique (1,250 base + 50 Sep 2016 Paper-II overlay) | 1,004 base + 50 overlay source_verified; 315 base + 1 overlay flags | Sep 2016 50-question supplement key check passed on PR commit; full archive not rechecked here | Pending | 314 |
+| 28 | Hindu Studies | 300 | 300 source-visual-reviewed recorded; Gujarati transcribed from source for 100 | 300/300 matches recorded | 276 verified, 24 provisional, 0 pending | 40 |
+| 29 | Indian Knowledge System | 300 | 0/300 source_verified; official PDFs located for all three sessions; only partial Nov 2023 page samples inspected | 300 answer/official_answer fields match internally; no fresh full key-table transcription in this pass | 1 syllabus mapping verified, 298 provisional, 1 pending | 300 |
+| 30 | Music | 300 | 300/300 English/Gujarati stems and four options/order visually proofread against official source scans; 0 text-proofreading items pending | 300/300 official final-key visual checks; 0 mismatches | 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific | 212 |
+| 31 | Performing Arts | 300 | 101/300 source-page question sets visually verified; 193 text/Gujarati source audits pending; 6 bilingual discrepancies retained | Current integrated final-key check not independently repeated in this register sync | 15 manually reviewed, 168 provisional, 117 pending; 0 officially verified | 206 |
+| 32 | Public Administration | 300 | 300 source/text records verified against official PDFs; 300/300 answer-key parity | 300/300 official final-key reconciliations recorded | 300 manually reviewed, 0 provisional, 0 pending | 300 |
+| 33 | Visual Art | 300 | 300/300 English stems/options visually source-proofread; 14 content/key concerns retained | 300/300 final-key reconciliation recorded; 14 expert concerns remain | 295 manually reviewed, 5 provisional, 0 pending/verified | 14 |
+
+**Important:** source-review, answer-key and syllabus-mapping states are separate gates. “Gujarati field populated” does not mean source-transcription proofread. Mapping totals above are from the current integrated question records, not PR description summaries.
+
+## Official syllabus catalogue correction
+- Added Code 28 Hindu Studies: 10 official GSET units from `https://gujaratset.ac.in/assets/syllabus/28.pdf`.
+- Added Code 30 Music: 10 official units from `https://gujaratset.ac.in/assets/syllabus/30.pdf`. Units I–IV are common; Units V–X are stream-specific, so stream must be identified before mapping.
+- No question-level syllabus assignments were changed by this catalogue registration.
+
+## Subject-specific highest-priority work
+- **02 Physical Sciences:** User confirmed the actual Code 02 work is complete. Do not reopen this subject based on stale counts. Register refresh reconciles latest official-key audit commits (through `ef5e294028e9bd6d2c6157753d78150b2f098104`) to 850/1,300 parity tally; 450 rows are outside the reconciled tally, but this is a historical audit metric—not a user-approved active backlog. The older 206 option / 466 mapping / 380 flag counts require actual-state reconciliation before reuse.
+- **03 Chemical:** audit base records and figure-dependent items; preserve Sep 2016 Q1–Q50 Paper-II overlay; complete official unit mapping.
+- **28 Hindu:** 14 additional mappings were verified against explicit topics in the official syllabus (Units 1, 2, 3, 6 and 10); 24 remain provisional. Resolve 40 remaining content/source flags, including Nov 2023 Q88 and Dec 2024 Q49.
+- **29 IKS:** visually verify 300 original-page questions; preserve all flags; mappings now 298 provisional + 2 pending (0 manually verified). The divergent PR branch has not been used to overwrite the integration bank.
+- **30 Music:** source-text visual proofreading is complete for all 300/300 records (Nov 2023 100/100, Dec 2024 100/100, Nov 2025 100/100). Completed the final 20 Dec 2024 checks (Q76–Q90 and Q96–Q100) on official printed pages 23–28 and 30–31 on 2026-11-03; repaired OCR-corrupted Gujarati in Q81, Q83, Q85, Q89 and Q90 and normalized Q79 English. No question-text visual checks remain. Resolve 12 Nov 2023 + 2 Dec 2024 ambiguous mappings and review 124 remaining stream-specific provisional mappings. 212 review flags remain active for separate mapping/content gates.
+- **31 Performing Arts:** resolve 6 bilingual discrepancies and inspect 200 pending text/transcription records; review 171 provisional + 129 pending mappings. 36 provisional content-based assignments were added on 2026-11-03; source visual-review counts remain unchanged.
+- **32 Public Administration:** all 300 stems/options visually checked against official source PDFs and answer letters reconciled with final keys. Mapping progress is 300 manually reviewed + 0 provisional + 0 pending, after reviewing the 40 remaining provisional entries and correcting research-methodology unit assignments to official Unit X (Research Methodology) and governance assignments to official Unit IX (Governance and Good Governance). All 300 content/review flags remain active.
+- **33 Visual Art:** proofread 256 records, resolve 14 flagged concerns, review 258 provisional + 0 pending mappings. 147 provisional content-based assignments were added on 2026-11-03; a further 47 clear Nov 2023 mappings and 99 direct Dec 2024 mappings, 70 direct Nov 2025 mappings and 29 direct Nov 2023 mappings (including both Nov 2023 figure sets) were manually reviewed on 2026-11-04. Original question visual proofread count remains unchanged. Image-dependent unit suggestions remain provisional because the embedded source figures were not inspected.
+
+## PR and branch safety
+- #16 merged.
+- #4, #10, #11, #12, #14, #15, #17, #18 and #19 remain open/unmerged.
+- #20 Code 27 is outside the present scope.
+- The inspected subject branches diverge from the current integration branch. Several contain materially different record fields and statuses; do not copy whole banks or perform blind cherry-picks.
+- PR #17 modifies Code 01 Mathematical Sciences files and is blocked by the user's HOLD rule.
+- PR #18 Music has the same 300 question IDs as integration but different Gujarati stems/options, provenance, review flags and verification fields. No wholesale adoption is safe.
+- PR #19 Hindu Studies question-bank blob matches the integrated question bank; current integration counts are 262 verified / 38 provisional and 40 flags, not the older PR description checkpoint.
+
+## CI and APK
+- Integration workflow run **#18** on commit `025dcce8a90ecfff3dd0ee14a256e8eca7b82131`: SUCCESS.
+- Flutter analyze: SUCCESS — log states “No issues found”.
+- Combined Android Debug APK: SUCCESS.
+- Artifact: `gset-test-series-integration-debug-apk`, ID `12957748495`, 113,034,941 bytes; ZIP SHA-256 `8cc0e47c8b31a0db91c4788c3c750ed62080dc9241ff0ceafeee08ee632811ed`.
+- [Open the successful build and download artifact](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41012595587).
+- Integration workflow runs #19, #20 and #21 for subsequent syllabus/verification/registry commits were still running at last check. Their final results must be rechecked.
+- `flutter test` was not run by the integration workflow. Current-head subject validators have not all been run together.
+
+## Files changed in this execution
+- Created: `PROJECT_STATE.json`, `MASTER_PROGRESS.md`, `VERIFICATION_LOG.json`, `CHANGE_HISTORY.md`.
+- Updated: `assets/subjects/syllabus_units.json` (added Code 28 and Code 30 official units).
+- Updated: `assets/subjects/music/verification_pending.json` (reconciled visual source-proofreading checkpoint to 300/300; 0 text-proofreading items pending).
+- Updated: `assets/subjects/subjects.json` (synchronized six subject progress summaries with current integration-bank counts).
+- Updated Music Code 30 question JSON only for source-supported Gujarati OCR corrections and a source wording normalization in Q79; all 300 Music records now have `source_verified=true`. No answer key fields were changed; all 212 review flags remain. No `lib/main.dart`, Paper-I code or Code 01 file was changed.
+
+## Remaining execution gates
+1. Recheck latest integration workflow runs #19–#21 and the workflow triggered by this register commit.
+2. Run `flutter test` and all available subject validators on the current integration head.
+3. Continue original PDF visual review and unit mappings using the subject-specific backlog above.
+4. Reconcile any PR changes file-by-file and only after source verification; never merge without explicit approval.
+
+
+## Data-integrity check — 2026-10-30
+Automated parsed-content checks were run against the current integration question JSON and papers.json for Codes 28–33. All six banks passed: 300 records each; 300 unique IDs each; three paper IDs with 100 records each; question numbers 1–100 without duplicate/out-of-range values; no empty English stem; four non-empty English options; valid answer token; no stored answer/official_answer mismatch; three matching paper manifests. This does not prove source transcription or official-key correctness. Physical/Chemical source JSON files were not part of this parsed-content pass.
+
+## Latest combined build
+- Run #21, commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`: SUCCESS; Flutter analyze and combined Debug APK build passed.
+- Artifact ID `12958701650`, size 113,036,152 bytes; ZIP SHA-256 `939f6caa269995f6babd4db89b14777b6f4d99927ee06a5c205097dbdfa059d8`.
+- Run #22 for current docs-only commit `4cef120441bdb8be9a525edea933b6a4d6926132` was in progress at last check.
+
+## Validator correction and current eight-subject audit — 2026-10-30
+- Commit `4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f` expanded the combined bank audit to Codes 28 Hindu Studies and 30 Music, corrected the Nov 2025 bilingual session detection, allowed numeric/symbol-only Gujarati options, separated `source_verified` from `review_flag`, and kept provisional/ambiguous/manual-review mappings unverified.
+- Combined audit run **#278**: PASS. Performing Arts official-key/app-audit validator, explicit syllabus mapping validator and combined bank audit all succeeded; `errors=[]`; Code 01 was not read or changed.
+- Current audit counts (300 each): Code28 source_verified 300, review_required40; Code29 0/300 source_verified, 300 review_required; Code30 154 source_verified, 212 review_required, Gujarati fields300 but visual proofreading154, pending146; Code31 94 source_verified, 206 review_required; Code32 0 source_verified, 300 review_required; Code33 30 source_verified, 270 review_required.
+- Code28 mappings: 262 verified / 38 provisional. Code29: 0 /109 /191 (verified/provisional/pending). Code30: 140 manually verified /14 ambiguous /146 provisional. Code31: 0 /135 /165. Code32: 0 /164 /136. Code33: 0 /138 /162.
+- Audit reported `tip_en` and `tip_gu` empty for all 300 Code28 and Code30 records. Do not fabricate tips; confirm whether this field is mandatory before adding generated text.
+- Gujarati option arrays may contain numerals/symbols; the checker no longer treats them as incomplete translations. The current report notes Latin text in some option arrays for Music (11) and Performing Arts (16), requiring targeted review only if those are true non-Gujarati words rather than valid names/notation.
+- Integration Debug APK run #25 on commit `4e7c6b5fe12bcbdbbd0f8d638994c902c702ff2f` was still running at last check. The last fully verified combined APK remains run #21, commit `4aa9cdb2c2488e7ca052674b53c9e4fd9700a66f`, artifact ID `12958701650`.
+
+## Physical/Chemical option-schema reconciliation — 2026-10-30
+- The Physical Sciences validator had a schema blind spot: 85 records use a valid `options: {A,B,C,D}` object, not an `options_en` list. These are now recognized as valid. Corrected audit: 1,087 valid option records and 213 unresolved option records. All 213 unresolved records were already `review_flag=true` and `source_verified=false`; no flagging or question text change was needed.
+- Physical Sciences current base bank: 1,300 unique records; 892 source_verified, 374 review_flagged, and union of source review-required = 430. Syllabus assignments: 719 declared but provisional/unverified, 581 with no unit.
+- Chemical Sciences: 1,250 unique base records plus 50 unique September 2016 Paper-II overlay records; no duplicate IDs between base and overlay. The separate Paper-III 75-record bank remains separate. Base has 1,004 source_verified and now 315 review flags; Sep16 Paper-II overlay has 50 source_verified and one flag (Q4; official key B retained). A single base record, July 2006 Q42, has `options_en` stored as a string; its text and answer C were retained and a review flag/note added. The original official-paper link is `https://gujaratset.ac.in/assets/papers/paperII/jy06/jy0603.pdf`; PDF fetch was unavailable in this pass, so manual transcription remains pending.
+- Chemical mapping: 540 base records without a declared unit; 710 declared assignments remain provisional/unverified.
+
+## Official syllabus catalogue corrections — latest commit
+- Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` corrected Code 29 IKS from a six-unit, incorrectly sequenced entry to the official ten-unit sequence: Indian Philosophical Systems I(a), I(b), Astronomy, Health and Well-being, Architecture, Mathematics, Chemistry and Metallurgy, Life Sciences/Agriculture/Ecology, Kala, Ancient India and World.
+- The same commit corrected Code 32 Public Administration to the official ten-unit sequence. Unit IX is Governance and Good Governance; Unit X is Research Methodology.
+- Code 33 Visual Art already has the ten official unit headings; retained unchanged.
+- Code 31 is mapped to UGC-NET subject code 65. The official UGC portal lists Performing Arts – Dance/Drama/Theatre, but the linked PDF could not be retrieved in this audit; its existing ten-unit entry was left unchanged pending complete source validation.
+- No question-level unit assignment was edited; future mapping review must be against the now-corrected official catalogue.
+
+## Latest completed CI / APK checkpoint
+- Combined bank audit #279 on commit `57198996bb867ade25684aee2a70a4f1c311118e`: PASS; all steps succeeded and errors array empty.
+- Integration Debug APK #27 on the same commit: PASS. Flutter analyze, Debug APK build and artifact upload all succeeded.
+- APK artifact ID `12959312490`, size 113,037,216 bytes, SHA-256 `366bdaa84706c5b612c427b2d0a5c7516c3835eea69789939499cede37181c18`.
+- Commit `6534a6a682ceefe58034cc81a4d78d1653f53d5e` adds only syllabus metadata. GitHub commit status endpoint did not yet return status entries; new run results are therefore unverified at this checkpoint.
+- Flutter test suite remains unavailable: repository has no `test/` directory and the integration build workflow does not run `flutter test`.
+
+
+## Latest repository recheck — 2026-10-30 12:00 IST
+- Verified live integration branch head: `b4efb8930e6f4cb980de8b56c14e026674c948ee` (`docs: record final syllabus and combined build checkpoint`). This is a documentation-only child of `6534a6a682ceefe58034cc81a4d78d1653f53d5e`; no question-bank content changed in this head commit.
+- Latest exact-head combined Android Debug APK run **41015488212**: SUCCESS on `b4efb8930e6f4cb980de8b56c14e026674c948ee`. Artifact `gset-test-series-integration-debug-apk`, ID `12959751782`, size 113,037,631 bytes (not expired at check time). [Build run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41015488212).
+- Latest combined subject-bank audit run **41015356504**: SUCCESS on parent `6534a6a682ceefe58034cc81a4d78d1653f53d5e`; all three audit steps succeeded. The current head is documentation-only after that audited commit, so no subject data or validator code changed between the audit and current head. [Audit run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41015356504).
+- The current combined APK workflow runs `flutter analyze` and `flutter build apk --debug`; it does not run `flutter test`. The repository still has no `test/` directory, so automated Flutter unit tests remain unavailable.
+- Open PRs were rechecked. PR #17 still targets Mathematical Sciences Code 01 and remains on HOLD; PRs #18 (Music), #19 (Hindu Studies), #20 (Forensic Science) and the other subject PRs remain unmerged. No PR was merged or copied into the integration bank in this recheck.
+- Music Code 30: the repository backlog still records 146 question records requiring original-paper visual proofreading (46 Dec 2024, 100 Nov 2025), 14 ambiguous mappings and 124 provisional stream-specific mappings. On 2026-11-03, 22 common-unit mappings were manually reviewed from question content against official Units I-IV; no source-page visual proof was performed. A Library search found the official final answer-key PDFs and a conversation-export PDF, but did not surface the three original question-paper PDFs as accessible files. Official GSET question-paper PDF URLs for Dec 2024 and Nov 2025 open as PDFs, but page screenshot retrieval timed out in this pass; therefore no new source-verification claim or question edit was made.
+- Next safe execution order remains: (1) obtain/inspect original official question-paper PDFs for the flagged records; (2) complete subject-wise visual proofreading without promoting OCR-only records; (3) finish mappings against the corrected official syllabi, including Music stream evidence; (4) rerun combined audit/build; (5) request explicit approval before any PR merge.
+
+
+## Execution checkpoint refresh — 2026-10-30 (supersedes older head/run references above)
+- Live integration branch head at refresh start: `e3d3a42030b87312df8958ca0a1016f807062005` (`audit(hindu-studies): verify syllabus mappings against official units`). The older `b4efb893...` checkpoint above is historical, not the current head.
+- On that exact head, the Combined subject bank audit run `41027466528`, Integration Debug APK run `41027466521`, and Public Administration bank validation run `41027466531` all completed with conclusion `success`.
+- Code 28 Hindu Studies mapping status after the latest mapping review: 276 verified, 24 provisional, 0 pending; 40 content/source review flags remain. This updates the older 262/38 mapping checkpoint above. The 14 newly verified question mappings are recorded in the commit; no question text, answers, Paper-I code, or Code 01 data were changed in that commit.
+- The successful CI results establish automated validator/build success only. They do not complete the outstanding original-PDF visual proofreading or subject-level review flags listed above.
+- PRs remain unmerged. In particular, Code 01 remains on HOLD. Do not merge any PR without explicit user approval.
+
+
+## Current execution checkpoint — 2026-10-31 (live branch recheck)
+- Verified live integration head before this register refresh: `62490790e5ef39a395f0034d4b351a673d52a9ab` (commit: `feat(music): add bilingual exam tips to 300 Paper-II questions`; parent `69ef1d3d7c0bbff250b42f902bde24d5ba594360`). This supersedes the older `e3d3a420...` and `b4efb893...` head references above.
+- Exact-head Combined subject bank audit run **41088721295**: SUCCESS; all validator steps completed; `errors=[]`. The report still emits paper-metadata mapping-status warnings for all three papers in Codes 28, 29, 30, 31, 32 and 33. These are warnings, not a clean metadata pass; reconcile the paper-level status strings with question-level mapping states without changing assignments.
+- Exact-head Integration Debug APK run **41088721107**: SUCCESS. Flutter analyze passed; `assembleDebug` passed; APK artifact uploaded: ID `12992539292`, 113,066,571 bytes, ZIP SHA-256 `57e92302134618394a57415b77429c4844c00d31c5925374697f7f49a773ab1e`. [Download artifact](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/41088721107).
+- Flutter tests remain **not run**; the integration workflow does not contain a `flutter test` step. Do not report tests as passed.
+- Latest audit counts (do not conflate source review with review flags): Code 02: 1,300 unique, 895 source_verified, 427 source-review-required union, 581 mappings pending, 719 declared but unverified; 210 invalid English-option structures detected by this audit. Code 03 base bank: 1,250 unique, 1,004 source_verified, 315 source-review-required, 540 mapping pending, 710 declared but unverified; the separate 50-question Sep 2016 Paper-II overlay remains part of the registered 1,300 total and was not included in this base-bank audit block. Codes 28–33 remain at the subject-level counts in the preceding audit table; current-head audit confirms 300 unique records each.
+- Current content backlog remains: Code 02 option/core-field/source review and mapping; Code 03 July 2006 Q42 malformed options plus full base/overlay reconciliation and mapping; Code 28 40 review flags; Code 29 300 visual checks and 298 provisional + 2 pending mappings; Code 30 46 remaining Dec 2024 visual checks; all 100 Nov 2025 questions source-proofread; 14 ambiguous + 124 stream-specific provisional mappings, 162 manually reviewed mappings (official answer-key visual check 300/300 remains recorded); Code 31 200 source/text reviews and 6 bilingual discrepancies, 171 provisional + 129 pending mappings; Code 32 300 source-text/options reviews, disputed Q24/Q35/Q17, 22 manually reviewed + 278 provisional + 0 pending mappings; Code 33 256 proofreading checks and 14 flagged concerns, 22 manually reviewed + 278 provisional + 0 pending mappings.
+- Code 27 Forensic Science PR #20 remains draft/open and unmerged; 300 staged records are not source-verified, Q9 Nov 2023 and Q13 Dec 2024 require manual visual review, and mappings remain provisional/pending.
+- No question-bank records were source-proofread in this checkpoint. No PR was merged. Code 01 and Paper-I remain untouched.
+- Next execution: retrieve original official question-paper PDFs, inspect source pages and correct only proven discrepancies; resolve paper-metadata warnings separately from question-level mapping assignments; add meaningful Flutter tests only when the app's existing testable contracts are identified; rerun audit/build after any data or code changes.
+
+
+## Paper-manifest status repair — 2026-10-31
+- Commit `99545b7f7923ad56afd752ed22961390823ffa8d` updates the paper-level `unit_mapping_status` in all eight in-scope `papers.json` manifests (Codes 02, 03, 28, 29, 30, 31, 32, 33): 55 paper entries total.
+- Standardized the paper-level status to `pending_official_syllabus_unit_mapping` and added a note explaining that at least one question-level mapping remains provisional, ambiguous, or unmapped.
+- Preserved every question-level unit value, per-question mapping status, source-review count, review flag, question text, answer, option, and source reference. No question JSON was edited.
+- Exact-commit Combined subject bank audit run **41163322599**: SUCCESS; `errors=[]`; all eight `paper_metadata_flags` arrays are now empty.
+- Exact-commit Public Administration validation run **41163322559**: SUCCESS.
+- Exact-commit APK run **41163322554**: Flutter analyze completed successfully; Debug APK build was still running at register update time. Record its final result/artifact when complete.
+
+
+## 2026-11-03 — Provisional syllabus mapping execution
+- Public Administration Code 32: 128 question-level mapping records were updated across November 2023, December 2024 and November 2025. Current bank totals are 22 manually reviewed mappings, 278 provisional mappings and 0 unmapped/pending. The original question-stem/options source review remains pending for all 300 records; all review flags were retained.
+- Indian Knowledge System Code 29: 189 question-level mappings were added across the three sessions. Current bank totals are 0 manually verified, 298 provisional mappings and 2 pending (Dec 2024 Q20, syllable “ga”; Nov 2025 Q15, Tamil “kiliccirai”). All 300 original-page visual checks and review flags remain pending.
+- Updated Code 29 and Code 32 subject-manifest mapping counts; updated Public Administration paper-manifest counts.
+- Combined bank audit run **41583643015** on commit `7df69a43b64739b615caea1e7838bee259144085`: SUCCESS. Public Administration validator run **41583643030**: queued at the latest status check. Exact-head Debug APK run **41583643012**: in progress; Flutter analyze was running, widget tests and APK build were still pending.
+- No question stems, options, answer keys, Gujarati transcription, source URLs, Paper-I UI or Code 01 records were changed. No PR was merged.
+
+
+## 2026-11-03 — Live execution checkpoint (provisional mapping only)
+- Current in-scope edits on the integration branch: Public Administration 28 previously-null unit fields filled provisionally (Unit I 7, III 11, V 1, VIII 7, X 2); Nov 2025 Q39 corrected provisionally to Unit IV (Panchayati Raj/73rd Amendment). Performing Arts 21 previously-null unit fields filled provisionally (Unit I 6, II 5, III 3, VI 6, VIII 1).
+- Current field-level count after edits: Public Administration has 98 question records with `unit_number=null` (all source/text flags still remain); Performing Arts has 144 records with `unit_number=null`. Mapping status and field presence are separate, so do not report status-label totals as filled fields. No source-verified status was promoted.
+- Public Administration exact-head validator and combined subject-bank audit passed on commit `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`. The combined Debug APK workflow `41590949177` was still building at the time of checkpoint; Flutter Analyze and widget tests were already successful. Confirm final workflow state/artifact before reporting.
+- Mapping commits: `e68195d5991cf9273111c99c8912f59ddd85a2f3`, `a9839ef83e7b05d6ef8ed25f4934832c07f3325c`, `005e79ee91d9d059c890433340e860c0da9354ec`. Change-history log commit: `b976e1c5ac55896400e041dcdcc1834a29186738`.
+- Remaining: source page reviews and original PDF transcription, pending units for both banks, and work on Physical Sciences, Chemical Sciences, Hindu Studies, IKS, Music, Visual Art. Code 01/Paper-I unchanged; no PR merged.
+
+
+## 2026-11-03 — Mapping registry count reconciliation
+- Registry now distinguishes question-level mapping status labels from populated `unit_number` fields for Codes 31 and 32. Public Administration: 22 manually reviewed + 180 provisional unit fields filled; 98 unit fields null. Performing Arts: 156 provisional unit fields filled; 144 unit fields null. Performing Arts null-field/status discrepancy: 27 null unit fields are labeled provisional and 117 are labeled pending; do not confuse the status label with an assigned unit value.
+- Subject manifest commit `9c425a8c85783c92faf83a15e40e23375a0918c5`; progress-log update commit follows. CI for the subsequent register/manifest commits should be checked at the latest branch HEAD.
+
+
+## 2026-11-03 — Unit-field completion batch (provisional sync)
+- Code 32 Public Administration: filled 98 previously-null `unit_number`/`unit_id` fields by synchronizing the pre-existing provisional `syllabus_unit` numeric values. All 300 records now have a unit field; 22 manually reviewed and 278 provisional mapping labels retained. Source-text review flags unchanged.
+- Code 33 Visual Art: filled 147 previously-null unit fields by synchronizing existing provisional `syllabus_unit` values. All 300 records now have unit_number; mapping labels remain 22 manually reviewed + 278 provisional. Original image-dependent mapping/text review remains open.
+- Code 29 IKS: filled 189 previously-null unit fields from existing provisional `syllabus_unit`; 298 provisional fields assigned, 2 remain null (Dec 2024 Q20 and Nov 2025 Q15). All source-page visual checks/review flags remain pending.
+- Code 28 Hindu Studies: populated 300 structured unit_number/unit_id fields from the existing `syllabus_unit` labels. Existing 276 verified + 24 provisional mapping labels and 40 review flags were preserved.
+- Commits: PA `5c70c23f90b441c370878d572ca8800bd7321a47`; Visual Art `4a6ec7deef5d630197a6c5403ceb0f58f7e193ab`; IKS `63472b71a6e28028104a781a7ac43286f05df8e8`; Hindu Studies `3091e2f9fd60bf97cc44f6708a3032eb7df2e0be`; subject manifest reconciliation `3830783effb66cf62379be43f6119d7d62f1d0c1`.
+- These are field synchronizations of already-present syllabus labels, not newly source-verified mapping decisions. No question stems, options, answer keys, translations, review flags, Paper-I or Code 01 changed. No PR merged.
+
+
+## 2026-11-03 — Verification register refresh
+- Combined subject bank audit run `41594284815` PASS on data commit `3830783effb66cf62379be43f6119d7d62f1d0c1`; Public Administration validator run `41594284715` PASS on the same data commit.
+- Debug APK workflow run `41594322933` PASS on documentation head `a1595221d04bc8776ceea4bb9f0b3db14b6bbb58`: Flutter Analyze, Widget Tests, combined Debug APK build, and artifact upload all passed. Artifact ID `13211129479`, SHA-256 `1b8d45cead329d03a6c7d1a07110ef83ba7a69922d1f2b3659d7cac7fd07f124`.
+- Refreshed `PROJECT_STATE.json` and `VERIFICATION_LOG.json` to record exact run IDs, data head, field-sync counts, and safety conditions. Commits: project state `35f2d9ccfadb21e7cbeb1e2a02caecceaf703eb1`; verification log `768f0347cacabf973a6fa5a66b370ec169b3fa9c`.
+- Original-PDF source proofreading completed during this batch: 0. All field synchronizations remain provisional as applicable; no question content/answers/translations or flags promoted; no PR merged; Code 01/Paper-I untouched.
+
+
+## 2026-11-03 — Music Code 30 source-page visual recheck
+- Commit `ebcc2a4fded8ab5fabb732f87470294bd506776c`: visually proofread Music November 2025 Q65–Q98 (printed pages 21–30) against the original bilingual paper. Corrected Gujarati transcription issues including Q85 option D (`ઠુમરી`), Q91 option B (`પ્રયોગમૂલક`), Q92 option D (`પંચગિક`), and Q97 option A (`ગ્રામ મૂર્ચ્છના જાતિ પદ્ધતિ`); Q87–Q90 Gujarati passage populated from the scan. Question-text source verification promoted for 34 records; review flags remain for mapping/content reconciliation.
+- All 100 November 2025 questions now have source-page visual comparison evidence; Music total visual proofread: 254/300; 46 remain (December 2024). Question-text source-verified count 254/300. Mapping counts unchanged: 162 manually reviewed, 14 ambiguous, 124 provisional.
+- Official final answer key checks remain 300/300. No PR merge; Code 01 and Paper-I untouched.
+
+
+## 2026-11-03 — Music Code 30 November 2025 paper fully source-proofread
+- Commit `be99ee33416ca6f105a80e1fae4fb4a044170286`: visually compared all 100 November 2025 Music Paper-II questions (printed pages 3–31) against the original official bilingual scan. English/Gujarati stems, four options, option order and Q87–Q90 Gujarati passage checked. Source-text `source_verified` is now 100/100 for this session; official final key remains separately checked 100/100.
+- Music total visual proofreading: 254/300 (November 2023: 100; December 2024: 54; November 2025: 100). Remaining 46 questions are all December 2024. Review flags are not cleared: mappings/content gates still show 162 manually reviewed, 14 ambiguous, 124 provisional. No PR merge; Code 01 and Paper-I untouched.
+
+
+## ACTIVE NON-DUPLICATION REGISTER — refreshed 2026-11-03
+Use this as the current actionable backlog. Historical mentions of larger counts (such as Music 146 visual checks) are superseded by this checkpoint and must not be repeated as current work.
+
+| Code | Subject | Remaining actionable work (current) |
+|---|---|---|
+| 02 | Physical Sciences | 86 core-field checks; 374 review flags; syllabus mapping; verify/repair options against source |
+| 03 | Chemical Sciences | 315 base + 1 overlay review flags; Q42 option format source check; syllabus mapping |
+| 28 | Hindu Studies | 24 provisional mappings; 40 review flags |
+| 29 | Indian Knowledge System | 300 original-PDF visual checks; 298 provisional mappings (2 unit-field assignments still pending) |
+| 30 | Music | **46 visual proofreading checks (all December 2024)**; 14 ambiguous mappings; 124 provisional stream-specific mappings. November 2025 Q1–Q100 source-page proofread complete; do not recheck these. Answer keys checked 300/300. |
+| 31 | Performing Arts | 200 source reviews; 6 bilingual discrepancies; mapping review |
+| 32 | Public Administration | 300 source checks; 278 provisional mappings |
+| 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
+
+Music checkpoint: 254/300 English/Gujarati stem+option visual proofreads; 46 remain, exclusively Dec 2024. 162 mappings manually reviewed, 14 ambiguous, 124 provisional. Keep all 212 review flags active until independent mapping/content reconciliation. 300/300 official final answer keys visually checked. Latest source-paper commit `be99ee33416ca6f105a80e1fae4fb4a044170286` records the completed Nov 2025 session. No PR merge; Code 01/Paper-I untouched.
+
+
+## ACTIVE NON-DUPLICATION REGISTER — 2026-11-03
+This current actionable register supersedes stale historical Music visual-proofread counts. Do not repeat November 2025 Music source-page checks: Q1–Q100 are complete.
+
+| Code | Subject | Remaining work |
+|---|---|---|
+| 02 | Physical Sciences | 86 core-field checks; 374 review flags; syllabus mapping |
+| 03 | Chemical Sciences | 315 base + 1 overlay review flags; Q42 option-format source check; syllabus mapping |
+| 28 | Hindu Studies | 24 provisional mappings; 40 review flags |
+| 29 | Indian Knowledge System | 300 original-PDF visual checks; 298 provisional mappings (2 unit assignments pending) |
+| 30 | Music | 46 visual checks (December 2024 only); 14 ambiguous mappings; 124 provisional stream-specific mappings. Nov 2025 Q1–Q100 source-page proofread complete. |
+| 31 | Performing Arts | 200 source reviews; 6 bilingual discrepancies; mapping review |
+| 32 | Public Administration | 300 source checks; 278 provisional mappings |
+| 33 | Visual Art | 256 proofreading checks; 14 content concerns; 278 provisional mappings |
+
+Music checkpoint: 254/300 visual stem+option proofreads complete; 46 remain (all Dec 2024); mappings 162 manually reviewed, 14 ambiguous, 124 provisional; official answer keys 300/300 checked; 212 review flags remain active until mapping/content reconciliation. Source-check completion commit: `be99ee33416ca6f105a80e1fae4fb4a044170286`. No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-03 — Music Dec 2024 OCR transcription repair batch (Q76, Q77, Q80)
+- Commit `21c3f7ff8f726e291c92b75ef1532ab323d86b03`: normalized Gujarati OCR punctuation/spacing for Q76, repaired Q77 OCR typo and stem structure, and reconstructed incomplete Gujarati option text for Q80 from the paired English option structure.
+- These are **OCR cleanup/reconstruction only**, not source-page visual proof. `source_verified` remains false and `review_flag` remains true for all three records; answer-key values remain C, D, A respectively and match the final key. The visual-proofread total is unchanged at 254/300; 46 Dec 2024 questions remain pending visual comparison. Do not count this batch as source-verified or visually completed.
+
+
+## 2026-11-03 — Music Dec 2024 Q81–Q85 final-answer-key reconciliation
+- Compared stored `answer` fields for Music December 2024 Q81–Q85 against the published final answer key: Q81 B, Q82 D, Q83 A, Q84 A, Q85 A. All five match (5/5; no mismatch).
+- This is an answer-key reconciliation only. Original-paper bilingual stem/option visual proofreading was not performed in this batch because the question-paper PDF page retrieval was unavailable. `source_verified` remains false and `review_flag` remains true for Q81–Q85; no question data or answers were edited and the visual-proofread count does not increase.
+- Next distinct work: source-page visual proofreading of Q81–Q85 when original-paper pages can be accessed. Answer-key source: GSET December 2024 Music final key as published with the Paper-II page.
+
+
+## 2026-11-03 — Music Dec 2024 Q86–Q90 final-answer-key reconciliation
+- Reconciled repository answer values for Music December 2024 Q86–Q90 against the published final answer key: Q86 A, Q87 C, Q88 C, Q89 A, Q90 A. All five match (5/5; no discrepancy).
+- Answer-key reconciliation only. Original question paper bilingual stems/options have not been visually proofread for this batch; `source_verified` remains false and `review_flag` remains true. No question records were modified and the visual proofread count remains unchanged.
+- Next source-proofreading batch remains Q86–Q90 when official paper page retrieval is available. Final answer key source: GSET December 2024 Music Paper-II.
+
+
+## 2026-11-04 — STOP-mode backlog reconciliation (live question-bank flags)
+- Live integration-bank recheck found **Music Code 30: 300/300 records have `source_verified=true`** and **Visual Art Code 33: 300/300 records have `source_verified=true`**. These live data states supersede older prose counts of 46 Music visual checks and 256 Visual Art proofreading checks in the earlier active register. Do not repeat those source-text proofreading tasks. This count is a repository field audit, not an independent re-review of the original scans in this checkpoint.
+- Music remaining: 14 `manual_review_required` syllabus mappings, 124 stream-specific provisional mappings, and 212 existing review flags remain open. Answer-key checked count is separately recorded as 300/300. Do not clear flags or change units without explicit syllabus/stream evidence.
+- Visual Art remaining: 14 review flags/concerns and 278 provisional syllabus mappings remain. All 300 source_verified fields are already set; stop repeating the source-text proofread.
+- Public Administration Code 32: 0/300 source_verified; all 300 source-text checks remain open. Its 22 manually reviewed + 278 provisional mappings are separate from source proofreading.
+- Indian Knowledge System Code 29: 0/300 source_verified; all 300 original-page checks remain open. Mapping status remains 298 provisional + 2 pending.
+- Hindu Studies Code 28: source_verified 300/300; stop source proofread. Keep 24 provisional mappings and 40 review flags as the active backlog.
+- Performing Arts Code 31 and Physical/Chemical Sciences Code 02/03 remain on the existing source-review and mapping backlog. Do not mark progress without the original official paper/key/syllabus evidence.
+- No question bank, answer, translation, mapping, review flag, Paper-I UI, or Code 01 data was changed by this reconciliation. No PR merged. This note is a register-only update.
+
+
+## 2026-11-04 — Hindu Studies Code 28 mapping review batch
+- Compared the 16 provisional Buddhist-tradition question mappings (across Nov 2023, Dec 2024, Nov 2025) with the official GSET Code 28 syllabus, Unit I. Unit I explicitly includes Bauddha-darśana traditions (official syllabus PDF, page 1).
+- Upgraded these 16 mapping records to `manually_reviewed_official_syllabus`, retaining their Unit I assignments and adding a bounded evidence note. This confirms broad syllabus coverage, not that each named Buddhist text/term is enumerated verbatim.
+- Hindu Studies mapping counts after this batch: 276 `verified_official_syllabus_mapping` (existing), 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`. The remaining 8 provisional cases are not forced into verified status.
+- All 40 existing Hindu Studies review flags remain active; no flags were cleared. Question content, options, answers, translations, Paper-I and Code 01 were untouched. No PR merged.
+- Commit: `f2aedeb5cfbb63a3dc33dc99b13e88bebb3cd950`.
+
+
+## 2026-11-04 — Hindu Studies Code 28 focused closeout pass
+- Selected Hindu Studies as the single focused subject for this execution.
+- Re-audited live `assets/subjects/hindu_studies/questions.json`: 300/300 records have `source_verified=true`; all 40 retained `review_flag=true` records also show source verification. Existing records preserve official answer-key checks in their review notes. This is source-field/review-note reconciliation, not a fresh 300-question scan in this pass.
+- Current mapping status counts from the live bank: 276 `verified_official_syllabus_mapping`, 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`. Thus the older “24 provisional mappings” backlog phrasing is stale; only 8 mappings still explicitly carry provisional status, while 16 are already manually reviewed. Do not repeat the 16 manual adjudications.
+- The 40 active review flags are retained for specific unresolved issues (e.g. syllabus scope not explicit, questionable printed spelling, or answer/key discrepancy). Do not clear them automatically. In particular Dec 2024 Q49 has a documented apparent source/key mismatch: official answer A retained, discrepancy remains expert review; Nov 2023 Q88 has option/form ambiguity on scan; Nov 2025 Q62 printed spelling flagged. These are not to be silently edited.
+- Focused closeout is **partial, not complete**: source verification is already populated; 8 provisional mappings and 40 flagged records remain as evidence-dependent review items. No question/answer/translation/mapping status/flag was changed in this pass. Only this progress register was reconciled; no PR merge, Code 01/Paper-I untouched.
+
+
+## 2026-11-04 — Hindu Studies Code 28 live-data audit (STOP-mode / no duplicate work)
+- Re-read current `assets/subjects/hindu_studies/questions.json` on integration branch. Actual live counts: 300 total; `source_verified=true` 300; mapping statuses: 276 `verified_official_syllabus_mapping`, 16 `manually_reviewed_official_syllabus`, 8 `provisional_official_syllabus_mapping`; review flags 40.
+- The prior active-register summary “24 provisional mappings” is stale against the live JSON status distribution. Reconcile to **8 provisional status records**. The 16 manually-reviewed statuses are a distinct bucket, not counted as verified.
+- Read the registered official GSET syllabus units from `assets/subjects/syllabus_units.json` (Code 28 Units I–X) and inspected all 8 provisional records. The notes explain why these remain uncertain (exact ritual/topic not explicitly itemized in the syllabus). No promotions/demotions are justified without the complete syllabus subtopic evidence and specialist review; review flags preserved.
+- The 40 flagged questions include pre-existing source/content checks. They are not automatically mapping failures. No source-text review repeated; all 300 are already source_verified.
+- This is a factual live-register correction only. No question data, mapping status, unit label, answers, translations, review flags, Code 01/Paper-I, or PR merge changed. Commit records only the audit and updated count; remaining substantive review is blocked on source-evidence/specialist decision, not assumed complete.
+
+
+## Public Administration Code 32 — structural checkpoint (2026-11-04)
+- Live integration bank audited: 300 unique question records (100 each for November 2023, December 2024 and November 2025).
+- Internal field integrity: 0 blank English stems, 0 invalid four-option sets, 0 stored `answer` vs `official_answer` disagreements.
+- Source review is **not complete**: `source_verified=true` remains 0/300 and 300 review flags remain. Gujarati stem/options arrays are empty as the official medium is English; no translations were invented.
+- Mapping checkpoint: 22 manually reviewed; 278 provisional. Targeted source concerns still open: Dec 2024 Q24/Q35 and Nov 2025 Q17.
+- This is an internal JSON integrity audit only, not a visual source-PDF verification. No question data or verification status was changed.
+
+
+## Public Administration Code 32 — source proofread tranche (2026-11-04)
+- Official GSET source visual proofread and final-key reconciliation completed for 3 target items: Dec 2024 Q24 (printed p.6; key D), Dec 2024 Q35 (printed p.7; key C), Nov 2025 Q17 (printed p.5; key D). Question stems and all four options match the official pages; each stored answer letter matches the official final key.
+- These 3 records now carry `source_verified=true` and the source PDF/key filenames, while mapping review flags remain retained.
+- Public Administration source-verified count: 3/300. Whole-paper review is still pending (297 records remain), and 278 provisional syllabus mappings remain unresolved. No question text, options, answers or mappings were rewritten.
+
+
+## Public Administration Code 32 — source proofread tranche 2 (2026-11-04)
+- Visually checked 16 December 2024 questions (Q8–Q23) and 18 November 2025 questions (Q7–Q16, Q18–Q25) against the official Paper-II PDF pages; stems and all four options match the repository records.
+- Reconciled every stored answer and official_answer against the official final answer key. No answer discrepancies found in this tranche.
+- Additional source-verified records: 34. Public Administration total source-verified: 37/300; remaining: 263. Provisional syllabus mapping count remains 278; mappings and existing review flags were not changed.
+- No question text, options, answers, translations, Paper-I, Code 01 or PR merge changed.
+
+
+## Public Administration Code 32 — source proofread tranche 3 (2026-11-04)
+- Visually matched Dec 2024 Q36–Q40 and Nov 2025 Q36–Q40 (10 total) against official GSET Paper-II source PDF page images; stems and all four options match.
+- Reconciled all 10 stored answer and official_answer letters against official final answer keys; all match.
+- Running source-verified total: 47/300; pending 253. Provisional syllabus mappings remain 278; mapping values and review flags retained.
+- No question text, options, answer values, translations, Paper-I, Code 01, or PR merge changed.
+
+
+## Public Administration Code 32 — source proofread tranche 4 (2026-11-04)
+- Visually matched Dec 2024 Q41–Q46 and Nov 2025 Q41–Q46 (12 items) against official GSET Paper-II source PDF page images; all stems/options match live bank.
+- Reconciled stored answers and official_answer against the final answer keys; all 12 letters match.
+- Running source verified: 59/300; pending 241. Provisional mappings 278 unchanged; existing flags remain.
+- No question content/answers/translations/mapping values altered. Code 01/Paper-I untouched; no PR merged.
+
+
+## Public Administration Code 32 — source proofread tranche 5 (2026-11-04)
+- Visually matched Dec 2024 Q47–Q50 and Nov 2025 Q47–Q50 (8 questions) against official GSET Paper-II page images; stems/options match.
+- Final answer-key reconciliation completed for all 8; stored answer and official_answer letters match.
+- Running source verified 67/300; 233 pending. Provisional syllabus mappings 278 unchanged. Existing review flags retained; no answer/content/mapping changed.
+
+
+## Public Administration Code 32 — source proofread tranche 6 (2026-11-04)
+- Visually matched Dec 2024 Q51–Q54 and Nov 2025 Q51–Q54 (8 questions) against official GSET Paper-II page images; stems and four options match.
+- Reconciled stored answer/official_answer with final answer key; all 8 match.
+- Running source verified 75/300; 225 pending. Provisional syllabus mappings 278 unchanged; existing review flags retained. No answer or question text altered.
+
+
+## Public Administration Code 32 — source proofread tranche 7 (2026-11-04)
+- Visually matched Dec 2024 Q55–Q60 and Nov 2025 Q55–Q60 (12 questions) against official GSET Paper-II source PDF page images; stems and all four options match the repository records.
+- Reconciled stored answer and official_answer letters for all 12 against the official final answer keys; all match.
+- Running source-verified total: 87/300; pending 213. Provisional syllabus mappings remain 278; mapping values and review flags retained.
+- No question text, options, answers, translations, Paper-I, Code 01 or PR merge changed.
+
+
+## Public Administration Code 32 — source proofread tranche 8 (2026-11-04)
+- Visually matched Dec 2024 Q61–Q65 and Nov 2025 Q61–Q65 (10 questions) against official GSET Paper-II PDF page images; stems and all four options match repository records.
+- Reconciled stored answer and official_answer letters for all 10 against final answer keys; all match.
+- Running source-verified total: 97/300; pending 203. Provisional syllabus mappings remain 278; existing review flags retained.
+- No question text, options, answers, translations, Paper-I, Code 01 or PR merge changed.
+
+
+## Public Administration Code 32 — source proofread tranche 9 (2026-11-04)
+- Visually matched Dec 2024 Q66–Q70 and Nov 2025 Q66–Q70 (10 questions) against official GSET Paper-II PDF page images; stems and four options match repository records.
+- Reconciled stored answer and official_answer letters against final answer keys; all 10 match.
+- Running source-verified total: 107/300; pending 193. Provisional syllabus mappings remain 278; existing review flags retained.
+- No question text, options, answers, translations, Paper-I, Code 01 or PR merge changed.
+
+
+## Public Administration Code 32 — source proofread tranche 10 (2026-11-04)
+- Visually matched Dec 2024 Q71–Q75 and Nov 2025 Q71–Q75 (10 questions) against official GSET Paper-II PDF page images; all stems and four options match repository records.
+- Reconciled stored answers and official_answer against official final answer keys; all 10 letters match.
+- Running source-verified total: 117/300; pending 183. Provisional syllabus mappings remain 278; existing review flags and mapping values retained.
+- No question text, options, answer values, Gujarati fields, syllabus mapping values, Paper-I, or Code 01 changed. No PR merged.
+
+
+## Public Administration Code 32 — official final answer-key reconciliation (2026-11-04; visual check pending)
+- Checked Dec 2024 Q76–Q80 and Nov 2025 Q76–Q80 against official GSET final answer key PDFs; all 10 stored answer and official_answer letters match.
+- Question paper stem/options page-image visual review remains pending. These 10 records were NOT promoted to source_verified; running visual source verification remains 117/300, 183 pending.
+- Review flags and provisional syllabus mappings retained. Paper-I and Code 01 untouched; no PR merged.
+
+
+## Public Administration Code 32 — official final answer-key reconciliation batch 12 (2026-11-04; visual pending)
+- Reconciled Dec 2024 Q81–Q85 and Nov 2025 Q81–Q85 against official GSET final answer keys; all 10 stored answer letters match.
+- Original question-paper page-image check remains pending; source verification remains 117/300 (183 pending). Existing review flags and provisional syllabus mappings retained.
+- Paper-I and Code 01 unchanged; no PR merge.
+
+
+## Public Administration Code 32 — final answer-key reconciliation batch 13 (2026-11-04; visual pending)
+- Dec 2024 Q86–Q90 and Nov 2025 Q86–Q90: all 10 stored answers match official GSET final answer keys.
+- Question paper visual check pending; source verified total remains 117/300 (183 pending). Provisional mappings and review flags unchanged.
+- Paper-I/Code 01 untouched; no PR merge.
+
+
+## Public Administration Code 32 — final answer-key reconciliation batch 14 (Q91–Q95; visual pending; 2026-11-04)
+- Dec 2024 Q91–Q95 and Nov 2025 Q91–Q95: reconciled all 10 stored answer letters against the official GSET final answer keys; all match.
+- Original question-paper stem/four-option visual review is pending; source-verified count remains 117/300 (183 pending). Existing review flags and 278 provisional mappings retained.
+- Paper-I and Code 01 untouched; no PR merged.
+
+
+## Public Administration Code 32 — final answer-key reconciliation batch 15 (Q96–Q100; visual pending; 2026-11-04)
+- Dec 2024 Q96–Q100 and Nov 2025 Q96–Q100: reconciled all 10 stored answer letters against official GSET final answer keys; all match.
+- Original question-paper stem/four-option visual review remains pending; source-verified total remains 117/300 (183 pending). Existing review flags and 278 provisional mappings retained.
+- Paper-I and Code 01 untouched; no PR merged.
+
+
+## Music Code 30 — source-proofreading register reconciliation (2026-11-04)
+- Cross-checked integrated `assets/subjects/music/questions.json` (blob `a861a94b9e067c50a1774898c6086c14c62c5996`): all 300 records carry `source_verified=true`.
+- Cross-checked `assets/subjects/music/verification_pending.json` (blob `146cd9b5da0474cad21066c03d2715857a693563`): original-paper bilingual visual proofread complete Nov 2023 100/100, Dec 2024 100/100 and Nov 2025 100/100; Gujarati fields 300/300; official final answer-key visual checks 300/300, zero mismatches.
+- Corrected stale Project State counts 254/300 and 46 pending. Music question-text proofreading is complete; active gates remain 14 ambiguous mappings, 124 provisional stream-specific mappings and 212 retained review flags (mapping/content review).
+- Do not repeat completed Music visual batches. No question bank content changed; no PR merge; Code 01 and Paper-I untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 11 (2026-11-04)
+- Visually matched Dec 2024 Q76–Q80 (official paper printed pages 12–13) and Nov 2025 Q76–Q80 (printed page 13) against official GSET Paper-II PDF page images; all stems and four options/order match the integrated records.
+- Reconciled stored answer/official_answer for all 10 questions against the official final keys; all answer letters match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 127/300; 173 pending. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 12 (2026-11-04)
+- Visually matched Dec 2024 Q81–Q85 (printed page 13) and Nov 2025 Q81–Q85 (printed pages 13–14) against official GSET Paper-II PDF page images; all stems and four options/order match the integrated records.
+- Reconciled stored answer/official_answer for all 10 questions against official final keys; all match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 137/300; 163 pending. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 13 (2026-11-04)
+- Visually matched Dec 2024 Q86–Q90 (printed page 14) and Nov 2025 Q86–Q90 (printed page 14) against official GSET Paper-II PDF page images; all stems and four options/order match the integrated records.
+- Reconciled stored answer/official_answer for all 10 questions against official final keys; all match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 147/300; 153 pending. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 14 (2026-11-04)
+- Visually matched Dec 2024 Q91–Q95 (printed pages 14–15) and Nov 2025 Q91–Q95 (printed pages 14–15) against official GSET Paper-II PDF page images; all stems and four options/order match the integrated records.
+- Reconciled stored answer/official_answer for all 10 questions against official final keys; all match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 157/300; 143 pending. Session totals at this tranche: Dec24 78/100, Nov25 79/100, Nov23 0/100. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 15 (2026-11-04)
+- Visually matched Dec 2024 Q96–Q100 and Nov 2025 Q96–Q100 (printed page 15 in each official GSET Paper-II PDF) against the integrated records; all stems and four options/order match.
+- Reconciled stored answer/official_answer for all 10 questions against official final keys; all match. Promoted only these 10 records to `source_verified=true`; review flags and provisional mappings remain active.
+- Running source-verified total: 167/300; 133 pending. Exact session counts from the live JSON: Nov23 0/100, Dec24 83/100, Nov25 84/100. Mapping counts remain 22 manually reviewed, 278 provisional.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranches 16–17 (2026-11-04)
+- Tranche 16: Visually matched Dec 2024 Q1–Q7 and Nov 2025 Q1–Q6 against official GSET Paper-II printed page 3; 13 stems/options/order match and 13 stored answers match final keys.
+- Tranche 17: Visually matched Dec 2024 Q25–Q30 and Nov 2025 Q26–Q32 against official GSET Paper-II printed page 6; 13 stems/options/order match and 13 stored answers match final keys.
+- Running source-verified total: 193/300; 107 pending. Exact session counts: Nov23 0/100, Dec24 96/100, Nov25 97/100. Mapping remains 22 manually reviewed, 278 provisional; review flags retained.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — source proofread tranche 18 (2026-11-04)
+- Visually matched Dec 2024 Q31–Q34 and Nov 2025 Q33–Q35 against official GSET Paper-II printed page 7; all seven stems and four options/order match the integrated records.
+- Reconciled all seven stored answers against official final answer keys; 7/7 match. Promoted only these seven records to `source_verified=true`; review flags and provisional mappings retained.
+- Running source-verified total: 200/300; 100 pending. Nov23 0/100; Dec24 100/100; Nov25 100/100. Dec24 and Nov25 source text/options visual audit complete; November 2023 original paper remains the entire source-proofreading backlog.
+- Mapping counts remain 22 manually reviewed, 278 provisional; review flags remain active. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — November 2023 full source visual proofread completion (2026-11-04)
+- Visually compared all Nov 2023 Q1–Q100 English stems and four options/order against the official GSET Paper-II PDF across printed pages 1–22 (English source section); recorded source verification by 10-question batches: Q1–10, 11–20, 21–30, 31–40, 41–50, 51–60, 61–70, 71–80, 81–90, 91–100.
+- Final integrated bank audit: 300 records total; `source_verified=true` on 300/300 across Nov23 100/100, Dec24 100/100, Nov25 100/100. All 300 `answer` values equal their stored `official_answer` values (0 mismatches). This is a consistency check against already-recorded official-key reconciliation, not a new independent answer-key PDF extraction.
+- Paper manifests updated for all three sessions: question text/options source audit complete; answer-key reconciliation recorded complete. Subject registry and Project State synced.
+- All 300 `review_flag` values remain true because separate mapping/content concerns are still open: 22 manually reviewed unit assignments, 278 provisional; disputes Nov23 none separately newly resolved, Dec24 Q24/Q35 and Nov25 Q17 retained. Flags were not cleared.
+- No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — validator synchronization and CI checkpoint (2026-11-04)
+- Source-text visual audit remains complete 300/300 across all three sessions; stored `answer`/`official_answer` parity is 300/300; 300 review flags retained; mapping counts remain 22 manually reviewed and 278 provisional.
+- Initial Public Administration validator runs failed because `tools/validate_public_administration.py` still hardcoded the prior policy that source-review manifests and subject metadata must remain false. This contradicted the newly complete question-level audit; no question-bank data errors were reported by that failing check.
+- Updated validator to derive source completion from question-level `source_verified` counts and verify that subject/paper manifests and `source_reviewed_question_count` match. It still checks all 300 stored answer keys against the validator's official-key arrays and explicitly states it does not inspect PDF bytes itself.
+- Combined subject bank audit run #436 on paper-manifest commit `d0820161743f239527bd1c9a58205e9c52dadcc6`: SUCCESS. Public Administration validator run #609 and Integration Debug APK run #348 on validator commit `62714248c391781f8e5c2cd7660256fa993c4208`: queued at checkpoint; awaiting completion.
+- No PR merged; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 1 (2026-11-04)
+- Manually reviewed Nov 2023 Q23–Q32 against the official Code 32 syllabus PDF (https://gujaratset.ac.in/assets/syllabus/32.pdf), Unit headings and their stated scope.
+- Confirmed/adjusted mappings: Q23→II (Simon/Admin Thought); Q24→VI (Estimates Committee/parliamentary financial control); Q25→I (merit recruitment/personnel); Q26→VIII (Dror/Mega-Meta policy); Q27→I (civil-service recruitment/personnel reform); Q28→II (Taylor); Q29→IV (municipal corporations/urban governance); Q30→II (Kautilya); Q31→X (probability sampling); Q32→III (Article 263/Union-State relations).
+- Mapping status totals now 32 manually reviewed, 268 provisional, 0 pending. These 32 are manual-review labels, not `verified` status. All 300 content/review flags retained; no flags cleared and no question text/answer/options changed in this mapping batch.
+- Updated per-paper mapping counts in `papers.json`, subject registry and Project State. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 2 (2026-11-04)
+- Manually reviewed Nov 2023 Q33–Q42 against the official Code 32 syllabus PDF. Confirmed or corrected: Q33→VIII (Dror/public policy); Q34→II (Weber); Q35→IX (Citizen's Charter); Q36→V (SDGs); Q37→V (comparative administrative system closest fit); Q38→VIII (Thomas Dye/public policy); Q39/Q40→X (statistical hypothesis/experimental research); Q41→IV (Chief Secretary/state-local administration); Q42→VII (social welfare schemes).
+- Mapping totals: 295 manually reviewed, 5 provisional, 0 pending. These remain manually reviewed—not verified. All 300 review flags retained; no source stems/options/answers changed in this mapping batch.
+- Updated papers.json, subjects.json and Project State. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 3 (2026-11-04)
+- Manually reviewed Nov 2023 Q43–Q52 against official Code 32 syllabus: Q43 McGregor→II; Q44 open organizational model→I; Q45 performance budget→VI; Q46 Riggs Agraria→V; Q47 Simon decision-making→II; Q48 budgetary process→VI; Q49 policy sciences barriers→VIII; Q50 Riggs society classification critics→V; Q51 development administration→V; Q52 Great Britain comparative administration→V (closest comparative scope).
+- Mapping totals now 52 manually reviewed, 248 provisional, 0 pending. All 300 review flags remain active; no question content or answer fields changed.
+- Updated paper manifests, subject registry and Project State. No PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 4 (2026-11-04)
+- Manually reviewed Nov 2023 Q53–Q62 against official Code 32 syllabus: Q53/Q54→I personnel/organization; Q55→IX governance; Q56→VI public finance/fiscal federalism; Q57→V comparative admin; Q58→IX Rule of Law; Q59–Q61→X research methods/hypothesis; Q62→VIII public policy.
+- Mapping totals now 62 manually reviewed, 238 provisional, 0 pending. No unit mapping counted as verified; all 300 review flags remain active.
+- Updated question-level unit fields/notes, papers.json, subjects.json and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 5 (2026-11-04)
+- Manually reviewed Nov 2023 Q63–Q72 against official Code 32 syllabus: Q63→X measurement; Q64→IV DRDA/district administration; Q65→VIII public policy; Q66/Q69/Q70→II administrative thought; Q67→III Indian administrative history; Q68→V Riggs; Q71→III Indian authorities; Q72→VI tax/banking/disinvestment committees.
+- Mapping totals now 72 manually reviewed, 228 provisional, 0 pending. None promoted to verified; all 300 review flags remain active.
+- Updated question-level unit fields/notes, paper/subject manifests and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 6 (2026-11-04)
+- Manually reviewed Nov 2023 Q73–Q82 against official Code 32 syllabus: Q73→VI fiscal/monetary policy; Q74→VIII policy authors/books; Q75→VII welfare schemes; Q76/Q77→III Indian administration/civil service hierarchy and legislation; Q78→X research; Q79→VI budgetary process; Q80/Q82→VIII policy process; Q81→IV district/local administration.
+- Mapping totals now 82 manually reviewed, 218 provisional, 0 pending. All 300 review flags retained; no mapping status counted as verified.
+- Updated question-level unit fields, per-paper mapping counts, subject registry and Project State. No source text/answer/option changes; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 7 (2026-11-04)
+- Manually reviewed Nov 2023 Q83–Q92 against official Code 32 syllabus: Q83→IV rural development/local programmes; Q84→X sampling; Q85→VII social welfare programmes; Q86→V Riggs; Q87→II bureaucracy/admin thought; Q88→VI disinvestment; Q89→I position classification/personnel; Q90–Q92→VII social welfare organizations/programmes.
+- Mapping totals now 92 manually reviewed, 208 provisional, 0 pending. No mapping marked verified; all 300 review flags retained.
+- Updated question unit fields/notes, paper/subject manifests and Project State. No question text/options/answer edits; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 8 (2026-11-04)
+- Manually reviewed Nov 2023 Q93–Q100 against official Code 32 syllabus: Q93–Q95→VII Social Welfare Administration (globalization, voluntary organizations, service delivery); Q96–Q100→IX Governance and Good Governance (public sector governance, Rule of Law, governance process, citizen preferences, legitimate governance).
+- Nov 2023 mapping audit is now complete 100/100 manually reviewed against the official syllabus. Overall mapping counts: 100 manually reviewed, 200 provisional (Dec24 and Nov25), 0 pending/verified. All 300 content/review flags remain active.
+- Updated paper manifests, subject registry and Project State. No question content/answer fields changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 9 (2026-11-04)
+- Manually reviewed Dec 2024 Q1–Q10 and Nov 2025 Q1–Q10 against official Code 32 syllabus. Unit assignments cover Administrative Thought/New Public Service, organization/personnel principles, Public Choice/Governance, NPM, globalization/development, public policy, and constitutional framework.
+- Overall mapping totals now 120 manually reviewed, 180 provisional, 0 pending. Session breakdown: Nov23 100 manual/0 provisional; Dec24 10 manual/90 provisional; Nov25 10 manual/90 provisional. All 300 review flags retained; no unit mappings marked verified.
+- Updated per-question unit fields/notes and paper/subject manifests plus Project State. No stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 10 (2026-11-04)
+- Manually reviewed Dec 2024 Q11–Q20 and Nov 2025 Q11–Q20 against official Code 32 syllabus. Confirmed classical/Human Relations/Behavioralism, New Public Service, Taylor/Fayol/Urwick, Weber bureaucracy and personnel/organization topics. Dec24 Q13→I closed/open organization theory; Q15→I Politics–Administration Dichotomy; Nov25 Q17→II Kautilya's Oriental thought; Nov25 Q16→II Fayol classical thought.
+- Mapping totals now 140 manually reviewed, 160 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 20/80, Nov25 20/80. All 300 review flags retained; no mapping counted verified.
+- Updated question-level mapping fields/notes, papers/subjects registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 11 (2026-11-04)
+- Manually reviewed Dec 2024 Q21–Q30 and Nov 2025 Q21–Q30 against official Code 32 syllabus. Key adjustments: Dec24 Q24 Mission Karmayogi→III capacity building; Q29 regulatory authority→III; Nov25 Q21 parliamentary committee→VI; Q22 GST Council→VI; Q26 regulator→III; Q28 Bengal partition→III; Q29 Kautilya monarchy→II.
+- Mapping totals now 160 manually reviewed, 140 provisional, 0 pending. Session counts: Nov23 100/0, Dec24 30/70, Nov25 30/70. All 300 review flags retained; no unit mapping promoted to verified.
+- Updated per-question mapping fields/notes and subject/paper manifests, Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 12 (2026-11-04)
+- Manually reviewed Dec 2024 Q31–Q40 and Nov 2025 Q31–Q40 against official Code 32 syllabus. Corrected Dec24 Q40 Parkinson's organizational growth→I; Nov25 Q31 Inter-State Council→III. Confirmed writs/parliamentary procedure/committees→III/VI, local/district administration→IV, parastatal/public enterprises→VI, police/constitutional topics→III.
+- Mapping totals now 180 manually reviewed, 120 provisional, 0 pending. Session counts Nov23 100/0, Dec24 40/60, Nov25 40/60. All 300 review flags retained; no mapping promoted to verified.
+- Updated question-level unit fields, per-paper manifests, subject registry and Project State. No question stems/options/answers changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 13 (2026-11-04)
+- Manually reviewed Dec 2024 Q41–Q50 and Nov 2025 Q41–Q50 against official Code 32 syllabus. Dec24 civil-service origins/classification/training/recruitment Q41–Q46→I; Shadow Cabinet→III; bureaucracy typologies→II; Riggs diffracted society→V. Nov25 Heady/Riggs/Weidner/comparative and development topics→V; CSR→VI; PPP→V; social audit→V.
+- Mapping totals now 240 manually reviewed, 60 provisional, 0 pending/verified. Session counts Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained; no mapping promoted to verified.
+- Tranche 14: manually reviewed Dec24 Q61–Q70 and Nov25 Q61–Q70 against the official Code 32 syllabus. Updated question-level unit fields/notes, paper/subject manifests and Project State. No question text/options/answer changes; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — tranche 14 metadata reconciliation (2026-11-04)
+- Actual integrated question JSON confirms 240 manually reviewed syllabus mappings (Nov23 100, Dec24 70, Nov25 70), 60 provisional and 0 pending; source/text verification is 300/300 and 300 review flags remain active.
+- Synchronized the summary table, paper manifest, subject registry, Project State, verification log and change history. CI status for the newest metadata commit has not been confirmed; no PR merged, Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 — official syllabus mapping review tranche 15 (2026-11-04)
+- Manually reviewed December 2024 Q71–Q80 and November 2025 Q71–Q80 against the official GSET Code 32 syllabus. The questions primarily cover Unit VIII Public Policy/Policy Sciences, with specific matches to Unit III Indian Administration, Unit VII Social Welfare Administration and Unit II Administrative Thought.
+- Mapping totals now 260 manually reviewed, 40 provisional, 0 pending/verified. Session counts: Nov23 100/0, Dec24 80/20, Nov25 80/20. All 300 review flags retained; no mapping promoted to verified.
+- Updated question-level unit fields/notes, paper manifest, subject registry and Project State. No question stems/options/answers or source verification fields changed; no PR merge; Code 01/Paper-I untouched.
+
+
+## Public Administration Code 32 mapping batch — 2026-11-04
+- Reviewed the remaining 40 provisional question-level mappings (December 2024 Q81–Q100; November 2025 Q81–Q100) against the official Code 32 unit catalogue.
+- Corrected research-methodology entries to official Unit X and governance/e-governance entries to official Unit IX; the earlier bank records were using stale unit positions after the catalogue sequence correction.
+- Updated only syllabus mapping metadata (`syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, `syllabus_mapping_note`). No stems, options, answers, Gujarati fields, images, source references, or review flags changed.
+- Code 32 checkpoint: 300/300 manually reviewed; 0 provisional; 0 pending. All 300 review flags remain active independently.
+- Question-bank update commit: `31bc3f9710481db05ff1e3116b15b86eddb45c8d`; progress-state synchronization commit: `974afd62c42dca1f88f1dd3da57e2e56cd898d39`.
+
+
+## Visual Art Code 33 mapping batch — 2026-11-04
+- Manually reviewed 20 clear Nov 2023 question-to-unit assignments against the registered official Code 33 unit headings (printmaking/material techniques, cinema, color fundamentals, visual communication/design, Indian monuments, and Western chronology).
+- Updated only syllabus mapping metadata. Left less-certain architectural/thematic questions and image-dependent mappings provisional; did not infer from unseen figures.
+- Code 33 mapping checkpoint: 42 manually reviewed, 258 provisional, 0 pending. Text proofread backlog (256) and 14 content concerns are unchanged.
+- Question-bank metadata commit: `9d850340f268911f1caa8f3ac951a3b610531363`; state sync commit: `d181a1118f6496d10453164b700a7a8c6c5b391b`.
+
+
+## Visual Art Code 33 mapping batch 2 — 2026-11-04
+- Manually reviewed another 27 direct-content mappings from Nov 2023 Q64–Q90 against official Code 33 units (cinema/animation, design/logos, Indian and Western art history, aesthetics, sculpture methods, printmaking/materials, composition and typography).
+- Image-specific questions and less-direct cases remain provisional; no image interpretation was inferred.
+- Code 33 mapping checkpoint now 69 manually reviewed, 231 provisional, 0 pending. Source-proofreading backlog (256) and 14 content flags unchanged.
+- Question-bank metadata commit: `17c69e758e48bb4e89096401c5547630d763456`; state sync commit: `ed78580b3bf4ec181e761811972bf076d4ebeabf`.
+
+
+## Visual Art Code 33 mapping batch 3 — 2026-11-04
+- Manually reviewed 19 direct Dec 2024 question-to-unit matches: color fundamentals, sculpture media/techniques, digital drawing tools, aesthetics, Western art/movement chronology, Indian temple chronology, and visual communication typography.
+- Code 33 checkpoint now 88 manually reviewed, 212 provisional, 0 pending. No question text, options, answer keys, Gujarati text or source citations changed. Source proofreading backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `40fd20f613d851bbd3a0bcd24d5888b7c7028832`; state sync commit: `43f770e193704f6ea14b75d0064810c696ac3eba`.
+
+
+## Visual Art Code 33 mapping batch 4 — 2026-11-04
+- Manually reviewed 21 direct Dec 2024 mappings: modern Western movements/artists, Kushana sculpture, Indian contemporary art groups, printmaking, painting technique, advertising and typography.
+- Image-led Dec 2024 Q91–Q100 remain provisional until original figures are visually inspected.
+- Code 33 mapping checkpoint: 109 manually reviewed, 191 provisional, 0 pending. Source text proofreading backlog (256) and 14 content concerns remain unchanged.
+- Bank metadata commit: `7caa7cadd9433d4850b6b9fafcd58dcd1d8fc71d`; state sync commit: `a1a9df752b5260691bba5e8c14f81f0050d1f54e`.
+
+
+## Visual Art Code 33 mapping batch 5 — 2026-11-04
+- Reviewed 18 direct Dec 2024 match/chronology questions (Indian contemporary sculptors, Western sculptures, advertising insertions, animation, Indian temples, art books/groups, artist-work matches, sculpture tools/materials, designer-brand links, monuments and art chronology).
+- Dec 2024 Q54 marketing-sequence topic was left provisional as not a direct clear core-unit match; figure-based questions remain provisional.
+- Code 33 mapping checkpoint: 127 manually reviewed, 173 provisional, 0 pending. Source text proofread count/backlog and 14 content concerns unchanged.
+- Bank metadata commit: `50c92f570abc3aa3e3addc1ceaa08c30289b9a81`; state sync commit: `3843cd022b84e37d532c6acdebf274ec08122dec`.
+
+
+## Visual Art Code 33 mapping batch 6 — 2026-11-04
+- Manually reviewed 59 direct Nov 2025 mappings across traditional media/processes, visual fundamentals, Indian/Western aesthetics, Western art chronology, Indian art chronology, contemporary Indian art, Far East/ancient Near East, and folk/tribal art.
+- Items with ambiguous syllabus fit or needing original figure inspection were left provisional. No text/options/answer-key/translation/source citation or content flags changed.
+- Code 33 mapping checkpoint: 186 manually reviewed, 114 provisional, 0 pending. Source text proofread backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `97a3dda302c719d95c26053fa7809756960464d3`; state sync commit: `2c0b512b1f1c917ec6000ebf3098442f4d833fe5`.
+
+
+## Visual Art Code 33 mapping batch 7 — 2026-11-04
+- Manually reviewed 18 direct Nov 2023 matches: Western artist/history, casting and printmaking processes/tools, animation chronology, aesthetics/art theory, Indian art-history texts, contemporary Indian artists/installation and printmakers.
+- Left the broad international public-sculpture chronology, architecture/concrete construction and ambiguous sequence questions provisional. No question text/options/answers/translation/source citations or review flags changed.
+- Code 33 mapping checkpoint: 232 manually reviewed, 68 provisional, 0 pending. Source text proofreading backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `2d72569bdb7d548bce528021405b98e88c1965b6`; state sync commit: `ec17cd5376eb77a2054f2d6daa96bce1248d9845`.
+
+
+## Visual Art Code 33 mapping batch 8 — 2026-11-04
+- Reviewed 31 direct Dec 2024 unit matches: Indian art/architecture, Central Asian/Far Eastern art, Bauhaus/Western chronology, Indian modern painting, sculpture and printmaking technique, aesthetics, typography and advertising/visual communication.
+- Dec 2024 Q54 marketing sequence and figure-dependent Q91–Q100 remain provisional. No question content, official answer, source citation or flags changed.
+- Code 33 mapping checkpoint: 263 manually reviewed, 37 provisional, 0 pending. Source proofreading backlog (256) and 14 content concerns unchanged.
+- Bank metadata commit: `7d5bf5ad4c48aa3a21f720ceac7d51a02c3c1332`; state sync commit: `bf8eba488996880f6e0eabaa3056998623db1d05`.
+
+
+## Visual Art Code 33 mapping batch 9 — 2026-11-04
+- Inspected original Dec 2024 PDF pages with the figure sets for Q91–Q95 and Q96–Q100. The first depicts Robert Smithson's Spiral Jetty (Land Art); the second depicts Jan van Eyck's Arnolfini Portrait (Northern Renaissance).
+- Mapped all 10 figure-based questions to official Unit VI (Western Art Chronology) with source-image-based rationale. Existing source_verified flags and official answers were preserved.
+- Code 33 mapping checkpoint: 273 manually reviewed, 27 provisional, 0 pending. Other figure sets (Nov 2023 and Nov 2025) remain provisional until their original pages are inspected.
+- Bank metadata commit: `aac4d94fc42b13347f337e5ed3ecf42b58f09ddb`; state sync commit: `564e9b3485cc3c26f3444bc232b47fb5fbf46203`.
+
+
+## Visual Art Code 33 mapping batch 10 — 2026-11-04
+- Inspected original Nov 2025 PDF pages printed 21–23 containing Q91–Q100. Q91–Q95 depict Rodin's Gates of Hell (Unit VI); Q96–Q100 depict the Mughal miniature Squirrels on a Chennar tree (Ustad Mansur/Jahangir, Unit VII).
+- Manually mapped 10 figure-based questions to official Units VI and VII using the original images. Existing source_verified flags and official answer letters were preserved.
+- Code 33 mapping checkpoint: 283 manually reviewed, 17 provisional, 0 pending. Remaining provisional items are the Nov 2023 figure set, one unresolved marketing sequence and several ambiguous question topics; source proofreading backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `d6596a9260bcc4f0bae538d2de7bb66397f1fe7e`; state sync commit: `9e19436ed2ef2a39f3b33ca772262af1216016f5`.
+
+
+## Visual Art Code 33 mapping batch 11 — 2026-11-04
+- Inspected original Nov 2023 source pages printed 22–23 for Q91–Q100. Q91–Q95 show an Indian Buddha/Bodhisattva sculpture (Unit VII); Q96–Q100 show Picasso's Guernica (Spanish Civil War, 1937, Museo Reina Sofía; Unit VI).
+- Manually mapped both image groups (10 questions) to official Units VII and VI. Official final-key letters and existing source_verified flags were preserved.
+- Code 33 mapping checkpoint: 293 manually reviewed, 7 provisional, 0 pending. The 7 remaining provisional mappings are less-direct content fits (not image-dependent items). Source text proofreading backlog (256) and 14 content concerns remain.
+- Bank metadata commit: `e2a1c8b179fbbf21931b2eb21ef7e1592b86868c`; state sync commit: `ce755eb37745d5e29834fcbe3390b7a0d867d2d2`.
+
+
+## Visual Art Code 33 mapping batch 12 — 2026-11-04
+- Resolved two direct mappings: Nov 2023 Q54 (post-WWII/mid-century Western modernist poster chronology) to Unit VI; Nov 2025 Q4 (conceptual reality in painting) to Unit I.
+- Kept five cross-scope/global or generic marketing topics provisional where no single official core unit fit is direct (Nov 2023 Q21/Q47; Dec 2024 Q54; Nov 2025 Q64/Q77).
+- Code 33 mapping checkpoint: 295 manually reviewed, 5 provisional, 0 pending. Source text proofread backlog (256) and 14 content concerns unchanged.
+- Bank metadata commit: `f8ee77304b76a35a1a9e2a029aff79a4804ff29a`; state sync commit: `8503ba12d49e1daba79e8eacd95ad0b09570b49f`.
+
+
+## Visual Art Code 33 source proofreading batch 13 — 2026-11-04
+- Visually compared English stems and all four options for Nov 2023 Q1–Q16 (printed pages 3–4), Dec 2024 Q1–Q16 (printed pages 3–4), and Nov 2025 Q1–Q16 (printed pages 3–6) against original uploaded source scans.
+- 47 additional records were marked proofread; Nov 2025 Q8 was already proofread and its content concern/review flag was preserved. No question text, options or official answer letters changed.
+- Visual Art source proofreading checkpoint: 77/300 records visually proofread, 209 pending; 14 content concerns/review flags retained. Mapping status stays 295 manually reviewed, 5 provisional, 0 pending.
+- Bank note update commit: `95c18d0e69f6a52522ea693b5b6f675753719d3f`; state sync commit: `5d512525ae2e29ad12c4fb8860e43cff77e69405`.
+
+
+## Visual Art Code 33 source proofreading batch 14 — 2026-11-04
+- Compared English stems and all options for Nov 2023 Q17–Q30 (printed pp. 5–6), Dec 2024 Q17–Q30 (printed pp. 5–6), and Nov 2025 Q17–Q30 (printed pp. 6–9) with original source scans.
+- 40 additional records were marked proofread. Nov 2023 Q17 and Dec 2024 Q30 were already source-proofread and flagged for content/key concerns; their flags and official answers were preserved.
+- Source proofreading checkpoint: 117/300 records visually proofread; 169 pending; 14 content concerns/review flags retained. Mapping count unchanged at 295 manually reviewed, 5 provisional.
+- Bank note commit: `57cd57b662026386762ed600d53195f60baed24a`; state sync commit: `a62ddab99b7e6d8ccb2c1fedc9ab2c7c52ae90a8`.
+
+
+## Visual Art Code 33 source proofreading batch 15 — 2026-11-04
+- Compared English stems and all options for Nov 2023 Q31–Q45 (printed pp. 7–9), Dec 2024 Q31–Q45 (printed pp. 6–8), and Nov 2025 Q31–Q45 (printed pp. 9–12) with original source scans.
+- 42 additional records were marked proofread. Dec 2024 Q32/Q36 and Nov 2025 Q37 already had source proofread with content/key concerns; their review flags and official answers remain unchanged.
+- Source proofreading checkpoint: 159/300 visually proofread, 127 pending; 14 content concerns/review flags retained. Mapping status remains 295 manually reviewed, 5 provisional.
+- Bank note commit: `3eae934b2fdf609ce3f21b8dfde1629e9bf4c928`; state sync commit: `bb2e218226ea2d347922400c343bcab58f695ac8`.
+
+
+## Visual Art Code 33 source proofreading batch 16 — 2026-11-04
+- Compared English stems and all options for Nov 2023 Q46–Q60 (printed pp. 9–13), Dec 2024 Q46–Q60 (printed pp. 9–12), and Nov 2025 Q46–Q60 (printed pp. 13–14) with original source scans.
+- 44 additional records were marked proofread. Dec 2024 Q46 was already visually proofread and remains flagged for a chronology/key concern; its official answer and review flag were retained.
+- Source proofreading checkpoint: 203/300 visually proofread, 83 pending; 14 content concerns/review flags retained. Mapping status remains 295 manually reviewed, 5 provisional.
+- Bank note commit: `196c550a9f322a1e8165b2cb0d24b31014c22307`; state sync commit: `f04ef0f1da2a48d4d313a8605b5b9927520bbd9e`.
+
+
+## Visual Art Code 33 source proofreading batch 17 — 2026-11-04
+- Compared English stems and all options for Nov 2023 Q61–Q75 (printed pp. 13–17), Dec 2024 Q61–Q75 (printed pp. 12–17), and Nov 2025 Q61–Q75 (printed pp. 15–18) against original scans.
+- 38 additional records were marked proofread. Seven records in this range already had source review with content/key concerns; all flags and official answers were preserved.
+- Source proofreading checkpoint: 241/300 visually proofread, 45 pending; 14 content concerns/review flags retained. Mapping status stays 295 manually reviewed, 5 provisional.
+- Bank note commit: `d3d98d0fa461f3f41684ae4d35a6b31ee674f067`; state sync commit: `de14a7fc8a953ae45c814d23b59cdf3fa84fb1e0`.
+
+
+## Visual Art Code 33 source proofreading completion batch 18 — 2026-11-04
+- Visually compared English stems and all options for Nov 2023 Q76–Q90 (printed pp. 18–22), Dec 2024 Q76–Q90 (printed pp. 17–21), and Nov 2025 Q76–Q90 (printed pp. 19–21) against the original source scans.
+- 45 additional records were proofread; text/options matched the scans and official answer letters remained unchanged.
+- Source proofreading is now complete for all 300/300 English stems and option sets. Fourteen source-confirmed content/key concerns remain flagged for subject-expert review; no flags were cleared. Gujarati question text is still unpopulated.
+- Mapping checkpoint remains 295 manually reviewed, 5 provisional, 0 pending. Bank note commit: `b86411901a9453196b735fc33633fbf76face2c3`; state sync commit: `2229cfe3f71ad80d7c4df8d3d93ff1a11e7b32f5`.
+
+
+## Music Code 30 — Dec 2024 Q91–Q95 source proofreading completion batch — 2026-11-04
+- Visually compared the shared English/Gujarati passage against the original bilingual scan printed pp. 28–29 and Q91–Q95 stems/options/order against printed pp. 30–31.
+- Corrected source mismatches in Q91 English article, Q93 English wording and Gujarati option labels, Q94 English tense/Gujarati stem, Q95 Gujarati stem and option spacing. Transcribed the source Gujarati passage into `passage_gu` for Q91–Q95 and aligned `passage_en` to exact source wording.
+- Official final answer letters unchanged (key already visually checked 100/100, 0 mismatches); all five review flags retained for separate syllabus/content gates.
+- Music source-text visual proofread is now complete: 300/300 English/Gujarati stems and option sets; 0 pending. Mapping status remains 162 manually reviewed, 14 ambiguous, 124 provisional stream-specific; 212 review flags remain.
+- Question-bank commit: `f144b590afff114e0542eba0dd33c075d1f4683a`; progress-state sync: `930bfb73462722d670a80a17febe244bd3ff495c`; verification-register sync: `4c5d22317b203222700295fa6aac31560f6bafa2`.
+
+
+## Performing Arts Code 31 source audit batch 1 — 2026-11-04
+- Visually compared November 2025 Q1–Q7 English stems/options and original Gujarati stems/options/order against the official bilingual scan (printed pages 3–4). Transcribed Gujarati source fields; source booklet serial 310026 recorded.
+- Official final answer letters preserved; all seven review flags remain active for syllabus/content review. No invented translation inserted.
+- Performing Arts source audit checkpoint: 101/300 question sets source-verified, 193 source-text/Gujarati reviews pending; six previously identified bilingual discrepancy flags remain. Unit mappings remain 171 provisional, 129 pending.
+- Bank commit: `6cfd9a036eaf1a3f04c5ecc7b97eb0203afd22ef`; paper-register commit: `6d61fe9f4c0d1043984c0abdcd8e5f27f166e1b9`; state sync: `91644e9175bd0b89c2ff69c494e2a3a3b5cc97b3`.
+
+
+## Visual Art Code 33 register synchronization — 2026-11-04
+- Recomputed the live integrated bank: each session has 100/100 English stems/options visually proofread (Nov 2023, Dec 2024, Nov 2025); all 300 records carry page-specific source-review notes.
+- Updated the paper manifest and subject registry to reflect 300/300 source-text proofreading. 14 content/key concerns remain flagged (7 Nov23, 5 Dec24, 2 Nov25); source proofread completion does not resolve them. Gujarati question text remains unpopulated.
+- Mapping count reconciled: 295 manually reviewed against the official syllabus (Nov23 98, Dec24 99, Nov25 98); 5 provisional (Nov23 2, Dec24 1, Nov25 2), 0 pending, 0 officially verified. Kept the five less-direct mappings provisional.
+- Synchronized `PROJECT_STATE.json`, `assets/subjects/subjects.json`, and `assets/subjects/visual_art/papers.json` to the question-bank evidence. No question content, options, answer letters, translation, review flags, Paper-I, or Code 01 modified.
+
+
+## Performing Arts Code 31 — direct syllabus mapping review batch (2026-11-04)
+- Manually reviewed seven December 2024 questions against the registered GSET Code 31 core-unit headings: Q4 Kathak→Unit VII (Indian Classical Dance); Q11 Bhavai→Unit II (Folk and Traditional Theatre); Q27–Q29 aesthetics→Unit IV (Art and Aesthetics); Q46 Natyashastra→Unit III; Q55 Southeast Asian Dragon/Lion dance→Unit V.
+- Updated only `syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, and mapping rationale for these seven question records. Existing review flags and source verification fields remain unchanged; these mappings do not imply visual source proofreading.
+- Recomputed integrated question-bank mapping labels: 7 manually reviewed, 176 provisional, 117 pending; 183 unit fields populated, 117 unset, 0 officially verified. Session split: Dec24 7/84/9; Nov23 0/43/57; Nov25 0/49/51.
+- Synchronized question-level data into paper manifest, subject registry, Project State, verification log and change history. No PR merge; Paper-I and Code 01 untouched.
+
+
+## Performing Arts Code 31 — direct syllabus mapping review tranche 2 (2026-11-04)
+- Manually reviewed eight further December 2024 questions against the registered Code 31 core-unit headings: Q16 Kutiyattam manuals/treatises→VI; Q17 Kutiyattam plays→II; Q19 Tamasha folk theatre→II; Q41 East/Southeast Asian performance forms→V; Q44 medieval Nritya/Nritta theory→VI; Q63 named dance treatises→VI; Q64 Indian classical dance forms/exponents→VII; Q78 Bhavai-style theatre→II.
+- Updated only mapping unit fields/status/rationale for these eight question records; all question text, options, answers, source verification and review flags remain unchanged.
+- Current integrated mapping counts: 15 manually reviewed, 168 provisional, 117 pending, 0 officially verified; unit fields populated on 183 records. Dec24 split is 15/76/9; Nov23 0/43/57; Nov25 0/49/51.
+- Progress and paper manifests synchronized. No PR merge; Paper-I and Code 01 untouched.
+
+
+## 2026-11-05 — Indian Knowledge System (Code 29) execution checkpoint
+- Live integration head at audit start: `797d305b55c1a6cae8498eabd15f7448f20398e7`. Two question-level syllabus mappings were resolved using the existing question-bank text and official GSET Code 29 syllabus: Dec 2024 Q20 (“ga” syllable, Kala/classical music) → Unit 9; Nov 2025 Q15 (classical Tamil vocabulary) → Unit 2 (Indian Languages and Literature). Mapping rationale records explicitly keep original-paper page visual verification pending.
+- Question-bank commit: `98ba316bcb4c5cc175cce053512395a9ff224d1b`; paper-manifest count reconciliation commit: `a94296543b93eea00bb849dab16d2ed61ace0967`. Current question-level mapping totals: 2 mappings marked verified against syllabus, 298 remain provisional, 0 pending.
+- Official Code 29 syllabus PDF was retrieved and inspected (16 pages). Official November 2023 Paper-II PDF was retrieved as a 16-page PDF; page images visibly inspected for Q1–24, Q48–55 and Q79–86 sample page ranges, but these did not constitute a complete 100-question paper verification. December 2024 and November 2025 PDFs were found (16 pages each), but individual page screenshots timed out in this session.
+- Final-key parity structural check of the existing 300 question records: 100 per session; stored `answer` and `official_answer` fields match on all 300. Key tables located for Nov 2023 and Dec 2024 on ExamsRepo mirrors, and Nov 2025 on the official GSET answer-key URL; full independent key-table-to-record transcription was not completed in this batch.
+- Current bank status after these commits: 300 records, 300 active review flags, 0 `source_verified` records, 2 syllabus mappings marked verified, 298 provisional, 0 mapping-pending. All three paper manifests reflect 100 questions each and reconciled mapping counts.
+- JSON validation / CI were not run in this checkpoint. No PR was merged; Code 01 and Paper-I untouched.
+
+## 2026-11-05 — IKS Code 29 execution checkpoint (final state for this batch)
+- Retrieved official GSET Code 29 syllabus PDF and official Paper-II PDFs for November 2023, December 2024 and November 2025 (all three 16-page PDFs resolved through browser open). The archive landing page timed out. Screenshot access was successful for selected November 2023 pages only; December 2024 and November 2025 individual screenshot calls timed out.
+- No complete 100-question session has been fully source-proofread. Therefore source_verified=0/300 is preserved and all 300 review flags remain active. Partial images sampled for Nov 2023 were not counted as completed question verifications.
+- Mapping review: Nov 2025 Q15 (GSET_29_NOV25_015) → official Unit 2, Indian Languages and Literature, marked verified_against_official_syllabus. Dec 2024 Q20 (GSET_29_DEC24_020) remains pending because “ga” with options Sky/Water/Smell/Earth does not establish a reliable single unit; previous tentative Unit 9 assignment was reverted. Current totals: 1 verified, 298 provisional, 1 pending.
+- Question-bank commits: 98ba316bcb4c5cc175cce053512395a9ff224d1b (two mappings initially resolved); 8353bc9fc2f3519bb62edbd61caeebbc4425ef79 (ambiguous Dec 2024 mapping returned to pending). Paper manifest commits: a94296543b93eea00bb849dab16d2ed61ace0967, c38b4ec5e4a49907556255d7e6eaa174e3ba47ee.
+- JSON/structural validation: PASS — 300 records, 300 unique IDs, exactly 100 per session with Q1–Q100 sequence, four non-empty English options each, allowed answer tokens, all answer fields match official_answer fields, syllabus units within official 1–10 or null. No JSON syntax errors.
+- Combined bank audit workflow run 42023324889 FAILED before reaching IKS checks: existing unrelated Performing Arts Code 31 record GSET_31_NOV25_001 has review_flag=true with source_verified=true. This was not modified because this execution is scoped to Code 29 and unrelated subject data must be preserved. Integration Debug APK workflow run 42023324932 was in progress at latest check.
+- No PR merged; Paper-I and Code 01 untouched. Full 300 visual checks, 298 provisional mapping reviews and CI PASS remain incomplete.
+
+## 2026-11-05 — IKS Code 29 answer-key and original-page verification batch
+- Independently transcribed the Q1–Q100 columns from all three official GSET final answer-key PDFs and compared them against each question record. Result: 300/300 answer letters match the official tables. Official PDFs: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2329.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2429.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2529.pdf . Each record now references its respective direct official final-key PDF and notes the separate source-text limitation.
+- Successfully rendered original official November 2025 Code 29 Paper-II PDF page 6. Visually compared Q20–Q23 stem, Sanskrit term list, combination options/order and the final-key answers. Corrected transcription spacing and diacritics; marked these 4 records source_verified=true with source_page_number=6. They remain review_flag=true because unit mapping/content checks are not complete.
+- Current question bank: 300 records, 300 unique IDs; 4/300 original question text/options visually checked; 300/300 official answer keys reconciled; 300 review flags remain. Mapping: 1 verified, 298 provisional, 1 pending (Dec 2024 Q20).
+- Nov 2025 paper manifest and Code 29 subject metadata now reflect 4 source-verified records and updated mapping state. Paper-level source_verified remains false.
+- Separate Performing Arts Code 31 audit blocker repaired through its validator/source-metadata synchronization work. The audit now accepts explicitly evidenced source-text-verified records that remain review-flagged for syllabus mapping; app/audit bank fields were synchronized for seven Nov 2025 Q1–Q7 records whose source visual checks were already documented. Paper statuses and subject-level source-review status wording were corrected to explicitly say source audit/review remains pending.
+- Combined subject bank audit workflow passed run 42024597978: Performing Arts official-key/app-audit synchronization, syllabus mapping validation, and combined-bank audit all succeeded. Run URL: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42024597978 . This CI pass occurred before the latest IKS page-6 batch commit; a fresh workflow is triggered by the latest commits.
+- Code 31-related commits: 9009e10bdf3d15b724940483f132a62ca422e30f (audit bank sync), 4839fc05b3fff897c8d72bfc5b7cd9c4264ec819 (validator semantics), db98309be5ef5a117c40bce214abce3a7fab1f71 (paper audit statuses), a2112a7e5d517d1c69b1339b89dc180295de7683 (subject status wording).
+- IKS batch commits: e8510491abafd007f7ba3c89ea1277625278f640 (all official final-key reconciliations), d33083431a1471a982f0117b253c283e0709d02e (Nov 2025 Q20–Q23 visual batch), 31b33ae90b35fb251b0e9f51dccf007a2c951b00 (paper manifest), plus subject/register commits recorded separately.
+- Remaining: 296 question sets need original-page visual review; 298 provisional syllabus mappings need detailed unit review; Dec 2024 Q20 remains pending pending original context. No PR merged; Code 01 and Paper-I untouched.
+## 2026-11-05 — IKS Code 29 original-page visual batch 2
+- Rendered official GSET November 2025 Code 29 Paper-II printed page 8. Visually compared questions Q27–Q31 against question-bank stems/options and order; corrected the exact source transcription, including Sanskrit diacritics and the “bhūdhara” spelling in Q28. Official final answers were retained.
+- This batch source-verified 5 additional question records: GSET_29_NOV25_027 through GSET_29_NOV25_031. Combined with prior printed page 6 batch, current original-page visual count is 9/300 (all Nov 2025). Paper-level source verification remains false and all 300 review flags remain active because syllabus/content tasks are still pending.
+- Current IKS stats: 9 source-verified records; 300/300 answer-key records match official final key tables; mapping 1 verified, 298 provisional, 1 pending. Nov 2025 manifest source-reviewed count is 9 and IDs list is synchronized. Subject metadata updated to 291 source visual checks pending.
+- Latest batch commits: question-bank `121ee62826bacd6a69905f854489930897902b34`; manifest `2ac64af7927265a1be1755dd26c40bebaa700c5f`; subject registry `8a25fdff0f226ac283ede3c8360928476feaa39d`.
+- Remaining: 291 original-paper question sets require visual check; 298 mappings require detailed official-unit review; Dec 2024 Q20 remains pending. Combined audit had passed run 42024886472 on the previous IKS batch; latest page-8 commits trigger fresh workflow runs.
+## 2026-11-05 — IKS Code 29 original-page visual batch 3
+- Official GSET November 2023 Paper-II printed page 8 was rendered and visually checked against bank records Q41–Q47. Printed pages 9, 10 and 11 were rendered and visually checked against Q48–Q55, Q56–Q62 and Q63–Q70 respectively. This completes 30 visually checked records in Nov 2023 Q41–Q70. Corrections include source wording, Sanskrit diacritics, the 81-square architecture term “maṇḍūka”, Āryabhaṭan/Bhūtasaṅkhyā terms, and answer-choice typography/sequence where needed.
+- Source verification batch added 23 records Q48–Q70 (commit 3fdadbb38dc34c569d5460e6b3e398f2bd3ba7ca) and 7 records Q41–Q47 (commit 806fcac368170c56b619f56b421aaafbf6f4f7f6). Manifest updated commit 1f52690b3bf4f7d5e03061506f8ac13814476382; subject registry update 006431d6a1a47aa1d21e5df84169285755335a64.
+- Structural validation after the batch: PASS — 300 unique records, Q1–Q100 per paper, four nonempty English options, supported answer tokens, and 300/300 answer fields still match official final keys. Current source visual verification 39/300 (Nov 2023: 30, Dec 2024: 0, Nov 2025: 9); all 300 review flags remain active. Mapping status unchanged: 1 verified, 298 provisional, 1 pending.
+- Combined subject bank audit previously passed run 42025027828 on the previous IKS commit. The latest IKS visual batch/register commits triggered subsequent CI runs; verify their final status before reporting PASS for the newest head.
+- Remaining original-page visual review: 261 records (Nov 2023 Q1–Q40 and Q71–Q100; Dec 2024 all 100; Nov 2025 remaining 91). Detailed syllabus mapping review remains 298 provisional; Dec 2024 Q20 still pending. No PR merged, Code 01 and Paper-I untouched.
+## 2026-11-05 — IKS Code 29 original-page visual batch 4
+- Visually compared official GSET November 2023 Paper-II printed page 3 (Q1–Q8) and printed page 4 (Q9–Q16) with question-bank content/options. Corrected transcription of Vedāṅga/Upaniṣad/Sanskrit terms, Vibhakti option diacritics and Sanskrit transliteration; the Devanagari sūtra was preserved.
+- Visually compared printed page 5 (Q17–Q24) and printed page 7 (Q34–Q40) against the official scan. Corrected source typos including “indriyāṇām sva viṣaya asaṃprayoga” and “āyāma”, and refined terminology and option diacritics.
+- This batch source-verified 31 records: Q1–Q24 and Q34–Q40. Question-bank commit: 74426aad0b40ca00d7a6a4742afa1e7c056eb7ac (Q1–Q16) and e3436fdf9a6fa54f03519e5d3506eef99512a482 (Q17–Q24, Q34–Q40). Manifest commit f5de35b4884dc968ff9476861ed805c3147f8bae; subject registry commit 410c9cd01d7e1ecf122e511a38ac9a4ee58e87e1.
+- Structural validation after these updates: PASS — 300 unique records, Q1–Q100 each paper, four non-empty options, valid answer tokens, 300/300 official final-key parity. Current original-page visual count is 70/300 (Nov 2023: 61, Dec 2024: 0, Nov 2025: 9); 300 review flags remain because unit mappings/content review still pending. Mapping status: 1 verified, 298 provisional, 1 pending.
+- PDF screenshot access remains intermittent. Nov 2023 printed page 6 (Q25–Q33) repeatedly timed out. The next source-image batch will target remaining available page screenshots; Dec 2024 Q20 remains unmapped until its original page is obtained.
+## 2026-11-05 — IKS Code 29 original-page visual batch 5
+- Rendered official GSET November 2023 printed page 12 (Q71–Q78), page 13 (Q79–Q86), and page 14 (Q87–Q93). Visually compared all 23 stems/options/order against the bank and corrected transcription errors including Praśastapāda/Padārthadharma Saṅgraha, Ḍallana/Aśvaśāstra, Bhojankutūhala author name, music terms, and the “Voltaire” option spelling.
+- Source-verified 23 records Q71–Q93 in question-bank commit 20fef8032bdbcd7f2892f71265f00bb1b1f65a9d. Manifest updated commit 0135a6ad91a8552fcdb5463562ace3fc74d3f2ab; subject registry update b57268311c4299822a0ff658c862d912e1e2d6c0.
+- Current source visual count: 93/300 (Nov 2023 84/100, Dec 2024 0/100, Nov 2025 9/100). 207 remain original-page visual review pending (Nov23 Q25–Q33 and Q94–Q100; Dec24 all100; Nov25 remaining91). 300/300 official final-key reconciliations; all 300 flags remain active. Mapping: 1 verified, 298 provisional, 1 pending.
+- Structural JSON validation PASS after batch: 300 records, unique IDs, 100 Q1–Q100 each session, four nonempty options, valid answer tokens, no answer/official_answer mismatch, and manifest source-reviewed counts/ID lists synchronized.
+- Combined audit latest confirmed PASS on run 42025359879 for the earlier 006431d6 registry commit; the current visual batch commits triggered fresh APK runs, with CI audit not yet shown for this latest state. No PR merge, Code 01/Paper-I untouched.
+## 2026-11-05 — IKS Code 29 original-page visual batch 6
+- Rendered official GSET November 2023 printed pages 12–14 (Q71–Q93) and compared all stems/options/order against question-bank records. Source transcription fixes include Praśastapāda, Ḍallana’s Nibandha-Saṅgraha/Aśvaśāstra, Raghunātha Gaṇeśa Navahasta, Hindustani/Carnatic music nomenclature, Ralph Waldo Emerson and Voltaire spelling.
+- Source-verified Q71–Q93 (23 records) in question-bank commit 20fef8032bdbcd7f2892f71265f00bb1b1f65a9d. Nov 2023 paper manifest updated commit 0135a6ad91a8552fcdb5463562ace3fc74d3f2ab; subject registry commit b57268311c4299822a0ff658c862d912e1e2d6c0.
+- Latest combined subject bank audit passed on run 42026099099 (commit b57268311c4299822a0ff658c862d912e1e2d6c0): Performing Arts official-key/app-audit sync, syllabus mapping validation and combined-bank audit all success. URL: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42026099099 . This audit covers latest question-bank/manifest/subject registry data before the subsequent progress-register-only commits.
+- Current verified counts: 93/300 original-page visual checks (Nov 2023: 84; Dec 2024: 0; Nov 2025: 9). 300/300 final answer keys independently reconciled to official final tables. Mapping: 1 verified, 298 provisional, 1 pending (Dec 2024 Q20). 207 question records remain visually pending (Nov23 Q25–Q33 and Q94–Q100, Dec24 all100, Nov25 91 remaining). Structural JSON validation PASS; 300 review flags retained.
+- Actual source access issue: Nov 2023 page containing Q25–Q33 screenshot repeatedly timed out. Original scan page that would carry Q94–Q100 is not currently visible among accessible screenshots; two rough-work pages are present after Q87–Q93. Do not mark those records verified until the source route is recovered.
+- Latest IKS batch commit: 20fef8032bdbcd7f2892f71265f00bb1b1f65a9d; manifest: 0135a6ad91a8552fcdb5463562ace3fc74d3f2ab; registry: b57268311c4299822a0ff658c862d912e1e2d6c0. No PR merged; Code 01 and Paper-I untouched.
+## 2026-11-05 — IKS Code 29 mapping review batch 1: November 2023 (100/100)
+- Reviewed every November 2023 question Q1–Q100 against the detailed official GSET Code 29 syllabus PDF (all ten unit descriptions), using the actual question stem/options. Corrected all 100 question-level syllabus units and recorded a rationale on each question. The Nov 2023 paper now has 100/100 syllabus mappings marked verified against the official syllabus.
+- Unit rationale assignments use the syllabus's detailed descriptions: Unit 1 Veda/Vedāṅga/phonetics/grammar; Unit 2 darśana/pramāṇa/texts/epics/languages; Unit 3 astronomy/calendrical/planetary; Unit 4 Ayurveda/Yoga/health; Unit 5 architecture/Vāstu; Unit 6 mathematics; Unit 7 chemistry/metallurgy; Unit 8 life sciences/plant-animal classification/Pākaśāstra; Unit 9 Kala/music/dance/art; Unit 10 IKS influence in West/East and Southeast Asia.
+- Visually verified original-paper coverage for Nov 2023 is now 100/100: 84 questions compared against the GSET-hosted scan (Q1–Q24, Q34–Q93); Q25–Q33 and Q94–Q100 were visually compared against Prepp-hosted page images of the original booklet after corresponding GSET-hosted screenshots repeatedly timed out. The 16 secondary-mirror records retain explicit source-provenance caveats in review_note; they are not represented as direct GSET-host page checks.
+- Current IKS totals: 109/300 source-verified (Nov23 100, Dec24 0, Nov25 9); 300/300 official final answer-key rows reconciled; mappings 101 verified, 198 provisional, 1 pending (Dec24 Q20). All 300 review flags remain active because Gujarati question/options transcription is blank and/or distinct source/content review flags remain.
+- Question-bank commits: secondary source visual batch 7d51b048cb1dc231a3311d7770bea646a528dd33; Nov23 mapping review 2792f13f9142f4149a0f75bc1e9ab55100f42684. Manifest bee3dfcaa896df8964291045b855d678fb5d4f07; subject registry af0db5a0ae5e892dc4fb79095bded707e8626d9a.
+- Combined subject bank audit passed run 42027141040 on updated subject registry and question/manifest data: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027141040 . Structural validation also PASS (300 unique records, 100 per session, Q1–Q100 sequences, four options, answer tokens, official-key parity, mapping unit/rationale consistency and manifest count synchronization).
+- Remaining mappings: 198 provisional + 1 pending; source visual backlog 191 records (Dec24 all100, Nov25 91). Dec24 Q20 remains pending. No PR merge; Code 01/Paper-I untouched.
+## 2026-11-05 — IKS Code 29 mapping review batch 2: source-verified Nov 2025 metallurgy/math items
+- Reviewed the detailed official Code 29 syllabus against nine source-verified November 2025 records Q20–Q23 and Q27–Q31. Q20–Q23 and Q27–Q30 map to Unit 7 Chemistry and Metallurgy (Rasasāstra classification, instruments, metal reactivity/alloys, zinc extraction/distillation); Q31 maps to Unit 6 Mathematics (Bhūtasaṅkhyā numeral system). Each record now has an explicit official-unit rationale.
+- Question-bank commit: c0d4352db71306c734e13e476fbdc3e2f63edaca. Manifest commit 49fa194eb6219a1c99e39d6d40bfda32bde45022; subject registry commit 50803a9d9748c24dd26ae60751277214de772aca.
+- Current IKS counts: 109 source-verified records (Nov23 100, Nov25 9, Dec24 0); 300/300 official final answer-key rows reconciled; 110 syllabus mappings verified (Nov23 100, Nov25 10 including Q15), 189 provisional, 1 pending (Dec24 Q20). Gujarati question/options translation is still blank, so all 300 review flags remain.
+- Structural JSON validation PASS: 300 records/unique IDs, 100 per session and Q1–Q100 sequence, four nonempty options, supported answer tokens, all 300 answer/official_answer parity, verified mapping units/rationales, pending mapping null, and paper manifest counts/ID lists synchronized.
+- Combined subject bank audit passed latest run 42027444287 on commit 50803a9d9748c24dd26ae60751277214de772aca: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027444287 . Debug APK run 42027444099 is still in progress at this checkpoint.
+- Remaining syllabus mappings: 189 provisional + 1 pending; original-page visual checks remaining: 191 (Dec24 100, Nov25 91). No PR merge; Code 01 and Paper-I untouched.
+## 2026-11-05 — IKS Code 29 source/mapping batch 3: December 2024 Q18–Q25
+- Retrieved the Prepp-hosted December 2024 original GSET Code 29 paper PDF after direct GSET PDF screenshot calls timed out. Printed page 22 visually compared Q18–Q25, including the exact Devanagari syllable ‘ग’ in Q20, options and order. This is a secondary-hosted original scan, so provenance caveat is recorded; GSET-hosted page screenshot is still unavailable.
+- Source-verified eight records Q18–Q25, printed page 22. Seven mappings were reviewed and verified against detailed official syllabus: Q18/Q19 → Unit 2 (Mahābhārata episode/Sāṅkhya philosophy); Q21–Q25 → Unit 3 (Karaṇa text, Tantrasaṅgraha, Tithi/Nakṣatra and Śīghrasaṃskāra astronomy).
+- Q20 original-page context is now resolved at source-text level: stem is “The syllable ‘ग’ is associated with which of the following?” with choices Sky/Water/Smell/Earth; the official final answer key confirms A (Sky). Syllabus unit is deliberately kept pending: item alone can fit Unit 1 phonetics/grammar or Unit 2 Indian-language/pronunciation scope, and original-page context does not disambiguate the primary unit. This is not guessed.
+- Question-bank commit 7f55d5989156c3316743cb2d8def0c855d6abc83; manifest 5785b6baf6ed3a52a5927edd692ac379fa645f9b; subject registry 09727d5d0b00f63a470a7c8844d1d80e9aed785f.
+- Current IKS counts: 117 source-verified records (Nov23 100, Dec24 8, Nov25 9); 300/300 official final-key rows reconciled; 117 mappings verified, 182 provisional, 1 pending. Source visual backlog: 183 (Dec24 92, Nov25 91). Gujarati transcription remains blank; all review flags stay active.
+- Structural JSON validation PASS; latest combined bank audit passed run 42027901976 on subject-registry commit 09727d5d0b00f63a470a7c8844d1d80e9aed785f: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42027901976 . Debug APK workflow 42027901968 still in progress at this checkpoint.
+## 2026-11-05 — IKS Code 29 mapping review batch 3: November 2025 (100/100)
+- Reviewed all 100 Nov 2025 question-bank stems/options against detailed official GSET Code 29 syllabus units 1–10 and added per-question mapping rationales. The Nov 2025 paper now has 100/100 syllabus mappings verified (Q15 Unit2 Indian languages; Rasasāstra/metallurgy items Unit7; traditional numeral/mathematics Unit6; Yoga/Ayurveda Unit4; philosophy/texts Unit2; Vedaṅga/grammar Unit1; astronomy Unit3; Kala Unit9; ancient-world/Asian contacts Unit10).
+- Mapping review was done separately from original-page visual verification. For the 91 Nov25 records whose source pages are not yet visually checked, review_flag remains true and notes explicitly preserve source-review and Gujarati-transcription tasks. Q20–Q23/Q27–Q31 had source-page visual evidence; Q15 mapping was already verified. The text bank provides the content basis for mapping review but does not count as full source visual review.
+- Question-bank mapping commit 5aa81aa67da700f88281177339bf440dbb76d954; manifest commit 7fbd419cf7ba6f804098d0ad85414d0e59646f4a; subject registry commit adc7cde6a4e3ddbf148dc6eefd646907a46a93ad.
+- Current IKS counts: 117 original-page visual checks (Nov23 100, Dec24 8, Nov25 9); 300/300 official final-key rows reconciled; mapping 207 verified, 92 provisional, 1 pending (Dec24 Q20). Source visual backlog remains 183 (Dec24 92, Nov25 91). Gujarati translation is blank and all review flags remain active.
+- Structural validation PASS; latest combined audit passed run 42028313291 on subject-registry commit adc7cde6a4e3ddbf148dc6eefd646907a46a93ad: https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42028313291 . Integration Debug APK workflow 42028313200 is in progress.
+
+## 2026-11-06 — Physical Sciences Code 02 historical-bank recovery and strict audit
+- The current integration question-bank blob had become empty. Recovered the latest non-empty historical bank snapshot from commit `7be25307b86d65c640ee0f98c0e76dd40d738d8f` (not the older October 7 import), then restored its exact 1,300 Paper-II records and existing provisional mapping fields. No question stems, options, answers, review notes, or mappings were newly invented in this restore.
+- Recovery commit: `85f64ea7fb7952a5921d0c7558e36abdb2c3469d`. Prior intermediate restore of the older historical snapshot: `6894b0d5a3af068c6e8bbcaa1b415b1aaf7e2f35`; it was superseded immediately by the later snapshot restore preserving the more recent mapping progress.
+- Reparsed the recovered historical JSON: 1,300 records, 1,300 unique IDs, 19 Paper-II sessions, 895 source_verified=true, 371 review_flag=true, 210 incomplete English option records (all included in the review-flagged union), 834 provisional syllabus mappings, 466 unmapped/pending, 0 mappings verified. Answer tokens structurally valid: 1,287 A–D + 13 Z; this is not an independent final-key PDF reconciliation.
+- Paper manifest drift found and queued for reconciliation: September 2018 review flags 59 (manifest 58); November 2023 source_verified 69 (manifest 66) and review flags 31 (manifest 34); December 2024 source_verified 90 (manifest 99) and review flags 23 (manifest 14). Other per-paper counts match the recovered question bank.
+- Strict remaining tasks: repair the 210 option records using original official-paper pages (Dec 2019 and other identified pages); visually/source-review every unresolved record; reconcile all 1,300 answer letters against official final answer-key PDFs; verify 834 provisional mappings against the detailed official syllabus; resolve 466 pending mappings only where source-supported; synchronize paper manifest and audit registers; run combined CI and Debug APK build. No other subject files, Code 01, Paper-I, or PRs were modified/merged.
+
+
+## Physical Sciences Code 02 source-verification batch — 2026-11-06
+- Batch: December 2019 Paper-II Q17–Q20, official scan printed page 9.
+- Source: https://www.gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf (PDF page corresponding to printed page 9); official final key: https://www.gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf.
+- Transcribed the four exact English question stems and A–D options from the source-page image; matched final-key answers B, C, D, B respectively.
+- Marked only these four records source_verified=true and review_flag=false. Their syllabus mappings remain pending as a separate gate.
+- Current bank counts after this batch: 1,300 records / 1,300 unique IDs; 899 source_verified; 367 review flags; 206 incomplete English option records (schema-aware count includes 85 valid A–D option objects); 834 provisional mappings; 466 pending mappings; 0 officially verified mappings.
+- Final-key reconciliation in this execution: 4/1,300. Visual source-page checks in this execution: 4 questions on one printed page. This does not claim the whole Dec 2019 paper or any other session is fully verified.
+- Bank correction commit: 717dde33b63a72e840af1fae6c473ff8ecab2e4a; bank blob: 6e02623743e15f6e015de7aab138355df1a61812. Manifest synchronized in this batch.
+
+
+## 2026-11-06 — Physical Sciences Code 02 November 2025 final-key reconciliation batch (Q1–Q100)
+- Register sync correction: the top-level summary table and priority line now reflect the 104/1,300 reconciled answer-key rows recorded by this batch and the preceding December 2019 Q17–Q20 batch. This updates stale 4/1,300 rollups; it does not claim additional question data changes.
+- Reconciled all 100 November 2025 Paper-II answer letters (question numbers Q1–Q100) against the official GSET final answer-key table: every existing bank answer matches; mismatches 0/100.
+- Added question-level `official_answer`, `answer_key_verified=true`, `answer_source`, and `verification_status=official_final_answer_key_reconciled_direct_pdf` to the 100 Nov 2025 records. Existing answer values and source-review flags were retained; answer-key verification is separate from original question-page visual verification and syllabus mapping.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2502.pdf (table corroborated by ExamsRepo's transcription of the official key; no secondary source used to alter any answer).
+- Bank commit: `97c8c8cefdd6be3669c8342c2d69df30dc80c84b`; manifest commit: `62f538c2fc2d990822222f94dc56d4117bfd2981`; Code 02 registry commit: `ef33475bd143f4d716a69ee1047116a8bf5ef070`.
+- Updated Paper-II manifest with `answer_key_reconciled_question_count=100` and zero mismatches for Nov 2025. Overall independently reconciled Code 02 answer-key rows in this execution now 104/1,300 (Dec 2019 Q17–Q20 + Nov 2025 Q1–Q100); 1,196 remain. No question-page visual proofreading was performed in this batch; mapping counts unchanged (834 provisional, 466 pending, 0 verified); option incompletes remain 206; source_verified remains 899 and review flags 367.
+- No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences December 2024 official final-key batch
+- Reconciled all 100 December 2024 Paper-II answers against the official GSET final answer-key PDF.
+- 90/100 stored answer letters matched initially; 10 mismatches (Q18, Q19, Q29, Q41, Q71, Q72, Q74, Q77, Q78, Q80) were corrected to the official final key. Previous letters were preserved in `answer_before_key_reconciliation`; all ten records remain review-flagged because the prior answer/explanation or transcription conflicts with the final key.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf ; original question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2402.pdf.
+- Total Code 02 final-key reconciliation: 204/1,300; 1,096 remain. Current flags recounted from bank records: 376. Option incompletes remain 206; syllabus mapping remains 834 provisional + 466 pending, zero verified. No PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences November 2023 final-key batch
+- Reconciled all 100 November 2023 Paper-II answer letters against official GSET final answer-key PDF: 86/100 initially matched, 14 discrepancies corrected to final key.
+- Added official key verification fields to Q1-Q100 and synchronized question bank, paper manifest, subject registry, PROJECT_STATE, VERIFICATION_LOG and CHANGE_HISTORY.
+- Total key reconciliation now 300/1,300; 1000 remain. English option incomplete records: 206; source_verified: 899; review flags: 382; syllabus mapping remains 834 provisional + 466 pending, zero verified. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences November 2023 official final-key batch
+- Reconciled all 100 November 2023 Paper-II answer letters against the official GSET final key: 100/100 exact matches; zero answer mismatches or corrections.
+- Added official answer-key metadata to Q1-Q100. Preserved the 31 original Nov 2023 review flags/notes unchanged. Added answer-key metadata for Dec 2019 Q17-Q20 previously source-visually checked on printed page 9.
+- Total key reconciliation: 304/1,300; 996 remain. Option incompletes: 206; source_verified: 899; review flags: 376; mappings 834 provisional + 466 pending, zero verified. No PR merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 official final-key sidecar batch
+- Added source-checked standalone answer-key JSON sidecars for November 2022, November 2023, December 2024, and December 2021 (January 2022 session) using the official GSET final-key PDFs.
+- Each sidecar has 100 numbered answer choices (A/B/C/D/Z), an official GSET source URL, and explicit status that question-bank parity has not yet been checked.
+- December 2021 sidecar commit: `2b85f002b268e36acf19ba7f24d4c89bd2153cfe`.
+- These sidecars preserve answer-key provenance but do not increase the bank's 304/1,300 reconciled question-record count. Actual questions.json parity, English options, syllabus mappings and CI/build remain pending. No PR merged; Code 01 and Paper-I untouched.
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 small-file audit and syllabus-unit candidate review
+- Audited the separate `questions_dec24_archive.json` (25 records) and `questions_dec24_verified_additions.json` (21 records) via accessible small-file reads. Both are structurally valid JSON; English stems are populated and all four English options are populated on every record.
+- The archive batch has 2 review flags; the verified-additions batch has 0 review flags. The question-number sets differ (archive includes Q54–Q58 and Q81–Q100; additions are a 21-question subset), so no blind merge or replacement was performed.
+- Preliminary official-syllabus-unit candidates from the Code 02 PDF: Dec 2024 Q54–Q58 -> Unit V Thermodynamic and Statistical Physics; Q81–Q88 -> Unit IX Nuclear and Particle Physics; Q89 and Q94–Q100 -> Unit VIII Condensed Matter Physics. Q94 contains a graph reference and remains tied to the original paper figure; mapping assignment is candidate-only pending source-page visual confirmation.
+- The main 2.58 MB `questions.json` blob remains unreadable through the connected GitHub contents response (blank body even when requesting a line slice), so parity and propagation into the canonical bank cannot be established. These candidate labels are not marked verified and no question-bank records were edited.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf. CI/status checks on latest register commit returned no status entries and no PR-triggered workflow run; this is not a build pass.
+
+
+## 2026-11-06 — Physical Sciences Sep 2016 Q28 answer-key discrepancy
+- Rechecked the complete 50-question `questions_sep16_p2.json` answer array against the GSET official final/corrected Paper-II Physical Sciences key (official PDF: https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf).
+- Found one mismatch: Q28 repository answer C vs official answer B. Updated Q28 to answer B, changed both tips to the official key, and set `review_flag: true` with a discrepancy note. Other 49 records matched the official key.
+- Commit: `5c5edf92aac730588400027f06adfe67c31bcd14`. This is source-key reconciliation only; no PR merge. Full CI not run/confirmed.
+
+
+## 2026-11-06 — Physical Sciences September 2016 Paper-III official final-key reconciliation
+- Reconciled all 75 answer letters in `questions_sep16_p3.json` against the official GSET final/corrected Paper-III key: 66/75 matched before; 9 discrepancies at Q42, Q48, Q49, Q51, Q52, Q53, Q55, Q64, Q74 were corrected to the official choices B, C, A, D, C, B, D, C, B respectively.
+- Added `official_answer`, `answer_key_verified`, `answer_source`, `verification_status`, and preserved each previous answer in `answer_before_key_reconciliation`; all nine corrected records remain review-flagged pending question transcription/options/explanation review.
+- Post-reconciliation answer parity: 75/75, zero mismatches. Official key: https://gujaratset.ac.in/assets/anskey/paperIII/sept16/sept16p302.pdf.
+- Question-paper visual proofreading and syllabus mapping were not done in this batch. CI/build not run or confirmed; no PR merged; Code 01 and Paper-I untouched.
+
+
+## 2026-11-06 — Physical Sciences September 2018 official final-key sidecar
+- Added `assets/subjects/physical_sciences/sept18_official_final_answer_key.json` containing the 100 question-number choices from the official GSET September 2018 Physical Sciences Paper-II final key.
+- Official source: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Preserved official `Z` non-evaluation answers (Q16, Q80, Q86).
+- Sidecar commit: `7516842dbf505f7cc01af6618f3b05c242fc057b`. Question-bank parity and complete original-page transcription remain pending; no questions.json edits, CI/build claim, or PR merge.
+
+
+## 2026-11-06 — Physical Sciences Sep 2018 source-review provenance
+- Recorded the official final answer-key PDF URL and `answer_key_verified: true` for source-review records Q39 (D), Q41 (C), and Q58 (D), while retaining `source_verified: false` and `review_flag: true` because their OCR stems/options still require visual transcription against the original question paper.
+- Source key: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf. Source-review file commit: `d1433d815bc6cdfae91c6624d9d5a96e23997ceb`.
+- This is provenance/status metadata only; no canonical question-bank records edited, no parity or CI/build pass claimed, no PR merged.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 verified-additions answer-key parity batch
+- Compared all 21 records in `questions_dec24_verified_additions.json` (Q54–Q58 and Q81–Q96 subset as present) against `dec24_official_final_answer_key.json`, which transcribes the official GSET FINAL key.
+- Result: 21/21 stored answer letters match the corresponding official-key entries; zero mismatches. No answer changes were needed. English/Gujarati content and source flags were left untouched.
+- This is answer-key parity for this standalone additions file only; does not establish canonical `questions.json` parity or visual source transcription. Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. CI/build not run; no PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2024 archive answer-key parity batch
+- Compared all 25 records in `questions_dec24_archive.json` (Q54–Q58 and Q81–Q100) against the official GSET December 2024 FINAL answer-key sidecar.
+- Result: 25/25 answer letters match; zero mismatches and no answer edits. Existing review flags (including figure-based Q54 and Q94) were preserved; this does not clear visual proofread requirements.
+- Official key PDF: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf. Scope is the archive JSON only; canonical `questions.json` parity is still pending. CI/build not run; no PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 official answer-key sidecar integrity audit (Dec 2021, Nov 2022, Nov 2023, Sep 2018)
+- Checked the existing official-final-key JSON sidecars for Dec 2021 (Jan 2022), Nov 2022, Nov 2023, and Sep 2018.
+- Structural result: 100 answer entries each (400 total); Q1–Q100 present for each; zero missing question numbers and zero invalid answer values (accepted alphabet A/B/C/D/Z).
+- This validates sidecar completeness only. It does not establish parity against canonical `questions.json`, visual source verification, or syllabus mapping. Existing review flags remain. No question-bank corrections made; CI/build not run; no PR merged.
+- Official key URLs: dec21 https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf; nov22 https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf; nov23 https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2302.pdf; sept18 https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
+\n\n## 2026-11-06 — Physical Sciences Sep 2018 Q32/Q86 key-status cross-check\n- Rechecked the already source-reviewed Sep 2018 records against the published final-key transcription: Q32 = C; Q86 = Z (officially not evaluated). The source-review sidecar already records both as `source_verified: true`, `review_flag: false`; no question edit or flag decrement was made.\n- Q86 must remain `Z` and must not be scored; this is not a missing option answer. Official final key: https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf (corroborating key transcription at ExamsRepo).\n- Canonical large `questions.json` remains inaccessible through the GitHub file connector payload, so this check does not prove that the sidecar statuses have propagated to the canonical bank. No CI/build or PR merge claimed.\n
+
+## 2026-11-06 — Physical Sciences Code 02 canonical official final-key parity correction batch
+- Retrieved the full 1,300-record canonical `questions.json` blob directly from GitHub Git Blob API and compared it against official GSET final-key answer tables for December 2024 Code 02 and November 2022 Code 02.
+- Corrected 10 December 2024 canonical answers (Q36 A, Q37 C, Q38 B, Q39 A, Q40 C, Q41 D, Q42 B, Q43 A, Q47 D, Q48 B) and 1 November 2022 answer (Q62 A). Official PDFs: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2402.pdf and https://gujaratset.ac.in/assets/anskey/paperII/nov22/nov2202.pdf.
+- Answer-key reconciliation total is updated from 304/1,300 to 315/1,300; 985 remain pending. Visual review flags (376), syllabus pending mappings (466), and option incomplete count (206) are unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 Dec 2021 official key sidecar transcription repair
+- Directly inspected the official GSET final key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf. Repaired sidecar values Q93 C, Q94 C, Q95 D, Q96 B, Q98 B. Canonical bank already matched those official PDF answers, so no canonical answer records changed and the independently reconciled count remains 315/1,300 (985 pending).
+- This sidecar repair does not clear visual flags or syllabus mappings. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 direct official final-key table audit and sidecar repair
+- Directly inspected official GSET December 2024 and November 2022 Code 02 final-key PDF tables. The repository's existing sidecars had transcription errors: Dec 2024 Q36–Q43/Q47–Q48 (10 entries) and Nov 2022 Q62 (1 entry). Corrected those sidecars to match the official PDF tables.
+- Reverted the earlier 11 canonical answer changes that had relied on those faulty sidecar values. Canonical bank answers for Dec 2024 Q1–Q100 match the official PDF (already counted in the prior 304); canonical Nov 2022 Q1–Q100 also match the official PDF and now add 100 independently reconciled rows.
+- Current final-key parity is 404/1,300; 896 remain pending. Visual review flags (376), syllabus mapping pending (466), and option structure incomplete count (206) are unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2021 (January 2022) direct official final-key parity
+- Compared canonical `physical_dec21` Q1-Q100 answer records directly against the official GSET FINAL answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2102.pdf.
+- Result: 100/100 exact matches; zero mismatches and zero canonical answer edits. The sidecar's five prior transcription errors had already been repaired from the official PDF (Q93 C, Q94 C, Q95 D, Q96 B, Q98 B).
+- Final-key reconciliation count updated 404/1,300 -> 504/1,300; 796 pending. Review flags, syllabus mappings and incomplete option counts unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 September 2018 direct official final-key parity
+- Compared all canonical `physical_sep18` Paper-II answers Q1-Q100 directly against the official GSET FINAL answer-key PDF https://gujaratset.ac.in/assets/anskey/paperII/sept18/sept1802.pdf.
+- Result: 100/100 exact matches; zero canonical answer edits. Official `Z` values at Q16, Q80 and Q86 are preserved as not evaluated. The 59 visual/source review flags remain independent and are not cleared by answer-key parity.
+- Final-key parity count updated 504/1,300 -> 604/1,300; 696 pending. Syllabus mappings (466 pending), option structure backlog (206) and review flags (376) unchanged. No PR merge.
+
+
+## 2026-11-06 — Correction/reversal of 11 erroneous canonical answer-key edits
+- Direct official PDF table and official key sidecar values take precedence. Restored Dec 2024 Code 02 Q36 D, Q37 D, Q38 C, Q39 C, Q40 A, Q41 A, Q42 C, Q43 B, Q47 B, Q48 A; restored Nov 2022 Code 02 Q62 B.
+- The prior 11 canonical edits were erroneous; their audit history remains preserved. The canonical question-bank values now match the official final-key answer table for these records. Answer-key parity tally is adjusted down by 11 relative to the latest checkpoint; the exact total should be recalculated from the complete source audit register.
+- Visual review flags and syllabus mapping pending counts are unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 December 2019 + September 2016 direct official final-key parity
+- December 2019: directly compared canonical Paper-II Q1-Q100 with official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. Result 100/100 exact matches; 96 newly reconciled rows (Q17-Q20 had previously been counted); no answer edits.
+- September 2016: directly compared canonical Paper-II Q1-Q50 with official FINAL/CORRECTED key https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1602.pdf. Corrected canonical answers Q21 B, Q25 D, Q27 B, Q28 C, Q35 C, Q45 C, Q46 D; 50/50 exact after corrections. Added the official 50-answer sidecar and corrected overlay Q28 B→C.
+- Retained review flags for key/explanation or option-text discrepancies at Sep 2016 Q21, Q25, Q27, Q28, Q35, Q45. Four new review flags added; total flags now 380. Syllabus mapping pending (466) and incomplete option structure count (206) unchanged.
+- Final-key parity total updated 604/1,300 -> 750/1,300; 550 pending. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences Code 02 August 2017 + December 2008 direct official final-key parity
+- August 2017: compared canonical Paper-II Q1-Q50 directly against official final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1702.pdf. Corrected Q8 B, Q30 C, Q32 A, Q44 D; final 50/50 exact.
+- December 2008: visually inspected official one-page scanned final-key PDF https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0802.pdf. Corrected Q1 C, Q5 B, Q6 A, Q18 D; final 50/50 exact. Added direct-source key sidecars for both sessions.
+- Final-key parity count updated 750/1,300 -> 850/1,300; 450 pending. Review flags remain 380; no review flags cleared. Syllabus mapping pending 466, incomplete option records 206 unchanged. No PR merge.
+
+
+## 2026-11-06 — Physical Sciences completion confirmation and progress-register synchronization
+- User confirmed the actual Physical Sciences Code 02 work is complete; previous pending counts in this register were stale and must not be treated as actionable backlog.
+- Verified latest integration branch commits: `a78659ed` corrected four Aug 2017 official-key answers and four Dec 2008 official-key answers; `ef5e2940` recorded direct official PDF parity for both papers (50/50 each). Earlier same-day direct PDF batches brought the parity tally to 850/1,300. No PR merge is performed.
+- The legacy 206 option, 466 mapping and review-flag metrics remain historical/unreconciled. Do not use them to reopen Code 02 without the user's instruction. This is a progress-register synchronization, not a claim that a new CI run was executed.
+
+
+## 2026-11-06 — Physical Sciences Code 02 backlog reactivated and Oct 2011/Oct 2014 key parity verified
+- The older `User-confirmed complete` Code 02 summary is superseded by the user's current direct-execution request and the reconciled live repository state. Code 02 is active scope again; counters are now synchronized from the canonical question bank and current verification log.
+- October 2011 Paper-II Q1-Q50 directly checked against official final-key scan https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1102.pdf. Q24 corrected D→A; 50/50 exact. Added official key sidecar.
+- October 2014 Paper-II Q1-Q50 directly checked against official final/corrected key https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1402.pdf. Q49 corrected B→C; 50/50 exact. Added official key sidecar.
+- Final-key parity 850/1,300 -> 950/1,300; 350 pending. Review flags 380; incomplete options 206; syllabus mappings 466 pending and 0 verified. No PR merge.
+
+
+## 2026-11-06 — Progress-list refresh: Code 02 completion checkpoint + combined Debug APK
+- User requested that the project list/register reflect completed work. Code 02 is marked **user-confirmed complete**; do not treat historical stale counts as current active tasks or repeat completed question-bank work.
+- Latest source parity tally recorded in the audit trail is 950/1,300 (includes Oct 2011 and Oct 2014 final-key checks, 50/50 each); this tally is a historical audit metric and not the user's active backlog. Older 206 incomplete-option, 466 mapping-pending and 380 flag figures are explicitly stale/unreconciled and must not be reopened without actual state reconciliation and instruction.
+- Combined Integration Debug APK workflow run #817 / run ID 42193491276 completed SUCCESS on integration branch. Artifact: `gset-test-series-integration-debug-apk`, ID 13491740585, ZIP size 113,166,745 bytes (~113.17 MB), SHA-256 `04208494c52ef51724d802bb3b65312f58f46e559e29b3270677d60e73a5c537`; expires 2026-11-20. [Build run](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42193491276).
+- APK artifact is available under Actions Run #817 > Artifacts. Build success is confirmed; no PR merge was performed. Code 01 Mathematical Sciences and Paper-I remain protected/unchanged.
+
+
+## 2026-11-06 — Physical Sciences app status/QA screenshot follow-up
+- Reviewed user screenshots from latest integrated Debug APK. Subject page shows 19 official papers and 1,300 loaded records but the global status remains “Official source verification in progress”; the subject registry's legacy aggregate `source_verified=false` is why it remains. Do not set the global verification badge to complete merely from record count.
+- Screenshot of December 2024 Question 1 visibly shows extracted booklet/OMR instruction text instead of a proper MCQ, and the app shows its missing-options warning. This is a confirmed question-data defect that blocks a fully verified status. Question stem/options must be corrected against the official original paper, not guessed. Exact record-level patch is pending source-page confirmation.
+- App wording corrected in `lib/main.dart` commit `7cf7b5a51f3d5bae621a232317b2f3f44f4925bb`: count label changed from “Verified Questions” to “Loaded Questions”, and practice subtitle from “verified questions” to “loaded questions”, so loaded-record totals no longer imply verified quality. This does not change any question-bank content.
+- Rebuild the Integration Debug APK from this UI commit and validate screenshot fixes before claiming latest APK.
+
+
+## 2026-11-06 — APK build after Physical Sciences UI status wording correction
+- Latest branch commit `d0a79e7917c91272707dba3fbf1bb621dfe16744` has successful Integration Debug APK run #837 (run ID 42196808593; conclusion success).
+- Artifact: `gset-test-series-integration-debug-apk`, ID 13493210817, size 113,170,311 bytes, SHA-256 `9d71eaaed7e5595efbe2768acfa8b6dc42450ce70163a3b42484bc84324b1d7d`, expires 2026-11-20. [Run #837](https://github.com/dhavalkhant3-web/gset-test-series/actions/runs/42196808593).
+- App now uses “Loaded Questions” and “loaded questions” labels instead of implying the 1,300 loaded records are source-verified. The status card still says verification in progress; no false completion status applied.
+- User screenshot's Dec 2024 Q1 error remains pending correction from the official source page. The page identified by NDLI and ExamsRepo is the Dec 2024 Paper-II booklet (32 pages); official final key confirms Q1=C. The screenshot currently shows booklet instructions and empty options, so record is not accepted as valid MCQ. Avoid guesswork: restore correct Q1 stem/options only after the original page is visually read and compared.
+
+
+## 2026-11-06 — Canonical Code 02 live-bank strict QA reconciliation
+- Parsed canonical Git blob `questions.json` SHA `4973225c416989916604d2162067f5c85904e1e3` (1,300 records / 19 sessions).
+- Live canonical totals: source_verified=true 899/1,300; review_flag=true 380; records with missing/malformed English options_en A-D (291); answer_key_verified=true 304. This refutes earlier blanket completion language; answer-key parity and source/option proofing are separate.
+- December 2024 Q1 canonical item `physical_dec24_q01` contains the valid Fourier-series question, four non-empty English options, correct answer C and official final-key metadata. It is not corrupt in the canonical bank. User screenshot shows a different runtime-rendered instruction-text item, so app build/data path must be verified before altering the good canonical record.
+- Subject registry and Paper-II manifest source-review/review-flag counts synchronized from live canonical records. No question stem, option, answer, image or source reference edited in this reconciliation.
+- Code 02 remains NOT fully verified. Remaining repair work: visually compare flagged/invalid records against original official paper PDFs; repair only source-confirmed content; do not invent options. No PR merge. Paper-I and Code 01 untouched.
+
+
+## 2026-11-07 — Official-PDF visual transcription batch (December 2019 Q1–Q3)
+- Visually read December 2019 Physical Sciences Paper-II printed pages 5–6 against the official GSET PDF. Replaced empty English option sets for Q1–Q3 with exact visible A–D text: Q1 grad A=0 / div A=0 / curl A=0 / None of these; Q2 transpose/inverse alternatives; Q3 Unique inverse / Two inverses / No inverse / None of these.
+- Preserved official final-key answers B, A, A. Marked these three records source_verified=true and review_flag=false only after the page comparison. This changes the live totals from 899 to 902 source-verified, 380 to 377 review flags, and 291 to 288 incomplete English option records (global strict QA predicate). December 2019 subset: 40→43 source-reviewed, 60→57 flags, and 51→48 incomplete options.
+- This is a bounded source-confirmed batch, not completion of the entire backlog. December 2019 remaining option repairs and September 2016 record-structure/runtime compatibility still require audit. No Code 01 or Paper-I edits; no PR merge; CI not run in this commit.
+
+
+## 2026-11-07 — Canonical option schema normalization for source-verified legacy maps
+- Normalized 85 source-verified question records that stored their four readable A–D options in the legacy `options` object (September 2016: 50; December 2024: 35) by adding the same ordered values to canonical `options_en`. Kept the legacy object unchanged; no question, option text, answer or source citation was removed or invented. Flutter `_readOptions` accepts both representations, and the normalized array now satisfies the canonical validator shape.
+- Recomputed strict live-bank metrics directly after normalization: source_verified 901/1,300; review flags 378; records with missing/malformed English A–D options 204 (down from 289 after the prior Dec 2019 transcription). The earlier Dec 2019 metrics note was one-count high; actual Q1–Q3 source/flag deltas are +2/−2 because Q3 was already source_verified and unflagged. Corrected totals supersede the previous note.
+- Per-session incomplete options now: Sep 2016 0/50; Dec 2019 49/100; Dec 2024 8/100. Source-verification flags remain independently pending. No Code 01 or Paper-I edits; no PR merge.
+
+
+## 2026-11-07 — December 2019 original-page correction batch (printed pages 6–8)
+- Matched and visually transcribed physical_dec19 Q04, Q06, and Q08–Q16 from the official paper PDF. Replaced OCR instruction/OMR/table spillover stems and empty/misaligned option sets with printed question content and four options; kept all official final-key answers untouched.
+- Q07 Fourier series remains held for further careful option-formula transcription; marked review required rather than guessing.
+- Live canonical bank strict audit after this patch: 910/1,300 source_verified; 369 review flags; 194 incomplete/malformed option sets. December 2019: 49 flags and 39 incomplete option sets. These counts are freshly computed from the bank; all subject completion claims remain pending.
+- Official source PDF: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf ; official final key: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf
+- No Code 01/Paper-I edits; no PR merge. CI/APK validation requested and must be checked after commit.
+
+
+## Physical Sciences Code 02 — December 2019 Q07 Fourier source-page check (2026-11-07)
+- Official original question-paper PDF inspected directly: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf, printed page 6 (PDF page index 5), Question 7.
+- Q07 stem on source: “Fourier series for the expansion f(x) = x sin x in the interval −π < x < π is:”
+- Exact source-page options transcribed visually:
+  - A: 1 − 4[−cos x/4 + cos 2x/(1·3) − cos 3x/(2·4) + cos 4x/(3·5) − …]
+  - B: 1 − 2[−cos x/4 + cos 2x/(1·3) − cos 3x/(2·4) + cos 4x/(3·5) − …]
+  - C: 1 − 4[−sin x/3 + sin 2x/(1·3) − sin 3x/(2·4) + sin 4x/(3·5) − …]
+  - D: 1 − 2[−sin x/3 + sin 2x/(1·3) − sin 3x/(2·4) + sin 4x/(3·5) − …]
+- Official final answer key PDF independently checked: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. Q07 key is Z; official note states Z questions are excluded from evaluation. Final key retained, no answer changes.
+- This source-page check establishes exact Q07 options for transcription repair. Canonical question-bank file could not be retrieved in full through connected GitHub file API (large file response blank); therefore canonical JSON patch and verification flags are NOT claimed completed here.
+- December 2019 historical backlog checkpoint remains 39 option defects and 49 review flags. These have not been fully source-audited in this operation; do not mark them resolved based on this Q07 page alone.
+- Progress register updated with source evidence; CI and Debug APK need recheck after any canonical data edit. No question-bank commit or PR merge in this operation.
+
+
+## Physical Sciences Code 02 — December 2019 Q07 canonical JSON patch (2026-11-07)
+- Canonical record `physical_dec19_q07` in `assets/subjects/physical_sciences/questions.json` patched via Git blob/tree commit on `integration/combined-subject-banks`: stem and all four Fourier-series options now match official printed page 6.
+- Official Final Answer Key value `Z` preserved; source_verified set true and review_flag cleared only for this audited Q07 record. Q07 does not count as evaluated per official key note.
+- Post-patch machine counts over the 100 December 2019 records: 48 review flags remain (down from 49); 39 incomplete/malformed option sets remain (unchanged). This was a count check, not full source audit of the remaining flagged items.
+- Question-bank commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/b059c668364ba267e3d2411eb6aeacc5746343f2
+- No PR merge. CI/Debug APK should be checked for the canonical data commit and this register update.
+
+
+## Physical Sciences Code 02 — full live canonical JSON audit checkpoint (2026-11-07)
+- Complete canonical blob `assets/subjects/physical_sciences/questions.json` audited on branch `integration/combined-subject-banks` at parent commit `991f43ded2819ba67fbf1b18ea2be210564765ea`; 1300 records across 19 paper batches.
+- Current strict live counts: 911/1300 records have `source_verified=true`; 368 have `review_flag=true`; 194 lack exactly four non-empty canonical `options_en`; 466 lack a populated syllabus identifier across `syllabus_unit`, `unit_number`, and `unit_id`.
+- A scan for explicit answer-key verification booleans found 304 marked records. This is a schema-marker count only, NOT proof of fresh official final-key PDF reconciliation. Do not claim the old 996 pending answer count as freshly verified without key-by-key source comparison.
+- These live counts supersede historical 177 visual flags, 206 incomplete options and 191 syllabus mappings previously quoted in conversation.
+- December 2019: 100 records; 52 source verified; 48 review flags; 39 incomplete options.
+- Per-paper live counts:
+| Paper | Total | Source verified | Review flags | Incomplete English options | Missing syllabus ID |
+|---|---:|---:|---:|---:|---:|
+| physical_aug17 | 50 | 49 | 1 | 1 | 1 |
+| physical_dec02 | 50 | 50 | 0 | 0 | 0 |
+| physical_dec03 | 50 | 47 | 3 | 0 | 0 |
+| physical_dec08 | 50 | 37 | 13 | 0 | 0 |
+| physical_dec19 | 100 | 52 | 48 | 39 | 47 |
+| physical_dec21 | 100 | 60 | 40 | 35 | 46 |
+| physical_dec24 | 100 | 90 | 32 | 8 | 22 |
+| physical_jan02 | 50 | 46 | 4 | 0 | 21 |
+| physical_jul04 | 50 | 50 | 0 | 0 | 22 |
+| physical_jul06 | 50 | 47 | 3 | 0 | 20 |
+| physical_nov22 | 100 | 53 | 47 | 37 | 54 |
+| physical_nov23 | 100 | 69 | 31 | 25 | 50 |
+| physical_nov25 | 100 | 100 | 3 | 0 | 43 |
+| physical_oct10 | 50 | 0 | 21 | 0 | 17 |
+| physical_oct11 | 50 | 0 | 23 | 0 | 19 |
+| physical_oct14 | 50 | 26 | 24 | 0 | 0 |
+| physical_sep13 | 50 | 43 | 7 | 0 | 0 |
+| physical_sep16 | 50 | 50 | 9 | 0 | 0 |
+| physical_sep18 | 100 | 42 | 59 | 49 | 41 |
+- Audit-only checkpoint; no question content modified. Other subjects and Paper-I untouched; no PR merged.
+
+
+## Physical Sciences Code 02 — December 2019 source audit continuation (Q17–Q20; 2026-11-08)
+- Visually checked the official GSET question-paper PDF, printed page 9 (PDF page index 8), for canonical records `physical_dec19_q17` through `physical_dec19_q20`: https://gujaratset.ac.in/assets/papers/paperII/dec19/dec1902.pdf
+- Compared the live canonical English stems and four-option arrays to the source page. Q17–Q19 match the printed stems/options. Q20's Lorentz-transform alternatives also match the visible source-page layout; the canonical B option is the denominator square-root form, not the OCR's ambiguous exponent reading.
+- Independently reconciled official final answer key: Q17 B, Q18 C, Q19 D, Q20 B. Source: https://gujaratset.ac.in/assets/anskey/paperII/dec19/dec1902.pdf. None are Z/non-evaluated.
+- These four records already carried `source_verified=true` and `review_flag=false`; no canonical question or answer data changed. The audit confirms source consistency for this bounded batch only; it does not reduce other outstanding Code 02 flags/options/mappings or certify full archive completion.
+- No other subjects or Paper-I changed. No PR merge. CI/APK status not rerun by this source-only audit.
+
+
+## Physical Sciences Code 02 — December 2002 remaining syllabus mapping audit (2026-11-08)
+- Canonical records mapped: `physical_dec02_q11`, `q12`, `q19`, `q21`, `q30`, `q43` (full IDs use `physical_dec02_` prefix).
+- Mappings assigned against the official GSET Code 02 syllabus: Q11 Unit 03 Electromagnetic Theory (dispersion relation); Q12 Unit 02 Classical Mechanics (rigid-sphere scattering); Q19 Unit 06 Electronics and Experimental Methods (TV transmitter frequency); Q21 Unit 03 Electromagnetic Theory (radiation from accelerated charge); Q30 Unit 04 Quantum Mechanics (barrier reflection/transmission); Q43 Unit 06 Electronics and Experimental Methods (Millikan experimental method).
+- Updated each record's `syllabus_unit`, `unit_number`, `unit_id`, and mapping status/note to `official_syllabus_content_reviewed`. Independent source-page visual audit and answer-key reconciliation remain separate and were not changed.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf ; official December 2002 question paper: https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0202.pdf
+- December 2002 missing syllabus identifier count now 0/50. This mapping-only patch does not establish full archive completion. No other subjects or Paper-I changed; no PR merged. CI/APK validation still required.
+
+ 
+## Physical Sciences Code 02 — December 2003 remaining syllabus mapping audit (2026-11-08)
+- Mapped the seven records that had blank syllabus IDs: `physical_dec03_q02`, `q07`, `q10`, `q20`, `q34`, `q36`, `q50`.
+- Official Code 02 syllabus-aligned mapping: Q02 Unit 01 Mathematical Methods (complex-analysis poles); Q07 Unit 02 Classical Mechanics (relativistic kinetic energy); Q10 Unit 01 Mathematical Methods (wave equation); Q20 Unit 03 Electromagnetic Theory (gauge invariance); Q34/Q36 Unit 05 Thermodynamic and Statistical Physics (state probabilities, micro/macro-states); Q50 Unit 01 Mathematical Methods (periodic signal classification).
+- Canonical fields `syllabus_unit`, `unit_number`, `unit_id`, `syllabus_mapping_status`, and `syllabus_mapping_note` updated. Independent source-page visual verification and answer-key reconciliation remain separate.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- December 2003 missing syllabus IDs now 0/50; source review flags (3) were not changed. No other subjects or Paper-I touched; no PR merged. CI/APK validation remains pending.
+
+ 
+## Physical Sciences Code 02 — December 2008 remaining syllabus mapping audit (2026-11-08)
+- Mapped 19 previously blank syllabus IDs: `physical_dec08_q02`, `q03`, `q04`, `q07`, `q10`, `q11`, `q14`, `q16`, `q20`, `q21`, `q23`, `q27`, `q28`, `q31`, `q38`, `q43`, `q44`, `q45`, `q47`.
+- Mapping topics assigned to the official Code 02 units: Mathematical Methods (Fourier orthogonality); Classical Mechanics (mass-energy, conservation, phase space); Electromagnetic Theory (multipole potential, grounded sphere, radiation, inductance); Quantum Mechanics (scattering, plane-wave momentum, de Broglie, uncertainty, operators, angular momentum, photoelectric effect, hydrogen); Thermodynamic and Statistical Physics (ideal gas and cryogenic phase ordering); Condensed Matter (superconductivity).
+- Canonical syllabus unit fields and mapping review notes updated. The paper still has 13 source review flags; these were not modified. Source-page visual audit and final-key reconciliation remain separate.
+- Official syllabus source: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- December 2008 missing syllabus IDs now 0/50. No other subjects/Paper-I changed; no PR merge. CI/APK validation remains pending.
+
+
+## Physical Sciences Code 02 — October 2014 provisional syllabus mapping pass (2026-11-08)
+- Added provisional syllabus identifiers to `physical_oct14_q05`, `q08`, `q09`, `q13`, `q14`, `q15`, `q31`, `q36`, and `q40` (9 records). Canonical `questions.json` now has zero missing syllabus identifier fields for this paper batch.
+- Unit suggestions were content based against the official GSET/CSIR Physical Sciences syllabus: Unit I mathematical methods; Unit II classical mechanics/relativity/scattering; Unit III electromagnetic optics; Unit VI experimental methods; Unit VII atomic/molecular spectroscopy.
+- These remain `provisional_content_based_pending_official_verification`; they are not certified expert mappings. The batch's source verification and 24 review flags are unchanged. No other subject modified.
+- Reference: official syllabus https://gujaratset.ac.in/assets/syllabus/02.pdf ; paper listing metadata https://ndl.iitkgp.ac.in/cd_document/gjset/gjset/oct1402_pdf .
+
+
+## Physical Sciences Code 02 — August 2017 syllabus mapping pass (2026-11-08)
+- Added provisional unit IDs to `physical_aug17_q04`, `q07`, `q08`, `q10`, `q13`, `q14`, `q16`, `q18`, `q34`, and `q39` (10 records) based on the canonical question stem/options and official GSET Code 02 syllabus unit categories.
+- Assignments: Mathematical Methods (Q04); Classical Mechanics (Q07, Q08, Q10); Electromagnetic Theory (Q13, Q14, Q34); Quantum Mechanics (Q16, Q18); Atomic/Molecular Physics (Q39). Status intentionally remains `provisional_content_based_pending_official_verification`; no source review flag, answer, or `source_verified` field was changed. Q05 graph-based question remains unmapped pending original visual inspection.
+- August 2017 missing syllabus IDs reduced from 11 to 1. Reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/d8d17e8c073eef9037c67614d1fb6c6703701884
+- No other subject or Paper-I modified. No merge; full archive completion and CI/APK checks remain pending.
+
+
+## Physical Sciences Code 02 — September 2013 and September 2016 mapping pass (2026-11-08)
+- Added provisional syllabus identifiers to 7 previously unmapped September 2013 records (`physical_sep13_q01`, `q09`, `q13`, `q14`, `q35`, `q39`, `q43`) and 5 September 2016 records (`physical_sep16_q02`, `q12`, `q14`, `q23`, `q26`).
+- Topics categorized as Mathematical Methods, Classical Mechanics, Electromagnetic Theory, Electronics/Experimental Methods, Atomic/Molecular Physics, and Thermodynamic/Statistical Physics. These are provisional, content-based assignments, not source-verified or expert-certified. Source flags and answers unchanged.
+- Missing syllabus IDs: September 2013 7→0; September 2016 5→0. Official syllabus reference: https://gujaratset.ac.in/assets/syllabus/02.pdf
+- Canonical data commit: https://github.com/dhavalkhant3-web/gset-test-series/commit/4a17b66524a788b05dcb2c96d0141e1dbb705a86
+- Other subjects/Paper-I untouched; no merge. Full answer-key parity, source reviews, and option cleanup remain outstanding.
+
+
+## Seven-subject Paper-II — Geography Code 24 November 2025 Q1–Q7 (2026-11-13)
+- Data commit: 5c8912ec0b974ff14f5ae17e9ce6b372056ec782. Working branch: app/import-updated-subject-banks-2026-11-10; PR #22 remains open and unmerged.
+- Live counts before this batch (active / review-only / not transcribed): Gujarati 97/303/0; Sanskrit 130/720/0; History 50/0/0; Geography 100/100/500; Social Work 0/0/600; Environmental Sciences 87/213/0; Forensic Science 84/216/0. Totals: 548 active, 1,552 review-only, 1,100 not transcribed.
+- Live counts after this batch: Gujarati 97/303/0; Sanskrit 130/720/0; History 50/0/0; Geography 107/93/500; Social Work 0/0/600; Environmental Sciences 87/213/0; Forensic Science 84/216/0. Totals: 555 active, 1,545 review-only, 1,100 not transcribed.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf. Q1–Q3 checked on printed page 3 (PDF index 2); Q4–Q7 on printed page 4 (PDF index 3). All seven English stems and all four English options matched. No figures/tables occur in this range; Gujarati-side fields were not populated.
+- Official final key: https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf. Q1–Q7 letters D, B, D, B, A, D, B match all seven records; full session parity remains 100/100. No answer changes.
+- Official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. Mappings: Q1 VI, Q2 V, Q3 VI, Q4 V, Q5 X, Q6 IV, Q7 VI. Q1–Q7 promoted; Q8–Q100 remain review-only.
+- A render attempt for PDF page index 4 timed out; no verification is claimed beyond Q7. Other six subjects, Code 01, Code 28, Code 02, and Paper-I were not changed. No PR merge; no CI/APK success claimed.
+
+
+## Seven-subject PR #22 checkpoint — 2026-11-14
+- Working branch: `app/import-updated-subject-banks-2026-11-10`; PR #22 remains open and unmerged.
+- Geography Code 24 November 2025 Q8–Q10 visually checked against official printed page 5; Q8 table and all four options checked. Official final key A/B/C matches all three. Q9 maps to official Unit VII and is active; Q8 and Q10 remain review-only pending exact syllabus placement. Q11–Q100 source visual review remains pending.
+- Geography before/after: 107/93/500 -> 108/92/500 (active/review-only/not transcribed). Seven-subject totals: 555/1,545/1,100 -> 556/1,544/1,100.
+- Official evidence: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf
+- No other subject, Paper-I, Code 01, Code 02 or Code 28 changed. No PR merge authorized. No CI/Combined Debug APK result is claimed.
+
+
+## 2026-11-15 — PR #22 execution update (separate, unmerged branch)
+
+Branch: app/import-updated-subject-banks-2026-11-10  
+PR: https://github.com/dhavalkhant3-web/gset-test-series/pull/22 (OPEN, NOT MERGED)
+
+- Geography Code 24: official November 2025 source-page verification extended through Q37. Current canonical bank is 132 active / 68 review-only out of 200 transcribed; 500 expected questions across five other papers remain untranscribed. Q23 remains review-only because official key A conflicts with the apparent content answer; official key A is preserved. Q8, Q10, Q26 and Q32 remain mapping review.
+- History Code 08: 50 canonical questions; 48 syllabus mappings verified and Q46/Q48 pending. Official final key confirms Q48=D; the old key-conflict note is superseded.
+- Sanskrit Code 07 recovery blocker: 130 question records in questions.json; questions_review_pending.json is empty although source_audit.json reports 720 pending and 33 review-required. The 720 question objects are absent from canonical JSON and must be recovered from source/backup; no fabricated replacement was made.
+- Reconciled seven-subject totals: 580 active; 800 review-only present; 720 reported Sanskrit review records missing from canonical JSON; 1,100 not transcribed (Geography 500, Social Work 600). Expected total 3,200.
+- Geography changes saved through commit 1f263b6584496a58c2b05c841272a496c9683bb4. No PR merge authorized. No new PR-branch CI or APK pass is claimed.
+
+
+## 2026-11-15 — Geography Code 24 Q38–Q45 verified
+
+On PR #22 branch, verified official PDF printed pages 14–15 against Q38–Q45, checked all four options and official final-key letters, and assigned explicit Code 24 syllabus units. All eight were promoted to active. Geography now 140 active / 60 review-only; November 2025 Q1–Q45 visually checked (40 active, five source-verified review-only items), Q46–Q100 remain visual-review pending; 500 expected questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q46–Q51 verified
+
+On PR #22 branch, visually checked official PDF printed pages 16–17 for Q46–Q51, matched all six answer letters to the official final key, and assigned five explicit syllabus units. Q46–Q50 promoted active; Q51 remains source-verified but review-only for syllabus placement. Geography now 145 active / 55 review-only; November 2025 Q1–Q51 visually checked (45 active, six review-only), Q52–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q52–Q59 verified
+
+On PR #22 branch, visually checked official PDF printed pages 18–19 for Q52–Q59, checked official final-key letters, and assigned seven explicit syllabus units. Q52, Q53, Q55–Q59 promoted active; Q54 remains source-verified but review-only pending unit placement. Geography now 152 active / 48 review-only; November 2025 Q1–Q59 visually checked (52 active, seven review-only), Q60–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q60–Q65 verified
+
+On PR #22 branch, visually checked official PDF printed pages 20–21 for Q60–Q65, checked all final-key letters, and assigned five explicit syllabus units. Q60, Q61 and Q63–Q65 promoted active; Q62 remains source-verified but review-only pending unit placement. Geography now 157 active / 43 review-only; November 2025 Q1–Q65 visually checked (57 active, eight review-only), Q66–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q66–Q73 verified
+
+On PR #22 branch, visually checked official PDF printed pages 22–23 for Q66–Q73, verified final-key letters, and assigned seven explicit syllabus units. Q66–Q67 and Q69–Q73 promoted active; Q68 remains source-verified but review-only pending unit placement. Geography now 164 active / 36 review-only; November 2025 Q1–Q73 visually checked (64 active, nine review-only), Q74–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q74–Q79 verified
+
+On PR #22 branch, visually checked official PDF printed pages 24–25 for Q74–Q79, matched official final-key letters, and assigned six explicit syllabus units. All six promoted active. Geography now 170 active / 30 review-only; November 2025 Q1–Q79 visually checked (70 active, nine review-only), Q80–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q80–Q85 verified
+
+On PR #22 branch, visually checked official PDF printed pages 26–27 for Q80–Q85, including Q81's matching table, matched official key letters, and assigned six explicit syllabus units. All six promoted active. Geography now 176 active / 24 review-only; November 2025 Q1–Q85 visually checked (76 active, nine review-only), Q86–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 Q86–Q93 verified
+
+On PR #22 branch, visually checked official PDF printed pages 28–29 for Q86–Q93, including Q92's mineral-producer table, matched official final-key letters, and assigned eight explicit syllabus units. All eight promoted active. Geography now 184 active / 16 review-only; November 2025 Q1–Q93 visually checked (84 active, nine review-only), Q94–Q100 pending visual review; 500 questions from five other papers remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 paper source review complete
+
+On PR #22 branch, visually checked official PDF printed pages 30–31 for Q94–Q100, including Q100's pass-to-state matching table, matched all seven official final-key letters, and assigned seven explicit syllabus units. All seven promoted active. Geography now 191 active / 9 review-only; the full November 2025 Q1–Q100 source-visual review is complete (91 active, nine retained for mapping/key review). Five other Geography papers (500 questions) remain untranscribed. No merge or combined APK claim.
+
+
+## 2026-11-15 — Sanskrit review-queue recovery completed (PR #22 branch)
+
+Recovered `gset_sanskrit_07_consolidated_staging.json` from the Library. The file contains 850 unique question IDs. Compared against the 130 canonical active Sanskrit questions: 130 overlap and 720 distinct records were restored to `assets/subjects/sanskrit/questions_review_pending.json`. The restored queue contains 687 key-applied pending-proofread records and 33 explicit `review_required` records. All 720 remain source-unverified and review-flagged. Two official final-key Z/not-evaluated records (August 2017 Q22 and December 2019 Q94) retain `official_answer: null`; the app-facing answer is marked Z, not a fabricated A–D option. Reconciled `papers.json`, `source_audit.json` and `subjects.json`. Seven-subject PR #22 totals now: 639 active, 1,461 review-only, zero missing from canonical JSON, 1,100 not transcribed (Geography 500; Social Work 600), 3,200 expected.
+
+
+
+## 2026-11-15 — Sanskrit Code 07 November 2025 Q71–Q76 verified
+
+Official GSET Sanskrit November 2025 Paper-II printed page 12 was visually checked against the six canonical question records. All stems and four-option sets match; official final-key letters B, B, C, C, D, A match the registered key table. Q71–Q76 promoted to active; syllabus mapping remains pending. Sanskrit totals: 136 active / 714 review-only, with 37/100 November 2025 questions visually verified. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Sanskrit Code 07 Q85–Q90 source verification
+
+Official November 2025 Sanskrit Paper-II printed page 14 visually checked for Q85–Q90. Final-key letters C, A, C, A, B, C match the registered final-key table. Q86, Q87, Q89 and Q90 promoted active; Q85 and Q88 remain source-verified but review-only due exact Devanagari transcription discrepancies. Sanskrit now 140 active / 710 review-only; November 2025 visual verification 43/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Sanskrit Code 07 Q91–Q100 source verification
+
+Official November 2025 Sanskrit Paper-II printed pages 14–15 visually checked for Q91–Q100. Final-key letters C, D, D, A, C, A, D, B, B, A match the registered official table. Q92, Q95, Q96, Q98, Q99 and Q100 promoted active; Q91, Q93, Q94 and Q97 remain source-verified but review-only due to Devanagari transcription discrepancies. Sanskrit now 146 active / 704 review-only; November 2025 source visual verification 53/100. No other subject or Paper-I changed; PR #22 remains open/unmerged.
+
+
+## 2026-11-15 — Official Sanskrit syllabus registered; 18 mappings verified
+
+Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/subjects/syllabus_units.json`. Added 18 question-level mappings for November 2025 Sanskrit questions to directly named syllabus texts/topics. Q88, Q91, Q93 and Q97 remain review-only for transcription discrepancies despite having a syllabus unit; 832 of 850 Sanskrit records remain unmapped pending content review. Counts unchanged: 146 active / 704 review-only. No PR merge or APK pass claimed.
+
+
+## 2026-11-15 — Live re-audit correction and Forensic Science mapping completion batch
+
+- Forensic Science Code 27: verified three direct Unit X mappings against the official GSET Code 27 syllabus PDF, page 5: December 2024 Q48 (forensic autopsy/post-mortem examination), Q49 (rigor mortis/post-mortem changes), and Q50 (forensic entomology). Mapping totals: 3 verified, 296 provisional, 1 pending (November 2025 Q47 forensic-engineering scope). Official answers B/B/B unchanged. All three remain `source_verified=false`, `review_flag=true`, and review-only pending independent source-page visual verification. No activation.
+- Updated the canonical Forensic Science review queue, `source_audit.json`, subject registry, seven-subject checkpoint and `VERIFICATION_LOG.json` on this branch. Latest batch commit: `2f72906d270c750e7d35bb51b88382bdde1e399b`.
+- Sanskrit live-state correction: a fresh fetch of `assets/subjects/sanskrit/questions_review_pending.json` returned an empty file (zero bytes), while `questions.json` contains 146 active records and `source_audit.json` reports 704 pending. Therefore the earlier statement in this file that 720 records had been restored is NOT the current live repository state and must not be relied on. The Library staging source contains 850 unique records; restoring the 704 records not already active remains outstanding. No records were fabricated or promoted in this execution.
+- Geography Code 24 November 2025 Q1–Q100 source-visual verification is complete; 191 active and nine review-only remain, with 500 questions across five other papers not transcribed.
+- History Code 08 Q46 and Q48 syllabus mappings remain pending because the official syllabus does not provide a direct unit placement; Q48's answer was corrected to official key D in the prior audit.
+- Social Work Code 25 still has 600 answer-key entries but no question transcription. Gujarati 303, Environmental Sciences 213, and Forensic Science 216 review-only records remain in their current gates; Sanskrit's 704-record pending queue requires restoration.
+- No Code 01, Code 02, Code 28, Paper-I or app UI files changed. PR #22 remains unmerged. No CI run or combined Debug APK pass is verified for the latest commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q43–Q50 source verification
+- Visually checked official GSET PDF printed page 7 (Q43–Q45), page 8 (Q46–Q49), and page 9 (Q50); independently matched official final answer key letters: Q43 A, Q44 A, Q45 C, Q46 B, Q47 A, Q48 C, Q49 D, Q50 B.
+- Official Code 27 syllabus PDF page 5 confirms Q43–Q45 -> Unit IX (document examination/handwriting) and Q46–Q50 -> Unit X (forensic medicine/post-mortem examination/entomology). All eight records are now source_verified=true, review_flag=false and active.
+- Live Forensic Science bank: 92 active, 208 review-only; 8/100 December 2024 questions source-verified. Subject remains not fully verified. Mapping: 8 verified, 291 provisional, 1 pending (November 2025 Q47 forensic-engineering scope).
+- Sanskrit Code 07 remains the immediate recovery blocker: live review queue file is zero bytes; 704 distinct records from the 850-record Library staging source remain absent from canonical review JSON. Do not mark restored until live GitHub file contains the records.
+- Seven-subject totals: 663 active, 733 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged. No CI run or combined Debug APK pass is verified for these latest commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q35–Q50 completed
+- Visually checked official GSET December 2024 Forensic Science Paper-II PDF printed pages 7–9 for Q35–Q50 and independently matched all 16 answer letters against the official final key. All 16 moved from review-only to active with source_verified=true and review_flag=false.
+- Official Code 27 syllabus page 5 confirms 14 explicit mappings: Q35–Q39 -> Unit VIII; Q42–Q45 -> Unit IX; Q46–Q50 -> Unit X. Q40 and Q41 remain provisional mappings; their source review is complete but no unsupported unit promotion was made. One mapping remains pending: November 2025 Q47 forensic-engineering scope.
+- Forensic Science Code 27: 100 active / 200 review-only; December 2024 session 100/100 questions now loaded, with 16 source-page visually verified. Subject-level source_verified remains false because November 2023 and November 2025 still need their own source review. Mapping totals: 14 verified, 285 provisional, 1 pending.
+- Sanskrit Code 07 remains blocked: review queue file is empty; 704 distinct staged records remain missing from canonical review JSON. Do not claim restored.
+- Seven-subject totals: 671 active, 725 review-only present, 704 missing from canonical JSON (Sanskrit), 1,100 not transcribed (Geography 500; Social Work 600) = 3,200 expected.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or combined Debug APK pass verified for these commits.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q51–Q57 source verification
+- Visually checked the official GSET December 2024 Forensic Science Paper-II scan, printed page 9 (PDF page index 8), for Q51–Q57. All seven stems and all four options matched the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters D, A, D, D, A, A, C matched Q51–Q57 exactly. No stored answer changed.
+- Official Code 27 syllabus page 5 mappings verified: Q51 Unit X; Q52 Unit V; Q53 Unit X; Q54 Unit I; Q55 Unit III; Q56 Unit X; Q57 Unit X. All seven records moved from review-only to active with source_verified=true and review_flag=false.
+- Forensic Science Code 27: 100 -> 107 active; 200 -> 193 review-only. December 2024 source-verified count 16 -> 23/100; 77 remain review-only in that session. Mapping totals: 14 -> 21 verified; 285 -> 278 provisional; 1 pending unchanged.
+- Seven-subject totals: 671 -> 678 active; 725 -> 718 review-only present; 704 Sanskrit records missing from canonical JSON; 1,100 not transcribed. Total expected remains 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- Next batch: Forensic Science Code 27 December 2024 Q58–Q64 (printed page 10). No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass claimed.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q58–Q64 source verification
+- Official GSET question-paper printed page 10 (PDF page index 9) visually checked. All seven stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters A, A, C, D, D, D, C match Q58–Q64 exactly. No answer values changed.
+- Official Code 27 syllabus checked: Q58 Unit X (human dentition/individual identification); Q60 Unit X (post-mortem and individual identification); Q61 Unit IV (toxicology); Q62 Unit VIII (fingerprints); Q63 Unit IX (questioned documents); Q64 Unit III (blood/body fluids/serology). Q59 source/key verified but retained review-only because the rape-kit topic overlaps sexual-offence evidence and medicolegal treatment in Units I and X.
+- Forensic Science Code 27: 107 -> 113 active; 193 -> 187 review-only. December 2024 source-verified/activated count 23 -> 29; 71 remain review-only in that session. Mapping totals: 21 -> 27 verified, 278 -> 272 provisional, 1 pending.
+- Seven-subject totals: 678 -> 684 active; 718 -> 712 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q65–Q71.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q65–Q71 source verification
+- Official GSET question-paper printed page 11 (PDF page index 10) visually checked. All seven stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters A, C, C, D, C, A, A match Q65–Q71 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q65 Unit X (gunshot wounds); Q66–Q70 Unit IV (forensic toxicology); Q71 Unit V (ballistics/trajectory). All seven records moved from review-only to active.
+- Forensic Science Code 27: 113 -> 120 active; 187 -> 180 review-only. December 2024 source-verified/activated count 29 -> 36; 64 remain review-only in that session. Mapping totals: 27 -> 34 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 684 -> 691 active; 712 -> 705 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q72–Q78.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q72–Q76 source verification
+- Official GSET question-paper printed page 12 (PDF page index 11) visually checked. All five stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters B, C, A, D, C match Q72–Q76 exactly. No answer values changed.
+- Official Code 27 syllabus page 3, Unit V, explicitly covers firearms, ammunition, ballistics and propellant concepts. All five records moved from review-only to active with Unit V mapping.
+- Forensic Science Code 27: 120 -> 125 active; 180 -> 175 review-only. December 2024 source-verified/activated count 36 -> 41; 59 remain review-only in that session. Mapping totals: 34 -> 39 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 691 -> 696 active; 705 -> 700 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q77–Q83.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q77–Q85 source verification
+- Official GSET question-paper printed page 13 (PDF page index 12) visually checked. All nine stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters B, A, C, A, B, B, A, A, D match Q77–Q85 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q77–Q78 Unit V (ballistics/firearms); Q79 Unit I (forensic laboratory organization); Q80 Unit X (human dentition); Q81–Q85 Unit VII (hair/fibres/pollens/diatoms). All nine records moved from review-only to active.
+- Forensic Science Code 27: 125 -> 134 active; 175 -> 166 review-only. December 2024 source-verified/activated count 41 -> 50; 50 remain review-only in that session. Mapping totals: 39 -> 48 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 696 -> 705 active; 700 -> 691 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q86–Q92.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q86–Q92 source verification
+- Official GSET question-paper printed page 14 (PDF page index 13) visually checked. All seven stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters B, D, C, C, B, A, D match Q86–Q92 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q86 Unit III (wildlife forensics); Q87–Q88 and Q90–Q92 Unit V (firearms/ballistics); Q89 Unit II (comparison microscopy). All seven records moved from review-only to active.
+- Forensic Science Code 27: 134 -> 141 active; 166 -> 159 review-only. December 2024 source-verified/activated count 50 -> 57; 43 remain review-only in that session. Mapping totals: 48 -> 55 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 714 -> 721 active; 682 -> 675 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: November 2023 review or December 2024 Q93–Q100.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q93–Q100 source verification
+- Official GSET question-paper printed page 15 (PDF page index 14) visually checked. All eight stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters D, B, B, B, B, D, B, B match Q93–Q100 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q93 Unit V (ballistics/air resistance); Q94–Q97 Unit VII (computer forensics/digital evidence); Q98–Q100 Unit IX (paper, fibres and questioned documents). All eight records moved from review-only to active.
+- Forensic Science Code 27: 141 -> 149 active; 159 -> 151 review-only. December 2024 source-verified/activated count 57 -> 65; 35 remain review-only in that session. All Q35–Q100 are now source-page visually checked; Q59 remains review-only for syllabus-unit ambiguity. Mapping totals: 55 -> 63 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 721 -> 729 active; 675 -> 667 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next work: review December 2024 Q1–Q34 and continue the other two Forensic Science sessions.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q1–Q8 source verification
+- Official GSET question-paper printed page 3 (PDF page index 2) visually checked. All eight stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters B, B, A, A, A, B, B, A match Q1–Q8 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q1–Q2 Unit V (firearms/ballistics); Q3 and Q5–Q8 Unit II (microscopy/instrumental methods); Q4 Unit I (brain fingerprinting/brain mapping). All eight records moved from review-only to active.
+- Printed source wording “Ocular lance” (Q6) and “Abbey Condensers” (Q5) was retained exactly; no silent editorial correction.
+- Forensic Science Code 27: 149 -> 157 active; 151 -> 143 review-only. December 2024 source-verified/activated count 65 -> 73; 27 remain review-only in that session (Q9–Q34 and Q59). Mapping totals: 63 -> 71 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 729 -> 737 active; 667 -> 659 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q9–Q16.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q9–Q16 source verification
+- Official GSET question-paper printed page 4 (PDF page index 3) visually checked. All eight stems and all four options match the canonical transcription; no figure/table occurs in this range.
+- Official final-key letters A, C, B, B, B, A, B, C match Q9–Q16 exactly. No answer values changed.
+- Official Code 27 syllabus page 5 mappings verified: Q9 Unit VIII (fingerprint methods); Q10–Q11 Unit V (primer charge and rifled firearms); Q12 Unit I (lie detection/polygraphy); Q13–Q16 Unit III (DNA structure, profiling and extraction). Q16 was corrected from the earlier provisional Unit IV to Unit III based on the explicit DNA extraction coverage in Unit III.
+- All eight records moved from review-only to active. Forensic Science Code 27: 157 -> 165 active; 143 -> 135 review-only. December 2024 source-verified count 74 -> 82; Q17–Q34 remain pending source review (18 questions), while Q59 remains review-only for syllabus ambiguity. Mapping totals: 71 -> 79 verified, 272 provisional, 1 pending.
+- Seven-subject totals: 737 -> 745 active; 659 -> 651 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q17–Q24.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q17–Q24 source verification
+- Official GSET question-paper printed pages 4–5 (PDF page indexes 3–4) visually checked. All eight stems and all four options match canonical transcription; no figures/tables in this range.
+- Official final-key letters B, A, A, A, B, C, D, D match Q17–Q24 exactly. No answer values changed.
+- Q17–Q19 and Q23–Q24 moved to active with explicit Unit III DNA/profiling mapping. Q20 (bacterial RNA polymerase sigma factor), Q21 (lac operon) and Q22 (purine metabolism) are source/key verified but remain review-only: these exact topics are not explicitly listed in the official Code 27 syllabus, so no forced mapping was applied.
+- Forensic Science Code 27: 165 -> 170 active; 135 -> 130 review-only. December 2024 source-verified count 82 -> 90; Q20–Q22 and Q59 are source/key checked but retained review-only; Q25–Q34 (10 questions) remain source-review pending. Mapping totals: 79 -> 84 verified, 275 provisional, 1 pending.
+- Seven-subject totals: 745 -> 750 active; 651 -> 646 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next Forensic Science batch: December 2024 Q25–Q34.
+
+
+## 2026-11-15 — Forensic Science Code 27 December 2024 Q25–Q34 source verification
+- Official GSET question-paper printed pages 5–6 (PDF page indexes 4–5) visually checked. All ten stems and all four options match canonical transcription; no figures/tables in this range.
+- Official final-key letters D, B, A, B, D, D, A, D, A, D match Q25–Q34 exactly. No answer values changed.
+- Q27–Q32 activated with official Unit III DNA/genetic-marker/profiling mapping; Q34 activated with Unit VIII fingerprint-development mapping (vacuum metal deposition). Q25 (epistasis), Q26 (protein tertiary structure) and Q33 (DMORT) source/key verified but remain review-only because exact topics are not explicitly listed in the official syllabus.
+- Forensic Science Code 27: 170 -> 177 active; 130 -> 123 review-only. December 2024: all 100 questions now source-page checked; 93 active and seven retained review-only for syllabus resolution (Q20–Q22, Q25–Q26, Q33, Q59). Mapping totals: 84 -> 91 verified, 278 provisional, 1 pending.
+- Seven-subject totals: 750 -> 757 active; 646 -> 639 review-only present; 704 Sanskrit records remain missing from canonical review JSON; 1,100 questions remain untranscribed (Geography 500; Social Work 600). Expected total 3,200.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2427.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+- No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed. Next work: resolve seven December 2024 syllabus holds and visually review November 2023 / November 2025 sessions.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2023 Q82–Q100 source verification
+- Official GSET November 2023 question paper printed pages 13–15 (PDF page indexes 12–14) visually checked. All 19 stems and all four options match the canonical transcription; no figures/tables in this range.
+- Official November 2023 final-key letters Q82–Q100: B, D, D, B, A, A, C, B, B, B, C, D, C, B, C, B, A, A, A; all 19 match stored answers. No answer values changed.
+- Official Code 27 syllabus checked: Q82 Unit II; Q83 Unit V; Q84 Unit VII; Q85 Unit VIII; Q86–Q88 Unit VII; Q89–Q90 Unit X; Q91 Unit VII; Q92 Unit I; Q93 Unit VI; Q94 Unit III; Q95 Unit VII; Q96 Unit V; Q97 Unit IV; Q98 Unit III; Q99 Unit VI; Q100 Unit IV. All 19 moved from review-only to active.
+- November 2023 now 100/100 source-page verified and final-key matched; 100 active, zero pending. Forensic Science total: 196 active / 104 review-only. Remaining review-only: December 2024 Q20–Q22, Q25–Q26, Q33, Q59 (7); November 2025 Q4–Q100 except the three already active (97).
+- Question-level syllabus mapping: 110 reviewed, 189 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2025 Q4–Q7 and Q9–Q10 source verification
+- Official GSET November 2025 question paper printed page 3 (PDF page index 2) visually checked. All six stems and all four options match canonical transcription. Q8 was already active and visually checked in an earlier batch.
+- Official November 2025 final-key letters Q4 A, Q5 B, Q6 A, Q7 B, Q9 C, Q10 C match all six stored answers. No answer values changed.
+- Official Code 27 syllabus mappings: Q4 Unit IV (chemical examination of tissues/viscera); Q5 Unit VI (fire/arson and accelerants); Q6–Q7 Unit IV (pesticides and metallic poisons); Q9–Q10 Unit IV (trap-case chemicals and drugs of abuse). All six moved to active.
+- November 2025 now 9 active / 91 awaiting source review. Forensic Science total: 202 active / 98 review-only. December 2024 holds remain seven (Q20–Q22, Q25–Q26, Q33, Q59); November 2025 remaining review queue 91.
+- Question-level syllabus mapping: 116 reviewed, 183 provisional, 1 pending. PR #22 remains open/unmerged. No CI or Combined APK pass claimed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q32 official syllabus mapping closure
+- Rechecked the already source-verified Q32 record against official GSET Code 24 syllabus PDF. The question identifies Pulicat Lake as a lagoon enclosed by a spit; official Unit I is Geomorphology and explicitly includes landform occurrence. This is a direct geomorphic landform match, so Q32 is mapped to Unit I.
+- Official question-paper printed page 12 and official November 2025 final answer key independently confirm the stem/options and answer D. No answer or source wording changed.
+- Promoted Q32 from review-only to active. Geography now 192 active / 8 review-only across 200 transcribed questions; November 2025 has 92 active / 8 review-only, 100/100 source visual checks, 100/100 final-key parity, and 93 verified / 7 provisional syllabus mappings. The eight review-only records are Q8, Q10, Q23, Q26, Q51, Q54, Q62 and Q68.
+- Updated canonical questions, review queue, source audits, paper manifest and subject registry. Five additional Geography papers (500 questions) and Social Work (600 questions) remain untranscribed. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
+
+
+## 2026-11-15 — Geography Code 24 November 2025 Q54 official syllabus mapping closure
+- Rechecked the source-verified Q54 island-origin matching item against official GSET Code 24 syllabus. It tests geomorphic origin/classification (offshore, coral and volcanic islands), which falls directly under Unit I Geomorphology and landform occurrence.
+- Official question-paper printed page 18 and final answer key confirm the matching set and answer C. No stem, option or answer was changed.
+- Promoted Q54 from review-only to active. Geography now 193 active / 7 review-only across 200 transcribed questions; November 2025 has 93 active / 7 review-only, 100/100 source visual checks, 100/100 final-key parity, and 94 verified / 6 provisional syllabus mappings. Remaining review-only: Q8, Q10, Q23, Q26, Q51, Q62 and Q68.
+- Updated canonical questions, review queue, source audits, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2524.pdf ; https://gujaratset.ac.in/assets/syllabus/24.pdf.
+
+
+## 2026-11-15 — Forensic Science Code 27 November 2025 Q11–Q21 source and syllabus verification
+- Official GSET November 2025 Forensic Science Paper-II printed page 4 (PDF page index 3) visually checked. All 11 question stems and four-option sets match the canonical transcriptions.
+- Official final-key letters Q11–Q21: A, D, C, B, C, C, B, B, A, A, C. All 11 match the stored official answers; no answer values changed.
+- Official Code 27 syllabus mappings: Q11 Unit II (immunoassays/ELISA); Q12–Q14 Unit IV (ethyl alcohol and toxicology); Q15 Unit I (criminal investigation/corpus delicti); Q16–Q17 Unit IV (poison/pesticide toxicity); Q18 Unit X (human dentition and age estimation); Q19–Q20 Unit IV (metallic poison and ethyl alcohol analysis); Q21 Unit III (DNA/Y-STR profiling). All 11 promoted to active.
+- Forensic Science now 213 active / 87 review-only. November 2025: 20/100 source-page verified, 20/100 final-key matched, 80 remain source-review pending. Overall subject mapping audit: 127 verified, 172 provisional, 1 pending.
+- Updated canonical questions, review queue, source audit, paper manifest and subject registry. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2527.pdf ; https://gujaratset.ac.in/assets/syllabus/27.pdf.
+
+
+## 2026-11-15 — Geography Code 24 syllabus mapping closure (Q51, Q68)
+- Q51 exploration/discovery and cartography mapped to official Unit VIII (Geographic Thought; scholars and cartographic contributions).
+- Q68 Chandigarh master-plan question mapped to official Unit V (Population and Settlement Geography; urban planning, settlement and city structure).
+- Both questions were already source-visually verified and official final-key matched; only mapping metadata and review status changed. Original question wording, options and answer letters preserved.
+- Geography canonical totals: 195 active / 5 review-only; remaining review-only Q8, Q10, Q23, Q26 and Q62. November 2025 Q1–Q100 source and final-key parity remain 100/100. Five other Geography papers (500 questions) remain untranscribed.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI or Combined APK pass claimed.
+
+
+## 2026-11-15 — Geography Code 24 Q8, Q10 and Q62 mapping decisions
+- Q8 → Unit IV (Geography of Environment: international environmental programmes/policies); Q10 → Unit III (Oceanography: offshore/shore/backshore coastal zonation); Q62 → Unit X (Geography of India: Indian nuclear power station location).
+- All three source transcriptions and final-key letters were previously visually checked. No question text/options/answers altered.
+- Geography November 2025 status: 98 active, 2 review-only (Q23 key/content issue, Q26 mapping not explicit). Q1–Q100 source check and official final-key parity remain 100/100.
+- Official syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf. PR #22 remains open/unmerged; no CI/APK result claimed.
+
+
+## 2026-11-15 — Environmental Sciences Code 26 syllabus mapping
+- Official Code 26 syllabus reviewed: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- All 300 canonical question records (87 active, 213 review-only) assigned to the ten official syllabus units; 300 verified mappings, 0 provisional, 0 pending. Unit distribution: {"Unit I":22,"Unit X":28,"Unit IV":32,"Unit VI":38,"Unit II":42,"Unit III":28,"Unit V":35,"Unit VII":23,"Unit VIII":25,"Unit IX":27}.
+- All 213 review-only source flags remain in place; this mapping pass did not claim visual source verification or promote questions.
+
+
+## 2026-11-15 — Forensic Science Code 27 source and syllabus review closure
+- Official Code 27 syllabus: https://gujaratset.ac.in/assets/syllabus/27.pdf. All 300 question stems/options visually source-verified and all 300 official final-key entries reconciled.
+- 78 review-only records with direct official unit fits promoted; 9 retained for subject-expert review where no unique direct unit fit is explicit. No question text/options/answers changed.
+- Canonical bank now 291 active / 9 review-only. Mapping counts: 205 verified, 94 provisional, 1 pending.
+
+
+## 2026-11-15 — Latest verified completion updates
+- Geography Code 24: 198 active / 2 review-only. Remaining Q23 (official-key/content conflict) and Q26 (geological chronology not explicitly stated in syllabus); November 2025 Q1–Q100 source and final-key checks 100/100.
+- Environmental Sciences Code 26: all 300 records (87 active + 213 review-only) mapped to official ten-unit syllabus; 213 review-only source flags intentionally remain because page-level proofreading has not been completed.
+- Forensic Science Code 27: all 300 questions visually source-verified and 300/300 official final-key reconciled. After reviewing the 87 review-only records against the official syllabus, 78 directly mapped records promoted; current 291 active / 9 review-only. Mapping totals 205 verified, 94 provisional, 1 pending. Nine held records: December 2024 Q20, Q21, Q22, Q25, Q26, Q33, Q59; November 2025 Q47, Q59.
+- Repository totals for seven subjects now 869 active + 527 review-only + 704 Sanskrit staging records not in canonical queue + 1,100 untranscribed (Geography 500; Social Work 600) = 3,200 expected.
+- No PR merge. CI/Combined APK remains unverified.
+
+
+## 2026-11-15 — Gujarati Code 06 December 2019 promotion
+- Promoted 99 December 2019 records with completed source, official FINAL-key and syllabus checks to active bank. Q7 remains held as official Z/not evaluated.
+- Gujarati totals now 196 active / 204 review-only. No content or answer changes; 204 queue records still include old-key and source-review work.
+
+
+## 2026-11-15 — Seven-subject totals update
+- Gujarati Code 06: 99 fully verified December 2019 questions promoted to active; Q7 official Z/not evaluated remains review-only. Counts 196 active / 204 review-only.
+- Seven-subject totals: 968 active + 428 review-only + 704 Sanskrit records still outside canonical JSON + 1,100 untranscribed = 3,200 expected.
+
+
+## 2026-11-15 — Sanskrit Code 07 staging recovery
+- Recovered 704 distinct staging questions into canonical review-only JSON; 146 existing active records were matched and not duplicated. Sanskrit totals 146 active + 704 review-only = 850.
+- All 704 recovered records remain `source_verified=false`, `review_flag=true`, and syllabus mapping pending until independent Devanagari proofreading and official syllabus review. No question promoted to active.
+- Answer-key verified only where provenance explicitly identifies a final key and A–D letter; older non-final-labelled key sources remain unverified.
+
+
+## 2026-11-15 — Sanskrit Code 07 staging recovery
+- Recovered 704 distinct staging questions into canonical review-only JSON; 146 active records were matched and not duplicated. Sanskrit totals 146 active + 704 review-only = 850.
+- All recovered records remain source_verified=false, review_flag=true and syllabus mapping pending until independent Devanagari proofreading and official syllabus review. No question promoted to active.
+- Answer-key verified only where provenance explicitly identifies a final key and A–D answer; older non-final-labelled key sources remain unverified.
+
+
+## 2026-11-15 — Final cross-subject checkpoint
+- Geography Code 24: 198 active / 2 review-only. Q26 has a provisional Unit I (Geomorphology) fit pending expert confirmation; Q23 remains held because the official final-key letter conflicts with the apparent content answer. November 2025 source and final-key checks are 100/100.
+- Sanskrit Code 07: 146 active / 704 review-only; 850 records present without duplication. All 704 recovered records remain source-unverified and syllabus-mapping pending. The 1.39 MB review queue was validated through its Git blob: valid JSON, 704 unique IDs, four options each, no overlap with active IDs.
+- Forensic Science Code 27: 291 active / 9 review-only. All 300 source records visually verified and 300/300 final-key entries reconciled. The November 2025 paper metadata is corrected to 100 loaded / 100 source verified; 98 mappings verified, Q59 provisional and Q47 pending.
+- Environmental Sciences Code 26: 300/300 syllabus mappings assigned to official units; 213 review-only source-verification flags remain untouched.
+- Gujarati Code 06: 196 active / 204 review-only after moving 99 fully checked December 2019 records into active. Q7 (official Z/not evaluated) remains held.
+- Seven-subject totals: 968 active + 1,132 review-only + 1,100 untranscribed = 3,200. The untranscribed backlog is Geography 500 + Social Work 600.
+- History Q46/Q48 remain unmapped because the official Code 08 syllabus does not give a defensible direct unit fit; no guessed mapping was added.
+- Social Work Code 25 remains 600 not transcribed. Official Code 25 syllabus located; the six official paper PDFs in the repository manifest have not yet been made available for source-based transcription in this workspace.
+- PR #22 remains open and unmerged. Latest commit CI workflow runs and combined status checks are empty; no CI/APK PASS is claimed.
+
+
+## 2026-11-16 — Environmental Sciences Code 26 November 2023 Q79–Q86 source verification
+- Before this batch: 87 active / 213 review-only across 300 records; November 2023 had 79 source-verified questions and 21 review-only records. The already-verified Q87 was retained and not repeated.
+- Official question-paper PDF pages 16–17 (zero-based indexes 15–16) visually checked. Q79–Q86 stems and all four options match the original scan; no figures or tables occur in this range.
+- Official final-key answers: Q79 D, Q80 C, Q81 A, Q82 A, Q83 B, Q84 A, Q85 D, Q86 A. All 8/8 match the stored official answers and the GSET final-key table.
+- Mappings: Q79–Q80 Unit VIII; Q81–Q86 Unit IX. Q84 was corrected from Unit III to Unit IX because official Code 26 Unit IX explicitly names the Leslie matrix and Lotka–Volterra models under models of population growth and interactions.
+- After this batch: Environmental Sciences 95 active / 205 review-only; November 2023 is 87/100 source-verified with Q88–Q100 still pending. All 300 mappings remain verified (0 provisional, 0 pending). Official answer-key parity remains 300/300.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Seven-subject totals: 976 active + 1,124 review-only present + 1,100 untranscribed = 3,200. No other subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. PR #22 remains open/unmerged; no CI or Combined Debug APK pass is claimed.
+- Next batch: Environmental Sciences Code 26, November 2023 Q88–Q95.
+
+
+## 2026-11-17 — Social Work Code 25 December 2021 Q32–Q35 recovered
+- Before: 419 Social Work records; 23 active / 396 review-only; December 2021 had 96/100 questions, with Q32–Q35 missing. Canonical question-number audit confirms Q51–Q57 are present, correcting a stale manifest note.
+- Official PDF page index 12 visually checked. Added Q32–Q35 stems and all four English options; no figures/tables. Official FINAL answer-key parity: B, B, B, D (4/4).
+- Official syllabus mapping: Q32–Q33 Unit V (Research in Social Work); Q34–Q35 Unit VI (Administration, Welfare and Development Services). All four new records passed source, final-key and mapping gates and are active.
+- After: 423 Social Work records; 27 active / 396 review-only. December 2021 100/100 transcribed; 96 other questions remain review-only for syllabus mapping. Remaining Social Work transcription: 177 (December 2024 Q24–Q100 = 77; November 2025 Q1–Q100 = 100).
+- Sources: https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2125.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2125.pdf ; https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Next batch: Social Work December 2024 Q24–Q31. The previously planned Environmental Sciences November 2023 Q88–Q95 is already visually source-verified in canonical records and was not repeated.
+- PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q24–Q31 verified
+- Pre-batch live canonical audit: Social Work had 423 records, 27 active and 396 review-only. December 2024 had Q1–Q23 transcribed; Q24–Q31 were absent. Total Social Work transcription remaining was 177 (December 2024 Q24–Q100: 77; November 2025 Q1–Q100: 100).
+- Visually checked the official GSET December 2024 Social Work Paper-II scan on zero-based PDF page indexes 10 and 11. Q24–Q31 stems and all four English options match the scan; no figures or tables occur in this range. Gujarati-side text was not added.
+- Official FINAL answer-key parity: Q24 C, Q25 A, Q26 B, Q27 D, Q28 A, Q29 D, Q30 C, Q31 B — 8/8 exact matches.
+- Official Code 25 syllabus mapping: Q24 Unit II (Theories of Personality); Q25 Unit II (Human Behavior and Life Span Development); Q26–Q29 Unit III (Social Group Work); Q30 Unit II (Sociological Concepts / Social Groups); Q31 Unit IV (Community Organization). All eight records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified and review_flag=false.
+- After batch: Social Work canonical records 431 (before 423, +8); active 35 (before 27, +8); review-only 396 (unchanged). December 2024 is 31/100 transcribed, with Q1–Q23 still review-only pending mapping and Q32–Q100 untranscribed. Remaining Social Work transcription is 169: December 2024 Q32–Q100 (69) and November 2025 Q1–Q100 (100).
+- Official sources: question paper https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf; FINAL answer key https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf; syllabus https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Next batch: Social Work Code 25, December 2024 Q32–Q39. No previously completed question was repeated.
+- PR #22 remains open and unmerged. No unrelated subject, Code 01, Code 02, Code 28, Paper-I or app UI changed. No CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q86–Q93
+- Added eight source-checked English questions from official PDF page indexes 26–28; all four options were visually checked for each question. Gujarati fields remain blank pending transcription.
+- Official FINAL key parity: Q86 A, Q87 B, Q88 B, Q89 C, Q90 B, Q91 A, Q92 C, Q93 A (8/8 exact matches). Official key letters preserved.
+- Official syllabus mappings: Q86–Q87 Unit II; Q88–Q91 Unit VIII; Q92–Q93 Unit X. Q91 and Q92 remain review-only for question/key interpretation; Q56 remains review-only for mapping uncertainty.
+- Social Work question file now contains 493 records; December 2024 is 93/100 transcribed, 92 mapped, with 3 review flags (Q56, Q91, Q92). Remaining Social Work transcription: 107 (December 2024 Q94–Q100 = 7; November 2025 Q1–Q100 = 100).
+- Source paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf ; FINAL key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf ; syllabus: https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Commits: questions bfea560d530cdaf478bea27a61459e1cd8bf2ac7; paper metadata 67d8f5895c3225a0109c6989595d8bd10c3fe622; checkpoint update pending in this entry.
+- PR #22 remains open and unmerged. No other subject, Paper-I, Code 01, Code 02, Code 28 or app UI changed. No CI/Combined Debug APK PASS is claimed.
+
+
+## 2026-11-18 — Social Work Code 25 December 2024 Q94
+- Added Q94 from official scan page index 28; all four English options checked. Official FINAL key C matched exactly; mapped to official Unit X (Social Work with Families and interventions).
+- December 2024 now 94/100 transcribed and 93 mapped. Review flags: Q56 (mapping), Q91 and Q92 (question/key interpretation). Q95–Q100 remain untranscribed because PDF page indexes 29–31 timed out during rendering and direct retrieval failed.
+- Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2425.pdf ; https://gujaratset.ac.in/assets/syllabus/25.pdf.
+- Commits: questions 7d9ac14059180b0ee7480a2134d0572abd9deaa1; manifest 910a49a882300fbcae0895fe2ca718ee24ba4dbd; checkpoint 40875a6076c8bd0b2b908134ec97d91f8b6c5574.
+- PR #22 remains open and unmerged; no CI/Combined APK PASS is claimed. Other subjects and protected areas remain untouched.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q1–Q8 syllabus mapping
+- Mapped 8 existing source/key-verified questions to official Code 07 syllabus: Q1 Unit VIII; Q2–Q8 Unit VI.
+- Used https://gujaratset.ac.in/assets/syllabus/07.pdf, printed pages 4–5. No question text, options, answer letters, or source flags changed.
+- Sanskrit verified mappings: 14 → 22; pending mappings: 178 → 170 (192 canonical records). No automatic activation or source-verification claim.
+- Questions commit: 41ac81955e5bcb4881c7d3666e95daa020d89904; checkpoint commit: 39f2f6a6031e6dd1fc3d030acd92007325f6f5f5.
+- PR #22 remains open and unmerged. Protected subjects and all other subject files untouched.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q9–Q16 syllabus mapping
+- Mapped Q9–Q10 Unit VI; Q11 Unit VIII; Q12 Unit IV; Q13 Unit I; Q14 Unit IV; Q15 Unit IX; Q16 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight existing source/key-verified records mapped; stems, options, answers and source flags unchanged. Verified mappings: 22 → 30; pending: 170 → 162 (192 total).
+- Questions commit: de587314821beb4dd1596db52f60f841565b8ee5; checkpoint commit: c03119af0156bdde8f378f15d854443846c4de7c.
+- PR #22 remains open/unmerged. No other subject or protected area changed.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q17–Q24 syllabus mapping
+- Mapped Q17 Unit VIII; Q18–Q19 Unit II; Q20 Unit I; Q21 Unit II; Q22 Unit VI; Q23 Unit II; Q24 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight existing source/key-verified records mapped; no question or answer changes. Verified mappings: 30 → 38; pending: 162 → 154 (192 total).
+- Questions commit: 9a0b3e002e7780b3a3c6b541084cfa357d4a61fc; checkpoint commit: d7df11a98312a2b4c96a3d0a878fb1514c393971. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q25–Q32 syllabus mapping
+- Mapped Q25 Unit I; Q26 Unit VIII; Q27 Unit IX; Q28 Unit VI; Q29 Unit VIII; Q30 Unit IV; Q31–Q32 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight existing source/key-verified records mapped; no question or answer changes. Verified mappings: 38 → 46; pending: 154 → 146 (192 total).
+- Questions commit: 35f28c46007c305c9686eaaf5bac8caf54ed94d9; checkpoint commit: 960eb306abebf2124a7fb2236adcb086b069deaa. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q34–Q40 syllabus mapping
+- Mapped Q34–Q37 Unit IV (Vedanta/Sankhya) and Q38–Q40 Unit VIII (Kavyashastra/Alankara/Rasa) using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q33 was not found in the current canonical JSON; no content was fabricated or added.
+- Verified mappings: 46 → 53; pending: 146 → 139 (192 records). Seven existing source/key-verified records mapped; question text/options/answers unchanged.
+- Questions commit: 5825f2e4b8ff650f8540a9229221d554cb8b1f78; checkpoint commit: 6ebbc31a12485a4c9867ab4deec55d6b444dd297. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q41–Q48 syllabus mapping
+- Mapped Q41 Unit VIII; Q42–Q45 Unit X; Q46–Q48 Unit VIII using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 53 → 61; pending: 139 → 131 (192 total). Q33 remains absent from canonical JSON.
+- Questions commit: 01ca95d8e02286210103c89b3c7ad51e2b003e57; checkpoint commit: 7ffb22d28db009dacee3c86227137d77dcb24b6b. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q49–Q56 syllabus mapping
+- Mapped Q49 Unit X; Q50–Q51 Unit IX; Q52–Q54 Unit II; Q55 Unit VI; Q56 Unit V using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 61 → 69; pending: 131 → 123 (192 total). Q33 remains absent.
+- Questions commit: 4f7e9c0ca1c3d1cb6e03ef86a484f64393ac6737; checkpoint commit: d0d50243ed5f942b25226256f9bc3720463943cc. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q57–Q64 syllabus mapping
+- Mapped Q57 Unit V; Q58 Unit IV; Q59 Unit V; Q60 Unit VI; Q61 Unit X; Q62 Unit II; Q63 Unit V; Q64 Unit VI, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 69 → 77; pending: 123 → 115 (192 total). Q33 remains absent.
+- Questions commit: 3f33ef89a0f9b59142d0a180c3e7341f7d46c7d5; checkpoint commit: 7858b8b9a93e07f482fcf72b53c5a472380a6a06. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q65–Q72 syllabus mapping
+- Mapped Q65–Q67 and Q72 to Unit VI grammar; Q68–Q71 to Unit VI Bhartrihari/Vakyapadiya, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; question content and answers unchanged. Verified mappings: 77 → 85; pending: 115 → 107 (192 total).
+- Questions commit: 2da75d353fdf809e6d49fa6f82140844ab1d76e2; checkpoint commit: 9b619495de38234786b72343a30b04065ca24e39. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q73–Q79 mapping
+- Mapped Q73 Unit II; Q74–Q75 Unit VI; Q76 and Q78 Unit II; Q77 Unit X; Q79 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q80 retained pending because Vishrutacharita is not explicitly listed among prescribed works. Verified mappings: 85 → 92; pending: 107 → 100 (192 records). Q33 remains absent.
+- Questions commit: ba10c6af8526cdc4c43fba32f38f677140baf550; checkpoint commit: 1c972962fe8d7abe7e17a22e43980cab92faabba. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q81–Q88 mapping
+- Mapped Q81–Q83 Unit VIII; Q84–Q86 Unit VI; Q87 Unit IV; Q88 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; question and answer content unchanged. Verified mappings: 92 → 100; pending: 100 → 92 (192 records). Q33 absent; Q80 held.
+- Questions commit: 7c49bafd282dfb0aadc3d824d7315cb50968e6d1; checkpoint commit: 2a7acf2cdad2378d7892359c8ae53718c338bfca. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q89–Q96 mapping
+- Mapped Q89 Unit IV; Q90 Unit VIII; Q91 Unit IX; Q93 Unit VI; Q94 Unit IV; Q95 Unit VIII; Q96 Unit II, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q92 retained pending because Varnikar's Shivrajyodaya is not explicitly listed in the prescribed works. Verified mappings: 100 → 107; pending: 92 → 85 (192 records). Q33 and Q80 remain unresolved holds.
+- Questions commit: 03221f701f0901a6807234f8523f30466122b876; checkpoint commit: 2dde4a885a75f6425ffe63a7104c877449ef6b41. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2023 Q97–Q100 mapping
+- Mapped Q97 Unit II; Q98 Unit IV; Q99–Q100 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Four source/key-verified records mapped; no question or answer changes. Verified mappings: 107 → 111; pending: 85 → 81 (192 total). Q33 absent; Q80/Q92 retained pending.
+- Questions commit: c037195522aae7d75a8ac545e3420d339f593e3c; checkpoint commit: b65a06c3ce26492c6eb1664d214529efb80c4776. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q1–Q8 mapping
+- Mapped Q1–Q2 Unit II; Q3 Unit VIII; Q4–Q7 Unit IV; Q8 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- All eight were already source_verified and answer_key_verified. No question/answer or source flags changed. Verified mappings: 111 → 119; pending: 73 → 65 (192 records).
+- Questions commit: d6956a3d970e2102393174877b43a94cdc2ccc49; checkpoint commit: 42c4277a55cc1dffa354c87fd557fac4e518b77f. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q9–Q16 mapping
+- Mapped Q9 Unit IV; Q10 Unit I; Q11–Q13 Unit IV; Q14 Unit VIII; Q16 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q15 held because V. Raghavan is not explicitly listed in the official prescribed topics. Seven existing source/key-verified records mapped; verified mappings: 119 → 126; pending: 65 → 58.
+- Questions commit: c612e1f7fc7274e190415764a52c64ddf4e8abc6; checkpoint commit: c8d348a0153a70b4e1888c736f6863fc347aa14b. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q17–Q24 mapping
+- Mapped Q17 Unit VIII; Q18–Q19 Unit X; Q20–Q23 Unit VIII; Q24 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question/answer changes. Verified mappings: 126 → 134; pending: 58 → 50 (192 records). Q15 remains pending.
+- Questions commit: 9244caf18c989b3bc5670f4c7fd8b0d8de3dc475; checkpoint commit: d1db1a207ae8f47be1a2d59a94f58c9fdbd4c7f2. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q25–Q32 mapping
+- Mapped Q25–Q26 Unit IV; Q27 Unit VIII; Q28 Unit VI; Q30–Q31 Unit VI; Q32 Unit VIII, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q29 held because Tattvadipika/Ramananda is not explicit in the official syllabus. Seven source/key-verified records mapped. Verified mappings: 134 → 141; pending: 50 → 43 (192 total). Q15 and Q29 held.
+- Questions commit: e61b659d2a39a3532b6d73b19854bb66986c29b9; checkpoint commit: 393eea5b6abb2cce58a0182c10622d4caffce307. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q33–Q39 mapping
+- Mapped Q33 Unit VIII; Q34 and Q36 Unit II; Q35 Unit V; Q37 Unit VI; Q38 Unit VIII; Q39 Unit V, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q40 held because Trivikrama Bhatta is not explicitly listed in the official prescribed author list. Verified mappings: 141 → 148; pending: 43 → 36 (192 records). Q15, Q29, Q40 held.
+- Questions commit: 86beb401c057823912ebd9cc8b024addbe5fd0ec; checkpoint commit: 68d55259fb37992b0734b1c4c823fd904100fc14. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q41–Q48 mapping
+- Mapped Q41 Unit X; Q42–Q43 Unit VIII; Q44–Q46 Unit V; Q47 Unit II; Q48 Unit VI, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no question or answer changes. Verified mappings: 148 → 156; pending: 36 → 28 (192 records). Q15, Q29 and Q40 remain held.
+- Questions commit: bbd4a1a191c823cb29517f7f274756b2cdc6f6b8; checkpoint commit: e010ca6c5dca862cf0ada15924b685eacc284409. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q49–Q56 mapping
+- Mapped Q49–Q52 Unit VI; Q54 Unit X; Q55 Unit IX; Q56 Unit X, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q53 is absent from canonical JSON; no question was fabricated. Verified mappings: 156 → 163; pending: 28 → 21 (192 records). Q15, Q29, Q40 and Q53 remain unresolved.
+- Questions commit: d4ec756207bab7ed125d68693e56a02411786f9c; checkpoint commit: dc790eb0206bc5f5da952d824abf4f76fd6cc5a5. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q57–Q64 mapping
+- Mapped Q57–Q60 Unit IX; Q61 Unit X; Q62 Unit I; Q63 Unit VIII; Q64 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Eight source/key-verified records mapped; no content changes. Verified mappings: 163 → 171; pending: 21 → 13 (192 records). Q15, Q29, Q40 and Q53 remain unresolved.
+- Questions commit: b277e91c06f584aefa78ebb0c40ee754cb5a62d6; checkpoint commit: 1c7785ce9a0b7b85a45b97decda13229bb4a6f84. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Sanskrit Code 07 November 2025 Q65–Q72 mapping
+- Mapped Q65 Unit IV; Q66–Q67 Unit VIII; Q68 Unit I; Q69–Q70 Unit IV, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q71 held because its quotation is not clearly anchored to a prescribed text. Q72 was already mapped and left unchanged. Verified mappings: 171 → 177; pending: 13 → 7 (192 records).
+- Questions commit: 7abb5ffc90f4dd1201414fef96a76c0c942764b8; checkpoint commit: b2858ade86f884a51f2d3c2ba28c85fecfc2bdfd. PR #22 remains open/unmerged. Q33 and Q53 remain absent from canonical data.
+
+
+## 2026-11-18 — Sanskrit branch audit correction and Nov 2025 Q73/Q77/Q81–Q84/Q95
+- Direct current-branch blob audit corrected an interim undercount: 15 pending mappings before this batch, not 7.
+- Mapped Q73 Unit II; Q77 Unit IV; Q81–Q82 Unit I; Q83 Unit V; Q84 Unit VIII; Q95 Unit II, using https://gujaratset.ac.in/assets/syllabus/07.pdf.
+- Q79/Q87 held due no explicit prescribed-text match. Other holds: Nov 2023 Q80/Q92; Nov 2025 Q15/Q29/Q40/Q71. Missing IDs Q33 and Q53 remain absent.
+- Current canonical mapping status: 184 verified, 8 pending of 192 records. Questions commit: 2f1501ecc2d4188ae9ca8c5bcb791bbc19f57937; checkpoint commit: aaf03347502107a06dcdd7df2358b1bcbe1989e5. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q1–Q9 mapping
+- Mapped Q1 Unit X; Q2 Unit VI; Q3 Unit VII; Q4 Unit VI; Q5 Unit VII; Q6 Unit V; Q7–Q9 Unit VIII using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- All nine records already had source_verified and answer_key_verified true. Q1–Q9 are now verified; Q10–Q100 remain pending (91). Questions commit: 9801975ba1722f1447a6bf7b909331ff8636ff36; manifest commit: 98611eb1d8458c5c18cb02e763c0106627f8c99b; checkpoint commit: 3a4856feb5fe15ff84156cb1e13184cdccb2dc8d.
+- PR #22 remains open/unmerged; no other subject or protected area changed.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q10–Q18 mapping
+- Mapped Q10 Unit VIII; Q11 Unit IX; Q12 Unit II; Q13 Unit IX; Q14 Unit IV; Q15–Q16 Unit X; Q17–Q18 Unit VII, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q1–Q18 now mapped; Q19–Q100 pending (82). Questions commit: 52aa8ecc5daec7fbef243c3f29ae1216331a64bf; manifest commit: 7bcd8573f2237fa618ac734117309948a05001c8; checkpoint commit: e1dfba696cb97d5fdbbf4e89934c62dbea4e4270.
+- PR #22 remains open/unmerged; no other subject or protected area changed.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q19–Q27 mapping
+- Mapped Q19 Unit VII; Q21–Q24 Unit I; Q25 Unit IV; Q26–Q27 Unit IX, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q20 held for lack of explicit syllabus coverage. Q24 retains official key A but is review-flagged because the stem appears to describe strike-slip faulting, not normal faulting.
+- Total mapped 26; mapping pending 74; additional review flag 1. Questions commit: 44264c27a4d0b7d9b1fb1b0f1b34e7574181144e; manifest commit: 32fd9210048ba0e3a112567ccda2d796fb1c0650; checkpoint commit: c8704851da4d1d24151e9d332a4da113135fbbed.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q28–Q36 mapping
+- Mapped Q28–Q29 Unit IX; Q30 Unit IV; Q31 Unit I; Q32–Q34 Unit III; Q35–Q36 Unit IV, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q1–Q19 and Q21–Q36 now mapped (35); Q20 and Q37–Q100 pending (65). Q24 remains review-flagged; total review count 66.
+- Questions commit: 8ea413394f642afd4a71d77646c1880e93309e5d; manifest commit: bf7059cb5e0832c036fe9253e527cfcbc760a577; checkpoint commit: c46f262f92de131d3ddd61a8d42ea9e01dea6a0e. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q37–Q45 mapping
+- Mapped Q37–Q38 Unit IV; Q39–Q41 Unit II; Q42 Unit IV; Q43 Unit VII; Q44 Unit V; Q45 Unit X, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q42 review-flagged because official key D points to WWF, an environmental organisation; key retained. Q24 also remains flagged for fault-type discrepancy. Mapped 44; pending 56; content review flags 2.
+- Questions commit: 4e0eeed4c237cde287d32e0d21e0700a888e1bf9; manifest commit: b4b209c301ead9318724b3705507038e81ba65e7; checkpoint commit: cc4c1a49b80ea9276b8bcbe7bacf1d1764e6dceb. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q46–Q53 mapping
+- Mapped Q46 Unit III; Q47 Unit VII; Q48 Unit V; Q49 Unit I; Q50–Q52 Unit VIII; Q53 Unit IX, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Q54 held because it spans Units V and VI without one unambiguous unit; Q20 also pending. Q24/Q42 remain content-review flags. Mapped 52; pending 48; review flags 2.
+- Questions commit: 6a4d361b8c577ef8dd8f5e18da6f10345efe6e12; manifest commit: 52e92f4a4507f8c44a58293b10525627155cecb9; checkpoint commit: f6fbc50ea269c84131ebd6864b2a64753078ccb4. PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q55–Q63 mapping
+- Mapped Q55–Q59 Unit II; Q60 Unit IV; Q61–Q62 Unit IX; Q63 Unit VII, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Mapped 61; pending 39 (Q20, Q54, Q64–Q100); content-review flags Q24/Q42. Questions commit: 13dbfc87c8c2be949fa87ac4885632c4174452ef; manifest commit: d4e30a2fa90eafc48cc0d8b7248ccf442a8f7e11; checkpoint commit: 7616e3f1ef38dc3aab3e6db65f945f2abe81dd2d.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q64–Q72 mapping
+- Mapped Q64 Unit VII; Q65–Q67 Unit I; Q68 Unit II; Q69 Unit III; Q70–Q72 Unit X, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Mapped 70; pending 30 (Q20, Q54, Q73–Q100); review flags Q24/Q42. Questions commit: a57182b9ed6e9607d62aa75119e51b87cb55756b; manifest commit: 7823317742036db5dd2b38e4ecff6789883408c1; checkpoint commit: f9796c8ab34a3b02e0436d3ea50866f927a522f3.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q73–Q81 mapping
+- Mapped Q73–Q77 Unit X; Q78–Q80 Unit III; Q81 Unit V, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Mapped 79; pending 21 (Q20, Q54, Q82–Q100); content-review flags Q24/Q42. Questions commit: 6b01a665892c93607e0dbe99dec85796af43d3b4; manifest commit: 2bde26cdf54aaa422de1300bf1087e544aeb4e7e; checkpoint commit: 4802044627cbe1d23b7a8288cdea74d1a02946a8.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q82–Q90 mapping
+- Mapped Q82–Q85 Unit V; Q86 Unit III; Q87–Q90 Unit VI, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- Mapped 88; pending 12 (Q20, Q54, Q91–Q100); content-review flags Q24/Q42. Questions commit: 0e8552bdaa431c1d1658ad0699754f5c449b7089; manifest commit: a78e0b64001f7f021ecd9e03fd6ad03a6f41583d; checkpoint commit: ba152aa27cae9aea7f4755e0fd27c46c55d41f5e.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 November 2022 Q91–Q100 mapping
+- Mapped Q91–Q93 Unit VI; Q94 Unit III; Q95–Q96 Unit IV; Q97 Unit VIII; Q98–Q100 Unit IX, using https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- November 2022 now 98/100 mapped; Q20 and Q54 held for lack of an unambiguous syllabus match. Q24 and Q42 content-review flags retained with official keys. Questions commit: 0f8bbee9f909dfdddf2c481fc266381420ddc6b0; manifest commit: 257cd6da72fadb61179ceeea64305a8698aeb898; checkpoint commit: 704b8e62b17a3b7940fb9423b6de0fe846c4f0f6.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Geography Code 24 Sep 2018 Q1–Q6 and Nov 2022 Q95
+- Mapped Sep 2018 Q1 Unit VIII; Q2 Unit X; Q3 Unit II; Q4 Unit III; Q5 Unit V; Q6 Unit X. All six were already source/key verified. Q7–Q100 remain untranscribed.
+- Refined Nov 2022 Q95 to Unit VI (natural resource management). Nov 2022 now 99 mapped; Q20 held; Q24/Q42 review flags retained.
+- Geography overall: 298 verified mappings, 4 provisional, 2 pending. Questions commit: 93a81678291f622bf6cf7b80d2fc0d0e26791bc7; manifest commit: 9e23bc561118afbe31492cf92500680dce6bc966; checkpoint commit: bebad387944a10d26423f8a32bc8c9e285a5f6b1.
+- PR #22 remains open/unmerged.
+
+
+## 2026-11-18 — Audit corrections and Social Work Nov 2025 source blocker
+- Corrected Geography Nov 2022 manifest to 98/100 mapped; Q20 and Q54 pending. Q95 was only a unit refinement, not a new mapping. Overall Geography: 298 verified, 4 provisional, 2 pending; 4 review flags.
+- Confirmed Social Work Nov 2025 official final answer key (100 entries) at https://gujaratset.ac.in/assets/anskey/paperII/nov25/nov2525.pdf. Official question PDF URL recorded, but 10.86 MB exceeded web fetch limit and Firecrawl credits were exhausted. No question transcription or visual verification claimed; practice availability remains blocked.
+- Geography manifest commit: 5ff5f3fb4ed0e4d7da2ff4a44d082254520fa31b; Social Work manifest commit: 598fb9334f3b10511bfda4d8b377742917118be2; checkpoint commit: 3916e41dc8d82b79f5e4ba9270755021c4d86987. PR #22 remains open/unmerged; no current CI PASS claimed.
+
+
+## 2026-11-18 — Geography final count clarification
+- Canonical Geography status: 298 verified, 4 provisional, 2 pending (304 total). Exactly four records have review_flag=true: Nov 2022 Q20, Q24, Q42 and Q54. The four provisional records are separate and are not review flags.
+- Nov 2022: 98 mapped, 2 mapping holds; Q24/Q42 content review. Sep 2018 Q1–Q6 mapped; Q7–Q100 untranscribed.
+- Checkpoint commit: 2ac06e091802abadee7ab60e57d42ec210533441. PR #22 remains open/unmerged; no CI run for latest head.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 Nov 2023 Q1–Q10 second-pass audit
+- Rechecked official paper printed pages 3–5 (PDF indexes 2–4): all ten stems/options match; Q8 matching table checked; no figures. Official final key B,C,D,A,A,C,D,A,B,C matches 10/10. Sources: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf ; syllabus https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Q1 Unit I, Q2 Unit X, Q3–Q5 Unit I, Q6 Unit IV, Q7 Unit I and Q10 Unit I retained. Q8/Q9 moved to review-only with pending mapping because the official syllabus does not explicitly support institute-location matching or the Silent Spring author. No content or answer changes.
+- Code 26 before → after: active 300 → 298; review flags 0 → 2; mappings verified 300 → 298; mapping pending 0 → 2; second-pass complete 9 → 19; second-pass pending 291 → 281. Source/key-verified remains 300/300.
+- Questions commit: 0bd50124f467abcdade5a23e5862fdba0a3fe041; manifest: 10e4a475032c8f7402495415f440f5eb55989cc6; source audit: ac0e4de77bfea2ae05e88bd6e1684476580c4056; registry: 98b5b7e433455666c17d6e37c5fd63f1c0bca1d7; checkpoint: ed2301ffd3a026bae12caac1b737ce9136eea777. PR #22 remains open/unmerged; no CI/APK claim.
+
+
+## 2026-11-19 — Environmental Sciences Code 26 November 2023 Q11–Q20 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q11–Q20 against official printed pages 5–6 (PDF zero-based page indexes 4–5). Q11–Q18 are on printed page 5; Q19–Q20 are on printed page 6. All ten stems and all four options match the official scan. No figures or tables occur.
+- Official final-key letters B, D, A, A, C, A, A, C, D, B match the stored answers 10/10. All ten records map to Unit II, supported by the official syllabus topics (environmental chemistry, calorimetry, toxic chemicals, pesticides, radioisotopes and analytical methods). No question text, options, answer letters or unit fields changed.
+- Before → after: independent second-pass verified 19 → 29; pass-1 records still awaiting second pass 281 → 271. Canonical questions remain 300; active 298; review-only 2 (Q8/Q9 syllabus holds); mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q011, GSET-ENV26-NOV2023-Q012, GSET-ENV26-NOV2023-Q013, GSET-ENV26-NOV2023-Q014, GSET-ENV26-NOV2023-Q015, GSET-ENV26-NOV2023-Q016, GSET-ENV26-NOV2023-Q017, GSET-ENV26-NOV2023-Q018, GSET-ENV26-NOV2023-Q019, GSET-ENV26-NOV2023-Q020. Cumulative independent second-pass IDs: 29.
+- Next batch: Environmental Sciences November 2023 Q21–Q30; inspect official pages and re-check stems, four options, final-key letters and syllabus mapping before updating.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+
+
+## 2026-11-20 — Environmental Sciences Code 26 November 2023 Q21–Q30 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q21–Q30 against official printed pages 6–8 (PDF zero-based page indexes 5–7). Q21–Q24 are on printed page 6, Q25–Q29 on page 7, and Q30 on page 8. All ten stems and all four options match the scan. Q25's Column I/Column II matching table was checked; no figures occur.
+- Official final-key letters D, B, B, B, A, B, B, B, B, A match the stored answers 10/10. No question wording, option wording or answer letter changed.
+- Syllabus re-audit: Q21–Q30 all map directly to Unit III (Environmental Biology). Corrected Q24 from Unit II because Unit III explicitly lists acute/chronic toxicity; Q25 from Unit VI because Unit III explicitly covers community ecology and ecological interactions; and Q30 from Unit IV because Unit III explicitly covers biodiversity and conservation. Q8 and Q9 remain the only syllabus mapping holds.
+- Before → after: independent second-pass verified 29 → 39; pass-1 records still awaiting second pass 271 → 261. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300. Unit distribution adjusted: Unit II 42→41, Unit VI 37→36, Unit IV 31→30, Unit III 27→30.
+- Evidence IDs: GSET-ENV26-NOV2023-Q021, GSET-ENV26-NOV2023-Q022, GSET-ENV26-NOV2023-Q023, GSET-ENV26-NOV2023-Q024, GSET-ENV26-NOV2023-Q025, GSET-ENV26-NOV2023-Q026, GSET-ENV26-NOV2023-Q027, GSET-ENV26-NOV2023-Q028, GSET-ENV26-NOV2023-Q029, GSET-ENV26-NOV2023-Q030. Cumulative independent second-pass IDs: 39 (includes the prior nine checks and Q1–Q30).
+- Next batch: Environmental Sciences November 2023 Q31–Q40; independently inspect the official source pages, final-key letters and explicit syllabus fit before changing any status.
+- No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
