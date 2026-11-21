@@ -1876,3 +1876,12 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 ## 2026-11-21 — Audit note clarification (Environmental Sciences December 2024 Q1–Q10)
 - Q9 was not remapped: its existing Unit I assignment was confirmed because the official syllabus explicitly includes the scope of Environmental Science. Only Q5 (Unit V → IV) and Q8 (Unit VI → II) required unit corrections.
 - Updated the audit unit distribution to reflect those two changes. No question text, options, answers, subject counts, or review statuses changed.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 December 2024 Q11–Q20 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently checked Q11–Q20 against printed pages 5–7 (PDF indexes 4–6). All ten stems and all four options match. Q20 radical and ionic notation checked visually.
+- Official final-key letters B, D, A, D, A, A, B, D, A, B match stored answers 10/10. Q20 mapping corrected from Unit I to Unit II because official Unit II explicitly covers atmospheric particles, ions/radicals and CO chemistry; Q11/Q15 retained Unit VI (pollution monitoring), Q12–Q14/Q16–Q17/Q19 Unit II, and Q18 Unit X.
+- Independent second-pass unique IDs: 117 → 126; remaining 174. Code 26 remains 300 canonical, 298 active, 2 review-only (Nov 2023 Q8/Q9), source/key 300/300, mappings 298/300.
+- Evidence IDs: GSET-ENV26-DEC2024-Q011, GSET-ENV26-DEC2024-Q012, GSET-ENV26-DEC2024-Q013, GSET-ENV26-DEC2024-Q014, GSET-ENV26-DEC2024-Q015, GSET-ENV26-DEC2024-Q016, GSET-ENV26-DEC2024-Q017, GSET-ENV26-DEC2024-Q018, GSET-ENV26-DEC2024-Q019, GSET-ENV26-DEC2024-Q020. No question text, options or answer letters changed. No other subject modified. PR #22 remains open/unmerged; no CI or APK PASS claimed.
+- Next: Environmental Sciences December 2024 Q21–Q30.

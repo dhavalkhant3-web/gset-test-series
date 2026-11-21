@@ -8699,5 +8699,119 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-21",
+    "event": "Environmental Sciences Code 26 December 2024 Q11-Q20 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "December 2024 Q11-Q20",
+    "printed_pages": [
+      5,
+      6,
+      7
+    ],
+    "pdf_page_indexes_zero_based": [
+      4,
+      5,
+      6
+    ],
+    "final_key_letters": [
+      "B",
+      "D",
+      "A",
+      "D",
+      "A",
+      "A",
+      "B",
+      "D",
+      "A",
+      "B"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [],
+      "figures_present": 0,
+      "notation_checked": [
+        "Q20 radical and ionic notation"
+      ]
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit II": [
+          12,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20
+        ],
+        "Unit VI": [
+          11,
+          15
+        ],
+        "Unit X": [
+          18
+        ]
+      }
+    },
+    "mapping_corrections": [
+      {
+        "question_no": 20,
+        "from": "Unit I",
+        "to": "Unit II",
+        "basis": "Official Unit II explicitly includes particles, ions and radicals in the atmosphere, oxygen and ozone chemistry, and toxic chemicals including CO; Q20 asks about the OH radical controlling atmospheric CO."
+      }
+    ],
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q011",
+      "GSET-ENV26-DEC2024-Q012",
+      "GSET-ENV26-DEC2024-Q013",
+      "GSET-ENV26-DEC2024-Q014",
+      "GSET-ENV26-DEC2024-Q015",
+      "GSET-ENV26-DEC2024-Q016",
+      "GSET-ENV26-DEC2024-Q017",
+      "GSET-ENV26-DEC2024-Q018",
+      "GSET-ENV26-DEC2024-Q019",
+      "GSET-ENV26-DEC2024-Q020"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 117,
+      "independent_second_pass_pending": 183
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 126,
+      "independent_second_pass_pending": 174,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]

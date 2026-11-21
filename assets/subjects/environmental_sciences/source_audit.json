@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 183,
+  "proofread_pass1_pending_second_pass": 174,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -17,10 +17,10 @@
     "provisional": 0,
     "pending": 2,
     "unit_distribution": {
-      "Unit I": 22,
+      "Unit I": 21,
       "Unit X": 29,
       "Unit IV": 30,
-      "Unit II": 41,
+      "Unit II": 42,
       "Unit III": 29,
       "Unit VI": 34,
       "Unit V": 33,
@@ -129,85 +129,86 @@
     "date": "2026-11-21",
     "session": "December 2024",
     "questions": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      2,
-      3,
-      4
+      4,
+      5,
+      6
     ],
     "printed_pages": [
-      3,
-      4,
-      5
+      5,
+      6,
+      7
     ],
     "final_key_letters": [
-      "A",
       "B",
-      "B",
-      "A",
+      "D",
       "A",
       "D",
-      "B",
       "A",
+      "A",
+      "B",
       "D",
-      "A"
+      "A",
+      "B"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
       "checked": 10,
       "stems_match": 10,
       "all_four_options_match": 10,
-      "tables_checked": [
-        "Q8"
-      ],
-      "figures_present": 0
+      "tables_checked": [],
+      "figures_present": 0,
+      "notation_checked": [
+        "Q20 radical and ionic notation"
+      ]
     },
     "syllabus_mapping": {
       "verified": 10,
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit I": 22,
-        "Unit X": 29,
-        "Unit IV": 30,
-        "Unit II": 41,
-        "Unit III": 29,
-        "Unit VI": 34,
-        "Unit V": 33,
-        "Unit VII": 26,
-        "Unit VIII": 26,
-        "Unit IX": 28
+        "Unit II": [
+          12,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20
+        ],
+        "Unit VI": [
+          11,
+          15
+        ],
+        "Unit X": [
+          18
+        ]
       }
     },
     "mapping_corrections": [
       {
-        "question_no": 5,
-        "from": "Unit V",
-        "to": "Unit IV",
-        "basis": "Official Unit IV explicitly lists natural hazards including tsunami; the item asks the meaning/nature of tsunami."
-      },
-      {
-        "question_no": 8,
-        "from": "Unit VI",
+        "question_no": 20,
+        "from": "Unit I",
         "to": "Unit II",
-        "basis": "Official Unit II explicitly covers atmospheric composition, particles, ions and radicals; the matching item concerns atmospheric species across layers."
+        "basis": "Official Unit II explicitly includes particles, ions and radicals in the atmosphere, oxygen and ozone chemistry, and toxic chemicals including CO; Q20 asks about the OH radical controlling atmospheric CO."
       }
     ],
-    "result": "All ten stems and options match official GSET December 2024 pages 3-5; final-key parity 10/10. Q8 matching table checked. Q5 corrected to Unit IV (natural hazards/tsunami), Q8 to Unit II (atmospheric ions/radicals), and Q9 to Unit I (explicit scope)."
+    "result": "All ten stems and four options match official GSET December 2024 printed pages 5-7. Official final-key letters B, D, A, D, A, A, B, D, A, B match stored answers 10/10. Q20's radical notation was checked visually and its syllabus mapping corrected from Unit I to Unit II because the official Unit II explicitly covers atmospheric radicals and CO chemistry."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -326,9 +327,18 @@
     "GSET-ENV26-DEC2024-Q006",
     "GSET-ENV26-DEC2024-Q007",
     "GSET-ENV26-DEC2024-Q009",
-    "GSET-ENV26-DEC2024-Q010"
+    "GSET-ENV26-DEC2024-Q010",
+    "GSET-ENV26-DEC2024-Q011",
+    "GSET-ENV26-DEC2024-Q012",
+    "GSET-ENV26-DEC2024-Q013",
+    "GSET-ENV26-DEC2024-Q014",
+    "GSET-ENV26-DEC2024-Q015",
+    "GSET-ENV26-DEC2024-Q016",
+    "GSET-ENV26-DEC2024-Q017",
+    "GSET-ENV26-DEC2024-Q018",
+    "GSET-ENV26-DEC2024-Q019"
   ],
-  "second_pass_visual_verified_count": 117,
+  "second_pass_visual_verified_count": 126,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -362,7 +372,7 @@
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   },
   "live_reconciliation_2026_11_21": {
-    "basis": "Direct parse of canonical Environmental Sciences questions.json plus official-source independent second-pass review of December 2024 Q1-Q10.",
+    "basis": "Canonical Code 26 question bank and official-source second-pass review through December 2024 Q11-Q20.",
     "canonical_questions": 300,
     "active_questions": 298,
     "review_flagged_questions": 2,
@@ -372,9 +382,9 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 117,
-    "proofread_second_pass_pending": 183,
+    "proofread_second_pass_verified": 126,
+    "proofread_second_pass_pending": 174,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
-    "note": "Independent second-pass visual review includes 117 unique question IDs; December 2024 Q1-Q10 visually checked in this batch. Q8 had an earlier visual review; all ten were rechecked. November 2023 Q8/Q9 remain the only syllabus mapping holds."
+    "note": "Independent second-pass visual review includes 126 unique question IDs; December 2024 Q1-Q20 reviewed. Q20 mapping corrected to Unit II. November 2023 Q8/Q9 remain the only syllabus mapping holds."
   }
 }
