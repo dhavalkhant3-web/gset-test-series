@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-21",
+  "paper": "November 2023 Geography Code 24",
+  "source": "Uploaded official GSET Paper-II page scans p-03 through p-10 (English crops)",
+  "method": "Manual image-to-record comparison; reviewed all question stems and four options visible in the eight source page images.",
+  "signed_off_count": 29,
+  "records": [
+    {
+      "question_no": 1,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 2,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 3,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 4,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 5,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 6,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 7,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 8,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 9,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 10,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 11,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 12,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 13,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 14,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 15,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 16,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 17,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 18,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 19,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 20,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 21,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 22,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 23,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 24,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 25,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 26,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 27,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 28,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 29,
+      "page": "p-10_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    }
+  ],
+  "limitations": [
+    "This sign-off covers English source transcription only, not Gujarati translation or syllabus-unit mapping.",
+    "Official final answer key remains authoritative; no answer was changed.",
+    "All questions remain review-only pending syllabus mapping and reviewer approval.",
+    "Do not change canonical source_verified flags until the complete signed-off ledger is reconciled with canonical questions.json and papers.json."
+  ]
+}
