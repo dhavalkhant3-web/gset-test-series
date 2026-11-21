@@ -4,25 +4,51 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 356,
-  "pending_review": 44,
-  "visual_checked": 256,
+  "active_questions": 364,
+  "pending_review": 36,
+  "visual_checked": 397,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
-    "date": "2026-11-16",
-    "count": 7,
-    "question_ids": [
-      "GSET-GUJ06-AUG2017-Q044",
-      "GSET-GUJ06-AUG2017-Q045",
-      "GSET-GUJ06-AUG2017-Q046",
-      "GSET-GUJ06-AUG2017-Q047",
-      "GSET-GUJ06-AUG2017-Q048",
-      "GSET-GUJ06-AUG2017-Q049",
-      "GSET-GUJ06-AUG2017-Q050"
+    "date": "2026-11-21",
+    "paper": "Gujarati Paper-II December 2008",
+    "count": 27,
+    "question_numbers": [
+      6,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
     ],
-    "result": "Seven August 2017 questions Q44–Q50 visually checked against official source pages 14–15; official final answer-key and verified syllabus gates already passed. Promoted without altering stems, options, or answers."
+    "source_pdf": "https://gujaratset.ac.in/assets/papers/paperII/dec08/dec0806.pdf",
+    "printed_pages": {
+      "Q6": 3,
+      "Q25-Q50": "7-15"
+    },
+    "result": "All 27 stems and four-option sets visually checked against the official GSET scan. Stored answers match the available published key, but its PDF is titled KEY FOR PAPER-II and is not explicitly labelled FINAL. Therefore answer_key_verified remains false and all 27 remain review-only."
   },
-  "remaining_review_note": "LIVE QUEUE CHECKPOINT (2026-11-16): 44 review-only records remain in questions_review_pending.json. Breakdown by paper: August 2017 = 8; December 2002 = 6; December 2008 = 27; December 2021/January 2022 = 3. This live queue count supersedes historical review totals and narrative checkpoints elsewhere in this audit. No record is promoted solely because an answer key or syllabus mapping is verified.",
+  "remaining_review_note": "LIVE QUEUE CHECKPOINT (2026-11-21): 36 review-only records remain in questions_review_pending.json. Breakdown: December 2002 = 6 (duplicate printed Q34/key identity plus five published-key conflicts; available key not labelled FINAL); December 2008 = 27 (source verified; available key not labelled FINAL); December 2021/January 2022 = 3 (answer keys verified, source glyph ambiguities remain). Do not promote without official final-key/source evidence.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -945,7 +971,7 @@
     "retained_non_evaluated_question": "GSET-GUJ06-DEC2019-Q007",
     "basis": "All 99 promoted records have source_verified=true, answer_key_verified=true, syllabus_mapping_status=verified, review_flag=false, and match the official December 2019 FINAL answer key. Q7 answer Z remains excluded from scoring."
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-21",
   "aug2017_visual_review": {
     "date": "2026-11-16",
     "count": 11,
@@ -966,19 +992,19 @@
     "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
     "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
   },
-  "_latest_checkpoint": "Live queue corrected: 356 active, 44 review-only; pending records distributed across Aug 2017 (8), Dec 2002 (6), Dec 2008 (27), Dec 2021 (3).",
+  "_latest_checkpoint": "Live canonical checkpoint (2026-11-21): 364 active + 36 review-only = 400. 397/400 source verified; 367/400 answer_key_verified. December 2008 Q6 and Q25-Q50 have now passed visual source review; key finality remains unresolved so those 27 remain review-only.",
   "live_review_queue_checkpoint": {
-    "date": "2026-11-16",
-    "active_questions": 356,
-    "pending_review": 44,
-    "unique_pending_ids": 44,
+    "date": "2026-11-21",
+    "active_questions": 364,
+    "pending_review": 36,
+    "unique_pending_ids": 36,
     "pending_by_paper": {
-      "gujarati_aug2017": 8,
       "gujarati_dec2002": 6,
       "gujarati_dec2008": 27,
       "gujarati_dec2021": 3
     },
-    "source": "Current canonical questions.json and questions_review_pending.json on app/import-updated-subject-banks-2026-11-10",
-    "note": "Live JSON counts supersede older historical counts retained elsewhere in this audit."
+    "source_verified_total": 397,
+    "answer_key_verified_total": 367,
+    "note": "Recomputed from canonical questions.json and questions_review_pending.json. Earlier 356/44 checkpoint is stale."
   }
 }
