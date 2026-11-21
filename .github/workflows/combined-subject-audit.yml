@@ -9,6 +9,7 @@ on:
       - 'tool/audit_combined_subject_banks.py'
       - 'tool/validate_syllabus_mapping.py'
       - 'tool/validate_gujarati_bank.py'
+      - 'tool/validate_gujarati_bank.py'
       - 'tools/validate_performing_arts.py'
       - 'assets/json/performing_arts.json'
       - '.github/workflows/combined-subject-audit.yml'
