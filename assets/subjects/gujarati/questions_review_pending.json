@@ -18,7 +18,7 @@
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem and all four options visually match the second Q34 entry on official scan printed page 9. The booklet repeats printed number 34 for this item, creating a question-number collision; the one-row-per-number key does not establish this row's answer. Preserve existing staged answer/official_answer A as unverified and retain review flag.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 35), not by the repeated printed label. The stored answer A matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "ગુજરાતી સાહિત્યનો ઇતિહાસ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -47,7 +47,7 @@
     "source_printed_question_no": 34,
     "source_key_question_no": 34,
     "source_key_answer": "C",
-    "answer_key_verification_note": "Although stored A coincides with printed Q35 key A, the stem/options do not match printed Q35; answer-key parity is not established."
+    "answer_key_verification_note": "Published-key row 35 = A; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q036",
@@ -64,11 +64,11 @@
       "પ્લેટોને કવિઓ ગમતા જ નથી"
     ],
     "answer": "C",
-    "official_answer": "A",
+    "official_answer": "C",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem/options visually verified against the official scan and mapped to printed Q35. Official published KEY FOR PAPER-II gives A, while the staged answer is C. The PDF is not explicitly labelled FINAL; do not overwrite the staged answer until the official final-key/numbering conflict is adjudicated.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 36), not by the repeated printed label. The stored answer C matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -97,7 +97,7 @@
     "source_printed_question_no": 35,
     "source_key_question_no": 35,
     "source_key_answer": "A",
-    "answer_key_verification_note": "Published historical key printed Q35 = A, but stored answer is C; unresolved mismatch. PDF not explicitly labelled FINAL."
+    "answer_key_verification_note": "Published-key row 36 = C; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q038",
@@ -114,11 +114,11 @@
       "અસ્તિત્વવાદી વિચારધારા કરતાં ‘ભગવદગીતા’ની તાત્ત્વિક વિચારણા વધારે ઊંડાણભરી છે"
     ],
     "answer": "A",
-    "official_answer": "C",
+    "official_answer": "A",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem/options visually verified against the official scan and mapped to printed Q37. Official published KEY FOR PAPER-II gives C, while the staged answer is A. The PDF is not explicitly labelled FINAL; do not overwrite the staged answer until the official final-key/numbering conflict is adjudicated.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 38), not by the repeated printed label. The stored answer A matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "સાહિત્યસિદ્ધાંત : ભારતીય અને પાશ્ચાત્ય સંદર્ભે",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -147,7 +147,7 @@
     "source_printed_question_no": 37,
     "source_key_question_no": 37,
     "source_key_answer": "C",
-    "answer_key_verification_note": "Published historical key printed Q37 = C, but stored answer is A; unresolved mismatch. PDF not explicitly labelled FINAL."
+    "answer_key_verification_note": "Published-key row 38 = A; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q039",
@@ -164,11 +164,11 @@
       "‘વિશ્વશાંતિ’, ‘બારીબહાર’, ‘પ્રતીક’, ‘અંગત’"
     ],
     "answer": "D",
-    "official_answer": "A",
+    "official_answer": "D",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem/options visually verified against the official scan and mapped to printed Q38. Official published KEY FOR PAPER-II gives A, while the staged answer is D. The PDF is not explicitly labelled FINAL; do not overwrite the staged answer until the official final-key/numbering conflict is adjudicated.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 39), not by the repeated printed label. The stored answer D matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "ગુજરાતી સાહિત્યનો ઇતિહાસ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -197,7 +197,7 @@
     "source_printed_question_no": 38,
     "source_key_question_no": 38,
     "source_key_answer": "A",
-    "answer_key_verification_note": "Published historical key printed Q38 = A, but stored answer is D; unresolved mismatch. PDF not explicitly labelled FINAL."
+    "answer_key_verification_note": "Published-key row 39 = D; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q040",
@@ -214,11 +214,11 @@
       "પન્નાલાલ પટેલ, ગોવર્ધનરામ, નર્મદ, મણિલાલ પટેલ"
     ],
     "answer": "A",
-    "official_answer": "D",
+    "official_answer": "A",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem/options visually verified against the official scan and mapped to printed Q39. Official published KEY FOR PAPER-II gives D, while the staged answer is A. The PDF is not explicitly labelled FINAL; do not overwrite the staged answer until the official final-key/numbering conflict is adjudicated.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 40), not by the repeated printed label. The stored answer A matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "ગુજરાતી કૃતિઓ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -247,7 +247,7 @@
     "source_printed_question_no": 39,
     "source_key_question_no": 39,
     "source_key_answer": "D",
-    "answer_key_verification_note": "Published historical key printed Q39 = D, but stored answer is A; unresolved mismatch. PDF not explicitly labelled FINAL."
+    "answer_key_verification_note": "Published-key row 40 = A; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2002-Q041",
@@ -264,11 +264,11 @@
       "મિલાન કુન્દેરા, ટી.એસ. એલિયટ, શેકસપિયર, હેમિંગ્વે"
     ],
     "answer": "C",
-    "official_answer": "A",
+    "official_answer": "C",
     "answer_key_verified": false,
     "source_verified": true,
     "review_flag": true,
-    "review_note": "Question stem/options visually verified against the official scan and mapped to printed Q40. Official published KEY FOR PAPER-II gives A, while the staged answer is C. The PDF is not explicitly labelled FINAL; do not overwrite the staged answer until the official final-key/numbering conflict is adjudicated.",
+    "review_note": "Official GSET December 2002 booklet contains a duplicate printed Q34. This item is mapped by physical sequence position in the 50-row official published key (row 41), not by the repeated printed label. The stored answer C matches that corresponding published-key row. The PDF heading is only “KEY FOR PAPER-II”, not explicitly “FINAL”; answer_key_verified remains false and this record stays review-only pending final-key confirmation.",
     "topic": "સાહિત્ય અને આંતરવિદ્યાઓ",
     "syllabus_mapping_status": "verified",
     "difficulty": "not_rated",
@@ -297,7 +297,7 @@
     "source_printed_question_no": 40,
     "source_key_question_no": 40,
     "source_key_answer": "A",
-    "answer_key_verification_note": "Published historical key printed Q40 = A, but stored answer is C; unresolved mismatch. PDF not explicitly labelled FINAL."
+    "answer_key_verification_note": "Published-key row 41 = C; aligned by booklet sequence because printed Q34 is duplicated. Not labelled FINAL."
   },
   {
     "id": "GSET-GUJ06-DEC2008-Q006",
