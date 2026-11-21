@@ -1,15 +1,15 @@
 {
-  "_staging_notice": "Forensic Science Code 27 evidence summary from supplied v3 staging and CSV register.",
+  "_staging_notice": "Reconciled against canonical questions.json and questions_review_pending.json on 2026-11-21. Canonical files are authoritative; legacy staging counters replaced.",
   "subject": "Forensic Science",
   "subject_code": "27",
   "paper": "Paper-II",
   "transcribed_questions": 300,
   "official_key_matches": 300,
   "official_key_mismatches": 0,
-  "visual_checked": 220,
-  "proofread_pass1_pending_second_pass": 80,
-  "active_questions": 291,
-  "pending_review": 9,
+  "visual_checked": 300,
+  "proofread_pass1_pending_second_pass": 0,
+  "active_questions": 292,
+  "pending_review": 8,
   "syllabus_mapping": {
     "provisional_unit_matches": 94,
     "pending_subject_expert_review": 1,
@@ -19,7 +19,7 @@
       "Unit 7": 26,
       "Unit 8": 14,
       "Unit 10": 25,
-      "Unit 1": 21,
+      "Unit 1": 22,
       "Unit 6": 7,
       "Unit 3": 26,
       "Unit 4": 27,
@@ -312,7 +312,22 @@
     "pending_question_ids": [
       "GSET-FS27-NOV2025-Q047"
     ],
-    "total_records": 300
+    "total_records": 300,
+    "verified": 205,
+    "provisional": 93,
+    "pending": 1,
+    "unmapped_question_numbers": [
+      47
+    ],
+    "provisional_question_numbers": [
+      20,
+      21,
+      22,
+      25,
+      26,
+      33,
+      59
+    ]
   },
   "source_pages": [
     "nov2327.pdf",
@@ -496,7 +511,7 @@
     },
     "result": "All ten stems/options and key letters verified. Q27–Q32 active Unit III; Q34 active Unit VIII. Q25, Q26, Q33 source/key verified but held for syllabus mapping review."
   },
-  "verified_unit_mappings": 205,
+  "verified_unit_mappings": 206,
   "verified_question_ids": [
     "GSET-FS27-DEC2024-Q001",
     "GSET-FS27-DEC2024-Q002",
@@ -702,12 +717,13 @@
     "GSET-FS27-NOV2025-Q097",
     "GSET-FS27-NOV2025-Q098",
     "GSET-FS27-NOV2025-Q099",
-    "GSET-FS27-NOV2025-Q100"
+    "GSET-FS27-NOV2025-Q100",
+    "GSET-FS27-DEC2024-Q059"
   ],
   "last_mapping_review": {
-    "date": "2026-11-15",
+    "date": "2026-11-21",
     "scope": "Official Code 27 syllabus review of review-only queue; only direct matches promoted",
-    "promoted_count": 78,
+    "promoted_count": 0,
     "remaining_review_only_ids": [
       "GSET-FS27-DEC2024-Q020",
       "GSET-FS27-DEC2024-Q021",
@@ -715,7 +731,6 @@
       "GSET-FS27-DEC2024-Q025",
       "GSET-FS27-DEC2024-Q026",
       "GSET-FS27-DEC2024-Q033",
-      "GSET-FS27-DEC2024-Q059",
       "GSET-FS27-NOV2025-Q047",
       "GSET-FS27-NOV2025-Q059"
     ],
@@ -732,11 +747,12 @@
       "Unit 9": 11
     },
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/27.pdf",
-    "distribution_reconciled_from_canonical": true
+    "distribution_reconciled_from_canonical": true,
+    "review_outcome": "All eight remaining records checked against the current official Code 27 syllabus; no direct unit coverage sufficiently explicit to justify promotion. Retained review-only; no forced mapping."
   },
   "mapping_summary": {
-    "verified": 205,
-    "provisional": 94,
+    "verified": 206,
+    "provisional": 93,
     "pending": 1
   },
   "nov2025_visual_batch": {
@@ -840,7 +856,7 @@
       100
     ]
   },
-  "remaining_subject_work": "Forensic Science total 300: 213 active, 87 review-only. November 2025 Q1–Q100 source visual verification complete (100/100); official final-key parity 100/100. Review-only records remain for syllabus mapping and metadata issues; no auto-promotion.",
+  "remaining_subject_work": "Forensic Science Code 27: 300/300 transcribed; 300/300 source-verified; 300/300 official final-key matched; 292 active and 8 review-only for syllabus mapping (7 provisional, 1 pending). No unverified question was promoted.",
   "nov2025_visual_batch_2": {
     "date": "2026-11-15",
     "paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov25/nov2527.pdf",
@@ -1045,5 +1061,15 @@
     "count": 3,
     "result": "Q1–Q3 stems and all four options visually checked against the official source scan. No corrections required; official final-key parity was previously audited.",
     "remaining_nov2025_source_review_questions": []
-  }
+  },
+  "pending_question_ids": [
+    "GSET-FS27-DEC2024-Q020",
+    "GSET-FS27-DEC2024-Q021",
+    "GSET-FS27-DEC2024-Q022",
+    "GSET-FS27-DEC2024-Q025",
+    "GSET-FS27-DEC2024-Q026",
+    "GSET-FS27-DEC2024-Q033",
+    "GSET-FS27-NOV2025-Q047",
+    "GSET-FS27-NOV2025-Q059"
+  ]
 }
