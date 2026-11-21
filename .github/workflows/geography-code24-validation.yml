@@ -1,4 +1,5 @@
 name: Geography Code 24 validation
+# Runs the canonical Geography bank checks on every in-scope feature-branch update.
 
 on:
   push:
