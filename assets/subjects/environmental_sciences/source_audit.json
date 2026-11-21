@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 251,
+  "proofread_pass1_pending_second_pass": 241,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -130,40 +130,42 @@
     "date": "2026-11-21",
     "session": "November 2023",
     "questions": [
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      7,
-      8
+      8,
+      9,
+      10
     ],
     "printed_pages": [
-      8,
-      9
+      9,
+      10,
+      11
     ],
     "final_key_letters": [
+      "B",
       "A",
       "C",
-      "B",
-      "B",
-      "A",
-      "B",
+      "D",
       "C",
-      "A",
-      "B",
-      "C"
+      "D",
+      "C",
+      "D",
+      "C",
+      "A"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
@@ -179,25 +181,23 @@
       "pending": 0,
       "unit_distribution": {
         "Unit I": [
-          37
+          47
         ],
-        "Unit IV": [
-          31,
-          32,
-          33,
-          34,
-          36,
-          38,
-          39,
-          40
-        ],
-        "Unit VI": [
-          35
+        "Unit V": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          48,
+          49,
+          50
         ]
       }
     },
     "mapping_corrections": [],
-    "result": "All ten stems and all four option sets match the official scan. No figures or tables occur. Official final-key letters A, C, B, B, A, B, C, A, B, C match the canonical answers 10/10. Existing syllabus mappings were checked against the official Code 26 syllabus and retained: Q31-Q34, Q36 and Q38-Q40 Unit IV; Q35 Unit VI; Q37 Unit I. No question text, option text, answer letter, or syllabus unit changed."
+    "result": "All ten stems and all four options match the official GSET scan on PDF page indexes 8-10. No figures or tables occur. Official final-key letters B, A, C, D, C, D, C, D, C, A match the stored answers 10/10. Existing syllabus mappings were checked against the official Code 26 syllabus and retained: Q41-Q46 and Q48-Q50 Unit V; Q47 Unit I. No question text, options, answer letters or syllabus unit changed."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -248,9 +248,19 @@
     "GSET-ENV26-NOV2023-Q037",
     "GSET-ENV26-NOV2023-Q038",
     "GSET-ENV26-NOV2023-Q039",
-    "GSET-ENV26-NOV2023-Q040"
+    "GSET-ENV26-NOV2023-Q040",
+    "GSET-ENV26-NOV2023-Q041",
+    "GSET-ENV26-NOV2023-Q042",
+    "GSET-ENV26-NOV2023-Q043",
+    "GSET-ENV26-NOV2023-Q044",
+    "GSET-ENV26-NOV2023-Q045",
+    "GSET-ENV26-NOV2023-Q046",
+    "GSET-ENV26-NOV2023-Q047",
+    "GSET-ENV26-NOV2023-Q048",
+    "GSET-ENV26-NOV2023-Q049",
+    "GSET-ENV26-NOV2023-Q050"
   ],
-  "second_pass_visual_verified_count": 49,
+  "second_pass_visual_verified_count": 59,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -284,7 +294,7 @@
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   },
   "live_reconciliation_2026_11_21": {
-    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q31-Q40 independent second-pass batch.",
+    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q41-Q50 independent second-pass batch.",
     "canonical_questions": 300,
     "active_questions": 298,
     "review_flagged_questions": 2,
@@ -294,9 +304,9 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 49,
-    "proofread_second_pass_pending": 251,
+    "proofread_second_pass_verified": 59,
+    "proofread_second_pass_pending": 241,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": true,
-    "note": "Independent second-pass visual review now covers 49/300 records (the prior nine independent checks plus November 2023 Q1-Q40); 251 remain. Q8 and Q9 remain the only syllabus-mapping holds. This batch made no canonical question-text, option, answer, or mapping changes."
+    "note": "Independent second-pass visual review covers 59/300 records (the prior nine checks plus November 2023 Q1-Q50); 241 remain. Q8 and Q9 remain the only syllabus-mapping holds. The Q41-Q50 batch did not change canonical question text, options, answers or mappings."
   }
 }

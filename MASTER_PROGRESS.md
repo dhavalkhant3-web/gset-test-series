@@ -1801,3 +1801,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Evidence IDs: GSET-ENV26-NOV2023-Q031, GSET-ENV26-NOV2023-Q032, GSET-ENV26-NOV2023-Q033, GSET-ENV26-NOV2023-Q034, GSET-ENV26-NOV2023-Q035, GSET-ENV26-NOV2023-Q036, GSET-ENV26-NOV2023-Q037, GSET-ENV26-NOV2023-Q038, GSET-ENV26-NOV2023-Q039, GSET-ENV26-NOV2023-Q040.
 - No canonical question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences November 2023 Q41–Q50.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 November 2023 Q41–Q50 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q41–Q50 against official PDF page indexes 8–10 (printed pages 9–11). All ten stems and all four options match the official scan. No figures or tables occur.
+- Official final-key letters B, A, C, D, C, D, C, D, C, A match the stored answers 10/10. Existing syllabus mappings were checked and retained: Unit V (Q41–Q46, Q48–Q50); Unit I (Q47). No mapping corrections were needed.
+- Before → after: independent second-pass verified 49 → 59; pass-1 records still awaiting second pass 251 → 241. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q041, GSET-ENV26-NOV2023-Q042, GSET-ENV26-NOV2023-Q043, GSET-ENV26-NOV2023-Q044, GSET-ENV26-NOV2023-Q045, GSET-ENV26-NOV2023-Q046, GSET-ENV26-NOV2023-Q047, GSET-ENV26-NOV2023-Q048, GSET-ENV26-NOV2023-Q049, GSET-ENV26-NOV2023-Q050. Cumulative independent second-pass IDs: 59.
+- No canonical question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: Environmental Sciences November 2023 Q51–Q60.
