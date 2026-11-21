@@ -1861,3 +1861,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Evidence IDs: GSET-ENV26-NOV2023-Q091, GSET-ENV26-NOV2023-Q092, GSET-ENV26-NOV2023-Q093, GSET-ENV26-NOV2023-Q094, GSET-ENV26-NOV2023-Q095, GSET-ENV26-NOV2023-Q096, GSET-ENV26-NOV2023-Q097, GSET-ENV26-NOV2023-Q098, GSET-ENV26-NOV2023-Q099, GSET-ENV26-NOV2023-Q100. Cumulative independent second-pass IDs: 109.
 - Question text, options and answer letters were not changed. Two syllabus unit assignments were corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: reconcile the two remaining syllabus holds (Q8 and Q9), then continue independent second-pass review of earlier sessions.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 December 2024 Q1–Q10 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Rechecked Q1–Q10 against printed pages 3–5 (PDF indexes 2–4). All stems and four options match. Q8 atmospheric-species matching table visually checked; no figures occur.
+- Official final-key letters A, B, B, A, A, D, B, A, D, A match stored answers 10/10. Corrected Q5 Unit V → Unit IV (natural hazards/tsunami), Q8 Unit VI → Unit II (atmospheric ions/radicals), Q9 Unit I → Unit I (explicit scope of Environmental Science).
+- Unique independent second-pass IDs: 109 → 117; remaining 183. Code 26 remains 300 canonical, 298 active, 2 review-only (Nov 2023 Q8/Q9), source/key 300/300, mappings 298/300.
+- Evidence IDs: GSET-ENV26-DEC2024-Q001, GSET-ENV26-DEC2024-Q002, GSET-ENV26-DEC2024-Q003, GSET-ENV26-DEC2024-Q004, GSET-ENV26-DEC2024-Q005, GSET-ENV26-DEC2024-Q006, GSET-ENV26-DEC2024-Q007, GSET-ENV26-DEC2024-Q008, GSET-ENV26-DEC2024-Q009, GSET-ENV26-DEC2024-Q010. Q8 had a prior visual review record; this batch rechecked it.
+- No question text/options/answers changed; no other subject modified. PR #22 remains open/unmerged; no CI or APK PASS claimed.
+- Next: Environmental Sciences December 2024 Q11–Q20.
