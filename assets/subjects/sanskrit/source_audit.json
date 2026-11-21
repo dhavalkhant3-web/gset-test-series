@@ -140,6 +140,27 @@
       "session": "JUL2006",
       "questions": 50,
       "answer_entries": 50
+    },
+    {
+      "session": "OCT2010_P2",
+      "questions": 50,
+      "answer_entries": 50,
+      "official_pdf_retrieved": true,
+      "finality": "unconfirmed"
+    },
+    {
+      "session": "OCT2011_P2",
+      "questions": 50,
+      "answer_entries": 50,
+      "official_pdf_retrieved": true,
+      "finality": "unconfirmed"
+    },
+    {
+      "session": "OCT2014_P2",
+      "questions": 50,
+      "answer_entries": 50,
+      "official_pdf_retrieved": true,
+      "finality": "explicit_final_corrected"
     }
   ],
   "syllabus_mapping": {
@@ -669,8 +690,8 @@
     "recovered_records_in_review_queue": 550,
     "recovered_records_source_verified": 0,
     "staging_ids_not_in_either_canonical_file": 0,
-    "answer_key_only_entries_separate": 300,
-    "reconciliation_date": "2026-11-18"
+    "answer_key_only_entries_separate": 450,
+    "reconciliation_date": "2026-11-21"
   },
   "syllabus_mapping_status": "partially_mapped_official_syllabus",
   "canonical_review_queue_file_bytes": 0,
@@ -723,8 +744,8 @@
     5,
     28
   ],
-  "last_updated": "2026-11-16",
-  "latest_batch_note": "Restored 550 unique Sanskrit question records from consolidated staging Library source into questions_review_pending.json. No records promoted active; all recovered records retain review flags.",
+  "last_updated": "2026-11-21",
+  "latest_batch_note": "Retrieved official October 2010, October 2011, and October 2014 Paper-II PDFs and answer keys. Added 150 answer choices to answer_keys_staging.json. No question text has been transcribed from these PDFs; 2010/2011 key finality remains unconfirmed from the printed heading, while 2014 is explicitly final/corrected.",
   "review_required_records": 108,
   "dec2024_source_verified_count": 100,
   "dec2024_visual_verified_count": 100,
@@ -766,5 +787,49 @@
       "total": 300
     },
     "note": "The 300 answer-key-only entries are not question records and are excluded from the 850-question canonical union. The prior 704 review-queue counter is stale; current canonical queue has 658 unique records. Do not promote the 550 recovered records without question-paper source verification."
+  },
+  "source_retrieval_2026_11_21": {
+    "date": "2026-11-21",
+    "official_question_papers": [
+      {
+        "session": "OCT2010_P2",
+        "questions": 50,
+        "pages": 10,
+        "url": "https://gujaratset.ac.in/assets/papers/paperII/oct10/oct1007.pdf"
+      },
+      {
+        "session": "OCT2011_P2",
+        "questions": 50,
+        "pages": 10,
+        "url": "https://gujaratset.ac.in/assets/papers/paperII/oct11/oct1107.pdf"
+      },
+      {
+        "session": "OCT2014_P2",
+        "questions": 50,
+        "pages": 16,
+        "url": "https://gujaratset.ac.in/assets/papers/paperII/oct14/oct1407.pdf"
+      }
+    ],
+    "official_answer_keys": [
+      {
+        "session": "OCT2010_P2",
+        "answer_entries": 50,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1007.pdf",
+        "printed_status": "KEY FOR PAPER-II; finality unconfirmed"
+      },
+      {
+        "session": "OCT2011_P2",
+        "answer_entries": 50,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1107.pdf",
+        "printed_status": "KEY FOR PAPER-II; finality unconfirmed"
+      },
+      {
+        "session": "OCT2014_P2",
+        "answer_entries": 50,
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1407.pdf",
+        "printed_status": "FINAL / CORRECTED KEY"
+      }
+    ],
+    "note": "Answer choices are staged separately from question records. Do not treat these key-only entries as transcribed questions or promote answers into canonical records until finality/source reconciliation is established."
   }
 }
