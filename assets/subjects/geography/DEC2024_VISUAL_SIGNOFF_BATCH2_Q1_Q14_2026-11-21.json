@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-21",
+  "paper": "December 2024 Geography Code 24",
+  "source": "Uploaded official GSET Paper-II page images p-03 through p-06",
+  "method": "Manual visual comparison of each listed English question stem and all four options against the original source page images.",
+  "signed_off_count": 14,
+  "records": [
+    {
+      "question_no": 1,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 2,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 3,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 4,
+      "page": "p-03_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 5,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 6,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 7,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 8,
+      "page": "p-04_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 9,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 10,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 11,
+      "page": "p-05_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 12,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 13,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 14,
+      "page": "p-06_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "question_no": 4,
+      "field": "options_en[3]",
+      "source_text": "Tsunamis",
+      "note": "Remove OCR residue appended after the source option."
+    },
+    {
+      "question_no": 6,
+      "field": "question_en/options_en",
+      "note": "Confirm source spelling and wording directly from page p-04; OCR text was clipped in staging."
+    },
+    {
+      "question_no": 13,
+      "field": "question_en/options_en",
+      "note": "OCR staging has clipped words; source image is authoritative. Do not silently reuse truncated OCR fragments."
+    }
+  ],
+  "limitations": [
+    "This is source-page visual sign-off, not syllabus mapping or Gujarati translation approval.",
+    "Official final answer key remains authoritative; no answer values changed.",
+    "Keep all questions review-only until official syllabus mapping and reviewer approval.",
+    "Reconcile with canonical questions.json and papers.json before changing source_verified flags."
+  ]
+}
