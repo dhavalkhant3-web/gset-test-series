@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 261,
+  "proofread_pass1_pending_second_pass": 251,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -28,7 +28,7 @@
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending because their previous unit assignments are not explicitly supported by the official Code 26 syllabus. Independent second-pass visual review is a separate gate: 39/300 completed, 261 pending."
+    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending because their previous unit assignments are not explicitly supported by the official Code 26 syllabus. Independent second-pass visual review is a separate gate: 49/300 completed, 251 pending."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -108,7 +108,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -127,83 +127,77 @@
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
   },
   "last_second_pass_visual_review": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "session": "November 2023",
     "questions": [
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      5,
-      6,
-      7
-    ],
-    "printed_pages": [
-      6,
       7,
       8
     ],
+    "printed_pages": [
+      8,
+      9
+    ],
     "final_key_letters": [
-      "D",
-      "B",
+      "A",
+      "C",
       "B",
       "B",
       "A",
       "B",
+      "C",
+      "A",
       "B",
-      "B",
-      "B",
-      "A"
+      "C"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
       "checked": 10,
       "stems_match": 10,
       "all_four_options_match": 10,
-      "tables_checked": [
-        "Q25"
-      ],
+      "tables_checked": [],
       "figures_present": 0
     },
     "syllabus_mapping": {
       "verified": 10,
       "provisional": 0,
       "pending": 0,
-      "unit": "Unit III"
-    },
-    "mapping_corrections": [
-      {
-        "question": 24,
-        "from": "Unit II",
-        "to": "Unit III",
-        "reason": "Official syllabus Unit III explicitly lists acute/chronic toxicity and toxicology."
-      },
-      {
-        "question": 25,
-        "from": "Unit VI",
-        "to": "Unit III",
-        "reason": "Official syllabus Unit III explicitly covers community ecology and ecological interactions."
-      },
-      {
-        "question": 30,
-        "from": "Unit IV",
-        "to": "Unit III",
-        "reason": "Official syllabus Unit III explicitly covers biodiversity and conservation."
+      "unit_distribution": {
+        "Unit I": [
+          37
+        ],
+        "Unit IV": [
+          31,
+          32,
+          33,
+          34,
+          36,
+          38,
+          39,
+          40
+        ],
+        "Unit VI": [
+          35
+        ]
       }
-    ],
-    "result": "All ten stems and all four options visually matched the official scan. Q25's Column I/Column II matching table was inspected. Official final-key parity is 10/10. All ten questions map directly to Unit III; three pre-existing unit assignments were corrected to the explicit syllabus unit. No question wording, option wording or answer letters changed."
+    },
+    "mapping_corrections": [],
+    "result": "All ten stems and all four option sets match the official scan. No figures or tables occur. Official final-key letters A, C, B, B, A, B, C, A, B, C match the canonical answers 10/10. Existing syllabus mappings were checked against the official Code 26 syllabus and retained: Q31-Q34, Q36 and Q38-Q40 Unit IV; Q35 Unit VI; Q37 Unit I. No question text, option text, answer letter, or syllabus unit changed."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -244,9 +238,19 @@
     "GSET-ENV26-NOV2023-Q027",
     "GSET-ENV26-NOV2023-Q028",
     "GSET-ENV26-NOV2023-Q029",
-    "GSET-ENV26-NOV2023-Q030"
+    "GSET-ENV26-NOV2023-Q030",
+    "GSET-ENV26-NOV2023-Q031",
+    "GSET-ENV26-NOV2023-Q032",
+    "GSET-ENV26-NOV2023-Q033",
+    "GSET-ENV26-NOV2023-Q034",
+    "GSET-ENV26-NOV2023-Q035",
+    "GSET-ENV26-NOV2023-Q036",
+    "GSET-ENV26-NOV2023-Q037",
+    "GSET-ENV26-NOV2023-Q038",
+    "GSET-ENV26-NOV2023-Q039",
+    "GSET-ENV26-NOV2023-Q040"
   ],
-  "second_pass_visual_verified_count": 39,
+  "second_pass_visual_verified_count": 49,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -278,5 +282,21 @@
     "proofread_second_pass_pending": 261,
     "second_pass_question_ids_not_encoded_in_original_staging_schema": true,
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
+  },
+  "live_reconciliation_2026_11_21": {
+    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q31-Q40 independent second-pass batch.",
+    "canonical_questions": 300,
+    "active_questions": 298,
+    "review_flagged_questions": 2,
+    "review_queue_file_records": 0,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_provisional": 0,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 49,
+    "proofread_second_pass_pending": 251,
+    "second_pass_question_ids_not_encoded_in_original_questions_schema": true,
+    "note": "Independent second-pass visual review now covers 49/300 records (the prior nine independent checks plus November 2023 Q1-Q40); 251 remain. Q8 and Q9 remain the only syllabus-mapping holds. This batch made no canonical question-text, option, answer, or mapping changes."
   }
 }
