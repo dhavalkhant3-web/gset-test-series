@@ -415,7 +415,7 @@
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   },
   "live_reconciliation_2026_11_21": {
-    "basis": "Canonical Code 26 question bank and official-source second-pass review through December 2024 Q11-Q20.",
+    "basis": "Canonical Environmental Sciences bank and second-pass evidence ledger after independent visual rechecks through December 2024 Q70.",
     "canonical_questions": 300,
     "active_questions": 298,
     "review_flagged_questions": 2,
@@ -425,10 +425,10 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 126,
-    "proofread_second_pass_pending": 174,
+    "proofread_second_pass_verified": 169,
+    "proofread_second_pass_pending": 131,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
-    "note": "Independent second-pass visual review includes 126 unique question IDs; December 2024 Q1-Q20 reviewed. Q20 mapping corrected to Unit II. November 2023 Q8/Q9 remain the only syllabus mapping holds."
+    "note": "Independent second-pass visual verification is tracked by exact question IDs in this audit file and independent_second_pass fields in questions.json. The latest batches rechecked Dec 2024 Q21-Q27, Q34-Q45, Q46-Q53, Q54-Q60 and Q61-Q70 against official paper scans and official FINAL key. Earlier verified IDs are retained. November 2023 Q8/Q9 remain the only syllabus mapping holds."
   },
   "live_reconciliation_2026_11_21_batch2": {
     "date": "2026-11-21",
