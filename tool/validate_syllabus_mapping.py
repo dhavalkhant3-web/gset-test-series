@@ -44,7 +44,12 @@ def resolve_unit(q, units):
         return None, None
     number_matches = []
     for field, value in values:
-        match = next((u for u in units if value in {
+        # Accept the canonical display label "Unit N" as well as the
+        # configured numeric unit number and stable unit_id (unit_N).
+        normalized = value.strip()
+        if normalized.lower().startswith("unit "):
+            normalized = normalized[5:].strip()
+        match = next((u for u in units if normalized in {
             str(u.get("number", "")), str(u.get("id", ""))
         }), None)
         if match is None:
