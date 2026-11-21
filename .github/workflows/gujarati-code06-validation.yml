@@ -1,0 +1,55 @@
+name: Gujarati Code 06 canonical validation and debug APK
+on:
+  push:
+    branches:
+      - app/import-updated-subject-banks-2026-11-10
+    paths:
+      - 'assets/subjects/gujarati/**'
+      - 'assets/subjects/syllabus_units.json'
+      - 'tool/validate_gujarati_bank.py'
+      - 'lib/**'
+      - 'pubspec.yaml'
+      - '.github/workflows/gujarati-code06-validation.yml'
+  pull_request:
+    branches:
+      - integration/combined-subject-banks
+      - main
+    paths:
+      - 'assets/subjects/gujarati/**'
+      - 'assets/subjects/syllabus_units.json'
+      - 'tool/validate_gujarati_bank.py'
+      - 'lib/**'
+      - 'pubspec.yaml'
+      - '.github/workflows/gujarati-code06-validation.yml'
+permissions:
+  contents: read
+jobs:
+  validate-gujarati:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical Gujarati data
+        run: |
+          python -m json.tool assets/subjects/gujarati/questions.json > /dev/null
+          python -m json.tool assets/subjects/gujarati/questions_review_pending.json > /dev/null
+          python -m json.tool assets/subjects/gujarati/papers.json > /dev/null
+          python -m json.tool assets/subjects/gujarati/source_audit.json > /dev/null
+          python -m json.tool assets/subjects/syllabus_units.json > /dev/null
+          python tool/validate_gujarati_bank.py
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Resolve Flutter dependencies
+        run: flutter pub get
+      - name: Build combined debug APK
+        run: flutter build apk --debug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gset-gujarati-code06-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
