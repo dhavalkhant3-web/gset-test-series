@@ -1,38 +1,32 @@
-# Sanskrit Code 07 — Current Work and Remaining Source Request
+# Sanskrit Code 07 — Official Source Retrieval Checkpoint
 
-## Corrected repository audit (2026-11-21)
+## Repository status (2026-11-21)
 
-I rechecked the open [PR #22](https://github.com/dhavalkhant3-web/gset-test-series/pull/22), head `bc439768d494719a3669613d70d05cdc62807fbe`. Sanskrit Code 07 work is already present there. It has not yet been merged into `integration/combined-subject-banks`; that integration branch still reports zero Sanskrit questions.
+The latest head of [PR #22](https://github.com/dhavalkhant3-web/gset-test-series/pull/22), `bc439768d494719a3669613d70d05cdc62807fbe`, contains the Sanskrit Code 07 work. It has not yet been merged into `integration/combined-subject-banks`.
 
-PR #22 contains:
+- 192 active and 658 review-only questions: 850 unique IDs, no overlap.
+- All 850 records have a stem and four options.
+- Active: 192 source verified, 192 answer-key verified; 184 syllabus mappings verified and 8 pending.
+- Review-only: 108 source verified and 550 not source verified; 456 answer-key verified and 202 pending; 106 mappings verified and 552 pending. All 658 remain review flagged.
+- Separate answer-key staging has 300 key-only entries; these are not question records.
+- The source-audit mapping totals are 290 verified and 560 pending.
 
-- `questions.json`: 192 active records.
-- `questions_review_pending.json`: 658 review-only records.
-- 850 total unique question IDs across active and review-only records; no overlap or duplicate IDs.
-- All 850 have a question stem and four English options.
-- Active records: 192 source verified, 192 final-answer-key verified, 184 syllabus mappings verified, 8 mappings pending.
-- Review-only records: 108 source verified and 550 not source verified; 456 final-answer-key verified and 202 not verified; 106 syllabus mappings verified and 552 pending. All 658 remain review flagged.
-- `answer_keys_staging.json`: 300 answer-key-only entries across five sessions. They are not question records and must remain separate.
-- `papers.json`: 11 paper sessions represented.
+## Official October session PDFs retrieved
 
-The queue reconciliation in `source_audit.json` agrees on 850 unique questions and 658 review-only records. Its recorded mapping totals are 290 verified and 560 pending (184+106 verified; 8+552 pending).
+The earlier audit said October 2010, October 2011, and October 2014 materials were missing. Direct retrieval from the official GSET host (without `www`) now succeeds for all six PDFs. No upload is needed for these sessions.
 
-## Please provide only these missing sessions
-
-The PR #22 staging note says these question papers and answer keys were not included in the materials received. Each paper is expected to contain questions 1–50. Please upload both PDFs for each session if available:
-
-| Session | Official Paper-II question paper | Official final answer key |
+| Session | Paper-II question paper | Official answer key |
 |---|---|---|
-| October 2010 | [oct1007.pdf](https://www.gujaratset.ac.in/assets/papers/paperII/oct10/oct1007.pdf) | [oct1007.pdf](https://www.gujaratset.ac.in/assets/anskey/paperII/oct10/oct1007.pdf) |
-| October 2011 | [oct1107.pdf](https://www.gujaratset.ac.in/assets/papers/paperII/oct11/oct1107.pdf) | [oct1107.pdf](https://www.gujaratset.ac.in/assets/anskey/paperII/oct11/oct1107.pdf) |
-| October 2014 | [oct1407.pdf](https://www.gujaratset.ac.in/assets/papers/paperII/oct14/oct1407.pdf) | [oct1407.pdf](https://www.gujaratset.ac.in/assets/anskey/paperII/oct14/oct1407.pdf) |
+| October 2010 | [oct1007.pdf — 10 pages](https://gujaratset.ac.in/assets/papers/paperII/oct10/oct1007.pdf) | [oct1007.pdf — 1 page](https://gujaratset.ac.in/assets/anskey/paperII/oct10/oct1007.pdf) |
+| October 2011 | [oct1107.pdf — 10 pages](https://gujaratset.ac.in/assets/papers/paperII/oct11/oct1107.pdf) | [oct1107.pdf — 1 page](https://gujaratset.ac.in/assets/anskey/paperII/oct11/oct1107.pdf) |
+| October 2014 | [oct1407.pdf — 16 pages](https://gujaratset.ac.in/assets/papers/paperII/oct14/oct1407.pdf) | [oct1407.pdf — 1 page, final/corrected key](https://gujaratset.ac.in/assets/anskey/paperII/oct14/oct1407.pdf) |
 
-Do not re-upload the other 16 sessions on the basis of this request. The current PR contains question records, source references, or separate answer-key staging for those sessions; their review flags and pending counts are recorded above.
+The official old-paper archive was also retrieved at https://gujaratset.ac.in/oldpap. The `www.gujaratset.ac.in` host failed automated retrieval for some URLs, while the same official `gujaratset.ac.in` URLs succeeded.
 
 ## Remaining checkpoint
 
-After the three missing sessions are available, add/reconcile their question records and final keys if the official PDFs support them. Continue visual Sanskrit proofreading, key reconciliation for the 202 unverified review-only records, and official syllabus mapping for the 560 pending records. Keep recovered records review-only until their evidence supports promotion.
+These six sources still need to be reconciled into the question-bank workflow. OCR retrieval alone does not count as Sanskrit transcription or visual verification. Continue the existing review queue without promoting recovered records until source, answer-key, and syllabus evidence is checked.
 
-## Correction note
+## Correction history
 
-An earlier version of this file incorrectly said the repository had no Sanskrit bank and requested 18 PDFs. That statement came from checking only the integration branch and missing the existing open PR #22. This corrected version supersedes it.
+Earlier versions of this checkpoint first overlooked PR #22 and then listed these three sessions as missing. Both claims are superseded: PR #22 contains the existing subject bank, and all six October-session PDFs above are now retrievable from the official GSET host.
