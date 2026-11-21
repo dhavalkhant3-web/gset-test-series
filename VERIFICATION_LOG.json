@@ -8130,5 +8130,128 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-21",
+    "event": "Environmental Sciences Code 26 November 2023 Q61-Q70 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "November 2023 Q61-Q70",
+    "printed_pages": [
+      12,
+      13,
+      14
+    ],
+    "pdf_page_indexes_zero_based": [
+      11,
+      12,
+      13
+    ],
+    "final_key_letters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "D",
+      "C",
+      "A",
+      "C",
+      "A",
+      "A"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [
+        "Q67"
+      ],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit II": [
+          62
+        ],
+        "Unit VII": [
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ]
+      }
+    },
+    "mapping_corrections": [
+      {
+        "question_no": 63,
+        "from": "Unit III",
+        "to": "Unit VII",
+        "basis": "Unit VII explicitly covers energy generation and recovery from solid waste, including biomethanation."
+      },
+      {
+        "question_no": 65,
+        "from": "Unit V",
+        "to": "Unit VII",
+        "basis": "Unit VII explicitly includes plastic waste sources and management."
+      },
+      {
+        "question_no": 67,
+        "from": "Unit VI",
+        "to": "Unit VII",
+        "basis": "Unit VII explicitly covers hazardous-waste characteristics and health impacts; the matching table tests hazardous chemical properties."
+      }
+    ],
+    "question_ids": [
+      "GSET-ENV26-NOV2023-Q061",
+      "GSET-ENV26-NOV2023-Q062",
+      "GSET-ENV26-NOV2023-Q063",
+      "GSET-ENV26-NOV2023-Q064",
+      "GSET-ENV26-NOV2023-Q065",
+      "GSET-ENV26-NOV2023-Q066",
+      "GSET-ENV26-NOV2023-Q067",
+      "GSET-ENV26-NOV2023-Q068",
+      "GSET-ENV26-NOV2023-Q069",
+      "GSET-ENV26-NOV2023-Q070"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 69,
+      "independent_second_pass_pending": 231
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 79,
+      "independent_second_pass_pending": 221,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]

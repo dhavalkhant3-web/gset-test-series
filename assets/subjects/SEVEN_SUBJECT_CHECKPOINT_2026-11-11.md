@@ -1471,3 +1471,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Evidence IDs: GSET-ENV26-NOV2023-Q051, GSET-ENV26-NOV2023-Q052, GSET-ENV26-NOV2023-Q053, GSET-ENV26-NOV2023-Q054, GSET-ENV26-NOV2023-Q055, GSET-ENV26-NOV2023-Q056, GSET-ENV26-NOV2023-Q057, GSET-ENV26-NOV2023-Q058, GSET-ENV26-NOV2023-Q059, GSET-ENV26-NOV2023-Q060. Cumulative independent second-pass IDs: 69.
 - Question text, options and answer letters were not changed. Q55's syllabus unit was corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences November 2023 Q61–Q70.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 November 2023 Q61–Q70 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q61–Q70 against official PDF page indexes 11–13 (printed pages 12–14). All ten stems and all four options match the official scan. Q67's two-column chemical-property matching table was visually checked; no figures occur.
+- Official final-key letters A, B, C, D, D, C, A, C, A, A match the stored answers 10/10. Syllabus re-audit corrected Q63 (Unit III), Q65 (Unit V) and Q67 (Unit VI) to Unit VII based on explicit solid-waste recovery, plastic-waste and hazardous-waste syllabus coverage. Q61, Q64, Q66, Q68–Q70 map to Unit VII; Q62 remains Unit II.
+- Before → after: independent second-pass verified 69 → 79; pass-1 records still awaiting second pass 231 → 221. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q061, GSET-ENV26-NOV2023-Q062, GSET-ENV26-NOV2023-Q063, GSET-ENV26-NOV2023-Q064, GSET-ENV26-NOV2023-Q065, GSET-ENV26-NOV2023-Q066, GSET-ENV26-NOV2023-Q067, GSET-ENV26-NOV2023-Q068, GSET-ENV26-NOV2023-Q069, GSET-ENV26-NOV2023-Q070. Cumulative independent second-pass IDs: 79.
+- Question text, options and answer letters were not changed. Three syllabus unit assignments were corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: Environmental Sciences November 2023 Q71–Q80.
