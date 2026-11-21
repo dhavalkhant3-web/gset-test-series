@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-21",
+  "paper": "December 2024 Geography Code 24",
+  "source": "Uploaded official GSET Paper-II English page images p-07 through p-14",
+  "method": "Manual visual comparison of each listed question stem and all four options against original page images.",
+  "signed_off_count": 25,
+  "records": [
+    {
+      "question_no": 15,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 16,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 17,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 18,
+      "page": "p-07_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 19,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 20,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 21,
+      "page": "p-08_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 22,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 23,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 24,
+      "page": "p-09_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 25,
+      "page": "p-10_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 26,
+      "page": "p-10_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 27,
+      "page": "p-10_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 28,
+      "page": "p-11_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 29,
+      "page": "p-11_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 30,
+      "page": "p-11_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 31,
+      "page": "p-12_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 32,
+      "page": "p-12_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 33,
+      "page": "p-12_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 35,
+      "page": "p-13_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 36,
+      "page": "p-13_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 37,
+      "page": "p-13_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 38,
+      "page": "p-13_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 39,
+      "page": "p-14_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 40,
+      "page": "p-14_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    }
+  ],
+  "excluded_already_signed_off": [
+    34
+  ],
+  "correction_notes": [
+    {
+      "question_no": 20,
+      "field": "options_en",
+      "note": "Preserve the exact source wording as printed; OCR/staging has a likely pronoun recognition issue."
+    },
+    {
+      "question_no": 31,
+      "field": "options_en",
+      "note": "Check ordering symbols and sequence text against source image; preserve greater-than symbols exactly."
+    }
+  ],
+  "limitations": [
+    "English source transcription only; Gujarati translation and syllabus-unit mapping not verified.",
+    "Official final answer key remains authoritative; no answer values changed.",
+    "Keep review-only pending official syllabus mapping and reviewer approval.",
+    "Reconcile canonical questions.json and papers.json before changing source_verified flags."
+  ]
+}
