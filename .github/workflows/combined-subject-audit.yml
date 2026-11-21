@@ -8,12 +8,14 @@ on:
       - 'assets/subjects/**'
       - 'tool/audit_combined_subject_banks.py'
       - 'tool/validate_syllabus_mapping.py'
+      - 'tool/validate_gujarati_bank.py'
       - 'tools/validate_performing_arts.py'
       - 'assets/json/performing_arts.json'
       - '.github/workflows/combined-subject-audit.yml'
   pull_request:
     branches:
       - main
+      - integration/combined-subject-banks
     paths:
       - 'assets/subjects/**'
       - 'tool/audit_combined_subject_banks.py'
@@ -34,6 +36,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate Gujarati Code 06 canonical bank and registry synchronization
+        run: python tool/validate_gujarati_bank.py
       - name: Validate Performing Arts official keys and app/audit synchronization
         run: python tools/validate_performing_arts.py
       - name: Validate explicit syllabus unit references and pending mapping state
