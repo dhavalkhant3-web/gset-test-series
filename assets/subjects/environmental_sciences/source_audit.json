@@ -258,6 +258,13 @@
     "GSET-ENV26-DEC2024-Q051",
     "GSET-ENV26-DEC2024-Q052",
     "GSET-ENV26-DEC2024-Q053",
+    "GSET-ENV26-DEC2024-Q054",
+    "GSET-ENV26-DEC2024-Q055",
+    "GSET-ENV26-DEC2024-Q056",
+    "GSET-ENV26-DEC2024-Q057",
+    "GSET-ENV26-DEC2024-Q058",
+    "GSET-ENV26-DEC2024-Q059",
+    "GSET-ENV26-DEC2024-Q060",
     "GSET-ENV26-NOV2023-Q001",
     "GSET-ENV26-NOV2023-Q002",
     "GSET-ENV26-NOV2023-Q003",
@@ -364,7 +371,7 @@
     "GSET-ENV26-NOV2025-Q019",
     "GSET-ENV26-NOV2025-Q068"
   ],
-  "second_pass_visual_verified_count": 152,
+  "second_pass_visual_verified_count": 159,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -523,5 +530,38 @@
       "pdf_pages": "zero-based 10-11; printed pages 11-12"
     },
     "note": "All eight question stems and four-option sets visually matched the official scan; all stored answers matched the official FINAL answer key. No question text, option, answer or syllabus mapping was changed."
+  },
+  "live_reconciliation_2026_11_21_batch5": {
+    "date": "2026-11-21",
+    "basis": "Independent visual recheck of Environmental Sciences December 2024 Q54-Q60 against official GSET scan and final answer key.",
+    "canonical_questions": 300,
+    "second_pass_visual_verified": 159,
+    "second_pass_visual_pending": 141,
+    "batch": {
+      "session": "December 2024",
+      "question_numbers": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "visual_source_checked": 7,
+      "all_four_options_checked": 7,
+      "official_final_key_matches": 7,
+      "answer_letters": {
+        "54": "C",
+        "55": "A",
+        "56": "C",
+        "57": "C",
+        "58": "B",
+        "59": "D",
+        "60": "C"
+      },
+      "pdf_pages": "zero-based 12; printed page 13"
+    },
+    "note": "All seven stems and four-option sets, including isotope notation and chemical subscripts, visually matched the official scan; all stored answers matched the official FINAL answer key. No question text, option, answer or syllabus mapping was changed."
   }
 }
