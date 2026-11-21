@@ -992,20 +992,22 @@
     "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
     "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
   },
-  "_latest_checkpoint": "Live canonical checkpoint (2026-11-21): 364 active + 36 review-only = 400. 397/400 source verified; 367/400 answer_key_verified. December 2008 Q6 and Q25-Q50 have now passed visual source review; key finality remains unresolved so those 27 remain review-only.",
+  "_latest_checkpoint": "Strict final-key checkpoint (2026-11-21): 246 active + 154 review-only = 400. 397/400 source verified; 250/400 explicitly final-key verified. December 2002, December 2003 and December 2008 are review-only pending final-key evidence.",
   "live_review_queue_checkpoint": {
     "date": "2026-11-21",
-    "active_questions": 364,
-    "pending_review": 36,
-    "unique_pending_ids": 36,
+    "active_questions": 246,
+    "pending_review": 154,
+    "unique_pending_ids": 154,
     "pending_by_paper": {
-      "gujarati_dec2002": 6,
-      "gujarati_dec2008": 27,
-      "gujarati_dec2021": 3
+      "gujarati_dec2002": 50,
+      "gujarati_dec2008": 50,
+      "gujarati_dec2021": 3,
+      "gujarati_dec2019": 1,
+      "gujarati_dec2003": 50
     },
     "source_verified_total": 397,
-    "answer_key_verified_total": 367,
-    "note": "Recomputed from canonical questions.json and questions_review_pending.json. Earlier 356/44 checkpoint is stale."
+    "answer_key_verified_total": 250,
+    "note": "Recomputed after enforcing final-key evidence: December 2002, December 2003 and December 2008 official PDFs are labelled only KEY FOR PAPER-II, not FINAL ANSWER KEY. Their 150 questions are retained in review-only with answer/source text preserved. No answers were altered."
   },
   "follow_up_visual_key_review_2026_11_21": {
     "date": "2026-11-21",
@@ -1089,12 +1091,12 @@
   },
   "last_audit_reconciliation": {
     "date": "2026-11-21",
-    "finding": "Gujarati Dec 2019 Q007 is marked Z in the official FINAL key (not evaluated); it has been moved from the active bank to review-only so non-evaluated items cannot enter scoring.",
-    "active_questions": 363,
-    "pending_review": 37,
+    "finding": "Strict final-key evidence audit: the official GSET archive's December 2002, December 2003 and December 2008 Gujarati Paper-II PDFs are headed KEY FOR PAPER-II, not FINAL ANSWER KEY. All records from these three sessions were moved to review-only without changing question text or answer letters. December 2019 Q007 remains review-only because official final key marks Z/not evaluated; December 2021 Q36/Q37/Q60 remain review-only due ambiguous source glyphs.",
+    "active_questions": 246,
+    "pending_review": 154,
     "total_questions": 400,
     "source_verified_total": 397,
-    "answer_key_verified_total": 367
+    "answer_key_verified_total": 250
   },
   "official_archive_recheck_2026_11_21": {
     "date": "2026-11-21",
@@ -1182,5 +1184,20 @@
     "result": "400/400 records resolve consistently to one of the ten configured official syllabus units; zero missing/invalid/conflicting unit references; all 400 have syllabus_mapping_status and syllabus_mapping_note.",
     "validator_change": "tool/validate_syllabus_mapping.py now normalizes display labels of the form 'Unit N' before checking against the official configured unit number and ID. This prevents valid labels from being rejected.",
     "limitation": "This is a structural/reference consistency audit, not a new semantic re-assessment of every topic-to-unit decision. Existing question-level review notes and statuses were preserved; no mappings were inferred or promoted by this patch."
+  },
+  "finality_enforcement_2026_11_21": {
+    "date": "2026-11-21",
+    "official_archive_url": "https://gujaratset.ac.in/anskey",
+    "official_dec2003_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec03/dec0306.pdf",
+    "official_dec2003_key_heading": "KEY FOR PAPER-II",
+    "affected_papers": [
+      "gujarati_dec2002",
+      "gujarati_dec2003",
+      "gujarati_dec2008"
+    ],
+    "records_moved_to_review": 117,
+    "reason": "Official published key PDFs for all three sessions are not explicitly labelled FINAL ANSWER KEY. To enforce the project rule requiring official final keys before scoring, all 150 records are held in review-only.",
+    "preservation": "No question stem, option, stored answer, or official published-key answer was changed. Source verification and syllabus mapping flags are preserved.",
+    "remaining_holds": "Finality confirmation or an official final answer key/corrigendum is needed before these records can be activated."
   }
 }
