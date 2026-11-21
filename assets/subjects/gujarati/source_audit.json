@@ -4,8 +4,8 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 363,
-  "pending_review": 37,
+  "active_questions": 246,
+  "pending_review": 154,
   "visual_checked": 397,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
@@ -48,7 +48,7 @@
     },
     "result": "All 27 stems and four-option sets visually checked against the official GSET scan. Stored answers match the available published key, but its PDF is titled KEY FOR PAPER-II and is not explicitly labelled FINAL. Therefore answer_key_verified remains false and all 27 remain review-only."
   },
-  "remaining_review_note": "LIVE QUEUE CHECKPOINT (2026-11-21): 36 review-only records remain in questions_review_pending.json. Breakdown: December 2002 = 6 (duplicate printed Q34/key identity plus five published-key conflicts; available key not labelled FINAL); December 2008 = 27 (source verified; available key not labelled FINAL); December 2021/January 2022 = 3 (answer keys verified, source glyph ambiguities remain). Do not promote without official final-key/source evidence.",
+  "remaining_review_note": "LIVE QUEUE CHECKPOINT (2026-11-21): 154 review-only records remain. Breakdown: December 2002 = 50, December 2003 = 50, December 2008 = 50 (all held because the official archive keys are not explicitly labelled FINAL); December 2019 = 1 (Q7 official Z/not evaluated); December 2021 = 3 (final key verified, source glyphs ambiguous). No question is promoted or answer altered without authoritative evidence.",
   "syllabus_mapping": "question_level_unit_assignment_complete_verified_or_provisional",
   "last_reconciliation": {
     "active_record_count": 97,
@@ -177,7 +177,7 @@
     "total_verified_mappings": 400,
     "note": "All 97 active records and all 303 review-only records now have verified unit mappings. Source-review and answer-key flags remain independent; mapping verification does not activate review-only records."
   },
-  "syllabus_mapping_note": "All 400 Gujarati Paper-II records across the 303 review-only and 97 active records now have verified question-level mappings against the official GSET Gujarati Code 06 syllabus. Provisional: 0. Pending: 0.",
+  "syllabus_mapping_note": "All 400 Gujarati Paper-II records have explicit, structurally consistent question-level references to the ten configured units in the official GSET Code 06 syllabus. Provisional: 0. Pending: 0. This is a structural/reference audit; it does not replace semantic expert review. Mapping status is independent of source and answer-key review.",
   "source_verification_checkpoint": {
     "newly_visual_checked": 137,
     "records": [
@@ -992,7 +992,7 @@
     "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
     "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
   },
-  "_latest_checkpoint": "Strict final-key checkpoint (2026-11-21): 246 active + 154 review-only = 400. 397/400 source verified; 250/400 explicitly final-key verified. December 2002, December 2003 and December 2008 are review-only pending final-key evidence.",
+  "_latest_checkpoint": "Gujarati Code 06 strict checkpoint (2026-11-21): 246 active + 154 review-only = 400 unique records. 397/400 source verified; 250/400 explicitly final-key verified; 400/400 syllabus references structurally consistent. Review-only: Dec 2002/2003/2008 (150 final-key-finality holds), Dec 2019 Q7 (Z/not evaluated), Dec 2021 Q36/Q37/Q60 (source glyphs ambiguous).",
   "live_review_queue_checkpoint": {
     "date": "2026-11-21",
     "active_questions": 246,
@@ -1000,14 +1000,14 @@
     "unique_pending_ids": 154,
     "pending_by_paper": {
       "gujarati_dec2002": 50,
+      "gujarati_dec2003": 50,
       "gujarati_dec2008": 50,
-      "gujarati_dec2021": 3,
       "gujarati_dec2019": 1,
-      "gujarati_dec2003": 50
+      "gujarati_dec2021": 3
     },
     "source_verified_total": 397,
     "answer_key_verified_total": 250,
-    "note": "Recomputed after enforcing final-key evidence: December 2002, December 2003 and December 2008 official PDFs are labelled only KEY FOR PAPER-II, not FINAL ANSWER KEY. Their 150 questions are retained in review-only with answer/source text preserved. No answers were altered."
+    "note": "Canonical files independently reconciled. Three older sessions are held pending explicit final-key evidence; Dec 2019 Q7 is non-evaluated; Dec 2021 Q36/Q37/Q60 remain source-ambiguous."
   },
   "follow_up_visual_key_review_2026_11_21": {
     "date": "2026-11-21",
@@ -1091,12 +1091,13 @@
   },
   "last_audit_reconciliation": {
     "date": "2026-11-21",
-    "finding": "Strict final-key evidence audit: the official GSET archive's December 2002, December 2003 and December 2008 Gujarati Paper-II PDFs are headed KEY FOR PAPER-II, not FINAL ANSWER KEY. All records from these three sessions were moved to review-only without changing question text or answer letters. December 2019 Q007 remains review-only because official final key marks Z/not evaluated; December 2021 Q36/Q37/Q60 remain review-only due ambiguous source glyphs.",
+    "finding": "Strict final-key evidence audit and metadata reconciliation completed. Dec 2002/2003/2008 official keys are labelled KEY FOR PAPER-II, not FINAL ANSWER KEY; all 150 questions held review-only without changing content/answers. Dec 2019 Q7 is Z/not evaluated. Dec 2021 Q36/Q37/Q60 have ambiguous source glyphs. All active questions have source and final-key evidence.",
     "active_questions": 246,
     "pending_review": 154,
     "total_questions": 400,
     "source_verified_total": 397,
-    "answer_key_verified_total": 250
+    "answer_key_verified_total": 250,
+    "syllabus_mapping_verified_total": 400
   },
   "official_archive_recheck_2026_11_21": {
     "date": "2026-11-21",
@@ -1174,16 +1175,16 @@
     "date": "2026-11-21",
     "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/06.pdf",
     "records_checked": 400,
-    "active_records": 363,
-    "review_only_records": 37,
+    "active_records": 246,
+    "review_only_records": 154,
     "explicit_mapping_fields": [
       "syllabus_unit",
       "unit_number",
       "unit_id"
     ],
     "result": "400/400 records resolve consistently to one of the ten configured official syllabus units; zero missing/invalid/conflicting unit references; all 400 have syllabus_mapping_status and syllabus_mapping_note.",
-    "validator_change": "tool/validate_syllabus_mapping.py now normalizes display labels of the form 'Unit N' before checking against the official configured unit number and ID. This prevents valid labels from being rejected.",
-    "limitation": "This is a structural/reference consistency audit, not a new semantic re-assessment of every topic-to-unit decision. Existing question-level review notes and statuses were preserved; no mappings were inferred or promoted by this patch."
+    "validator_change": "tool/validate_syllabus_mapping.py normalizes display labels Unit N before checking against configured unit number and ID.",
+    "limitation": "Structural/reference consistency audit only; no semantic re-assignment or automatic promotion."
   },
   "finality_enforcement_2026_11_21": {
     "date": "2026-11-21",
