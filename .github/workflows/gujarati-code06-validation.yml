@@ -1,8 +1,7 @@
 name: Gujarati Code 06 canonical validation and debug APK
 on:
   push:
-    branches:
-      - app/import-updated-subject-banks-2026-11-10
+    branches: [app/import-updated-subject-banks-2026-11-10]
     paths:
       - 'assets/subjects/gujarati/**'
       - 'assets/subjects/syllabus_units.json'
@@ -11,9 +10,7 @@ on:
       - 'pubspec.yaml'
       - '.github/workflows/gujarati-code06-validation.yml'
   pull_request:
-    branches:
-      - integration/combined-subject-banks
-      - main
+    branches: [integration/combined-subject-banks, main]
     paths:
       - 'assets/subjects/gujarati/**'
       - 'assets/subjects/syllabus_units.json'
