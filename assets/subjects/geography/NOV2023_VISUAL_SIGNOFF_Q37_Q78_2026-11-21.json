@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-21",
+  "paper": "November 2023 Geography Code 24",
+  "source": "Uploaded official GSET question-paper scan page images",
+  "method": "Manual image-to-record comparison; this is question-level visual sign-off for the seven listed questions only.",
+  "signed_off_count": 7,
+  "records": [
+    {"paper_id":"geography_nov2023","question_no":37,"pdf_page":"p-13_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Which one of the following is the most notable non-nuclear country of Kyoto protocol ?","options_en":["United States of America","United Kingdom","United Arab Emirates","India"]}},
+    {"paper_id":"geography_nov2023","question_no":38,"pdf_page":"p-14_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Match Column – I with Column – II and select the correct answer code. Column – I: a. Earthworm; b. Grass; c. Frogs; d. Hawks. Column – II: 1. Producer; 2. Secondary carnivores; 3. Primary carnivores; 4. Detrivores.","options_en":["4 1 2 3","2 3 4 1","3 4 1 2","4 1 3 2"]}},
+    {"paper_id":"geography_nov2023","question_no":39,"pdf_page":"p-14_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Which is the most stable ecosystem ?","options_en":["Terrestrial","Marine","Mangrove","Polar"]}},
+    {"paper_id":"geography_nov2023","question_no":47,"pdf_page":"p-16_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"The following are the targets of which National Population Policy (NPP) ? i. Achieve zero growth rate of population by 2045. ii. Reduce infant mortality rate of below 30 per 1000 live births. iii. Reduce maternal mortality ratio of below 100 per 1,00,000 live births.","options_en":["NPP 1956","NPP 1967","NPP 2000","NPP 2010"]}},
+    {"paper_id":"geography_nov2023","question_no":58,"pdf_page":"p-19_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Losch explained his theory of industrial location on ______ competition.","options_en":["Perfect","Monopolistic","Fluctuating","Stagnating"]}},
+    {"paper_id":"geography_nov2023","question_no":77,"pdf_page":"p-24_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Name a scholar who wrote a book titled ‘Codex Masudicus’. ","options_en":["Ibn Khaldun","Al-Idrisi","Al-Biruni","Ibn Battuta"]}},
+    {"paper_id":"geography_nov2023","question_no":78,"pdf_page":"p-24_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","corrections":{"question_en":"Name a scholar who climbed Chimborazo peak and established the relation between altitude and air pressure, influence of altitude on temperature and crops.","options_en":["Bernhard Varenius","Alexander von Humboldt","Strabo","Oscar Peschel"]}}
+  ],
+  "guardrails": [
+    "Do not change answer-key values; retain official final key as authoritative.",
+    "This sign-off does not verify Gujarati translation or syllabus mapping.",
+    "Keep review_flag=true until official syllabus mapping and reviewer approval are complete."
+  ]
+}
