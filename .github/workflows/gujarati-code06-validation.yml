@@ -42,7 +42,7 @@ jobs:
           java-version: '17'
       - uses: subosito/flutter-action@v2
         with:
-          channel: stable
+          flutter-version: '3.41.5'
           cache: true
       - name: Confirm pinned Java toolchain
         run: java -version
