@@ -1,0 +1,40 @@
+name: Geography Code 24 validation
+
+on:
+  push:
+    branches:
+      - app/import-updated-subject-banks-2026-11-10
+    paths:
+      - 'assets/subjects/geography/**'
+      - 'assets/subjects/subjects.json'
+      - 'tool/validate_geography_bank.py'
+      - '.github/workflows/geography-code24-validation.yml'
+  pull_request:
+    branches:
+      - main
+      - integration/combined-subject-banks
+    paths:
+      - 'assets/subjects/geography/**'
+      - 'assets/subjects/subjects.json'
+      - 'tool/validate_geography_bank.py'
+      - '.github/workflows/geography-code24-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-geography:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical Geography JSON
+        run: |
+          python -m json.tool assets/subjects/geography/questions.json > /dev/null
+          python -m json.tool assets/subjects/geography/questions_review_pending.json > /dev/null
+          python -m json.tool assets/subjects/geography/papers.json > /dev/null
+          python -m json.tool assets/subjects/geography/official_final_keys.json > /dev/null
+      - name: Run Geography Code 24 schema, review-queue and official-key validator
+        run: python tool/validate_geography_bank.py
