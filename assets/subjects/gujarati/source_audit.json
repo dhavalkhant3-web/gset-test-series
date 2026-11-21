@@ -1123,5 +1123,49 @@
     "pending_dec2002": "Six records remain held: five published-key conflicts and one duplicate printed Q34 identity; no answer overwritten.",
     "pending_dec2008": "All 50 stored answers match the official published key, but 27 remain review-only until a finality-labelled key or official clarification is available.",
     "pending_dec2021": "Q36, Q37 and Q60 answer keys are final and verified; source text glyphs remain ambiguous, so these remain review-only."
+  },
+  "dec2002_sequence_alignment_2026_11_21": {
+    "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
+    "published_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
+    "evidence": "The source booklet repeats printed question number 34 for two consecutive items. The official key has 50 sequential answer rows. Aligning by physical item order maps the second printed Q34 to key row 35, printed Q35 to row 36, through printed Q40 to row 41.",
+    "affected_records": [
+      {
+        "id": "GSET-GUJ06-DEC2002-Q035",
+        "key": "A",
+        "bank": "review"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q036",
+        "key": "C",
+        "bank": "review"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q037",
+        "key": "C",
+        "bank": "active"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q038",
+        "key": "A",
+        "bank": "review"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q039",
+        "key": "D",
+        "bank": "review"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q040",
+        "key": "A",
+        "bank": "review"
+      },
+      {
+        "id": "GSET-GUJ06-DEC2002-Q041",
+        "key": "C",
+        "bank": "review"
+      }
+    ],
+    "result": "50/50 answer letters match the official published key by booklet sequence; finality is not established because the key PDF is headed KEY FOR PAPER-II, not FINAL ANSWER KEY.",
+    "activation": "No additional records promoted; six affected records remain review-only pending final-key confirmation."
   }
 }
