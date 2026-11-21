@@ -108,7 +108,7 @@
       "papers_loaded": 11,
       "questions_loaded": 192,
       "questions_pending_review": 658,
-      "data_status": "Live canonical reconciliation 2026-11-18: 850 unique question records across 11 sessions = 192 active + 658 review-only. Review queue has no duplicate IDs or overlap with active. Of the 658 review-only records, 550 are recovered and remain source_verified=false; 108 have source_verified=true but remain review-only. 300 separate answer-key-only entries (five sessions) are not question records. Syllabus mapping: 290 verified, 560 pending. Do not activate recovered records without official question-paper verification."
+      "data_status": "Live canonical reconciliation 2026-11-21: 850 unique question records across 11 sessions = 192 active + 658 review-only. Review queue has no duplicate IDs or overlap with active. Of the 658 review-only records, 550 recovered records remain source_verified=false; 108 have source_verified=true but remain review-only. Separate answer-key-only staging now contains 450 entries across eight sessions; these are not question records. October 2010, October 2011 and October 2014 Paper-II PDFs and keys have now been retrieved from official GSET URLs, but their question text has not yet been transcribed. Syllabus mapping: 290 verified, 560 pending. Keep recovered records review-only until source, final-key status and mappings are evidenced."
     },
     {
       "code": "08",
