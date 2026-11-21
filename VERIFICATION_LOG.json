@@ -8645,7 +8645,8 @@
         "Unit VI": [
           10
         ]
-      }
+      },
+      "note": "Q9's existing Unit I mapping was confirmed and retained; only Q5 and Q8 required unit corrections."
     },
     "mapping_corrections": [
       {
@@ -8659,12 +8660,6 @@
         "from": "Unit VI",
         "to": "Unit II",
         "basis": "Official Unit II explicitly covers atmospheric composition, particles, ions and radicals; the matching item concerns atmospheric species across layers."
-      },
-      {
-        "question_no": 9,
-        "from": "Unit I",
-        "to": "Unit I",
-        "basis": "Official Unit I explicitly includes the definition, principles and scope of Environmental Science; the item asks about the discipline's scope and fields."
       }
     ],
     "question_ids": [

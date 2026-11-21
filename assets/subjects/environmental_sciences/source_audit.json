@@ -19,16 +19,16 @@
     "unit_distribution": {
       "Unit I": 22,
       "Unit X": 29,
-      "Unit IV": 29,
-      "Unit II": 40,
+      "Unit IV": 30,
+      "Unit II": 41,
       "Unit III": 29,
-      "Unit VI": 35,
-      "Unit V": 34,
+      "Unit VI": 34,
+      "Unit V": 33,
       "Unit VII": 26,
       "Unit VIII": 26,
       "Unit IX": 28
     },
-    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending. Q55 is Unit VI; Q63/Q65/Q67 are Unit VII; Q91 is Unit VIII (Montreal Protocol); Q95 is Unit X (Indian vehicular emission norms). Independent second-pass visual review: 109/300 completed, 191 pending."
+    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending. December 2024 Q5 and Q8 units corrected in second-pass review; Q9 Unit I retained. Q55 is Unit VI; Q63/Q65/Q67 are Unit VII; Q91 is Unit VIII (Montreal Protocol); Q95 is Unit X (Indian vehicular emission norms). Independent second-pass visual review: 117 unique IDs, 183 pending."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -181,27 +181,16 @@
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit I": [
-          1,
-          3,
-          4,
-          9
-        ],
-        "Unit II": [
-          8
-        ],
-        "Unit III": [
-          6
-        ],
-        "Unit IV": [
-          5
-        ],
-        "Unit V": [
-          7
-        ],
-        "Unit VI": [
-          10
-        ]
+        "Unit I": 22,
+        "Unit X": 29,
+        "Unit IV": 30,
+        "Unit II": 41,
+        "Unit III": 29,
+        "Unit VI": 34,
+        "Unit V": 33,
+        "Unit VII": 26,
+        "Unit VIII": 26,
+        "Unit IX": 28
       }
     },
     "mapping_corrections": [
@@ -216,12 +205,6 @@
         "from": "Unit VI",
         "to": "Unit II",
         "basis": "Official Unit II explicitly covers atmospheric composition, particles, ions and radicals; the matching item concerns atmospheric species across layers."
-      },
-      {
-        "question_no": 9,
-        "from": "Unit I",
-        "to": "Unit I",
-        "basis": "Official Unit I explicitly includes the definition, principles and scope of Environmental Science; the item asks about the discipline's scope and fields."
       }
     ],
     "result": "All ten stems and options match official GSET December 2024 pages 3-5; final-key parity 10/10. Q8 matching table checked. Q5 corrected to Unit IV (natural hazards/tsunami), Q8 to Unit II (atmospheric ions/radicals), and Q9 to Unit I (explicit scope)."

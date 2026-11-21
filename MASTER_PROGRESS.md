@@ -1871,3 +1871,8 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Evidence IDs: GSET-ENV26-DEC2024-Q001, GSET-ENV26-DEC2024-Q002, GSET-ENV26-DEC2024-Q003, GSET-ENV26-DEC2024-Q004, GSET-ENV26-DEC2024-Q005, GSET-ENV26-DEC2024-Q006, GSET-ENV26-DEC2024-Q007, GSET-ENV26-DEC2024-Q008, GSET-ENV26-DEC2024-Q009, GSET-ENV26-DEC2024-Q010. Q8 had a prior visual review record; this batch rechecked it.
 - No question text/options/answers changed; no other subject modified. PR #22 remains open/unmerged; no CI or APK PASS claimed.
 - Next: Environmental Sciences December 2024 Q11–Q20.
+
+
+## 2026-11-21 — Audit note clarification (Environmental Sciences December 2024 Q1–Q10)
+- Q9 was not remapped: its existing Unit I assignment was confirmed because the official syllabus explicitly includes the scope of Environmental Science. Only Q5 (Unit V → IV) and Q8 (Unit VI → II) required unit corrections.
+- Updated the audit unit distribution to reflect those two changes. No question text, options, answers, subject counts, or review statuses changed.
