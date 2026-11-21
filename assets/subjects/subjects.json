@@ -90,9 +90,9 @@
       "paper_ii_marks": 200,
       "source_verified": false,
       "papers_loaded": 6,
-      "questions_loaded": 196,
-      "questions_pending_review": 204,
-      "data_status": "400 transcribed across six sessions. Active questions.json: 196 questions, all source-verified, answer-key checked and syllabus-mapped. Review-only bank: 204 questions; 147/204 source-verified, 171/204 answer-key checked, and all 204 syllabus mappings verified. Overall 343/400 source-verified, 367/400 answer-key checked, 400/400 syllabus mappings verified. December 2019: 99 evaluable questions active; Q7 official Z/not evaluated remains review-only. December 2003: 50/50 source and published-key matches; key not explicitly labelled FINAL. December 2002: five published-key conflicts and one duplicate printed Q34 key identity unresolved. August 2017 and December 2008: remaining source visual review. December 2021 Q36, Q37 and Q60 remain source-ambiguous."
+      "questions_loaded": 246,
+      "questions_pending_review": 154,
+      "data_status": "Gujarati Paper-II: 400 unique questions across six official sessions. Current canonical state (2026-11-21): 246 active and 154 review-only. All 246 active questions have verified source transcription, official FINAL answer-key reconciliation, and verified syllabus mapping. Review-only: Dec 2002 (50), Dec 2003 (50), Dec 2008 (50) are held because the official archive PDFs are titled only KEY FOR PAPER-II, not explicitly FINAL ANSWER KEY; Dec 2019 Q7 is Z/not evaluated; Dec 2021 Q36, Q37 and Q60 have unresolved source-glyph ambiguity. Overall: 397/400 source-verified, 250/400 explicitly final-key-verified, 400/400 syllabus mappings structurally consistent. Subject-level source_verified remains false while any source ambiguity remains."
     },
     {
       "code": "07",
