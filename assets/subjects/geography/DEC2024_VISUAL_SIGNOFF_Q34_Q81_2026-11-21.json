@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-21",
+  "paper": "December 2024 Geography Code 24",
+  "source": "Uploaded official GSET question-paper scan page images",
+  "method": "Manual image-to-record comparison for the two OCR-missed question blocks.",
+  "signed_off_count": 2,
+  "records": [
+    {"paper_id":"geography_dec2024","question_no":34,"pdf_page":"p-13_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","transcription_matches_image":true,"note":"Stem and all four options match the scan, including source spellings Maeckel and Transley."},
+    {"paper_id":"geography_dec2024","question_no":81,"pdf_page":"p-25_en.png","visual_status":"MANUALLY_VISUALLY_CHECKED","transcription_matches_image":true,"note":"Stem and all four options match the scan, including source spelling Pythagorian."}
+  ],
+  "guardrails": [
+    "Do not normalize or silently correct spellings from the official source scan.",
+    "This sign-off does not verify Gujarati translation or syllabus mapping.",
+    "Keep review_flag=true until official syllabus mapping and reviewer approval are complete."
+  ]
+}
