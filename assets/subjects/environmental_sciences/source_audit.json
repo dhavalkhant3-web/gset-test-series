@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 241,
+  "proofread_pass1_pending_second_pass": 231,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -19,16 +19,16 @@
     "unit_distribution": {
       "Unit I": 22,
       "Unit X": 28,
-      "Unit IV": 30,
+      "Unit IV": 29,
       "Unit II": 41,
       "Unit III": 30,
-      "Unit VI": 36,
+      "Unit VI": 37,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending because their previous unit assignments are not explicitly supported by the official Code 26 syllabus. Independent second-pass visual review is a separate gate: 49/300 completed, 251 pending."
+    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending because their previous unit assignments are not explicitly supported by the official Code 26 syllabus. Q55 is correctly assigned to Unit VI for marine pollution. Independent second-pass visual review is a separate gate: 69/300 completed, 231 pending."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -55,30 +55,28 @@
     "result": "All 14 stems and option sets visually matched the official scan. All had verified final-key parity and verified official syllabus mappings. Promoted after duplicate-ID and status-gate checks; the Nov 2025 review queue is now empty."
   },
   "last_mapping_review": {
-    "date": "2026-11-20",
-    "scope": "Re-audited November 2023 Q21-Q30 against official Code 26 syllabus.",
+    "date": "2026-11-21",
+    "scope": "Re-audited November 2023 Q51-Q60 against official Code 26 syllabus.",
     "verified_mappings": 298,
     "provisional_mappings": 0,
     "pending_mappings": 2,
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "corrected_question_units": {
-      "Q24": "Unit III (acute/chronic toxicity)",
-      "Q25": "Unit III (community ecology/interactions)",
-      "Q30": "Unit III (biodiversity and conservation)"
+      "Q55": "Unit VI (marine pollution; sources and impacts)"
     },
     "unit_distribution": {
       "Unit I": 22,
       "Unit X": 28,
-      "Unit IV": 30,
+      "Unit IV": 29,
       "Unit II": 41,
       "Unit III": 30,
-      "Unit VI": 36,
+      "Unit VI": 37,
       "Unit V": 35,
       "Unit VII": 23,
       "Unit VIII": 25,
       "Unit IX": 28
     },
-    "note": "Q21-Q30 all directly map to Unit III. Q24, Q25 and Q30 were corrected from unsupported Unit II, Unit VI and Unit IV assignments respectively. Q8 and Q9 remain the only mapping holds; no forced unit was assigned."
+    "note": "Q55 corrected from Unit IV to Unit VI because the official syllabus explicitly lists marine pollution in Unit VI. Q8 and Q9 remain the only mapping holds."
   },
   "dec2024_last_visual_review": {
     "date": "2026-11-16",
@@ -130,42 +128,40 @@
     "date": "2026-11-21",
     "session": "November 2023",
     "questions": [
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      8,
-      9,
-      10
-    ],
-    "printed_pages": [
-      9,
       10,
       11
     ],
+    "printed_pages": [
+      11,
+      12
+    ],
     "final_key_letters": [
-      "B",
       "A",
       "C",
+      "B",
+      "C",
+      "A",
+      "D",
       "D",
       "C",
       "D",
-      "C",
-      "D",
-      "C",
-      "A"
+      "D"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
@@ -180,24 +176,33 @@
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit I": [
-          47
+        "Unit II": [
+          57,
+          59
         ],
         "Unit V": [
-          41,
-          42,
-          43,
-          44,
-          45,
-          46,
-          48,
-          49,
-          50
+          53
+        ],
+        "Unit VI": [
+          51,
+          52,
+          54,
+          55,
+          56,
+          58,
+          60
         ]
       }
     },
-    "mapping_corrections": [],
-    "result": "All ten stems and all four options match the official GSET scan on PDF page indexes 8-10. No figures or tables occur. Official final-key letters B, A, C, D, C, D, C, D, C, A match the stored answers 10/10. Existing syllabus mappings were checked against the official Code 26 syllabus and retained: Q41-Q46 and Q48-Q50 Unit V; Q47 Unit I. No question text, options, answer letters or syllabus unit changed."
+    "mapping_corrections": [
+      {
+        "question_no": 55,
+        "from": "Unit IV",
+        "to": "Unit VI",
+        "basis": "The official Code 26 Unit VI explicitly includes sources and impact of marine pollution; the question asks about the effect of oil-drill bits on marine sediments."
+      }
+    ],
+    "result": "All ten stems and all four options match the official GSET scan on PDF page indexes 10-11. No figures or tables occur. Official final-key letters A, C, B, C, A, D, D, C, D, D match the stored answers 10/10. Syllabus re-audit retained Q51, Q52, Q54, Q56, Q58 and Q60 in Unit VI; Q53 in Unit V; Q57 and Q59 in Unit II. Corrected Q55 from Unit IV to Unit VI because the official syllabus explicitly places marine pollution under Unit VI. No question text, options or answer letters changed."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -258,9 +263,19 @@
     "GSET-ENV26-NOV2023-Q047",
     "GSET-ENV26-NOV2023-Q048",
     "GSET-ENV26-NOV2023-Q049",
-    "GSET-ENV26-NOV2023-Q050"
+    "GSET-ENV26-NOV2023-Q050",
+    "GSET-ENV26-NOV2023-Q051",
+    "GSET-ENV26-NOV2023-Q052",
+    "GSET-ENV26-NOV2023-Q053",
+    "GSET-ENV26-NOV2023-Q054",
+    "GSET-ENV26-NOV2023-Q055",
+    "GSET-ENV26-NOV2023-Q056",
+    "GSET-ENV26-NOV2023-Q057",
+    "GSET-ENV26-NOV2023-Q058",
+    "GSET-ENV26-NOV2023-Q059",
+    "GSET-ENV26-NOV2023-Q060"
   ],
-  "second_pass_visual_verified_count": 59,
+  "second_pass_visual_verified_count": 69,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -294,7 +309,7 @@
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   },
   "live_reconciliation_2026_11_21": {
-    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q41-Q50 independent second-pass batch.",
+    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q51-Q60 independent second-pass batch.",
     "canonical_questions": 300,
     "active_questions": 298,
     "review_flagged_questions": 2,
@@ -304,9 +319,9 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 59,
-    "proofread_second_pass_pending": 241,
+    "proofread_second_pass_verified": 69,
+    "proofread_second_pass_pending": 231,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": true,
-    "note": "Independent second-pass visual review covers 59/300 records (the prior nine checks plus November 2023 Q1-Q50); 241 remain. Q8 and Q9 remain the only syllabus-mapping holds. The Q41-Q50 batch did not change canonical question text, options, answers or mappings."
+    "note": "Independent second-pass visual review covers 69/300 records (the prior nine checks plus November 2023 Q1-Q60); 231 remain. Q8 and Q9 remain the only syllabus-mapping holds. Q55 was remapped from Unit IV to Unit VI based on the explicit marine-pollution syllabus section. Canonical question text, options and answers were not changed."
   }
 }

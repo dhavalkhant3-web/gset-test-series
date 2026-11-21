@@ -8021,5 +8021,114 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-21",
+    "event": "Environmental Sciences Code 26 November 2023 Q51-Q60 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "November 2023 Q51-Q60",
+    "printed_pages": [
+      11,
+      12
+    ],
+    "pdf_page_indexes_zero_based": [
+      10,
+      11
+    ],
+    "final_key_letters": [
+      "A",
+      "C",
+      "B",
+      "C",
+      "A",
+      "D",
+      "D",
+      "C",
+      "D",
+      "D"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit II": [
+          57,
+          59
+        ],
+        "Unit V": [
+          53
+        ],
+        "Unit VI": [
+          51,
+          52,
+          54,
+          55,
+          56,
+          58,
+          60
+        ]
+      }
+    },
+    "mapping_corrections": [
+      {
+        "question_no": 55,
+        "from": "Unit IV",
+        "to": "Unit VI",
+        "basis": "Official Code 26 Unit VI explicitly includes marine pollution; Q55 concerns oil-drill effects on marine sediments."
+      }
+    ],
+    "question_ids": [
+      "GSET-ENV26-NOV2023-Q051",
+      "GSET-ENV26-NOV2023-Q052",
+      "GSET-ENV26-NOV2023-Q053",
+      "GSET-ENV26-NOV2023-Q054",
+      "GSET-ENV26-NOV2023-Q055",
+      "GSET-ENV26-NOV2023-Q056",
+      "GSET-ENV26-NOV2023-Q057",
+      "GSET-ENV26-NOV2023-Q058",
+      "GSET-ENV26-NOV2023-Q059",
+      "GSET-ENV26-NOV2023-Q060"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 59,
+      "independent_second_pass_pending": 241
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 69,
+      "independent_second_pass_pending": 231,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]

@@ -1811,3 +1811,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Evidence IDs: GSET-ENV26-NOV2023-Q041, GSET-ENV26-NOV2023-Q042, GSET-ENV26-NOV2023-Q043, GSET-ENV26-NOV2023-Q044, GSET-ENV26-NOV2023-Q045, GSET-ENV26-NOV2023-Q046, GSET-ENV26-NOV2023-Q047, GSET-ENV26-NOV2023-Q048, GSET-ENV26-NOV2023-Q049, GSET-ENV26-NOV2023-Q050. Cumulative independent second-pass IDs: 59.
 - No canonical question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences November 2023 Q51–Q60.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 November 2023 Q51–Q60 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q51–Q60 against official PDF page indexes 10–11 (printed pages 11–12). All ten stems and all four options match the official scan. No figures or tables occur.
+- Official final-key letters A, C, B, C, A, D, D, C, D, D match the stored answers 10/10. Syllabus re-audit corrected Q55 from Unit IV to Unit VI because the official syllabus explicitly lists marine pollution in Unit VI. Other mappings retained: Unit VI Q51/Q52/Q54/Q56/Q58/Q60; Unit V Q53; Unit II Q57/Q59.
+- Before → after: independent second-pass verified 59 → 69; pass-1 records still awaiting second pass 241 → 231. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q051, GSET-ENV26-NOV2023-Q052, GSET-ENV26-NOV2023-Q053, GSET-ENV26-NOV2023-Q054, GSET-ENV26-NOV2023-Q055, GSET-ENV26-NOV2023-Q056, GSET-ENV26-NOV2023-Q057, GSET-ENV26-NOV2023-Q058, GSET-ENV26-NOV2023-Q059, GSET-ENV26-NOV2023-Q060. Cumulative independent second-pass IDs: 69.
+- Question text, options and answer letters were not changed. Q55's syllabus unit was corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: Environmental Sciences November 2023 Q61–Q70.
