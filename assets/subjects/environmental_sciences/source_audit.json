@@ -238,6 +238,18 @@
     "GSET-ENV26-DEC2024-Q025",
     "GSET-ENV26-DEC2024-Q026",
     "GSET-ENV26-DEC2024-Q027",
+    "GSET-ENV26-DEC2024-Q034",
+    "GSET-ENV26-DEC2024-Q035",
+    "GSET-ENV26-DEC2024-Q036",
+    "GSET-ENV26-DEC2024-Q037",
+    "GSET-ENV26-DEC2024-Q038",
+    "GSET-ENV26-DEC2024-Q039",
+    "GSET-ENV26-DEC2024-Q040",
+    "GSET-ENV26-DEC2024-Q041",
+    "GSET-ENV26-DEC2024-Q042",
+    "GSET-ENV26-DEC2024-Q043",
+    "GSET-ENV26-DEC2024-Q044",
+    "GSET-ENV26-DEC2024-Q045",
     "GSET-ENV26-DEC2024-Q051",
     "GSET-ENV26-NOV2023-Q001",
     "GSET-ENV26-NOV2023-Q002",
@@ -345,7 +357,7 @@
     "GSET-ENV26-NOV2025-Q019",
     "GSET-ENV26-NOV2025-Q068"
   ],
-  "second_pass_visual_verified_count": 133,
+  "second_pass_visual_verified_count": 145,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -426,5 +438,48 @@
       "pdf_pages": "zero-based 6-7; printed pages 7-8"
     },
     "note": "All seven questions match the official scan; all seven stored answer letters match the official FINAL answer key. Q26's two-column table and answer combinations were visually checked. No question text, option, answer or syllabus mapping was changed."
+  },
+  "live_reconciliation_2026_11_21_batch3": {
+    "date": "2026-11-21",
+    "basis": "Independent visual recheck of Environmental Sciences December 2024 Q34-Q45 against official GSET question-paper scan and final answer-key PDF.",
+    "canonical_questions": 300,
+    "second_pass_visual_verified": 145,
+    "second_pass_visual_pending": 155,
+    "batch": {
+      "session": "December 2024",
+      "question_numbers": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "visual_source_checked": 12,
+      "all_four_options_checked": 12,
+      "official_final_key_matches": 12,
+      "answer_letters": {
+        "34": "D",
+        "35": "D",
+        "36": "D",
+        "37": "D",
+        "38": "D",
+        "39": "D",
+        "40": "D",
+        "41": "D",
+        "42": "A",
+        "43": "D",
+        "44": "C",
+        "45": "A"
+      },
+      "pdf_pages": "zero-based 9-10; printed pages 10-11"
+    },
+    "note": "All 12 question stems and four-option sets visually matched the official scan; all 12 stored answers matched the official FINAL answer key. No question text, option, answer or syllabus mapping was changed."
   }
 }
