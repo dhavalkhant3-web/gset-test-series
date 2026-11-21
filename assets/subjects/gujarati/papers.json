@@ -30,12 +30,14 @@
       "source_verified": true,
       "review_flags_remaining_count": 50,
       "status": "source_verified_published_key_finality_pending",
-      "review_note": "50/50 records are retained in review-only. The official archive provides a published KEY FOR PAPER-II, but the PDF heading is not explicitly FINAL ANSWER KEY. Original source text and answer letters are preserved; no question is scored or promoted until an official final key or clarification is located.",
-      "answer_key_reconciled_count": 50,
+      "review_note": "All 50 source records have been visually checked and all question-level syllabus mappings are verified. The official archive PDF is titled KEY FOR PAPER-II, not explicitly FINAL ANSWER KEY; no records are active until final-key finality is confirmed. Stored answer letters are preserved.",
+      "answer_key_reconciled_count": 0,
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 50,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 0,
+      "published_key_matched_count": 50
     },
     {
       "paper_id": "gujarati_dec2003",
@@ -57,12 +59,14 @@
       "source_verified": true,
       "review_flags_remaining_count": 50,
       "status": "source_verified_published_key_finality_pending",
-      "review_note": "50/50 records are retained in review-only. The official archive provides a published KEY FOR PAPER-II, but the PDF heading is not explicitly FINAL ANSWER KEY. Original source text and answer letters are preserved; no question is scored or promoted until an official final key or clarification is located.",
-      "answer_key_reconciled_count": 50,
+      "review_note": "All 50 source records have been visually checked and all question-level syllabus mappings are verified. The official archive PDF is titled KEY FOR PAPER-II, not explicitly FINAL ANSWER KEY; no records are active until final-key finality is confirmed. Stored answer letters are preserved.",
+      "answer_key_reconciled_count": 0,
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 50,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 0,
+      "published_key_matched_count": 50
     },
     {
       "paper_id": "gujarati_dec2008",
@@ -84,12 +88,14 @@
       "source_verified": true,
       "review_flags_remaining_count": 50,
       "status": "source_verified_published_key_finality_pending",
-      "review_note": "50/50 records are retained in review-only. The official archive provides a published KEY FOR PAPER-II, but the PDF heading is not explicitly FINAL ANSWER KEY. Original source text and answer letters are preserved; no question is scored or promoted until an official final key or clarification is located.",
-      "answer_key_reconciled_count": 50,
+      "review_note": "All 50 source records have been visually checked and all question-level syllabus mappings are verified. The official archive PDF is titled KEY FOR PAPER-II, not explicitly FINAL ANSWER KEY; no records are active until final-key finality is confirmed. Stored answer letters are preserved.",
+      "answer_key_reconciled_count": 0,
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 50,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 0,
+      "published_key_matched_count": 0
     },
     {
       "paper_id": "gujarati_aug2017",
@@ -111,12 +117,14 @@
       "source_verified": true,
       "review_flags_remaining_count": 0,
       "status": "verified",
-      "review_note": "50/50 question stems/options are visually source-verified; all 50 stored answers match the official FINAL answer key; all 50 syllabus mappings are verified. There are zero review-only records for this paper.",
+      "review_note": "50/50 question stems/options are visually source-verified; all 50 stored answers match the official FINAL answer key; all 50 syllabus mappings are verified. Zero review-only records.",
       "answer_key_reconciled_count": 50,
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 50,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 50,
+      "published_key_matched_count": 0
     },
     {
       "paper_id": "gujarati_dec2019",
@@ -143,7 +151,9 @@
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 100,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 100,
+      "published_key_matched_count": 0
     },
     {
       "paper_id": "gujarati_dec2021",
@@ -165,11 +175,14 @@
       "source_verified": false,
       "review_flags_remaining_count": 3,
       "status": "partial_visual_review",
-      "review_note": "Official final answer-key reconciliation 100/100. 97/100 records source-verified and active; Q36, Q37 and Q60 remain review-only due source ambiguity. All 100 question-level syllabus mappings are now verified against the official Code 06 syllabus (97 active + 3 review-only).",
+      "review_note": "Official FINAL answer-key reconciliation 100/100. 97/100 records source-verified and active; Q36, Q37 and Q60 remain review-only due unresolved source glyph ambiguity. All 100 syllabus mappings are verified.",
       "syllabus_mapping_status": "verified",
       "syllabus_mapping_verified": 100,
       "syllabus_mapping_provisional": 0,
-      "syllabus_mapping_pending": 0
+      "syllabus_mapping_pending": 0,
+      "final_key_verified_count": 100,
+      "published_key_matched_count": 0,
+      "answer_key_reconciled_count": 100
     }
   ]
 }
