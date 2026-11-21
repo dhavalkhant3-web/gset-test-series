@@ -36,10 +36,16 @@ jobs:
           python -m json.tool assets/subjects/gujarati/source_audit.json > /dev/null
           python -m json.tool assets/subjects/syllabus_units.json > /dev/null
           python tool/validate_gujarati_bank.py
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
+      - name: Confirm pinned Java toolchain
+        run: java -version
       - name: Resolve Flutter dependencies
         run: flutter pub get
       - name: Build combined debug APK
