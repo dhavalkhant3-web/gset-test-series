@@ -1006,5 +1006,85 @@
     "source_verified_total": 397,
     "answer_key_verified_total": 367,
     "note": "Recomputed from canonical questions.json and questions_review_pending.json. Earlier 356/44 checkpoint is stale."
+  },
+  "follow_up_visual_key_review_2026_11_21": {
+    "date": "2026-11-21",
+    "official_sources_checked": [
+      "https://gujaratset.ac.in/assets/papers/paperII/dec21/dec2106.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
+      "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
+      "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf"
+    ],
+    "december_2021": {
+      "checked_questions": [
+        36,
+        37,
+        60
+      ],
+      "final_key_answers": {
+        "36": "A",
+        "37": "C",
+        "60": "A"
+      },
+      "final_key_status": "official final answer key confirmed",
+      "unresolved_source_glyphs": {
+        "36": "Option A compound after 'પાત્રો' remains ambiguous in the official scan; option C is clearly 'પદ્યવાર્તા'.",
+        "37": "Option D proper-name spelling remains visually ambiguous (stored ચેમ્નિગરાય; scan may read ચેન્નિગરાય).",
+        "60": "Option b author's Gujarati transliteration remains visually ambiguous in the scan."
+      },
+      "outcome": "All three final-key answers remain confirmed, but source_verified=false and review-only are retained until the original glyphs can be read unambiguously."
+    },
+    "december_2002": {
+      "checked_questions": [
+        35,
+        36,
+        38,
+        39,
+        40,
+        41
+      ],
+      "paper_observation": "Official scan contains a duplicated printed Q34; staged Q035 corresponds to the second printed Q34. The published one-row-per-number key cannot uniquely identify that row.",
+      "published_key_status": "Official PDF is titled KEY FOR PAPER-II and is not explicitly labelled FINAL.",
+      "mapped_published_key_comparisons": [
+        {
+          "record": "Q035",
+          "printed_question": "second Q34",
+          "published_key": "ambiguous due duplicate Q34",
+          "stored_answer": "A"
+        },
+        {
+          "record": "Q036",
+          "printed_question": 35,
+          "published_key": "A",
+          "stored_answer": "C"
+        },
+        {
+          "record": "Q038",
+          "printed_question": 37,
+          "published_key": "C",
+          "stored_answer": "A"
+        },
+        {
+          "record": "Q039",
+          "printed_question": 38,
+          "published_key": "A",
+          "stored_answer": "D"
+        },
+        {
+          "record": "Q040",
+          "printed_question": 39,
+          "published_key": "D",
+          "stored_answer": "A"
+        },
+        {
+          "record": "Q041",
+          "printed_question": 40,
+          "published_key": "A",
+          "stored_answer": "C"
+        }
+      ],
+      "outcome": "All six remain review-only and answer_key_verified=false. Do not overwrite stored answers or promote using a non-final key."
+    },
+    "policy": "No question/answer text changed and no review-only record was promoted during this follow-up."
   }
 }
