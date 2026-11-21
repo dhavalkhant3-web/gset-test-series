@@ -265,6 +265,16 @@
     "GSET-ENV26-DEC2024-Q058",
     "GSET-ENV26-DEC2024-Q059",
     "GSET-ENV26-DEC2024-Q060",
+    "GSET-ENV26-DEC2024-Q061",
+    "GSET-ENV26-DEC2024-Q062",
+    "GSET-ENV26-DEC2024-Q063",
+    "GSET-ENV26-DEC2024-Q064",
+    "GSET-ENV26-DEC2024-Q065",
+    "GSET-ENV26-DEC2024-Q066",
+    "GSET-ENV26-DEC2024-Q067",
+    "GSET-ENV26-DEC2024-Q068",
+    "GSET-ENV26-DEC2024-Q069",
+    "GSET-ENV26-DEC2024-Q070",
     "GSET-ENV26-NOV2023-Q001",
     "GSET-ENV26-NOV2023-Q002",
     "GSET-ENV26-NOV2023-Q003",
@@ -371,7 +381,7 @@
     "GSET-ENV26-NOV2025-Q019",
     "GSET-ENV26-NOV2025-Q068"
   ],
-  "second_pass_visual_verified_count": 159,
+  "second_pass_visual_verified_count": 169,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -563,5 +573,44 @@
       "pdf_pages": "zero-based 12; printed page 13"
     },
     "note": "All seven stems and four-option sets, including isotope notation and chemical subscripts, visually matched the official scan; all stored answers matched the official FINAL answer key. No question text, option, answer or syllabus mapping was changed."
+  },
+  "live_reconciliation_2026_11_21_batch6": {
+    "date": "2026-11-21",
+    "basis": "Independent visual recheck of Environmental Sciences December 2024 Q61-Q70 against official GSET scan and final answer key.",
+    "canonical_questions": 300,
+    "second_pass_visual_verified": 169,
+    "second_pass_visual_pending": 131,
+    "batch": {
+      "session": "December 2024",
+      "question_numbers": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "visual_source_checked": 10,
+      "all_four_options_checked": 10,
+      "official_final_key_matches": 10,
+      "answer_letters": {
+        "61": "D",
+        "62": "A",
+        "63": "D",
+        "64": "C",
+        "65": "B",
+        "66": "D",
+        "67": "C",
+        "68": "C",
+        "69": "B",
+        "70": "A"
+      },
+      "pdf_pages": "zero-based 12-13; printed pages 13-14"
+    },
+    "note": "All ten question stems and four-option sets visually matched the official scan; scientific symbols/subscripts checked where present. All stored answers matched the official FINAL answer key. No question text, option, answer or syllabus mapping was changed."
   }
 }
