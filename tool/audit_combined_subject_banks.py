@@ -10,6 +10,7 @@ SUBJECT_ROOT = ROOT / "assets/subjects"
 CONFIG_PATH = SUBJECT_ROOT / "syllabus_units.json"
 REGISTRY_PATH = SUBJECT_ROOT / "subjects.json"
 IN_SCOPE = {
+    "24": ("geography", "questions.json"),
     "02": ("physical_sciences", "questions.json"),
     "03": ("chemical_sciences", "questions.json"),
     "28": ("hindu_studies", "questions.json"),
