@@ -992,7 +992,7 @@
     "final_key_pdf": "https://gujaratset.ac.in/assets/anskey/paperII/aug17/aug1706.pdf",
     "result": "11 records visually verified against official scanned paper and matched to the official final answer key. Only source_verified records with existing verified mapping and key verification were promoted. All other review records remain held."
   },
-  "_latest_checkpoint": "Gujarati Code 06 strict checkpoint (2026-11-21): 246 active + 154 review-only = 400 unique records. 397/400 source verified; 250/400 explicitly final-key verified; 400/400 syllabus references structurally consistent. Review-only: Dec 2002/2003/2008 (150 final-key-finality holds), Dec 2019 Q7 (Z/not evaluated), Dec 2021 Q36/Q37/Q60 (source glyphs ambiguous).",
+  "_latest_checkpoint": "Gujarati Code 06 strict checkpoint (2026-11-21): 246 active + 154 review-only = 400 unique records. 397/400 source verified; 250/400 explicitly final-key verified; 400/400 syllabus references structurally consistent. Review-only: Dec 2002 (50; 44 published-key matches, five conflicts, one duplicate-Q34 ambiguity), Dec 2003 (50) and Dec 2008 (50) due lack of explicit FINAL label; Dec 2019 Q7 (Z/not evaluated); Dec 2021 Q36/Q37/Q60 (source glyphs ambiguous).",
   "live_review_queue_checkpoint": {
     "date": "2026-11-21",
     "active_questions": 246,
@@ -1123,53 +1123,57 @@
         "status": "final key confirmed"
       }
     ],
-    "pending_dec2002": "Six records remain held: five published-key conflicts and one duplicate printed Q34 identity; no answer overwritten.",
+    "pending_dec2002": "All 50 are review-only: 44 match the available published key, five have answer conflicts (Q36, Q38-Q41), and one (Q35) has ambiguous key identity because printed Q34 is duplicated. The PDF is not explicitly labelled FINAL; no answer overwritten.",
     "pending_dec2008": "All 50 stored answers match the official published key, but 27 remain review-only until a finality-labelled key or official clarification is available.",
     "pending_dec2021": "Q36, Q37 and Q60 answer keys are final and verified; source text glyphs remain ambiguous, so these remain review-only."
   },
   "dec2002_sequence_alignment_2026_11_21": {
     "source_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec02/dec0206.pdf",
     "published_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
-    "evidence": "The source booklet repeats printed question number 34 for two consecutive items. The official key has 50 sequential answer rows. Aligning by physical item order maps the second printed Q34 to key row 35, printed Q35 to row 36, through printed Q40 to row 41.",
-    "affected_records": [
+    "evidence": "The official booklet repeats printed Q34. Rechecking the stored source_key_answer fields shows 44/50 stored answers match the corresponding printed-number rows of the published key; five conflicts remain and one duplicate-Q34 identity remains ambiguous. The earlier blanket 50/50-match note was incorrect and is superseded by this reconciliation.",
+    "published_key_matches": 44,
+    "published_key_conflicts": 5,
+    "identity_ambiguous": 1,
+    "conflicts": [
       {
-        "id": "GSET-GUJ06-DEC2002-Q035",
-        "key": "A",
-        "bank": "review"
+        "record": "Q036",
+        "printed_question": 35,
+        "published_key": "A",
+        "stored": "C"
       },
       {
-        "id": "GSET-GUJ06-DEC2002-Q036",
-        "key": "C",
-        "bank": "review"
+        "record": "Q038",
+        "printed_question": 37,
+        "published_key": "C",
+        "stored": "A"
       },
       {
-        "id": "GSET-GUJ06-DEC2002-Q037",
-        "key": "C",
-        "bank": "active"
+        "record": "Q039",
+        "printed_question": 38,
+        "published_key": "A",
+        "stored": "D"
       },
       {
-        "id": "GSET-GUJ06-DEC2002-Q038",
-        "key": "A",
-        "bank": "review"
+        "record": "Q040",
+        "printed_question": 39,
+        "published_key": "D",
+        "stored": "A"
       },
       {
-        "id": "GSET-GUJ06-DEC2002-Q039",
-        "key": "D",
-        "bank": "review"
-      },
-      {
-        "id": "GSET-GUJ06-DEC2002-Q040",
-        "key": "A",
-        "bank": "review"
-      },
-      {
-        "id": "GSET-GUJ06-DEC2002-Q041",
-        "key": "C",
-        "bank": "review"
+        "record": "Q041",
+        "printed_question": 40,
+        "published_key": "A",
+        "stored": "C"
       }
     ],
-    "result": "50/50 answer letters match the official published key by booklet sequence; finality is not established because the key PDF is headed KEY FOR PAPER-II, not FINAL ANSWER KEY.",
-    "activation": "No additional records promoted; six affected records remain review-only pending final-key confirmation."
+    "ambiguous": [
+      {
+        "record": "Q035",
+        "printed_question": 34,
+        "reason": "Booklet prints Q34 twice; the single published-key Q34 row cannot identify which booklet item it answers."
+      }
+    ],
+    "action": "All 50 remain review-only because the PDF is not explicitly labelled FINAL; five conflicts and one identity ambiguity are preserved without changing answers."
   },
   "syllabus_validator_followup_2026_11_21": {
     "date": "2026-11-21",
@@ -1201,7 +1205,8 @@
     "preservation": "No question stem, option, stored answer, or official published-key answer was changed. Source verification and syllabus mapping flags are preserved.",
     "remaining_holds": "Finality confirmation or an official final answer key/corrigendum is needed before these records can be activated.",
     "newly_moved_from_active": 117,
-    "note": "150 records are now held across the three sessions; 117 were newly moved from active and 33 were already review-only."
+    "note": "150 records are now held across the three sessions; 117 were newly moved from active and 33 were already review-only.",
+    "dec2002_detail": "44/50 published-key matches; five answer conflicts (Q36, Q38-Q41); one duplicate printed Q34 key-identity ambiguity (Q35)."
   },
   "aug2017_metadata_reconciliation_2026_11_21": {
     "date": "2026-11-21",
