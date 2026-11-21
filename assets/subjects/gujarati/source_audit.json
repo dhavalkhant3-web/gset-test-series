@@ -4,8 +4,8 @@
   "subject_code": "06",
   "paper": "Paper-II",
   "transcribed_questions": 400,
-  "active_questions": 364,
-  "pending_review": 36,
+  "active_questions": 363,
+  "pending_review": 37,
   "visual_checked": 397,
   "official_final_key_matched_in_batch": 89,
   "last_visual_review": {
@@ -1086,5 +1086,14 @@
       "outcome": "All six remain review-only and answer_key_verified=false. Do not overwrite stored answers or promote using a non-final key."
     },
     "policy": "No question/answer text changed and no review-only record was promoted during this follow-up."
+  },
+  "last_audit_reconciliation": {
+    "date": "2026-11-21",
+    "finding": "Gujarati Dec 2019 Q007 is marked Z in the official FINAL key (not evaluated); it has been moved from the active bank to review-only so non-evaluated items cannot enter scoring.",
+    "active_questions": 363,
+    "pending_review": 37,
+    "total_questions": 400,
+    "source_verified_total": 397,
+    "answer_key_verified_total": 367
   }
 }
