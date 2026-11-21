@@ -8458,5 +8458,121 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-21",
+    "event": "Environmental Sciences Code 26 November 2023 Q91-Q100 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "November 2023 Q91-Q100",
+    "printed_pages": [
+      18,
+      19
+    ],
+    "pdf_page_indexes_zero_based": [
+      17,
+      18
+    ],
+    "final_key_letters": [
+      "A",
+      "A",
+      "B",
+      "A",
+      "C",
+      "A",
+      "D",
+      "A",
+      "A",
+      "D"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [
+        "Q91",
+        "Q94"
+      ],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit VIII": [
+          91
+        ],
+        "Unit X": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ]
+      }
+    },
+    "mapping_corrections": [
+      {
+        "question_no": 91,
+        "from": "Unit II",
+        "to": "Unit VIII",
+        "basis": "Official Unit VIII explicitly lists the Montreal Protocol (1987) among Environmental Conventions and Agreements; the CFC/Halon matching item concerns ozone-depleting substances regulated by that protocol."
+      },
+      {
+        "question_no": 95,
+        "from": "Unit VI",
+        "to": "Unit X",
+        "basis": "Official Unit X explicitly lists vehicular emission norms in India; Q95 tests the BS-VI vehicle-emission standard."
+      }
+    ],
+    "question_ids": [
+      "GSET-ENV26-NOV2023-Q091",
+      "GSET-ENV26-NOV2023-Q092",
+      "GSET-ENV26-NOV2023-Q093",
+      "GSET-ENV26-NOV2023-Q094",
+      "GSET-ENV26-NOV2023-Q095",
+      "GSET-ENV26-NOV2023-Q096",
+      "GSET-ENV26-NOV2023-Q097",
+      "GSET-ENV26-NOV2023-Q098",
+      "GSET-ENV26-NOV2023-Q099",
+      "GSET-ENV26-NOV2023-Q100"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 99,
+      "independent_second_pass_pending": 201
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 109,
+      "independent_second_pass_pending": 191,
+      "source_verified": 300,
+      "answer_key_verified": 300
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]

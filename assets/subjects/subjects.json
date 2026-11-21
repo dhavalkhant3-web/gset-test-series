@@ -382,15 +382,15 @@
       "papers_loaded": 3,
       "questions_loaded": 300,
       "questions_pending_review": 2,
-      "data_status": "Live reconciliation 2026-11-21: 300 canonical questions; 298 active and 2 review-only (November 2023 Q8/Q9 held for unsupported syllabus mappings). All 300 source-verified and official-final-key matched. Verified Code 26 syllabus mappings: 298; pending: 2. Independent second-pass proofreading: 99/300 complete, 201 pending. Subject-level source_verified remains false until the independent second pass is complete.",
+      "data_status": "Live reconciliation 2026-11-21: 300 canonical questions; 298 active and 2 review-only (November 2023 Q8/Q9 held for unsupported syllabus mappings). All 300 source-verified and official-final-key matched. Verified Code 26 syllabus mappings: 298; pending: 2. Q55 is Unit VI; Q63/Q65/Q67 are Unit VII; Q91 Unit VIII; Q95 Unit X. Independent second-pass proofreading: 109/300 complete, 191 pending. Subject-level source_verified remains false until the independent second pass is complete.",
       "unit_mapping_status": "298/300 question-level mappings verified against official GSET Code 26 syllabus",
       "unit_mapping_counts": {
         "verified": 298,
         "provisional": 0,
         "pending": 2
       },
-      "proofread_second_pass_pending": 201,
-      "proofread_second_pass_verified": 99
+      "proofread_second_pass_pending": 191,
+      "proofread_second_pass_verified": 109
     },
     {
       "code": "27",

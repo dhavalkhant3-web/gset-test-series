@@ -1501,3 +1501,13 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Evidence IDs: GSET-ENV26-NOV2023-Q081, GSET-ENV26-NOV2023-Q082, GSET-ENV26-NOV2023-Q083, GSET-ENV26-NOV2023-Q084, GSET-ENV26-NOV2023-Q085, GSET-ENV26-NOV2023-Q086, GSET-ENV26-NOV2023-Q087, GSET-ENV26-NOV2023-Q088, GSET-ENV26-NOV2023-Q089, GSET-ENV26-NOV2023-Q090. Cumulative independent second-pass IDs: 99.
 - No question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences November 2023 Q91–Q100.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 November 2023 Q91–Q100 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q91–Q100 against official PDF page indexes 17–18 (printed pages 18–19). All ten stems and all four options match the official scan. Q91 and Q94 matching tables, headings, row labels and answer-code choices were visually checked and preserved.
+- Official final-key letters A, A, B, A, C, A, D, A, A, D match the stored answers 10/10. Syllabus re-audit moved Q91 from Unit II to Unit VIII (explicit Montreal Protocol coverage) and Q95 from Unit VI to Unit X (explicit vehicular-emission norms in India); Q92–Q94 and Q96–Q100 map to Unit X.
+- Before → after: independent second-pass verified 99 → 109; pass-1 records still awaiting second pass 201 → 191. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q091, GSET-ENV26-NOV2023-Q092, GSET-ENV26-NOV2023-Q093, GSET-ENV26-NOV2023-Q094, GSET-ENV26-NOV2023-Q095, GSET-ENV26-NOV2023-Q096, GSET-ENV26-NOV2023-Q097, GSET-ENV26-NOV2023-Q098, GSET-ENV26-NOV2023-Q099, GSET-ENV26-NOV2023-Q100. Cumulative independent second-pass IDs: 109.
+- Question text, options and answer letters were not changed. Two syllabus unit assignments were corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: reconcile the two remaining syllabus holds (Q8 and Q9), then continue independent second-pass review of earlier sessions.
