@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 211,
+  "proofread_pass1_pending_second_pass": 201,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -130,48 +130,49 @@
     "date": "2026-11-21",
     "session": "November 2023",
     "questions": [
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      13,
-      14,
-      15
-    ],
-    "printed_pages": [
-      14,
       15,
       16
     ],
+    "printed_pages": [
+      16,
+      17
+    ],
     "final_key_letters": [
-      "D",
       "A",
-      "C",
-      "D",
+      "A",
       "B",
-      "C",
-      "D",
       "A",
       "D",
-      "C"
+      "A",
+      "B",
+      "A",
+      "B",
+      "D"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
       "checked": 10,
       "stems_match": 10,
       "all_four_options_match": 10,
+      "formula_checked": [
+        "Q87"
+      ],
       "tables_checked": [],
       "figures_present": 0
     },
@@ -180,26 +181,22 @@
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit VI": [
-          76
-        ],
-        "Unit VIII": [
-          72,
-          73,
-          74,
-          75,
-          77,
-          78,
-          79,
-          80
-        ],
-        "Unit X": [
-          71
+        "Unit IX": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
         ]
       }
     },
     "mapping_corrections": [],
-    "result": "All ten stems and all four options match the official GSET scan on PDF page indexes 13-15. No figures or tables occur. Official final-key letters D, A, C, D, B, C, D, A, D, C match stored answers 10/10. Existing syllabus mappings were checked against the official Code 26 syllabus and retained: Q71 Unit X; Q72-Q75 and Q77-Q80 Unit VIII; Q76 Unit VI. No question text, options, answer letters or syllabus units changed."
+    "result": "All ten stems and all four options match the official GSET scan on PDF page indexes 15-16. Q87's paired t-test formula and radical/fraction formatting were checked visually. No tables or figures occur. Official final-key letters A, A, B, A, D, A, B, A, B, D match stored answers 10/10. All ten questions map to Unit IX (Statistical Approaches and Modelling in Environmental Sciences), explicitly covering ANOVA, non-parametric tests, central tendency/dispersion, skewness, t-test, chi-square, population models and statistical distributions. No question text, options, answer letters or syllabus units changed."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q008",
@@ -290,9 +287,19 @@
     "GSET-ENV26-NOV2023-Q077",
     "GSET-ENV26-NOV2023-Q078",
     "GSET-ENV26-NOV2023-Q079",
-    "GSET-ENV26-NOV2023-Q080"
+    "GSET-ENV26-NOV2023-Q080",
+    "GSET-ENV26-NOV2023-Q081",
+    "GSET-ENV26-NOV2023-Q082",
+    "GSET-ENV26-NOV2023-Q083",
+    "GSET-ENV26-NOV2023-Q084",
+    "GSET-ENV26-NOV2023-Q085",
+    "GSET-ENV26-NOV2023-Q086",
+    "GSET-ENV26-NOV2023-Q087",
+    "GSET-ENV26-NOV2023-Q088",
+    "GSET-ENV26-NOV2023-Q089",
+    "GSET-ENV26-NOV2023-Q090"
   ],
-  "second_pass_visual_verified_count": 89,
+  "second_pass_visual_verified_count": 99,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -326,7 +333,7 @@
     "note": "Second-pass IDs are recorded in source_audit.json and VERIFICATION_LOG.json, not as per-question marker fields in the original questions.json schema. November 2023 Q1-Q30 have been independently rechecked in three 10-question batches; prior nine independent checks are retained. All 300 remain source-verified and official-final-key matched. Q8/Q9 remain syllabus-only review holds."
   },
   "live_reconciliation_2026_11_21": {
-    "basis": "Direct parse of canonical Environmental Sciences questions.json and official GSET question-paper, final-answer-key, and syllabus PDFs at PR #22 branch head after the November 2023 Q71-Q80 independent second-pass batch.",
+    "basis": "Direct parse of canonical Environmental Sciences questions.json plus visual comparison with official GSET November 2023 question-paper pages 16-17, official final answer key, and official Code 26 syllabus.",
     "canonical_questions": 300,
     "active_questions": 298,
     "review_flagged_questions": 2,
@@ -336,9 +343,9 @@
     "syllabus_mapping_verified": 298,
     "syllabus_mapping_provisional": 0,
     "syllabus_mapping_pending": 2,
-    "proofread_second_pass_verified": 89,
-    "proofread_second_pass_pending": 211,
+    "proofread_second_pass_verified": 99,
+    "proofread_second_pass_pending": 201,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": true,
-    "note": "Independent second-pass visual review covers 89/300 records (the prior nine checks plus November 2023 Q1-Q80); 211 remain. Q8 and Q9 remain the only syllabus-mapping holds. Q55, Q63, Q65 and Q67 have explicit syllabus remapping corrections recorded in the prior batch entries. Q71-Q80 required no mapping corrections."
+    "note": "Independent second-pass visual review covers 99/300 records (the prior nine checks plus November 2023 Q1-Q90); 201 remain. Q8 and Q9 remain the only syllabus-mapping holds. Q81-Q90 all map to Unit IX. No mapping corrections were required in this batch."
   }
 }

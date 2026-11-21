@@ -1841,3 +1841,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Evidence IDs: GSET-ENV26-NOV2023-Q071, GSET-ENV26-NOV2023-Q072, GSET-ENV26-NOV2023-Q073, GSET-ENV26-NOV2023-Q074, GSET-ENV26-NOV2023-Q075, GSET-ENV26-NOV2023-Q076, GSET-ENV26-NOV2023-Q077, GSET-ENV26-NOV2023-Q078, GSET-ENV26-NOV2023-Q079, GSET-ENV26-NOV2023-Q080. Cumulative independent second-pass IDs: 89.
 - No canonical question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences November 2023 Q81–Q90.
+
+
+## 2026-11-21 — Environmental Sciences Code 26 November 2023 Q81–Q90 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/nov23/nov2326.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/nov23/nov2326.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Independently rechecked Q81–Q90 against official PDF page indexes 15–16 (printed pages 16–17). All ten stems and all four options match the official scan. Q87's paired t-test formula and radical/fraction formatting were checked visually. No tables or figures occur.
+- Official final-key letters A, A, B, A, D, A, B, A, B, D match the stored answers 10/10. All ten questions map to Unit IX (Statistical Approaches and Modelling in Environmental Sciences); no mapping corrections were needed.
+- Before → after: independent second-pass verified 89 → 99; pass-1 records still awaiting second pass 211 → 201. Canonical questions remain 300; active 298; review-only 2; mappings verified 298, pending 2; source and final-key verified 300/300.
+- Evidence IDs: GSET-ENV26-NOV2023-Q081, GSET-ENV26-NOV2023-Q082, GSET-ENV26-NOV2023-Q083, GSET-ENV26-NOV2023-Q084, GSET-ENV26-NOV2023-Q085, GSET-ENV26-NOV2023-Q086, GSET-ENV26-NOV2023-Q087, GSET-ENV26-NOV2023-Q088, GSET-ENV26-NOV2023-Q089, GSET-ENV26-NOV2023-Q090. Cumulative independent second-pass IDs: 99.
+- No question text, options, answer letters or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: Environmental Sciences November 2023 Q91–Q100.
