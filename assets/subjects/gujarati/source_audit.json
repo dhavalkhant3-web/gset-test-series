@@ -1195,9 +1195,20 @@
       "gujarati_dec2003",
       "gujarati_dec2008"
     ],
-    "records_moved_to_review": 117,
+    "records_moved_to_review": 150,
     "reason": "Official published key PDFs for all three sessions are not explicitly labelled FINAL ANSWER KEY. To enforce the project rule requiring official final keys before scoring, all 150 records are held in review-only.",
     "preservation": "No question stem, option, stored answer, or official published-key answer was changed. Source verification and syllabus mapping flags are preserved.",
-    "remaining_holds": "Finality confirmation or an official final answer key/corrigendum is needed before these records can be activated."
+    "remaining_holds": "Finality confirmation or an official final answer key/corrigendum is needed before these records can be activated.",
+    "newly_moved_from_active": 117,
+    "note": "150 records are now held across the three sessions; 117 were newly moved from active and 33 were already review-only."
+  },
+  "aug2017_metadata_reconciliation_2026_11_21": {
+    "date": "2026-11-21",
+    "paper_id": "gujarati_aug2017",
+    "question_count": 50,
+    "source_verified": 50,
+    "final_key_verified": 50,
+    "review_only": 0,
+    "finding": "The per-paper status and note were stale: they claimed only 23/50 source checks and 50 outstanding review flags, while canonical records show 50 source-verified, 50 final-key-verified and zero review-only. papers.json status corrected to verified; no question content or answers changed."
   }
 }
