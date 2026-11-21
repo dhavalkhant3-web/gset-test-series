@@ -1,38 +1,112 @@
 {
-  "date":"2026-11-21",
-  "paper":"November 2023 Geography Code 24",
-  "source":"Uploaded official GSET Paper-II page scans p-11 through p-18 (English crops)",
-  "method":"Manual visual comparison of each listed question stem and all four options against the page images. Existing signed-off Q37-Q39 and Q47 are not duplicated here.",
-  "signed_off_count":22,
-  "records":[
-    {"question_no":30,"page":"p-11_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":31,"page":"p-11_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":32,"page":"p-11_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":33,"page":"p-11_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":34,"page":"p-12_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":35,"page":"p-12_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":36,"page":"p-13_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":40,"page":"p-14_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":41,"page":"p-15_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":42,"page":"p-15_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":43,"page":"p-15_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":44,"page":"p-15_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":45,"page":"p-16_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":46,"page":"p-16_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":48,"page":"p-17_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":49,"page":"p-17_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":50,"page":"p-17_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":51,"page":"p-17_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":52,"page":"p-18_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":53,"page":"p-18_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":54,"page":"p-18_en.png","status":"MANUALLY_VISUALLY_CHECKED"},
-    {"question_no":55,"page":"p-18_en.png","status":"MANUALLY_VISUALLY_CHECKED"}
+  "date": "2026-11-21",
+  "paper": "November 2023 Geography Code 24",
+  "source": "Uploaded official GSET Paper-II page scans p-11 through p-18 (English crops)",
+  "method": "Manual visual comparison of each listed question stem and all four options against the page images. Existing signed-off Q37-Q39 and Q47 are not duplicated here.",
+  "signed_off_count": 18,
+  "records": [
+    {
+      "question_no": 34,
+      "page": "p-12_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 35,
+      "page": "p-12_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 36,
+      "page": "p-13_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 40,
+      "page": "p-14_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 41,
+      "page": "p-15_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 42,
+      "page": "p-15_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 43,
+      "page": "p-15_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 44,
+      "page": "p-15_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 45,
+      "page": "p-16_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 46,
+      "page": "p-16_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 48,
+      "page": "p-17_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 49,
+      "page": "p-17_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 50,
+      "page": "p-17_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 51,
+      "page": "p-17_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 52,
+      "page": "p-18_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 53,
+      "page": "p-18_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 54,
+      "page": "p-18_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    },
+    {
+      "question_no": 55,
+      "page": "p-18_en.png",
+      "status": "MANUALLY_VISUALLY_CHECKED"
+    }
   ],
-  "not_included":[37,38,39,47],
-  "limitations":[
+  "not_included": [
+    37,
+    38,
+    39,
+    47
+  ],
+  "limitations": [
     "This ledger confirms source transcription only, not Gujarati translation or syllabus-unit mapping.",
     "No answer key was changed; official final key remains authoritative.",
     "All questions must remain review-only pending syllabus mapping and reviewer approval.",
     "Do not change canonical source_verified flags until the complete signed-off ledger is reconciled with canonical questions.json and papers.json."
-  ]
+  ],
+  "scope_correction": "Q30-Q33 were already included in the earlier 29/100 checkpoint and are excluded here to prevent double counting."
 }
