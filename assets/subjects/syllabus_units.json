@@ -524,8 +524,9 @@
           "name": "સાહિત્ય અને આંતરવિદ્યાઓ"
         }
       ],
-      "status": "official_syllabus_unit_titles_registered_question_mapping_pending",
-      "source_note": "Unit titles copied from the uploaded official GSET Gujarati (06) syllabus-units file. The supplied file states question-to-unit mapping has not been done; no question mapping is marked verified."
+      "status": "official_syllabus_registered_question_mappings_explicit",
+      "source_note": "Official GSET Gujarati Code 06 syllabus PDF. Unit titles are configured here; canonical question records contain explicit syllabus_unit, unit_number and unit_id references. The syllabus validator checks that these references resolve consistently to the official configured units; it does not infer or create mappings.",
+      "official_pdf": "https://gujaratset.ac.in/assets/syllabus/06.pdf"
     },
     "forensic_science": {
       "code": "27",
