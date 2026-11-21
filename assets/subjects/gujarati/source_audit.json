@@ -1167,5 +1167,20 @@
     ],
     "result": "50/50 answer letters match the official published key by booklet sequence; finality is not established because the key PDF is headed KEY FOR PAPER-II, not FINAL ANSWER KEY.",
     "activation": "No additional records promoted; six affected records remain review-only pending final-key confirmation."
+  },
+  "syllabus_validator_followup_2026_11_21": {
+    "date": "2026-11-21",
+    "official_syllabus_pdf": "https://gujaratset.ac.in/assets/syllabus/06.pdf",
+    "records_checked": 400,
+    "active_records": 363,
+    "review_only_records": 37,
+    "explicit_mapping_fields": [
+      "syllabus_unit",
+      "unit_number",
+      "unit_id"
+    ],
+    "result": "400/400 records resolve consistently to one of the ten configured official syllabus units; zero missing/invalid/conflicting unit references; all 400 have syllabus_mapping_status and syllabus_mapping_note.",
+    "validator_change": "tool/validate_syllabus_mapping.py now normalizes display labels of the form 'Unit N' before checking against the official configured unit number and ID. This prevents valid labels from being rejected.",
+    "limitation": "This is a structural/reference consistency audit, not a new semantic re-assessment of every topic-to-unit decision. Existing question-level review notes and statuses were preserved; no mappings were inferred or promoted by this patch."
   }
 }
