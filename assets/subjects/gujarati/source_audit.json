@@ -1095,5 +1095,33 @@
     "total_questions": 400,
     "source_verified_total": 397,
     "answer_key_verified_total": 367
+  },
+  "official_archive_recheck_2026_11_21": {
+    "date": "2026-11-21",
+    "archive_url": "https://gujaratset.ac.in/anskey",
+    "finding": "The official GSET old-answer-key archive lists Gujarati Paper-II links for December 2002 and December 2008. The linked PDFs are official, but their visible headings read KEY FOR PAPER-II and do not state FINAL ANSWER KEY. Therefore they remain published-key evidence only; do not set answer_key_verified=true or promote records solely on these PDFs.",
+    "sources": [
+      {
+        "paper": "December 2002 Gujarati Paper-II",
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/dec02/dec0206.pdf",
+        "visible_heading": "KEY FOR PAPER-II",
+        "status": "not explicitly labelled FINAL"
+      },
+      {
+        "paper": "December 2008 Gujarati Paper-II",
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/dec08/dec0806.pdf",
+        "visible_heading": "KEY FOR PAPER-II",
+        "status": "not explicitly labelled FINAL"
+      },
+      {
+        "paper": "December 2021 Gujarati Paper-II",
+        "url": "https://gujaratset.ac.in/assets/anskey/paperII/dec21/dec2106.pdf",
+        "visible_heading": "FINAL ANSWER KEY FOR PAPER-II SUBJECT: Gujarati",
+        "status": "final key confirmed"
+      }
+    ],
+    "pending_dec2002": "Six records remain held: five published-key conflicts and one duplicate printed Q34 identity; no answer overwritten.",
+    "pending_dec2008": "All 50 stored answers match the official published key, but 27 remain review-only until a finality-labelled key or official clarification is available.",
+    "pending_dec2021": "Q36, Q37 and Q60 answer keys are final and verified; source text glyphs remain ambiguous, so these remain review-only."
   }
 }
