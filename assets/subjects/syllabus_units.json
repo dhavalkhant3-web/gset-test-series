@@ -656,6 +656,75 @@
       "status": "official_gset_syllabus_registered",
       "source_note": "Unit headings transcribed from the official GSET Code 07 Sanskrit syllabus PDF, printed pages 1–6. The PDF separates general and specific study for Vedic literature, philosophy, grammar/linguistics, Sanskrit literature/poetics/prosody, and Puranic/Epic literature, Dharmashastra and epigraphy.",
       "mapping_policy": "Assign a question only when its tested text/topic is explicitly named or clearly included in the official unit description. Keep uncertain OCR/transcription or broad cross-unit items pending."
+    },
+    "geography": {
+      "code": "24",
+      "name_en": "Geography",
+      "official_pdf": "https://www.gujaratset.ac.in/assets/syllabus/24.pdf",
+      "status": "official_gset_syllabus_registered",
+      "source_note": "Unit names and topic scope transcribed from the official GSET Code 24 Geography syllabus PDF. Question-level assignments must be based on actual tested content; ambiguous cases remain pending.",
+      "units": [
+        {
+          "id": "unit_1",
+          "number": 1,
+          "name": "Geomorphology",
+          "topics": "Continental Drift, Plate Tectonics, Endogenetic and Exogenetic forces. Denudation and Weathering, Geomorphic Cycle (Davis and Penck), Theories and Process of Slope Development, Earth Movements (seismicity, folding, faulting and vulcanicity), Landform Occurrence and Causes of Geomorphic Hazards (earthquakes, volcanoes, landslides and avalanches)."
+        },
+        {
+          "id": "unit_2",
+          "number": 2,
+          "name": "Climatology",
+          "topics": "Composition and Structure of Atmosphere; Insolation, Heat Budget of Earth, Temperature, Pressure and Winds, Atmospheric Circulation (air-masses, fronts and upper air circulation, cyclones and anticyclones (tropical and temperate), Climatic Classification of Koppen & Thornthwaite, ENSO Events (El Nino, La Nina and Southern Oscillations), Meteorological Hazards and Disasters (Cyclones, Thunderstorms, Tornadoes, Hailstorms, Heat and Cold waves, Drought and Cloudburst, Glacial Lake Outburst (GLOF), Climate Change: Evidences and Causes of Climatic Change in the past, Human impact on Global Climate."
+        },
+        {
+          "id": "unit_3",
+          "number": 3,
+          "name": "Oceanography",
+          "topics": "Relief of Oceans, Composition: Temperature, Density and Salinity, Circulation: Warm and Cold Currents, Waves, Tides, Sea Level Changes, Hazards: Tsunami and Cyclone."
+        },
+        {
+          "id": "unit_4",
+          "number": 4,
+          "name": "Geography of Environment",
+          "topics": "Components: Ecosystem (Geographic Classification) and Human Ecology. Functions: Trophic Levels, Energy Flows, Cycles (geo-chemical, carbon, nitrogen and oxygen), Food Chain, Food Web and Ecological Pyramid, Human Interaction and Impacts, Environmental Ethics and Deep Ecology, Environmental Hazards and Disasters (Global Warming, Urban Heat Island, Atmospheric Pollution, Water Pollution, Land Degradation), National Programmes and Policies: Legal Framework, Environmental Policy, International Treaties, International Programmes and Policies (Brundtland Commission, Kyoto Protocol, Agenda 21, Sustainable Development Goals, Paris Agreement)."
+        },
+        {
+          "id": "unit_5",
+          "number": 5,
+          "name": "Population and Settlement Geography",
+          "topics": "Population Geography: Sources of population data; World Population Distribution and Growth; Demographic Transition; Theories of Population Growth; Fertility and Mortality Analysis; Migration; Population Composition and Characteristics; Population Policies. Settlement Geography: Rural Settlements; rural settlement problems; theories of origin of towns; urbanization; urban systems; primate city and rank-size rule; Central Place Theories (Christaller and Losch); internal structure of the city; Models of Urban Land Use (Burgess, Harris and Ullman, Hoyt); megacities, global cities, edge cities; changing urban forms; social segregation; urban social-area analysis; urban poverty."
+        },
+        {
+          "id": "unit_6",
+          "number": 6,
+          "name": "Geography of Economic Activities and Regional Development",
+          "topics": "Economic Geography: spatial organisation of primary, secondary, tertiary and quaternary activities; natural resources and management; energy crises. Agricultural Geography: land capability, land-use planning, cropping patterns, crop combination regions, crop diversification, Von Thunen's model, agricultural productivity and systems. Industrial Geography: classification, location factors and theories (Weber, Hoover, Losch, Pred, Smith), industrial regions, globalisation, tourism, ICT and knowledge industries. Transport and Trade: spatial interaction, connectivity/accessibility, gravity models, WTO, globalisation, liberalisation and world trade. Regional Development: typology of regions, regional disparities, theories of regional development and regional development in India."
+        },
+        {
+          "id": "unit_7",
+          "number": 7,
+          "name": "Cultural, Social and Political Geography",
+          "topics": "Cultural and Social Geography: concept of culture, cultural complexes/areas/regions, cultural heritage/ecology, cultural convergence, social structure/processes, social well-being and quality of life, social exclusion, spatial distribution of social groups in India (tribe, caste, religion and language), environment and human health, disease ecology, nutrition, healthcare planning and policies. Political Geography: boundaries/frontiers, Heartland and Rimland theories, political geography, federalism, electoral reforms and behaviour, geopolitics, regional organisations (SAARC, ASEAN, OPEC, EU)."
+        },
+        {
+          "id": "unit_8",
+          "number": 8,
+          "name": "Geographic Thought",
+          "topics": "Contributions of Greek, Roman, Arab, Chinese and Indian scholars; contributions of Varenius, Kant, Humboldt, Ritter, Schaefer and Hartshorne; Darwinian theory; contemporary trends in Indian geography; geographic traditions; dualisms; paradigm shift; perspectives (Positivism, Behaviouralism, Humanism, Structuralism, Feminism and Postmodernism)."
+        },
+        {
+          "id": "unit_9",
+          "number": 9,
+          "name": "Geographical Techniques",
+          "topics": "Sources of geographic information and data; types of maps and map-making techniques; data representation; GIS database (raster/vector/attribute data); GIS functions (conversion, editing, analysis); DEM; georeferencing, coordinate systems, map projections and datum; GIS applications; remote sensing, electromagnetic spectrum, sensors, platforms, resolution, aerial photographs, satellite imagery, photogrammetry, digital image processing; GPS; central tendency, dispersion, inequalities, sampling, hypothesis testing, time series, correlation, regression, indices, composite indices, PCA, cluster analysis and morphometric analysis."
+        },
+        {
+          "id": "unit_10",
+          "number": 10,
+          "name": "Geography of India",
+          "topics": "Major physiographic regions; drainage; climate and Indian monsoon; jet streams and Himalayan cryosphere; natural resources; population; agriculture and crop regions; agricultural development; agro-climatic zones; Green Revolution; food security; industrial development and industrial regions; transport networks; internal/external trade; regional development planning; globalisation and Indian economy; natural disasters in India."
+        }
+      ]
     }
   }
 }
