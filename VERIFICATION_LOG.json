@@ -8813,5 +8813,140 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-22",
+    "event": "Geography Code 24 December 2024 Q1-Q10 official-source reconciliation and syllabus mapping",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_range": "December 2024 Q1-Q10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2424.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "printed_pages": [
+      3,
+      4,
+      5
+    ],
+    "pdf_page_indexes_zero_based": [
+      2,
+      3,
+      4
+    ],
+    "official_final_key_letters": [
+      "A",
+      "C",
+      "B",
+      "A",
+      "D",
+      "B",
+      "D",
+      "A",
+      "A",
+      "C"
+    ],
+    "answer_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_evidence": {
+      "official_pdf_http_status": 200,
+      "total_pdf_pages": 32,
+      "text_extracted_pages": 6,
+      "prior_visual_signoff_file": "assets/subjects/geography/DEC2024_VISUAL_SIGNOFF_BATCH2_Q1_Q14_2026-11-21.json",
+      "prior_visual_signoff_range": "Q1-Q14",
+      "current_text_crosscheck": 10,
+      "source_verified": 9,
+      "source_hold": [
+        6
+      ],
+      "figures_or_tables_in_range": 0,
+      "statement_lists": [
+        "Q9"
+      ]
+    },
+    "transcription_corrections": [
+      {
+        "question_no": 1,
+        "field": "question_en",
+        "change": "restored missing space in 'type of rocks'"
+      },
+      {
+        "question_no": 4,
+        "field": "options_en[3]",
+        "change": "removed OCR residue; 'Tsunamis'"
+      },
+      {
+        "question_no": 5,
+        "field": "question_en",
+        "change": "restored missing word 'is'"
+      },
+      {
+        "question_no": 8,
+        "field": "question_en",
+        "change": "restored printed blank '_____' before energy"
+      }
+    ],
+    "syllabus_mapping": {
+      "verified": 6,
+      "pending": 94,
+      "provisional": 0,
+      "questions": [
+        {
+          "n": 2,
+          "unit": "Unit I"
+        },
+        {
+          "n": 3,
+          "unit": "Unit I"
+        },
+        {
+          "n": 4,
+          "unit": "Unit I"
+        },
+        {
+          "n": 7,
+          "unit": "Unit II"
+        },
+        {
+          "n": 9,
+          "unit": "Unit VII"
+        },
+        {
+          "n": 10,
+          "unit": "Unit I"
+        }
+      ]
+    },
+    "holds": {
+      "Q1": "No sufficiently direct Code 24 unit fit established for local stratigraphic rock-type classification.",
+      "Q5": "Global oasis location-matching has no sufficiently direct explicit Code 24 unit fit.",
+      "Q6": "Exact option A/B transcription requires direct p-04 image confirmation; source_verified=false.",
+      "Q8": "Renewable-energy life-cycle impact is not explicitly named in the official unit descriptions."
+    },
+    "before": {
+      "canonical_total": 606,
+      "active": 298,
+      "review_only": 308,
+      "source_verified": 606,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 298,
+      "dec2024_review_only": 100
+    },
+    "after": {
+      "canonical_total": 606,
+      "active": 304,
+      "review_only": 302,
+      "source_verified": 605,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 304,
+      "dec2024_review_only": 94
+    },
+    "question_text_or_options_changed": true,
+    "answer_letters_changed": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false,
+    "next_batch": "Geography Code 24 December 2024 Q11-Q20"
   }
 ]

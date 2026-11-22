@@ -1885,3 +1885,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Independent second-pass unique IDs: 117 → 126; remaining 174. Code 26 remains 300 canonical, 298 active, 2 review-only (Nov 2023 Q8/Q9), source/key 300/300, mappings 298/300.
 - Evidence IDs: GSET-ENV26-DEC2024-Q011, GSET-ENV26-DEC2024-Q012, GSET-ENV26-DEC2024-Q013, GSET-ENV26-DEC2024-Q014, GSET-ENV26-DEC2024-Q015, GSET-ENV26-DEC2024-Q016, GSET-ENV26-DEC2024-Q017, GSET-ENV26-DEC2024-Q018, GSET-ENV26-DEC2024-Q019, GSET-ENV26-DEC2024-Q020. No question text, options or answer letters changed. No other subject modified. PR #22 remains open/unmerged; no CI or APK PASS claimed.
 - Next: Environmental Sciences December 2024 Q21–Q30.
+
+
+## 2026-11-22 — Geography Code 24 December 2024 Q1–Q10 official-source and syllabus batch
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2424.pdf; official Code 24 syllabus: https://gujaratset.ac.in/assets/syllabus/24.pdf.
+- PDF retrieval succeeded (HTTP 200; 32 pages). Q1–Q10 crosschecked against extracted official PDF text for printed pages 3–5 (zero-based indexes 2–4). Official final-key letters A, C, B, A, D, B, D, A, A, C match 10/10. Existing manual visual sign-off covers Q1–Q14: `DEC2024_VISUAL_SIGNOFF_BATCH2_Q1_Q14_2026-11-21.json`. No figures/tables occur; Q9 has a statement list.
+- Corrected clear transcription defects: Q1 missing space in “type of rocks”; Q4 option D OCR residue removed (“Tsunamis”); Q5 restored “is”; Q8 restored printed blank “_____” before “energy”. Q6 was not guessed: sign-off explicitly says option A/B wording was clipped and needs direct p-04 image confirmation, so `source_verified` is now false and Q6 remains review-only.
+- Mapped and promoted: Q2 Unit I, Q3 Unit I, Q4 Unit I, Q7 Unit II, Q9 Unit VII, Q10 Unit I. Q1, Q5 and Q8 remain mapping-pending; Q6 remains source-transcription-pending.
+- Before → after: Geography canonical 606; active 298 → 304; review-only 308 → 302; source-verified 606 → 605; official final-key verified 606 → 606; syllabus mappings verified 298 → 304. December 2024 review-only 100 → 94.
+- No answer letters changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: Geography Code 24 December 2024 Q11–Q20.
