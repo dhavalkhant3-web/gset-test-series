@@ -6,8 +6,8 @@
   "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/sept16/sept1624.pdf",
   "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/sept16/sept1624.pdf",
   "total_questions": 50,
-  "active_questions": 198,
-  "pending_review": 2,
+  "active_questions": 304,
+  "pending_review": 302,
   "visual_checked": 50,
   "official_final_key_matched": 50,
   "answer_key_mismatches": 0,
@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "November 2025 Q1–Q100 source-visual checked and official final-key matched 100/100. Current active 198, review-only 2: Q23 official-key/content concern; Q26 provisional Unit I (Geomorphology) placement pending expert confirmation. Five additional Geography papers (500 questions) remain untranscribed.",
+  "remaining_subject_work": "Live canonical Geography state (2026-11-22): 606 records; 304 active and 302 review-only. 605/606 source-verified (December 2024 Q6 is held for exact source transcription); 606/606 official final-key matched; 304 syllabus mappings verified. Remaining: 94 untranscribed questions in September 2018 Q7–Q100; 302 review-only records across December 2021, November 2022, November 2023, December 2024 and November 2025. December 2024 Q1–Q10 mapping batch completed with six promotions; Q1/Q5/Q8 remain mapping-pending and Q6 source-transcription-pending.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -245,5 +245,100 @@
       26
     ],
     "note": "Q23 remains held for an apparent official-key/content conflict. Q26 has a provisional Unit I (Geomorphology) fit, but the syllabus does not explicitly name geological time periods; expert confirmation required."
+  },
+  "last_updated": "2026-11-22",
+  "dec2024_q1_q10_mapping_batch": {
+    "date": "2026-11-22",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2424.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "printed_pages": [
+      3,
+      4,
+      5
+    ],
+    "pdf_page_indexes_zero_based": [
+      2,
+      3,
+      4
+    ],
+    "prior_visual_signoff": "DEC2024_VISUAL_SIGNOFF_BATCH2_Q1_Q14_2026-11-21.json",
+    "official_key_letters": [
+      "A",
+      "C",
+      "B",
+      "A",
+      "D",
+      "B",
+      "D",
+      "A",
+      "A",
+      "C"
+    ],
+    "answer_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "transcription_corrections": {
+      "Q1": "restored missing space in 'type of rocks'",
+      "Q4": "option D corrected to 'Tsunamis'",
+      "Q5": "restored missing 'is'",
+      "Q8": "restored printed blank '_____' before 'energy'"
+    },
+    "source_verified_after_batch": 9,
+    "source_hold": [
+      6
+    ],
+    "mapping_verified": {
+      "count": 6,
+      "questions": [
+        2,
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "units": {
+        "Unit I": [
+          2,
+          3,
+          4,
+          10
+        ],
+        "Unit II": [
+          7
+        ],
+        "Unit VII": [
+          9
+        ]
+      }
+    },
+    "mapping_pending": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "note": "Prior manual visual sign-off covers Q1–Q14. Official PDF text extraction and final key were rechecked in this batch. Q6 remains source_verified=false because its sign-off explicitly requires direct printed-page p-04 confirmation for clipped option A/B wording; no text was guessed."
+  },
+  "live_reconciliation_2026_11_22": {
+    "canonical_total": 606,
+    "active": 304,
+    "review_only": 302,
+    "source_verified": 605,
+    "answer_key_verified": 606,
+    "syllabus_mapping_verified": 304,
+    "queue_records": 302,
+    "untranscribed": 94,
+    "dec2024": {
+      "source_verified": 99,
+      "answer_key_verified": 100,
+      "mapping_verified": 6,
+      "mapping_pending": 94,
+      "review_only": 94
+    },
+    "note": "Counts derived directly from canonical questions.json, questions_review_pending.json, papers.json and subjects.json after commit e6a6bc5c362bc0b53e6637ac2474f0e156b3e7ff."
   }
 }
