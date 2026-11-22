@@ -11,6 +11,7 @@ CONFIG = ROOT / "assets/subjects/syllabus_units.json"
 SUBJECTS_ROOT = ROOT / "assets/subjects"
 QUESTION_FILES = {
     "06": "gujarati/questions.json",
+    "24": "geography/questions.json",
     "02": "physical_sciences/questions.json",
     "03": "chemical_sciences/questions.json",
     "28": "hindu_studies/questions.json",
@@ -23,6 +24,7 @@ QUESTION_FILES = {
 UNIT_FIELDS = ("syllabus_unit", "unit_number", "unit")
 UNIT_ID_FIELDS = ("unit_id", "unitId")
 UNVERIFIED_STATUS_TERMS = ("pending", "provisional", "ambiguous", "manual_review_required", "review_required")
+ROMAN_TO_ARABIC = {"I": "1", "II": "2", "III": "3", "IV": "4", "V": "5", "VI": "6", "VII": "7", "VIII": "8", "IX": "9", "X": "10"}
 
 def fail(message: str) -> None:
     print("FAIL: " + message, file=sys.stderr)
@@ -49,6 +51,7 @@ def resolve_unit(q, units):
         normalized = value.strip()
         if normalized.lower().startswith("unit "):
             normalized = normalized[5:].strip()
+        normalized = ROMAN_TO_ARABIC.get(normalized.upper(), normalized)
         match = next((u for u in units if normalized in {
             str(u.get("number", "")), str(u.get("id", ""))
         }), None)
