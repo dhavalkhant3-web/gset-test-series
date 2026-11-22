@@ -339,6 +339,6 @@
       "mapping_pending": 94,
       "review_only": 94
     },
-    "note": "Counts derived directly from canonical questions.json, questions_review_pending.json, papers.json and subjects.json after commit e6a6bc5c362bc0b53e6637ac2474f0e156b3e7ff."
+    "note": "Counts derived directly from the canonical Geography questions.json, questions_review_pending.json, papers.json and subjects.json after the December 2024 Q1-Q10 mapping batch and source-hold reconciliation."
   }
 }
