@@ -1,0 +1,2737 @@
+{
+  "subject": "Geography",
+  "subject_code": "24",
+  "date": "2026-11-22",
+  "base_commit": "1340334",
+  "official_syllabus_url": "https://www.gujaratset.ac.in/assets/syllabus/24.pdf",
+  "scope": "Independent second review of MAPPING_PROPOSAL_WORKPAPER_2026-11-22.json against the official Code 24 unit topic lists stored in syllabus_units.json. Review register only: canonical questions and review-queue records are NOT changed.",
+  "method": "Each stem and its four options were read and compared with the official unit topic text. agree = workpaper unit confirmed; disagree = a different unit is explicitly supported (reason given); expert = no explicit syllabus topic or two units equally plausible; pending = workpaper already pending.",
+  "approval": "No record may be promoted to syllabus_mapping_status=verified until a human reviewer approves this register.",
+  "summary": {
+    "existing_verified_mapping|existing_verified_confirmed": 4,
+    "pending|pending": 7,
+    "provisional_candidate|agree": 242,
+    "provisional_candidate|disagree": 35,
+    "provisional_candidate|expert": 14
+  },
+  "records": [
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q001",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q002",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "seismicity (U1); also fits U10 natural disasters"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q003",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q004",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q005",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "Weber isodapane"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q006",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "world ocean adjacency; no explicit U3 topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q007",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q008",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q009",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "electoral behaviour"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q010",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "land reclamation (Netherlands) not an explicit U3 topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q011",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q012",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "social-theory terms; no explicit unit"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q013",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "world tribes/habitats; U7 lists social groups in India only"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q014",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q015",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q016",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "urbanization"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q017",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "beta index = transport connectivity (U6 Transport)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q018",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "detour index = transport network (U6)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q019",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q020",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "origin of term demography = population geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q021",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q022",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q023",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "Central Place Theory is listed under U5 Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q024",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q025",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q026",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q027",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "plate tectonics forces (U1)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q028",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q029",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q030",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "tombolo: coastal landform U1 vs waves U3"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q031",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q032",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q033",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q034",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q035",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q036",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "electoral system = political geography (electoral reforms)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q037",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "Smailes urban geography book: U5 vs U8"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q038",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q039",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q040",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q041",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q042",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "Hack/King/Penck/Davis = slope development & geomorphic cycle (U1)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q043",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q044",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q045",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "sheeting/exfoliation = weathering (U1)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q046",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q047",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q048",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q049",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "Karakoram glaciers = Himalayan cryosphere (U10), not economic geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q050",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "Clark-Evans nearest neighbour: U5 settlement vs U9 techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q051",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "spatial interaction is listed under U6 Transport and Trade"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q052",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q053",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q054",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "sources of population data"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q055",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q056",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q057",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "Hirschman polarisation/trickle-down = theories of regional development (U6)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q058",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q059",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "'energy crises' is listed under U6 Economic Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q060",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q061",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q062",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "Rajmahal Hills/Chhotanagpur = physiographic regions of India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q063",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q064",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q065",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q066",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q067",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "legal framework (U4); also U10 natural disasters in India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q068",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q069",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q070",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q071",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q072",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q073",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q074",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q075",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q076",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q077",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q078",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q079",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q080",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q081",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "detour index = transport network (U6)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q082",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q083",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q084",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q085",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q086",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q087",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "world islands; no explicit unit topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q088",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q089",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q090",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "national parks location; no explicit topic (U6 natural resources vs U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q091",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q092",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q093",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q094",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q095",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "thermal power stations of India = natural resources/industrial development in India (U10), not cultural geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q096",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q097",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q098",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q099",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2021-Q100",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q001",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q005",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q006",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "source hold; kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q008",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q011",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "GLOF is listed explicitly under U2 Meteorological Hazards"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q012",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q013",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "winter weather of NW India = climate of India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q014",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q015",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q016",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q017",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q018",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q019",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q020",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q021",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q022",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q023",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q024",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q025",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q026",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q027",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q028",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q029",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q030",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "sea-floor magnetic anomalies = plate tectonics (U1)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q031",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q032",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q033",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "soil types/stratification; no explicit syllabus topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q034",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q035",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "global warming (U4); also U2 human impact on climate"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q036",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "international treaties (weak)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q037",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q038",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q039",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q040",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q041",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q042",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "Central Place Theory is listed under U5"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q043",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q044",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q045",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q046",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q047",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q048",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q049",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q050",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q051",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q052",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q053",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q054",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q055",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "options are regional-development concepts (polarisation, umland)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q056",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q057",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "Myrdal cumulative causation = regional development theory (U6)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q058",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "migration/gravity analogy"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q059",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q060",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q061",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q062",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "Heartland and Rimland theories are listed under U7 Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q063",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "aetiology/disease = disease ecology, health (U7)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q064",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q065",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q066",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q067",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q068",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q069",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "mountain-valley breeze = local winds (U2)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q070",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "Ratzel organic state (U7; also U8)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q071",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q072",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "determinism/neo-determinism = geographic thought dualisms (U8)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q073",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q074",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q075",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q076",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q077",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q078",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q079",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "world racial groups; no explicit topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q080",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q081",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q082",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q083",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q084",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q085",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "bifurcation ratio = morphometric analysis, listed under U9"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q086",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q087",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q088",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q089",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q090",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q091",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q092",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "state-wise Indian cotton yarn output = industrial development in India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q093",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q094",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q095",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "facts on Indian steel plants = industrial regions of India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q096",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "location factors (U6); also U10"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q097",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q098",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "first match factory in India = industrial development in India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q099",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-DEC2024-Q100",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q020",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q024",
+      "workpaper_status": "existing_verified_mapping",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "existing_verified_confirmed",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q041",
+      "workpaper_status": "existing_verified_mapping",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "existing_verified_confirmed",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q042",
+      "workpaper_status": "existing_verified_mapping",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "existing_verified_confirmed",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q054",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "mixed U5/U6 concepts; kept pending"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2022-Q083",
+      "workpaper_status": "existing_verified_mapping",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "existing_verified_confirmed",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q001",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "same question as DEC2024-Q1 which is kept pending; geology of Kutch not an explicit topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q002",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q003",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q004",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q005",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q006",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q007",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q008",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q009",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q010",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q011",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q012",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q013",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "soil colour by climate; soils not an explicit topic"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q014",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q015",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q016",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q017",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q018",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q019",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q020",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q021",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q022",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q023",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q024",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q025",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "weak (marine biota)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q026",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q027",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q028",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q029",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q030",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q031",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q032",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q033",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q034",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "conservation of energy / energy transfer = energy flows (U4)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q035",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q036",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_2",
+      "second_review_unit_name": "Climatology",
+      "evidence": "matches official topic list of Climatology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q037",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q038",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q039",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q040",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "matches official topic list of Geography of Environment"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q041",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q042",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "health goals (weak)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q043",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q044",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q045",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_3",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_3",
+      "second_review_unit_name": "Oceanography",
+      "evidence": "matches official topic list of Oceanography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q046",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q047",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q048",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q049",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q050",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q051",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q052",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q053",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q054",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "regional development (U6); also U10 planning"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q055",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q056",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q057",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q058",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q059",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "regional organisations (weak)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q060",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q061",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q062",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q063",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q064",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q065",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "tribes in India are listed under U7 social groups"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q066",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q067",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q068",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q069",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q070",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_7",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_7",
+      "second_review_unit_name": "Cultural, Social and Political Geography",
+      "evidence": "matches official topic list of Cultural, Social and Political Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q071",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q072",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q073",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q074",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q075",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q076",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q077",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q078",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q079",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q080",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_8",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_8",
+      "second_review_unit_name": "Geographic Thought",
+      "evidence": "matches official topic list of Geographic Thought"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q081",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q082",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q083",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "choice of diagram = data representation (U9)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q084",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q085",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q086",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q087",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "weak"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q088",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q089",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "weak (U1 vs U9 morphometry)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q090",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_5",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_5",
+      "second_review_unit_name": "Population and Settlement Geography",
+      "evidence": "matches official topic list of Population and Settlement Geography"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q091",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_4",
+      "second_review": "expert",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "Indian forest type by rainfall: U4 ecosystem vs U10 natural resources"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q092",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_2",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "rainfall variability across India = climate of India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q093",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q094",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "matches official topic list of Geography of India"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q095",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_10",
+      "second_review_unit_name": "Geography of India",
+      "evidence": "state-wise Indian cotton yarn output = industrial development in India (U10)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q096",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "matches official topic list of Geomorphology"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q097",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_1",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_1",
+      "second_review_unit_name": "Geomorphology",
+      "evidence": "weak"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q098",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_10",
+      "second_review": "disagree",
+      "second_review_unit_id": "unit_4",
+      "second_review_unit_name": "Geography of Environment",
+      "evidence": "Ganga Action Plan = national environmental programme (U4)"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q099",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "matches official topic list of Geography of Economic Activities and Regional Development"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2023-Q100",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_6",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_6",
+      "second_review_unit_name": "Geography of Economic Activities and Regional Development",
+      "evidence": "weak"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2025-Q023",
+      "workpaper_status": "provisional_candidate",
+      "workpaper_unit_id": "unit_9",
+      "second_review": "agree",
+      "second_review_unit_id": "unit_9",
+      "second_review_unit_name": "Geographical Techniques",
+      "evidence": "matches official topic list of Geographical Techniques"
+    },
+    {
+      "canonical_id": "GSET-GE24-NOV2025-Q026",
+      "workpaper_status": "pending",
+      "workpaper_unit_id": null,
+      "second_review": "pending",
+      "second_review_unit_id": null,
+      "second_review_unit_name": null,
+      "evidence": "kept pending"
+    }
+  ]
+}

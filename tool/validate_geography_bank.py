@@ -112,10 +112,19 @@ def main():
         if len(records) != 100 or nums != list(range(1, 101)):
             errors.append(f"{pid}: expected exactly Q1-Q100; found {len(records)} records")
         for q in records:
-            if q.get("source_verified") is not True or q.get("review_flag") is not True:
-                errors.append(f"{q.get('id')}: new source-verified paper must stay review-only for syllabus mapping")
-            if q.get("syllabus_mapping_status") != "pending":
-                errors.append(f"{q.get('id')}: new mapping status must remain pending")
+            qid, status, unit = q.get("id"), q.get("syllabus_mapping_status"), str(q.get("syllabus_unit") or "").strip()
+            # A record may leave review only with a source-verified page AND an explicit verified unit mapping.
+            if q.get("review_flag") is not True:
+                if q.get("source_verified") is not True:
+                    errors.append(f"{qid}: unverified source must stay review-only")
+                if status != "verified" or not unit:
+                    errors.append(f"{qid}: only verified, unit-mapped records may leave review")
+            if status not in {"pending", "provisional", "verified"}:
+                errors.append(f"{qid}: unexpected mapping status {status!r}")
+            if status == "verified" and not unit:
+                errors.append(f"{qid}: verified mapping lacks syllabus_unit")
+            if status == "pending" and unit:
+                errors.append(f"{qid}: pending mapping must not carry a syllabus_unit")
 
     manifest_by_id = {p.get("paper_id"): p for p in papers}
     for pid, records in by_paper.items():
@@ -127,8 +136,20 @@ def main():
             errors.append(f"{pid}: papers.json count does not match canonical bank ({len(records)})")
     for pid in NEW_PAPERS:
         p = manifest_by_id.get(pid, {})
-        if p.get("question_source_verified") != 100 or p.get("answer_key_question_parity_verified") is not True:
-            errors.append(f"{pid}: manifest source/key parity counters are incomplete")
+        recs = by_paper.get(pid, [])
+        src = sum(1 for q in recs if q.get("source_verified") is True)
+        mapped = sum(1 for q in recs if q.get("syllabus_mapping_status") == "verified")
+        flagged = sum(1 for q in recs if q.get("review_flag") is True)
+        if p.get("answer_key_question_parity_verified") is not True:
+            errors.append(f"{pid}: manifest answer-key parity is not verified")
+        if p.get("question_source_verified") != src:
+            errors.append(f"{pid}: manifest question_source_verified={p.get('question_source_verified')} but bank has {src}")
+        if p.get("unit_mapping_verified_count", 0) != mapped:
+            errors.append(f"{pid}: manifest unit_mapping_verified_count={p.get('unit_mapping_verified_count')} but bank has {mapped}")
+        if p.get("review_flags_remaining_count") != flagged:
+            errors.append(f"{pid}: manifest review_flags_remaining_count={p.get('review_flags_remaining_count')} but bank has {flagged}")
+        if src < 100 and p.get("source_verified") is not False:
+            errors.append(f"{pid}: paper-level source_verified must be false while any record is unverified")
 
     subject = next((s for s in registrydoc.get("subjects", []) if str(s.get("code")) == "24"), None)
     if not subject:
@@ -147,9 +168,9 @@ def main():
     print("PASS: four non-empty English options and valid answer fields on every record")
     print("PASS: official final answer-key parity for every loaded question")
     print(f"PASS: {len(review_ids)} review-only records match questions_review_pending.json")
-    print("PASS: 2021, 2023 and 2024 each contain 100 visually verified, key-matched records")
+    print("PASS: 2021, 2023 and 2024 each contain Q1-Q100; only source-verified, unit-mapped records are outside review")
     print("PASS: papers.json and subjects.json counts match canonical records")
-    print("NOTE: syllabus mapping is intentionally pending for the 300 new records; they remain excluded from active quiz use.")
+    print("NOTE: records with pending/provisional mapping or unverified source remain review-only and excluded from active quiz use.")
 
 if __name__ == "__main__":
     main()

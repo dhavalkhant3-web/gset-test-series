@@ -159,7 +159,12 @@ def main():
             unit_id_values = [q.get(k) for k in ("unit_id", "unitId") if q.get(k) not in (None, "")]
             declared = []
             for value in unit_values:
-                match = next((u for u in units if str(u.get("number")) == str(value) or str(u.get("id")) == str(value)), None)
+                # Accept printed Roman headings such as "Unit IX" (same normalisation as validate_syllabus_mapping.py).
+                roman = {"I": "1", "II": "2", "III": "3", "IV": "4", "V": "5", "VI": "6", "VII": "7", "VIII": "8", "IX": "9", "X": "10"}
+                text = str(value).strip()
+                text = text[5:].strip() if text.lower().startswith("unit ") else text
+                text = roman.get(text.upper(), text)
+                match = next((u for u in units if str(u.get("number")) in (str(value), text) or str(u.get("id")) == str(value)), None)
                 if match:
                     declared.append(str(match.get("number")))
                 else:
