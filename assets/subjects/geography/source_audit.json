@@ -70,7 +70,7 @@
     "Q41 option D: 'Datumn plane' corrected to 'Datum plane'."
   ],
   "syllabus_mapping_status": "partially_verified_official_syllabus_mapping",
-  "remaining_subject_work": "Live canonical Geography state (2026-11-22): 606 records; 304 active and 302 review-only. 605/606 source-verified (December 2024 Q6 is held for exact source transcription); 606/606 official final-key matched; 304 syllabus mappings verified. Remaining: 94 untranscribed questions in September 2018 Q7–Q100; 302 review-only records across December 2021, November 2022, November 2023, December 2024 and November 2025. December 2024 Q1–Q10 mapping batch completed with six promotions; Q1/Q5/Q8 remain mapping-pending and Q6 source-transcription-pending.",
+  "remaining_subject_work": "Live canonical Geography state (2026-11-23): 606 records; 304 active and 302 review-only. 604/606 source-verified; 606/606 official final-key matched; 304 verified mappings, 15 provisional candidates awaiting human approval, 287 pending mappings. Remaining: 94 untranscribed questions in September 2018 Q7-Q100; source holds December 2024 Q6 and Q20; nine December 2024 Q11-Q19 mapping candidates await human approval.",
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
     "verified": 49,
@@ -246,7 +246,7 @@
     ],
     "note": "Q23 remains held for an apparent official-key/content conflict. Q26 has a provisional Unit I (Geomorphology) fit, but the syllabus does not explicitly name geological time periods; expert confirmation required."
   },
-  "last_updated": "2026-11-22",
+  "last_updated": "2026-11-23",
   "dec2024_q1_q10_mapping_batch": {
     "date": "2026-11-22",
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf",
@@ -340,5 +340,188 @@
       "review_only": 94
     },
     "note": "Counts derived directly from the canonical Geography questions.json, questions_review_pending.json, papers.json and subjects.json after the December 2024 Q1-Q10 mapping batch and source-hold reconciliation."
+  },
+  "live_reconciliation_2026_11_23": {
+    "basis": "Direct canonical parse of Geography questions.json and questions_review_pending.json after December 2024 Q11-Q20 source reconciliation; official PDF text extraction, prior manual visual sign-off, official final answer key and Code 24 syllabus.",
+    "canonical_total": 606,
+    "active": 304,
+    "review_only": 302,
+    "source_verified": 604,
+    "source_unverified": 2,
+    "answer_key_verified": 606,
+    "syllabus_mapping_verified": 304,
+    "syllabus_mapping_provisional": 15,
+    "syllabus_mapping_pending": 287,
+    "queue_records": 302,
+    "untranscribed": 94,
+    "dec2024": {
+      "source_verified": 98,
+      "answer_key_verified": 100,
+      "mapping_verified": 6,
+      "mapping_provisional": 9,
+      "mapping_pending": 85,
+      "review_only": 94,
+      "source_holds": [
+        6,
+        20
+      ]
+    },
+    "note": "Nine questions Q11-Q19 were source/key reconciled and assigned provisional official-syllabus candidates; no promotion to active was made because the repository mapping workpaper requires human approval. Q20 remains source-unverified due unresolved option-D pronoun. Q6 remains the prior source hold."
+  },
+  "dec2024_q11_q20_source_mapping_batch": {
+    "date": "2026-11-23",
+    "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf",
+    "official_final_answer_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2424.pdf",
+    "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "printed_pages": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_page_indexes_zero_based": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "prior_visual_signoff_files": [
+      "DEC2024_VISUAL_SIGNOFF_BATCH2_Q1_Q14_2026-11-21.json",
+      "DEC2024_VISUAL_SIGNOFF_BATCH3_Q15_Q40_2026-11-21.json"
+    ],
+    "official_pdf_retrieval": {
+      "http_status": 200,
+      "total_pages": 32,
+      "pdf_text_extraction_pages": 8
+    },
+    "official_key_letters": [
+      "D",
+      "A",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "A",
+      "A",
+      "B"
+    ],
+    "answer_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_reconciliation": {
+      "range": "Q11-Q20",
+      "source_verified": 9,
+      "source_hold": [
+        20
+      ],
+      "q13_transcription_restored": true,
+      "q14_punctuation_normalized": true,
+      "q19_option_dash_normalization": true,
+      "figures_or_tables": 0,
+      "lists_or_statements": [
+        "Q11",
+        "Q12",
+        "Q18"
+      ]
+    },
+    "provisional_mapping_candidates": [
+      {
+        "question_no": 11,
+        "unit": "Unit II",
+        "topic": "Climatology — Glacial Lake Outburst Floods",
+        "rationale": "Official Code 24 Unit II explicitly lists Glacial Lake Outburst (GLOF) under meteorological hazards and disasters."
+      },
+      {
+        "question_no": 12,
+        "unit": "Unit II",
+        "topic": "Climatology — Tropical cyclone development",
+        "rationale": "Official Code 24 Unit II explicitly includes tropical cyclones and atmospheric circulation."
+      },
+      {
+        "question_no": 13,
+        "unit": "Unit X",
+        "topic": "Geography of India — Winter weather in north-western India",
+        "rationale": "Official Code 24 Unit X explicitly includes India's climate and seasonal weather characteristics; this item is specifically about mid-winter weather in north-western India."
+      },
+      {
+        "question_no": 14,
+        "unit": "Unit II",
+        "topic": "Climatology — Cloudbursts",
+        "rationale": "Official Code 24 Unit II explicitly lists cloudburst under meteorological hazards and disasters."
+      },
+      {
+        "question_no": 15,
+        "unit": "Unit II",
+        "topic": "Climatology — Atmospheric structure and tropopause temperature",
+        "rationale": "Official Code 24 Unit II explicitly covers composition and structure of the atmosphere and temperature."
+      },
+      {
+        "question_no": 16,
+        "unit": "Unit II",
+        "topic": "Climatology — Albedo and Earth's heat budget",
+        "rationale": "Official Code 24 Unit II explicitly covers insolation and the heat budget of Earth."
+      },
+      {
+        "question_no": 17,
+        "unit": "Unit II",
+        "topic": "Climatology — Atmospheric circulation and easterlies",
+        "rationale": "Official Code 24 Unit II explicitly covers pressure, winds and atmospheric circulation."
+      },
+      {
+        "question_no": 18,
+        "unit": "Unit II",
+        "topic": "Climatology — Fog and evaporation",
+        "rationale": "The item concerns near-surface atmospheric moisture and evaporation with morning heating; the direct subject area is Climatology (Unit II)."
+      },
+      {
+        "question_no": 19,
+        "unit": "Unit II",
+        "topic": "Climatology — Vertical structure of the atmosphere",
+        "rationale": "Official Code 24 Unit II explicitly covers composition and structure of the atmosphere."
+      }
+    ],
+    "mapping_verified": 0,
+    "mapping_provisional": 9,
+    "mapping_pending": 1,
+    "approval_gate": "MAPPING_SECOND_REVIEW_2026-11-22.json explicitly says no candidate may be promoted to verified until a human reviewer approves the register; therefore all nine remain review-only/provisional.",
+    "before": {
+      "canonical_total": 606,
+      "active": 304,
+      "review_only": 302,
+      "source_verified": 605,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 304,
+      "syllabus_mapping_provisional": 6,
+      "syllabus_mapping_pending": 296,
+      "dec2024_review_only": 94,
+      "dec2024_source_verified": 99,
+      "dec2024_verified_mappings": 6,
+      "dec2024_provisional_mappings": 0,
+      "dec2024_pending_mappings": 94
+    },
+    "after": {
+      "canonical_total": 606,
+      "active": 304,
+      "review_only": 302,
+      "source_verified": 604,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 304,
+      "syllabus_mapping_provisional": 15,
+      "syllabus_mapping_pending": 287,
+      "dec2024_review_only": 94,
+      "dec2024_source_verified": 98,
+      "dec2024_verified_mappings": 6,
+      "dec2024_provisional_mappings": 9,
+      "dec2024_pending_mappings": 85
+    },
+    "question_text_or_options_changed": true,
+    "answer_letters_changed": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false,
+    "next_batch": "Geography Code 24 December 2024 Q21-Q30"
   }
 }

@@ -8948,5 +8948,156 @@
     "pr22_merged": false,
     "ci_or_apk_claimed": false,
     "next_batch": "Geography Code 24 December 2024 Q11-Q20"
+  },
+  {
+    "date": "2026-11-23",
+    "event": "Geography Code 24 December 2024 Q11-Q20 official-source reconciliation and provisional syllabus mapping",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_range": "December 2024 Q11-Q20",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2424.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2424.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/24.pdf",
+    "printed_pages": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_page_indexes_zero_based": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "prior_visual_signoff_files": [
+      "assets/subjects/geography/DEC2024_VISUAL_SIGNOFF_BATCH2_Q1_Q14_2026-11-21.json",
+      "assets/subjects/geography/DEC2024_VISUAL_SIGNOFF_BATCH3_Q15_Q40_2026-11-21.json"
+    ],
+    "official_pdf_retrieval": {
+      "http_status": 200,
+      "total_pages": 32,
+      "text_extraction_pages": 8
+    },
+    "official_final_key_letters": [
+      "D",
+      "A",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "A",
+      "A",
+      "B"
+    ],
+    "answer_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_reconciliation": {
+      "source_verified": 9,
+      "source_hold": [
+        20
+      ],
+      "q13_transcription_restored": true,
+      "q14_punctuation_normalized": true,
+      "q19_option_dash_normalization": true,
+      "figures_or_tables": 0,
+      "statement_lists": [
+        "Q11",
+        "Q12",
+        "Q18"
+      ]
+    },
+    "provisional_mappings": [
+      {
+        "question_no": 11,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly lists Glacial Lake Outburst (GLOF) under meteorological hazards and disasters."
+      },
+      {
+        "question_no": 12,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly includes tropical cyclones and atmospheric circulation."
+      },
+      {
+        "question_no": 13,
+        "unit": "Unit X",
+        "rationale": "Official Code 24 Unit X explicitly includes India's climate and seasonal weather characteristics; this item is specifically about mid-winter weather in north-western India."
+      },
+      {
+        "question_no": 14,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly lists cloudburst under meteorological hazards and disasters."
+      },
+      {
+        "question_no": 15,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly covers composition and structure of the atmosphere and temperature."
+      },
+      {
+        "question_no": 16,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly covers insolation and the heat budget of Earth."
+      },
+      {
+        "question_no": 17,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly covers pressure, winds and atmospheric circulation."
+      },
+      {
+        "question_no": 18,
+        "unit": "Unit II",
+        "rationale": "The item concerns near-surface atmospheric moisture and evaporation with morning heating; the direct subject area is Climatology (Unit II)."
+      },
+      {
+        "question_no": 19,
+        "unit": "Unit II",
+        "rationale": "Official Code 24 Unit II explicitly covers composition and structure of the atmosphere."
+      }
+    ],
+    "mapping_status": {
+      "verified": 0,
+      "provisional": 9,
+      "pending": 1,
+      "human_approval_required": true
+    },
+    "before": {
+      "canonical_total": 606,
+      "active": 304,
+      "review_only": 302,
+      "source_verified": 605,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 304,
+      "syllabus_mapping_provisional": 6,
+      "syllabus_mapping_pending": 296,
+      "dec2024_review_only": 94,
+      "dec2024_source_verified": 99,
+      "dec2024_verified_mappings": 6,
+      "dec2024_provisional_mappings": 0,
+      "dec2024_pending_mappings": 94
+    },
+    "after": {
+      "canonical_total": 606,
+      "active": 304,
+      "review_only": 302,
+      "source_verified": 604,
+      "answer_key_verified": 606,
+      "syllabus_mapping_verified": 304,
+      "syllabus_mapping_provisional": 15,
+      "syllabus_mapping_pending": 287,
+      "dec2024_review_only": 94,
+      "dec2024_source_verified": 98,
+      "dec2024_verified_mappings": 6,
+      "dec2024_provisional_mappings": 9,
+      "dec2024_pending_mappings": 85
+    },
+    "question_text_or_options_changed": true,
+    "answer_letters_changed": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false,
+    "next_batch": "Geography Code 24 December 2024 Q21-Q30"
   }
 ]
