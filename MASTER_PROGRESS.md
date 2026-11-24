@@ -1905,3 +1905,14 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Before → after: canonical 606; active 304 → 304; review-only 302 → 302; source-verified 605 → 604; official key 606 → 606; verified mappings 304 → 304; provisional mappings 6 → 15; pending mappings 296 → 287. December 2024 review-only remains 94; source verified 98/100; final key 100/100; mappings verified 6, provisional 9, pending 85.
 - Source holds: Geography December 2024 Q6 (clipped option A/B, prior hold) and Q20 (option-D pronoun). September 2018 Q7–Q100 remain untranscribed (94). No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: Geography Code 24 December 2024 Q21–Q30.
+
+
+## 2026-11-24 — Checkpoint reconciliation and Environmental Sciences Code 26 December 2024 Q28–Q30 second-pass
+- Before selecting a new batch, reconciled the previous Geography next-batch note: Geography December 2024 Q21–Q30 were already manually signed off in `DEC2024_VISUAL_SIGNOFF_BATCH3_Q15_Q40_2026-11-21.json` (Q21 p-08, Q22–Q24 p-09, Q25–Q27 p-10, Q28–Q30 p-11). The mapping second-review workpaper also already contains Q21–Q30. This completed work was not repeated; the earlier “next Q21–Q30” line is superseded by that existing evidence.
+- Selected the next genuinely uncompleted second-pass records in the live seven-subject audit: Environmental Sciences Code 26, December 2024 Q28–Q30. Q21–Q27 already had independent second-pass evidence; Q34–Q70 were also already checked. Q28–Q30 had no second-pass marker before this batch.
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec24/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Visually checked official printed page 9 (PDF page index 8). All three stems and all four options match. Q28 is an assertion/reason item; no figures or tables occur.
+- Official final-key letters B, D, D match stored answers 3/3. Existing syllabus mappings retained: Unit III Q28 (island biogeography/species diversity/ecological habitat), Unit II Q29 (nitrogen biogeochemical cycle), Unit III Q30 (ecological niche/competitive exclusion). No text, options, answers or unit assignments changed.
+- Environmental Sciences before → after: independent second-pass unique IDs 169 → 172; remaining 131 → 128. Canonical questions remain 300; active 298; review-only 2 (November 2023 Q8/Q9 mapping holds); source verified 300/300; final-key verified 300/300; syllabus mappings verified 298/300.
+- Evidence IDs: GSET-ENV26-DEC2024-Q028, GSET-ENV26-DEC2024-Q029, GSET-ENV26-DEC2024-Q030. No other subject data changed. PR #22 remains open/unmerged. No CI or Combined Debug APK PASS is claimed.
+- Next batch: Environmental Sciences Code 26 December 2024 Q31–Q33.

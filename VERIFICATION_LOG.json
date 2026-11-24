@@ -9099,5 +9099,86 @@
     "pr22_merged": false,
     "ci_or_apk_claimed": false,
     "next_batch": "Geography Code 24 December 2024 Q21-Q30"
+  },
+  {
+    "date": "2026-11-24",
+    "event": "Environmental Sciences Code 26 December 2024 Q28-Q30 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "December 2024 Q28-Q30",
+    "printed_pages": [
+      9
+    ],
+    "pdf_page_indexes_zero_based": [
+      8
+    ],
+    "final_key_letters": [
+      "B",
+      "D",
+      "D"
+    ],
+    "final_key_parity": {
+      "checked": 3,
+      "matches": 3,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 3,
+      "stems_match": 3,
+      "all_four_options_match": 3,
+      "tables_checked": [],
+      "figures_present": 0,
+      "structured_items": [
+        "Q28 assertion/reason"
+      ]
+    },
+    "syllabus_mapping": {
+      "verified": 3,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit II": [
+          29
+        ],
+        "Unit III": [
+          28,
+          30
+        ]
+      }
+    },
+    "mapping_corrections": [],
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q028",
+      "GSET-ENV26-DEC2024-Q029",
+      "GSET-ENV26-DEC2024-Q030"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 169,
+      "independent_second_pass_pending": 131
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 172,
+      "independent_second_pass_pending": 128
+    },
+    "question_text_options_answers_changed": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]
