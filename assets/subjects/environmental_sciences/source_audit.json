@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 128,
+  "proofread_pass1_pending_second_pass": 125,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -107,7 +107,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -126,12 +126,12 @@
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
   },
   "last_second_pass_visual_review": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "session": "December 2024",
     "questions": [
-      28,
-      29,
-      30
+      31,
+      32,
+      33
     ],
     "count": 3,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
@@ -145,8 +145,8 @@
     ],
     "final_key_letters": [
       "B",
-      "D",
-      "D"
+      "C",
+      "B"
     ],
     "final_key_parity": "3/3",
     "source_visual": {
@@ -154,27 +154,22 @@
       "stems_match": 3,
       "all_four_options_match": 3,
       "tables_checked": [],
-      "figures_present": 0,
-      "structured_items": [
-        "Q28 assertion/reason"
-      ]
+      "figures_present": 0
     },
     "syllabus_mapping": {
       "verified": 3,
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit II": [
-          29
-        ],
-        "Unit III": [
-          28,
-          30
+        "Unit IV": [
+          31,
+          32,
+          33
         ]
       }
     },
     "mapping_corrections": [],
-    "result": "Q28-Q30 were visually checked against official GSET printed page 9 (PDF page index 8). All stems and all four options match. Official final-key letters B, D, D match stored answers 3/3. No figures or tables occur. Existing official syllabus mappings retained: Unit III (Q28), Unit II (Q29; nitrogen biogeochemical cycle), Unit III (Q30; ecological niche). No canonical text, options or answer letters changed."
+    "result": "Q31-Q33 visually checked against official GSET December 2024 printed page 9 (PDF index 8). All stems and all four options match. Official final-key letters B, C, B match canonical answers 3/3. No figures or tables occur. Existing Unit IV mappings retained: geostrophic wind field, authigenic sediment formation, and Darcy's law/hydrogeology."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q001",
@@ -348,9 +343,12 @@
     "GSET-ENV26-NOV2025-Q068",
     "GSET-ENV26-DEC2024-Q028",
     "GSET-ENV26-DEC2024-Q029",
-    "GSET-ENV26-DEC2024-Q030"
+    "GSET-ENV26-DEC2024-Q030",
+    "GSET-ENV26-DEC2024-Q031",
+    "GSET-ENV26-DEC2024-Q032",
+    "GSET-ENV26-DEC2024-Q033"
   ],
-  "second_pass_visual_verified_count": 172,
+  "second_pass_visual_verified_count": 175,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -597,5 +595,21 @@
     "proofread_second_pass_pending": 128,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
     "note": "Q28-Q30 December 2024 were independently visually checked in this batch. Previously verified Q21-Q27 and Q34-Q70 were not repeated. November 2023 Q8/Q9 remain the only syllabus-mapping holds. Next uncompleted second-pass range in this session is December 2024 Q31-Q33."
+  },
+  "live_reconciliation_2026_11_25": {
+    "basis": "Canonical Environmental Sciences questions.json plus official PDF visual second-pass and official final-key reconciliation through December 2024 Q31-Q33.",
+    "canonical_questions": 300,
+    "active_questions": 298,
+    "review_flagged_questions": 2,
+    "review_queue_file_records": 0,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_provisional": 0,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 175,
+    "proofread_second_pass_pending": 125,
+    "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
+    "note": "Independent second-pass unique IDs are tracked in source_audit.json and per-question independent_second_pass fields. December 2024 Q31-Q33 were newly verified in this batch. November 2023 Q8/Q9 remain the only syllabus-mapping holds. Earlier verified ranges were not repeated."
   }
 }

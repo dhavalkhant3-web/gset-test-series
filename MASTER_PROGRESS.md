@@ -1916,3 +1916,12 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Environmental Sciences before → after: independent second-pass unique IDs 169 → 172; remaining 131 → 128. Canonical questions remain 300; active 298; review-only 2 (November 2023 Q8/Q9 mapping holds); source verified 300/300; final-key verified 300/300; syllabus mappings verified 298/300.
 - Evidence IDs: GSET-ENV26-DEC2024-Q028, GSET-ENV26-DEC2024-Q029, GSET-ENV26-DEC2024-Q030. No other subject data changed. PR #22 remains open/unmerged. No CI or Combined Debug APK PASS is claimed.
 - Next batch: Environmental Sciences Code 26 December 2024 Q31–Q33.
+
+
+## 2026-11-25 — Environmental Sciences Code 26 December 2024 Q31–Q33 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Visually checked official printed page 9 (PDF zero-based index 8). All three stems and all four options match the scan. No figures or tables occur.
+- Official final-key letters B, C, B match stored answers 3/3. Existing Unit IV mappings retained: Q31 geostrophic wind field; Q32 authigenic sediment formation; Q33 Darcy's law/hydrogeology. The official syllabus explicitly covers geostrophic wind, sediment processes and Darcy's law under Unit IV.
+- Before → after: independent second-pass unique IDs 172 → 175; remaining 128 → 125. Canonical questions remain 300; active 298; review-only 2 (November 2023 Q8/Q9 mapping holds); source verified 300/300; final-key verified 300/300; syllabus mappings verified 298/300.
+- Evidence IDs: GSET-ENV26-DEC2024-Q031, GSET-ENV26-DEC2024-Q032, GSET-ENV26-DEC2024-Q033. No canonical question text, options, answers or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
+- Next batch: continue Environmental Sciences December 2024 with the next unverified question IDs after Q33; Q34-Q40 already have second-pass evidence.

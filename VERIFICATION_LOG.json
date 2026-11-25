@@ -9180,5 +9180,82 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-25",
+    "event": "Environmental Sciences Code 26 December 2024 Q31-Q33 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "question_range": "December 2024 Q31-Q33",
+    "printed_pages": [
+      9
+    ],
+    "pdf_page_indexes_zero_based": [
+      8
+    ],
+    "final_key_letters": [
+      "B",
+      "C",
+      "B"
+    ],
+    "final_key_parity": {
+      "checked": 3,
+      "matches": 3,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 3,
+      "stems_match": 3,
+      "all_four_options_match": 3,
+      "tables_checked": [],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 3,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit IV": [
+          31,
+          32,
+          33
+        ]
+      }
+    },
+    "mapping_corrections": [],
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q031",
+      "GSET-ENV26-DEC2024-Q032",
+      "GSET-ENV26-DEC2024-Q033"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 172,
+      "independent_second_pass_pending": 128
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 175,
+      "independent_second_pass_pending": 125
+    },
+    "question_text_options_answers_changed": false,
+    "syllabus_unit_assignments_corrected": false,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]
