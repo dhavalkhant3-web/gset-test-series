@@ -1,0 +1,13 @@
+{
+  "subjectName": "Sanskrit",
+  "subjectCode": "07",
+  "status": "INCOMPLETE_PENDING_REVIEW",
+  "papers_loaded": 11,
+  "questions_loaded": 850,
+  "review_flagged": 33,
+  "non_evaluated_Z_questions": 2,
+  "source_review": "All 850 transcriptions need human proofreading; no independent Devanagari OCR pass was available. Two questions have official Z keys and are not scored.",
+  "key_status": "Dec 2002, 2003 and 2008 keys are not labelled final; remaining supplied question sessions have final or corrected keys as recorded per question.",
+  "syllabus_mapping": "No official Sanskrit syllabus supplied; unit mappings are not assigned.",
+  "coverage_note": "The consolidated staging bank contains 850 questions across 11 sessions. Separate key-only sessions that have no question text are not included in the app bank."
+}
