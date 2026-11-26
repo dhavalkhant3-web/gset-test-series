@@ -1,0 +1,18 @@
+{
+  "subjectName": "Gujarati",
+  "subjectCode": "06",
+  "status": "INCOMPLETE_PENDING_REVIEW",
+  "papers_loaded": 7,
+  "questions_loaded": 500,
+  "with_key": 400,
+  "without_key": 100,
+  "review_flagged": 128,
+  "answer_keys_not_labelled_final": [
+    "DEC2002",
+    "DEC2003",
+    "DEC2008"
+  ],
+  "source_review": "All 500 records need human proofreading against scans; 24 keyed and 4 Sep 2018 records retain specific reading/print review notes. Dec 2021 has no supplied official answer key; all 100 are unscored.",
+  "syllabus_mapping": "Not provided; no unit assignments are made.",
+  "source_policy": "Official answer letters are preserved; the 2021 records are not assigned guessed answers."
+}

@@ -1,7 +1,7 @@
 name: gset_test_series
 description: GSET Paper-I bilingual series with 36-subject Paper-II banks.
 publish_to: 'none'
-version: 1.5.0+5
+version: 1.6.0+6
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -35,5 +35,6 @@ flutter:
     - assets/subjects/performing_art_dance_drama_theatre/
     - assets/subjects/indian_knowledge_system/
     - assets/subjects/hindi/
+    - assets/subjects/gujarati/
     - assets/json/
     - assets/subjects/visual_art/figures/
