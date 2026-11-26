@@ -1,0 +1,110 @@
+{
+  "subject": "Hindi",
+  "generated": "2026-11-13",
+  "overall": "INCOMPLETE",
+  "checks": {
+    "jsonSyntax": {
+      "answer_key_reconciliation.json": "ok",
+      "official_final_answer_keys.json": "ok",
+      "papers.json": "ok",
+      "question_mappings.json": "ok",
+      "questions.json": "ok",
+      "questions_review_pending.json": "ok",
+      "source_audit.json": "ok",
+      "subject_metadata.json": "ok",
+      "syllabus_units.json": "ok",
+      "translation_review.json": "ok",
+      "visual_review.json": "ok"
+    },
+    "fourOptionStructure": {
+      "checked": 1100,
+      "failures": []
+    },
+    "duplicateQuestionIds": [],
+    "duplicatePaperIds": [],
+    "questionCountVsOfficialPaper": {
+      "papersWithKey": 18,
+      "papersFullyTranscribed": [
+        "gset-2017-p2",
+        "gset-2017-p3",
+        "gset-2018-sep-p2",
+        "gset-2016-sep-p2",
+        "gset-2016-sep-p3",
+        "gset-2019-dec-p2",
+        "gset-2003-dec-p2",
+        "gset-2008-dec-p2",
+        "gset-2004-jul-p2",
+        "gset-2006-jul-p2",
+        "gset-2010-oct-p2",
+        "gset-2011-oct-p2",
+        "gset-2002-jan-p2",
+        "gset-2002-dec-p2",
+        "gset-2013-sep-p2",
+        "gset-2013-sep-p3",
+        "gset-2014-oct-p2",
+        "gset-2014-oct-p3"
+      ],
+      "papersPartiallyTranscribed": {
+        "gset-2017-p2": 50,
+        "gset-2017-p3": 75,
+        "gset-2002-dec-p2": 50,
+        "gset-2003-dec-p2": 50,
+        "gset-2008-dec-p2": 50,
+        "gset-2019-dec-p2": 100,
+        "gset-2002-jan-p2": 50,
+        "gset-2004-jul-p2": 50,
+        "gset-2006-jul-p2": 50,
+        "gset-2010-oct-p2": 50,
+        "gset-2011-oct-p2": 50,
+        "gset-2014-oct-p2": 50,
+        "gset-2014-oct-p3": 75,
+        "gset-2013-sep-p2": 50,
+        "gset-2013-sep-p3": 75,
+        "gset-2016-sep-p2": 50,
+        "gset-2016-sep-p3": 75,
+        "gset-2018-sep-p2": 100
+      },
+      "result": "PASS counts - 1100 of 1100 keyed questions transcribed (single pass)"
+    },
+    "keyCountSanity": {
+      "gset-2017-p2": true,
+      "gset-2017-p3": true,
+      "gset-2018-sep-p2": true,
+      "gset-2016-sep-p2": true,
+      "gset-2016-sep-p3": true,
+      "gset-2019-dec-p2": true,
+      "gset-2003-dec-p2": true,
+      "gset-2008-dec-p2": true,
+      "gset-2004-jul-p2": true,
+      "gset-2006-jul-p2": true,
+      "gset-2010-oct-p2": true,
+      "gset-2011-oct-p2": true,
+      "gset-2002-jan-p2": true,
+      "gset-2002-dec-p2": true,
+      "gset-2013-sep-p2": true,
+      "gset-2013-sep-p3": true,
+      "gset-2014-oct-p2": true,
+      "gset-2014-oct-p3": true
+    },
+    "answerKeyParity": {
+      "questionsInBank": 1100,
+      "note": "Every record carries the official key letter; no separate bank answer exists. Other-tool answers vs official: see source_audit (0 mismatches of 78 checked)."
+    },
+    "syllabusMapping": {
+      "verified": 0,
+      "provisional": 1100,
+      "missing": 0,
+      "lowConfidence": 58,
+      "result": "PROVISIONAL - content-based mapping, none verified against an official map"
+    },
+    "sourceVerification": {
+      "verified": 1100,
+      "pending": 0,
+      "result": "PARTIAL - two eye passes, no CI/loader run, not an official-body verification"
+    },
+    "gujaratiEnglishConsistency": "NOT_RUN - no Gujarati/English text",
+    "figuresAndDiagrams": "NOT_RUN - none identified in the verified set",
+    "applicationLoaderCompatibility": "NOT_RUN - repository schema/loader not available in this session",
+    "integrationAndCI": "NOT_RUN - no repository access"
+  }
+}

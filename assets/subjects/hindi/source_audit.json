@@ -1,0 +1,34 @@
+{
+  "subject": "Hindi",
+  "previousClaimAudit": {
+    "claimed": "Completed; 2017 P-II 50 + P-III 75 verified; CI passing; commit a1b2c3d4-integration-hindi-10",
+    "found": {
+      "questionsInHindiQuestionsJson": 7,
+      "declaredQuestions": 125
+    },
+    "commitShaValid": false,
+    "ciEvidence": null,
+    "verdict": "NOT_SUPPORTED"
+  },
+  "otherToolFiles": {
+    "files": 9,
+    "questionsContained": 78,
+    "declaredQuestions": "50-100 per file",
+    "july2004File": "47 complete questions; truncated, invalid JSON",
+    "unsupportedFields": [
+      "explanation",
+      "syllabus_unit",
+      "source_verified",
+      "official_key_verified",
+      "[cite: ...] artefacts"
+    ],
+    "answerLettersChecked": 78,
+    "answerMismatchesVsOfficialKey": 0
+  },
+  "duplicatesInUploads": [
+    "dec0205_1/_2",
+    "jan0205_1/_2",
+    "sept16p305/_1",
+    "jan02p305/_1"
+  ]
+}
