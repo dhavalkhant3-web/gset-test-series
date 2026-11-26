@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 125,
+  "proofread_pass1_pending_second_pass": 115,
   "active_questions": 298,
   "pending_review": 2,
   "syllabus_mapping": {
@@ -107,7 +107,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -126,50 +126,98 @@
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
   },
   "last_second_pass_visual_review": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "session": "December 2024",
     "questions": [
-      31,
-      32,
-      33
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
     ],
-    "count": 3,
+    "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      8
+      13,
+      14,
+      15
     ],
     "printed_pages": [
-      9
+      14,
+      15,
+      16
     ],
     "final_key_letters": [
       "B",
+      "D",
       "C",
-      "B"
+      "B",
+      "C",
+      "B",
+      "D",
+      "D",
+      "B",
+      "A"
     ],
-    "final_key_parity": "3/3",
+    "final_key_parity": "10/10",
     "source_visual": {
-      "checked": 3,
-      "stems_match": 3,
-      "all_four_options_match": 3,
-      "tables_checked": [],
-      "figures_present": 0
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [
+        "Q76 matching columns"
+      ],
+      "figures_present": 0,
+      "statement_lists": [
+        "Q74",
+        "Q75",
+        "Q77",
+        "Q79"
+      ]
     },
     "syllabus_mapping": {
-      "verified": 3,
+      "verified": 10,
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit IV": [
-          31,
-          32,
-          33
+        "Unit VIII": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          80
+        ],
+        "Unit VII": [
+          79
         ]
       }
     },
-    "mapping_corrections": [],
-    "result": "Q31-Q33 visually checked against official GSET December 2024 printed page 9 (PDF index 8). All stems and all four options match. Official final-key letters B, C, B match canonical answers 3/3. No figures or tables occur. Existing Unit IV mappings retained: geostrophic wind field, authigenic sediment formation, and Darcy's law/hydrogeology."
+    "mapping_corrections": [
+      {
+        "question_no": 76,
+        "from": "Unit VI",
+        "to": "Unit VIII",
+        "basis": "Official Unit VIII covers EIA methodologies, impact assessment, EIS and environmental audit; this matching question concerns impact identification, measurement, communication and interpretation."
+      },
+      {
+        "question_no": 78,
+        "from": "Unit VI",
+        "to": "Unit VIII",
+        "basis": "Official Unit VIII explicitly lists constitutional environmental provisions including Articles 48A and 51A."
+      }
+    ],
+    "result": "Visually checked official printed pages 14-16 (PDF indexes 13-15). All ten stems and four options match. Q76 matching columns and answer-code options checked; Q74/Q75/Q77/Q79 statement sets checked. Official final-key letters B,D,C,B,C,B,D,D,B,A match 10/10. Q76 corrected Unit VI→VIII for EIA impact-assessment methodology; Q78 corrected Unit VI→VIII for constitutional environmental provisions. Q79 remains Unit VII for explicit e-waste rules coverage."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q001",
@@ -346,9 +394,19 @@
     "GSET-ENV26-DEC2024-Q030",
     "GSET-ENV26-DEC2024-Q031",
     "GSET-ENV26-DEC2024-Q032",
-    "GSET-ENV26-DEC2024-Q033"
+    "GSET-ENV26-DEC2024-Q033",
+    "GSET-ENV26-DEC2024-Q071",
+    "GSET-ENV26-DEC2024-Q072",
+    "GSET-ENV26-DEC2024-Q073",
+    "GSET-ENV26-DEC2024-Q074",
+    "GSET-ENV26-DEC2024-Q075",
+    "GSET-ENV26-DEC2024-Q076",
+    "GSET-ENV26-DEC2024-Q077",
+    "GSET-ENV26-DEC2024-Q078",
+    "GSET-ENV26-DEC2024-Q079",
+    "GSET-ENV26-DEC2024-Q080"
   ],
-  "second_pass_visual_verified_count": 175,
+  "second_pass_visual_verified_count": 185,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -611,5 +669,19 @@
     "proofread_second_pass_pending": 125,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
     "note": "Independent second-pass unique IDs are tracked in source_audit.json and per-question independent_second_pass fields. December 2024 Q31-Q33 were newly verified in this batch. November 2023 Q8/Q9 remain the only syllabus-mapping holds. Earlier verified ranges were not repeated."
+  },
+  "live_reconciliation_2026_11_26": {
+    "basis": "Direct canonical question-bank audit and official-source independent second-pass visual review of December 2024 Q71-Q80.",
+    "canonical_questions": 300,
+    "active_questions": 298,
+    "review_flagged_questions": 2,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 185,
+    "proofread_second_pass_pending": 115,
+    "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
+    "note": "Second-pass unique IDs 175 → 185; December 2024 Q71-Q80 visually checked in this batch. November 2023 Q8/Q9 remain the only two mapping holds."
   }
 }

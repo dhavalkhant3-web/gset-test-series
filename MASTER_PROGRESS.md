@@ -1925,3 +1925,13 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Before → after: independent second-pass unique IDs 172 → 175; remaining 128 → 125. Canonical questions remain 300; active 298; review-only 2 (November 2023 Q8/Q9 mapping holds); source verified 300/300; final-key verified 300/300; syllabus mappings verified 298/300.
 - Evidence IDs: GSET-ENV26-DEC2024-Q031, GSET-ENV26-DEC2024-Q032, GSET-ENV26-DEC2024-Q033. No canonical question text, options, answers or syllabus assignments changed. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS is claimed.
 - Next batch: continue Environmental Sciences December 2024 with the next unverified question IDs after Q33; Q34-Q40 already have second-pass evidence.
+
+
+## 2026-11-26 — Environmental Sciences Code 26 December 2024 Q71–Q80 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Visually checked Q71–Q80 against official printed pages 14–16 (PDF zero-based indexes 13–15). All ten stems and all four options match. Q76 matching columns and four answer-code options were checked; statement sets Q74, Q75, Q77 and Q79 were checked; no figures occur.
+- Official final-key letters B, D, C, B, C, B, D, D, B, A match stored answers 10/10. Official syllabus review corrected Q76 Unit VI → Unit VIII (EIA impact-assessment methodology/reporting) and Q78 Unit VI → Unit VIII (constitutional environmental provisions, Articles 48A/51A). Q79 retained Unit VII for explicit e-waste coverage; other mappings retained as Unit VIII.
+- Second-pass IDs: 175 → 185; remaining 115. Canonical remains 300 questions, 298 active, 2 review-only (November 2023 Q8/Q9 mapping holds), source/key 300/300, syllabus mappings 298/300.
+- Evidence IDs: GSET-ENV26-DEC2024-Q071, GSET-ENV26-DEC2024-Q072, GSET-ENV26-DEC2024-Q073, GSET-ENV26-DEC2024-Q074, GSET-ENV26-DEC2024-Q075, GSET-ENV26-DEC2024-Q076, GSET-ENV26-DEC2024-Q077, GSET-ENV26-DEC2024-Q078, GSET-ENV26-DEC2024-Q079, GSET-ENV26-DEC2024-Q080. No question text/options/answer letters changed; only two syllabus units corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
+- Note: Q41–Q50 already carried independent second-pass markers in canonical question records before this run and were not repeated. The checkpoint's earlier next-batch note for Q71–Q80 is now completed.
+- Next batch: Environmental Sciences December 2024 Q81–Q90 (subject to live ID check; do not repeat any existing markers).
