@@ -34092,5 +34092,63 @@
     "source": "GSET official September 2016 Mathematical Sciences Paper-II and official final/corrected answer key",
     "answer_key_verified": true,
     "answer_key_source": "assets/subjects/mathematical_sciences/answer_keys/sep16_paper2.json"
+  },
+  {
+    "id": "mathematical_sciences_dec03_q44",
+    "paper_id": "mathematical_sciences_dec03",
+    "exam": "December 2003",
+    "question_en": "The differential equation dz, az d7z oa | xz + 8-— + y+ — = 0 ax? Oxdy ay? Oy is: | a 9 , 9",
+    "question_gu": "The differential equation dz, az d7z oa | xz + 8-— + y+ — = 0 ax? Oxdy ay? Oy is: | a 9 , 9",
+    "options_en": [
+      "elliptic for xy < 7 and hyperbolic for xy > ri | ae 9 a 9",
+      "elliptic for xy < ri and hyperbolic for xy > ri | er 9 . 9 |",
+      "elliptic for xy > ri and hyperbolic for xy < ri | | aa ss , 9",
+      "elliptic for xy > ri and hyperbolic for xy < Zz ."
+    ],
+    "options_gu": [
+      "elliptic for xy < 7 and hyperbolic for xy > ri | ae 9 a 9",
+      "elliptic for xy < ri and hyperbolic for xy > ri | er 9 . 9 |",
+      "elliptic for xy > ri and hyperbolic for xy < ri | | aa ss , 9",
+      "elliptic for xy > ri and hyperbolic for xy < Zz ."
+    ],
+    "answer": "C",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
+  },
+  {
+    "id": "mathematical_sciences_jul04_q17",
+    "paper_id": "mathematical_sciences_jul04",
+    "exam": "July 2004",
+    "question_en": "An unbiased coin is tossed twice. Let X and Y denote the number of times a head turns up and the number of times a tail turns up respectively. Then which of the following is FALSE ? | i",
+    "question_gu": "An unbiased coin is tossed twice. Let X and Y denote the number of times a head turns up and the number of times a tail turns up respectively. Then which of the following is FALSE ? | i",
+    "options_en": [
+      "PR>Y=PK<yY",
+      "PX + Y=2)=1",
+      "PR = 0) = PY = 0)",
+      "PX = Y) = 5"
+    ],
+    "options_gu": [
+      "PR>Y=PK<yY",
+      "PX + Y=2)=1",
+      "PR = 0) = PY = 0)",
+      "PX = Y) = 5"
+    ],
+    "answer": "D",
+    "topic": "Mathematical Sciences",
+    "difficulty": "Medium",
+    "explanation_en": "Official GSET final answer key is authoritative.",
+    "explanation_gu": "Official GSET final answer key is authoritative.",
+    "review_flag": true,
+    "review_note": "Imported from official PDF/key; verify mathematical notation against source page before clearing review_flag.",
+    "tip_en": "Official final answer key is authoritative.",
+    "tip_gu": "Official final answer key authoritative છે.",
+    "source_verified": false
   }
 ]
