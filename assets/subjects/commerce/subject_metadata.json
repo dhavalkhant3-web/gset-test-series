@@ -1,0 +1,13 @@
+{
+  "subjectName": "Commerce",
+  "subjectCode": "17",
+  "status": "PARTIAL_SUBJECT_BANK_PENDING_REVIEW",
+  "papers_loaded": 1,
+  "questions_loaded": 50,
+  "review_flagged": 1,
+  "not_evaluated_questions": 0,
+  "source_review": "The October 2011 Paper-II set contains 50 bilingual questions visually signed off against the source booklet, with final answer key verified 50/50. Q44 Gujarati option D differs between supplied artifacts and is flagged for review.",
+  "key_status": "October 2011: official final key verified 50/50. The updated master covers 1,300 records across 19 sessions; no other question text is complete enough to load. The integrity audit reports 300 answer-key records pending independent official final-key provenance confirmation.",
+  "syllabus_mapping": "No official question-to-unit mappings supplied; no syllabus units assigned to questions.",
+  "coverage_note": "Only the 50 complete October 2011 Paper-II questions are loaded. The remaining 1,250 master records lack complete bilingual question text; they are not exposed as playable questions. App integration/build validation remains pending."
+}
