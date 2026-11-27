@@ -1,0 +1,68 @@
+{
+  "subject": "Psychology",
+  "subject_code": "14",
+  "source": "GSET Syllabus, Subject: PSYCHOLOGY, Code No. 14 (English 81ee7674-14.pdf and Gujarati 6377b54c-14g.pdf, 6 pages each)",
+  "units": [
+    {
+      "id": "PSYCH-U01",
+      "number": "I",
+      "name": "Emergence of Psychology",
+      "name_gu": "Emergence of Psychology"
+    },
+    {
+      "id": "PSYCH-U02",
+      "number": "II",
+      "name": "Research Methodology and Statistics",
+      "name_gu": "Research Methodology and Statistics"
+    },
+    {
+      "id": "PSYCH-U03",
+      "number": "III",
+      "name": "Psychological testing",
+      "name_gu": "Psychological testing"
+    },
+    {
+      "id": "PSYCH-U04",
+      "number": "IV",
+      "name": "Biological basis of behavior",
+      "name_gu": "Biological basis of behavior"
+    },
+    {
+      "id": "PSYCH-U05",
+      "number": "V",
+      "name": "Attention, Perception, Learning, Memory and Forgetting",
+      "name_gu": "Attention, Perception, Learning, Memory and Forgetting"
+    },
+    {
+      "id": "PSYCH-U06",
+      "number": "VI",
+      "name": "Thinking, Intelligence and Creativity",
+      "name_gu": "Thinking, Intelligence and Creativity"
+    },
+    {
+      "id": "PSYCH-U07",
+      "number": "VII",
+      "name": "Personality, Motivation, emotion, stress and coping",
+      "name_gu": "Personality, Motivation, emotion, stress and coping"
+    },
+    {
+      "id": "PSYCH-U08",
+      "number": "VIII",
+      "name": "Social Psychology",
+      "name_gu": "Social Psychology"
+    },
+    {
+      "id": "PSYCH-U09",
+      "number": "IX",
+      "name": "Human Development and Interventions",
+      "name_gu": "Human Development and Interventions"
+    },
+    {
+      "id": "PSYCH-U10",
+      "number": "X",
+      "name": "Emerging Areas",
+      "name_gu": "Emerging Areas"
+    }
+  ],
+  "mapping_status": "all provisional; 81 low confidence"
+}

@@ -1,0 +1,15 @@
+{
+  "subjectName": "Psychology",
+  "subjectCode": "14",
+  "status": "INCOMPLETE_PENDING_REVIEW",
+  "papers_loaded": 19,
+  "questions_loaded": 1300,
+  "review_flagged": 147,
+  "gujarati_translation_human_check": 72,
+  "not_evaluated_questions": 0,
+  "figure_questions": 15,
+  "source_review": "English text received two eye-check passes against the scanned papers; Gujarati was transcribed from official bilingual papers and compared once. 72 Gujarati records still need human checking; 147 records carry review notes. All 1300 records have supplied official answer keys.",
+  "key_status": "Official answer key attached to all 19 Paper-II sessions; validation reports 1300/1300 answer-key parity and no dropped/Z answers. Some scanned key readings carry source notes in papers.json.",
+  "syllabus_mapping": "All 1300 mappings are provisional, not verified against an official question-to-unit map; 81 are marked low confidence.",
+  "coverage_note": "Paper-II only: 1300 questions across 19 sessions. The source package contains no Paper-III question papers. Fifteen figure-related questions are preserved with their supplied text/options; no separate image assets were supplied."
+}

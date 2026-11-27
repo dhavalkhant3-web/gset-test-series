@@ -1,0 +1,2 @@
+Psychology (14) Paper-II: 1300 questions across 19 sessions. All answer keys are attached and the supplied validation report records 1300/1300 key parity. English text received two visual checks; Gujarati was transcribed and compared once, with 72 records still needing human review. 147 records retain review notes. Syllabus mapping is provisional for all questions (81 low confidence). No Paper-III question text was supplied.
+

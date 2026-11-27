@@ -209,9 +209,10 @@
       "icon": "psychology_rounded",
       "paper_ii_questions": 100,
       "paper_ii_marks": 200,
-      "source_verified": false,
-      "papers_loaded": 0,
-      "questions_loaded": 0
+      "source_verified": true,
+      "papers_loaded": 19,
+      "questions_loaded": 1300,
+      "data_status": "Paper-II: 1300 bilingual questions across 19 sessions; all supplied keys attached and key parity reports 1300/1300. 147 records retain review notes, including 72 Gujarati items needing a human check. All 1300 syllabus mappings are provisional (81 low confidence). No Paper-III question text was supplied."
     },
     {
       "code": "15",

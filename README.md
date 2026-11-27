@@ -13,3 +13,5 @@ Sanskrit: 850 Paper-II questions across 11 sessions. Two official Z answers rema
 History: 500 Paper-II questions across nine sessions; the 75-question August 2017 Paper-III archive is separate. 150 questions are unscored pending key reconciliation. English-only transcription; proofreading and syllabus mapping remain pending.
 
 English: 1200 Paper-II questions across 18 sessions. The supplied Paper-III material contains answer keys for September 2016 and August 2017, but no question text. Four older 50-question sessions are held unscored pending key reconciliation; source proofreading and syllabus review remain incomplete.
+
+Psychology: 1300 bilingual Paper-II questions across 19 sessions. All supplied answer keys are attached; 147 questions retain review notes and 72 Gujarati entries need human checking. The 10 unit mappings are provisional (81 low confidence). No Paper-III question text was supplied.
