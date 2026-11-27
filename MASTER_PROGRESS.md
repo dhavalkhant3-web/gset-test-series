@@ -1934,4 +1934,15 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Second-pass IDs: 175 → 185; remaining 115. Canonical remains 300 questions, 298 active, 2 review-only (November 2023 Q8/Q9 mapping holds), source/key 300/300, syllabus mappings 298/300.
 - Evidence IDs: GSET-ENV26-DEC2024-Q071, GSET-ENV26-DEC2024-Q072, GSET-ENV26-DEC2024-Q073, GSET-ENV26-DEC2024-Q074, GSET-ENV26-DEC2024-Q075, GSET-ENV26-DEC2024-Q076, GSET-ENV26-DEC2024-Q077, GSET-ENV26-DEC2024-Q078, GSET-ENV26-DEC2024-Q079, GSET-ENV26-DEC2024-Q080. No question text/options/answer letters changed; only two syllabus units corrected. No other subject or protected file changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
 - Note: Q41–Q50 already carried independent second-pass markers in canonical question records before this run and were not repeated. The checkpoint's earlier next-batch note for Q71–Q80 is now completed.
-- Next batch: Environmental Sciences December 2024 Q81–Q90 (subject to live ID check; do not repeat any existing markers).
+- Next batch: Environmental Sciences December 2024 Q91–Q100; inspect existing independent second-pass markers first.
+
+
+## 2026-11-27 — Environmental Sciences Code 26 December 2024 Q81–Q90 independent second-pass
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Visually inspected official printed pages 17–18 (PDF zero-based indexes 16–17). All ten stems and all four options match; no figures or tables occur.
+- Official final-key letters A, A, A, A, B, B, B, C, D, D match stored official answers 10/10. No answer letter changed.
+- Corrected Q89 option B spelling “Bionomial” → “Binomial” to match the scan. Corrected Q88 syllabus Unit I → Unit III because the official Unit III covers population ecology and population growth.
+- Important key conflict: Q88 official key is C (k), retained as authoritative. Logistic growth dN/dt=rN(1−N/K) reaches maximum at K/2 (option B); Q88 is now review-only with explicit review_note pending expert adjudication.
+- Before → after: canonical 300; active 298 → 297; review-only 2 → 3; source verified 300/300; final key 300/300; verified mappings 298/300; independent second-pass unique IDs 185 → 195; remaining 115 → 105.
+- Evidence IDs: GSET-ENV26-DEC2024-Q081, GSET-ENV26-DEC2024-Q082, GSET-ENV26-DEC2024-Q083, GSET-ENV26-DEC2024-Q084, GSET-ENV26-DEC2024-Q085, GSET-ENV26-DEC2024-Q086, GSET-ENV26-DEC2024-Q087, GSET-ENV26-DEC2024-Q088, GSET-ENV26-DEC2024-Q089, GSET-ENV26-DEC2024-Q090. No other subject or protected subject changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
+- Next: Environmental Sciences December 2024 Q91–Q100, only after checking independent markers; Q89/Q90 had earlier first-pass review, but this second-pass batch is now recorded.

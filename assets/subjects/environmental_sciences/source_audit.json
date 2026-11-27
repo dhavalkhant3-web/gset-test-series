@@ -7,9 +7,9 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 115,
-  "active_questions": 298,
-  "pending_review": 2,
+  "proofread_pass1_pending_second_pass": 105,
+  "active_questions": 297,
+  "pending_review": 3,
   "syllabus_mapping": {
     "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "total_records": 300,
@@ -17,18 +17,18 @@
     "provisional": 0,
     "pending": 2,
     "unit_distribution": {
-      "Unit I": 21,
+      "Unit I": 20,
       "Unit X": 29,
       "Unit IV": 30,
       "Unit II": 42,
-      "Unit III": 29,
+      "Unit III": 30,
       "Unit VI": 34,
       "Unit V": 33,
       "Unit VII": 26,
       "Unit VIII": 26,
       "Unit IX": 28
     },
-    "note": "298 question-level mappings remain verified; Nov 2023 Q8 and Q9 are pending. December 2024 Q5 and Q8 units corrected in second-pass review; Q9 Unit I retained. Q55 is Unit VI; Q63/Q65/Q67 are Unit VII; Q91 is Unit VIII (Montreal Protocol); Q95 is Unit X (Indian vehicular emission norms). Independent second-pass visual review: 126 unique IDs, 174 pending."
+    "note": "298 question-level syllabus mappings remain verified; Nov 2023 Q8/Q9 pending. Q88 December 2024 moved to Unit III (population ecology). Independent second-pass verified 195 unique IDs, 105 pending."
   },
   "last_visual_review": {
     "date": "2026-11-16",
@@ -107,7 +107,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -126,98 +126,96 @@
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
   },
   "last_second_pass_visual_review": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "session": "December 2024",
     "questions": [
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      13,
-      14,
-      15
+      16,
+      17
     ],
     "printed_pages": [
-      14,
-      15,
-      16
+      17,
+      18
     ],
     "final_key_letters": [
+      "A",
+      "A",
+      "A",
+      "A",
       "B",
-      "D",
+      "B",
+      "B",
       "C",
-      "B",
-      "C",
-      "B",
       "D",
-      "D",
-      "B",
-      "A"
+      "D"
     ],
     "final_key_parity": "10/10",
     "source_visual": {
       "checked": 10,
       "stems_match": 10,
       "all_four_options_match": 10,
-      "tables_checked": [
-        "Q76 matching columns"
-      ],
       "figures_present": 0,
-      "statement_lists": [
-        "Q74",
-        "Q75",
-        "Q77",
-        "Q79"
-      ]
+      "tables_checked": [],
+      "structured_items": []
     },
     "syllabus_mapping": {
       "verified": 10,
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit VIII": [
-          71,
-          72,
-          73,
-          74,
-          75,
-          76,
-          77,
-          78,
-          80
+        "Unit IX": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          89,
+          90
         ],
-        "Unit VII": [
-          79
+        "Unit III": [
+          88
         ]
       }
     },
-    "mapping_corrections": [
+    "corrections": [
       {
-        "question_no": 76,
-        "from": "Unit VI",
-        "to": "Unit VIII",
-        "basis": "Official Unit VIII covers EIA methodologies, impact assessment, EIS and environmental audit; this matching question concerns impact identification, measurement, communication and interpretation."
+        "question_no": 89,
+        "field": "option B",
+        "from": "Bionomial",
+        "to": "Binomial",
+        "basis": "Official scan spelling."
       },
       {
-        "question_no": 78,
-        "from": "Unit VI",
-        "to": "Unit VIII",
-        "basis": "Official Unit VIII explicitly lists constitutional environmental provisions including Articles 48A and 51A."
+        "question_no": 88,
+        "from": "Unit I",
+        "to": "Unit III",
+        "basis": "Official Unit III explicitly covers population ecology and population growth."
       }
     ],
-    "result": "Visually checked official printed pages 14-16 (PDF indexes 13-15). All ten stems and four options match. Q76 matching columns and answer-code options checked; Q74/Q75/Q77/Q79 statement sets checked. Official final-key letters B,D,C,B,C,B,D,D,B,A match 10/10. Q76 corrected Unit VI→VIII for EIA impact-assessment methodology; Q78 corrected Unit VI→VIII for constitutional environmental provisions. Q79 remains Unit VII for explicit e-waste rules coverage."
+    "official_key_conflict": {
+      "question_no": 88,
+      "official_key": "C",
+      "mathematical_result": "B (K/2)",
+      "action": "preserved official key C; review-only pending expert adjudication"
+    },
+    "result": "Q81-Q90 visually checked against official printed pages 17-18 (PDF indexes 16-17). All stems and four options match. Official final-key letters match 10/10. Corrected Q89 option-B spelling; corrected Q88 syllabus mapping to Unit III; retained official answer C but flagged Q88 review-only due to mathematical conflict."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q001",
@@ -404,9 +402,19 @@
     "GSET-ENV26-DEC2024-Q077",
     "GSET-ENV26-DEC2024-Q078",
     "GSET-ENV26-DEC2024-Q079",
-    "GSET-ENV26-DEC2024-Q080"
+    "GSET-ENV26-DEC2024-Q080",
+    "GSET-ENV26-DEC2024-Q081",
+    "GSET-ENV26-DEC2024-Q082",
+    "GSET-ENV26-DEC2024-Q083",
+    "GSET-ENV26-DEC2024-Q084",
+    "GSET-ENV26-DEC2024-Q085",
+    "GSET-ENV26-DEC2024-Q086",
+    "GSET-ENV26-DEC2024-Q087",
+    "GSET-ENV26-DEC2024-Q088",
+    "GSET-ENV26-DEC2024-Q089",
+    "GSET-ENV26-DEC2024-Q090"
   ],
-  "second_pass_visual_verified_count": 185,
+  "second_pass_visual_verified_count": 195,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -683,5 +691,20 @@
     "proofread_second_pass_pending": 115,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
     "note": "Second-pass unique IDs 175 → 185; December 2024 Q71-Q80 visually checked in this batch. November 2023 Q8/Q9 remain the only two mapping holds."
+  },
+  "live_reconciliation_2026_11_27": {
+    "basis": "Canonical Environmental Sciences bank plus official GSET Dec 2024 paper page images, final answer key and Code 26 syllabus; independent second-pass IDs deduplicated.",
+    "canonical_questions": 300,
+    "active_questions": 297,
+    "review_flagged_questions": 3,
+    "review_queue_file_records": 0,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 195,
+    "proofread_second_pass_pending": 105,
+    "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
+    "note": "Q81-Q90 December 2024 independently visually rechecked. Q89 option-B spelling corrected to Binomial. Q88 Unit I→III. Official final-key C preserved but review_flag=true because logistic growth maximum is at K/2 (option B), pending expert adjudication. Nov 2023 Q8/Q9 remain mapping holds."
   }
 }

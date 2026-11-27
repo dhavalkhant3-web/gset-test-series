@@ -9382,5 +9382,126 @@
     "other_subjects_changed": false,
     "pr22_merged": false,
     "ci_or_apk_claimed": false
+  },
+  {
+    "date": "2026-11-27",
+    "event": "Environmental Sciences Code 26 December 2024 Q81-Q90 independent second-pass source audit",
+    "branch": "app/import-updated-subject-banks-2026-11-10",
+    "question_range": "December 2024 Q81-Q90",
+    "question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_answer_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "printed_pages": [
+      17,
+      18
+    ],
+    "pdf_page_indexes_zero_based": [
+      16,
+      17
+    ],
+    "final_key_letters": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "B",
+      "B",
+      "B",
+      "C",
+      "D",
+      "D"
+    ],
+    "final_key_parity": {
+      "checked": 10,
+      "matches": 10,
+      "mismatches": 0
+    },
+    "source_visual": {
+      "checked": 10,
+      "stems_match": 10,
+      "all_four_options_match": 10,
+      "tables_checked": [],
+      "figures_present": 0
+    },
+    "syllabus_mapping": {
+      "verified": 10,
+      "provisional": 0,
+      "pending": 0,
+      "unit_distribution": {
+        "Unit IX": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          89,
+          90
+        ],
+        "Unit III": [
+          88
+        ]
+      }
+    },
+    "corrections": [
+      {
+        "question_no": 89,
+        "field": "option B",
+        "from": "Bionomial",
+        "to": "Binomial"
+      },
+      {
+        "question_no": 88,
+        "from": "Unit I",
+        "to": "Unit III"
+      }
+    ],
+    "official_key_conflict": {
+      "question_no": 88,
+      "official_key": "C",
+      "mathematical_result": "B (K/2)",
+      "action": "preserved official answer C and marked review-only for expert adjudication"
+    },
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q081",
+      "GSET-ENV26-DEC2024-Q082",
+      "GSET-ENV26-DEC2024-Q083",
+      "GSET-ENV26-DEC2024-Q084",
+      "GSET-ENV26-DEC2024-Q085",
+      "GSET-ENV26-DEC2024-Q086",
+      "GSET-ENV26-DEC2024-Q087",
+      "GSET-ENV26-DEC2024-Q088",
+      "GSET-ENV26-DEC2024-Q089",
+      "GSET-ENV26-DEC2024-Q090"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 298,
+      "review_flagged": 2,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 185,
+      "independent_second_pass_pending": 115
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 297,
+      "review_flagged": 3,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 195,
+      "independent_second_pass_pending": 105
+    },
+    "question_text_options_answers_changed": false,
+    "option_spelling_corrected": true,
+    "syllabus_unit_assignments_corrected": true,
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false
   }
 ]
