@@ -442,6 +442,35 @@ class PaperIIDataService {
     } catch (_) {}
     return [];
   }
+
+  static Future<List<Map<String, dynamic>>> loadPaperIIIQuestions(String subjectId) async {
+    if (subjectId != 'history') return [];
+    try {
+      final raw = await rootBundle.loadString(
+        'assets/subjects/history/paper_iii_archive_questions.json',
+      );
+      final decoded = jsonDecode(raw);
+      if (decoded is List) {
+        return decoded.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      }
+    } catch (_) {}
+    return [];
+  }
+
+  static Future<List<Map<String, dynamic>>> loadPaperIIIPapers(String subjectId) async {
+    if (subjectId != 'history') return [];
+    try {
+      final raw = await rootBundle.loadString(
+        'assets/subjects/history/paper_iii_archive_papers.json',
+      );
+      final decoded = jsonDecode(raw) as Map;
+      final list = decoded['papers'];
+      if (list is List) {
+        return list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      }
+    } catch (_) {}
+    return [];
+  }
 }
 
 class SubjectDetailPage extends StatefulWidget {
@@ -454,6 +483,8 @@ class SubjectDetailPage extends StatefulWidget {
 class _SubjectDetailPageState extends State<SubjectDetailPage> {
   List<Map<String, dynamic>> questions = [];
   List<Map<String, dynamic>> papers = [];
+  List<Map<String, dynamic>> paperIIIQuestions = [];
+  List<Map<String, dynamic>> paperIIIPapers = [];
   Set<String> bookmarks = {};
   Set<String> mistakes = {};
   bool loading = true;
@@ -465,13 +496,41 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
     final subjectId = widget.subject['id'].toString();
     final qs = await PaperIIDataService.loadQuestions(subjectId);
     final ps = await PaperIIDataService.loadPapers(subjectId);
+    final p3Questions = await PaperIIDataService.loadPaperIIIQuestions(subjectId);
+    final p3Papers = await PaperIIDataService.loadPaperIIIPapers(subjectId);
     if (!mounted) return;
     setState(() {
       questions = qs; papers = ps;
+      paperIIIQuestions = p3Questions; paperIIIPapers = p3Papers;
       bookmarks = (prefs.getStringList('bookmarks') ?? []).toSet();
       mistakes = (prefs.getStringList('mistakes') ?? []).toSet();
       loading = false;
     });
+  }
+
+  Future<void> _openPaperPart(
+    String title,
+    List<Map<String, dynamic>> partQuestions,
+    List<Map<String, dynamic>> partPapers,
+  ) async {
+    if (partQuestions.isEmpty || partPapers.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        content: Text(widget.gu
+            ? 'આ ભાગના પ્રશ્નો હજી ઉપલબ્ધ નથી.'
+            : 'Questions for this part are not available yet.'),
+      ));
+      return;
+    }
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => ChemicalPaperListPage(
+      title: title,
+      papers: partPapers,
+      questions: partQuestions,
+      gu: widget.gu,
+      bookmarks: bookmarks,
+      mistakes: mistakes,
+      onStateChanged: _saveState,
+    )));
+    await _load();
   }
 
   Future<void> _saveState(Set<String> b, Set<String> m) async {
@@ -548,6 +607,33 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
           const SizedBox(height: 16),
           const Text('Preparation Hub', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
           const SizedBox(height: 9),
+          if (widget.subject['id'] == 'history') ...[
+            _action(
+              Icons.description_rounded,
+              widget.gu ? 'પેપર-II' : 'Paper-II',
+              widget.gu
+                  ? '${papers.length} પેપર • ${questions.length} પ્રશ્નો'
+                  : '${papers.length} papers • ${questions.length} questions',
+              () { _openPaperPart(
+                widget.gu ? 'ઇતિહાસ • પેપર-II' : 'History • Paper-II',
+                questions,
+                papers,
+              ); },
+            ),
+            _action(
+              Icons.library_books_rounded,
+              widget.gu ? 'પેપર-III' : 'Paper-III',
+              widget.gu
+                  ? '${paperIIIPapers.length} પેપર • ${paperIIIQuestions.length} પ્રશ્નો'
+                  : '${paperIIIPapers.length} paper • ${paperIIIQuestions.length} questions',
+              () { _openPaperPart(
+                widget.gu ? 'ઇતિહાસ • પેપર-III' : 'History • Paper-III',
+                paperIIIQuestions,
+                paperIIIPapers,
+              ); },
+            ),
+          ],
+          if (widget.subject['id'] != 'history') ...[
           _action(Icons.description_rounded, 'Previous Year Papers', papers.isEmpty ? 'Archive pending' : papers.length.toString() + ' official papers mapped', () {
             if (papers.isEmpty) {
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(widget.gu ? 'Official paper archive હજુ load થયો નથી.' : 'Official paper archive is not loaded yet.')));
@@ -580,6 +666,7 @@ class _SubjectDetailPageState extends State<SubjectDetailPage> {
           _action(Icons.menu_book_rounded, 'Mistake Book', mistakes.length.toString() + ' saved', () {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(mistakes.length.toString() + (widget.gu ? ' mistakes saved.' : ' mistakes saved.'))));
           }),
+          ],
         ],
       ),
     );
@@ -758,6 +845,7 @@ class _UnitWiseTestPageState extends State<UnitWiseTestPage> {
 }
 
 class ChemicalPaperListPage extends StatelessWidget {
+  final String title;
   final List<Map<String, dynamic>> papers;
   final List<Map<String, dynamic>> questions;
   final bool gu;
@@ -766,6 +854,7 @@ class ChemicalPaperListPage extends StatelessWidget {
 
   const ChemicalPaperListPage({
     super.key,
+    this.title = 'Previous Year Papers',
     required this.papers,
     required this.questions,
     required this.gu,
@@ -800,7 +889,7 @@ class ChemicalPaperListPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FF),
       appBar: AppBar(
-        title: Text('Previous Year Papers',
+        title: Text(title,
           style: const TextStyle(fontWeight: FontWeight.w900)),
       ),
       body: ListView.separated(
