@@ -1,0 +1,1 @@
+Commerce (17) Paper-II: 50 bilingual October 2011 questions are loaded; source booklet text and official final key were visually verified. Q44 has a source-artifact conflict in the Gujarati D option and is flagged. The other 1,250 master records lack complete bilingual question text. No official question-to-unit mapping is supplied.
