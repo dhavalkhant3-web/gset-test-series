@@ -1,0 +1,18 @@
+{
+  "subjectName": "English",
+  "subjectCode": "12",
+  "status": "INCOMPLETE_PENDING_REVIEW",
+  "papers_loaded": 18,
+  "questions_loaded": 1200,
+  "review_flagged": 235,
+  "non_evaluated_questions": 212,
+  "paper_iii_question_text_sessions": 0,
+  "paper_iii_key_only_sessions": [
+    "September 2016",
+    "August 2017"
+  ],
+  "source_review": "Source verification is false and full text proofreading is pending. The 1000-question package contains 35 review-flagged records. An additional 200 records from Jan 2002, Dec 2002, Dec 2003 and Oct 2010 are held unscored until official answer keys are reconciled.",
+  "key_status": "The 14-session 1000-question bank carries supplied official-key reconciliation; 12 answers are non-evaluated (Z/X). The four added older sessions have answer letters in staging but their keys were not independently reconciled and all 200 are held unscored. Paper-III keys exist for Sep 2016 and Aug 2017, but no question text was supplied.",
+  "syllabus_mapping": "Official English (12) syllabus units supplied. 700 mappings are provisional and 500 remain unmapped; no mapping is independently verified.",
+  "coverage_note": "Paper-II contains 1200 questions across 18 sessions. English is the source language; English text is mirrored into Gujarati display fields. The only Paper-III material supplied is two answer keys without question text, so there is no playable Paper-III bank."
+}

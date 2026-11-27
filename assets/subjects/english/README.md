@@ -1,0 +1,2 @@
+English (12) Paper-II: 1200 questions across 18 sessions. The 1000-question package has 35 review flags and 12 official Z/X non-evaluated answers. Four added older sessions (Jan 2002, Dec 2002, Dec 2003, Oct 2010; 200 questions) are held unscored because their official keys are not reconciled. Source proofreading is pending; 700 syllabus mappings are provisional and 500 are unmapped. English text is mirrored into the Gujarati display fields. Paper-III keys for Sep 2016 and Aug 2017 are archived separately; no question text was supplied, so they cannot be played as MCQs.
+
