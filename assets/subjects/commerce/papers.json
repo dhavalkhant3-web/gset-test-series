@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "subject_id": "commerce",
+  "subject_code": "17",
+  "name_en": "Commerce",
+  "medium": "English & Gujarati",
+  "paper_pattern": {
+    "questions": 100,
+    "marks": 200,
+    "duration_minutes": 120
+  },
+  "papers": [
+    {
+      "paper_id": "commerce_oct11_p2",
+      "exam": "October 2011",
+      "year": "2011",
+      "subject_code": "17",
+      "question_count": 50,
+      "marks": 100,
+      "question_paper_pdf": "oct1117 (1).pdf",
+      "answer_key_pdf": "oct1117.pdf",
+      "questions_loaded": 50,
+      "questions_loaded_count": 50,
+      "answer_key_verified": true,
+      "question_source_verified": true,
+      "source_verified": true,
+      "status": "source_verified_pending_app_validation",
+      "source": "50 bilingual questions visually verified against the original scanned booklet; official final answer key verified 50/50. Q44 Gujarati option D has a conflicting transcription between supplied source artifacts and is flagged.",
+      "review_count": 1,
+      "unit_mapping_status": "not_mapped_official_question_to_unit_map"
+    }
+  ]
+}
