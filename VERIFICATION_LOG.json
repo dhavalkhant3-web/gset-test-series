@@ -9497,11 +9497,13 @@
       "independent_second_pass_verified": 195,
       "independent_second_pass_pending": 105
     },
-    "question_text_options_answers_changed": false,
+    "question_text_options_answers_changed": true,
     "option_spelling_corrected": true,
     "syllabus_unit_assignments_corrected": true,
     "other_subjects_changed": false,
     "pr22_merged": false,
-    "ci_or_apk_claimed": false
+    "ci_or_apk_claimed": false,
+    "answer_letter_changed": false,
+    "note": "Q89 option-B spelling was corrected to match the official scan; no answer letter changed. Q88 official-key/math conflict is retained for expert review."
   }
 ]
