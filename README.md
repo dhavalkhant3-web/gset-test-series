@@ -9,3 +9,5 @@ Gujarati: 500 Paper-II questions across seven sessions. One 100-question session
 Build APK: run flutter pub get, then flutter build apk --release. Keep assets and lib folders in place.
 
 Sanskrit: 850 Paper-II questions across 11 sessions. Two official Z answers remain unscored; proofread and syllabus mapping are pending.
+
+History: 500 Paper-II questions across nine sessions; the 75-question August 2017 Paper-III archive is separate. 150 questions are unscored pending key reconciliation. English-only transcription; proofreading and syllabus mapping remain pending.

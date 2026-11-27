@@ -1,0 +1,2 @@
+History (08) Paper-II: 500 questions across nine sessions. Aug 2017 Paper-III: 75 questions kept in a separate archive. Source verification and full human proofreading are pending; 159 Paper-II and 3 Paper-III questions retain review flags. Jan 2002 and Jul 2004/2006 questions are held unscored until their keys are reconciled. Dec 2002/2003/2008 keys are not labelled final. English text only; Gujarati transcription and official syllabus mapping were not supplied.
+
