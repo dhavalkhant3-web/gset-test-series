@@ -1946,3 +1946,10 @@ Registered all ten units from the official GSET Code 07 syllabus PDF in `assets/
 - Before → after: canonical 300; active 298 → 297; review-only 2 → 3; source verified 300/300; final key 300/300; verified mappings 298/300; independent second-pass unique IDs 185 → 195; remaining 115 → 105.
 - Evidence IDs: GSET-ENV26-DEC2024-Q081, GSET-ENV26-DEC2024-Q082, GSET-ENV26-DEC2024-Q083, GSET-ENV26-DEC2024-Q084, GSET-ENV26-DEC2024-Q085, GSET-ENV26-DEC2024-Q086, GSET-ENV26-DEC2024-Q087, GSET-ENV26-DEC2024-Q088, GSET-ENV26-DEC2024-Q089, GSET-ENV26-DEC2024-Q090. No other subject or protected subject changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
 - Next: Environmental Sciences December 2024 Q91–Q100, only after checking independent markers; Q89/Q90 had earlier first-pass review, but this second-pass batch is now recorded.
+
+
+## 2026-11-28 — Environmental Sciences Code 26 second-pass Q91–Q100
+- Completed official visual second-pass: December 2024 Paper-II Q91–Q100 (printed pages 18–19; PDF indexes 17–18), 10/10 stems/options and 10/10 final-key parity.
+- Before → after second-pass verified: 195 → 205; remaining: 105 → 95. Active 297, review-only 3, source/key 300/300, verified syllabus mappings 298/300, pending mappings 2.
+- Q97 matching table checked; syllabus mapping Unit VI→Unit X. No answer changes. Official sources: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf ; https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf ; https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Next: Environmental Sciences November 2025 Q1–Q5, after confirming no second-pass marker.
