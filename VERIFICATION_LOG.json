@@ -9505,5 +9505,87 @@
     "ci_or_apk_claimed": false,
     "answer_letter_changed": false,
     "note": "Q89 option-B spelling was corrected to match the official scan; no answer letter changed. Q88 official-key/math conflict is retained for expert review."
+  },
+  {
+    "date": "2026-11-28",
+    "subject": "Environmental Sciences",
+    "subject_code": "26",
+    "session": "December 2024",
+    "question_range": "Q91-Q100",
+    "official_question_paper_url": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
+    "official_final_key_url": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
+    "official_syllabus_url": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
+    "printed_pages": [
+      18,
+      19
+    ],
+    "pdf_page_indexes_zero_based": [
+      17,
+      18
+    ],
+    "visual_stems_options_verified": 10,
+    "all_four_options_verified": 10,
+    "official_final_key_matches": 10,
+    "official_answer_letters": [
+      "A",
+      "A",
+      "D",
+      "D",
+      "C",
+      "A",
+      "C",
+      "C",
+      "D",
+      "D"
+    ],
+    "figures": 0,
+    "tables": [
+      97
+    ],
+    "answer_letters_changed": false,
+    "mapping_change": {
+      "question_no": 97,
+      "from": "Unit VI",
+      "to": "Unit X",
+      "basis": "Official Code 26 syllabus Unit X environmental-disaster topics."
+    },
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q091",
+      "GSET-ENV26-DEC2024-Q092",
+      "GSET-ENV26-DEC2024-Q093",
+      "GSET-ENV26-DEC2024-Q094",
+      "GSET-ENV26-DEC2024-Q095",
+      "GSET-ENV26-DEC2024-Q096",
+      "GSET-ENV26-DEC2024-Q097",
+      "GSET-ENV26-DEC2024-Q098",
+      "GSET-ENV26-DEC2024-Q099",
+      "GSET-ENV26-DEC2024-Q100"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 297,
+      "review_flagged": 3,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 195,
+      "independent_second_pass_pending": 105
+    },
+    "after": {
+      "canonical_questions": 300,
+      "active": 297,
+      "review_flagged": 3,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 205,
+      "independent_second_pass_pending": 95
+    },
+    "other_subjects_changed": false,
+    "pr22_merged": false,
+    "ci_or_apk_claimed": false,
+    "note": "Q96 option A's printed wording “Rear driving emission norms” preserved; Q97 matching table checked. No unreadable content inferred."
   }
 ]
