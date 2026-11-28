@@ -1596,3 +1596,14 @@ Expected question records across these seven subjects: 3,200. Canonical JSON now
 - Before → after: canonical 300; active 298 → 297; review-only 2 → 3; source verified 300/300; final key 300/300; verified mappings 298/300; independent second-pass unique IDs 185 → 195; remaining 115 → 105.
 - Evidence IDs: GSET-ENV26-DEC2024-Q081, GSET-ENV26-DEC2024-Q082, GSET-ENV26-DEC2024-Q083, GSET-ENV26-DEC2024-Q084, GSET-ENV26-DEC2024-Q085, GSET-ENV26-DEC2024-Q086, GSET-ENV26-DEC2024-Q087, GSET-ENV26-DEC2024-Q088, GSET-ENV26-DEC2024-Q089, GSET-ENV26-DEC2024-Q090. No other subject or protected subject changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
 - Next: Environmental Sciences December 2024 Q91–Q100, only after checking independent markers; Q89/Q90 had earlier first-pass review, but this second-pass batch is now recorded.
+
+
+## 2026-11-28 — Environmental Sciences Code 26 December 2024 Q91–Q100 independent second-pass
+- Before batch: canonical 300; active 297; review-only 3; source verified 300/300; official final-key verified 300/300; syllabus mappings verified 298/300 with 2 pending; independent second-pass 195/300 (105 pending).
+- Official question paper: https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf; official FINAL answer key: https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf; official Code 26 syllabus: https://gujaratset.ac.in/assets/syllabus/26.pdf.
+- Visually inspected printed page 18 (PDF index 17) for Q91–Q96 and printed page 19 (PDF index 18) for Q97–Q100. All 10 stems and all four options match canonical records. Q97 matching table and answer-code rows checked. No figures; no unreadable content inferred.
+- Official final-key letters A, A, D, D, C, A, C, C, D, D match stored answers 10/10. Q96 source option A is printed “Rear driving emission norms”; preserved as printed and key A retained.
+- Corrected Q97 mapping Unit VI → Unit X because official Unit X explicitly includes environmental disasters (including Chernobyl/Fukushima) and contemporary issues. Other mappings retained.
+- After batch: canonical 300; active 297; review-only 3; source verified 300/300; final-key verified 300/300; mappings verified 298/300; independent second-pass 205/300 (95 pending).
+- Evidence IDs: GSET-ENV26-DEC2024-Q091, GSET-ENV26-DEC2024-Q092, GSET-ENV26-DEC2024-Q093, GSET-ENV26-DEC2024-Q094, GSET-ENV26-DEC2024-Q095, GSET-ENV26-DEC2024-Q096, GSET-ENV26-DEC2024-Q097, GSET-ENV26-DEC2024-Q098, GSET-ENV26-DEC2024-Q099, GSET-ENV26-DEC2024-Q100. No answer letters or question/option text changed; Q97 syllabus unit corrected. No other subject or protected subject changed. PR #22 remains open/unmerged; no CI or Combined Debug APK PASS claimed.
+- Next batch: Environmental Sciences Code 26 November 2025 Q1–Q5; inspect the live per-question second-pass markers before starting.
