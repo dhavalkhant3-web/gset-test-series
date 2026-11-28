@@ -1,0 +1,35 @@
+name: MCQ recovery integrity and Flutter build
+
+on:
+  push:
+    branches:
+      - recovery/mcq-bank-safety-audit
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  mcq-recovery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate recovered bank counts and overlay rules
+        run: python tools/validate_mcq_recovery.py
+      - name: Validate Chemical Sciences official-key supplement
+        run: python tools/validate_chemical_sciences.py
+      - name: Validate September 2018 Physical Sciences source audit
+        run: python tools/validate_physical_sciences.py
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Resolve Flutter dependencies
+        run: flutter pub get
+      - name: Build Debug APK
+        run: flutter build apk --debug

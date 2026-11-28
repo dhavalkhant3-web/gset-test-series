@@ -359,17 +359,8 @@ class PaperIIDataService {
       // Paper-specific verified archives can be stored separately so a large
       // subject question bank does not need to be rewritten for every paper.
       if (subjectId == 'physical_sciences') {
-        for (final archive in [
-          'assets/subjects/physical_sciences/questions_sep16_p2.json',
-          'assets/subjects/physical_sciences/questions_sep16_p3.json',
-        ]) {
-          try {
-            final extra = jsonDecode(await rootBundle.loadString(archive));
-            if (extra is List) {
-              loaded.addAll(extra.map((e) => Map<String, dynamic>.from(e as Map)));
-            }
-          } catch (_) {}
-        }
+        // The September 2016 Paper-II Q1-Q50 already exist in the base bank.
+        // Do not append the duplicate overlay or the separate Paper-III archive.
         // Source-verified Dec 2024 additions are kept separately until
         // the full paper audit is complete; this avoids risky edits to the
         // large historical question bank.
