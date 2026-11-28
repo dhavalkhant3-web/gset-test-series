@@ -7,7 +7,7 @@
   "official_key_matches": 300,
   "official_key_mismatches": 0,
   "visual_checked": 300,
-  "proofread_pass1_pending_second_pass": 105,
+  "proofread_pass1_pending_second_pass": 95,
   "active_questions": 297,
   "pending_review": 3,
   "syllabus_mapping": {
@@ -107,7 +107,7 @@
     "printed_pages": "Q28-Q33 printed page 9; Q89-Q96 printed page 18; Q97-Q100 printed page 19.",
     "result": "Reconciled active-bank flags with the prior visual review record: all 18 stems and option sets were visually checked against the official scan and all stored answer letters matched the official final key. All 18 records now have source_verified=true and review_flag=false."
   },
-  "last_updated": "2026-11-27",
+  "last_updated": "2026-11-28",
   "live_reconciliation_2026_11_18": {
     "basis": "Direct parse of canonical questions.json and questions_review_pending.json at PR #22 head eaed58933107b6a2bb51dff0358381a23db2716a, cross-checked with supplied v3 staging register.",
     "active_questions": 300,
@@ -126,40 +126,40 @@
     "note": "291 is an independent second-pass proofreading backlog, not 291 review_queue records. All 300 are currently active in questions.json and questions_review_pending.json is an empty array. Keep subject-level source_verified=false until the independent second pass is completed."
   },
   "last_second_pass_visual_review": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "session": "December 2024",
     "questions": [
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
     ],
     "count": 10,
     "official_question_paper": "https://gujaratset.ac.in/assets/papers/paperII/dec24/dec2426.pdf",
     "official_final_key": "https://gujaratset.ac.in/assets/anskey/paperII/dec2426.pdf",
     "official_syllabus": "https://gujaratset.ac.in/assets/syllabus/26.pdf",
     "pdf_page_indexes_zero_based": [
-      16,
-      17
-    ],
-    "printed_pages": [
       17,
       18
+    ],
+    "printed_pages": [
+      18,
+      19
     ],
     "final_key_letters": [
       "A",
       "A",
+      "D",
+      "D",
+      "C",
       "A",
-      "A",
-      "B",
-      "B",
-      "B",
+      "C",
       "C",
       "D",
       "D"
@@ -170,52 +170,84 @@
       "stems_match": 10,
       "all_four_options_match": 10,
       "figures_present": 0,
-      "tables_checked": [],
-      "structured_items": []
+      "tables_checked": [
+        97
+      ],
+      "structured_items": [
+        97
+      ]
     },
     "syllabus_mapping": {
       "verified": 10,
       "provisional": 0,
       "pending": 0,
       "unit_distribution": {
-        "Unit IX": [
-          81,
-          82,
-          83,
-          84,
-          85,
-          86,
-          87,
-          89,
-          90
+        "Unit X": [
+          91,
+          92,
+          93,
+          95,
+          97,
+          100
         ],
         "Unit III": [
-          88
+          94
+        ],
+        "Unit VI": [
+          96,
+          98
+        ],
+        "Unit II": [
+          99
         ]
       }
     },
     "corrections": [
       {
-        "question_no": 89,
-        "field": "option B",
-        "from": "Bionomial",
-        "to": "Binomial",
-        "basis": "Official scan spelling."
-      },
-      {
-        "question_no": 88,
-        "from": "Unit I",
-        "to": "Unit III",
-        "basis": "Official Unit III explicitly covers population ecology and population growth."
+        "question_no": 97,
+        "field": "syllabus_unit",
+        "from": "Unit VI",
+        "to": "Unit X",
+        "basis": "Official syllabus Unit X lists environmental disasters including Chernobyl and Fukushima; question is disaster-year matching."
       }
     ],
-    "official_key_conflict": {
-      "question_no": 88,
-      "official_key": "C",
-      "mathematical_result": "B (K/2)",
-      "action": "preserved official key C; review-only pending expert adjudication"
+    "question_ids": [
+      "GSET-ENV26-DEC2024-Q091",
+      "GSET-ENV26-DEC2024-Q092",
+      "GSET-ENV26-DEC2024-Q093",
+      "GSET-ENV26-DEC2024-Q094",
+      "GSET-ENV26-DEC2024-Q095",
+      "GSET-ENV26-DEC2024-Q096",
+      "GSET-ENV26-DEC2024-Q097",
+      "GSET-ENV26-DEC2024-Q098",
+      "GSET-ENV26-DEC2024-Q099",
+      "GSET-ENV26-DEC2024-Q100"
+    ],
+    "before": {
+      "canonical_questions": 300,
+      "active": 297,
+      "review_flagged": 3,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 195,
+      "independent_second_pass_pending": 105
     },
-    "result": "Q81-Q90 visually checked against official printed pages 17-18 (PDF indexes 16-17). All stems and four options match. Official final-key letters match 10/10. Corrected Q89 option-B spelling; corrected Q88 syllabus mapping to Unit III; retained official answer C but flagged Q88 review-only due to mathematical conflict."
+    "after": {
+      "canonical_questions": 300,
+      "active": 297,
+      "review_flagged": 3,
+      "source_verified": 300,
+      "answer_key_verified": 300,
+      "verified_mappings": 298,
+      "pending_mappings": 2,
+      "independent_second_pass_verified": 205,
+      "independent_second_pass_pending": 95
+    },
+    "question_text_options_answers_changed": false,
+    "answer_letter_changed": false,
+    "note": "Q91-Q100 independently visually second-pass checked; all stems/options and official final key match. Q97 matching table checked. No figures. Q97 syllabus mapping corrected to Unit X."
   },
   "second_pass_visual_verified_question_ids": [
     "GSET-ENV26-DEC2024-Q001",
@@ -412,9 +444,19 @@
     "GSET-ENV26-DEC2024-Q087",
     "GSET-ENV26-DEC2024-Q088",
     "GSET-ENV26-DEC2024-Q089",
-    "GSET-ENV26-DEC2024-Q090"
+    "GSET-ENV26-DEC2024-Q090",
+    "GSET-ENV26-DEC2024-Q091",
+    "GSET-ENV26-DEC2024-Q092",
+    "GSET-ENV26-DEC2024-Q093",
+    "GSET-ENV26-DEC2024-Q094",
+    "GSET-ENV26-DEC2024-Q095",
+    "GSET-ENV26-DEC2024-Q096",
+    "GSET-ENV26-DEC2024-Q097",
+    "GSET-ENV26-DEC2024-Q098",
+    "GSET-ENV26-DEC2024-Q099",
+    "GSET-ENV26-DEC2024-Q100"
   ],
-  "second_pass_visual_verified_count": 195,
+  "second_pass_visual_verified_count": 205,
   "live_reconciliation_2026_11_19": {
     "basis": "Direct parse of the PR #22 branch canonical Environmental Sciences questions.json, cross-checked with the supplied v3 staging register and official GSET PDFs.",
     "canonical_questions": 300,
@@ -706,5 +748,19 @@
     "proofread_second_pass_pending": 105,
     "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
     "note": "Q81-Q90 December 2024 independently visually rechecked. Q89 option-B spelling corrected to Binomial. Q88 Unit I→III. Official final-key C preserved but review_flag=true because logistic growth maximum is at K/2 (option B), pending expert adjudication. Nov 2023 Q8/Q9 remain mapping holds."
+  },
+  "live_reconciliation_2026_11_28": {
+    "basis": "Canonical Environmental Sciences bank, official GSET December 2024 paper page images, official final key and official Code 26 syllabus; independent second-pass IDs deduplicated.",
+    "canonical_questions": 300,
+    "active_questions": 297,
+    "review_flagged_questions": 3,
+    "source_verified": 300,
+    "answer_key_verified": 300,
+    "syllabus_mapping_verified": 298,
+    "syllabus_mapping_pending": 2,
+    "proofread_second_pass_verified": 205,
+    "proofread_second_pass_pending": 95,
+    "second_pass_question_ids_not_encoded_in_original_questions_schema": false,
+    "note": "December 2024 Q91-Q100 newly independently visually verified. Q97 mapping Unit VI→Unit X based on official syllabus disaster topics. Existing Q88 official-key/math conflict remains review-only; Nov 2023 Q8/Q9 remain mapping holds."
   }
 }
